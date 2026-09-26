@@ -1,0 +1,26 @@
+name: Vintage lot scan
+on:
+  schedule:
+    - cron: "10 15 * * 1"   # Mondays 15:10 UTC, ahead of the Claude scout task at 16:48 UTC Monday
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/scan_ebay_kanto.py
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+      - name: Commit
+        run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add ebay_kanto.json
+          git diff --cached --quiet || git commit -m "vintage lot scan $(date -u +%F)"
+          git pull --rebase
+          git push
