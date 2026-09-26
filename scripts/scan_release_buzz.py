@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 """Weekly release-buzz scan. For each upcoming release/restock/drawing in drops.json
-(within the next ~35 days), searches Reddit's public search (r/pkmntcgtrades,
-r/PokemonTCG) and Google News for what people are saying about actually getting it
-at MSRP. Pure collection, no judgment — writes buzz.json / buzz.md for Claude to
-read and summarize in the weekly digest. Stdlib only; failures are logged and
-skipped rather than crashing the run."""
+(within the next ~35 days), searches Google News for what people are saying about
+actually getting it at MSRP. Pure collection, no judgment — writes buzz.json / buzz.md
+for Claude to read and summarize in the weekly digest. Stdlib only; failures are
+logged and skipped rather than crashing the run.
+
+(Reddit was dropped: as of the Responsible Builder Policy change, self-service
+Reddit API app creation is closed to new developers, so there's no free way to
+query it from here anymore.)"""
 import json, re, sys, time, datetime, urllib.request, urllib.parse
 import xml.etree.ElementTree as ET
 
 ROOT = "."
 TODAY = datetime.date.today()
 WINDOW_DAYS = 35
-SUBS = ["pkmntcgtrades", "PokemonTCG"]
 UA = "Mozilla/5.0 (compatible; sealed-ledger-buzz/1.0; +https://github.com/Gaz1a/sealed-ledger-prices)"
 
 def get(url, headers=None, tries=3):
@@ -33,28 +35,6 @@ def clean_query(text):
     text = re.sub(r"[^\w\s]", " ", text)
     words = text.split()
     return " ".join(words[:8])
-
-def reddit_search(query):
-    out = []
-    q = urllib.parse.quote(query + " (restock OR drawing OR MSRP OR in-store)")
-    for sub in SUBS:
-        url = f"https://www.reddit.com/r/{sub}/search.json?q={q}&restrict_sr=1&sort=new&limit=5&t=month"
-        raw = get(url)
-        if not raw:
-            continue
-        try:
-            d = json.loads(raw)
-        except Exception:
-            continue
-        for c in d.get("data", {}).get("children", []):
-            p = c.get("data", {})
-            out.append({"source": "r/" + sub, "title": p.get("title"),
-                        "url": "https://reddit.com" + p.get("permalink", ""),
-                        "created": datetime.datetime.utcfromtimestamp(p.get("created_utc", 0)).strftime("%Y-%m-%d"),
-                        "score": p.get("score", 0)})
-        time.sleep(1)
-    out.sort(key=lambda x: -x["score"])
-    return out[:5]
 
 def news_search(query):
     q = urllib.parse.quote(query)
@@ -96,26 +76,22 @@ def main():
         q = clean_query(u["text"])
         if not q:
             continue
-        reddit = reddit_search(q)
         news = news_search(q)
-        entries.append({**u, "query": q, "reddit": reddit, "news": news})
+        entries.append({**u, "query": q, "news": news})
 
-    out = {"generated": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+    out = {"generated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
            "window_days": WINDOW_DAYS, "entries": entries}
     json.dump(out, open(f"{ROOT}/buzz.json", "w"), indent=1, ensure_ascii=False)
 
-    lines = [f"# Release buzz — {TODAY}", f"Upcoming releases in the next {WINDOW_DAYS} days, and what Reddit/News say about getting them.", ""]
+    lines = [f"# Release buzz — {TODAY}", f"Upcoming releases in the next {WINDOW_DAYS} days, and what News is saying about getting them.", ""]
     if not entries:
         lines.append("Nothing upcoming in the window right now.")
     for e in entries:
         lines.append(f"## {e['date']} — {e['text']}  (in {e['days_out']}d)")
-        if e["reddit"]:
-            for r in e["reddit"]:
-                lines.append(f"- Reddit ({r['source']}, {r['created']}, score {r['score']}): [{r['title']}]({r['url']})")
         if e["news"]:
             for n in e["news"]:
                 lines.append(f"- News ({n['source']}): [{n['title']}]({n['url']})")
-        if not e["reddit"] and not e["news"]:
+        else:
             lines.append("- No matches this week.")
         lines.append("")
     open(f"{ROOT}/buzz.md", "w").write("\n".join(lines) + "\n")
