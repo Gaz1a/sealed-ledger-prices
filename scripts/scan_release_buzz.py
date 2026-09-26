@@ -27,8 +27,9 @@ def get(url, headers=None, tries=3):
             time.sleep(2 * (i + 1))
 
 def clean_query(text):
-    text = re.sub(r"\(.*?\)", "", text)          # drop parenthetical asides
-    text = re.split(r"[:—-]", text, 1)[0]     # keep the part before a dash/colon
+    text = re.sub(r"\(.*?\)", "", text)                 # drop parenthetical asides
+    text = re.split(r"\s[:—]\s|\s-\s", text, 1)[0]       # keep the part before a standalone dash/colon
+                                                          # (not a hyphen inside a code like "OP-17")
     text = re.sub(r"[^\w\s]", " ", text)
     words = text.split()
     return " ".join(words[:8])
