@@ -27,16 +27,31 @@ def load(name, default):
     p = os.path.join(ROOT, name)
     return json.load(open(p)) if os.path.exists(p) else default
 
+SEALED_WORDS = re.compile(
+    r"booster box|booster bundle|booster pack\b|elite trainer|"
+    r"trainer box|premium collection|special collection|ultra[- ]premium|"
+    r"super[- ]premium|collection box|mini tin|tin\b|blister|"
+    r"theme deck|starter deck|starter set|battle deck|deck kit|"
+    r"trainer'?s? (kit|toolkit|box)|build ?& ?battle|prerelease kit|"
+    r"pin collection|figure collection|binder collection|poster collection|"
+    r"illustration collection|sticker collection|surprise box|gift set|value box|fun ?pack|"
+    r"3[- ]pack|6[- ]pack|check ?lane|display box|booster display",
+    re.I)
+NOT_SEALED_WORDS = re.compile(
+    r"\bcode card\b|online code|\bsleeve|deck box\b|playmat|binder$|"
+    r"\bcase$| case \(|single pack case|medal|promo card\b(?! (pack|box|collection))",
+    re.I)
+
 def is_sealed(prod):
     ext = prod.get("extendedData") or []
-    if any(x.get("name") == "Number" for x in ext):
+    single_fields = {"Number", "Rarity", "Card Type", "HP", "Stage", "Attack 1",
+                      "Weakness", "Resistance", "Retreat Cost", "Attack 2", "Attack 3"}
+    if any(x.get("name") in single_fields for x in ext):
         return False
-    n = prod["name"].lower()
-    if re.search(r"code card|online|sleeve|deck box|playmat|binder$", n):
+    n = prod["name"]
+    if NOT_SEALED_WORDS.search(n):
         return False
-    if n.endswith(" case") or " case " in n:
-        return False
-    return True
+    return bool(SEALED_WORDS.search(n))
 
 def msrp_est(name, cat, pub):
     n = name.lower()
