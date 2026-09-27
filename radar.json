@@ -1,22 +1,40 @@
 {
- "generated": "2026-09-26T03:22:22Z",
+ "generated": "2026-09-27T23:28:44Z",
  "source": "tcgcsv.com (TCGplayer market and lowest listing)",
- "scanned": 1671,
+ "scanned": 1675,
  "note": "First run: no earlier snapshot yet, so slide signals start next week.",
  "candidates": [
+  {
+   "pid": 603428,
+   "name": "Terastal Fest ex Booster Box",
+   "set": "SV8a: Terastal Fest ex",
+   "cat": "Pokemon Japan",
+   "market": 127.41,
+   "low": 99.99,
+   "msrpEst": 143.64,
+   "ageWeeks": 94.3,
+   "chg1w": null,
+   "chg4w": null,
+   "tags": [
+    "near MSRP (0.89x est.)",
+    "cheapest listing 22% under market"
+   ],
+   "score": 3,
+   "url": "https://www.tcgplayer.com/product/603428"
+  },
   {
    "pid": 282401,
    "name": "Sword & Shield Ultra-Premium Collection: Charizard",
    "set": "SWSH11: Lost Origin",
    "cat": "Pokemon",
-   "market": 574.36,
+   "market": 571.66,
    "low": 375.01,
    "msrpEst": null,
-   "ageWeeks": 211.1,
+   "ageWeeks": 211.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
-    "cheapest listing 35% under market"
+    "cheapest listing 34% under market"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/282401"
@@ -26,10 +44,10 @@
    "name": "Blooming Waters Premium Collection",
    "set": "SV: Scarlet & Violet 151",
    "cat": "Pokemon",
-   "market": 334.54,
+   "market": 335.74,
    "low": 181.98,
    "msrpEst": null,
-   "ageWeeks": 157.1,
+   "ageWeeks": 157.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
@@ -39,35 +57,35 @@
    "url": "https://www.tcgplayer.com/product/609597"
   },
   {
-   "pid": 684444,
-   "name": "Chaos Rising Booster Box",
-   "set": "ME04: Chaos Rising",
+   "pid": 644852,
+   "name": "Prismatic Evolutions Elite Trainer Box and Pokeball (Sam's Club)",
+   "set": "Miscellaneous Cards & Products",
    "cat": "Pokemon",
-   "market": 185.71,
-   "low": 169.99,
-   "msrpEst": 161.64,
-   "ageWeeks": 18.1,
+   "market": 197.2,
+   "low": 83.97,
+   "msrpEst": 59.99,
+   "ageWeeks": 0.0,
    "chg1w": null,
    "chg4w": null,
    "tags": [
-    "near MSRP (1.15x est.)"
+    "cheapest listing 57% under market"
    ],
    "score": 2,
-   "url": "https://www.tcgplayer.com/product/684444"
+   "url": "https://www.tcgplayer.com/product/644852"
   },
   {
    "pid": 672394,
    "name": "Perfect Order Booster Box",
    "set": "ME03: Perfect Order",
    "cat": "Pokemon",
-   "market": 177.61,
+   "market": 176.28,
    "low": 169.9,
    "msrpEst": 161.64,
-   "ageWeeks": 26.1,
+   "ageWeeks": 26.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
-    "near MSRP (1.10x est.)"
+    "near MSRP (1.09x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/672394"
@@ -77,14 +95,14 @@
    "name": "Paradigm Trigger Booster Box",
    "set": "S12: Paradigm Trigger",
    "cat": "Pokemon Japan",
-   "market": 159.14,
+   "market": 160.7,
    "low": 179.99,
    "msrpEst": 143.64,
-   "ageWeeks": 205.1,
+   "ageWeeks": 205.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
-    "near MSRP (1.11x est.)"
+    "near MSRP (1.12x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/565250"
@@ -94,10 +112,10 @@
    "name": "Black Bolt Booster Box",
    "set": "SV11B: Black Bolt",
    "cat": "Pokemon Japan",
-   "market": 155.24,
-   "low": 144.92,
+   "market": 154.93,
+   "low": 144.89,
    "msrpEst": 143.64,
-   "ageWeeks": 68.1,
+   "ageWeeks": 68.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
@@ -114,7 +132,7 @@
    "market": 153.28,
    "low": 139.98,
    "msrpEst": 143.64,
-   "ageWeeks": 165.1,
+   "ageWeeks": 165.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
@@ -131,7 +149,7 @@
    "market": 152.49,
    "low": 149.0,
    "msrpEst": 143.64,
-   "ageWeeks": 185.1,
+   "ageWeeks": 185.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
@@ -145,14 +163,14 @@
    "name": "Disney Lorcana: Reign of Jafar Booster Box",
    "set": "Reign of Jafar",
    "cat": "Lorcana",
-   "market": 151.48,
+   "market": 151.68,
    "low": 148.99,
    "msrpEst": 143.76,
-   "ageWeeks": 69.1,
+   "ageWeeks": 69.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
-    "near MSRP (1.05x est.)"
+    "near MSRP (1.06x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/623064"
@@ -165,7 +183,7 @@
    "market": 144.93,
    "low": 144.49,
    "msrpEst": 143.64,
-   "ageWeeks": 101.1,
+   "ageWeeks": 101.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
@@ -182,7 +200,7 @@
    "market": 144.62,
    "low": 144.62,
    "msrpEst": 143.64,
-   "ageWeeks": 228.1,
+   "ageWeeks": 228.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
@@ -199,7 +217,7 @@
    "market": 142.92,
    "low": 154.99,
    "msrpEst": 143.64,
-   "ageWeeks": 233.1,
+   "ageWeeks": 233.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
@@ -213,14 +231,14 @@
    "name": "Disney Lorcana: Shimmering Skies Booster Box",
    "set": "Shimmering Skies",
    "cat": "Lorcana",
-   "market": 141.28,
+   "market": 141.62,
    "low": 140.0,
    "msrpEst": 143.76,
-   "ageWeeks": 111.1,
+   "ageWeeks": 111.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
-    "near MSRP (0.98x est.)"
+    "near MSRP (0.99x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/555130"
@@ -230,14 +248,14 @@
    "name": "White Flare Deluxe Booster Box",
    "set": "SV11W: White Flare",
    "cat": "Pokemon Japan",
-   "market": 133.08,
-   "low": 179.75,
+   "market": 137.31,
+   "low": 172.8,
    "msrpEst": 143.64,
-   "ageWeeks": 68.1,
+   "ageWeeks": 68.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
-    "near MSRP (0.93x est.)"
+    "near MSRP (0.96x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/637492"
@@ -247,10 +265,10 @@
    "name": "Disney Lorcana: Archazia's Island Booster Box",
    "set": "Archazia's Island",
    "cat": "Lorcana",
-   "market": 132.59,
-   "low": 125.96,
+   "market": 131.93,
+   "low": 152.3,
    "msrpEst": 143.76,
-   "ageWeeks": 81.1,
+   "ageWeeks": 81.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
@@ -267,7 +285,7 @@
    "market": 130.03,
    "low": 141.05,
    "msrpEst": 143.64,
-   "ageWeeks": 233.1,
+   "ageWeeks": 233.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
@@ -282,9 +300,9 @@
    "set": "S7D: Skyscraping Perfection",
    "cat": "Pokemon Japan",
    "market": 129.26,
-   "low": 185.0,
+   "low": 132.8,
    "msrpEst": 143.64,
-   "ageWeeks": 272.1,
+   "ageWeeks": 272.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
@@ -301,7 +319,7 @@
    "market": 128.12,
    "low": 120.99,
    "msrpEst": 143.64,
-   "ageWeeks": 80.1,
+   "ageWeeks": 80.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
@@ -315,14 +333,14 @@
    "name": "Disney Lorcana: Ursula's Return Booster Box",
    "set": "Ursula's Return",
    "cat": "Lorcana",
-   "market": 127.82,
+   "market": 126.44,
    "low": 119.95,
    "msrpEst": 143.76,
-   "ageWeeks": 123.1,
+   "ageWeeks": 123.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
-    "near MSRP (0.89x est.)"
+    "near MSRP (0.88x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/543859"
@@ -332,14 +350,14 @@
    "name": "Disney Lorcana: Into the Inklands Booster Box",
    "set": "Into the Inklands",
    "cat": "Lorcana",
-   "market": 125.15,
-   "low": 119.99,
+   "market": 125.8,
+   "low": 120.0,
    "msrpEst": 143.76,
-   "ageWeeks": 135.1,
+   "ageWeeks": 135.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
-    "near MSRP (0.87x est.)"
+    "near MSRP (0.88x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/531521"
@@ -349,10 +367,10 @@
    "name": "White Flare Booster Box",
    "set": "SV11W: White Flare",
    "cat": "Pokemon Japan",
-   "market": 124.9,
+   "market": 124.42,
    "low": 119.99,
    "msrpEst": 143.64,
-   "ageWeeks": 68.1,
+   "ageWeeks": 68.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
@@ -362,21 +380,21 @@
    "url": "https://www.tcgplayer.com/product/637386"
   },
   {
-   "pid": 603428,
-   "name": "Terastal Fest ex Booster Box",
-   "set": "SV8a: Terastal Fest ex",
+   "pid": 575040,
+   "name": "Pokemon GO Booster Box",
+   "set": "S10b: Pokemon GO",
    "cat": "Pokemon Japan",
-   "market": 123.46,
-   "low": 99.99,
+   "market": 122.59,
+   "low": 149.99,
    "msrpEst": 143.64,
-   "ageWeeks": 94.1,
+   "ageWeeks": 223.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
-    "near MSRP (0.86x est.)"
+    "near MSRP (0.85x est.)"
    ],
    "score": 2,
-   "url": "https://www.tcgplayer.com/product/603428"
+   "url": "https://www.tcgplayer.com/product/575040"
   },
   {
    "pid": 565226,
@@ -386,7 +404,7 @@
    "market": 121.91,
    "low": 106.9,
    "msrpEst": 143.64,
-   "ageWeeks": 131.1,
+   "ageWeeks": 131.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
@@ -396,31 +414,14 @@
    "url": "https://www.tcgplayer.com/product/565226"
   },
   {
-   "pid": 575040,
-   "name": "Pokemon GO Booster Box",
-   "set": "S10b: Pokemon GO",
-   "cat": "Pokemon Japan",
-   "market": 121.07,
-   "low": 149.99,
-   "msrpEst": 143.64,
-   "ageWeeks": 223.1,
-   "chg1w": null,
-   "chg4w": null,
-   "tags": [
-    "near MSRP (0.84x est.)"
-   ],
-   "score": 2,
-   "url": "https://www.tcgplayer.com/product/575040"
-  },
-  {
    "pid": 578093,
    "name": "Disney Lorcana: Azurite Sea Booster Box",
    "set": "Azurite Sea",
    "cat": "Lorcana",
-   "market": 119.73,
+   "market": 119.27,
    "low": 109.94,
    "msrpEst": 143.76,
-   "ageWeeks": 97.1,
+   "ageWeeks": 97.3,
    "chg1w": null,
    "chg4w": null,
    "tags": [
