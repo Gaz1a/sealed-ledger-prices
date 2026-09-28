@@ -1,0 +1,26 @@
+name: Sealed auction scan
+on:
+  schedule:
+    - cron: "35 23 * * 0"   # Sundays 23:35 UTC — after radar.yml (23:20), ahead of the Claude weekly task (~23:52 UTC)
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/scan_ebay_sealed.py
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+      - name: Commit
+        run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add ebay_sealed.json
+          git diff --cached --quiet || git commit -m "sealed auction scan $(date -u +%F)"
+          git pull --rebase
+          git push
