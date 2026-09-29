@@ -94,6 +94,11 @@ def search_singles(query, limit=10):
             "title": p.get("title", ""),
             "price": price,
             "url": SHOP + p.get("url", ""),
+            # We explicitly ask the API to include unavailable products (better
+            # recall for misses/diagnostics) — so "available" MUST be checked
+            # before anything here counts as a real, buyable deal. Missing key
+            # is treated as unavailable (fail closed, not open).
+            "available": bool(p.get("available")),
         })
     return hits
 
@@ -145,6 +150,8 @@ def match_sealed(catalog, ceilings, item_sets):
             # require the set name's distinctive words AND the product-type words to show up
             if EXCLUDE_RE.search(hay):
                 continue
+            if not row.get("available", True):
+                continue
             if overlap >= max(2, len(needle_words) - 1) and row["price"] is not None and row["price"] >= MIN_SANE_PRICE:
                 if best is None or row["price"] < best["price"]:
                     best = row
@@ -161,7 +168,7 @@ def match_sealed(catalog, ceilings, item_sets):
 
 
 def match_singles(entries, kind_label):
-    flags, misses, suspect = [], [], []
+    flags, misses, suspect, sold_out = [], [], [], []
     for c in entries:
         if "cardNum" in c:
             query = f"{c['name']} {c['cardNum']} {c['set']}"
@@ -188,6 +195,14 @@ def match_singles(entries, kind_label):
                                  "shopPrice": h["price"], "url": h["url"],
                                  "note": "price below sane floor — likely a parsing artifact, not a real listing"})
                 continue
+            if not h.get("available", False):
+                # A real match, priced under ceiling or not — but not buyable right
+                # now. Worth knowing about (restocks happen) without ever being
+                # reported as a "deal" you can act on today.
+                sold_out.append({"id": c["id"], "kind": kind_label, "name": c["name"], "set": c["set"],
+                                  "ceiling": c["ceiling"], "shopPrice": h["price"], "shopTitle": h["title"],
+                                  "url": h["url"], "wouldBeDeal": h["price"] <= c["ceiling"]})
+                continue
             if best is None or h["price"] < best["price"]:
                 best = h
         if best is None:
@@ -199,7 +214,7 @@ def match_singles(entries, kind_label):
             "shopPrice": best["price"], "shopTitle": best["title"], "url": best["url"],
             "deal": deal, "overCeilingBy": None if deal else round(best["price"] - c["ceiling"], 2),
         })
-    return flags, misses, suspect
+    return flags, misses, suspect, sold_out
 
 
 def main():
@@ -209,13 +224,14 @@ def main():
 
     catalog = fetch_sealed_catalog()
     sealed_flags, sealed_misses = match_sealed(catalog, ceilings.get("sealed", []), item_sets)
-    chase_flags, chase_misses, chase_suspect = match_singles(ceilings.get("chaseSingles", []), "chase-single")
-    kanto_flags, kanto_misses, kanto_suspect = match_singles(ceilings.get("kanto151", []), "kanto-151")
+    chase_flags, chase_misses, chase_suspect, chase_sold_out = match_singles(ceilings.get("chaseSingles", []), "chase-single")
+    kanto_flags, kanto_misses, kanto_suspect, kanto_sold_out = match_singles(ceilings.get("kanto151", []), "kanto-151")
 
     all_flags = sealed_flags + chase_flags + kanto_flags
     deals = [f for f in all_flags if f["deal"]]
     all_misses = sealed_misses + chase_misses + kanto_misses
     all_suspect = chase_suspect + kanto_suspect
+    all_sold_out = chase_sold_out + kanto_sold_out
 
     out = {
         "generated": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -228,10 +244,12 @@ def main():
         "checkedNoDeal": [f for f in all_flags if not f["deal"]],
         "misses": all_misses,
         "suspectPrices": all_suspect,
+        "soldOutMatches": all_sold_out,
     }
     json.dump(out, open(os.path.join(ROOT, "shop_burbankcards.json"), "w"), indent=1, ensure_ascii=False)
-    print(f"checked {out['checked']} items ({len(deals)} deals, {len(all_misses)} not found on site) — "
-          f"see shop_burbankcards.json")
+    sold_out_deals = sum(1 for s in all_sold_out if s.get("wouldBeDeal"))
+    print(f"checked {out['checked']} items ({len(deals)} buyable deals, {sold_out_deals} sold-out would-be deals, "
+          f"{len(all_misses)} not found on site) — see shop_burbankcards.json")
     for d in deals:
         label = d.get("title") or d.get("name")
         print(f"  DEAL: {label} — ${d['shopPrice']} <= ceiling ${d['ceiling']} — {d['url']}")
