@@ -15,14 +15,15 @@
   {"id": "rb-ven", "set": "Riftbound Vendetta", "title": "Booster Box (24 packs)", "ceiling": 150}
  ],
  "chaseSingles": [
-  {"id": "s-30-sir", "set": "30th Celebration", "name": "Jirachi ex / top Eeveelution SIR", "ceiling": 40},
-  {"id": "s-cc-zard", "set": "30th Celebration", "name": "Charizard — Classic Collection reprint", "ceiling": 45},
-  {"id": "s-darkrai-sir", "set": "Pitch Black", "name": "Mega Darkrai ex SIR 116/084", "ceiling": 150},
-  {"id": "s-drago-sir", "set": "Ascended Heroes", "name": "Mega Dragonite ex SIR 290/217", "ceiling": 400},
-  {"id": "s-fur-mew", "set": "30th Celebration", "name": "Mew ex Futuristic Rare 158/128", "ceiling": 90},
-  {"id": "s-fur-mewtwo", "set": "30th Celebration", "name": "Mewtwo ex Futuristic Rare 157/128", "ceiling": 60},
-  {"id": "s-mew-paf", "set": "Paldean Fates", "name": "Mew ex SIR 232/091", "ceiling": 700},
-  {"id": "s-rayq-sir", "set": "Delta Reign", "name": "Mega Rayquaza ex SIR", "ceiling": 200}
+  {"id": "s-30-sir-jirachi", "set": "30th Celebration", "name": "Jirachi ex SIR", "cardNum": "155/128", "ceiling": 40},
+  {"id": "s-30-sir-sylveon", "set": "30th Celebration", "name": "Sylveon ex SIR", "cardNum": "153/128", "ceiling": 40},
+  {"id": "s-cc-zard", "set": "30th Celebration", "name": "Charizard Classic Collection", "ceiling": 45, "note": "No confirmed card number for this reprint — matched on 'Classic Collection' + Charizard text only, so double-check the listing before buying."},
+  {"id": "s-darkrai-sir", "set": "Pitch Black", "name": "Mega Darkrai ex SIR", "cardNum": "116/084", "ceiling": 150},
+  {"id": "s-drago-sir", "set": "Ascended Heroes", "name": "Mega Dragonite ex SIR", "cardNum": "290/217", "ceiling": 400},
+  {"id": "s-fur-mew", "set": "30th Celebration", "name": "Mew ex Futuristic Rare", "cardNum": "158/128", "ceiling": 90},
+  {"id": "s-fur-mewtwo", "set": "30th Celebration", "name": "Mewtwo ex Futuristic Rare", "cardNum": "157/128", "ceiling": 60},
+  {"id": "s-mew-paf", "set": "Paldean Fates", "name": "Mew ex SIR", "cardNum": "232/091", "ceiling": 700},
+  {"id": "s-rayq-sir", "set": "Delta Reign", "name": "Mega Rayquaza ex SIR", "ceiling": 200, "note": "Not yet printed with an English card number (Delta Reign releases Nov 6) — matched on name text + 'Special Illustration Rare' only."}
  ],
  "kanto151": [
   {"id": "k-003", "dex": 3, "name": "Venusaur", "cardNum": "15/102", "set": "Base Set", "variant": "holo", "ceiling": 69.72},
