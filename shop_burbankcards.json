@@ -1,60 +1,11 @@
 {
- "generated": "2026-09-29T16:13:22Z",
+ "generated": "2026-09-29T16:18:16Z",
  "shop": "https://burbankcards.com",
  "sealedCatalogSize": 246,
  "checked": 55,
- "matched": 8,
- "unmatched": 47,
- "deals": [
-  {
-   "id": "s-darkrai-sir",
-   "kind": "chase-single",
-   "name": "Mega Darkrai ex SIR",
-   "set": "Pitch Black",
-   "ceiling": 150,
-   "shopPrice": 56.02,
-   "shopTitle": "Mega Darkrai ex (116/084) [ME05 Pitch Black] Holofoil - Special Illustration Rare",
-   "url": "https://burbankcards.com/products/mega-darkrai-ex-116-084-me05-pitch-black-holofoil-special-illustration-rare?_pos=1&_psq=Mega+Darkrai+ex+SIR+116%2F084+Pitch+Black&_psid=fff6e0748&_ss=e",
-   "deal": true,
-   "overCeilingBy": null
-  },
-  {
-   "id": "s-drago-sir",
-   "kind": "chase-single",
-   "name": "Mega Dragonite ex SIR",
-   "set": "Ascended Heroes",
-   "ceiling": 400,
-   "shopPrice": 165.79,
-   "shopTitle": "Mega Dragonite ex (290/217) [ME Ascended Heroes] Holofoil - Special Illustration Rare",
-   "url": "https://burbankcards.com/products/mega-dragonite-ex-290-217-me-ascended-heroes-holofoil-special-illustration-rare?_pos=1&_psq=Mega+Dragonite+ex+SIR+290%2F217+Ascended+Heroes&_psid=77874a20b&_ss=e",
-   "deal": true,
-   "overCeilingBy": null
-  },
-  {
-   "id": "s-mew-paf",
-   "kind": "chase-single",
-   "name": "Mew ex SIR",
-   "set": "Paldean Fates",
-   "ceiling": 700,
-   "shopPrice": 261.64,
-   "shopTitle": "Mew ex (232/091) [SV Paldean Fates] Holofoil - Special Illustration Rare",
-   "url": "https://burbankcards.com/products/mew-ex-232-091-sv-paldean-fates-holofoil-special-illustration-rare?_pos=1&_psq=Mew+ex+SIR+232%2F091+Paldean+Fates&_psid=6561aebb0&_ss=e",
-   "deal": true,
-   "overCeilingBy": null
-  },
-  {
-   "id": "s-rayq-sir",
-   "kind": "chase-single",
-   "name": "Mega Rayquaza ex SIR",
-   "set": "Delta Reign",
-   "ceiling": 200,
-   "shopPrice": 9.3,
-   "shopTitle": "Rayquaza VMAX (Secret) (TG29/TG30) [SWSH12 Silver Tempest Trainer Gallery] Holofoil - Secret Rare",
-   "url": "https://burbankcards.com/products/rayquaza-vmax-secret-tg29-tg30-swsh12-silver-tempest-trainer-gallery-holofoil-secret-rare?_pos=6&_psq=Mega+Rayquaza+ex+SIR+Delta+Reign&_psid=fb024ffde&_ss=e",
-   "deal": true,
-   "overCeilingBy": null
-  }
- ],
+ "matched": 5,
+ "unmatched": 50,
+ "deals": [],
  "checkedNoDeal": [
   {
    "id": "c30-etb",
@@ -68,6 +19,18 @@
    "overCeilingBy": 139.99
   },
   {
+   "id": "s-rayq-sir",
+   "kind": "chase-single",
+   "name": "Mega Rayquaza ex SIR",
+   "set": "Delta Reign",
+   "ceiling": 200,
+   "shopPrice": 700.0,
+   "shopTitle": "2026 Pokemon Storm Emeralda Japanese #113/076 Mega Rayquaza ex",
+   "url": "https://burbankcards.com/products/handle257726?_pos=1&_psq=Mega+Rayquaza+ex+SIR+Delta+Reign&_psid=513a80b39&_ss=e",
+   "deal": false,
+   "overCeilingBy": 500.0
+  },
+  {
    "id": "k-089",
    "kind": "kanto-151",
    "name": "Muk",
@@ -75,7 +38,7 @@
    "ceiling": 8.52,
    "shopPrice": 40.0,
    "shopTitle": "1999 Pokemon Fossil 1st Edition #13/62 Muk",
-   "url": "https://burbankcards.com/products/handle217044?_pos=2&_psq=Muk+13%2F62+Fossil&_psid=33ce7835e&_ss=e",
+   "url": "https://burbankcards.com/products/handle217044?_pos=2&_psq=Muk+13%2F62+Fossil&_psid=aa6342774&_ss=e",
    "deal": false,
    "overCeilingBy": 31.48
   },
@@ -87,7 +50,7 @@
    "ceiling": 40.27,
    "shopPrice": 75.0,
    "shopTitle": "1999 Pokemon Fossil #12/62 Moltres",
-   "url": "https://burbankcards.com/products/handle238738?_pos=1&_psq=Moltres+12%2F62+Fossil&_psid=ae1fff525&_ss=e",
+   "url": "https://burbankcards.com/products/handle238738?_pos=1&_psq=Moltres+12%2F62+Fossil&_psid=eda9ba34c&_ss=e",
    "deal": false,
    "overCeilingBy": 34.73
   },
@@ -99,7 +62,7 @@
    "ceiling": 9.95,
    "shopPrice": 210.0,
    "shopTitle": "2016 Pokemon XY Black Star Promo Full Art Mew EX #XY126",
-   "url": "https://burbankcards.com/products/handle257822?_pos=2&_psq=Mew+8+Wizards+Black+Star+Promo&_psid=46b78a530&_ss=e",
+   "url": "https://burbankcards.com/products/handle257822?_pos=2&_psq=Mew+8+Wizards+Black+Star+Promo&_psid=161726d7c&_ss=e",
    "deal": false,
    "overCeilingBy": 200.05
   }
@@ -193,6 +156,20 @@
    "ceiling": 45
   },
   {
+   "id": "s-darkrai-sir",
+   "kind": "chase-single",
+   "name": "Mega Darkrai ex SIR",
+   "set": "Pitch Black",
+   "ceiling": 150
+  },
+  {
+   "id": "s-drago-sir",
+   "kind": "chase-single",
+   "name": "Mega Dragonite ex SIR",
+   "set": "Ascended Heroes",
+   "ceiling": 400
+  },
+  {
    "id": "s-fur-mew",
    "kind": "chase-single",
    "name": "Mew ex Futuristic Rare",
@@ -205,6 +182,13 @@
    "name": "Mewtwo ex Futuristic Rare",
    "set": "30th Celebration",
    "ceiling": 60
+  },
+  {
+   "id": "s-mew-paf",
+   "kind": "chase-single",
+   "name": "Mew ex SIR",
+   "set": "Paldean Fates",
+   "ceiling": 700
   },
   {
    "id": "k-003",
@@ -431,7 +415,7 @@
    "name": "Jirachi ex SIR",
    "shopTitle": "Jirachi ex (155/128) [ME 30th Celebration] Holofoil - Special Illustration Rare",
    "shopPrice": 0.0,
-   "url": "https://burbankcards.com/products/jirachi-ex-155-128-me-30th-celebration-holofoil-special-illustration-rare?_pos=1&_psq=Jirachi+ex+SIR+155%2F128+30th+Celebration&_psid=89c52d93d&_ss=e",
+   "url": "https://burbankcards.com/products/jirachi-ex-155-128-me-30th-celebration-holofoil-special-illustration-rare?_pos=1&_psq=Jirachi+ex+SIR+155%2F128+30th+Celebration&_psid=7077b48a0&_ss=e",
    "note": "price below sane floor — likely a parsing artifact, not a real listing"
   },
   {
@@ -440,16 +424,7 @@
    "name": "Sylveon ex SIR",
    "shopTitle": "Sylveon ex (153/128) [ME 30th Celebration] Holofoil - Special Illustration Rare",
    "shopPrice": 0.0,
-   "url": "https://burbankcards.com/products/sylveon-ex-153-128-me-30th-celebration-holofoil-special-illustration-rare?_pos=1&_psq=Sylveon+ex+SIR+153%2F128+30th+Celebration&_psid=b86cc3cd4&_ss=e",
-   "note": "price below sane floor — likely a parsing artifact, not a real listing"
-  },
-  {
-   "id": "s-rayq-sir",
-   "kind": "chase-single",
-   "name": "Mega Rayquaza ex SIR",
-   "shopTitle": "Rayquaza EX (085) [ME 30th Celebration Classic Collection] Holofoil - Classic Collection",
-   "shopPrice": 0.0,
-   "url": "https://burbankcards.com/products/rayquaza-ex-085-me-30th-celebration-classic-collection-holofoil-classic-collection?_pos=3&_psq=Mega+Rayquaza+ex+SIR+Delta+Reign&_psid=fb024ffde&_ss=e",
+   "url": "https://burbankcards.com/products/sylveon-ex-153-128-me-30th-celebration-holofoil-special-illustration-rare?_pos=1&_psq=Sylveon+ex+SIR+153%2F128+30th+Celebration&_psid=3eae4f9c0&_ss=e",
    "note": "price below sane floor — likely a parsing artifact, not a real listing"
   },
   {
@@ -458,8 +433,65 @@
    "name": "Mega Rayquaza ex SIR",
    "shopTitle": "Rayquaza (SWSH029/307) [SWSH Sword & Shield Promo Cards] Holofoil - Promo",
    "shopPrice": 0.0,
-   "url": "https://burbankcards.com/products/rayquaza-swsh029-307-swsh-sword-shield-promo-cards-holofoil-promo?_pos=9&_psq=Mega+Rayquaza+ex+SIR+Delta+Reign&_psid=fb024ffde&_ss=e",
+   "url": "https://burbankcards.com/products/rayquaza-swsh029-307-swsh-sword-shield-promo-cards-holofoil-promo?_pos=6&_psq=Mega+Rayquaza+ex+SIR+Delta+Reign&_psid=513a80b39&_ss=e",
    "note": "price below sane floor — likely a parsing artifact, not a real listing"
+  }
+ ],
+ "soldOutMatches": [
+  {
+   "id": "s-darkrai-sir",
+   "kind": "chase-single",
+   "name": "Mega Darkrai ex SIR",
+   "set": "Pitch Black",
+   "ceiling": 150,
+   "shopPrice": 56.02,
+   "shopTitle": "Mega Darkrai ex (116/084) [ME05 Pitch Black] Holofoil - Special Illustration Rare",
+   "url": "https://burbankcards.com/products/mega-darkrai-ex-116-084-me05-pitch-black-holofoil-special-illustration-rare?_pos=1&_psq=Mega+Darkrai+ex+SIR+116%2F084+Pitch+Black&_psid=7538b9041&_ss=e",
+   "wouldBeDeal": true
+  },
+  {
+   "id": "s-drago-sir",
+   "kind": "chase-single",
+   "name": "Mega Dragonite ex SIR",
+   "set": "Ascended Heroes",
+   "ceiling": 400,
+   "shopPrice": 165.79,
+   "shopTitle": "Mega Dragonite ex (290/217) [ME Ascended Heroes] Holofoil - Special Illustration Rare",
+   "url": "https://burbankcards.com/products/mega-dragonite-ex-290-217-me-ascended-heroes-holofoil-special-illustration-rare?_pos=1&_psq=Mega+Dragonite+ex+SIR+290%2F217+Ascended+Heroes&_psid=63c8f144a&_ss=e",
+   "wouldBeDeal": true
+  },
+  {
+   "id": "s-mew-paf",
+   "kind": "chase-single",
+   "name": "Mew ex SIR",
+   "set": "Paldean Fates",
+   "ceiling": 700,
+   "shopPrice": 261.64,
+   "shopTitle": "Mew ex (232/091) [SV Paldean Fates] Holofoil - Special Illustration Rare",
+   "url": "https://burbankcards.com/products/mew-ex-232-091-sv-paldean-fates-holofoil-special-illustration-rare?_pos=1&_psq=Mew+ex+SIR+232%2F091+Paldean+Fates&_psid=af48d3026&_ss=e",
+   "wouldBeDeal": true
+  },
+  {
+   "id": "s-rayq-sir",
+   "kind": "chase-single",
+   "name": "Mega Rayquaza ex SIR",
+   "set": "Delta Reign",
+   "ceiling": 200,
+   "shopPrice": 147.47,
+   "shopTitle": "Rayquaza V (Alternate Full Art) (194/203) [SWSH07 Evolving Skies] Holofoil - Ultra Rare",
+   "url": "https://burbankcards.com/products/rayquaza-v-alternate-full-art-194-203-swsh07-evolving-skies-holofoil-ultra-rare?_pos=3&_psq=Mega+Rayquaza+ex+SIR+Delta+Reign&_psid=513a80b39&_ss=e",
+   "wouldBeDeal": true
+  },
+  {
+   "id": "s-rayq-sir",
+   "kind": "chase-single",
+   "name": "Mega Rayquaza ex SIR",
+   "set": "Delta Reign",
+   "ceiling": 200,
+   "shopPrice": 56.62,
+   "shopTitle": "Rayquaza VMAX (TG20/TG30) [SWSH12 Silver Tempest Trainer Gallery] Holofoil - Ultra Rare",
+   "url": "https://burbankcards.com/products/rayquaza-vmax-tg20-tg30-swsh12-silver-tempest-trainer-gallery-holofoil-ultra-rare?_pos=4&_psq=Mega+Rayquaza+ex+SIR+Delta+Reign&_psid=513a80b39&_ss=e",
+   "wouldBeDeal": true
   }
  ]
 }
