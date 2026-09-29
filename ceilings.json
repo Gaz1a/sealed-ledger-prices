@@ -22,9 +22,9 @@
   {"id": "s-drago-sir", "set": "Ascended Heroes", "name": "Mega Dragonite ex SIR", "cardNum": "290/217", "ceiling": 400},
   {"id": "s-fur-mew", "set": "30th Celebration", "name": "Mew ex Futuristic Rare", "cardNum": "158/128", "ceiling": 90},
   {"id": "s-fur-mewtwo", "set": "30th Celebration", "name": "Mewtwo ex Futuristic Rare", "cardNum": "157/128", "ceiling": 60},
-  {"id": "s-mew-paf", "set": "Paldean Fates", "name": "Mew ex SIR", "cardNum": "232/091", "ceiling": 700},
-  {"id": "s-rayq-sir", "set": "Delta Reign", "name": "Mega Rayquaza ex SIR", "ceiling": 200, "note": "Not yet printed with an English card number (Delta Reign releases Nov 6) — matched on name text + 'Special Illustration Rare' only."}
+  {"id": "s-mew-paf", "set": "Paldean Fates", "name": "Mew ex SIR", "cardNum": "232/091", "ceiling": 700}
  ],
+ "_note_rayquaza": "s-rayq-sir (Mega Rayquaza ex SIR, Delta Reign, ceiling 200) removed from chaseSingles 2026-09-29 — Delta Reign has no English card number yet (releases Nov 6), so the matcher had nothing to anchor on and kept surfacing unrelated Rayquaza cards (Evolving Skies alt-art, Silver Tempest VMAX) instead. Add it back with a real cardNum once the set is out and TCGplayer/the shop list one.",
  "kanto151": [
   {"id": "k-003", "dex": 3, "name": "Venusaur", "cardNum": "15/102", "set": "Base Set", "variant": "holo", "ceiling": 69.72},
   {"id": "k-006", "dex": 6, "name": "Charizard", "cardNum": "4/102", "set": "Base Set", "variant": "holo", "ceiling": 321.02},
