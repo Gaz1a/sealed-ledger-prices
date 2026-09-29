@@ -102,6 +102,35 @@ def norm(s):
     return re.sub(r"[^a-z0-9/]+", " ", (s or "").lower()).strip()
 
 
+# A target card number like "1/102" must NOT be matched as a naive substring
+# (it would match inside "201/165" or "#16/62") — extract every NNN/NNN token
+# from the candidate title and compare as integers, leading zeros included.
+NUM_TOKEN_RE = re.compile(r"(\d{1,4})\s*/\s*(\d{1,4})")
+
+def number_matches(title, card_num):
+    if not card_num or "/" not in card_num:
+        return True  # no number to anchor on — caller relies on name/set text alone
+    want_n, want_d = card_num.split("/", 1)
+    try:
+        want_n, want_d = int(want_n), int(want_d)
+    except ValueError:
+        return True
+    for n, d in NUM_TOKEN_RE.findall(title or ""):
+        if int(n) == want_n and int(d) == want_d:
+            return True
+    return False
+
+
+# Never surface a graded, altered, damaged or trimmed copy — every one of
+# Gaz's want-list plans says raw only, and a $200 CGC "Altered" Charizard is
+# not a deal at any price.
+EXCLUDE_RE = re.compile(r"\b(psa|cgc|bgs|graded|altered|trimmed|damaged|proxy|custom)\b", re.I)
+
+# Nothing on the want-list is legitimately under $1 — a near-zero price is a
+# parsing artifact (an out-of-stock variant, a bundle line, etc.), not a deal.
+MIN_SANE_PRICE = 1.0
+
+
 def match_sealed(catalog, ceilings, item_sets):
     flags, misses = [], []
     for c in ceilings:
@@ -114,7 +143,9 @@ def match_sealed(catalog, ceilings, item_sets):
             hay_words = set(hay.split())
             overlap = len(needle_words & hay_words)
             # require the set name's distinctive words AND the product-type words to show up
-            if overlap >= max(2, len(needle_words) - 1) and row["price"] is not None:
+            if EXCLUDE_RE.search(hay):
+                continue
+            if overlap >= max(2, len(needle_words) - 1) and row["price"] is not None and row["price"] >= MIN_SANE_PRICE:
                 if best is None or row["price"] < best["price"]:
                     best = row
         if best is None:
@@ -130,24 +161,32 @@ def match_sealed(catalog, ceilings, item_sets):
 
 
 def match_singles(entries, kind_label):
-    flags, misses = [], []
+    flags, misses, suspect = [], [], []
     for c in entries:
         if "cardNum" in c:
             query = f"{c['name']} {c['cardNum']} {c['set']}"
         else:
             query = f"{c['name']} {c['set']}"
         hits = search_singles(query)
-        num = c.get("cardNum", "").split("/")[0] if c.get("cardNum") else None
-        name_l = c["name"].lower().split(" ")[0]  # first word, e.g. "mega" or the species name
-        species_l = c["name"].lower()
+        species_l = c["name"].lower().split(" ")[-2] if len(c["name"].split(" ")) > 1 else c["name"].lower()
+        # match on the actual species/character token, e.g. "darkrai" out of
+        # "Mega Darkrai ex SIR" — not the first word, which is often "Mega"/"Top"
+        species_l = next((w for w in c["name"].lower().split() if w not in ("mega", "top", "ex", "sir", "gx", "vmax")), c["name"].lower())
         best = None
         for h in hits:
             hl = h["title"].lower()
-            if species_l.split(" ")[-1] not in hl and name_l not in hl:
+            if species_l not in hl:
                 continue
-            if num and (f"{num}/" not in h["title"] and f"#{num}" not in h["title"]):
+            if EXCLUDE_RE.search(h["title"]):
+                continue
+            if not number_matches(h["title"], c.get("cardNum")):
                 continue
             if h["price"] is None:
+                continue
+            if h["price"] < MIN_SANE_PRICE:
+                suspect.append({"id": c["id"], "kind": kind_label, "name": c["name"], "shopTitle": h["title"],
+                                 "shopPrice": h["price"], "url": h["url"],
+                                 "note": "price below sane floor — likely a parsing artifact, not a real listing"})
                 continue
             if best is None or h["price"] < best["price"]:
                 best = h
@@ -160,7 +199,7 @@ def match_singles(entries, kind_label):
             "shopPrice": best["price"], "shopTitle": best["title"], "url": best["url"],
             "deal": deal, "overCeilingBy": None if deal else round(best["price"] - c["ceiling"], 2),
         })
-    return flags, misses
+    return flags, misses, suspect
 
 
 def main():
@@ -170,12 +209,13 @@ def main():
 
     catalog = fetch_sealed_catalog()
     sealed_flags, sealed_misses = match_sealed(catalog, ceilings.get("sealed", []), item_sets)
-    chase_flags, chase_misses = match_singles(ceilings.get("chaseSingles", []), "chase-single")
-    kanto_flags, kanto_misses = match_singles(ceilings.get("kanto151", []), "kanto-151")
+    chase_flags, chase_misses, chase_suspect = match_singles(ceilings.get("chaseSingles", []), "chase-single")
+    kanto_flags, kanto_misses, kanto_suspect = match_singles(ceilings.get("kanto151", []), "kanto-151")
 
     all_flags = sealed_flags + chase_flags + kanto_flags
     deals = [f for f in all_flags if f["deal"]]
     all_misses = sealed_misses + chase_misses + kanto_misses
+    all_suspect = chase_suspect + kanto_suspect
 
     out = {
         "generated": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -187,6 +227,7 @@ def main():
         "deals": deals,
         "checkedNoDeal": [f for f in all_flags if not f["deal"]],
         "misses": all_misses,
+        "suspectPrices": all_suspect,
     }
     json.dump(out, open(os.path.join(ROOT, "shop_burbankcards.json"), "w"), indent=1, ensure_ascii=False)
     print(f"checked {out['checked']} items ({len(deals)} deals, {len(all_misses)} not found on site) — "
