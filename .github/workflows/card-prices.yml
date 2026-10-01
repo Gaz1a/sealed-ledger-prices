@@ -1,0 +1,25 @@
+name: Card ledger prices
+on:
+  schedule:
+    - cron: "15 23 * * 0"   # Sundays 23:15 UTC, ahead of the Claude card-ledger task (~00:10 UTC Monday)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: repo-writes
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/fetch_card_prices.py
+      - name: Commit
+        run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add cards/prices.json cards/group-map.json
+          git diff --cached --quiet || git commit -m "card prices $(date -u +%F)"
+          git pull --rebase
+          git push
