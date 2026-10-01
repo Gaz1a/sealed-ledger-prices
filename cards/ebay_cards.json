@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-01T16:38:59Z",
- "note": "active asks only, not sold prices",
+ "generated": "2026-10-01T17:17:24Z",
+ "note": "active asks and auctions ending within 9 days; not sold prices",
  "queries": [
   {
    "ledger": "football",
@@ -58,7 +58,8 @@
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/178506692110?_skw=Adrenalyn+XL+Cole+Palmer+Ultimate&hash=item298fd3f60e:g:ys0AAeSwTbZqrMiC"
     }
-   ]
+   ],
+   "auctions": []
   },
   {
    "ledger": "football",
@@ -141,6 +142,38 @@
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/178295756875?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item298341584b:g:zKUAAeSwxHhqTv4Q"
     }
+   ],
+   "auctions": [
+    {
+     "title": "Golden Ballers 2026 Panini Adrenalyn XL FIFA World Cup Mohamed Salah Egypt #3",
+     "total": 13.0,
+     "bids": 0,
+     "daysLeft": 0.2,
+     "endDate": "2026-10-01T22:10:57.000Z",
+     "seller": "augusto.sk8",
+     "feedbackPct": "91.7",
+     "url": "https://www.ebay.com/itm/287610872685?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item42f6f1a36d:g:m5AAAeSwaw5qsan4"
+    },
+    {
+     "title": "Golden Ballers 2026 Panini Adrenalyn XL FIFA World Cup Mohamed Salah Egypt #3",
+     "total": 14.0,
+     "bids": 0,
+     "daysLeft": 2.25,
+     "endDate": "2026-10-03T23:12:26.000Z",
+     "seller": "augusto.sk8",
+     "feedbackPct": "91.7",
+     "url": "https://www.ebay.com/itm/287610930119?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item42f6f283c7:g:gxIAAeSwkP9quFEq"
+    },
+    {
+     "title": "Golden Ballers 2026 Panini Adrenalyn XL FIFA World Cup Mohamed Salah Egypt #3",
+     "total": 14.0,
+     "bids": 0,
+     "daysLeft": 3.16,
+     "endDate": "2026-10-04T21:01:21.000Z",
+     "seller": "augusto.sk8",
+     "feedbackPct": "91.7",
+     "url": "https://www.ebay.com/itm/287616927660?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item42f74e07ac:g:tHAAAeSwWSVqvCb8"
+    }
    ]
   },
   {
@@ -148,21 +181,24 @@
    "id": "son-sigLE-2526",
    "q": "Adrenalyn XL Son Heung-Min Signature Limited",
    "total": 0,
-   "asks": []
+   "asks": [],
+   "auctions": []
   },
   {
    "ledger": "football",
    "id": "gordon-ultimate-2526",
    "q": "Adrenalyn XL Anthony Gordon Ultimate",
    "total": 0,
-   "asks": []
+   "asks": [],
+   "auctions": []
   },
   {
    "ledger": "football",
    "id": "onana-ultimate-2526",
    "q": "Adrenalyn XL André Onana Ultimate",
    "total": 0,
-   "asks": []
+   "asks": [],
+   "auctions": []
   },
   {
    "ledger": "football",
@@ -183,7 +219,8 @@
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/227538071633?_skw=Adrenalyn+XL+Youri+Tielemans+Ultimate&hash=item34fa537051:g:Hl4AAeSwbVBoSCaW"
     }
-   ]
+   ],
+   "auctions": []
   },
   {
    "ledger": "football",
@@ -228,14 +265,16 @@
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/206229081653?_skw=Adrenalyn+XL+Dominik+Szoboszlai+Signature&hash=item3004360e35:g:JKgAAeSwo1Bo6JBz"
     }
-   ]
+   ],
+   "auctions": []
   },
   {
    "ledger": "football",
    "id": "adingra-le-2526",
    "q": "Adrenalyn XL Simon Adingra Limited Edition",
    "total": 0,
-   "asks": []
+   "asks": [],
+   "auctions": []
   },
   {
    "ledger": "football",
@@ -279,7 +318,8 @@
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/166923734333?_skw=Adrenalyn+XL+%C5%81ukasz+Fabia%C5%84ski+Limited+Edition&hash=item26dd6e0d3d:g:blIAAOSwQSZmwKCJ"
     }
-   ]
+   ],
+   "auctions": []
   },
   {
    "ledger": "football",
@@ -312,7 +352,8 @@
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/166923734333?_skw=Adrenalyn+XL+Sam+Johnstone+Limited+Edition&hash=item26dd6e0d3d:g:blIAAOSwQSZmwKCJ"
     }
-   ]
+   ],
+   "auctions": []
   },
   {
    "ledger": "football",
@@ -394,14 +435,16 @@
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/366255287241?_skw=Adrenalyn+XL+Erling+Haaland+Invincible&hash=item5546842bc9:g:qLoAAeSwdRtprUtP"
     }
-   ]
+   ],
+   "auctions": []
   },
   {
    "ledger": "football",
    "id": "dowman-rookie-watch",
    "q": "Adrenalyn XL Max Dowman",
    "total": 0,
-   "asks": []
+   "asks": [],
+   "auctions": []
   },
   {
    "ledger": "football",
@@ -487,14 +530,16 @@
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/147223944527?_skw=Adrenalyn+XL+Bukayo+Saka+Golden+Baller&hash=item22473b1d4f:g:a~QAAeSw7rhpxJP3"
     }
-   ]
+   ],
+   "auctions": []
   },
   {
    "ledger": "football",
    "id": "palmer-platinum-ultimate-watch",
    "q": "Adrenalyn XL Cole Palmer Platinum Ultimate",
    "total": 0,
-   "asks": []
+   "asks": [],
+   "auctions": []
   },
   {
    "ledger": "wrestling",
@@ -577,7 +622,8 @@
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/387951557007?_skw=2000+WWF+Stone+Cold+Steve+Austin+%233&hash=item5a53b6f98f:g:BHMAAOSwytdnrWfP"
     }
-   ]
+   ],
+   "auctions": []
   },
   {
    "ledger": "wrestling",
@@ -597,13 +643,14 @@
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/266790227910?_skw=1997+Panini+Rocky+Maivia+%23123+PSA+9&hash=item3e1defcfc6:g:f2IAAOSwEn1jneah"
     }
-   ]
+   ],
+   "auctions": []
   },
   {
    "ledger": "wrestling",
    "id": "w-rock-cardinal-trivia-1997",
    "q": "1997 Cardinal The Rock",
-   "total": 334,
+   "total": 336,
    "asks": [
     {
      "title": "JUSTIN Hawk BRADSHAW 1997 WWF Trivia Cardinal Rookie Card WWE RC John Layfield",
@@ -680,6 +727,48 @@
      "feedbackPct": "99.8",
      "url": "https://www.ebay.com/itm/306155644744?_skw=1997+Cardinal+The+Rock&hash=item47484c6748:g:FeUAAOSwbuNnxld7"
     }
+   ],
+   "auctions": [
+    {
+     "title": "Marc Mero 1997 Cardinal WWF Trivia Series Yellow Card #5 wrestling rare",
+     "total": 3.99,
+     "bids": 0,
+     "daysLeft": 3.42,
+     "endDate": "2026-10-05T03:23:43.000Z",
+     "seller": "bighood",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/137787734796?_skw=1997+Cardinal+The+Rock&hash=item2014c9fb0c:g:r~IAAeSwbS9qlPNY"
+    },
+    {
+     "title": "1997 Cardinal Trivia WWF - Mankind Mick Foley WWE  Wrestling Rookie RC",
+     "total": 7.99,
+     "bids": 0,
+     "daysLeft": 3.44,
+     "endDate": "2026-10-05T03:45:50.000Z",
+     "seller": "bighood",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/137787785694?_skw=1997+Cardinal+The+Rock&hash=item2014cac1de:g:tzsAAeSwoAJqlPiW"
+    },
+    {
+     "title": "STONE COLD STEVE AUSTIN Vtg 1997 Cardinal WWF Trivia Rookie Card Pro Wrestling",
+     "total": 13.99,
+     "bids": 0,
+     "daysLeft": 3.44,
+     "endDate": "2026-10-05T03:49:01.000Z",
+     "seller": "bighood",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/137787801545?_skw=1997+Cardinal+The+Rock&hash=item2014caffc9:g:SCoAAeSwKX9qlPlE"
+    },
+    {
+     "title": "WWF Wrestling Trivia Game 1997 Vintage COMPLETE! Stone Cold And The Rock Rookie",
+     "total": 70.0,
+     "bids": 0,
+     "daysLeft": 5.14,
+     "endDate": "2026-10-06T20:44:31.000Z",
+     "seller": "ty.t.i",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/128105560653?_skw=1997+Cardinal+The+Rock&hash=item1dd3afba4d:g:fsgAAeSwRvdqlzgt"
+    }
    ]
   },
   {
@@ -701,7 +790,8 @@
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/294537676613?_skw=1997+Cardinal+The+Rock+%2321+BGS+9&hash=item4493d04745:g:OJcAAOSwsrphjBJG"
     }
-   ]
+   ],
+   "auctions": []
   },
   {
    "ledger": "wrestling",
@@ -780,6 +870,18 @@
      "seller": "pgk_keychains",
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/168603752505?_skw=1982+Wrestling+All-Stars+Hulk+Hogan+%232&hash=item2741911839:g:6I4AAeSw4Expwcud"
+    }
+   ],
+   "auctions": [
+    {
+     "title": "1982 WRESTLING ALL-STARS SERIES A #2 HULK HOGAN PSA 8",
+     "total": 2005.99,
+     "bids": 13,
+     "daysLeft": 4.34,
+     "endDate": "2026-10-06T01:33:00.000Z",
+     "seller": "psa",
+     "feedbackPct": "99.9",
+     "url": "https://www.ebay.com/itm/298709839936?_skw=1982+Wrestling+All-Stars+Hulk+Hogan+%232&hash=item458c7e7040:g:m3AAAeSwVCdquFT0"
     }
    ]
   },
@@ -865,7 +967,8 @@
      "feedbackPct": "99.9",
      "url": "https://www.ebay.com/itm/226690053473?_skw=1991+Classic+The+Undertaker+%2364&hash=item34c7c7b561:g:ZXYAAOSw-aVnIXPD"
     }
-   ]
+   ],
+   "auctions": []
   },
   {
    "ledger": "wrestling",
@@ -948,6 +1051,18 @@
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/267095201099?_skw=1995+Cardz+WCW+Stone+Cold+Steve+Austin&hash=item3e301d554b:g:JvIAAOSwrS9nWsBL"
     }
+   ],
+   "auctions": [
+    {
+     "title": "1995 Cardz WCW Stunning Steve Austin Card PSA 9 Mint WWE WWF AEW ECW Stone Cold",
+     "total": 154.98,
+     "bids": 1,
+     "daysLeft": 6.35,
+     "endDate": "2026-10-08T01:46:00.000Z",
+     "seller": "rogerswrestlingcards",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/158352006294?_skw=1995+Cardz+WCW+Stone+Cold+Steve+Austin&hash=item24de83dc96:g:ZGEAAeSwVXRpDMZq"
+    }
    ]
   },
   {
@@ -1008,7 +1123,8 @@
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/284373920771?_skw=1985+Wrestling+All-Stars+Rowdy+Roddy+Piper+%2315&hash=item423601ac03:g:qT0AAOSw5jZg8bJD"
     }
-   ]
+   ],
+   "auctions": []
   }
  ],
  "links": [
@@ -1039,7 +1155,7 @@
    "live": true,
    "price": 11.99,
    "title": "1995 Cardz WCW Main Event STUNNING STEVE AUSTIN RC ROOKIE #29 WWF STONE COLD ",
-   "url": "https://www.ebay.com/itm/178137020150?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2FY%2BXURXn3O%2BJo6mhKCHvAw7QYLLQQhFXSiKoQxwdPSXOxxz5sgbu0UqDnoKWSy9KbvhzPCXgBX1slkA%2FZFffNsM4cO2RksW%2FsdWsxTS9F5lvTl9vPcyvT%2FZsUW8cQwJ0xBLAcgzHWJSqILfaaGFhOJXmxiBcdJcNqmENfpdNnTcbY89XiSE4x5Y1awVhUOM9I%3D",
+   "url": "https://www.ebay.com/itm/178137020150?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2FY%2BXURXn3O%2BJo6mhKCHvAw7QYLLQQhFXSiKoQxwdPSXOro%2F6032Ne0Fj49rjzSdZTp7EJ0z5sDlLDmyZ5jm8MrBrKIdFVkFIN4HrB7fq1YzPcmavmZ6CpkXUIB0kvWjKbtSooORg20K%2FIOhkgRXCmjV4iWHUzY%2BGPW%2FjQAfvmoINSbdS%2BQjNbofh%2B99aoDfvw%3D",
    "returnsAccepted": false
   },
   {
