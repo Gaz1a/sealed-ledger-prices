@@ -1,0 +1,64 @@
+{
+ "count": 8,
+ "generated": "2026-10-01T16:35:12Z",
+ "prices": {
+  "lorcana:all-is-found-enchanted": {
+   "low": 240.0,
+   "market": 272.95,
+   "mid": 386.0,
+   "productId": 619748,
+   "subType": "Holofoil"
+  },
+  "lorcana:archazias-island-booster-pack": {
+   "low": 5.13,
+   "market": 6.72,
+   "mid": 6.97,
+   "productId": 607760,
+   "subType": "Normal"
+  },
+  "lorcana:aurora-waking-beauty-enchanted": {
+   "low": 174.0,
+   "market": 243.49,
+   "mid": 343.5,
+   "productId": 619733,
+   "subType": "Holofoil"
+  },
+  "lorcana:belle-mechanic-extraordinaire-enchanted": {
+   "low": 160.41,
+   "market": 163.68,
+   "mid": 184.95,
+   "productId": 619745,
+   "subType": "Holofoil"
+  },
+  "lorcana:donald-duck-flustered-sorcerer-enchanted": {
+   "low": 177.51,
+   "market": 141.44,
+   "mid": 190.93,
+   "productId": 619737,
+   "subType": "Holofoil"
+  },
+  "lorcana:lilo-and-stitch-fun-loving-friends-iconic": {
+   "low": 1250.0,
+   "market": 1629.34,
+   "mid": 1499.99,
+   "productId": 702666,
+   "subType": "Holofoil"
+  },
+  "lorcana:mickey-mouse-inspirational-warrior-enchanted": {
+   "low": 579.0,
+   "market": 363.41,
+   "mid": 670.99,
+   "productId": 619749,
+   "subType": "Holofoil"
+  },
+  "lorcana:winnie-the-pooh-piglet-hunny-mages-enchanted": {
+   "low": 678.97,
+   "market": 831.21,
+   "mid": 809.2,
+   "productId": 704725,
+   "subType": "Holofoil"
+  }
+ },
+ "source": "tcgcsv.com (TCGplayer market price, per subtype)",
+ "unresolved": []
+}
