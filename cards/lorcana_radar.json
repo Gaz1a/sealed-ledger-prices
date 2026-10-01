@@ -1,0 +1,531 @@
+{
+ "generated": "2026-10-01T17:16:06Z",
+ "source": "tcgcsv.com (TCGplayer market price)",
+ "upcomingSets": [
+  {
+   "name": "Illumineer's Quest: The Great Hunny Rescue",
+   "groupId": 24734,
+   "date": "2026-10-02"
+  },
+  {
+   "name": "Hyperia City",
+   "groupId": 24740,
+   "date": "2026-10-16"
+  },
+  {
+   "name": "Into the Inkdark",
+   "groupId": 24890,
+   "date": "2027-02-05"
+  }
+ ],
+ "candidates": [
+  {
+   "pid": 647663,
+   "name": "Mickey Mouse - Brave Little Prince (Iconic)",
+   "set": "Fabled",
+   "setPublished": "2025-08-29",
+   "ageWeeks": 56,
+   "cat": "single",
+   "rarity": "Iconic",
+   "number": "242/204",
+   "property": "Standard Characters",
+   "market": 3803.12,
+   "low": 9000.0,
+   "chg1w": null,
+   "tags": [
+    "iconic",
+    "top-1 in set",
+    "brand-level character"
+   ],
+   "score": 8,
+   "url": "https://www.tcgplayer.com/product/647663/lorcana-tcg-fabled-mickey-mouse-brave-little-prince-iconic"
+  },
+  {
+   "pid": 690216,
+   "name": "Buzz Lightyear - Jungle Ranger (Iconic)",
+   "set": "Wilds Unknown",
+   "setPublished": "2026-05-08",
+   "ageWeeks": 20,
+   "cat": "single",
+   "rarity": "Iconic",
+   "number": "241/204",
+   "property": "Toy Story",
+   "market": 3621.08,
+   "low": 1980.0,
+   "chg1w": null,
+   "tags": [
+    "iconic",
+    "top-1 in set",
+    "brand-level character"
+   ],
+   "score": 8,
+   "url": "https://www.tcgplayer.com/product/690216/lorcana-tcg-wilds-unknown-buzz-lightyear-jungle-ranger-iconic"
+  },
+  {
+   "pid": 651106,
+   "name": "Minnie Mouse - Sweetheart Princess (Iconic)",
+   "set": "Fabled",
+   "setPublished": "2025-08-29",
+   "ageWeeks": 56,
+   "cat": "single",
+   "rarity": "Iconic",
+   "number": "241/204",
+   "property": "Standard Characters",
+   "market": 2838.89,
+   "low": 4200.0,
+   "chg1w": null,
+   "tags": [
+    "iconic",
+    "top-2 in set",
+    "brand-level character"
+   ],
+   "score": 8,
+   "url": "https://www.tcgplayer.com/product/651106/lorcana-tcg-fabled-minnie-mouse-sweetheart-princess-iconic"
+  },
+  {
+   "pid": 702667,
+   "name": "Belle & Beast - Certain as the Sun (Iconic)",
+   "set": "Attack of the Vine!",
+   "setPublished": "2026-07-17",
+   "ageWeeks": 10,
+   "cat": "single",
+   "rarity": "Iconic",
+   "number": "245/207",
+   "property": "Beauty and the Beast",
+   "market": 2008.2,
+   "low": 1350.0,
+   "chg1w": null,
+   "tags": [
+    "iconic",
+    "top-1 in set",
+    "brand-level character"
+   ],
+   "score": 8,
+   "url": "https://www.tcgplayer.com/product/702667/lorcana-tcg-attack-of-the-vine-belle-and-beast-certain-as-the-sun-iconic"
+  },
+  {
+   "pid": 657885,
+   "name": "Ariel - Ethereal Voice (Iconic)",
+   "set": "Whispers in the Well",
+   "setPublished": "2025-11-07",
+   "ageWeeks": 46,
+   "cat": "single",
+   "rarity": "Iconic",
+   "number": "241/204",
+   "property": "Little Mermaid",
+   "market": 1482.58,
+   "low": 1350.0,
+   "chg1w": null,
+   "tags": [
+    "iconic",
+    "top-1 in set",
+    "brand-level character"
+   ],
+   "score": 8,
+   "url": "https://www.tcgplayer.com/product/657885/lorcana-tcg-whispers-in-the-well-ariel-ethereal-voice-iconic"
+  },
+  {
+   "pid": 673300,
+   "name": "Moana - Curious Explorer (Iconic)",
+   "set": "Winterspell",
+   "setPublished": "2026-02-13",
+   "ageWeeks": 32,
+   "cat": "single",
+   "rarity": "Iconic",
+   "number": "242/204",
+   "property": "Moana",
+   "market": 1250.98,
+   "low": 1048.62,
+   "chg1w": null,
+   "tags": [
+    "iconic",
+    "top-1 in set",
+    "brand-level character"
+   ],
+   "score": 8,
+   "url": "https://www.tcgplayer.com/product/673300/lorcana-tcg-winterspell-moana-curious-explorer-iconic"
+  },
+  {
+   "pid": 651107,
+   "name": "Winnie the Pooh - Hunny Wizard (Enchanted)",
+   "set": "Fabled",
+   "setPublished": "2025-08-29",
+   "ageWeeks": 56,
+   "cat": "single",
+   "rarity": "Enchanted",
+   "number": "227/204",
+   "property": "Winnie the Pooh",
+   "market": 1410.97,
+   "low": 1499.0,
+   "chg1w": null,
+   "tags": [
+    "enchanted",
+    "top-3 in set",
+    "brand-level character"
+   ],
+   "score": 7,
+   "url": "https://www.tcgplayer.com/product/651107/lorcana-tcg-fabled-winnie-the-pooh-hunny-wizard-enchanted"
+  },
+  {
+   "pid": 675515,
+   "name": "Elsa - Ice Artisan (Enchanted)",
+   "set": "Winterspell",
+   "setPublished": "2026-02-13",
+   "ageWeeks": 32,
+   "cat": "single",
+   "rarity": "Enchanted",
+   "number": "233/204",
+   "property": "Frozen",
+   "market": 717.22,
+   "low": 700.0,
+   "chg1w": null,
+   "tags": [
+    "enchanted",
+    "top-3 in set",
+    "brand-level character"
+   ],
+   "score": 7,
+   "url": "https://www.tcgplayer.com/product/675515/lorcana-tcg-winterspell-elsa-ice-artisan-enchanted"
+  },
+  {
+   "pid": 690217,
+   "name": "Merida - Formidable Archer (Iconic)",
+   "set": "Wilds Unknown",
+   "setPublished": "2026-05-08",
+   "ageWeeks": 20,
+   "cat": "single",
+   "rarity": "Iconic",
+   "number": "242/204",
+   "property": "Brave",
+   "market": 1745.97,
+   "low": 938.95,
+   "chg1w": null,
+   "tags": [
+    "iconic",
+    "top-2 in set"
+   ],
+   "score": 6,
+   "url": "https://www.tcgplayer.com/product/690217/lorcana-tcg-wilds-unknown-merida-formidable-archer-iconic"
+  },
+  {
+   "pid": 657889,
+   "name": "Hades - Looking for a Deal (Iconic)",
+   "set": "Whispers in the Well",
+   "setPublished": "2025-11-07",
+   "ageWeeks": 46,
+   "cat": "single",
+   "rarity": "Iconic",
+   "number": "242/204",
+   "property": "Hercules",
+   "market": 1074.71,
+   "low": 1250.0,
+   "chg1w": null,
+   "tags": [
+    "iconic",
+    "top-2 in set"
+   ],
+   "score": 6,
+   "url": "https://www.tcgplayer.com/product/657889/lorcana-tcg-whispers-in-the-well-hades-looking-for-a-deal-iconic"
+  },
+  {
+   "pid": 673298,
+   "name": "Pocahontas - Peacekeeper (Iconic)",
+   "set": "Winterspell",
+   "setPublished": "2026-02-13",
+   "ageWeeks": 32,
+   "cat": "single",
+   "rarity": "Iconic",
+   "number": "241/204",
+   "property": "Pocahontas",
+   "market": 1059.36,
+   "low": 1199.95,
+   "chg1w": null,
+   "tags": [
+    "iconic",
+    "top-2 in set"
+   ],
+   "score": 6,
+   "url": "https://www.tcgplayer.com/product/673298/lorcana-tcg-winterspell-pocahontas-peacekeeper-iconic"
+  },
+  {
+   "pid": 651123,
+   "name": "Ariel - Adventurous Collector (Enchanted)",
+   "set": "Fabled",
+   "setPublished": "2025-08-29",
+   "ageWeeks": 56,
+   "cat": "single",
+   "rarity": "Enchanted",
+   "number": "232/204",
+   "property": "Little Mermaid",
+   "market": 717.97,
+   "low": 499.99,
+   "chg1w": null,
+   "tags": [
+    "enchanted",
+    "brand-level character"
+   ],
+   "score": 5,
+   "url": "https://www.tcgplayer.com/product/651123/lorcana-tcg-fabled-ariel-adventurous-collector-enchanted"
+  },
+  {
+   "pid": 660011,
+   "name": "Spooky Sight (Enchanted)",
+   "set": "Whispers in the Well",
+   "setPublished": "2025-11-07",
+   "ageWeeks": 46,
+   "cat": "single",
+   "rarity": "Enchanted",
+   "number": "237/204",
+   "property": "Standard Characters",
+   "market": 717.61,
+   "low": 600.0,
+   "chg1w": null,
+   "tags": [
+    "enchanted",
+    "top-3 in set"
+   ],
+   "score": 5,
+   "url": "https://www.tcgplayer.com/product/660011/lorcana-tcg-whispers-in-the-well-spooky-sight-enchanted"
+  },
+  {
+   "pid": 651112,
+   "name": "Mickey Mouse - Steamboat Pilot (Enchanted)",
+   "set": "Fabled",
+   "setPublished": "2025-08-29",
+   "ageWeeks": 56,
+   "cat": "single",
+   "rarity": "Enchanted",
+   "number": "231/204",
+   "property": "Standard Characters",
+   "market": 701.9,
+   "low": 599.99,
+   "chg1w": null,
+   "tags": [
+    "enchanted",
+    "brand-level character"
+   ],
+   "score": 5,
+   "url": "https://www.tcgplayer.com/product/651112/lorcana-tcg-fabled-mickey-mouse-steamboat-pilot-enchanted"
+  },
+  {
+   "pid": 660029,
+   "name": "Cinderella - Dream Come True (Enchanted)",
+   "set": "Whispers in the Well",
+   "setPublished": "2025-11-07",
+   "ageWeeks": 46,
+   "cat": "single",
+   "rarity": "Enchanted",
+   "number": "236/204",
+   "property": "Cinderella",
+   "market": 570.31,
+   "low": 300.0,
+   "chg1w": null,
+   "tags": [
+    "enchanted",
+    "brand-level character"
+   ],
+   "score": 5,
+   "url": "https://www.tcgplayer.com/product/660029/lorcana-tcg-whispers-in-the-well-cinderella-dream-come-true-enchanted"
+  },
+  {
+   "pid": 704729,
+   "name": "Mickey Mouse & Minnie Mouse - Adventuring Duo (Enchanted)",
+   "set": "Attack of the Vine!",
+   "setPublished": "2026-07-17",
+   "ageWeeks": 10,
+   "cat": "single",
+   "rarity": "Enchanted",
+   "number": "238/207",
+   "property": "Standard Characters",
+   "market": 435.81,
+   "low": 400.0,
+   "chg1w": null,
+   "tags": [
+    "enchanted",
+    "brand-level character"
+   ],
+   "score": 5,
+   "url": "https://www.tcgplayer.com/product/704729/lorcana-tcg-attack-of-the-vine-mickey-mouse-and-minnie-mouse-adventuring-duo-enchanted"
+  },
+  {
+   "pid": 704719,
+   "name": "Woody & Buzz Lightyear - Best Buddies (Enchanted)",
+   "set": "Attack of the Vine!",
+   "setPublished": "2026-07-17",
+   "ageWeeks": 10,
+   "cat": "single",
+   "rarity": "Enchanted",
+   "number": "228/207",
+   "property": "Toy Story",
+   "market": 377.64,
+   "low": 294.32,
+   "chg1w": null,
+   "tags": [
+    "enchanted",
+    "brand-level character"
+   ],
+   "score": 5,
+   "url": "https://www.tcgplayer.com/product/704719/lorcana-tcg-attack-of-the-vine-woody-and-buzz-lightyear-best-buddies-enchanted"
+  },
+  {
+   "pid": 651121,
+   "name": "Belle - Accomplished Mystic (Enchanted)",
+   "set": "Fabled",
+   "setPublished": "2025-08-29",
+   "ageWeeks": 56,
+   "cat": "single",
+   "rarity": "Enchanted",
+   "number": "226/204",
+   "property": "Beauty and the Beast",
+   "market": 351.23,
+   "low": 400.0,
+   "chg1w": null,
+   "tags": [
+    "enchanted",
+    "brand-level character"
+   ],
+   "score": 5,
+   "url": "https://www.tcgplayer.com/product/651121/lorcana-tcg-fabled-belle-accomplished-mystic-enchanted"
+  },
+  {
+   "pid": 692220,
+   "name": "Alien - True Believer (Enchanted)",
+   "set": "Wilds Unknown",
+   "setPublished": "2026-05-08",
+   "ageWeeks": 20,
+   "cat": "single",
+   "rarity": "Enchanted",
+   "number": "229/204",
+   "property": "Toy Story",
+   "market": 303.4,
+   "low": 290.0,
+   "chg1w": null,
+   "tags": [
+    "enchanted",
+    "top-3 in set"
+   ],
+   "score": 5,
+   "url": "https://www.tcgplayer.com/product/692220/lorcana-tcg-wilds-unknown-alien-true-believer-enchanted"
+  },
+  {
+   "pid": 677160,
+   "name": "Anna - Soothing Sister (Enchanted)",
+   "set": "Winterspell",
+   "setPublished": "2026-02-13",
+   "ageWeeks": 32,
+   "cat": "single",
+   "rarity": "Enchanted",
+   "number": "227/204",
+   "property": "Frozen",
+   "market": 264.38,
+   "low": 263.5,
+   "chg1w": null,
+   "tags": [
+    "enchanted",
+    "brand-level character"
+   ],
+   "score": 5,
+   "url": "https://www.tcgplayer.com/product/677160/lorcana-tcg-winterspell-anna-soothing-sister-enchanted"
+  },
+  {
+   "pid": 677167,
+   "name": "Belle - Snowfield Strategist (Enchanted)",
+   "set": "Winterspell",
+   "setPublished": "2026-02-13",
+   "ageWeeks": 32,
+   "cat": "single",
+   "rarity": "Enchanted",
+   "number": "236/204",
+   "property": "Beauty and the Beast",
+   "market": 229.2,
+   "low": 219.99,
+   "chg1w": null,
+   "tags": [
+    "enchanted",
+    "brand-level character"
+   ],
+   "score": 5,
+   "url": "https://www.tcgplayer.com/product/677167/lorcana-tcg-winterspell-belle-snowfield-strategist-enchanted"
+  },
+  {
+   "pid": 658449,
+   "name": "Simba - King in the Making (Enchanted)",
+   "set": "Whispers in the Well",
+   "setPublished": "2025-11-07",
+   "ageWeeks": 46,
+   "cat": "single",
+   "rarity": "Enchanted",
+   "number": "224/204",
+   "property": "Lion King",
+   "market": 197.08,
+   "low": 189.99,
+   "chg1w": null,
+   "tags": [
+    "enchanted",
+    "brand-level character"
+   ],
+   "score": 5,
+   "url": "https://www.tcgplayer.com/product/658449/lorcana-tcg-whispers-in-the-well-simba-king-in-the-making-enchanted"
+  },
+  {
+   "pid": 649236,
+   "name": "Lilo - Best Explorer Ever (Enchanted)",
+   "set": "Fabled",
+   "setPublished": "2025-08-29",
+   "ageWeeks": 56,
+   "cat": "single",
+   "rarity": "Enchanted",
+   "number": "238/204",
+   "property": "Lilo and Stitch",
+   "market": 187.97,
+   "low": 290.0,
+   "chg1w": null,
+   "tags": [
+    "enchanted",
+    "brand-level character"
+   ],
+   "score": 5,
+   "url": "https://www.tcgplayer.com/product/649236/lorcana-tcg-fabled-lilo-best-explorer-ever-enchanted"
+  },
+  {
+   "pid": 704724,
+   "name": "Peter Pan & Tinker Bell - Fast Friends (Enchanted)",
+   "set": "Attack of the Vine!",
+   "setPublished": "2026-07-17",
+   "ageWeeks": 10,
+   "cat": "single",
+   "rarity": "Enchanted",
+   "number": "233/207",
+   "property": "Peter Pan",
+   "market": 185.77,
+   "low": 165.99,
+   "chg1w": null,
+   "tags": [
+    "enchanted",
+    "brand-level character"
+   ],
+   "score": 5,
+   "url": "https://www.tcgplayer.com/product/704724/lorcana-tcg-attack-of-the-vine-peter-pan-and-tinker-bell-fast-friends-enchanted"
+  },
+  {
+   "pid": 704730,
+   "name": "Rapunzel & Flynn Rider - Unlikely Pair (Enchanted)",
+   "set": "Attack of the Vine!",
+   "setPublished": "2026-07-17",
+   "ageWeeks": 10,
+   "cat": "single",
+   "rarity": "Enchanted",
+   "number": "239/207",
+   "property": "Tangled",
+   "market": 174.84,
+   "low": 165.0,
+   "chg1w": null,
+   "tags": [
+    "enchanted",
+    "brand-level character"
+   ],
+   "score": 5,
+   "url": "https://www.tcgplayer.com/product/704730/lorcana-tcg-attack-of-the-vine-rapunzel-and-flynn-rider-unlikely-pair-enchanted"
+  }
+ ]
+}
