@@ -70,7 +70,8 @@ for lid in todo:
             json.dump(state, open(STATE, "w"), separators=(",", ":")); sys.exit(0)
         n += 1; time.sleep(1.0)
         data = body.get("data") or []
-        if not data: continue
+        if isinstance(data, dict): data = [data]   # cards endpoint returns one object
+        if not data or not isinstance(data[0], dict): continue
         if path == "cards":
             sample = json.dumps(data[0])[:2500]
             pts = series(data[0].get("priceHistory"), t.get("variant"))
