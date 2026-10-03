@@ -21,7 +21,7 @@ todo = [k for k in order if k not in done]
 print(f"{len(done)} done, {len(todo)} to go, doing up to {MAX_ITEMS}")
 
 def get(path, pid, lang=None):
-    url = f"{API}{path}?tcgPlayerId={pid}&includeHistory=true&days={DAYS}&maxDataPoints=200&limit=1" + (f"&language={lang}" if lang else "")
+    url = f"{API}{path}?tcgPlayerId={pid}&includeHistory=true&days={DAYS}&limit=1" + ("&maxDataPoints=200" if path == "cards" else "") + (f"&language={lang}" if lang else "")
     req = urllib.request.Request(url, headers={"Authorization": f"Bearer {KEY}"})
     for attempt in range(3):
         try:
