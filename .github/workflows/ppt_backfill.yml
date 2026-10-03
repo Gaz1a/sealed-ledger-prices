@@ -4,7 +4,7 @@ on:
     inputs:
       max_items:
         description: "Max API calls this run"
-        default: "400"
+        default: "700"
 permissions:
   contents: write
 jobs:
@@ -15,9 +15,9 @@ jobs:
       - run: python ppt_backfill.py
         env:
           PPT_KEY: ${{ secrets.PPT_KEY }}
-          MAX_ITEMS: ${{ inputs.max_items || '400' }}
+          MAX_ITEMS: ${{ inputs.max_items || '700' }}
       - run: |
           git config user.name "github-actions"
           git config user.email "actions@users.noreply.github.com"
-          git add ppt_backfill.json
+          git add ppt_backfill_180.json
           git diff --cached --quiet || (git commit -m "PPT backfill progress" && git push)
