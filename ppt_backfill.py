@@ -6,22 +6,22 @@ import json, os, sys, time, urllib.request, urllib.error
 
 KEY = os.environ.get("PPT_KEY", "")
 if not KEY: sys.exit("PPT_KEY secret missing")
-MAX_ITEMS = int(os.environ.get("MAX_ITEMS") or "300")
-DAYS = int(os.environ.get("DAYS") or "30")
-STATE = "ppt_backfill.json"
+MAX_ITEMS = int(os.environ.get("MAX_ITEMS") or "700")
+DAYS = int(os.environ.get("DAYS") or "180")
+STATE = "ppt_backfill_180.json"
 API = "https://www.pokemonpricetracker.com/api/v2/"
 
 tracked = json.load(open("tracked.json"))
 state = json.load(open(STATE)) if os.path.exists(STATE) else {}
-for k, v in (("history", {}), ("not_found", []), ("card_ids", []), ("card_samples", [])):
+for k, v in (("history", {}), ("not_found", []), ("card_ids", []), ("card_samples", []), ("cands", {}), ("jp_tried", [])):
     state.setdefault(k, v)
 done = set(state["history"]) | set(state["not_found"])
 order = sorted(tracked, key=lambda k: (k.startswith("k-"), k))
 todo = [k for k in order if k not in done]
 print(f"{len(done)} done, {len(todo)} to go, doing up to {MAX_ITEMS}")
 
-def get(path, pid):
-    url = f"{API}{path}?tcgPlayerId={pid}&includeHistory=true&days={DAYS}&limit=1"
+def get(path, pid, lang=None):
+    url = f"{API}{path}?tcgPlayerId={pid}&includeHistory=true&days={DAYS}&maxDataPoints=200&limit=1" + (f"&language={lang}" if lang else "")
     req = urllib.request.Request(url, headers={"Authorization": f"Bearer {KEY}"})
     for attempt in range(3):
         try:
@@ -55,16 +55,37 @@ def series(h, variant):
             if s: return s
     return []
 
+def cands_of(h, label=""):
+    """Flatten a priceHistory blob into {label: [[date, price], ...]} (every variant/condition series)."""
+    out = {}
+    if isinstance(h, list):
+        pts = series(h, None)
+        if pts: out[label or "_"] = pts
+    elif isinstance(h, dict):
+        for k, v in h.items():
+            out.update(cands_of(v, f"{label}/{k}" if label else str(k)))
+    return out
+
+# redo cards that have no saved candidates, and retry not_found items in Japanese
+cardset = set(state["card_ids"])
+redo = [k for k in order if k in cardset and k not in state["cands"]]
+retry_jp = [k for k in state["not_found"] if k not in state["jp_tried"]]
+todo = [k for k in order if k not in done] + redo + retry_jp
 n = 0
 for lid in todo:
     if n >= MAX_ITEMS: break
     t = tracked[lid]; pid = t.get("productId")
     if not pid:
         state["not_found"].append(lid); continue
-    is_card = lid.startswith("k-")
+    is_card = lid.startswith("k-") or lid in cardset
+    jp = lid in retry_jp
+    if jp:
+        state["jp_tried"].append(lid)
+        if lid in state["not_found"]: state["not_found"].remove(lid)
     pts, sample = [], None
-    for path in (("cards",) if is_card else ("sealed-products", "cards")):
-        code, body = get(path, pid)
+    combos = [("cards", None)] if is_card else [("sealed-products", None), ("cards", None), ("sealed-products", "japanese")]
+    for path, lang in combos:
+        code, body = get(path, pid, lang)
         if code != 200:
             print(f"STOP at {lid}: HTTP {code} {body}")
             json.dump(state, open(STATE, "w"), separators=(",", ":")); sys.exit(0)
@@ -75,7 +96,9 @@ for lid in todo:
         if path == "cards":
             sample = json.dumps(data[0])[:2500]
             pts = series(data[0].get("priceHistory"), t.get("variant"))
-            if pts: state["card_ids"].append(lid)
+            c = cands_of(data[0].get("priceHistory"))
+            if c: state["cands"][lid] = c
+            if pts and lid not in cardset: state["card_ids"].append(lid)
         else:
             pts = series(data[0].get("priceHistory"), None)
         if pts: break
@@ -83,7 +106,7 @@ for lid in todo:
         state["history"][lid] = pts
     else:
         state["not_found"].append(lid)
-    if sample and len(state["card_samples"]) < 3:
+    if sample and len(state["card_samples"]) < 3 and not redo:
         state["card_samples"].append({"id": lid, "extracted_points": len(pts), "raw": sample})
         print(f"CARD SAMPLE {lid}: extracted {len(pts)} points; raw: {sample[:900]}")
 
