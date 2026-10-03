@@ -67,10 +67,22 @@ def pick(rows, variant):
         m = [r for r in rows if r["subTypeName"] == variant]
         if m: return m[0]
     if len(rows) == 1: return rows[0]
-    for pref in ("Normal", "Unlimited Holofoil", "Holofoil"):
+    # No pinned variant, and more than one subtype came back for this product:
+    # which one TCGplayer's API lists first is NOT stable day to day, so picking
+    # rows[0] made prices flap between prints (e.g. Normal vs Reverse Holofoil)
+    # on unrelated runs. Widened, deterministic preference order first; if none
+    # match, fall back to a stable alphabetical sort instead of API order, and
+    # warn so an ambiguous product can get a "variant" pinned in tracked.json.
+    for pref in ("Normal", "Unlimited Holofoil", "Holofoil", "Reverse Holofoil",
+                 "1st Edition Holofoil", "1st Edition", "Unlimited"):
         m = [r for r in rows if r["subTypeName"] == pref]
         if m: return m[0]
-    return rows[0]
+    subtypes = sorted(set(r["subTypeName"] for r in rows))
+    pid = rows[0]["productId"]
+    print(f"WARN ambiguous subtypes {subtypes} for productId {pid}; no preference "
+          "matched, picking alphabetically first (pin a variant in tracked.json to fix)",
+          file=sys.stderr)
+    return sorted(rows, key=lambda r: r["subTypeName"])[0]
 
 out, unresolved = {}, []
 for lid, t in tracked.items():
