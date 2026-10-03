@@ -1,0 +1,23 @@
+name: PPT backfill
+on:
+  workflow_dispatch:
+    inputs:
+      max_items:
+        description: "Max API calls this run"
+        default: "400"
+permissions:
+  contents: write
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python ppt_backfill.py
+        env:
+          PPT_KEY: ${{ secrets.PPT_KEY }}
+          MAX_ITEMS: ${{ inputs.max_items || '400' }}
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add ppt_backfill.json
+          git diff --cached --quiet || (git commit -m "PPT backfill progress" && git push)
