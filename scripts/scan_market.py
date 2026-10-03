@@ -9,7 +9,7 @@ BASE = "https://tcgcsv.com/tcgplayer"
 CATS = {3: "Pokemon", 85: "Pokemon Japan", 71: "Lorcana"}
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MIN_MARKET, MAX_MARKET = 15.0, 1500.0
-KEEP_SNAPSHOTS = 12
+KEEP_SNAPSHOTS = 400
 TODAY = datetime.date.today()
 
 def get(url, tries=4):
@@ -103,6 +103,7 @@ def main():
     os.makedirs(os.path.join(ROOT, "snapshots"), exist_ok=True)
     snap = {str(r["pid"]): [r["market"], r["low"]] for r in rows}
     json.dump(snap, open(os.path.join(ROOT, f"snapshots/{TODAY}.json"), "w"), separators=(",", ":"))
+    json.dump(snap, open(os.path.join(ROOT, "snap_latest.json"), "w"), separators=(",", ":"))
     files = sorted(glob.glob(os.path.join(ROOT, "snapshots/*.json")))
     for f in files[:-KEEP_SNAPSHOTS]: os.remove(f)
 
