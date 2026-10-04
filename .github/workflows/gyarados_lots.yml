@@ -1,0 +1,24 @@
+name: Gyarados lot scan
+on:
+  schedule:
+    - cron: "30 14 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/scan_ebay_gyarados.py
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+      - run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add ebay_gyarados.json
+          git diff --cached --quiet || git commit -m "gyarados lot scan"
+          git pull --rebase && git push
