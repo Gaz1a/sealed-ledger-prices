@@ -18,7 +18,16 @@ def seed_from_probe():
     return out
 
 watch = load("graded_watch.json", None) or seed_from_probe()
-json.dump(watch, open("graded_watch.json", "w"), indent=1)  # edit this file to add cards
+# auto-extend watch with ledger cards worth ≥ $10 (singles, kanto holos, gyarados/magikarp)
+tracked, prices = load("tracked.json", {}), load("prices.json", {}).get("prices", {})
+have = {str(c["productId"]) for c in watch}
+for lid, t in tracked.items():
+    if not lid.startswith(("k-", "gy-", "mk-", "s-")): continue
+    pid = t.get("productId")
+    if not pid or str(pid) in have: continue
+    if (prices.get(lid) or {}).get("market", 0) < 10: continue
+    watch.append({"id": lid, "name": t.get("title") or lid, "productId": pid}); have.add(str(pid))
+json.dump(watch, open("graded_watch.json", "w"), indent=1)
 
 def num(x):
     try: return float(x)
