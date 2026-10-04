@@ -1,9 +1,1 @@
-Traceback (most recent call last):
-  File "/home/runner/work/sealed-ledger-prices/sealed-ledger-prices/scripts/scan_ebay_gyarados.py", line 67, in <module>
-    main()
-  File "/home/runner/work/sealed-ledger-prices/sealed-ledger-prices/scripts/scan_ebay_gyarados.py", line 48, in main
-    cands.sort(key=lambda h: float(h["price"]["value"]))
-  File "/home/runner/work/sealed-ledger-prices/sealed-ledger-prices/scripts/scan_ebay_gyarados.py", line 48, in <lambda>
-    cands.sort(key=lambda h: float(h["price"]["value"]))
-                                   ~^^^^^^^^^
-KeyError: 'price'
+30 candidates
