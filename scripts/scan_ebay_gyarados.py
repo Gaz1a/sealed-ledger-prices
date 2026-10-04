@@ -25,6 +25,11 @@ def get(url, headers=None, tries=3):
             if i == tries - 1: print("FAIL", url[:90], e, file=sys.stderr); return None
             time.sleep(2 * (i + 1))
 
+def pr(h):
+    p = h.get("price") or h.get("currentBidPrice") or {}
+    try: return float(p["value"])
+    except Exception: return None
+
 def token():
     if not CID or not CSEC: sys.exit("EBAY_CLIENT_ID / EBAY_CLIENT_SECRET not set")
     auth = base64.b64encode(f"{CID}:{CSEC}".encode()).decode()
@@ -44,8 +49,9 @@ def main():
             if iid in seen or not NAME.search(t) or not LOT.search(t) or BAD.search(t): continue
             sel = h.get("seller", {})
             if (sel.get("feedbackScore") or 0) < MIN_FB or float(sel.get("feedbackPercentage") or 0) < MIN_PCT: continue
+            if pr(h) is None: continue
             seen.add(iid); cands.append(h)
-    cands.sort(key=lambda h: float(h["price"]["value"]))
+    cands.sort(key=pr)
     out = []
     for h in cands[:MAX_DETAIL]:
         d = get(f"https://api.ebay.com/buy/browse/v1/item/{urllib.parse.quote(h['itemId'], safe='')}", H) or {}
@@ -55,7 +61,7 @@ def main():
         desc = html.unescape(re.sub(r"<[^>]+>", " ", d.get("description") or d.get("shortDescription") or ""))
         photos = [h.get("image", {}).get("imageUrl")] + [i.get("imageUrl") for i in (d.get("additionalImages") or h.get("additionalImages") or [])]
         out.append({"itemId": h["itemId"], "title": h["title"], "url": h.get("itemWebUrl"),
-            "price": float(h["price"]["value"]), "shipping": ship,
+            "price": pr(h), "shipping": ship,
             "buyingOptions": h.get("buyingOptions"), "itemEndDate": h.get("itemEndDate"),
             "seller": h.get("seller", {}).get("username"), "feedbackScore": h.get("seller", {}).get("feedbackScore"),
             "feedbackPct": h.get("seller", {}).get("feedbackPercentage"),
