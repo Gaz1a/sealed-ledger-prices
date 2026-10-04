@@ -11,7 +11,7 @@ MIN_FB, MIN_PCT = 50, 97.0
 MAX_LOT_DETAIL = 60
 NOISE = re.compile(r"\bpsa\b|\bcgc\b|\bbgs\b|\bgraded\b|\bslab\b|\breprint\b|\bcustom\b|\bproxy\b|\bfake\b|\bplush\b|"
                    r"\bfigure\b|\bfunko\b|\bsticker\b|\bjumbo\b|\boversized?\b|\bjapanese\b|\bkorean\b|\bchinese\b|"
-                   r"\bdigital\b|\bcode card\b|\bdamaged\b|\bheavily played\b|\bpoor\b|\bhp\b|\bmp\b|\bmetal card\b|\bfan ?art\b", re.I)
+                   r"\bdigital\b|\bcode card\b|\bdamaged\b|\bheavily played\b|\bpoor\b|\bhp\b|\bmp\b|\bmetal card\b|\bfan ?art\b|\blp\b|\bplayed\b|\bmoderately\b|\bdmg\b|\bcreased?\b", re.I)
 LOT = re.compile(r"\blots?\b|\bbundle\b|\bcollection\b|\bx\s?\d+\b|\b\d+\s?(cards?|pcs|pieces)\b|\bcomplete\b|\bholos?\b", re.I)
 LOTQ = ["gyarados lot pokemon cards", "magikarp lot pokemon cards", "gyarados magikarp lot",
         "base set holo lot", "jungle holo lot", "fossil holo lot", "team rocket holo lot",
@@ -83,7 +83,8 @@ def main():
     for wid, w in W.items():
         if not w["market"] or w["market"] < 8: continue   # cheap commons are only worth buying inside lots
         q = f"{w['name']} {w['num']}" if w["num"] else w["clean"]
-        filt = f"price:[{max(2, round(w['market'] * 0.35))}..{round(w['market'] * 1.6)}],priceCurrency:USD,buyingOptions:{{FIXED_PRICE|AUCTION}}"
+        filt = f"price:[{max(2, round(w['market'] * 0.50))}..{round(w['market'] * 1.6)}],priceCurrency:USD,buyingOptions:{{FIXED_PRICE|AUCTION}}"
+        kept = 0
         nq += 1
         for h in search(q, H, filt, 40, 0, "price"):
             t = h.get("title", "")
@@ -95,6 +96,8 @@ def main():
             if price is None: continue
             all_in = round((price + (sh or 0)) * TAX, 2)
             if all_in > w["target"] * 1.15: continue
+            if kept >= 4: break
+            kept += 1
             seen.add(h["itemId"])
             singles.append({"wantId": wid, "want": w["title"], "market": w["market"], "target": w["target"],
                 "title": t, "url": h.get("itemWebUrl"), "price": price, "shipping": sh, "shipUnknown": sh is None, "allIn": all_in,
