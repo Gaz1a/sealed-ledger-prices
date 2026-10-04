@@ -96,7 +96,7 @@ def main():
             if price is None: continue
             all_in = round((price + (sh or 0)) * TAX, 2)
             if all_in > w["target"] * 1.15: continue
-            if kept >= 4: break
+            if kept >= 2: break
             kept += 1
             seen.add(h["itemId"])
             singles.append({"wantId": wid, "want": w["title"], "market": w["market"], "target": w["target"],
