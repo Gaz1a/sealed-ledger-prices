@@ -35,8 +35,9 @@ for name,pid in cards.items():
     rl={k:v for k,v in hdr.items() if any(s in k.lower() for s in ("credit","ratelimit","remaining","limit"))}
     row={"productId":pid,"status":st,"limits":rl}
     if isinstance(d,dict):
-        data=d.get("data") if isinstance(d.get("data"),list) else None
-        c=data[0] if data else d
+        dd=d.get("data")
+        c=dd[0] if isinstance(dd,list) and dd else (dd if isinstance(dd,dict) else d)
+        row["dataType"]=type(dd).__name__
         if isinstance(c,dict):
             row["topKeys"]=sorted(c.keys())
             row["ebay"]=json.dumps(c.get("ebay"))[:6000] if c.get("ebay") is not None else None
