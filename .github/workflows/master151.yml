@@ -1,0 +1,16 @@
+name: Master set 151
+on:
+  schedule: [{cron: "40 9 * * *"}]
+  workflow_dispatch:
+permissions: {contents: write}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/master151.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
+          git add master151.json
+          git diff --cached --quiet || (git commit -m "master151 $(date -u +%F)" && git push)

@@ -1,0 +1,14 @@
+name: Resolve product ids
+on: workflow_dispatch
+permissions: {contents: write}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/resolve_ids.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
+          git add resolve_candidates.json
+          git diff --cached --quiet || (git commit -m "resolve candidates" && git push)
