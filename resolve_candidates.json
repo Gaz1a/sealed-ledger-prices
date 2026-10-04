@@ -1,54 +1,284 @@
 {
- "h-fpic2": [],
- "h-greninja": [],
- "h-lumiose": [],
- "h-moonlit": [],
- "h-cr-box": [],
- "h-po-box": [],
- "h-pb-box": [
+ "h-fpic2": [
   {
-   "set": "ME06: Delta Reign",
-   "productId": 712094,
-   "name": "Delta Reign Booster Box",
-   "market": 261.41
+   "set": "First Partner Collection 2026",
+   "groupId": 24584,
+   "productId": 688712,
+   "name": "First Partner Illustration Collection (Series 2)",
+   "market": 25.75
   },
   {
-   "set": "ME06: Delta Reign",
-   "productId": 712095,
-   "name": "Delta Reign Half Booster Box",
+   "set": "First Partner Collection 2026",
+   "groupId": 24584,
+   "productId": 688716,
+   "name": "First Partner Illustration Collection Case (Series 2)",
+   "market": 152.95
+  },
+  {
+   "set": "First Partner Collection 2026",
+   "groupId": 24584,
+   "productId": 701484,
+   "name": "First Partner Collection 2026 Series 2 Booster Pack",
+   "market": 18.73
+  },
+  {
+   "set": "First Partner Collection 2026",
+   "groupId": 24584,
+   "productId": 701594,
+   "name": "Code Card - First Partner Illustration Collection (Series 2)",
+   "market": 0.14
+  }
+ ],
+ "h-greninja": [
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 594491,
+   "name": "Greninja ex Ultra-Premium Collection",
+   "market": 493.48
+  },
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 616246,
+   "name": "Code Card - Greninja ex Ultra-Premium Collection",
+   "market": 0.99
+  },
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 690660,
+   "name": "Mega Greninja ex Premium Collection",
+   "market": 49.75
+  },
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 690661,
+   "name": "Mega Greninja ex Premium Collection Case",
+   "market": 227.52
+  }
+ ],
+ "h-lumiose": [
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 685574,
+   "name": "Lumiose City Mini Tin Display",
+   "market": 112.27
+  },
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 685575,
+   "name": "Lumiose City Mini Tin [Salamence & Litleo]",
+   "market": 14.65
+  },
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 685576,
+   "name": "Lumiose City Mini Tin [Meganium & Meowstic]",
+   "market": 14.87
+  },
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 685577,
+   "name": "Lumiose City Mini Tin [Emboar & Inkay]",
+   "market": 14.24
+  },
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 685578,
+   "name": "Lumiose City Mini Tin [Feraligatr & Budew]",
+   "market": 16.78
+  },
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 685579,
+   "name": "Lumiose City Mini Tin [Gallade & Goomy]",
+   "market": 14.31
+  },
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 685580,
+   "name": "Lumiose City Mini Tin [Set of 5]",
+   "market": 62.96
+  },
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 685581,
+   "name": "Lumiose City Mini Tin Display Case",
+   "market": 449.44
+  },
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 713210,
+   "name": "Code Card -  Lumiose City Mini Tin digital bundle",
+   "market": 0.05
+  }
+ ],
+ "h-moonlit": [
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 686437,
+   "name": "Mega Moonlit Tin [Mega Gengar ex]",
+   "market": 34.19
+  },
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 686438,
+   "name": "Mega Moonlit Tin [Mega Clefable ex]",
+   "market": 26.7
+  },
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 686439,
+   "name": "Mega Moonlit Tin Case",
+   "market": 139.64
+  },
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 696609,
+   "name": "Code Card - Mega Moonlit Tin [Mega Clefable ex]",
+   "market": 0.12
+  },
+  {
+   "set": "Miscellaneous Cards & Products",
+   "groupId": 2374,
+   "productId": 696610,
+   "name": "Code Card - Mega Moonlit Tin [Mega Gengar ex]",
+   "market": 0.13
+  }
+ ],
+ "h-cr-box": [
+  {
+   "set": "ME04: Chaos Rising",
+   "groupId": 24655,
+   "productId": 684444,
+   "name": "Chaos Rising Booster Box",
+   "market": 191.32
+  },
+  {
+   "set": "ME04: Chaos Rising",
+   "groupId": 24655,
+   "productId": 684445,
+   "name": "Chaos Rising Booster Box Case",
+   "market": 1112.46
+  },
+  {
+   "set": "ME04: Chaos Rising",
+   "groupId": 24655,
+   "productId": 695395,
+   "name": "Chaos Rising Half Booster Box",
+   "market": null
+  }
+ ],
+ "h-pb-box": [
+  {
+   "set": "ME05: Pitch Black",
+   "groupId": 24688,
+   "productId": 692939,
+   "name": "Pitch Black Booster Box",
+   "market": 190.75
+  },
+  {
+   "set": "ME05: Pitch Black",
+   "groupId": 24688,
+   "productId": 692940,
+   "name": "Pitch Black Half Booster Boxes",
    "market": null
   },
   {
-   "set": "ME06: Delta Reign",
-   "productId": 712096,
-   "name": "Delta Reign Booster Box Case",
-   "market": 1630.62
+   "set": "ME05: Pitch Black",
+   "groupId": 24688,
+   "productId": 692941,
+   "name": "Pitch Black Booster Box Case",
+   "market": 1084.4
+  }
+ ],
+ "h-po-box": [
+  {
+   "set": "ME03: Perfect Order",
+   "groupId": 24587,
+   "productId": 672394,
+   "name": "Perfect Order Booster Box",
+   "market": 173.57
+  },
+  {
+   "set": "ME03: Perfect Order",
+   "groupId": 24587,
+   "productId": 672395,
+   "name": "Perfect Order Booster Box Case",
+   "market": 1000.75
+  },
+  {
+   "set": "ME03: Perfect Order",
+   "groupId": 24587,
+   "productId": 672403,
+   "name": "Perfect Order Half Booster Boxes",
+   "market": null
+  },
+  {
+   "set": "ME03: Perfect Order",
+   "groupId": 24587,
+   "productId": 672414,
+   "name": "Code Card - Perfect Order Booster Box",
+   "market": 0.21
+  },
+  {
+   "set": "ME03: Perfect Order",
+   "groupId": 24587,
+   "productId": 672419,
+   "name": "Code Card - Perfect Order Half Booster Boxes",
+   "market": null
   }
  ],
  "ah-etb": [
   {
-   "set": "ME06: Delta Reign",
-   "productId": 712102,
-   "name": "Delta Reign Elite Trainer Box",
-   "market": 133.1
+   "set": "ME: Ascended Heroes",
+   "groupId": 24541,
+   "productId": 668496,
+   "name": "Ascended Heroes Elite Trainer Box",
+   "market": 157.71
   },
   {
-   "set": "ME06: Delta Reign",
-   "productId": 712103,
-   "name": "Delta Reign Elite Trainer Box Case",
-   "market": 1262.9
+   "set": "ME: Ascended Heroes",
+   "groupId": 24541,
+   "productId": 668497,
+   "name": "Ascended Heroes Pokemon Center Elite Trainer Box (Exclusive)",
+   "market": 353.68
   },
   {
-   "set": "ME06: Delta Reign",
-   "productId": 712104,
-   "name": "Delta Reign Pokemon Center Elite Trainer Box (Exclusive)",
-   "market": 531.63
+   "set": "ME: Ascended Heroes",
+   "groupId": 24541,
+   "productId": 679558,
+   "name": "Ascended Heroes Elite Trainer Box Case",
+   "market": 1656.78
   },
   {
-   "set": "ME06: Delta Reign",
-   "productId": 712105,
-   "name": "Delta Reign Pokemon Center Elite Trainer Box Case (Exclusive)",
-   "market": null
+   "set": "ME: Ascended Heroes",
+   "groupId": 24541,
+   "productId": 681582,
+   "name": "Code Card - Ascended Heroes Elite Trainer Box digital bundle",
+   "market": 0.1
+  },
+  {
+   "set": "ME: Ascended Heroes",
+   "groupId": 24541,
+   "productId": 681583,
+   "name": "Code Card - Ascended Heroes Pokemon Center Elite Trainer Box digital bundle",
+   "market": 2.97
   }
  ]
 }
