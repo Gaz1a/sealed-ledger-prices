@@ -83,7 +83,7 @@ def main():
     for wid, w in W.items():
         if not w["market"] or w["market"] < 8: continue   # cheap commons are only worth buying inside lots
         q = f"{w['name']} {w['num']}" if w["num"] else w["clean"]
-        filt = f"price:[1..{round(w['market'] * 1.6)}],priceCurrency:USD,buyingOptions:{{FIXED_PRICE|AUCTION}}"
+        filt = f"price:[{max(2, round(w['market'] * 0.35))}..{round(w['market'] * 1.6)}],priceCurrency:USD,buyingOptions:{{FIXED_PRICE|AUCTION}}"
         nq += 1
         for h in search(q, H, filt, 40, 0, "price"):
             t = h.get("title", "")
