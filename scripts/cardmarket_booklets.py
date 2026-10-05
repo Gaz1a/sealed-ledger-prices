@@ -16,6 +16,10 @@ try:
     fx = get("https://api.frankfurter.app/latest?from=EUR&to=USD")["rates"]["USD"]
 except Exception:
     fx = None
+raw = {n: guide.get(i) for i, n in hits.items()}
+json.dump(raw, open("booklets_raw.json", "w"), indent=1, ensure_ascii=False)
+first = next((n for n in raw if raw[n]), None)
+print("RAW ENTRY:", first, json.dumps(raw.get(first), indent=1), file=sys.stderr)
 out = {"generated": datetime.date.today().isoformat(), "fx": fx, "decks": {}}
 for i, n in hits.items():
     g = guide.get(i, {})
