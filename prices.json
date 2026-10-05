@@ -1,6 +1,6 @@
 {
- "count": 261,
- "generated": "2026-10-05T23:06:05Z",
+ "count": 264,
+ "generated": "2026-10-05T23:23:43Z",
  "prices": {
   "ah-bundle": {
    "low": 74.51,
@@ -1722,6 +1722,27 @@
    "market": 260.35,
    "mid": 344.92,
    "productId": 622770,
+   "subType": "Normal"
+  },
+  "rp-668541": {
+   "low": 74.51,
+   "market": 83.93,
+   "mid": 92.85,
+   "productId": 668541,
+   "subType": "Normal"
+  },
+  "rp-672733": {
+   "low": 48.52,
+   "market": 56.08,
+   "mid": 64.88,
+   "productId": 672733,
+   "subType": "Normal"
+  },
+  "rp-692947": {
+   "low": 59.99,
+   "market": 76.12,
+   "mid": 84.96,
+   "productId": 692947,
    "subType": "Normal"
   },
   "s-cc-zard": {
