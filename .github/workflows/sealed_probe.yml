@@ -1,0 +1,19 @@
+name: Sealed probe
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/sealed_probe.py
+        env:
+          PPT_KEY: ${{ secrets.PPT_KEY }}
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add sealed_probe.json
+          git commit -m "Sealed probe result" || exit 0
+          git push
