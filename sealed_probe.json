@@ -1,0 +1,200 @@
+{
+ "565250": {
+  "label": "Paradigm Trigger BB",
+  "tries": {
+   "cards_ebay": {
+    "status": 200,
+    "has_ebay": true,
+    "has_sales": false,
+    "shape": {
+     "data": [],
+     "metadata": {
+      "total": "int",
+      "count": "int",
+      "limit": "int",
+      "offset": "int",
+      "hasMore": "bool",
+      "language": "str",
+      "includes": {
+       "priceHistory": "bool",
+       "ebayData": "bool",
+       "cardmarketData": "bool"
+      },
+      "historyWindow": {
+       "days": "int",
+       "from": "str",
+       "to": "str",
+       "maxDataPoints": "int",
+       "granularityNote": "str"
+      },
+      "apiCallsConsumed": {
+       "total": "int",
+       "breakdown": "dict",
+       "costPerCard": "int"
+      }
+     }
+    },
+    "sample": "{\"data\": [], \"metadata\": {\"total\": 0, \"count\": 0, \"limit\": 1, \"offset\": 0, \"hasMore\": false, \"language\": \"english\", \"includes\": {\"priceHistory\": false, \"ebayData\": true, \"cardmarketData\": false}, \"historyWindow\": {\"days\": 30, \"from\": \"2026-09-05\", \"to\": \"2026-10-05\", \"maxDataPoints\": 180, \"granularityNote\": \"Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply).\"}, \"apiCallsConsumed\": {\"total\": 2, \"breakdown\": {\"cards\": 1, \"history\": 0, \"ebay\": 1, \"cardmarket\": 0}, \"costPerCard\": 2}}}"
+   },
+   "sealed_ebay": {
+    "status": 400,
+    "has_ebay": true,
+    "has_sales": false,
+    "shape": {
+     "error": "str"
+    },
+    "sample": "{\"error\": \"{\\\"error\\\":\\\"Invalid parameter(s)\\\",\\\"message\\\":\\\"Unsupported query parameter(s): includeEbay\\\",\\\"allowedParameters\\\":[\\\"tcgPlayerId\\\",\\\"search\\\",\\\"setId\\\",\\\"setName\\\",\\\"set\\\",\\\"minPrice\\\",\\\"maxPrice\\\",\\\"limit\\\",\\\"offset\\\",\\\"sortBy\\\",\\\"sortOrder\\\",\\\"includeHistory\\\",\\\"days\\\",\\\"fetchAllInSet\\\",\\\"language\\\"],\\\"documentation\\\":\\\"https://www.pok\"}"
+   },
+   "sealed_ebay_b": {
+    "status": 404,
+    "has_ebay": false,
+    "has_sales": false,
+    "shape": {
+     "error": "str"
+    },
+    "sample": "{\"error\": \"{\\\"error\\\":\\\"Not found\\\"}\"}"
+   },
+   "sealed_search": {
+    "status": 400,
+    "has_ebay": true,
+    "has_sales": false,
+    "shape": {
+     "error": "str"
+    },
+    "sample": "{\"error\": \"{\\\"error\\\":\\\"Invalid parameter(s)\\\",\\\"message\\\":\\\"Unsupported query parameter(s): includeEbay\\\",\\\"allowedParameters\\\":[\\\"tcgPlayerId\\\",\\\"search\\\",\\\"setId\\\",\\\"setName\\\",\\\"set\\\",\\\"minPrice\\\",\\\"maxPrice\\\",\\\"limit\\\",\\\"offset\\\",\\\"sortBy\\\",\\\"sortOrder\\\",\\\"includeHistory\\\",\\\"days\\\",\\\"fetchAllInSet\\\",\\\"language\\\"],\\\"documentation\\\":\\\"https://www.pok\"}"
+   }
+  }
+ },
+ "565236": {
+  "label": "Ruler of the Black Flame BB",
+  "tries": {
+   "cards_ebay": {
+    "status": 200,
+    "has_ebay": true,
+    "has_sales": false,
+    "shape": {
+     "data": [],
+     "metadata": {
+      "total": "int",
+      "count": "int",
+      "limit": "int",
+      "offset": "int",
+      "hasMore": "bool",
+      "language": "str",
+      "includes": {
+       "priceHistory": "bool",
+       "ebayData": "bool",
+       "cardmarketData": "bool"
+      },
+      "historyWindow": {
+       "days": "int",
+       "from": "str",
+       "to": "str",
+       "maxDataPoints": "int",
+       "granularityNote": "str"
+      },
+      "apiCallsConsumed": {
+       "total": "int",
+       "breakdown": "dict",
+       "costPerCard": "int"
+      }
+     }
+    },
+    "sample": "{\"data\": [], \"metadata\": {\"total\": 0, \"count\": 0, \"limit\": 1, \"offset\": 0, \"hasMore\": false, \"language\": \"english\", \"includes\": {\"priceHistory\": false, \"ebayData\": true, \"cardmarketData\": false}, \"historyWindow\": {\"days\": 30, \"from\": \"2026-09-05\", \"to\": \"2026-10-05\", \"maxDataPoints\": 180, \"granularityNote\": \"Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply).\"}, \"apiCallsConsumed\": {\"total\": 2, \"breakdown\": {\"cards\": 1, \"history\": 0, \"ebay\": 1, \"cardmarket\": 0}, \"costPerCard\": 2}}}"
+   },
+   "sealed_ebay": {
+    "status": 400,
+    "has_ebay": true,
+    "has_sales": false,
+    "shape": {
+     "error": "str"
+    },
+    "sample": "{\"error\": \"{\\\"error\\\":\\\"Invalid parameter(s)\\\",\\\"message\\\":\\\"Unsupported query parameter(s): includeEbay\\\",\\\"allowedParameters\\\":[\\\"tcgPlayerId\\\",\\\"search\\\",\\\"setId\\\",\\\"setName\\\",\\\"set\\\",\\\"minPrice\\\",\\\"maxPrice\\\",\\\"limit\\\",\\\"offset\\\",\\\"sortBy\\\",\\\"sortOrder\\\",\\\"includeHistory\\\",\\\"days\\\",\\\"fetchAllInSet\\\",\\\"language\\\"],\\\"documentation\\\":\\\"https://www.pok\"}"
+   },
+   "sealed_ebay_b": {
+    "status": 404,
+    "has_ebay": false,
+    "has_sales": false,
+    "shape": {
+     "error": "str"
+    },
+    "sample": "{\"error\": \"{\\\"error\\\":\\\"Not found\\\"}\"}"
+   },
+   "sealed_search": {
+    "status": 400,
+    "has_ebay": true,
+    "has_sales": false,
+    "shape": {
+     "error": "str"
+    },
+    "sample": "{\"error\": \"{\\\"error\\\":\\\"Invalid parameter(s)\\\",\\\"message\\\":\\\"Unsupported query parameter(s): includeEbay\\\",\\\"allowedParameters\\\":[\\\"tcgPlayerId\\\",\\\"search\\\",\\\"setId\\\",\\\"setName\\\",\\\"set\\\",\\\"minPrice\\\",\\\"maxPrice\\\",\\\"limit\\\",\\\"offset\\\",\\\"sortBy\\\",\\\"sortOrder\\\",\\\"includeHistory\\\",\\\"days\\\",\\\"fetchAllInSet\\\",\\\"language\\\"],\\\"documentation\\\":\\\"https://www.pok\"}"
+   }
+  }
+ },
+ "565248": {
+  "label": "Triple Beat BB",
+  "tries": {
+   "cards_ebay": {
+    "status": 200,
+    "has_ebay": true,
+    "has_sales": false,
+    "shape": {
+     "data": [],
+     "metadata": {
+      "total": "int",
+      "count": "int",
+      "limit": "int",
+      "offset": "int",
+      "hasMore": "bool",
+      "language": "str",
+      "includes": {
+       "priceHistory": "bool",
+       "ebayData": "bool",
+       "cardmarketData": "bool"
+      },
+      "historyWindow": {
+       "days": "int",
+       "from": "str",
+       "to": "str",
+       "maxDataPoints": "int",
+       "granularityNote": "str"
+      },
+      "apiCallsConsumed": {
+       "total": "int",
+       "breakdown": "dict",
+       "costPerCard": "int"
+      }
+     }
+    },
+    "sample": "{\"data\": [], \"metadata\": {\"total\": 0, \"count\": 0, \"limit\": 1, \"offset\": 0, \"hasMore\": false, \"language\": \"english\", \"includes\": {\"priceHistory\": false, \"ebayData\": true, \"cardmarketData\": false}, \"historyWindow\": {\"days\": 30, \"from\": \"2026-09-05\", \"to\": \"2026-10-05\", \"maxDataPoints\": 180, \"granularityNote\": \"Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply).\"}, \"apiCallsConsumed\": {\"total\": 2, \"breakdown\": {\"cards\": 1, \"history\": 0, \"ebay\": 1, \"cardmarket\": 0}, \"costPerCard\": 2}}}"
+   },
+   "sealed_ebay": {
+    "status": 400,
+    "has_ebay": true,
+    "has_sales": false,
+    "shape": {
+     "error": "str"
+    },
+    "sample": "{\"error\": \"{\\\"error\\\":\\\"Invalid parameter(s)\\\",\\\"message\\\":\\\"Unsupported query parameter(s): includeEbay\\\",\\\"allowedParameters\\\":[\\\"tcgPlayerId\\\",\\\"search\\\",\\\"setId\\\",\\\"setName\\\",\\\"set\\\",\\\"minPrice\\\",\\\"maxPrice\\\",\\\"limit\\\",\\\"offset\\\",\\\"sortBy\\\",\\\"sortOrder\\\",\\\"includeHistory\\\",\\\"days\\\",\\\"fetchAllInSet\\\",\\\"language\\\"],\\\"documentation\\\":\\\"https://www.pok\"}"
+   },
+   "sealed_ebay_b": {
+    "status": 404,
+    "has_ebay": false,
+    "has_sales": false,
+    "shape": {
+     "error": "str"
+    },
+    "sample": "{\"error\": \"{\\\"error\\\":\\\"Not found\\\"}\"}"
+   },
+   "sealed_search": {
+    "status": 400,
+    "has_ebay": true,
+    "has_sales": false,
+    "shape": {
+     "error": "str"
+    },
+    "sample": "{\"error\": \"{\\\"error\\\":\\\"Invalid parameter(s)\\\",\\\"message\\\":\\\"Unsupported query parameter(s): includeEbay\\\",\\\"allowedParameters\\\":[\\\"tcgPlayerId\\\",\\\"search\\\",\\\"setId\\\",\\\"setName\\\",\\\"set\\\",\\\"minPrice\\\",\\\"maxPrice\\\",\\\"limit\\\",\\\"offset\\\",\\\"sortBy\\\",\\\"sortOrder\\\",\\\"includeHistory\\\",\\\"days\\\",\\\"fetchAllInSet\\\",\\\"language\\\"],\\\"documentation\\\":\\\"https://www.pok\"}"
+   }
+  }
+ }
+}
