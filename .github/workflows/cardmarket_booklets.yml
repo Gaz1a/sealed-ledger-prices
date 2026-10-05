@@ -1,0 +1,16 @@
+name: Booklet half deck prices
+on:
+  schedule:
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/cardmarket_booklets.py
+      - run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add booklets.json && (git diff --cached --quiet || git commit -m "Update booklets.json") && git pull --rebase && git push
