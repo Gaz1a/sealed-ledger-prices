@@ -70,7 +70,7 @@ def main():
         g = gmeta[gid]; pub = (g.get("publishedOn") or "")[:10]
         main_set = pub >= "2023-01-01" and not EXCL.search(g["name"])
         s = norm(g["name"])
-        held = held_pid or any(s == x or (len(x) > 5 and (x in s or s in x)) for x in item_sets)
+        held = held_pid or any(s == x or (len(x) >= 10 and x != "pokemon" and x in s) for x in item_sets)
         if not (main_set or held): continue
         top = sorted([r for r in rows if r["market"] >= MIN_MARKET], key=lambda r: -r["market"])[:PER_SET]
         sets_used[g["name"]] = {"groupId": gid, "released": pub, "held": held, "mainSet2023plus": main_set}
