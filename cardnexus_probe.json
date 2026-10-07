@@ -275,7 +275,7 @@
  },
  "feeds/pokemon/prices (metadata)": {
   "status": 200,
-  "body": "{\"feedType\":\"prices\",\"url\":\"https://cardnexus-feeds-prod.s3.eu-west-1.amazonaws.com/feeds/pokemon/prices.ndjson.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA4LDIKPMC6F6DAFUE%2F20261007%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20261007T184216Z&X-Amz-Expires=3600&X-Amz-Signature=501829b9823f10908c8e2f0f3600de2ca93905a8e5895b81e62f2f2c3796bc80&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject\",\"urlExpiresAt\":\"2026-10-07T19:42:16.326Z\",\"checksum\":\"499f7077076f424d519967e54aef1688cff801dad216091249297b3aa0862b56\",\"sizeBytes\":2097386,\"recordCount\":31278,\"format\":\"ndjson\",\"encoding\":\"gzip\",\"lastRefreshedAt\":\"2026-10-06T02:45:55.983Z\",\"generatedAt\":\"2026-10-06T02:45:55.983Z\"}"
+  "body": "{\"feedType\":\"prices\",\"url\":\"<redacted>\",\"urlExpiresAt\":\"2026-10-07T19:42:16.326Z\",\"checksum\":\"499f7077076f424d519967e54aef1688cff801dad216091249297b3aa0862b56\",\"sizeBytes\":2097386,\"recordCount\":31278,\"format\":\"ndjson\",\"encoding\":\"gzip\",\"lastRefreshedAt\":\"2026-10-06T02:45:55.983Z\",\"generatedAt\":\"2026-10-06T02:45:55.983Z\"}"
  },
  "feed": {
   "status": 200,

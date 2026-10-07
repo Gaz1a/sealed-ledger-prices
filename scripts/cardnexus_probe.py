@@ -1,4 +1,4 @@
-import gzip, json, os, sys, urllib.request, urllib.error
+import gzip, json, os, re, sys, urllib.request, urllib.error
 
 BASE = "https://public-api.cardnexus.com/v1"
 TOKEN = os.environ.get("CARDNEXUS_TOKEN", "")
@@ -37,7 +37,7 @@ def jcall(method, url, body=None):
 def show(label, status, text, n=2000):
     print(f"\n=== {label} -> {status}")
     print(text[:n])
-    OUT[label] = {"status": status, "body": text[:12000]}
+    OUT[label] = {"status": status, "body": re.sub(r'"url":"[^"]*"', '"url":"<redacted>"', text[:12000])}
 
 
 def items_of(j):
