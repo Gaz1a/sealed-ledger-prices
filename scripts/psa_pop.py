@@ -4,14 +4,17 @@ The API has no search: it needs a PSA specID per card (psa_specs.json {cardId: s
 (psa_certs.json {cardId: cert}) from which the specID is read. Rotates through cards; stops on the daily limit."""
 import json, os, sys, time, datetime, urllib.request, urllib.error
 TOKEN = os.environ.get("PSA_TOKEN", "")
-DAILY = int(os.environ.get("PSA_DAILY_LIMIT", "90"))     # PSA's free quota is not documented in the public docs; keep a safe margin
+DAILY = int(os.environ.get("PSA_DAILY_LIMIT", "90"))
+STATE = {}
+try: STATE = json.load(open("psa_find_state.json"))
+except Exception: pass     # PSA's free quota is not documented in the public docs; keep a safe margin
 BASE = "https://api.psacard.com/publicapi"
 TODAY = datetime.date.today().isoformat()
 def load(p, d):
     try: return json.load(open(p))
     except Exception: return d
 class Stop(Exception): pass
-used = 0
+used = STATE.get("callsUsed", 0) if STATE.get("callsDate") == TODAY else 0   # cert lookups by psa_find_specs count against the same daily budget
 def get(path):
     global used
     if used >= DAILY: raise Stop("daily cap")
@@ -39,12 +42,13 @@ def main():
     missing, stop = [], None
     try:
         for cid, v in order:
-            sid = specs.get(cid)
+            ent = specs.get(cid); sid = ent.get("specId") if isinstance(ent, dict) else ent
+            if cards.get(cid, {}).get("asOf") and (datetime.date.today() - datetime.date.fromisoformat(cards[cid]["asOf"])).days < 6: continue   # weekly refresh
             if not sid and certs.get(cid):
                 j = get(f"/cert/GetByCertNumber/{certs[cid]}")
                 c = (j or {}).get("PSACert") or {}
                 sid = c.get("SpecID")
-                if sid: specs[cid] = sid
+                if sid: specs[cid] = {"specId": sid, "cert": certs[cid], "verified": True, "source": "manual-cert"}
             if not sid: missing.append({"id": cid, "name": v["name"], "rawMarket": v["rawMarket"]}); continue
             j = get(f"/pop/GetPSASpecPopulation/{sid}")
             if not isinstance(j, dict): continue
