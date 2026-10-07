@@ -2,7 +2,9 @@
  {
   "id": "Mega Greninja ex SIR 116/086",
   "name": "Mega Greninja ex SIR 116/086",
-  "productId": 693517
+  "productId": 693517,
+  "rawMarket": 133.03,
+  "subtype": "Holofoil"
  },
  {
   "id": "Mewtwo 10/102 holo",
@@ -52,7 +54,9 @@
  {
   "id": "151 Charmander - 168/165",
   "name": "151 Charmander - 168/165",
-  "productId": 502556
+  "productId": 502556,
+  "rawMarket": 92.15,
+  "subtype": "Holofoil"
  },
  {
   "id": "151 Pikachu - 173/165",
@@ -72,12 +76,16 @@
  {
   "id": "151 Charizard ex - 199/165",
   "name": "151 Charizard ex - 199/165",
-  "productId": 517045
+  "productId": 517045,
+  "rawMarket": 327.86,
+  "subtype": "Holofoil"
  },
  {
   "id": "151 Blastoise ex - 200/165",
   "name": "151 Blastoise ex - 200/165",
-  "productId": 517046
+  "productId": 517046,
+  "rawMarket": 121.03,
+  "subtype": "Holofoil"
  },
  {
   "id": "151 Alakazam ex - 201/165",
@@ -412,7 +420,9 @@
  {
   "id": "mk-paldea-evolved-203-193",
   "name": "Magikarp 203/193 (Illustration Rare)",
-  "productId": 497606
+  "productId": 497606,
+  "rawMarket": 352.14,
+  "subtype": "Holofoil"
  },
  {
   "id": "mk-skyridge-75-144",
@@ -422,21 +432,1005 @@
  {
   "id": "s-cc-zard",
   "name": "Charizard \u2014 Classic Collection (Base Set reprint, 30 stamp)",
-  "productId": 714372
+  "productId": 714372,
+  "rawMarket": 139.24,
+  "subtype": "Holofoil"
  },
  {
   "id": "s-darkrai-sir",
   "name": "Mega Darkrai ex \u2014 SIR 116/084",
-  "productId": 704873
+  "productId": 704873,
+  "rawMarket": 157.12,
+  "subtype": "Holofoil"
  },
  {
   "id": "s-drago-sir",
   "name": "Mega Dragonite ex \u2014 SIR 290/217",
-  "productId": 676102
+  "productId": 676102,
+  "rawMarket": 503.43,
+  "subtype": "Holofoil"
  },
  {
   "id": "s-mew-paf",
   "name": "Mew ex \u2014 SIR 232/091 (USGMEN)",
-  "productId": 534919
+  "productId": 534919,
+  "rawMarket": 869.56,
+  "subtype": "Holofoil"
+ },
+ {
+  "id": "c-717607",
+  "name": "Mew - R/RGB R/RGB (ME: 30th Celebration)",
+  "productId": 717607,
+  "rawMarket": 6000.27,
+  "subtype": "Holofoil",
+  "set": "ME: 30th Celebration"
+ },
+ {
+  "id": "c-717608",
+  "name": "Mew - G/RGB G/RGB (ME: 30th Celebration)",
+  "productId": 717608,
+  "rawMarket": 3738.75,
+  "subtype": "Holofoil",
+  "set": "ME: 30th Celebration"
+ },
+ {
+  "id": "c-717605",
+  "name": "Mew ex - 152/128 152/128 (ME: 30th Celebration)",
+  "productId": 717605,
+  "rawMarket": 84.8,
+  "subtype": "Holofoil",
+  "set": "ME: 30th Celebration"
+ },
+ {
+  "id": "c-87026",
+  "name": "Magikarp 67/112 (EX FireRed & LeafGreen)",
+  "productId": 87026,
+  "rawMarket": 199.99,
+  "subtype": "Reverse Holofoil",
+  "set": "EX FireRed & LeafGreen"
+ },
+ {
+  "id": "c-610516",
+  "name": "Umbreon ex - 161/131 161/131 (SV: Prismatic Evolutions)",
+  "productId": 610516,
+  "rawMarket": 1323.45,
+  "subtype": "Holofoil",
+  "set": "SV: Prismatic Evolutions"
+ },
+ {
+  "id": "c-610511",
+  "name": "Sylveon ex - 156/131 156/131 (SV: Prismatic Evolutions)",
+  "productId": 610511,
+  "rawMarket": 472.71,
+  "subtype": "Holofoil",
+  "set": "SV: Prismatic Evolutions"
+ },
+ {
+  "id": "c-610499",
+  "name": "Leafeon ex - 144/131 144/131 (SV: Prismatic Evolutions)",
+  "productId": 610499,
+  "rawMarket": 317.86,
+  "subtype": "Holofoil",
+  "set": "SV: Prismatic Evolutions"
+ },
+ {
+  "id": "c-518861",
+  "name": "Pikachu with Grey Felt Hat 085 (SV: Scarlet & Violet Promo Cards)",
+  "productId": 518861,
+  "rawMarket": 1015.89,
+  "subtype": "Normal",
+  "set": "SV: Scarlet & Violet Promo Cards"
+ },
+ {
+  "id": "c-578146",
+  "name": "Paradise Resort - 150 (World Championships 2024) 150 (SV: Scarlet & Violet Promo Cards)",
+  "productId": 578146,
+  "rawMarket": 597.66,
+  "subtype": "Normal",
+  "set": "SV: Scarlet & Violet Promo Cards"
+ },
+ {
+  "id": "c-649234",
+  "name": "Paradise Resort - 224 (World Championships 2025) [Staff] 224 (SV: Scarlet & Violet Promo Cards)",
+  "productId": 649234,
+  "rawMarket": 369.52,
+  "subtype": "Normal",
+  "set": "SV: Scarlet & Violet Promo Cards"
+ },
+ {
+  "id": "c-84298",
+  "name": "Chimecho (Delta Species) 001/017 (POP Series 4)",
+  "productId": 84298,
+  "rawMarket": 900.0,
+  "subtype": "Normal",
+  "set": "POP Series 4"
+ },
+ {
+  "id": "c-88083",
+  "name": "Pikachu 013/017 (POP Series 4)",
+  "productId": 88083,
+  "rawMarket": 369.63,
+  "subtype": "Holofoil",
+  "set": "POP Series 4"
+ },
+ {
+  "id": "c-84765",
+  "name": "Deoxys (Delta Species) 002/017 (POP Series 4)",
+  "productId": 84765,
+  "rawMarket": 350.0,
+  "subtype": "Holofoil",
+  "set": "POP Series 4"
+ },
+ {
+  "id": "c-535090",
+  "name": "Charizard ex - 234/091 234/091 (SV: Paldean Fates)",
+  "productId": 535090,
+  "rawMarket": 256.32,
+  "subtype": "Holofoil",
+  "set": "SV: Paldean Fates"
+ },
+ {
+  "id": "c-535085",
+  "name": "Gardevoir ex - 233/091 233/091 (SV: Paldean Fates)",
+  "productId": 535085,
+  "rawMarket": 165.23,
+  "subtype": "Holofoil",
+  "set": "SV: Paldean Fates"
+ },
+ {
+  "id": "c-676088",
+  "name": "Pikachu ex - 276/217 276/217 (ME: Ascended Heroes)",
+  "productId": 676088,
+  "rawMarket": 853.47,
+  "subtype": "Holofoil",
+  "set": "ME: Ascended Heroes"
+ },
+ {
+  "id": "c-676096",
+  "name": "Mega Gengar ex - 284/217 284/217 (ME: Ascended Heroes)",
+  "productId": 676096,
+  "rawMarket": 844.02,
+  "subtype": "Holofoil",
+  "set": "ME: Ascended Heroes"
+ },
+ {
+  "id": "c-88644",
+  "name": "Rayquaza ex - 039 (EX Collector's Tin) 039 (Nintendo Promos)",
+  "productId": 88644,
+  "rawMarket": 800.0,
+  "subtype": "Holofoil",
+  "set": "Nintendo Promos"
+ },
+ {
+  "id": "c-213021",
+  "name": "Snorlax - 33/95 (Prerelease) 33/95 (Nintendo Promos)",
+  "productId": 213021,
+  "rawMarket": 499.99,
+  "subtype": "Holofoil",
+  "set": "Nintendo Promos"
+ },
+ {
+  "id": "c-236461",
+  "name": "Ditto - 61/113 (Origins International Game Expo 2007) 61/113 (Nintendo Promos)",
+  "productId": 236461,
+  "rawMarket": 407.14,
+  "subtype": "Normal",
+  "set": "Nintendo Promos"
+ },
+ {
+  "id": "c-681244",
+  "name": "Celebratory Fanfare (Ace Trainer) 028 (ME: Mega Evolution Promo)",
+  "productId": 681244,
+  "rawMarket": 677.16,
+  "subtype": "Normal",
+  "set": "ME: Mega Evolution Promo"
+ },
+ {
+  "id": "c-713257",
+  "name": "Pikachu ex - 107 (30th Celebration) 107 (ME: Mega Evolution Promo)",
+  "productId": 713257,
+  "rawMarket": 400.0,
+  "subtype": "Holofoil",
+  "set": "ME: Mega Evolution Promo"
+ },
+ {
+  "id": "c-714597",
+  "name": "Paradise Resort - 092 (World Championships 2026) 092 (ME: Mega Evolution Promo)",
+  "productId": 714597,
+  "rawMarket": 389.99,
+  "subtype": "Normal",
+  "set": "ME: Mega Evolution Promo"
+ },
+ {
+  "id": "c-662184",
+  "name": "Mega Charizard X ex - 125/094 125/094 (ME02: Phantasmal Flames)",
+  "productId": 662184,
+  "rawMarket": 661.21,
+  "subtype": "Holofoil",
+  "set": "ME02: Phantasmal Flames"
+ },
+ {
+  "id": "c-662185",
+  "name": "Mega Charizard X ex - 130/094 130/094 (ME02: Phantasmal Flames)",
+  "productId": 662185,
+  "rawMarket": 215.07,
+  "subtype": "Holofoil",
+  "set": "ME02: Phantasmal Flames"
+ },
+ {
+  "id": "c-642546",
+  "name": "Victini - 171/086 171/086 (SV: Black Bolt)",
+  "productId": 642546,
+  "rawMarket": 627.44,
+  "subtype": "Holofoil",
+  "set": "SV: Black Bolt"
+ },
+ {
+  "id": "c-642623",
+  "name": "Zekrom ex - 172/086 172/086 (SV: Black Bolt)",
+  "productId": 642623,
+  "rawMarket": 611.19,
+  "subtype": "Holofoil",
+  "set": "SV: Black Bolt"
+ },
+ {
+  "id": "c-642618",
+  "name": "Zekrom ex - 166/086 166/086 (SV: Black Bolt)",
+  "productId": 642618,
+  "rawMarket": 267.04,
+  "subtype": "Holofoil",
+  "set": "SV: Black Bolt"
+ },
+ {
+  "id": "c-86000",
+  "name": "Gyarados 24/124 (Dragons Exalted)",
+  "productId": 86000,
+  "rawMarket": 25.6,
+  "subtype": "Reverse Holofoil",
+  "set": "Dragons Exalted"
+ },
+ {
+  "id": "c-644350",
+  "name": "Victini - 172/086 172/086 (SV: White Flare)",
+  "productId": 644350,
+  "rawMarket": 554.95,
+  "subtype": "Holofoil",
+  "set": "SV: White Flare"
+ },
+ {
+  "id": "c-642289",
+  "name": "Reshiram ex - 173/086 173/086 (SV: White Flare)",
+  "productId": 642289,
+  "rawMarket": 477.62,
+  "subtype": "Holofoil",
+  "set": "SV: White Flare"
+ },
+ {
+  "id": "c-642283",
+  "name": "Reshiram ex - 166/086 166/086 (SV: White Flare)",
+  "productId": 642283,
+  "rawMarket": 179.38,
+  "subtype": "Holofoil",
+  "set": "SV: White Flare"
+ },
+ {
+  "id": "c-87407",
+  "name": "Mew (Delta Species) 003/017 (POP Series 5)",
+  "productId": 87407,
+  "rawMarket": 149.59,
+  "subtype": "Normal",
+  "set": "POP Series 5"
+ },
+ {
+  "id": "c-88085",
+  "name": "Pikachu 012/017 (POP Series 5)",
+  "productId": 88085,
+  "rawMarket": 313.23,
+  "subtype": "Holofoil",
+  "set": "POP Series 5"
+ },
+ {
+  "id": "c-86001",
+  "name": "Gyarados 31/113 (Legendary Treasures)",
+  "productId": 86001,
+  "rawMarket": 39.09,
+  "subtype": "Reverse Holofoil",
+  "set": "Legendary Treasures"
+ },
+ {
+  "id": "c-633031",
+  "name": "Team Rocket's Mewtwo ex - 231/182 231/182 (SV10: Destined Rivals)",
+  "productId": 633031,
+  "rawMarket": 392.04,
+  "subtype": "Holofoil",
+  "set": "SV10: Destined Rivals"
+ },
+ {
+  "id": "c-633032",
+  "name": "Cynthia's Garchomp ex - 232/182 232/182 (SV10: Destined Rivals)",
+  "productId": 633032,
+  "rawMarket": 197.04,
+  "subtype": "Holofoil",
+  "set": "SV10: Destined Rivals"
+ },
+ {
+  "id": "c-633030",
+  "name": "Ethan's Ho-Oh ex - 230/182 230/182 (SV10: Destined Rivals)",
+  "productId": 633030,
+  "rawMarket": 144.36,
+  "subtype": "Holofoil",
+  "set": "SV10: Destined Rivals"
+ },
+ {
+  "id": "c-497614",
+  "name": "Raichu - 211/193 211/193 (SV02: Paldea Evolved)",
+  "productId": 497614,
+  "rawMarket": 100.69,
+  "subtype": "Holofoil",
+  "set": "SV02: Paldea Evolved"
+ },
+ {
+  "id": "c-497629",
+  "name": "Maushold - 226/193 226/193 (SV02: Paldea Evolved)",
+  "productId": 497629,
+  "rawMarket": 89.55,
+  "subtype": "Holofoil",
+  "set": "SV02: Paldea Evolved"
+ },
+ {
+  "id": "c-90124",
+  "name": "Tyranitar ex (Holo) 017/017 (POP Series 1)",
+  "productId": 90124,
+  "rawMarket": 335.66,
+  "subtype": "Holofoil",
+  "set": "POP Series 1"
+ },
+ {
+  "id": "c-88624",
+  "name": "Rayquaza 003/017 (POP Series 1)",
+  "productId": 88624,
+  "rawMarket": 166.73,
+  "subtype": "Holofoil",
+  "set": "POP Series 1"
+ },
+ {
+  "id": "c-550258",
+  "name": "Greninja ex - 214/167 214/167 (SV06: Twilight Masquerade)",
+  "productId": 550258,
+  "rawMarket": 329.67,
+  "subtype": "Holofoil",
+  "set": "SV06: Twilight Masquerade"
+ },
+ {
+  "id": "c-550264",
+  "name": "Perrin - 220/167 220/167 (SV06: Twilight Masquerade)",
+  "productId": 550264,
+  "rawMarket": 161.73,
+  "subtype": "Holofoil",
+  "set": "SV06: Twilight Masquerade"
+ },
+ {
+  "id": "c-550232",
+  "name": "Eevee - 188/167 188/167 (SV06: Twilight Masquerade)",
+  "productId": 550232,
+  "rawMarket": 75.63,
+  "subtype": "Holofoil",
+  "set": "SV06: Twilight Masquerade"
+ },
+ {
+  "id": "c-159115",
+  "name": "______'s Pikachu 24 (Pikachu World Collection Promos)",
+  "productId": 159115,
+  "rawMarket": 310.0,
+  "subtype": "Normal",
+  "set": "Pikachu World Collection Promos"
+ },
+ {
+  "id": "c-215156",
+  "name": "Pikachu (Spanish) PW 4 (Pikachu World Collection Promos)",
+  "productId": 215156,
+  "rawMarket": 119.99,
+  "subtype": "Holofoil",
+  "set": "Pikachu World Collection Promos"
+ },
+ {
+  "id": "c-215157",
+  "name": "Pikachu (Japanese) PW 5 (Pikachu World Collection Promos)",
+  "productId": 215157,
+  "rawMarket": 113.4,
+  "subtype": "Holofoil",
+  "set": "Pikachu World Collection Promos"
+ },
+ {
+  "id": "c-226129",
+  "name": "Togepi & Cleffa & Igglybuff GX - 143a/236 143a/236 (Alternate Art Promos)",
+  "productId": 226129,
+  "rawMarket": 295.07,
+  "subtype": "Holofoil",
+  "set": "Alternate Art Promos"
+ },
+ {
+  "id": "c-148350",
+  "name": "Shaymin EX - 77a/108 077a/108 (Alternate Art Promos)",
+  "productId": 148350,
+  "rawMarket": 276.85,
+  "subtype": "Holofoil",
+  "set": "Alternate Art Promos"
+ },
+ {
+  "id": "c-148343",
+  "name": "Jirachi - XY67a XY67a (Alternate Art Promos)",
+  "productId": 148343,
+  "rawMarket": 267.73,
+  "subtype": "Holofoil",
+  "set": "Alternate Art Promos"
+ },
+ {
+  "id": "c-478100",
+  "name": "Giratina VSTAR (Secret) GG69/GG70 (SWSH: Crown Zenith: Galarian Gallery)",
+  "productId": 478100,
+  "rawMarket": 292.86,
+  "subtype": "Holofoil",
+  "set": "SWSH: Crown Zenith: Galarian Gallery"
+ },
+ {
+  "id": "c-477057",
+  "name": "Mewtwo VSTAR GG44/GG70 (SWSH: Crown Zenith: Galarian Gallery)",
+  "productId": 477057,
+  "rawMarket": 242.58,
+  "subtype": "Holofoil",
+  "set": "SWSH: Crown Zenith: Galarian Gallery"
+ },
+ {
+  "id": "c-478101",
+  "name": "Arceus VSTAR (Secret) GG70/GG70 (SWSH: Crown Zenith: Galarian Gallery)",
+  "productId": 478101,
+  "rawMarket": 194.05,
+  "subtype": "Holofoil",
+  "set": "SWSH: Crown Zenith: Galarian Gallery"
+ },
+ {
+  "id": "c-590027",
+  "name": "Pikachu ex - 238/191 238/191 (SV08: Surging Sparks)",
+  "productId": 590027,
+  "rawMarket": 283.48,
+  "subtype": "Holofoil",
+  "set": "SV08: Surging Sparks"
+ },
+ {
+  "id": "c-589985",
+  "name": "Latias ex - 239/191 239/191 (SV08: Surging Sparks)",
+  "productId": 589985,
+  "rawMarket": 185.59,
+  "subtype": "Holofoil",
+  "set": "SV08: Surging Sparks"
+ },
+ {
+  "id": "c-590006",
+  "name": "Milotic ex - 237/191 237/191 (SV08: Surging Sparks)",
+  "productId": 590006,
+  "rawMarket": 113.57,
+  "subtype": "Holofoil",
+  "set": "SV08: Surging Sparks"
+ },
+ {
+  "id": "c-97809",
+  "name": "Ho-Oh ex (Holo) 017/017 (POP Series 3)",
+  "productId": 97809,
+  "rawMarket": 279.99,
+  "subtype": "Holofoil",
+  "set": "POP Series 3"
+ },
+ {
+  "id": "c-83891",
+  "name": "Blastoise 001/017 (POP Series 3)",
+  "productId": 83891,
+  "rawMarket": 217.5,
+  "subtype": "Holofoil",
+  "set": "POP Series 3"
+ },
+ {
+  "id": "c-86129",
+  "name": "Ho-Oh ex (Non-Holo) 017/017 (POP Series 3)",
+  "productId": 86129,
+  "rawMarket": 125.0,
+  "subtype": "Normal",
+  "set": "POP Series 3"
+ },
+ {
+  "id": "c-701479",
+  "name": "Pikachu (Pokemon Day 2009) 015/017 (POP Series 9)",
+  "productId": 701479,
+  "rawMarket": 249.99,
+  "subtype": "Normal",
+  "set": "POP Series 9"
+ },
+ {
+  "id": "c-85622",
+  "name": "Garchomp 001/017 (POP Series 9)",
+  "productId": 85622,
+  "rawMarket": 63.22,
+  "subtype": "Normal",
+  "set": "POP Series 9"
+ },
+ {
+  "id": "c-654527",
+  "name": "Mega Lucario ex - 188/132 188/132 (ME01: Mega Evolution)",
+  "productId": 654527,
+  "rawMarket": 230.01,
+  "subtype": "Holofoil",
+  "set": "ME01: Mega Evolution"
+ },
+ {
+  "id": "c-654526",
+  "name": "Mega Gardevoir ex - 187/132 187/132 (ME01: Mega Evolution)",
+  "productId": 654526,
+  "rawMarket": 179.03,
+  "subtype": "Holofoil",
+  "set": "ME01: Mega Evolution"
+ },
+ {
+  "id": "c-654517",
+  "name": "Mega Gardevoir ex - 178/132 178/132 (ME01: Mega Evolution)",
+  "productId": 654517,
+  "rawMarket": 171.23,
+  "subtype": "Holofoil",
+  "set": "ME01: Mega Evolution"
+ },
+ {
+  "id": "c-714386",
+  "name": "Lugia 149/147 (ME: 30th Celebration Classic Collection)",
+  "productId": 714386,
+  "rawMarket": 203.81,
+  "subtype": "Holofoil",
+  "set": "ME: 30th Celebration Classic Collection"
+ },
+ {
+  "id": "c-716210",
+  "name": "Magikarp 203/193 (ME: 30th Celebration Classic Collection)",
+  "productId": 716210,
+  "rawMarket": 89.15,
+  "subtype": "Holofoil",
+  "set": "ME: 30th Celebration Classic Collection"
+ },
+ {
+  "id": "c-97808",
+  "name": "Celebi ex (Holo) 017/017 (POP Series 2)",
+  "productId": 97808,
+  "rawMarket": 197.21,
+  "subtype": "Holofoil",
+  "set": "POP Series 2"
+ },
+ {
+  "id": "c-84151",
+  "name": "Celebi ex (Non-Holo) 017/017 (POP Series 2)",
+  "productId": 84151,
+  "rawMarket": 66.48,
+  "subtype": "Normal",
+  "set": "POP Series 2"
+ },
+ {
+  "id": "c-85271",
+  "name": "Entei 001/017 (POP Series 2)",
+  "productId": 85271,
+  "rawMarket": 59.13,
+  "subtype": "Holofoil",
+  "set": "POP Series 2"
+ },
+ {
+  "id": "c-527938",
+  "name": "Charizard 003/034 (Trading Card Game Classic)",
+  "productId": 527938,
+  "rawMarket": 186.53,
+  "subtype": "Holofoil",
+  "set": "Trading Card Game Classic"
+ },
+ {
+  "id": "c-527943",
+  "name": "Pikachu 008/034 (Trading Card Game Classic)",
+  "productId": 527943,
+  "rawMarket": 49.91,
+  "subtype": "Holofoil",
+  "set": "Trading Card Game Classic"
+ },
+ {
+  "id": "c-527988",
+  "name": "Blastoise 003/034 (Trading Card Game Classic)",
+  "productId": 527988,
+  "rawMarket": 46.77,
+  "subtype": "Holofoil",
+  "set": "Trading Card Game Classic"
+ },
+ {
+  "id": "c-704877",
+  "name": "Mega Darkrai ex - 120/084 120/084 (ME05: Pitch Black)",
+  "productId": 704877,
+  "rawMarket": 138.44,
+  "subtype": "Holofoil",
+  "set": "ME05: Pitch Black"
+ },
+ {
+  "id": "c-704874",
+  "name": "Morpeko ex - 117/084 117/084 (ME05: Pitch Black)",
+  "productId": 704874,
+  "rawMarket": 64.09,
+  "subtype": "Holofoil",
+  "set": "ME05: Pitch Black"
+ },
+ {
+  "id": "c-88087",
+  "name": "Pikachu 009/017 (POP Series 6)",
+  "productId": 88087,
+  "rawMarket": 119.95,
+  "subtype": "Normal",
+  "set": "POP Series 6"
+ },
+ {
+  "id": "c-276377",
+  "name": "Pikachu (Pokemon Day Stamped) 009/017 (POP Series 6)",
+  "productId": 276377,
+  "rawMarket": 99.99,
+  "subtype": "Normal",
+  "set": "POP Series 6"
+ },
+ {
+  "id": "c-691978",
+  "name": "Rayquaza - 003/017 (2006) 003/017 (Blister Exclusives)",
+  "productId": 691978,
+  "rawMarket": 135.3,
+  "subtype": "Holofoil",
+  "set": "Blister Exclusives"
+ },
+ {
+  "id": "c-220118",
+  "name": "Raichu - 40/99 (Cosmos Holo) 040/099 (Blister Exclusives)",
+  "productId": 220118,
+  "rawMarket": 123.8,
+  "subtype": "Holofoil",
+  "set": "Blister Exclusives"
+ },
+ {
+  "id": "c-145866",
+  "name": "Rayquaza - 11/20 (Dragon Vault) 011/020 (Blister Exclusives)",
+  "productId": 145866,
+  "rawMarket": 101.9,
+  "subtype": "Holofoil",
+  "set": "Blister Exclusives"
+ },
+ {
+  "id": "c-176629",
+  "name": "Prof. Oak's Research (2004-2005) 98/112 (Professor Program Promos)",
+  "productId": 176629,
+  "rawMarket": 134.99,
+  "subtype": "Normal",
+  "set": "Professor Program Promos"
+ },
+ {
+  "id": "c-670606",
+  "name": "Friends in Paldea - 109/131 109/131 (Professor Program Promos)",
+  "productId": 670606,
+  "rawMarket": 123.22,
+  "subtype": "Reverse Holofoil",
+  "set": "Professor Program Promos"
+ },
+ {
+  "id": "c-556969",
+  "name": "Roxanne - 150/189 (2022) 150/189 (Professor Program Promos)",
+  "productId": 556969,
+  "rawMarket": 99.99,
+  "subtype": "Reverse Holofoil",
+  "set": "Professor Program Promos"
+ },
+ {
+  "id": "c-693518",
+  "name": "Mega Greninja ex - 122/086 122/086 (ME04: Chaos Rising)",
+  "productId": 693518,
+  "rawMarket": 125.58,
+  "subtype": "Holofoil",
+  "set": "ME04: Chaos Rising"
+ },
+ {
+  "id": "c-693465",
+  "name": "Cinccino ex - 119/086 119/086 (ME04: Chaos Rising)",
+  "productId": 693465,
+  "rawMarket": 43.74,
+  "subtype": "Holofoil",
+  "set": "ME04: Chaos Rising"
+ },
+ {
+  "id": "c-284266",
+  "name": "Gengar TG06/TG30 (SWSH11: Lost Origin Trainer Gallery)",
+  "productId": 284266,
+  "rawMarket": 46.8,
+  "subtype": "Holofoil",
+  "set": "SWSH11: Lost Origin Trainer Gallery"
+ },
+ {
+  "id": "c-284251",
+  "name": "Charizard TG03/TG30 (SWSH11: Lost Origin Trainer Gallery)",
+  "productId": 284251,
+  "rawMarket": 27.28,
+  "subtype": "Holofoil",
+  "set": "SWSH11: Lost Origin Trainer Gallery"
+ },
+ {
+  "id": "c-174062",
+  "name": "Pikachu - 94/123 (Diamond & Pearl) 094/123 (Burger King Promos)",
+  "productId": 174062,
+  "rawMarket": 110.17,
+  "subtype": "Reverse Holofoil",
+  "set": "Burger King Promos"
+ },
+ {
+  "id": "c-155606",
+  "name": "Giratina - 4/146 [Platinum] 004/146 (Burger King Promos)",
+  "productId": 155606,
+  "rawMarket": 81.43,
+  "subtype": "Reverse Holofoil",
+  "set": "Burger King Promos"
+ },
+ {
+  "id": "c-155607",
+  "name": "Glaceon - 20/100 [Platinum] 020/100 (Burger King Promos)",
+  "productId": 155607,
+  "rawMarket": 69.89,
+  "subtype": "Reverse Holofoil",
+  "set": "Burger King Promos"
+ },
+ {
+  "id": "c-523880",
+  "name": "Groudon - 199/182 199/182 (SV04: Paradox Rift)",
+  "productId": 523880,
+  "rawMarket": 107.28,
+  "subtype": "Holofoil",
+  "set": "SV04: Paradox Rift"
+ },
+ {
+  "id": "c-523887",
+  "name": "Morpeko - 206/182 206/182 (SV04: Paradox Rift)",
+  "productId": 523887,
+  "rawMarket": 61.01,
+  "subtype": "Holofoil",
+  "set": "SV04: Paradox Rift"
+ },
+ {
+  "id": "c-523874",
+  "name": "Plusle - 193/182 193/182 (SV04: Paradox Rift)",
+  "productId": 523874,
+  "rawMarket": 46.08,
+  "subtype": "Holofoil",
+  "set": "SV04: Paradox Rift"
+ },
+ {
+  "id": "c-684339",
+  "name": "Mega Zygarde ex - 124/088 124/088 (ME03: Perfect Order)",
+  "productId": 684339,
+  "rawMarket": 102.78,
+  "subtype": "Holofoil",
+  "set": "ME03: Perfect Order"
+ },
+ {
+  "id": "c-684342",
+  "name": "Meowth ex - 121/088 121/088 (ME03: Perfect Order)",
+  "productId": 684342,
+  "rawMarket": 92.52,
+  "subtype": "Holofoil",
+  "set": "ME03: Perfect Order"
+ },
+ {
+  "id": "c-684338",
+  "name": "Mega Zygarde ex - 120/088 120/088 (ME03: Perfect Order)",
+  "productId": 684338,
+  "rawMarket": 42.4,
+  "subtype": "Holofoil",
+  "set": "ME03: Perfect Order"
+ },
+ {
+  "id": "c-509980",
+  "name": "Charizard ex - 223/197 223/197 (SV03: Obsidian Flames)",
+  "productId": 509980,
+  "rawMarket": 99.18,
+  "subtype": "Holofoil",
+  "set": "SV03: Obsidian Flames"
+ },
+ {
+  "id": "c-509949",
+  "name": "Cleffa - 202/197 202/197 (SV03: Obsidian Flames)",
+  "productId": 509949,
+  "rawMarket": 36.5,
+  "subtype": "Holofoil",
+  "set": "SV03: Obsidian Flames"
+ },
+ {
+  "id": "c-509989",
+  "name": "Charizard ex - 228/197 228/197 (SV03: Obsidian Flames)",
+  "productId": 509989,
+  "rawMarket": 32.86,
+  "subtype": "Holofoil",
+  "set": "SV03: Obsidian Flames"
+ },
+ {
+  "id": "c-542898",
+  "name": "Gastly - 177/162 177/162 (SV05: Temporal Forces)",
+  "productId": 542898,
+  "rawMarket": 95.44,
+  "subtype": "Holofoil",
+  "set": "SV05: Temporal Forces"
+ },
+ {
+  "id": "c-542929",
+  "name": "Raging Bolt ex - 208/162 208/162 (SV05: Temporal Forces)",
+  "productId": 542929,
+  "rawMarket": 62.71,
+  "subtype": "Holofoil",
+  "set": "SV05: Temporal Forces"
+ },
+ {
+  "id": "c-542887",
+  "name": "Sawsbuck - 166/162 166/162 (SV05: Temporal Forces)",
+  "productId": 542887,
+  "rawMarket": 53.19,
+  "subtype": "Holofoil",
+  "set": "SV05: Temporal Forces"
+ },
+ {
+  "id": "c-567418",
+  "name": "Bulbasaur 143/142 (SV07: Stellar Crown)",
+  "productId": 567418,
+  "rawMarket": 94.76,
+  "subtype": "Holofoil",
+  "set": "SV07: Stellar Crown"
+ },
+ {
+  "id": "c-567429",
+  "name": "Squirtle 148/142 (SV07: Stellar Crown)",
+  "productId": 567429,
+  "rawMarket": 92.9,
+  "subtype": "Holofoil",
+  "set": "SV07: Stellar Crown"
+ },
+ {
+  "id": "c-567476",
+  "name": "Dachsbun ex - 169/142 169/142 (SV07: Stellar Crown)",
+  "productId": 567476,
+  "rawMarket": 75.64,
+  "subtype": "Holofoil",
+  "set": "SV07: Stellar Crown"
+ },
+ {
+  "id": "c-623611",
+  "name": "Lillie's Clefairy ex - 184/159 184/159 (SV09: Journey Together)",
+  "productId": 623611,
+  "rawMarket": 90.38,
+  "subtype": "Holofoil",
+  "set": "SV09: Journey Together"
+ },
+ {
+  "id": "c-623614",
+  "name": "Salamence ex - 187/159 187/159 (SV09: Journey Together)",
+  "productId": 623614,
+  "rawMarket": 46.76,
+  "subtype": "Holofoil",
+  "set": "SV09: Journey Together"
+ },
+ {
+  "id": "c-623612",
+  "name": "N's Zoroark ex - 185/159 185/159 (SV09: Journey Together)",
+  "productId": 623612,
+  "rawMarket": 40.28,
+  "subtype": "Holofoil",
+  "set": "SV09: Journey Together"
+ },
+ {
+  "id": "c-680956",
+  "name": "Radiant Greninja - 046/189 (GYM) 046/189 (Southeast Asia Exclusives)",
+  "productId": 680956,
+  "rawMarket": 86.66,
+  "subtype": "Holofoil",
+  "set": "Southeast Asia Exclusives"
+ },
+ {
+  "id": "c-560389",
+  "name": "Persian - 078/064 078/064 (SV: Shrouded Fable)",
+  "productId": 560389,
+  "rawMarket": 75.45,
+  "subtype": "Holofoil",
+  "set": "SV: Shrouded Fable"
+ },
+ {
+  "id": "c-560409",
+  "name": "Basic Darkness Energy 098/064 (SV: Shrouded Fable)",
+  "productId": 560409,
+  "rawMarket": 58.2,
+  "subtype": "Holofoil",
+  "set": "SV: Shrouded Fable"
+ },
+ {
+  "id": "c-560377",
+  "name": "Houndoom - 066/064 066/064 (SV: Shrouded Fable)",
+  "productId": 560377,
+  "rawMarket": 57.94,
+  "subtype": "Holofoil",
+  "set": "SV: Shrouded Fable"
+ },
+ {
+  "id": "c-486623",
+  "name": "Gardevoir ex - 245/198 245/198 (SV01: Scarlet & Violet Base Set)",
+  "productId": 486623,
+  "rawMarket": 69.19,
+  "subtype": "Holofoil",
+  "set": "SV01: Scarlet & Violet Base Set"
+ },
+ {
+  "id": "c-490070",
+  "name": "Drowzee - 210/198 210/198 (SV01: Scarlet & Violet Base Set)",
+  "productId": 490070,
+  "rawMarket": 47.74,
+  "subtype": "Holofoil",
+  "set": "SV01: Scarlet & Violet Base Set"
+ },
+ {
+  "id": "c-490071",
+  "name": "Ralts - 211/198 211/198 (SV01: Scarlet & Violet Base Set)",
+  "productId": 490071,
+  "rawMarket": 42.59,
+  "subtype": "Holofoil",
+  "set": "SV01: Scarlet & Violet Base Set"
+ },
+ {
+  "id": "c-86652",
+  "name": "Latias 003/017 (POP Series 7)",
+  "productId": 86652,
+  "rawMarket": 34.94,
+  "subtype": "Normal",
+  "set": "POP Series 7"
+ },
+ {
+  "id": "c-85480",
+  "name": "Flaaffy 007/017 (POP Series 7)",
+  "productId": 85480,
+  "rawMarket": 35.71,
+  "subtype": "Normal",
+  "set": "POP Series 7"
+ },
+ {
+  "id": "c-478103",
+  "name": "Pikachu (Secret) 160/159 (SWSH: Crown Zenith)",
+  "productId": 478103,
+  "rawMarket": 40.04,
+  "subtype": "Holofoil",
+  "set": "SWSH: Crown Zenith"
+ },
+ {
+  "id": "c-616999",
+  "name": "Chimchar (Cracked Ice Holo) 012/017 (POP Series 8)",
+  "productId": 616999,
+  "rawMarket": 39.99,
+  "subtype": "Holofoil",
+  "set": "POP Series 8"
+ },
+ {
+  "id": "c-88755",
+  "name": "Riolu 016/017 (POP Series 8)",
+  "productId": 88755,
+  "rawMarket": 35.0,
+  "subtype": "Reverse Holofoil",
+  "set": "POP Series 8"
+ },
+ {
+  "id": "c-86948",
+  "name": "Luxray 003/017 (POP Series 8)",
+  "productId": 86948,
+  "rawMarket": 34.94,
+  "subtype": "Holofoil",
+  "set": "POP Series 8"
+ },
+ {
+  "id": "c-86650",
+  "name": "Latias 4/10 (EX Trainer Kit 1: Latias & Latios)",
+  "productId": 86650,
+  "rawMarket": 38.98,
+  "subtype": "Holofoil",
+  "set": "EX Trainer Kit 1: Latias & Latios"
  }
 ]
