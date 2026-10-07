@@ -112,7 +112,8 @@ def main():
             rel = [r for r in rows if norm_name(name) in norm_name(r["name"])]
             exact = [r for r in rows if norm_name(r["name"]) == norm_name(tracked[lid]["title"])]
         verdict = "ambiguous / not found - candidates listed"
-        if len(exact) == 1 and not (exact[0]["tcgplayerIds"] or []):
+        has_ours = lambda r: any(e.get("id") == our_tcg for e in (r["tcgplayerIds"] or []))
+        if len(exact) == 1 and (not (exact[0]["tcgplayerIds"] or []) or has_ours(exact[0])):
             ids[lid] = exact[0]["id"]
             ids.setdefault("_manual", {})[lid] = {"cn": exact[0]["id"], "manual": True,
                                                   "finish": (exact[0]["finishes"] or [None])[0],
@@ -126,6 +127,23 @@ def main():
         print(f"\n=== {lid} {tracked[lid]['title']} (our TCGplayer id {our_tcg}, {tracked[lid].get('variant')}) -> {verdict}")
         for r in rel or rows[:10]:
             print("  ", json.dumps(r, ensure_ascii=False))
+    # diagnostics: why did the batched tcgplayerId lookup miss these?
+    diag = {}
+    for lid in TARGETS:
+        tid = tracked[lid]["productId"]
+        j = call("POST", "/products/search", {"tcgplayerId": [tid]})
+        diag[lid] = {"tcgplayerId": tid, "singleSearchIds": [p.get("id") for p in items_of(j)]}
+    allids = sorted({int(t["productId"]) for t in tracked.values()})
+    chunk = allids[:200]
+    j = call("POST", "/products/search", {"tcgplayerId": chunk, "limit": 200})
+    got = items_of(j)
+    seen = {e.get("id") for p in got for e in ((p.get("externalIds") or {}).get("tcgplayer") or [])}
+    diag["_batch"] = {"idsSent": len(chunk), "resultsOnPage": len(got), "pagination": (j or {}).get("pagination"),
+                      "sentButNotReturned": len([x for x in chunk if x not in seen])}
+    for lid in TARGETS:
+        diag[lid]["inFirstBatch"] = tracked[lid]["productId"] in chunk
+    out["_diagnose"] = diag
+    print("\ndiagnose:", json.dumps(diag))
     json.dump(out, open(os.path.join(ROOT, "cardnexus_match.json"), "w"), indent=1, ensure_ascii=False)
     if added:
         json.dump(ids, open(ids_path, "w"), indent=1, sort_keys=True)
