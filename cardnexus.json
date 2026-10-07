@@ -1,0 +1,5126 @@
+{
+ "generated": "2026-10-07T19:06:02Z",
+ "currency": {
+  "cm": "EUR",
+  "tcg": "USD"
+ },
+ "items": {
+  "ah-bundle": {
+   "cnId": 223587,
+   "finish": "Standard",
+   "cm": {
+    "low": 41.9,
+    "marketValue": 76.26,
+    "change24h": 0.005,
+    "change7d": 0.002,
+    "change30d": 0.0315
+   },
+   "tcg": {
+    "low": 74.51,
+    "mid": 92.85,
+    "high": 1999.99,
+    "marketValue": 83.93,
+    "change24h": -0.0019,
+    "change7d": 0.0242,
+    "change30d": -0.0533
+   }
+  },
+  "c30-etb": {
+   "cnId": 251565,
+   "finish": "Standard",
+   "cm": {
+    "low": 80,
+    "marketValue": 131.84,
+    "change24h": -0.0072,
+    "change7d": -0.0391,
+    "change30d": null
+   },
+   "tcg": {
+    "low": 124.99,
+    "mid": 164.67,
+    "high": 9999.99,
+    "marketValue": 148.5,
+    "change24h": -0.0421,
+    "change7d": -0.0709,
+    "change30d": null
+   }
+  },
+  "c30-poster": {
+   "cnId": 251573,
+   "finish": "Standard",
+   "cm": {
+    "low": 25.99,
+    "marketValue": 37.92,
+    "change24h": -0.0289,
+    "change7d": -0.0484,
+    "change30d": null
+   },
+   "tcg": {
+    "low": 24.99,
+    "mid": 44.99,
+    "high": 99.99,
+    "marketValue": 39.1,
+    "change24h": 0.0483,
+    "change7d": -0.0327,
+    "change30d": null
+   }
+  },
+  "cr-etb": {
+   "cnId": 223268,
+   "finish": "Standard",
+   "cm": {
+    "low": 44,
+    "marketValue": 62.39,
+    "change24h": 0.0099,
+    "change7d": 0.0158,
+    "change30d": -0.0042
+   },
+   "tcg": {
+    "low": 58,
+    "mid": 80,
+    "high": 999,
+    "marketValue": 69.65,
+    "change24h": 0.0003,
+    "change7d": 0.0472,
+    "change30d": -0.0036
+   }
+  },
+  "fpic1": {
+   "cnId": 223388,
+   "finish": "Standard",
+   "cm": {
+    "low": 28.98,
+    "marketValue": 48.31,
+    "change24h": -0.0169,
+    "change7d": -0.1015,
+    "change30d": null
+   },
+   "tcg": {
+    "low": 51.99,
+    "mid": 70,
+    "high": 333,
+    "marketValue": 60.12,
+    "change24h": -0.0519,
+    "change7d": -0.0783,
+    "change30d": -0.1165
+   }
+  },
+  "gd01": {
+   "cnId": 227453,
+   "finish": "Standard",
+   "cm": {},
+   "tcg": {
+    "low": 419.95,
+    "mid": 456.59,
+    "high": 2500,
+    "marketValue": 434.78,
+    "change24h": 0,
+    "change7d": 0.0021,
+    "change30d": -0.041
+   }
+  },
+  "gy-151-130-165": {
+   "cnId": 33750,
+   "finish": "Reverse Holo",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.32,
+    "change24h": 0.1034,
+    "change7d": 0.1852,
+    "change30d": 0.0667
+   },
+   "tcg": {
+    "low": 0.5,
+    "mid": 1.56,
+    "high": 50,
+    "marketValue": 1.35,
+    "change24h": -0.0357,
+    "change7d": 0.0075,
+    "change30d": -0.0493
+   }
+  },
+  "gy-ancient-origins-20-98": {
+   "cnId": 22036,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.2,
+    "marketValue": 2.18,
+    "change24h": 0,
+    "change7d": -0.0723,
+    "change30d": 1.5952
+   },
+   "tcg": {
+    "low": 0.25,
+    "mid": 1,
+    "high": 29.99,
+    "marketValue": 1.09,
+    "change24h": -0.018,
+    "change7d": 0,
+    "change30d": 0.0583
+   }
+  },
+  "gy-ancient-origins-21-98": {
+   "cnId": 24664,
+   "finish": "Foil",
+   "cm": {
+    "low": 7,
+    "marketValue": 46.73,
+    "change24h": 0,
+    "change7d": -0.0743,
+    "change30d": -0.2951
+   },
+   "tcg": {
+    "low": 34.99,
+    "mid": 64.22,
+    "high": 368.16,
+    "marketValue": 64.43,
+    "change24h": -0.0012,
+    "change7d": -0.0031,
+    "change30d": -0.0153
+   }
+  },
+  "gy-base-set-2-7-130": {
+   "cnId": 18724,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 17.9,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 20,
+    "mid": 33.18,
+    "high": 620.8,
+    "marketValue": 45.93,
+    "change24h": 0,
+    "change7d": 0.0117,
+    "change30d": -0.0271
+   }
+  },
+  "gy-burning-shadows-33-147": {
+   "cnId": 28761,
+   "finish": "Foil",
+   "cm": {
+    "low": 0.25,
+    "marketValue": 2.21,
+    "change24h": -0.0307,
+    "change7d": 0.0138,
+    "change30d": 0.151
+   },
+   "tcg": {
+    "low": 1,
+    "mid": 3,
+    "high": 18.54,
+    "marketValue": 2.89,
+    "change24h": 0,
+    "change7d": -0.0203,
+    "change30d": 0.014
+   }
+  },
+  "gy-call-of-legends-7-95": {
+   "cnId": 23134,
+   "finish": "Foil",
+   "cm": {
+    "low": 3.95,
+    "marketValue": 73.44,
+    "change24h": 0,
+    "change7d": -0.0244,
+    "change30d": 0.1443
+   },
+   "tcg": {
+    "low": 60,
+    "mid": 100.32,
+    "high": 859.62,
+    "marketValue": 86.94,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0.0807
+   }
+  },
+  "gy-celebrations-dark-gyarados-reprint-8-82": {
+   "cnId": 19706,
+   "finish": "Foil",
+   "cm": {
+    "low": 3,
+    "marketValue": 6.25,
+    "change24h": 0.0212,
+    "change7d": -0.0545,
+    "change30d": null
+   },
+   "tcg": {
+    "low": 4,
+    "mid": 6.98,
+    "high": 8888,
+    "marketValue": 4.7,
+    "change24h": -0.0467,
+    "change7d": -0.1182,
+    "change30d": -0.1622
+   }
+  },
+  "gy-destined-rivals-misty-s-49-182": {
+   "cnId": 209018,
+   "finish": "Foil",
+   "cm": {
+    "low": 3.99,
+    "marketValue": 20.9,
+    "change24h": -0.0657,
+    "change7d": -0.2623,
+    "change30d": null
+   },
+   "tcg": {
+    "low": 9.99,
+    "mid": 16.99,
+    "high": 398,
+    "marketValue": 14.7,
+    "change24h": 0,
+    "change7d": 0.0309,
+    "change30d": -0.0522
+   }
+  },
+  "gy-dragon-majesty-20-70": {
+   "cnId": 26498,
+   "finish": "Foil",
+   "cm": {
+    "low": 4.89,
+    "marketValue": 6.49,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0.1996
+   },
+   "tcg": {
+    "low": 1.88,
+    "mid": 3.13,
+    "high": 33.02,
+    "marketValue": 3.01,
+    "change24h": 0,
+    "change7d": -0.0383,
+    "change30d": -0.0033
+   }
+  },
+  "gy-dragons-exalted-24-124": {
+   "cnId": 25448,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.15,
+    "marketValue": 4.81,
+    "change24h": -0.0456,
+    "change7d": -0.055,
+    "change30d": -0.2645
+   },
+   "tcg": {
+    "low": 1.85,
+    "mid": 3.19,
+    "high": 32.92,
+    "marketValue": 3.09,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0.0439
+   }
+  },
+  "gy-evolutions-34-108": {
+   "cnId": 27115,
+   "finish": "Foil",
+   "cm": {
+    "low": 2,
+    "marketValue": 8.08,
+    "change24h": 0,
+    "change7d": -0.0182,
+    "change30d": -0.3261
+   },
+   "tcg": {
+    "low": 4.25,
+    "mid": 9,
+    "high": 918.29,
+    "marketValue": 8.15,
+    "change24h": 0.0149,
+    "change7d": -0.0181,
+    "change30d": -0.0954
+   }
+  },
+  "gy-ex-deoxys-8-107": {
+   "cnId": 19507,
+   "finish": "Standard",
+   "cm": {
+    "low": 8,
+    "marketValue": 65.76,
+    "change24h": 0,
+    "change7d": -0.2692,
+    "change30d": 0.1872
+   },
+   "tcg": {
+    "low": 174.99,
+    "mid": 237,
+    "high": 299,
+    "marketValue": 300,
+    "change24h": 0,
+    "change7d": 2.0398,
+    "change30d": 2.0398
+   }
+  },
+  "gy-ex-dragon-32-97": {
+   "cnId": 18004,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.7,
+    "marketValue": 31.56,
+    "change24h": -0.0208,
+    "change7d": 0.851,
+    "change30d": 8.5347
+   },
+   "tcg": {
+    "low": 11.99,
+    "mid": 33,
+    "high": 166.68,
+    "marketValue": 19.71,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0.0794
+   }
+  },
+  "gy-ex-firered-leafgreen-ex-109-112": {
+   "cnId": 17449,
+   "finish": "Standard",
+   "cm": {
+    "low": 30,
+    "marketValue": 401,
+    "change24h": 0.0802,
+    "change7d": 0.1671,
+    "change30d": 0.4543
+   },
+   "tcg": {
+    "low": 250,
+    "mid": 250,
+    "high": 250,
+    "marketValue": 150,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   }
+  },
+  "gy-generations-23-83": {
+   "cnId": 22040,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.1,
+    "marketValue": 1.77,
+    "change24h": 0,
+    "change7d": 0.0536,
+    "change30d": -0.0829
+   },
+   "tcg": {
+    "low": 0.4,
+    "mid": 1.15,
+    "high": 28.2,
+    "marketValue": 1.18,
+    "change24h": 0,
+    "change7d": -0.0084,
+    "change30d": -0.0084
+   }
+  },
+  "gy-gym-challenge-giovanni-s-5-132": {
+   "cnId": 17198,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 37.31,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 359.99,
+    "mid": 399.99,
+    "high": 449.97,
+    "marketValue": 321.99,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   }
+  },
+  "gy-gym-challenge-misty-s-13-132": {
+   "cnId": 17306,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 42.12,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 3799.99,
+    "mid": 4039.99,
+    "high": 9999,
+    "marketValue": 425,
+    "change24h": 0,
+    "change7d": 0.0366,
+    "change30d": 0.0366
+   }
+  },
+  "gy-heartgold-soulsilver-4-123": {
+   "cnId": 23132,
+   "finish": "Foil",
+   "cm": {
+    "low": 3,
+    "marketValue": 18.47,
+    "change24h": -0.0543,
+    "change7d": -0.0543,
+    "change30d": 0.4056
+   },
+   "tcg": {
+    "low": 28.99,
+    "mid": 62.45,
+    "high": 540.16,
+    "marketValue": 60.86,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   }
+  },
+  "gy-legendary-collection-12-110": {
+   "cnId": 18725,
+   "finish": "Foil",
+   "cm": {
+    "low": 12,
+    "marketValue": 934.32,
+    "change24h": 0,
+    "change7d": 2.5042,
+    "change30d": 2.5042
+   },
+   "tcg": {
+    "low": 23.49,
+    "mid": 35.92,
+    "high": 302.32,
+    "marketValue": 50.97,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0.0196
+   }
+  },
+  "gy-legendary-treasures-31-113": {
+   "cnId": 25350,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.5,
+    "marketValue": 1.48,
+    "change24h": 0,
+    "change7d": -0.1685,
+    "change30d": -0.2709
+   },
+   "tcg": {
+    "low": 0.25,
+    "mid": 1.76,
+    "high": 49.99,
+    "marketValue": 1.67,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0.0183
+   }
+  },
+  "gy-mysterious-treasures-26-123": {
+   "cnId": 20720,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.6,
+    "marketValue": 2.65,
+    "change24h": -0.0468,
+    "change7d": 0.1134,
+    "change30d": -0.1945
+   },
+   "tcg": {
+    "low": 7.25,
+    "mid": 16.24,
+    "high": 141.52,
+    "marketValue": 13.7,
+    "change24h": 0,
+    "change7d": 0.0418,
+    "change30d": 0.0587
+   }
+  },
+  "gy-neo-revelation-shining-65-64": {
+   "cnId": 17160,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 73.71,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 825,
+    "mid": 3449,
+    "high": 3500,
+    "marketValue": 782.55,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0.0889
+   }
+  },
+  "gy-paldea-evolved-43-193": {
+   "cnId": 32888,
+   "finish": "Foil",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.26,
+    "change24h": -0.037,
+    "change7d": -0.2353,
+    "change30d": -0.1613
+   },
+   "tcg": {
+    "low": 0.08,
+    "mid": 0.34,
+    "high": 19.8,
+    "marketValue": 0.35,
+    "change24h": 0.0606,
+    "change7d": 0.0606,
+    "change30d": 0.0294
+   }
+  },
+  "gy-pokemon-go-22-078": {
+   "cnId": 30523,
+   "finish": "Reverse Holo",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.21,
+    "change24h": 0.05,
+    "change7d": -0.0455,
+    "change30d": -0.25
+   },
+   "tcg": {
+    "low": 0.2,
+    "mid": 0.75,
+    "high": 25,
+    "marketValue": 0.86,
+    "change24h": 0.075,
+    "change7d": 0.0488,
+    "change30d": 0.1781
+   }
+  },
+  "gy-rebel-clash-40-192": {
+   "cnId": 33776,
+   "finish": "Reverse Holo",
+   "cm": {
+    "low": 0.5,
+    "marketValue": 1.66,
+    "change24h": 0,
+    "change7d": 0.0061,
+    "change30d": 0.3387
+   },
+   "tcg": {
+    "low": 1.59,
+    "mid": 2.83,
+    "high": 96.95,
+    "marketValue": 2.76,
+    "change24h": -0.0036,
+    "change7d": -0.0036,
+    "change30d": 0.0147
+   }
+  },
+  "gy-skyridge-11-144": {
+   "cnId": 18006,
+   "finish": "Reverse Holo",
+   "cm": {
+    "low": 29.99,
+    "marketValue": 50.76,
+    "change24h": 0.2026,
+    "change7d": 0.1117,
+    "change30d": null
+   },
+   "tcg": {
+    "low": 500,
+    "mid": 500,
+    "high": 500,
+    "marketValue": 999.75,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": null
+   }
+  },
+  "gy-skyridge-h10-h32": {
+   "cnId": 18067,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 62.68,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 1999.99,
+    "mid": 1999.99,
+    "high": 1999.99,
+    "marketValue": 1249.94,
+    "change24h": 0,
+    "change7d": null,
+    "change30d": 0
+   }
+  },
+  "gy-stormfront-19-100": {
+   "cnId": 21462,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.45,
+    "marketValue": 2.28,
+    "change24h": -0.1769,
+    "change7d": -0.25,
+    "change30d": -0.0617
+   },
+   "tcg": {
+    "low": 6.99,
+    "mid": 15,
+    "high": 229.82,
+    "marketValue": 16.75,
+    "change24h": 0,
+    "change7d": -0.0301,
+    "change30d": -0.0301
+   }
+  },
+  "gy-team-rocket-dark-gyarados-25-82": {
+   "cnId": 128559,
+   "finish": "Standard",
+   "cm": {
+    "low": 3,
+    "marketValue": 16.24,
+    "change24h": 0.0614,
+    "change7d": -0.0287,
+    "change30d": -0.3036
+   },
+   "tcg": {
+    "low": 21.39,
+    "mid": 49.99,
+    "high": 297.64,
+    "marketValue": 33.27,
+    "change24h": 0,
+    "change7d": -0.0024,
+    "change30d": 0.0202
+   }
+  },
+  "gy-team-rocket-dark-gyarados-8-82": {
+   "cnId": 128547,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 31.28,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 146.79,
+    "mid": 249.43,
+    "high": 3303.43,
+    "marketValue": 222.18,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": -0.0292
+   }
+  },
+  "gy-team-up-30-181": {
+   "cnId": 28787,
+   "finish": "Foil",
+   "cm": {
+    "low": 2.36,
+    "marketValue": 6.79,
+    "change24h": 0,
+    "change7d": -0.0216,
+    "change30d": 0.0059
+   },
+   "tcg": {
+    "low": 6.19,
+    "mid": 11.12,
+    "high": 136.68,
+    "marketValue": 11.39,
+    "change24h": 0,
+    "change7d": 0.0098,
+    "change30d": 0.0373
+   }
+  },
+  "h-fpic3": {
+   "cnId": 251625,
+   "finish": "Standard",
+   "cm": {
+    "low": 15,
+    "marketValue": 30.8,
+    "change24h": -0.0169,
+    "change7d": -0.0357,
+    "change30d": null
+   },
+   "tcg": {
+    "low": 22.02,
+    "mid": 30.21,
+    "high": 90,
+    "marketValue": 24.53,
+    "change24h": -0.0422,
+    "change7d": -0.1417,
+    "change30d": null
+   }
+  },
+  "k-001": {
+   "cnId": 15959,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 10.52,
+    "change24h": 0.6386,
+    "change7d": 0.5202,
+    "change30d": 0.8887
+   },
+   "tcg": {
+    "low": 0.75,
+    "mid": 2.34,
+    "high": 74.99,
+    "marketValue": 3.52,
+    "change24h": 0.0798,
+    "change7d": 0.0086,
+    "change30d": -0.0761
+   }
+  },
+  "k-002": {
+   "cnId": 15938,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 5.83,
+    "change24h": -0.0085,
+    "change7d": 0.2984,
+    "change30d": 0.4759
+   },
+   "tcg": {
+    "low": 0.7,
+    "mid": 3.16,
+    "high": 250,
+    "marketValue": 5.43,
+    "change24h": 0.0093,
+    "change7d": -0.101,
+    "change30d": -0.1685
+   }
+  },
+  "k-003": {
+   "cnId": 16157,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 29.85,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 84,
+    "mid": 129.99,
+    "high": 1199,
+    "marketValue": 169.95,
+    "change24h": 0,
+    "change7d": -0.023,
+    "change30d": -0.0529
+   }
+  },
+  "k-004": {
+   "cnId": 15965,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 3.21,
+    "change24h": -0.1508,
+    "change7d": 0.8034,
+    "change30d": -0.0932
+   },
+   "tcg": {
+    "low": 0.05,
+    "mid": 1.45,
+    "high": 100,
+    "marketValue": 4.17,
+    "change24h": -0.0118,
+    "change7d": 0.3408,
+    "change30d": 0.3946
+   }
+  },
+  "k-005": {
+   "cnId": 17486,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 3.14,
+    "change24h": -0.1467,
+    "change7d": -0.2452,
+    "change30d": 0.2218
+   },
+   "tcg": {
+    "low": 0.33,
+    "mid": 1.42,
+    "high": 39.99,
+    "marketValue": 3.39,
+    "change24h": 0.0335,
+    "change7d": -0.189,
+    "change30d": 0.2064
+   }
+  },
+  "k-007": {
+   "cnId": 16010,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 8.38,
+    "change24h": -0.1234,
+    "change7d": 0.204,
+    "change30d": 0.4523
+   },
+   "tcg": {
+    "low": 0.75,
+    "mid": 4.64,
+    "high": 100,
+    "marketValue": 5.6,
+    "change24h": 0.0606,
+    "change7d": -0.1139,
+    "change30d": -0.0924
+   }
+  },
+  "k-008": {
+   "cnId": 15956,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.07,
+    "marketValue": 5.96,
+    "change24h": 0.0605,
+    "change7d": -0.1779,
+    "change30d": -0.0629
+   },
+   "tcg": {
+    "low": 0.75,
+    "mid": 3,
+    "high": 200,
+    "marketValue": 4.64,
+    "change24h": 0,
+    "change7d": -0.0211,
+    "change30d": -0.0866
+   }
+  },
+  "k-009": {
+   "cnId": 16145,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 73.51,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 134.01,
+    "mid": 184.99,
+    "high": 1580.88,
+    "marketValue": 221.29,
+    "change24h": -0.0087,
+    "change7d": -0.0047,
+    "change30d": -0.0308
+   }
+  },
+  "k-010": {
+   "cnId": 15962,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 3.06,
+    "change24h": -0.0286,
+    "change7d": 0.3421,
+    "change30d": 0.53
+   },
+   "tcg": {
+    "low": 0.25,
+    "mid": 0.87,
+    "high": 40,
+    "marketValue": 1.12,
+    "change24h": 0.0275,
+    "change7d": 0.0874,
+    "change30d": 0.0467
+   }
+  },
+  "k-011": {
+   "cnId": 15986,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.8,
+    "change24h": -0.1089,
+    "change7d": 0.3333,
+    "change30d": -0.0722
+   },
+   "tcg": {
+    "low": 0.24,
+    "mid": 0.79,
+    "high": 1000,
+    "marketValue": 1.59,
+    "change24h": 0.0461,
+    "change7d": 0.1866,
+    "change30d": 0.3361
+   }
+  },
+  "k-012": {
+   "cnId": 17983,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.05,
+    "marketValue": 2.07,
+    "change24h": -0.1516,
+    "change7d": -0.0096,
+    "change30d": -0.0282
+   },
+   "tcg": {
+    "low": 3,
+    "mid": 10.99,
+    "high": 217.64,
+    "marketValue": 12.64,
+    "change24h": -0.0314,
+    "change7d": -0.0532,
+    "change30d": -0.2245
+   }
+  },
+  "k-013": {
+   "cnId": 16025,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.92,
+    "change24h": -0.156,
+    "change7d": 0.15,
+    "change30d": -0.1238
+   },
+   "tcg": {
+    "low": 0.2,
+    "mid": 0.5,
+    "high": 80,
+    "marketValue": 0.7,
+    "change24h": 0.0294,
+    "change7d": -0.0278,
+    "change30d": -0.0909
+   }
+  },
+  "k-014": {
+   "cnId": 15943,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 2.36,
+    "change24h": 0.0396,
+    "change7d": 0.6276,
+    "change30d": 0.0306
+   },
+   "tcg": {
+    "low": 0.25,
+    "mid": 1,
+    "high": 15.88,
+    "marketValue": 1.36,
+    "change24h": 0.0149,
+    "change7d": -0.1282,
+    "change30d": -0.2139
+   }
+  },
+  "k-015": {
+   "cnId": 16234,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.15,
+    "marketValue": 6.64,
+    "change24h": -0.0221,
+    "change7d": 0.0457,
+    "change30d": -0.0841
+   },
+   "tcg": {
+    "low": 1.99,
+    "mid": 3.99,
+    "high": 9999,
+    "marketValue": 5.25,
+    "change24h": -0.0132,
+    "change7d": -0.0948,
+    "change30d": -0.1505
+   }
+  },
+  "k-016": {
+   "cnId": 15993,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 3.31,
+    "change24h": -0.2628,
+    "change7d": -0.4079,
+    "change30d": 164.5
+   },
+   "tcg": {
+    "low": 0.33,
+    "mid": 0.99,
+    "high": 59.99,
+    "marketValue": 2.37,
+    "change24h": 0.0042,
+    "change7d": 0.3466,
+    "change30d": 0.4451
+   }
+  },
+  "k-017": {
+   "cnId": 16808,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.74,
+    "marketValue": 8.85,
+    "change24h": -0.08,
+    "change7d": -0.1698,
+    "change30d": -0.3554
+   },
+   "tcg": {
+    "low": 6.57,
+    "mid": 9.11,
+    "high": 107.16,
+    "marketValue": 9.56,
+    "change24h": 0,
+    "change7d": -0.0134,
+    "change30d": -0.1341
+   }
+  },
+  "k-018": {
+   "cnId": 17942,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 22.22,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 80.3,
+    "mid": 170.49,
+    "high": 1414.12,
+    "marketValue": 168.05,
+    "change24h": 0,
+    "change7d": 0.0525,
+    "change30d": 0.0793
+   }
+  },
+  "k-019": {
+   "cnId": 16005,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.1,
+    "change24h": -0.2715,
+    "change7d": -0.321,
+    "change30d": -0.0984
+   },
+   "tcg": {
+    "low": 0.15,
+    "mid": 0.65,
+    "high": 18.2,
+    "marketValue": 0.9,
+    "change24h": -0.0722,
+    "change7d": 0,
+    "change30d": -0.1509
+   }
+  },
+  "k-020": {
+   "cnId": 15952,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.05,
+    "marketValue": 2.55,
+    "change24h": 0.1184,
+    "change7d": 0.1283,
+    "change30d": -0.1356
+   },
+   "tcg": {
+    "low": 0.6,
+    "mid": 1.73,
+    "high": 96.95,
+    "marketValue": 2.4,
+    "change24h": -0.0244,
+    "change7d": -0.0588,
+    "change30d": -0.1209
+   }
+  },
+  "k-021": {
+   "cnId": 16561,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.63,
+    "change24h": -0.1093,
+    "change7d": -0.3151,
+    "change30d": 0.5377
+   },
+   "tcg": {
+    "low": 0.99,
+    "mid": 2.16,
+    "high": 39.99,
+    "marketValue": 2.12,
+    "change24h": 0.0095,
+    "change7d": -0.0619,
+    "change30d": 0.0047
+   }
+  },
+  "k-022": {
+   "cnId": 18697,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.21,
+    "change24h": 0.0254,
+    "change7d": 0.3444,
+    "change30d": -0.2342
+   },
+   "tcg": {
+    "low": 1.8,
+    "mid": 3.99,
+    "high": 104.76,
+    "marketValue": 3.99,
+    "change24h": -0.0025,
+    "change7d": 0.0179,
+    "change30d": -0.059
+   }
+  },
+  "k-023": {
+   "cnId": 18237,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.54,
+    "change24h": -0.0526,
+    "change7d": 0.1489,
+    "change30d": -0.2703
+   },
+   "tcg": {
+    "low": 0.54,
+    "mid": 1.75,
+    "high": 39.99,
+    "marketValue": 1.63,
+    "change24h": 0.0187,
+    "change7d": 0.0187,
+    "change30d": -0.1376
+   }
+  },
+  "k-024": {
+   "cnId": 18026,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.05,
+    "marketValue": 1.78,
+    "change24h": -0.022,
+    "change7d": 0.5478,
+    "change30d": -0.4403
+   },
+   "tcg": {
+    "low": 0.99,
+    "mid": 5.32,
+    "high": 96.95,
+    "marketValue": 4.99,
+    "change24h": -0.004,
+    "change7d": -0.1041,
+    "change30d": -0.1683
+   }
+  },
+  "k-025": {
+   "cnId": 15995,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.1,
+    "marketValue": 47.84,
+    "change24h": 2.0375,
+    "change7d": 6.679,
+    "change30d": 2.6463
+   },
+   "tcg": {
+    "low": 2.99,
+    "mid": 6.01,
+    "high": 1000,
+    "marketValue": 12.1,
+    "change24h": -0.0155,
+    "change7d": -0.0606,
+    "change30d": -0.2558
+   }
+  },
+  "k-026": {
+   "cnId": 16140,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 30.12,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 42.48,
+    "mid": 59.1,
+    "high": 392.46,
+    "marketValue": 65.59,
+    "change24h": 0.0008,
+    "change7d": -0.0363,
+    "change30d": -0.1399
+   }
+  },
+  "k-027": {
+   "cnId": 16009,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.05,
+    "marketValue": 0.97,
+    "change24h": -0.1339,
+    "change7d": -0.2049,
+    "change30d": 0.5902
+   },
+   "tcg": {
+    "low": 0.25,
+    "mid": 0.52,
+    "high": 19.8,
+    "marketValue": 0.53,
+    "change24h": 0.0192,
+    "change7d": -0.0862,
+    "change30d": 0.0192
+   }
+  },
+  "k-028": {
+   "cnId": 18151,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.05,
+    "marketValue": 1.18,
+    "change24h": -0.0992,
+    "change7d": -0.1128,
+    "change30d": -0.4661
+   },
+   "tcg": {
+    "low": 1.5,
+    "mid": 5,
+    "high": 96.95,
+    "marketValue": 6.07,
+    "change24h": -0.0114,
+    "change7d": 0.0151,
+    "change30d": -0.1451
+   }
+  },
+  "k-029": {
+   "cnId": 19367,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.51,
+    "change24h": -0.0131,
+    "change7d": 0.0863,
+    "change30d": -0.1322
+   },
+   "tcg": {
+    "low": 0.99,
+    "mid": 9.76,
+    "high": 179.19,
+    "marketValue": 10.89,
+    "change24h": 0.0018,
+    "change7d": -0.0233,
+    "change30d": -0.0456
+   }
+  },
+  "k-030": {
+   "cnId": 19518,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.04,
+    "change24h": -0.1613,
+    "change7d": -0.302,
+    "change30d": 0.1183
+   },
+   "tcg": {
+    "low": 1.02,
+    "mid": 3.5,
+    "high": 62.55,
+    "marketValue": 3.68,
+    "change24h": 0.011,
+    "change7d": -0.0515,
+    "change30d": -0.08
+   }
+  },
+  "k-031": {
+   "cnId": 17893,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 14.34,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 73.9,
+    "mid": 130.38,
+    "high": 989.82,
+    "marketValue": 121.28,
+    "change24h": 0,
+    "change7d": 0.0319,
+    "change30d": 0.1171
+   }
+  },
+  "k-032": {
+   "cnId": 15945,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 4.12,
+    "change24h": -0.1043,
+    "change7d": 0.2047,
+    "change30d": 0.0757
+   },
+   "tcg": {
+    "low": 0.25,
+    "mid": 1.82,
+    "high": 96.95,
+    "marketValue": 2.79,
+    "change24h": 0.0072,
+    "change7d": -0.0106,
+    "change30d": -0.0762
+   }
+  },
+  "k-033": {
+   "cnId": 15948,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 8.6,
+    "change24h": 0.5523,
+    "change7d": 0.8615,
+    "change30d": 0.4701
+   },
+   "tcg": {
+    "low": 0.5,
+    "mid": 1.99,
+    "high": 96.95,
+    "marketValue": 4.27,
+    "change24h": 0.2413,
+    "change7d": 0.4046,
+    "change30d": 0.1667
+   }
+  },
+  "k-034": {
+   "cnId": 16095,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 26.24,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 20.07,
+    "mid": 34.5,
+    "high": 388.88,
+    "marketValue": 38.78,
+    "change24h": 0,
+    "change7d": -0.0281,
+    "change30d": -0.0266
+   }
+  },
+  "k-035": {
+   "cnId": 15974,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 14,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 20,
+    "mid": 43.34,
+    "high": 211.6,
+    "marketValue": 52.77,
+    "change24h": -0.0004,
+    "change7d": -0.0085,
+    "change30d": -0.0008
+   }
+  },
+  "k-036": {
+   "cnId": 17713,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 11.78,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 75.98,
+    "mid": 113.6,
+    "high": 1045.42,
+    "marketValue": 119.1,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": -0.024
+   }
+  },
+  "k-037": {
+   "cnId": 16022,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.46,
+    "change24h": -0.0818,
+    "change7d": 0.2807,
+    "change30d": 0.0429
+   },
+   "tcg": {
+    "low": 0.19,
+    "mid": 0.7,
+    "high": 49.99,
+    "marketValue": 0.89,
+    "change24h": -0.0326,
+    "change7d": 0.023,
+    "change30d": -0.1275
+   }
+  },
+  "k-038": {
+   "cnId": 16100,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 19.81,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 17.45,
+    "mid": 32.17,
+    "high": 355.04,
+    "marketValue": 41.96,
+    "change24h": 0,
+    "change7d": 0.1252,
+    "change30d": 0.2378
+   }
+  },
+  "k-039": {
+   "cnId": 16316,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.2,
+    "change24h": -0.0083,
+    "change7d": -0.1111,
+    "change30d": -0.1429
+   },
+   "tcg": {
+    "low": 2,
+    "mid": 6.75,
+    "high": 115,
+    "marketValue": 7.23,
+    "change24h": 0.0169,
+    "change7d": 0.0343,
+    "change30d": -0.0778
+   }
+  },
+  "k-040": {
+   "cnId": 17706,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 13.79,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 65.99,
+    "mid": 76.81,
+    "high": 693.62,
+    "marketValue": 84.95,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0.0838
+   }
+  },
+  "k-041": {
+   "cnId": 18523,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.64,
+    "change24h": 0,
+    "change7d": -0.0986,
+    "change30d": -0.1795
+   },
+   "tcg": {
+    "low": 0.75,
+    "mid": 2.23,
+    "high": 66.53,
+    "marketValue": 2.02,
+    "change24h": -0.0146,
+    "change7d": -0.0776,
+    "change30d": -0.1513
+   }
+  },
+  "k-042": {
+   "cnId": 18034,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 2.5,
+    "change24h": 0.1312,
+    "change7d": 3.0984,
+    "change30d": -0.0347
+   },
+   "tcg": {
+    "low": 1.25,
+    "mid": 5.07,
+    "high": 105.55,
+    "marketValue": 6.54,
+    "change24h": 0.0219,
+    "change7d": 0.0447,
+    "change30d": -0.021
+   }
+  },
+  "k-043": {
+   "cnId": 16410,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.64,
+    "change24h": -0.1368,
+    "change7d": -0.2679,
+    "change30d": 1.6885
+   },
+   "tcg": {
+    "low": 0.99,
+    "mid": 3.13,
+    "high": 96.95,
+    "marketValue": 3.22,
+    "change24h": 0.0126,
+    "change7d": 0.0321,
+    "change30d": 0.0288
+   }
+  },
+  "k-044": {
+   "cnId": 19065,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.7,
+    "change24h": -0.2135,
+    "change7d": -0.2391,
+    "change30d": -0.2553
+   },
+   "tcg": {
+    "low": 0.98,
+    "mid": 4.43,
+    "high": 37.99,
+    "marketValue": 4.71,
+    "change24h": -0.0084,
+    "change7d": 0,
+    "change30d": 0.0352
+   }
+  },
+  "k-045": {
+   "cnId": 17476,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 10.26,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 50.1,
+    "mid": 88.92,
+    "high": 929.72,
+    "marketValue": 87.38,
+    "change24h": 0,
+    "change7d": -0.0328,
+    "change30d": -0.0356
+   }
+  },
+  "k-046": {
+   "cnId": 16420,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.26,
+    "change24h": 0,
+    "change7d": -0.1975,
+    "change30d": -0.2674
+   },
+   "tcg": {
+    "low": 0.84,
+    "mid": 2,
+    "high": 33.06,
+    "marketValue": 1.98,
+    "change24h": 0,
+    "change7d": 0.0051,
+    "change30d": -0.0481
+   }
+  },
+  "k-047": {
+   "cnId": 19624,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.63,
+    "change24h": -0.0308,
+    "change7d": 0.5,
+    "change30d": -0.6379
+   },
+   "tcg": {
+    "low": 0.54,
+    "mid": 2.97,
+    "high": 37.22,
+    "marketValue": 2.85,
+    "change24h": 0,
+    "change7d": -0.0339,
+    "change30d": -0.1311
+   }
+  },
+  "k-048": {
+   "cnId": 16587,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.2,
+    "change24h": -0.5238,
+    "change7d": -0.7101,
+    "change30d": -0.7647
+   },
+   "tcg": {
+    "low": 0.66,
+    "mid": 2,
+    "high": 34.04,
+    "marketValue": 2.24,
+    "change24h": -0.0044,
+    "change7d": 0.0874,
+    "change30d": 0.1487
+   }
+  },
+  "k-049": {
+   "cnId": 16987,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 13.55,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 44.7,
+    "mid": 54.27,
+    "high": 898.82,
+    "marketValue": 92.21,
+    "change24h": 0,
+    "change7d": 0.0251,
+    "change30d": -0.0061
+   }
+  },
+  "k-050": {
+   "cnId": 15969,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.39,
+    "change24h": 12.9,
+    "change7d": 3.6333,
+    "change30d": -0.3285
+   },
+   "tcg": {
+    "low": 0.2,
+    "mid": 0.66,
+    "high": 18.64,
+    "marketValue": 1.01,
+    "change24h": 0.01,
+    "change7d": 0.5538,
+    "change30d": -0.0098
+   }
+  },
+  "k-051": {
+   "cnId": 16308,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.5,
+    "marketValue": 8.92,
+    "change24h": 0.0265,
+    "change7d": 0.0632,
+    "change30d": 0.1539
+   },
+   "tcg": {
+    "low": 3.55,
+    "mid": 6.55,
+    "high": 96.22,
+    "marketValue": 11.08,
+    "change24h": 0.0027,
+    "change7d": 0.0027,
+    "change30d": 0.0212
+   }
+  },
+  "k-052": {
+   "cnId": 16337,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.39,
+    "change24h": -0.2778,
+    "change7d": -0.5568,
+    "change30d": -0.5
+   },
+   "tcg": {
+    "low": 2.34,
+    "mid": 6.12,
+    "high": 96.94,
+    "marketValue": 5.41,
+    "change24h": -0.0018,
+    "change7d": -0.0092,
+    "change30d": 0.0692
+   }
+  },
+  "k-053": {
+   "cnId": 19919,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.21,
+    "change24h": -0.2092,
+    "change7d": -0.3278,
+    "change30d": -0.2438
+   },
+   "tcg": {
+    "low": 0.25,
+    "mid": 0.75,
+    "high": 500,
+    "marketValue": 0.84,
+    "change24h": 0.0633,
+    "change7d": 0.0244,
+    "change30d": 0.0244
+   }
+  },
+  "k-054": {
+   "cnId": 18414,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 5.58,
+    "change24h": -0.3077,
+    "change7d": -0.5826,
+    "change30d": 0.6081
+   },
+   "tcg": {
+    "low": 4.4,
+    "mid": 11.78,
+    "high": 96.95,
+    "marketValue": 14.3,
+    "change24h": -0.0111,
+    "change7d": 0.0648,
+    "change30d": 0.072
+   }
+  },
+  "k-055": {
+   "cnId": 18036,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.05,
+    "marketValue": 1.71,
+    "change24h": -0.0552,
+    "change7d": -0.0856,
+    "change30d": -0.3498
+   },
+   "tcg": {
+    "low": 1.5,
+    "mid": 6.27,
+    "high": 96.95,
+    "marketValue": 6.56,
+    "change24h": 0,
+    "change7d": -0.0076,
+    "change30d": -0.1665
+   }
+  },
+  "k-056": {
+   "cnId": 16323,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.04,
+    "change24h": -0.1475,
+    "change7d": -0.1811,
+    "change30d": 0.8909
+   },
+   "tcg": {
+    "low": 0.99,
+    "mid": 2.03,
+    "high": 20,
+    "marketValue": 1.95,
+    "change24h": 0,
+    "change7d": 0.0372,
+    "change30d": 0.0209
+   }
+  },
+  "k-057": {
+   "cnId": 20124,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.05,
+    "marketValue": 0.8,
+    "change24h": -0.2523,
+    "change7d": -0.4203,
+    "change30d": -0.5
+   },
+   "tcg": {
+    "low": 0.4,
+    "mid": 0.99,
+    "high": 15.62,
+    "marketValue": 1.3,
+    "change24h": 0.0317,
+    "change7d": 0,
+    "change30d": -0.0441
+   }
+  },
+  "k-058": {
+   "cnId": 15932,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 2.27,
+    "change24h": 0.0044,
+    "change7d": 0.7874,
+    "change30d": -0.1561
+   },
+   "tcg": {
+    "low": 0.2,
+    "mid": 0.91,
+    "high": 19.99,
+    "marketValue": 1.38,
+    "change24h": 0.0147,
+    "change7d": -0.0417,
+    "change30d": -0.1375
+   }
+  },
+  "k-059": {
+   "cnId": 17089,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.05,
+    "marketValue": 6.49,
+    "change24h": -0.1146,
+    "change7d": -0.0885,
+    "change30d": 0.1589
+   },
+   "tcg": {
+    "low": 0.9,
+    "mid": 2.99,
+    "high": 94.96,
+    "marketValue": 4.51,
+    "change24h": -0.0131,
+    "change7d": 0.2156,
+    "change30d": 0.1136
+   }
+  },
+  "k-060": {
+   "cnId": 16000,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 2.19,
+    "change24h": -0.124,
+    "change7d": 0.5643,
+    "change30d": 0.1649
+   },
+   "tcg": {
+    "low": 0.19,
+    "mid": 0.65,
+    "high": 1500,
+    "marketValue": 1.05,
+    "change24h": -0.0187,
+    "change7d": 0.2209,
+    "change30d": -0.0094
+   }
+  },
+  "k-061": {
+   "cnId": 15949,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 2.57,
+    "change24h": -0.041,
+    "change7d": 0.2009,
+    "change30d": 0.0936
+   },
+   "tcg": {
+    "low": 0.2,
+    "mid": 1.2,
+    "high": 9999,
+    "marketValue": 2.15,
+    "change24h": 0.1082,
+    "change7d": 0.2798,
+    "change30d": 0.1497
+   }
+  },
+  "k-062": {
+   "cnId": 16134,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 19.78,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 18,
+    "mid": 32.48,
+    "high": 9999,
+    "marketValue": 35.84,
+    "change24h": 0.0014,
+    "change7d": -0.0031,
+    "change30d": 0.0193
+   }
+  },
+  "k-063": {
+   "cnId": 15958,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.1,
+    "change24h": 0.1111,
+    "change7d": 0.1,
+    "change30d": -0.5067
+   },
+   "tcg": {
+    "low": 0.15,
+    "mid": 0.75,
+    "high": 100,
+    "marketValue": 1.9,
+    "change24h": 0.1176,
+    "change7d": 0.2583,
+    "change30d": 0.027
+   }
+  },
+  "k-064": {
+   "cnId": 15940,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.03,
+    "marketValue": 2.36,
+    "change24h": 0.0261,
+    "change7d": 0.0261,
+    "change30d": -0.3314
+   },
+   "tcg": {
+    "low": 0.4,
+    "mid": 1.22,
+    "high": 9999,
+    "marketValue": 2.35,
+    "change24h": -0.0369,
+    "change7d": -0.198,
+    "change30d": -0.0289
+   }
+  },
+  "k-065": {
+   "cnId": 15924,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 19.66,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 43.99,
+    "mid": 62.5,
+    "high": 9999,
+    "marketValue": 69.34,
+    "change24h": -0.001,
+    "change7d": -0.0055,
+    "change30d": 0
+   }
+  },
+  "k-066": {
+   "cnId": 15978,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.79,
+    "change24h": -0.1222,
+    "change7d": -0.1319,
+    "change30d": 0.0395
+   },
+   "tcg": {
+    "low": 0.09,
+    "mid": 0.5,
+    "high": 17.94,
+    "marketValue": 0.7,
+    "change24h": 0.0294,
+    "change7d": 0.3725,
+    "change30d": -0.0411
+   }
+  },
+  "k-067": {
+   "cnId": 15944,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.95,
+    "change24h": 0.0209,
+    "change7d": 0.9697,
+    "change30d": -0.8903
+   },
+   "tcg": {
+    "low": 0.15,
+    "mid": 0.76,
+    "high": 200,
+    "marketValue": 1.26,
+    "change24h": 0.4157,
+    "change7d": 0.4318,
+    "change30d": 0.6364
+   }
+  },
+  "k-068": {
+   "cnId": 209280,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 9.03,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 13.94,
+    "mid": 24.99,
+    "high": 160.52,
+    "marketValue": 23.65,
+    "change24h": -0.0247,
+    "change7d": -0.1511,
+    "change30d": -0.0287
+   }
+  },
+  "k-069": {
+   "cnId": 16243,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.2,
+    "change24h": -0.1367,
+    "change7d": -0.1608,
+    "change30d": 0.1111
+   },
+   "tcg": {
+    "low": 0.9,
+    "mid": 2.99,
+    "high": 44.95,
+    "marketValue": 2.67,
+    "change24h": -0.0291,
+    "change7d": -0.0326,
+    "change30d": -0.2101
+   }
+  },
+  "k-070": {
+   "cnId": 16241,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.02,
+    "change24h": -0.0192,
+    "change7d": 1.2174,
+    "change30d": -0.0811
+   },
+   "tcg": {
+    "low": 1,
+    "mid": 3.5,
+    "high": 96.95,
+    "marketValue": 3.49,
+    "change24h": -0.0169,
+    "change7d": -0.049,
+    "change30d": -0.1275
+   }
+  },
+  "k-071": {
+   "cnId": 17176,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 13.09,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 53.3,
+    "mid": 99.99,
+    "high": 1069.72,
+    "marketValue": 119.39,
+    "change24h": 0,
+    "change7d": -0.0498,
+    "change30d": -0.005
+   }
+  },
+  "k-072": {
+   "cnId": 18454,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.4,
+    "change24h": -0.0909,
+    "change7d": -0.0909,
+    "change30d": -0.5
+   },
+   "tcg": {
+    "low": 0.44,
+    "mid": 1.6,
+    "high": 29,
+    "marketValue": 1.51,
+    "change24h": 0.0559,
+    "change7d": 0.0272,
+    "change30d": -0.0621
+   }
+  },
+  "k-073": {
+   "cnId": 18198,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 2.57,
+    "change24h": -0.0722,
+    "change7d": 0.8099,
+    "change30d": 1.124
+   },
+   "tcg": {
+    "low": 1.67,
+    "mid": 5,
+    "high": 88.12,
+    "marketValue": 5.41,
+    "change24h": 0.0074,
+    "change7d": 0.0112,
+    "change30d": -0.1664
+   }
+  },
+  "k-074": {
+   "cnId": 18244,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.07,
+    "change24h": 0.049,
+    "change7d": 1.098,
+    "change30d": 0.2022
+   },
+   "tcg": {
+    "low": 0.97,
+    "mid": 3,
+    "high": 96.95,
+    "marketValue": 2.91,
+    "change24h": -0.0332,
+    "change7d": -0.1208,
+    "change30d": -0.1709
+   }
+  },
+  "k-075": {
+   "cnId": 18081,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1,
+    "change24h": -0.1379,
+    "change7d": -0.0991,
+    "change30d": 0.3158
+   },
+   "tcg": {
+    "low": 1.45,
+    "mid": 4.57,
+    "high": 74.28,
+    "marketValue": 4.57,
+    "change24h": 0,
+    "change7d": 0.053,
+    "change30d": 0.0363
+   }
+  },
+  "k-076": {
+   "cnId": 18076,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.07,
+    "marketValue": 2.03,
+    "change24h": 0.0914,
+    "change7d": -0.0193,
+    "change30d": -0.2645
+   },
+   "tcg": {
+    "low": 2.79,
+    "mid": 6.9,
+    "high": 96.95,
+    "marketValue": 6.96,
+    "change24h": 0.0116,
+    "change7d": 0.0116,
+    "change30d": -0.01
+   }
+  },
+  "k-077": {
+   "cnId": 16001,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.6,
+    "change24h": 1.1333,
+    "change7d": 1.0253,
+    "change30d": 1.1053
+   },
+   "tcg": {
+    "low": 0.38,
+    "mid": 0.75,
+    "high": 16.76,
+    "marketValue": 0.77,
+    "change24h": 0.2623,
+    "change7d": 0.2419,
+    "change30d": 0.1159
+   }
+  },
+  "k-078": {
+   "cnId": 20160,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.36,
+    "change24h": -0.6044,
+    "change7d": -0.6129,
+    "change30d": -0.8481
+   },
+   "tcg": {
+    "low": 3.4,
+    "mid": 7.52,
+    "high": 152.48,
+    "marketValue": 8.56,
+    "change24h": 0.0264,
+    "change7d": -0.1909,
+    "change30d": 0.0974
+   }
+  },
+  "k-079": {
+   "cnId": 18447,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.99,
+    "change24h": -0.0917,
+    "change7d": -0.1951,
+    "change30d": 0.32
+   },
+   "tcg": {
+    "low": 1,
+    "mid": 6.51,
+    "high": 110.61,
+    "marketValue": 6.81,
+    "change24h": -0.0073,
+    "change7d": 0.0074,
+    "change30d": 0.0104
+   }
+  },
+  "k-080": {
+   "cnId": 18191,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.09,
+    "marketValue": 1.98,
+    "change24h": -0.0526,
+    "change7d": 0.1186,
+    "change30d": -0.3125
+   },
+   "tcg": {
+    "low": 4.25,
+    "mid": 10.18,
+    "high": 171.21,
+    "marketValue": 10.56,
+    "change24h": 0.0086,
+    "change7d": 0.0193,
+    "change30d": -0.0889
+   }
+  },
+  "k-081": {
+   "cnId": 15982,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.08,
+    "change24h": 1.2979,
+    "change7d": 0.5211,
+    "change30d": -0.5574
+   },
+   "tcg": {
+    "low": 0.2,
+    "mid": 0.59,
+    "high": 18.6,
+    "marketValue": 0.9,
+    "change24h": 0.0227,
+    "change7d": 0.2676,
+    "change30d": 0.1392
+   }
+  },
+  "k-082": {
+   "cnId": 16068,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 12.94,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 14.69,
+    "mid": 27,
+    "high": 139.94,
+    "marketValue": 34.6,
+    "change24h": -0.0669,
+    "change7d": -0.0711,
+    "change30d": -0.0515
+   }
+  },
+  "k-083": {
+   "cnId": 15931,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.93,
+    "change24h": 0.1914,
+    "change7d": 0.693,
+    "change30d": -0.0585
+   },
+   "tcg": {
+    "low": 0.2,
+    "mid": 0.99,
+    "high": 96.51,
+    "marketValue": 1.36,
+    "change24h": -0.0216,
+    "change7d": -0.0286,
+    "change30d": -0.2184
+   }
+  },
+  "k-084": {
+   "cnId": 15971,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.64,
+    "change24h": -0.1675,
+    "change7d": 3.1,
+    "change30d": -0.6707
+   },
+   "tcg": {
+    "low": 0.34,
+    "mid": 0.94,
+    "high": 44.99,
+    "marketValue": 1.15,
+    "change24h": 0.0177,
+    "change7d": 0.055,
+    "change30d": -0.0496
+   }
+  },
+  "k-085": {
+   "cnId": 18444,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.8,
+    "change24h": -0.1837,
+    "change7d": -0.2523,
+    "change30d": -0.4969
+   },
+   "tcg": {
+    "low": 1.16,
+    "mid": 3,
+    "high": 49,
+    "marketValue": 4.89,
+    "change24h": 0,
+    "change7d": 0.0041,
+    "change30d": 0.0843
+   }
+  },
+  "k-086": {
+   "cnId": 15953,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 3.22,
+    "change24h": 0.1752,
+    "change7d": -0.0826,
+    "change30d": -0.2049
+   },
+   "tcg": {
+    "low": 0.29,
+    "mid": 0.99,
+    "high": 40,
+    "marketValue": 1.26,
+    "change24h": 0.0244,
+    "change7d": 0.0328,
+    "change30d": -0.1818
+   }
+  },
+  "k-087": {
+   "cnId": 17812,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.1,
+    "marketValue": 7.85,
+    "change24h": -0.0554,
+    "change7d": 0.4093,
+    "change30d": 1.1332
+   },
+   "tcg": {
+    "low": 0.69,
+    "mid": 2.1,
+    "high": 96.95,
+    "marketValue": 4.62,
+    "change24h": 0.1133,
+    "change7d": 0.2453,
+    "change30d": 0.232
+   }
+  },
+  "k-088": {
+   "cnId": 18261,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.92,
+    "change24h": 0.0337,
+    "change7d": 0.9167,
+    "change30d": -0.098
+   },
+   "tcg": {
+    "low": 0.69,
+    "mid": 2.99,
+    "high": 39.99,
+    "marketValue": 2.86,
+    "change24h": -0.0035,
+    "change7d": -0.0239,
+    "change30d": -0.1307
+   }
+  },
+  "k-089": {
+   "cnId": 17965,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 6.46,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 36.5,
+    "mid": 50,
+    "high": 419.71,
+    "marketValue": 62.43,
+    "change24h": -0.0008,
+    "change7d": -0.0473,
+    "change30d": 0.0326
+   }
+  },
+  "k-090": {
+   "cnId": 18431,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.66,
+    "change24h": 0,
+    "change7d": 1.5385,
+    "change30d": -0.2979
+   },
+   "tcg": {
+    "low": 0.89,
+    "mid": 1.99,
+    "high": 96.95,
+    "marketValue": 2.02,
+    "change24h": 0.0412,
+    "change7d": 0.0802,
+    "change30d": 0.0306
+   }
+  },
+  "k-091": {
+   "cnId": 18030,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 2.16,
+    "change24h": 0.4694,
+    "change7d": 0.4305,
+    "change30d": -0.0962
+   },
+   "tcg": {
+    "low": 0.2,
+    "mid": 0.79,
+    "high": 18,
+    "marketValue": 1.28,
+    "change24h": 0.0492,
+    "change7d": 0.1743,
+    "change30d": -0.2601
+   }
+  },
+  "k-092": {
+   "cnId": 15975,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 2.58,
+    "change24h": -0.1371,
+    "change7d": -0.3102,
+    "change30d": 0.2965
+   },
+   "tcg": {
+    "low": 0.11,
+    "mid": 0.75,
+    "high": 18.42,
+    "marketValue": 1.24,
+    "change24h": 0,
+    "change7d": -0.008,
+    "change30d": 0.2917
+   }
+  },
+  "k-093": {
+   "cnId": 15937,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.03,
+    "marketValue": 4.31,
+    "change24h": -0.0182,
+    "change7d": 0,
+    "change30d": 0.4415
+   },
+   "tcg": {
+    "low": 0.49,
+    "mid": 1.38,
+    "high": 100,
+    "marketValue": 2.93,
+    "change24h": 0.0892,
+    "change7d": 0.1098,
+    "change30d": 0.1581
+   }
+  },
+  "k-094": {
+   "cnId": 17660,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 29.47,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 219.98,
+    "mid": 263.66,
+    "high": 799.99,
+    "marketValue": 663.25,
+    "change24h": 0,
+    "change7d": 0.4476,
+    "change30d": 0.1027
+   }
+  },
+  "k-095": {
+   "cnId": 15990,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.25,
+    "change24h": -0.256,
+    "change7d": -0.3655,
+    "change30d": -0.4835
+   },
+   "tcg": {
+    "low": 0.19,
+    "mid": 0.68,
+    "high": 18.4,
+    "marketValue": 1.04,
+    "change24h": -0.0095,
+    "change7d": -0.0631,
+    "change30d": 0.0612
+   }
+  },
+  "k-096": {
+   "cnId": 15972,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 2.15,
+    "change24h": 0.4145,
+    "change7d": 0.8376,
+    "change30d": 1.15
+   },
+   "tcg": {
+    "low": 0.2,
+    "mid": 0.61,
+    "high": 17.26,
+    "marketValue": 1,
+    "change24h": 0.0526,
+    "change7d": 0.2658,
+    "change30d": -0.0476
+   }
+  },
+  "k-097": {
+   "cnId": 17758,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 23.7,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 53.82,
+    "mid": 91.49,
+    "high": 567.32,
+    "marketValue": 101.97,
+    "change24h": 0,
+    "change7d": 0.0614,
+    "change30d": 0.2085
+   }
+  },
+  "k-098": {
+   "cnId": 18375,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.57,
+    "change24h": 0.1176,
+    "change7d": 0.2955,
+    "change30d": -0.0806
+   },
+   "tcg": {
+    "low": 0.8,
+    "mid": 2.02,
+    "high": 39.99,
+    "marketValue": 2.1,
+    "change24h": 0.05,
+    "change7d": 0.0553,
+    "change30d": 0.0769
+   }
+  },
+  "k-099": {
+   "cnId": 18090,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.33,
+    "change24h": -0.0828,
+    "change7d": 0.0992,
+    "change30d": 0.1271
+   },
+   "tcg": {
+    "low": 1.02,
+    "mid": 3.3,
+    "high": 54.25,
+    "marketValue": 3.22,
+    "change24h": -0.0031,
+    "change7d": -0.0359,
+    "change30d": -0.0904
+   }
+  },
+  "k-100": {
+   "cnId": 16019,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 2.61,
+    "change24h": -0.1092,
+    "change7d": -0.1741,
+    "change30d": 0.1106
+   },
+   "tcg": {
+    "low": 0.5,
+    "mid": 2.26,
+    "high": 24.99,
+    "marketValue": 3.91,
+    "change24h": 0.0371,
+    "change7d": -0.0076,
+    "change30d": -0.0298
+   }
+  },
+  "k-101": {
+   "cnId": 16609,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.4,
+    "marketValue": 6.05,
+    "change24h": -0.1142,
+    "change7d": 0.0168,
+    "change30d": -0.1901
+   },
+   "tcg": {
+    "low": 3,
+    "mid": 5.9,
+    "high": 9999,
+    "marketValue": 8.33,
+    "change24h": -0.0142,
+    "change7d": 0.0598,
+    "change30d": -0.0775
+   }
+  },
+  "k-102": {
+   "cnId": 16295,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.14,
+    "change24h": -0.1799,
+    "change7d": -0.341,
+    "change30d": 0.9655
+   },
+   "tcg": {
+    "low": 0.88,
+    "mid": 2.81,
+    "high": 96.95,
+    "marketValue": 2.52,
+    "change24h": 0,
+    "change7d": -0.0195,
+    "change30d": -0.0735
+   }
+  },
+  "k-103": {
+   "cnId": 18565,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.52,
+    "change24h": -0.1059,
+    "change7d": 0.0935,
+    "change30d": -0.1364
+   },
+   "tcg": {
+    "low": 2.99,
+    "mid": 3.87,
+    "high": 97.8,
+    "marketValue": 5.55,
+    "change24h": 0,
+    "change7d": -0.0331,
+    "change30d": -0.3432
+   }
+  },
+  "k-104": {
+   "cnId": 16282,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.66,
+    "change24h": -0.1538,
+    "change7d": -0.5385,
+    "change30d": -0.4454
+   },
+   "tcg": {
+    "low": 3.5,
+    "mid": 10.15,
+    "high": 96.95,
+    "marketValue": 13.31,
+    "change24h": 0.0145,
+    "change7d": -0.0104,
+    "change30d": 0.1821
+   }
+  },
+  "k-105": {
+   "cnId": 19367,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.51,
+    "change24h": -0.0131,
+    "change7d": 0.0863,
+    "change30d": -0.1322
+   },
+   "tcg": {
+    "low": 0.99,
+    "mid": 9.76,
+    "high": 179.19,
+    "marketValue": 10.89,
+    "change24h": 0.0018,
+    "change7d": -0.0233,
+    "change30d": -0.0456
+   }
+  },
+  "k-106": {
+   "cnId": 17741,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 24.4,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 58.42,
+    "mid": 544.86,
+    "high": 9999,
+    "marketValue": 97.45,
+    "change24h": 0.0221,
+    "change7d": 0.0221,
+    "change30d": 0.0349
+   }
+  },
+  "k-108": {
+   "cnId": 19144,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 3.54,
+    "change24h": -0.0709,
+    "change7d": -0.2237,
+    "change30d": 0.7184
+   },
+   "tcg": {
+    "low": 1.79,
+    "mid": 7.32,
+    "high": 119.41,
+    "marketValue": 7.53,
+    "change24h": 0.0176,
+    "change7d": 0.0287,
+    "change30d": -0.1492
+   }
+  },
+  "k-109": {
+   "cnId": 15977,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.89,
+    "change24h": -0.0729,
+    "change7d": 0.0595,
+    "change30d": -0.2458
+   },
+   "tcg": {
+    "low": 0.15,
+    "mid": 0.6,
+    "high": 16.4,
+    "marketValue": 0.96,
+    "change24h": 0.0323,
+    "change7d": 0.1034,
+    "change30d": -0.2381
+   }
+  },
+  "k-110": {
+   "cnId": 18203,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.74,
+    "change24h": 0.2794,
+    "change7d": 0.0357,
+    "change30d": 0.1013
+   },
+   "tcg": {
+    "low": 1,
+    "mid": 4.22,
+    "high": 96.95,
+    "marketValue": 4.07,
+    "change24h": 0,
+    "change7d": -0.075,
+    "change30d": -0.2758
+   }
+  },
+  "k-111": {
+   "cnId": 16516,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.49,
+    "change24h": -0.1676,
+    "change7d": -0.307,
+    "change30d": 1.0986
+   },
+   "tcg": {
+    "low": 0.88,
+    "mid": 2.71,
+    "high": 96.95,
+    "marketValue": 2.66,
+    "change24h": 0.0038,
+    "change7d": -0.0327,
+    "change30d": -0.1279
+   }
+  },
+  "k-112": {
+   "cnId": 20233,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 4.45,
+    "change24h": 0.0206,
+    "change7d": 2.2721,
+    "change30d": 0.5136
+   },
+   "tcg": {
+    "low": 4.07,
+    "mid": 9.5,
+    "high": 173.64,
+    "marketValue": 10.33,
+    "change24h": -0.0039,
+    "change7d": -0.0575,
+    "change30d": -0.1533
+   }
+  },
+  "k-113": {
+   "cnId": 16190,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 21.43,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 19.99,
+    "mid": 42.75,
+    "high": 258.68,
+    "marketValue": 57.28,
+    "change24h": 0,
+    "change7d": -0.0542,
+    "change30d": -0.0862
+   }
+  },
+  "k-114": {
+   "cnId": 16018,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.28,
+    "change24h": 0.024,
+    "change7d": 0.1228,
+    "change30d": -0.0519
+   },
+   "tcg": {
+    "low": 0.25,
+    "mid": 0.73,
+    "high": 15.56,
+    "marketValue": 0.76,
+    "change24h": -0.013,
+    "change7d": -0.038,
+    "change30d": -0.2897
+   }
+  },
+  "k-115": {
+   "cnId": 17807,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 5.73,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 55.51,
+    "mid": 63.7,
+    "high": 795.22,
+    "marketValue": 82.72,
+    "change24h": 0,
+    "change7d": -0.0035,
+    "change30d": 0.0147
+   }
+  },
+  "k-116": {
+   "cnId": 18284,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.4,
+    "change24h": 0.6667,
+    "change7d": 0.0526,
+    "change30d": -0.6262
+   },
+   "tcg": {
+    "low": 0.37,
+    "mid": 2.65,
+    "high": 44.99,
+    "marketValue": 2.51,
+    "change24h": -0.0528,
+    "change7d": -0.0599,
+    "change30d": -0.1433
+   }
+  },
+  "k-117": {
+   "cnId": 18162,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.18,
+    "change24h": -0.1449,
+    "change7d": 0.2041,
+    "change30d": 0.0727
+   },
+   "tcg": {
+    "low": 1.5,
+    "mid": 4.99,
+    "high": 96.95,
+    "marketValue": 4.88,
+    "change24h": 0,
+    "change7d": -0.0775,
+    "change30d": -0.0687
+   }
+  },
+  "k-118": {
+   "cnId": 16310,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.23,
+    "change24h": -0.0081,
+    "change7d": -0.0238,
+    "change30d": -0.5176
+   },
+   "tcg": {
+    "low": 0.75,
+    "mid": 2.55,
+    "high": 43.32,
+    "marketValue": 2.55,
+    "change24h": -0.0039,
+    "change7d": -0.0267,
+    "change30d": -0.0154
+   }
+  },
+  "k-119": {
+   "cnId": 20448,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.47,
+    "change24h": -0.338,
+    "change7d": -0.6017,
+    "change30d": -0.6736
+   },
+   "tcg": {
+    "low": 1.59,
+    "mid": 4.78,
+    "high": 96.95,
+    "marketValue": 4.84,
+    "change24h": 0,
+    "change7d": -0.0202,
+    "change30d": -0.0339
+   }
+  },
+  "k-120": {
+   "cnId": 16016,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.45,
+    "change24h": -0.3571,
+    "change7d": -0.2623,
+    "change30d": -0.5408
+   },
+   "tcg": {
+    "low": 0.01,
+    "mid": 0.57,
+    "high": 100,
+    "marketValue": 0.94,
+    "change24h": 0.1605,
+    "change7d": 0.2051,
+    "change30d": 0.0562
+   }
+  },
+  "k-121": {
+   "cnId": 16013,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.81,
+    "change24h": -0.3306,
+    "change7d": -0.5598,
+    "change30d": -0.2212
+   },
+   "tcg": {
+    "low": 0.24,
+    "mid": 0.7,
+    "high": 25,
+    "marketValue": 0.9,
+    "change24h": 0.0465,
+    "change7d": 0.125,
+    "change30d": 0.0465
+   }
+  },
+  "k-122": {
+   "cnId": 17865,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 11.05,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 55.7,
+    "mid": 172.53,
+    "high": 862.04,
+    "marketValue": 152.01,
+    "change24h": 0,
+    "change7d": 0.0411,
+    "change30d": 0.1834
+   }
+  },
+  "k-123": {
+   "cnId": 18314,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 19.69,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 81.6,
+    "mid": 205,
+    "high": 1489.62,
+    "marketValue": 160.68,
+    "change24h": 0,
+    "change7d": 0.0115,
+    "change30d": 0.0613
+   }
+  },
+  "k-124": {
+   "cnId": 15939,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 2.68,
+    "change24h": -0.029,
+    "change7d": 0.5402,
+    "change30d": -0.029
+   },
+   "tcg": {
+    "low": 0.29,
+    "mid": 0.85,
+    "high": 40,
+    "marketValue": 1.2,
+    "change24h": 0.1538,
+    "change7d": 0.2632,
+    "change30d": 0
+   }
+  },
+  "k-125": {
+   "cnId": 16571,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 10.9,
+    "change24h": 0.3608,
+    "change7d": 0.401,
+    "change30d": -0.139
+   },
+   "tcg": {
+    "low": 4.26,
+    "mid": 8,
+    "high": 96.95,
+    "marketValue": 9.66,
+    "change24h": -0.0051,
+    "change7d": -0.0213,
+    "change30d": -0.0649
+   }
+  },
+  "k-126": {
+   "cnId": 15946,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 2.82,
+    "change24h": -0.1019,
+    "change7d": -0.1873,
+    "change30d": -0.4221
+   },
+   "tcg": {
+    "low": 0.25,
+    "mid": 1.56,
+    "high": 19.99,
+    "marketValue": 3.72,
+    "change24h": 0,
+    "change7d": 0.0783,
+    "change30d": 0.1847
+   }
+  },
+  "k-127": {
+   "cnId": 18016,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 15.99,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 57.1,
+    "mid": 72,
+    "high": 1039.82,
+    "marketValue": 90.81,
+    "change24h": 0,
+    "change7d": 0.0304,
+    "change30d": 0.0409
+   }
+  },
+  "k-128": {
+   "cnId": 16240,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.75,
+    "change24h": 0.2097,
+    "change7d": 0.0135,
+    "change30d": -0.6231
+   },
+   "tcg": {
+    "low": 0.27,
+    "mid": 0.8,
+    "high": 15.48,
+    "marketValue": 0.98,
+    "change24h": 0,
+    "change7d": -0.0577,
+    "change30d": -0.125
+   }
+  },
+  "k-129": {
+   "cnId": 15945,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 4.12,
+    "change24h": -0.1043,
+    "change7d": 0.2047,
+    "change30d": 0.0757
+   },
+   "tcg": {
+    "low": 0.25,
+    "mid": 1.82,
+    "high": 96.95,
+    "marketValue": 2.79,
+    "change24h": 0.0072,
+    "change7d": -0.0106,
+    "change30d": -0.0762
+   }
+  },
+  "k-131": {
+   "cnId": 17825,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 34.18,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 150,
+    "mid": 205.09,
+    "high": 9999,
+    "marketValue": 237.42,
+    "change24h": 0,
+    "change7d": 0.1282,
+    "change30d": 0.1549
+   }
+  },
+  "k-132": {
+   "cnId": 17582,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 17.49,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 104.99,
+    "mid": 224.99,
+    "high": 499.26,
+    "marketValue": 131.99,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0.1214
+   }
+  },
+  "k-133": {
+   "cnId": 16288,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 3.41,
+    "change24h": -0.0501,
+    "change7d": -0.0759,
+    "change30d": 1.0793
+   },
+   "tcg": {
+    "low": 6.48,
+    "mid": 15,
+    "high": 96.95,
+    "marketValue": 16.29,
+    "change24h": 0.0112,
+    "change7d": 0.1135,
+    "change30d": 0.1112
+   }
+  },
+  "k-134": {
+   "cnId": 16784,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 8.72,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 119.5,
+    "mid": 239.98,
+    "high": 1530.22,
+    "marketValue": 170.33,
+    "change24h": 0,
+    "change7d": -0.0417,
+    "change30d": 0.6145
+   }
+  },
+  "k-135": {
+   "cnId": 17802,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 18.72,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 152.94,
+    "mid": 225,
+    "high": 1909.62,
+    "marketValue": 272.28,
+    "change24h": 0,
+    "change7d": 0.002,
+    "change30d": 0.0551
+   }
+  },
+  "k-136": {
+   "cnId": 17775,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 24.68,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 159.99,
+    "mid": 239.99,
+    "high": 949.72,
+    "marketValue": 337.5,
+    "change24h": 0,
+    "change7d": 0.0385,
+    "change30d": 1.135
+   }
+  },
+  "k-137": {
+   "cnId": 15951,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 3.56,
+    "change24h": -0.0607,
+    "change7d": 0.044,
+    "change30d": -0.138
+   },
+   "tcg": {
+    "low": 0.75,
+    "mid": 2.23,
+    "high": 96.95,
+    "marketValue": 3.4,
+    "change24h": -0.0202,
+    "change7d": 0.1604,
+    "change30d": 0.283
+   }
+  },
+  "k-138": {
+   "cnId": 18412,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.07,
+    "change24h": -0.0183,
+    "change7d": -0.2302,
+    "change30d": 0.2738
+   },
+   "tcg": {
+    "low": 0.88,
+    "mid": 3.14,
+    "high": 100,
+    "marketValue": 2.89,
+    "change24h": 0.014,
+    "change7d": -0.0137,
+    "change30d": -0.1475
+   }
+  },
+  "k-139": {
+   "cnId": 18148,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.68,
+    "change24h": 0.0435,
+    "change7d": -0.0118,
+    "change30d": -0.1064
+   },
+   "tcg": {
+    "low": 1.49,
+    "mid": 5.21,
+    "high": 106.65,
+    "marketValue": 5.8,
+    "change24h": 0,
+    "change7d": 0.0357,
+    "change30d": -0.0938
+   }
+  },
+  "k-140": {
+   "cnId": 18288,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.86,
+    "change24h": -0.3175,
+    "change7d": -0.4625,
+    "change30d": -0.4658
+   },
+   "tcg": {
+    "low": 7,
+    "mid": 19.88,
+    "high": 10000,
+    "marketValue": 16.48,
+    "change24h": 0,
+    "change7d": 0.0842,
+    "change30d": -0.0935
+   }
+  },
+  "k-141": {
+   "cnId": 17808,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 17.35,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 19.99,
+    "mid": 38.37,
+    "high": 109.99,
+    "marketValue": 39.93,
+    "change24h": -0.017,
+    "change7d": 0.0127,
+    "change30d": -0.0795
+   }
+  },
+  "k-142": {
+   "cnId": 17491,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 20.44,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 66.58,
+    "mid": 95,
+    "high": 1246.12,
+    "marketValue": 95.48,
+    "change24h": 0,
+    "change7d": 0.0287,
+    "change30d": 0.0472
+   }
+  },
+  "k-144": {
+   "cnId": 17499,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 24.47,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 145.15,
+    "mid": 196.85,
+    "high": 1949.72,
+    "marketValue": 202.32,
+    "change24h": 0,
+    "change7d": 0.0052,
+    "change30d": -0.0082
+   }
+  },
+  "k-145": {
+   "cnId": 16203,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 16.02,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 23.49,
+    "mid": 38,
+    "high": 9999,
+    "marketValue": 45.35,
+    "change24h": 0.004,
+    "change7d": -0.0337,
+    "change30d": -0.1708
+   }
+  },
+  "k-146": {
+   "cnId": 17958,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 29.41,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 148,
+    "mid": 189.1,
+    "high": 1572.42,
+    "marketValue": 197.91,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0.0173
+   }
+  },
+  "k-147": {
+   "cnId": 15927,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 4.17,
+    "change24h": 0.0121,
+    "change7d": 0.178,
+    "change30d": 0.5736
+   },
+   "tcg": {
+    "low": 0.25,
+    "mid": 1.71,
+    "high": 69.97,
+    "marketValue": 2.97,
+    "change24h": -0.0067,
+    "change7d": 0.1336,
+    "change30d": 0.0385
+   }
+  },
+  "k-148": {
+   "cnId": 16254,
+   "finish": "Standard",
+   "cm": {
+    "low": 1.48,
+    "marketValue": 10.93,
+    "change24h": 0,
+    "change7d": -0.2431,
+    "change30d": -0.2674
+   },
+   "tcg": {
+    "low": 7.22,
+    "mid": 12.3,
+    "high": 143.97,
+    "marketValue": 17.7,
+    "change24h": -0.0183,
+    "change7d": -0.0872,
+    "change30d": -0.0443
+   }
+  },
+  "k-149": {
+   "cnId": 17655,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 40.43,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 290.85,
+    "mid": 549.98,
+    "high": 999.99,
+    "marketValue": 470.17,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0.0154
+   }
+  },
+  "k-150": {
+   "cnId": 16089,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 16.9,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 36.99,
+    "mid": 75,
+    "high": 500,
+    "marketValue": 91.92,
+    "change24h": 0.0094,
+    "change7d": -0.0166,
+    "change30d": 0.178
+   }
+  },
+  "k-151": {
+   "cnId": 165323,
+   "finish": "Standard",
+   "cm": {
+    "low": 1.2,
+    "marketValue": 5.98,
+    "change24h": -0.1101,
+    "change7d": -0.3158,
+    "change30d": -0.5904
+   },
+   "tcg": {
+    "low": 5,
+    "mid": 10.29,
+    "high": 9999,
+    "marketValue": 10.63,
+    "change24h": -0.023,
+    "change7d": -0.0019,
+    "change30d": -0.0075
+   }
+  },
+  "lor-wu": {
+   "cnId": 212252,
+   "finish": "Standard",
+   "cm": {
+    "low": 100,
+    "marketValue": 144.75,
+    "change24h": -0.0096,
+    "change7d": -0.0406,
+    "change30d": 0.0551
+   },
+   "tcg": {
+    "low": 230,
+    "mid": 272.5,
+    "high": 1500,
+    "marketValue": 235.94,
+    "change24h": 0,
+    "change7d": -0.0058,
+    "change30d": 0.0194
+   }
+  },
+  "mk-151-129-165": {
+   "cnId": 33736,
+   "finish": "Reverse Holo",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.04,
+    "change24h": -0.2,
+    "change7d": -0.2,
+    "change30d": -0.3333
+   },
+   "tcg": {
+    "low": 0.13,
+    "mid": 0.34,
+    "high": 17.08,
+    "marketValue": 0.33,
+    "change24h": 0.0313,
+    "change7d": -0.0294,
+    "change30d": -0.0571
+   }
+  },
+  "mk-ancient-origins-19-98": {
+   "cnId": 23004,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.26,
+    "change24h": -0.1034,
+    "change7d": -0.2121,
+    "change30d": -0.2778
+   },
+   "tcg": {
+    "low": 0.04,
+    "mid": 0.27,
+    "high": 19.8,
+    "marketValue": 0.26,
+    "change24h": 0.04,
+    "change7d": 0.0833,
+    "change30d": 0.0833
+   }
+  },
+  "mk-base-set-2-50-130": {
+   "cnId": 19120,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.15,
+    "marketValue": 1.58,
+    "change24h": 0.1367,
+    "change7d": 0.0194,
+    "change30d": 0.264
+   },
+   "tcg": {
+    "low": 0.48,
+    "mid": 1.08,
+    "high": 12.25,
+    "marketValue": 1.96,
+    "change24h": 0,
+    "change7d": -0.0297,
+    "change30d": -0.0884
+   }
+  },
+  "mk-burning-shadows-32-147": {
+   "cnId": 28740,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.14,
+    "change24h": -0.125,
+    "change7d": -0.2632,
+    "change30d": 1.8
+   },
+   "tcg": {
+    "low": 0.05,
+    "mid": 0.36,
+    "high": 14.33,
+    "marketValue": 0.36,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": -0.0526
+   }
+  },
+  "mk-call-of-legends-61-95": {
+   "cnId": 23935,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.97,
+    "change24h": 0,
+    "change7d": -0.186,
+    "change30d": -0.0708
+   },
+   "tcg": {
+    "low": 0.5,
+    "mid": 2.65,
+    "high": 19.8,
+    "marketValue": 2.65,
+    "change24h": 0,
+    "change7d": -0.0112,
+    "change30d": 0.0076
+   }
+  },
+  "mk-crimson-invasion-17-111": {
+   "cnId": 27247,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.11,
+    "change24h": -0.0833,
+    "change7d": -0.0833,
+    "change30d": -0.2143
+   },
+   "tcg": {
+    "low": 0.09,
+    "mid": 0.38,
+    "high": 17.92,
+    "marketValue": 0.37,
+    "change24h": -0.0513,
+    "change7d": -0.0976,
+    "change30d": 0.0571
+   }
+  },
+  "mk-destined-rivals-misty-s-48-182": {
+   "cnId": 34119,
+   "finish": "Reverse Holo",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.05,
+    "change24h": 0,
+    "change7d": -0.1667,
+    "change30d": 0.6667
+   },
+   "tcg": {
+    "low": 0.1,
+    "mid": 0.46,
+    "high": 19.8,
+    "marketValue": 0.45,
+    "change24h": 0.0227,
+    "change7d": -0.1,
+    "change30d": -0.0625
+   }
+  },
+  "mk-detective-pikachu-8-18": {
+   "cnId": 27010,
+   "finish": "Foil",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.1,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": -0.0179
+   },
+   "tcg": {
+    "low": 0.05,
+    "mid": 0.79,
+    "high": 20,
+    "marketValue": 0.92,
+    "change24h": 0.011,
+    "change7d": 0.1795,
+    "change30d": 0.0824
+   }
+  },
+  "mk-dragon-majesty-19-70": {
+   "cnId": 26464,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.05,
+    "marketValue": 0.46,
+    "change24h": -0.08,
+    "change7d": 0,
+    "change30d": 0.122
+   },
+   "tcg": {
+    "low": 0.15,
+    "mid": 0.63,
+    "high": 19.08,
+    "marketValue": 0.66,
+    "change24h": 0.0154,
+    "change7d": 0.0154,
+    "change30d": 0.2222
+   }
+  },
+  "mk-dragons-exalted-23-124": {
+   "cnId": 25447,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.47,
+    "change24h": 0,
+    "change7d": 0.7407,
+    "change30d": -0.3286
+   },
+   "tcg": {
+    "low": 0.44,
+    "mid": 1.19,
+    "high": 23.62,
+    "marketValue": 1.15,
+    "change24h": 0,
+    "change7d": -0.0496,
+    "change30d": -0.0171
+   }
+  },
+  "mk-evolutions-33-108": {
+   "cnId": 27113,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.15,
+    "change24h": 0,
+    "change7d": 0.0714,
+    "change30d": 0.0714
+   },
+   "tcg": {
+    "low": 0.04,
+    "mid": 0.27,
+    "high": 19.95,
+    "marketValue": 0.27,
+    "change24h": -0.1,
+    "change7d": -0.129,
+    "change30d": 0
+   }
+  },
+  "mk-ex-deoxys-64-107": {
+   "cnId": 20137,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.18,
+    "marketValue": 1.45,
+    "change24h": -0.1104,
+    "change7d": -0.3696,
+    "change30d": -0.4983
+   },
+   "tcg": {
+    "low": 4.99,
+    "mid": 9.95,
+    "high": 152.3,
+    "marketValue": 9.71,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0.0073
+   }
+  },
+  "mk-ex-dragon-60-97": {
+   "cnId": 18401,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.6,
+    "change24h": 0.0063,
+    "change7d": 0.0526,
+    "change30d": -0.1623
+   },
+   "tcg": {
+    "low": 3.13,
+    "mid": 5.06,
+    "high": 40.26,
+    "marketValue": 5.08,
+    "change24h": -0.0117,
+    "change7d": 0.018,
+    "change30d": 0.0474
+   }
+  },
+  "mk-ex-firered-leafgreen-67-112": {
+   "cnId": 17053,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.05,
+    "marketValue": 1.71,
+    "change24h": -0.1779,
+    "change7d": -0.5391,
+    "change30d": -0.7277
+   },
+   "tcg": {
+    "low": 2.49,
+    "mid": 5.79,
+    "high": 96.96,
+    "marketValue": 6.93,
+    "change24h": 0.0191,
+    "change7d": 0.05,
+    "change30d": 0.039
+   }
+  },
+  "mk-ex-holon-phantoms-69-110": {
+   "cnId": 20440,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.05,
+    "marketValue": 2.49,
+    "change24h": -0.0978,
+    "change7d": -0.1942,
+    "change30d": 0.7914
+   },
+   "tcg": {
+    "low": 2.5,
+    "mid": 4.5,
+    "high": 49.82,
+    "marketValue": 4.55,
+    "change24h": 0,
+    "change7d": 0.0066,
+    "change30d": 0.0248
+   }
+  },
+  "mk-ex-team-rocket-returns-65-109": {
+   "cnId": 18700,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.5,
+    "marketValue": 3.33,
+    "change24h": -0.1373,
+    "change7d": -0.0826,
+    "change30d": -0.0852
+   },
+   "tcg": {
+    "low": 4.1,
+    "mid": 9.55,
+    "high": 96.95,
+    "marketValue": 9.47,
+    "change24h": 0,
+    "change7d": -0.0021,
+    "change30d": 0.122
+   }
+  },
+  "mk-expedition-base-set-118-165": {
+   "cnId": 19807,
+   "finish": "Standard",
+   "cm": {
+    "low": 2,
+    "marketValue": 11.95,
+    "change24h": 0,
+    "change7d": -0.0538,
+    "change30d": 0.0529
+   },
+   "tcg": {
+    "low": 33.99,
+    "mid": 48.76,
+    "high": 167.02,
+    "marketValue": 33.77,
+    "change24h": 0.0111,
+    "change7d": 0.0404,
+    "change30d": 0.0349
+   }
+  },
+  "mk-generations-22-83": {
+   "cnId": 23005,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.35,
+    "change24h": 0.1667,
+    "change7d": -0.0789,
+    "change30d": 0.1667
+   },
+   "tcg": {
+    "low": 0.31,
+    "mid": 0.69,
+    "high": 80,
+    "marketValue": 0.74,
+    "change24h": -0.0133,
+    "change7d": -0.0513,
+    "change30d": -0.1868
+   }
+  },
+  "mk-gym-challenge-giovanni-s-73-132": {
+   "cnId": 18171,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.47,
+    "marketValue": 3.73,
+    "change24h": 0.0275,
+    "change7d": -0.0436,
+    "change30d": 0.0448
+   },
+   "tcg": {
+    "low": 11.45,
+    "mid": 19.4,
+    "high": 9999,
+    "marketValue": 18.89,
+    "change24h": 0,
+    "change7d": -0.0177,
+    "change30d": -0.0042
+   }
+  },
+  "mk-gym-challenge-misty-s-88-132": {
+   "cnId": 18323,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.29,
+    "marketValue": 3.15,
+    "change24h": -0.0248,
+    "change7d": 0.9325,
+    "change30d": -0.375
+   },
+   "tcg": {
+    "low": 8.95,
+    "mid": 12,
+    "high": 98.55,
+    "marketValue": 13.2,
+    "change24h": 0,
+    "change7d": 0.0418,
+    "change30d": 0.0991
+   }
+  },
+  "mk-heartgold-soulsilver-72-123": {
+   "cnId": 23916,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 1.1,
+    "change24h": 0.3095,
+    "change7d": 1.2917,
+    "change30d": 0.9643
+   },
+   "tcg": {
+    "low": 0.82,
+    "mid": 1.9,
+    "high": 22,
+    "marketValue": 1.92,
+    "change24h": 0,
+    "change7d": -0.0052,
+    "change30d": 0.0323
+   }
+  },
+  "mk-hidden-fates-15-68": {
+   "cnId": 23936,
+   "finish": "Reverse Holo",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.1,
+    "change24h": -0.0909,
+    "change7d": -0.0909,
+    "change30d": 0.1111
+   },
+   "tcg": {
+    "low": 0.93,
+    "mid": 1.91,
+    "high": 18.66,
+    "marketValue": 1.91,
+    "change24h": 0.0552,
+    "change7d": 0.038,
+    "change30d": 0.0269
+   }
+  },
+  "mk-legendary-collection-52-110": {
+   "cnId": 19123,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.69,
+    "marketValue": 3.25,
+    "change24h": 0.0285,
+    "change7d": -0.0661,
+    "change30d": 0.1285
+   },
+   "tcg": {
+    "low": 2.79,
+    "mid": 5.8,
+    "high": 57.02,
+    "marketValue": 8.14,
+    "change24h": 0,
+    "change7d": 0.0265,
+    "change30d": 0.0239
+   }
+  },
+  "mk-legendary-treasures-30-113": {
+   "cnId": 25334,
+   "finish": "Standard",
+   "cm": {
+    "low": 1.49,
+    "marketValue": 4.07,
+    "change24h": 0.0853,
+    "change7d": 0.1695,
+    "change30d": 0.0252
+   },
+   "tcg": {
+    "low": 0.99,
+    "mid": 1.9,
+    "high": 96.95,
+    "marketValue": 5.08,
+    "change24h": 0,
+    "change7d": -0.0059,
+    "change30d": 0.8473
+   }
+  },
+  "mk-mysterious-treasures-89-123": {
+   "cnId": 20592,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.32,
+    "change24h": 0,
+    "change7d": -0.2727,
+    "change30d": 0.6842
+   },
+   "tcg": {
+    "low": 0.26,
+    "mid": 1.49,
+    "high": 24.99,
+    "marketValue": 1.56,
+    "change24h": 0,
+    "change7d": 0.0331,
+    "change30d": 0.0331
+   }
+  },
+  "mk-neo-revelation-shining-66-64": {
+   "cnId": 17163,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 85.59,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 600,
+    "mid": 925,
+    "high": 1250,
+    "marketValue": 445,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   }
+  },
+  "mk-paldea-evolved-203-193": {
+   "cnId": 32845,
+   "finish": "Foil",
+   "cm": {
+    "low": 99.9,
+    "marketValue": 298.65,
+    "change24h": -0.0708,
+    "change7d": -0.2194,
+    "change30d": 0.1302
+   },
+   "tcg": {
+    "low": 268.93,
+    "mid": 392.99,
+    "high": 4321,
+    "marketValue": 356.6,
+    "change24h": -0.0067,
+    "change7d": -0.0329,
+    "change30d": -0.0485
+   }
+  },
+  "mk-paldea-evolved-42-193": {
+   "cnId": 32839,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.06,
+    "change24h": 0.2,
+    "change7d": 0.2,
+    "change30d": 0.2
+   },
+   "tcg": {
+    "low": 0.03,
+    "mid": 0.21,
+    "high": 20,
+    "marketValue": 0.21,
+    "change24h": 0.05,
+    "change7d": -0.0455,
+    "change30d": -0.16
+   }
+  },
+  "mk-pokemon-go-021-078": {
+   "cnId": 30521,
+   "finish": "Reverse Holo",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.07,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0.4
+   },
+   "tcg": {
+    "low": 0.1,
+    "mid": 0.44,
+    "high": 19.8,
+    "marketValue": 0.46,
+    "change24h": 0.0952,
+    "change7d": 0.0455,
+    "change30d": 0.2432
+   }
+  },
+  "mk-rebel-clash-39-192": {
+   "cnId": 33774,
+   "finish": "Reverse Holo",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.99,
+    "change24h": -0.3813,
+    "change7d": -0.4176,
+    "change30d": -0.6024
+   },
+   "tcg": {
+    "low": 8.75,
+    "mid": 17.36,
+    "high": 96.95,
+    "marketValue": 19.44,
+    "change24h": 0,
+    "change7d": 0.31,
+    "change30d": 0.3519
+   }
+  },
+  "mk-scarlet-violet-44-198": {
+   "cnId": 32064,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.05,
+    "change24h": 0.25,
+    "change7d": 0.25,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 0.01,
+    "mid": 0.2,
+    "high": 20,
+    "marketValue": 0.18,
+    "change24h": 0.0588,
+    "change7d": 0.125,
+    "change30d": 0
+   }
+  },
+  "mk-skyridge-75-144": {
+   "cnId": 18989,
+   "finish": "Reverse Holo",
+   "cm": {
+    "low": 8.5,
+    "marketValue": 18.85,
+    "change24h": -0.0318,
+    "change7d": -0.1212,
+    "change30d": null
+   },
+   "tcg": {
+    "low": 79.99,
+    "mid": 116.5,
+    "high": 1012.82,
+    "marketValue": 101.87,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": null
+   }
+  },
+  "mk-stormfront-65-100": {
+   "cnId": 22088,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 2.02,
+    "change24h": -0.1217,
+    "change7d": -0.3289,
+    "change30d": 1.6579
+   },
+   "tcg": {
+    "low": 1.95,
+    "mid": 5.77,
+    "high": 998.2,
+    "marketValue": 5.88,
+    "change24h": 0.0208,
+    "change7d": 0.0407,
+    "change30d": 0.0068
+   }
+  },
+  "mk-supreme-victors-110-147": {
+   "cnId": 21373,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.06,
+    "marketValue": 0.23,
+    "change24h": 0,
+    "change7d": -0.4773,
+    "change30d": -0.7326
+   },
+   "tcg": {
+    "low": 1.38,
+    "mid": 2.89,
+    "high": 26.92,
+    "marketValue": 2.9,
+    "change24h": -0.0136,
+    "change7d": -0.0034,
+    "change30d": 0.0584
+   }
+  },
+  "mk-team-rocket-47-82": {
+   "cnId": 128373,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.05,
+    "marketValue": 2.03,
+    "change24h": -0.1362,
+    "change7d": -0.3233,
+    "change30d": -0.6808
+   },
+   "tcg": {
+    "low": 4.7,
+    "mid": 7.01,
+    "high": 9999,
+    "marketValue": 9.07,
+    "change24h": -0.0289,
+    "change7d": 0.0202,
+    "change30d": 0.2703
+   }
+  },
+  "mk-team-up-29-181": {
+   "cnId": 28785,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.02,
+    "marketValue": 0.31,
+    "change24h": -0.0606,
+    "change7d": -0.3404,
+    "change30d": 0.55
+   },
+   "tcg": {
+    "low": 0.2,
+    "mid": 0.45,
+    "high": 19.8,
+    "marketValue": 0.37,
+    "change24h": -0.0263,
+    "change7d": -0.0263,
+    "change30d": -0.0513
+   }
+  },
+  "op17": {
+   "cnId": 248188,
+   "finish": "Standard",
+   "cm": {
+    "low": 200,
+    "marketValue": 251.22,
+    "change24h": -0.0079,
+    "change7d": -0.0173,
+    "change30d": -0.1333
+   },
+   "tcg": {
+    "low": 305,
+    "mid": 363.46,
+    "high": 999.99,
+    "marketValue": 309.62,
+    "change24h": -0.0121,
+    "change7d": 0.0538,
+    "change30d": -0.0488
+   }
+  },
+  "pe-spc": {
+   "cnId": 223738,
+   "finish": "Standard",
+   "cm": {
+    "low": 115,
+    "marketValue": 219.81,
+    "change24h": -0.0261,
+    "change7d": -0.0431,
+    "change30d": -0.0498
+   },
+   "tcg": {
+    "low": 244,
+    "mid": 344.92,
+    "high": 1499.99,
+    "marketValue": 260.35,
+    "change24h": 0.0053,
+    "change7d": 0.0296,
+    "change30d": -0.0028
+   }
+  },
+  "s-cc-zard": {
+   "cnId": 251510,
+   "finish": "Foil",
+   "cm": {
+    "low": 149,
+    "marketValue": 177.6,
+    "change24h": 0.0482,
+    "change7d": 0.1182,
+    "change30d": null
+   },
+   "tcg": {
+    "low": 145,
+    "mid": 180,
+    "high": 799,
+    "marketValue": 148.96,
+    "change24h": -0.0756,
+    "change7d": -0.2829,
+    "change30d": null
+   }
+  },
+  "s-darkrai-sir": {
+   "cnId": 243955,
+   "finish": "Foil",
+   "cm": {
+    "low": 144,
+    "marketValue": 183.08,
+    "change24h": -0.0277,
+    "change7d": -0.1036,
+    "change30d": -0.2133
+   },
+   "tcg": {
+    "low": 141,
+    "mid": 185.28,
+    "high": 4321,
+    "marketValue": 160.63,
+    "change24h": -0.0114,
+    "change7d": -0.058,
+    "change30d": -0.1872
+   }
+  },
+  "s-drago-sir": {
+   "cnId": 165071,
+   "finish": "Foil",
+   "cm": {
+    "low": 189,
+    "marketValue": 343.33,
+    "change24h": -0.062,
+    "change7d": -0.0576,
+    "change30d": -0.155
+   },
+   "tcg": {
+    "low": 459.99,
+    "mid": 574.03,
+    "high": 2999.99,
+    "marketValue": 506.15,
+    "change24h": -0.0105,
+    "change7d": -0.0608,
+    "change30d": -0.1833
+   }
+  },
+  "s-fur-mew": {
+   "cnId": 245218,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 0,
+    "change24h": null,
+    "change7d": null,
+    "change30d": null
+   },
+   "tcg": {
+    "low": 61,
+    "mid": 85.72,
+    "high": 8000,
+    "marketValue": 62.19,
+    "change24h": 0.0249,
+    "change7d": -0.332,
+    "change30d": null
+   }
+  },
+  "s-fur-mewtwo": {
+   "cnId": 245219,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 0,
+    "change24h": null,
+    "change7d": null,
+    "change30d": null
+   },
+   "tcg": {
+    "low": 43.45,
+    "mid": 75,
+    "high": 1999.99,
+    "marketValue": 48.88,
+    "change24h": 0.1273,
+    "change7d": -0.2573,
+    "change30d": null
+   }
+  },
+  "s-gren-sir": {
+   "cnId": 212393,
+   "finish": "Foil",
+   "cm": {
+    "low": 99.95,
+    "marketValue": 125.5,
+    "change24h": -0.0594,
+    "change7d": -0.1148,
+    "change30d": -0.2225
+   },
+   "tcg": {
+    "low": 133,
+    "mid": 164.16,
+    "high": 4321,
+    "marketValue": 135.46,
+    "change24h": -0.0303,
+    "change7d": -0.1243,
+    "change30d": -0.2545
+   }
+  },
+  "s-mew-paf": {
+   "cnId": 29674,
+   "finish": "Foil",
+   "cm": {
+    "low": 200,
+    "marketValue": 762.18,
+    "change24h": 0.0879,
+    "change7d": -0.175,
+    "change30d": -0.1594
+   },
+   "tcg": {
+    "low": 735.99,
+    "mid": 982.3,
+    "high": 10000,
+    "marketValue": 872.64,
+    "change24h": 0,
+    "change7d": 0.0037,
+    "change30d": -0.0368
+   }
+  },
+  "sf-etb": {
+   "cnId": 223452,
+   "finish": "Standard",
+   "cm": {
+    "low": 110,
+    "marketValue": 118.61,
+    "change24h": -0.0079,
+    "change7d": -0.0297,
+    "change30d": 0.0131
+   },
+   "tcg": {
+    "low": 130,
+    "mid": 167.47,
+    "high": 600,
+    "marketValue": 138.62,
+    "change24h": -0.0012,
+    "change7d": -0.0085,
+    "change30d": -0.0465
+   }
+  },
+  "sv2a-box": {
+   "cnId": 225120,
+   "finish": "Standard",
+   "cm": {
+    "low": 150,
+    "marketValue": 229.18,
+    "change24h": 0.0112,
+    "change7d": 0.0025,
+    "change30d": -0.0319
+   },
+   "tcg": {
+    "low": 262.98,
+    "mid": 345,
+    "high": 2500,
+    "marketValue": 280.1,
+    "change24h": -0.017,
+    "change7d": -0.057,
+    "change30d": -0.0588
+   }
+  },
+  "sv4a-box": {
+   "cnId": 225171,
+   "finish": "Standard",
+   "cm": {
+    "low": 89,
+    "marketValue": 108.82,
+    "change24h": 0.0154,
+    "change7d": 0.0059,
+    "change30d": 0.0417
+   },
+   "tcg": {
+    "low": 110,
+    "mid": 143.7,
+    "high": 475,
+    "marketValue": 108,
+    "change24h": -0.0192,
+    "change7d": -0.0928,
+    "change30d": -0.2014
+   }
+  },
+  "zard-premium23": {
+   "cnId": 223011,
+   "finish": "Standard",
+   "cm": {
+    "low": 200,
+    "marketValue": 321.9,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 100.11,
+    "mid": 125,
+    "high": 500,
+    "marketValue": 110.31,
+    "change24h": 0,
+    "change7d": -0.0054,
+    "change30d": -0.0192
+   }
+  },
+  "zard-special-collection": {
+   "cnId": 223145,
+   "finish": "Standard",
+   "cm": {},
+   "tcg": {
+    "low": 47.44,
+    "mid": 68.35,
+    "high": 199,
+    "marketValue": 60,
+    "change24h": 0.0103,
+    "change7d": -0.0127,
+    "change30d": 0.0133
+   }
+  },
+  "bs-clefairydoll": {
+   "cnId": 16028,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.7,
+    "marketValue": 8.14,
+    "change24h": -0.0012,
+    "change7d": 0.3522,
+    "change30d": -0.3328
+   },
+   "tcg": {
+    "low": 3.75,
+    "mid": 7.45,
+    "high": 96.38,
+    "marketValue": 7.86,
+    "change24h": -0.0403,
+    "change7d": -0.1325,
+    "change30d": -0.2376
+   }
+  },
+  "bs-computersearch": {
+   "cnId": 16029,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.2,
+    "marketValue": 3.75,
+    "change24h": -0.0625,
+    "change7d": -0.0482,
+    "change30d": 0.0745
+   },
+   "tcg": {
+    "low": 0.99,
+    "mid": 3,
+    "high": 96.95,
+    "marketValue": 3.71,
+    "change24h": 0,
+    "change7d": 0.1667,
+    "change30d": 0.1968
+   }
+  },
+  "bs-devolutionspray": {
+   "cnId": 16031,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.85,
+    "marketValue": 7.82,
+    "change24h": -0.0346,
+    "change7d": -0.1194,
+    "change30d": -0.0334
+   },
+   "tcg": {
+    "low": 1.5,
+    "mid": 4.13,
+    "high": 9999,
+    "marketValue": 6.35,
+    "change24h": 0,
+    "change7d": 0.0016,
+    "change30d": 0.0376
+   }
+  },
+  "bs-itemfinder": {
+   "cnId": 16034,
+   "finish": "Standard",
+   "cm": {
+    "low": 2.75,
+    "marketValue": 8.67,
+    "change24h": -0.017,
+    "change7d": 0.0105,
+    "change30d": -0.1234
+   },
+   "tcg": {
+    "low": 4.7,
+    "mid": 8.84,
+    "high": 96.95,
+    "marketValue": 9.36,
+    "change24h": 0.0354,
+    "change7d": 0.0207,
+    "change30d": 0.0821
+   }
+  },
+  "bs-lass": {
+   "cnId": 16036,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.12,
+    "marketValue": 5.26,
+    "change24h": -0.2654,
+    "change7d": -0.4143,
+    "change30d": 0.9267
+   },
+   "tcg": {
+    "low": 1.14,
+    "mid": 2.75,
+    "high": 31,
+    "marketValue": 4.17,
+    "change24h": 0.0665,
+    "change7d": 0.0425,
+    "change30d": 0.2337
+   }
+  },
+  "bs-breeder": {
+   "cnId": 16039,
+   "finish": "Standard",
+   "cm": {
+    "low": 1.5,
+    "marketValue": 7.8,
+    "change24h": -0.0591,
+    "change7d": -0.1333,
+    "change30d": -0.1693
+   },
+   "tcg": {
+    "low": 3.14,
+    "mid": 5.14,
+    "high": 96.95,
+    "marketValue": 7.1,
+    "change24h": 0.0028,
+    "change7d": 0.026,
+    "change30d": 0.0597
+   }
+  },
+  "bs-scoopup": {
+   "cnId": 16043,
+   "finish": "Standard",
+   "cm": {
+    "low": 3,
+    "marketValue": 29.79,
+    "change24h": -0.0685,
+    "change7d": -0.2302,
+    "change30d": 1.1218
+   },
+   "tcg": {
+    "low": 4.99,
+    "mid": 8.04,
+    "high": 94.22,
+    "marketValue": 8.19,
+    "change24h": 0,
+    "change7d": 0.0212,
+    "change30d": -0.0619
+   }
+  },
+  "bs-superenergyremoval": {
+   "cnId": 16046,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.05,
+    "marketValue": 4.51,
+    "change24h": 0.1108,
+    "change7d": 0.1332,
+    "change30d": 0.3187
+   },
+   "tcg": {
+    "low": 1.08,
+    "mid": 3,
+    "high": 9999,
+    "marketValue": 3.66,
+    "change24h": 0.0828,
+    "change7d": 0.0671,
+    "change30d": -0.0494
+   }
+  },
+  "bs-trader": {
+   "cnId": 16042,
+   "finish": "Standard",
+   "cm": {
+    "low": 1,
+    "marketValue": 6.73,
+    "change24h": 0.0467,
+    "change7d": 0.3274,
+    "change30d": -0.3645
+   },
+   "tcg": {
+    "low": 2.3,
+    "mid": 4.43,
+    "high": 96.95,
+    "marketValue": 4.59,
+    "change24h": 0,
+    "change7d": -0.0457,
+    "change30d": -0.1563
+   }
+  },
+  "bs-imposteroak": {
+   "cnId": 16032,
+   "finish": "Standard",
+   "cm": {
+    "low": 0.99,
+    "marketValue": 8.12,
+    "change24h": -0.1222,
+    "change7d": 0.1123,
+    "change30d": -0.2222
+   },
+   "tcg": {
+    "low": 3.43,
+    "mid": 4.99,
+    "high": 4317.07,
+    "marketValue": 6.56,
+    "change24h": 0,
+    "change7d": 0.0266,
+    "change30d": 0.1369
+   }
+  },
+  "pe-spc-2": {
+   "cnId": 223738,
+   "finish": "Standard",
+   "cm": {
+    "low": 115,
+    "marketValue": 219.81,
+    "change24h": -0.0261,
+    "change7d": -0.0431,
+    "change30d": -0.0498
+   },
+   "tcg": {
+    "low": 244,
+    "mid": 344.92,
+    "high": 1499.99,
+    "marketValue": 260.35,
+    "change24h": 0.0053,
+    "change7d": 0.0296,
+    "change30d": -0.0028
+   }
+  },
+  "h-cr-box": {
+   "cnId": 223272,
+   "finish": "Standard",
+   "cm": {
+    "low": 110,
+    "marketValue": 182.43,
+    "change24h": 0.0159,
+    "change7d": 0.012,
+    "change30d": 0.0057
+   },
+   "tcg": {
+    "low": 160.99,
+    "mid": 229.95,
+    "high": 1999,
+    "marketValue": 190.09,
+    "change24h": -0.0056,
+    "change7d": -0.0033,
+    "change30d": 0.0804
+   }
+  },
+  "h-pb-box": {
+   "cnId": 245460,
+   "finish": "Standard",
+   "cm": {},
+   "tcg": {
+    "low": 174.99,
+    "mid": 213,
+    "high": 999,
+    "marketValue": 194.08,
+    "change24h": 0.0111,
+    "change7d": 0.0084,
+    "change30d": 0.0316
+   }
+  },
+  "h-po-box": {
+   "cnId": 223565,
+   "finish": "Standard",
+   "cm": {
+    "low": 130,
+    "marketValue": 180.44,
+    "change24h": 0.0113,
+    "change7d": 0.0166,
+    "change30d": 0.031
+   },
+   "tcg": {
+    "low": 172,
+    "mid": 225,
+    "high": 999,
+    "marketValue": 173.6,
+    "change24h": 0.0006,
+    "change7d": -0.0122,
+    "change30d": 0.0045
+   }
+  },
+  "ah-etb": {
+   "cnId": 223568,
+   "finish": "Standard",
+   "cm": {
+    "low": 72.99,
+    "marketValue": 127.68,
+    "change24h": 0.0178,
+    "change7d": 0.0639,
+    "change30d": 0.0047
+   },
+   "tcg": {
+    "low": 149.49,
+    "mid": 180,
+    "high": 555,
+    "marketValue": 157.87,
+    "change24h": -0.0109,
+    "change7d": 0.0435,
+    "change30d": -0.0537
+   }
+  },
+  "h-fpic2": {
+   "cnId": 223392,
+   "finish": "Standard",
+   "cm": {
+    "low": 18.9,
+    "marketValue": 33.21,
+    "change24h": -0.0125,
+    "change7d": -0.0368,
+    "change30d": null
+   },
+   "tcg": {
+    "low": 18.26,
+    "mid": 34.99,
+    "high": 149.99,
+    "marketValue": 24.87,
+    "change24h": -0.0064,
+    "change7d": -0.0398,
+    "change30d": -0.1086
+   }
+  },
+  "h-greninja": {
+   "cnId": 245491,
+   "finish": "Standard",
+   "cm": {
+    "low": 28.89,
+    "marketValue": 45.43,
+    "change24h": 0.0341,
+    "change7d": 0.0572,
+    "change30d": 0.071
+   },
+   "tcg": {
+    "low": 39.99,
+    "mid": 55,
+    "high": 150,
+    "marketValue": 50.59,
+    "change24h": 0.0046,
+    "change7d": 0.0306,
+    "change30d": 0.0468
+   }
+  },
+  "s12-box": {
+   "cnId": 225017,
+   "finish": "Standard",
+   "cm": {
+    "low": 95,
+    "marketValue": 124.78,
+    "change24h": 0,
+    "change7d": 0.0497,
+    "change30d": 0.1477
+   },
+   "tcg": {
+    "low": 179.99,
+    "mid": 187.18,
+    "high": 250,
+    "marketValue": 167.23,
+    "change24h": 0,
+    "change7d": 0.0406,
+    "change30d": 0.0508
+   }
+  },
+  "s-gengar-tg06": {
+   "cnId": 29042,
+   "finish": "Foil",
+   "cm": {
+    "low": 19.98,
+    "marketValue": 31.53,
+    "change24h": 0.0577,
+    "change7d": 0.0486,
+    "change30d": null
+   },
+   "tcg": {
+    "low": 39,
+    "mid": 53.37,
+    "high": 752.1,
+    "marketValue": 47.72,
+    "change24h": -0.0259,
+    "change7d": -0.0558,
+    "change30d": -0.1656
+   }
+  },
+  "s-charizard-tg03": {
+   "cnId": 26249,
+   "finish": "Foil",
+   "cm": {
+    "low": 16,
+    "marketValue": 24.28,
+    "change24h": 0.0163,
+    "change7d": 0.0484,
+    "change30d": null
+   },
+   "tcg": {
+    "low": 21.97,
+    "mid": 32.27,
+    "high": 500,
+    "marketValue": 27.49,
+    "change24h": -0.0341,
+    "change7d": -0.0418,
+    "change30d": -0.108
+   }
+  },
+  "rp-692947": {
+   "cnId": 245467,
+   "finish": "Standard",
+   "cm": {},
+   "tcg": {
+    "low": 59.99,
+    "mid": 84.96,
+    "high": 9999,
+    "marketValue": 76.12,
+    "change24h": 0.003,
+    "change7d": 0.0611,
+    "change30d": 0.0945
+   }
+  },
+  "rp-668541": {
+   "cnId": 223587,
+   "finish": "Standard",
+   "cm": {
+    "low": 41.9,
+    "marketValue": 76.26,
+    "change24h": 0.005,
+    "change7d": 0.002,
+    "change30d": 0.0315
+   },
+   "tcg": {
+    "low": 74.51,
+    "mid": 92.85,
+    "high": 1999.99,
+    "marketValue": 83.93,
+    "change24h": -0.0019,
+    "change7d": 0.0242,
+    "change30d": -0.0533
+   }
+  },
+  "rp-672733": {
+   "cnId": 223602,
+   "finish": "Standard",
+   "cm": {
+    "low": 25.99,
+    "marketValue": 40.9,
+    "change24h": -0.0336,
+    "change7d": -0.0408,
+    "change30d": -0.1208
+   },
+   "tcg": {
+    "low": 48.52,
+    "mid": 64.88,
+    "high": 249.99,
+    "marketValue": 56.08,
+    "change24h": 0,
+    "change7d": 0.0114,
+    "change30d": -0.0581
+   }
+  }
+ },
+ "unmatched": [
+  "h-lumiose",
+  "h-tsc",
+  "k-006",
+  "k-107",
+  "k-130",
+  "k-143"
+ ]
+}
