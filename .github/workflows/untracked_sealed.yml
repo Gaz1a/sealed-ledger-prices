@@ -1,0 +1,21 @@
+name: Untracked sealed audit
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/untracked_sealed.py
+      - name: Commit
+        run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add -f untracked_sealed.json
+          git diff --cached --quiet || git commit -m "untracked sealed audit $(date -u +%F)"
+          git pull --rebase
+          git push
