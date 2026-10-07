@@ -1,0 +1,8 @@
+{
+ "feeds": [
+  {"id": "pokebeach", "url": "https://www.pokebeach.com/rss", "enabled": true, "note": "announced by PokeBeach as its RSS feed; robots.txt allows all"},
+  {"id": "googlenews-reprint", "url": "https://news.google.com/rss/search?q=pokemon+tcg+(reprint+OR+restock+OR+%22sold+out%22+OR+%22print+run%22+OR+delayed)+when:14d&hl=en-US&gl=US&ceid=US:en", "enabled": true, "note": "Google News RSS search feed (headlines and links only)"},
+  {"id": "pokemon-com-news", "url": "https://www.pokemon.com/us/pokemon-news/rss", "enabled": false, "note": "returned 404/bot-protection when tested; no confirmed official RSS. Enable if you find a working URL"}
+ ],
+ "keywords": ["reprint", "restock", "re-stock", "back in stock", "sold out", "print run", "overprint", "preorder", "pre-order", "delay", "delayed", "release date", "price increase", "allocation", "limit per", "booster box", "elite trainer", "prismatic", "ascended heroes", "chaos rising", "perfect order", "pitch black", "delta reign", "mega evolution", "30th celebration"]
+}
