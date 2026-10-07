@@ -1,0 +1,431 @@
+{
+ "generated": "2026-10-07T19:09:43Z",
+ "window": "sales = last 30 days (CardNexus marketplace)",
+ "requests": {
+  "listings": 27,
+  "sales": 27
+ },
+ "stopped": null,
+ "items": [
+  {
+   "ledgerId": "k-006",
+   "title": "Charizard 4/102 (holo)",
+   "market": 928.32,
+   "cnId": null,
+   "note": "no CardNexus id"
+  },
+  {
+   "ledgerId": "s-mew-paf",
+   "title": "Mew ex \u2014 SIR 232/091 (USGMEN)",
+   "market": 872.64,
+   "cnId": 29674,
+   "listingsCount": 4,
+   "listingsQuantity": 4,
+   "listingsComplete": true,
+   "lowestListing": {
+    "amount": 420,
+    "currency": "EUR",
+    "sellerCountry": "LU",
+    "condition": "NM",
+    "graded": false
+   },
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "gy-neo-revelation-shining-65-64",
+   "title": "Gyarados 65/64 (Secret Rare)",
+   "market": 782.55,
+   "cnId": 17160,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "mk-legendary-collection-52-110",
+   "title": "Magikarp 52/110 (Uncommon)",
+   "market": 699.99,
+   "cnId": 19123,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "s-drago-sir",
+   "title": "Mega Dragonite ex \u2014 SIR 290/217",
+   "market": 506.15,
+   "cnId": 165071,
+   "listingsCount": 1,
+   "listingsQuantity": 1,
+   "listingsComplete": true,
+   "lowestListing": {
+    "amount": 580,
+    "currency": "EUR",
+    "sellerCountry": "FR",
+    "condition": "NM",
+    "graded": false
+   },
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "mk-neo-revelation-shining-66-64",
+   "title": "Magikarp 66/64 (Secret Rare)",
+   "market": 445.0,
+   "cnId": 17163,
+   "listingsCount": 1,
+   "listingsQuantity": 1,
+   "listingsComplete": true,
+   "lowestListing": {
+    "amount": 750,
+    "currency": "EUR",
+    "sellerCountry": "FR",
+    "condition": "MP",
+    "graded": false
+   },
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "gd01",
+   "title": "Newtype Rising Booster Box",
+   "market": 434.78,
+   "cnId": 227453,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "mk-paldea-evolved-203-193",
+   "title": "Magikarp 203/193 (Illustration Rare)",
+   "market": 356.6,
+   "cnId": 32845,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "op17",
+   "title": "The World's Strongest Warriors Booster Box",
+   "market": 307.27,
+   "cnId": 248188,
+   "listingsCount": 4,
+   "listingsQuantity": 7,
+   "listingsComplete": true,
+   "lowestListing": {
+    "amount": 290,
+    "currency": "EUR",
+    "sellerCountry": "FR",
+    "condition": "NM",
+    "graded": false
+   },
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "sv2a-box",
+   "title": "151 Japanese Booster Box (sv2a)",
+   "market": 280.1,
+   "cnId": 225120,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "pe-spc-2",
+   "title": "Super-Premium Collection (Eevee)",
+   "market": 260.76,
+   "cnId": 223738,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "pe-spc",
+   "title": "Super-Premium Collection (Eevee)",
+   "market": 260.76,
+   "cnId": 223738,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "gy-ex-deoxys-8-107",
+   "title": "Gyarados 8/107 (Holo Rare)",
+   "market": 241.0,
+   "cnId": 19507,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "lor-wu",
+   "title": "Booster Box (24 packs)",
+   "market": 235.47,
+   "cnId": 212252,
+   "listingsCount": 3,
+   "listingsQuantity": 7,
+   "listingsComplete": true,
+   "lowestListing": {
+    "amount": 113,
+    "currency": "EUR",
+    "sellerCountry": "FR",
+    "condition": "NM",
+    "graded": false
+   },
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "k-009",
+   "title": "Blastoise 2/102 (holo)",
+   "market": 222.49,
+   "cnId": 16145,
+   "listingsCount": 3,
+   "listingsQuantity": 3,
+   "listingsComplete": true,
+   "lowestListing": {
+    "amount": 97.23,
+    "currency": "USD",
+    "sellerCountry": "US",
+    "condition": "HP",
+    "graded": false
+   },
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "k-094",
+   "title": "Gengar 5/62 (holo)",
+   "market": 212.74,
+   "cnId": 17660,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "gy-ex-firered-leafgreen-ex-109-112",
+   "title": "Gyarados 109/112 (Holo Rare ex)",
+   "market": 200.68,
+   "cnId": 17449,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "gy-skyridge-11-144",
+   "title": "Gyarados 11/144 (Rare)",
+   "market": 198.07,
+   "cnId": 18006,
+   "listingsCount": 3,
+   "listingsQuantity": 3,
+   "listingsComplete": true,
+   "lowestListing": {
+    "amount": 900,
+    "currency": "NOK",
+    "sellerCountry": "NO",
+    "condition": "LP",
+    "graded": false
+   },
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "h-pb-box",
+   "title": "Pitch Black Booster Box",
+   "market": 192.51,
+   "cnId": 245460,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "k-149",
+   "title": "Dragonite 4/62 (holo)",
+   "market": 191.21,
+   "cnId": 17655,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "h-cr-box",
+   "title": "Chaos Rising Booster Box",
+   "market": 189.3,
+   "cnId": 223272,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "h-po-box",
+   "title": "Perfect Order Booster Box",
+   "market": 173.45,
+   "cnId": 223565,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "k-003",
+   "title": "Venusaur 15/102 (holo)",
+   "market": 168.98,
+   "cnId": 16157,
+   "listingsCount": 8,
+   "listingsQuantity": 9,
+   "listingsComplete": true,
+   "lowestListing": {
+    "amount": 44.5,
+    "currency": "USD",
+    "sellerCountry": "US",
+    "condition": "HP",
+    "graded": false
+   },
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "s12-box",
+   "title": "Paradigm Trigger Booster Box (Japanese)",
+   "market": 167.23,
+   "cnId": 225017,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "s-darkrai-sir",
+   "title": "Mega Darkrai ex \u2014 SIR 116/084",
+   "market": 161.39,
+   "cnId": 243955,
+   "listingsCount": 2,
+   "listingsQuantity": 3,
+   "listingsComplete": true,
+   "lowestListing": {
+    "amount": 174.17,
+    "currency": "USD",
+    "sellerCountry": "US",
+    "condition": "NM",
+    "graded": false
+   },
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "ah-etb",
+   "title": "Ascended Heroes Elite Trainer Box",
+   "market": 158.16,
+   "cnId": 223568,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "k-143",
+   "title": "Snorlax 11/64 (holo)",
+   "market": 157.08,
+   "cnId": null,
+   "note": "no CardNexus id"
+  },
+  {
+   "ledgerId": "gy-gym-challenge-misty-s-13-132",
+   "title": "Gyarados 13/132 (Holo Rare)",
+   "market": 155.86,
+   "cnId": 17306,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "s-cc-zard",
+   "title": "Charizard \u2014 Classic Collection (Base Set reprint, 30 stamp)",
+   "market": 142.51,
+   "cnId": 251510,
+   "listingsCount": 3,
+   "listingsQuantity": 3,
+   "listingsComplete": true,
+   "lowestListing": {
+    "amount": 152.59,
+    "currency": "USD",
+    "sellerCountry": "US",
+    "condition": "NM",
+    "graded": false
+   },
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  },
+  {
+   "ledgerId": "gy-gym-challenge-giovanni-s-5-132",
+   "title": "Gyarados 5/132 (Holo Rare)",
+   "market": 139.86,
+   "cnId": 17198,
+   "listingsCount": 0,
+   "listingsQuantity": 0,
+   "listingsComplete": true,
+   "salesCount": 0,
+   "salesQuantity": 0,
+   "salesComplete": true
+  }
+ ]
+}
