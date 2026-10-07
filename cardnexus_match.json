@@ -1,0 +1,1804 @@
+{
+ "k-006": {
+  "tracked": "Charizard 4/102 (holo)",
+  "ourTcgplayerId": 42382,
+  "variant": "Holofoil",
+  "verdict": "ambiguous / not found - candidates listed",
+  "relevant": [
+   {
+    "id": 15935,
+    "name": "Charizard",
+    "expansion": "Base Set 2",
+    "expansionCode": "base-set-2",
+    "printNumber": "004",
+    "variant": "",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 42479,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 273927,
+      "finish": "Foil"
+     }
+    ]
+   },
+   {
+    "id": 209003,
+    "name": "Charizard",
+    "expansion": "Base Set",
+    "expansionCode": "base-set",
+    "printNumber": "004",
+    "variant": "",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 657516,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 273699,
+      "finish": "Foil"
+     }
+    ]
+   },
+   {
+    "id": 15925,
+    "name": "Charizard",
+    "expansion": "Base Set",
+    "expansionCode": "base-set",
+    "printNumber": "004",
+    "variant": "",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 657516,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 245263,
+    "name": "Charizard",
+    "expansion": "Base Set (Shadowless)",
+    "expansionCode": "base-set-shadowless",
+    "printNumber": "004",
+    "variant": "1st Edition",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 106999,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 660224,
+      "finish": "Foil"
+     }
+    ]
+   },
+   {
+    "id": 156756,
+    "name": "Charizard",
+    "expansion": "Base Set (Shadowless)",
+    "expansionCode": "base-set-shadowless",
+    "printNumber": "004",
+    "variant": "Unlimited",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 106999,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 660224,
+      "finish": "Foil"
+     }
+    ]
+   }
+  ],
+  "otherCandidates": [
+   {
+    "id": 15968,
+    "name": "Charizard",
+    "expansion": "Celebrations: Classic Collection",
+    "expansionCode": "celebrations-classic-collection",
+    "printNumber": "4",
+    "variant": "",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 250320,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 576772,
+      "finish": "Foil"
+     }
+    ]
+   },
+   {
+    "id": 20770,
+    "name": "Charizard",
+    "expansion": "EX Crystal Guardians",
+    "expansionCode": "ex-crystal-guardians",
+    "printNumber": "4",
+    "variant": "",
+    "finishes": [
+     "Foil",
+     "Reverse Holo"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 84195,
+      "finish": "Foil"
+     },
+     {
+      "id": 84195,
+      "finish": "Reverse Holo"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 277085,
+      "finish": "Foil"
+     },
+     {
+      "id": 277085,
+      "finish": "Reverse Holo"
+     }
+    ]
+   },
+   {
+    "id": 251510,
+    "name": "Charizard",
+    "expansion": "ME: 30th Celebration Classic Collection",
+    "expansionCode": "me-30th-celebration-classic-collection",
+    "printNumber": "4",
+    "variant": "",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 714372,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 907940,
+      "finish": "Foil"
+     }
+    ]
+   }
+  ]
+ },
+ "k-107": {
+  "tracked": "Hitmonchan 7/102 (holo)",
+  "ourTcgplayerId": 42415,
+  "variant": "Holofoil",
+  "verdict": "one name/expansion/number match, but it carries other TCGplayer ids (different print?) - not added",
+  "relevant": [
+   {
+    "id": 157081,
+    "name": "Hitmonchan",
+    "expansion": "Base Set (Shadowless)",
+    "expansionCode": "base-set-shadowless",
+    "printNumber": "007",
+    "variant": "1st Edition",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 107002,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 660221,
+      "finish": "Foil"
+     }
+    ]
+   },
+   {
+    "id": 16004,
+    "name": "Hitmonchan",
+    "expansion": "Base Set",
+    "expansionCode": "base-set",
+    "printNumber": "007",
+    "variant": "",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 42415,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 273702,
+      "finish": "Foil"
+     }
+    ]
+   },
+   {
+    "id": 157164,
+    "name": "Hitmonchan",
+    "expansion": "Base Set (Shadowless)",
+    "expansionCode": "base-set-shadowless",
+    "printNumber": "007",
+    "variant": "Unlimited",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 107002,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 660221,
+      "finish": "Foil"
+     }
+    ]
+   }
+  ],
+  "otherCandidates": [
+   {
+    "id": 16015,
+    "name": "Hitmonchan",
+    "expansion": "Base Set 2",
+    "expansionCode": "base-set-2",
+    "printNumber": "008",
+    "variant": "",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 42496,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 273931,
+      "finish": "Foil"
+     }
+    ]
+   },
+   {
+    "id": 31319,
+    "name": "Hitmonchan",
+    "expansion": "SWSH01: Sword & Shield Base Set",
+    "expansionCode": "swsh01-sword-and-shield-base-set",
+    "printNumber": "095",
+    "variant": "",
+    "finishes": [
+     "Reverse Holo",
+     "Standard"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 208404,
+      "finish": "Reverse Holo"
+     },
+     {
+      "id": 208404,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 436594,
+      "finish": "Reverse Holo"
+     },
+     {
+      "id": 436594,
+      "finish": "Standard"
+     }
+    ]
+   }
+  ]
+ },
+ "k-130": {
+  "tracked": "Gyarados 6/102 (holo)",
+  "ourTcgplayerId": 42404,
+  "variant": "Holofoil",
+  "verdict": "one name/expansion/number match, but it carries other TCGplayer ids (different print?) - not added",
+  "relevant": [
+   {
+    "id": 159336,
+    "name": "Gyarados",
+    "expansion": "Base Set (Shadowless)",
+    "expansionCode": "base-set-shadowless",
+    "printNumber": "006",
+    "variant": "Unlimited",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 107000,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 660222,
+      "finish": "Foil"
+     }
+    ]
+   },
+   {
+    "id": 15997,
+    "name": "Gyarados",
+    "expansion": "Base Set",
+    "expansionCode": "base-set",
+    "printNumber": "006",
+    "variant": "",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 42404,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 273701,
+      "finish": "Foil"
+     }
+    ]
+   },
+   {
+    "id": 159335,
+    "name": "Gyarados",
+    "expansion": "Base Set (Shadowless)",
+    "expansionCode": "base-set-shadowless",
+    "printNumber": "006",
+    "variant": "1st Edition",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 107000,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 660222,
+      "finish": "Foil"
+     }
+    ]
+   }
+  ],
+  "otherCandidates": [
+   {
+    "id": 18724,
+    "name": "Gyarados",
+    "expansion": "Base Set 2",
+    "expansionCode": "base-set-2",
+    "printNumber": "007",
+    "variant": "",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 42489,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 273930,
+      "finish": "Foil"
+     }
+    ]
+   },
+   {
+    "id": 32066,
+    "name": "Gyarados ex",
+    "expansion": "SV01: Scarlet & Violet Base Set",
+    "expansionCode": "sv01-scarlet-and-violet-base-set",
+    "printNumber": "045",
+    "variant": "",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 487889,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 702340,
+      "finish": "Foil"
+     }
+    ]
+   },
+   {
+    "id": 32067,
+    "name": "Gyarados ex",
+    "expansion": "SV01: Scarlet & Violet Base Set",
+    "expansionCode": "sv01-scarlet-and-violet-base-set",
+    "printNumber": "225",
+    "variant": "",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 490083,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 702521,
+      "finish": "Foil"
+     }
+    ]
+   },
+   {
+    "id": 22925,
+    "name": "Gyarados",
+    "expansion": "Rumble",
+    "expansionCode": "rumble",
+    "printNumber": "6",
+    "variant": "",
+    "finishes": [
+     "Standard"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 85996,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 278847,
+      "finish": "Standard"
+     }
+    ]
+   }
+  ]
+ },
+ "k-143": {
+  "tracked": "Snorlax 11/64 (holo)",
+  "ourTcgplayerId": 45122,
+  "variant": "Unlimited Holofoil",
+  "verdict": "ambiguous / not found - candidates listed",
+  "relevant": [
+   {
+    "id": 16311,
+    "name": "Snorlax",
+    "expansion": "Jungle",
+    "expansionCode": "jungle",
+    "printNumber": "11",
+    "variant": "1st Edition",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 45122,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 273808,
+      "finish": "Foil"
+     }
+    ]
+   },
+   {
+    "id": 16326,
+    "name": "Snorlax",
+    "expansion": "Jungle",
+    "expansionCode": "jungle",
+    "printNumber": "11",
+    "variant": "Unlimited",
+    "finishes": [
+     "Foil"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 45122,
+      "finish": "Foil"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 273808,
+      "finish": "Foil"
+     }
+    ]
+   }
+  ],
+  "otherCandidates": [
+   {
+    "id": 16409,
+    "name": "Snorlax",
+    "expansion": "Jungle",
+    "expansionCode": "jungle",
+    "printNumber": "27",
+    "variant": "1st Edition",
+    "finishes": [
+     "Standard"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 106989,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 273824,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 16512,
+    "name": "Snorlax",
+    "expansion": "Jungle",
+    "expansionCode": "jungle",
+    "printNumber": "27",
+    "variant": "Unlimited",
+    "finishes": [
+     "Standard"
+    ],
+    "productType": "card",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 106989,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 273824,
+      "finish": "Standard"
+     }
+    ]
+   }
+  ]
+ },
+ "h-lumiose": {
+  "tracked": "Lumiose City Mini Tin [Set of 5]",
+  "ourTcgplayerId": 685580,
+  "variant": null,
+  "verdict": "ambiguous / not found - candidates listed",
+  "relevant": [
+   {
+    "id": 223243,
+    "name": "Lumiose City Mini Tin Display",
+    "expansion": "Miscellaneous Cards & Products",
+    "expansionCode": "miscellaneous-cards-and-products",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 685574,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 223277,
+    "name": "Lumiose City Mini Tin [Feraligatr & Budew]",
+    "expansion": "Miscellaneous Cards & Products",
+    "expansionCode": "miscellaneous-cards-and-products",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 685578,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 223256,
+    "name": "Lumiose City Mini Tin [Meganium & Meowstic]",
+    "expansion": "Miscellaneous Cards & Products",
+    "expansionCode": "miscellaneous-cards-and-products",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 685576,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 223255,
+    "name": "Lumiose City Mini Tin Display Case",
+    "expansion": "Miscellaneous Cards & Products",
+    "expansionCode": "miscellaneous-cards-and-products",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 685581,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 223282,
+    "name": "Lumiose City Mini Tin [Emboar & Inkay]",
+    "expansion": "Miscellaneous Cards & Products",
+    "expansionCode": "miscellaneous-cards-and-products",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 685577,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 223274,
+    "name": "Lumiose City Mini Tin [Gallade & Goomy]",
+    "expansion": "Miscellaneous Cards & Products",
+    "expansionCode": "miscellaneous-cards-and-products",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 685579,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 223269,
+    "name": "Lumiose City Mini Tin [Salamence & Litleo]",
+    "expansion": "Miscellaneous Cards & Products",
+    "expansionCode": "miscellaneous-cards-and-products",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 685575,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   }
+  ],
+  "otherCandidates": [
+   {
+    "id": 224310,
+    "name": "Celebrations Mini Tin [Alola]",
+    "expansion": "Celebrations",
+    "expansionCode": "celebrations",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 242819,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 224325,
+    "name": "Celebrations Mini Tin [Galar]",
+    "expansion": "Celebrations",
+    "expansionCode": "celebrations",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 242820,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 224291,
+    "name": "Celebrations Mini Tin [Kanto]",
+    "expansion": "Celebrations",
+    "expansionCode": "celebrations",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 242813,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 224296,
+    "name": "Celebrations Mini Tin [Sinnoh]",
+    "expansion": "Celebrations",
+    "expansionCode": "celebrations",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 242816,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 224331,
+    "name": "Celebrations Mini Tin [Unova]",
+    "expansion": "Celebrations",
+    "expansionCode": "celebrations",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 242817,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 223863,
+    "name": "151 Mini Tin Display",
+    "expansion": "SV: Scarlet & Violet 151",
+    "expansionCode": "sv-scarlet-and-violet-151",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 502008,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 719711,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 224292,
+    "name": "Celebrations Mini Tin [Kalos]",
+    "expansion": "Celebrations",
+    "expansionCode": "celebrations",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 242818,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 223647,
+    "name": "Unova Mini Tin Display",
+    "expansion": "SV: Black Bolt",
+    "expansionCode": "sv-black-bolt",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 630446,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 824105,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 224316,
+    "name": "Celebrations Mini Tin Display",
+    "expansion": "Celebrations",
+    "expansionCode": "celebrations",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 242812,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 579844,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 224302,
+    "name": "Celebrations Mini Tin [Hoenn]",
+    "expansion": "Celebrations",
+    "expansionCode": "celebrations",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 242815,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 224317,
+    "name": "Celebrations Mini Tin [Johto]",
+    "expansion": "Celebrations",
+    "expansionCode": "celebrations",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 242814,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 251578,
+    "name": "30th Celebration Mini Tin [Espeon]",
+    "expansion": "ME: 30th Celebration",
+    "expansionCode": "me-30th-celebration",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 704176,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 895565,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 251581,
+    "name": "30th Celebration Mini Tin [Lapras]",
+    "expansion": "ME: 30th Celebration",
+    "expansionCode": "me-30th-celebration",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 704179,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 895567,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 251585,
+    "name": "30th Celebration Mini Tin [Mewtwo]",
+    "expansion": "ME: 30th Celebration",
+    "expansionCode": "me-30th-celebration",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 704183,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 895568,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 251582,
+    "name": "30th Celebration Mini Tin [Moltres]",
+    "expansion": "ME: 30th Celebration",
+    "expansionCode": "me-30th-celebration",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 704180,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 895569,
+      "finish": "Standard"
+     }
+    ]
+   }
+  ]
+ },
+ "h-tsc": {
+  "tracked": "Tech Sticker Collection — ×2 (Alolan Exeggutor / Lucario)",
+  "ourTcgplayerId": 704147,
+  "variant": null,
+  "verdict": "ambiguous / not found - candidates listed",
+  "relevant": [
+   {
+    "id": 223678,
+    "name": "Black Bolt Tech Sticker Collection",
+    "expansion": "SV: Black Bolt",
+    "expansionCode": "sv-black-bolt",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 630614,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 836277,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 223386,
+    "name": "White Flare Tech Sticker Collection",
+    "expansion": "SV: White Flare",
+    "expansionCode": "sv-white-flare",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 630700,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 836279,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 221611,
+    "name": "Paldean Fates Tech Sticker Collection [Maschiff]",
+    "expansion": "SV: Paldean Fates",
+    "expansionCode": "sv-paldean-fates",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 528044,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 745546,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 223708,
+    "name": "Prismatic Evolutions Tech Sticker Collection Case",
+    "expansion": "SV: Prismatic Evolutions",
+    "expansionCode": "sv-prismatic-evolutions",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 598489,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 798929,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 223659,
+    "name": "Prismatic Evolutions Tech Sticker Collection [Glaceon]",
+    "expansion": "SV: Prismatic Evolutions",
+    "expansionCode": "sv-prismatic-evolutions",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 593451,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 798927,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 223732,
+    "name": "Prismatic Evolutions Tech Sticker Collection [Leafeon]",
+    "expansion": "SV: Prismatic Evolutions",
+    "expansionCode": "sv-prismatic-evolutions",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 593453,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 798926,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 223657,
+    "name": "Prismatic Evolutions Tech Sticker Collection [Sylveon]",
+    "expansion": "SV: Prismatic Evolutions",
+    "expansionCode": "sv-prismatic-evolutions",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 593450,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 798928,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 251605,
+    "name": "30th Celebration Tech Sticker Collection Case",
+    "expansion": "ME: 30th Celebration",
+    "expansionCode": "me-30th-celebration",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 709034,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 251568,
+    "name": "30th Celebration Tech Sticker Collection [Lucario]",
+    "expansion": "ME: 30th Celebration",
+    "expansionCode": "me-30th-celebration",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 704146,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 895555,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 221645,
+    "name": "Paldean Fates Tech Sticker Collection Case",
+    "expansion": "SV: Paldean Fates",
+    "expansionCode": "sv-paldean-fates",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 654599,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 756233,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 221622,
+    "name": "Paldean Fates Tech Sticker Collection [Fidough]",
+    "expansion": "SV: Paldean Fates",
+    "expansionCode": "sv-paldean-fates",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 528043,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 745545,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 221619,
+    "name": "Paldean Fates Tech Sticker Collection [Greavard]",
+    "expansion": "SV: Paldean Fates",
+    "expansionCode": "sv-paldean-fates",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 528045,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 745547,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 251567,
+    "name": "30th Celebration Tech Sticker Collection [Alolan Exeggutor]",
+    "expansion": "ME: 30th Celebration",
+    "expansionCode": "me-30th-celebration",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 704145,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 895554,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 223574,
+    "name": "Mega Evolution: Ascended Heroes Tech Sticker Collection Case",
+    "expansion": "ME: Ascended Heroes",
+    "expansionCode": "me-ascended-heroes",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 681333,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 860564,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 223576,
+    "name": "Mega Evolution: Ascended Heroes Tech Sticker Collection - Charmander",
+    "expansion": "ME: Ascended Heroes",
+    "expansionCode": "me-ascended-heroes",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 666908,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 860565,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 223581,
+    "name": "Mega Evolution: Ascended Heroes Tech Sticker Collection - Gastly",
+    "expansion": "ME: Ascended Heroes",
+    "expansionCode": "me-ascended-heroes",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 666909,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 860566,
+      "finish": "Standard"
+     }
+    ]
+   }
+  ],
+  "otherCandidates": [
+   {
+    "id": 223551,
+    "name": "Mewtwo Collection",
+    "expansion": "Next Destinies",
+    "expansionCode": "next-destinies",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 98635,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 287059,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 222589,
+    "name": "Sylveon Collection",
+    "expansion": "XY Base Set",
+    "expansionCode": "xy-base-set",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 91598,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 287072,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 222792,
+    "name": "Jirachi GX Collection",
+    "expansion": "Miscellaneous Cards & Products",
+    "expansionCode": "miscellaneous-cards-and-products",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 226133,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 523085,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 224458,
+    "name": "Mimikyu Sidekick Collection",
+    "expansion": "SM - Crimson Invasion",
+    "expansionCode": "sm-crimson-invasion",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 166410,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 586319,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 224021,
+    "name": "Charmander Sidekick Collection",
+    "expansion": "SM - Ultra Prism",
+    "expansionCode": "sm-ultra-prism",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 186105,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 367772,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 224179,
+    "name": "Kingambit Illustration Collection",
+    "expansion": "SV: Shrouded Fable",
+    "expansionCode": "sv-shrouded-fable",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 553000,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 770967,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 223505,
+    "name": "Snorlax Pin Collection",
+    "expansion": "SWSH01: Sword & Shield Base Set",
+    "expansionCode": "swsh01-sword-and-shield-base-set",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 210576,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 492794,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 222633,
+    "name": "Yveltal Figure Collection",
+    "expansion": "XY Base Set",
+    "expansionCode": "xy-base-set",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 97725,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 679972,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 222348,
+    "name": "Mythical Collection [Volcanion]",
+    "expansion": "XY - Evolutions",
+    "expansionCode": "xy-evolutions",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 127180,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 222499,
+    "name": "Zygarde Collection Box",
+    "expansion": "XY - Fates Collide",
+    "expansionCode": "xy-fates-collide",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 121391,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": null
+   },
+   {
+    "id": 224690,
+    "name": "Zoroark-Illusions Collection",
+    "expansion": "Emerging Powers",
+    "expansionCode": "emerging-powers",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 98620,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 287016,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 224060,
+    "name": "Mimikyu Pin Collection",
+    "expansion": "SM Base Set",
+    "expansionCode": "sm-base-set",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 129895,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 560416,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 224455,
+    "name": "Marshadow Figure Collection",
+    "expansion": "SM - Crimson Invasion",
+    "expansionCode": "sm-crimson-invasion",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 152602,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 311201,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 224436,
+    "name": "Pikachu Sidekick Collection",
+    "expansion": "SM - Crimson Invasion",
+    "expansionCode": "sm-crimson-invasion",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 166409,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 586320,
+      "finish": "Standard"
+     }
+    ]
+   },
+   {
+    "id": 224471,
+    "name": "Silvally Figure Collection",
+    "expansion": "SM - Crimson Invasion",
+    "expansionCode": "sm-crimson-invasion",
+    "printNumber": null,
+    "variant": null,
+    "finishes": null,
+    "productType": "sealed",
+    "game": "pokemon",
+    "tcgplayerIds": [
+     {
+      "id": 152601,
+      "finish": "Standard"
+     }
+    ],
+    "cardmarketIds": [
+     {
+      "id": 311202,
+      "finish": "Standard"
+     }
+    ]
+   }
+  ]
+ }
+}
