@@ -1,0 +1,25 @@
+name: PSA population
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 12 * * 2"
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/psa_pop.py
+        env:
+          PSA_TOKEN: ${{ secrets.PSA_TOKEN }}
+      - run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add psa_pop.json psa_specs.json
+          git diff --cached --quiet || git commit -m "psa_pop $(date -u +%F)"
+          git pull --rebase
+          git push

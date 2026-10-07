@@ -1,0 +1,28 @@
+name: Hype trends
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 14 * * 3"
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pytrends pandas
+      - run: python scripts/trends.py
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+      - run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add trends.json
+          git diff --cached --quiet || git commit -m "trends $(date -u +%F)"
+          git pull --rebase
+          git push

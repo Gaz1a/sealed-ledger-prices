@@ -1,0 +1,26 @@
+name: eBay supply
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 13 * * 1"
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/ebay_supply.py
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+      - run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add ebay_supply.json
+          git diff --cached --quiet || git commit -m "ebay_supply $(date -u +%F)"
+          git pull --rebase
+          git push
