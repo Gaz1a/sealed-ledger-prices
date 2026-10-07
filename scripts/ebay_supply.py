@@ -21,11 +21,15 @@ def main():
     if not tok: sys.exit("eBay token request failed")
     H = {"Authorization": "Bearer " + tok["access_token"], "X-EBAY-C-MARKETPLACE-ID": "EBAY_US"}
     tracked = sm.load("tracked.json", {}); prices = sm.load("prices.json", {}).get("prices", {})
+    sets = sm.load("item_sets.json", {})
     prev = sm.load("ebay_supply.json", {}); items = dict(prev.get("items", {}))
     sealed_re = re.compile(sm.SEALED_WORDS.pattern, re.I); n = 0
     for lid, t in tracked.items():
         title = t.get("title") or ""
+        st = sets.get(lid, "")
         if not sealed_re.search(title) or re.search(r"\d+/\d+|\bTG\d", title): continue
+        if st and st != "Pokemon" and not set(re.findall(r"[a-z0-9]+", st.lower())) <= set(re.findall(r"[a-z0-9]+", title.lower())):
+            title = f"{st} {title}"
         need = {w for w in re.findall(r"[a-z0-9]+", title.lower()) if w not in {"the", "of", "and"}}
         asks, total = [], None
         for off in (0, 200):

@@ -27,7 +27,7 @@ def google(ts):
     try:
         from pytrends.request import TrendReq
     except Exception as e: return res, f"pytrends unavailable: {type(e).__name__}"
-    anchor, err = "pokemon cards", None
+    anchor, err = "Charizard card", None
     for i in range(0, len(ts), 4):
         batch = ts[i:i + 4]
         for attempt in range(3):
@@ -39,7 +39,7 @@ def google(ts):
                 for t in batch:
                     s = (df[t] / a * 100).round(1).tolist(); n = len(s)
                     res[t] = {"latest": s[-1], "last4wAvg": round(sum(s[-4:]) / 4, 1) if n >= 4 else None, "prior4wAvg": round(sum(s[-8:-4]) / 4, 1) if n >= 8 else None,
-                              "relativeToAnchor": "indexed to 'pokemon cards' = 100"}
+                              "relativeToAnchor": "indexed to 'Charizard card' = 100"}
                 break
             except Exception as e:
                 err = f"{type(e).__name__}"; time.sleep(30 * (attempt + 1))
