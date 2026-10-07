@@ -10,6 +10,7 @@ watch = {str(w["productId"]): w for w in load("graded_watch.json", [])}
 prices = load("prices.json", {}).get("prices", {})
 sg = {}
 for c in load("untracked_singles.json", {}).get("cards", []): sg.setdefault(c["productId"], c)
+pc = load("pricecharting.json", {}).get("cards", {})
 n10 = 0
 for cid, c in g.get("cards", {}).items():
     w = watch.get(str(c.get("productId")), {})
@@ -22,6 +23,17 @@ for cid, c in g.get("cards", {}).items():
     prem = round(p10["median"] / raw, 2) if p10.get("median") and raw else None
     c["premium"] = prem
     c["premiumFlag"] = None if prem is None else ("below_2x" if prem < 2 else "above_6x" if prem > 6 else "ok")
+    pcc = pc.get(cid) or {}
+    c["editionMatched"] = pcc.get("editionMatched") if pcc.get("matched") else None
+    c["premiumSource"] = "ppt_ebay"
+    if pcc.get("matched") and pcc.get("editionMatched") and pcc.get("psa10") and pcc.get("ungraded"):
+        c["pricecharting"] = {"ungraded": pcc["ungraded"], "psa9": pcc.get("psa9"), "psa10": pcc["psa10"], "asOf": pcc.get("asOf")}
+        prem = round(pcc["psa10"] / pcc["ungraded"], 2)
+        c["premium"] = prem
+        c["premiumFlag"] = "below_2x" if prem < 2 else "above_6x" if prem > 6 else "ok"
+        c["premiumSource"] = "pricecharting (edition matched)"
+    elif pcc.get("matched") and pcc.get("editionMatched") is False:
+        c["premiumFlag"] = "edition_mismatch" if c.get("premiumFlag") == "above_6x" else c.get("premiumFlag")
     c["thinSales"] = bool(p10 and (p10.get("n") or 0) < 5)
     n10 += prem is not None
 g["generated"] = datetime.date.today().isoformat()
