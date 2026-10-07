@@ -217,7 +217,7 @@
   "tracked": "Hitmonchan 7/102 (holo)",
   "ourTcgplayerId": 42415,
   "variant": "Holofoil",
-  "verdict": "one name/expansion/number match, but it carries other TCGplayer ids (different print?) - not added",
+  "verdict": "MANUAL MAPPING ADDED",
   "relevant": [
    {
     "id": 157081,
@@ -361,7 +361,7 @@
   "tracked": "Gyarados 6/102 (holo)",
   "ourTcgplayerId": 42404,
   "variant": "Holofoil",
-  "verdict": "one name/expansion/number match, but it carries other TCGplayer ids (different print?) - not added",
+  "verdict": "MANUAL MAPPING ADDED",
   "relevant": [
    {
     "id": 159336,
@@ -1800,5 +1800,55 @@
     ]
    }
   ]
+ },
+ "_diagnose": {
+  "k-006": {
+   "tcgplayerId": 42382,
+   "singleSearchIds": [],
+   "inFirstBatch": true
+  },
+  "k-107": {
+   "tcgplayerId": 42415,
+   "singleSearchIds": [
+    16004
+   ],
+   "inFirstBatch": true
+  },
+  "k-130": {
+   "tcgplayerId": 42404,
+   "singleSearchIds": [
+    15997
+   ],
+   "inFirstBatch": true
+  },
+  "k-143": {
+   "tcgplayerId": 45122,
+   "singleSearchIds": [
+    16311,
+    16326
+   ],
+   "inFirstBatch": true
+  },
+  "h-lumiose": {
+   "tcgplayerId": 685580,
+   "singleSearchIds": [],
+   "inFirstBatch": false
+  },
+  "h-tsc": {
+   "tcgplayerId": 704147,
+   "singleSearchIds": [],
+   "inFirstBatch": false
+  },
+  "_batch": {
+   "idsSent": 200,
+   "resultsOnPage": 200,
+   "pagination": {
+    "offset": 0,
+    "limit": 200,
+    "total": 287,
+    "hasMore": true
+   },
+   "sentButNotReturned": 55
+  }
  }
 }
