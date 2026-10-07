@@ -5151,30 +5151,12 @@
     "change7d": 0.0645,
     "change30d": 0.0066
    }
-  },
-  "k-143": {
-   "cnId": 16311,
-   "finish": "Foil",
-   "cm": {
-    "marketValue": 15.66,
-    "change24h": 0,
-    "change7d": 0,
-    "change30d": 0
-   },
-   "tcg": {
-    "low": 189.98,
-    "mid": 235,
-    "high": 2000,
-    "marketValue": 408.99,
-    "change24h": 0,
-    "change7d": 0.0887,
-    "change30d": 0.1958
-   }
   }
  },
  "unmatched": [
   "h-lumiose",
   "h-tsc",
-  "k-006"
+  "k-006",
+  "k-143"
  ]
 }

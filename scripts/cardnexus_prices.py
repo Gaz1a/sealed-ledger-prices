@@ -58,11 +58,15 @@ def main():
     finish_of = {lid: v.get("finish") for lid, v in items.items()}  # ledgerId -> finish for that TCGplayer id
     for lid, m in (ids.get("_manual") or {}).items():   # manual mappings carry their own finish
         finish_of.setdefault(lid, m.get("finish"))
+    exclude = set(ids.get("_exclude") or [])      # ledger ids whose CardNexus link is known to be wrong
+    for lid in exclude:
+        ids.pop(lid, None)
+        items.pop(lid, None)
     unmatched = []
 
     try:
         # 1. resolve CardNexus ids for anything not cached (batched by TCGplayer id, 200 per call)
-        need = {lid: t["productId"] for lid, t in tracked.items() if lid not in ids}
+        need = {lid: t["productId"] for lid, t in tracked.items() if lid not in ids and lid not in exclude}
         by_tcg = {}
         for lid, pid in need.items():
             by_tcg.setdefault(int(pid), []).append(lid)
@@ -110,6 +114,7 @@ def main():
                     finish_of[lid] = found[tid][1]
                 else:
                     unmatched.append(lid)
+        unmatched += sorted(exclude)
         json.dump(ids, open(os.path.join(ROOT, "cardnexus_ids.json"), "w"), indent=1, sort_keys=True)
 
         # 2. prices for each matched id
