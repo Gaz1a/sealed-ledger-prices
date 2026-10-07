@@ -182,6 +182,12 @@ def main():
 
     json.dump(idc, open(os.path.join(ROOT, "pricecharting_ids.json"), "w"), indent=1, sort_keys=True)
     cards = out["cards"]
+    k6 = cards.get("k-006")
+    if not check.get("mappingConfirmed") and k6 and k6.get("matched"):   # tcg-id matched Base Set Charizard #4 vs website snapshot
+        site = {"ungraded": 446.29, "psa9": 3309.38, "psa10": 24077.50}
+        ratio = {k: round(k6[k] / site[k], 2) if k6.get(k) else None for k in site}
+        check = {"card": k6.get("productName"), "console": k6.get("console"), "api": {k: k6.get(k) for k in site}, "site_snapshot": site,
+                 "ratio": ratio, "mappingConfirmed": all(r and 0.7 < r < 1.4 for r in ratio.values())}
     out.update({"generated": TODAY, "freshness": TODAY,
                 "units": "USD (API returns cents; converted /100)",
                 "fieldMapping": {k: v for k, v in FIELDS.items()}, "mappingCheck": check,

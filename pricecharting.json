@@ -9053,7 +9053,26 @@
   "box-only-price": "psa9_5",
   "manual-only-price": "psa10"
  },
- "mappingCheck": {},
+ "mappingCheck": {
+  "card": "Charizard #4",
+  "console": "Pokemon Base Set",
+  "api": {
+   "ungraded": 446.29,
+   "psa9": 3309.38,
+   "psa10": 24077.5
+  },
+  "site_snapshot": {
+   "ungraded": 446.29,
+   "psa9": 3309.38,
+   "psa10": 24077.5
+  },
+  "ratio": {
+   "ungraded": 1.0,
+   "psa9": 1.0,
+   "psa10": 1.0
+  },
+  "mappingConfirmed": true
+ },
  "note": "Data licensed to the owner for internal use only; do not publish. PriceCharting API has current prices only (no sales history); salesVolumeYearly is units/yr.",
  "stats": {
   "cards": 381,
