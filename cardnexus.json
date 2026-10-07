@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T19:06:02Z",
+ "generated": "2026-10-07T19:23:36Z",
  "currency": {
   "cm": "EUR",
   "tcg": "USD"
@@ -5113,14 +5113,68 @@
     "change7d": 0.0114,
     "change30d": -0.0581
    }
+  },
+  "k-107": {
+   "cnId": 16004,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 9.47,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 10.99,
+    "mid": 16,
+    "high": 9999,
+    "marketValue": 20.95,
+    "change24h": 0.0229,
+    "change7d": 0.0121,
+    "change30d": 0.0454
+   }
+  },
+  "k-130": {
+   "cnId": 15997,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 14.3,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 21.8,
+    "mid": 47.98,
+    "high": 100,
+    "marketValue": 47.55,
+    "change24h": 0,
+    "change7d": 0.0645,
+    "change30d": 0.0066
+   }
+  },
+  "k-143": {
+   "cnId": 16311,
+   "finish": "Foil",
+   "cm": {
+    "marketValue": 15.66,
+    "change24h": 0,
+    "change7d": 0,
+    "change30d": 0
+   },
+   "tcg": {
+    "low": 189.98,
+    "mid": 235,
+    "high": 2000,
+    "marketValue": 408.99,
+    "change24h": 0,
+    "change7d": 0.0887,
+    "change30d": 0.1958
+   }
   }
  },
  "unmatched": [
   "h-lumiose",
   "h-tsc",
-  "k-006",
-  "k-107",
-  "k-130",
-  "k-143"
+  "k-006"
  ]
 }
