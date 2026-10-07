@@ -1,0 +1,311 @@
+{
+ "generated": "2026-10-07",
+ "source": "PSA Public API (GetPSASpecPopulation)",
+ "dailyCallBudget": 90,
+ "callsUsed": 0,
+ "stopped": null,
+ "cards": {},
+ "missingSpecIds": [
+  {
+   "id": "c-717607",
+   "name": "Mew - R/RGB R/RGB (ME: 30th Celebration)",
+   "rawMarket": 6000.27
+  },
+  {
+   "id": "c-717608",
+   "name": "Mew - G/RGB G/RGB (ME: 30th Celebration)",
+   "rawMarket": 3738.75
+  },
+  {
+   "id": "c-610516",
+   "name": "Umbreon ex - 161/131 161/131 (SV: Prismatic Evolutions)",
+   "rawMarket": 1323.45
+  },
+  {
+   "id": "c-518861",
+   "name": "Pikachu with Grey Felt Hat 085 (SV: Scarlet & Violet Promo Cards)",
+   "rawMarket": 1015.89
+  },
+  {
+   "id": "k-006",
+   "name": "Charizard 4/102 (holo)",
+   "rawMarket": 928.32
+  },
+  {
+   "id": "c-84298",
+   "name": "Chimecho (Delta Species) 001/017 (POP Series 4)",
+   "rawMarket": 900.0
+  },
+  {
+   "id": "s-mew-paf",
+   "name": "Mew ex \u2014 SIR 232/091 (USGMEN)",
+   "rawMarket": 869.56
+  },
+  {
+   "id": "c-676088",
+   "name": "Pikachu ex - 276/217 276/217 (ME: Ascended Heroes)",
+   "rawMarket": 853.47
+  },
+  {
+   "id": "c-676096",
+   "name": "Mega Gengar ex - 284/217 284/217 (ME: Ascended Heroes)",
+   "rawMarket": 844.02
+  },
+  {
+   "id": "c-88644",
+   "name": "Rayquaza ex - 039 (EX Collector's Tin) 039 (Nintendo Promos)",
+   "rawMarket": 800.0
+  },
+  {
+   "id": "gy-neo-revelation-shining-65-64",
+   "name": "Gyarados 65/64 (Secret Rare)",
+   "rawMarket": 782.55
+  },
+  {
+   "id": "mk-legendary-collection-52-110",
+   "name": "Magikarp 52/110 (Uncommon)",
+   "rawMarket": 699.99
+  },
+  {
+   "id": "c-681244",
+   "name": "Celebratory Fanfare (Ace Trainer) 028 (ME: Mega Evolution Promo)",
+   "rawMarket": 677.16
+  },
+  {
+   "id": "c-662184",
+   "name": "Mega Charizard X ex - 125/094 125/094 (ME02: Phantasmal Flames)",
+   "rawMarket": 661.21
+  },
+  {
+   "id": "c-642546",
+   "name": "Victini - 171/086 171/086 (SV: Black Bolt)",
+   "rawMarket": 627.44
+  },
+  {
+   "id": "c-642623",
+   "name": "Zekrom ex - 172/086 172/086 (SV: Black Bolt)",
+   "rawMarket": 611.19
+  },
+  {
+   "id": "c-578146",
+   "name": "Paradise Resort - 150 (World Championships 2024) 150 (SV: Scarlet & Violet Promo Cards)",
+   "rawMarket": 597.66
+  },
+  {
+   "id": "c-644350",
+   "name": "Victini - 172/086 172/086 (SV: White Flare)",
+   "rawMarket": 554.95
+  },
+  {
+   "id": "s-drago-sir",
+   "name": "Mega Dragonite ex \u2014 SIR 290/217",
+   "rawMarket": 503.43
+  },
+  {
+   "id": "c-213021",
+   "name": "Snorlax - 33/95 (Prerelease) 33/95 (Nintendo Promos)",
+   "rawMarket": 499.99
+  },
+  {
+   "id": "c-642289",
+   "name": "Reshiram ex - 173/086 173/086 (SV: White Flare)",
+   "rawMarket": 477.62
+  },
+  {
+   "id": "c-610511",
+   "name": "Sylveon ex - 156/131 156/131 (SV: Prismatic Evolutions)",
+   "rawMarket": 472.71
+  },
+  {
+   "id": "mk-neo-revelation-shining-66-64",
+   "name": "Magikarp 66/64 (Secret Rare)",
+   "rawMarket": 445.0
+  },
+  {
+   "id": "c-236461",
+   "name": "Ditto - 61/113 (Origins International Game Expo 2007) 61/113 (Nintendo Promos)",
+   "rawMarket": 407.14
+  },
+  {
+   "id": "c-713257",
+   "name": "Pikachu ex - 107 (30th Celebration) 107 (ME: Mega Evolution Promo)",
+   "rawMarket": 400.0
+  },
+  {
+   "id": "c-633031",
+   "name": "Team Rocket's Mewtwo ex - 231/182 231/182 (SV10: Destined Rivals)",
+   "rawMarket": 392.04
+  },
+  {
+   "id": "c-714597",
+   "name": "Paradise Resort - 092 (World Championships 2026) 092 (ME: Mega Evolution Promo)",
+   "rawMarket": 389.99
+  },
+  {
+   "id": "c-88083",
+   "name": "Pikachu 013/017 (POP Series 4)",
+   "rawMarket": 369.63
+  },
+  {
+   "id": "c-649234",
+   "name": "Paradise Resort - 224 (World Championships 2025) [Staff] 224 (SV: Scarlet & Violet Promo Cards)",
+   "rawMarket": 369.52
+  },
+  {
+   "id": "mk-paldea-evolved-203-193",
+   "name": "Magikarp 203/193 (Illustration Rare)",
+   "rawMarket": 352.14
+  },
+  {
+   "id": "c-84765",
+   "name": "Deoxys (Delta Species) 002/017 (POP Series 4)",
+   "rawMarket": 350.0
+  },
+  {
+   "id": "c-90124",
+   "name": "Tyranitar ex (Holo) 017/017 (POP Series 1)",
+   "rawMarket": 335.66
+  },
+  {
+   "id": "c-550258",
+   "name": "Greninja ex - 214/167 214/167 (SV06: Twilight Masquerade)",
+   "rawMarket": 329.67
+  },
+  {
+   "id": "151 Charizard ex - 199/165",
+   "name": "151 Charizard ex - 199/165",
+   "rawMarket": 327.86
+  },
+  {
+   "id": "c-610499",
+   "name": "Leafeon ex - 144/131 144/131 (SV: Prismatic Evolutions)",
+   "rawMarket": 317.86
+  },
+  {
+   "id": "c-88085",
+   "name": "Pikachu 012/017 (POP Series 5)",
+   "rawMarket": 313.23
+  },
+  {
+   "id": "c-159115",
+   "name": "______'s Pikachu 24 (Pikachu World Collection Promos)",
+   "rawMarket": 310.0
+  },
+  {
+   "id": "c-226129",
+   "name": "Togepi & Cleffa & Igglybuff GX - 143a/236 143a/236 (Alternate Art Promos)",
+   "rawMarket": 295.07
+  },
+  {
+   "id": "c-478100",
+   "name": "Giratina VSTAR (Secret) GG69/GG70 (SWSH: Crown Zenith: Galarian Gallery)",
+   "rawMarket": 292.86
+  },
+  {
+   "id": "c-590027",
+   "name": "Pikachu ex - 238/191 238/191 (SV08: Surging Sparks)",
+   "rawMarket": 283.48
+  },
+  {
+   "id": "c-97809",
+   "name": "Ho-Oh ex (Holo) 017/017 (POP Series 3)",
+   "rawMarket": 279.99
+  },
+  {
+   "id": "c-148350",
+   "name": "Shaymin EX - 77a/108 077a/108 (Alternate Art Promos)",
+   "rawMarket": 276.85
+  },
+  {
+   "id": "c-148343",
+   "name": "Jirachi - XY67a XY67a (Alternate Art Promos)",
+   "rawMarket": 267.73
+  },
+  {
+   "id": "c-642618",
+   "name": "Zekrom ex - 166/086 166/086 (SV: Black Bolt)",
+   "rawMarket": 267.04
+  },
+  {
+   "id": "c-535090",
+   "name": "Charizard ex - 234/091 234/091 (SV: Paldean Fates)",
+   "rawMarket": 256.32
+  },
+  {
+   "id": "c-701479",
+   "name": "Pikachu (Pokemon Day 2009) 015/017 (POP Series 9)",
+   "rawMarket": 249.99
+  },
+  {
+   "id": "c-477057",
+   "name": "Mewtwo VSTAR GG44/GG70 (SWSH: Crown Zenith: Galarian Gallery)",
+   "rawMarket": 242.58
+  },
+  {
+   "id": "gy-ex-deoxys-8-107",
+   "name": "Gyarados 8/107 (Holo Rare)",
+   "rawMarket": 241.0
+  },
+  {
+   "id": "c-654527",
+   "name": "Mega Lucario ex - 188/132 188/132 (ME01: Mega Evolution)",
+   "rawMarket": 230.01
+  },
+  {
+   "id": "k-009",
+   "name": "Blastoise 2/102 (holo)",
+   "rawMarket": 222.69
+  },
+  {
+   "id": "c-83891",
+   "name": "Blastoise 001/017 (POP Series 3)",
+   "rawMarket": 217.5
+  },
+  {
+   "id": "c-662185",
+   "name": "Mega Charizard X ex - 130/094 130/094 (ME02: Phantasmal Flames)",
+   "rawMarket": 215.07
+  },
+  {
+   "id": "k-094",
+   "name": "Gengar 5/62 (holo)",
+   "rawMarket": 212.74
+  },
+  {
+   "id": "c-714386",
+   "name": "Lugia 149/147 (ME: 30th Celebration Classic Collection)",
+   "rawMarket": 203.81
+  },
+  {
+   "id": "gy-ex-firered-leafgreen-ex-109-112",
+   "name": "Gyarados 109/112 (Holo Rare ex)",
+   "rawMarket": 200.68
+  },
+  {
+   "id": "c-87026",
+   "name": "Magikarp 67/112 (EX FireRed & LeafGreen)",
+   "rawMarket": 199.99
+  },
+  {
+   "id": "gy-skyridge-11-144",
+   "name": "Gyarados 11/144 (Rare)",
+   "rawMarket": 197.49
+  },
+  {
+   "id": "c-97808",
+   "name": "Celebi ex (Holo) 017/017 (POP Series 2)",
+   "rawMarket": 197.21
+  },
+  {
+   "id": "c-633032",
+   "name": "Cynthia's Garchomp ex - 232/182 232/182 (SV10: Destined Rivals)",
+   "rawMarket": 197.04
+  },
+  {
+   "id": "c-478101",
+   "name": "Arceus VSTAR (Secret) GG70/GG70 (SWSH: Crown Zenith: Galarian Gallery)",
+   "rawMarket": 194.05
+  }
+ ],
+ "note": "Add psa_specs.json {cardId: specId} or psa_certs.json {cardId: certNumber} for cards in missingSpecIds."
+}
