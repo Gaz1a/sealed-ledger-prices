@@ -11,7 +11,7 @@ def terms():
     g = load("graded.json", {}).get("cards", {}); seen, out = set(), []
     for k, v in sorted(g.items(), key=lambda kv: -(kv[1].get("rawMarket") or 0)):
         base = re.sub(r"\s*[-—(].*$", "", v["name"]).strip()
-        base = re.sub(r"\s+\d+/\d+.*$", "", base)
+        base = re.sub(r"\s+[\d/]+\s*.*$", "", base).strip()
         if len(base) > 3 and base.lower() not in seen:
             seen.add(base.lower()); out.append(base + " pokemon card")
         if len(out) >= 20: break

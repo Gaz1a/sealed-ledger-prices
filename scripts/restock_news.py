@@ -28,7 +28,7 @@ def fetch(url):
 def main():
     cfg = load("restock_feeds.json", {"feeds": [], "keywords": []})
     kws = [k.lower() for k in cfg["keywords"]]
-    prev = load("restock_news.json", {}); items = {i["id"]: i for i in prev.get("items", [])}
+    prev = load("restock_news.json", {}); items = {i["id"]: i for i in prev.get("items", []) if re.search(r"pok[eé]mon|\btcg\b", i["title"].lower())}
     status = {}; new = 0
     for f in cfg["feeds"]:
         if not f.get("enabled"): status[f["id"]] = "disabled"; continue
@@ -42,7 +42,7 @@ def main():
                 desc = re.sub(r"<[^>]+>", " ", txt(e, "description", "summary"))[:400]
                 hay = (title + " " + desc).lower()
                 hit = [k for k in kws if k in hay]
-                if not hit: continue
+                if not hit or not re.search(r"pok[eé]mon|\btcg\b", hay): continue
                 iid = hashlib.sha1((f["id"] + (link or title)).encode()).hexdigest()[:12]
                 if iid in items: continue
                 cls = [c for c, rx in CLASSES.items() if re.search(rx, hay)]
@@ -51,7 +51,7 @@ def main():
                 n += 1; new += 1
             status[f["id"]] = f"ok ({len(ent)} entries, {n} new matches)"
         except Exception as ex:
-            status[f["id"]] = f"failed: {type(ex).__name__}"
+            status[f["id"]] = f"failed: {type(ex).__name__} {getattr(ex, 'code', '')}".strip()
         time.sleep(2)
     cut = (TODAY - datetime.timedelta(days=90)).isoformat()
     kept = sorted([i for i in items.values() if (i.get("published") or i["firstSeen"]) >= cut], key=lambda i: i.get("published") or i["firstSeen"], reverse=True)
