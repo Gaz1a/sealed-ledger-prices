@@ -2,8 +2,8 @@
  "generated": "2026-10-07",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
-  "pokebeach": "failed: HTTPError",
-  "googlenews-reprint": "ok (47 entries, 23 new matches)",
+  "pokebeach": "failed: HTTPError 500",
+  "googlenews-reprint": "ok (47 entries, 0 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
@@ -44,23 +44,6 @@
    "classes": [],
    "matched": [
     "ascended heroes"
-   ]
-  },
-  {
-   "id": "63f0cbb15aa0",
-   "feed": "googlenews-reprint",
-   "title": "Buffy the Vampire Slayer Reboot Delayed — New Release Date Officially Confirmed - Comic Book Resources",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNmx1amNLNDFjMDN0MVlqVEg1QTNpS2dxdEtlX0gtdldiTjNEMldfUVJKaVF3dDc2eThuVlZRSzQ5b2VCLUc1dU9jejVfMWI2YVRPdG8zTl9xRXkzelNOM2Vjb2o1MnFWT19rbUs1Qy16dWZLclhxTmlKdmctTEx6c0lqQWQwdVpvOUtrV0taQmI?oc=5",
-   "published": "2026-10-07",
-   "firstSeen": "2026-10-07",
-   "classes": [
-    "delay",
-    "release"
-   ],
-   "matched": [
-    "delay",
-    "delayed",
-    "release date"
    ]
   },
   {
@@ -141,21 +124,6 @@
    ]
   },
   {
-   "id": "2251c94e490d",
-   "feed": "googlenews-reprint",
-   "title": "Trader Joe’s restocking sold out lime mini canvas tote, Halloween bags - Elko Daily Free Press",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVTZjdDhieG40d1RpOGxBcEZfWTV6M2N2WnhWVkNCSjJiQ0hxRlo5NUlxMWNUZlRIcWJFYXg3VmFhWExCQmZFQzdYdUV1NldUZWRGWDZjZ3EtWUdXX285cnhuNnJFN3d0MjZBaHJ3bUptc2xLU01qS0FhN3hCZTUtOXNoTzdJZnNIRWJYUnBFWW1JbkdtODk4MU1Ia29Zd0E?oc=5",
-   "published": "2026-10-01",
-   "firstSeen": "2026-10-07",
-   "classes": [
-    "restock"
-   ],
-   "matched": [
-    "restock",
-    "sold out"
-   ]
-  },
-  {
    "id": "54dbf2dfddb7",
    "feed": "googlenews-reprint",
    "title": "Pokemon Fans Outraged as Bots Buy Out Delta Reign TCG Drop in Under an Hour - TheGamer",
@@ -205,20 +173,6 @@
    "matched": [
     "delta reign",
     "30th celebration"
-   ]
-  },
-  {
-   "id": "933cf8e30cd8",
-   "feed": "googlenews-reprint",
-   "title": "After a 3-Year Delay, Naruto Finally Confirms a Brand-New Anime Series - Comic Book Resources",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SZHVSbGRRYVlIdlRlWVVXNlVteXo4ZFgwUUs1T1RsdkEyckVNMHZXR3NuUTRldnJmeHlFRXRZbTQ1c2NUSXhxWWJ1RUIzUFJfN3NLa3JJZHFxT0NnQzN2VEVRVGRGMmc?oc=5",
-   "published": "2026-09-29",
-   "firstSeen": "2026-10-07",
-   "classes": [
-    "delay"
-   ],
-   "matched": [
-    "delay"
    ]
   },
   {
@@ -300,21 +254,6 @@
    "classes": [],
    "matched": [
     "30th celebration"
-   ]
-  },
-  {
-   "id": "bf7edbf38adc",
-   "feed": "googlenews-reprint",
-   "title": "New Legend of Zelda Release Delayed Until March 2027 - Comic Book Resources",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1hLVFnVEg4N1BhRHkzRGF6VDh6QVdNS0ZzZElvbXZpTFBXYnNaTThpNnhtbXE1WXVibXhuejZ6MUV1SUotUDVaMC14WmJWRm15M2k2aE85d1hrNTB0OElBUE5pc3dMNHJqcXJKZHdIemVFZno1RS1JR0s5UQ?oc=5",
-   "published": "2026-09-24",
-   "firstSeen": "2026-10-07",
-   "classes": [
-    "delay"
-   ],
-   "matched": [
-    "delay",
-    "delayed"
    ]
   }
  ]
