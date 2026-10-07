@@ -56,6 +56,8 @@ def main():
     errors = 0
     limited = False
     finish_of = {lid: v.get("finish") for lid, v in items.items()}  # ledgerId -> finish for that TCGplayer id
+    for lid, m in (ids.get("_manual") or {}).items():   # manual mappings carry their own finish
+        finish_of.setdefault(lid, m.get("finish"))
     unmatched = []
 
     try:
@@ -86,6 +88,18 @@ def main():
                 if not pg.get("hasMore"):
                     break
                 offset += 200
+        # batch lookups can miss ids (multi-page results); retry any id still missing on its own
+        for tid in [t for t in tcg_ids if t not in found][:40]:
+            st, j = call("POST", "/products/search", {"tcgplayerId": [tid], "limit": 10})
+            time.sleep(SLEEP)
+            if st != 200 or not isinstance(j, dict):
+                errors += 1
+                continue
+            for p in sorted(j.get("data", []), key=lambda x: x["id"]):
+                hit = next((e for e in (p.get("externalIds") or {}).get("tcgplayer", []) or [] if e.get("id") == tid), None)
+                if hit:
+                    found[tid] = (p["id"], hit.get("finish"))
+                    break
         if not search_ok and tcg_ids:
             print("CardNexus API unavailable; keeping previous cardnexus.json")
             return
