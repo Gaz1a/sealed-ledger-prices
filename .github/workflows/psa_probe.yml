@@ -1,10 +1,19 @@
 name: PSA probe
 on: workflow_dispatch
+permissions:
+  contents: write
 jobs:
   p:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python scripts/psa_probe.py
+      - run: python scripts/psa_probe.py > psa_probe.txt 2>&1
         env:
           PSA_TOKEN: ${{ secrets.PSA_TOKEN }}
+      - run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add -f psa_probe.txt
+          git diff --cached --quiet || git commit -m "psa probe output"
+          git pull --rebase
+          git push
