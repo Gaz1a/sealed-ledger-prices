@@ -21,7 +21,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@users.noreply.github.com"
-          git add cardnexus_probe.json cardnexus_openapi.json 2>/dev/null || true
+          git add cardnexus_probe.json || true
           git commit -m "CardNexus probe results" || echo "nothing to commit"
           git pull --rebase
           git push
