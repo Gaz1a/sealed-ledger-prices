@@ -17,8 +17,6 @@ jobs:
       - run: python scripts/trends.py
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
-          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
       - run: |
           git config user.name "price-bot"
           git config user.email "price-bot@users.noreply.github.com"

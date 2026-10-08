@@ -1,8 +1,7 @@
 name: PSA population
+# PARKED: PSA ended its free API. Manual dispatch only; scripts kept for later.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "40 12 * * *"   # daily; psa_pop skips cards refreshed in the last 6 days, so it settles to weekly once every spec ID is known
 permissions:
   contents: write
 jobs:

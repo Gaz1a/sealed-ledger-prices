@@ -60,7 +60,7 @@ def youtube(ts):
         time.sleep(0.3)
     return res, None
 def reddit(ts):
-    if not (RID and RSEC): return {}, "REDDIT_CLIENT_ID/SECRET not set (official OAuth required; unauthenticated access not used)"
+    if not (RID and RSEC): return {}, "parked: Reddit API access denied; set REDDIT_CLIENT_ID/SECRET in the workflow env to re-enable"
     ua = {"User-Agent": "sealed-ledger/1.0 (personal research)", "Authorization": "Basic " + base64.b64encode(f"{RID}:{RSEC}".encode()).decode()}
     tok = getj("https://www.reddit.com/api/v1/access_token", ua, b"grant_type=client_credentials")
     if not tok or "access_token" not in tok: return {}, "reddit token request failed"
