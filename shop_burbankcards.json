@@ -1,11 +1,36 @@
 {
- "generated": "2026-10-07T14:09:34Z",
+ "generated": "2026-10-08T14:11:26Z",
  "shop": "https://burbankcards.com",
- "sealedCatalogSize": 242,
+ "sealedCatalogSize": 239,
  "checked": 54,
- "matched": 4,
- "unmatched": 50,
- "deals": [],
+ "matched": 6,
+ "unmatched": 48,
+ "deals": [
+  {
+   "id": "k-003",
+   "kind": "kanto-151",
+   "name": "Venusaur",
+   "set": "Base Set",
+   "ceiling": 69.72,
+   "shopPrice": 10.0,
+   "shopTitle": "2021 Pokemon Sword & Shield Celebrations Classic Collection #15/102 Venusaur",
+   "url": "https://burbankcards.com/products/handle273970?_pos=5&_psq=Venusaur+15%2F102+Base+Set&_psid=e92d9e7ed&_ss=e",
+   "deal": true,
+   "overCeilingBy": null
+  },
+  {
+   "id": "k-009",
+   "kind": "kanto-151",
+   "name": "Blastoise",
+   "set": "Base Set",
+   "ceiling": 92.34,
+   "shopPrice": 15.0,
+   "shopTitle": "2021 Pokemon Sword & Shield Celebrations Classic Collection #2/102 Blastoise",
+   "url": "https://burbankcards.com/products/handle274003?_pos=1&_psq=Blastoise+2%2F102+Base+Set&_psid=f5cc567e1&_ss=e",
+   "deal": true,
+   "overCeilingBy": null
+  }
+ ],
  "checkedNoDeal": [
   {
    "id": "c30-etb",
@@ -25,8 +50,8 @@
    "set": "Fossil",
    "ceiling": 8.52,
    "shopPrice": 11.0,
-   "shopTitle": "1999 Pokemon Fossil #13/62 Muk",
-   "url": "https://burbankcards.com/products/handle273770?_pos=2&_psq=Muk+13%2F62+Fossil&_psid=10df582a9&_ss=e",
+   "shopTitle": "1999 Pokemon Fossil 1st Edition #13/62 Muk",
+   "url": "https://burbankcards.com/products/handle273784?_pos=1&_psq=Muk+13%2F62+Fossil&_psid=152fb7297&_ss=e",
    "deal": false,
    "overCeilingBy": 2.48
   },
@@ -38,7 +63,7 @@
    "ceiling": 36.86,
    "shopPrice": 95.0,
    "shopTitle": "1999 Pokemon Jungle #3/64 Flareon",
-   "url": "https://burbankcards.com/products/handle273898?_pos=2&_psq=Flareon+3%2F64+Jungle&_psid=83f0342c5&_ss=e",
+   "url": "https://burbankcards.com/products/handle273898?_pos=1&_psq=Flareon+3%2F64+Jungle&_psid=ec4b7fb12&_ss=e",
    "deal": false,
    "overCeilingBy": 58.14
   },
@@ -50,7 +75,7 @@
    "ceiling": 84.54,
    "shopPrice": 200.0,
    "shopTitle": "1999 Pokemon Fossil #4/62 Dragonite",
-   "url": "https://burbankcards.com/products/handle273905?_pos=2&_psq=Dragonite+4%2F62+Fossil&_psid=331733fd9&_ss=e",
+   "url": "https://burbankcards.com/products/handle273905?_pos=1&_psq=Dragonite+4%2F62+Fossil&_psid=65bc9f075&_ss=e",
    "deal": false,
    "overCeilingBy": 115.46
   }
@@ -179,25 +204,11 @@
    "ceiling": 700
   },
   {
-   "id": "k-003",
-   "kind": "kanto-151",
-   "name": "Venusaur",
-   "set": "Base Set",
-   "ceiling": 69.72
-  },
-  {
    "id": "k-006",
    "kind": "kanto-151",
    "name": "Charizard",
    "set": "Base Set",
    "ceiling": 321.02
-  },
-  {
-   "id": "k-009",
-   "kind": "kanto-151",
-   "name": "Blastoise",
-   "set": "Base Set",
-   "ceiling": 92.34
   },
   {
    "id": "k-026",
@@ -403,7 +414,7 @@
    "name": "Jirachi ex SIR",
    "shopTitle": "Jirachi ex (155/128) [ME 30th Celebration] Holofoil - Special Illustration Rare",
    "shopPrice": 0.0,
-   "url": "https://burbankcards.com/products/jirachi-ex-155-128-me-30th-celebration-holofoil-special-illustration-rare?_pos=1&_psq=Jirachi+ex+SIR+155%2F128+30th+Celebration&_psid=3a209f904&_ss=e",
+   "url": "https://burbankcards.com/products/jirachi-ex-155-128-me-30th-celebration-holofoil-special-illustration-rare?_pos=1&_psq=Jirachi+ex+SIR+155%2F128+30th+Celebration&_psid=c036249dd&_ss=e",
    "note": "price below sane floor — likely a parsing artifact, not a real listing"
   },
   {
@@ -412,7 +423,7 @@
    "name": "Sylveon ex SIR",
    "shopTitle": "Sylveon ex (153/128) [ME 30th Celebration] Holofoil - Special Illustration Rare",
    "shopPrice": 0.0,
-   "url": "https://burbankcards.com/products/sylveon-ex-153-128-me-30th-celebration-holofoil-special-illustration-rare?_pos=1&_psq=Sylveon+ex+SIR+153%2F128+30th+Celebration&_psid=aa0e82fad&_ss=e",
+   "url": "https://burbankcards.com/products/sylveon-ex-153-128-me-30th-celebration-holofoil-special-illustration-rare?_pos=1&_psq=Sylveon+ex+SIR+153%2F128+30th+Celebration&_psid=5557d22ee&_ss=e",
    "note": "price below sane floor — likely a parsing artifact, not a real listing"
   }
  ],
@@ -425,7 +436,7 @@
    "ceiling": 150,
    "shopPrice": 56.02,
    "shopTitle": "Mega Darkrai ex (116/084) [ME05 Pitch Black] Holofoil - Special Illustration Rare",
-   "url": "https://burbankcards.com/products/mega-darkrai-ex-116-084-me05-pitch-black-holofoil-special-illustration-rare?_pos=1&_psq=Mega+Darkrai+ex+SIR+116%2F084+Pitch+Black&_psid=8d2ee858b&_ss=e",
+   "url": "https://burbankcards.com/products/mega-darkrai-ex-116-084-me05-pitch-black-holofoil-special-illustration-rare?_pos=1&_psq=Mega+Darkrai+ex+SIR+116%2F084+Pitch+Black&_psid=e159955bc&_ss=e",
    "wouldBeDeal": true
   },
   {
@@ -436,7 +447,7 @@
    "ceiling": 400,
    "shopPrice": 165.79,
    "shopTitle": "Mega Dragonite ex (290/217) [ME Ascended Heroes] Holofoil - Special Illustration Rare",
-   "url": "https://burbankcards.com/products/mega-dragonite-ex-290-217-me-ascended-heroes-holofoil-special-illustration-rare?_pos=3&_psq=Mega+Dragonite+ex+SIR+290%2F217+Ascended+Heroes&_psid=5f2774e51&_ss=e",
+   "url": "https://burbankcards.com/products/mega-dragonite-ex-290-217-me-ascended-heroes-holofoil-special-illustration-rare?_pos=3&_psq=Mega+Dragonite+ex+SIR+290%2F217+Ascended+Heroes&_psid=e16d6a870&_ss=e",
    "wouldBeDeal": true
   },
   {
@@ -447,7 +458,7 @@
    "ceiling": 700,
    "shopPrice": 261.64,
    "shopTitle": "Mew ex (232/091) [SV Paldean Fates] Holofoil - Special Illustration Rare",
-   "url": "https://burbankcards.com/products/mew-ex-232-091-sv-paldean-fates-holofoil-special-illustration-rare?_pos=2&_psq=Mew+ex+SIR+232%2F091+Paldean+Fates&_psid=1f9016e31&_ss=e",
+   "url": "https://burbankcards.com/products/mew-ex-232-091-sv-paldean-fates-holofoil-special-illustration-rare?_pos=2&_psq=Mew+ex+SIR+232%2F091+Paldean+Fates&_psid=84b33f5ff&_ss=e",
    "wouldBeDeal": true
   }
  ]
