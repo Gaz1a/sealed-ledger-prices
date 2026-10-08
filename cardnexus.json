@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T19:27:38Z",
+ "generated": "2026-10-08T10:00:39Z",
  "currency": {
   "cm": "EUR",
   "tcg": "USD"
@@ -5151,6 +5151,26 @@
     "change7d": 0.0645,
     "change30d": 0.0066
    }
+  },
+  "pe-etb": {
+   "cnId": 223652,
+   "finish": "Standard",
+   "cm": {
+    "low": 88.8,
+    "marketValue": 150.96,
+    "change24h": 0.0098,
+    "change7d": 0.0025,
+    "change30d": -0.022
+   },
+   "tcg": {
+    "low": 120.99,
+    "mid": 189.37,
+    "high": 1719.32,
+    "marketValue": 137.54,
+    "change24h": 0.0266,
+    "change7d": -0.0186,
+    "change30d": -0.0864
+   }
   }
  },
  "unmatched": [
@@ -5158,6 +5178,5 @@
   "h-tsc",
   "k-006",
   "k-143"
- ],
- "partial": true
+ ]
 }
