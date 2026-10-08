@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-07",
+ "generated": "2026-10-08",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (47 entries, 0 new matches)",
+  "googlenews-reprint": "ok (49 entries, 4 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
@@ -47,6 +47,32 @@
    ]
   },
   {
+   "id": "061ff1a08fd8",
+   "feed": "googlenews-reprint",
+   "title": "Best Pokémon TCG deal: 30th Celebration Elite Trainer Box is close to market value on Amazon - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcnhKc3A4ZFFmLThtUDhUY1M0SmJhZFV6RkdabEhxNVppXzRkalA3VlNoa2RSS2VSOU41dlFqaXAzeDRXOV9zVlVLbmVHX21qdi1WaXFlamtCbElfR3NkSGlCY1dHVXlLUlBOZ1UzVUtaUXQxcUlldDBZaDlpQnd1X2FaVEhBOEpnM0hVQlZmZXNISUFPVE1XN09rWEE?oc=5",
+   "published": "2026-10-07",
+   "firstSeen": "2026-10-08",
+   "classes": [],
+   "matched": [
+    "elite trainer",
+    "30th celebration"
+   ]
+  },
+  {
+   "id": "52d4bf158464",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon Center rolls out invite-only access for Ascended Heroes Elite Trainer Box - Notebookcheck",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMWRBdmRlc3ZlR0cwRnVGUjNfTUl2bWhnZXY0Z1hETjlaOWMtUTRQUDdDd3d1UnJ1cEFQLUZsaGFBUWdnUTRTQUt1ZnVEY3ktY2pxN2hDWjhUMjRIbVRSSXRoZWtkMHZOWVplelNWbGMycUpEVVJJODFSTVE2emMtc1F2T09VLVVCNkFxbjFDZGZLRWlEcHN0ZVlNSVphZVhyelpKamZkSU1yam1IWk5aVGlXQ0tLNXpiZTZwMU13YUxERUJG?oc=5",
+   "published": "2026-10-07",
+   "firstSeen": "2026-10-08",
+   "classes": [],
+   "matched": [
+    "elite trainer",
+    "ascended heroes"
+   ]
+  },
+  {
    "id": "dc78ee78bcb6",
    "feed": "googlenews-reprint",
    "title": "Best Pokémon TCG deal: 30th Celebration Elite Trainer Box is close to market value on Amazon - Mashable",
@@ -56,6 +82,18 @@
    "classes": [],
    "matched": [
     "elite trainer",
+    "30th celebration"
+   ]
+  },
+  {
+   "id": "6f926af5d227",
+   "feed": "googlenews-reprint",
+   "title": "The 15 Most Expensive 30th Celebration Pokémon Cards - Joseph Writer Anderson",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUXVZT3N5TEV6S1FvTkJjTVBIT0VidzREazJkV2hHaE96VURieXRFRmpOQ3dBV1pxS254cEFOaTZxazZKVVhWcU0ybkUwV3RDQ3h5YTIybmxBSlNaNHlHUnZtV3lzY3dYN0RNZTdQNGNKa0p0Ym9zbFg1V2hjTFFmRGR1Vmh2eWFVSmw1dkl2NDRhd0Q4eC00RER3?oc=5",
+   "published": "2026-10-05",
+   "firstSeen": "2026-10-08",
+   "classes": [],
+   "matched": [
     "30th celebration"
    ]
   },
@@ -160,6 +198,18 @@
    "matched": [
     "pre-order",
     "delta reign"
+   ]
+  },
+  {
+   "id": "d4f49f992667",
+   "feed": "googlenews-reprint",
+   "title": "Where to buy Pokemon TCG 30th Celebration now that the highly-anticipated set is out - GamesRadar+",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd3VURTE1Y1dyWmY5dEo2VFBXVUgxZ1g1RlhHcjRyVFhYOUtteVM0ZXlaYmwxREVyZEtTZ0N1YVdzZXZ3elo5STM5ei05RzJ6M2lkUnFQRjZpLU82UjRGNU9Eb1hCdHpDNUlvWmtnMkRPZW5XRDJ5cEtjYUVad0dUTHNnczZlREFWeWZKZklVQ0lYa0ZLMnROYWFLTldJUmJXRDRkVlVIdDRaTE1iaENmV2RwVTNOQW83REJIWnNYZmpuQQ?oc=5",
+   "published": "2026-09-30",
+   "firstSeen": "2026-10-08",
+   "classes": [],
+   "matched": [
+    "30th celebration"
    ]
   },
   {
