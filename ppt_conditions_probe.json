@@ -1,0 +1,520 @@
+{
+ "42382:plain": {
+  "keys": [
+   "id",
+   "tcgPlayerId",
+   "setId",
+   "setName",
+   "name",
+   "cardNumber",
+   "totalSetNumber",
+   "rarity",
+   "cardType",
+   "pokedexNumbers",
+   "hp",
+   "stage",
+   "attacks",
+   "weakness",
+   "resistance",
+   "retreatCost",
+   "artist",
+   "pokemonType",
+   "energyType",
+   "flavorText",
+   "tcgPlayerUrl",
+   "prices",
+   "imageCdnUrl",
+   "imageCdnUrl200",
+   "imageCdnUrl400",
+   "imageCdnUrl800",
+   "imageUrl",
+   "needsDetailedScrape",
+   "dataCompleteness",
+   "lastScrapedAt",
+   "createdAt",
+   "updatedAt",
+   "variants",
+   "printingsAvailable",
+   "externalCatalogId"
+  ],
+  "prices": {
+   "market": 928.06,
+   "low": 184,
+   "sellers": 81,
+   "listings": 139,
+   "recentSales": 0,
+   "primaryPrinting": "Holofoil",
+   "lastUpdated": "2026-10-09T12:11:23.109Z",
+   "variants": {
+    "Holofoil": {
+     "Near Mint Holofoil": {
+      "price": 928.06,
+      "listings": null,
+      "priceString": "$928.06",
+      "lastUpdated": "2026-10-09T12:11:23.109Z"
+     }
+    }
+   }
+  },
+  "extra": {}
+ },
+ "42382:ebay": {
+  "keys": [
+   "id",
+   "tcgPlayerId",
+   "setId",
+   "setName",
+   "name",
+   "cardNumber",
+   "totalSetNumber",
+   "rarity",
+   "cardType",
+   "pokedexNumbers",
+   "hp",
+   "stage",
+   "attacks",
+   "weakness",
+   "resistance",
+   "retreatCost",
+   "artist",
+   "pokemonType",
+   "energyType",
+   "flavorText",
+   "tcgPlayerUrl",
+   "prices",
+   "imageCdnUrl",
+   "imageCdnUrl200",
+   "imageCdnUrl400",
+   "imageCdnUrl800",
+   "imageUrl",
+   "needsDetailedScrape",
+   "dataCompleteness",
+   "lastScrapedAt",
+   "createdAt",
+   "updatedAt",
+   "variants",
+   "printingsAvailable",
+   "externalCatalogId",
+   "ebay"
+  ],
+  "prices": {
+   "market": 928.06,
+   "low": 184,
+   "sellers": 81,
+   "listings": 139,
+   "recentSales": 0,
+   "primaryPrinting": "Holofoil",
+   "lastUpdated": "2026-10-09T12:11:23.109Z",
+   "variants": {
+    "Holofoil": {
+     "Near Mint Holofoil": {
+      "price": 928.06,
+      "listings": null,
+      "priceString": "$928.06",
+      "lastUpdated": "2026-10-09T12:11:23.109Z"
+     }
+    }
+   }
+  },
+  "extra": {}
+ },
+ "42382:history": {
+  "keys": [
+   "id",
+   "tcgPlayerId",
+   "setId",
+   "setName",
+   "name",
+   "cardNumber",
+   "totalSetNumber",
+   "rarity",
+   "cardType",
+   "pokedexNumbers",
+   "hp",
+   "stage",
+   "attacks",
+   "weakness",
+   "resistance",
+   "retreatCost",
+   "artist",
+   "pokemonType",
+   "energyType",
+   "flavorText",
+   "tcgPlayerUrl",
+   "prices",
+   "imageCdnUrl",
+   "imageCdnUrl200",
+   "imageCdnUrl400",
+   "imageCdnUrl800",
+   "imageUrl",
+   "needsDetailedScrape",
+   "dataCompleteness",
+   "lastScrapedAt",
+   "createdAt",
+   "updatedAt",
+   "variants",
+   "printingsAvailable",
+   "externalCatalogId",
+   "priceHistory"
+  ],
+  "prices": {
+   "market": 928.06,
+   "low": 184,
+   "sellers": 81,
+   "listings": 139,
+   "recentSales": 0,
+   "primaryPrinting": "Holofoil",
+   "lastUpdated": "2026-10-09T12:11:23.109Z",
+   "variants": {
+    "Holofoil": {
+     "Heavily Played": {
+      "price": 250.13,
+      "listings": null,
+      "priceString": "$250.13",
+      "lastUpdated": "2026-10-09T00:00:00.000Z"
+     },
+     "Near Mint": {
+      "price": 928.06,
+      "listings": null,
+      "priceString": "$928.06",
+      "lastUpdated": "2026-10-09T00:00:00.000Z"
+     },
+     "Damaged": {
+      "price": 182.08,
+      "listings": null,
+      "priceString": "$182.08",
+      "lastUpdated": "2026-10-09T00:00:00.000Z"
+     },
+     "Moderately Played": {
+      "price": 376.79,
+      "listings": null,
+      "priceString": "$376.79",
+      "lastUpdated": "2026-10-09T00:00:00.000Z"
+     },
+     "Lightly Played": {
+      "price": 540.22,
+      "listings": null,
+      "priceString": "$540.22",
+      "lastUpdated": "2026-10-09T00:00:00.000Z"
+     }
+    }
+   },
+   "conditions": {
+    "Heavily Played": {
+     "price": 250.13,
+     "listings": null,
+     "priceString": "$250.13",
+     "lastUpdated": "2026-10-09T00:00:00.000Z"
+    },
+    "Near Mint": {
+     "price": 928.06,
+     "listings": null,
+     "priceString": "$928.06",
+     "lastUpdated": "2026-10-09T00:00:00.000Z"
+    },
+    "Damaged": {
+     "price": 182.08,
+     "listings": null,
+     "priceString": "$182.08",
+     "lastUpdated": "2026-10-09T00:00:00.000Z"
+    },
+    "Moderately Played": {
+     "price": 376.79,
+     "listings": null,
+     "priceString": "$376.79",
+     "lastUpdated": "2026-10-09T00:00:00.000Z"
+    },
+    "Lightly Played": {
+     "price": 540.22,
+     "listings": null,
+     "priceString": "$540.22",
+     "lastUpdated": "2026-10-09T00:00:00.000Z"
+    }
+   }
+  },
+  "extra": {}
+ },
+ "45122:plain": {
+  "keys": [
+   "id",
+   "tcgPlayerId",
+   "setId",
+   "setName",
+   "name",
+   "cardNumber",
+   "totalSetNumber",
+   "rarity",
+   "cardType",
+   "pokedexNumbers",
+   "hp",
+   "stage",
+   "attacks",
+   "weakness",
+   "resistance",
+   "retreatCost",
+   "artist",
+   "pokemonType",
+   "energyType",
+   "flavorText",
+   "tcgPlayerUrl",
+   "prices",
+   "imageCdnUrl",
+   "imageCdnUrl200",
+   "imageCdnUrl400",
+   "imageCdnUrl800",
+   "imageUrl",
+   "needsDetailedScrape",
+   "dataCompleteness",
+   "lastScrapedAt",
+   "createdAt",
+   "updatedAt",
+   "variants",
+   "printingsAvailable",
+   "externalCatalogId"
+  ],
+  "prices": {
+   "market": 408.99,
+   "low": 27.3,
+   "sellers": 105,
+   "listings": 146,
+   "recentSales": 0,
+   "primaryPrinting": "1st Edition Holofoil",
+   "lastUpdated": "2026-10-09T12:11:20.516Z",
+   "variants": {
+    "1st Edition Holofoil": {
+     "Near Mint 1st Edition Holofoil": {
+      "price": 408.99,
+      "listings": null,
+      "priceString": "$408.99",
+      "lastUpdated": "2026-10-09T12:11:20.516Z"
+     }
+    },
+    "Unlimited Holofoil": {
+     "Near Mint Unlimited Holofoil": {
+      "price": 157.08,
+      "listings": null,
+      "priceString": "$157.08",
+      "lastUpdated": "2026-10-09T12:11:20.516Z"
+     }
+    }
+   }
+  },
+  "extra": {}
+ },
+ "45122:ebay": {
+  "keys": [
+   "id",
+   "tcgPlayerId",
+   "setId",
+   "setName",
+   "name",
+   "cardNumber",
+   "totalSetNumber",
+   "rarity",
+   "cardType",
+   "pokedexNumbers",
+   "hp",
+   "stage",
+   "attacks",
+   "weakness",
+   "resistance",
+   "retreatCost",
+   "artist",
+   "pokemonType",
+   "energyType",
+   "flavorText",
+   "tcgPlayerUrl",
+   "prices",
+   "imageCdnUrl",
+   "imageCdnUrl200",
+   "imageCdnUrl400",
+   "imageCdnUrl800",
+   "imageUrl",
+   "needsDetailedScrape",
+   "dataCompleteness",
+   "lastScrapedAt",
+   "createdAt",
+   "updatedAt",
+   "variants",
+   "printingsAvailable",
+   "externalCatalogId",
+   "ebay"
+  ],
+  "prices": {
+   "market": 408.99,
+   "low": 27.3,
+   "sellers": 105,
+   "listings": 146,
+   "recentSales": 0,
+   "primaryPrinting": "1st Edition Holofoil",
+   "lastUpdated": "2026-10-09T12:11:20.516Z",
+   "variants": {
+    "1st Edition Holofoil": {
+     "Near Mint 1st Edition Holofoil": {
+      "price": 408.99,
+      "listings": null,
+      "priceString": "$408.99",
+      "lastUpdated": "2026-10-09T12:11:20.516Z"
+     }
+    },
+    "Unlimited Holofoil": {
+     "Near Mint Unlimited Holofoil": {
+      "price": 157.08,
+      "listings": null,
+      "priceString": "$157.08",
+      "lastUpdated": "2026-10-09T12:11:20.516Z"
+     }
+    }
+   }
+  },
+  "extra": {}
+ },
+ "45122:history": {
+  "keys": [
+   "id",
+   "tcgPlayerId",
+   "setId",
+   "setName",
+   "name",
+   "cardNumber",
+   "totalSetNumber",
+   "rarity",
+   "cardType",
+   "pokedexNumbers",
+   "hp",
+   "stage",
+   "attacks",
+   "weakness",
+   "resistance",
+   "retreatCost",
+   "artist",
+   "pokemonType",
+   "energyType",
+   "flavorText",
+   "tcgPlayerUrl",
+   "prices",
+   "imageCdnUrl",
+   "imageCdnUrl200",
+   "imageCdnUrl400",
+   "imageCdnUrl800",
+   "imageUrl",
+   "needsDetailedScrape",
+   "dataCompleteness",
+   "lastScrapedAt",
+   "createdAt",
+   "updatedAt",
+   "variants",
+   "printingsAvailable",
+   "externalCatalogId",
+   "priceHistory"
+  ],
+  "prices": {
+   "market": 408.99,
+   "low": 27.3,
+   "sellers": 105,
+   "listings": 146,
+   "recentSales": 0,
+   "primaryPrinting": "1st Edition Holofoil",
+   "lastUpdated": "2026-10-09T12:11:20.516Z",
+   "variants": {
+    "Unlimited Holofoil": {
+     "Moderately Played": {
+      "price": 58.68,
+      "listings": null,
+      "priceString": "$58.68",
+      "lastUpdated": "2026-10-09T00:00:00.000Z"
+     },
+     "Heavily Played": {
+      "price": 37.16,
+      "listings": null,
+      "priceString": "$37.16",
+      "lastUpdated": "2026-10-09T00:00:00.000Z"
+     },
+     "Near Mint": {
+      "price": 157.08,
+      "listings": null,
+      "priceString": "$157.08",
+      "lastUpdated": "2026-10-09T00:00:00.000Z"
+     },
+     "Lightly Played": {
+      "price": 81.37,
+      "listings": null,
+      "priceString": "$81.37",
+      "lastUpdated": "2026-10-09T00:00:00.000Z"
+     },
+     "Damaged": {
+      "price": 29.04,
+      "listings": null,
+      "priceString": "$29.04",
+      "lastUpdated": "2026-10-09T00:00:00.000Z"
+     }
+    },
+    "1st Edition Holofoil": {
+     "Damaged": {
+      "price": 128.09,
+      "listings": null,
+      "priceString": "$128.09",
+      "lastUpdated": "2026-10-09T00:00:00.000Z"
+     },
+     "Lightly Played": {
+      "price": 261.91,
+      "listings": null,
+      "priceString": "$261.91",
+      "lastUpdated": "2026-10-09T00:00:00.000Z"
+     },
+     "Near Mint": {
+      "price": 408.99,
+      "listings": null,
+      "priceString": "$408.99",
+      "lastUpdated": "2026-10-09T00:00:00.000Z"
+     },
+     "Heavily Played": {
+      "price": 133.37,
+      "listings": null,
+      "priceString": "$133.37",
+      "lastUpdated": "2026-10-09T00:00:00.000Z"
+     },
+     "Moderately Played": {
+      "price": 186.06,
+      "listings": null,
+      "priceString": "$186.06",
+      "lastUpdated": "2026-10-09T00:00:00.000Z"
+     }
+    }
+   },
+   "conditions": {
+    "Damaged": {
+     "price": 128.09,
+     "listings": null,
+     "priceString": "$128.09",
+     "lastUpdated": "2026-10-09T00:00:00.000Z"
+    },
+    "Lightly Played": {
+     "price": 261.91,
+     "listings": null,
+     "priceString": "$261.91",
+     "lastUpdated": "2026-10-09T00:00:00.000Z"
+    },
+    "Near Mint": {
+     "price": 408.99,
+     "listings": null,
+     "priceString": "$408.99",
+     "lastUpdated": "2026-10-09T00:00:00.000Z"
+    },
+    "Heavily Played": {
+     "price": 133.37,
+     "listings": null,
+     "priceString": "$133.37",
+     "lastUpdated": "2026-10-09T00:00:00.000Z"
+    },
+    "Moderately Played": {
+     "price": 186.06,
+     "listings": null,
+     "priceString": "$186.06",
+     "lastUpdated": "2026-10-09T00:00:00.000Z"
+    }
+   }
+  },
+  "extra": {}
+ }
+}
