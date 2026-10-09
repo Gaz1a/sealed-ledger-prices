@@ -1,12 +1,24 @@
 {
- "generated": "2026-10-08",
+ "generated": "2026-10-09",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (49 entries, 4 new matches)",
+  "googlenews-reprint": "ok (55 entries, 6 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
+  {
+   "id": "79f1d34221da",
+   "feed": "googlenews-reprint",
+   "title": "[Pokémon TCG] Charizard [M6a 137/103] Price Guide, Market Trends & Price History (Pokémon TCG: 30th Celebration) - SNKRDUNK",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxORkgwOHlFLVdJTG1MdE9POFpQa18xUjZrd1BwVlNNeVpVZ0JZN2xaT3lXb25XZzlTMTNDYXg0OTJ5Q19qcll2dmwwU3o4a3dKTThoY2twZ01nWHBXX05XakRYV0ExMWw1TllGOTdBM1l5WTdlQnhlRzdpTjNraUxzNTFMR0tyRWVTaFpCUVVLeGZvS3NhMnJVZHZlenNnWlM2Z1N0YkdSZU1yNWt5WFpaODh2VU5sZV93dzJlSkxnWFBjMHU3aEs0LVhrZXl4ZUk0bjM0QnRDOUtPX2N4ZVNPN2RjYldYY1BhWU9zNEVuMTU?oc=5",
+   "published": "2026-10-09",
+   "firstSeen": "2026-10-09",
+   "classes": [],
+   "matched": [
+    "30th celebration"
+   ]
+  },
   {
    "id": "47889a3bd414",
    "feed": "googlenews-reprint",
@@ -98,6 +110,18 @@
    ]
   },
   {
+   "id": "2da60433f1cf",
+   "feed": "googlenews-reprint",
+   "title": "The Pokémon TCG 30th Celebration ETB is close to market price — shop for $159.99 at Amazon - Yahoo",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObGxJbEhtdGlRb1k4ejB0TDlYWkFKRURnUE9BN2RlWVpwRzVxYVIyU1Z2aFBneGJjY2xXeDVTMW5DYTBPQ1lxcGJmUjNEeWxqWjRwd3RPNmFucERHbElKQzBib0EzQWVRb2ZYWERSUDI1bFlwZC1jbHJTZ2RtZ0RnQmk0VTZaWXBhOUlZZXp3?oc=5",
+   "published": "2026-10-05",
+   "firstSeen": "2026-10-09",
+   "classes": [],
+   "matched": [
+    "30th celebration"
+   ]
+  },
+  {
    "id": "a6835c77d21d",
    "feed": "googlenews-reprint",
    "title": "Where to buy Cyberpunk TCG Welcome to Night City booster box - Kanto Post",
@@ -107,6 +131,31 @@
    "classes": [],
    "matched": [
     "booster box"
+   ]
+  },
+  {
+   "id": "ba8e21037c3e",
+   "feed": "googlenews-reprint",
+   "title": "Latest Pokemon TCG drop dates for 30th Celebration, Delta Reign, Japanese cards - The Olympian",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9LNFZOZUJFVktfd0NmcFBRc09ZWEZSTXdsUW1YT2V2SlZKVGk0SlIzZEEycy12bld6UTRwTHlINHhZek1sbnM5aEJ1RzJWUVV2cmJXNmxzZm5XUVRYZFpseFBMMXg?oc=5",
+   "published": "2026-10-03",
+   "firstSeen": "2026-10-09",
+   "classes": [],
+   "matched": [
+    "delta reign",
+    "30th celebration"
+   ]
+  },
+  {
+   "id": "9651d74ba787",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon 30th Celebration Checklist, Cards & Products - Cardlines",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQklwaF9oZUlmOTBwcks3RXlhZjFwVDRmWDFyOXIwalk1dHZIdFhoeHN1MEN5N2JZOXBzZi1qanM1ZVpGVlFRckdMSEZfNmQ4TzhaV2FaQnJEb3lsUFJTUkUxYlZjaHlkcXFrbWZCSmltZmp5bGpmUGw3NlBWd2FjXzRNWkJObHZt?oc=5",
+   "published": "2026-10-03",
+   "firstSeen": "2026-10-09",
+   "classes": [],
+   "matched": [
+    "30th celebration"
    ]
   },
   {
@@ -213,6 +262,18 @@
    ]
   },
   {
+   "id": "7c933af0f55f",
+   "feed": "googlenews-reprint",
+   "title": "Walmart's Pokémon 30th Celebration TCG Lottery Starts Soon & Includes Mini Tins — Here's How to Win - SheKnows",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQY1dRSldyV3IxUUxwR216VWpRZjZUV3VIZHMxSlZqYXJ2b0ZaWVVxN09fU0taNkF3aWZLU0trdTlFUmwyeHFCMTQxdUZxTlFGcFFIWFZEV2w0R3BFdjZ0Z3VoT0ZHWlNvaTRmZnBCRFVVbFNVc0lyY2c1MHluUjRZZGNlVE91d0RiZXV6MEU4ZFo2bVYyajNiR21TcElSZEE2NW45TktoekNzYnc?oc=5",
+   "published": "2026-09-30",
+   "firstSeen": "2026-10-09",
+   "classes": [],
+   "matched": [
+    "30th celebration"
+   ]
+  },
+  {
    "id": "acde5beccc7b",
    "feed": "googlenews-reprint",
    "title": "Latest Pokemon TCG drop dates for 30th Celebration, Delta Reign, Japanese cards - Reno Gazette Journal",
@@ -223,6 +284,18 @@
    "matched": [
     "delta reign",
     "30th celebration"
+   ]
+  },
+  {
+   "id": "e02b0c95b8b0",
+   "feed": "googlenews-reprint",
+   "title": "Best early October Prime Day Pokémon deals 2026: Perfect Order Bundle, Nintendo Switch, Lego - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE54UzNRMWd6RWdjYmk5WWlEelp4WnBiR05CTnRzVGt1b25HRUk0SkE1TUV1bDRTTUNKU3Y5MFBFcjhlZmIzVWJmQzl5cUZ0cDVkTFRkUW10RWtXa2FPZHRocUZSOUxRTU5MaHYxWm1OMjFIY1VuWU1RTW5ET0d0Zw?oc=5",
+   "published": "2026-09-29",
+   "firstSeen": "2026-10-09",
+   "classes": [],
+   "matched": [
+    "perfect order"
    ]
   },
   {
