@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-09",
+ "generated": "2026-10-10",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (55 entries, 6 new matches)",
+  "googlenews-reprint": "ok (56 entries, 1 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
@@ -17,6 +17,18 @@
    "classes": [],
    "matched": [
     "30th celebration"
+   ]
+  },
+  {
+   "id": "0748ad1912c0",
+   "feed": "googlenews-reprint",
+   "title": "The Pokémon Chaos Rising Trading Cards Are Selling Out, But You Can Still Find Them Here - Rolling Stone",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRUFUXzlkaVB2WU51Wm5DRWRvOWcxSWVpZV90Zk1sYXg0OG5yeU9Xa0pjLWtHdFkzV3hhSUI5RmJTWUNtYmxCTHZLaVdZXzFkUEtReW1pWDhIcmJYY3U0Q0tjeW1XNEZXRmxhc2FmZVowY0lmd0ZvenJqeWxrNlByQ3dmc25KMUY0cU5sbktnZU9oZUNEVThBUVp6ekUzQnJsQmRfOXJjNUdONGtQX3VUb2Q4X3J2NC11eFFsVlBMNkZfUHQtV2c?oc=5",
+   "published": "2026-10-09",
+   "firstSeen": "2026-10-10",
+   "classes": [],
+   "matched": [
+    "chaos rising"
    ]
   },
   {
