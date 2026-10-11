@@ -152,7 +152,7 @@
  "gy-rebel-clash-40-192": {
   "productId": 213118,
   "title": "Gyarados 40/192 (Holo Rare)",
-  "variant": "Reverse Holofoil"
+  "variant": "Holofoil"
  },
  "gy-skyridge-11-144": {
   "productId": 85988,
@@ -962,7 +962,7 @@
  "mk-ancient-origins-19-98": {
   "productId": 101440,
   "title": "Magikarp 19/98 (Common)",
-  "variant": "Reverse Holofoil"
+  "variant": "Normal"
  },
  "mk-base-set-2-50-130": {
   "productId": 42513,
@@ -972,7 +972,7 @@
  "mk-burning-shadows-32-147": {
   "productId": 138512,
   "title": "Magikarp 32/147 (Common)",
-  "variant": "Reverse Holofoil"
+  "variant": "Normal"
  },
  "mk-call-of-legends-61-95": {
   "productId": 87035,
@@ -982,7 +982,7 @@
  "mk-crimson-invasion-17-111": {
   "productId": 149038,
   "title": "Magikarp 17/111 (Common)",
-  "variant": "Reverse Holofoil"
+  "variant": "Normal"
  },
  "mk-destined-rivals-misty-s-48-182": {
   "productId": 630815,
@@ -1007,7 +1007,7 @@
  "mk-evolutions-33-108": {
   "productId": 124046,
   "title": "Magikarp 33/108 (Common)",
-  "variant": "Reverse Holofoil"
+  "variant": "Normal"
  },
  "mk-ex-deoxys-64-107": {
   "productId": 87028,
@@ -1062,12 +1062,12 @@
  "mk-hidden-fates-15-68": {
   "productId": 197659,
   "title": "Magikarp 15/68 (Common)",
-  "variant": "Reverse Holofoil"
+  "variant": "Normal"
  },
  "mk-legendary-collection-52-110": {
   "productId": 87022,
   "title": "Magikarp 52/110 (Uncommon)",
-  "variant": "Reverse Holofoil"
+  "variant": "Normal"
  },
  "mk-legendary-treasures-30-113": {
   "productId": 87037,
@@ -1097,7 +1097,7 @@
  "mk-pokemon-go-021-078": {
   "productId": 276951,
   "title": "Magikarp 021/078 (Common)",
-  "variant": "Reverse Holofoil"
+  "variant": "Normal"
  },
  "mk-rebel-clash-39-192": {
   "productId": 213117,
@@ -1107,7 +1107,7 @@
  "mk-scarlet-violet-44-198": {
   "productId": 487888,
   "title": "Magikarp 44/198 (Common)",
-  "variant": "Reverse Holofoil"
+  "variant": "Normal"
  },
  "mk-skyridge-75-144": {
   "productId": 87023,
@@ -1328,5 +1328,245 @@
   "productId": 593355,
   "title": "Prismatic Evolutions Elite Trainer Box",
   "variant": null
+ },
+ "gy-151-130-165-rev": {
+  "productId": 516693,
+  "title": "Gyarados 130/165 (Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-ancient-origins-20-98-rev": {
+  "productId": 101441,
+  "title": "Gyarados 20/98 (Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-ancient-origins-21-98-rev": {
+  "productId": 101442,
+  "title": "Gyarados 21/98 (Holo Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-burning-shadows-33-147-rev": {
+  "productId": 138513,
+  "title": "Gyarados 33/147 (Holo Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-call-of-legends-7-95-rev": {
+  "productId": 85999,
+  "title": "Gyarados 7/95 (Holo Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-dragon-majesty-20-70-rev": {
+  "productId": 175382,
+  "title": "Gyarados 20/70 (Holo Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-dragons-exalted-24-124-rev": {
+  "productId": 86000,
+  "title": "Gyarados 24/124 (Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-evolutions-34-108-rev": {
+  "productId": 124047,
+  "title": "Gyarados 34/108 (Holo Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-ex-deoxys-8-107-rev": {
+  "productId": 85991,
+  "title": "Gyarados 8/107 (Holo Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-ex-dragon-32-97-rev": {
+  "productId": 85990,
+  "title": "Gyarados 32/97 (Uncommon) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-generations-23-83-rev": {
+  "productId": 113681,
+  "title": "Gyarados 23/83 (Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-heartgold-soulsilver-4-123-rev": {
+  "productId": 85992,
+  "title": "Gyarados 4/123 (Holo Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-legendary-collection-12-110-rev": {
+  "productId": 85989,
+  "title": "Gyarados 12/110 (Holo Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-legendary-treasures-31-113-rev": {
+  "productId": 86001,
+  "title": "Gyarados 31/113 (Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-mysterious-treasures-26-123-rev": {
+  "productId": 85993,
+  "title": "Gyarados 26/123 (Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-paldea-evolved-43-193-rev": {
+  "productId": 497454,
+  "title": "Gyarados 43/193 (Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-pokemon-go-22-078-rev": {
+  "productId": 276955,
+  "title": "Gyarados 22/078 (Holo Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-rebel-clash-40-192-rev": {
+  "productId": 213118,
+  "title": "Gyarados 40/192 (Holo Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-stormfront-19-100-rev": {
+  "productId": 85994,
+  "title": "Gyarados 19/100 (Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "gy-team-up-30-181-rev": {
+  "productId": 183801,
+  "title": "Gyarados 30/181 (Holo Rare) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-151-129-165-rev": {
+  "productId": 516692,
+  "title": "Magikarp 129/165 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-ancient-origins-19-98-rev": {
+  "productId": 101440,
+  "title": "Magikarp 19/98 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-burning-shadows-32-147-rev": {
+  "productId": 138512,
+  "title": "Magikarp 32/147 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-call-of-legends-61-95-rev": {
+  "productId": 87035,
+  "title": "Magikarp 61/95 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-crimson-invasion-17-111-rev": {
+  "productId": 149038,
+  "title": "Magikarp 17/111 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-destined-rivals-misty-s-48-182-rev": {
+  "productId": 630815,
+  "title": "Magikarp 48/182 (Misty's, Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-dragon-majesty-19-70-rev": {
+  "productId": 175381,
+  "title": "Magikarp 19/70 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-dragons-exalted-23-124-rev": {
+  "productId": 87036,
+  "title": "Magikarp 23/124 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-evolutions-33-108-rev": {
+  "productId": 124046,
+  "title": "Magikarp 33/108 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-ex-deoxys-64-107-rev": {
+  "productId": 87028,
+  "title": "Magikarp 64/107 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-ex-dragon-60-97-rev": {
+  "productId": 87025,
+  "title": "Magikarp 60/97 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-ex-firered-leafgreen-67-112-rev": {
+  "productId": 87026,
+  "title": "Magikarp 67/112 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-ex-holon-phantoms-69-110-rev": {
+  "productId": 87038,
+  "title": "Magikarp 69/110 (Common, Delta Species print) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-ex-team-rocket-returns-65-109-rev": {
+  "productId": 87027,
+  "title": "Magikarp 65/109 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-expedition-base-set-118-165-rev": {
+  "productId": 87024,
+  "title": "Magikarp 118/165 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-generations-22-83-rev": {
+  "productId": 113680,
+  "title": "Magikarp 22/83 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-heartgold-soulsilver-72-123-rev": {
+  "productId": 87032,
+  "title": "Magikarp 72/123 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-hidden-fates-15-68-rev": {
+  "productId": 197659,
+  "title": "Magikarp 15/68 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-legendary-collection-52-110-rev": {
+  "productId": 87022,
+  "title": "Magikarp 52/110 (Uncommon) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-legendary-treasures-30-113-rev": {
+  "productId": 87037,
+  "title": "Magikarp 30/113 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-mysterious-treasures-89-123-rev": {
+  "productId": 87029,
+  "title": "Magikarp 89/123 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-paldea-evolved-42-193-rev": {
+  "productId": 497453,
+  "title": "Magikarp 42/193 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-pokemon-go-021-078-rev": {
+  "productId": 276951,
+  "title": "Magikarp 021/078 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-rebel-clash-39-192-rev": {
+  "productId": 213117,
+  "title": "Magikarp 39/192 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-scarlet-violet-44-198-rev": {
+  "productId": 487888,
+  "title": "Magikarp 44/198 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-stormfront-65-100-rev": {
+  "productId": 87030,
+  "title": "Magikarp 65/100 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-supreme-victors-110-147-rev": {
+  "productId": 87031,
+  "title": "Magikarp 110/147 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
+ },
+ "mk-team-up-29-181-rev": {
+  "productId": 183800,
+  "title": "Magikarp 29/181 (Common) [Reverse Holo]",
+  "variant": "Reverse Holofoil"
  }
 }
