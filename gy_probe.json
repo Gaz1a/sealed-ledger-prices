@@ -1,0 +1,73 @@
+{
+ "tcgcsv_rows_85999": [
+  {
+   "productId": 85999,
+   "lowPrice": 60.0,
+   "midPrice": 116.75,
+   "highPrice": 859.62,
+   "marketPrice": 90.58,
+   "directLowPrice": null,
+   "subTypeName": "Holofoil"
+  },
+  {
+   "productId": 85999,
+   "lowPrice": 46.87,
+   "midPrice": 250.0,
+   "highPrice": 1417.64,
+   "marketPrice": 35.0,
+   "directLowPrice": 698.98,
+   "subTypeName": "Reverse Holofoil"
+  }
+ ],
+ "tcgcsv_products_gyarados7": [
+  {
+   "productId": 85999,
+   "name": "Gyarados",
+   "url": "https://www.tcgplayer.com/product/85999/pokemon-call-of-legends-gyarados"
+  }
+ ],
+ "ppt": {
+  "market": 90.58,
+  "low": 25.48,
+  "listings": 39,
+  "sellers": 31,
+  "recentSales": 0,
+  "variants": {
+   "Reverse Holofoil": {
+    "Lightly Played": 43.32,
+    "Near Mint": 35,
+    "Heavily Played": 4.96,
+    "Damaged": 10.08,
+    "Moderately Played": 47.65
+   },
+   "Holofoil": {
+    "Moderately Played": 27.97,
+    "Near Mint": 90.58,
+    "Lightly Played": 40.54,
+    "Damaged": 21.69,
+    "Heavily Played": 14.57
+   }
+  }
+ },
+ "pricecharting": [
+  {
+   "id": "926258",
+   "name": "Gyarados #7",
+   "console": "Pokemon Call of Legends",
+   "tcg-id": "85999",
+   "ungraded": 50.0,
+   "psa9": 725.0,
+   "psa10": 2850.0
+  },
+  {
+   "id": "926364",
+   "name": "Gyarados [Reverse Holo] #7",
+   "console": "Pokemon Call of Legends",
+   "tcg-id": "85999",
+   "ungraded": 28.2,
+   "psa9": 305.95,
+   "psa10": 1525.0
+  }
+ ],
+ "generated": "2026-10-11T18:26:25.078794"
+}
