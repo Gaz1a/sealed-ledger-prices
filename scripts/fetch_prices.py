@@ -84,18 +84,23 @@ def pick(rows, variant):
           file=sys.stderr)
     return sorted(rows, key=lambda r: r["subTypeName"])[0]
 
-out, unresolved = {}, []
+out, unresolved, pin_mismatch = {}, [], []
 for lid, t in tracked.items():
     r = pick(found.get(str(t["productId"]), []), t.get("variant"))
     if r is None:
         unresolved.append(lid); continue
+    if t.get("variant") and r["subTypeName"] != t["variant"]:
+        # pinned variant has no priced row: record it; kg- rows must not fall back to another print
+        pin_mismatch.append({"id": lid, "pin": t["variant"], "got": r["subTypeName"]})
+        if lid.startswith("kg-"):
+            unresolved.append(lid); continue
     out[lid] = {"market": r["marketPrice"], "low": r.get("lowPrice"), "mid": r.get("midPrice"),
                 "subType": r["subTypeName"], "productId": t["productId"]}
 
 json.dump(gmap, open(os.path.join(ROOT, "group-map.json"), "w"), indent=0, sort_keys=True)
 json.dump({"generated": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
            "source": "tcgcsv.com (TCGplayer market price, per subtype)",
-           "count": len(out), "unresolved": unresolved, "prices": out},
+           "count": len(out), "unresolved": unresolved, "pinMismatch": pin_mismatch, "prices": out},
           open(os.path.join(ROOT, "prices.json"), "w"), indent=1, sort_keys=True)
 print(f"prices for {len(out)} of {len(tracked)} tracked; unresolved: {len(unresolved)}")
 if len(out) < len(tracked) * 0.5:
