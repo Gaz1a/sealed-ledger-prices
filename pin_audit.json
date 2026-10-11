@@ -1,0 +1,5359 @@
+{
+ "generated": "2026-10-11",
+ "pins": {
+  "gy-151-130-165": {
+   "title": "Gyarados 130/165 (Rare)",
+   "pin": "Normal",
+   "feedPrice": 0.38,
+   "subtypes": {
+    "Reverse Holofoil": {
+     "market": 1.36,
+     "low": 0.5,
+     "mid": 1.5
+    },
+    "Holofoil": {
+     "market": 0.38,
+     "low": 0.05,
+     "mid": 0.38
+    }
+   },
+   "expectedPin": null,
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": null,
+   "priceUnderExpected": null
+  },
+  "gy-ancient-origins-20-98": {
+   "title": "Gyarados 20/98 (Rare)",
+   "pin": "Normal",
+   "feedPrice": 1.09,
+   "subtypes": {
+    "Normal": {
+     "market": 1.09,
+     "low": 0.25,
+     "mid": 1.0
+    },
+    "Reverse Holofoil": {
+     "market": 5.11,
+     "low": 1.03,
+     "mid": 6.12
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.09
+  },
+  "gy-ancient-origins-21-98": {
+   "title": "Gyarados 21/98 (Holo Rare)",
+   "pin": "Holofoil",
+   "feedPrice": 64.99,
+   "subtypes": {
+    "Holofoil": {
+     "market": 64.99,
+     "low": 34.99,
+     "mid": 63.93
+    },
+    "Reverse Holofoil": {
+     "market": 66.96,
+     "low": 37.0,
+     "mid": 64.99
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 64.99
+  },
+  "gy-base-set-2-7-130": {
+   "title": "Gyarados 7/130 (Holo Rare)",
+   "pin": "Holofoil",
+   "feedPrice": 54.76,
+   "subtypes": {
+    "Holofoil": {
+     "market": 54.76,
+     "low": 20.0,
+     "mid": 32.18
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 54.76
+  },
+  "gy-burning-shadows-33-147": {
+   "title": "Gyarados 33/147 (Holo Rare)",
+   "pin": "Holofoil",
+   "feedPrice": 2.96,
+   "subtypes": {
+    "Holofoil": {
+     "market": 2.96,
+     "low": 1.0,
+     "mid": 3.0
+    },
+    "Reverse Holofoil": {
+     "market": 3.77,
+     "low": 1.4,
+     "mid": 3.67
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.96
+  },
+  "gy-call-of-legends-7-95": {
+   "title": "Gyarados 7/95 (Holo Rare)",
+   "pin": "Reverse Holofoil",
+   "feedPrice": 35.0,
+   "subtypes": {
+    "Holofoil": {
+     "market": 90.58,
+     "low": 60.0,
+     "mid": 116.75
+    },
+    "Reverse Holofoil": {
+     "market": 35.0,
+     "low": 46.87,
+     "mid": 250.0
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": false,
+   "priceUnderExpected": 90.58
+  },
+  "gy-celebrations-dark-gyarados-reprint-8-82": {
+   "title": "Gyarados 8/82 (Holo Rare)",
+   "pin": "Holofoil",
+   "feedPrice": 5.15,
+   "subtypes": {
+    "Holofoil": {
+     "market": 5.15,
+     "low": 3.95,
+     "mid": 6.95
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 5.15
+  },
+  "gy-destined-rivals-misty-s-49-182": {
+   "title": "Gyarados 49/182 (Rare)",
+   "pin": "Normal",
+   "feedPrice": 14.55,
+   "subtypes": {
+    "Holofoil": {
+     "market": 14.55,
+     "low": 11.75,
+     "mid": 17.0
+    }
+   },
+   "expectedPin": null,
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": null,
+   "priceUnderExpected": null
+  },
+  "gy-dragon-majesty-20-70": {
+   "title": "Gyarados 20/70 (Holo Rare)",
+   "pin": "Holofoil",
+   "feedPrice": 3.13,
+   "subtypes": {
+    "Holofoil": {
+     "market": 3.13,
+     "low": 1.88,
+     "mid": 3.14
+    },
+    "Reverse Holofoil": {
+     "market": 7.53,
+     "low": 5.02,
+     "mid": 49.82
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 3.13
+  },
+  "gy-dragons-exalted-24-124": {
+   "title": "Gyarados 24/124 (Rare)",
+   "pin": "Normal",
+   "feedPrice": 3.17,
+   "subtypes": {
+    "Normal": {
+     "market": 3.17,
+     "low": 1.85,
+     "mid": 3.34
+    },
+    "Reverse Holofoil": {
+     "market": 25.15,
+     "low": 24.0,
+     "mid": 35.0
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 3.17
+  },
+  "gy-evolutions-34-108": {
+   "title": "Gyarados 34/108 (Holo Rare)",
+   "pin": "Holofoil",
+   "feedPrice": 8.4,
+   "subtypes": {
+    "Holofoil": {
+     "market": 8.4,
+     "low": 4.25,
+     "mid": 8.94
+    },
+    "Reverse Holofoil": {
+     "market": 8.94,
+     "low": 5.87,
+     "mid": 9.53
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 8.4
+  },
+  "gy-ex-deoxys-8-107": {
+   "title": "Gyarados 8/107 (Holo Rare)",
+   "pin": "Holofoil",
+   "feedPrice": 241.0,
+   "subtypes": {
+    "Normal": {
+     "market": 299.5,
+     "low": 89.99,
+     "mid": 132.49
+    },
+    "Holofoil": {
+     "market": 241.0,
+     "low": 199.98,
+     "mid": 278.65
+    },
+    "Reverse Holofoil": {
+     "market": 300.0,
+     "low": 315.0,
+     "mid": 389.5
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 241.0
+  },
+  "gy-ex-dragon-32-97": {
+   "title": "Gyarados 32/97 (Uncommon)",
+   "pin": "Normal",
+   "feedPrice": 19.71,
+   "subtypes": {
+    "Normal": {
+     "market": 19.71,
+     "low": 11.99,
+     "mid": 29.99
+    },
+    "Reverse Holofoil": {
+     "market": 120.89,
+     "low": 120.0,
+     "mid": 287.5
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 19.71
+  },
+  "gy-ex-firered-leafgreen-ex-109-112": {
+   "title": "Gyarados 109/112 (Holo Rare ex)",
+   "pin": "Holofoil",
+   "feedPrice": 200.68,
+   "subtypes": {
+    "Normal": {
+     "market": 150.0,
+     "low": 250.0,
+     "mid": 250.0
+    },
+    "Holofoil": {
+     "market": 200.68,
+     "low": 74.58,
+     "mid": 77.8
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 200.68
+  },
+  "gy-generations-23-83": {
+   "title": "Gyarados 23/83 (Rare)",
+   "pin": "Normal",
+   "feedPrice": 1.19,
+   "subtypes": {
+    "Normal": {
+     "market": 1.19,
+     "low": 0.4,
+     "mid": 1.11
+    },
+    "Reverse Holofoil": {
+     "market": 9.41,
+     "low": 4.24,
+     "mid": 9.98
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.19
+  },
+  "gy-gym-challenge-giovanni-s-5-132": {
+   "title": "Gyarados 5/132 (Holo Rare)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 139.86,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 321.99,
+     "low": 359.99,
+     "mid": 399.99
+    },
+    "Unlimited Holofoil": {
+     "market": 139.86,
+     "low": 90.17,
+     "mid": 136.99
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 139.86
+  },
+  "gy-gym-challenge-misty-s-13-132": {
+   "title": "Gyarados 13/132 (Holo Rare)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 159.67,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 425.0,
+     "low": 400.0,
+     "mid": 3769.99
+    },
+    "Unlimited Holofoil": {
+     "market": 159.67,
+     "low": 122.81,
+     "mid": 189.99
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 159.67
+  },
+  "gy-heartgold-soulsilver-4-123": {
+   "title": "Gyarados 4/123 (Holo Rare)",
+   "pin": "Holofoil",
+   "feedPrice": 60.62,
+   "subtypes": {
+    "Holofoil": {
+     "market": 60.62,
+     "low": 28.99,
+     "mid": 63.49
+    },
+    "Reverse Holofoil": {
+     "market": 69.99,
+     "low": 32.4,
+     "mid": 69.84
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 60.62
+  },
+  "gy-legendary-collection-12-110": {
+   "title": "Gyarados 12/110 (Holo Rare)",
+   "pin": "Holofoil",
+   "feedPrice": 50.97,
+   "subtypes": {
+    "Holofoil": {
+     "market": 50.97,
+     "low": 22.0,
+     "mid": 36.92
+    },
+    "Reverse Holofoil": {
+     "market": 522.89,
+     "low": 1700.0,
+     "mid": 1999.0
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 50.97
+  },
+  "gy-legendary-treasures-31-113": {
+   "title": "Gyarados 31/113 (Rare)",
+   "pin": "Normal",
+   "feedPrice": 1.71,
+   "subtypes": {
+    "Normal": {
+     "market": 1.71,
+     "low": 0.25,
+     "mid": 1.78
+    },
+    "Reverse Holofoil": {
+     "market": 39.09,
+     "low": 14.3,
+     "mid": 38.88
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.71
+  },
+  "gy-mysterious-treasures-26-123": {
+   "title": "Gyarados 26/123 (Rare)",
+   "pin": "Normal",
+   "feedPrice": 13.7,
+   "subtypes": {
+    "Normal": {
+     "market": 13.7,
+     "low": 7.28,
+     "mid": 14.16
+    },
+    "Reverse Holofoil": {
+     "market": 41.98,
+     "low": 35.95,
+     "mid": 49.99
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 13.7
+  },
+  "gy-neo-revelation-shining-65-64": {
+   "title": "Gyarados 65/64 (Secret Rare)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 782.55,
+   "subtypes": {
+    "Unlimited Holofoil": {
+     "market": 782.55,
+     "low": 825.0,
+     "mid": 2724.5
+    }
+   },
+   "expectedPin": null,
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": null,
+   "priceUnderExpected": null
+  },
+  "gy-paldea-evolved-43-193": {
+   "title": "Gyarados 43/193 (Rare)",
+   "pin": "Normal",
+   "feedPrice": 0.37,
+   "subtypes": {
+    "Holofoil": {
+     "market": 0.37,
+     "low": 0.08,
+     "mid": 0.37
+    },
+    "Reverse Holofoil": {
+     "market": 0.56,
+     "low": 0.24,
+     "mid": 0.55
+    }
+   },
+   "expectedPin": null,
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": null,
+   "priceUnderExpected": null
+  },
+  "gy-pokemon-go-22-078": {
+   "title": "Gyarados 22/078 (Holo Rare)",
+   "pin": "Holofoil",
+   "feedPrice": 0.48,
+   "subtypes": {
+    "Reverse Holofoil": {
+     "market": 0.83,
+     "low": 0.2,
+     "mid": 0.75
+    },
+    "Holofoil": {
+     "market": 0.48,
+     "low": 0.05,
+     "mid": 0.5
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.48
+  },
+  "gy-rebel-clash-40-192": {
+   "title": "Gyarados 40/192 (Holo Rare)",
+   "pin": "Reverse Holofoil",
+   "feedPrice": 2.91,
+   "subtypes": {
+    "Reverse Holofoil": {
+     "market": 2.91,
+     "low": 1.55,
+     "mid": 2.82
+    },
+    "Holofoil": {
+     "market": 1.36,
+     "low": 0.55,
+     "mid": 1.56
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": false,
+   "priceUnderExpected": 1.36
+  },
+  "gy-skyridge-11-144": {
+   "title": "Gyarados 11/144 (Rare)",
+   "pin": "Normal",
+   "feedPrice": 197.49,
+   "subtypes": {
+    "Normal": {
+     "market": 197.49,
+     "low": 184.66,
+     "mid": 209.89
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 197.49
+  },
+  "gy-stormfront-19-100": {
+   "title": "Gyarados 19/100 (Rare)",
+   "pin": "Normal",
+   "feedPrice": 16.75,
+   "subtypes": {
+    "Normal": {
+     "market": 16.75,
+     "low": 6.99,
+     "mid": 12.99
+    },
+    "Reverse Holofoil": {
+     "market": 48.46,
+     "low": 499.72,
+     "mid": 499.82
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 16.75
+  },
+  "gy-team-rocket-dark-gyarados-25-82": {
+   "title": "Gyarados 25/82 (Rare)",
+   "pin": "Unlimited",
+   "feedPrice": 19.84,
+   "subtypes": {
+    "1st Edition": {
+     "market": 32.84,
+     "low": 21.39,
+     "mid": 49.99
+    },
+    "Unlimited": {
+     "market": 19.84,
+     "low": 9.99,
+     "mid": 17.83
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 19.84
+  },
+  "gy-team-rocket-dark-gyarados-8-82": {
+   "title": "Gyarados 8/82 (Holo Rare)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 73.79,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 222.18,
+     "low": 149.35,
+     "mid": 238.89
+    },
+    "Unlimited Holofoil": {
+     "market": 73.79,
+     "low": 54.74,
+     "mid": 66.44
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 73.79
+  },
+  "gy-team-up-30-181": {
+   "title": "Gyarados 30/181 (Holo Rare)",
+   "pin": "Holofoil",
+   "feedPrice": 11.23,
+   "subtypes": {
+    "Holofoil": {
+     "market": 11.23,
+     "low": 6.25,
+     "mid": 10.93
+    },
+    "Reverse Holofoil": {
+     "market": 11.54,
+     "low": 8.25,
+     "mid": 10.96
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 11.23
+  },
+  "k-001": {
+   "title": "Bulbasaur 44/102",
+   "pin": "Normal",
+   "feedPrice": 2.89,
+   "subtypes": {
+    "Normal": {
+     "market": 2.89,
+     "low": 0.74,
+     "mid": 2.34
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.89
+  },
+  "k-002": {
+   "title": "Ivysaur 30/102",
+   "pin": "Normal",
+   "feedPrice": 4.97,
+   "subtypes": {
+    "Normal": {
+     "market": 4.97,
+     "low": 0.7,
+     "mid": 3.24
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 4.97
+  },
+  "k-003": {
+   "title": "Venusaur 15/102 (holo)",
+   "pin": "Holofoil",
+   "feedPrice": 168.98,
+   "subtypes": {
+    "Holofoil": {
+     "market": 168.98,
+     "low": 84.99,
+     "mid": 129.99
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 168.98
+  },
+  "k-004": {
+   "title": "Charmander 46/102",
+   "pin": "Normal",
+   "feedPrice": 2.84,
+   "subtypes": {
+    "Normal": {
+     "market": 2.84,
+     "low": 0.25,
+     "mid": 1.75
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.84
+  },
+  "k-005": {
+   "title": "Charmeleon 24/102",
+   "pin": "Normal",
+   "feedPrice": 3.56,
+   "subtypes": {
+    "Normal": {
+     "market": 3.56,
+     "low": 0.33,
+     "mid": 1.5
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 3.56
+  },
+  "k-006": {
+   "title": "Charizard 4/102 (holo)",
+   "pin": "Holofoil",
+   "feedPrice": 928.06,
+   "subtypes": {
+    "Holofoil": {
+     "market": 928.06,
+     "low": 499.99,
+     "mid": 648.26
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 928.06
+  },
+  "k-007": {
+   "title": "Squirtle 63/102",
+   "pin": "Normal",
+   "feedPrice": 5.65,
+   "subtypes": {
+    "Normal": {
+     "market": 5.65,
+     "low": 0.75,
+     "mid": 4.04
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 5.65
+  },
+  "k-008": {
+   "title": "Wartortle 42/102",
+   "pin": "Normal",
+   "feedPrice": 4.63,
+   "subtypes": {
+    "Normal": {
+     "market": 4.63,
+     "low": 0.75,
+     "mid": 2.99
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 4.63
+  },
+  "k-009": {
+   "title": "Blastoise 2/102 (holo)",
+   "pin": "Holofoil",
+   "feedPrice": 222.69,
+   "subtypes": {
+    "Holofoil": {
+     "market": 222.69,
+     "low": 131.99,
+     "mid": 185.67
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 222.69
+  },
+  "k-010": {
+   "title": "Caterpie 45/102",
+   "pin": "Normal",
+   "feedPrice": 1.06,
+   "subtypes": {
+    "Normal": {
+     "market": 1.06,
+     "low": 0.37,
+     "mid": 0.86
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.06
+  },
+  "k-011": {
+   "title": "Metapod 54/102",
+   "pin": "Normal",
+   "feedPrice": 1.32,
+   "subtypes": {
+    "Normal": {
+     "market": 1.32,
+     "low": 0.25,
+     "mid": 0.79
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.32
+  },
+  "k-012": {
+   "title": "Butterfree 33/64",
+   "pin": "Unlimited",
+   "feedPrice": 1.86,
+   "subtypes": {
+    "1st Edition": {
+     "market": 12.64,
+     "low": 3.0,
+     "mid": 9.95
+    },
+    "Unlimited": {
+     "market": 1.86,
+     "low": 0.37,
+     "mid": 1.72
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.86
+  },
+  "k-013": {
+   "title": "Weedle 69/102",
+   "pin": "Normal",
+   "feedPrice": 0.69,
+   "subtypes": {
+    "Normal": {
+     "market": 0.69,
+     "low": 0.2,
+     "mid": 0.5
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.69
+  },
+  "k-014": {
+   "title": "Kakuna 33/102",
+   "pin": "Normal",
+   "feedPrice": 1.41,
+   "subtypes": {
+    "Normal": {
+     "market": 1.41,
+     "low": 0.2,
+     "mid": 1.0
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.41
+  },
+  "k-015": {
+   "title": "Beedrill 17/102",
+   "pin": "Normal",
+   "feedPrice": 6.46,
+   "subtypes": {
+    "Normal": {
+     "market": 6.46,
+     "low": 1.7,
+     "mid": 4.0
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 6.46
+  },
+  "k-016": {
+   "title": "Pidgey 57/102",
+   "pin": "Normal",
+   "feedPrice": 2.71,
+   "subtypes": {
+    "Normal": {
+     "market": 2.71,
+     "low": 0.33,
+     "mid": 1.0
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.71
+  },
+  "k-017": {
+   "title": "Pidgeotto 22/102",
+   "pin": "Normal",
+   "feedPrice": 9.5,
+   "subtypes": {
+    "Normal": {
+     "market": 9.5,
+     "low": 6.57,
+     "mid": 9.0
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 9.5
+  },
+  "k-018": {
+   "title": "Pidgeot 8/64 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 49.93,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 169.43,
+     "low": 79.99,
+     "mid": 150.0
+    },
+    "Unlimited Holofoil": {
+     "market": 49.93,
+     "low": 24.0,
+     "mid": 47.24
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 49.93
+  },
+  "k-019": {
+   "title": "Rattata 61/102",
+   "pin": "Normal",
+   "feedPrice": 0.85,
+   "subtypes": {
+    "Normal": {
+     "market": 0.85,
+     "low": 0.25,
+     "mid": 0.65
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.85
+  },
+  "k-020": {
+   "title": "Raticate 40/102",
+   "pin": "Normal",
+   "feedPrice": 2.33,
+   "subtypes": {
+    "Normal": {
+     "market": 2.33,
+     "low": 0.6,
+     "mid": 1.66
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.33
+  },
+  "k-021": {
+   "title": "Spearow 62/64",
+   "pin": "Unlimited",
+   "feedPrice": 0.43,
+   "subtypes": {
+    "1st Edition": {
+     "market": 2.11,
+     "low": 0.16,
+     "mid": 2.11
+    },
+    "Unlimited": {
+     "market": 0.43,
+     "low": 0.08,
+     "mid": 0.42
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.43
+  },
+  "k-022": {
+   "title": "Fearow 36/64",
+   "pin": "Unlimited",
+   "feedPrice": 1.17,
+   "subtypes": {
+    "1st Edition": {
+     "market": 4.12,
+     "low": 1.15,
+     "mid": 3.89
+    },
+    "Unlimited": {
+     "market": 1.17,
+     "low": 0.23,
+     "mid": 0.79
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.17
+  },
+  "k-023": {
+   "title": "Ekans 46/62",
+   "pin": "Unlimited",
+   "feedPrice": 0.66,
+   "subtypes": {
+    "1st Edition": {
+     "market": 1.68,
+     "low": 0.54,
+     "mid": 1.69
+    },
+    "Unlimited": {
+     "market": 0.66,
+     "low": 0.05,
+     "mid": 0.5
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.66
+  },
+  "k-024": {
+   "title": "Arbok 31/62",
+   "pin": "Unlimited",
+   "feedPrice": 1.33,
+   "subtypes": {
+    "1st Edition": {
+     "market": 4.64,
+     "low": 0.99,
+     "mid": 5.02
+    },
+    "Unlimited": {
+     "market": 1.33,
+     "low": 0.24,
+     "mid": 0.83
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.33
+  },
+  "k-025": {
+   "title": "Pikachu 58/102",
+   "pin": "Normal",
+   "feedPrice": 10.18,
+   "subtypes": {
+    "Normal": {
+     "market": 10.18,
+     "low": 2.98,
+     "mid": 6.26
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 10.18
+  },
+  "k-026": {
+   "title": "Raichu 14/102 (holo)",
+   "pin": "Holofoil",
+   "feedPrice": 64.47,
+   "subtypes": {
+    "Holofoil": {
+     "market": 64.47,
+     "low": 42.48,
+     "mid": 61.28
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 64.47
+  },
+  "k-027": {
+   "title": "Sandshrew 91/130",
+   "pin": "Normal",
+   "feedPrice": 0.47,
+   "subtypes": {
+    "Normal": {
+     "market": 0.47,
+     "low": 0.25,
+     "mid": 0.51
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.47
+  },
+  "k-028": {
+   "title": "Sandslash 41/62",
+   "pin": "Unlimited",
+   "feedPrice": 2.0,
+   "subtypes": {
+    "1st Edition": {
+     "market": 6.52,
+     "low": 1.5,
+     "mid": 5.0
+    },
+    "Unlimited": {
+     "market": 2.0,
+     "low": 0.39,
+     "mid": 0.9
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.0
+  },
+  "k-029": {
+   "title": "Nidoran\u2640 57/64",
+   "pin": "Unlimited",
+   "feedPrice": 1.65,
+   "subtypes": {
+    "1st Edition": {
+     "market": 10.82,
+     "low": 0.99,
+     "mid": 9.99
+    },
+    "Unlimited": {
+     "market": 1.65,
+     "low": 0.24,
+     "mid": 1.0
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.65
+  },
+  "k-030": {
+   "title": "Nidorina 40/64",
+   "pin": "Unlimited",
+   "feedPrice": 0.72,
+   "subtypes": {
+    "1st Edition": {
+     "market": 3.67,
+     "low": 1.02,
+     "mid": 3.14
+    },
+    "Unlimited": {
+     "market": 0.72,
+     "low": 0.1,
+     "mid": 0.54
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.72
+  },
+  "k-031": {
+   "title": "Nidoqueen 7/64 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 44.4,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 121.28,
+     "low": 73.9,
+     "mid": 130.38
+    },
+    "Unlimited Holofoil": {
+     "market": 44.4,
+     "low": 19.99,
+     "mid": 37.54
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 44.4
+  },
+  "k-032": {
+   "title": "Nidoran\u2642 55/102",
+   "pin": "Normal",
+   "feedPrice": 2.66,
+   "subtypes": {
+    "Normal": {
+     "market": 2.66,
+     "low": 0.25,
+     "mid": 1.77
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.66
+  },
+  "k-033": {
+   "title": "Nidorino 37/102",
+   "pin": "Normal",
+   "feedPrice": 4.33,
+   "subtypes": {
+    "Normal": {
+     "market": 4.33,
+     "low": 0.5,
+     "mid": 1.99
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 4.33
+  },
+  "k-034": {
+   "title": "Nidoking 11/102 (holo)",
+   "pin": "Holofoil",
+   "feedPrice": 38.2,
+   "subtypes": {
+    "Holofoil": {
+     "market": 38.2,
+     "low": 20.07,
+     "mid": 32.0
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 38.2
+  },
+  "k-035": {
+   "title": "Clefairy 5/102 (holo)",
+   "pin": "Holofoil",
+   "feedPrice": 48.82,
+   "subtypes": {
+    "Holofoil": {
+     "market": 48.82,
+     "low": 20.0,
+     "mid": 40.07
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 48.82
+  },
+  "k-036": {
+   "title": "Clefable 1/64 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 37.83,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 119.1,
+     "low": 75.98,
+     "mid": 113.63
+    },
+    "Unlimited Holofoil": {
+     "market": 37.83,
+     "low": 19.99,
+     "mid": 27.0
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 37.83
+  },
+  "k-037": {
+   "title": "Vulpix 68/102",
+   "pin": "Normal",
+   "feedPrice": 1.24,
+   "subtypes": {
+    "Normal": {
+     "market": 1.24,
+     "low": 0.19,
+     "mid": 0.75
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.24
+  },
+  "k-038": {
+   "title": "Ninetales 12/102 (holo)",
+   "pin": "Holofoil",
+   "feedPrice": 42.22,
+   "subtypes": {
+    "Holofoil": {
+     "market": 42.22,
+     "low": 16.0,
+     "mid": 29.98
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 42.22
+  },
+  "k-039": {
+   "title": "Jigglypuff 54/64",
+   "pin": "Unlimited",
+   "feedPrice": 1.67,
+   "subtypes": {
+    "1st Edition": {
+     "market": 7.31,
+     "low": 2.96,
+     "mid": 6.45
+    },
+    "Unlimited": {
+     "market": 1.67,
+     "low": 0.25,
+     "mid": 0.99
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.67
+  },
+  "k-040": {
+   "title": "Wigglytuff 16/64 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 41.6,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 84.95,
+     "low": 64.97,
+     "mid": 74.99
+    },
+    "Unlimited Holofoil": {
+     "market": 41.6,
+     "low": 20.0,
+     "mid": 30.0
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 41.6
+  },
+  "k-041": {
+   "title": "Zubat 57/62",
+   "pin": "Unlimited",
+   "feedPrice": 0.5,
+   "subtypes": {
+    "1st Edition": {
+     "market": 1.99,
+     "low": 0.75,
+     "mid": 2.2
+    },
+    "Unlimited": {
+     "market": 0.5,
+     "low": 0.12,
+     "mid": 0.5
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.5
+  },
+  "k-042": {
+   "title": "Golbat 34/62",
+   "pin": "Unlimited",
+   "feedPrice": 0.65,
+   "subtypes": {
+    "1st Edition": {
+     "market": 7.08,
+     "low": 1.25,
+     "mid": 5.32
+    },
+    "Unlimited": {
+     "market": 0.65,
+     "low": 0.19,
+     "mid": 0.62
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.65
+  },
+  "k-043": {
+   "title": "Oddish 58/64",
+   "pin": "Unlimited",
+   "feedPrice": 0.48,
+   "subtypes": {
+    "1st Edition": {
+     "market": 3.19,
+     "low": 0.99,
+     "mid": 3.13
+    },
+    "Unlimited": {
+     "market": 0.48,
+     "low": 0.12,
+     "mid": 0.46
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.48
+  },
+  "k-044": {
+   "title": "Gloom 37/64",
+   "pin": "Unlimited",
+   "feedPrice": 1.04,
+   "subtypes": {
+    "1st Edition": {
+     "market": 4.7,
+     "low": 1.0,
+     "mid": 4.2
+    },
+    "Unlimited": {
+     "market": 1.04,
+     "low": 0.15,
+     "mid": 0.7
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.04
+  },
+  "k-045": {
+   "title": "Vileplume 15/64 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 36.87,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 87.38,
+     "low": 49.01,
+     "mid": 87.99
+    },
+    "Unlimited Holofoil": {
+     "market": 36.87,
+     "low": 19.99,
+     "mid": 35.0
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 36.87
+  },
+  "k-046": {
+   "title": "Paras 59/64",
+   "pin": "Unlimited",
+   "feedPrice": 0.49,
+   "subtypes": {
+    "1st Edition": {
+     "market": 2.03,
+     "low": 0.84,
+     "mid": 2.03
+    },
+    "Unlimited": {
+     "market": 0.49,
+     "low": 0.18,
+     "mid": 0.48
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.49
+  },
+  "k-047": {
+   "title": "Parasect 41/64",
+   "pin": "Unlimited",
+   "feedPrice": 0.91,
+   "subtypes": {
+    "1st Edition": {
+     "market": 2.89,
+     "low": 0.54,
+     "mid": 2.99
+    },
+    "Unlimited": {
+     "market": 0.91,
+     "low": 0.25,
+     "mid": 0.75
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.91
+  },
+  "k-048": {
+   "title": "Venonat 63/64",
+   "pin": "Unlimited",
+   "feedPrice": 0.44,
+   "subtypes": {
+    "1st Edition": {
+     "market": 2.0,
+     "low": 0.66,
+     "mid": 1.99
+    },
+    "Unlimited": {
+     "market": 0.44,
+     "low": 0.13,
+     "mid": 0.44
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.44
+  },
+  "k-049": {
+   "title": "Venomoth 13/64 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 37.26,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 94.96,
+     "low": 44.7,
+     "mid": 54.83
+    },
+    "Unlimited Holofoil": {
+     "market": 37.26,
+     "low": 16.68,
+     "mid": 25.05
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 37.26
+  },
+  "k-050": {
+   "title": "Diglett 47/102",
+   "pin": "Normal",
+   "feedPrice": 1.02,
+   "subtypes": {
+    "Normal": {
+     "market": 1.02,
+     "low": 0.2,
+     "mid": 0.65
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.02
+  },
+  "k-051": {
+   "title": "Dugtrio 19/102",
+   "pin": "Normal",
+   "feedPrice": 11.29,
+   "subtypes": {
+    "Normal": {
+     "market": 11.29,
+     "low": 3.55,
+     "mid": 6.49
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 11.29
+  },
+  "k-052": {
+   "title": "Meowth 56/64",
+   "pin": "Unlimited",
+   "feedPrice": 0.89,
+   "subtypes": {
+    "1st Edition": {
+     "market": 5.41,
+     "low": 2.35,
+     "mid": 6.15
+    },
+    "Unlimited": {
+     "market": 0.89,
+     "low": 0.23,
+     "mid": 0.74
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.89
+  },
+  "k-053": {
+   "title": "Persian 42/64",
+   "pin": "Unlimited",
+   "feedPrice": 0.95,
+   "subtypes": {
+    "1st Edition": {
+     "market": 10.45,
+     "low": 3.5,
+     "mid": 11.0
+    },
+    "Unlimited": {
+     "market": 0.95,
+     "low": 0.25,
+     "mid": 0.75
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.95
+  },
+  "k-054": {
+   "title": "Psyduck 53/62",
+   "pin": "Unlimited",
+   "feedPrice": 1.98,
+   "subtypes": {
+    "1st Edition": {
+     "market": 13.65,
+     "low": 4.5,
+     "mid": 13.16
+    },
+    "Unlimited": {
+     "market": 1.98,
+     "low": 0.13,
+     "mid": 1.31
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.98
+  },
+  "k-055": {
+   "title": "Golduck 35/62",
+   "pin": "Unlimited",
+   "feedPrice": 1.74,
+   "subtypes": {
+    "1st Edition": {
+     "market": 6.61,
+     "low": 1.5,
+     "mid": 5.79
+    },
+    "Unlimited": {
+     "market": 1.74,
+     "low": 0.4,
+     "mid": 0.99
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.74
+  },
+  "k-056": {
+   "title": "Mankey 55/64",
+   "pin": "Unlimited",
+   "feedPrice": 0.55,
+   "subtypes": {
+    "1st Edition": {
+     "market": 1.95,
+     "low": 0.99,
+     "mid": 1.95
+    },
+    "Unlimited": {
+     "market": 0.55,
+     "low": 0.09,
+     "mid": 0.48
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.55
+  },
+  "k-057": {
+   "title": "Primeape 43/64",
+   "pin": "Unlimited",
+   "feedPrice": 1.4,
+   "subtypes": {
+    "1st Edition": {
+     "market": 5.65,
+     "low": 1.84,
+     "mid": 5.69
+    },
+    "Unlimited": {
+     "market": 1.4,
+     "low": 0.4,
+     "mid": 0.99
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.4
+  },
+  "k-058": {
+   "title": "Growlithe 28/102",
+   "pin": "Normal",
+   "feedPrice": 1.34,
+   "subtypes": {
+    "Normal": {
+     "market": 1.34,
+     "low": 0.2,
+     "mid": 0.9
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.34
+  },
+  "k-059": {
+   "title": "Arcanine 23/102",
+   "pin": "Normal",
+   "feedPrice": 5.08,
+   "subtypes": {
+    "Normal": {
+     "market": 5.08,
+     "low": 0.9,
+     "mid": 2.99
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 5.08
+  },
+  "k-060": {
+   "title": "Poliwag 59/102",
+   "pin": "Normal",
+   "feedPrice": 1.25,
+   "subtypes": {
+    "Normal": {
+     "market": 1.25,
+     "low": 0.2,
+     "mid": 0.64
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.25
+  },
+  "k-061": {
+   "title": "Poliwhirl 38/102",
+   "pin": "Normal",
+   "feedPrice": 1.78,
+   "subtypes": {
+    "Normal": {
+     "market": 1.78,
+     "low": 0.2,
+     "mid": 1.19
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.78
+  },
+  "k-062": {
+   "title": "Poliwrath 13/102 (holo)",
+   "pin": "Holofoil",
+   "feedPrice": 35.69,
+   "subtypes": {
+    "Holofoil": {
+     "market": 35.69,
+     "low": 15.99,
+     "mid": 29.41
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 35.69
+  },
+  "k-063": {
+   "title": "Abra 43/102",
+   "pin": "Normal",
+   "feedPrice": 1.7,
+   "subtypes": {
+    "Normal": {
+     "market": 1.7,
+     "low": 0.15,
+     "mid": 0.75
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.7
+  },
+  "k-064": {
+   "title": "Kadabra 32/102",
+   "pin": "Normal",
+   "feedPrice": 2.02,
+   "subtypes": {
+    "Normal": {
+     "market": 2.02,
+     "low": 0.43,
+     "mid": 1.12
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.02
+  },
+  "k-065": {
+   "title": "Alakazam 1/102 (holo)",
+   "pin": "Holofoil",
+   "feedPrice": 70.76,
+   "subtypes": {
+    "Holofoil": {
+     "market": 70.76,
+     "low": 43.5,
+     "mid": 56.92
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 70.76
+  },
+  "k-066": {
+   "title": "Machop 52/102",
+   "pin": "Normal",
+   "feedPrice": 0.68,
+   "subtypes": {
+    "Normal": {
+     "market": 0.68,
+     "low": 0.09,
+     "mid": 0.49
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.68
+  },
+  "k-067": {
+   "title": "Machoke 34/102",
+   "pin": "Normal",
+   "feedPrice": 1.18,
+   "subtypes": {
+    "Normal": {
+     "market": 1.18,
+     "low": 0.09,
+     "mid": 0.85
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.18
+  },
+  "k-068": {
+   "title": "Machamp 8/102 (holo, 1st Edition stamp \u2014 every Base Set Machamp carries it; NOT Shadowless)",
+   "pin": "1st Edition Holofoil",
+   "feedPrice": 24.45,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 24.45,
+     "low": 13.88,
+     "mid": 24.94
+    }
+   },
+   "expectedPin": "1st Edition Holofoil",
+   "expectedFrom": [
+    "1st Edition Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 24.45
+  },
+  "k-069": {
+   "title": "Bellsprout 49/64",
+   "pin": "Unlimited",
+   "feedPrice": 0.67,
+   "subtypes": {
+    "1st Edition": {
+     "market": 2.61,
+     "low": 0.9,
+     "mid": 2.89
+    },
+    "Unlimited": {
+     "market": 0.67,
+     "low": 0.08,
+     "mid": 0.5
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.67
+  },
+  "k-070": {
+   "title": "Weepinbell 48/64",
+   "pin": "Unlimited",
+   "feedPrice": 0.71,
+   "subtypes": {
+    "1st Edition": {
+     "market": 3.46,
+     "low": 1.0,
+     "mid": 3.35
+    },
+    "Unlimited": {
+     "market": 0.71,
+     "low": 0.22,
+     "mid": 0.59
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.71
+  },
+  "k-071": {
+   "title": "Victreebel 14/64 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 43.97,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 119.49,
+     "low": 53.3,
+     "mid": 91.81
+    },
+    "Unlimited Holofoil": {
+     "market": 43.97,
+     "low": 22.25,
+     "mid": 28.92
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 43.97
+  },
+  "k-072": {
+   "title": "Tentacool 56/62",
+   "pin": "Unlimited",
+   "feedPrice": 0.55,
+   "subtypes": {
+    "1st Edition": {
+     "market": 1.61,
+     "low": 0.44,
+     "mid": 1.61
+    },
+    "Unlimited": {
+     "market": 0.55,
+     "low": 0.15,
+     "mid": 0.46
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.55
+  },
+  "k-073": {
+   "title": "Tentacruel 44/62",
+   "pin": "Unlimited",
+   "feedPrice": 1.18,
+   "subtypes": {
+    "1st Edition": {
+     "market": 5.36,
+     "low": 1.67,
+     "mid": 5.23
+    },
+    "Unlimited": {
+     "market": 1.18,
+     "low": 0.4,
+     "mid": 0.92
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.18
+  },
+  "k-074": {
+   "title": "Geodude 47/62",
+   "pin": "Unlimited",
+   "feedPrice": 0.45,
+   "subtypes": {
+    "1st Edition": {
+     "market": 3.27,
+     "low": 0.8,
+     "mid": 3.05
+    },
+    "Unlimited": {
+     "market": 0.45,
+     "low": 0.03,
+     "mid": 0.46
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.45
+  },
+  "k-075": {
+   "title": "Graveler 37/62",
+   "pin": "Unlimited",
+   "feedPrice": 0.86,
+   "subtypes": {
+    "1st Edition": {
+     "market": 4.52,
+     "low": 1.2,
+     "mid": 4.52
+    },
+    "Unlimited": {
+     "market": 0.86,
+     "low": 0.14,
+     "mid": 0.66
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.86
+  },
+  "k-076": {
+   "title": "Golem 36/62",
+   "pin": "Unlimited",
+   "feedPrice": 2.26,
+   "subtypes": {
+    "1st Edition": {
+     "market": 6.83,
+     "low": 2.79,
+     "mid": 6.83
+    },
+    "Unlimited": {
+     "market": 2.26,
+     "low": 0.45,
+     "mid": 1.05
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.26
+  },
+  "k-077": {
+   "title": "Ponyta 60/102",
+   "pin": "Normal",
+   "feedPrice": 0.65,
+   "subtypes": {
+    "Normal": {
+     "market": 0.65,
+     "low": 0.15,
+     "mid": 0.75
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.65
+  },
+  "k-078": {
+   "title": "Rapidash 44/64",
+   "pin": "Unlimited",
+   "feedPrice": 2.84,
+   "subtypes": {
+    "1st Edition": {
+     "market": 8.31,
+     "low": 1.59,
+     "mid": 8.08
+    },
+    "Unlimited": {
+     "market": 2.84,
+     "low": 0.5,
+     "mid": 1.32
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.84
+  },
+  "k-079": {
+   "title": "Slowpoke 55/62",
+   "pin": "Unlimited",
+   "feedPrice": 0.95,
+   "subtypes": {
+    "1st Edition": {
+     "market": 6.56,
+     "low": 1.0,
+     "mid": 6.5
+    },
+    "Unlimited": {
+     "market": 0.95,
+     "low": 0.2,
+     "mid": 0.78
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.95
+  },
+  "k-080": {
+   "title": "Slowbro 43/62",
+   "pin": "Unlimited",
+   "feedPrice": 2.0,
+   "subtypes": {
+    "1st Edition": {
+     "market": 10.0,
+     "low": 4.91,
+     "mid": 9.99
+    },
+    "Unlimited": {
+     "market": 2.0,
+     "low": 0.47,
+     "mid": 1.44
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.0
+  },
+  "k-081": {
+   "title": "Magnemite 53/102",
+   "pin": "Normal",
+   "feedPrice": 0.88,
+   "subtypes": {
+    "Normal": {
+     "market": 0.88,
+     "low": 0.2,
+     "mid": 0.61
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.88
+  },
+  "k-082": {
+   "title": "Magneton 9/102 (holo)",
+   "pin": "Holofoil",
+   "feedPrice": 33.8,
+   "subtypes": {
+    "Holofoil": {
+     "market": 33.8,
+     "low": 12.6,
+     "mid": 30.25
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 33.8
+  },
+  "k-083": {
+   "title": "Farfetch'd 27/102",
+   "pin": "Normal",
+   "feedPrice": 1.43,
+   "subtypes": {
+    "Normal": {
+     "market": 1.43,
+     "low": 0.2,
+     "mid": 0.99
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.43
+  },
+  "k-084": {
+   "title": "Doduo 48/102",
+   "pin": "Normal",
+   "feedPrice": 1.11,
+   "subtypes": {
+    "Normal": {
+     "market": 1.11,
+     "low": 0.33,
+     "mid": 1.0
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.11
+  },
+  "k-085": {
+   "title": "Dodrio 34/64",
+   "pin": "Unlimited",
+   "feedPrice": 1.9,
+   "subtypes": {
+    "1st Edition": {
+     "market": 4.89,
+     "low": 1.16,
+     "mid": 3.0
+    },
+    "Unlimited": {
+     "market": 1.9,
+     "low": 0.42,
+     "mid": 1.0
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.9
+  },
+  "k-086": {
+   "title": "Seel 41/102",
+   "pin": "Normal",
+   "feedPrice": 1.27,
+   "subtypes": {
+    "Normal": {
+     "market": 1.27,
+     "low": 0.29,
+     "mid": 0.99
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.27
+  },
+  "k-087": {
+   "title": "Dewgong 25/102",
+   "pin": "Normal",
+   "feedPrice": 4.55,
+   "subtypes": {
+    "Normal": {
+     "market": 4.55,
+     "low": 0.69,
+     "mid": 2.0
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 4.55
+  },
+  "k-088": {
+   "title": "Grimer 48/62",
+   "pin": "Unlimited",
+   "feedPrice": 0.66,
+   "subtypes": {
+    "1st Edition": {
+     "market": 2.79,
+     "low": 0.65,
+     "mid": 2.98
+    },
+    "Unlimited": {
+     "market": 0.66,
+     "low": 0.1,
+     "mid": 0.5
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.66
+  },
+  "k-089": {
+   "title": "Muk 13/62 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 11.53,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 62.43,
+     "low": 36.5,
+     "mid": 50.0
+    },
+    "Unlimited Holofoil": {
+     "market": 11.53,
+     "low": 4.5,
+     "mid": 9.47
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 11.53
+  },
+  "k-090": {
+   "title": "Shellder 54/62",
+   "pin": "Unlimited",
+   "feedPrice": 0.48,
+   "subtypes": {
+    "1st Edition": {
+     "market": 2.01,
+     "low": 0.89,
+     "mid": 1.99
+    },
+    "Unlimited": {
+     "market": 0.48,
+     "low": 0.15,
+     "mid": 0.49
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.48
+  },
+  "k-091": {
+   "title": "Cloyster 32/62",
+   "pin": "Unlimited",
+   "feedPrice": 1.42,
+   "subtypes": {
+    "1st Edition": {
+     "market": 4.41,
+     "low": 0.88,
+     "mid": 4.41
+    },
+    "Unlimited": {
+     "market": 1.42,
+     "low": 0.2,
+     "mid": 0.79
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.42
+  },
+  "k-092": {
+   "title": "Gastly 50/102",
+   "pin": "Normal",
+   "feedPrice": 1.28,
+   "subtypes": {
+    "Normal": {
+     "market": 1.28,
+     "low": 0.11,
+     "mid": 0.79
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.28
+  },
+  "k-093": {
+   "title": "Haunter 29/102",
+   "pin": "Normal",
+   "feedPrice": 2.39,
+   "subtypes": {
+    "Normal": {
+     "market": 2.39,
+     "low": 0.49,
+     "mid": 1.37
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.39
+  },
+  "k-094": {
+   "title": "Gengar 5/62 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 213.46,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 663.25,
+     "low": 250.0,
+     "mid": 380.5
+    },
+    "Unlimited Holofoil": {
+     "market": 213.46,
+     "low": 130.0,
+     "mid": 200.0
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 213.46
+  },
+  "k-095": {
+   "title": "Onix 56/102",
+   "pin": "Normal",
+   "feedPrice": 0.99,
+   "subtypes": {
+    "Normal": {
+     "market": 0.99,
+     "low": 0.19,
+     "mid": 0.75
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.99
+  },
+  "k-096": {
+   "title": "Drowzee 49/102",
+   "pin": "Normal",
+   "feedPrice": 1.01,
+   "subtypes": {
+    "Normal": {
+     "market": 1.01,
+     "low": 0.21,
+     "mid": 0.64
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.01
+  },
+  "k-097": {
+   "title": "Hypno 8/62 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 41.18,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 105.35,
+     "low": 54.08,
+     "mid": 93.99
+    },
+    "Unlimited Holofoil": {
+     "market": 41.18,
+     "low": 18.99,
+     "mid": 26.07
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 41.18
+  },
+  "k-098": {
+   "title": "Krabby 51/62",
+   "pin": "Unlimited",
+   "feedPrice": 0.55,
+   "subtypes": {
+    "1st Edition": {
+     "market": 2.06,
+     "low": 0.75,
+     "mid": 2.05
+    },
+    "Unlimited": {
+     "market": 0.55,
+     "low": 0.1,
+     "mid": 0.49
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.55
+  },
+  "k-099": {
+   "title": "Kingler 38/62",
+   "pin": "Unlimited",
+   "feedPrice": 1.04,
+   "subtypes": {
+    "1st Edition": {
+     "market": 3.15,
+     "low": 1.49,
+     "mid": 3.23
+    },
+    "Unlimited": {
+     "market": 1.04,
+     "low": 0.2,
+     "mid": 0.75
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.04
+  },
+  "k-100": {
+   "title": "Voltorb 67/102",
+   "pin": "Normal",
+   "feedPrice": 3.47,
+   "subtypes": {
+    "Normal": {
+     "market": 3.47,
+     "low": 0.5,
+     "mid": 2.11
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 3.47
+  },
+  "k-101": {
+   "title": "Electrode 21/102",
+   "pin": "Normal",
+   "feedPrice": 9.4,
+   "subtypes": {
+    "Normal": {
+     "market": 9.4,
+     "low": 3.0,
+     "mid": 5.69
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 9.4
+  },
+  "k-102": {
+   "title": "Exeggcute 52/64",
+   "pin": "Unlimited",
+   "feedPrice": 0.5,
+   "subtypes": {
+    "1st Edition": {
+     "market": 2.63,
+     "low": 0.65,
+     "mid": 2.82
+    },
+    "Unlimited": {
+     "market": 0.5,
+     "low": 0.13,
+     "mid": 0.48
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.5
+  },
+  "k-103": {
+   "title": "Exeggutor 35/64",
+   "pin": "Unlimited",
+   "feedPrice": 1.57,
+   "subtypes": {
+    "1st Edition": {
+     "market": 5.85,
+     "low": 2.98,
+     "mid": 3.97
+    },
+    "Unlimited": {
+     "market": 1.57,
+     "low": 0.24,
+     "mid": 1.25
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.57
+  },
+  "k-104": {
+   "title": "Cubone 50/64",
+   "pin": "Unlimited",
+   "feedPrice": 1.85,
+   "subtypes": {
+    "1st Edition": {
+     "market": 10.54,
+     "low": 1.05,
+     "mid": 10.02
+    },
+    "Unlimited": {
+     "market": 1.85,
+     "low": 0.05,
+     "mid": 1.0
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.85
+  },
+  "k-105": {
+   "title": "Marowak 39/64",
+   "pin": "Unlimited",
+   "feedPrice": 1.65,
+   "subtypes": {
+    "1st Edition": {
+     "market": 10.82,
+     "low": 0.99,
+     "mid": 9.99
+    },
+    "Unlimited": {
+     "market": 1.65,
+     "low": 0.24,
+     "mid": 1.0
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.65
+  },
+  "k-106": {
+   "title": "Hitmonlee 7/62 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 40.92,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 99.74,
+     "low": 60.0,
+     "mid": 500.0
+    },
+    "Unlimited Holofoil": {
+     "market": 40.92,
+     "low": 24.16,
+     "mid": 36.24
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 40.92
+  },
+  "k-107": {
+   "title": "Hitmonchan 7/102 (holo)",
+   "pin": "Holofoil",
+   "feedPrice": 17.4,
+   "subtypes": {
+    "Holofoil": {
+     "market": 17.4,
+     "low": 7.85,
+     "mid": 16.28
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 17.4
+  },
+  "k-108": {
+   "title": "Lickitung 38/64",
+   "pin": "Unlimited",
+   "feedPrice": 1.6,
+   "subtypes": {
+    "1st Edition": {
+     "market": 7.45,
+     "low": 1.79,
+     "mid": 7.34
+    },
+    "Unlimited": {
+     "market": 1.6,
+     "low": 0.45,
+     "mid": 1.0
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.6
+  },
+  "k-109": {
+   "title": "Koffing 51/102",
+   "pin": "Normal",
+   "feedPrice": 1.02,
+   "subtypes": {
+    "Normal": {
+     "market": 1.02,
+     "low": 0.15,
+     "mid": 0.66
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.02
+  },
+  "k-110": {
+   "title": "Weezing 45/62",
+   "pin": "Unlimited",
+   "feedPrice": 1.85,
+   "subtypes": {
+    "1st Edition": {
+     "market": 4.0,
+     "low": 1.0,
+     "mid": 4.15
+    },
+    "Unlimited": {
+     "market": 1.85,
+     "low": 0.25,
+     "mid": 0.99
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.85
+  },
+  "k-111": {
+   "title": "Rhyhorn 61/64",
+   "pin": "Unlimited",
+   "feedPrice": 0.45,
+   "subtypes": {
+    "1st Edition": {
+     "market": 2.74,
+     "low": 0.88,
+     "mid": 2.69
+    },
+    "Unlimited": {
+     "market": 0.45,
+     "low": 0.09,
+     "mid": 0.46
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.45
+  },
+  "k-112": {
+   "title": "Rhydon 45/64",
+   "pin": "Unlimited",
+   "feedPrice": 1.25,
+   "subtypes": {
+    "1st Edition": {
+     "market": 10.16,
+     "low": 3.56,
+     "mid": 9.0
+    },
+    "Unlimited": {
+     "market": 1.25,
+     "low": 0.25,
+     "mid": 0.98
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.25
+  },
+  "k-113": {
+   "title": "Chansey 3/102 (holo)",
+   "pin": "Holofoil",
+   "feedPrice": 56.48,
+   "subtypes": {
+    "Holofoil": {
+     "market": 56.48,
+     "low": 20.09,
+     "mid": 35.99
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 56.48
+  },
+  "k-114": {
+   "title": "Tangela 66/102",
+   "pin": "Normal",
+   "feedPrice": 0.77,
+   "subtypes": {
+    "Normal": {
+     "market": 0.77,
+     "low": 0.25,
+     "mid": 0.74
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.77
+  },
+  "k-115": {
+   "title": "Kangaskhan 5/64 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 21.64,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 85.12,
+     "low": 55.03,
+     "mid": 61.14
+    },
+    "Unlimited Holofoil": {
+     "market": 21.64,
+     "low": 8.0,
+     "mid": 13.58
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 21.64
+  },
+  "k-116": {
+   "title": "Horsea 49/62",
+   "pin": "Unlimited",
+   "feedPrice": 0.54,
+   "subtypes": {
+    "1st Edition": {
+     "market": 2.49,
+     "low": 0.37,
+     "mid": 2.58
+    },
+    "Unlimited": {
+     "market": 0.54,
+     "low": 0.11,
+     "mid": 0.49
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.54
+  },
+  "k-117": {
+   "title": "Seadra 42/62",
+   "pin": "Unlimited",
+   "feedPrice": 0.99,
+   "subtypes": {
+    "1st Edition": {
+     "market": 4.94,
+     "low": 0.75,
+     "mid": 4.96
+    },
+    "Unlimited": {
+     "market": 0.99,
+     "low": 0.2,
+     "mid": 0.65
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.99
+  },
+  "k-118": {
+   "title": "Goldeen 53/64",
+   "pin": "Unlimited",
+   "feedPrice": 0.54,
+   "subtypes": {
+    "1st Edition": {
+     "market": 2.52,
+     "low": 0.75,
+     "mid": 2.37
+    },
+    "Unlimited": {
+     "market": 0.54,
+     "low": 0.14,
+     "mid": 0.5
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.54
+  },
+  "k-119": {
+   "title": "Seaking 46/64",
+   "pin": "Unlimited",
+   "feedPrice": 1.51,
+   "subtypes": {
+    "1st Edition": {
+     "market": 4.7,
+     "low": 1.59,
+     "mid": 4.6
+    },
+    "Unlimited": {
+     "market": 1.51,
+     "low": 0.3,
+     "mid": 0.85
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.51
+  },
+  "k-120": {
+   "title": "Staryu 65/102",
+   "pin": "Normal",
+   "feedPrice": 0.8,
+   "subtypes": {
+    "Normal": {
+     "market": 0.8,
+     "low": 0.01,
+     "mid": 0.55
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.8
+  },
+  "k-121": {
+   "title": "Starmie 64/102",
+   "pin": "Normal",
+   "feedPrice": 0.82,
+   "subtypes": {
+    "Normal": {
+     "market": 0.82,
+     "low": 0.24,
+     "mid": 0.69
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.82
+  },
+  "k-122": {
+   "title": "Mr. Mime 6/64 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 39.21,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 162.81,
+     "low": 55.7,
+     "mid": 177.67
+    },
+    "Unlimited Holofoil": {
+     "market": 39.21,
+     "low": 20.0,
+     "mid": 28.11
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 39.21
+  },
+  "k-123": {
+   "title": "Scyther 10/64 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 57.22,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 186.6,
+     "low": 81.6,
+     "mid": 215.0
+    },
+    "Unlimited Holofoil": {
+     "market": 57.22,
+     "low": 28.0,
+     "mid": 40.02
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 57.22
+  },
+  "k-124": {
+   "title": "Jynx 31/102",
+   "pin": "Normal",
+   "feedPrice": 1.21,
+   "subtypes": {
+    "Normal": {
+     "market": 1.21,
+     "low": 0.2,
+     "mid": 0.85
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.21
+  },
+  "k-125": {
+   "title": "Electabuzz 20/102",
+   "pin": "Normal",
+   "feedPrice": 9.97,
+   "subtypes": {
+    "Normal": {
+     "market": 9.97,
+     "low": 3.51,
+     "mid": 7.68
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 9.97
+  },
+  "k-126": {
+   "title": "Magmar 36/102",
+   "pin": "Normal",
+   "feedPrice": 3.75,
+   "subtypes": {
+    "Normal": {
+     "market": 3.75,
+     "low": 0.25,
+     "mid": 1.5
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 3.75
+  },
+  "k-127": {
+   "title": "Pinsir 9/64 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 41.34,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 90.73,
+     "low": 57.1,
+     "mid": 96.25
+    },
+    "Unlimited Holofoil": {
+     "market": 41.34,
+     "low": 17.0,
+     "mid": 22.54
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 41.34
+  },
+  "k-128": {
+   "title": "Tauros 47/64",
+   "pin": "Unlimited",
+   "feedPrice": 0.96,
+   "subtypes": {
+    "1st Edition": {
+     "market": 5.99,
+     "low": 2.72,
+     "mid": 5.99
+    },
+    "Unlimited": {
+     "market": 0.96,
+     "low": 0.01,
+     "mid": 0.79
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.96
+  },
+  "k-129": {
+   "title": "Magikarp 35/102",
+   "pin": "Normal",
+   "feedPrice": 2.66,
+   "subtypes": {
+    "Normal": {
+     "market": 2.66,
+     "low": 0.25,
+     "mid": 1.77
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.66
+  },
+  "k-130": {
+   "title": "Gyarados 6/102 (holo)",
+   "pin": "Holofoil",
+   "feedPrice": 48.91,
+   "subtypes": {
+    "Holofoil": {
+     "market": 48.91,
+     "low": 21.8,
+     "mid": 47.27
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 48.91
+  },
+  "k-131": {
+   "title": "Lapras 10/62 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 38.33,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 245.62,
+     "low": 150.0,
+     "mid": 215.07
+    },
+    "Unlimited Holofoil": {
+     "market": 38.33,
+     "low": 12.0,
+     "mid": 18.0
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 38.33
+  },
+  "k-132": {
+   "title": "Ditto 3/62 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 48.09,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 131.99,
+     "low": 104.99,
+     "mid": 224.99
+    },
+    "Unlimited Holofoil": {
+     "market": 48.09,
+     "low": 26.99,
+     "mid": 39.99
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 48.09
+  },
+  "k-133": {
+   "title": "Eevee 51/64",
+   "pin": "Unlimited",
+   "feedPrice": 2.43,
+   "subtypes": {
+    "1st Edition": {
+     "market": 16.32,
+     "low": 6.99,
+     "mid": 15.9
+    },
+    "Unlimited": {
+     "market": 2.43,
+     "low": 0.39,
+     "mid": 1.5
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.43
+  },
+  "k-134": {
+   "title": "Vaporeon 12/64 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 54.18,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 155.49,
+     "low": 119.5,
+     "mid": 239.99
+    },
+    "Unlimited Holofoil": {
+     "market": 54.18,
+     "low": 19.99,
+     "mid": 34.5
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 54.18
+  },
+  "k-135": {
+   "title": "Jolteon 4/64 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 103.48,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 272.28,
+     "low": 152.99,
+     "mid": 212.5
+    },
+    "Unlimited Holofoil": {
+     "market": 103.48,
+     "low": 53.99,
+     "mid": 95.0
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 103.48
+  },
+  "k-136": {
+   "title": "Flareon 3/64 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 93.72,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 337.5,
+     "low": 158.0,
+     "mid": 229.99
+    },
+    "Unlimited Holofoil": {
+     "market": 93.72,
+     "low": 51.5,
+     "mid": 69.99
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 93.72
+  },
+  "k-137": {
+   "title": "Porygon 39/102",
+   "pin": "Normal",
+   "feedPrice": 3.98,
+   "subtypes": {
+    "Normal": {
+     "market": 3.98,
+     "low": 0.75,
+     "mid": 2.3
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 3.98
+  },
+  "k-138": {
+   "title": "Omanyte 52/62",
+   "pin": "Unlimited",
+   "feedPrice": 1.21,
+   "subtypes": {
+    "1st Edition": {
+     "market": 3.05,
+     "low": 0.95,
+     "mid": 3.06
+    },
+    "Unlimited": {
+     "market": 1.21,
+     "low": 0.15,
+     "mid": 0.75
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.21
+  },
+  "k-139": {
+   "title": "Omastar 40/62",
+   "pin": "Unlimited",
+   "feedPrice": 1.85,
+   "subtypes": {
+    "1st Edition": {
+     "market": 5.56,
+     "low": 1.49,
+     "mid": 5.4
+    },
+    "Unlimited": {
+     "market": 1.85,
+     "low": 0.27,
+     "mid": 0.76
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.85
+  },
+  "k-140": {
+   "title": "Kabuto 50/62",
+   "pin": "Unlimited",
+   "feedPrice": 1.59,
+   "subtypes": {
+    "1st Edition": {
+     "market": 16.75,
+     "low": 9.69,
+     "mid": 22.51
+    },
+    "Unlimited": {
+     "market": 1.59,
+     "low": 0.2,
+     "mid": 1.1
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.59
+  },
+  "k-141": {
+   "title": "Kabutops 9/62 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 40.01,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 119.43,
+     "low": 80.0,
+     "mid": 106.0
+    },
+    "Unlimited Holofoil": {
+     "market": 40.01,
+     "low": 19.99,
+     "mid": 36.44
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 40.01
+  },
+  "k-142": {
+   "title": "Aerodactyl 1/62 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 36.49,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 94.89,
+     "low": 66.58,
+     "mid": 96.5
+    },
+    "Unlimited Holofoil": {
+     "market": 36.49,
+     "low": 23.0,
+     "mid": 30.23
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 36.49
+  },
+  "k-143": {
+   "title": "Snorlax 11/64 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 157.46,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 408.99,
+     "low": 189.98,
+     "mid": 230.0
+    },
+    "Unlimited Holofoil": {
+     "market": 157.46,
+     "low": 74.95,
+     "mid": 124.99
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 157.46
+  },
+  "k-144": {
+   "title": "Articuno 2/62 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 72.98,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 202.32,
+     "low": 148.0,
+     "mid": 196.85
+    },
+    "Unlimited Holofoil": {
+     "market": 72.98,
+     "low": 36.0,
+     "mid": 50.0
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 72.98
+  },
+  "k-145": {
+   "title": "Zapdos 16/102 (holo)",
+   "pin": "Holofoil",
+   "feedPrice": 47.89,
+   "subtypes": {
+    "Holofoil": {
+     "market": 47.89,
+     "low": 29.07,
+     "mid": 37.0
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 47.89
+  },
+  "k-146": {
+   "title": "Moltres 12/62 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 66.95,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 197.91,
+     "low": 146.99,
+     "mid": 188.13
+    },
+    "Unlimited Holofoil": {
+     "market": 66.95,
+     "low": 39.37,
+     "mid": 51.21
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 66.95
+  },
+  "k-147": {
+   "title": "Dratini 26/102",
+   "pin": "Normal",
+   "feedPrice": 2.96,
+   "subtypes": {
+    "Normal": {
+     "market": 2.96,
+     "low": 0.25,
+     "mid": 1.7
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.96
+  },
+  "k-148": {
+   "title": "Dragonair 18/102",
+   "pin": "Normal",
+   "feedPrice": 17.91,
+   "subtypes": {
+    "Normal": {
+     "market": 17.91,
+     "low": 7.7,
+     "mid": 12.48
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 17.91
+  },
+  "k-149": {
+   "title": "Dragonite 4/62 (holo)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 191.21,
+   "subtypes": {
+    "1st Edition Holofoil": {
+     "market": 502.15,
+     "low": 418.96,
+     "mid": 549.98
+    },
+    "Unlimited Holofoil": {
+     "market": 191.21,
+     "low": 107.23,
+     "mid": 150.0
+    }
+   },
+   "expectedPin": "Unlimited Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 191.21
+  },
+  "k-150": {
+   "title": "Mewtwo 10/102 (holo)",
+   "pin": "Holofoil",
+   "feedPrice": 86.89,
+   "subtypes": {
+    "Holofoil": {
+     "market": 86.89,
+     "low": 38.9,
+     "mid": 70.0
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 86.89
+  },
+  "k-151": {
+   "title": "Mew Black Star Promo #8 (holo)",
+   "pin": "Normal",
+   "feedPrice": 10.65,
+   "subtypes": {
+    "Normal": {
+     "market": 10.65,
+     "low": 5.0,
+     "mid": 10.0
+    }
+   },
+   "expectedPin": null,
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": null,
+   "priceUnderExpected": null
+  },
+  "mk-151-129-165": {
+   "title": "Magikarp 129/165 (Common)",
+   "pin": "Normal",
+   "feedPrice": 0.21,
+   "subtypes": {
+    "Reverse Holofoil": {
+     "market": 0.4,
+     "low": 0.13,
+     "mid": 0.37
+    },
+    "Normal": {
+     "market": 0.21,
+     "low": 0.01,
+     "mid": 0.21
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.21
+  },
+  "mk-ancient-origins-19-98": {
+   "title": "Magikarp 19/98 (Common)",
+   "pin": "Reverse Holofoil",
+   "feedPrice": 4.95,
+   "subtypes": {
+    "Normal": {
+     "market": 0.27,
+     "low": 0.04,
+     "mid": 0.27
+    },
+    "Reverse Holofoil": {
+     "market": 4.95,
+     "low": 0.7,
+     "mid": 1.86
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 0.27
+  },
+  "mk-base-set-2-50-130": {
+   "title": "Magikarp 50/130 (Uncommon)",
+   "pin": "Normal",
+   "feedPrice": 1.82,
+   "subtypes": {
+    "Normal": {
+     "market": 1.82,
+     "low": 0.48,
+     "mid": 1.04
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.82
+  },
+  "mk-burning-shadows-32-147": {
+   "title": "Magikarp 32/147 (Common)",
+   "pin": "Reverse Holofoil",
+   "feedPrice": 1.75,
+   "subtypes": {
+    "Normal": {
+     "market": 0.34,
+     "low": 0.05,
+     "mid": 0.35
+    },
+    "Reverse Holofoil": {
+     "market": 1.75,
+     "low": 0.75,
+     "mid": 1.55
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 0.34
+  },
+  "mk-call-of-legends-61-95": {
+   "title": "Magikarp 61/95 (Common)",
+   "pin": "Normal",
+   "feedPrice": 2.79,
+   "subtypes": {
+    "Normal": {
+     "market": 2.79,
+     "low": 1.35,
+     "mid": 2.59
+    },
+    "Reverse Holofoil": {
+     "market": 38.3,
+     "low": 20.5,
+     "mid": 40.0
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.79
+  },
+  "mk-crimson-invasion-17-111": {
+   "title": "Magikarp 17/111 (Common)",
+   "pin": "Reverse Holofoil",
+   "feedPrice": 1.97,
+   "subtypes": {
+    "Normal": {
+     "market": 0.35,
+     "low": 0.09,
+     "mid": 0.39
+    },
+    "Reverse Holofoil": {
+     "market": 1.97,
+     "low": 0.26,
+     "mid": 1.5
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 0.35
+  },
+  "mk-destined-rivals-misty-s-48-182": {
+   "title": "Magikarp 48/182 (Misty's, Common)",
+   "pin": "Normal",
+   "feedPrice": 0.21,
+   "subtypes": {
+    "Reverse Holofoil": {
+     "market": 0.45,
+     "low": 0.1,
+     "mid": 0.46
+    },
+    "Normal": {
+     "market": 0.21,
+     "low": 0.01,
+     "mid": 0.21
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.21
+  },
+  "mk-detective-pikachu-8-18": {
+   "title": "Magikarp 8/18 (Common Holo)",
+   "pin": "Holofoil",
+   "feedPrice": 1.02,
+   "subtypes": {
+    "Holofoil": {
+     "market": 1.02,
+     "low": 0.05,
+     "mid": 0.79
+    }
+   },
+   "expectedPin": "Holofoil",
+   "expectedFrom": [
+    "Unlimited Holofoil",
+    "Holofoil"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.02
+  },
+  "mk-dragon-majesty-19-70": {
+   "title": "Magikarp 19/70 (Common)",
+   "pin": "Normal",
+   "feedPrice": 0.7,
+   "subtypes": {
+    "Normal": {
+     "market": 0.7,
+     "low": 0.15,
+     "mid": 0.65
+    },
+    "Reverse Holofoil": {
+     "market": 13.07,
+     "low": 12.99,
+     "mid": 14.49
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.7
+  },
+  "mk-dragons-exalted-23-124": {
+   "title": "Magikarp 23/124 (Common)",
+   "pin": "Normal",
+   "feedPrice": 1.18,
+   "subtypes": {
+    "Normal": {
+     "market": 1.18,
+     "low": 0.45,
+     "mid": 1.18
+    },
+    "Reverse Holofoil": {
+     "market": 15.47,
+     "low": 14.97,
+     "mid": 26.37
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.18
+  },
+  "mk-evolutions-33-108": {
+   "title": "Magikarp 33/108 (Common)",
+   "pin": "Reverse Holofoil",
+   "feedPrice": 1.33,
+   "subtypes": {
+    "Normal": {
+     "market": 0.26,
+     "low": 0.04,
+     "mid": 0.26
+    },
+    "Reverse Holofoil": {
+     "market": 1.33,
+     "low": 0.48,
+     "mid": 1.19
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 0.26
+  },
+  "mk-ex-deoxys-64-107": {
+   "title": "Magikarp 64/107 (Common)",
+   "pin": "Normal",
+   "feedPrice": 9.7,
+   "subtypes": {
+    "Normal": {
+     "market": 9.7,
+     "low": 4.99,
+     "mid": 9.71
+    },
+    "Reverse Holofoil": {
+     "market": 172.08,
+     "low": 89.99,
+     "mid": 198.69
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 9.7
+  },
+  "mk-ex-dragon-60-97": {
+   "title": "Magikarp 60/97 (Common)",
+   "pin": "Normal",
+   "feedPrice": 5.13,
+   "subtypes": {
+    "Normal": {
+     "market": 5.13,
+     "low": 3.13,
+     "mid": 5.0
+    },
+    "Reverse Holofoil": {
+     "market": 57.8,
+     "low": 40.0,
+     "mid": 62.98
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 5.13
+  },
+  "mk-ex-firered-leafgreen-67-112": {
+   "title": "Magikarp 67/112 (Common)",
+   "pin": "Normal",
+   "feedPrice": 6.97,
+   "subtypes": {
+    "Normal": {
+     "market": 6.97,
+     "low": 2.48,
+     "mid": 6.11
+    },
+    "Reverse Holofoil": {
+     "market": 199.99,
+     "low": 175.0,
+     "mid": 264.99
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 6.97
+  },
+  "mk-ex-holon-phantoms-69-110": {
+   "title": "Magikarp 69/110 (Common, Delta Species print)",
+   "pin": "Normal",
+   "feedPrice": 4.99,
+   "subtypes": {
+    "Normal": {
+     "market": 4.99,
+     "low": 2.49,
+     "mid": 4.35
+    },
+    "Reverse Holofoil": {
+     "market": 184.88,
+     "low": 164.75,
+     "mid": 249.99
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 4.99
+  },
+  "mk-ex-team-rocket-returns-65-109": {
+   "title": "Magikarp 65/109 (Common)",
+   "pin": "Normal",
+   "feedPrice": 9.47,
+   "subtypes": {
+    "Normal": {
+     "market": 9.47,
+     "low": 2.98,
+     "mid": 8.55
+    },
+    "Reverse Holofoil": {
+     "market": 143.35,
+     "low": 140.0,
+     "mid": 259.95
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 9.47
+  },
+  "mk-expedition-base-set-118-165": {
+   "title": "Magikarp 118/165 (Common)",
+   "pin": "Normal",
+   "feedPrice": 33.77,
+   "subtypes": {
+    "Normal": {
+     "market": 33.77,
+     "low": 27.54,
+     "mid": 46.76
+    },
+    "Reverse Holofoil": {
+     "market": 158.82,
+     "low": 489.95,
+     "mid": 1009.86
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 33.77
+  },
+  "mk-generations-22-83": {
+   "title": "Magikarp 22/83 (Common)",
+   "pin": "Normal",
+   "feedPrice": 0.72,
+   "subtypes": {
+    "Normal": {
+     "market": 0.72,
+     "low": 0.33,
+     "mid": 0.7
+    },
+    "Reverse Holofoil": {
+     "market": 6.62,
+     "low": 2.75,
+     "mid": 6.55
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.72
+  },
+  "mk-gym-challenge-giovanni-s-73-132": {
+   "title": "Magikarp 73/132 (Common)",
+   "pin": "Unlimited",
+   "feedPrice": 3.69,
+   "subtypes": {
+    "1st Edition": {
+     "market": 18.89,
+     "low": 11.34,
+     "mid": 18.91
+    },
+    "Unlimited": {
+     "market": 3.69,
+     "low": 1.75,
+     "mid": 3.59
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 3.69
+  },
+  "mk-gym-challenge-misty-s-88-132": {
+   "title": "Magikarp 88/132 (Common)",
+   "pin": "Unlimited",
+   "feedPrice": 3.93,
+   "subtypes": {
+    "1st Edition": {
+     "market": 13.2,
+     "low": 7.0,
+     "mid": 11.8
+    },
+    "Unlimited": {
+     "market": 3.93,
+     "low": 1.49,
+     "mid": 3.72
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 3.93
+  },
+  "mk-heartgold-soulsilver-72-123": {
+   "title": "Magikarp 72/123 (Common)",
+   "pin": "Normal",
+   "feedPrice": 2.01,
+   "subtypes": {
+    "Normal": {
+     "market": 2.01,
+     "low": 0.82,
+     "mid": 1.91
+    },
+    "Reverse Holofoil": {
+     "market": 52.87,
+     "low": 15.15,
+     "mid": 36.66
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.01
+  },
+  "mk-hidden-fates-15-68": {
+   "title": "Magikarp 15/68 (Common)",
+   "pin": "Reverse Holofoil",
+   "feedPrice": 2.0,
+   "subtypes": {
+    "Reverse Holofoil": {
+     "market": 2.0,
+     "low": 0.93,
+     "mid": 2.0
+    },
+    "Normal": {
+     "market": 0.33,
+     "low": 0.04,
+     "mid": 0.33
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 0.33
+  },
+  "mk-legendary-collection-52-110": {
+   "title": "Magikarp 52/110 (Uncommon)",
+   "pin": "Reverse Holofoil",
+   "feedPrice": 699.99,
+   "subtypes": {
+    "Normal": {
+     "market": 8.49,
+     "low": 2.79,
+     "mid": 5.58
+    },
+    "Reverse Holofoil": {
+     "market": 699.99,
+     "low": 599.99,
+     "mid": 750.49
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 8.49
+  },
+  "mk-legendary-treasures-30-113": {
+   "title": "Magikarp 30/113 (Common)",
+   "pin": "Normal",
+   "feedPrice": 5.21,
+   "subtypes": {
+    "Normal": {
+     "market": 5.21,
+     "low": 0.99,
+     "mid": 1.91
+    },
+    "Reverse Holofoil": {
+     "market": 29.84,
+     "low": 15.0,
+     "mid": 31.49
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 5.21
+  },
+  "mk-mysterious-treasures-89-123": {
+   "title": "Magikarp 89/123 (Common)",
+   "pin": "Normal",
+   "feedPrice": 1.58,
+   "subtypes": {
+    "Normal": {
+     "market": 1.58,
+     "low": 0.26,
+     "mid": 1.46
+    },
+    "Reverse Holofoil": {
+     "market": 33.74,
+     "low": 20.0,
+     "mid": 42.2
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.58
+  },
+  "mk-neo-revelation-shining-66-64": {
+   "title": "Magikarp 66/64 (Secret Rare)",
+   "pin": "Unlimited Holofoil",
+   "feedPrice": 445.0,
+   "subtypes": {
+    "Unlimited Holofoil": {
+     "market": 445.0,
+     "low": 399.97,
+     "mid": 400.0
+    }
+   },
+   "expectedPin": null,
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": null,
+   "priceUnderExpected": null
+  },
+  "mk-paldea-evolved-203-193": {
+   "title": "Magikarp 203/193 (Illustration Rare)",
+   "pin": "Holofoil",
+   "feedPrice": 349.55,
+   "subtypes": {
+    "Holofoil": {
+     "market": 349.55,
+     "low": 261.84,
+     "mid": 388.18
+    }
+   },
+   "expectedPin": null,
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": null,
+   "priceUnderExpected": null
+  },
+  "mk-paldea-evolved-42-193": {
+   "title": "Magikarp 42/193 (Common)",
+   "pin": "Normal",
+   "feedPrice": 0.21,
+   "subtypes": {
+    "Normal": {
+     "market": 0.21,
+     "low": 0.03,
+     "mid": 0.22
+    },
+    "Reverse Holofoil": {
+     "market": 0.33,
+     "low": 0.05,
+     "mid": 0.33
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.21
+  },
+  "mk-pokemon-go-021-078": {
+   "title": "Magikarp 021/078 (Common)",
+   "pin": "Reverse Holofoil",
+   "feedPrice": 0.38,
+   "subtypes": {
+    "Reverse Holofoil": {
+     "market": 0.38,
+     "low": 0.16,
+     "mid": 0.4
+    },
+    "Normal": {
+     "market": 0.17,
+     "low": 0.01,
+     "mid": 0.21
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 0.17
+  },
+  "mk-rebel-clash-39-192": {
+   "title": "Magikarp 39/192 (Common)",
+   "pin": "Normal",
+   "feedPrice": 1.83,
+   "subtypes": {
+    "Reverse Holofoil": {
+     "market": 19.58,
+     "low": 7.65,
+     "mid": 15.3
+    },
+    "Normal": {
+     "market": 1.83,
+     "low": 0.17,
+     "mid": 1.92
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 1.83
+  },
+  "mk-scarlet-violet-44-198": {
+   "title": "Magikarp 44/198 (Common)",
+   "pin": "Reverse Holofoil",
+   "feedPrice": 0.25,
+   "subtypes": {
+    "Normal": {
+     "market": 0.16,
+     "low": 0.01,
+     "mid": 0.2
+    },
+    "Reverse Holofoil": {
+     "market": 0.25,
+     "low": 0.04,
+     "mid": 0.27
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 0.16
+  },
+  "mk-skyridge-75-144": {
+   "title": "Magikarp 75/144 (Common)",
+   "pin": "Normal",
+   "feedPrice": 101.87,
+   "subtypes": {
+    "Normal": {
+     "market": 101.87,
+     "low": 79.99,
+     "mid": 108.47
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 101.87
+  },
+  "mk-stormfront-65-100": {
+   "title": "Magikarp 65/100 (Common)",
+   "pin": "Normal",
+   "feedPrice": 5.91,
+   "subtypes": {
+    "Normal": {
+     "market": 5.91,
+     "low": 1.95,
+     "mid": 5.7
+    },
+    "Reverse Holofoil": {
+     "market": 17.5,
+     "low": 334.66,
+     "mid": 999.98
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 5.91
+  },
+  "mk-supreme-victors-110-147": {
+   "title": "Magikarp 110/147 (Common)",
+   "pin": "Normal",
+   "feedPrice": 2.9,
+   "subtypes": {
+    "Normal": {
+     "market": 2.9,
+     "low": 1.4,
+     "mid": 2.7
+    },
+    "Reverse Holofoil": {
+     "market": 100.0,
+     "low": 80.0,
+     "mid": 150.0
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 2.9
+  },
+  "mk-team-rocket-47-82": {
+   "title": "Magikarp 47/82 (Uncommon)",
+   "pin": "Unlimited",
+   "feedPrice": 3.04,
+   "subtypes": {
+    "1st Edition": {
+     "market": 9.2,
+     "low": 4.04,
+     "mid": 6.52
+    },
+    "Unlimited": {
+     "market": 3.04,
+     "low": 1.0,
+     "mid": 2.42
+    }
+   },
+   "expectedPin": "Unlimited",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 3.04
+  },
+  "mk-team-up-29-181": {
+   "title": "Magikarp 29/181 (Common)",
+   "pin": "Normal",
+   "feedPrice": 0.52,
+   "subtypes": {
+    "Normal": {
+     "market": 0.52,
+     "low": 0.2,
+     "mid": 0.47
+    },
+    "Reverse Holofoil": {
+     "market": 8.72,
+     "low": 2.11,
+     "mid": 7.0
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": true,
+   "priceUnderExpected": 0.52
+  },
+  "s-cc-zard": {
+   "title": "Charizard \u2014 Classic Collection (Base Set reprint, 30 stamp)",
+   "pin": null,
+   "feedPrice": 144.4,
+   "subtypes": {
+    "Holofoil": {
+     "market": 144.4,
+     "low": 144.76,
+     "mid": 179.17
+    }
+   },
+   "expectedPin": null,
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": null,
+   "priceUnderExpected": null
+  },
+  "s-darkrai-sir": {
+   "title": "Mega Darkrai ex \u2014 SIR 116/084",
+   "pin": null,
+   "feedPrice": 145.81,
+   "subtypes": {
+    "Holofoil": {
+     "market": 145.81,
+     "low": 143.75,
+     "mid": 174.99
+    }
+   },
+   "expectedPin": null,
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": null,
+   "priceUnderExpected": null
+  },
+  "s-drago-sir": {
+   "title": "Mega Dragonite ex \u2014 SIR 290/217",
+   "pin": null,
+   "feedPrice": 482.58,
+   "subtypes": {
+    "Holofoil": {
+     "market": 482.58,
+     "low": 449.99,
+     "mid": 541.74
+    }
+   },
+   "expectedPin": null,
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": null,
+   "priceUnderExpected": null
+  },
+  "s-fur-mew": {
+   "title": "Mew ex \u2014 Futuristic Rare 158/128",
+   "pin": null,
+   "feedPrice": 62.04,
+   "subtypes": {
+    "Holofoil": {
+     "market": 62.04,
+     "low": 56.76,
+     "mid": 79.98
+    }
+   },
+   "expectedPin": null,
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": null,
+   "priceUnderExpected": null
+  },
+  "s-fur-mewtwo": {
+   "title": "Mewtwo ex \u2014 Futuristic Rare 157/128",
+   "pin": null,
+   "feedPrice": 45.51,
+   "subtypes": {
+    "Holofoil": {
+     "market": 45.51,
+     "low": 43.0,
+     "mid": 62.01
+    }
+   },
+   "expectedPin": null,
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": null,
+   "priceUnderExpected": null
+  },
+  "s-gren-sir": {
+   "title": "Mega Greninja ex \u2014 SIR 116/086",
+   "pin": null,
+   "feedPrice": 129.48,
+   "subtypes": {
+    "Holofoil": {
+     "market": 129.48,
+     "low": 128.56,
+     "mid": 156.66
+    }
+   },
+   "expectedPin": null,
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": null,
+   "priceUnderExpected": null
+  },
+  "s-mew-paf": {
+   "title": "Mew ex \u2014 SIR 232/091 (USGMEN)",
+   "pin": null,
+   "feedPrice": 870.16,
+   "subtypes": {
+    "Holofoil": {
+     "market": 870.16,
+     "low": 730.98,
+     "mid": 947.46
+    }
+   },
+   "expectedPin": null,
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": null,
+   "priceUnderExpected": null
+  },
+  "bs-clefairydoll": {
+   "title": "Clefairy Doll",
+   "pin": null,
+   "feedPrice": 9.31,
+   "subtypes": {
+    "Normal": {
+     "market": 9.31,
+     "low": 1.0,
+     "mid": 6.94
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 9.31
+  },
+  "bs-computersearch": {
+   "title": "Computer Search",
+   "pin": null,
+   "feedPrice": 3.63,
+   "subtypes": {
+    "Normal": {
+     "market": 3.63,
+     "low": 0.99,
+     "mid": 3.0
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 3.63
+  },
+  "bs-devolutionspray": {
+   "title": "Devolution Spray",
+   "pin": null,
+   "feedPrice": 6.48,
+   "subtypes": {
+    "Normal": {
+     "market": 6.48,
+     "low": 1.5,
+     "mid": 4.38
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 6.48
+  },
+  "bs-itemfinder": {
+   "title": "Item Finder",
+   "pin": null,
+   "feedPrice": 9.46,
+   "subtypes": {
+    "Normal": {
+     "market": 9.46,
+     "low": 0.01,
+     "mid": 8.77
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 9.46
+  },
+  "bs-lass": {
+   "title": "Lass",
+   "pin": null,
+   "feedPrice": 4.22,
+   "subtypes": {
+    "Normal": {
+     "market": 4.22,
+     "low": 1.14,
+     "mid": 2.82
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 4.22
+  },
+  "bs-breeder": {
+   "title": "Pok\u00e9mon Breeder",
+   "pin": null,
+   "feedPrice": 7.1,
+   "subtypes": {
+    "Normal": {
+     "market": 7.1,
+     "low": 3.14,
+     "mid": 5.1
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 7.1
+  },
+  "bs-scoopup": {
+   "title": "Scoop Up",
+   "pin": null,
+   "feedPrice": 8.57,
+   "subtypes": {
+    "Normal": {
+     "market": 8.57,
+     "low": 5.67,
+     "mid": 8.0
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 8.57
+  },
+  "bs-superenergyremoval": {
+   "title": "Super Energy Removal",
+   "pin": null,
+   "feedPrice": 3.53,
+   "subtypes": {
+    "Normal": {
+     "market": 3.53,
+     "low": 1.09,
+     "mid": 3.03
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 3.53
+  },
+  "bs-trader": {
+   "title": "Pok\u00e9mon Trader",
+   "pin": null,
+   "feedPrice": 4.19,
+   "subtypes": {
+    "Normal": {
+     "market": 4.19,
+     "low": 1.99,
+     "mid": 4.36
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 4.19
+  },
+  "bs-imposteroak": {
+   "title": "Imposter Professor Oak",
+   "pin": null,
+   "feedPrice": 6.71,
+   "subtypes": {
+    "Normal": {
+     "market": 6.71,
+     "low": 2.99,
+     "mid": 4.99
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 6.71
+  },
+  "h-lumiose": {
+   "title": "Lumiose City Mini Tin [Set of 5]",
+   "pin": null,
+   "feedPrice": 62.96,
+   "subtypes": {
+    "Normal": {
+     "market": 62.96,
+     "low": 59.48,
+     "mid": 70.0
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 62.96
+  },
+  "s-gengar-tg06": {
+   "title": "Gengar TG06/TG30",
+   "pin": null,
+   "feedPrice": 45.14,
+   "subtypes": {
+    "Holofoil": {
+     "market": 45.14,
+     "low": 39.0,
+     "mid": 51.82
+    }
+   },
+   "expectedPin": null,
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": null,
+   "priceUnderExpected": null
+  },
+  "s-charizard-tg03": {
+   "title": "Charizard TG03/TG30",
+   "pin": null,
+   "feedPrice": 27.35,
+   "subtypes": {
+    "Holofoil": {
+     "market": 27.35,
+     "low": 18.25,
+     "mid": 32.3
+    }
+   },
+   "expectedPin": null,
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": null,
+   "priceUnderExpected": null
+  },
+  "rp-672733": {
+   "title": "Ascended Heroes Mega Meganium ex Box",
+   "pin": null,
+   "feedPrice": 55.99,
+   "subtypes": {
+    "Normal": {
+     "market": 55.99,
+     "low": 48.52,
+     "mid": 63.0
+    }
+   },
+   "expectedPin": "Normal",
+   "expectedFrom": [
+    "Normal",
+    "Unlimited"
+   ],
+   "match": false,
+   "priceUnderExpected": 55.99
+  }
+ },
+ "frozen": {
+  "gy-ancient-origins-20-98": {
+   "productId": 101441,
+   "tcgcsvToday": {
+    "Normal": {
+     "market": 1.09,
+     "low": 0.25,
+     "mid": 1.0
+    },
+    "Reverse Holofoil": {
+     "market": 5.11,
+     "low": 1.03,
+     "mid": 6.12
+    }
+   },
+   "ppt": {
+    "name": "Gyarados (20)",
+    "set": "XY - Ancient Origins",
+    "num": "20/98",
+    "market": 1.09,
+    "low": 0.25,
+    "listings": 267,
+    "recentSales": 0,
+    "lastUpdated": "2026-10-11T12:07:31.219Z",
+    "variants": {
+     "Reverse Holofoil": {
+      "Lightly Played": 1.91,
+      "Near Mint": 5.11
+     },
+     "Normal": {
+      "Near Mint": 1.09,
+      "Lightly Played": 0.77
+     }
+    }
+   },
+   "pricecharting": {
+    "name": "Gyarados #20",
+    "console": "Pokemon Ancient Origins",
+    "ungraded": 1.99
+   }
+  },
+  "gy-ex-firered-leafgreen-ex-109-112": {
+   "productId": 86004,
+   "tcgcsvToday": {
+    "Normal": {
+     "market": 150.0,
+     "low": 250.0,
+     "mid": 250.0
+    },
+    "Holofoil": {
+     "market": 200.68,
+     "low": 74.58,
+     "mid": 77.8
+    }
+   },
+   "ppt": {
+    "name": "Gyarados ex",
+    "set": "EX FireRed & LeafGreen",
+    "num": "109/112",
+    "market": 150,
+    "low": 74.58,
+    "listings": 9,
+    "recentSales": 0,
+    "lastUpdated": "2026-10-11T12:10:18.730Z",
+    "variants": {
+     "Holofoil": {
+      "Near Mint": 237.6,
+      "Lightly Played": 250
+     },
+     "Normal": {
+      "Lightly Played": 150,
+      "Near Mint": 86.99
+     }
+    }
+   },
+   "pricecharting": {
+    "name": "Gyarados EX #109",
+    "console": "Pokemon Fire Red & Leaf Green",
+    "ungraded": 138.6
+   }
+  },
+  "k-149": {
+   "productId": 106520,
+   "tcgcsvToday": {
+    "1st Edition Holofoil": {
+     "market": 502.15,
+     "low": 418.96,
+     "mid": 549.98
+    },
+    "Unlimited Holofoil": {
+     "market": 191.21,
+     "low": 107.23,
+     "mid": 150.0
+    }
+   },
+   "ppt": {
+    "name": "Dragonite (4)",
+    "set": "Fossil",
+    "num": "04/62",
+    "market": 514.87,
+    "low": 38.57,
+    "listings": 146,
+    "recentSales": 0,
+    "lastUpdated": "2026-10-11T12:11:04.638Z",
+    "variants": {
+     "1st Edition Holofoil": {
+      "Near Mint": 514.86,
+      "Lightly Played": 310.04
+     },
+     "Unlimited Holofoil": {
+      "Near Mint": 191.21,
+      "Lightly Played": 115.39
+     }
+    }
+   },
+   "pricecharting": {
+    "name": "Dragonite #4",
+    "console": "Pokemon Fossil",
+    "ungraded": 98.22
+   }
+  },
+  "h-lumiose": {
+   "productId": 685580,
+   "tcgcsvToday": {
+    "Normal": {
+     "market": 62.96,
+     "low": 59.48,
+     "mid": 70.0
+    }
+   },
+   "ppt": {
+    "name": null,
+    "set": null,
+    "num": null,
+    "market": null,
+    "low": null,
+    "listings": null,
+    "recentSales": null,
+    "lastUpdated": null,
+    "variants": {}
+   }
+  }
+ }
+}
