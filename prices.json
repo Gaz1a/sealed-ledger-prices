@@ -1,6 +1,6 @@
 {
- "count": 265,
- "generated": "2026-10-11T18:32:48Z",
+ "count": 313,
+ "generated": "2026-10-11T18:42:14Z",
  "prices": {
   "ah-bundle": {
    "low": 74.51,
@@ -128,6 +128,13 @@
    "productId": 516693,
    "subType": "Holofoil"
   },
+  "gy-151-130-165-rev": {
+   "low": 0.5,
+   "market": 1.36,
+   "mid": 1.5,
+   "productId": 516693,
+   "subType": "Reverse Holofoil"
+  },
   "gy-ancient-origins-20-98": {
    "low": 0.25,
    "market": 1.09,
@@ -135,12 +142,26 @@
    "productId": 101441,
    "subType": "Normal"
   },
+  "gy-ancient-origins-20-98-rev": {
+   "low": 1.03,
+   "market": 5.11,
+   "mid": 6.12,
+   "productId": 101441,
+   "subType": "Reverse Holofoil"
+  },
   "gy-ancient-origins-21-98": {
    "low": 34.99,
    "market": 64.99,
    "mid": 63.93,
    "productId": 101442,
    "subType": "Holofoil"
+  },
+  "gy-ancient-origins-21-98-rev": {
+   "low": 37.0,
+   "market": 66.96,
+   "mid": 64.99,
+   "productId": 101442,
+   "subType": "Reverse Holofoil"
   },
   "gy-base-set-2-7-130": {
    "low": 20.0,
@@ -156,12 +177,26 @@
    "productId": 138513,
    "subType": "Holofoil"
   },
+  "gy-burning-shadows-33-147-rev": {
+   "low": 1.4,
+   "market": 3.77,
+   "mid": 3.67,
+   "productId": 138513,
+   "subType": "Reverse Holofoil"
+  },
   "gy-call-of-legends-7-95": {
    "low": 60.0,
    "market": 90.58,
    "mid": 116.75,
    "productId": 85999,
    "subType": "Holofoil"
+  },
+  "gy-call-of-legends-7-95-rev": {
+   "low": 46.87,
+   "market": 35.0,
+   "mid": 250.0,
+   "productId": 85999,
+   "subType": "Reverse Holofoil"
   },
   "gy-celebrations-dark-gyarados-reprint-8-82": {
    "low": 3.95,
@@ -184,12 +219,26 @@
    "productId": 175382,
    "subType": "Holofoil"
   },
+  "gy-dragon-majesty-20-70-rev": {
+   "low": 5.02,
+   "market": 7.53,
+   "mid": 49.82,
+   "productId": 175382,
+   "subType": "Reverse Holofoil"
+  },
   "gy-dragons-exalted-24-124": {
    "low": 1.85,
    "market": 3.17,
    "mid": 3.34,
    "productId": 86000,
    "subType": "Normal"
+  },
+  "gy-dragons-exalted-24-124-rev": {
+   "low": 24.0,
+   "market": 25.15,
+   "mid": 35.0,
+   "productId": 86000,
+   "subType": "Reverse Holofoil"
   },
   "gy-evolutions-34-108": {
    "low": 4.25,
@@ -198,6 +247,13 @@
    "productId": 124047,
    "subType": "Holofoil"
   },
+  "gy-evolutions-34-108-rev": {
+   "low": 5.87,
+   "market": 8.94,
+   "mid": 9.53,
+   "productId": 124047,
+   "subType": "Reverse Holofoil"
+  },
   "gy-ex-deoxys-8-107": {
    "low": 199.98,
    "market": 241.0,
@@ -205,12 +261,26 @@
    "productId": 85991,
    "subType": "Holofoil"
   },
+  "gy-ex-deoxys-8-107-rev": {
+   "low": 315.0,
+   "market": 300.0,
+   "mid": 389.5,
+   "productId": 85991,
+   "subType": "Reverse Holofoil"
+  },
   "gy-ex-dragon-32-97": {
    "low": 11.99,
    "market": 19.71,
    "mid": 29.99,
    "productId": 85990,
    "subType": "Normal"
+  },
+  "gy-ex-dragon-32-97-rev": {
+   "low": 120.0,
+   "market": 120.89,
+   "mid": 287.5,
+   "productId": 85990,
+   "subType": "Reverse Holofoil"
   },
   "gy-ex-firered-leafgreen-ex-109-112": {
    "low": 74.58,
@@ -225,6 +295,13 @@
    "mid": 1.11,
    "productId": 113681,
    "subType": "Normal"
+  },
+  "gy-generations-23-83-rev": {
+   "low": 4.24,
+   "market": 9.41,
+   "mid": 9.98,
+   "productId": 113681,
+   "subType": "Reverse Holofoil"
   },
   "gy-gym-challenge-giovanni-s-5-132": {
    "low": 90.17,
@@ -247,12 +324,26 @@
    "productId": 85992,
    "subType": "Holofoil"
   },
+  "gy-heartgold-soulsilver-4-123-rev": {
+   "low": 32.4,
+   "market": 69.99,
+   "mid": 69.84,
+   "productId": 85992,
+   "subType": "Reverse Holofoil"
+  },
   "gy-legendary-collection-12-110": {
    "low": 22.0,
    "market": 50.97,
    "mid": 36.92,
    "productId": 85989,
    "subType": "Holofoil"
+  },
+  "gy-legendary-collection-12-110-rev": {
+   "low": 1700.0,
+   "market": 522.89,
+   "mid": 1999.0,
+   "productId": 85989,
+   "subType": "Reverse Holofoil"
   },
   "gy-legendary-treasures-31-113": {
    "low": 0.25,
@@ -261,12 +352,26 @@
    "productId": 86001,
    "subType": "Normal"
   },
+  "gy-legendary-treasures-31-113-rev": {
+   "low": 14.3,
+   "market": 39.09,
+   "mid": 38.88,
+   "productId": 86001,
+   "subType": "Reverse Holofoil"
+  },
   "gy-mysterious-treasures-26-123": {
    "low": 7.28,
    "market": 13.7,
    "mid": 14.16,
    "productId": 85993,
    "subType": "Normal"
+  },
+  "gy-mysterious-treasures-26-123-rev": {
+   "low": 35.95,
+   "market": 41.98,
+   "mid": 49.99,
+   "productId": 85993,
+   "subType": "Reverse Holofoil"
   },
   "gy-neo-revelation-shining-65-64": {
    "low": 825.0,
@@ -282,6 +387,13 @@
    "productId": 497454,
    "subType": "Holofoil"
   },
+  "gy-paldea-evolved-43-193-rev": {
+   "low": 0.24,
+   "market": 0.56,
+   "mid": 0.55,
+   "productId": 497454,
+   "subType": "Reverse Holofoil"
+  },
   "gy-pokemon-go-22-078": {
    "low": 0.05,
    "market": 0.48,
@@ -289,7 +401,21 @@
    "productId": 276955,
    "subType": "Holofoil"
   },
+  "gy-pokemon-go-22-078-rev": {
+   "low": 0.2,
+   "market": 0.83,
+   "mid": 0.75,
+   "productId": 276955,
+   "subType": "Reverse Holofoil"
+  },
   "gy-rebel-clash-40-192": {
+   "low": 0.55,
+   "market": 1.36,
+   "mid": 1.56,
+   "productId": 213118,
+   "subType": "Holofoil"
+  },
+  "gy-rebel-clash-40-192-rev": {
    "low": 1.55,
    "market": 2.91,
    "mid": 2.82,
@@ -309,6 +435,13 @@
    "mid": 12.99,
    "productId": 85994,
    "subType": "Normal"
+  },
+  "gy-stormfront-19-100-rev": {
+   "low": 499.72,
+   "market": 48.46,
+   "mid": 499.82,
+   "productId": 85994,
+   "subType": "Reverse Holofoil"
   },
   "gy-team-rocket-dark-gyarados-25-82": {
    "low": 9.99,
@@ -330,6 +463,13 @@
    "mid": 10.93,
    "productId": 183801,
    "subType": "Holofoil"
+  },
+  "gy-team-up-30-181-rev": {
+   "low": 8.25,
+   "market": 11.54,
+   "mid": 10.96,
+   "productId": 183801,
+   "subType": "Reverse Holofoil"
   },
   "h-cr-box": {
    "low": 160.99,
@@ -1458,7 +1598,21 @@
    "productId": 516692,
    "subType": "Normal"
   },
+  "mk-151-129-165-rev": {
+   "low": 0.13,
+   "market": 0.4,
+   "mid": 0.37,
+   "productId": 516692,
+   "subType": "Reverse Holofoil"
+  },
   "mk-ancient-origins-19-98": {
+   "low": 0.04,
+   "market": 0.27,
+   "mid": 0.27,
+   "productId": 101440,
+   "subType": "Normal"
+  },
+  "mk-ancient-origins-19-98-rev": {
    "low": 0.7,
    "market": 4.95,
    "mid": 1.86,
@@ -1473,6 +1627,13 @@
    "subType": "Normal"
   },
   "mk-burning-shadows-32-147": {
+   "low": 0.05,
+   "market": 0.34,
+   "mid": 0.35,
+   "productId": 138512,
+   "subType": "Normal"
+  },
+  "mk-burning-shadows-32-147-rev": {
    "low": 0.75,
    "market": 1.75,
    "mid": 1.55,
@@ -1486,7 +1647,21 @@
    "productId": 87035,
    "subType": "Normal"
   },
+  "mk-call-of-legends-61-95-rev": {
+   "low": 20.5,
+   "market": 38.3,
+   "mid": 40.0,
+   "productId": 87035,
+   "subType": "Reverse Holofoil"
+  },
   "mk-crimson-invasion-17-111": {
+   "low": 0.09,
+   "market": 0.35,
+   "mid": 0.39,
+   "productId": 149038,
+   "subType": "Normal"
+  },
+  "mk-crimson-invasion-17-111-rev": {
    "low": 0.26,
    "market": 1.97,
    "mid": 1.5,
@@ -1499,6 +1674,13 @@
    "mid": 0.21,
    "productId": 630815,
    "subType": "Normal"
+  },
+  "mk-destined-rivals-misty-s-48-182-rev": {
+   "low": 0.1,
+   "market": 0.45,
+   "mid": 0.46,
+   "productId": 630815,
+   "subType": "Reverse Holofoil"
   },
   "mk-detective-pikachu-8-18": {
    "low": 0.05,
@@ -1514,6 +1696,13 @@
    "productId": 175381,
    "subType": "Normal"
   },
+  "mk-dragon-majesty-19-70-rev": {
+   "low": 12.99,
+   "market": 13.07,
+   "mid": 14.49,
+   "productId": 175381,
+   "subType": "Reverse Holofoil"
+  },
   "mk-dragons-exalted-23-124": {
    "low": 0.45,
    "market": 1.18,
@@ -1521,7 +1710,21 @@
    "productId": 87036,
    "subType": "Normal"
   },
+  "mk-dragons-exalted-23-124-rev": {
+   "low": 14.97,
+   "market": 15.47,
+   "mid": 26.37,
+   "productId": 87036,
+   "subType": "Reverse Holofoil"
+  },
   "mk-evolutions-33-108": {
+   "low": 0.04,
+   "market": 0.26,
+   "mid": 0.26,
+   "productId": 124046,
+   "subType": "Normal"
+  },
+  "mk-evolutions-33-108-rev": {
    "low": 0.48,
    "market": 1.33,
    "mid": 1.19,
@@ -1535,12 +1738,26 @@
    "productId": 87028,
    "subType": "Normal"
   },
+  "mk-ex-deoxys-64-107-rev": {
+   "low": 89.99,
+   "market": 172.08,
+   "mid": 198.69,
+   "productId": 87028,
+   "subType": "Reverse Holofoil"
+  },
   "mk-ex-dragon-60-97": {
    "low": 3.13,
    "market": 5.13,
    "mid": 5.0,
    "productId": 87025,
    "subType": "Normal"
+  },
+  "mk-ex-dragon-60-97-rev": {
+   "low": 40.0,
+   "market": 57.8,
+   "mid": 62.98,
+   "productId": 87025,
+   "subType": "Reverse Holofoil"
   },
   "mk-ex-firered-leafgreen-67-112": {
    "low": 2.48,
@@ -1549,12 +1766,26 @@
    "productId": 87026,
    "subType": "Normal"
   },
+  "mk-ex-firered-leafgreen-67-112-rev": {
+   "low": 175.0,
+   "market": 199.99,
+   "mid": 264.99,
+   "productId": 87026,
+   "subType": "Reverse Holofoil"
+  },
   "mk-ex-holon-phantoms-69-110": {
    "low": 2.49,
    "market": 4.99,
    "mid": 4.35,
    "productId": 87038,
    "subType": "Normal"
+  },
+  "mk-ex-holon-phantoms-69-110-rev": {
+   "low": 164.75,
+   "market": 184.88,
+   "mid": 249.99,
+   "productId": 87038,
+   "subType": "Reverse Holofoil"
   },
   "mk-ex-team-rocket-returns-65-109": {
    "low": 2.98,
@@ -1563,6 +1794,13 @@
    "productId": 87027,
    "subType": "Normal"
   },
+  "mk-ex-team-rocket-returns-65-109-rev": {
+   "low": 140.0,
+   "market": 143.35,
+   "mid": 259.95,
+   "productId": 87027,
+   "subType": "Reverse Holofoil"
+  },
   "mk-expedition-base-set-118-165": {
    "low": 27.54,
    "market": 33.77,
@@ -1570,12 +1808,26 @@
    "productId": 87024,
    "subType": "Normal"
   },
+  "mk-expedition-base-set-118-165-rev": {
+   "low": 489.95,
+   "market": 158.82,
+   "mid": 1009.86,
+   "productId": 87024,
+   "subType": "Reverse Holofoil"
+  },
   "mk-generations-22-83": {
    "low": 0.33,
    "market": 0.72,
    "mid": 0.7,
    "productId": 113680,
    "subType": "Normal"
+  },
+  "mk-generations-22-83-rev": {
+   "low": 2.75,
+   "market": 6.62,
+   "mid": 6.55,
+   "productId": 113680,
+   "subType": "Reverse Holofoil"
   },
   "mk-gym-challenge-giovanni-s-73-132": {
    "low": 1.75,
@@ -1598,7 +1850,21 @@
    "productId": 87032,
    "subType": "Normal"
   },
+  "mk-heartgold-soulsilver-72-123-rev": {
+   "low": 15.15,
+   "market": 52.87,
+   "mid": 36.66,
+   "productId": 87032,
+   "subType": "Reverse Holofoil"
+  },
   "mk-hidden-fates-15-68": {
+   "low": 0.04,
+   "market": 0.33,
+   "mid": 0.33,
+   "productId": 197659,
+   "subType": "Normal"
+  },
+  "mk-hidden-fates-15-68-rev": {
    "low": 0.93,
    "market": 2.0,
    "mid": 2.0,
@@ -1606,6 +1872,13 @@
    "subType": "Reverse Holofoil"
   },
   "mk-legendary-collection-52-110": {
+   "low": 2.79,
+   "market": 8.49,
+   "mid": 5.58,
+   "productId": 87022,
+   "subType": "Normal"
+  },
+  "mk-legendary-collection-52-110-rev": {
    "low": 599.99,
    "market": 699.99,
    "mid": 750.49,
@@ -1619,12 +1892,26 @@
    "productId": 87037,
    "subType": "Normal"
   },
+  "mk-legendary-treasures-30-113-rev": {
+   "low": 15.0,
+   "market": 29.84,
+   "mid": 31.49,
+   "productId": 87037,
+   "subType": "Reverse Holofoil"
+  },
   "mk-mysterious-treasures-89-123": {
    "low": 0.26,
    "market": 1.58,
    "mid": 1.46,
    "productId": 87029,
    "subType": "Normal"
+  },
+  "mk-mysterious-treasures-89-123-rev": {
+   "low": 20.0,
+   "market": 33.74,
+   "mid": 42.2,
+   "productId": 87029,
+   "subType": "Reverse Holofoil"
   },
   "mk-neo-revelation-shining-66-64": {
    "low": 399.97,
@@ -1647,7 +1934,21 @@
    "productId": 497453,
    "subType": "Normal"
   },
+  "mk-paldea-evolved-42-193-rev": {
+   "low": 0.05,
+   "market": 0.33,
+   "mid": 0.33,
+   "productId": 497453,
+   "subType": "Reverse Holofoil"
+  },
   "mk-pokemon-go-021-078": {
+   "low": 0.01,
+   "market": 0.17,
+   "mid": 0.21,
+   "productId": 276951,
+   "subType": "Normal"
+  },
+  "mk-pokemon-go-021-078-rev": {
    "low": 0.16,
    "market": 0.38,
    "mid": 0.4,
@@ -1661,7 +1962,21 @@
    "productId": 213117,
    "subType": "Normal"
   },
+  "mk-rebel-clash-39-192-rev": {
+   "low": 7.65,
+   "market": 19.58,
+   "mid": 15.3,
+   "productId": 213117,
+   "subType": "Reverse Holofoil"
+  },
   "mk-scarlet-violet-44-198": {
+   "low": 0.01,
+   "market": 0.16,
+   "mid": 0.2,
+   "productId": 487888,
+   "subType": "Normal"
+  },
+  "mk-scarlet-violet-44-198-rev": {
    "low": 0.04,
    "market": 0.25,
    "mid": 0.27,
@@ -1682,12 +1997,26 @@
    "productId": 87030,
    "subType": "Normal"
   },
+  "mk-stormfront-65-100-rev": {
+   "low": 334.66,
+   "market": 17.5,
+   "mid": 999.98,
+   "productId": 87030,
+   "subType": "Reverse Holofoil"
+  },
   "mk-supreme-victors-110-147": {
    "low": 1.4,
    "market": 2.9,
    "mid": 2.7,
    "productId": 87031,
    "subType": "Normal"
+  },
+  "mk-supreme-victors-110-147-rev": {
+   "low": 80.0,
+   "market": 100.0,
+   "mid": 150.0,
+   "productId": 87031,
+   "subType": "Reverse Holofoil"
   },
   "mk-team-rocket-47-82": {
    "low": 1.0,
@@ -1702,6 +2031,13 @@
    "mid": 0.47,
    "productId": 183800,
    "subType": "Normal"
+  },
+  "mk-team-up-29-181-rev": {
+   "low": 2.11,
+   "market": 8.72,
+   "mid": 7.0,
+   "productId": 183800,
+   "subType": "Reverse Holofoil"
   },
   "op17": {
    "low": 300.0,
