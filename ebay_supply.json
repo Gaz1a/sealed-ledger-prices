@@ -1,22 +1,27 @@
 {
- "generated": "2026-10-07",
+ "generated": "2026-10-12",
  "source": "eBay Browse API (active FIXED_PRICE, NEW, USD listings; title-filtered)",
  "note": "Counts are of up to 400 returned listings after title filtering, not eBay's raw total; trend needs ~4 weekly runs.",
  "items": {
   "ah-bundle": {
    "title": "Ascended Heroes Booster Bundle (6 packs)",
    "productId": 668541,
-   "apiTotalListings": 96,
-   "matchedListings": 95,
-   "medianAsk": 89.99,
+   "apiTotalListings": 97,
+   "matchedListings": 93,
+   "medianAsk": 90.0,
    "lowAsk": 69.85,
-   "tcgMarket": 82.12,
-   "asOf": "2026-10-07",
+   "tcgMarket": 84.11,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      395,
      68.0
+    ],
+    [
+     "2026-10-12",
+     93,
+     90.0
     ]
    ],
    "signal": "needs_history"
@@ -24,17 +29,22 @@
   "c30-etb": {
    "title": "30th Celebration Elite Trainer Box",
    "productId": 704143,
-   "apiTotalListings": 4397,
-   "matchedListings": 354,
-   "medianAsk": 149.99,
-   "lowAsk": 35.0,
-   "tcgMarket": 145.22,
-   "asOf": "2026-10-07",
+   "apiTotalListings": 4679,
+   "matchedListings": 375,
+   "medianAsk": 140.0,
+   "lowAsk": 99.99,
+   "tcgMarket": 141.41,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      386,
      144.25
+    ],
+    [
+     "2026-10-12",
+     375,
+     140.0
     ]
    ],
    "signal": "needs_history"
@@ -42,17 +52,22 @@
   "c30-poster": {
    "title": "30th Celebration Poster Collection",
    "productId": 704153,
-   "apiTotalListings": 2079,
+   "apiTotalListings": 2108,
    "matchedListings": 324,
-   "medianAsk": 40.97,
+   "medianAsk": 39.99,
    "lowAsk": 1.99,
-   "tcgMarket": 37.59,
-   "asOf": "2026-10-07",
+   "tcgMarket": 39.03,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      297,
      43.99
+    ],
+    [
+     "2026-10-12",
+     324,
+     39.99
     ]
    ],
    "signal": "needs_history"
@@ -60,17 +75,22 @@
   "cr-etb": {
    "title": "Chaos Rising Elite Trainer Box",
    "productId": 684450,
-   "apiTotalListings": 2572,
-   "matchedListings": 361,
+   "apiTotalListings": 2569,
+   "matchedListings": 366,
    "medianAsk": 79.99,
-   "lowAsk": 5.0,
-   "tcgMarket": 68.2,
-   "asOf": "2026-10-07",
+   "lowAsk": 17.98,
+   "tcgMarket": 69.95,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      386,
      144.72
+    ],
+    [
+     "2026-10-12",
+     366,
+     79.99
     ]
    ],
    "signal": "needs_history"
@@ -78,17 +98,22 @@
   "fpic1": {
    "title": "30th Anniversary First Partner Illustration Collection \u2014 Series 1",
    "productId": 673436,
-   "apiTotalListings": 31,
+   "apiTotalListings": 30,
    "matchedListings": 8,
-   "medianAsk": 83.15,
-   "lowAsk": 16.18,
-   "tcgMarket": 59.36,
-   "asOf": "2026-10-07",
+   "medianAsk": 83.0,
+   "lowAsk": 16.13,
+   "tcgMarket": 63.52,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      176,
      75.0
+    ],
+    [
+     "2026-10-12",
+     8,
+     83.0
     ]
    ],
    "signal": "needs_history"
@@ -114,17 +139,22 @@
   "h-fpic3": {
    "title": "30th Anniversary First Partner Illustration Collection \u2014 Series 3",
    "productId": 695400,
-   "apiTotalListings": 18,
-   "matchedListings": 10,
+   "apiTotalListings": 19,
+   "matchedListings": 9,
    "medianAsk": 35.0,
    "lowAsk": 26.24,
-   "tcgMarket": 26.78,
-   "asOf": "2026-10-07",
+   "tcgMarket": 22.64,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      327,
      30.99
+    ],
+    [
+     "2026-10-12",
+     9,
+     35.0
     ]
    ],
    "signal": "needs_history"
@@ -132,15 +162,20 @@
   "h-tsc": {
    "title": "30th Celebration Tech Sticker Collection \u2014 \u00d72 (Alolan Exeggutor / Lucario)",
    "productId": 704147,
-   "apiTotalListings": 0,
+   "apiTotalListings": 2,
    "matchedListings": 0,
    "medianAsk": null,
    "lowAsk": null,
-   "tcgMarket": 74.46,
-   "asOf": "2026-10-07",
+   "tcgMarket": 71.23,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
+     0,
+     null
+    ],
+    [
+     "2026-10-12",
      0,
      null
     ]
@@ -186,17 +221,22 @@
   "pe-spc": {
    "title": "Prismatic Evolutions Super-Premium Collection (Eevee)",
    "productId": 622770,
-   "apiTotalListings": 837,
-   "matchedListings": 125,
+   "apiTotalListings": 840,
+   "matchedListings": 118,
    "medianAsk": 265.0,
    "lowAsk": 11.99,
-   "tcgMarket": 260.98,
-   "asOf": "2026-10-07",
+   "tcgMarket": 260.81,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      119,
      260.0
+    ],
+    [
+     "2026-10-12",
+     118,
+     265.0
     ]
    ],
    "signal": "needs_history"
@@ -204,17 +244,22 @@
   "sf-etb": {
    "title": "Shining Fates Elite Trainer Box",
    "productId": 228821,
-   "apiTotalListings": 490,
-   "matchedListings": 346,
+   "apiTotalListings": 488,
+   "matchedListings": 345,
    "medianAsk": 150.0,
    "lowAsk": 1.0,
-   "tcgMarket": 138.47,
-   "asOf": "2026-10-07",
+   "tcgMarket": 138.28,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      386,
      144.72
+    ],
+    [
+     "2026-10-12",
+     345,
+     150.0
     ]
    ],
    "signal": "needs_history"
@@ -222,17 +267,22 @@
   "sv2a-box": {
    "title": "Japanese Scarlet & Violet 151 151 Japanese Booster Box (sv2a)",
    "productId": 565243,
-   "apiTotalListings": 444,
-   "matchedListings": 189,
-   "medianAsk": 247.69,
-   "lowAsk": 215.0,
-   "tcgMarket": 274.54,
-   "asOf": "2026-10-07",
+   "apiTotalListings": 452,
+   "matchedListings": 188,
+   "medianAsk": 242.54,
+   "lowAsk": 14.99,
+   "tcgMarket": 256.68,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      329,
      249.85
+    ],
+    [
+     "2026-10-12",
+     188,
+     242.54
     ]
    ],
    "signal": "needs_history"
@@ -240,17 +290,22 @@
   "sv4a-box": {
    "title": "Japanese Shiny Treasure ex High Class Booster Box (Japanese)",
    "productId": 565232,
-   "apiTotalListings": 176,
-   "matchedListings": 78,
-   "medianAsk": 86.0,
-   "lowAsk": 81.9,
-   "tcgMarket": 108.72,
-   "asOf": "2026-10-07",
+   "apiTotalListings": 191,
+   "matchedListings": 82,
+   "medianAsk": 84.99,
+   "lowAsk": 76.99,
+   "tcgMarket": 114.03,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      324,
      78.92
+    ],
+    [
+     "2026-10-12",
+     82,
+     84.99
     ]
    ],
    "signal": "needs_history"
@@ -258,17 +313,22 @@
   "zard-premium23": {
    "title": "Charizard ex Premium Collection Box 2023",
    "productId": 516576,
-   "apiTotalListings": 101,
-   "matchedListings": 15,
-   "medianAsk": 125.0,
+   "apiTotalListings": 97,
+   "matchedListings": 17,
+   "medianAsk": 139.99,
    "lowAsk": 100.0,
-   "tcgMarket": 109.35,
-   "asOf": "2026-10-07",
+   "tcgMarket": 109.15,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      15,
      125.0
+    ],
+    [
+     "2026-10-12",
+     17,
+     139.99
     ]
    ],
    "signal": "needs_history"
@@ -276,17 +336,22 @@
   "zard-special-collection": {
    "title": "Charizard ex Special Collection",
    "productId": 616305,
-   "apiTotalListings": 801,
-   "matchedListings": 341,
-   "medianAsk": 69.0,
-   "lowAsk": 10.99,
-   "tcgMarket": 60.31,
-   "asOf": "2026-10-07",
+   "apiTotalListings": 861,
+   "matchedListings": 354,
+   "medianAsk": 69.99,
+   "lowAsk": 16.95,
+   "tcgMarket": 60.29,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      339,
      69.0
+    ],
+    [
+     "2026-10-12",
+     354,
+     69.99
     ]
    ],
    "signal": "needs_history"
@@ -294,16 +359,21 @@
   "pe-spc-2": {
    "title": "Super-Premium Collection (Eevee)",
    "productId": 622770,
-   "apiTotalListings": 883,
-   "matchedListings": 119,
+   "apiTotalListings": 878,
+   "matchedListings": 116,
    "medianAsk": 260.0,
    "lowAsk": 11.99,
-   "tcgMarket": 260.98,
-   "asOf": "2026-10-07",
+   "tcgMarket": 260.81,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      120,
+     260.0
+    ],
+    [
+     "2026-10-12",
+     116,
      260.0
     ]
    ],
@@ -312,16 +382,21 @@
   "h-cr-box": {
    "title": "Chaos Rising Booster Box",
    "productId": 684444,
-   "apiTotalListings": 8783,
-   "matchedListings": 232,
+   "apiTotalListings": 8808,
+   "matchedListings": 246,
    "medianAsk": 199.99,
    "lowAsk": 9.88,
-   "tcgMarket": 188.4,
-   "asOf": "2026-10-07",
+   "tcgMarket": 184.29,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      232,
+     199.99
+    ],
+    [
+     "2026-10-12",
+     246,
      199.99
     ]
    ],
@@ -330,17 +405,22 @@
   "h-pb-box": {
    "title": "Pitch Black Booster Box",
    "productId": 692939,
-   "apiTotalListings": 6610,
-   "matchedListings": 261,
-   "medianAsk": 199.95,
-   "lowAsk": 35.0,
-   "tcgMarket": 189.03,
-   "asOf": "2026-10-07",
+   "apiTotalListings": 6773,
+   "matchedListings": 267,
+   "medianAsk": 194.95,
+   "lowAsk": 24.99,
+   "tcgMarket": 182.26,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      261,
      199.95
+    ],
+    [
+     "2026-10-12",
+     267,
+     194.95
     ]
    ],
    "signal": "needs_history"
@@ -348,16 +428,21 @@
   "h-po-box": {
    "title": "Perfect Order Booster Box",
    "productId": 672394,
-   "apiTotalListings": 5867,
+   "apiTotalListings": 6052,
    "matchedListings": 199,
    "medianAsk": 189.99,
    "lowAsk": 9.99,
-   "tcgMarket": 173.63,
-   "asOf": "2026-10-07",
+   "tcgMarket": 172.52,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      197,
+     189.99
+    ],
+    [
+     "2026-10-12",
+     199,
      189.99
     ]
    ],
@@ -366,17 +451,22 @@
   "ah-etb": {
    "title": "Ascended Heroes Elite Trainer Box",
    "productId": 668496,
-   "apiTotalListings": 1916,
-   "matchedListings": 364,
-   "medianAsk": 175.0,
-   "lowAsk": 2.99,
-   "tcgMarket": 158.34,
-   "asOf": "2026-10-07",
+   "apiTotalListings": 2145,
+   "matchedListings": 365,
+   "medianAsk": 168.99,
+   "lowAsk": 5.0,
+   "tcgMarket": 143.98,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      364,
      175.0
+    ],
+    [
+     "2026-10-12",
+     365,
+     168.99
     ]
    ],
    "signal": "needs_history"
@@ -384,17 +474,22 @@
   "h-fpic2": {
    "title": "30th Anniversary First Partner Illustration Collection Series 2",
    "productId": 688712,
-   "apiTotalListings": 26,
-   "matchedListings": 13,
-   "medianAsk": 95.81,
+   "apiTotalListings": 29,
+   "matchedListings": 12,
+   "medianAsk": 100.44,
    "lowAsk": 35.0,
-   "tcgMarket": 24.89,
-   "asOf": "2026-10-07",
+   "tcgMarket": 27.26,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      332,
      34.52
+    ],
+    [
+     "2026-10-12",
+     12,
+     100.44
     ]
    ],
    "signal": "needs_history"
@@ -402,17 +497,22 @@
   "h-greninja": {
    "title": "Chaos Rising Mega Greninja ex Premium Collection",
    "productId": 690660,
-   "apiTotalListings": 181,
-   "matchedListings": 37,
+   "apiTotalListings": 174,
+   "matchedListings": 35,
    "medianAsk": 64.99,
    "lowAsk": 45.99,
-   "tcgMarket": 49.95,
-   "asOf": "2026-10-07",
+   "tcgMarket": 48.75,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      368,
      59.99
+    ],
+    [
+     "2026-10-12",
+     35,
+     64.99
     ]
    ],
    "signal": "needs_history"
@@ -420,17 +520,22 @@
   "h-lumiose": {
    "title": "Lumiose City Mini Tin [Set of 5]",
    "productId": 685580,
-   "apiTotalListings": 94,
-   "matchedListings": 56,
-   "medianAsk": 84.97,
+   "apiTotalListings": 91,
+   "matchedListings": 57,
+   "medianAsk": 84.95,
    "lowAsk": 54.0,
    "tcgMarket": 62.96,
-   "asOf": "2026-10-07",
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      56,
      84.97
+    ],
+    [
+     "2026-10-12",
+     57,
+     84.95
     ]
    ],
    "signal": "needs_history"
@@ -438,17 +543,22 @@
   "s12-box": {
    "title": "Paradigm Trigger Booster Box (Japanese)",
    "productId": 565250,
-   "apiTotalListings": 102,
-   "matchedListings": 38,
-   "medianAsk": 220.87,
-   "lowAsk": 157.1,
-   "tcgMarket": 168.09,
-   "asOf": "2026-10-07",
+   "apiTotalListings": 115,
+   "matchedListings": 39,
+   "medianAsk": 220.58,
+   "lowAsk": 157.12,
+   "tcgMarket": 171.05,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      38,
      220.87
+    ],
+    [
+     "2026-10-12",
+     39,
+     220.58
     ]
    ],
    "signal": "needs_history"
@@ -456,17 +566,22 @@
   "rp-692947": {
    "title": "Pitch Black Elite Trainer Box",
    "productId": 692947,
-   "apiTotalListings": 2775,
-   "matchedListings": 365,
-   "medianAsk": 87.95,
-   "lowAsk": 7.8,
-   "tcgMarket": 65.0,
-   "asOf": "2026-10-07",
+   "apiTotalListings": 2781,
+   "matchedListings": 367,
+   "medianAsk": 79.98,
+   "lowAsk": 8.99,
+   "tcgMarket": 78.2,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      365,
      85.99
+    ],
+    [
+     "2026-10-12",
+     367,
+     79.98
     ]
    ],
    "signal": "needs_history"
@@ -474,16 +589,21 @@
   "rp-668541": {
    "title": "Ascended Heroes Booster Bundle",
    "productId": 668541,
-   "apiTotalListings": 1732,
-   "matchedListings": 311,
+   "apiTotalListings": 1814,
+   "matchedListings": 299,
    "medianAsk": 89.99,
    "lowAsk": 13.47,
-   "tcgMarket": 82.12,
-   "asOf": "2026-10-07",
+   "tcgMarket": 84.11,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      309,
+     89.99
+    ],
+    [
+     "2026-10-12",
+     299,
      89.99
     ]
    ],
@@ -492,17 +612,112 @@
   "pe-etb": {
    "title": "Prismatic Evolutions Elite Trainer Box",
    "productId": 593355,
-   "apiTotalListings": 1924,
-   "matchedListings": 363,
-   "medianAsk": 155.0,
-   "lowAsk": 125.81,
-   "tcgMarket": 133.25,
-   "asOf": "2026-10-07",
+   "apiTotalListings": 1951,
+   "matchedListings": 352,
+   "medianAsk": 150.0,
+   "lowAsk": 24.99,
+   "tcgMarket": 125.03,
+   "asOf": "2026-10-12",
    "history": [
     [
      "2026-10-07",
      363,
      155.0
+    ],
+    [
+     "2026-10-12",
+     352,
+     150.0
+    ]
+   ],
+   "signal": "needs_history"
+  },
+  "kg-117700": {
+   "title": "Triple Power Tin [Shiny Gyarados EX] [XY - BREAKpoint]",
+   "productId": 117700,
+   "apiTotalListings": 0,
+   "matchedListings": 0,
+   "medianAsk": null,
+   "lowAsk": null,
+   "tcgMarket": 397.97,
+   "asOf": "2026-10-12",
+   "history": [
+    [
+     "2026-10-12",
+     0,
+     null
+    ]
+   ],
+   "signal": "needs_history"
+  },
+  "kg-177529": {
+   "title": "Mega Gyarados Collection Box [XY - Steam Siege]",
+   "productId": 177529,
+   "apiTotalListings": 0,
+   "matchedListings": 0,
+   "medianAsk": null,
+   "lowAsk": null,
+   "tcgMarket": 644.46,
+   "asOf": "2026-10-12",
+   "history": [
+    [
+     "2026-10-12",
+     0,
+     null
+    ]
+   ],
+   "signal": "needs_history"
+  },
+  "kg-193436": {
+   "title": "Hidden Fates Tin [Gyarados GX] [Hidden Fates]",
+   "productId": 193436,
+   "apiTotalListings": 77,
+   "matchedListings": 45,
+   "medianAsk": 187.25,
+   "lowAsk": 0.99,
+   "tcgMarket": 167.34,
+   "asOf": "2026-10-12",
+   "history": [
+    [
+     "2026-10-12",
+     45,
+     187.25
+    ]
+   ],
+   "signal": "needs_history"
+  },
+  "kg-270728": {
+   "title": "Pokemon GO Mini Tin [Magikarp] [Pokemon GO]",
+   "productId": 270728,
+   "apiTotalListings": 21,
+   "matchedListings": 2,
+   "medianAsk": 37.13,
+   "lowAsk": 30.27,
+   "tcgMarket": 48.56,
+   "asOf": "2026-10-12",
+   "history": [
+    [
+     "2026-10-12",
+     2,
+     37.13
+    ]
+   ],
+   "signal": "needs_history"
+  },
+  "kg-526914": {
+   "title": "Gyarados ex Premium Collection [Miscellaneous Cards & Products]",
+   "productId": 526914,
+   "apiTotalListings": 5,
+   "matchedListings": 0,
+   "medianAsk": null,
+   "lowAsk": null,
+   "tcgMarket": 125.23,
+   "asOf": "2026-10-12",
+   "history": [
+    [
+     "2026-10-12",
+     0,
+     null
     ]
    ],
    "signal": "needs_history"
