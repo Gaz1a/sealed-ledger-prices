@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-13",
- "fx": 1.1181,
+ "generated": "2026-10-14",
+ "fx": 1.1188,
  "decks": {
   "EX Legend Maker: Illustrated Booklet - Gengar": {
    "id": 695809,
@@ -9,18 +9,18 @@
    "avgEUR": 45,
    "avg7EUR": null,
    "avg30EUR": null,
-   "trendUSD": 44.29,
-   "lowUSD": 43.61
+   "trendUSD": 44.32,
+   "lowUSD": 43.63
   },
   "EX Legend Maker: Illustrated Booklet - Golem": {
    "id": 695810,
    "trendEUR": 110.2,
    "lowEUR": 230,
-   "avgEUR": 39,
+   "avgEUR": 51.82,
    "avg7EUR": null,
    "avg30EUR": null,
-   "trendUSD": 123.21,
-   "lowUSD": 257.16
+   "trendUSD": 123.29,
+   "lowUSD": 257.32
   },
   "EX Legend Maker: Illustrated Booklet - Machamp": {
    "id": 695811,
@@ -29,8 +29,8 @@
    "avgEUR": 11.43,
    "avg7EUR": null,
    "avg30EUR": null,
-   "trendUSD": 17.33,
-   "lowUSD": 10.06
+   "trendUSD": 17.34,
+   "lowUSD": 10.07
   },
   "EX Legend Maker: Illustrated Booklet - Omastar": {
    "id": 698568,
@@ -39,18 +39,18 @@
    "avgEUR": 19.82,
    "avg7EUR": null,
    "avg30EUR": null,
-   "trendUSD": 22.16,
-   "lowUSD": 279.51
+   "trendUSD": 22.17,
+   "lowUSD": 279.69
   },
   "EX Unseen Forces: Illustrated Booklet - Lugia": {
    "id": 698569,
    "trendEUR": 40.72,
-   "lowEUR": 35,
+   "lowEUR": 39.99,
    "avgEUR": 42,
    "avg7EUR": null,
    "avg30EUR": null,
-   "trendUSD": 45.53,
-   "lowUSD": 39.13
+   "trendUSD": 45.56,
+   "lowUSD": 44.74
   },
   "EX Unseen Forces: Illustrated Booklet - Ho-Oh": {
    "id": 755664,
@@ -59,8 +59,8 @@
    "avgEUR": 15.13,
    "avg7EUR": null,
    "avg30EUR": null,
-   "trendUSD": 26.06,
-   "lowUSD": 16.77
+   "trendUSD": 26.08,
+   "lowUSD": 16.78
   },
   "EX Ruby & Sapphire: Illustrated Booklet - Treecko": {
    "id": 755665,
@@ -69,7 +69,7 @@
    "avgEUR": 13.08,
    "avg7EUR": null,
    "avg30EUR": null,
-   "trendUSD": 25.32,
+   "trendUSD": 25.34,
    "lowUSD": 13.41
   },
   "EX Ruby & Sapphire: Illustrated Booklet - Ralts": {
@@ -79,7 +79,7 @@
    "avgEUR": 18.88,
    "avg7EUR": null,
    "avg30EUR": null,
-   "trendUSD": 22.95,
+   "trendUSD": 22.97,
    "lowUSD": 14.54
   },
   "EX Emerald: Illustrated Booklet - Exploud": {
@@ -89,7 +89,7 @@
    "avgEUR": null,
    "avg7EUR": null,
    "avg30EUR": null,
-   "lowUSD": 894.48
+   "lowUSD": 895.04
   },
   "EX Ruby & Sapphire: Illustrated Booklet - Mudkip": {
    "id": 906378,
@@ -98,7 +98,7 @@
    "avgEUR": null,
    "avg7EUR": null,
    "avg30EUR": null,
-   "lowUSD": 447.24
+   "lowUSD": 447.52
   },
   "EX Emerald: Illustrated Booklet - Rayquaza": {
    "id": 906388,
@@ -111,10 +111,11 @@
   "EX Ruby & Sapphire: Illustrated Booklet - Torchic": {
    "id": 906395,
    "trendEUR": null,
-   "lowEUR": null,
+   "lowEUR": 80,
    "avgEUR": null,
    "avg7EUR": null,
-   "avg30EUR": null
+   "avg30EUR": null,
+   "lowUSD": 89.5
   }
  }
 }
