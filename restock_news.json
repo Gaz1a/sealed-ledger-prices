@@ -1,12 +1,66 @@
 {
- "generated": "2026-10-13",
+ "generated": "2026-10-14",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (59 entries, 5 new matches)",
+  "googlenews-reprint": "ok (61 entries, 6 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
+  {
+   "id": "1b09337f4062",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon TCG Delta Reign Booster Bundle preorders are live on Amazon — and they're under market price - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbFNyVEpRSWxvcnh4TDFxTEViS3pCZWJSbXBZU01TNUwyN2ctY0NnWml4WnN6czcxVXNKVGdrMUhrMGI4Y1VpT0VfSkZmNFAybE1NbldvdGFiY3dCNWlkb25IOTlkdE4zZGtScjNQWFI2VnFxWngzbnJBYVgtelZ3VmI2emtuLU84R1JkaFRfUC1WelE?oc=5",
+   "published": "2026-10-14",
+   "firstSeen": "2026-10-14",
+   "classes": [
+    "preorder"
+   ],
+   "matched": [
+    "preorder",
+    "delta reign"
+   ]
+  },
+  {
+   "id": "11dca95c744f",
+   "feed": "googlenews-reprint",
+   "title": "Best Pokémon TCG deal: Preorder 36 packs of Delta Reign for under $270 at Amazon - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON1BIRzRVczF5MEVpVWJ0MWdJZFprUHFYalB0TFdvQzVtU3RReDdQVUI4Z1F3Nm5DUXR0TWQ1bkFnemFYUjJxaXZibG1WU3ZDU2FwTGk0U2JIVmpUZGJMWTRSUlBiZzhGM0ZVdEpyZDF6d1pSVzROQlRIZ0NzWTg0S3Rwc1pjQkpFcFNiN295bGxZN3QzNEc4cGtR?oc=5",
+   "published": "2026-10-14",
+   "firstSeen": "2026-10-14",
+   "classes": [
+    "preorder"
+   ],
+   "matched": [
+    "preorder",
+    "delta reign"
+   ]
+  },
+  {
+   "id": "a7a515304e65",
+   "feed": "googlenews-reprint",
+   "title": "The Pokémon TCG Delta Reign Booster Display Box is way under market price at Walmart — save $30 vs. Amazon - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON0JRU2lIR0EwZXVLNTluNm5oMzVwSDlRWWVJX1dXc1djNEx4WWNwUDZOX3FRMlZ6UGFuTzdVdVNubndLX01YOWxvbFBZTFd2SEdWck5OM1hBZk9DU1h4bW1XNENPNWF1TGVGSk4tMXNZVklZQ2Y3dUxfbkNHQTBVUVdISEJ5STdKRjBDTG1xbDBDQmtWSHNzaGxn?oc=5",
+   "published": "2026-10-14",
+   "firstSeen": "2026-10-14",
+   "classes": [],
+   "matched": [
+    "delta reign"
+   ]
+  },
+  {
+   "id": "e363fa9868f4",
+   "feed": "googlenews-reprint",
+   "title": "Best Pokémon TCG deal: the 30th Celebration Booster Bundle gets a 15% price drop at Walmart - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTXMtUklQREpYTVB0eGtSYTlobkNRTjlLSnhWTzEyYmxhV3ZqM2wxbHRlVHA4ckVXY1VZR1NkU2JQOGZ5Y2k5R1pXa09zVko0UnM3M3NRUGlRS1M2ZFVIMW4zdHF5c0h2eDY1SHBGV2JkczVJOWdNVUFqMExTRjVxSHpqb1NJMTA?oc=5",
+   "published": "2026-10-14",
+   "firstSeen": "2026-10-14",
+   "classes": [],
+   "matched": [
+    "30th celebration"
+   ]
+  },
   {
    "id": "c6807112307c",
    "feed": "googlenews-reprint",
@@ -61,6 +115,21 @@
    ]
   },
   {
+   "id": "6e17fbc4e5fe",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon 30th Celebration Early 2010s Reprints - OTIA Sports",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcDdfZ01JSDVUZmpZZzVfbG16UHdzNTlub3pmZXMycXlZYjJjWEtTSEFydUg4aEdfSWoxbEFGdGhOWFRwTXdqclVQQk43eFRhOWVfWWg1MHNKZG1BanZlZUgxalZFWElLaDNWYS13NW53ZDB3YnE0VmxtUEctaHAtLWF5eTBDSzFJdjhEZGFiaw?oc=5",
+   "published": "2026-10-13",
+   "firstSeen": "2026-10-14",
+   "classes": [
+    "reprint"
+   ],
+   "matched": [
+    "reprint",
+    "30th celebration"
+   ]
+  },
+  {
    "id": "382a662d0087",
    "feed": "googlenews-reprint",
    "title": "Pokémon TCG 30th Celebration Booster Bundles Back in Stock: Amazon Now Costs More Than Resale - Martin Cid Magazine",
@@ -72,6 +141,18 @@
    ],
    "matched": [
     "back in stock",
+    "30th celebration"
+   ]
+  },
+  {
+   "id": "925a70af541f",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon TCG 30th Celebration Mini Tins are now under $35 at Amazon — a new record low - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQmpyZE5Rd2JkZDJUeU5ZTmNkalN2UGg3NEdTREIxb2ktc1JoRF9EdVIwZ3NGRjJPWmhXeWdkVEFvTnEza3lnTHUyV3dXbWdPeXdyQnhQVHp0MGNXMmFKZE54WlBnNDdGaEhVWWtDMDczdUN4bW9VdlpQeXJlYUhocQ?oc=5",
+   "published": "2026-10-12",
+   "firstSeen": "2026-10-14",
+   "classes": [],
+   "matched": [
     "30th celebration"
    ]
   },
