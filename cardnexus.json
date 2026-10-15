@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T10:19:24Z",
+ "generated": "2026-10-15T10:18:13Z",
  "currency": {
   "cm": "EUR",
   "tcg": "USD"
@@ -10,19 +10,19 @@
    "finish": "Standard",
    "cm": {
     "low": 39,
-    "marketValue": 75.83,
-    "change24h": -0.0038,
-    "change7d": -0.0056,
-    "change30d": 0.0177
+    "marketValue": 74.96,
+    "change24h": -0.0115,
+    "change7d": -0.017,
+    "change30d": 0.013
    },
    "tcg": {
-    "low": 72.99,
-    "mid": 90.25,
+    "low": 72.49,
+    "mid": 91.99,
     "high": 1999.99,
-    "marketValue": 82.24,
-    "change24h": -0.0206,
-    "change7d": -0.0201,
-    "change30d": -0.0508
+    "marketValue": 82.16,
+    "change24h": -0.001,
+    "change7d": -0.0211,
+    "change30d": -0.0611
    }
   },
   "c30-etb": {
@@ -31,18 +31,18 @@
    "cm": {
     "low": 80,
     "marketValue": 131.52,
-    "change24h": 0.0076,
+    "change24h": 0,
     "change7d": -0.0024,
-    "change30d": null
+    "change30d": -0.2054
    },
    "tcg": {
-    "low": 124,
-    "mid": 152,
+    "low": 111,
+    "mid": 150,
     "high": 9999.99,
-    "marketValue": 133.43,
-    "change24h": -0.0351,
-    "change7d": -0.1015,
-    "change30d": null
+    "marketValue": 135.11,
+    "change24h": 0.0126,
+    "change7d": -0.0902,
+    "change30d": -0.2008
    }
   },
   "c30-poster": {
@@ -51,18 +51,18 @@
    "cm": {
     "low": 1.99,
     "marketValue": 32.25,
-    "change24h": -0.057,
+    "change24h": 0,
     "change7d": -0.1495,
-    "change30d": null
+    "change30d": -0.2649
    },
    "tcg": {
     "low": 24.99,
     "mid": 42,
     "high": 99.99,
-    "marketValue": 36.72,
-    "change24h": -0.0799,
-    "change7d": -0.0609,
-    "change30d": null
+    "marketValue": 37.06,
+    "change24h": 0.0093,
+    "change7d": -0.0522,
+    "change30d": -0.1575
    }
   },
   "cr-etb": {
@@ -70,19 +70,19 @@
    "finish": "Standard",
    "cm": {
     "low": 44,
-    "marketValue": 62.88,
-    "change24h": 0.0027,
-    "change7d": 0.0079,
-    "change30d": -0.0027
+    "marketValue": 63.14,
+    "change24h": 0.0041,
+    "change7d": 0.012,
+    "change30d": -0.0052
    },
    "tcg": {
     "low": 50,
     "mid": 80,
     "high": 999,
-    "marketValue": 70.52,
-    "change24h": 0.011,
-    "change7d": 0.0125,
-    "change30d": 0.1281
+    "marketValue": 70.9,
+    "change24h": 0.0054,
+    "change7d": 0.0179,
+    "change30d": 0.0582
    }
   },
   "fpic1": {
@@ -91,18 +91,18 @@
    "cm": {
     "low": 28.97,
     "marketValue": 56.28,
-    "change24h": 0.2571,
+    "change24h": 0,
     "change7d": 0.165,
-    "change30d": null
+    "change30d": 0.1754
    },
    "tcg": {
     "low": 59.69,
     "mid": 69.99,
     "high": 333,
-    "marketValue": 62.74,
-    "change24h": -0.0022,
-    "change7d": 0.0436,
-    "change30d": -0.0651
+    "marketValue": 62.9,
+    "change24h": 0.0026,
+    "change7d": 0.0462,
+    "change30d": -0.0438
    }
   },
   "gd01": {
@@ -111,12 +111,12 @@
    "cm": {},
    "tcg": {
     "low": 410,
-    "mid": 451.11,
+    "mid": 456.59,
     "high": 2500,
-    "marketValue": 432.89,
-    "change24h": 0,
-    "change7d": -0.0043,
-    "change30d": -0.0377
+    "marketValue": 432.29,
+    "change24h": -0.0014,
+    "change7d": -0.0057,
+    "change30d": -0.039
    }
   },
   "gy-151-130-165": {
@@ -125,36 +125,36 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.29,
-    "change24h": -0.0938,
+    "change24h": 0,
     "change7d": -0.0938,
-    "change30d": -0.0645
+    "change30d": -0.0333
    },
    "tcg": {
     "low": 0.5,
-    "mid": 1.58,
+    "mid": 1.6,
     "high": 50,
-    "marketValue": 1.53,
-    "change24h": 0.0268,
-    "change7d": 0.1333,
-    "change30d": 0.0479
+    "marketValue": 1.56,
+    "change24h": 0.0196,
+    "change7d": 0.1556,
+    "change30d": 0.0541
    }
   },
   "gy-ancient-origins-20-98": {
    "cnId": 22036,
    "finish": "Standard",
    "cm": {
-    "low": 0.2,
-    "marketValue": 2.14,
-    "change24h": 0,
-    "change7d": -0.0183,
-    "change30d": 1.098
+    "low": 0.1,
+    "marketValue": 2.01,
+    "change24h": -0.0607,
+    "change7d": -0.078,
+    "change30d": 0.9706
    },
    "tcg": {
     "low": 0.25,
     "mid": 1,
     "high": 29.99,
     "marketValue": 1.04,
-    "change24h": -0.028,
+    "change24h": 0,
     "change7d": -0.0459,
     "change30d": -0.0095
    }
@@ -165,18 +165,18 @@
    "cm": {
     "low": 7,
     "marketValue": 89.37,
-    "change24h": -0.0826,
+    "change24h": 0,
     "change7d": 0.9125,
     "change30d": 0.4354
    },
    "tcg": {
     "low": 34.99,
-    "mid": 63.39,
-    "high": 263.35,
-    "marketValue": 64.98,
-    "change24h": 0.0017,
-    "change7d": 0.0085,
-    "change30d": -0.0047
+    "mid": 62.9,
+    "high": 368.16,
+    "marketValue": 64.84,
+    "change24h": -0.0022,
+    "change7d": 0.0064,
+    "change30d": -0.0069
    }
   },
   "gy-base-set-2-7-130": {
@@ -191,9 +191,9 @@
    "tcg": {
     "low": 20,
     "mid": 33.64,
-    "high": 609.4,
+    "high": 620.2,
     "marketValue": 57.44,
-    "change24h": 0.0489,
+    "change24h": 0,
     "change7d": 0.2506,
     "change30d": 0.2085
    }
@@ -203,19 +203,19 @@
    "finish": "Foil",
    "cm": {
     "low": 0.25,
-    "marketValue": 1.94,
-    "change24h": -0.0977,
-    "change7d": -0.1222,
-    "change30d": 0.1149
+    "marketValue": 2.27,
+    "change24h": 0.1701,
+    "change7d": 0.0271,
+    "change30d": 0.3046
    },
    "tcg": {
     "low": 1,
     "mid": 3,
-    "high": 10,
-    "marketValue": 2.96,
-    "change24h": 0.0137,
-    "change7d": 0.0242,
-    "change30d": -0.0067
+    "high": 18.54,
+    "marketValue": 3,
+    "change24h": 0.0135,
+    "change7d": 0.0381,
+    "change30d": -0.0033
    }
   },
   "gy-call-of-legends-7-95": {
@@ -230,10 +230,10 @@
    },
    "tcg": {
     "low": 60,
-    "mid": 134.4,
-    "high": 350,
+    "mid": 144.39,
+    "high": 859.62,
     "marketValue": 91.4,
-    "change24h": 0.0091,
+    "change24h": 0,
     "change7d": 0.0513,
     "change30d": 0.106
    }
@@ -242,20 +242,20 @@
    "cnId": 19706,
    "finish": "Foil",
    "cm": {
-    "low": 3,
-    "marketValue": 6.04,
-    "change24h": -0.0179,
-    "change7d": -0.0336,
+    "low": 2.5,
+    "marketValue": 6.05,
+    "change24h": 0.0017,
+    "change7d": -0.032,
     "change30d": null
    },
    "tcg": {
-    "low": 3.8,
-    "mid": 6.58,
+    "low": 3.67,
+    "mid": 6.6,
     "high": 8888,
-    "marketValue": 5.46,
-    "change24h": 0.112,
-    "change7d": 0.1617,
-    "change30d": -0.0945
+    "marketValue": 5.34,
+    "change24h": -0.022,
+    "change7d": 0.1362,
+    "change30d": -0.1159
    }
   },
   "gy-destined-rivals-misty-s-49-182": {
@@ -263,19 +263,19 @@
    "finish": "Foil",
    "cm": {
     "low": 3.99,
-    "marketValue": 24.01,
-    "change24h": 0,
-    "change7d": 0.1488,
+    "marketValue": 22.29,
+    "change24h": -0.0716,
+    "change7d": 0.0665,
     "change30d": null
    },
    "tcg": {
-    "low": 12.67,
-    "mid": 17,
-    "high": 271.5,
+    "low": 11.99,
+    "mid": 16.98,
+    "high": 260.64,
     "marketValue": 14.14,
-    "change24h": -0.0091,
+    "change24h": 0,
     "change7d": -0.0381,
-    "change30d": -0.0215
+    "change30d": -0.0126
    }
   },
   "gy-dragon-majesty-20-70": {
@@ -284,18 +284,18 @@
    "cm": {
     "low": 4.89,
     "marketValue": 5.73,
-    "change24h": -0.0976,
+    "change24h": 0,
     "change7d": -0.1171,
-    "change30d": 0.0591
+    "change30d": -0.1089
    },
    "tcg": {
     "low": 1.35,
-    "mid": 3.13,
-    "high": 9.98,
-    "marketValue": 3.07,
-    "change24h": 0.0066,
-    "change7d": 0.0199,
-    "change30d": -0.0129
+    "mid": 3.14,
+    "high": 33.02,
+    "marketValue": 3.04,
+    "change24h": -0.0098,
+    "change7d": 0.01,
+    "change30d": -0.0225
    }
   },
   "gy-dragons-exalted-24-124": {
@@ -306,16 +306,16 @@
     "marketValue": 8.08,
     "change24h": 0,
     "change7d": 0.6798,
-    "change30d": 0.3765
+    "change30d": 0.2928
    },
    "tcg": {
     "low": 1.85,
-    "mid": 3.34,
-    "high": 15,
+    "mid": 3.37,
+    "high": 32.92,
     "marketValue": 3.17,
     "change24h": 0,
     "change7d": 0.0259,
-    "change30d": 0.0673
+    "change30d": 0.0532
    }
   },
   "gy-evolutions-34-108": {
@@ -323,19 +323,19 @@
    "finish": "Foil",
    "cm": {
     "low": 2,
-    "marketValue": 12.82,
-    "change24h": 0.1937,
-    "change7d": 0.5866,
-    "change30d": 0.1128
+    "marketValue": 12.41,
+    "change24h": -0.032,
+    "change7d": 0.5359,
+    "change30d": 0.0773
    },
    "tcg": {
     "low": 4.25,
     "mid": 9,
     "high": 9999,
-    "marketValue": 8.51,
-    "change24h": 0,
-    "change7d": 0.0442,
-    "change30d": -0.0689
+    "marketValue": 8.76,
+    "change24h": 0.0294,
+    "change7d": 0.0748,
+    "change30d": -0.0416
    }
   },
   "gy-ex-deoxys-8-107": {
@@ -343,10 +343,10 @@
    "finish": "Standard",
    "cm": {
     "low": 8,
-    "marketValue": 153.22,
-    "change24h": 0,
-    "change7d": 1.33,
-    "change30d": 1.5877
+    "marketValue": 149.62,
+    "change24h": -0.0235,
+    "change7d": 1.2752,
+    "change30d": 1.5269
    },
    "tcg": {
     "low": 89.99,
@@ -363,14 +363,14 @@
    "finish": "Standard",
    "cm": {
     "low": 0.7,
-    "marketValue": 25.8,
-    "change24h": -0.0373,
-    "change7d": -0.1825,
-    "change30d": 6.7946
+    "marketValue": 25.5,
+    "change24h": -0.0116,
+    "change7d": -0.192,
+    "change30d": 6.7039
    },
    "tcg": {
     "low": 11.99,
-    "mid": 26.76,
+    "mid": 30,
     "high": 166.68,
     "marketValue": 20.49,
     "change24h": 0,
@@ -384,7 +384,7 @@
    "cm": {
     "low": 30,
     "marketValue": 291.16,
-    "change24h": -0.048,
+    "change24h": 0,
     "change7d": -0.2739,
     "change30d": 0.056
    },
@@ -403,19 +403,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.1,
-    "marketValue": 1.68,
-    "change24h": -0.0289,
-    "change7d": -0.0508,
-    "change30d": -0.04
+    "marketValue": 1.56,
+    "change24h": -0.0714,
+    "change7d": -0.1186,
+    "change30d": -0.1236
    },
    "tcg": {
     "low": 0.4,
-    "mid": 1.08,
+    "mid": 1.1,
     "high": 28.2,
     "marketValue": 1.18,
     "change24h": 0,
     "change7d": 0,
-    "change30d": -0.0084
+    "change30d": 0.0172
    }
   },
   "gy-gym-challenge-giovanni-s-5-132": {
@@ -448,7 +448,7 @@
    },
    "tcg": {
     "low": 400,
-    "mid": 3499.99,
+    "mid": 3769.99,
     "high": 9999,
     "marketValue": 425,
     "change24h": 0,
@@ -462,18 +462,18 @@
    "cm": {
     "low": 3,
     "marketValue": 15.1,
-    "change24h": -0.0953,
+    "change24h": 0,
     "change7d": -0.1825,
-    "change30d": -0.281
+    "change30d": -0.1951
    },
    "tcg": {
     "low": 28.99,
-    "mid": 60.86,
-    "high": 539.27,
-    "marketValue": 60.65,
-    "change24h": 0,
-    "change7d": -0.0035,
-    "change30d": -0.0035
+    "mid": 64.67,
+    "high": 539.52,
+    "marketValue": 60.83,
+    "change24h": 0.003,
+    "change7d": -0.0005,
+    "change30d": -0.0005
    }
   },
   "gy-legendary-collection-12-110": {
@@ -481,15 +481,15 @@
    "finish": "Foil",
    "cm": {
     "low": 12,
-    "marketValue": 834.27,
-    "change24h": -0.0428,
-    "change7d": -0.1071,
-    "change30d": 2.1289
+    "marketValue": 820.31,
+    "change24h": -0.0167,
+    "change7d": -0.122,
+    "change30d": 2.0766
    },
    "tcg": {
     "low": 22,
-    "mid": 35.63,
-    "high": 58.2,
+    "mid": 35.96,
+    "high": 302.32,
     "marketValue": 50.97,
     "change24h": 0,
     "change7d": 0,
@@ -508,12 +508,12 @@
    },
    "tcg": {
     "low": 0.25,
-    "mid": 1.75,
+    "mid": 1.76,
     "high": 49.99,
-    "marketValue": 1.72,
-    "change24h": 0,
-    "change7d": 0.0299,
-    "change30d": 0.0424
+    "marketValue": 1.73,
+    "change24h": 0.0058,
+    "change7d": 0.0359,
+    "change30d": 0.0485
    }
   },
   "gy-mysterious-treasures-26-123": {
@@ -524,12 +524,12 @@
     "marketValue": 2.41,
     "change24h": 0,
     "change7d": -0.0906,
-    "change30d": -0.1913
+    "change30d": -0.0659
    },
    "tcg": {
-    "low": 7.28,
-    "mid": 13.68,
-    "high": 34.98,
+    "low": 7.38,
+    "mid": 14.08,
+    "high": 141.52,
     "marketValue": 13.67,
     "change24h": 0,
     "change7d": -0.0022,
@@ -550,7 +550,7 @@
     "mid": 3449,
     "high": 3452.99,
     "marketValue": 793.16,
-    "change24h": 0.0136,
+    "change24h": 0,
     "change7d": 0.0136,
     "change30d": 0.1037
    }
@@ -560,19 +560,19 @@
    "finish": "Foil",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.3,
-    "change24h": 0.2,
-    "change7d": 0.1538,
-    "change30d": 0.0714
+    "marketValue": 0.29,
+    "change24h": -0.0333,
+    "change7d": 0.1154,
+    "change30d": 0.0357
    },
    "tcg": {
     "low": 0.1,
-    "mid": 0.36,
-    "high": 7.39,
-    "marketValue": 0.34,
-    "change24h": -0.0286,
-    "change7d": -0.0286,
-    "change30d": -0.0556
+    "mid": 0.35,
+    "high": 19.8,
+    "marketValue": 0.36,
+    "change24h": 0.0588,
+    "change7d": 0.0286,
+    "change30d": 0.0909
    }
   },
   "gy-pokemon-go-22-078": {
@@ -580,19 +580,19 @@
    "finish": "Reverse Holo",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.25,
-    "change24h": 0.0417,
-    "change7d": 0.1905,
-    "change30d": -0.1935
+    "marketValue": 0.24,
+    "change24h": -0.04,
+    "change7d": 0.1429,
+    "change30d": -0.2258
    },
    "tcg": {
     "low": 0.2,
     "mid": 0.75,
     "high": 25,
-    "marketValue": 0.75,
-    "change24h": -0.026,
-    "change7d": -0.1279,
-    "change30d": 0.0417
+    "marketValue": 0.76,
+    "change24h": 0.0133,
+    "change7d": -0.1163,
+    "change30d": 0.0411
    }
   },
   "gy-rebel-clash-40-192": {
@@ -601,18 +601,18 @@
    "cm": {
     "low": 0.5,
     "marketValue": 1.49,
-    "change24h": -0.057,
+    "change24h": 0,
     "change7d": -0.1024,
     "change30d": 0.0276
    },
    "tcg": {
     "low": 1.59,
-    "mid": 2.82,
+    "mid": 2.83,
     "high": 96.95,
-    "marketValue": 2.81,
-    "change24h": 0,
-    "change7d": 0.0181,
-    "change30d": 0.0524
+    "marketValue": 2.82,
+    "change24h": 0.0036,
+    "change7d": 0.0217,
+    "change30d": 0.0217
    }
   },
   "gy-skyridge-11-144": {
@@ -621,7 +621,7 @@
    "cm": {
     "low": 29.99,
     "marketValue": 52.73,
-    "change24h": 0.0384,
+    "change24h": 0,
     "change7d": 0.0388,
     "change30d": null
    },
@@ -659,15 +659,15 @@
    "finish": "Standard",
    "cm": {
     "low": 0.45,
-    "marketValue": 2.98,
-    "change24h": 0.1779,
-    "change7d": 0.307,
-    "change30d": 0.1506
+    "marketValue": 3.47,
+    "change24h": 0.1644,
+    "change7d": 0.5219,
+    "change30d": 0.5422
    },
    "tcg": {
-    "low": 6.42,
-    "mid": 10.98,
-    "high": 15.99,
+    "low": 6.99,
+    "mid": 15,
+    "high": 229.82,
     "marketValue": 16.75,
     "change24h": 0,
     "change7d": 0,
@@ -679,19 +679,19 @@
    "finish": "Standard",
    "cm": {
     "low": 3,
-    "marketValue": 19.94,
-    "change24h": 0.2122,
-    "change7d": 0.2278,
-    "change30d": -0.0221
+    "marketValue": 20.04,
+    "change24h": 0.005,
+    "change7d": 0.234,
+    "change30d": 0.0091
    },
    "tcg": {
     "low": 21.39,
-    "mid": 47.5,
-    "high": 296.75,
+    "mid": 47.99,
+    "high": 297,
     "marketValue": 32.84,
     "change24h": 0,
     "change7d": -0.0129,
-    "change30d": 0.0071
+    "change30d": 0.0015
    }
   },
   "gy-team-rocket-dark-gyarados-8-82": {
@@ -704,9 +704,9 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 149.35,
-    "mid": 221.09,
-    "high": 1494.56,
+    "low": 142,
+    "mid": 228.87,
+    "high": 3302.79,
     "marketValue": 222.18,
     "change24h": 0,
     "change7d": 0,
@@ -718,39 +718,39 @@
    "finish": "Foil",
    "cm": {
     "low": 2.36,
-    "marketValue": 7.1,
-    "change24h": 0,
-    "change7d": 0.0457,
-    "change30d": 0.0613
+    "marketValue": 7.15,
+    "change24h": 0.007,
+    "change7d": 0.053,
+    "change30d": 0.0688
    },
    "tcg": {
     "low": 6.25,
-    "mid": 10.94,
+    "mid": 11.09,
     "high": 136.68,
-    "marketValue": 11.23,
-    "change24h": 0,
-    "change7d": -0.014,
-    "change30d": 0.0054
+    "marketValue": 11.53,
+    "change24h": 0.0267,
+    "change7d": 0.0123,
+    "change30d": 0.0322
    }
   },
   "h-fpic3": {
    "cnId": 251625,
    "finish": "Standard",
    "cm": {
-    "low": 17.95,
-    "marketValue": 29.37,
-    "change24h": -0.0291,
-    "change7d": -0.0464,
-    "change30d": null
+    "low": 17,
+    "marketValue": 29.21,
+    "change24h": -0.0054,
+    "change7d": -0.0516,
+    "change30d": -0.1249
    },
    "tcg": {
-    "low": 21.5,
-    "mid": 30.06,
+    "low": 21.21,
+    "mid": 30.29,
     "high": 100,
-    "marketValue": 24.16,
-    "change24h": 0.019,
-    "change7d": -0.0151,
-    "change30d": null
+    "marketValue": 24.67,
+    "change24h": 0.0211,
+    "change7d": 0.0057,
+    "change30d": -0.1246
    }
   },
   "k-001": {
@@ -758,19 +758,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 9.62,
-    "change24h": -0.0437,
-    "change7d": -0.0856,
-    "change30d": 1.3406
+    "marketValue": 9.07,
+    "change24h": -0.0572,
+    "change7d": -0.1378,
+    "change30d": 1.9641
    },
    "tcg": {
     "low": 0.4,
-    "mid": 2.13,
+    "mid": 2.09,
     "high": 74.99,
-    "marketValue": 3.63,
-    "change24h": 0.2264,
-    "change7d": 0.0313,
-    "change30d": 0.1902
+    "marketValue": 3.67,
+    "change24h": 0.011,
+    "change7d": 0.0426,
+    "change30d": -0.1135
    }
   },
   "k-002": {
@@ -779,18 +779,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 7.09,
-    "change24h": 0.404,
+    "change24h": 0,
     "change7d": 0.2161,
-    "change30d": 0.7084
+    "change30d": 0.8179
    },
    "tcg": {
     "low": 0.7,
-    "mid": 3.11,
+    "mid": 3.22,
     "high": 250,
-    "marketValue": 6.31,
-    "change24h": 0.0993,
-    "change7d": 0.1621,
-    "change30d": -0.2286
+    "marketValue": 6.45,
+    "change24h": 0.0222,
+    "change7d": 0.1878,
+    "change30d": -0.0825
    }
   },
   "k-003": {
@@ -807,7 +807,7 @@
     "mid": 129.99,
     "high": 1199,
     "marketValue": 168.18,
-    "change24h": -0.0047,
+    "change24h": 0,
     "change7d": -0.0104,
     "change30d": -0.0739
    }
@@ -817,19 +817,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 4.85,
-    "change24h": -0.0727,
-    "change7d": 0.5109,
-    "change30d": 1.2664
+    "marketValue": 5.44,
+    "change24h": 0.1216,
+    "change7d": 0.6947,
+    "change30d": 2.942
    },
    "tcg": {
     "low": 0.25,
     "mid": 1.5,
     "high": 100,
-    "marketValue": 3.34,
-    "change24h": -0.006,
-    "change7d": -0.199,
-    "change30d": -0.0849
+    "marketValue": 3.31,
+    "change24h": -0.009,
+    "change7d": -0.2062,
+    "change30d": -0.0907
    }
   },
   "k-005": {
@@ -838,58 +838,58 @@
    "cm": {
     "low": 0.02,
     "marketValue": 2.89,
-    "change24h": 0.2298,
+    "change24h": 0,
     "change7d": -0.0796,
-    "change30d": -0.0334
+    "change30d": 0.2902
    },
    "tcg": {
     "low": 0.33,
-    "mid": 1.44,
+    "mid": 1.5,
     "high": 39.99,
-    "marketValue": 4.96,
-    "change24h": 0.004,
-    "change7d": 0.4631,
-    "change30d": 0.3333
+    "marketValue": 4.89,
+    "change24h": -0.0141,
+    "change7d": 0.4425,
+    "change30d": -0.0181
    }
   },
   "k-007": {
    "cnId": 16010,
    "finish": "Standard",
    "cm": {
-    "low": 0.03,
+    "low": 0.02,
     "marketValue": 9.6,
-    "change24h": -0.1696,
+    "change24h": 0,
     "change7d": 0.1456,
-    "change30d": -0.1028
+    "change30d": 0.0356
    },
    "tcg": {
     "low": 0.75,
     "mid": 3.99,
     "high": 100,
-    "marketValue": 6.7,
-    "change24h": 0.0355,
-    "change7d": 0.1964,
-    "change30d": 0.0841
+    "marketValue": 6.8,
+    "change24h": 0.0149,
+    "change7d": 0.2143,
+    "change30d": 0.1075
    }
   },
   "k-008": {
    "cnId": 15956,
    "finish": "Standard",
    "cm": {
-    "low": 0.09,
+    "low": 0.07,
     "marketValue": 7.08,
-    "change24h": 0.2598,
+    "change24h": 0,
     "change7d": 0.1879,
-    "change30d": -0.3444
+    "change30d": -0.2602
    },
    "tcg": {
     "low": 0.7,
     "mid": 3,
     "high": 96.89,
-    "marketValue": 5.71,
-    "change24h": 0.1701,
-    "change7d": 0.2306,
-    "change30d": 0.0939
+    "marketValue": 5.68,
+    "change24h": -0.0053,
+    "change7d": 0.2241,
+    "change30d": 0.0737
    }
   },
   "k-009": {
@@ -902,11 +902,11 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 130.99,
-    "mid": 182.83,
-    "high": 974.99,
+    "low": 120,
+    "mid": 179.99,
+    "high": 1580.54,
     "marketValue": 226.58,
-    "change24h": 0.0018,
+    "change24h": 0,
     "change7d": 0.0239,
     "change30d": 0.0076
    }
@@ -917,18 +917,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 2.36,
-    "change24h": -0.1945,
+    "change24h": 0,
     "change7d": -0.2288,
-    "change30d": 0.4479
+    "change30d": 0.2757
    },
    "tcg": {
     "low": 0.37,
     "mid": 0.85,
     "high": 40,
-    "marketValue": 1.18,
-    "change24h": -0.0084,
-    "change7d": 0.0536,
-    "change30d": -0.1511
+    "marketValue": 1.17,
+    "change24h": -0.0085,
+    "change7d": 0.0446,
+    "change30d": -0.1333
    }
   },
   "k-011": {
@@ -937,18 +937,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 2.3,
-    "change24h": -0.0535,
+    "change24h": 0,
     "change7d": 0.2778,
-    "change30d": 0.1795
+    "change30d": 0.2637
    },
    "tcg": {
     "low": 0.25,
-    "mid": 0.87,
+    "mid": 0.9,
     "high": 1000,
-    "marketValue": 1.38,
-    "change24h": -0.035,
-    "change7d": -0.1321,
-    "change30d": 0.1311
+    "marketValue": 1.37,
+    "change24h": -0.0072,
+    "change7d": -0.1384,
+    "change30d": 0.1138
    }
   },
   "k-012": {
@@ -957,18 +957,18 @@
    "cm": {
     "low": 0.05,
     "marketValue": 2.46,
-    "change24h": 0.1233,
+    "change24h": 0,
     "change7d": 0.1884,
-    "change30d": -0.0538
+    "change30d": -0.004
    },
    "tcg": {
     "low": 3,
-    "mid": 8,
-    "high": 148.48,
-    "marketValue": 12.38,
-    "change24h": 0,
-    "change7d": -0.0206,
-    "change30d": -0.1361
+    "mid": 9.84,
+    "high": 159.52,
+    "marketValue": 11.91,
+    "change24h": -0.038,
+    "change7d": -0.0578,
+    "change30d": -0.1947
    }
   },
   "k-013": {
@@ -976,19 +976,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.35,
-    "change24h": 0.4516,
-    "change7d": 0.4674,
-    "change30d": 0.8
+    "marketValue": 1.63,
+    "change24h": 0.2074,
+    "change7d": 0.7717,
+    "change30d": 0.4954
    },
    "tcg": {
     "low": 0.2,
-    "mid": 0.5,
+    "mid": 0.54,
     "high": 80,
-    "marketValue": 0.68,
-    "change24h": 0,
-    "change7d": -0.0286,
-    "change30d": -0.0556
+    "marketValue": 0.67,
+    "change24h": -0.0147,
+    "change7d": -0.0429,
+    "change30d": -0.0429
    }
   },
   "k-014": {
@@ -997,38 +997,38 @@
    "cm": {
     "low": 0.02,
     "marketValue": 3.37,
-    "change24h": -0.0867,
+    "change24h": 0,
     "change7d": 0.428,
-    "change30d": 2.036
+    "change30d": 2.37
    },
    "tcg": {
     "low": 0.2,
     "mid": 1,
     "high": 15.88,
-    "marketValue": 1.53,
-    "change24h": 0.0408,
-    "change7d": 0.125,
-    "change30d": -0.2234
+    "marketValue": 1.5,
+    "change24h": -0.0196,
+    "change7d": 0.1029,
+    "change30d": -0.2105
    }
   },
   "k-015": {
    "cnId": 16234,
    "finish": "Standard",
    "cm": {
-    "low": 0.15,
-    "marketValue": 6.59,
-    "change24h": 0.0477,
-    "change7d": -0.0075,
-    "change30d": 0.0329
+    "low": 0.1,
+    "marketValue": 5.93,
+    "change24h": -0.1002,
+    "change7d": -0.1069,
+    "change30d": -0.0133
    },
    "tcg": {
     "low": 2,
-    "mid": 4.1,
+    "mid": 4.05,
     "high": 9999,
-    "marketValue": 5.93,
-    "change24h": -0.0326,
-    "change7d": 0.1295,
-    "change30d": 0.0723
+    "marketValue": 6.06,
+    "change24h": 0.0219,
+    "change7d": 0.1543,
+    "change30d": -0.0098
    }
   },
   "k-016": {
@@ -1039,36 +1039,36 @@
     "marketValue": 0.02,
     "change24h": 0,
     "change7d": -0.994,
-    "change30d": -0.9896
+    "change30d": -0.9901
    },
    "tcg": {
     "low": 0.33,
-    "mid": 1,
+    "mid": 1.08,
     "high": 59.99,
-    "marketValue": 2.86,
-    "change24h": -0.0035,
-    "change7d": 0.2068,
-    "change30d": 0.7987
+    "marketValue": 2.84,
+    "change24h": -0.007,
+    "change7d": 0.1983,
+    "change30d": 0.7975
    }
   },
   "k-017": {
    "cnId": 16808,
    "finish": "Standard",
    "cm": {
-    "low": 0.49,
-    "marketValue": 8.59,
-    "change24h": 0.013,
-    "change7d": -0.0294,
-    "change30d": -0.4631
+    "low": 0.74,
+    "marketValue": 9.31,
+    "change24h": 0.0838,
+    "change7d": 0.052,
+    "change30d": -0.3499
    },
    "tcg": {
-    "low": 6.48,
-    "mid": 8.9,
-    "high": 95.93,
-    "marketValue": 9.28,
-    "change24h": -0.0128,
-    "change7d": -0.0293,
-    "change30d": -0.1094
+    "low": 5.99,
+    "mid": 8.97,
+    "high": 106.52,
+    "marketValue": 9.2,
+    "change24h": -0.0086,
+    "change7d": -0.0377,
+    "change30d": -0.112
    }
   },
   "k-018": {
@@ -1082,8 +1082,8 @@
    },
    "tcg": {
     "low": 79.99,
-    "mid": 150,
-    "high": 504.99,
+    "mid": 176.49,
+    "high": 1414.12,
     "marketValue": 169.43,
     "change24h": 0,
     "change7d": 0.0082,
@@ -1095,19 +1095,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.26,
-    "change24h": -0.2778,
-    "change7d": -0.7636,
-    "change30d": -0.7292
+    "marketValue": 0.06,
+    "change24h": -0.7692,
+    "change7d": -0.9455,
+    "change30d": -0.9757
    },
    "tcg": {
     "low": 0.15,
-    "mid": 0.62,
-    "high": 15.4,
-    "marketValue": 0.81,
-    "change24h": -0.0241,
-    "change7d": -0.1,
-    "change30d": -0.129
+    "mid": 0.65,
+    "high": 18.14,
+    "marketValue": 0.73,
+    "change24h": -0.0988,
+    "change7d": -0.1889,
+    "change30d": -0.2065
    }
   },
   "k-020": {
@@ -1115,19 +1115,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.05,
-    "marketValue": 4.3,
-    "change24h": -0.0909,
-    "change7d": 0.6863,
-    "change30d": 0.1622
+    "marketValue": 4.42,
+    "change24h": 0.0279,
+    "change7d": 0.7333,
+    "change30d": 0.1162
    },
    "tcg": {
     "low": 0.6,
-    "mid": 1.68,
+    "mid": 1.71,
     "high": 96.95,
-    "marketValue": 2.38,
-    "change24h": -0.0083,
-    "change7d": -0.0083,
-    "change30d": -0.1019
+    "marketValue": 2.34,
+    "change24h": -0.0168,
+    "change7d": -0.025,
+    "change30d": -0.117
    }
   },
   "k-021": {
@@ -1136,9 +1136,9 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.06,
-    "change24h": -0.0783,
+    "change24h": 0,
     "change7d": -0.3497,
-    "change30d": 0.2471
+    "change30d": 0.2927
    },
    "tcg": {
     "low": 0.16,
@@ -1147,7 +1147,7 @@
     "marketValue": 2.13,
     "change24h": 0,
     "change7d": 0.0047,
-    "change30d": -0.0229
+    "change30d": -0.0184
    }
   },
   "k-022": {
@@ -1155,19 +1155,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.32,
-    "change24h": -0.1141,
-    "change7d": 0.0909,
-    "change30d": -0.0959
+    "marketValue": 1.24,
+    "change24h": -0.0606,
+    "change7d": 0.0248,
+    "change30d": -0.0606
    },
    "tcg": {
-    "low": 1.6,
-    "mid": 3.99,
+    "low": 1.8,
+    "mid": 4,
     "high": 104.76,
-    "marketValue": 4.11,
-    "change24h": 0,
-    "change7d": 0.0301,
-    "change30d": -0.0397
+    "marketValue": 4.12,
+    "change24h": 0.0024,
+    "change7d": 0.0326,
+    "change30d": -0.0463
    }
   },
   "k-023": {
@@ -1176,18 +1176,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.72,
-    "change24h": 0.2,
+    "change24h": 0,
     "change7d": 0.3333,
-    "change30d": -0.1
+    "change30d": -0.1111
    },
    "tcg": {
     "low": 0.54,
-    "mid": 1.69,
+    "mid": 1.7,
     "high": 39.99,
-    "marketValue": 1.68,
-    "change24h": 0,
-    "change7d": 0.0307,
-    "change30d": -0.0718
+    "marketValue": 1.66,
+    "change24h": -0.0119,
+    "change7d": 0.0184,
+    "change30d": -0.0778
    }
   },
   "k-024": {
@@ -1195,19 +1195,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 2.12,
-    "change24h": 0.0653,
-    "change7d": 0.191,
-    "change30d": 105
+    "marketValue": 2.2,
+    "change24h": 0.0377,
+    "change7d": 0.236,
+    "change30d": 109
    },
    "tcg": {
     "low": 1,
     "mid": 5,
     "high": 96.95,
-    "marketValue": 4.64,
-    "change24h": 0,
-    "change7d": -0.0701,
-    "change30d": -0.2254
+    "marketValue": 4.7,
+    "change24h": 0.0129,
+    "change7d": -0.0581,
+    "change30d": -0.2154
    }
   },
   "k-025": {
@@ -1216,18 +1216,18 @@
    "cm": {
     "low": 0.1,
     "marketValue": 31.96,
-    "change24h": -0.1495,
+    "change24h": 0,
     "change7d": -0.3319,
-    "change30d": 1.9081
+    "change30d": 2.1896
    },
    "tcg": {
-    "low": 2.27,
-    "mid": 6.28,
+    "low": 2.98,
+    "mid": 6.18,
     "high": 1000,
-    "marketValue": 11.73,
-    "change24h": 0.02,
-    "change7d": -0.0306,
-    "change30d": -0.1555
+    "marketValue": 11.02,
+    "change24h": -0.0605,
+    "change7d": -0.0893,
+    "change30d": -0.2195
    }
   },
   "k-026": {
@@ -1241,12 +1241,12 @@
    },
    "tcg": {
     "low": 42,
-    "mid": 61,
-    "high": 159.99,
-    "marketValue": 64.12,
-    "change24h": -0.0146,
-    "change7d": -0.0224,
-    "change30d": -0.1542
+    "mid": 57.89,
+    "high": 392.12,
+    "marketValue": 63.54,
+    "change24h": -0.009,
+    "change7d": -0.0313,
+    "change30d": -0.1619
    }
   },
   "k-027": {
@@ -1254,19 +1254,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.05,
-    "marketValue": 0.94,
-    "change24h": 0,
-    "change7d": -0.0309,
-    "change30d": 0.6491
+    "marketValue": 0.88,
+    "change24h": -0.0638,
+    "change7d": -0.0928,
+    "change30d": 0.5439
    },
    "tcg": {
-    "low": 0.24,
+    "low": 0.23,
     "mid": 0.5,
-    "high": 2.29,
+    "high": 19.8,
     "marketValue": 0.48,
     "change24h": 0,
     "change7d": -0.0943,
-    "change30d": -0.1273
+    "change30d": -0.1429
    }
   },
   "k-028": {
@@ -1274,19 +1274,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.05,
-    "marketValue": 1.87,
-    "change24h": 0.1065,
-    "change7d": 0.5847,
-    "change30d": 0.0219
+    "marketValue": 1.88,
+    "change24h": 0.0053,
+    "change7d": 0.5932,
+    "change30d": 0.093
    },
    "tcg": {
     "low": 1.5,
-    "mid": 4.03,
+    "mid": 4,
     "high": 96.95,
     "marketValue": 6.39,
     "change24h": 0,
     "change7d": 0.0527,
-    "change30d": -0.0477
+    "change30d": -0.0362
    }
   },
   "k-029": {
@@ -1294,19 +1294,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.46,
-    "change24h": -0.0701,
-    "change7d": -0.0331,
-    "change30d": 0.1967
+    "marketValue": 1.33,
+    "change24h": -0.089,
+    "change7d": -0.1192,
+    "change30d": -0.0292
    },
    "tcg": {
     "low": 0.99,
-    "mid": 9.77,
-    "high": 122.24,
-    "marketValue": 10.82,
-    "change24h": 0.133,
-    "change7d": -0.0064,
-    "change30d": -0.0305
+    "mid": 9,
+    "high": 117.35,
+    "marketValue": 9.49,
+    "change24h": -0.1229,
+    "change7d": -0.1286,
+    "change30d": -0.1496
    }
   },
   "k-030": {
@@ -1314,19 +1314,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.35,
-    "change24h": 0.1441,
-    "change7d": 0.2981,
-    "change30d": 0.1441
+    "marketValue": 1.29,
+    "change24h": -0.0444,
+    "change7d": 0.2404,
+    "change30d": 0.1121
    },
    "tcg": {
     "low": 1.02,
-    "mid": 3.12,
-    "high": 42.67,
+    "mid": 3.14,
+    "high": 40.96,
     "marketValue": 3.72,
-    "change24h": 0.0136,
+    "change24h": 0,
     "change7d": 0.0109,
-    "change30d": -0.0412
+    "change30d": -0.0287
    }
   },
   "k-031": {
@@ -1340,12 +1340,12 @@
    },
    "tcg": {
     "low": 70,
-    "mid": 114,
-    "high": 706.99,
-    "marketValue": 121.28,
-    "change24h": 0,
-    "change7d": 0,
-    "change30d": 0.0656
+    "mid": 128.56,
+    "high": 989.82,
+    "marketValue": 121.59,
+    "change24h": 0.0026,
+    "change7d": 0.0026,
+    "change30d": 0.0684
    }
   },
   "k-032": {
@@ -1353,19 +1353,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 4.79,
-    "change24h": -0.0515,
-    "change7d": 0.1626,
-    "change30d": 0.7046
+    "marketValue": 4.61,
+    "change24h": -0.0376,
+    "change7d": 0.1189,
+    "change30d": 0.7529
    },
    "tcg": {
     "low": 0.25,
     "mid": 1.53,
     "high": 96.95,
-    "marketValue": 2.82,
-    "change24h": 0.1016,
-    "change7d": 0.0108,
-    "change30d": -0.1132
+    "marketValue": 2.69,
+    "change24h": -0.0461,
+    "change7d": -0.0358,
+    "change30d": -0.1672
    }
   },
   "k-033": {
@@ -1373,19 +1373,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 6.79,
-    "change24h": -0.049,
-    "change7d": -0.2105,
-    "change30d": 0.2018
+    "marketValue": 6.27,
+    "change24h": -0.0766,
+    "change7d": -0.2709,
+    "change30d": 0.1463
    },
    "tcg": {
     "low": 0.5,
-    "mid": 1.94,
+    "mid": 1.97,
     "high": 96.95,
-    "marketValue": 4.2,
-    "change24h": -0.0118,
-    "change7d": -0.0164,
-    "change30d": -0.0278
+    "marketValue": 4.24,
+    "change24h": 0.0095,
+    "change7d": -0.007,
+    "change30d": -0.0959
    }
   },
   "k-034": {
@@ -1398,13 +1398,13 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 21,
-    "mid": 33.15,
+    "low": 20,
+    "mid": 33.25,
     "high": 388.88,
-    "marketValue": 38.08,
-    "change24h": -0.0044,
-    "change7d": -0.0181,
-    "change30d": -0.0315
+    "marketValue": 40.09,
+    "change24h": 0.0528,
+    "change7d": 0.0338,
+    "change30d": 0.0175
    }
   },
   "k-035": {
@@ -1418,12 +1418,12 @@
    },
    "tcg": {
     "low": 20,
-    "mid": 42.68,
-    "high": 119.78,
+    "mid": 41.44,
+    "high": 211.6,
     "marketValue": 48.69,
     "change24h": 0,
     "change7d": -0.0773,
-    "change30d": -0.0533
+    "change30d": -0.0577
    }
   },
   "k-036": {
@@ -1437,8 +1437,8 @@
    },
    "tcg": {
     "low": 75.98,
-    "mid": 113.63,
-    "high": 706.99,
+    "mid": 117.82,
+    "high": 1045.42,
     "marketValue": 119.1,
     "change24h": 0,
     "change7d": 0,
@@ -1451,18 +1451,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.69,
-    "change24h": -0.0452,
+    "change24h": 0,
     "change7d": 0.1575,
-    "change30d": 0.4202
+    "change30d": 0.4569
    },
    "tcg": {
     "low": 0.19,
-    "mid": 0.73,
+    "mid": 0.75,
     "high": 49.99,
-    "marketValue": 0.97,
-    "change24h": 0.0211,
-    "change7d": 0.0899,
-    "change30d": 0.1975
+    "marketValue": 0.93,
+    "change24h": -0.0412,
+    "change7d": 0.0449,
+    "change30d": 0.1772
    }
   },
   "k-038": {
@@ -1476,12 +1476,12 @@
    },
    "tcg": {
     "low": 16,
-    "mid": 28.45,
-    "high": 97.98,
-    "marketValue": 39.08,
-    "change24h": -0.037,
-    "change7d": -0.0686,
-    "change30d": 0.0522
+    "mid": 27.98,
+    "high": 354.92,
+    "marketValue": 38.96,
+    "change24h": -0.0031,
+    "change7d": -0.0715,
+    "change30d": 0.0482
    }
   },
   "k-039": {
@@ -1490,18 +1490,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.06,
-    "change24h": 0.0192,
+    "change24h": 0,
     "change7d": -0.1167,
-    "change30d": 0.0291
+    "change30d": 0.1778
    },
    "tcg": {
     "low": 2,
-    "mid": 6.88,
+    "mid": 6.94,
     "high": 96.95,
     "marketValue": 7.46,
-    "change24h": 0.0205,
+    "change24h": 0,
     "change7d": 0.0318,
-    "change30d": 0.0597
+    "change30d": 0.0522
    }
   },
   "k-040": {
@@ -1515,8 +1515,8 @@
    },
    "tcg": {
     "low": 64.96,
-    "mid": 74.99,
-    "high": 186.39,
+    "mid": 76.81,
+    "high": 693.62,
     "marketValue": 84.95,
     "change24h": 0,
     "change7d": 0,
@@ -1529,18 +1529,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.86,
-    "change24h": -0.0753,
+    "change24h": 0,
     "change7d": 0.3438,
-    "change30d": 0.4828
+    "change30d": 0.7551
    },
    "tcg": {
     "low": 0.75,
     "mid": 2.17,
-    "high": 66.53,
-    "marketValue": 1.99,
-    "change24h": -0.0197,
-    "change7d": -0.0149,
-    "change30d": -0.0995
+    "high": 250,
+    "marketValue": 1.92,
+    "change24h": -0.0352,
+    "change7d": -0.0495,
+    "change30d": -0.1273
    }
   },
   "k-042": {
@@ -1548,19 +1548,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 2.37,
-    "change24h": -0.0778,
-    "change7d": -0.052,
-    "change30d": 0.0972
+    "marketValue": 2.22,
+    "change24h": -0.0633,
+    "change7d": -0.112,
+    "change30d": 0.1212
    },
    "tcg": {
     "low": 1.25,
-    "mid": 5.07,
+    "mid": 5.15,
     "high": 96.95,
-    "marketValue": 7.06,
-    "change24h": 0,
-    "change7d": 0.0795,
-    "change30d": -0.0249
+    "marketValue": 6.78,
+    "change24h": -0.0397,
+    "change7d": 0.0367,
+    "change30d": -0.0738
    }
   },
   "k-043": {
@@ -1569,18 +1569,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.43,
-    "change24h": 0.0515,
+    "change24h": 0,
     "change7d": -0.128,
-    "change30d": 2.575
+    "change30d": 2.7632
    },
    "tcg": {
     "low": 0.99,
-    "mid": 3.13,
+    "mid": 3.14,
     "high": 96.95,
     "marketValue": 3.14,
     "change24h": 0,
     "change7d": -0.0248,
-    "change30d": -0.0456
+    "change30d": -0.0542
    }
   },
   "k-044": {
@@ -1589,18 +1589,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.13,
-    "change24h": 0.8833,
+    "change24h": 0,
     "change7d": 0.6143,
-    "change30d": -0.4488
+    "change30d": -0.4053
    },
    "tcg": {
     "low": 1.54,
-    "mid": 4.24,
+    "mid": 4.21,
     "high": 37.99,
-    "marketValue": 4.7,
-    "change24h": 0,
-    "change7d": -0.0021,
-    "change30d": 0.0468
+    "marketValue": 4.76,
+    "change24h": 0.0128,
+    "change7d": 0.0106,
+    "change30d": 0.0601
    }
   },
   "k-045": {
@@ -1613,9 +1613,9 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 49,
+    "low": 48.99,
     "mid": 83.25,
-    "high": 498.83,
+    "high": 929.72,
     "marketValue": 87.38,
     "change24h": 0,
     "change7d": 0,
@@ -1627,19 +1627,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.27,
-    "change24h": -0.0797,
-    "change7d": 0.0079,
-    "change30d": 0.2828
+    "marketValue": 1.14,
+    "change24h": -0.1024,
+    "change7d": -0.0952,
+    "change30d": 0.4615
    },
    "tcg": {
     "low": 0.84,
     "mid": 2,
-    "high": 22.55,
-    "marketValue": 1.97,
-    "change24h": -0.0199,
-    "change7d": -0.0051,
-    "change30d": -0.0619
+    "high": 21.65,
+    "marketValue": 1.98,
+    "change24h": 0.0051,
+    "change7d": 0,
+    "change30d": -0.0571
    }
   },
   "k-047": {
@@ -1647,19 +1647,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.56,
-    "change24h": 0.2381,
-    "change7d": 1.4762,
-    "change30d": 0.1143
+    "marketValue": 1.51,
+    "change24h": -0.0321,
+    "change7d": 1.3968,
+    "change30d": 0.1353
    },
    "tcg": {
     "low": 0.54,
-    "mid": 2.94,
-    "high": 33.94,
+    "mid": 2.95,
+    "high": 37.22,
     "marketValue": 2.9,
     "change24h": 0,
     "change7d": 0.0175,
-    "change30d": -0.0461
+    "change30d": -0.0397
    }
   },
   "k-048": {
@@ -1667,19 +1667,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.38,
-    "change24h": 0.0556,
-    "change7d": 0.9,
-    "change30d": -0.7361
+    "marketValue": 0.39,
+    "change24h": 0.0263,
+    "change7d": 0.95,
+    "change30d": -0.6829
    },
    "tcg": {
     "low": 0.66,
-    "mid": 1.99,
+    "mid": 2,
     "high": 29,
-    "marketValue": 2.03,
-    "change24h": 0.015,
-    "change7d": -0.0938,
-    "change30d": -0.0814
+    "marketValue": 2.02,
+    "change24h": -0.0049,
+    "change7d": -0.0982,
+    "change30d": -0.086
    }
   },
   "k-049": {
@@ -1693,8 +1693,8 @@
    },
    "tcg": {
     "low": 44.7,
-    "mid": 52.36,
-    "high": 201.99,
+    "mid": 53.65,
+    "high": 898.82,
     "marketValue": 94.96,
     "change24h": 0,
     "change7d": 0.0298,
@@ -1706,19 +1706,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.23,
-    "change24h": 0.1942,
-    "change7d": -0.1151,
-    "change30d": -0.289
+    "marketValue": 1.2,
+    "change24h": -0.0244,
+    "change7d": -0.1367,
+    "change30d": -0.2208
    },
    "tcg": {
-    "low": 0.19,
-    "mid": 0.63,
-    "high": 15.38,
-    "marketValue": 1.06,
-    "change24h": -0.0093,
-    "change7d": 0.0495,
-    "change30d": -0.1846
+    "low": 0.2,
+    "mid": 0.65,
+    "high": 18.56,
+    "marketValue": 1.01,
+    "change24h": -0.0472,
+    "change7d": 0,
+    "change30d": -0.2231
    }
   },
   "k-051": {
@@ -1726,19 +1726,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.5,
-    "marketValue": 8.86,
-    "change24h": 0.056,
-    "change7d": -0.0067,
-    "change30d": -0.0011
+    "marketValue": 9.23,
+    "change24h": 0.0418,
+    "change7d": 0.0348,
+    "change30d": 0.0165
    },
    "tcg": {
     "low": 3.55,
-    "mid": 6.45,
+    "mid": 6.49,
     "high": 96.87,
     "marketValue": 11.17,
     "change24h": 0,
     "change7d": 0.0081,
-    "change30d": 0.022
+    "change30d": 0.0164
    }
   },
   "k-052": {
@@ -1746,19 +1746,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.77,
-    "change24h": -0.0375,
-    "change7d": 0.9744,
-    "change30d": -0.3419
+    "marketValue": 1,
+    "change24h": 0.2987,
+    "change7d": 1.5641,
+    "change30d": -0.2958
    },
    "tcg": {
     "low": 2.25,
-    "mid": 6,
+    "mid": 6.03,
     "high": 96.94,
-    "marketValue": 5.43,
-    "change24h": 0.0074,
-    "change7d": 0.0037,
-    "change30d": 0.0304
+    "marketValue": 5.39,
+    "change24h": -0.0074,
+    "change7d": -0.0037,
+    "change30d": 0.0267
    }
   },
   "k-053": {
@@ -1766,19 +1766,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 2.45,
-    "change24h": -0.0504,
-    "change7d": 1.0248,
-    "change30d": -0.186
+    "marketValue": 2.51,
+    "change24h": 0.0245,
+    "change7d": 1.0744,
+    "change30d": -0.1036
    },
    "tcg": {
     "low": 0.25,
-    "mid": 0.74,
+    "mid": 0.75,
     "high": 500,
-    "marketValue": 0.97,
-    "change24h": 0,
-    "change7d": 0.1548,
-    "change30d": 0.0778
+    "marketValue": 0.95,
+    "change24h": -0.0206,
+    "change7d": 0.131,
+    "change30d": 0.0326
    }
   },
   "k-054": {
@@ -1789,16 +1789,16 @@
     "marketValue": 0.02,
     "change24h": 0,
     "change7d": -0.9964,
-    "change30d": -0.9945
+    "change30d": -0.9944
    },
    "tcg": {
     "low": 5.29,
-    "mid": 13.16,
+    "mid": 12.99,
     "high": 96.95,
-    "marketValue": 14.38,
-    "change24h": 0.022,
-    "change7d": 0.0056,
-    "change30d": 0.2259
+    "marketValue": 14.41,
+    "change24h": 0.0021,
+    "change7d": 0.0077,
+    "change30d": 0.214
    }
   },
   "k-055": {
@@ -1806,19 +1806,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.05,
-    "marketValue": 1.92,
-    "change24h": -0.0154,
-    "change7d": 0.1228,
-    "change30d": -0.3535
+    "marketValue": 1.86,
+    "change24h": -0.0312,
+    "change7d": 0.0877,
+    "change30d": -0.4038
    },
    "tcg": {
     "low": 1.99,
-    "mid": 5.5,
+    "mid": 5.66,
     "high": 96.95,
-    "marketValue": 6.57,
-    "change24h": -0.0015,
-    "change7d": 0.0015,
-    "change30d": -0.1146
+    "marketValue": 6.45,
+    "change24h": -0.0183,
+    "change7d": -0.0168,
+    "change30d": -0.1446
    }
   },
   "k-056": {
@@ -1826,19 +1826,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.99,
-    "change24h": 0.0313,
-    "change7d": -0.0481,
-    "change30d": 0.2857
+    "marketValue": 1.04,
+    "change24h": 0.0505,
+    "change7d": 0,
+    "change30d": 0.3333
    },
    "tcg": {
-    "low": 0.99,
-    "mid": 1.98,
+    "low": 0.7,
+    "mid": 1.97,
     "high": 20,
-    "marketValue": 1.97,
-    "change24h": 0,
-    "change7d": 0.0103,
-    "change30d": -0.015
+    "marketValue": 1.96,
+    "change24h": -0.0051,
+    "change7d": 0.0051,
+    "change30d": 0
    }
   },
   "k-057": {
@@ -1846,19 +1846,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.05,
-    "marketValue": 1.69,
-    "change24h": -0.0963,
-    "change7d": 1.1125,
-    "change30d": -0.381
+    "marketValue": 1.61,
+    "change24h": -0.0473,
+    "change7d": 1.0125,
+    "change30d": -0.3586
    },
    "tcg": {
     "low": 0.4,
     "mid": 0.99,
     "high": 15.62,
     "marketValue": 1.4,
-    "change24h": -0.0071,
+    "change24h": 0,
     "change7d": 0.0769,
-    "change30d": -0.0604
+    "change30d": -0.0909
    }
   },
   "k-058": {
@@ -1867,18 +1867,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 3.48,
-    "change24h": 0.3865,
+    "change24h": 0,
     "change7d": 0.533,
-    "change30d": 0.1262
+    "change30d": 0.141
    },
    "tcg": {
     "low": 0.2,
-    "mid": 0.88,
+    "mid": 0.9,
     "high": 19.99,
-    "marketValue": 1.48,
-    "change24h": -0.0067,
-    "change7d": 0.0725,
-    "change30d": -0.1138
+    "marketValue": 1.42,
+    "change24h": -0.0405,
+    "change7d": 0.029,
+    "change30d": -0.1446
    }
   },
   "k-059": {
@@ -1886,19 +1886,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.05,
-    "marketValue": 4.95,
-    "change24h": -0.0198,
-    "change7d": -0.2373,
-    "change30d": -0.1176
+    "marketValue": 4.98,
+    "change24h": 0.0061,
+    "change7d": -0.2327,
+    "change30d": -0.1107
    },
    "tcg": {
     "low": 0.9,
-    "mid": 2.68,
+    "mid": 2.95,
     "high": 94.96,
-    "marketValue": 4.36,
-    "change24h": -0.1484,
-    "change7d": -0.0333,
-    "change30d": 0.1038
+    "marketValue": 4.39,
+    "change24h": 0.0069,
+    "change7d": -0.0266,
+    "change30d": 0.092
    }
   },
   "k-060": {
@@ -1907,18 +1907,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.71,
-    "change24h": -0.0393,
+    "change24h": 0,
     "change7d": -0.2192,
-    "change30d": 0.2667
+    "change30d": 0.2955
    },
    "tcg": {
     "low": 0.18,
-    "mid": 0.64,
+    "mid": 0.65,
     "high": 1500,
-    "marketValue": 1.3,
-    "change24h": -0.0076,
-    "change7d": 0.2381,
-    "change30d": 0.383
+    "marketValue": 1.28,
+    "change24h": -0.0154,
+    "change7d": 0.219,
+    "change30d": 0.3196
    }
   },
   "k-061": {
@@ -1927,18 +1927,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 5.65,
-    "change24h": 1.3444,
+    "change24h": 0,
     "change7d": 1.1984,
-    "change30d": 1.6526
+    "change30d": 1.6651
    },
    "tcg": {
     "low": 0.2,
-    "mid": 1.17,
+    "mid": 1.19,
     "high": 9999,
     "marketValue": 2.52,
-    "change24h": 0.004,
+    "change24h": 0,
     "change7d": 0.1721,
-    "change30d": 0.4
+    "change30d": 0.3404
    }
   },
   "k-062": {
@@ -1951,8 +1951,8 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 15.27,
-    "mid": 28.76,
+    "low": 15.26,
+    "mid": 29,
     "high": 9999,
     "marketValue": 35.14,
     "change24h": 0,
@@ -1966,18 +1966,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.27,
-    "change24h": 0.6933,
+    "change24h": 0,
     "change7d": 0.1545,
-    "change30d": -0.3098
+    "change30d": -0.1241
    },
    "tcg": {
     "low": 0.15,
-    "mid": 0.78,
+    "mid": 0.81,
     "high": 100,
-    "marketValue": 1.53,
-    "change24h": -0.0065,
-    "change7d": -0.1947,
-    "change30d": 0.0699
+    "marketValue": 1.44,
+    "change24h": -0.0588,
+    "change7d": -0.2421,
+    "change30d": 0.0213
    }
   },
   "k-064": {
@@ -1986,18 +1986,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 3.2,
-    "change24h": -0.0751,
+    "change24h": 0,
     "change7d": 0.3559,
-    "change30d": -0.3043
+    "change30d": -0.1579
    },
    "tcg": {
     "low": 0.4,
-    "mid": 1.08,
+    "mid": 1.13,
     "high": 9999,
-    "marketValue": 2.63,
-    "change24h": 0.0273,
-    "change7d": 0.1191,
-    "change30d": 0.1144
+    "marketValue": 2.57,
+    "change24h": -0.0228,
+    "change7d": 0.0936,
+    "change30d": 0.0239
    }
   },
   "k-065": {
@@ -2011,10 +2011,10 @@
    },
    "tcg": {
     "low": 43.5,
-    "mid": 55.93,
+    "mid": 60,
     "high": 9999,
     "marketValue": 70.82,
-    "change24h": 0.0001,
+    "change24h": 0,
     "change7d": 0.0213,
     "change30d": 0.0294
    }
@@ -2025,18 +2025,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.33,
-    "change24h": 0.0902,
+    "change24h": 0,
     "change7d": 0.6835,
-    "change30d": 0.4778
+    "change30d": 0.4944
    },
    "tcg": {
-    "low": 0.05,
+    "low": 0.09,
     "mid": 0.49,
-    "high": 15.36,
-    "marketValue": 0.63,
-    "change24h": -0.0156,
-    "change7d": -0.1,
-    "change30d": 0
+    "high": 17.5,
+    "marketValue": 0.64,
+    "change24h": 0.0159,
+    "change7d": -0.0857,
+    "change30d": -0.0725
    }
   },
   "k-067": {
@@ -2044,19 +2044,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 2.44,
-    "change24h": -0.0687,
-    "change7d": 0.2513,
-    "change30d": -0.837
+    "marketValue": 3.9,
+    "change24h": 0.5984,
+    "change7d": 1,
+    "change30d": 1.8058
    },
    "tcg": {
     "low": 0.05,
     "mid": 0.79,
     "high": 200,
-    "marketValue": 1.16,
-    "change24h": 0,
-    "change7d": -0.0794,
-    "change30d": 0.1048
+    "marketValue": 1.04,
+    "change24h": -0.1034,
+    "change7d": -0.1746,
+    "change30d": -0.0714
    }
   },
   "k-068": {
@@ -2071,11 +2071,11 @@
    "tcg": {
     "low": 12.47,
     "mid": 24.45,
-    "high": 165.76,
+    "high": 160.46,
     "marketValue": 24.45,
     "change24h": 0,
     "change7d": 0.0338,
-    "change30d": -0.1083
+    "change30d": -0.1077
    }
   },
   "k-069": {
@@ -2083,19 +2083,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.87,
-    "change24h": -0.044,
-    "change7d": -0.275,
-    "change30d": 0.16
+    "marketValue": 0.86,
+    "change24h": -0.0115,
+    "change7d": -0.2833,
+    "change30d": 0.3438
    },
    "tcg": {
     "low": 0.9,
-    "mid": 2.88,
-    "high": 30.68,
+    "mid": 2.81,
+    "high": 29.45,
     "marketValue": 2.59,
     "change24h": 0,
     "change7d": -0.03,
-    "change30d": -0.1855
+    "change30d": -0.1906
    }
   },
   "k-070": {
@@ -2104,18 +2104,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.05,
-    "change24h": 0.117,
+    "change24h": 0,
     "change7d": 0.0294,
-    "change30d": 0.0096
+    "change30d": 0.1413
    },
    "tcg": {
     "low": 1,
-    "mid": 3.45,
+    "mid": 3.48,
     "high": 96.95,
-    "marketValue": 3.48,
-    "change24h": 0,
-    "change7d": -0.0029,
-    "change30d": -0.0197
+    "marketValue": 3.55,
+    "change24h": 0.0201,
+    "change7d": 0.0172,
+    "change30d": -0.0028
    }
   },
   "k-071": {
@@ -2129,8 +2129,8 @@
    },
    "tcg": {
     "low": 53.3,
-    "mid": 82.14,
-    "high": 807.99,
+    "mid": 91.99,
+    "high": 1069.72,
     "marketValue": 119.49,
     "change24h": 0,
     "change7d": 0.0008,
@@ -2142,19 +2142,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.53,
-    "change24h": 0.0816,
-    "change7d": 0.325,
-    "change30d": -0.2429
+    "marketValue": 0.6,
+    "change24h": 0.1321,
+    "change7d": 0.5,
+    "change30d": -0.1429
    },
    "tcg": {
     "low": 0.44,
-    "mid": 1.55,
+    "mid": 1.51,
     "high": 29,
-    "marketValue": 1.55,
-    "change24h": 0.0065,
-    "change7d": 0.0265,
-    "change30d": 0.0065
+    "marketValue": 1.48,
+    "change24h": -0.0452,
+    "change7d": -0.0199,
+    "change30d": -0.039
    }
   },
   "k-073": {
@@ -2162,19 +2162,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 2.46,
-    "change24h": 0.0424,
-    "change7d": -0.0428,
-    "change30d": 1.1391
+    "marketValue": 2.6,
+    "change24h": 0.0569,
+    "change7d": 0.0117,
+    "change30d": 0.7568
    },
    "tcg": {
     "low": 1.74,
     "mid": 5,
-    "high": 60.11,
-    "marketValue": 5.41,
-    "change24h": 0,
-    "change7d": 0,
-    "change30d": -0.0768
+    "high": 57.71,
+    "marketValue": 5.39,
+    "change24h": -0.0037,
+    "change7d": -0.0037,
+    "change30d": -0.0037
    }
   },
   "k-074": {
@@ -2183,18 +2183,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.33,
-    "change24h": -0.1307,
+    "change24h": 0,
     "change7d": 0.243,
-    "change30d": 0.75
+    "change30d": 0.8472
    },
    "tcg": {
-    "low": 0.8,
+    "low": 0.79,
     "mid": 3,
     "high": 96.95,
     "marketValue": 3.49,
     "change24h": 0,
     "change7d": 0.1993,
-    "change30d": -0.0057
+    "change30d": 0.0325
    }
   },
   "k-075": {
@@ -2202,17 +2202,17 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.26,
-    "change24h": 0.0161,
-    "change7d": 0.26,
-    "change30d": 0.008
+    "marketValue": 1.22,
+    "change24h": -0.0317,
+    "change7d": 0.22,
+    "change30d": 0.0893
    },
    "tcg": {
     "low": 1.2,
     "mid": 4.48,
-    "high": 50.67,
+    "high": 49.97,
     "marketValue": 4.49,
-    "change24h": 0.0158,
+    "change24h": 0,
     "change7d": -0.0175,
     "change30d": 0.0251
    }
@@ -2223,9 +2223,9 @@
    "cm": {
     "low": 0.07,
     "marketValue": 3,
-    "change24h": -0.1329,
+    "change24h": 0,
     "change7d": 0.4778,
-    "change30d": -0.0132
+    "change30d": 0.0135
    },
    "tcg": {
     "low": 2.79,
@@ -2234,7 +2234,7 @@
     "marketValue": 6.78,
     "change24h": 0,
     "change7d": -0.0259,
-    "change30d": -0.0557
+    "change30d": -0.0356
    }
   },
   "k-077": {
@@ -2243,18 +2243,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.47,
-    "change24h": 0.2895,
+    "change24h": 0,
     "change7d": -0.0813,
-    "change30d": -0.1742
+    "change30d": -0.1091
    },
    "tcg": {
     "low": 0.22,
-    "mid": 0.74,
-    "high": 15.38,
-    "marketValue": 0.7,
-    "change24h": 0.0769,
-    "change7d": -0.0909,
-    "change30d": -0.1139
+    "mid": 0.75,
+    "high": 16.48,
+    "marketValue": 0.69,
+    "change24h": -0.0143,
+    "change7d": -0.1039,
+    "change30d": -0.0676
    }
   },
   "k-078": {
@@ -2262,19 +2262,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 2.34,
-    "change24h": -0.037,
-    "change7d": 5.5,
-    "change30d": -0.4429
+    "marketValue": 2.19,
+    "change24h": -0.0641,
+    "change7d": 5.0833,
+    "change30d": -0.4341
    },
    "tcg": {
-    "low": 3.4,
-    "mid": 7.9,
-    "high": 104.01,
-    "marketValue": 8.46,
-    "change24h": 0.0156,
-    "change7d": -0.0117,
-    "change30d": -0.1802
+    "low": 2.25,
+    "mid": 7.17,
+    "high": 99.85,
+    "marketValue": 8.77,
+    "change24h": 0.0366,
+    "change7d": 0.0245,
+    "change30d": -0.1502
    }
   },
   "k-079": {
@@ -2283,18 +2283,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 2.67,
-    "change24h": 0.0389,
+    "change24h": 0,
     "change7d": 1.697,
-    "change30d": 1.5189
+    "change30d": 1.5922
    },
    "tcg": {
     "low": 1,
-    "mid": 6.39,
+    "mid": 6.42,
     "high": 105.6,
     "marketValue": 6.45,
-    "change24h": 0.0078,
+    "change24h": 0,
     "change7d": -0.0529,
-    "change30d": 0.0732
+    "change30d": 0.0437
    }
   },
   "k-080": {
@@ -2302,19 +2302,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.09,
-    "marketValue": 5.05,
-    "change24h": -0.0648,
-    "change7d": 1.5505,
-    "change30d": 1.1308
+    "marketValue": 4.82,
+    "change24h": -0.0455,
+    "change7d": 1.4343,
+    "change30d": 0.8902
    },
    "tcg": {
     "low": 3.9,
-    "mid": 9,
-    "high": 116.79,
-    "marketValue": 9.77,
-    "change24h": 0,
-    "change7d": -0.0748,
-    "change30d": -0.146
+    "mid": 9.17,
+    "high": 112.12,
+    "marketValue": 9.59,
+    "change24h": -0.0184,
+    "change7d": -0.0919,
+    "change30d": -0.1491
    }
   },
   "k-081": {
@@ -2323,18 +2323,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 2.11,
-    "change24h": -0.0905,
+    "change24h": 0,
     "change7d": 0.9537,
-    "change30d": 0.1989
+    "change30d": 0.3354
    },
    "tcg": {
     "low": 0.19,
     "mid": 0.6,
-    "high": 14.99,
-    "marketValue": 0.77,
-    "change24h": -0.0253,
-    "change7d": -0.1444,
-    "change30d": -0.0833
+    "high": 18.6,
+    "marketValue": 0.78,
+    "change24h": 0.013,
+    "change7d": -0.1333,
+    "change30d": -0.0127
    }
   },
   "k-082": {
@@ -2347,11 +2347,11 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 14.12,
+    "low": 14,
     "mid": 32,
-    "high": 96.84,
+    "high": 139.6,
     "marketValue": 33.66,
-    "change24h": 0.0003,
+    "change24h": 0,
     "change7d": -0.0272,
     "change30d": -0.0873
    }
@@ -2361,19 +2361,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 2.18,
-    "change24h": -0.0268,
-    "change7d": 0.1295,
-    "change30d": 0.1354
+    "marketValue": 2.03,
+    "change24h": -0.0688,
+    "change7d": 0.0518,
+    "change30d": 0.1154
    },
    "tcg": {
     "low": 0.19,
-    "mid": 0.99,
+    "mid": 1,
     "high": 96.51,
-    "marketValue": 1.59,
-    "change24h": -0.0124,
-    "change7d": 0.1691,
-    "change30d": -0.0536
+    "marketValue": 1.68,
+    "change24h": 0.0566,
+    "change7d": 0.2353,
+    "change30d": 0.006
    }
   },
   "k-084": {
@@ -2382,18 +2382,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.84,
-    "change24h": 0.0952,
+    "change24h": 0,
     "change7d": 0.122,
-    "change30d": -0.4903
+    "change30d": -0.4588
    },
    "tcg": {
     "low": 0.33,
     "mid": 0.99,
     "high": 44.99,
     "marketValue": 1.1,
-    "change24h": 0.0092,
+    "change24h": 0,
     "change7d": -0.0435,
-    "change30d": -0.1729
+    "change30d": -0.1603
    }
   },
   "k-085": {
@@ -2402,18 +2402,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.45,
-    "change24h": -0.1212,
+    "change24h": 0,
     "change7d": 0.8125,
-    "change30d": -0.0764
+    "change30d": -0.1317
    },
    "tcg": {
-    "low": 1.09,
-    "mid": 2.75,
+    "low": 1.08,
+    "mid": 3,
     "high": 49,
-    "marketValue": 4.91,
-    "change24h": 0,
-    "change7d": 0.0041,
-    "change30d": 0.1159
+    "marketValue": 4.89,
+    "change24h": -0.0041,
+    "change7d": 0,
+    "change30d": 0.1114
    }
   },
   "k-086": {
@@ -2421,19 +2421,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 4.48,
-    "change24h": -0.0261,
-    "change7d": 0.3913,
-    "change30d": 0.2108
+    "marketValue": 4.13,
+    "change24h": -0.0781,
+    "change7d": 0.2826,
+    "change30d": 0.1162
    },
    "tcg": {
     "low": 0.29,
     "mid": 0.99,
     "high": 40,
     "marketValue": 1.26,
-    "change24h": 0.008,
+    "change24h": 0,
     "change7d": 0,
-    "change30d": -0.125
+    "change30d": -0.1189
    }
   },
   "k-087": {
@@ -2441,17 +2441,17 @@
    "finish": "Standard",
    "cm": {
     "low": 0.1,
-    "marketValue": 6.18,
-    "change24h": -0.1345,
-    "change7d": -0.2127,
-    "change30d": 0.1277
+    "marketValue": 5.98,
+    "change24h": -0.0324,
+    "change7d": -0.2382,
+    "change30d": 0.0833
    },
    "tcg": {
     "low": 0.69,
-    "mid": 2.11,
+    "mid": 2.14,
     "high": 96.95,
     "marketValue": 5.12,
-    "change24h": 0.0159,
+    "change24h": 0,
     "change7d": 0.1082,
     "change30d": 0.3838
    }
@@ -2462,18 +2462,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.7,
-    "change24h": -0.0141,
+    "change24h": 0,
     "change7d": -0.2391,
-    "change30d": -0.2708
+    "change30d": -0.2473
    },
    "tcg": {
     "low": 0.99,
-    "mid": 2.96,
+    "mid": 2.95,
     "high": 39.99,
-    "marketValue": 2.91,
-    "change24h": -0.0034,
-    "change7d": 0.0175,
-    "change30d": -0.1019
+    "marketValue": 2.82,
+    "change24h": -0.0309,
+    "change7d": -0.014,
+    "change30d": -0.1557
    }
   },
   "k-089": {
@@ -2487,7 +2487,7 @@
    },
    "tcg": {
     "low": 36.5,
-    "mid": 50,
+    "mid": 75.44,
     "high": 427.61,
     "marketValue": 62.43,
     "change24h": 0,
@@ -2501,16 +2501,16 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.72,
-    "change24h": 0.1613,
+    "change24h": 0,
     "change7d": 0.0909,
-    "change30d": -0.0886
+    "change30d": 0
    },
    "tcg": {
-    "low": 0.89,
-    "mid": 2,
+    "low": 0.6,
+    "mid": 1.99,
     "high": 96.95,
     "marketValue": 1.93,
-    "change24h": -0.035,
+    "change24h": 0,
     "change7d": -0.0446,
     "change30d": 0.0052
    }
@@ -2520,19 +2520,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 2.28,
-    "change24h": -0.0087,
-    "change7d": 0.0556,
-    "change30d": -0.0952
+    "marketValue": 2.25,
+    "change24h": -0.0132,
+    "change7d": 0.0417,
+    "change30d": 0
    },
    "tcg": {
     "low": 0.2,
     "mid": 0.8,
     "high": 18,
-    "marketValue": 1.45,
-    "change24h": 0.0432,
-    "change7d": 0.1328,
-    "change30d": -0.0333
+    "marketValue": 1.41,
+    "change24h": -0.0276,
+    "change7d": 0.1016,
+    "change30d": -0.0473
    }
   },
   "k-092": {
@@ -2541,18 +2541,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.52,
-    "change24h": -0.2438,
+    "change24h": 0,
     "change7d": -0.4109,
-    "change30d": -0.3028
+    "change30d": -0.2549
    },
    "tcg": {
     "low": 0.11,
-    "mid": 0.75,
-    "high": 17.56,
-    "marketValue": 1.3,
-    "change24h": -0.0152,
-    "change7d": 0.0484,
-    "change30d": -0.1975
+    "mid": 0.77,
+    "high": 18.36,
+    "marketValue": 1.27,
+    "change24h": -0.0231,
+    "change7d": 0.0242,
+    "change30d": -0.244
    }
   },
   "k-093": {
@@ -2560,19 +2560,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.03,
-    "marketValue": 3.07,
-    "change24h": -0.0583,
-    "change7d": -0.2877,
-    "change30d": 0.4689
+    "marketValue": 3.8,
+    "change24h": 0.2378,
+    "change7d": -0.1183,
+    "change30d": 1.303
    },
    "tcg": {
     "low": 0.49,
-    "mid": 1.36,
+    "mid": 1.44,
     "high": 100,
-    "marketValue": 2.19,
-    "change24h": -0.0681,
-    "change7d": -0.2526,
-    "change30d": -0.1919
+    "marketValue": 2.24,
+    "change24h": 0.0228,
+    "change7d": -0.2355,
+    "change30d": -0.161
    }
   },
   "k-094": {
@@ -2600,18 +2600,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.39,
-    "change24h": 0.178,
+    "change24h": 0,
     "change7d": 0.112,
-    "change30d": -0.142
+    "change30d": 0.121
    },
    "tcg": {
     "low": 0.18,
     "mid": 0.7,
     "high": 19.97,
-    "marketValue": 1.21,
-    "change24h": 0.0254,
-    "change7d": 0.1635,
-    "change30d": 0.2347
+    "marketValue": 1.2,
+    "change24h": -0.0083,
+    "change7d": 0.1538,
+    "change30d": 0.2121
    }
   },
   "k-096": {
@@ -2620,18 +2620,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 2.34,
-    "change24h": -0.0895,
+    "change24h": 0,
     "change7d": 0.0884,
     "change30d": 0.918
    },
    "tcg": {
-    "low": 0.16,
-    "mid": 0.61,
-    "high": 15.52,
-    "marketValue": 0.92,
-    "change24h": -0.0515,
-    "change7d": -0.08,
-    "change30d": -0.193
+    "low": 0.21,
+    "mid": 0.65,
+    "high": 17.02,
+    "marketValue": 0.91,
+    "change24h": -0.0109,
+    "change7d": -0.09,
+    "change30d": -0.2087
    }
   },
   "k-097": {
@@ -2645,8 +2645,8 @@
    },
    "tcg": {
     "low": 54.08,
-    "mid": 91.49,
-    "high": 131.99,
+    "mid": 92.98,
+    "high": 567.32,
     "marketValue": 105.35,
     "change24h": 0,
     "change7d": 0.0331,
@@ -2658,19 +2658,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.63,
-    "change24h": 0.0161,
-    "change7d": 0.1053,
-    "change30d": 0.4
+    "marketValue": 0.62,
+    "change24h": -0.0159,
+    "change7d": 0.0877,
+    "change30d": 0.1071
    },
    "tcg": {
-    "low": 0.75,
+    "low": 0.74,
     "mid": 2.03,
     "high": 39.99,
     "marketValue": 2.03,
     "change24h": 0,
     "change7d": -0.0333,
-    "change30d": 0.0628
+    "change30d": 0.0856
    }
   },
   "k-099": {
@@ -2678,19 +2678,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.97,
-    "change24h": -0.1339,
-    "change7d": -0.2707,
-    "change30d": -0.1565
+    "marketValue": 1.04,
+    "change24h": 0.0722,
+    "change7d": -0.218,
+    "change30d": -0.168
    },
    "tcg": {
-    "low": 1.49,
-    "mid": 3.21,
+    "low": 1.48,
+    "mid": 3.16,
     "high": 49.99,
     "marketValue": 3.16,
-    "change24h": 0.0293,
+    "change24h": 0,
     "change7d": -0.0186,
-    "change30d": -0.1124
+    "change30d": -0.0997
    }
   },
   "k-100": {
@@ -2699,18 +2699,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 3.47,
-    "change24h": 0.0844,
+    "change24h": 0,
     "change7d": 0.3295,
-    "change30d": 0.0743
+    "change30d": 0.0844
    },
    "tcg": {
     "low": 0.5,
     "mid": 2,
     "high": 24.99,
     "marketValue": 3.62,
-    "change24h": 0.014,
+    "change24h": 0,
     "change7d": -0.0742,
-    "change30d": -0.134
+    "change30d": -0.1381
    }
   },
   "k-101": {
@@ -2718,19 +2718,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.4,
-    "marketValue": 8.6,
-    "change24h": 0.0644,
-    "change7d": 0.4215,
-    "change30d": -0.0919
+    "marketValue": 9.72,
+    "change24h": 0.1302,
+    "change7d": 0.6066,
+    "change30d": -0.0031
    },
    "tcg": {
     "low": 3,
-    "mid": 5.62,
+    "mid": 5.72,
     "high": 9999,
-    "marketValue": 9.27,
-    "change24h": 0,
-    "change7d": 0.1128,
-    "change30d": 0.068
+    "marketValue": 9.61,
+    "change24h": 0.0367,
+    "change7d": 0.1537,
+    "change30d": 0.1386
    }
   },
   "k-102": {
@@ -2738,19 +2738,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.78,
-    "change24h": 0.0263,
-    "change7d": -0.3158,
-    "change30d": -0.025
+    "marketValue": 0.74,
+    "change24h": -0.0513,
+    "change7d": -0.3509,
+    "change30d": -0.2043
    },
    "tcg": {
     "low": 0.88,
-    "mid": 2.72,
+    "mid": 2.75,
     "high": 96.95,
-    "marketValue": 2.65,
-    "change24h": 0,
-    "change7d": 0.0516,
-    "change30d": -0.0112
+    "marketValue": 2.7,
+    "change24h": 0.0189,
+    "change7d": 0.0714,
+    "change30d": 0.0075
    }
   },
   "k-103": {
@@ -2759,18 +2759,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 2.52,
-    "change24h": 0.0456,
+    "change24h": 0,
     "change7d": 0.6579,
-    "change30d": 0
+    "change30d": 0.12
    },
    "tcg": {
-    "low": 2.98,
-    "mid": 3.8,
+    "low": 2.99,
+    "mid": 3.97,
     "high": 97.8,
-    "marketValue": 5.88,
-    "change24h": 0,
-    "change7d": 0.0595,
-    "change30d": -0.134
+    "marketValue": 5.92,
+    "change24h": 0.0068,
+    "change7d": 0.0667,
+    "change30d": -0.1281
    }
   },
   "k-104": {
@@ -2779,18 +2779,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 5.37,
-    "change24h": 7.3906,
+    "change24h": 0,
     "change7d": 7.1364,
-    "change30d": 1.5694
+    "change30d": 1.0264
    },
    "tcg": {
-    "low": 1.53,
-    "mid": 9.99,
+    "low": 3.5,
+    "mid": 9.97,
     "high": 96.95,
-    "marketValue": 10.6,
-    "change24h": 0,
-    "change7d": -0.2036,
-    "change30d": -0.0266
+    "marketValue": 10.71,
+    "change24h": 0.0104,
+    "change7d": -0.1953,
+    "change30d": -0.2463
    }
   },
   "k-105": {
@@ -2798,19 +2798,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.46,
-    "change24h": -0.0701,
-    "change7d": -0.0331,
-    "change30d": 0.1967
+    "marketValue": 1.33,
+    "change24h": -0.089,
+    "change7d": -0.1192,
+    "change30d": -0.0292
    },
    "tcg": {
     "low": 0.99,
-    "mid": 9.77,
-    "high": 122.24,
-    "marketValue": 10.82,
-    "change24h": 0.133,
-    "change7d": -0.0064,
-    "change30d": -0.0305
+    "mid": 9,
+    "high": 117.35,
+    "marketValue": 9.49,
+    "change24h": -0.1229,
+    "change7d": -0.1286,
+    "change30d": -0.1496
    }
   },
   "k-106": {
@@ -2824,7 +2824,7 @@
    },
    "tcg": {
     "low": 60,
-    "mid": 150,
+    "mid": 340,
     "high": 9999,
     "marketValue": 99.74,
     "change24h": 0,
@@ -2837,19 +2837,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 2.08,
-    "change24h": -0.1843,
-    "change7d": -0.4124,
-    "change30d": 0.7479
+    "marketValue": 1.87,
+    "change24h": -0.101,
+    "change7d": -0.4718,
+    "change30d": 0.3077
    },
    "tcg": {
     "low": 3,
-    "mid": 7.34,
+    "mid": 7.4,
     "high": 98.89,
-    "marketValue": 7.45,
-    "change24h": 0,
-    "change7d": -0.0106,
-    "change30d": -0.1437
+    "marketValue": 7.56,
+    "change24h": 0.0148,
+    "change7d": 0.004,
+    "change30d": -0.131
    }
   },
   "k-109": {
@@ -2857,39 +2857,39 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 4.23,
-    "change24h": 3.1068,
-    "change7d": 3.7528,
-    "change30d": 2.4959
+    "marketValue": 4.12,
+    "change24h": -0.026,
+    "change7d": 3.6292,
+    "change30d": 2.9238
    },
    "tcg": {
     "low": 0.15,
     "mid": 0.64,
-    "high": 15.47,
-    "marketValue": 0.94,
-    "change24h": -0.0105,
-    "change7d": -0.0208,
-    "change30d": -0.2824
+    "high": 15.96,
+    "marketValue": 0.93,
+    "change24h": -0.0106,
+    "change7d": -0.0312,
+    "change30d": -0.2791
    }
   },
   "k-110": {
    "cnId": 18203,
    "finish": "Standard",
    "cm": {
-    "low": 0.02,
+    "low": 0.05,
     "marketValue": 1.63,
-    "change24h": -0.0523,
+    "change24h": 0,
     "change7d": -0.0632,
-    "change30d": 0
+    "change30d": -0.0739
    },
    "tcg": {
     "low": 1,
-    "mid": 4.19,
+    "mid": 4.28,
     "high": 96.95,
-    "marketValue": 4.28,
-    "change24h": 0,
-    "change7d": 0.0516,
-    "change30d": -0.2161
+    "marketValue": 4.04,
+    "change24h": -0.0561,
+    "change7d": -0.0074,
+    "change30d": -0.2799
    }
   },
   "k-111": {
@@ -2897,19 +2897,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.12,
-    "change24h": -0.0088,
-    "change7d": -0.2483,
-    "change30d": 0.3333
+    "marketValue": 1.11,
+    "change24h": -0.0089,
+    "change7d": -0.255,
+    "change30d": 0.4051
    },
    "tcg": {
     "low": 0.87,
-    "mid": 2.77,
+    "mid": 2.74,
     "high": 96.95,
     "marketValue": 2.82,
     "change24h": 0,
     "change7d": 0.0602,
-    "change30d": -0.0035
+    "change30d": -0.014
    }
   },
   "k-112": {
@@ -2917,15 +2917,15 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 3.7,
-    "change24h": -0.1294,
-    "change7d": -0.1685,
-    "change30d": 0.6087
+    "marketValue": 3.62,
+    "change24h": -0.0216,
+    "change7d": -0.1865,
+    "change30d": 0.4897
    },
    "tcg": {
-    "low": 3.56,
-    "mid": 9,
-    "high": 118.45,
+    "low": 2.75,
+    "mid": 9.2,
+    "high": 113.71,
     "marketValue": 9.85,
     "change24h": 0,
     "change7d": -0.0465,
@@ -2943,12 +2943,12 @@
    },
    "tcg": {
     "low": 22.94,
-    "mid": 35.99,
-    "high": 308,
+    "mid": 35.45,
+    "high": 295.68,
     "marketValue": 56.48,
     "change24h": 0,
     "change7d": -0.014,
-    "change30d": -0.1026
+    "change30d": -0.1157
    }
   },
   "k-114": {
@@ -2957,18 +2957,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.27,
-    "change24h": -0.0231,
+    "change24h": 0,
     "change7d": -0.0078,
-    "change30d": 0.2451
+    "change30d": 0.1869
    },
    "tcg": {
     "low": 0.21,
-    "mid": 0.73,
+    "mid": 0.71,
     "high": 15.56,
-    "marketValue": 0.74,
-    "change24h": -0.0263,
-    "change7d": -0.0263,
-    "change30d": -0.2525
+    "marketValue": 0.71,
+    "change24h": -0.0405,
+    "change7d": -0.0658,
+    "change30d": -0.2604
    }
   },
   "k-115": {
@@ -2981,9 +2981,9 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 25,
-    "mid": 55.03,
-    "high": 403.99,
+    "low": 55.03,
+    "mid": 60.95,
+    "high": 795.22,
     "marketValue": 85.12,
     "change24h": 0,
     "change7d": 0.029,
@@ -2995,19 +2995,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.4,
-    "change24h": 0.1429,
-    "change7d": 0,
-    "change30d": -0.4366
+    "marketValue": 0.48,
+    "change24h": 0.2,
+    "change7d": 0.2,
+    "change30d": -0.3239
    },
    "tcg": {
     "low": 0.37,
     "mid": 2.48,
     "high": 44.99,
-    "marketValue": 2.27,
-    "change24h": -0.0581,
-    "change7d": -0.0956,
-    "change30d": -0.1835
+    "marketValue": 2.37,
+    "change24h": 0.0441,
+    "change7d": -0.0558,
+    "change30d": -0.1596
    }
   },
   "k-117": {
@@ -3015,19 +3015,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.21,
-    "change24h": 0.0083,
-    "change7d": 0.0254,
-    "change30d": -0.1103
+    "marketValue": 1.27,
+    "change24h": 0.0496,
+    "change7d": 0.0763,
+    "change30d": -0.1533
    },
    "tcg": {
     "low": 0.75,
-    "mid": 4.94,
+    "mid": 4.96,
     "high": 96.95,
-    "marketValue": 4.94,
-    "change24h": 0,
-    "change7d": 0.0123,
-    "change30d": -0.0482
+    "marketValue": 4.95,
+    "change24h": 0.002,
+    "change7d": 0.0143,
+    "change30d": -0.0462
    }
   },
   "k-118": {
@@ -3035,19 +3035,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.75,
-    "change24h": -0.1279,
-    "change7d": -0.3902,
-    "change30d": -0.2718
+    "marketValue": 0.72,
+    "change24h": -0.04,
+    "change7d": -0.4146,
+    "change30d": 0.0588
    },
    "tcg": {
     "low": 0.75,
     "mid": 2.41,
-    "high": 29.56,
-    "marketValue": 2.41,
-    "change24h": -0.0203,
-    "change7d": -0.0549,
-    "change30d": -0.0906
+    "high": 29,
+    "marketValue": 2.4,
+    "change24h": -0.0041,
+    "change7d": -0.0588,
+    "change30d": -0.0698
    }
   },
   "k-119": {
@@ -3055,19 +3055,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.49,
-    "change24h": 0.0347,
-    "change7d": 2.1702,
-    "change30d": -0.2767
+    "marketValue": 1.5,
+    "change24h": 0.0067,
+    "change7d": 2.1915,
+    "change30d": -0.2386
    },
    "tcg": {
     "low": 1.59,
     "mid": 4.64,
     "high": 96.95,
-    "marketValue": 4.91,
-    "change24h": 0,
-    "change7d": 0.0145,
-    "change30d": -0.0219
+    "marketValue": 4.84,
+    "change24h": -0.0143,
+    "change7d": 0,
+    "change30d": -0.0359
    }
   },
   "k-120": {
@@ -3076,18 +3076,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.77,
-    "change24h": 0.1159,
+    "change24h": 0,
     "change7d": 0.7111,
-    "change30d": -0.4726
+    "change30d": -0.4254
    },
    "tcg": {
     "low": 0.01,
     "mid": 0.55,
     "high": 100,
-    "marketValue": 0.77,
-    "change24h": -0.0253,
-    "change7d": -0.1809,
-    "change30d": 0.0845
+    "marketValue": 0.74,
+    "change24h": -0.039,
+    "change7d": -0.2128,
+    "change30d": 0.0278
    }
   },
   "k-121": {
@@ -3095,19 +3095,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.56,
-    "change24h": -0.125,
-    "change7d": -0.3086,
-    "change30d": -0.8449
+    "marketValue": 1.37,
+    "change24h": 1.4464,
+    "change7d": 0.6914,
+    "change30d": -0.591
    },
    "tcg": {
     "low": 0.24,
-    "mid": 0.69,
+    "mid": 0.7,
     "high": 25,
-    "marketValue": 0.79,
-    "change24h": -0.0366,
-    "change7d": -0.1222,
-    "change30d": -0.092
+    "marketValue": 0.78,
+    "change24h": -0.0127,
+    "change7d": -0.1333,
+    "change30d": -0.1333
    }
   },
   "k-122": {
@@ -3121,8 +3121,8 @@
    },
    "tcg": {
     "low": 55.7,
-    "mid": 141.9,
-    "high": 605.99,
+    "mid": 177.67,
+    "high": 861.4,
     "marketValue": 162.81,
     "change24h": 0,
     "change7d": 0.071,
@@ -3140,8 +3140,8 @@
    },
    "tcg": {
     "low": 81.6,
-    "mid": 130,
-    "high": 803.44,
+    "mid": 209.99,
+    "high": 1489.62,
     "marketValue": 187.08,
     "change24h": 0,
     "change7d": 0.1643,
@@ -3154,18 +3154,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 1.99,
-    "change24h": 0.0258,
+    "change24h": 0,
     "change7d": -0.2575,
-    "change30d": -0.0478
+    "change30d": 0.0757
    },
    "tcg": {
     "low": 0.2,
-    "mid": 0.85,
+    "mid": 0.89,
     "high": 40,
-    "marketValue": 1.2,
-    "change24h": 0.0256,
-    "change7d": 0,
-    "change30d": 0.0909
+    "marketValue": 1.15,
+    "change24h": -0.0417,
+    "change7d": -0.0417,
+    "change30d": 0.0748
    }
   },
   "k-125": {
@@ -3173,19 +3173,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 11.42,
-    "change24h": 0.1859,
-    "change7d": 0.0477,
-    "change30d": -0.0017
+    "marketValue": 12.73,
+    "change24h": 0.1147,
+    "change7d": 0.1679,
+    "change30d": 0.1326
    },
    "tcg": {
     "low": 4.25,
-    "mid": 7.43,
+    "mid": 7.65,
     "high": 96.95,
-    "marketValue": 9.73,
-    "change24h": 0,
-    "change7d": 0.0072,
-    "change30d": -0.026
+    "marketValue": 9.7,
+    "change24h": -0.0031,
+    "change7d": 0.0041,
+    "change30d": -0.029
    }
   },
   "k-126": {
@@ -3193,19 +3193,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 4.56,
-    "change24h": 0.0883,
-    "change7d": 0.617,
-    "change30d": -0.2258
+    "marketValue": 11.35,
+    "change24h": 1.489,
+    "change7d": 3.0248,
+    "change30d": 0.9468
    },
    "tcg": {
     "low": 0.25,
     "mid": 1.5,
     "high": 19.99,
     "marketValue": 4.07,
-    "change24h": -0.0073,
+    "change24h": 0,
     "change7d": 0.0941,
-    "change30d": 0.1595
+    "change30d": 0.1629
    }
   },
   "k-127": {
@@ -3218,9 +3218,9 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 25,
-    "mid": 47.98,
-    "high": 100,
+    "low": 57.1,
+    "mid": 96.25,
+    "high": 1039.82,
     "marketValue": 90.73,
     "change24h": 0,
     "change7d": -0.0009,
@@ -3232,19 +3232,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.49,
-    "change24h": 0,
-    "change7d": 0.9867,
-    "change30d": -0.3968
+    "marketValue": 1.44,
+    "change24h": -0.0336,
+    "change7d": 0.92,
+    "change30d": -0.2941
    },
    "tcg": {
-    "low": 0.19,
+    "low": 0.27,
     "mid": 0.85,
     "high": 15.48,
-    "marketValue": 0.92,
-    "change24h": -0.0612,
-    "change7d": -0.0612,
-    "change30d": -0.2459
+    "marketValue": 0.88,
+    "change24h": -0.0435,
+    "change7d": -0.102,
+    "change30d": -0.296
    }
   },
   "k-129": {
@@ -3252,19 +3252,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 4.79,
-    "change24h": -0.0515,
-    "change7d": 0.1626,
-    "change30d": 0.7046
+    "marketValue": 4.61,
+    "change24h": -0.0376,
+    "change7d": 0.1189,
+    "change30d": 0.7529
    },
    "tcg": {
     "low": 0.25,
     "mid": 1.53,
     "high": 96.95,
-    "marketValue": 2.82,
-    "change24h": 0.1016,
-    "change7d": 0.0108,
-    "change30d": -0.1132
+    "marketValue": 2.69,
+    "change24h": -0.0461,
+    "change7d": -0.0358,
+    "change30d": -0.1672
    }
   },
   "k-131": {
@@ -3277,7 +3277,7 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 167.99,
+    "low": 113,
     "mid": 225.55,
     "high": 9999,
     "marketValue": 237.61,
@@ -3298,11 +3298,11 @@
    "tcg": {
     "low": 104.99,
     "mid": 119.99,
-    "high": 498.27,
-    "marketValue": 131.99,
-    "change24h": 0,
-    "change7d": 0,
-    "change30d": 0.1104
+    "high": 498.62,
+    "marketValue": 135.44,
+    "change24h": 0.0261,
+    "change7d": 0.0261,
+    "change30d": 0.1394
    }
   },
   "k-133": {
@@ -3311,18 +3311,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 2.45,
-    "change24h": 0.0606,
+    "change24h": 0,
     "change7d": -0.2815,
-    "change30d": 1.0763
+    "change30d": 0.6333
    },
    "tcg": {
-    "low": 6.99,
-    "mid": 16.02,
+    "low": 6.77,
+    "mid": 15.9,
     "high": 96.95,
-    "marketValue": 16.02,
-    "change24h": 0,
-    "change7d": -0.0166,
-    "change30d": 0.1094
+    "marketValue": 15.96,
+    "change24h": -0.0037,
+    "change7d": -0.0203,
+    "change30d": 0.0704
    }
   },
   "k-134": {
@@ -3336,8 +3336,8 @@
    },
    "tcg": {
     "low": 145.74,
-    "mid": 400,
-    "high": 1312.99,
+    "mid": 300.98,
+    "high": 1530.22,
     "marketValue": 155.49,
     "change24h": 0,
     "change7d": -0.0871,
@@ -3355,8 +3355,8 @@
    },
    "tcg": {
     "low": 152.99,
-    "mid": 199.99,
-    "high": 1700,
+    "mid": 212.5,
+    "high": 1909.62,
     "marketValue": 272.28,
     "change24h": 0,
     "change7d": 0,
@@ -3374,8 +3374,8 @@
    },
    "tcg": {
     "low": 158,
-    "mid": 229.99,
-    "high": 350,
+    "mid": 239.99,
+    "high": 949.72,
     "marketValue": 337.5,
     "change24h": 0,
     "change7d": 0,
@@ -3388,18 +3388,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 3.58,
-    "change24h": -0.0653,
+    "change24h": 0,
     "change7d": 0.0056,
-    "change30d": -0.1456
+    "change30d": -0.1732
    },
    "tcg": {
-    "low": 0.74,
-    "mid": 2.28,
+    "low": 0.6,
+    "mid": 2.37,
     "high": 96.95,
-    "marketValue": 4.33,
-    "change24h": 0.0261,
-    "change7d": 0.2735,
-    "change30d": 0.3121
+    "marketValue": 4.37,
+    "change24h": 0.0092,
+    "change7d": 0.2853,
+    "change30d": 0.3006
    }
   },
   "k-138": {
@@ -3407,19 +3407,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.75,
-    "change24h": -0.1176,
-    "change7d": -0.2991,
-    "change30d": -0.1848
+    "marketValue": 0.77,
+    "change24h": 0.0267,
+    "change7d": -0.2804,
+    "change30d": -0.2804
    },
    "tcg": {
-    "low": 0.95,
-    "mid": 3.06,
+    "low": 0.75,
+    "mid": 3.05,
     "high": 100,
-    "marketValue": 3.01,
-    "change24h": -0.0099,
-    "change7d": 0.0415,
-    "change30d": -0.1095
+    "marketValue": 3.03,
+    "change24h": 0.0066,
+    "change7d": 0.0484,
+    "change30d": -0.0928
    }
   },
   "k-139": {
@@ -3428,18 +3428,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 2.24,
-    "change24h": -0.0667,
+    "change24h": 0,
     "change7d": 0.3333,
-    "change30d": -0.0044
+    "change30d": 0.0667
    },
    "tcg": {
     "low": 1.49,
-    "mid": 5.27,
+    "mid": 5.17,
     "high": 106.65,
-    "marketValue": 5.54,
-    "change24h": 0,
-    "change7d": -0.0448,
-    "change30d": 0.0147
+    "marketValue": 5.52,
+    "change24h": -0.0036,
+    "change7d": -0.0483,
+    "change30d": 0.0185
    }
   },
   "k-140": {
@@ -3447,19 +3447,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.97,
-    "change24h": -0.0396,
-    "change7d": 0.1279,
-    "change30d": -0.553
+    "marketValue": 1.19,
+    "change24h": 0.2268,
+    "change7d": 0.3837,
+    "change30d": -0.524
    },
    "tcg": {
-    "low": 8.7,
-    "mid": 21.34,
+    "low": 8.69,
+    "mid": 20.94,
     "high": 10000,
     "marketValue": 17.62,
     "change24h": 0,
     "change7d": 0.0692,
-    "change30d": 0.1237
+    "change30d": 0.0999
    }
   },
   "k-141": {
@@ -3472,11 +3472,11 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 19.12,
-    "mid": 34.16,
+    "low": 19.99,
+    "mid": 35.25,
     "high": 109.88,
     "marketValue": 40.26,
-    "change24h": 0.0045,
+    "change24h": 0,
     "change7d": 0.0083,
     "change30d": -0.018
    }
@@ -3493,7 +3493,7 @@
    "tcg": {
     "low": 66.58,
     "mid": 95,
-    "high": 404.99,
+    "high": 949.82,
     "marketValue": 94.89,
     "change24h": 0,
     "change7d": -0.0062,
@@ -3510,13 +3510,13 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 148,
-    "mid": 192.2,
-    "high": 499.99,
-    "marketValue": 202.78,
-    "change24h": 0.0023,
-    "change7d": 0.0023,
-    "change30d": -0.0059
+    "low": 145.15,
+    "mid": 196.85,
+    "high": 1949.72,
+    "marketValue": 200.81,
+    "change24h": -0.0097,
+    "change7d": -0.0075,
+    "change30d": -0.0156
    }
   },
   "k-145": {
@@ -3530,12 +3530,12 @@
    },
    "tcg": {
     "low": 29.99,
-    "mid": 38,
+    "mid": 37,
     "high": 9999,
-    "marketValue": 47.91,
-    "change24h": 0,
-    "change7d": 0.0564,
-    "change30d": -0.0414
+    "marketValue": 47.94,
+    "change24h": 0.0006,
+    "change7d": 0.0571,
+    "change30d": -0.0408
    }
   },
   "k-146": {
@@ -3549,10 +3549,10 @@
    },
    "tcg": {
     "low": 146.99,
-    "mid": 187,
-    "high": 299.99,
+    "mid": 187.51,
+    "high": 1572.42,
     "marketValue": 196.62,
-    "change24h": -0.0065,
+    "change24h": 0,
     "change7d": -0.0065,
     "change30d": 0.0106
    }
@@ -3562,19 +3562,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 3.38,
-    "change24h": 0.0368,
-    "change7d": -0.1894,
-    "change30d": 0.009
+    "marketValue": 3.33,
+    "change24h": -0.0148,
+    "change7d": -0.2014,
+    "change30d": 0.2243
    },
    "tcg": {
     "low": 0.25,
-    "mid": 1.61,
+    "mid": 1.69,
     "high": 69.97,
-    "marketValue": 3.29,
-    "change24h": 0.0154,
-    "change7d": 0.1077,
-    "change30d": 0.0967
+    "marketValue": 3.41,
+    "change24h": 0.0365,
+    "change7d": 0.1481,
+    "change30d": 0.1367
    }
   },
   "k-148": {
@@ -3582,19 +3582,19 @@
    "finish": "Standard",
    "cm": {
     "low": 1.49,
-    "marketValue": 12.92,
-    "change24h": -0.0387,
-    "change7d": 0.1821,
-    "change30d": -0.3868
+    "marketValue": 13.85,
+    "change24h": 0.072,
+    "change7d": 0.2672,
+    "change30d": -0.3373
    },
    "tcg": {
     "low": 7.7,
-    "mid": 12,
-    "high": 118.33,
-    "marketValue": 17.93,
-    "change24h": -0.0072,
-    "change7d": 0.013,
-    "change30d": -0.1137
+    "mid": 12.07,
+    "high": 143.33,
+    "marketValue": 17.73,
+    "change24h": -0.0112,
+    "change7d": 0.0017,
+    "change30d": -0.1236
    }
   },
   "k-149": {
@@ -3608,7 +3608,7 @@
    },
    "tcg": {
     "low": 418.95,
-    "mid": 499.99,
+    "mid": 549.99,
     "high": 999.99,
     "marketValue": 514.87,
     "change24h": 0,
@@ -3627,7 +3627,7 @@
    },
    "tcg": {
     "low": 37.12,
-    "mid": 65,
+    "mid": 57.5,
     "high": 500,
     "marketValue": 86.16,
     "change24h": 0,
@@ -3640,19 +3640,19 @@
    "finish": "Standard",
    "cm": {
     "low": 1.2,
-    "marketValue": 23.37,
-    "change24h": 0.8651,
-    "change7d": 2.908,
-    "change30d": 0.5549
+    "marketValue": 22.39,
+    "change24h": -0.0419,
+    "change7d": 2.7441,
+    "change30d": 0.612
    },
    "tcg": {
-    "low": 5,
+    "low": 4.09,
     "mid": 10,
     "high": 9999,
-    "marketValue": 10.78,
-    "change24h": 0.0296,
-    "change7d": 0.0141,
-    "change30d": 0.1794
+    "marketValue": 10.44,
+    "change24h": -0.0315,
+    "change7d": -0.0179,
+    "change30d": 0.0482
    }
   },
   "lor-wu": {
@@ -3660,19 +3660,19 @@
    "finish": "Standard",
    "cm": {
     "low": 100,
-    "marketValue": 131.41,
-    "change24h": -0.0614,
-    "change7d": -0.0922,
-    "change30d": -0.0739
+    "marketValue": 127.38,
+    "change24h": -0.0307,
+    "change7d": -0.12,
+    "change30d": -0.1188
    },
    "tcg": {
-    "low": 217.48,
+    "low": 213,
     "mid": 255,
     "high": 1500,
-    "marketValue": 229.21,
-    "change24h": -0.0049,
-    "change7d": -0.0285,
-    "change30d": -0.0342
+    "marketValue": 228.25,
+    "change24h": -0.0042,
+    "change7d": -0.0326,
+    "change30d": -0.0382
    }
   },
   "mk-151-129-165": {
@@ -3687,12 +3687,12 @@
    },
    "tcg": {
     "low": 0.13,
-    "mid": 0.4,
-    "high": 15.27,
-    "marketValue": 0.4,
-    "change24h": -0.0698,
-    "change7d": 0.2121,
-    "change30d": 0.25
+    "mid": 0.39,
+    "high": 16.76,
+    "marketValue": 0.39,
+    "change24h": -0.025,
+    "change7d": 0.1818,
+    "change30d": 0.1471
    }
   },
   "mk-ancient-origins-19-98": {
@@ -3701,18 +3701,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.22,
-    "change24h": 0.2941,
+    "change24h": 0,
     "change7d": -0.1538,
-    "change30d": -0.3333
+    "change30d": -0.3714
    },
    "tcg": {
     "low": 0.05,
     "mid": 0.28,
-    "high": 14.99,
+    "high": 19.8,
     "marketValue": 0.27,
-    "change24h": -0.0357,
+    "change24h": 0,
     "change7d": 0.0385,
-    "change30d": 0.2273
+    "change30d": 0.2857
    }
   },
   "mk-base-set-2-50-130": {
@@ -3720,19 +3720,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.15,
-    "marketValue": 1.22,
-    "change24h": 0,
-    "change7d": -0.2278,
-    "change30d": -0.0758
+    "marketValue": 1.13,
+    "change24h": -0.0738,
+    "change7d": -0.2848,
+    "change30d": -0.1439
    },
    "tcg": {
-    "low": 0.43,
-    "mid": 1,
+    "low": 0.48,
+    "mid": 1.02,
     "high": 12.25,
     "marketValue": 1.78,
-    "change24h": -0.0056,
+    "change24h": 0,
     "change7d": -0.0918,
-    "change30d": -0.1275
+    "change30d": -0.1188
    }
   },
   "mk-burning-shadows-32-147": {
@@ -3740,19 +3740,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.12,
-    "change24h": -0.0769,
-    "change7d": -0.1429,
-    "change30d": 0.0909
+    "marketValue": 0.1,
+    "change24h": -0.1667,
+    "change7d": -0.2857,
+    "change30d": 0
    },
    "tcg": {
     "low": 0.05,
-    "mid": 0.35,
+    "mid": 0.34,
     "high": 6.8,
     "marketValue": 0.32,
-    "change24h": -0.0857,
+    "change24h": 0,
     "change7d": -0.1111,
-    "change30d": -0.0857
+    "change30d": 0.0667
    }
   },
   "mk-call-of-legends-61-95": {
@@ -3760,15 +3760,15 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.35,
-    "change24h": 0,
-    "change7d": -0.3147,
-    "change30d": -0.4512
+    "marketValue": 1.07,
+    "change24h": -0.2074,
+    "change7d": -0.4569,
+    "change30d": -0.5348
    },
    "tcg": {
-    "low": 1.35,
+    "low": 1.34,
     "mid": 2.62,
-    "high": 4.99,
+    "high": 19.8,
     "marketValue": 2.79,
     "change24h": 0,
     "change7d": 0.0528,
@@ -3780,19 +3780,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.11,
-    "change24h": 0.1,
-    "change7d": 0,
-    "change30d": -0.0833
+    "marketValue": 0.12,
+    "change24h": 0.0909,
+    "change7d": 0.0909,
+    "change30d": -0.0769
    },
    "tcg": {
     "low": 0.09,
     "mid": 0.39,
-    "high": 6.8,
+    "high": 17.66,
     "marketValue": 0.37,
     "change24h": 0,
     "change7d": 0,
-    "change30d": -0.0263
+    "change30d": -0.0513
    }
   },
   "mk-destined-rivals-misty-s-48-182": {
@@ -3800,19 +3800,19 @@
    "finish": "Reverse Holo",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.04,
-    "change24h": 0,
-    "change7d": -0.2,
-    "change30d": -0.2
+    "marketValue": 0.05,
+    "change24h": 0.25,
+    "change7d": 0,
+    "change30d": 0
    },
    "tcg": {
     "low": 0.1,
-    "mid": 0.47,
-    "high": 8.4,
-    "marketValue": 0.48,
-    "change24h": 0.1163,
-    "change7d": 0.0667,
-    "change30d": 0.2
+    "mid": 0.49,
+    "high": 19.8,
+    "marketValue": 0.47,
+    "change24h": -0.0208,
+    "change7d": 0.0444,
+    "change30d": 0.175
    }
   },
   "mk-detective-pikachu-8-18": {
@@ -3827,12 +3827,12 @@
    },
    "tcg": {
     "low": 0.05,
-    "mid": 0.81,
+    "mid": 0.82,
     "high": 999,
-    "marketValue": 0.98,
-    "change24h": -0.0101,
-    "change7d": 0.0652,
-    "change30d": 0.1807
+    "marketValue": 0.96,
+    "change24h": -0.0204,
+    "change7d": 0.0435,
+    "change30d": -0.0204
    }
   },
   "mk-dragon-majesty-19-70": {
@@ -3840,15 +3840,15 @@
    "finish": "Standard",
    "cm": {
     "low": 0.05,
-    "marketValue": 0.47,
-    "change24h": 0,
-    "change7d": 0.0217,
-    "change30d": 0.5161
+    "marketValue": 0.45,
+    "change24h": -0.0426,
+    "change7d": -0.0217,
+    "change30d": 0.6667
    },
    "tcg": {
     "low": 0.15,
-    "mid": 0.65,
-    "high": 2.49,
+    "mid": 0.67,
+    "high": 18.76,
     "marketValue": 0.7,
     "change24h": 0,
     "change7d": 0.0606,
@@ -3863,16 +3863,16 @@
     "marketValue": 0.38,
     "change24h": 0,
     "change7d": -0.1915,
-    "change30d": -0.4571
+    "change30d": -0.3968
    },
    "tcg": {
     "low": 0.45,
     "mid": 1.18,
-    "high": 5,
+    "high": 23.22,
     "marketValue": 1.18,
     "change24h": 0,
     "change7d": 0.0261,
-    "change30d": 0.0085
+    "change30d": 0
    }
   },
   "mk-evolutions-33-108": {
@@ -3880,19 +3880,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.15,
-    "change24h": -0.0625,
-    "change7d": 0,
-    "change30d": -0.1667
+    "marketValue": 0.13,
+    "change24h": -0.1333,
+    "change7d": -0.1333,
+    "change30d": -0.2353
    },
    "tcg": {
     "low": 0.04,
     "mid": 0.26,
     "high": 19.95,
-    "marketValue": 0.26,
-    "change24h": -0.037,
-    "change7d": -0.037,
-    "change30d": -0.037
+    "marketValue": 0.27,
+    "change24h": 0.0385,
+    "change7d": 0,
+    "change30d": 0.0385
    }
   },
   "mk-ex-deoxys-64-107": {
@@ -3900,19 +3900,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.18,
-    "marketValue": 2.26,
-    "change24h": 0,
-    "change7d": 0.5586,
-    "change30d": -0.207
+    "marketValue": 2.33,
+    "change24h": 0.031,
+    "change7d": 0.6069,
+    "change30d": -0.1038
    },
    "tcg": {
     "low": 4.99,
-    "mid": 9.71,
+    "mid": 9.73,
     "high": 152.3,
-    "marketValue": 9.7,
-    "change24h": 0,
-    "change7d": -0.001,
-    "change30d": 0.0243
+    "marketValue": 9.76,
+    "change24h": 0.0062,
+    "change7d": 0.0051,
+    "change30d": 0.0083
    }
   },
   "mk-ex-dragon-60-97": {
@@ -3920,19 +3920,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.4,
-    "change24h": 0,
-    "change7d": -0.125,
-    "change30d": -0.2308
+    "marketValue": 1.35,
+    "change24h": -0.0357,
+    "change7d": -0.1563,
+    "change30d": -0.1667
    },
    "tcg": {
-    "low": 3.13,
-    "mid": 4.94,
-    "high": 28.75,
-    "marketValue": 5.15,
-    "change24h": 0,
-    "change7d": 0.0138,
-    "change30d": 0.0532
+    "low": 3,
+    "mid": 4.99,
+    "high": 40.26,
+    "marketValue": 5.1,
+    "change24h": -0.0097,
+    "change7d": 0.0039,
+    "change30d": 0.0429
    }
   },
   "mk-ex-firered-leafgreen-67-112": {
@@ -3961,18 +3961,18 @@
    "cm": {
     "low": 0.08,
     "marketValue": 1.02,
-    "change24h": -0.3544,
+    "change24h": 0,
     "change7d": -0.5904,
-    "change30d": -0.7316
+    "change30d": -0.7175
    },
    "tcg": {
-    "low": 2.49,
-    "mid": 4.35,
-    "high": 8.18,
-    "marketValue": 4.99,
-    "change24h": 0,
-    "change7d": 0.0967,
-    "change30d": 0.1163
+    "low": 2.47,
+    "mid": 4.4,
+    "high": 49.82,
+    "marketValue": 4.96,
+    "change24h": -0.006,
+    "change7d": 0.0901,
+    "change30d": 0.1096
    }
   },
   "mk-ex-team-rocket-returns-65-109": {
@@ -3981,13 +3981,13 @@
    "cm": {
     "low": 0.5,
     "marketValue": 3.3,
-    "change24h": 0.0248,
+    "change24h": 0,
     "change7d": -0.009,
-    "change30d": -0.0294
+    "change30d": 0.1149
    },
    "tcg": {
     "low": 2.98,
-    "mid": 8.77,
+    "mid": 9.61,
     "high": 96.95,
     "marketValue": 9.3,
     "change24h": 0,
@@ -4000,19 +4000,19 @@
    "finish": "Standard",
    "cm": {
     "low": 2,
-    "marketValue": 9.57,
-    "change24h": 0,
-    "change7d": -0.1992,
-    "change30d": -0.2375
+    "marketValue": 8.54,
+    "change24h": -0.1076,
+    "change7d": -0.2854,
+    "change30d": -0.296
    },
    "tcg": {
     "low": 27.54,
-    "mid": 43.6,
-    "high": 129.98,
-    "marketValue": 34.24,
-    "change24h": 0,
-    "change7d": 0.0139,
-    "change30d": 0.0493
+    "mid": 48.51,
+    "high": 167.02,
+    "marketValue": 34.64,
+    "change24h": 0.0117,
+    "change7d": 0.0258,
+    "change30d": 0.0616
    }
   },
   "mk-generations-22-83": {
@@ -4020,19 +4020,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.49,
-    "change24h": 0.0652,
-    "change7d": 0.4,
-    "change30d": 1.2273
+    "marketValue": 0.44,
+    "change24h": -0.102,
+    "change7d": 0.2571,
+    "change30d": 1.3158
    },
    "tcg": {
     "low": 0.33,
-    "mid": 0.69,
-    "high": 80,
+    "mid": 0.7,
+    "high": 19.36,
     "marketValue": 0.71,
     "change24h": 0,
     "change7d": -0.0405,
-    "change30d": -0.1446
+    "change30d": -0.1125
    }
   },
   "mk-gym-challenge-giovanni-s-73-132": {
@@ -4040,19 +4040,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.47,
-    "marketValue": 5.76,
-    "change24h": 0.2604,
-    "change7d": 0.5442,
-    "change30d": 0.2025
+    "marketValue": 5.35,
+    "change24h": -0.0712,
+    "change7d": 0.4343,
+    "change30d": 0.1169
    },
    "tcg": {
-    "low": 11.63,
-    "mid": 19.25,
+    "low": 11.52,
+    "mid": 19.58,
     "high": 9999,
     "marketValue": 18.58,
     "change24h": 0,
     "change7d": -0.0164,
-    "change30d": -0.0206
+    "change30d": -0.0277
    }
   },
   "mk-gym-challenge-misty-s-88-132": {
@@ -4061,13 +4061,13 @@
    "cm": {
     "low": 0.29,
     "marketValue": 3.13,
-    "change24h": -0.1158,
+    "change24h": 0,
     "change7d": -0.0063,
-    "change30d": -0.0685
+    "change30d": 0.1179
    },
    "tcg": {
     "low": 7,
-    "mid": 11.29,
+    "mid": 11.6,
     "high": 98.55,
     "marketValue": 13.17,
     "change24h": 0,
@@ -4080,14 +4080,14 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.79,
-    "change24h": -0.1856,
-    "change7d": -0.2818,
-    "change30d": 2.95
+    "marketValue": 0.8,
+    "change24h": 0.0127,
+    "change7d": -0.2727,
+    "change30d": 1.5
    },
    "tcg": {
     "low": 0.82,
-    "mid": 1.96,
+    "mid": 1.93,
     "high": 22,
     "marketValue": 2.01,
     "change24h": 0,
@@ -4101,18 +4101,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.1,
-    "change24h": -0.1667,
+    "change24h": 0,
     "change7d": 0,
     "change30d": 0.25
    },
    "tcg": {
     "low": 0.93,
-    "mid": 2.01,
-    "high": 8.99,
-    "marketValue": 2.01,
-    "change24h": -0.0195,
-    "change7d": 0.0524,
-    "change30d": 0.1044
+    "mid": 2.02,
+    "high": 18.34,
+    "marketValue": 2.14,
+    "change24h": 0.0647,
+    "change7d": 0.1204,
+    "change30d": 0.1823
    }
   },
   "mk-legendary-collection-52-110": {
@@ -4127,8 +4127,8 @@
    },
    "tcg": {
     "low": 2.79,
-    "mid": 3.77,
-    "high": 14,
+    "mid": 4,
+    "high": 57.02,
     "marketValue": 8.32,
     "change24h": 0,
     "change7d": 0.0221,
@@ -4143,16 +4143,16 @@
     "marketValue": 3.96,
     "change24h": 0,
     "change7d": -0.027,
-    "change30d": -0.0025
+    "change30d": 0.0476
    },
    "tcg": {
     "low": 0.99,
-    "mid": 2,
+    "mid": 2.1,
     "high": 96.95,
-    "marketValue": 5.3,
-    "change24h": 0,
-    "change7d": 0.0433,
-    "change30d": 0.0413
+    "marketValue": 5.24,
+    "change24h": -0.0113,
+    "change7d": 0.0315,
+    "change30d": 0.0295
    }
   },
   "mk-mysterious-treasures-89-123": {
@@ -4161,18 +4161,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.26,
-    "change24h": -0.0714,
+    "change24h": 0,
     "change7d": -0.1875,
     "change30d": -0.5439
    },
    "tcg": {
-    "low": 0.26,
-    "mid": 1.25,
+    "low": 0.75,
+    "mid": 1.49,
     "high": 24.99,
-    "marketValue": 1.63,
-    "change24h": 0,
-    "change7d": 0.0449,
-    "change30d": 0.094
+    "marketValue": 1.62,
+    "change24h": -0.0061,
+    "change7d": 0.0385,
+    "change30d": 0.1096
    }
   },
   "mk-neo-revelation-shining-66-64": {
@@ -4199,19 +4199,19 @@
    "finish": "Foil",
    "cm": {
     "low": 99.9,
-    "marketValue": 303.68,
-    "change24h": -0.0841,
-    "change7d": 0.0168,
-    "change30d": 0.3248
+    "marketValue": 295.08,
+    "change24h": -0.0283,
+    "change7d": -0.012,
+    "change30d": 0.2873
    },
    "tcg": {
     "low": 260,
     "mid": 383.4,
     "high": 1200,
-    "marketValue": 358.49,
-    "change24h": 0,
-    "change7d": 0.0053,
-    "change30d": -0.0459
+    "marketValue": 352.72,
+    "change24h": -0.0161,
+    "change7d": -0.0109,
+    "change30d": -0.0612
    }
   },
   "mk-paldea-evolved-42-193": {
@@ -4220,18 +4220,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.05,
-    "change24h": -0.1667,
+    "change24h": 0,
     "change7d": -0.1667,
     "change30d": 0
    },
    "tcg": {
     "low": 0.01,
-    "mid": 0.21,
+    "mid": 0.2,
     "high": 20,
-    "marketValue": 0.16,
-    "change24h": -0.1579,
-    "change7d": -0.2381,
-    "change30d": -0.2727
+    "marketValue": 0.14,
+    "change24h": -0.125,
+    "change7d": -0.3333,
+    "change30d": -0.3
    }
   },
   "mk-pokemon-go-021-078": {
@@ -4246,12 +4246,12 @@
    },
    "tcg": {
     "low": 0.16,
-    "mid": 0.42,
-    "high": 5,
-    "marketValue": 0.38,
-    "change24h": 0,
-    "change7d": -0.1739,
-    "change30d": -0.3871
+    "mid": 0.4,
+    "high": 19.8,
+    "marketValue": 0.37,
+    "change24h": -0.0263,
+    "change7d": -0.1957,
+    "change30d": -0.4714
    }
   },
   "mk-rebel-clash-39-192": {
@@ -4259,10 +4259,10 @@
    "finish": "Reverse Holo",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.94,
-    "change24h": 0,
-    "change7d": -0.0505,
-    "change30d": -0.6582
+    "marketValue": 0.45,
+    "change24h": -0.5213,
+    "change7d": -0.5455,
+    "change30d": -0.8364
    },
    "tcg": {
     "low": 7.65,
@@ -4271,7 +4271,7 @@
     "marketValue": 19.81,
     "change24h": 0,
     "change7d": 0.019,
-    "change30d": 0.3367
+    "change30d": 0.3476
    }
   },
   "mk-scarlet-violet-44-198": {
@@ -4288,10 +4288,10 @@
     "low": 0.01,
     "mid": 0.2,
     "high": 20,
-    "marketValue": 0.14,
-    "change24h": -0.0667,
-    "change7d": -0.2222,
-    "change30d": -0.125
+    "marketValue": 0.15,
+    "change24h": 0.0714,
+    "change7d": -0.1667,
+    "change30d": -0.0625
    }
   },
   "mk-skyridge-75-144": {
@@ -4299,15 +4299,15 @@
    "finish": "Reverse Holo",
    "cm": {
     "low": 8.5,
-    "marketValue": 19.58,
-    "change24h": -0.0111,
-    "change7d": 0.0387,
+    "marketValue": 24.24,
+    "change24h": 0.238,
+    "change7d": 0.2859,
     "change30d": null
    },
    "tcg": {
     "low": 79.99,
-    "mid": 105.85,
-    "high": 129.99,
+    "mid": 106.69,
+    "high": 1012.82,
     "marketValue": 101.87,
     "change24h": 0,
     "change7d": 0,
@@ -4319,19 +4319,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.37,
-    "change24h": -0.1161,
-    "change7d": -0.3218,
-    "change30d": 1.2459
+    "marketValue": 1.31,
+    "change24h": -0.0438,
+    "change7d": -0.3515,
+    "change30d": 1.1475
    },
    "tcg": {
     "low": 1.95,
-    "mid": 5.71,
-    "high": 190.64,
-    "marketValue": 5.93,
-    "change24h": 0,
-    "change7d": 0.0085,
-    "change30d": -0.0198
+    "mid": 5.72,
+    "high": 998.14,
+    "marketValue": 6.02,
+    "change24h": 0.0152,
+    "change7d": 0.0238,
+    "change30d": -0.0033
    }
   },
   "mk-supreme-victors-110-147": {
@@ -4339,19 +4339,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.05,
-    "marketValue": 0.67,
-    "change24h": -0.0563,
-    "change7d": 1.913,
-    "change30d": 0
+    "marketValue": 0.62,
+    "change24h": -0.0746,
+    "change7d": 1.6957,
+    "change30d": 0.0508
    },
    "tcg": {
     "low": 1.39,
-    "mid": 2.56,
-    "high": 5,
+    "mid": 2.66,
+    "high": 26.92,
     "marketValue": 2.9,
     "change24h": 0,
     "change7d": 0,
-    "change30d": 0.0105
+    "change30d": 0.0035
    }
   },
   "mk-team-rocket-47-82": {
@@ -4359,19 +4359,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.05,
-    "marketValue": 3.81,
-    "change24h": 0.4487,
-    "change7d": 0.8768,
-    "change30d": -0.2573
+    "marketValue": 3.69,
+    "change24h": -0.0315,
+    "change7d": 0.8177,
+    "change30d": -0.2807
    },
    "tcg": {
     "low": 4.04,
-    "mid": 6.04,
+    "mid": 6.52,
     "high": 9999,
     "marketValue": 9.25,
     "change24h": 0,
     "change7d": 0.0198,
-    "change30d": 0.2517
+    "change30d": 0.2416
    }
   },
   "mk-team-up-29-181": {
@@ -4379,19 +4379,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.27,
-    "change24h": -0.0357,
-    "change7d": -0.129,
-    "change30d": 0.5
+    "marketValue": 0.24,
+    "change24h": -0.1111,
+    "change7d": -0.2258,
+    "change30d": 0.4118
    },
    "tcg": {
     "low": 0.2,
     "mid": 0.5,
-    "high": 5,
-    "marketValue": 0.52,
-    "change24h": 0,
-    "change7d": 0.4054,
-    "change30d": 0.2093
+    "high": 19.8,
+    "marketValue": 0.54,
+    "change24h": 0.0385,
+    "change7d": 0.4595,
+    "change30d": 0.2558
    }
   },
   "op17": {
@@ -4400,18 +4400,18 @@
    "cm": {
     "low": 215,
     "marketValue": 242.87,
-    "change24h": -0.0019,
+    "change24h": 0,
     "change7d": -0.0332,
-    "change30d": -0.0987
+    "change30d": -0.0933
    },
    "tcg": {
     "low": 304.99,
-    "mid": 359.5,
+    "mid": 359.99,
     "high": 999.99,
-    "marketValue": 305.78,
-    "change24h": -0.0036,
-    "change7d": -0.0124,
-    "change30d": -0.0659
+    "marketValue": 305.18,
+    "change24h": -0.002,
+    "change7d": -0.0143,
+    "change30d": -0.098
    }
   },
   "pe-spc": {
@@ -4419,19 +4419,19 @@
    "finish": "Standard",
    "cm": {
     "low": 115,
-    "marketValue": 207.61,
-    "change24h": -0.0338,
-    "change7d": -0.0555,
-    "change30d": -0.0765
+    "marketValue": 207.22,
+    "change24h": -0.0019,
+    "change7d": -0.0573,
+    "change30d": -0.0829
    },
    "tcg": {
     "low": 240,
-    "mid": 339.95,
+    "mid": 337.97,
     "high": 1499.99,
-    "marketValue": 262.04,
-    "change24h": 0.0042,
-    "change7d": 0.0065,
-    "change30d": 0.0364
+    "marketValue": 262.09,
+    "change24h": 0.0002,
+    "change7d": 0.0067,
+    "change30d": 0.0351
    }
   },
   "s-cc-zard": {
@@ -4440,17 +4440,17 @@
    "cm": {
     "low": 144.99,
     "marketValue": 173.22,
-    "change24h": -0.0167,
+    "change24h": 0,
     "change7d": -0.0247,
     "change30d": null
    },
    "tcg": {
-    "low": 134.99,
-    "mid": 154.28,
+    "low": 129,
+    "mid": 151.09,
     "high": 749.99,
-    "marketValue": 137.35,
-    "change24h": -0.0323,
-    "change7d": -0.0779,
+    "marketValue": 134.22,
+    "change24h": -0.0228,
+    "change7d": -0.099,
     "change30d": null
    }
   },
@@ -4459,19 +4459,19 @@
    "finish": "Foil",
    "cm": {
     "low": 142,
-    "marketValue": 179.34,
-    "change24h": -0.015,
-    "change7d": -0.0204,
-    "change30d": -0.2097
+    "marketValue": 177.3,
+    "change24h": -0.0114,
+    "change7d": -0.0316,
+    "change30d": -0.2103
    },
    "tcg": {
-    "low": 129.95,
-    "mid": 169,
-    "high": 1531.15,
-    "marketValue": 141.29,
-    "change24h": -0.0307,
-    "change7d": -0.1204,
-    "change30d": -0.2771
+    "low": 128.57,
+    "mid": 166.25,
+    "high": 1469.9,
+    "marketValue": 137.11,
+    "change24h": -0.0296,
+    "change7d": -0.1464,
+    "change30d": -0.295
    }
   },
   "s-drago-sir": {
@@ -4479,19 +4479,19 @@
    "finish": "Foil",
    "cm": {
     "low": 183.99,
-    "marketValue": 433.13,
-    "change24h": -0.0507,
-    "change7d": 0.2616,
-    "change30d": 0.0208
+    "marketValue": 442.86,
+    "change24h": 0.0225,
+    "change7d": 0.2899,
+    "change30d": 0.0437
    },
    "tcg": {
     "low": 435,
-    "mid": 541.74,
+    "mid": 540.87,
     "high": 2999.99,
-    "marketValue": 477.42,
-    "change24h": 0,
-    "change7d": -0.0568,
-    "change30d": -0.2002
+    "marketValue": 474.19,
+    "change24h": -0.0068,
+    "change7d": -0.0631,
+    "change30d": -0.1892
    }
   },
   "s-fur-mew": {
@@ -4504,13 +4504,13 @@
     "change30d": null
    },
    "tcg": {
-    "low": 54.82,
-    "mid": 69.43,
+    "low": 52.66,
+    "mid": 67.05,
     "high": 8000,
-    "marketValue": 56.1,
-    "change24h": -0.0634,
-    "change7d": -0.0979,
-    "change30d": -0.9716
+    "marketValue": 52.62,
+    "change24h": -0.062,
+    "change7d": -0.1539,
+    "change30d": -0.9709
    }
   },
   "s-fur-mewtwo": {
@@ -4523,12 +4523,12 @@
     "change30d": null
    },
    "tcg": {
-    "low": 39.99,
-    "mid": 52,
+    "low": 41,
+    "mid": 50.54,
     "high": 1999.99,
-    "marketValue": 41.58,
-    "change24h": -0.0317,
-    "change7d": -0.1493,
+    "marketValue": 41.59,
+    "change24h": 0.0002,
+    "change7d": -0.1491,
     "change30d": -0.9525
    }
   },
@@ -4536,20 +4536,20 @@
    "cnId": 212393,
    "finish": "Foil",
    "cm": {
-    "low": 99.94,
+    "low": 94.9,
     "marketValue": 123.93,
-    "change24h": -0.1031,
+    "change24h": 0,
     "change7d": -0.0125,
-    "change30d": -0.1931
+    "change30d": -0.1797
    },
    "tcg": {
-    "low": 126,
-    "mid": 150,
-    "high": 1355.51,
-    "marketValue": 129.04,
-    "change24h": -0.0088,
-    "change7d": -0.0474,
-    "change30d": -0.2278
+    "low": 125.99,
+    "mid": 147.96,
+    "high": 1301.29,
+    "marketValue": 127.82,
+    "change24h": -0.0095,
+    "change7d": -0.0564,
+    "change30d": -0.2294
    }
   },
   "s-mew-paf": {
@@ -4557,19 +4557,19 @@
    "finish": "Foil",
    "cm": {
     "low": 149.99,
-    "marketValue": 581.04,
-    "change24h": -0.0551,
-    "change7d": -0.2377,
-    "change30d": -0.3961
+    "marketValue": 587.96,
+    "change24h": 0.0119,
+    "change7d": -0.2286,
+    "change30d": -0.3468
    },
    "tcg": {
     "low": 729.99,
-    "mid": 934.7,
+    "mid": 920.7,
     "high": 10000,
-    "marketValue": 864.01,
+    "marketValue": 863.85,
     "change24h": -0.0002,
-    "change7d": -0.0099,
-    "change30d": -0.015
+    "change7d": -0.0101,
+    "change30d": -0.0151
    }
   },
   "sf-etb": {
@@ -4577,17 +4577,17 @@
    "finish": "Standard",
    "cm": {
     "low": 110,
-    "marketValue": 119.64,
-    "change24h": 0.0115,
-    "change7d": 0.0087,
-    "change30d": 0.2705
+    "marketValue": 118.48,
+    "change24h": -0.0097,
+    "change7d": -0.0011,
+    "change30d": 0.2582
    },
    "tcg": {
     "low": 131,
-    "mid": 169.99,
+    "mid": 169.97,
     "high": 600,
     "marketValue": 139.09,
-    "change24h": 0.0023,
+    "change24h": 0,
     "change7d": 0.0034,
     "change30d": -0.061
    }
@@ -4597,39 +4597,39 @@
    "finish": "Standard",
    "cm": {
     "low": 150,
-    "marketValue": 230.49,
-    "change24h": -0.0111,
-    "change7d": 0.0057,
-    "change30d": -0.0566
+    "marketValue": 230.7,
+    "change24h": 0.0009,
+    "change7d": 0.0066,
+    "change30d": -0.064
    },
    "tcg": {
     "low": 221.65,
-    "mid": 330.15,
+    "mid": 339.9,
     "high": 2500,
-    "marketValue": 241.81,
-    "change24h": -0.0146,
-    "change7d": -0.1367,
-    "change30d": -0.1877
+    "marketValue": 239.66,
+    "change24h": -0.0089,
+    "change7d": -0.1444,
+    "change30d": -0.1984
    }
   },
   "sv4a-box": {
    "cnId": 225171,
    "finish": "Standard",
    "cm": {
-    "low": 89,
-    "marketValue": 104.64,
-    "change24h": -0.0122,
-    "change7d": -0.0384,
-    "change30d": 0.0113
+    "low": 88,
+    "marketValue": 104.31,
+    "change24h": -0.0032,
+    "change7d": -0.0414,
+    "change30d": -0.0038
    },
    "tcg": {
     "low": 118.99,
-    "mid": 144,
+    "mid": 143.85,
     "high": 475,
-    "marketValue": 115.21,
-    "change24h": 0.0086,
-    "change7d": 0.0668,
-    "change30d": -0.1601
+    "marketValue": 115.77,
+    "change24h": 0.0049,
+    "change7d": 0.0719,
+    "change30d": -0.1548
    }
   },
   "zard-premium23": {
@@ -4646,10 +4646,10 @@
     "low": 100.11,
     "mid": 129.99,
     "high": 500,
-    "marketValue": 109.15,
-    "change24h": 0,
-    "change7d": -0.0105,
-    "change30d": -0.0208
+    "marketValue": 108.84,
+    "change24h": -0.0028,
+    "change7d": -0.0133,
+    "change30d": -0.0215
    }
   },
   "zard-special-collection": {
@@ -4658,12 +4658,12 @@
    "cm": {},
    "tcg": {
     "low": 47.44,
-    "mid": 68.99,
+    "mid": 68.84,
     "high": 199,
-    "marketValue": 60.56,
-    "change24h": -0.0033,
-    "change7d": 0.0093,
-    "change30d": -0.0377
+    "marketValue": 59.74,
+    "change24h": -0.0135,
+    "change7d": -0.0043,
+    "change30d": -0.0585
    }
   },
   "bs-clefairydoll": {
@@ -4671,19 +4671,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.94,
-    "marketValue": 8.77,
-    "change24h": -0.0266,
-    "change7d": 0.0774,
-    "change30d": 0.0962
+    "marketValue": 9.5,
+    "change24h": 0.0832,
+    "change7d": 0.1671,
+    "change30d": 0.3808
    },
    "tcg": {
     "low": 3.75,
-    "mid": 6.96,
+    "mid": 6.98,
     "high": 96.38,
-    "marketValue": 9.31,
-    "change24h": 0.0087,
-    "change7d": 0.1845,
-    "change30d": -0.0117
+    "marketValue": 9.39,
+    "change24h": 0.0086,
+    "change7d": 0.1947,
+    "change30d": 0
    }
   },
   "bs-computersearch": {
@@ -4691,19 +4691,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.25,
-    "marketValue": 4.03,
-    "change24h": 0.4042,
-    "change7d": 0.0747,
-    "change30d": 0.3
+    "marketValue": 4.43,
+    "change24h": 0.0993,
+    "change7d": 0.1813,
+    "change30d": 0.5068
    },
    "tcg": {
-    "low": 1.25,
+    "low": 1,
     "mid": 3,
     "high": 96.95,
     "marketValue": 3.7,
-    "change24h": -0.0439,
+    "change24h": 0,
     "change7d": -0.0027,
-    "change30d": 0.1672
+    "change30d": 0.2052
    }
   },
   "bs-devolutionspray": {
@@ -4711,14 +4711,14 @@
    "finish": "Standard",
    "cm": {
     "low": 0.85,
-    "marketValue": 6.27,
-    "change24h": -0.191,
-    "change7d": -0.1982,
-    "change30d": -0.2859
+    "marketValue": 6.25,
+    "change24h": -0.0032,
+    "change7d": -0.2008,
+    "change30d": -0.3001
    },
    "tcg": {
     "low": 1.5,
-    "mid": 4.87,
+    "mid": 5,
     "high": 9999,
     "marketValue": 6.49,
     "change24h": 0,
@@ -4731,19 +4731,19 @@
    "finish": "Standard",
    "cm": {
     "low": 1.99,
-    "marketValue": 8.5,
-    "change24h": -0.007,
-    "change7d": -0.0196,
-    "change30d": -0.15
+    "marketValue": 9.24,
+    "change24h": 0.0871,
+    "change7d": 0.0657,
+    "change30d": -0.0861
    },
    "tcg": {
     "low": 4.22,
-    "mid": 8.79,
+    "mid": 8.76,
     "high": 96.95,
     "marketValue": 9.56,
     "change24h": 0,
     "change7d": 0.0214,
-    "change30d": 0.0358
+    "change30d": 0.0437
    }
   },
   "bs-lass": {
@@ -4751,39 +4751,39 @@
    "finish": "Standard",
    "cm": {
     "low": 0.12,
-    "marketValue": 1.52,
-    "change24h": -0.3796,
-    "change7d": -0.711,
-    "change30d": -0.4131
+    "marketValue": 2.84,
+    "change24h": 0.8684,
+    "change7d": -0.4601,
+    "change30d": 0.1094
    },
    "tcg": {
     "low": 1.13,
-    "mid": 2.9,
+    "mid": 2.82,
     "high": 31,
     "marketValue": 4,
-    "change24h": -0.0268,
+    "change24h": 0,
     "change7d": -0.0408,
-    "change30d": 0.0753
+    "change30d": 0.061
    }
   },
   "bs-breeder": {
    "cnId": 16039,
    "finish": "Standard",
    "cm": {
-    "low": 1.99,
-    "marketValue": 8.07,
-    "change24h": -0.0122,
-    "change7d": 0.0346,
-    "change30d": -0.1602
+    "low": 1.95,
+    "marketValue": 8.44,
+    "change24h": 0.0458,
+    "change7d": 0.0821,
+    "change30d": -0.0506
    },
    "tcg": {
     "low": 3.14,
-    "mid": 5.25,
+    "mid": 5.42,
     "high": 96.95,
-    "marketValue": 6.98,
-    "change24h": -0.0169,
-    "change7d": -0.0169,
-    "change30d": -0.0099
+    "marketValue": 6.86,
+    "change24h": -0.0172,
+    "change7d": -0.0338,
+    "change30d": -0.027
    }
   },
   "bs-scoopup": {
@@ -4791,19 +4791,19 @@
    "finish": "Standard",
    "cm": {
     "low": 3.5,
-    "marketValue": 18.43,
-    "change24h": -0.2011,
-    "change7d": -0.3813,
-    "change30d": 1.0801
+    "marketValue": 16.95,
+    "change24h": -0.0803,
+    "change7d": -0.431,
+    "change30d": 1.1241
    },
    "tcg": {
-    "low": 5.67,
+    "low": 5.25,
     "mid": 8,
     "high": 94.22,
-    "marketValue": 8.56,
-    "change24h": 0.0023,
-    "change7d": 0.0452,
-    "change30d": 0.0106
+    "marketValue": 8.6,
+    "change24h": 0.0047,
+    "change7d": 0.0501,
+    "change30d": 0.0153
    }
   },
   "bs-superenergyremoval": {
@@ -4811,19 +4811,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.05,
-    "marketValue": 3.23,
-    "change24h": -0.2044,
-    "change7d": -0.2838,
-    "change30d": 0.1703
+    "marketValue": 3.74,
+    "change24h": 0.1579,
+    "change7d": -0.1707,
+    "change30d": 0.49
    },
    "tcg": {
-    "low": 1.09,
-    "mid": 3.04,
+    "low": 1.08,
+    "mid": 3.16,
     "high": 9999,
-    "marketValue": 3.36,
-    "change24h": 0.003,
-    "change7d": -0.082,
-    "change30d": -0.0372
+    "marketValue": 3.39,
+    "change24h": 0.0089,
+    "change7d": -0.0738,
+    "change30d": -0.0287
    }
   },
   "bs-trader": {
@@ -4832,16 +4832,16 @@
    "cm": {
     "low": 1.2,
     "marketValue": 10.03,
-    "change24h": 0.1437,
+    "change24h": 0,
     "change7d": 0.4903,
-    "change30d": -0.002
+    "change30d": 0.0739
    },
    "tcg": {
     "low": 2.3,
-    "mid": 4.33,
+    "mid": 4.25,
     "high": 96.95,
     "marketValue": 4.21,
-    "change24h": 0.0024,
+    "change24h": 0,
     "change7d": -0.0828,
     "change30d": -0.2469
    }
@@ -4851,19 +4851,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.99,
-    "marketValue": 7.38,
-    "change24h": -0.0264,
-    "change7d": -0.0911,
-    "change30d": -0.2336
+    "marketValue": 9.95,
+    "change24h": 0.3482,
+    "change7d": 0.2254,
+    "change30d": 0.1019
    },
    "tcg": {
     "low": 3.3,
-    "mid": 4.99,
-    "high": 96.94,
+    "mid": 5,
+    "high": 4316.43,
     "marketValue": 6.73,
-    "change24h": 0.0045,
+    "change24h": 0,
     "change7d": 0.0259,
-    "change30d": 0.1786
+    "change30d": 0.1912
    }
   },
   "pe-spc-2": {
@@ -4871,19 +4871,19 @@
    "finish": "Standard",
    "cm": {
     "low": 115,
-    "marketValue": 207.61,
-    "change24h": -0.0338,
-    "change7d": -0.0555,
-    "change30d": -0.0765
+    "marketValue": 207.22,
+    "change24h": -0.0019,
+    "change7d": -0.0573,
+    "change30d": -0.0829
    },
    "tcg": {
     "low": 240,
-    "mid": 339.95,
+    "mid": 337.97,
     "high": 1499.99,
-    "marketValue": 262.04,
-    "change24h": 0.0042,
-    "change7d": 0.0065,
-    "change30d": 0.0364
+    "marketValue": 262.09,
+    "change24h": 0.0002,
+    "change7d": 0.0067,
+    "change30d": 0.0351
    }
   },
   "h-cr-box": {
@@ -4891,19 +4891,19 @@
    "finish": "Standard",
    "cm": {
     "low": 120,
-    "marketValue": 184.27,
-    "change24h": 0.0055,
-    "change7d": 0.0101,
-    "change30d": 0.0159
+    "marketValue": 182.64,
+    "change24h": -0.0088,
+    "change7d": 0.0012,
+    "change30d": 0.017
    },
    "tcg": {
-    "low": 164.99,
+    "low": 160,
     "mid": 219.99,
     "high": 1999,
-    "marketValue": 185.52,
-    "change24h": -0.0029,
-    "change7d": -0.024,
-    "change30d": -0.0675
+    "marketValue": 185.15,
+    "change24h": -0.002,
+    "change7d": -0.026,
+    "change30d": -0.0695
    }
   },
   "h-pb-box": {
@@ -4914,10 +4914,10 @@
     "low": 162.99,
     "mid": 210,
     "high": 999,
-    "marketValue": 184.11,
-    "change24h": 0.0001,
-    "change7d": -0.0514,
-    "change30d": -0.0691
+    "marketValue": 183.73,
+    "change24h": -0.0021,
+    "change7d": -0.0533,
+    "change30d": -0.0717
    }
   },
   "h-po-box": {
@@ -4925,19 +4925,19 @@
    "finish": "Standard",
    "cm": {
     "low": 123,
-    "marketValue": 182.65,
-    "change24h": 0.0075,
-    "change7d": 0.0122,
-    "change30d": 0.0284
+    "marketValue": 183.41,
+    "change24h": 0.0042,
+    "change7d": 0.0165,
+    "change30d": 0.0445
    },
    "tcg": {
     "low": 172,
     "mid": 225,
     "high": 999,
-    "marketValue": 175.4,
-    "change24h": 0.0076,
-    "change7d": 0.0104,
-    "change30d": -0.0078
+    "marketValue": 174.59,
+    "change24h": -0.0046,
+    "change7d": 0.0057,
+    "change30d": -0.0186
    }
   },
   "ah-etb": {
@@ -4945,19 +4945,19 @@
    "finish": "Standard",
    "cm": {
     "low": 74,
-    "marketValue": 126.01,
-    "change24h": -0.0203,
-    "change7d": -0.0131,
-    "change30d": 0.1078
+    "marketValue": 126.99,
+    "change24h": 0.0078,
+    "change7d": -0.0054,
+    "change30d": 0.1174
    },
    "tcg": {
     "low": 136.01,
-    "mid": 179.99,
+    "mid": 179.82,
     "high": 555,
-    "marketValue": 145.44,
-    "change24h": 0.0159,
-    "change7d": -0.0787,
-    "change30d": -0.099
+    "marketValue": 146.64,
+    "change24h": 0.0083,
+    "change7d": -0.0711,
+    "change30d": -0.0928
    }
   },
   "h-fpic2": {
@@ -4965,19 +4965,19 @@
    "finish": "Standard",
    "cm": {
     "low": 18,
-    "marketValue": 29.75,
-    "change24h": -0.0406,
-    "change7d": -0.1042,
-    "change30d": null
+    "marketValue": 29.51,
+    "change24h": -0.0081,
+    "change7d": -0.1114,
+    "change30d": -0.0706
    },
    "tcg": {
     "low": 18.43,
-    "mid": 34.97,
+    "mid": 34.85,
     "high": 149.99,
-    "marketValue": 26.74,
-    "change24h": -0.0118,
-    "change7d": 0.0752,
-    "change30d": -0.0867
+    "marketValue": 26.18,
+    "change24h": -0.0209,
+    "change7d": 0.0527,
+    "change30d": -0.0878
    }
   },
   "h-greninja": {
@@ -4985,19 +4985,19 @@
    "finish": "Standard",
    "cm": {
     "low": 28.89,
-    "marketValue": 44.19,
-    "change24h": -0.0256,
-    "change7d": -0.0273,
-    "change30d": 0.0286
+    "marketValue": 44.26,
+    "change24h": 0.0016,
+    "change7d": -0.0258,
+    "change30d": 0.0334
    },
    "tcg": {
     "low": 39.99,
     "mid": 55,
     "high": 99.99,
-    "marketValue": 48.13,
-    "change24h": -0.0103,
-    "change7d": -0.0486,
-    "change30d": -0.0672
+    "marketValue": 48.07,
+    "change24h": -0.0012,
+    "change7d": -0.0498,
+    "change30d": -0.0708
    }
   },
   "s12-box": {
@@ -5005,13 +5005,13 @@
    "finish": "Standard",
    "cm": {
     "low": 95,
-    "marketValue": 124.86,
-    "change24h": 0.0057,
-    "change7d": 0.0006,
-    "change30d": 0.0805
+    "marketValue": 120.48,
+    "change24h": -0.0351,
+    "change7d": -0.0345,
+    "change30d": 0.0269
    },
    "tcg": {
-    "low": 178.5,
+    "low": 175,
     "mid": 187.18,
     "high": 250,
     "marketValue": 171.05,
@@ -5025,19 +5025,19 @@
    "finish": "Foil",
    "cm": {
     "low": 19,
-    "marketValue": 35.51,
-    "change24h": -0.0387,
-    "change7d": 0.1262,
+    "marketValue": 35.7,
+    "change24h": 0.0054,
+    "change7d": 0.1323,
     "change30d": null
    },
    "tcg": {
-    "low": 37.99,
-    "mid": 51.02,
+    "low": 37.55,
+    "mid": 50.4,
     "high": 752.1,
-    "marketValue": 44.68,
-    "change24h": -0.0069,
-    "change7d": -0.0637,
-    "change30d": -0.1616
+    "marketValue": 44.59,
+    "change24h": -0.002,
+    "change7d": -0.0656,
+    "change30d": -0.1736
    }
   },
   "s-charizard-tg03": {
@@ -5045,19 +5045,19 @@
    "finish": "Foil",
    "cm": {
     "low": 15,
-    "marketValue": 24.83,
-    "change24h": 0.0044,
-    "change7d": 0.0227,
+    "marketValue": 25.51,
+    "change24h": 0.0274,
+    "change7d": 0.0507,
     "change30d": null
    },
    "tcg": {
-    "low": 20.95,
-    "mid": 32.46,
-    "high": 795.2,
-    "marketValue": 27.73,
-    "change24h": -0.0236,
-    "change7d": 0.0087,
-    "change30d": -0.1923
+    "low": 21.94,
+    "mid": 32.48,
+    "high": 763.39,
+    "marketValue": 27.86,
+    "change24h": 0.0047,
+    "change7d": 0.0135,
+    "change30d": -0.1837
    }
   },
   "rp-692947": {
@@ -5065,13 +5065,13 @@
    "finish": "Standard",
    "cm": {},
    "tcg": {
-    "low": 55.99,
+    "low": 54.99,
     "mid": 85,
     "high": 9999,
-    "marketValue": 77.38,
-    "change24h": -0.0117,
-    "change7d": 0.0166,
-    "change30d": 0.0752
+    "marketValue": 78.81,
+    "change24h": 0.0185,
+    "change7d": 0.0353,
+    "change30d": 0.0775
    }
   },
   "rp-668541": {
@@ -5079,19 +5079,19 @@
    "finish": "Standard",
    "cm": {
     "low": 39,
-    "marketValue": 75.83,
-    "change24h": -0.0038,
-    "change7d": -0.0056,
-    "change30d": 0.0177
+    "marketValue": 74.96,
+    "change24h": -0.0115,
+    "change7d": -0.017,
+    "change30d": 0.013
    },
    "tcg": {
-    "low": 72.99,
-    "mid": 90.25,
+    "low": 72.49,
+    "mid": 91.99,
     "high": 1999.99,
-    "marketValue": 82.24,
-    "change24h": -0.0206,
-    "change7d": -0.0201,
-    "change30d": -0.0508
+    "marketValue": 82.16,
+    "change24h": -0.001,
+    "change7d": -0.0211,
+    "change30d": -0.0611
    }
   },
   "rp-672733": {
@@ -5099,14 +5099,14 @@
    "finish": "Standard",
    "cm": {
     "low": 25.99,
-    "marketValue": 40.85,
-    "change24h": -0.0078,
-    "change7d": -0.0012,
-    "change30d": -0.1262
+    "marketValue": 39.69,
+    "change24h": -0.0284,
+    "change7d": -0.0296,
+    "change30d": -0.149
    },
    "tcg": {
     "low": 48.52,
-    "mid": 60.5,
+    "mid": 60,
     "high": 249.99,
     "marketValue": 56.07,
     "change24h": 0,
@@ -5125,12 +5125,12 @@
    },
    "tcg": {
     "low": 11.2,
-    "mid": 16.55,
+    "mid": 16.98,
     "high": 9999,
-    "marketValue": 17.96,
-    "change24h": 0.034,
-    "change7d": -0.1427,
-    "change30d": -0.068
+    "marketValue": 18.45,
+    "change24h": 0.0273,
+    "change7d": -0.1193,
+    "change30d": -0.0118
    }
   },
   "k-130": {
@@ -5143,13 +5143,13 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 18.12,
-    "mid": 47.98,
+    "low": 21.8,
+    "mid": 48.75,
     "high": 100,
-    "marketValue": 49.16,
-    "change24h": 0,
-    "change7d": 0.0339,
-    "change30d": 0.0852
+    "marketValue": 49.96,
+    "change24h": 0.0163,
+    "change7d": 0.0507,
+    "change30d": 0.1029
    }
   },
   "pe-etb": {
@@ -5157,19 +5157,19 @@
    "finish": "Standard",
    "cm": {
     "low": 85,
-    "marketValue": 149.9,
-    "change24h": -0.0009,
-    "change7d": -0.007,
-    "change30d": -0.0209
+    "marketValue": 149.27,
+    "change24h": -0.0042,
+    "change7d": -0.0112,
+    "change30d": -0.0169
    },
    "tcg": {
-    "low": 108.93,
-    "mid": 180.09,
-    "high": 1500,
-    "marketValue": 120.9,
-    "change24h": 0.0096,
-    "change7d": -0.121,
-    "change30d": -0.1398
+    "low": 108.13,
+    "mid": 180,
+    "high": 1719.32,
+    "marketValue": 120.28,
+    "change24h": -0.0051,
+    "change7d": -0.1255,
+    "change30d": -0.144
    }
   },
   "gy-151-130-165-rev": {
@@ -5178,36 +5178,36 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.29,
-    "change24h": -0.0938,
+    "change24h": 0,
     "change7d": -0.0938,
-    "change30d": -0.0645
+    "change30d": -0.0333
    },
    "tcg": {
     "low": 0.5,
-    "mid": 1.58,
+    "mid": 1.6,
     "high": 50,
-    "marketValue": 1.53,
-    "change24h": 0.0268,
-    "change7d": 0.1333,
-    "change30d": 0.0479
+    "marketValue": 1.56,
+    "change24h": 0.0196,
+    "change7d": 0.1556,
+    "change30d": 0.0541
    }
   },
   "gy-ancient-origins-20-98-rev": {
    "cnId": 22036,
    "finish": "Standard",
    "cm": {
-    "low": 0.2,
-    "marketValue": 2.14,
-    "change24h": 0,
-    "change7d": -0.0183,
-    "change30d": 1.098
+    "low": 0.1,
+    "marketValue": 2.01,
+    "change24h": -0.0607,
+    "change7d": -0.078,
+    "change30d": 0.9706
    },
    "tcg": {
     "low": 0.25,
     "mid": 1,
     "high": 29.99,
     "marketValue": 1.04,
-    "change24h": -0.028,
+    "change24h": 0,
     "change7d": -0.0459,
     "change30d": -0.0095
    }
@@ -5218,18 +5218,18 @@
    "cm": {
     "low": 7,
     "marketValue": 89.37,
-    "change24h": -0.0826,
+    "change24h": 0,
     "change7d": 0.9125,
     "change30d": 0.4354
    },
    "tcg": {
     "low": 34.99,
-    "mid": 63.39,
-    "high": 263.35,
-    "marketValue": 64.98,
-    "change24h": 0.0017,
-    "change7d": 0.0085,
-    "change30d": -0.0047
+    "mid": 62.9,
+    "high": 368.16,
+    "marketValue": 64.84,
+    "change24h": -0.0022,
+    "change7d": 0.0064,
+    "change30d": -0.0069
    }
   },
   "gy-burning-shadows-33-147-rev": {
@@ -5237,19 +5237,19 @@
    "finish": "Foil",
    "cm": {
     "low": 0.25,
-    "marketValue": 1.94,
-    "change24h": -0.0977,
-    "change7d": -0.1222,
-    "change30d": 0.1149
+    "marketValue": 2.27,
+    "change24h": 0.1701,
+    "change7d": 0.0271,
+    "change30d": 0.3046
    },
    "tcg": {
     "low": 1,
     "mid": 3,
-    "high": 10,
-    "marketValue": 2.96,
-    "change24h": 0.0137,
-    "change7d": 0.0242,
-    "change30d": -0.0067
+    "high": 18.54,
+    "marketValue": 3,
+    "change24h": 0.0135,
+    "change7d": 0.0381,
+    "change30d": -0.0033
    }
   },
   "gy-call-of-legends-7-95-rev": {
@@ -5264,10 +5264,10 @@
    },
    "tcg": {
     "low": 60,
-    "mid": 134.4,
-    "high": 350,
+    "mid": 144.39,
+    "high": 859.62,
     "marketValue": 91.4,
-    "change24h": 0.0091,
+    "change24h": 0,
     "change7d": 0.0513,
     "change30d": 0.106
    }
@@ -5278,18 +5278,18 @@
    "cm": {
     "low": 4.89,
     "marketValue": 5.73,
-    "change24h": -0.0976,
+    "change24h": 0,
     "change7d": -0.1171,
-    "change30d": 0.0591
+    "change30d": -0.1089
    },
    "tcg": {
     "low": 1.35,
-    "mid": 3.13,
-    "high": 9.98,
-    "marketValue": 3.07,
-    "change24h": 0.0066,
-    "change7d": 0.0199,
-    "change30d": -0.0129
+    "mid": 3.14,
+    "high": 33.02,
+    "marketValue": 3.04,
+    "change24h": -0.0098,
+    "change7d": 0.01,
+    "change30d": -0.0225
    }
   },
   "gy-dragons-exalted-24-124-rev": {
@@ -5300,16 +5300,16 @@
     "marketValue": 8.08,
     "change24h": 0,
     "change7d": 0.6798,
-    "change30d": 0.3765
+    "change30d": 0.2928
    },
    "tcg": {
     "low": 1.85,
-    "mid": 3.34,
-    "high": 15,
+    "mid": 3.37,
+    "high": 32.92,
     "marketValue": 3.17,
     "change24h": 0,
     "change7d": 0.0259,
-    "change30d": 0.0673
+    "change30d": 0.0532
    }
   },
   "gy-evolutions-34-108-rev": {
@@ -5317,19 +5317,19 @@
    "finish": "Foil",
    "cm": {
     "low": 2,
-    "marketValue": 12.82,
-    "change24h": 0.1937,
-    "change7d": 0.5866,
-    "change30d": 0.1128
+    "marketValue": 12.41,
+    "change24h": -0.032,
+    "change7d": 0.5359,
+    "change30d": 0.0773
    },
    "tcg": {
     "low": 4.25,
     "mid": 9,
     "high": 9999,
-    "marketValue": 8.51,
-    "change24h": 0,
-    "change7d": 0.0442,
-    "change30d": -0.0689
+    "marketValue": 8.76,
+    "change24h": 0.0294,
+    "change7d": 0.0748,
+    "change30d": -0.0416
    }
   },
   "gy-ex-deoxys-8-107-rev": {
@@ -5337,10 +5337,10 @@
    "finish": "Standard",
    "cm": {
     "low": 8,
-    "marketValue": 153.22,
-    "change24h": 0,
-    "change7d": 1.33,
-    "change30d": 1.5877
+    "marketValue": 149.62,
+    "change24h": -0.0235,
+    "change7d": 1.2752,
+    "change30d": 1.5269
    },
    "tcg": {
     "low": 89.99,
@@ -5357,14 +5357,14 @@
    "finish": "Standard",
    "cm": {
     "low": 0.7,
-    "marketValue": 25.8,
-    "change24h": -0.0373,
-    "change7d": -0.1825,
-    "change30d": 6.7946
+    "marketValue": 25.5,
+    "change24h": -0.0116,
+    "change7d": -0.192,
+    "change30d": 6.7039
    },
    "tcg": {
     "low": 11.99,
-    "mid": 26.76,
+    "mid": 30,
     "high": 166.68,
     "marketValue": 20.49,
     "change24h": 0,
@@ -5377,19 +5377,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.1,
-    "marketValue": 1.68,
-    "change24h": -0.0289,
-    "change7d": -0.0508,
-    "change30d": -0.04
+    "marketValue": 1.56,
+    "change24h": -0.0714,
+    "change7d": -0.1186,
+    "change30d": -0.1236
    },
    "tcg": {
     "low": 0.4,
-    "mid": 1.08,
+    "mid": 1.1,
     "high": 28.2,
     "marketValue": 1.18,
     "change24h": 0,
     "change7d": 0,
-    "change30d": -0.0084
+    "change30d": 0.0172
    }
   },
   "gy-heartgold-soulsilver-4-123-rev": {
@@ -5398,18 +5398,18 @@
    "cm": {
     "low": 3,
     "marketValue": 15.1,
-    "change24h": -0.0953,
+    "change24h": 0,
     "change7d": -0.1825,
-    "change30d": -0.281
+    "change30d": -0.1951
    },
    "tcg": {
     "low": 28.99,
-    "mid": 60.86,
-    "high": 539.27,
-    "marketValue": 60.65,
-    "change24h": 0,
-    "change7d": -0.0035,
-    "change30d": -0.0035
+    "mid": 64.67,
+    "high": 539.52,
+    "marketValue": 60.83,
+    "change24h": 0.003,
+    "change7d": -0.0005,
+    "change30d": -0.0005
    }
   },
   "gy-legendary-collection-12-110-rev": {
@@ -5417,15 +5417,15 @@
    "finish": "Foil",
    "cm": {
     "low": 12,
-    "marketValue": 834.27,
-    "change24h": -0.0428,
-    "change7d": -0.1071,
-    "change30d": 2.1289
+    "marketValue": 820.31,
+    "change24h": -0.0167,
+    "change7d": -0.122,
+    "change30d": 2.0766
    },
    "tcg": {
     "low": 22,
-    "mid": 35.63,
-    "high": 58.2,
+    "mid": 35.96,
+    "high": 302.32,
     "marketValue": 50.97,
     "change24h": 0,
     "change7d": 0,
@@ -5444,12 +5444,12 @@
    },
    "tcg": {
     "low": 0.25,
-    "mid": 1.75,
+    "mid": 1.76,
     "high": 49.99,
-    "marketValue": 1.72,
-    "change24h": 0,
-    "change7d": 0.0299,
-    "change30d": 0.0424
+    "marketValue": 1.73,
+    "change24h": 0.0058,
+    "change7d": 0.0359,
+    "change30d": 0.0485
    }
   },
   "gy-mysterious-treasures-26-123-rev": {
@@ -5460,12 +5460,12 @@
     "marketValue": 2.41,
     "change24h": 0,
     "change7d": -0.0906,
-    "change30d": -0.1913
+    "change30d": -0.0659
    },
    "tcg": {
-    "low": 7.28,
-    "mid": 13.68,
-    "high": 34.98,
+    "low": 7.38,
+    "mid": 14.08,
+    "high": 141.52,
     "marketValue": 13.67,
     "change24h": 0,
     "change7d": -0.0022,
@@ -5477,19 +5477,19 @@
    "finish": "Foil",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.3,
-    "change24h": 0.2,
-    "change7d": 0.1538,
-    "change30d": 0.0714
+    "marketValue": 0.29,
+    "change24h": -0.0333,
+    "change7d": 0.1154,
+    "change30d": 0.0357
    },
    "tcg": {
     "low": 0.1,
-    "mid": 0.36,
-    "high": 7.39,
-    "marketValue": 0.34,
-    "change24h": -0.0286,
-    "change7d": -0.0286,
-    "change30d": -0.0556
+    "mid": 0.35,
+    "high": 19.8,
+    "marketValue": 0.36,
+    "change24h": 0.0588,
+    "change7d": 0.0286,
+    "change30d": 0.0909
    }
   },
   "gy-pokemon-go-22-078-rev": {
@@ -5497,19 +5497,19 @@
    "finish": "Reverse Holo",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.25,
-    "change24h": 0.0417,
-    "change7d": 0.1905,
-    "change30d": -0.1935
+    "marketValue": 0.24,
+    "change24h": -0.04,
+    "change7d": 0.1429,
+    "change30d": -0.2258
    },
    "tcg": {
     "low": 0.2,
     "mid": 0.75,
     "high": 25,
-    "marketValue": 0.75,
-    "change24h": -0.026,
-    "change7d": -0.1279,
-    "change30d": 0.0417
+    "marketValue": 0.76,
+    "change24h": 0.0133,
+    "change7d": -0.1163,
+    "change30d": 0.0411
    }
   },
   "gy-rebel-clash-40-192-rev": {
@@ -5518,18 +5518,18 @@
    "cm": {
     "low": 0.5,
     "marketValue": 1.49,
-    "change24h": -0.057,
+    "change24h": 0,
     "change7d": -0.1024,
     "change30d": 0.0276
    },
    "tcg": {
     "low": 1.59,
-    "mid": 2.82,
+    "mid": 2.83,
     "high": 96.95,
-    "marketValue": 2.81,
-    "change24h": 0,
-    "change7d": 0.0181,
-    "change30d": 0.0524
+    "marketValue": 2.82,
+    "change24h": 0.0036,
+    "change7d": 0.0217,
+    "change30d": 0.0217
    }
   },
   "gy-stormfront-19-100-rev": {
@@ -5537,15 +5537,15 @@
    "finish": "Standard",
    "cm": {
     "low": 0.45,
-    "marketValue": 2.98,
-    "change24h": 0.1779,
-    "change7d": 0.307,
-    "change30d": 0.1506
+    "marketValue": 3.47,
+    "change24h": 0.1644,
+    "change7d": 0.5219,
+    "change30d": 0.5422
    },
    "tcg": {
-    "low": 6.42,
-    "mid": 10.98,
-    "high": 15.99,
+    "low": 6.99,
+    "mid": 15,
+    "high": 229.82,
     "marketValue": 16.75,
     "change24h": 0,
     "change7d": 0,
@@ -5557,19 +5557,19 @@
    "finish": "Foil",
    "cm": {
     "low": 2.36,
-    "marketValue": 7.1,
-    "change24h": 0,
-    "change7d": 0.0457,
-    "change30d": 0.0613
+    "marketValue": 7.15,
+    "change24h": 0.007,
+    "change7d": 0.053,
+    "change30d": 0.0688
    },
    "tcg": {
     "low": 6.25,
-    "mid": 10.94,
+    "mid": 11.09,
     "high": 136.68,
-    "marketValue": 11.23,
-    "change24h": 0,
-    "change7d": -0.014,
-    "change30d": 0.0054
+    "marketValue": 11.53,
+    "change24h": 0.0267,
+    "change7d": 0.0123,
+    "change30d": 0.0322
    }
   },
   "mk-151-129-165-rev": {
@@ -5584,12 +5584,12 @@
    },
    "tcg": {
     "low": 0.13,
-    "mid": 0.4,
-    "high": 15.27,
-    "marketValue": 0.4,
-    "change24h": -0.0698,
-    "change7d": 0.2121,
-    "change30d": 0.25
+    "mid": 0.39,
+    "high": 16.76,
+    "marketValue": 0.39,
+    "change24h": -0.025,
+    "change7d": 0.1818,
+    "change30d": 0.1471
    }
   },
   "mk-ancient-origins-19-98-rev": {
@@ -5598,18 +5598,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.22,
-    "change24h": 0.2941,
+    "change24h": 0,
     "change7d": -0.1538,
-    "change30d": -0.3333
+    "change30d": -0.3714
    },
    "tcg": {
     "low": 0.05,
     "mid": 0.28,
-    "high": 14.99,
+    "high": 19.8,
     "marketValue": 0.27,
-    "change24h": -0.0357,
+    "change24h": 0,
     "change7d": 0.0385,
-    "change30d": 0.2273
+    "change30d": 0.2857
    }
   },
   "mk-burning-shadows-32-147-rev": {
@@ -5617,19 +5617,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.12,
-    "change24h": -0.0769,
-    "change7d": -0.1429,
-    "change30d": 0.0909
+    "marketValue": 0.1,
+    "change24h": -0.1667,
+    "change7d": -0.2857,
+    "change30d": 0
    },
    "tcg": {
     "low": 0.05,
-    "mid": 0.35,
+    "mid": 0.34,
     "high": 6.8,
     "marketValue": 0.32,
-    "change24h": -0.0857,
+    "change24h": 0,
     "change7d": -0.1111,
-    "change30d": -0.0857
+    "change30d": 0.0667
    }
   },
   "mk-call-of-legends-61-95-rev": {
@@ -5637,15 +5637,15 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.35,
-    "change24h": 0,
-    "change7d": -0.3147,
-    "change30d": -0.4512
+    "marketValue": 1.07,
+    "change24h": -0.2074,
+    "change7d": -0.4569,
+    "change30d": -0.5348
    },
    "tcg": {
-    "low": 1.35,
+    "low": 1.34,
     "mid": 2.62,
-    "high": 4.99,
+    "high": 19.8,
     "marketValue": 2.79,
     "change24h": 0,
     "change7d": 0.0528,
@@ -5657,19 +5657,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.11,
-    "change24h": 0.1,
-    "change7d": 0,
-    "change30d": -0.0833
+    "marketValue": 0.12,
+    "change24h": 0.0909,
+    "change7d": 0.0909,
+    "change30d": -0.0769
    },
    "tcg": {
     "low": 0.09,
     "mid": 0.39,
-    "high": 6.8,
+    "high": 17.66,
     "marketValue": 0.37,
     "change24h": 0,
     "change7d": 0,
-    "change30d": -0.0263
+    "change30d": -0.0513
    }
   },
   "mk-destined-rivals-misty-s-48-182-rev": {
@@ -5677,19 +5677,19 @@
    "finish": "Reverse Holo",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.04,
-    "change24h": 0,
-    "change7d": -0.2,
-    "change30d": -0.2
+    "marketValue": 0.05,
+    "change24h": 0.25,
+    "change7d": 0,
+    "change30d": 0
    },
    "tcg": {
     "low": 0.1,
-    "mid": 0.47,
-    "high": 8.4,
-    "marketValue": 0.48,
-    "change24h": 0.1163,
-    "change7d": 0.0667,
-    "change30d": 0.2
+    "mid": 0.49,
+    "high": 19.8,
+    "marketValue": 0.47,
+    "change24h": -0.0208,
+    "change7d": 0.0444,
+    "change30d": 0.175
    }
   },
   "mk-dragon-majesty-19-70-rev": {
@@ -5697,15 +5697,15 @@
    "finish": "Standard",
    "cm": {
     "low": 0.05,
-    "marketValue": 0.47,
-    "change24h": 0,
-    "change7d": 0.0217,
-    "change30d": 0.5161
+    "marketValue": 0.45,
+    "change24h": -0.0426,
+    "change7d": -0.0217,
+    "change30d": 0.6667
    },
    "tcg": {
     "low": 0.15,
-    "mid": 0.65,
-    "high": 2.49,
+    "mid": 0.67,
+    "high": 18.76,
     "marketValue": 0.7,
     "change24h": 0,
     "change7d": 0.0606,
@@ -5720,16 +5720,16 @@
     "marketValue": 0.38,
     "change24h": 0,
     "change7d": -0.1915,
-    "change30d": -0.4571
+    "change30d": -0.3968
    },
    "tcg": {
     "low": 0.45,
     "mid": 1.18,
-    "high": 5,
+    "high": 23.22,
     "marketValue": 1.18,
     "change24h": 0,
     "change7d": 0.0261,
-    "change30d": 0.0085
+    "change30d": 0
    }
   },
   "mk-evolutions-33-108-rev": {
@@ -5737,19 +5737,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.15,
-    "change24h": -0.0625,
-    "change7d": 0,
-    "change30d": -0.1667
+    "marketValue": 0.13,
+    "change24h": -0.1333,
+    "change7d": -0.1333,
+    "change30d": -0.2353
    },
    "tcg": {
     "low": 0.04,
     "mid": 0.26,
     "high": 19.95,
-    "marketValue": 0.26,
-    "change24h": -0.037,
-    "change7d": -0.037,
-    "change30d": -0.037
+    "marketValue": 0.27,
+    "change24h": 0.0385,
+    "change7d": 0,
+    "change30d": 0.0385
    }
   },
   "mk-ex-deoxys-64-107-rev": {
@@ -5757,19 +5757,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.18,
-    "marketValue": 2.26,
-    "change24h": 0,
-    "change7d": 0.5586,
-    "change30d": -0.207
+    "marketValue": 2.33,
+    "change24h": 0.031,
+    "change7d": 0.6069,
+    "change30d": -0.1038
    },
    "tcg": {
     "low": 4.99,
-    "mid": 9.71,
+    "mid": 9.73,
     "high": 152.3,
-    "marketValue": 9.7,
-    "change24h": 0,
-    "change7d": -0.001,
-    "change30d": 0.0243
+    "marketValue": 9.76,
+    "change24h": 0.0062,
+    "change7d": 0.0051,
+    "change30d": 0.0083
    }
   },
   "mk-ex-dragon-60-97-rev": {
@@ -5777,19 +5777,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.4,
-    "change24h": 0,
-    "change7d": -0.125,
-    "change30d": -0.2308
+    "marketValue": 1.35,
+    "change24h": -0.0357,
+    "change7d": -0.1563,
+    "change30d": -0.1667
    },
    "tcg": {
-    "low": 3.13,
-    "mid": 4.94,
-    "high": 28.75,
-    "marketValue": 5.15,
-    "change24h": 0,
-    "change7d": 0.0138,
-    "change30d": 0.0532
+    "low": 3,
+    "mid": 4.99,
+    "high": 40.26,
+    "marketValue": 5.1,
+    "change24h": -0.0097,
+    "change7d": 0.0039,
+    "change30d": 0.0429
    }
   },
   "mk-ex-firered-leafgreen-67-112-rev": {
@@ -5818,18 +5818,18 @@
    "cm": {
     "low": 0.08,
     "marketValue": 1.02,
-    "change24h": -0.3544,
+    "change24h": 0,
     "change7d": -0.5904,
-    "change30d": -0.7316
+    "change30d": -0.7175
    },
    "tcg": {
-    "low": 2.49,
-    "mid": 4.35,
-    "high": 8.18,
-    "marketValue": 4.99,
-    "change24h": 0,
-    "change7d": 0.0967,
-    "change30d": 0.1163
+    "low": 2.47,
+    "mid": 4.4,
+    "high": 49.82,
+    "marketValue": 4.96,
+    "change24h": -0.006,
+    "change7d": 0.0901,
+    "change30d": 0.1096
    }
   },
   "mk-ex-team-rocket-returns-65-109-rev": {
@@ -5838,13 +5838,13 @@
    "cm": {
     "low": 0.5,
     "marketValue": 3.3,
-    "change24h": 0.0248,
+    "change24h": 0,
     "change7d": -0.009,
-    "change30d": -0.0294
+    "change30d": 0.1149
    },
    "tcg": {
     "low": 2.98,
-    "mid": 8.77,
+    "mid": 9.61,
     "high": 96.95,
     "marketValue": 9.3,
     "change24h": 0,
@@ -5857,19 +5857,19 @@
    "finish": "Standard",
    "cm": {
     "low": 2,
-    "marketValue": 9.57,
-    "change24h": 0,
-    "change7d": -0.1992,
-    "change30d": -0.2375
+    "marketValue": 8.54,
+    "change24h": -0.1076,
+    "change7d": -0.2854,
+    "change30d": -0.296
    },
    "tcg": {
     "low": 27.54,
-    "mid": 43.6,
-    "high": 129.98,
-    "marketValue": 34.24,
-    "change24h": 0,
-    "change7d": 0.0139,
-    "change30d": 0.0493
+    "mid": 48.51,
+    "high": 167.02,
+    "marketValue": 34.64,
+    "change24h": 0.0117,
+    "change7d": 0.0258,
+    "change30d": 0.0616
    }
   },
   "mk-generations-22-83-rev": {
@@ -5877,19 +5877,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.49,
-    "change24h": 0.0652,
-    "change7d": 0.4,
-    "change30d": 1.2273
+    "marketValue": 0.44,
+    "change24h": -0.102,
+    "change7d": 0.2571,
+    "change30d": 1.3158
    },
    "tcg": {
     "low": 0.33,
-    "mid": 0.69,
-    "high": 80,
+    "mid": 0.7,
+    "high": 19.36,
     "marketValue": 0.71,
     "change24h": 0,
     "change7d": -0.0405,
-    "change30d": -0.1446
+    "change30d": -0.1125
    }
   },
   "mk-heartgold-soulsilver-72-123-rev": {
@@ -5897,14 +5897,14 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.79,
-    "change24h": -0.1856,
-    "change7d": -0.2818,
-    "change30d": 2.95
+    "marketValue": 0.8,
+    "change24h": 0.0127,
+    "change7d": -0.2727,
+    "change30d": 1.5
    },
    "tcg": {
     "low": 0.82,
-    "mid": 1.96,
+    "mid": 1.93,
     "high": 22,
     "marketValue": 2.01,
     "change24h": 0,
@@ -5918,18 +5918,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.1,
-    "change24h": -0.1667,
+    "change24h": 0,
     "change7d": 0,
     "change30d": 0.25
    },
    "tcg": {
     "low": 0.93,
-    "mid": 2.01,
-    "high": 8.99,
-    "marketValue": 2.01,
-    "change24h": -0.0195,
-    "change7d": 0.0524,
-    "change30d": 0.1044
+    "mid": 2.02,
+    "high": 18.34,
+    "marketValue": 2.14,
+    "change24h": 0.0647,
+    "change7d": 0.1204,
+    "change30d": 0.1823
    }
   },
   "mk-legendary-collection-52-110-rev": {
@@ -5944,8 +5944,8 @@
    },
    "tcg": {
     "low": 2.79,
-    "mid": 3.77,
-    "high": 14,
+    "mid": 4,
+    "high": 57.02,
     "marketValue": 8.32,
     "change24h": 0,
     "change7d": 0.0221,
@@ -5960,16 +5960,16 @@
     "marketValue": 3.96,
     "change24h": 0,
     "change7d": -0.027,
-    "change30d": -0.0025
+    "change30d": 0.0476
    },
    "tcg": {
     "low": 0.99,
-    "mid": 2,
+    "mid": 2.1,
     "high": 96.95,
-    "marketValue": 5.3,
-    "change24h": 0,
-    "change7d": 0.0433,
-    "change30d": 0.0413
+    "marketValue": 5.24,
+    "change24h": -0.0113,
+    "change7d": 0.0315,
+    "change30d": 0.0295
    }
   },
   "mk-mysterious-treasures-89-123-rev": {
@@ -5978,18 +5978,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.26,
-    "change24h": -0.0714,
+    "change24h": 0,
     "change7d": -0.1875,
     "change30d": -0.5439
    },
    "tcg": {
-    "low": 0.26,
-    "mid": 1.25,
+    "low": 0.75,
+    "mid": 1.49,
     "high": 24.99,
-    "marketValue": 1.63,
-    "change24h": 0,
-    "change7d": 0.0449,
-    "change30d": 0.094
+    "marketValue": 1.62,
+    "change24h": -0.0061,
+    "change7d": 0.0385,
+    "change30d": 0.1096
    }
   },
   "mk-paldea-evolved-42-193-rev": {
@@ -5998,18 +5998,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.05,
-    "change24h": -0.1667,
+    "change24h": 0,
     "change7d": -0.1667,
     "change30d": 0
    },
    "tcg": {
     "low": 0.01,
-    "mid": 0.21,
+    "mid": 0.2,
     "high": 20,
-    "marketValue": 0.16,
-    "change24h": -0.1579,
-    "change7d": -0.2381,
-    "change30d": -0.2727
+    "marketValue": 0.14,
+    "change24h": -0.125,
+    "change7d": -0.3333,
+    "change30d": -0.3
    }
   },
   "mk-pokemon-go-021-078-rev": {
@@ -6024,12 +6024,12 @@
    },
    "tcg": {
     "low": 0.16,
-    "mid": 0.42,
-    "high": 5,
-    "marketValue": 0.38,
-    "change24h": 0,
-    "change7d": -0.1739,
-    "change30d": -0.3871
+    "mid": 0.4,
+    "high": 19.8,
+    "marketValue": 0.37,
+    "change24h": -0.0263,
+    "change7d": -0.1957,
+    "change30d": -0.4714
    }
   },
   "mk-rebel-clash-39-192-rev": {
@@ -6037,10 +6037,10 @@
    "finish": "Reverse Holo",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.94,
-    "change24h": 0,
-    "change7d": -0.0505,
-    "change30d": -0.6582
+    "marketValue": 0.45,
+    "change24h": -0.5213,
+    "change7d": -0.5455,
+    "change30d": -0.8364
    },
    "tcg": {
     "low": 7.65,
@@ -6049,7 +6049,7 @@
     "marketValue": 19.81,
     "change24h": 0,
     "change7d": 0.019,
-    "change30d": 0.3367
+    "change30d": 0.3476
    }
   },
   "mk-scarlet-violet-44-198-rev": {
@@ -6066,10 +6066,10 @@
     "low": 0.01,
     "mid": 0.2,
     "high": 20,
-    "marketValue": 0.14,
-    "change24h": -0.0667,
-    "change7d": -0.2222,
-    "change30d": -0.125
+    "marketValue": 0.15,
+    "change24h": 0.0714,
+    "change7d": -0.1667,
+    "change30d": -0.0625
    }
   },
   "mk-stormfront-65-100-rev": {
@@ -6077,19 +6077,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.37,
-    "change24h": -0.1161,
-    "change7d": -0.3218,
-    "change30d": 1.2459
+    "marketValue": 1.31,
+    "change24h": -0.0438,
+    "change7d": -0.3515,
+    "change30d": 1.1475
    },
    "tcg": {
     "low": 1.95,
-    "mid": 5.71,
-    "high": 190.64,
-    "marketValue": 5.93,
-    "change24h": 0,
-    "change7d": 0.0085,
-    "change30d": -0.0198
+    "mid": 5.72,
+    "high": 998.14,
+    "marketValue": 6.02,
+    "change24h": 0.0152,
+    "change7d": 0.0238,
+    "change30d": -0.0033
    }
   },
   "mk-supreme-victors-110-147-rev": {
@@ -6097,19 +6097,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.05,
-    "marketValue": 0.67,
-    "change24h": -0.0563,
-    "change7d": 1.913,
-    "change30d": 0
+    "marketValue": 0.62,
+    "change24h": -0.0746,
+    "change7d": 1.6957,
+    "change30d": 0.0508
    },
    "tcg": {
     "low": 1.39,
-    "mid": 2.56,
-    "high": 5,
+    "mid": 2.66,
+    "high": 26.92,
     "marketValue": 2.9,
     "change24h": 0,
     "change7d": 0,
-    "change30d": 0.0105
+    "change30d": 0.0035
    }
   },
   "mk-team-up-29-181-rev": {
@@ -6117,19 +6117,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.27,
-    "change24h": -0.0357,
-    "change7d": -0.129,
-    "change30d": 0.5
+    "marketValue": 0.24,
+    "change24h": -0.1111,
+    "change7d": -0.2258,
+    "change30d": 0.4118
    },
    "tcg": {
     "low": 0.2,
     "mid": 0.5,
-    "high": 5,
-    "marketValue": 0.52,
-    "change24h": 0,
-    "change7d": 0.4054,
-    "change30d": 0.2093
+    "high": 19.8,
+    "marketValue": 0.54,
+    "change24h": 0.0385,
+    "change7d": 0.4595,
+    "change30d": 0.2558
    }
   },
   "kg-102802": {
@@ -6142,13 +6142,13 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 550,
-    "mid": 552.44,
+    "low": 397.97,
+    "mid": 548,
     "high": 554.87,
-    "marketValue": 446,
-    "change24h": 0,
-    "change7d": -0.0708,
-    "change30d": 0.0124
+    "marketValue": 413.12,
+    "change24h": -0.0737,
+    "change7d": -0.1393,
+    "change30d": -0.0623
    }
   },
   "kg-102803": {
@@ -6176,7 +6176,7 @@
    "cm": {
     "low": 35,
     "marketValue": 243.56,
-    "change24h": -0.1345,
+    "change24h": 0,
     "change7d": -0.2281,
     "change30d": -0.3729
    },
@@ -6196,7 +6196,7 @@
    "cm": {
     "low": 35,
     "marketValue": 243.56,
-    "change24h": -0.1345,
+    "change24h": 0,
     "change7d": -0.2281,
     "change30d": -0.3729
    },
@@ -6222,8 +6222,8 @@
    },
    "tcg": {
     "low": 116.99,
-    "mid": 143.27,
-    "high": 469.99,
+    "mid": 148.96,
+    "high": 1979.81,
     "marketValue": 192.34,
     "change24h": 0,
     "change7d": 0,
@@ -6242,8 +6242,8 @@
    },
    "tcg": {
     "low": 116.99,
-    "mid": 143.27,
-    "high": 469.99,
+    "mid": 148.96,
+    "high": 1979.81,
     "marketValue": 192.34,
     "change24h": 0,
     "change7d": 0,
@@ -6261,12 +6261,12 @@
    },
    "tcg": {
     "low": 9.99,
-    "mid": 26.41,
+    "mid": 26.46,
     "high": 348.8,
-    "marketValue": 26.45,
-    "change24h": 0,
-    "change7d": -0.0034,
-    "change30d": -0.0056
+    "marketValue": 26.58,
+    "change24h": 0.0049,
+    "change7d": 0.0015,
+    "change30d": -0.0008
    }
   },
   "kg-111530": {
@@ -6298,9 +6298,9 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 129.99,
-    "mid": 217.97,
-    "high": 1699.31,
+    "low": 132.16,
+    "mid": 207.59,
+    "high": 1771.98,
     "marketValue": 207.59,
     "change24h": 0,
     "change7d": 0,
@@ -6317,8 +6317,8 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 29,
-    "mid": 49.75,
+    "low": 29.89,
+    "mid": 50.2,
     "high": 1020,
     "marketValue": 52.96,
     "change24h": 0,
@@ -6337,12 +6337,12 @@
    },
    "tcg": {
     "low": 79.99,
-    "mid": 115,
-    "high": 2679.4,
+    "mid": 116.27,
+    "high": 2572.22,
     "marketValue": 125.14,
-    "change24h": 0.0043,
+    "change24h": 0,
     "change7d": 0.0132,
-    "change30d": 0.0456
+    "change30d": 0.0306
    }
   },
   "kg-111632-normal": {
@@ -6350,19 +6350,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.32,
-    "change24h": -0.1351,
-    "change7d": -0.0303,
-    "change30d": -0.2195
+    "marketValue": 0.29,
+    "change24h": -0.0938,
+    "change7d": -0.1212,
+    "change30d": -0.2927
    },
    "tcg": {
     "low": 0.06,
     "mid": 0.32,
     "high": 22.49,
-    "marketValue": 0.33,
-    "change24h": 0.0313,
-    "change7d": -0.0571,
-    "change30d": 0.1
+    "marketValue": 0.32,
+    "change24h": -0.0303,
+    "change7d": -0.0857,
+    "change30d": 0.0667
    }
   },
   "kg-111632-reverseholofoil": {
@@ -6370,19 +6370,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 0.32,
-    "change24h": -0.1351,
-    "change7d": -0.0303,
-    "change30d": -0.2195
+    "marketValue": 0.29,
+    "change24h": -0.0938,
+    "change7d": -0.1212,
+    "change30d": -0.2927
    },
    "tcg": {
     "low": 0.06,
     "mid": 0.32,
     "high": 22.49,
-    "marketValue": 0.33,
-    "change24h": 0.0313,
-    "change7d": -0.0571,
-    "change30d": 0.1
+    "marketValue": 0.32,
+    "change24h": -0.0303,
+    "change7d": -0.0857,
+    "change30d": 0.0667
    }
   },
   "kg-116779": {
@@ -6396,10 +6396,10 @@
    },
    "tcg": {
     "low": 69.73,
-    "mid": 89.22,
-    "high": 299.99,
+    "mid": 89.52,
+    "high": 735.56,
     "marketValue": 87.85,
-    "change24h": 0.0024,
+    "change24h": 0,
     "change7d": 0.0163,
     "change30d": 0.0023
    }
@@ -6428,13 +6428,13 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 12.48,
-    "mid": 23,
+    "low": 13,
+    "mid": 22.35,
     "high": 371.8,
-    "marketValue": 24.29,
-    "change24h": 0.0016,
-    "change7d": -0.0114,
-    "change30d": 0.0112
+    "marketValue": 24.27,
+    "change24h": -0.0008,
+    "change7d": -0.0122,
+    "change30d": -0.0273
    }
   },
   "kg-118775": {
@@ -6443,12 +6443,12 @@
    "cm": {},
    "tcg": {
     "low": 24.99,
-    "mid": 35.23,
-    "high": 388.93,
-    "marketValue": 35.18,
-    "change24h": 0,
-    "change7d": 0.0051,
-    "change30d": 0.0396
+    "mid": 36.13,
+    "high": 373.37,
+    "marketValue": 35.1,
+    "change24h": -0.0023,
+    "change7d": 0.0029,
+    "change30d": 0.0372
    }
   },
   "kg-123196": {
@@ -6457,7 +6457,7 @@
    "cm": {},
    "tcg": {
     "low": 15.98,
-    "mid": 46.22,
+    "mid": 55,
     "high": 149.99,
     "marketValue": 42.34,
     "change24h": 0,
@@ -6471,7 +6471,7 @@
    "cm": {},
    "tcg": {
     "low": 179.99,
-    "mid": 212.85,
+    "mid": 225.69,
     "high": 1749.82,
     "marketValue": 178.7,
     "change24h": 0,
@@ -6499,8 +6499,8 @@
    "cm": {},
    "tcg": {
     "low": 26.99,
-    "mid": 32.82,
-    "high": 120,
+    "mid": 33.08,
+    "high": 339.82,
     "marketValue": 38.3,
     "change24h": 0,
     "change7d": 0.0181,
@@ -6513,8 +6513,8 @@
    "cm": {},
    "tcg": {
     "low": 9.99,
-    "mid": 16.25,
-    "high": 149.99,
+    "mid": 17.23,
+    "high": 154.9,
     "marketValue": 21.44,
     "change24h": 0,
     "change7d": 0.0152,
@@ -6527,7 +6527,7 @@
    "cm": {},
    "tcg": {
     "low": 94.45,
-    "mid": 249.98,
+    "mid": 249.99,
     "high": 9999,
     "marketValue": 209.54,
     "change24h": 0,
@@ -6541,18 +6541,18 @@
    "cm": {
     "low": 80,
     "marketValue": 97.72,
-    "change24h": -0.0242,
+    "change24h": 0,
     "change7d": -0.0242,
     "change30d": null
    },
    "tcg": {
     "low": 43.85,
-    "mid": 74.98,
+    "mid": 74.99,
     "high": 9999,
-    "marketValue": 43.85,
-    "change24h": 0,
-    "change7d": 0.0267,
-    "change30d": 0.0561
+    "marketValue": 44.23,
+    "change24h": 0.0087,
+    "change7d": 0.0356,
+    "change30d": 0.0653
    }
   },
   "kg-149039": {
@@ -6568,10 +6568,10 @@
     "low": 9.5,
     "mid": 20,
     "high": 300,
-    "marketValue": 20,
-    "change24h": 0,
-    "change7d": 0.0081,
-    "change30d": 0.0199
+    "marketValue": 19.84,
+    "change24h": -0.008,
+    "change7d": 0,
+    "change30d": 0.0071
    }
   },
   "kg-149126": {
@@ -6584,7 +6584,7 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 19.1,
+    "low": 19.24,
     "mid": 30,
     "high": 368.4,
     "marketValue": 27.49,
@@ -6604,12 +6604,12 @@
    },
    "tcg": {
     "low": 62.3,
-    "mid": 113.18,
+    "mid": 138,
     "high": 647.55,
     "marketValue": 81.13,
     "change24h": 0,
     "change7d": -0.0088,
-    "change30d": 0.0081
+    "change30d": 0.0004
    }
   },
   "kg-177110": {
@@ -6623,7 +6623,7 @@
    },
    "tcg": {
     "low": 43.65,
-    "mid": 61.24,
+    "mid": 61.26,
     "high": 149.99,
     "marketValue": 70.03,
     "change24h": 0,
@@ -6648,7 +6648,7 @@
     "marketValue": 644.46,
     "change24h": 0,
     "change7d": 0,
-    "change30d": 0.0765
+    "change30d": 0
    }
   },
   "kg-180722": {
@@ -6657,12 +6657,12 @@
    "cm": {},
    "tcg": {
     "low": 29,
-    "mid": 48.99,
+    "mid": 49.99,
     "high": 399.99,
-    "marketValue": 45.75,
-    "change24h": 0,
-    "change7d": 0,
-    "change30d": -0.0303
+    "marketValue": 45.93,
+    "change24h": 0.0039,
+    "change7d": 0.0039,
+    "change30d": -0.0265
    }
   },
   "kg-181694": {
@@ -6676,12 +6676,12 @@
    },
    "tcg": {
     "low": 90,
-    "mid": 174.25,
+    "mid": 175,
     "high": 9999,
     "marketValue": 185.9,
     "change24h": 0,
     "change7d": 0.0251,
-    "change30d": 0.0657
+    "change30d": 0.0536
    }
   },
   "kg-181804": {
@@ -6689,15 +6689,15 @@
    "finish": "Standard",
    "cm": {
     "low": 3,
-    "marketValue": 8.23,
-    "change24h": 0.0484,
-    "change7d": 0.3648,
-    "change30d": 0.3648
+    "marketValue": 8.33,
+    "change24h": 0.0122,
+    "change7d": 0.3814,
+    "change30d": 0.3814
    },
    "tcg": {
     "low": 30,
-    "mid": 47.45,
-    "high": 150,
+    "mid": 99.95,
+    "high": 498.82,
     "marketValue": 46.53,
     "change24h": 0,
     "change7d": 0.0148,
@@ -6715,7 +6715,7 @@
    },
    "tcg": {
     "low": 105,
-    "mid": 189.99,
+    "mid": 183.22,
     "high": 251.89,
     "marketValue": 136.81,
     "change24h": 0,
@@ -6736,10 +6736,10 @@
     "low": 817.9,
     "mid": 885.99,
     "high": 1199.99,
-    "marketValue": 896.86,
-    "change24h": 0,
-    "change7d": 0.0167,
-    "change30d": 0.0442
+    "marketValue": 904.13,
+    "change24h": 0.0081,
+    "change7d": 0.0249,
+    "change30d": 0.0527
    }
   },
   "kg-183965": {
@@ -6753,8 +6753,8 @@
    },
    "tcg": {
     "low": 138.25,
-    "mid": 315.75,
-    "high": 800,
+    "mid": 219.64,
+    "high": 989.72,
     "marketValue": 145.43,
     "change24h": 0,
     "change7d": 0,
@@ -6772,8 +6772,8 @@
     "change30d": 0.0038
    },
    "tcg": {
-    "low": 249.95,
-    "mid": 299.95,
+    "low": 180,
+    "mid": 287.48,
     "high": 500,
     "marketValue": 167.34,
     "change24h": 0,
@@ -6792,12 +6792,12 @@
    },
    "tcg": {
     "low": 3.15,
-    "mid": 6.91,
+    "mid": 6.9,
     "high": 39.99,
-    "marketValue": 6.83,
-    "change24h": -0.0159,
-    "change7d": 0.0705,
-    "change30d": 0.1655
+    "marketValue": 6.99,
+    "change24h": 0.0234,
+    "change7d": 0.0956,
+    "change30d": 0.1908
    }
   },
   "kg-197875": {
@@ -6811,12 +6811,12 @@
    },
    "tcg": {
     "low": 1.86,
-    "mid": 3.79,
+    "mid": 3.75,
     "high": 96.95,
-    "marketValue": 3.22,
-    "change24h": 0.0094,
-    "change7d": 0.0592,
-    "change30d": -0.0123
+    "marketValue": 3.17,
+    "change24h": -0.0155,
+    "change7d": 0.0428,
+    "change30d": 0.0359
    }
   },
   "kg-205160": {
@@ -6845,10 +6845,10 @@
    "cm": {},
    "tcg": {
     "low": 5,
-    "mid": 6.88,
-    "high": 11.99,
+    "mid": 6.9,
+    "high": 99.62,
     "marketValue": 6.08,
-    "change24h": -0.0033,
+    "change24h": 0,
     "change7d": -0.013,
     "change30d": -0.013
    }
@@ -6859,8 +6859,8 @@
    "cm": {},
    "tcg": {
     "low": 18.12,
-    "mid": 95.26,
-    "high": 299.99,
+    "mid": 147.71,
+    "high": 321.09,
     "marketValue": 40.92,
     "change24h": 0,
     "change7d": 0,
@@ -6879,32 +6879,32 @@
    },
    "tcg": {
     "low": 375,
-    "mid": 378,
+    "mid": 687.5,
     "high": 999.99,
-    "marketValue": 262.5,
-    "change24h": 0,
-    "change7d": 0,
-    "change30d": 0
+    "marketValue": 301,
+    "change24h": 0.1467,
+    "change7d": 0.1467,
+    "change30d": 0.1467
    }
   },
   "kg-246724": {
    "cnId": 31309,
    "finish": "Foil",
    "cm": {
-    "low": 2.3,
-    "marketValue": 5.81,
-    "change24h": 0.0122,
-    "change7d": 0.0229,
-    "change30d": 0.1282
+    "low": 1.5,
+    "marketValue": 6,
+    "change24h": 0.0327,
+    "change7d": 0.0563,
+    "change30d": 0.165
    },
    "tcg": {
-    "low": 7.02,
-    "mid": 9.92,
+    "low": 6.31,
+    "mid": 9.91,
     "high": 500,
-    "marketValue": 8.48,
-    "change24h": 0.0229,
-    "change7d": -0.1036,
-    "change30d": -0.0681
+    "marketValue": 8.49,
+    "change24h": 0.0012,
+    "change7d": -0.1025,
+    "change30d": -0.0701
    }
   },
   "kg-246726": {
@@ -6913,18 +6913,18 @@
    "cm": {
     "low": 9,
     "marketValue": 27.13,
-    "change24h": -0.0113,
+    "change24h": 0,
     "change7d": -0.0454,
     "change30d": 0.0673
    },
    "tcg": {
     "low": 35.99,
-    "mid": 49.04,
-    "high": 489.98,
+    "mid": 48.47,
+    "high": 470.38,
     "marketValue": 46.98,
     "change24h": 0,
     "change7d": -0.0141,
-    "change30d": -0.021
+    "change30d": -0.0261
    }
   },
   "kg-246729": {
@@ -6932,19 +6932,19 @@
    "finish": "Foil",
    "cm": {
     "low": 0.8,
-    "marketValue": 2.64,
-    "change24h": 0.0115,
-    "change7d": 0.1579,
-    "change30d": 0
+    "marketValue": 2.82,
+    "change24h": 0.0682,
+    "change7d": 0.2368,
+    "change30d": 0.0973
    },
    "tcg": {
     "low": 1.64,
-    "mid": 2.85,
+    "mid": 2.89,
     "high": 7.95,
-    "marketValue": 2.5,
-    "change24h": -0.0079,
-    "change7d": 0.0373,
-    "change30d": -0.1007
+    "marketValue": 2.49,
+    "change24h": -0.004,
+    "change7d": 0.0332,
+    "change30d": -0.1201
    }
   },
   "kg-246732": {
@@ -6952,19 +6952,19 @@
    "finish": "Foil",
    "cm": {
     "low": 5,
-    "marketValue": 14.22,
-    "change24h": 0.0071,
-    "change7d": 0.0223,
-    "change30d": 0.0425
+    "marketValue": 14.2,
+    "change24h": -0.0014,
+    "change7d": 0.0208,
+    "change30d": 0.0411
    },
    "tcg": {
-    "low": 14,
+    "low": 13.99,
     "mid": 20.35,
     "high": 96.95,
     "marketValue": 19.38,
     "change24h": 0,
     "change7d": 0.0232,
-    "change30d": 0.0442
+    "change30d": 0.0347
    }
   },
   "kg-250327": {
@@ -6972,19 +6972,19 @@
    "finish": "Foil",
    "cm": {
     "low": 20,
-    "marketValue": 51.69,
-    "change24h": -0.0732,
-    "change7d": 0.2249,
+    "marketValue": 51.94,
+    "change24h": 0.0048,
+    "change7d": 0.2308,
     "change30d": null
    },
    "tcg": {
     "low": 28,
-    "mid": 37.94,
+    "mid": 37.89,
     "high": 5000,
-    "marketValue": 32.43,
-    "change24h": 0.0075,
-    "change7d": -0.0627,
-    "change30d": -0.1481
+    "marketValue": 32.22,
+    "change24h": -0.0065,
+    "change7d": -0.0688,
+    "change30d": -0.1406
    }
   },
   "kg-250573": {
@@ -7007,8 +7007,8 @@
    "cm": {},
    "tcg": {
     "low": 113.99,
-    "mid": 129.59,
-    "high": 176,
+    "mid": 133.17,
+    "high": 1013.82,
     "marketValue": 134.55,
     "change24h": 0,
     "change7d": 0,
@@ -7020,19 +7020,19 @@
    "finish": "Standard",
    "cm": {
     "low": 12,
-    "marketValue": 18.07,
-    "change24h": 0,
-    "change7d": 0,
-    "change30d": 0
+    "marketValue": 19.11,
+    "change24h": 0.0576,
+    "change7d": 0.0576,
+    "change30d": 0.0576
    },
    "tcg": {
-    "low": 83.97,
-    "mid": 91.98,
+    "low": 59.99,
+    "mid": 81.46,
     "high": 99.98,
-    "marketValue": 48.56,
-    "change24h": 0,
-    "change7d": 0,
-    "change30d": 0.1434
+    "marketValue": 50.67,
+    "change24h": 0.0435,
+    "change7d": 0.0435,
+    "change30d": 0.119
    }
   },
   "kg-275060": {
@@ -7066,8 +7066,8 @@
    },
    "tcg": {
     "low": 12,
-    "mid": 13.99,
-    "high": 28.88,
+    "mid": 14.27,
+    "high": 162.92,
     "marketValue": 12.57,
     "change24h": 0,
     "change7d": 0.0337,
@@ -7093,19 +7093,19 @@
    "finish": "Foil",
    "cm": {
     "low": 0.2,
-    "marketValue": 1.38,
-    "change24h": 0.0698,
-    "change7d": 0.0615,
-    "change30d": -0.0676
+    "marketValue": 1.41,
+    "change24h": 0.0217,
+    "change7d": 0.0846,
+    "change30d": -0.0408
    },
    "tcg": {
     "low": 0.75,
     "mid": 2,
     "high": 20,
-    "marketValue": 1.84,
-    "change24h": 0.011,
-    "change7d": -0.0515,
-    "change30d": -0.0564
+    "marketValue": 1.76,
+    "change24h": -0.0435,
+    "change7d": -0.0928,
+    "change30d": -0.1066
    }
   },
   "kg-490083": {
@@ -7113,19 +7113,19 @@
    "finish": "Foil",
    "cm": {
     "low": 3.5,
-    "marketValue": 6.36,
-    "change24h": -0.0124,
-    "change7d": 0.0144,
-    "change30d": -0.1264
+    "marketValue": 6.27,
+    "change24h": -0.0142,
+    "change7d": 0,
+    "change30d": -0.1056
    },
    "tcg": {
     "low": 6.99,
     "mid": 10.32,
     "high": 96.95,
-    "marketValue": 8.84,
-    "change24h": 0.0091,
-    "change7d": -0.0772,
-    "change30d": -0.0924
+    "marketValue": 8.73,
+    "change24h": -0.0124,
+    "change7d": -0.0887,
+    "change30d": -0.1019
    }
   },
   "kg-526914": {
@@ -7152,20 +7152,20 @@
    "cnId": 156206,
    "finish": "Foil",
    "cm": {
-    "low": 6.75,
-    "marketValue": 1.41,
-    "change24h": 0,
-    "change7d": 0,
-    "change30d": -0.8174
+    "low": 6.8,
+    "marketValue": 0.02,
+    "change24h": -0.9858,
+    "change7d": -0.9858,
+    "change30d": -0.9974
    },
    "tcg": {
     "low": 8.92,
-    "mid": 11.71,
+    "mid": 11.66,
     "high": 9999,
-    "marketValue": 10.58,
-    "change24h": -0.0019,
-    "change7d": 0.0019,
-    "change30d": -0.0338
+    "marketValue": 10.6,
+    "change24h": 0.0019,
+    "change7d": 0.0038,
+    "change30d": -0.032
    }
   },
   "kg-527992": {
@@ -7180,12 +7180,12 @@
    },
    "tcg": {
     "low": 11.5,
-    "mid": 17.96,
+    "mid": 18.09,
     "high": 9999,
     "marketValue": 16.08,
     "change24h": 0,
     "change7d": 0.0044,
-    "change30d": -0.0025
+    "change30d": -0.0012
    }
   },
   "kg-549339": {
@@ -7193,19 +7193,19 @@
    "finish": "Foil",
    "cm": {
     "low": 19.8,
-    "marketValue": 23.38,
-    "change24h": 0,
-    "change7d": 0,
+    "marketValue": 24.92,
+    "change24h": 0.0659,
+    "change7d": 0.0659,
     "change30d": null
    },
    "tcg": {
     "low": 5,
-    "mid": 8.85,
-    "high": 15,
-    "marketValue": 8.26,
-    "change24h": 0.0085,
-    "change7d": 0.016,
-    "change30d": 0.1269
+    "mid": 8.98,
+    "high": 119.72,
+    "marketValue": 8.17,
+    "change24h": -0.0109,
+    "change7d": 0.0049,
+    "change30d": 0.1207
    }
   },
   "kg-566474": {
@@ -7213,10 +7213,10 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.21,
-    "change24h": -0.0472,
-    "change7d": -0.1769,
-    "change30d": 59.5
+    "marketValue": 1.09,
+    "change24h": -0.0992,
+    "change7d": -0.2585,
+    "change30d": 53.5
    },
    "tcg": {
     "low": 0.03,
@@ -7225,7 +7225,7 @@
     "marketValue": 0.18,
     "change24h": 0,
     "change7d": 0,
-    "change30d": 0.2
+    "change30d": 0.2857
    }
   },
   "kg-566475": {
@@ -7254,7 +7254,7 @@
    "cm": {
     "low": 0.18,
     "marketValue": 0.02,
-    "change24h": -0.9733,
+    "change24h": 0,
     "change7d": -0.9958,
     "change30d": -0.9934
    },
@@ -7263,7 +7263,7 @@
     "mid": 1.16,
     "high": 3.99,
     "marketValue": 1.17,
-    "change24h": -0.0085,
+    "change24h": 0,
     "change7d": -0.0085,
     "change30d": -0.0331
    }
@@ -7273,14 +7273,14 @@
    "finish": "Foil",
    "cm": {
     "low": 0.38,
-    "marketValue": 1.9,
-    "change24h": 0.131,
-    "change7d": 0.4179,
-    "change30d": -0.4524
+    "marketValue": 1.8,
+    "change24h": -0.0526,
+    "change7d": 0.3433,
+    "change30d": -0.4813
    },
    "tcg": {
-    "low": 0.94,
-    "mid": 1.35,
+    "low": 1,
+    "mid": 1.36,
     "high": 3.25,
     "marketValue": 1.27,
     "change24h": 0,
@@ -7319,9 +7319,9 @@
     "change30d": 30.4409
    },
    "tcg": {
-    "low": 68.45,
-    "mid": 71,
-    "high": 678.15,
+    "low": 68.67,
+    "mid": 71.99,
+    "high": 651.02,
     "marketValue": 46.72,
     "change24h": 0,
     "change7d": 0.0422,
@@ -7354,18 +7354,18 @@
    "cm": {
     "low": 0.2,
     "marketValue": 0.76,
-    "change24h": 0.0133,
+    "change24h": 0,
     "change7d": -0.05,
-    "change30d": 0.0411
+    "change30d": 0.0857
    },
    "tcg": {
     "low": 0.1,
     "mid": 0.99,
     "high": 5,
     "marketValue": 0.9,
-    "change24h": -0.011,
+    "change24h": 0,
     "change7d": -0.011,
-    "change30d": -0.0526
+    "change30d": -0.0625
    }
   },
   "kg-567208": {
@@ -7373,19 +7373,19 @@
    "finish": "Foil",
    "cm": {
     "low": 5.9,
-    "marketValue": 8.59,
-    "change24h": 0,
-    "change7d": 0.6086,
-    "change30d": 0.1997
+    "marketValue": 8.72,
+    "change24h": 0.0151,
+    "change7d": 0.633,
+    "change30d": 0.2179
    },
    "tcg": {
     "low": 9.31,
-    "mid": 9.55,
+    "mid": 9.43,
     "high": 12.48,
     "marketValue": 9.6,
     "change24h": 0,
     "change7d": -0.0293,
-    "change30d": -0.0164
+    "change30d": -0.0254
    }
   },
   "kg-568145": {
@@ -7432,15 +7432,15 @@
    "cnId": 186851,
    "finish": "Foil",
    "cm": {
-    "low": 60,
-    "marketValue": 126.51,
-    "change24h": 0.0214,
-    "change7d": -0.0112,
-    "change30d": -0.1312
+    "low": 70,
+    "marketValue": 136.06,
+    "change24h": 0.0755,
+    "change7d": 0.0635,
+    "change30d": -0.0532
    },
    "tcg": {
     "low": 122.5,
-    "mid": 152.4,
+    "mid": 150,
     "high": 300,
     "marketValue": 142.4,
     "change24h": 0,
@@ -7452,15 +7452,15 @@
    "cnId": 202793,
    "finish": "Foil",
    "cm": {
-    "low": 0.15,
+    "low": 0.1,
     "marketValue": 1.22,
-    "change24h": -0.0615,
+    "change24h": 0,
     "change7d": -0.0896,
     "change30d": 0.5641
    },
    "tcg": {
-    "low": 1.37,
-    "mid": 1.56,
+    "low": 1,
+    "mid": 1.58,
     "high": 8.45,
     "marketValue": 1.52,
     "change24h": 0,
@@ -7473,10 +7473,10 @@
    "finish": "Foil",
    "cm": {
     "low": 0.3,
-    "marketValue": 1.8,
-    "change24h": 0.2245,
-    "change7d": 0.3235,
-    "change30d": 0.0526
+    "marketValue": 1.78,
+    "change24h": -0.0111,
+    "change7d": 0.3088,
+    "change30d": 0.0409
    },
    "tcg": {
     "low": 3.69,
@@ -7536,11 +7536,11 @@
     "marketValue": 13.26,
     "change24h": 0,
     "change7d": -0.0075,
-    "change30d": -0.1077
+    "change30d": -0.0955
    },
    "tcg": {
     "low": 9,
-    "mid": 10.59,
+    "mid": 11.18,
     "high": 29.99,
     "marketValue": 11.24,
     "change24h": 0,
@@ -7574,7 +7574,7 @@
    "cm": {
     "low": 1.95,
     "marketValue": 1.89,
-    "change24h": -0.0156,
+    "change24h": 0,
     "change7d": -0.0156,
     "change30d": -0.0308
    },
@@ -7614,12 +7614,12 @@
    "cm": {},
    "tcg": {
     "low": 24,
-    "mid": 35.39,
+    "mid": 36.5,
     "high": 40,
-    "marketValue": 33.4,
-    "change24h": 0,
-    "change7d": 0.0106,
-    "change30d": 0.048
+    "marketValue": 33.63,
+    "change24h": 0.0069,
+    "change7d": 0.0175,
+    "change30d": 0.0552
    }
   },
   "kg-572561": {
@@ -7741,8 +7741,8 @@
    },
    "tcg": {
     "low": 4,
-    "mid": 4.61,
-    "high": 5.21,
+    "mid": 4.62,
+    "high": 5.93,
     "marketValue": 5.93,
     "change24h": 0,
     "change7d": 0,
@@ -7774,39 +7774,39 @@
    "finish": "Standard",
    "cm": {
     "low": 0.2,
-    "marketValue": 6.53,
-    "change24h": 0,
-    "change7d": -0.0312,
-    "change30d": -0.2571
+    "marketValue": 6.41,
+    "change24h": -0.0184,
+    "change7d": -0.049,
+    "change30d": -0.2708
    },
    "tcg": {
     "low": 1.2,
     "mid": 2.58,
     "high": 6.99,
-    "marketValue": 2.77,
-    "change24h": 0,
-    "change7d": 0.0036,
-    "change30d": 0.0992
+    "marketValue": 2.76,
+    "change24h": -0.0036,
+    "change7d": 0,
+    "change30d": 0.0952
    }
   },
   "kg-575334": {
    "cnId": 188114,
    "finish": "Foil",
    "cm": {
-    "low": 35,
-    "marketValue": 114.89,
-    "change24h": 0,
-    "change7d": 0,
-    "change30d": 0.2047
+    "low": 37,
+    "marketValue": 111.86,
+    "change24h": -0.0264,
+    "change7d": -0.0264,
+    "change30d": 0.1729
    },
    "tcg": {
     "low": 41.57,
-    "mid": 52.54,
+    "mid": 53.77,
     "high": 90,
     "marketValue": 54.61,
     "change24h": 0,
     "change7d": 0.0076,
-    "change30d": 0.0304
+    "change30d": 0.0292
    }
   },
   "kg-575606": {
@@ -7821,12 +7821,12 @@
    },
    "tcg": {
     "low": 35.86,
-    "mid": 114.99,
+    "mid": 115,
     "high": 165,
-    "marketValue": 120.62,
-    "change24h": 0,
-    "change7d": 0,
-    "change30d": 0.2304
+    "marketValue": 119.49,
+    "change24h": -0.0094,
+    "change7d": -0.0094,
+    "change30d": 0.2189
    }
   },
   "kg-575647": {
@@ -7834,10 +7834,10 @@
    "finish": "Standard",
    "cm": {
     "low": 0.75,
-    "marketValue": 5.74,
-    "change24h": 0,
-    "change7d": 0.0729,
-    "change30d": 286
+    "marketValue": 5.32,
+    "change24h": -0.0732,
+    "change7d": -0.0056,
+    "change30d": 265
    },
    "tcg": {
     "low": 4.69,
@@ -7854,19 +7854,19 @@
    "finish": "Standard",
    "cm": {
     "low": 0.49,
-    "marketValue": 3.14,
-    "change24h": 0.0129,
-    "change7d": 0.1544,
-    "change30d": 0.0295
+    "marketValue": 3.32,
+    "change24h": 0.0573,
+    "change7d": 0.2206,
+    "change30d": 0.0885
    },
    "tcg": {
     "low": 0.9,
-    "mid": 2,
+    "mid": 2.04,
     "high": 6,
-    "marketValue": 1.96,
-    "change24h": 0,
-    "change7d": -0.0622,
-    "change30d": -0.0577
+    "marketValue": 1.94,
+    "change24h": -0.0102,
+    "change7d": -0.0718,
+    "change30d": -0.0673
    }
   },
   "kg-575748": {
@@ -7874,17 +7874,17 @@
    "finish": "Foil",
    "cm": {
     "low": 7.98,
-    "marketValue": 32.59,
-    "change24h": -0.1199,
-    "change7d": -0.3208,
-    "change30d": -0.0061
+    "marketValue": 30.91,
+    "change24h": -0.0515,
+    "change7d": -0.3558,
+    "change30d": -0.0573
    },
    "tcg": {
     "low": 28.95,
     "mid": 35,
     "high": 62.97,
     "marketValue": 43.31,
-    "change24h": 0.0273,
+    "change24h": 0,
     "change7d": 0.0307,
     "change30d": 0.0817
    }
@@ -7921,12 +7921,12 @@
    },
    "tcg": {
     "low": 0.4,
-    "mid": 0.81,
+    "mid": 0.8,
     "high": 0.99,
-    "marketValue": 0.81,
-    "change24h": 0,
-    "change7d": 0,
-    "change30d": 0
+    "marketValue": 0.79,
+    "change24h": -0.0247,
+    "change7d": -0.0247,
+    "change30d": -0.0247
    }
   },
   "kg-576700": {
@@ -7961,7 +7961,7 @@
    },
    "tcg": {
     "low": 32,
-    "mid": 38.99,
+    "mid": 48.5,
     "high": 72,
     "marketValue": 54.05,
     "change24h": 0,
@@ -7974,17 +7974,17 @@
    "finish": "Standard",
    "cm": {
     "low": 0.99,
-    "marketValue": 3.58,
-    "change24h": 0,
-    "change7d": -0.0579,
-    "change30d": -0.3321
+    "marketValue": 3.81,
+    "change24h": 0.0642,
+    "change7d": 0.0026,
+    "change30d": -0.2892
    },
    "tcg": {
     "low": 1.05,
     "mid": 3.05,
     "high": 9.99,
     "marketValue": 2.73,
-    "change24h": -0.0036,
+    "change24h": 0,
     "change7d": -0.0036,
     "change30d": 0
    }
@@ -8022,9 +8022,9 @@
    "finish": "Foil",
    "cm": {
     "low": 10,
-    "marketValue": 42.31,
-    "change24h": 0,
-    "change7d": -0.03,
+    "marketValue": 40.82,
+    "change24h": -0.0352,
+    "change7d": -0.0642,
     "change30d": null
    },
    "tcg": {
@@ -8042,10 +8042,10 @@
    "finish": "Foil",
    "cm": {
     "low": 38.99,
-    "marketValue": 99.06,
-    "change24h": 0,
-    "change7d": 0,
-    "change30d": -0.2225
+    "marketValue": 93.6,
+    "change24h": -0.0551,
+    "change7d": -0.0551,
+    "change30d": -0.2654
    },
    "tcg": {
     "low": 105,
@@ -8063,14 +8063,14 @@
    "cm": {
     "low": 0.25,
     "marketValue": 1.33,
-    "change24h": -0.0567,
+    "change24h": 0,
     "change7d": -0.089,
     "change30d": -0.089
    },
    "tcg": {
     "low": 2.05,
     "mid": 2.5,
-    "high": 7,
+    "high": 4.2,
     "marketValue": 2.13,
     "change24h": 0,
     "change7d": 0,
@@ -8083,7 +8083,7 @@
    "cm": {
     "low": 4.75,
     "marketValue": 12.25,
-    "change24h": 0.1905,
+    "change24h": 0,
     "change7d": 0.1905,
     "change30d": 0.1905
    },
@@ -8200,7 +8200,7 @@
    "cnId": 208285,
    "finish": "Foil",
    "cm": {
-    "low": 38,
+    "low": 40,
     "marketValue": 126.12,
     "change24h": 0,
     "change7d": -0.1352,
@@ -8211,7 +8211,7 @@
     "mid": 55,
     "high": 60,
     "marketValue": 87.29,
-    "change24h": -0.0005,
+    "change24h": 0,
     "change7d": 0.0324,
     "change30d": 0.0324
    }
@@ -8262,7 +8262,7 @@
    "cm": {
     "low": 7,
     "marketValue": 42.41,
-    "change24h": 0.0064,
+    "change24h": 0,
     "change7d": 0.0064,
     "change30d": 0.4318
    },
@@ -8324,7 +8324,7 @@
     "marketValue": 3.34,
     "change24h": 0,
     "change7d": -0.0511,
-    "change30d": -0.2067
+    "change30d": -0.1854
    },
    "tcg": {
     "low": 4,
@@ -8344,7 +8344,7 @@
     "marketValue": 3.34,
     "change24h": 0,
     "change7d": -0.0511,
-    "change30d": -0.2067
+    "change30d": -0.1854
    },
    "tcg": {
     "low": 4,
@@ -8361,10 +8361,10 @@
    "finish": "Standard",
    "cm": {
     "low": 6.5,
-    "marketValue": 15.87,
-    "change24h": 0,
-    "change7d": -0.1188,
-    "change30d": -0.2053
+    "marketValue": 20.93,
+    "change24h": 0.3188,
+    "change7d": 0.1621,
+    "change30d": 0.0481
    },
    "tcg": {
     "low": 16.99,
@@ -8382,7 +8382,7 @@
    "cm": {
     "low": 0.15,
     "marketValue": 1.65,
-    "change24h": -0.1081,
+    "change24h": 0,
     "change7d": -0.1081,
     "change30d": 2
    },
@@ -8494,10 +8494,10 @@
    "finish": "Standard",
    "cm": {
     "low": 0.5,
-    "marketValue": 2.91,
-    "change24h": 0,
-    "change7d": 0,
-    "change30d": -0.0102
+    "marketValue": 2.53,
+    "change24h": -0.1306,
+    "change7d": -0.1306,
+    "change30d": -0.1395
    },
    "tcg": {
     "low": 4,
@@ -8574,10 +8574,10 @@
    "finish": "Standard",
    "cm": {
     "low": 4,
-    "marketValue": 14.29,
-    "change24h": 0,
-    "change7d": 0,
-    "change30d": 0.0295
+    "marketValue": 14.79,
+    "change24h": 0.035,
+    "change7d": 0.035,
+    "change30d": 0.0656
    },
    "tcg": {
     "low": 9,
@@ -8715,9 +8715,9 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.05,
-    "change24h": 0.6667,
+    "change24h": 0,
     "change7d": 1.5,
-    "change30d": -0.1667
+    "change30d": 0
    },
    "tcg": {
     "low": 0.05,
@@ -8741,7 +8741,7 @@
    },
    "tcg": {
     "low": 0.25,
-    "mid": 0.67,
+    "mid": 0.66,
     "high": 2.49,
     "marketValue": 0.58,
     "change24h": 0,
@@ -8755,18 +8755,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.12,
-    "change24h": -0.0769,
+    "change24h": 0,
     "change7d": 0.2,
-    "change30d": 0
+    "change30d": -0.0769
    },
    "tcg": {
     "low": 0.1,
     "mid": 0.5,
     "high": 30,
-    "marketValue": 0.44,
-    "change24h": 0.0233,
-    "change7d": -0.1373,
-    "change30d": 0.0233
+    "marketValue": 0.43,
+    "change24h": -0.0227,
+    "change7d": -0.1569,
+    "change30d": -0.0227
    }
   },
   "kg-630816-reverseholofoil": {
@@ -8775,18 +8775,18 @@
    "cm": {
     "low": 0.02,
     "marketValue": 0.12,
-    "change24h": -0.0769,
+    "change24h": 0,
     "change7d": 0.2,
-    "change30d": 0
+    "change30d": -0.0769
    },
    "tcg": {
     "low": 0.1,
     "mid": 0.5,
     "high": 30,
-    "marketValue": 0.44,
-    "change24h": 0.0233,
-    "change7d": -0.1373,
-    "change30d": 0.0233
+    "marketValue": 0.43,
+    "change24h": -0.0227,
+    "change7d": -0.1569,
+    "change30d": -0.0227
    }
   },
   "kg-631900": {
@@ -8801,7 +8801,7 @@
    },
    "tcg": {
     "low": 299.99,
-    "mid": 524.75,
+    "mid": 525,
     "high": 645,
     "marketValue": 155,
     "change24h": 0,
@@ -8815,8 +8815,8 @@
    "cm": {},
    "tcg": {
     "low": 130,
-    "mid": 138.99,
-    "high": 801.99,
+    "mid": 141.18,
+    "high": 1058.82,
     "marketValue": 142.11,
     "change24h": 0,
     "change7d": 0.0001,
@@ -8829,10 +8829,10 @@
    "cm": {},
    "tcg": {
     "low": 0.4,
-    "mid": 0.93,
-    "high": 2,
+    "mid": 0.94,
+    "high": 19.8,
     "marketValue": 0.91,
-    "change24h": -0.0109,
+    "change24h": 0,
     "change7d": 0.0225,
     "change30d": 0.0225
    }
@@ -8862,18 +8862,18 @@
    "finish": "Foil",
    "cm": {
     "low": 62.99,
-    "marketValue": 79.22,
-    "change24h": -0.0214,
-    "change7d": -0.0849,
+    "marketValue": 78.54,
+    "change24h": -0.0086,
+    "change7d": -0.0928,
     "change30d": null
    },
    "tcg": {
-    "low": 84.5,
+    "low": 84.97,
     "mid": 99,
     "high": 1999.99,
-    "marketValue": 87.35,
-    "change24h": -0.0024,
-    "change7d": -0.0249,
+    "marketValue": 86.27,
+    "change24h": -0.0124,
+    "change7d": -0.037,
     "change30d": null
    }
   },
@@ -8883,17 +8883,17 @@
    "cm": {
     "low": 53.5,
     "marketValue": 66.35,
-    "change24h": -0.0643,
+    "change24h": 0,
     "change7d": -0.1911,
     "change30d": null
    },
    "tcg": {
-    "low": 84.99,
-    "mid": 89.29,
+    "low": 84.77,
+    "mid": 87.57,
     "high": 119.99,
-    "marketValue": 95.51,
-    "change24h": -0.0077,
-    "change7d": -0.0489,
+    "marketValue": 95.06,
+    "change24h": -0.0047,
+    "change7d": -0.0534,
     "change30d": null
    }
   },
@@ -8912,7 +8912,7 @@
     "mid": 99.99,
     "high": 399.84,
     "marketValue": 45.93,
-    "change24h": 0.0527,
+    "change24h": 0,
     "change7d": 0.0659,
     "change30d": 0.2061
    }
@@ -8932,7 +8932,7 @@
     "mid": 99.99,
     "high": 399.84,
     "marketValue": 45.93,
-    "change24h": 0.0527,
+    "change24h": 0,
     "change7d": 0.0659,
     "change30d": 0.2061
    }
@@ -8948,9 +8948,9 @@
     "change30d": 0.0484
    },
    "tcg": {
-    "low": 1.85,
-    "mid": 4.12,
-    "high": 7.75,
+    "low": 2.5,
+    "mid": 4.4,
+    "high": 53.62,
     "marketValue": 4.35,
     "change24h": 0,
     "change7d": 0,
@@ -8969,8 +8969,8 @@
    },
    "tcg": {
     "low": 125,
-    "mid": 149.99,
-    "high": 301.84,
+    "mid": 361.87,
+    "high": 2339.72,
     "marketValue": 369.59,
     "change24h": 0,
     "change7d": 0,
@@ -8989,8 +8989,8 @@
    },
    "tcg": {
     "low": 125,
-    "mid": 149.99,
-    "high": 301.84,
+    "mid": 361.87,
+    "high": 2339.72,
     "marketValue": 369.59,
     "change24h": 0,
     "change7d": 0,
@@ -9029,8 +9029,8 @@
    },
    "tcg": {
     "low": 6.25,
-    "mid": 9.49,
-    "high": 50,
+    "mid": 10,
+    "high": 119.72,
     "marketValue": 8.78,
     "change24h": 0,
     "change7d": 0.0317,
@@ -9048,8 +9048,8 @@
     "change30d": 0
    },
    "tcg": {
-    "low": 12,
-    "mid": 27.2,
+    "low": 29.99,
+    "mid": 60.41,
     "high": 4439.03,
     "marketValue": 44.54,
     "change24h": 0,
@@ -9062,14 +9062,14 @@
    "finish": "Foil",
    "cm": {
     "low": 35,
-    "marketValue": 364.97,
-    "change24h": 0,
-    "change7d": 0.6782,
-    "change30d": 0.3572
+    "marketValue": 346.07,
+    "change24h": -0.0518,
+    "change7d": 0.5913,
+    "change30d": 0.2869
    },
    "tcg": {
-    "low": 249.68,
-    "mid": 650,
+    "low": 279.99,
+    "mid": 653.25,
     "high": 999.97,
     "marketValue": 257.09,
     "change24h": 0,
@@ -9082,14 +9082,14 @@
    "finish": "Foil",
    "cm": {
     "low": 35,
-    "marketValue": 364.97,
-    "change24h": 0,
-    "change7d": 0.6782,
-    "change30d": 0.3572
+    "marketValue": 346.07,
+    "change24h": -0.0518,
+    "change7d": 0.5913,
+    "change30d": 0.2869
    },
    "tcg": {
-    "low": 249.68,
-    "mid": 650,
+    "low": 279.99,
+    "mid": 653.25,
     "high": 999.97,
     "marketValue": 257.09,
     "change24h": 0,
@@ -9123,13 +9123,13 @@
    "cm": {
     "low": 0.25,
     "marketValue": 3.41,
-    "change24h": -0.0979,
+    "change24h": 0,
     "change7d": -0.1345,
-    "change30d": -0.0734
+    "change30d": 0.0365
    },
    "tcg": {
     "low": 4.74,
-    "mid": 12.31,
+    "mid": 13.05,
     "high": 149.99,
     "marketValue": 12.84,
     "change24h": 0,
@@ -9143,13 +9143,13 @@
    "cm": {
     "low": 0.25,
     "marketValue": 3.41,
-    "change24h": -0.0979,
+    "change24h": 0,
     "change7d": -0.1345,
-    "change30d": -0.0734
+    "change30d": 0.0365
    },
    "tcg": {
     "low": 4.74,
-    "mid": 12.31,
+    "mid": 13.05,
     "high": 149.99,
     "marketValue": 12.84,
     "change24h": 0,
@@ -9168,9 +9168,9 @@
     "change30d": 1.839
    },
    "tcg": {
-    "low": 1.63,
-    "mid": 3.4,
-    "high": 5.34,
+    "low": 3.31,
+    "mid": 3.57,
+    "high": 249.42,
     "marketValue": 4.84,
     "change24h": 0,
     "change7d": 0,
@@ -9210,7 +9210,7 @@
    "tcg": {
     "low": 0.2,
     "mid": 0.35,
-    "high": 1.19,
+    "high": 19.8,
     "marketValue": 0.43,
     "change24h": 0,
     "change7d": 0,
@@ -9222,15 +9222,15 @@
    "finish": "Standard",
    "cm": {
     "low": 0.02,
-    "marketValue": 1.87,
-    "change24h": -0.0833,
-    "change7d": -0.0833,
-    "change30d": 0.4724
+    "marketValue": 1.79,
+    "change24h": -0.0428,
+    "change7d": -0.1225,
+    "change30d": 0.4094
    },
    "tcg": {
     "low": 0.83,
-    "mid": 1.1,
-    "high": 3,
+    "mid": 1.5,
+    "high": 19.8,
     "marketValue": 1.77,
     "change24h": 0,
     "change7d": 0.0291,
