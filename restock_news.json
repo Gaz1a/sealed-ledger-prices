@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-14",
+ "generated": "2026-10-15",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (61 entries, 6 new matches)",
+  "googlenews-reprint": "ok (61 entries, 2 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
@@ -130,6 +130,18 @@
    ]
   },
   {
+   "id": "a5a8ba23744c",
+   "feed": "googlenews-reprint",
+   "title": "The Pokémon TCG 30th Celebration Pokemon Greninja ex Box is on sale and flying out the door at Amazon - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOWRZOXRYMVdXSEg3NVAyTVpaalg3QzMyNXdWdkI4VUJnY0M1UWJvQXRJRG10UEtJdXJWRXdqeDd1MUtOd0drZWZOeWlOZElnNHVXV3hzeEJ5VVNzSDJESl9adXlmWXBvbFI2TzRNenVyNDFIYl9oNGxDSWdvX0RCbU9lYzZGeGFJbTdjNjVxS2h1cGd1WkY1U2E4QzVMdEsz?oc=5",
+   "published": "2026-10-13",
+   "firstSeen": "2026-10-15",
+   "classes": [],
+   "matched": [
+    "30th celebration"
+   ]
+  },
+  {
    "id": "382a662d0087",
    "feed": "googlenews-reprint",
    "title": "Pokémon TCG 30th Celebration Booster Bundles Back in Stock: Amazon Now Costs More Than Resale - Martin Cid Magazine",
@@ -176,6 +188,18 @@
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxON0JiODhHVUxVSDhMdk93dkVKOUh4SFBaM05UVmRWS3VONUdJVG9Db1FpM3phd1RoeGNBM3FhdUxNclpEdTN2Vm16SnNEZWU0QnJNb3FZeVFOaXF3eFRXRGpNbERHNjh3bjRUb2kxQkhwUjgxRjJ1eHV4MFZZVHM3Zzhqc1dQdk9PbGtCdDF3TzFJZHVPOUhr?oc=5",
    "published": "2026-10-11",
    "firstSeen": "2026-10-12",
+   "classes": [],
+   "matched": [
+    "30th celebration"
+   ]
+  },
+  {
+   "id": "e5c40c44cc3a",
+   "feed": "googlenews-reprint",
+   "title": "The Pokémon TCG 30th Celebration ETB is close to market price — shop for $159.99 - Yahoo",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeWU2TGFrMnl1RnpjbWROSF91T0ZYTEFuRDFUV1NTakx1eGpYR2ZZXzZUQ3lqZ21EcjZEQlFSbnZ0UE5EMVFUNzhfNXRZQThyZDVHQXlrZEwxZHV0MGVKNlVmUkZFMGdOc0w2eHNDVkM1bnphLVdJMG9FYklHVkVnZnFwTFpDeVNhVnpseXhR?oc=5",
+   "published": "2026-10-10",
+   "firstSeen": "2026-10-15",
    "classes": [],
    "matched": [
     "30th celebration"
