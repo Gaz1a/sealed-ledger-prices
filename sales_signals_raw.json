@@ -80504,7 +80504,4581 @@
    }
   },
   "42423": {
-   "error": "http 429"
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:31Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "42423",
+    "name": "Scoop Up",
+    "setName": "Base Set",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/42423",
+    "prices": {
+     "market": 8.64,
+     "low": 1,
+     "sellers": 201,
+     "listings": 235,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:09:34.519Z"
+    }
+   }
+  },
+  "42424": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:33Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "42424",
+    "name": "Super Energy Removal",
+    "setName": "Base Set",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/42424",
+    "prices": {
+     "market": 3.24,
+     "low": 0.34,
+     "sellers": 429,
+     "listings": 519,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:09:34.519Z"
+    }
+   }
+  },
+  "42433": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:34Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "42433",
+    "name": "Magneton",
+    "setName": "Base Set",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/42433",
+    "prices": {
+     "market": 33.66,
+     "low": 3,
+     "sellers": 246,
+     "listings": 316,
+     "recentSales": 0,
+     "primaryPrinting": "Holofoil",
+     "lastUpdated": "2026-10-16T12:09:34.519Z"
+    }
+   }
+  },
+  "42542": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:35Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "42542",
+    "name": "Sandshrew",
+    "setName": "Base Set 2",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/42542",
+    "prices": {
+     "market": 0.48,
+     "low": 0.05,
+     "sellers": 431,
+     "listings": 579,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:09:23.749Z"
+    }
+   }
+  },
+  "44419": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:36Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44419",
+    "name": "Lapras (10)",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44419",
+    "prices": {
+     "market": 221.35,
+     "low": 4.55,
+     "sellers": 222,
+     "listings": 299,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition Holofoil",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44433": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:37Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44433",
+    "name": "Arbok",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44433",
+    "prices": {
+     "market": 4.74,
+     "low": 0.05,
+     "sellers": 761,
+     "listings": 1035,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44434": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:38Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44434",
+    "name": "Cloyster",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44434",
+    "prices": {
+     "market": 4.12,
+     "low": 0.1,
+     "sellers": 771,
+     "listings": 1080,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44436": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:40Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44436",
+    "name": "Golbat",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44436",
+    "prices": {
+     "market": 6.78,
+     "low": 0.07,
+     "sellers": 838,
+     "listings": 1197,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44437": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:41Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44437",
+    "name": "Golduck",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44437",
+    "prices": {
+     "market": 6.54,
+     "low": 0.19,
+     "sellers": 680,
+     "listings": 931,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44438": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:42Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44438",
+    "name": "Golem",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44438",
+    "prices": {
+     "market": 6.81,
+     "low": 0.13,
+     "sellers": 688,
+     "listings": 949,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44439": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:43Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44439",
+    "name": "Graveler",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44439",
+    "prices": {
+     "market": 4.49,
+     "low": 0.09,
+     "sellers": 845,
+     "listings": 1225,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44440": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:44Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44440",
+    "name": "Kingler",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44440",
+    "prices": {
+     "market": 3.16,
+     "low": 0.01,
+     "sellers": 846,
+     "listings": 1222,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44442": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:46Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44442",
+    "name": "Omastar",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44442",
+    "prices": {
+     "market": 5.52,
+     "low": 0.1,
+     "sellers": 683,
+     "listings": 973,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44443": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:47Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44443",
+    "name": "Sandslash",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44443",
+    "prices": {
+     "market": 6.47,
+     "low": 0.18,
+     "sellers": 775,
+     "listings": 1095,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44444": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:48Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44444",
+    "name": "Seadra",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44444",
+    "prices": {
+     "market": 4.95,
+     "low": 0.1,
+     "sellers": 844,
+     "listings": 1240,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44445": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:49Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44445",
+    "name": "Slowbro",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44445",
+    "prices": {
+     "market": 9.49,
+     "low": 0.25,
+     "sellers": 599,
+     "listings": 792,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44446": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:50Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44446",
+    "name": "Tentacruel",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44446",
+    "prices": {
+     "market": 5.23,
+     "low": 0.18,
+     "sellers": 710,
+     "listings": 968,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44447": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:51Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44447",
+    "name": "Weezing",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44447",
+    "prices": {
+     "market": 3.97,
+     "low": 0.1,
+     "sellers": 816,
+     "listings": 1154,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44448": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:53Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44448",
+    "name": "Ekans",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44448",
+    "prices": {
+     "market": 1.66,
+     "low": 0.04,
+     "sellers": 1060,
+     "listings": 1631,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44449": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:54Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44449",
+    "name": "Geodude",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44449",
+    "prices": {
+     "market": 3.49,
+     "low": 0.05,
+     "sellers": 1185,
+     "listings": 1882,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44450": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:55Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44450",
+    "name": "Grimer",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44450",
+    "prices": {
+     "market": 2.83,
+     "low": 0.05,
+     "sellers": 1111,
+     "listings": 1695,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44451": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:56Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44451",
+    "name": "Horsea",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44451",
+    "prices": {
+     "market": 2.34,
+     "low": 0.04,
+     "sellers": 1172,
+     "listings": 1870,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44452": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:57Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44452",
+    "name": "Kabuto",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44452",
+    "prices": {
+     "market": 17.62,
+     "low": 0.08,
+     "sellers": 1079,
+     "listings": 1704,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44453": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:07:58Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44453",
+    "name": "Krabby",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44453",
+    "prices": {
+     "market": 2,
+     "low": 0.05,
+     "sellers": 1086,
+     "listings": 1720,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44454": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:00Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44454",
+    "name": "Omanyte",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44454",
+    "prices": {
+     "market": 2.94,
+     "low": 0.09,
+     "sellers": 971,
+     "listings": 1454,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44455": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:01Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44455",
+    "name": "Psyduck",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44455",
+    "prices": {
+     "market": 13.75,
+     "low": 0.1,
+     "sellers": 706,
+     "listings": 986,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44456": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:02Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44456",
+    "name": "Shellder",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44456",
+    "prices": {
+     "market": 2,
+     "low": 0.04,
+     "sellers": 1061,
+     "listings": 1628,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44457": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:03Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44457",
+    "name": "Slowpoke",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44457",
+    "prices": {
+     "market": 6.13,
+     "low": 0.1,
+     "sellers": 904,
+     "listings": 1292,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44458": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:04Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44458",
+    "name": "Tentacool",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44458",
+    "prices": {
+     "market": 1.54,
+     "low": 0.04,
+     "sellers": 1027,
+     "listings": 1554,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "44459": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:05Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "44459",
+    "name": "Zubat",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/44459",
+    "prices": {
+     "market": 2.02,
+     "low": 0.01,
+     "sellers": 1113,
+     "listings": 1765,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "45120": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:07Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45120",
+    "name": "Clefable (1)",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45120",
+    "prices": {
+     "market": 119.12,
+     "low": 7.35,
+     "sellers": 179,
+     "listings": 235,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition Holofoil",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45123": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:08Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45123",
+    "name": "Vaporeon (12)",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45123",
+    "prices": {
+     "market": 155.49,
+     "low": 9.54,
+     "sellers": 221,
+     "listings": 300,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition Holofoil",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45125": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:09Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45125",
+    "name": "Victreebel (14)",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45125",
+    "prices": {
+     "market": 119.49,
+     "low": 9.25,
+     "sellers": 178,
+     "listings": 230,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition Holofoil",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45134": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:10Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45134",
+    "name": "Pidgeot (8)",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45134",
+    "prices": {
+     "market": 169.43,
+     "low": 9.49,
+     "sellers": 179,
+     "listings": 239,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition Holofoil",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45136": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:11Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45136",
+    "name": "Butterfree",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45136",
+    "prices": {
+     "market": 12.61,
+     "low": 0.14,
+     "sellers": 582,
+     "listings": 787,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45137": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:12Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45137",
+    "name": "Dodrio",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45137",
+    "prices": {
+     "market": 4.79,
+     "low": 0.1,
+     "sellers": 720,
+     "listings": 978,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45138": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:14Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45138",
+    "name": "Exeggutor",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45138",
+    "prices": {
+     "market": 6,
+     "low": 0.1,
+     "sellers": 716,
+     "listings": 982,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45139": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:15Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45139",
+    "name": "Fearow",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45139",
+    "prices": {
+     "market": 4.09,
+     "low": 0.05,
+     "sellers": 761,
+     "listings": 1074,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45140": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:16Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45140",
+    "name": "Gloom",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45140",
+    "prices": {
+     "market": 4.76,
+     "low": 0.11,
+     "sellers": 757,
+     "listings": 1130,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45141": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:17Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45141",
+    "name": "Lickitung",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45141",
+    "prices": {
+     "market": 7.66,
+     "low": 0.2,
+     "sellers": 636,
+     "listings": 912,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45142": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:18Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45142",
+    "name": "Marowak",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45142",
+    "prices": {
+     "market": 10.9,
+     "low": 0.1,
+     "sellers": 644,
+     "listings": 876,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45143": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:20Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45143",
+    "name": "Nidorina",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45143",
+    "prices": {
+     "market": 3.72,
+     "low": 0.1,
+     "sellers": 845,
+     "listings": 1248,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45144": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:21Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45144",
+    "name": "Parasect",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45144",
+    "prices": {
+     "market": 2.92,
+     "low": 0.15,
+     "sellers": 739,
+     "listings": 1069,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45145": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:22Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45145",
+    "name": "Persian",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45145",
+    "prices": {
+     "market": 10.23,
+     "low": 0.15,
+     "sellers": 683,
+     "listings": 948,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45146": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:23Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45146",
+    "name": "Primeape",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45146",
+    "prices": {
+     "market": 5.59,
+     "low": 0.14,
+     "sellers": 751,
+     "listings": 1079,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45147": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:24Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45147",
+    "name": "Rapidash",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45147",
+    "prices": {
+     "market": 8.97,
+     "low": 0.14,
+     "sellers": 702,
+     "listings": 960,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45148": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:25Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45148",
+    "name": "Rhydon",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45148",
+    "prices": {
+     "market": 10.28,
+     "low": 0.1,
+     "sellers": 883,
+     "listings": 1292,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45149": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:27Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45149",
+    "name": "Seaking",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45149",
+    "prices": {
+     "market": 4.84,
+     "low": 0.15,
+     "sellers": 659,
+     "listings": 903,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45150": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:28Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45150",
+    "name": "Tauros",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45150",
+    "prices": {
+     "market": 6.32,
+     "low": 0.18,
+     "sellers": 711,
+     "listings": 974,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45151": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:29Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45151",
+    "name": "Weepinbell",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45151",
+    "prices": {
+     "market": 3.6,
+     "low": 0.08,
+     "sellers": 819,
+     "listings": 1217,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45152": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:30Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45152",
+    "name": "Bellsprout",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45152",
+    "prices": {
+     "market": 2.89,
+     "low": 0.02,
+     "sellers": 1183,
+     "listings": 1967,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45153": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:31Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45153",
+    "name": "Cubone",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45153",
+    "prices": {
+     "market": 11.51,
+     "low": 0.04,
+     "sellers": 930,
+     "listings": 1376,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45154": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:32Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45154",
+    "name": "Eevee",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45154",
+    "prices": {
+     "market": 15.94,
+     "low": 0.12,
+     "sellers": 930,
+     "listings": 1381,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45155": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:34Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45155",
+    "name": "Exeggcute",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45155",
+    "prices": {
+     "market": 2.61,
+     "low": 0.05,
+     "sellers": 1088,
+     "listings": 1700,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45156": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:35Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45156",
+    "name": "Goldeen",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45156",
+    "prices": {
+     "market": 2.44,
+     "low": 0.05,
+     "sellers": 1074,
+     "listings": 1683,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45157": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:36Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45157",
+    "name": "Jigglypuff",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45157",
+    "prices": {
+     "market": 7.71,
+     "low": 0.05,
+     "sellers": 971,
+     "listings": 1470,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45158": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:37Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45158",
+    "name": "Mankey",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45158",
+    "prices": {
+     "market": 1.96,
+     "low": 0.05,
+     "sellers": 1019,
+     "listings": 1628,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45159": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:38Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45159",
+    "name": "Meowth",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45159",
+    "prices": {
+     "market": 5.53,
+     "low": 0.06,
+     "sellers": 1009,
+     "listings": 1614,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45161": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:40Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45161",
+    "name": "Oddish",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45161",
+    "prices": {
+     "market": 3.13,
+     "low": 0.04,
+     "sellers": 1091,
+     "listings": 1723,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45162": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:41Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45162",
+    "name": "Paras",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45162",
+    "prices": {
+     "market": 1.93,
+     "low": 0.04,
+     "sellers": 1001,
+     "listings": 1576,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45164": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:42Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45164",
+    "name": "Rhyhorn",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45164",
+    "prices": {
+     "market": 2.9,
+     "low": 0.05,
+     "sellers": 1110,
+     "listings": 1812,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45165": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:43Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45165",
+    "name": "Spearow",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45165",
+    "prices": {
+     "market": 2.11,
+     "low": 0.05,
+     "sellers": 1103,
+     "listings": 1770,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "45166": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:44Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "45166",
+    "name": "Venonat",
+    "setName": "Jungle",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/45166",
+    "prices": {
+     "market": 2.02,
+     "low": 0.05,
+     "sellers": 1053,
+     "listings": 1656,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition",
+     "lastUpdated": "2026-10-16T12:09:31.938Z"
+    }
+   }
+  },
+  "86271": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:45Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "86271",
+    "name": "Imposter Professor Oak",
+    "setName": "Base Set",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/86271",
+    "prices": {
+     "market": 6.64,
+     "low": 0.59,
+     "sellers": 236,
+     "listings": 280,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:09:34.519Z"
+    }
+   }
+  },
+  "87022": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:47Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "87022",
+    "name": "Magikarp",
+    "setName": "Legendary Collection",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/87022",
+    "prices": {
+     "market": 8.32,
+     "low": 1.2,
+     "sellers": 38,
+     "listings": 42,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:09:01.724Z"
+    }
+   }
+  },
+  "101440": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:48Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "101440",
+    "name": "Magikarp",
+    "setName": "XY - Ancient Origins",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/101440",
+    "prices": {
+     "market": 0.27,
+     "low": 0.05,
+     "sellers": 520,
+     "listings": 669,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:05:48.202Z"
+    }
+   }
+  },
+  "106519": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:49Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "106519",
+    "name": "Ditto (3)",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/106519",
+    "prices": {
+     "market": 135.44,
+     "low": 13.3,
+     "sellers": 108,
+     "listings": 151,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition Holofoil",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "106523": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:50Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "106523",
+    "name": "Hitmonlee (7)",
+    "setName": "Fossil",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/106523",
+    "prices": {
+     "market": 99.74,
+     "low": 8.56,
+     "sellers": 175,
+     "listings": 225,
+     "recentSales": 0,
+     "primaryPrinting": "1st Edition Holofoil",
+     "lastUpdated": "2026-10-16T12:09:23.835Z"
+    }
+   }
+  },
+  "108648": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:51Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "108648",
+    "name": "Pokemon Trader",
+    "setName": "Base Set",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/108648",
+    "prices": {
+     "market": 4.16,
+     "low": 0.99,
+     "sellers": 245,
+     "listings": 290,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:09:34.519Z"
+    }
+   }
+  },
+  "124046": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:52Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "124046",
+    "name": "Magikarp",
+    "setName": "XY - Evolutions",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/124046",
+    "prices": {
+     "market": 0.28,
+     "low": 0.01,
+     "sellers": 1059,
+     "listings": 1404,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:05:17.542Z"
+    }
+   }
+  },
+  "138512": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:54Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "138512",
+    "name": "Magikarp",
+    "setName": "SM - Burning Shadows",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/138512",
+    "prices": {
+     "market": 0.32,
+     "low": 0.05,
+     "sellers": 586,
+     "listings": 692,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:05:00.799Z"
+    }
+   }
+  },
+  "149038": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:55Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "149038",
+    "name": "Magikarp",
+    "setName": "SM - Crimson Invasion",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/149038",
+    "prices": {
+     "market": 0.36,
+     "low": 0.02,
+     "sellers": 448,
+     "listings": 537,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:05:00.086Z"
+    }
+   }
+  },
+  "183800": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:56Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "183800",
+    "name": "Magikarp",
+    "setName": "SM - Team Up",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/183800",
+    "prices": {
+     "market": 0.55,
+     "low": 0.19,
+     "sellers": 251,
+     "listings": 291,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:04:17.106Z"
+    }
+   }
+  },
+  "197659": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:57Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "197659",
+    "name": "Magikarp",
+    "setName": "Hidden Fates",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/197659",
+    "prices": {
+     "market": 0.37,
+     "low": 0.02,
+     "sellers": 606,
+     "listings": 699,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:04:02.913Z"
+    }
+   }
+  },
+  "213118": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:08:58Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "213118",
+    "name": "Gyarados",
+    "setName": "SWSH02: Rebel Clash",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/213118",
+    "prices": {
+     "market": 1.33,
+     "low": 0.61,
+     "sellers": 121,
+     "listings": 133,
+     "recentSales": 0,
+     "primaryPrinting": "Holofoil",
+     "lastUpdated": "2026-10-16T12:03:36.151Z"
+    }
+   }
+  },
+  "228821": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "276951": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:09:01Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "276951",
+    "name": "Magikarp",
+    "setName": "Pokemon GO",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/276951",
+    "prices": {
+     "market": 0.16,
+     "low": 0.01,
+     "sellers": 1275,
+     "listings": 1572,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:02:38.708Z"
+    }
+   }
+  },
+  "276955": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:09:02Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "276955",
+    "name": "Gyarados",
+    "setName": "Pokemon GO",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/276955",
+    "prices": {
+     "market": 0.51,
+     "low": 0.05,
+     "sellers": 538,
+     "listings": 665,
+     "recentSales": 0,
+     "primaryPrinting": "Holofoil",
+     "lastUpdated": "2026-10-16T12:02:38.708Z"
+    }
+   }
+  },
+  "284251": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:09:03Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "284251",
+    "name": "Charizard",
+    "setName": "SWSH11: Lost Origin Trainer Gallery",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/284251",
+    "prices": {
+     "market": 27.28,
+     "low": 16,
+     "sellers": 239,
+     "listings": 273,
+     "recentSales": 0,
+     "primaryPrinting": "Holofoil",
+     "lastUpdated": "2026-10-16T12:02:29.791Z"
+    }
+   }
+  },
+  "284266": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:09:04Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "284266",
+    "name": "Gengar",
+    "setName": "SWSH11: Lost Origin Trainer Gallery",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/284266",
+    "prices": {
+     "market": 45.49,
+     "low": 32.06,
+     "sellers": 257,
+     "listings": 296,
+     "recentSales": 0,
+     "primaryPrinting": "Holofoil",
+     "lastUpdated": "2026-10-16T12:02:29.791Z"
+    }
+   }
+  },
+  "487888": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:09:05Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "487888",
+    "name": "Magikarp",
+    "setName": "SV01: Scarlet & Violet Base Set",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/487888",
+    "prices": {
+     "market": 0.14,
+     "low": 0.01,
+     "sellers": 1622,
+     "listings": 2104,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:02:08.441Z"
+    }
+   }
+  },
+  "497453": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:09:07Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "497453",
+    "name": "Magikarp - 042/193",
+    "setName": "SV02: Paldea Evolved",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/497453",
+    "prices": {
+     "market": 0.16,
+     "low": 0.01,
+     "sellers": 1401,
+     "listings": 1773,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:01:54.563Z"
+    }
+   }
+  },
+  "497454": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:09:08Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "497454",
+    "name": "Gyarados",
+    "setName": "SV02: Paldea Evolved",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/497454",
+    "prices": {
+     "market": 0.36,
+     "low": 0.1,
+     "sellers": 910,
+     "listings": 1079,
+     "recentSales": 0,
+     "primaryPrinting": "Holofoil",
+     "lastUpdated": "2026-10-16T12:01:54.563Z"
+    }
+   }
+  },
+  "516576": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "516692": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:09:10Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "516692",
+    "name": "Magikarp",
+    "setName": "SV: Scarlet & Violet 151",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/516692",
+    "prices": {
+     "market": 0.16,
+     "low": 0.01,
+     "sellers": 2336,
+     "listings": 3062,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:01:42.031Z"
+    }
+   }
+  },
+  "516693": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:09:11Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "516693",
+    "name": "Gyarados",
+    "setName": "SV: Scarlet & Violet 151",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/516693",
+    "prices": {
+     "market": 0.36,
+     "low": 0.05,
+     "sellers": 1437,
+     "listings": 1674,
+     "recentSales": 0,
+     "primaryPrinting": "Holofoil",
+     "lastUpdated": "2026-10-16T12:01:42.031Z"
+    }
+   }
+  },
+  "565232": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "565236": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "565243": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "565248": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "565250": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "587728": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "616305": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "622770": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "630815": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:09:22Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "630815",
+    "name": "Misty's Magikarp",
+    "setName": "SV10: Destined Rivals",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/630815",
+    "prices": {
+     "market": 0.23,
+     "low": 0.01,
+     "sellers": 2277,
+     "listings": 2778,
+     "recentSales": 0,
+     "primaryPrinting": "Normal",
+     "lastUpdated": "2026-10-16T12:00:50.668Z"
+    }
+   }
+  },
+  "668496": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "672394": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "684444": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "684450": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "685580": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "688712": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "690660": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "692939": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "693517": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:09:32Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "693517",
+    "name": "Mega Greninja ex - 116/086",
+    "setName": "ME04: Chaos Rising",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/693517",
+    "prices": {
+     "market": 122.74,
+     "low": 117.59,
+     "sellers": 291,
+     "listings": 323,
+     "recentSales": 0,
+     "primaryPrinting": "Holofoil",
+     "lastUpdated": "2026-10-16T12:00:24.565Z"
+    }
+   }
+  },
+  "695400": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "696688": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:09:35Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "696688",
+    "name": "Mew ex - 158/128",
+    "setName": "ME: 30th Celebration",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/696688",
+    "prices": {
+     "market": 52.2,
+     "low": 50,
+     "sellers": 207,
+     "listings": 225,
+     "recentSales": 0,
+     "primaryPrinting": "Holofoil",
+     "lastUpdated": "2026-10-16T12:00:24.567Z"
+    }
+   }
+  },
+  "704143": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "704147": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "704153": {
+   "plainOnly": true,
+   "empty": true
+  },
+  "704873": {
+   "plainOnly": true,
+   "fetchedAt": "2026-10-16T17:09:40Z",
+   "meta": {
+    "metadata": {
+     "total": 1,
+     "count": 1,
+     "limit": 1,
+     "offset": 0,
+     "hasMore": false,
+     "language": "english",
+     "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+     },
+     "historyWindow": {
+      "days": 30,
+      "from": "2026-09-16",
+      "to": "2026-10-16",
+      "maxDataPoints": 180,
+      "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+     },
+     "apiCallsConsumed": {
+      "total": 1,
+      "breakdown": {
+       "cards": 1,
+       "history": 0,
+       "ebay": 0,
+       "cardmarket": 0
+      },
+      "costPerCard": 1
+     }
+    }
+   },
+   "card": {
+    "tcgPlayerId": "704873",
+    "name": "Mega Darkrai ex - 116/084",
+    "setName": "ME05: Pitch Black",
+    "tcgPlayerUrl": "https://www.tcgplayer.com/product/704873",
+    "prices": {
+     "market": 137.99,
+     "low": 125.99,
+     "sellers": 200,
+     "listings": 223,
+     "recentSales": 0,
+     "primaryPrinting": "Holofoil",
+     "lastUpdated": "2026-10-16T12:00:24.573Z"
+    }
+   }
   }
- }
+ },
+ "stop2": null
 }
