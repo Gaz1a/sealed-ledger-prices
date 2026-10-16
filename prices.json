@@ -1,6 +1,6 @@
 {
- "count": 485,
- "generated": "2026-10-16T20:33:34Z",
+ "count": 492,
+ "generated": "2026-10-16T21:40:43Z",
  "pinMismatch": [
   {
    "got": "Holofoil",
@@ -3267,11 +3267,25 @@
    "productId": 284251,
    "subType": "Holofoil"
   },
+  "s-cri-ampharos-090": {
+   "low": 3.0,
+   "market": 4.25,
+   "mid": 5.59,
+   "productId": 693446,
+   "subType": "Holofoil"
+  },
   "s-cri-bubbly-water-energy-084": {
    "low": 0.01,
    "market": 0.2,
    "mid": 0.21,
    "productId": 693458,
+   "subType": "Holofoil"
+  },
+  "s-cri-cinccino-ex-105": {
+   "low": 2.19,
+   "market": 3.59,
+   "mid": 4.39,
+   "productId": 693464,
    "subType": "Holofoil"
   },
   "s-cri-cobalion-ex-064": {
@@ -3288,11 +3302,32 @@
    "productId": 693470,
    "subType": "Holofoil"
   },
+  "s-cri-crobat-093": {
+   "low": 0.68,
+   "market": 1.76,
+   "mid": 2.51,
+   "productId": 693471,
+   "subType": "Holofoil"
+  },
+  "s-cri-energy-retrieval-108": {
+   "low": 0.99,
+   "market": 2.08,
+   "mid": 2.08,
+   "productId": 693482,
+   "subType": "Holofoil"
+  },
   "s-cri-fennekin-mep080": {
    "low": 0.95,
    "market": 1.69,
    "mid": 2.4,
    "productId": 694694,
+   "subType": "Holofoil"
+  },
+  "s-cri-froakie-088": {
+   "low": 3.79,
+   "market": 5.44,
+   "mid": 7.1,
+   "productId": 693489,
    "subType": "Holofoil"
   },
   "s-cri-ho-oh-010": {
@@ -3309,6 +3344,13 @@
    "productId": 693501,
    "subType": "Holofoil"
   },
+  "s-cri-mega-dragalge-ex-104": {
+   "low": 1.19,
+   "market": 1.54,
+   "mid": 2.55,
+   "productId": 693509,
+   "subType": "Holofoil"
+  },
   "s-cri-nitro-fire-energy-086": {
    "low": 0.01,
    "market": 0.23,
@@ -3321,6 +3363,13 @@
    "market": 1.56,
    "mid": 2.06,
    "productId": 693546,
+   "subType": "Holofoil"
+  },
+  "s-cri-watchog-097": {
+   "low": 0.5,
+   "market": 1.36,
+   "mid": 1.67,
+   "productId": 693560,
    "subType": "Holofoil"
   },
   "s-darkrai-sir": {
