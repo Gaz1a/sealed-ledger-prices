@@ -17,6 +17,6 @@ jobs:
       - name: Commit
         run: |
           git config user.name "price-bot"; git config user.email "price-bot@users.noreply.github.com"
-          git add booklet_prices.json booklet_hits.json
+          git add booklet_prices.json booklet_hits.json ebay_wants.json
           git diff --cached --quiet || git commit -m "booklets $(date -u +%F)"
           git pull --rebase && git push

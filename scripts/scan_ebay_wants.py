@@ -143,8 +143,10 @@ def main():
             "feedbackPct": h.get("seller", {}).get("feedbackPercentage"), "returnsAccepted": (d.get("returnTerms") or {}).get("returnsAccepted"),
             "condition": h.get("condition"), "matchedIds": matched, "photos": [p for p in photos if p][:6], "desc": re.sub(r"\s+", " ", desc)[:700]})
         time.sleep(0.3)
-    json.dump({"generated": datetime.date.today().isoformat(), "wants": len(W), "queries": nq,
-               "singles": singles, "lots": lots}, open(os.path.join(ROOT, "ebay_wants.json"), "w"), indent=1)
+    keep = load("ebay_wants.json", {}).get("booklets")   # written daily by scripts/bk_booklets.py; preserve it
+    out = {"generated": datetime.date.today().isoformat(), "wants": len(W), "queries": nq, "singles": singles, "lots": lots}
+    if keep: out["booklets"] = keep
+    json.dump(out, open(os.path.join(ROOT, "ebay_wants.json"), "w"), indent=1)
     print(len(singles), "singles,", len(lots), "lots,", nq, "queries")
 
 if __name__ == "__main__":
