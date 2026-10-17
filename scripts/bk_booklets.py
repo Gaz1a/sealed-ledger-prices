@@ -35,17 +35,29 @@ def usd(p):
 CID, CS = os.environ.get("EBAY_CLIENT_ID"), os.environ.get("EBAY_CLIENT_SECRET")
 tok = get("https://api.ebay.com/identity/v1/oauth2/token", {"Authorization": "Basic " + base64.b64encode(f"{CID}:{CS}".encode()).decode(), "Content-Type": "application/x-www-form-urlencoded"},
           urllib.parse.urlencode({"grant_type": "client_credentials", "scope": "https://api.ebay.com/oauth/api_scope"}).encode()).get("access_token")
+cfg = ld("devir_retail_urls.json", {}); BK = cfg.get("booklets", {})
 found = {k: {} for k in ROWS}
+OTHER = {rid: re.compile(r"(?<![a-z])" + re.escape(nm) + r"(?![a-z])", re.I) for rid, nm in ROWS.items()}
 if tok:
     for mk in MARKETS:
         H = {"Authorization": "Bearer " + tok, "X-EBAY-C-MARKETPLACE-ID": mk, **SHIP_TO}
         for rid, nm in ROWS.items():
-            for q in (f"Devir Livro Ilustrado {nm}", f"Estampas Ilustradas {nm}", f"Pokemon Devir {nm} Portuguese booklet", f"Pokemon Origem das Lendas {nm} Devir", f"Devir Pokemon {nm}"):
+            b = BK.get(rid, {}); isbn = b.get("isbn13"); rfc = b.get("retailerRef") or ""
+            plan = [(q, {}, "title") for q in (f"Devir Livro Ilustrado {nm}", f"Estampas Ilustradas {nm}", f"Pokemon Devir {nm} Portuguese booklet", f"Pokemon Origem das Lendas {nm} Devir", f"Devir Pokemon {nm}")]
+            if isbn: plan += [(isbn, {}, "isbn"), (None, {"gtin": isbn}, "isbn-gtin")]
+            if rfc.startswith("PK"): plan.append((rfc, {}, "retailer-ref"))
+            for q, extra, via in plan:
                 time.sleep(0.35)
-                j = get("https://api.ebay.com/buy/browse/v1/item_summary/search?" + urllib.parse.urlencode({"q": q, "limit": 50, "filter": "buyingOptions:{FIXED_PRICE},deliveryCountry:US"}), H)
+                prm = {"limit": 50, "filter": "buyingOptions:{FIXED_PRICE},deliveryCountry:US", **extra}
+                if q: prm["q"] = q
+                j = get("https://api.ebay.com/buy/browse/v1/item_summary/search?" + urllib.parse.urlencode(prm), H)
                 for i in j.get("itemSummaries", []):
                     t = i.get("title", "")
-                    if not re.search(r"(?<![a-z])" + re.escape(nm).replace("\\-", "[- ]?") + r"(?![a-z])", t, re.I) or not PT.search(t) or BAD.search(t): continue
+                    name_ok = bool(OTHER[rid].search(t))
+                    if via == "title":
+                        if not name_ok or not PT.search(t) or BAD.search(t): continue
+                    else:      # matched by ISBN / retailer ref: eBay did the matching; reject only lots/graded and listings that name a different booklet
+                        if BAD.search(t) or any(r2 != rid and p.search(t) for r2, p in OTHER.items()): continue
                     if "FIXED_PRICE" not in (i.get("buyingOptions") or []): continue
                     item = usd(i.get("price"))
                     if item is None: continue
@@ -55,13 +67,14 @@ if tok:
                     imp = round((item + (ship or 0)) * IMPORT_PCT, 2) if loc and loc != "US" else 0.0
                     sealed = (i.get("condition") == "New") or bool(SEALED.search(t))
                     found[rid][i["itemId"]] = {"title": t, "url": i.get("itemWebUrl", "").split("?")[0], "marketplace": mk, "itemUSD": item, "shippingUSD": ship, "shipUnknown": ship is None,
-                        "importEstUSD": imp, "allInUSD": round(item + (ship or 0) + imp, 2), "originCountry": loc, "condition": i.get("condition"), "itemEndDate": i.get("itemEndDate"), "sealed": sealed,
+                        "importEstUSD": imp, "allInUSD": round(item + (ship or 0) + imp, 2), "originCountry": loc, "condition": i.get("condition"), "itemEndDate": i.get("itemEndDate"), "sealed": sealed, "matchedBy": via + (" (ISBN unverified)" if via.startswith("isbn") and not b.get("isbnStatus", "").endswith("Gaz") else ""),
                         "sealedBasis": "condition New" if i.get("condition") == "New" else "title says sealed/new" if SEALED.search(t) else "unconfirmed",
                         "seller": (i.get("seller") or {}).get("username"), "feedbackPct": (i.get("seller") or {}).get("feedbackPercentage"), "feedbackScore": (i.get("seller") or {}).get("feedbackScore")}
 prices = ld("booklet_prices.json", {"items": {}})
 refs = ld("booklet_refs.json", {"items": {}}); maxp = ld("booklet_max.json", {})   # booklet_max.json: {"bk-golem": 60, ...} all-in max you set; optional
 stock = ld("stock_check.json", {})
-out = {"retailerInStock": stock.get("inStock", []), "retailerCheck": {"generated": stock.get("generated"), "sites": stock.get("sites"), "devirBrasil": {k: v for k, v in (stock.get("devirBrasil") or {}).items() if v.get("productLinks")},
+out = {"searchKeys": {r: {"titleQueries": [f"Devir Livro Ilustrado {n}", f"Estampas Ilustradas {n}", f"Pokemon Origem das Lendas {n} Devir"], "isbn13": BK.get(r, {}).get("isbn13"), "isbnStatus": BK.get(r, {}).get("isbnStatus"),
+       "retailerRef": BK.get(r, {}).get("retailerRef")} for r, n in ROWS.items()}, "retailerInStock": stock.get("inStock", []), "retailerCheck": {"generated": stock.get("generated"), "sites": stock.get("sites"), "devirBrasil": {k: v for k, v in (stock.get("devirBrasil") or {}).items() if v.get("productLinks")},
        "productsChecked": len(stock.get("products", [])), "note": "in-stock retail copies under EUR 30 are listed here first; sites marked DISALLOWED/JS-only are skipped, not worked around"},
        "generated": TODAY, "label": "unverified: asking prices, not sold; import cost is an ESTIMATE", "assumptions": {"importEstimatePct": IMPORT_PCT, "shipTo": "Burbank CA 91505",
        "rules": ["reference = lowest all-in Portuguese Devir SEALED asking price seen so far (known shipping only)", "flag if all-in <= 0.85 x reference, or <= your max for that booklet",

@@ -52,7 +52,9 @@ for rid, urls in cfg.get("urls", {}).items():
         rec.update({"stock": st, "price": float(price[0].replace(",", ".")) if price else None, "currency": cur[0] if cur else None, "title": (re.search(r"<title[^>]*>(.*?)</title>", h, re.S | re.I) or [None, None])[1]})
         if rec["title"]: rec["title"] = html.unescape(re.sub(r"\s+", " ", rec["title"]))[:120]
         out["products"].append(rec)
-        bad_isbn = rec["isbnOnPage"] is False
+        exp = cfg.get("isbn", {}).get(rid)
+        rec["expectedIsbn"] = exp; rec["isbnMatchesExpected"] = (exp in rec.get("isbnsOnPage", [])) if (exp and rec.get("isbnsOnPage")) else None
+        bad_isbn = rec["isbnMatchesExpected"] is False
         if st.startswith("in_stock") and rec["price"] is not None and rec["currency"] in ("EUR", None) and rec["price"] <= 30 and not bad_isbn:
             out["inStock"].append({**rec, "shippingToBurbank": "not shown on product page; check checkout", "allInStatus": "shipping unknown"})
 # americana.pt: robots-allowed product pages follow a title pattern; probe it for booklets with no americana URL yet
@@ -73,6 +75,10 @@ if out["sites"]["americana.pt"]["robots"] == "allowed":
 # Devir Brasil static search for each booklet
 if out["sites"]["devir.com.br"]["robots"] == "allowed":
     for rid, nm in NAMES.items():
+        isbn_q = cfg.get("isbn", {}).get(rid)
+        if isbn_q:
+            c2, h2 = fetch(f"https://www.devir.com.br/?s={isbn_q}")
+            out.setdefault("devirBrasilIsbn", {})[rid] = {"isbn": isbn_q, "http": c2, "productLinks": sorted({u for u in re.findall(r'href="(https://(?:www\.)?devir\.com\.br/[^"#?]+)"', h2) if re.search(r"pokemon|livro|baralho", u, re.I) and "/search/" not in u and "/tag/" not in u})[:5]}
         q = urllib.parse.quote(f"Pokemon Livro Ilustrado {nm}"); code, h = fetch(f"https://www.devir.com.br/?s={q}")
         links = sorted({u for u, t in re.findall(r'href="(https://(?:www\.)?devir\.com\.br/[^"#?]+)"[^>]*>([^<]*)', h) if re.search(re.escape(nm), t, re.I) and "/search/" not in u})
         out["devirBrasil"][rid] = {"http": code, "productLinks": links[:5]}
