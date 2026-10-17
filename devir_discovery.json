@@ -1,0 +1,180 @@
+{
+ "sitemaps": {
+  "https://devir.pt": {
+   "robots": "read",
+   "sitemapUrls": [
+    [
+     "https://devir.pt/sitemap.xml",
+     "disallowed"
+    ]
+   ],
+   "fetched": 0,
+   "hits": 0
+  },
+  "https://cubosluminosos.pt": {
+   "robots": "read",
+   "sitemapUrls": [
+    [
+     "https://cubosluminosos.pt/sitemap.xml",
+     "disallowed"
+    ]
+   ],
+   "fetched": 0,
+   "hits": 0
+  },
+  "https://americana.pt": {
+   "robots": "read",
+   "sitemapUrls": [
+    [
+     "https://americana.pt/sitemap_index.xml",
+     200
+    ],
+    [
+     "https://americana.pt/pt/sitemap.xml",
+     200
+    ],
+    [
+     "https://americana.pt/en/sitemap.xml",
+     200
+    ],
+    [
+     "https://americana.pt/es/sitemap.xml",
+     200
+    ]
+   ],
+   "fetched": 4,
+   "hits": 0
+  },
+  "https://forretas.com": {
+   "robots": "read",
+   "sitemapUrls": [
+    [
+     "https://forretas.com/sitemap.xml",
+     200
+    ],
+    [
+     "https://forretas.com/sitemap1.xml",
+     200
+    ],
+    [
+     "https://forretas.com/sitemapdeals_1.xml",
+     404
+    ],
+    [
+     "https://forretas.com/sitemaplojas_a.xml",
+     200
+    ],
+    [
+     "https://forretas.com/sitemaplojas_b.xml",
+     200
+    ],
+    [
+     "https://forretas.com/sitemaplojas_c.xml",
+     200
+    ],
+    [
+     "https://forretas.com/sitemaplojas_d.xml",
+     200
+    ],
+    [
+     "https://forretas.com/sitemaplojas_e.xml",
+     200
+    ],
+    [
+     "https://forretas.com/sitemaplojas_f.xml",
+     200
+    ],
+    [
+     "https://forretas.com/sitemaplojas_g.xml",
+     200
+    ],
+    [
+     "https://forretas.com/sitemaplojas_h.xml",
+     200
+    ],
+    [
+     "https://forretas.com/sitemaplojas_i.xml",
+     200
+    ]
+   ],
+   "fetched": 12,
+   "hits": 0
+  },
+  "https://www.wook.pt": {
+   "robots": "read",
+   "sitemapUrls": [
+    [
+     "https://www.wook.pt/sitemap.xml",
+     "disallowed"
+    ]
+   ],
+   "fetched": 0,
+   "hits": 0
+  },
+  "https://www.bertrand.pt": {
+   "robots": "read",
+   "sitemapUrls": [
+    [
+     "https://www.bertrand.pt/sitemap.xml",
+     "disallowed"
+    ]
+   ],
+   "fetched": 0,
+   "hits": 0
+  },
+  "https://www.worten.pt": {
+   "robots": "read",
+   "sitemapUrls": [
+    [
+     "https://www.worten.pt/sitemap.xml",
+     "disallowed"
+    ]
+   ],
+   "fetched": 0,
+   "hits": 0
+  },
+  "https://www.shop4nerds.pt": {
+   "robots": "read",
+   "sitemapUrls": [
+    [
+     "https://www.shop4nerds.pt/sitemap.xml",
+     "disallowed"
+    ]
+   ],
+   "fetched": 0,
+   "hits": 0
+  },
+  "https://www.devir.com.br": {
+   "robots": "read",
+   "sitemapUrls": [
+    [
+     "www.devir.com.br/sitemap.xml",
+     "ValueError"
+    ]
+   ],
+   "fetched": 1,
+   "hits": 0
+  }
+ },
+ "candidates": [],
+ "pattern": {
+  "https://devir.pt/pokemon-baralho-1-origem-das-lendas-golem": "disallowed",
+  "https://devir.pt/pokemon-baralho-1-origem-das-lendas-ho-oh": "disallowed",
+  "https://devir.pt/pokemon-baralho-1-origem-das-lendas-lugia": "disallowed",
+  "https://devir.pt/pokemon-baralho-1-origem-das-lendas-ralts": "disallowed",
+  "https://devir.pt/pokemon-baralho-1-origem-das-lendas-treecko": "disallowed",
+  "https://devir.pt/pokemon-baralho-1-origem-das-lendas-exploud": "disallowed",
+  "https://devir.pt/pokemon-baralho-1-origem-das-lendas-mudkip": "disallowed",
+  "https://devir.pt/pokemon-baralho-1-origem-das-lendas-rayquaza": "disallowed",
+  "https://devir.pt/pokemon-baralho-1-origem-das-lendas-torchic": "disallowed",
+  "https://cubosluminosos.pt/pokemon-baralho-1-origem-das-lendas-golem": "disallowed",
+  "https://cubosluminosos.pt/pokemon-baralho-1-origem-das-lendas-ho-oh": "disallowed",
+  "https://cubosluminosos.pt/pokemon-baralho-1-origem-das-lendas-lugia": "disallowed",
+  "https://cubosluminosos.pt/pokemon-baralho-1-origem-das-lendas-ralts": "disallowed",
+  "https://cubosluminosos.pt/pokemon-baralho-1-origem-das-lendas-treecko": "disallowed",
+  "https://cubosluminosos.pt/pokemon-baralho-1-origem-das-lendas-exploud": "disallowed",
+  "https://cubosluminosos.pt/pokemon-baralho-1-origem-das-lendas-mudkip": "disallowed",
+  "https://cubosluminosos.pt/pokemon-baralho-1-origem-das-lendas-rayquaza": "disallowed",
+  "https://cubosluminosos.pt/pokemon-baralho-1-origem-das-lendas-torchic": "disallowed"
+ }
+}
