@@ -1,0 +1,94 @@
+{
+ "generated": "2026-10-17",
+ "label": "unverified: retailer pages, stock can change within the day",
+ "sites": {
+  "devir.pt": {
+   "robots": "DISALLOWED (skipped)",
+   "note": null
+  },
+  "cubosluminosos.pt": {
+   "robots": "DISALLOWED (skipped)",
+   "note": null
+  },
+  "americana.pt": {
+   "robots": "allowed",
+   "note": "search results are rendered by JavaScript (page loads, no readable results)"
+  },
+  "worten.pt": {
+   "robots": "DISALLOWED (skipped)",
+   "note": null
+  },
+  "wook.pt": {
+   "robots": "DISALLOWED (skipped)",
+   "note": null
+  },
+  "bertrand.pt": {
+   "robots": "DISALLOWED (skipped)",
+   "note": null
+  },
+  "forretas.com": {
+   "robots": "allowed",
+   "note": "price-comparison site rendered by JavaScript (no readable results)"
+  },
+  "devir.com.br": {
+   "robots": "allowed",
+   "note": null
+  },
+  "mercadolivre.com.br": {
+   "robots": "DISALLOWED (skipped)",
+   "note": null
+  }
+ },
+ "products": [],
+ "devirBrasil": {
+  "bk-golem": {
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-hooh": {
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-lugia": {
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-machamp": {
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-omastar": {
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-ralts": {
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-treecko": {
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-exploud": {
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-mudkip": {
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-rayquaza": {
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-torchic": {
+   "http": 200,
+   "productLinks": []
+  },
+  "h-gengar-deck": {
+   "http": 200,
+   "productLinks": []
+  }
+ },
+ "inStock": []
+}

@@ -1,4 +1,49 @@
 {
+ "retailerInStock": [],
+ "retailerCheck": {
+  "generated": "2026-10-17",
+  "sites": {
+   "devir.pt": {
+    "robots": "DISALLOWED (skipped)",
+    "note": null
+   },
+   "cubosluminosos.pt": {
+    "robots": "DISALLOWED (skipped)",
+    "note": null
+   },
+   "americana.pt": {
+    "robots": "allowed",
+    "note": "search results are rendered by JavaScript (page loads, no readable results)"
+   },
+   "worten.pt": {
+    "robots": "DISALLOWED (skipped)",
+    "note": null
+   },
+   "wook.pt": {
+    "robots": "DISALLOWED (skipped)",
+    "note": null
+   },
+   "bertrand.pt": {
+    "robots": "DISALLOWED (skipped)",
+    "note": null
+   },
+   "forretas.com": {
+    "robots": "allowed",
+    "note": "price-comparison site rendered by JavaScript (no readable results)"
+   },
+   "devir.com.br": {
+    "robots": "allowed",
+    "note": null
+   },
+   "mercadolivre.com.br": {
+    "robots": "DISALLOWED (skipped)",
+    "note": null
+   }
+  },
+  "devirBrasil": {},
+  "productsChecked": 0,
+  "note": "in-stock retail copies under EUR 30 are listed here first; sites marked DISALLOWED/JS-only are skipped, not worked around"
+ },
  "generated": "2026-10-17",
  "label": "unverified: asking prices, not sold; import cost is an ESTIMATE",
  "assumptions": {
