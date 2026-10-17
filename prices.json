@@ -1,23 +1,7 @@
 {
- "count": 505,
- "generated": "2026-10-17T05:16:06Z",
- "pinMismatch": [
-  {
-   "got": "Holofoil",
-   "id": "gy-151-130-165",
-   "pin": "Normal"
-  },
-  {
-   "got": "Holofoil",
-   "id": "gy-destined-rivals-misty-s-49-182",
-   "pin": "Normal"
-  },
-  {
-   "got": "Holofoil",
-   "id": "gy-paldea-evolved-43-193",
-   "pin": "Normal"
-  }
- ],
+ "count": 508,
+ "generated": "2026-10-17T05:52:23Z",
+ "pinMismatch": [],
  "prices": {
   "ah-bundle": {
    "low": 74.51,
@@ -124,18 +108,25 @@
    "productId": 704153,
    "subType": "Normal"
   },
+  "c30-upc": {
+   "low": 558.47,
+   "market": 560.92,
+   "mid": 564.97,
+   "productId": 704190,
+   "subType": "Normal"
+  },
+  "c30-upc-night": {
+   "low": 594.99,
+   "market": 660.23,
+   "mid": 684.4,
+   "productId": 704191,
+   "subType": "Normal"
+  },
   "cr-etb": {
    "low": 48.0,
    "market": 67.7,
    "mid": 80.0,
    "productId": 684450,
-   "subType": "Normal"
-  },
-  "dr-box": {
-   "low": 384.0,
-   "market": 402.87,
-   "mid": 500.0,
-   "productId": 624679,
    "subType": "Normal"
   },
   "fpic1": {
@@ -535,6 +526,20 @@
    "market": 62.99,
    "mid": 68.99,
    "productId": 685580,
+   "subType": "Normal"
+  },
+  "h-moonlit-clefable": {
+   "low": 15.5,
+   "market": 25.13,
+   "mid": 31.19,
+   "productId": 686438,
+   "subType": "Normal"
+  },
+  "h-moonlit-gengar": {
+   "low": 22.95,
+   "market": 31.45,
+   "mid": 38.0,
+   "productId": 686437,
    "subType": "Normal"
   },
   "h-pb-box": {
