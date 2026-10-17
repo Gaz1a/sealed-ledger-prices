@@ -1,0 +1,382 @@
+{
+ "devir.pt": {
+  "robots": "read",
+  "tries": [
+   {
+    "url": "https://www.devir.pt/search?q=9788575322611",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://www.devir.pt/search?q=Pokemon%20Livro%20Ilustrado%20Gengar",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://www.devir.pt/search?q=Pokemon%20Estampas%20Ilustradas",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://www.devir.pt/?s=9788575322611",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://www.devir.pt/?s=Pokemon%20Livro%20Ilustrado%20Gengar",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://www.devir.pt/?s=Pokemon%20Estampas%20Ilustradas",
+    "status": "disallowed by robots.txt"
+   }
+  ]
+ },
+ "cubosluminosos.pt": {
+  "robots": "read",
+  "tries": [
+   {
+    "url": "https://www.cubosluminosos.pt/pesquisa?controller=search&s=9788575322611",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://www.cubosluminosos.pt/pesquisa?controller=search&s=Pokemon%20Livro%20Ilustrado%20Gengar",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://www.cubosluminosos.pt/pesquisa?controller=search&s=Pokemon%20Estampas%20Ilustradas",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://www.cubosluminosos.pt/search?q=9788575322611",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://www.cubosluminosos.pt/search?q=Pokemon%20Livro%20Ilustrado%20Gengar",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://www.cubosluminosos.pt/search?q=Pokemon%20Estampas%20Ilustradas",
+    "status": "disallowed by robots.txt"
+   }
+  ]
+ },
+ "americana.pt": {
+  "robots": "read",
+  "tries": [
+   {
+    "url": "https://www.americana.pt/search?q=9788575322611",
+    "status": 404
+   },
+   {
+    "url": "https://www.americana.pt/search?q=Pokemon%20Livro%20Ilustrado%20Gengar",
+    "status": 404
+   },
+   {
+    "url": "https://www.americana.pt/search?q=Pokemon%20Estampas%20Ilustradas",
+    "status": 404
+   },
+   {
+    "url": "https://www.americana.pt/?s=9788575322611",
+    "status": 200,
+    "bytes": 580441,
+    "title": "Americana | Papelaria, Material Escolar, Escritório, Brinquedos e Artes",
+    "hasGengar": false,
+    "hasISBN": true,
+    "snips": [],
+    "links": [
+     "/en/americana---your-online-stationery-store?s=9788575322611",
+     "/es/americana---tu-papeleria-online?s=9788575322611",
+     "/pt/americana---a-tua-papelaria-online?s=9788575322611",
+     "https://americana.pt/en/americana---your-online-stationery-store?s=9788575322611",
+     "https://americana.pt/es/americana---tu-papeleria-online?s=9788575322611",
+     "https://americana.pt/pt/americana---a-tua-papelaria-online?s=9788575322611"
+    ]
+   },
+   {
+    "url": "https://www.americana.pt/?s=Pokemon%20Livro%20Ilustrado%20Gengar",
+    "status": 200,
+    "bytes": 580467,
+    "title": "Americana | Papelaria, Material Escolar, Escritório, Brinquedos e Artes",
+    "hasGengar": true,
+    "hasISBN": false,
+    "snips": [
+     "e\" content=\"https://americana.pt/uploads/logo_a.png\"/> <meta property=\"og:url\" content=\"https://americana.pt/?s=Pokemon%20Livro%20Ilustrado%20Gengar\"/> <meta property=\"og:site_name\" content=\"\"/> <meta name=\"twitter:card\" content=\"summary_large_image\"> <meta property=\"twitter:url\" content=\"https://americana.pt/?s=Pokemon%20Livro%20Ilustrado%20Gengar\"> <me",
+     "ame=\"twitter:card\" content=\"summary_large_image\"> <meta property=\"twitter:url\" content=\"https://americana.pt/?s=Pokemon%20Livro%20Ilustrado%20Gengar\"> <meta name=\"twitter:title\" content=\"Americana - Tudo o que procuras em americana.pt\"> <meta name=\"twitter:description\" content=\"Americana - Os melhores artigos de Papelaria, Brinquedos e Artes | Todas as grandes marcas num único si",
+     " <link rel=\"alternate\" hreflang=\"pt-PT\" href=\"https://americana.pt/pt/americana---a-tua-papelaria-online?s=Pokemon%20Livro%20Ilustrado%20Gengar\"> <link rel=\"alternate\" hreflang=\"en-US\" href=\"https://americana.pt/en/americana---your-online-stationery-store?s=Pokemon%20Livro%20Ilustrado%20Gengar\"> <link rel=\"alternate\" hreflang=\"es-ES\" href=\"https://americana.pt/es/americana--"
+    ],
+    "links": [
+     "/en/americana---your-online-stationery-store?s=Pokemon%20Livro%20Ilustrado%20Gengar",
+     "/es/americana---tu-papeleria-online?s=Pokemon%20Livro%20Ilustrado%20Gengar",
+     "/pt/americana---a-tua-papelaria-online?s=Pokemon%20Livro%20Ilustrado%20Gengar",
+     "https://americana.pt/en/americana---your-online-stationery-store?s=Pokemon%20Livro%20Ilustrado%20Gengar",
+     "https://americana.pt/es/americana---tu-papeleria-online?s=Pokemon%20Livro%20Ilustrado%20Gengar",
+     "https://americana.pt/pt/americana---a-tua-papelaria-online?s=Pokemon%20Livro%20Ilustrado%20Gengar"
+    ]
+   },
+   {
+    "url": "https://www.americana.pt/?s=Pokemon%20Estampas%20Ilustradas",
+    "status": 200,
+    "bytes": 579773,
+    "title": "Americana | Papelaria, Material Escolar, Escritório, Brinquedos e Artes",
+    "hasGengar": false,
+    "hasISBN": false,
+    "snips": [],
+    "links": [
+     "/en/americana---your-online-stationery-store?s=Pokemon%20Estampas%20Ilustradas",
+     "/es/americana---tu-papeleria-online?s=Pokemon%20Estampas%20Ilustradas",
+     "/pt/americana---a-tua-papelaria-online?s=Pokemon%20Estampas%20Ilustradas",
+     "https://americana.pt/en/americana---your-online-stationery-store?s=Pokemon%20Estampas%20Ilustradas",
+     "https://americana.pt/es/americana---tu-papeleria-online?s=Pokemon%20Estampas%20Ilustradas",
+     "https://americana.pt/pt/americana---a-tua-papelaria-online?s=Pokemon%20Estampas%20Ilustradas"
+    ]
+   }
+  ]
+ },
+ "worten.pt": {
+  "robots": "read",
+  "tries": [
+   {
+    "url": "https://www.worten.pt/search?query=9788575322611",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://www.worten.pt/search?query=Pokemon%20Livro%20Ilustrado%20Gengar",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://www.worten.pt/search?query=Pokemon%20Estampas%20Ilustradas",
+    "status": "disallowed by robots.txt"
+   }
+  ]
+ },
+ "wook.pt": {
+  "robots": "read",
+  "tries": [
+   {
+    "url": "https://www.wook.pt/pesquisa/9788575322611",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://www.wook.pt/pesquisa/Pokemon%20Livro%20Ilustrado%20Gengar",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://www.wook.pt/pesquisa/Pokemon%20Estampas%20Ilustradas",
+    "status": "disallowed by robots.txt"
+   }
+  ]
+ },
+ "bertrand.pt": {
+  "robots": "read",
+  "tries": [
+   {
+    "url": "https://www.bertrand.pt/pesquisa/9788575322611",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://www.bertrand.pt/pesquisa/Pokemon%20Livro%20Ilustrado%20Gengar",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://www.bertrand.pt/pesquisa/Pokemon%20Estampas%20Ilustradas",
+    "status": "disallowed by robots.txt"
+   }
+  ]
+ },
+ "forretas.com": {
+  "robots": "read",
+  "tries": [
+   {
+    "url": "https://www.forretas.com/search?q=9788575322611",
+    "status": 200,
+    "bytes": 598646,
+    "title": "Compare preços de artigos de milhares de lojas | Forretas.com",
+    "hasGengar": false,
+    "hasISBN": true,
+    "snips": [],
+    "links": [
+     "https://forretas.com/search?q=9788575322611"
+    ]
+   },
+   {
+    "url": "https://www.forretas.com/search?q=Pokemon%20Livro%20Ilustrado%20Gengar",
+    "status": 200,
+    "bytes": 598645,
+    "title": "Compare preços de artigos de milhares de lojas | Forretas.com",
+    "hasGengar": true,
+    "hasISBN": false,
+    "snips": [
+     "> <link rel=\"manifest\" href=\"/manifest.json?v=1.0\"> <link rel=\"canonical\" href=\"https://forretas.com/search?q=Pokemon%20Livro%20Ilustrado%20Gengar\" /> <title>Compare preços de artigos de milhares de lojas | Forretas.com</title> <meta name=\"image\" content=\"https://forretas.com/images/forretas-primary-graphic-brand-positive-version.png\"> <meta name=\"descrip",
+     " nós revelamos a melhor oferta para si para que faça o melhor negócio!\"> <meta name=\"url\" content=\"https://forretas.com/search?q=Pokemon Livro Ilustrado Gengar\"> <meta name=\"msapplication-TileColor\" content=\"#ffffff\"> <meta name=\"msapplication-TileImage\" content=\"/img/favicons/ms-icon-144x144.png\"> <meta name=\"theme-color\" content=\"#ffffff\"> <meta ",
+     " melhor oferta para si para que faça o melhor negócio!\"> <meta name=\"url\" content=\"https://forretas.com/search?q=Pokemon Livro Ilustrado Gengar\"> <meta name=\"msapplication-TileColor\" content=\"#ffffff\"> <meta name=\"msapplication-TileImage\" content=\"/img/favicons/ms-icon-144x144.png\"> <meta name=\"theme-color\" content=\"#ffffff\"> <meta name=\"t"
+    ],
+    "links": [
+     "https://forretas.com/search?q=Pokemon%20Livro%20Ilustrado%20Gengar"
+    ]
+   },
+   {
+    "url": "https://www.forretas.com/search?q=Pokemon%20Estampas%20Ilustradas",
+    "status": 200,
+    "bytes": 598651,
+    "title": "Compare preços de artigos de milhares de lojas | Forretas.com",
+    "hasGengar": false,
+    "hasISBN": false,
+    "snips": [
+     " nós revelamos a melhor oferta para si para que faça o melhor negócio!\"> <meta name=\"url\" content=\"https://forretas.com/search?q=Pokemon Estampas Ilustradas\"> <meta name=\"msapplication-TileColor\" content=\"#ffffff\"> <meta name=\"msapplication-TileImage\" content=\"/img/favicons/ms-icon-144x144.png\"> <meta name=\"theme-color\" content=\"#ffffff\"> <meta name=\"t",
+     "on.png\"> <meta property=\"og:type\" content=\"website\"> <meta property=\"og:url\" content=\"https://forretas.com/search?q=Pokemon Estampas Ilustradas\"> <meta property=\"og:description\" content=\"No Forretas.com comparar preços nunca foi tão fácil! Selecione o artigo que pretende e nós revelamos a melhor oferta para si para que faça o melhor negócio!\"> <meta property=\"og:ti"
+    ],
+    "links": [
+     "https://forretas.com/search?q=Pokemon%20Estampas%20Ilustradas"
+    ]
+   },
+   {
+    "url": "https://www.forretas.com/?s=9788575322611",
+    "status": 200,
+    "bytes": 598991,
+    "title": "Comparador de Preços e Portal de Descontos | Forretas.com",
+    "hasGengar": false,
+    "hasISBN": true,
+    "snips": [],
+    "links": [
+     "https://forretas.com/?s=9788575322611"
+    ]
+   },
+   {
+    "url": "https://www.forretas.com/?s=Pokemon%20Livro%20Ilustrado%20Gengar",
+    "status": 200,
+    "bytes": 598992,
+    "title": "Comparador de Preços e Portal de Descontos | Forretas.com",
+    "hasGengar": true,
+    "hasISBN": false,
+    "snips": [
+     "v=1.0\"> <link rel=\"manifest\" href=\"/manifest.json?v=1.0\"> <link rel=\"canonical\" href=\"https://forretas.com/?s=Pokemon%20Livro%20Ilustrado%20Gengar\" /> <title>Comparador de Preços e Portal de Descontos | Forretas.com</title> <meta name=\"msapplication-TileColor\" content=\"#ffffff\"> <meta name=\"msapplication-TileImage\" content=\"/img/favicons/ms-icon-144x144.png\"> ",
+     "es/forretas-primary-graphic-brand-positive-version.png\"},{\"Key\":\"og:type\",\"Value\":\"website\"},{\"Key\":\"og:url\",\"Value\":\"https://forretas.com/?s=Pokemon Livro Ilustrado Gengar\"},{\"Key\":\"og:description\",\"Value\":\"No Forretas.com comparar preços nunca foi tão fácil! Selecione o artigo que pretende e nós revelamos a melhor oferta para si para que faça o melhor negócio!\"},{\"Key\":\"og:title\",\"Value\":\"Comparador de Preços ",
+     "ary-graphic-brand-positive-version.png\"},{\"Key\":\"og:type\",\"Value\":\"website\"},{\"Key\":\"og:url\",\"Value\":\"https://forretas.com/?s=Pokemon Livro Ilustrado Gengar\"},{\"Key\":\"og:description\",\"Value\":\"No Forretas.com comparar preços nunca foi tão fácil! Selecione o artigo que pretende e nós revelamos a melhor oferta para si para que faça o melhor negócio!\"},{\"Key\":\"og:title\",\"Value\":\"Comparador de Preços e Porta"
+    ],
+    "links": [
+     "https://forretas.com/?s=Pokemon%20Livro%20Ilustrado%20Gengar"
+    ]
+   },
+   {
+    "url": "https://www.forretas.com/?s=Pokemon%20Estampas%20Ilustradas",
+    "status": 200,
+    "bytes": 598992,
+    "title": "Comparador de Preços e Portal de Descontos | Forretas.com",
+    "hasGengar": false,
+    "hasISBN": false,
+    "snips": [
+     "es/forretas-primary-graphic-brand-positive-version.png\"},{\"Key\":\"og:type\",\"Value\":\"website\"},{\"Key\":\"og:url\",\"Value\":\"https://forretas.com/?s=Pokemon Estampas Ilustradas\"},{\"Key\":\"og:description\",\"Value\":\"No Forretas.com comparar preços nunca foi tão fácil! Selecione o artigo que pretende e nós revelamos a melhor oferta para si para que faça o melhor negócio!\"},{\"Key\":\"og:title\",\"Value\":\"Comparador de Preços e Porta",
+     "o artigo que pretende e nós revelamos a melhor oferta para si para que faça o melhor negócio!\"},{\"Key\":\"url\",\"Value\":\"https://forretas.com/?s=Pokemon Estampas Ilustradas\"},{\"Key\":\"msapplication-TileColor\",\"Value\":\"#ffffff\"},{\"Key\":\"msapplication-TileImage\",\"Value\":\"/img/favicons/ms-icon-144x144.png\"},{\"Key\":\"theme-color\",\"Value\":\"#ffffff\"},{\"Key\":\"twitter:card\",\"Value\":\"summary\"},{\"Key\":\"twitter:title\",\"Value\":\"Comp"
+    ],
+    "links": [
+     "https://forretas.com/?s=Pokemon%20Estampas%20Ilustradas"
+    ]
+   }
+  ]
+ },
+ "devir.com.br": {
+  "robots": "read",
+  "tries": [
+   {
+    "url": "https://www.devir.com.br/search?q=9788575322611",
+    "status": 404
+   },
+   {
+    "url": "https://www.devir.com.br/search?q=Pokemon%20Livro%20Ilustrado%20Gengar",
+    "status": 404
+   },
+   {
+    "url": "https://www.devir.com.br/search?q=Pokemon%20Estampas%20Ilustradas",
+    "status": 404
+   },
+   {
+    "url": "https://www.devir.com.br/?s=9788575322611",
+    "status": 200,
+    "bytes": 29448,
+    "title": "Você pesquisou por 9788575322611 - Devir Devir",
+    "hasGengar": false,
+    "hasISBN": true,
+    "snips": [],
+    "links": [
+     "https://devir.com.br/search/9788575322611/feed/rss2/"
+    ]
+   },
+   {
+    "url": "https://www.devir.com.br/?s=Pokemon%20Livro%20Ilustrado%20Gengar",
+    "status": 200,
+    "bytes": 29624,
+    "title": "Você pesquisou por Pokemon Livro Ilustrado Gengar - Devir Devir",
+    "hasGengar": true,
+    "hasISBN": false,
+    "snips": [
+     "if lt IE 9]><script src=\"https://code.google.com/p/html5shiv/source/browse/trunk/html5.js\"></script><![endif]--> <title>Você pesquisou por Pokemon Livro Ilustrado Gengar - Devir Devir</title> <!-- This site is optimized with the Yoast SEO plugin v13.3 - https://yoast.com/wordpress/plugins/seo/ --> <meta name=\"robots\" content=\"noindex,follow\"/> <meta property=\"og:locale\" content=\"pt_BR\" /> <meta property=\"",
+     "ipt src=\"https://code.google.com/p/html5shiv/source/browse/trunk/html5.js\"></script><![endif]--> <title>Você pesquisou por Pokemon Livro Ilustrado Gengar - Devir Devir</title> <!-- This site is optimized with the Yoast SEO plugin v13.3 - https://yoast.com/wordpress/plugins/seo/ --> <meta name=\"robots\" content=\"noindex,follow\"/> <meta property=\"og:locale\" content=\"pt_BR\" /> <meta property=\"og:type",
+     "ta property=\"og:locale\" content=\"pt_BR\" /> <meta property=\"og:type\" content=\"object\" /> <meta property=\"og:title\" content=\"Você pesquisou por Pokemon Livro Ilustrado Gengar - Devir\" /> <meta property=\"og:url\" content=\"https://devir.com.br/search/Pokemon%20Livro%20Ilustrado%20Gengar/\" /> <meta property=\"og:site_name\" content=\"Devir\" /> <meta name=\"twitter:card\" content=\"summary\" /> <meta name=\"twitter:title\" cont"
+    ],
+    "links": [
+     "https://devir.com.br/search/Pokemon+Livro+Ilustrado+Gengar/feed/rss2/"
+    ]
+   },
+   {
+    "url": "https://www.devir.com.br/?s=Pokemon%20Estampas%20Ilustradas",
+    "status": 200,
+    "bytes": 35144,
+    "title": "Você pesquisou por Pokemon Estampas Ilustradas - Devir Devir",
+    "hasGengar": false,
+    "hasISBN": false,
+    "snips": [
+     "if lt IE 9]><script src=\"https://code.google.com/p/html5shiv/source/browse/trunk/html5.js\"></script><![endif]--> <title>Você pesquisou por Pokemon Estampas Ilustradas - Devir Devir</title> <!-- This site is optimized with the Yoast SEO plugin v13.3 - https://yoast.com/wordpress/plugins/seo/ --> <meta name=\"robots\" content=\"noindex,follow\"/> <meta property=\"og:locale\" content=\"pt_BR\" /> <meta property=\"og:type",
+     "ta property=\"og:locale\" content=\"pt_BR\" /> <meta property=\"og:type\" content=\"object\" /> <meta property=\"og:title\" content=\"Você pesquisou por Pokemon Estampas Ilustradas - Devir\" /> <meta property=\"og:url\" content=\"https://devir.com.br/search/Pokemon%20Estampas%20Ilustradas/\" /> <meta property=\"og:site_name\" content=\"Devir\" /> <meta name=\"twitter:card\" content=\"summary\" /> <meta name=\"twitter:title\" content=\"Você pe",
+     "perty=\"og:site_name\" content=\"Devir\" /> <meta name=\"twitter:card\" content=\"summary\" /> <meta name=\"twitter:title\" content=\"Você pesquisou por Pokemon Estampas Ilustradas - Devir\" /> <meta name=\"twitter:site\" content=\"@DevirBrasil\" /> <script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://devir.com.br/#or"
+    ],
+    "links": [
+     "https://devir.com.br/search/Pokemon+Estampas+Ilustradas/feed/rss2/"
+    ]
+   },
+   {
+    "url": "https://www.devir.com.br/busca?q=9788575322611",
+    "status": 200,
+    "bytes": 45817,
+    "title": "Busca pelo Anel - Devir Devir",
+    "hasGengar": false,
+    "hasISBN": false,
+    "snips": [],
+    "links": []
+   },
+   {
+    "url": "https://www.devir.com.br/busca?q=Pokemon%20Livro%20Ilustrado%20Gengar",
+    "status": 200,
+    "bytes": 45817,
+    "title": "Busca pelo Anel - Devir Devir",
+    "hasGengar": false,
+    "hasISBN": false,
+    "snips": [],
+    "links": []
+   },
+   {
+    "url": "https://www.devir.com.br/busca?q=Pokemon%20Estampas%20Ilustradas",
+    "status": 200,
+    "bytes": 45817,
+    "title": "Busca pelo Anel - Devir Devir",
+    "hasGengar": false,
+    "hasISBN": false,
+    "snips": [],
+    "links": []
+   }
+  ]
+ },
+ "mercadolivre.com.br": {
+  "robots": "read",
+  "tries": [
+   {
+    "url": "https://lista.mercadolivre.com.br/9788575322611",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://lista.mercadolivre.com.br/pokemon-livro-ilustrado-gengar",
+    "status": "disallowed by robots.txt"
+   },
+   {
+    "url": "https://lista.mercadolivre.com.br/pokemon-estampas-ilustradas",
+    "status": "disallowed by robots.txt"
+   }
+  ]
+ }
+}
