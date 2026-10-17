@@ -55,7 +55,7 @@ if tok:
                     imp = round((item + (ship or 0)) * IMPORT_PCT, 2) if loc and loc != "US" else 0.0
                     sealed = (i.get("condition") == "New") or bool(SEALED.search(t))
                     found[rid][i["itemId"]] = {"title": t, "url": i.get("itemWebUrl", "").split("?")[0], "marketplace": mk, "itemUSD": item, "shippingUSD": ship, "shipUnknown": ship is None,
-                        "importEstUSD": imp, "allInUSD": round(item + (ship or 0) + imp, 2), "originCountry": loc, "condition": i.get("condition"), "sealed": sealed,
+                        "importEstUSD": imp, "allInUSD": round(item + (ship or 0) + imp, 2), "originCountry": loc, "condition": i.get("condition"), "itemEndDate": i.get("itemEndDate"), "sealed": sealed,
                         "sealedBasis": "condition New" if i.get("condition") == "New" else "title says sealed/new" if SEALED.search(t) else "unconfirmed",
                         "seller": (i.get("seller") or {}).get("username"), "feedbackPct": (i.get("seller") or {}).get("feedbackPercentage"), "feedbackScore": (i.get("seller") or {}).get("feedbackScore")}
 prices = ld("booklet_prices.json", {"items": {}})
@@ -111,6 +111,32 @@ for rid, nm in ROWS.items():
     out["counts"][rid] = {"name": nm, "owned": rid in OWNED, "foundToday": len(ls), "sealedToday": len(sealed_ls), "notSealedToday": len(ns_ls), "distinctEverSeen": len(st["seen"]),
                           "sealedEverSeen": sum(1 for v in st["seen"].values() if v["sealed"]), "reference": st["reference"], "max": mx}
     out["items"][rid] = {"listings": ls}
+# ---- market log: every listing seen, disappearances = "probably sold" (unverified implied sale; asks are NOT sold prices)
+import statistics
+log = ld("booklet_listings.json", {"listings": {}}); LG = log["listings"]; live_ids = set()
+for rid in ROWS:
+    for x in found[rid].values():
+        iid = x["url"].split("/")[-1]; live_ids.add(iid)
+        e = LG.setdefault(iid, {"row": rid, "firstSeen": TODAY})
+        e.update({"row": rid, "title": x["title"], "url": x["url"], "marketplace": x["marketplace"], "lastSeen": TODAY, "lastItemUSD": x["itemUSD"], "lastShippingUSD": x["shippingUSD"],
+                  "shippingUnknown": x["shipUnknown"], "sealed": x["sealed"], "itemEndDate": x.get("itemEndDate"), "status": "live", "missed": 0})
+        e.pop("impliedSale", None); e.pop("goneDate", None)
+for iid, e in LG.items():
+    if iid in live_ids or e.get("status") != "live": continue
+    e["missed"] = e.get("missed", 0) + 1
+    if e["missed"] >= 2:    # absent from two consecutive daily scans (guards against one-off search misses)
+        ended = e.get("itemEndDate") and e["itemEndDate"][:10] <= TODAY
+        e["status"] = "ended (end date reached)" if ended else "probably sold"; e["goneDate"] = TODAY
+        if not ended: e["impliedSale"] = {"price": e["lastItemUSD"], "shipping": e["lastShippingUSD"], "label": "unverified: last ask before the listing vanished before its end date; not a confirmed sale"}
+def stats(v): return {"low": min(v), "median": round(statistics.median(v), 2), "high": max(v)} if v else {"low": None, "median": None, "high": None}
+out["market"] = {"label": "unverified: ASKING prices of Portuguese Devir booklet listings; implied sales are last asks of vanished listings, not sold prices",
+                 "disappearanceRule": "buy-it-now listing absent from 2 consecutive daily scans before its end date = 'probably sold'", "perBooklet": {}}
+for rid, nm in ROWS.items():
+    liv = [e for e in LG.values() if e["row"] == rid and e["status"] == "live"]; imp = [e for e in LG.values() if e["row"] == rid and e["status"] == "probably sold"]
+    out["market"]["perBooklet"][rid] = {"name": nm, "liveListings": len(liv), "liveSealed": sum(1 for e in liv if e["sealed"]), "askItemUSD": stats([e["lastItemUSD"] for e in liv]),
+        "impliedSales": len(imp), "impliedSaleMedianUSD": stats([e["impliedSale"]["price"] for e in imp])["median"], "everSeen": sum(1 for e in LG.values() if e["row"] == rid)}
+log["generated"] = TODAY; log["note"] = "one record per eBay item id: first/last seen, last ask, shipping, sealed y/n, status; asks only"
+json.dump(log, open(os.path.join(ROOT, "booklet_listings.json"), "w"), indent=1, ensure_ascii=False)
 allc = out["counts"]
 out["totals"] = {"foundToday": sum(c["foundToday"] for c in allc.values()), "sealedToday": sum(c["sealedToday"] for c in allc.values()), "distinctEverSeen": sum(c["distinctEverSeen"] for c in allc.values()),
                  "unownedRowsWithAnyListing": sum(1 for r, c in allc.items() if r not in OWNED and c["foundToday"])}
