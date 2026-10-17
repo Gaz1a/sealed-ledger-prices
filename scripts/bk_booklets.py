@@ -36,6 +36,7 @@ CID, CS = os.environ.get("EBAY_CLIENT_ID"), os.environ.get("EBAY_CLIENT_SECRET")
 tok = get("https://api.ebay.com/identity/v1/oauth2/token", {"Authorization": "Basic " + base64.b64encode(f"{CID}:{CS}".encode()).decode(), "Content-Type": "application/x-www-form-urlencoded"},
           urllib.parse.urlencode({"grant_type": "client_credentials", "scope": "https://api.ebay.com/oauth/api_scope"}).encode()).get("access_token")
 cfg = ld("devir_retail_urls.json", {}); BK = cfg.get("booklets", {})
+maxp = ld("booklet_max.json", {})
 CMG, CMN = {}, {}      # Cardmarket price guide + product names, by the ledger's cardmarketId (English EX booklets used as the price proxy)
 try:
     _req = lambda u: json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "sealed-ledger"}), timeout=180))
@@ -81,7 +82,7 @@ prices = ld("booklet_prices.json", {"items": {}})
 refs = ld("booklet_refs.json", {"items": {}})
 for st_ in refs["items"].values():     # drop earlier fuzzy ISBN junk (novels etc.) from the seen-log and from references
     st_["seen"] = {k: v for k, v in st_["seen"].items() if valid_title(v.get("title"))}
-    if st_.get("reference") and not valid_title(st_["reference"].get("title")): st_["reference"] = None; maxp = ld("booklet_max.json", {})   # booklet_max.json: {"bk-golem": 60, ...} all-in max you set; optional
+    if st_.get("reference") and not valid_title(st_["reference"].get("title")): st_["reference"] = None   # booklet_max.json: {"bk-golem": 60, ...} all-in max you set; optional
 stock = ld("stock_check.json", {})
 out = {"searchKeys": {r: {"titleQueries": [f"Devir Livro Ilustrado {n}", f"Estampas Ilustradas {n}", f"Pokemon Origem das Lendas {n} Devir"], "isbn13": BK.get(r, {}).get("isbn13"), "isbnStatus": BK.get(r, {}).get("isbnStatus"), "cardmarketId": BK.get(r, {}).get("cardmarketId"),
        "retailerRef": BK.get(r, {}).get("retailerRef")} for r, n in ROWS.items()}, "retailerInStock": stock.get("inStock", []), "retailerCheck": {"generated": stock.get("generated"), "sites": stock.get("sites"), "devirBrasil": {k: v for k, v in (stock.get("devirBrasil") or {}).items() if v.get("productLinks")},
