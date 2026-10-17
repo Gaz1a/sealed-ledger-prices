@@ -1,0 +1,12 @@
+{
+ "history": [
+  {
+   "date": "2026-10-17",
+   "total": 1790.16,
+   "linesPriced": 361,
+   "lines": 361,
+   "gaps": 0
+  }
+ ],
+ "note": "one row per daily run; gaps excluded from the sum, never zero-filled"
+}

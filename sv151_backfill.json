@@ -1,0 +1,1298 @@
+{
+ "generated": "2026-10-17T06:00:51Z",
+ "note": "PARTIAL: only lines with a card history already in the repo. partialTotal is NOT the master-set value unless complete=true.",
+ "linesWithAnyHistory": 4,
+ "linesTotal": 361,
+ "lines": [
+  {
+   "productId": 516693,
+   "subtype": "Holofoil",
+   "name": "Gyarados",
+   "number": "130/165",
+   "points": 180
+  },
+  {
+   "productId": 516693,
+   "subtype": "Reverse Holofoil",
+   "name": "Gyarados",
+   "number": "130/165",
+   "points": 180
+  },
+  {
+   "productId": 516692,
+   "subtype": "Reverse Holofoil",
+   "name": "Magikarp",
+   "number": "129/165",
+   "points": 180
+  },
+  {
+   "productId": 516692,
+   "subtype": "Normal",
+   "name": "Magikarp",
+   "number": "129/165",
+   "points": 180
+  }
+ ],
+ "days": [
+  {
+   "date": "2026-04-07",
+   "partialTotal": 2.07,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-08",
+   "partialTotal": 2.15,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-09",
+   "partialTotal": 2.16,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-10",
+   "partialTotal": 2.19,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-11",
+   "partialTotal": 2.23,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-12",
+   "partialTotal": 2.05,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-13",
+   "partialTotal": 2.14,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-14",
+   "partialTotal": 2.21,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-15",
+   "partialTotal": 2.28,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-16",
+   "partialTotal": 2.3,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-17",
+   "partialTotal": 2.31,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-18",
+   "partialTotal": 2.47,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-19",
+   "partialTotal": 2.64,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-20",
+   "partialTotal": 2.46,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-21",
+   "partialTotal": 2.47,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-22",
+   "partialTotal": 2.35,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-23",
+   "partialTotal": 2.43,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-24",
+   "partialTotal": 2.57,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-25",
+   "partialTotal": 2.51,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-26",
+   "partialTotal": 2.77,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-27",
+   "partialTotal": 2.47,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-28",
+   "partialTotal": 2.52,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-29",
+   "partialTotal": 2.4,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-04-30",
+   "partialTotal": 2.51,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-01",
+   "partialTotal": 2.48,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-02",
+   "partialTotal": 2.41,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-03",
+   "partialTotal": 2.54,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-04",
+   "partialTotal": 2.53,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-05",
+   "partialTotal": 2.44,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-06",
+   "partialTotal": 2.55,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-07",
+   "partialTotal": 2.5,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-08",
+   "partialTotal": 2.63,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-09",
+   "partialTotal": 2.62,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-10",
+   "partialTotal": 2.64,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-11",
+   "partialTotal": 2.83,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-12",
+   "partialTotal": 2.8,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-13",
+   "partialTotal": 2.78,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-14",
+   "partialTotal": 2.73,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-15",
+   "partialTotal": 2.74,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-16",
+   "partialTotal": 2.93,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-17",
+   "partialTotal": 3.2,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-18",
+   "partialTotal": 2.97,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-19",
+   "partialTotal": 2.86,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-20",
+   "partialTotal": 2.77,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-21",
+   "partialTotal": 2.64,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-22",
+   "partialTotal": 2.68,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-23",
+   "partialTotal": 2.67,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-24",
+   "partialTotal": 2.6,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-25",
+   "partialTotal": 2.55,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-26",
+   "partialTotal": 2.34,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-27",
+   "partialTotal": 2.39,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-28",
+   "partialTotal": 2.36,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-29",
+   "partialTotal": 2.08,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-30",
+   "partialTotal": 2.07,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-05-31",
+   "partialTotal": 2.27,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-01",
+   "partialTotal": 2.6,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-02",
+   "partialTotal": 2.73,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-03",
+   "partialTotal": 2.77,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-04",
+   "partialTotal": 2.73,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-05",
+   "partialTotal": 2.66,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-06",
+   "partialTotal": 2.62,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-07",
+   "partialTotal": 2.65,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-08",
+   "partialTotal": 2.73,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-09",
+   "partialTotal": 2.86,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-10",
+   "partialTotal": 2.75,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-11",
+   "partialTotal": 2.79,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-12",
+   "partialTotal": 2.68,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-13",
+   "partialTotal": 2.69,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-14",
+   "partialTotal": 2.77,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-15",
+   "partialTotal": 2.93,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-16",
+   "partialTotal": 2.66,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-17",
+   "partialTotal": 2.44,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-18",
+   "partialTotal": 2.37,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-19",
+   "partialTotal": 2.33,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-20",
+   "partialTotal": 2.28,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-21",
+   "partialTotal": 2.16,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-22",
+   "partialTotal": 2.21,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-23",
+   "partialTotal": 2.18,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-24",
+   "partialTotal": 2.25,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-25",
+   "partialTotal": 2.36,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-26",
+   "partialTotal": 2.37,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-27",
+   "partialTotal": 2.46,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-28",
+   "partialTotal": 2.33,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-29",
+   "partialTotal": 2.25,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-06-30",
+   "partialTotal": 2.27,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-01",
+   "partialTotal": 2.35,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-02",
+   "partialTotal": 2.33,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-03",
+   "partialTotal": 2.32,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-04",
+   "partialTotal": 2.36,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-05",
+   "partialTotal": 2.41,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-06",
+   "partialTotal": 2.35,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-07",
+   "partialTotal": 2.38,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-08",
+   "partialTotal": 2.29,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-09",
+   "partialTotal": 2.33,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-10",
+   "partialTotal": 2.3,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-11",
+   "partialTotal": 2.23,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-12",
+   "partialTotal": 2.37,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-13",
+   "partialTotal": 2.37,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-14",
+   "partialTotal": 2.44,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-15",
+   "partialTotal": 2.51,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-16",
+   "partialTotal": 2.47,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-17",
+   "partialTotal": 2.48,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-18",
+   "partialTotal": 2.4,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-19",
+   "partialTotal": 2.31,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-20",
+   "partialTotal": 2.31,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-21",
+   "partialTotal": 2.36,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-22",
+   "partialTotal": 2.3,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-23",
+   "partialTotal": 2.43,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-24",
+   "partialTotal": 2.36,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-25",
+   "partialTotal": 2.43,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-26",
+   "partialTotal": 2.4,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-27",
+   "partialTotal": 2.35,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-28",
+   "partialTotal": 2.33,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-29",
+   "partialTotal": 2.29,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-30",
+   "partialTotal": 2.21,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-07-31",
+   "partialTotal": 2.08,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-01",
+   "partialTotal": 2.11,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-02",
+   "partialTotal": 2.2,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-03",
+   "partialTotal": 2.23,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-04",
+   "partialTotal": 2.5,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-05",
+   "partialTotal": 2.55,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-06",
+   "partialTotal": 2.72,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-07",
+   "partialTotal": 2.62,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-08",
+   "partialTotal": 2.61,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-09",
+   "partialTotal": 2.52,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-10",
+   "partialTotal": 2.46,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-11",
+   "partialTotal": 2.48,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-12",
+   "partialTotal": 2.37,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-13",
+   "partialTotal": 2.31,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-14",
+   "partialTotal": 2.38,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-15",
+   "partialTotal": 2.38,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-16",
+   "partialTotal": 2.35,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-17",
+   "partialTotal": 2.32,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-18",
+   "partialTotal": 2.27,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-19",
+   "partialTotal": 2.1,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-20",
+   "partialTotal": 2.12,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-21",
+   "partialTotal": 2.16,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-22",
+   "partialTotal": 2.19,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-23",
+   "partialTotal": 2.28,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-24",
+   "partialTotal": 2.27,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-25",
+   "partialTotal": 2.28,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-26",
+   "partialTotal": 2.33,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-27",
+   "partialTotal": 2.32,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-28",
+   "partialTotal": 2.34,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-29",
+   "partialTotal": 2.39,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-30",
+   "partialTotal": 2.27,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-08-31",
+   "partialTotal": 2.3,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-01",
+   "partialTotal": 2.24,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-02",
+   "partialTotal": 2.31,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-03",
+   "partialTotal": 2.3,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-04",
+   "partialTotal": 2.41,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-05",
+   "partialTotal": 2.46,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-06",
+   "partialTotal": 2.5,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-07",
+   "partialTotal": 2.71,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-08",
+   "partialTotal": 2.8,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-09",
+   "partialTotal": 2.84,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-10",
+   "partialTotal": 2.67,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-11",
+   "partialTotal": 2.52,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-12",
+   "partialTotal": 2.35,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-13",
+   "partialTotal": 2.32,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-14",
+   "partialTotal": 2.36,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-15",
+   "partialTotal": 2.41,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-16",
+   "partialTotal": 2.39,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-17",
+   "partialTotal": 2.52,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-18",
+   "partialTotal": 2.48,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-19",
+   "partialTotal": 2.42,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-20",
+   "partialTotal": 2.36,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-21",
+   "partialTotal": 2.27,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-22",
+   "partialTotal": 2.2,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-23",
+   "partialTotal": 2.19,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-24",
+   "partialTotal": 2.28,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-25",
+   "partialTotal": 2.3,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-26",
+   "partialTotal": 2.24,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-27",
+   "partialTotal": 2.23,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-28",
+   "partialTotal": 2.21,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-29",
+   "partialTotal": 2.2,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-09-30",
+   "partialTotal": 2.31,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-10-01",
+   "partialTotal": 2.37,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-10-02",
+   "partialTotal": 2.27,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  },
+  {
+   "date": "2026-10-03",
+   "partialTotal": 2.29,
+   "linesWithHistory": 4,
+   "linesTotal": 361,
+   "complete": false
+  }
+ ]
+}
