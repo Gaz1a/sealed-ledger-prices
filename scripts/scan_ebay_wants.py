@@ -78,6 +78,7 @@ def main():
     H = {"Authorization": "Bearer " + token(), "X-EBAY-C-MARKETPLACE-ID": "EBAY_US"}
     W = {}
     for wid, title in wants.items():
+        if wid.startswith("bk-"): continue   # Portuguese Devir booklets are scanned daily by scripts/bk_booklets.py (worldwide, all-in, BIN only)
         name, num, clean = parse(title)
         mk = (prices.get(wid) or {}).get("market")
         if is_j(wid):
