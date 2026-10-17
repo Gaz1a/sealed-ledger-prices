@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T05:50:44Z",
+ "generated": "2026-10-17T14:08:21Z",
  "items": {
   "j-None-paldean-fates-great-tusk-ex-iron-treads-ex-premium-collection-en": {
    "title": "Paldean Fates Great Tusk ex & Iron Treads ex Premium Collection",
@@ -781,7 +781,16 @@
    "title": "CoroCoro Comic August 1999 issue insert (July 15, 1999)"
   },
   "j-2000-corocoro-comic-april-2000-issue-insert-march-15-2000-en": {
-   "title": "CoroCoro Comic April 2000 issue insert (March 15, 2000)"
+   "title": "CoroCoro Comic April 2000 issue insert (March 15, 2000)",
+   "card": {
+    "productId": 179079,
+    "history": [],
+    "name": "Charizard - 4/102 (CoroCoro Promo)",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": null,
+    "date": "2026-10-17",
+    "note": "no priced row today"
+   }
   },
   "j-2000-bessatsu-corocoro-comic-special-august-2000-issue-insert-july-6-2000-ja": {
    "title": "Bessatsu CoroCoro Comic Special August 2000 issue insert (July 6, 2000)"
@@ -790,7 +799,22 @@
    "title": "CoroCoro Comic August 2000 issue insert (July 15, 2000)"
   },
   "j-2000-top-deck-magazine-february-2000-en": {
-   "title": "Top Deck Magazine (February 2000)"
+   "title": "Top Deck Magazine (February 2000)",
+   "card": {
+    "productId": 211500,
+    "history": [
+     [
+      "2026-10-17",
+      32.5
+     ]
+    ],
+    "name": "Pikachu - 58/102",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 32.5,
+    "low": 35.99,
+    "subType": "Normal",
+    "date": "2026-10-17"
+   }
   },
   "j-2001-corocoro-comic-september-2001-issue-ja": {
    "title": "CoroCoro Comic September 2001 issue"
@@ -814,7 +838,22 @@
    "title": "Pok\u00e9mon Wonderland Vol. 9 (July 14, 2007)"
   },
   "j-2008-darkrai-premium-box-en": {
-   "title": "Darkrai Premium Box"
+   "title": "Darkrai Premium Box",
+   "card": {
+    "productId": 211427,
+    "history": [
+     [
+      "2026-10-17",
+      26.63
+     ]
+    ],
+    "name": "Darkrai - DP24 (DP Black Star Promos)",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 26.63,
+    "low": 49.99,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2008-dialga-premium-box-en": {
    "title": "Dialga Premium Box",
@@ -982,6 +1021,21 @@
     "market": null,
     "date": "2026-10-17",
     "note": "no priced row today"
+   },
+   "card": {
+    "productId": 211501,
+    "history": [
+     [
+      "2026-10-17",
+      29.33
+     ]
+    ],
+    "name": "Mewtwo EX - 54/99",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 29.33,
+    "low": 20.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2012-keldeo-box-en": {
@@ -1012,7 +1066,22 @@
    }
   },
   "j-2013-team-plasma-box-en": {
-   "title": "Team Plasma Box"
+   "title": "Team Plasma Box",
+   "card": {
+    "productId": 211425,
+    "history": [
+     [
+      "2026-10-17",
+      29.7
+     ]
+    ],
+    "name": "Darkrai - BW73 (BW Black Star Promos)",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 29.7,
+    "low": 29.99,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2013-deoxys-box-en": {
    "title": "Deoxys Box",
@@ -1358,10 +1427,40 @@
      },
      "own": "daily tcgcsv scan from 9999"
     }
+   },
+   "card": {
+    "productId": 173082,
+    "history": [
+     [
+      "2026-10-17",
+      9.0
+     ]
+    ],
+    "name": "Garchomp EX - XY09 (XY Black Star Promo)",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 9.0,
+    "low": 3.99,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2014-charizard-ex-box-en": {
-   "title": "Charizard-EX Box"
+   "title": "Charizard-EX Box",
+   "card": {
+    "productId": 91614,
+    "history": [
+     [
+      "2026-10-17",
+      15.56
+     ]
+    ],
+    "name": "Charizard EX - XY17 (XY Black Star Promos)",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 15.56,
+    "low": 11.98,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2014-xerneas-collection-fr": {
    "title": "Xerneas Collection",
@@ -2711,6 +2810,21 @@
      },
      "own": "daily tcgcsv scan from 9999"
     }
+   },
+   "card": {
+    "productId": 147232,
+    "history": [
+     [
+      "2026-10-17",
+      22.14
+     ]
+    ],
+    "name": "Rayquaza EX - XY66",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 22.14,
+    "low": 8.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2015-rayquaza-box-en": {
@@ -2831,10 +2945,40 @@
    "title": "Volcanion-EX Special Jumbo Card Pack"
   },
   "j-2016-charizard-ex-box-fire-blast-en": {
-   "title": "Charizard-EX Box\u2014Fire Blast"
+   "title": "Charizard-EX Box\u2014Fire Blast",
+   "card": {
+    "productId": 152944,
+    "history": [
+     [
+      "2026-10-17",
+      15.17
+     ]
+    ],
+    "name": "Charizard EX - 11/106",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 15.17,
+    "low": 10.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2016-charizard-ex-red-blue-collection-en": {
-   "title": "Charizard-EX Red & Blue Collection"
+   "title": "Charizard-EX Red & Blue Collection",
+   "card": {
+    "productId": 211422,
+    "history": [
+     [
+      "2026-10-17",
+      94.97
+     ]
+    ],
+    "name": "Charizard EX - XY121 (XY Black Star Promos)",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 94.97,
+    "low": 369.63,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2016-aurorus-ex-box-en": {
    "title": "Aurorus-EX Box",
@@ -3597,10 +3741,28 @@
    }
   },
   "j-2016-blastoise-ex-red-blue-collection-en": {
-   "title": "Blastoise-EX Red & Blue Collection"
+   "title": "Blastoise-EX Red & Blue Collection",
+   "card": {
+    "productId": 542981,
+    "history": [],
+    "name": "Blastoise EX - XY122",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": null,
+    "date": "2026-10-17",
+    "note": "no priced row today"
+   }
   },
   "j-2016-zygarde-box-en": {
-   "title": "Zygarde Box"
+   "title": "Zygarde Box",
+   "card": {
+    "productId": 618848,
+    "history": [],
+    "name": "Zygarde EX - 54/124",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": null,
+    "date": "2026-10-17",
+    "note": "no priced row today"
+   }
   },
   "j-2016-break-evolution-box-featuring-ho-oh-and-lugia-en": {
    "title": "BREAK Evolution Box Featuring Ho-Oh and Lugia",
@@ -3621,13 +3783,37 @@
    }
   },
   "j-2016-venusaur-ex-red-blue-collection-en": {
-   "title": "Venusaur-EX Red & Blue Collection"
+   "title": "Venusaur-EX Red & Blue Collection",
+   "card": {
+    "productId": 211487,
+    "history": [
+     [
+      "2026-10-17",
+      39.99
+     ]
+    ],
+    "name": "Venusaur EX - XY123",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 39.99,
+    "low": 90.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2016-lugia-box-fr": {
    "title": "Lugia Box"
   },
   "j-2016-pikachu-ex-red-blue-collection-en": {
-   "title": "Pikachu-EX Red & Blue Collection"
+   "title": "Pikachu-EX Red & Blue Collection",
+   "card": {
+    "productId": 211463,
+    "history": [],
+    "name": "Pikachu EX - XY124",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": null,
+    "date": "2026-10-17",
+    "note": "no priced row today"
+   }
   },
   "j-2016-lucario-box-fr": {
    "title": "Lucario Box"
@@ -3903,10 +4089,40 @@
    "title": "Charizard-EX Special Jumbo Card Set"
   },
   "j-2016-alola-collection-en": {
-   "title": "Alola Collection"
+   "title": "Alola Collection",
+   "card": {
+    "productId": 169946,
+    "history": [
+     [
+      "2026-10-17",
+      8.89
+     ]
+    ],
+    "name": "Lunala GX - 66/149",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 8.89,
+    "low": 3.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2016-alola-collection-redacted-en": {
-   "title": "Alola Collection (redacted)"
+   "title": "Alola Collection (redacted)",
+   "card": {
+    "productId": 169951,
+    "history": [
+     [
+      "2026-10-17",
+      6.97
+     ]
+    ],
+    "name": "Solgaleo GX - 89/149",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 6.97,
+    "low": 4.5,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2016-mega-garchomp-ex-premium-collection-en": {
    "title": "Mega Garchomp-EX Premium Collection",
@@ -5876,6 +6092,21 @@
      },
      "own": "daily tcgcsv scan from 9999"
     }
+   },
+   "card": {
+    "productId": 169950,
+    "history": [
+     [
+      "2026-10-17",
+      9.84
+     ]
+    ],
+    "name": "Mewtwo EX - XY183",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 9.84,
+    "low": 5.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2016-dragonite-ex-box-en": {
@@ -6570,6 +6801,21 @@
      },
      "own": "daily tcgcsv scan from 9999"
     }
+   },
+   "card": {
+    "productId": 131863,
+    "history": [
+     [
+      "2026-10-17",
+      15.08
+     ]
+    ],
+    "name": "Dragonite EX - 74/111",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 15.08,
+    "low": 6.5,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2016-kangaskhan-ex-box-en": {
@@ -8923,6 +9169,21 @@
     "market": null,
     "date": "2026-10-17",
     "note": "no priced row today"
+   },
+   "card": {
+    "productId": 152933,
+    "history": [
+     [
+      "2026-10-17",
+      5.16
+     ]
+    ],
+    "name": "Decidueye GX - SM37 (SM Black Star Promo)",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 5.16,
+    "low": 2.52,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2017-incineroar-gx-premium-collection-en": {
@@ -9005,6 +9266,21 @@
      },
      "own": "daily tcgcsv scan from 9999"
     }
+   },
+   "card": {
+    "productId": 169945,
+    "history": [
+     [
+      "2026-10-17",
+      12.32
+     ]
+    ],
+    "name": "Incineroar GX - SM38 (SM Black Star Promo)",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 12.32,
+    "low": 6.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2017-primarina-gx-premium-collection-en": {
@@ -9223,6 +9499,21 @@
      },
      "own": "daily tcgcsv scan from 9999"
     }
+   },
+   "card": {
+    "productId": 148409,
+    "history": [
+     [
+      "2026-10-17",
+      10.21
+     ]
+    ],
+    "name": "Primarina GX - SM39",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 10.21,
+    "low": 6.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2017-espeon-gx-premium-collection-en": {
@@ -9903,6 +10194,21 @@
      },
      "own": "daily tcgcsv scan from 9999"
     }
+   },
+   "card": {
+    "productId": 169955,
+    "history": [
+     [
+      "2026-10-17",
+      4.76
+     ]
+    ],
+    "name": "Tapu Koko GX - SM50",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 4.76,
+    "low": 2.57,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2017-umbreon-gx-premium-collection-en": {
@@ -11553,6 +11859,21 @@
     "market": null,
     "date": "2026-10-17",
     "note": "no priced row today"
+   },
+   "card": {
+    "productId": 148152,
+    "history": [
+     [
+      "2026-10-17",
+      24.38
+     ]
+    ],
+    "name": "Charizard GX - SM60 (SM Black Star Promos)",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 24.38,
+    "low": 9.34,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2017-tsareena-box-fr": {
@@ -12214,10 +12535,40 @@
      },
      "own": "daily tcgcsv scan from 9999"
     }
+   },
+   "card": {
+    "productId": 152605,
+    "history": [
+     [
+      "2026-10-17",
+      6.67
+     ]
+    ],
+    "name": "Silvally GX - SM91",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 6.67,
+    "low": 4.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2017-silvally-box-en": {
-   "title": "Silvally Box"
+   "title": "Silvally Box",
+   "card": {
+    "productId": 211470,
+    "history": [
+     [
+      "2026-10-17",
+      5.62
+     ]
+    ],
+    "name": "Silvally GX - 90/111",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 5.62,
+    "low": 4.99,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2017-ho-oh-gx-special-jumbo-card-set-ko": {
    "title": "Ho-Oh-GX Special Jumbo Card Set",
@@ -12241,13 +12592,58 @@
    "title": "Volcanion-EX Challenge Box"
   },
   "j-2017-mewtwo-ex-challenge-box-en": {
-   "title": "Mewtwo-EX Challenge Box"
+   "title": "Mewtwo-EX Challenge Box",
+   "card": {
+    "productId": 169950,
+    "history": [
+     [
+      "2026-10-17",
+      9.84
+     ]
+    ],
+    "name": "Mewtwo EX - XY183",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 9.84,
+    "low": 5.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2017-pikachu-ex-challenge-box-en": {
-   "title": "Pikachu-EX Challenge Box"
+   "title": "Pikachu-EX Challenge Box",
+   "card": {
+    "productId": 198772,
+    "history": [
+     [
+      "2026-10-17",
+      40.54
+     ]
+    ],
+    "name": "Pikachu EX - XY174",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 40.54,
+    "low": 29.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2017-tapu-koko-box-en": {
-   "title": "Tapu Koko Box"
+   "title": "Tapu Koko Box",
+   "card": {
+    "productId": 169954,
+    "history": [
+     [
+      "2026-10-17",
+      4.0
+     ]
+    ],
+    "name": "Tapu Koko GX - 47/145",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 4.0,
+    "low": 2.99,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2017-alolan-raichu-box-en": {
    "title": "Alolan Raichu Box",
@@ -14017,7 +14413,22 @@
    }
   },
   "j-2018-shining-legends-special-collection-raichu-gx-en": {
-   "title": "Shining Legends Special Collection\u2014Raichu-GX"
+   "title": "Shining Legends Special Collection\u2014Raichu-GX",
+   "card": {
+    "productId": 155588,
+    "history": [
+     [
+      "2026-10-17",
+      5.96
+     ]
+    ],
+    "name": "Raichu GX - SM90",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 5.96,
+    "low": 2.13,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2018-lucario-gx-box-en": {
    "title": "Lucario-GX Box",
@@ -14200,6 +14611,15 @@
     "market": null,
     "date": "2026-10-17",
     "note": "no priced row today"
+   },
+   "card": {
+    "productId": 599671,
+    "history": [],
+    "name": "Decidueye GX - 12/149 (Decidueye GX Challenge Box)",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": null,
+    "date": "2026-10-17",
+    "note": "no priced row today"
    }
   },
   "j-2018-incineroar-gx-challenge-box-en": {
@@ -14212,6 +14632,21 @@
     "market": null,
     "date": "2026-10-17",
     "note": "no priced row today"
+   },
+   "card": {
+    "productId": 169945,
+    "history": [
+     [
+      "2026-10-17",
+      12.32
+     ]
+    ],
+    "name": "Incineroar GX - SM38 (SM Black Star Promo)",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 12.32,
+    "low": 6.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2018-primarina-gx-challenge-box-en": {
@@ -14260,6 +14695,21 @@
     "low": 287.9,
     "subType": "Normal",
     "date": "2026-10-17"
+   },
+   "card": {
+    "productId": 177709,
+    "history": [
+     [
+      "2026-10-17",
+      19.97
+     ]
+    ],
+    "name": "Lunala GX - SM103",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 19.97,
+    "low": 9.99,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2018-solgaleo-gx-box-en": {
@@ -14272,6 +14722,21 @@
     "market": null,
     "date": "2026-10-17",
     "note": "no priced row today"
+   },
+   "card": {
+    "productId": 177901,
+    "history": [
+     [
+      "2026-10-17",
+      19.92
+     ]
+    ],
+    "name": "Solgaleo GX - SM104",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 19.92,
+    "low": 13.91,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2018-dragon-majesty-collection-ultra-necrozma-gx-en": {
@@ -19632,6 +20097,21 @@
      },
      "own": "daily tcgcsv scan from 2026-10-17"
     }
+   },
+   "card": {
+    "productId": 185252,
+    "history": [
+     [
+      "2026-10-17",
+      18.05
+     ]
+    ],
+    "name": "Charizard GX - SM195 (SM Black Star Promo)",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 18.05,
+    "low": 8.45,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2019-detective-pikachu-greninja-gx-case-file-en": {
@@ -23317,6 +23797,21 @@
      },
      "own": "daily tcgcsv scan from 2026-10-17"
     }
+   },
+   "card": {
+    "productId": 185252,
+    "history": [
+     [
+      "2026-10-17",
+      18.05
+     ]
+    ],
+    "name": "Charizard GX - SM195 (SM Black Star Promo)",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 18.05,
+    "low": 8.45,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2019-detective-pikachu-greninja-gx-special-case-file-en": {
@@ -26270,6 +26765,21 @@
     "market": null,
     "date": "2026-10-17",
     "note": "no priced row today"
+   },
+   "card": {
+    "productId": 169946,
+    "history": [
+     [
+      "2026-10-17",
+      8.89
+     ]
+    ],
+    "name": "Lunala GX - 66/149",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 8.89,
+    "low": 3.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2019-solgaleo-gx-challenge-box-en": {
@@ -26352,6 +26862,21 @@
      },
      "own": "daily tcgcsv scan from 9999"
     }
+   },
+   "card": {
+    "productId": 177901,
+    "history": [
+     [
+      "2026-10-17",
+      19.92
+     ]
+    ],
+    "name": "Solgaleo GX - SM104",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 19.92,
+    "low": 13.91,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2019-blastoise-gx-premium-collection-en": {
@@ -30868,7 +31393,22 @@
    }
   },
   "j-2019-hidden-fates-collection-charizard-gx-en": {
-   "title": "Hidden Fates Collection\u2014Charizard-GX"
+   "title": "Hidden Fates Collection\u2014Charizard-GX",
+   "card": {
+    "productId": 205166,
+    "history": [
+     [
+      "2026-10-17",
+      9.97
+     ]
+    ],
+    "name": "Charizard GX - SM211 (SM Black Star Promo)",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 9.97,
+    "low": 4.87,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2019-hidden-fates-collection-gyarados-gx-en": {
    "title": "Hidden Fates Collection\u2014Gyarados-GX",
@@ -31614,7 +32154,22 @@
    }
   },
   "j-2019-hidden-fates-collection-raichu-gx-en": {
-   "title": "Hidden Fates Collection\u2014Raichu-GX"
+   "title": "Hidden Fates Collection\u2014Raichu-GX",
+   "card": {
+    "productId": 205168,
+    "history": [
+     [
+      "2026-10-17",
+      6.89
+     ]
+    ],
+    "name": "Raichu GX - SM213",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 6.89,
+    "low": 2.99,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2019-pikachu-gx-eevee-gx-special-collection-en": {
    "title": "Pikachu-GX & Eevee-GX Special Collection",
@@ -38489,6 +39044,21 @@
      },
      "own": "daily tcgcsv scan from 9999"
     }
+   },
+   "card": {
+    "productId": 206426,
+    "history": [
+     [
+      "2026-10-17",
+      5.31
+     ]
+    ],
+    "name": "Toxtricity V - SWSH017",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 5.31,
+    "low": 2.32,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2020-tag-team-powers-collection-en": {
@@ -48326,10 +48896,40 @@
    }
   },
   "j-2021-shining-fates-collection-pikachu-v-en": {
-   "title": "Shining Fates Collection\u2014Pikachu V"
+   "title": "Shining Fates Collection\u2014Pikachu V",
+   "card": {
+    "productId": 232443,
+    "history": [
+     [
+      "2026-10-17",
+      3.38
+     ]
+    ],
+    "name": "Pikachu V - SWSH061",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 3.38,
+    "low": 0.98,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2021-first-partner-collector-s-binder-en": {
-   "title": "First Partner Collector's Binder"
+   "title": "First Partner Collector's Binder",
+   "card": {
+    "productId": 257780,
+    "history": [
+     [
+      "2026-10-17",
+      7.67
+     ]
+    ],
+    "name": "Pikachu - 58/102 (25th Anniversary)",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 7.67,
+    "low": 4.95,
+    "subType": "Normal",
+    "date": "2026-10-17"
+   }
   },
   "j-2021-first-partner-pack-galar-en": {
    "title": "First Partner Pack (Galar)",
@@ -59468,7 +60068,22 @@
    }
   },
   "j-2021-shining-fates-collection-shiny-boltund-v-en": {
-   "title": "Shining Fates Collection\u2014Shiny Boltund V"
+   "title": "Shining Fates Collection\u2014Shiny Boltund V",
+   "card": {
+    "productId": 243659,
+    "history": [
+     [
+      "2026-10-17",
+      1.88
+     ]
+    ],
+    "name": "Boltund V - SWSH085",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 1.88,
+    "low": 0.95,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2021-shining-fates-collection-shiny-cramorant-v-en": {
    "title": "Shining Fates Collection\u2014Shiny Cramorant V",
@@ -92181,6 +92796,21 @@
      },
      "own": "daily tcgcsv scan from 2026-10-17"
     }
+   },
+   "card": {
+    "productId": 260712,
+    "history": [
+     [
+      "2026-10-17",
+      3.07
+     ]
+    ],
+    "name": "Pikachu V - SWSH198",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 3.07,
+    "low": 1.11,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2022-pikachu-v-collection-pt": {
@@ -95156,6 +95786,21 @@
      },
      "own": "daily tcgcsv scan from 2026-10-17"
     }
+   },
+   "card": {
+    "productId": 276051,
+    "history": [
+     [
+      "2026-10-17",
+      1.34
+     ]
+    ],
+    "name": "Boltund V - SWSH219",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 1.34,
+    "low": 0.75,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2022-kleavor-vstar-premium-collection-en": {
@@ -97409,7 +98054,22 @@
    }
   },
   "j-2022-lucario-v-tyranitar-v-heavy-hitters-premium-collection-en": {
-   "title": "Lucario V & Tyranitar V Heavy Hitters Premium Collection"
+   "title": "Lucario V & Tyranitar V Heavy Hitters Premium Collection",
+   "card": {
+    "productId": 284285,
+    "history": [
+     [
+      "2026-10-17",
+      2.9
+     ]
+    ],
+    "name": "Lucario V - 146/264",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 2.9,
+    "low": 1.99,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2022-infernape-v-box-en": {
    "title": "Infernape V Box",
@@ -115091,7 +115751,22 @@
    "title": "Greedent V Box"
   },
   "j-2023-lucario-v-tyranitar-v-heavy-hitters-premium-collection-2023-en": {
-   "title": "Lucario V & Tyranitar V Heavy Hitters Premium Collection 2023"
+   "title": "Lucario V & Tyranitar V Heavy Hitters Premium Collection 2023",
+   "card": {
+    "productId": 284285,
+    "history": [
+     [
+      "2026-10-17",
+      2.9
+     ]
+    ],
+    "name": "Lucario V - 146/264",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 2.9,
+    "low": 1.99,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2023-paldea-collection-en": {
    "title": "Paldea Collection"
@@ -133110,7 +133785,22 @@
    }
   },
   "j-2025-151-blooming-waters-premium-collections-en": {
-   "title": "151 Blooming Waters Premium Collections"
+   "title": "151 Blooming Waters Premium Collections",
+   "card": {
+    "productId": 618764,
+    "history": [
+     [
+      "2026-10-17",
+      2.54
+     ]
+    ],
+    "name": "Blastoise ex - 009/165",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 2.54,
+    "low": 1.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2025-hop-s-zacian-ex-box-en": {
    "title": "Hop's Zacian ex Box",
@@ -139168,6 +139858,21 @@
      },
      "own": "daily tcgcsv scan from 2026-10-17"
     }
+   },
+   "card": {
+    "productId": 648584,
+    "history": [
+     [
+      "2026-10-17",
+      4.1
+     ]
+    ],
+    "name": "Venusaur ex",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 4.1,
+    "low": 0.93,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2025-lucario-ex-tyranitar-ex-premium-collection-en": {
@@ -149798,6 +150503,21 @@
      },
      "own": "daily tcgcsv scan from 2026-10-17"
     }
+   },
+   "card": {
+    "productId": 696460,
+    "history": [
+     [
+      "2026-10-17",
+      0.95
+     ]
+    ],
+    "name": "Mega Zygarde ex - 071",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 0.95,
+    "low": 0.01,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2026-mega-greninja-ex-premium-collection-en": {

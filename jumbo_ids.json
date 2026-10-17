@@ -201,12 +201,14 @@
    {
     "productId": 211425,
     "name": "Darkrai - BW73 (BW Black Star Promos)",
-    "number": "BW73"
+    "number": "BW73",
+    "market": 29.7
    },
    {
     "productId": 211427,
     "name": "Darkrai - DP24 (DP Black Star Promos)",
-    "number": "DP24"
+    "number": "DP24",
+    "market": 26.63
    }
   ]
  },
@@ -584,12 +586,14 @@
    {
     "productId": 211420,
     "name": "M Charizard EX - 13/106 (Form Y)",
-    "number": "013/106"
+    "number": "013/106",
+    "market": null
    },
    {
     "productId": 211421,
     "name": "M Charizard EX - 69/106 (Form X)",
-    "number": "069/106"
+    "number": "069/106",
+    "market": null
    }
   ]
  },
@@ -627,12 +631,14 @@
    {
     "productId": 211502,
     "name": "M Mewtwo EX - 63/162",
-    "number": "063/162"
+    "number": "063/162",
+    "market": null
    },
    {
     "productId": 211503,
     "name": "M Mewtwo EX - 64/162",
-    "number": "064/162"
+    "number": "064/162",
+    "market": null
    }
   ]
  },
@@ -648,12 +654,14 @@
    {
     "productId": 211502,
     "name": "M Mewtwo EX - 63/162",
-    "number": "063/162"
+    "number": "063/162",
+    "market": null
    },
    {
     "productId": 211503,
     "name": "M Mewtwo EX - 64/162",
-    "number": "064/162"
+    "number": "064/162",
+    "market": null
    }
   ]
  },
@@ -912,12 +920,14 @@
    {
     "productId": 211502,
     "name": "M Mewtwo EX - 63/162",
-    "number": "063/162"
+    "number": "063/162",
+    "market": null
    },
    {
     "productId": 211503,
     "name": "M Mewtwo EX - 64/162",
-    "number": "064/162"
+    "number": "064/162",
+    "market": null
    }
   ]
  },
@@ -1219,12 +1229,14 @@
    {
     "productId": 211487,
     "name": "Venusaur EX - XY123",
-    "number": "XY123"
+    "number": "XY123",
+    "market": 39.99
    },
    {
     "productId": 648584,
     "name": "Venusaur ex",
-    "number": "001/142"
+    "number": "001/142",
+    "market": 4.1
    }
   ]
  },
@@ -1240,12 +1252,14 @@
    {
     "productId": 211500,
     "name": "Pikachu - 58/102",
-    "number": "058/102"
+    "number": "058/102",
+    "market": 32.5
    },
    {
     "productId": 257780,
     "name": "Pikachu - 58/102 (25th Anniversary)",
-    "number": "58/102"
+    "number": "58/102",
+    "market": 7.67
    }
   ]
  },
@@ -1261,12 +1275,14 @@
    {
     "productId": 542981,
     "name": "Blastoise EX - XY122",
-    "number": "XY122"
+    "number": "XY122",
+    "market": null
    },
    {
     "productId": 618764,
     "name": "Blastoise ex - 009/165",
-    "number": "009/165"
+    "number": "009/165",
+    "market": 2.54
    }
   ]
  },
@@ -1314,27 +1330,32 @@
    {
     "productId": 91614,
     "name": "Charizard EX - XY17 (XY Black Star Promos)",
-    "number": "XY17"
+    "number": "XY17",
+    "market": 15.56
    },
    {
     "productId": 152944,
     "name": "Charizard EX - 11/106",
-    "number": "011/106"
+    "number": "011/106",
+    "market": 15.17
    },
    {
     "productId": 211422,
     "name": "Charizard EX - XY121 (XY Black Star Promos)",
-    "number": "XY121"
+    "number": "XY121",
+    "market": 94.97
    },
    {
     "productId": 581987,
     "name": "Charizard ex - 125/197",
-    "number": "125/197"
+    "number": "125/197",
+    "market": 41.99
    },
    {
     "productId": 652029,
     "name": "Charizard ex - 054/091",
-    "number": "054/091"
+    "number": "054/091",
+    "market": 6.68
    }
   ]
  },
@@ -1852,12 +1873,14 @@
    {
     "productId": 169954,
     "name": "Tapu Koko GX - 47/145",
-    "number": "047/145"
+    "number": "047/145",
+    "market": 4.0
    },
    {
     "productId": 169955,
     "name": "Tapu Koko GX - SM50",
-    "number": "SM50"
+    "number": "SM50",
+    "market": 4.76
    }
   ]
  },
@@ -2528,12 +2551,14 @@
    {
     "productId": 148409,
     "name": "Primarina GX - SM39",
-    "number": "SM39"
+    "number": "SM39",
+    "market": 10.21
    },
    {
     "productId": 707231,
     "name": "Primarina GX",
-    "number": "42/149"
+    "number": "42/149",
+    "market": null
    }
   ]
  },
@@ -2701,17 +2726,20 @@
    {
     "productId": 148152,
     "name": "Charizard GX - SM60 (SM Black Star Promos)",
-    "number": "SM60"
+    "number": "SM60",
+    "market": 24.38
    },
    {
     "productId": 185252,
     "name": "Charizard GX - SM195 (SM Black Star Promo)",
-    "number": "SM195"
+    "number": "SM195",
+    "market": 18.05
    },
    {
     "productId": 205166,
     "name": "Charizard GX - SM211 (SM Black Star Promo)",
-    "number": "SM211"
+    "number": "SM211",
+    "market": 9.97
    }
   ]
  },
@@ -2769,17 +2797,20 @@
    {
     "productId": 211433,
     "name": "Eevee GX - SM174 (SM Black Star Promo)",
-    "number": "SM174"
+    "number": "SM174",
+    "market": null
    },
    {
     "productId": 211437,
     "name": "Eevee GX - SM175 (SM Black Star Promo)",
-    "number": "SM175"
+    "number": "SM175",
+    "market": null
    },
    {
     "productId": 211439,
     "name": "Eevee GX - SM176 (SM Black Star Promo)",
-    "number": "SM176"
+    "number": "SM176",
+    "market": null
    }
   ]
  },
@@ -2983,17 +3014,20 @@
    {
     "productId": 148152,
     "name": "Charizard GX - SM60 (SM Black Star Promos)",
-    "number": "SM60"
+    "number": "SM60",
+    "market": 24.38
    },
    {
     "productId": 185252,
     "name": "Charizard GX - SM195 (SM Black Star Promo)",
-    "number": "SM195"
+    "number": "SM195",
+    "market": 18.05
    },
    {
     "productId": 205166,
     "name": "Charizard GX - SM211 (SM Black Star Promo)",
-    "number": "SM211"
+    "number": "SM211",
+    "market": 9.97
    }
   ]
  },
@@ -3470,17 +3504,20 @@
    {
     "productId": 211433,
     "name": "Eevee GX - SM174 (SM Black Star Promo)",
-    "number": "SM174"
+    "number": "SM174",
+    "market": null
    },
    {
     "productId": 211437,
     "name": "Eevee GX - SM175 (SM Black Star Promo)",
-    "number": "SM175"
+    "number": "SM175",
+    "market": null
    },
    {
     "productId": 211439,
     "name": "Eevee GX - SM176 (SM Black Star Promo)",
-    "number": "SM176"
+    "number": "SM176",
+    "market": null
    }
   ]
  },
@@ -4590,17 +4627,20 @@
    {
     "productId": 232443,
     "name": "Pikachu V - SWSH061",
-    "number": "SWSH061"
+    "number": "SWSH061",
+    "market": 3.38
    },
    {
     "productId": 260712,
     "name": "Pikachu V - SWSH198",
-    "number": "SWSH198"
+    "number": "SWSH198",
+    "market": 3.07
    },
    {
     "productId": 491634,
     "name": "Pikachu V - 043/185 (Vivid Voltage Stamped)",
-    "number": "043/185"
+    "number": "043/185",
+    "market": 20.0
    }
   ]
  },
@@ -5287,12 +5327,14 @@
    {
     "productId": 203914,
     "name": "Zacian V - 138/202",
-    "number": "138/202"
+    "number": "138/202",
+    "market": 4.86
    },
    {
     "productId": 605497,
     "name": "Zacian V - 095/159",
-    "number": "095/159"
+    "number": "095/159",
+    "market": 1.53
    }
   ]
  },
@@ -5636,27 +5678,32 @@
    {
     "productId": 91614,
     "name": "Charizard EX - XY17 (XY Black Star Promos)",
-    "number": "XY17"
+    "number": "XY17",
+    "market": 15.56
    },
    {
     "productId": 152944,
     "name": "Charizard EX - 11/106",
-    "number": "011/106"
+    "number": "011/106",
+    "market": 15.17
    },
    {
     "productId": 211422,
     "name": "Charizard EX - XY121 (XY Black Star Promos)",
-    "number": "XY121"
+    "number": "XY121",
+    "market": 94.97
    },
    {
     "productId": 581987,
     "name": "Charizard ex - 125/197",
-    "number": "125/197"
+    "number": "125/197",
+    "market": 41.99
    },
    {
     "productId": 652029,
     "name": "Charizard ex - 054/091",
-    "number": "054/091"
+    "number": "054/091",
+    "market": 6.68
    }
   ]
  },
@@ -5974,12 +6021,14 @@
    {
     "productId": 203914,
     "name": "Zacian V - 138/202",
-    "number": "138/202"
+    "number": "138/202",
+    "market": 4.86
    },
    {
     "productId": 605497,
     "name": "Zacian V - 095/159",
-    "number": "095/159"
+    "number": "095/159",
+    "market": 1.53
    }
   ]
  },
@@ -6081,12 +6130,14 @@
    {
     "productId": 211500,
     "name": "Pikachu - 58/102",
-    "number": "058/102"
+    "number": "058/102",
+    "market": 32.5
    },
    {
     "productId": 257780,
     "name": "Pikachu - 58/102 (25th Anniversary)",
-    "number": "58/102"
+    "number": "58/102",
+    "market": 7.67
    }
   ]
  },
@@ -6167,27 +6218,32 @@
    {
     "productId": 91614,
     "name": "Charizard EX - XY17 (XY Black Star Promos)",
-    "number": "XY17"
+    "number": "XY17",
+    "market": 15.56
    },
    {
     "productId": 152944,
     "name": "Charizard EX - 11/106",
-    "number": "011/106"
+    "number": "011/106",
+    "market": 15.17
    },
    {
     "productId": 211422,
     "name": "Charizard EX - XY121 (XY Black Star Promos)",
-    "number": "XY121"
+    "number": "XY121",
+    "market": 94.97
    },
    {
     "productId": 581987,
     "name": "Charizard ex - 125/197",
-    "number": "125/197"
+    "number": "125/197",
+    "market": 41.99
    },
    {
     "productId": 652029,
     "name": "Charizard ex - 054/091",
-    "number": "054/091"
+    "number": "054/091",
+    "market": 6.68
    }
   ]
  },
@@ -6307,12 +6363,14 @@
    {
     "productId": 211490,
     "name": "Victini - 15/101",
-    "number": "015/101"
+    "number": "015/101",
+    "market": 13.99
    },
    {
     "productId": 646170,
     "name": "Victini - 208",
-    "number": "208"
+    "number": "208",
+    "market": 3.46
    }
   ]
  },
