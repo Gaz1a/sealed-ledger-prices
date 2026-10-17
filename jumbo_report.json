@@ -174460,28 +174460,9 @@
    "date": null,
    "source": null,
    "history": [],
-   "candidates": [
-    {
-     "productId": 211433,
-     "name": "Eevee GX - SM174 (SM Black Star Promo)",
-     "number": "SM174",
-     "market": null
-    },
-    {
-     "productId": 211437,
-     "name": "Eevee GX - SM175 (SM Black Star Promo)",
-     "number": "SM175",
-     "market": null
-    },
-    {
-     "productId": 211439,
-     "name": "Eevee GX - SM176 (SM Black Star Promo)",
-     "number": "SM176",
-     "market": null
-    }
-   ],
+   "candidates": [],
    "candidateRange": null,
-   "problem": "ambiguous: 3 candidates"
+   "problem": "No TCGplayer id (closed by user 2026-10-17). Do not price. 211456 is the regular card, not tracked. Reference only: Coleka 905090, PokeCardex 15606."
   },
   "priceBasisLabels": {
    "tcgplayer": "TCGplayer market, dated snapshot = historical (not sold-verified)",
