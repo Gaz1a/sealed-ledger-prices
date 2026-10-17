@@ -3520,26 +3520,12 @@
   "cardId": null,
   "cardBasis": null,
   "sealedCandidates": [],
-  "cardCandidates": [
-   {
-    "productId": 211433,
-    "name": "Eevee GX - SM174 (SM Black Star Promo)",
-    "number": "SM174",
-    "market": null
-   },
-   {
-    "productId": 211437,
-    "name": "Eevee GX - SM175 (SM Black Star Promo)",
-    "number": "SM175",
-    "market": null
-   },
-   {
-    "productId": 211439,
-    "name": "Eevee GX - SM176 (SM Black Star Promo)",
-    "number": "SM176",
-    "market": null
-   }
-  ]
+  "cardClosed": true,
+  "cardNote": "No TCGplayer id (closed by user 2026-10-17). Do not price. 211456 is the regular card, not tracked. Reference only: Coleka 905090, PokeCardex 15606.",
+  "cardRefs": {
+   "coleka": 905090,
+   "pokecardex": 15606
+  }
  },
  "j-2020-eternatus-vmax-premium-collection-en": {
   "title": "Eternatus VMAX Premium Collection",

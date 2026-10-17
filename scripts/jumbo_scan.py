@@ -58,7 +58,7 @@ for j in cat:
         cands = sealed_idx.get(norm(j["title"]), [])
         st["sealedCandidates"] = [{k: c[k] for k in ("productId", "name", "group")} for c in cands][:6]
         if len(cands) == 1: st["sealedId"], st["sealedBasis"] = cands[0]["productId"], "exact-name"
-    if not st["cardId"] and not st.get("cardIds"):
+    if not st["cardId"] and not st.get("cardIds") and not st.get("cardClosed"):
         one = one_card(j["cards"])
         if one:
             cands = card_idx.get(norm(one), [])

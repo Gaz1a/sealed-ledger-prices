@@ -10,7 +10,8 @@ IMPORT_PCT = 0.10      # ESTIMATE added to (item+shipping) for items located out
 SHIP_TO = {"X-EBAY-C-ENDUSERCTX": "contextualLocation=country=US,zip=91505"}
 ROWS = {"bk-golem": "Golem", "bk-hooh": "Ho-Oh", "bk-lugia": "Lugia", "bk-machamp": "Machamp", "bk-omastar": "Omastar", "bk-ralts": "Ralts", "bk-treecko": "Treecko",
         "bk-exploud": "Exploud", "bk-mudkip": "Mudkip", "bk-rayquaza": "Rayquaza", "bk-torchic": "Torchic", "h-gengar-deck": "Gengar"}
-OWNED = {"h-gengar-deck"}
+OWNED = {"h-gengar-deck", "bk-machamp"}      # owned: never flagged / not a buy target
+NOSCAN = {"bk-machamp"}      # bought 2026-10-17 (booklet_owned.json): no eBay scan at all
 BELOW_REF = 0.85       # flag when all-in <= 85% of the lowest Portuguese sealed all-in seen so far (>=15% below)
 MARKETS = ("EBAY_US", "EBAY_GB", "EBAY_DE", "EBAY_ES", "EBAY_IT", "EBAY_FR", "EBAY_CA", "EBAY_AU")
 PT = re.compile(r"devir|livro|livraria|baralho|estampas ilustradas|origem das lendas|portugu[eéê]s|portuguese|portoghese|portogallo|portugal|brasil|brazil", re.I)
@@ -49,6 +50,7 @@ if tok:
     for mk in MARKETS:
         H = {"Authorization": "Bearer " + tok, "X-EBAY-C-MARKETPLACE-ID": mk, **SHIP_TO}
         for rid, nm in ROWS.items():
+            if rid in NOSCAN: continue
             b = BK.get(rid, {}); isbn = b.get("isbn13"); rfc = b.get("retailerRef") or ""
             plan = [(q, {}, "title") for q in (f"Devir Livro Ilustrado {nm}", f"Estampas Ilustradas {nm}", f"Pokemon Devir {nm} Portuguese booklet", f"Pokemon Origem das Lendas {nm} Devir", f"Devir Pokemon {nm}")]
             if isbn: plan += [(isbn, {}, "isbn"), (None, {"gtin": isbn}, "isbn-gtin")]
@@ -129,7 +131,9 @@ for rid, nm in ROWS.items():
             if reasons:
                 out["flags"].append({"id": rid, "name": nm, "reasons": reasons, "new": first, "allInUSD": allin, "allInStatus": "shipping unknown" if unk else "known", "itemOnlyLowerBoundUSD": lb, "maxShippingForCapUSD": head,
                     "itemUSD": x["itemUSD"], "shippingUSD": x["shippingUSD"], "importEstUSD": x["importEstUSD"], "title": x["title"], "seller": x["seller"], "feedbackPct": x["feedbackPct"],
-                    "feedbackScore": x["feedbackScore"], "itemLocation": x["originCountry"], "sealedBasis": x["sealedBasis"], "url": x["url"], "reference": ref0})
+                    "feedbackScore": x["feedbackScore"], "itemLocation": x["originCountry"], "sealedBasis": x["sealedBasis"], "url": x["url"], "reference": ref0,
+                    "readyToBuy": (not unk), "readyNote": ("ships to US (eBay deliveryCountry:US filter) with known shipping" if not unk else "NOT ready: shipping cost unknown - confirm it ships to the US and the cost first"),
+                    "sellerNote": ("seller has 0 feedback" if not x["feedbackScore"] else None)})
         known = [x for x in sealed_ls if not x["shipUnknown"]]
         if known:
             b = min(known, key=lambda x: x["allInUSD"])

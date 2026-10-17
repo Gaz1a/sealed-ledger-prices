@@ -19,6 +19,7 @@ for k, j in sorted(cat.items(), key=lambda kv: order(kv[1])):
             ms = [x["market"] for x in c if x.get("market") is not None]
             r[kind]["candidateRange"] = [min(ms), max(ms)] if ms else None
         elif e.get("market") is None: why = "listing found but no priced row"
+        if kind == "card" and v.get("cardClosed"): why = v.get("cardNote")
         r[kind]["problem"] = why
     cs = (p.get("cardSet") or {})
     if v.get("cardIds"):
