@@ -1,6 +1,6 @@
 {
- "count": 492,
- "generated": "2026-10-16T21:40:43Z",
+ "count": 503,
+ "generated": "2026-10-17T05:11:34Z",
  "pinMismatch": [
   {
    "got": "Holofoil",
@@ -110,6 +110,13 @@
    "productId": 704143,
    "subType": "Normal"
   },
+  "c30-pcetb": {
+   "low": 296.99,
+   "market": 299.53,
+   "mid": 355.0,
+   "productId": 704144,
+   "subType": "Normal"
+  },
   "c30-poster": {
    "low": 24.99,
    "market": 35.41,
@@ -122,6 +129,13 @@
    "market": 67.7,
    "mid": 80.0,
    "productId": 684450,
+   "subType": "Normal"
+  },
+  "dr-box": {
+   "low": 384.0,
+   "market": 402.87,
+   "mid": 500.0,
+   "productId": 624679,
    "subType": "Normal"
   },
   "fpic1": {
@@ -3232,6 +3246,62 @@
    "productId": 622770,
    "subType": "Normal"
   },
+  "radar-282401": {
+   "low": 539.0,
+   "market": 497.74,
+   "mid": 625.0,
+   "productId": 282401,
+   "subType": "Normal"
+  },
+  "radar-565236": {
+   "low": 127.51,
+   "market": 152.78,
+   "mid": 155.33,
+   "productId": 565236,
+   "subType": "Normal"
+  },
+  "radar-565248": {
+   "low": 149.0,
+   "market": 149.51,
+   "mid": 157.5,
+   "productId": 565248,
+   "subType": "Normal"
+  },
+  "radar-571832": {
+   "low": 149.0,
+   "market": 154.89,
+   "mid": 192.05,
+   "productId": 571832,
+   "subType": "Normal"
+  },
+  "radar-575042": {
+   "low": 224.99,
+   "market": 148.17,
+   "mid": 227.84,
+   "productId": 575042,
+   "subType": "Normal"
+  },
+  "radar-587728": {
+   "low": 135.85,
+   "market": 144.96,
+   "mid": 148.88,
+   "productId": 587728,
+   "subType": "Normal"
+  },
+  "radar-603428": {
+   "low": 95.95,
+   "market": 105.62,
+   "mid": 139.99,
+   "productId": 603428,
+   "subType": "Normal"
+  },
+  "radar-637384": {
+   "low": 137.48,
+   "market": 149.82,
+   "mid": 160.0,
+   "productId": 637384,
+   "subType": "Normal"
+  },
   "rp-668541": {
    "low": 74.51,
    "market": 79.07,
@@ -3419,6 +3489,13 @@
    "market": 863.75,
    "mid": 904.19,
    "productId": 534919,
+   "subType": "Holofoil"
+  },
+  "s-por-mega-clefable-ex-031": {
+   "low": 0.2,
+   "market": 0.54,
+   "mid": 0.74,
+   "productId": 684383,
    "subType": "Holofoil"
   },
   "s12-box": {
