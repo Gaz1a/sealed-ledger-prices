@@ -47,7 +47,7 @@ for rid, urls in cfg.get("urls", {}).items():
         elif re.search(r"esgotado|indispon[ií]vel|sold out|out of stock|sem stock", h, re.I): st = "out_of_stock"
         elif re.search(r"adicionar ao carrinho|comprar agora|em stock|dispon[ií]vel", h, re.I): st = "in_stock (wording only)"
         else: st = "unknown"
-        if host in JS_ONLY: st = "unknown (page is JavaScript-rendered)"
+        if host == "forretas.com": st = "unknown (page is JavaScript-rendered)"
         rec["isbnsOnPage"] = sorted(set(re.findall(r"97[89]\d{10}", h)))[:3]; rec["ref"] = sorted(set(re.findall(r"PKLIVLM\d+", h)))[:2]
         rec.update({"stock": st, "price": float(price[0].replace(",", ".")) if price else None, "currency": cur[0] if cur else None, "title": (re.search(r"<title[^>]*>(.*?)</title>", h, re.S | re.I) or [None, None])[1]})
         if rec["title"]: rec["title"] = html.unescape(re.sub(r"\s+", " ", rec["title"]))[:120]
