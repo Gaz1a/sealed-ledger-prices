@@ -15,7 +15,7 @@ BELOW_REF = 0.85       # flag when all-in <= 85% of the lowest Portuguese sealed
 MARKETS = ("EBAY_US", "EBAY_GB", "EBAY_DE", "EBAY_ES", "EBAY_IT", "EBAY_FR", "EBAY_CA", "EBAY_AU")
 PT = re.compile(r"devir|livro ilustrado|estampas ilustradas|portugu[eê]s|portuguese|brasil|brazil", re.I)
 BAD = re.compile(r"\blots?\b|loose|incomplete|missing|opened|aberto|usado|\bused\b|empty|cards only|proxy|custom|reprint|\bpsa\b|\bcgc\b|\bbgs\b|graded", re.I)
-SEALED = re.compile(r"sealed|lacrado|selado|\bnew\b|\bnovo\b", re.I)
+SEALED = re.compile(r"sealed|lacrado|selado|precintado|versiegelt|\bneuf\b|\bneuve\b|\bovp\b|\bnew\b|\bnovo\b", re.I)
 def ld(p, d):
     try: return json.load(open(os.path.join(ROOT, p)))
     except Exception: return d
@@ -94,9 +94,13 @@ for rid, nm in ROWS.items():
             reasons = []
             if ref0 is None and first: reasons.append("first sealed Portuguese listing seen for this booklet")
             if ref0 and (allin is not None and allin <= ref0["allInUSD"] * BELOW_REF): reasons.append(f">=15% below reference (${ref0['allInUSD']})")
-            if mx is not None and ((allin is not None and allin <= mx) or (unk and lb <= mx)): reasons.append(f"at/below your max ${mx}" + (" (shipping unknown)" if unk else ""))
+            head = None
+            if mx is not None and unk:
+                head = round(mx / (1 + IMPORT_PCT if x["importEstUSD"] else 1) - x["itemUSD"], 2)     # shipping must stay at/under this for the cap to hold
+                if head > 0: reasons.append(f"shipping unknown: item ${x['itemUSD']}; under your ${mx} cap only if shipping stays at/under ${head}")
+            elif mx is not None and allin is not None and allin <= mx: reasons.append(f"at/below your max ${mx}")
             if reasons:
-                out["flags"].append({"id": rid, "name": nm, "reasons": reasons, "new": first, "allInUSD": allin, "allInStatus": "shipping unknown" if unk else "known", "itemOnlyLowerBoundUSD": lb,
+                out["flags"].append({"id": rid, "name": nm, "reasons": reasons, "new": first, "allInUSD": allin, "allInStatus": "shipping unknown" if unk else "known", "itemOnlyLowerBoundUSD": lb, "maxShippingForCapUSD": head,
                     "itemUSD": x["itemUSD"], "shippingUSD": x["shippingUSD"], "importEstUSD": x["importEstUSD"], "title": x["title"], "seller": x["seller"], "feedbackPct": x["feedbackPct"],
                     "feedbackScore": x["feedbackScore"], "itemLocation": x["originCountry"], "sealedBasis": x["sealedBasis"], "url": x["url"], "reference": ref0})
         known = [x for x in sealed_ls if not x["shipUnknown"]]

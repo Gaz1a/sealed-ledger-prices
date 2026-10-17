@@ -47,12 +47,29 @@ for rid, urls in cfg.get("urls", {}).items():
         elif re.search(r"esgotado|indispon[ií]vel|sold out|out of stock|sem stock", h, re.I): st = "out_of_stock"
         elif re.search(r"adicionar ao carrinho|comprar agora|em stock|dispon[ií]vel", h, re.I): st = "in_stock (wording only)"
         else: st = "unknown"
+        if host in JS_ONLY: st = "unknown (page is JavaScript-rendered)"
+        rec["isbnsOnPage"] = sorted(set(re.findall(r"97[89]\d{10}", h)))[:3]; rec["ref"] = sorted(set(re.findall(r"PKLIVLM\d+", h)))[:2]
         rec.update({"stock": st, "price": float(price[0].replace(",", ".")) if price else None, "currency": cur[0] if cur else None, "title": (re.search(r"<title[^>]*>(.*?)</title>", h, re.S | re.I) or [None, None])[1]})
         if rec["title"]: rec["title"] = html.unescape(re.sub(r"\s+", " ", rec["title"]))[:120]
         out["products"].append(rec)
         bad_isbn = rec["isbnOnPage"] is False
         if st.startswith("in_stock") and rec["price"] is not None and rec["currency"] in ("EUR", None) and rec["price"] <= 30 and not bad_isbn:
             out["inStock"].append({**rec, "shippingToBurbank": "not shown on product page; check checkout", "allInStatus": "shipping unknown"})
+# americana.pt: robots-allowed product pages follow a title pattern; probe it for booklets with no americana URL yet
+am = "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-{s}---cartas-+-livro-ilustrado"
+if out["sites"]["americana.pt"]["robots"] == "allowed":
+    have = {p["id"] for p in out["products"] if p["site"] == "americana.pt"}
+    for rid, nm in NAMES.items():
+        if rid in have: continue
+        u = am.format(s=nm.lower()); code, h = fetch(u)
+        rec = {"id": rid, "name": nm, "url": u, "site": "americana.pt", "http": code, "discovered": True}
+        if code == 200 and nm.lower() in h.lower():
+            av = re.findall(r'"availability"\s*:\s*"(?:https?://schema\.org/)?(\w+)"', h); pr = re.findall(r'"price"\s*:\s*"?([0-9]+[.,]?[0-9]*)"?', h)
+            rec.update({"stock": "in_stock" if av and re.search(r"InStock|LimitedAvailability", av[0]) else "out_of_stock" if av else "unknown", "price": float(pr[0].replace(",", ".")) if pr else None, "currency": "EUR",
+                        "isbnsOnPage": sorted(set(re.findall(r"97[89]\d{10}", h)))[:3], "ref": sorted(set(re.findall(r"PKLIVLM\d+", h)))[:2]})
+            if rec["stock"] == "in_stock" and rec["price"] is not None and rec["price"] <= 30: out["inStock"].append({**rec, "shippingToBurbank": "not shown on product page; check checkout", "allInStatus": "shipping unknown"})
+            out["products"].append(rec)
+        else: out.setdefault("probedNotFound", []).append({"id": rid, "url": u, "http": code})
 # Devir Brasil static search for each booklet
 if out["sites"]["devir.com.br"]["robots"] == "allowed":
     for rid, nm in NAMES.items():
