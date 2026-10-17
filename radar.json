@@ -1,74 +1,40 @@
 {
- "generated": "2026-10-11T23:32:33Z",
+ "generated": "2026-10-17T04:35:16Z",
  "source": "tcgcsv.com (TCGplayer market and lowest listing)",
- "scanned": 1672,
+ "scanned": 1675,
  "note": "",
  "candidates": [
   {
-   "pid": 692942,
-   "name": "Pitch Black Booster Bundle",
-   "set": "ME05: Pitch Black",
-   "cat": "Pokemon",
-   "market": 35.29,
-   "low": 15.0,
-   "msrpEst": 26.94,
-   "ageWeeks": 12.3,
-   "chg1w": -0.115,
+   "pid": 666254,
+   "name": "Mega Dream ex Booster Box",
+   "set": "M2a: High Class Pack: MEGA Dream ex",
+   "cat": "Pokemon Japan",
+   "market": 85.97,
+   "low": 64.8,
+   "msrpEst": 143.64,
+   "ageWeeks": 46.1,
+   "chg1w": 0.04,
    "chg4w": null,
    "tags": [
-    "post-launch slide -11%",
-    "cheapest listing 57% under market"
-   ],
-   "score": 4,
-   "url": "https://www.tcgplayer.com/product/692942"
-  },
-  {
-   "pid": 704177,
-   "name": "30th Celebration Mini Tin [Day Pikachu]",
-   "set": "ME: 30th Celebration",
-   "cat": "Pokemon",
-   "market": 25.86,
-   "low": 23.5,
-   "msrpEst": null,
-   "ageWeeks": 3.6,
-   "chg1w": -0.305,
-   "chg4w": null,
-   "tags": [
-    "post-launch slide -31%"
+    "near MSRP (0.60x est.)",
+    "cheapest listing 25% under market"
    ],
    "score": 3,
-   "url": "https://www.tcgplayer.com/product/704177"
-  },
-  {
-   "pid": 704180,
-   "name": "30th Celebration Mini Tin [Moltres]",
-   "set": "ME: 30th Celebration",
-   "cat": "Pokemon",
-   "market": 23.88,
-   "low": 22.0,
-   "msrpEst": null,
-   "ageWeeks": 3.6,
-   "chg1w": -0.413,
-   "chg4w": null,
-   "tags": [
-    "post-launch slide -41%"
-   ],
-   "score": 3,
-   "url": "https://www.tcgplayer.com/product/704180"
+   "url": "https://www.tcgplayer.com/product/666254"
   },
   {
    "pid": 609597,
    "name": "Blooming Waters Premium Collection",
    "set": "SV: Scarlet & Violet 151",
    "cat": "Pokemon",
-   "market": 329.16,
+   "market": 317.81,
    "low": 181.98,
    "msrpEst": null,
-   "ageWeeks": 159.3,
-   "chg1w": -0.002,
+   "ageWeeks": 160.1,
+   "chg1w": -0.034,
    "chg4w": null,
    "tags": [
-    "cheapest listing 45% under market"
+    "cheapest listing 43% under market"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/609597"
@@ -78,28 +44,45 @@
    "name": "Glory of Team Rocket Booster Box",
    "set": "SV10: The Glory of Team Rocket",
    "cat": "Pokemon Japan",
-   "market": 165.09,
-   "low": 148.0,
+   "market": 162.81,
+   "low": 155.0,
    "msrpEst": 143.64,
-   "ageWeeks": 77.3,
-   "chg1w": -0.041,
+   "ageWeeks": 78.1,
+   "chg1w": -0.014,
    "chg4w": null,
    "tags": [
-    "near MSRP (1.15x est.)"
+    "near MSRP (1.13x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/629197"
+  },
+  {
+   "pid": 571832,
+   "name": "Time Gazer Booster Box",
+   "set": "S10D: Time Gazer",
+   "cat": "Pokemon Japan",
+   "market": 154.89,
+   "low": 149.0,
+   "msrpEst": 143.64,
+   "ageWeeks": 236.1,
+   "chg1w": 0.02,
+   "chg4w": null,
+   "tags": [
+    "near MSRP (1.08x est.)"
+   ],
+   "score": 2,
+   "url": "https://www.tcgplayer.com/product/571832"
   },
   {
    "pid": 623064,
    "name": "Disney Lorcana: Reign of Jafar Booster Box",
    "set": "Reign of Jafar",
    "cat": "Lorcana",
-   "market": 154.45,
-   "low": 149.99,
+   "market": 154.23,
+   "low": 144.5,
    "msrpEst": 143.76,
-   "ageWeeks": 71.3,
-   "chg1w": 0.012,
+   "ageWeeks": 72.1,
+   "chg1w": -0.001,
    "chg4w": null,
    "tags": [
     "near MSRP (1.07x est.)"
@@ -112,82 +95,65 @@
    "name": "Ruler of the Black Flame Booster Box",
    "set": "SV3: Ruler of the Black Flame",
    "cat": "Pokemon Japan",
-   "market": 153.28,
-   "low": 130.0,
+   "market": 152.78,
+   "low": 127.51,
    "msrpEst": 143.64,
-   "ageWeeks": 167.3,
-   "chg1w": 0.0,
+   "ageWeeks": 168.1,
+   "chg1w": -0.003,
    "chg4w": null,
    "tags": [
-    "near MSRP (1.07x est.)"
+    "near MSRP (1.06x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/565236"
-  },
-  {
-   "pid": 565248,
-   "name": "Triple Beat Booster Box",
-   "set": "SV1a: Triplet Beat",
-   "cat": "Pokemon Japan",
-   "market": 152.25,
-   "low": 149.0,
-   "msrpEst": 143.64,
-   "ageWeeks": 187.3,
-   "chg1w": -0.002,
-   "chg4w": null,
-   "tags": [
-    "near MSRP (1.06x est.)"
-   ],
-   "score": 2,
-   "url": "https://www.tcgplayer.com/product/565248"
-  },
-  {
-   "pid": 571832,
-   "name": "Time Gazer Booster Box",
-   "set": "S10D: Time Gazer",
-   "cat": "Pokemon Japan",
-   "market": 151.9,
-   "low": 149.0,
-   "msrpEst": 143.64,
-   "ageWeeks": 235.3,
-   "chg1w": 0.02,
-   "chg4w": null,
-   "tags": [
-    "near MSRP (1.06x est.)"
-   ],
-   "score": 2,
-   "url": "https://www.tcgplayer.com/product/571832"
   },
   {
    "pid": 637384,
    "name": "Black Bolt Booster Box",
    "set": "SV11B: Black Bolt",
    "cat": "Pokemon Japan",
-   "market": 151.4,
-   "low": 140.0,
+   "market": 149.82,
+   "low": 137.48,
    "msrpEst": 143.64,
-   "ageWeeks": 70.3,
-   "chg1w": -0.013,
+   "ageWeeks": 71.1,
+   "chg1w": -0.01,
    "chg4w": null,
    "tags": [
-    "near MSRP (1.05x est.)"
+    "near MSRP (1.04x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/637384"
+  },
+  {
+   "pid": 565248,
+   "name": "Triple Beat Booster Box",
+   "set": "SV1a: Triplet Beat",
+   "cat": "Pokemon Japan",
+   "market": 149.51,
+   "low": 149.0,
+   "msrpEst": 143.64,
+   "ageWeeks": 188.1,
+   "chg1w": -0.018,
+   "chg4w": null,
+   "tags": [
+    "near MSRP (1.04x est.)"
+   ],
+   "score": 2,
+   "url": "https://www.tcgplayer.com/product/565248"
   },
   {
    "pid": 575042,
    "name": "Dark Phantasma Booster Box",
    "set": "S10a: Dark Phantasma",
    "cat": "Pokemon Japan",
-   "market": 146.21,
+   "market": 148.17,
    "low": 224.99,
    "msrpEst": 143.64,
-   "ageWeeks": 230.3,
-   "chg1w": 0.0,
+   "ageWeeks": 231.1,
+   "chg1w": 0.013,
    "chg4w": null,
    "tags": [
-    "near MSRP (1.02x est.)"
+    "near MSRP (1.03x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/575042"
@@ -200,8 +166,8 @@
    "market": 145.02,
    "low": 172.8,
    "msrpEst": 143.64,
-   "ageWeeks": 70.3,
-   "chg1w": 0.034,
+   "ageWeeks": 71.1,
+   "chg1w": 0.0,
    "chg4w": null,
    "tags": [
     "near MSRP (1.01x est.)"
@@ -215,10 +181,10 @@
    "set": "SV8: Super Electric Breaker",
    "cat": "Pokemon Japan",
    "market": 144.96,
-   "low": 137.0,
+   "low": 135.85,
    "msrpEst": 143.64,
-   "ageWeeks": 103.3,
-   "chg1w": -0.008,
+   "ageWeeks": 104.1,
+   "chg1w": 0.0,
    "chg4w": null,
    "tags": [
     "near MSRP (1.01x est.)"
@@ -227,52 +193,52 @@
    "url": "https://www.tcgplayer.com/product/587728"
   },
   {
-   "pid": 555130,
-   "name": "Disney Lorcana: Shimmering Skies Booster Box",
-   "set": "Shimmering Skies",
-   "cat": "Lorcana",
-   "market": 143.97,
-   "low": 135.0,
-   "msrpEst": 143.76,
-   "ageWeeks": 113.3,
-   "chg1w": 0.01,
-   "chg4w": null,
-   "tags": [
-    "near MSRP (1.00x est.)"
-   ],
-   "score": 2,
-   "url": "https://www.tcgplayer.com/product/555130"
-  },
-  {
    "pid": 607758,
    "name": "Disney Lorcana: Archazia's Island Booster Box",
    "set": "Archazia's Island",
    "cat": "Lorcana",
-   "market": 142.23,
-   "low": 147.98,
+   "market": 144.95,
+   "low": 135.0,
    "msrpEst": 143.76,
-   "ageWeeks": 83.3,
-   "chg1w": 0.056,
+   "ageWeeks": 84.1,
+   "chg1w": 0.019,
+   "chg4w": null,
+   "tags": [
+    "near MSRP (1.01x est.)"
+   ],
+   "score": 2,
+   "url": "https://www.tcgplayer.com/product/607758"
+  },
+  {
+   "pid": 555130,
+   "name": "Disney Lorcana: Shimmering Skies Booster Box",
+   "set": "Shimmering Skies",
+   "cat": "Lorcana",
+   "market": 142.65,
+   "low": 127.99,
+   "msrpEst": 143.76,
+   "ageWeeks": 114.1,
+   "chg1w": -0.009,
    "chg4w": null,
    "tags": [
     "near MSRP (0.99x est.)"
    ],
    "score": 2,
-   "url": "https://www.tcgplayer.com/product/607758"
+   "url": "https://www.tcgplayer.com/product/555130"
   },
   {
    "pid": 575040,
    "name": "Pokemon GO Booster Box",
    "set": "S10b: Pokemon GO",
    "cat": "Pokemon Japan",
-   "market": 139.47,
+   "market": 141.23,
    "low": 149.99,
    "msrpEst": 143.64,
-   "ageWeeks": 225.3,
-   "chg1w": 0.057,
+   "ageWeeks": 226.1,
+   "chg1w": 0.013,
    "chg4w": null,
    "tags": [
-    "near MSRP (0.97x est.)"
+    "near MSRP (0.98x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/575040"
@@ -282,14 +248,14 @@
    "name": "Space Juggler Booster Box",
    "set": "S10P: Space Juggler",
    "cat": "Pokemon Japan",
-   "market": 130.03,
+   "market": 131.58,
    "low": 140.0,
    "msrpEst": 143.64,
-   "ageWeeks": 235.3,
-   "chg1w": 0.0,
+   "ageWeeks": 236.1,
+   "chg1w": 0.012,
    "chg4w": null,
    "tags": [
-    "near MSRP (0.91x est.)"
+    "near MSRP (0.92x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/575036"
@@ -299,11 +265,11 @@
    "name": "Disney Lorcana: Into the Inklands Booster Box",
    "set": "Into the Inklands",
    "cat": "Lorcana",
-   "market": 128.64,
+   "market": 127.65,
    "low": 112.0,
    "msrpEst": 143.76,
-   "ageWeeks": 137.3,
-   "chg1w": 0.018,
+   "ageWeeks": 138.1,
+   "chg1w": -0.008,
    "chg4w": null,
    "tags": [
     "near MSRP (0.89x est.)"
@@ -316,14 +282,14 @@
    "name": "Heat Wave Arena Booster Box",
    "set": "SV9a: Heat Wave Arena",
    "cat": "Pokemon Japan",
-   "market": 127.57,
+   "market": 126.76,
    "low": 120.0,
    "msrpEst": 143.64,
-   "ageWeeks": 82.3,
-   "chg1w": -0.004,
+   "ageWeeks": 83.1,
+   "chg1w": -0.006,
    "chg4w": null,
    "tags": [
-    "near MSRP (0.89x est.)"
+    "near MSRP (0.88x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/623310"
@@ -336,8 +302,8 @@
    "market": 126.4,
    "low": 126.4,
    "msrpEst": 143.64,
-   "ageWeeks": 274.3,
-   "chg1w": -0.022,
+   "ageWeeks": 275.1,
+   "chg1w": 0.0,
    "chg4w": null,
    "tags": [
     "near MSRP (0.88x est.)"
@@ -350,14 +316,14 @@
    "name": "White Flare Booster Box",
    "set": "SV11W: White Flare",
    "cat": "Pokemon Japan",
-   "market": 123.03,
-   "low": 118.01,
+   "market": 122.55,
+   "low": 109.82,
    "msrpEst": 143.64,
-   "ageWeeks": 70.3,
-   "chg1w": -0.008,
+   "ageWeeks": 71.1,
+   "chg1w": -0.004,
    "chg4w": null,
    "tags": [
-    "near MSRP (0.86x est.)"
+    "near MSRP (0.85x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/637386"
@@ -367,11 +333,11 @@
    "name": "Crimson Haze Booster Box",
    "set": "SV5a: Crimson Haze",
    "cat": "Pokemon Japan",
-   "market": 120.59,
+   "market": 120.11,
    "low": 107.0,
    "msrpEst": 143.64,
-   "ageWeeks": 133.3,
-   "chg1w": 0.0,
+   "ageWeeks": 134.1,
+   "chg1w": -0.004,
    "chg4w": null,
    "tags": [
     "near MSRP (0.84x est.)"
@@ -384,11 +350,11 @@
    "name": "Disney Lorcana: Ursula's Return Booster Box",
    "set": "Ursula's Return",
    "cat": "Lorcana",
-   "market": 120.0,
-   "low": 127.0,
+   "market": 119.89,
+   "low": 130.0,
    "msrpEst": 143.76,
-   "ageWeeks": 125.3,
-   "chg1w": -0.03,
+   "ageWeeks": 126.1,
+   "chg1w": -0.001,
    "chg4w": null,
    "tags": [
     "near MSRP (0.83x est.)"
@@ -401,14 +367,14 @@
    "name": "Disney Lorcana: Azurite Sea Booster Box",
    "set": "Azurite Sea",
    "cat": "Lorcana",
-   "market": 116.08,
+   "market": 118.6,
    "low": 109.94,
    "msrpEst": 143.76,
-   "ageWeeks": 99.3,
-   "chg1w": 0.006,
+   "ageWeeks": 100.1,
+   "chg1w": 0.022,
    "chg4w": null,
    "tags": [
-    "near MSRP (0.81x est.)"
+    "near MSRP (0.82x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/578093"
@@ -418,17 +384,534 @@
    "name": "Paradise Dragona Booster Box",
    "set": "SV7a: Paradise Dragona",
    "cat": "Pokemon Japan",
-   "market": 114.47,
+   "market": 114.67,
    "low": 114.99,
    "msrpEst": 143.64,
-   "ageWeeks": 108.3,
-   "chg1w": 0.0,
+   "ageWeeks": 109.1,
+   "chg1w": 0.002,
    "chg4w": null,
    "tags": [
     "near MSRP (0.80x est.)"
    ],
    "score": 2,
    "url": "https://www.tcgplayer.com/product/580709"
+  },
+  {
+   "pid": 565235,
+   "name": "Raging Surf Booster Box",
+   "set": "SV3a: Raging Surf",
+   "cat": "Pokemon Japan",
+   "market": 110.28,
+   "low": 104.0,
+   "msrpEst": 143.64,
+   "ageWeeks": 160.1,
+   "chg1w": -0.011,
+   "chg4w": null,
+   "tags": [
+    "near MSRP (0.77x est.)"
+   ],
+   "score": 2,
+   "url": "https://www.tcgplayer.com/product/565235"
+  },
+  {
+   "pid": 565347,
+   "name": "Jet-Black Spirit Booster Box",
+   "set": "S6K: Jet-Black Spirit",
+   "cat": "Pokemon Japan",
+   "market": 109.39,
+   "low": 101.96,
+   "msrpEst": 143.64,
+   "ageWeeks": 286.1,
+   "chg1w": 0.004,
+   "chg4w": null,
+   "tags": [
+    "near MSRP (0.76x est.)"
+   ],
+   "score": 2,
+   "url": "https://www.tcgplayer.com/product/565347"
   }
- ]
+ ],
+ "jumbo": [
+  {
+   "jumboId": "j-2017-umbreon-gx-premium-collection-en",
+   "kind": "sealed",
+   "name": "Umbreon GX Premium Collection",
+   "productId": 137524,
+   "market": 800.0,
+   "low": 999.99,
+   "chg1w": -0.077,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/137524"
+  },
+  {
+   "jumboId": "j-2025-lugia-ex-latias-ex-premium-collection-en",
+   "kind": "sealed",
+   "name": "Lugia ex & Latias ex Premium Collection",
+   "productId": 655739,
+   "market": 103.31,
+   "low": 85.99,
+   "chg1w": -0.036,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/655739"
+  },
+  {
+   "jumboId": "j-2021-greninja-v-union-special-collection-en",
+   "kind": "sealed",
+   "name": "Greninja V-UNION Special Collection",
+   "productId": 245878,
+   "market": 138.99,
+   "low": 144.98,
+   "chg1w": 0.024,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/245878"
+  },
+  {
+   "jumboId": "j-2022-lucario-vstar-premium-collection-en",
+   "kind": "sealed",
+   "name": "Lucario VSTAR Premium Collection",
+   "productId": 262637,
+   "market": 104.63,
+   "low": 107.98,
+   "chg1w": 0.02,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/262637"
+  },
+  {
+   "jumboId": "j-2023-lucario-vstar-special-collection-en",
+   "kind": "sealed",
+   "name": "Lucario VSTAR Special Collection",
+   "productId": 497728,
+   "market": 85.12,
+   "low": 86.25,
+   "chg1w": 0.019,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/497728"
+  },
+  {
+   "jumboId": "j-2021-single-strike-urshifu-vmax-premium-collection-en",
+   "kind": "sealed",
+   "name": "Single Strike Urshifu VMAX Premium Collection",
+   "productId": 253455,
+   "market": 156.11,
+   "low": 199.0,
+   "chg1w": 0.018,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/253455"
+  },
+  {
+   "jumboId": "j-2025-incineroar-ex-torterra-ex-special-collection-en",
+   "kind": "sealed",
+   "name": "Incineroar ex and Torterra ex Special Collection",
+   "productId": 664092,
+   "market": 74.14,
+   "low": 69.4,
+   "chg1w": 0.017,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/664092"
+  },
+  {
+   "jumboId": "j-2021-mewtwo-v-union-special-collection-en",
+   "kind": "sealed",
+   "name": "Mewtwo V-UNION Special Collection",
+   "productId": 245877,
+   "market": 180.82,
+   "low": 149.99,
+   "chg1w": -0.016,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/245877"
+  },
+  {
+   "jumboId": "j-2026-mega-greninja-ex-premium-collection-en",
+   "kind": "sealed",
+   "name": "Mega Greninja ex Premium Collection",
+   "productId": 690660,
+   "market": 48.01,
+   "low": 37.99,
+   "chg1w": -0.015,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/690660"
+  },
+  {
+   "jumboId": "j-2025-venusaur-ex-blastoise-ex-premium-collection-en",
+   "kind": "sealed",
+   "name": "Venusaur ex & Blastoise ex Premium Collection",
+   "productId": 635621,
+   "market": 84.44,
+   "low": 90.0,
+   "chg1w": -0.013,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/635621"
+  },
+  {
+   "jumboId": "j-2025-mega-venusaur-ex-premium-collection-en",
+   "kind": "sealed",
+   "name": "Mega Venusaur ex Premium Collection",
+   "productId": 654212,
+   "market": 69.26,
+   "low": 67.47,
+   "chg1w": -0.013,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/654212"
+  },
+  {
+   "jumboId": "j-2022-origin-forme-dialga-vstar-premium-collection-en",
+   "kind": "sealed",
+   "name": "Origin Forme Dialga VSTAR Premium Collection",
+   "productId": 282000,
+   "market": 123.93,
+   "low": 150.0,
+   "chg1w": 0.012,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/282000"
+  },
+  {
+   "jumboId": "j-2024-paradox-fury-premium-collection-en",
+   "kind": "sealed",
+   "name": "Paradox Fury Premium Collection",
+   "productId": 575185,
+   "market": 77.0,
+   "low": 114.99,
+   "chg1w": 0.012,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/575185"
+  },
+  {
+   "jumboId": "j-2025-mimikyu-ex-alcremie-ex-premium-collection-en",
+   "kind": "sealed",
+   "name": "Mimikyu ex & Alcremie ex Premium Collection",
+   "productId": 655747,
+   "market": 115.86,
+   "low": 115.0,
+   "chg1w": -0.011,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/655747"
+  },
+  {
+   "jumboId": "j-2025-charizard-ex-special-collection-en",
+   "kind": "sealed",
+   "name": "Charizard ex Special Collection",
+   "productId": 616305,
+   "market": 59.69,
+   "low": 47.44,
+   "chg1w": -0.01,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/616305"
+  },
+  {
+   "jumboId": "j-2025-hydreigon-ex-dragapult-ex-premium-collection-en",
+   "kind": "sealed",
+   "name": "Hydreigon ex & Dragapult ex Premium Collection",
+   "productId": 653199,
+   "market": 100.29,
+   "low": 99.99,
+   "chg1w": 0.01,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/653199"
+  },
+  {
+   "jumboId": "j-None-paldean-fates-great-tusk-ex-iron-treads-ex-premium-collection-en",
+   "kind": "sealed",
+   "name": "Paldean Fates Great Tusk ex & Iron Treads ex Premium Collection",
+   "productId": 665113,
+   "market": 248.23,
+   "low": 245.74,
+   "chg1w": 0.009,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/665113"
+  },
+  {
+   "jumboId": "j-2022-morpeko-v-union-special-collection-en",
+   "kind": "sealed",
+   "name": "Morpeko V-UNION Special Collection",
+   "productId": 262646,
+   "market": 74.3,
+   "low": 80.0,
+   "chg1w": 0.009,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/262646"
+  },
+  {
+   "jumboId": "j-2025-snorlax-ex-blissey-ex-special-collection-en",
+   "kind": "sealed",
+   "name": "Snorlax ex & Blissey ex Special Collection",
+   "productId": 662770,
+   "market": 81.95,
+   "low": 80.0,
+   "chg1w": 0.009,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/662770"
+  },
+  {
+   "jumboId": "j-2025-mega-lucario-ex-premium-figure-collection-en",
+   "kind": "sealed",
+   "name": "Mega Lucario ex Premium Figure Collection",
+   "productId": 656487,
+   "market": 54.9,
+   "low": 48.39,
+   "chg1w": 0.009,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/656487"
+  },
+  {
+   "jumboId": "j-2022-darkrai-vstar-premium-collection-en",
+   "kind": "sealed",
+   "name": "Darkrai VSTAR Premium Collection",
+   "productId": 286618,
+   "market": 150.73,
+   "low": 147.99,
+   "chg1w": -0.006,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/286618"
+  },
+  {
+   "jumboId": "j-2025-blaziken-ex-volcanion-ex-premium-collection-en",
+   "kind": "sealed",
+   "name": "Blaziken ex & Volcanion ex Premium Collection",
+   "productId": 650229,
+   "market": 88.65,
+   "low": 85.0,
+   "chg1w": 0.006,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/650229"
+  },
+  {
+   "jumboId": "j-2021-jolteon-vmax-premium-collection-en",
+   "kind": "sealed",
+   "name": "Jolteon VMAX Premium Collection",
+   "productId": 249693,
+   "market": 324.44,
+   "low": 315.0,
+   "chg1w": 0.005,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/249693"
+  },
+  {
+   "jumboId": "j-2022-glaceon-vstar-special-collection-en",
+   "kind": "sealed",
+   "name": "Glaceon VSTAR Special Collection",
+   "productId": 256146,
+   "market": 137.51,
+   "low": 143.0,
+   "chg1w": 0.005,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/256146"
+  },
+  {
+   "jumboId": "j-2025-unova-heavy-hitters-premium-collection-en",
+   "kind": "sealed",
+   "name": "Unova Heavy Hitters Premium Collection",
+   "productId": 668632,
+   "market": 165.75,
+   "low": 159.96,
+   "chg1w": -0.005,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/668632"
+  },
+  {
+   "jumboId": "j-2021-rapid-strike-urshifu-vmax-premium-collection-en",
+   "kind": "sealed",
+   "name": "Rapid Strike Urshifu VMAX Premium Collection",
+   "productId": 253454,
+   "market": 129.8,
+   "low": 109.8,
+   "chg1w": -0.004,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/253454"
+  },
+  {
+   "jumboId": "j-2021-flareon-vmax-premium-collection-en",
+   "kind": "sealed",
+   "name": "Flareon VMAX Premium Collection",
+   "productId": 249705,
+   "market": 313.08,
+   "low": 322.98,
+   "chg1w": 0.004,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/249705"
+  },
+  {
+   "jumboId": "j-2025-masks-of-ogerpon-premium-collection-en",
+   "kind": "sealed",
+   "name": "Masks of Ogerpon Premium Collection",
+   "productId": 629647,
+   "market": 89.85,
+   "low": 88.29,
+   "chg1w": 0.003,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/629647"
+  },
+  {
+   "jumboId": "j-2026-mega-zygarde-ex-premium-collection-en",
+   "kind": "sealed",
+   "name": "Mega Zygarde ex Premium Collection",
+   "productId": 682939,
+   "market": 48.21,
+   "low": 33.5,
+   "chg1w": 0.003,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/682939"
+  },
+  {
+   "jumboId": "j-2025-unova-victini-illustration-collection-en",
+   "kind": "sealed",
+   "name": "Unova Victini Illustration Collection",
+   "productId": 630615,
+   "market": 71.65,
+   "low": 60.0,
+   "chg1w": -0.002,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/630615"
+  },
+  {
+   "jumboId": "j-2022-origin-forme-palkia-vstar-premium-collection-en",
+   "kind": "sealed",
+   "name": "Origin Forme Palkia VSTAR Premium Collection",
+   "productId": 282001,
+   "market": 124.03,
+   "low": 122.8,
+   "chg1w": 0.001,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/282001"
+  },
+  {
+   "jumboId": "j-None-paldean-fates-great-tusk-ex-iron-treads-ex-premium-collection-en",
+   "kind": "card",
+   "name": "Great Tusk ex - 072 (Paldean Fates Stamped)",
+   "productId": 666593,
+   "market": 1.93,
+   "low": 0.99,
+   "chg1w": null,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/666593"
+  },
+  {
+   "jumboId": "j-2008-dialga-premium-box-en",
+   "kind": "card",
+   "name": "Dialga - DP26 (DP Black Star Promo)",
+   "productId": 211429,
+   "market": 20.9,
+   "low": 9.0,
+   "chg1w": null,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/211429"
+  },
+  {
+   "jumboId": "j-2008-palkia-premium-box-en",
+   "kind": "card",
+   "name": "Palkia - DP27",
+   "productId": 211504,
+   "market": 15.99,
+   "low": 12.6,
+   "chg1w": null,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/211504"
+  },
+  {
+   "jumboId": "j-2009-arceus-poster-box-en",
+   "kind": "card",
+   "name": "Arceus - DP50 (DP Black Star Promos)",
+   "productId": 211415,
+   "market": 41.79,
+   "low": 100.0,
+   "chg1w": null,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/211415"
+  },
+  {
+   "jumboId": "j-2011-outstanding-oshawott-box-en",
+   "kind": "card",
+   "name": "______'s Oshawott",
+   "productId": 180718,
+   "market": 60.87,
+   "low": 54.95,
+   "chg1w": null,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/180718"
+  },
+  {
+   "jumboId": "j-2011-super-snivy-box-en",
+   "kind": "card",
+   "name": "______'s Snivy",
+   "productId": 211418,
+   "market": 48.98,
+   "low": 46.0,
+   "chg1w": null,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/211418"
+  },
+  {
+   "jumboId": "j-2011-terrific-tepig-box-en",
+   "kind": "card",
+   "name": "______'s Tepig",
+   "productId": 211419,
+   "market": 47.86,
+   "low": 40.0,
+   "chg1w": null,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/211419"
+  },
+  {
+   "jumboId": "j-2012-keldeo-box-en",
+   "kind": "card",
+   "name": "Keldeo EX - 49/99",
+   "productId": 211457,
+   "market": 13.0,
+   "low": 10.0,
+   "chg1w": null,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/211457"
+  },
+  {
+   "jumboId": "j-2013-deoxys-box-en",
+   "kind": "card",
+   "name": "Deoxys EX - 53/116 (Plasma Freeze)",
+   "productId": 211428,
+   "market": 31.5,
+   "low": 16.0,
+   "chg1w": null,
+   "chg4w": null,
+   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "url": "https://www.tcgplayer.com/product/211428"
+  }
+ ],
+ "jumboTracked": 324
 }
