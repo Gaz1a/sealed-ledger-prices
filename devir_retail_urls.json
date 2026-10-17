@@ -10,7 +10,9 @@
   "bk-golem": "9788575322581",
   "bk-omastar": "9788575322598",
   "bk-machamp": "9788575322604",
-  "h-gengar-deck": "9788575322611"
+  "h-gengar-deck": "9788575322611",
+  "bk-torchic": "9788575321201",
+  "bk-exploud": "9788575322062"
  },
  "urls": {
   "h-gengar-deck": [
@@ -62,75 +64,87 @@
  "booklets": {
   "bk-torchic": {
    "retailerRef": "Comix SKU 6983",
-   "isbn13": null,
-   "isbnStatus": "unknown",
-   "isbnChecksumValid": null
+   "isbn13": "9788575321201",
+   "isbnStatus": "given by Gaz",
+   "isbnChecksumValid": true,
+   "cardmarketId": 906395
   },
   "bk-mudkip": {
    "retailerRef": "Comix SKU 8203",
    "isbn13": "9788575321348",
-   "isbnStatus": "given by Gaz, unverified",
-   "isbnChecksumValid": true
+   "isbnStatus": "given by Gaz",
+   "isbnChecksumValid": true,
+   "cardmarketId": 906378
   },
   "bk-treecko": {
    "retailerRef": "PKLIVTREEKO",
    "isbn13": "9788575321331",
    "isbnStatus": "given by Gaz",
-   "isbnChecksumValid": true
+   "isbnChecksumValid": true,
+   "cardmarketId": 755665
   },
   "bk-ralts": {
    "retailerRef": "PKLIVRALTZ",
    "isbn13": "9788575321324",
    "isbnStatus": "given by Gaz",
-   "isbnChecksumValid": true
+   "isbnChecksumValid": true,
+   "cardmarketId": 755666
   },
   "bk-exploud": {
    "retailerRef": "Comix SKU 6982",
-   "isbn13": null,
-   "isbnStatus": "unknown",
-   "isbnChecksumValid": null
+   "isbn13": "9788575322062",
+   "isbnStatus": "given by Gaz",
+   "isbnChecksumValid": true,
+   "cardmarketId": 906369
   },
   "bk-rayquaza": {
    "retailerRef": "Comix SKU 8220",
    "isbn13": "9788575322079",
-   "isbnStatus": "given by Gaz, unverified",
-   "isbnChecksumValid": true
+   "isbnStatus": "given by Gaz",
+   "isbnChecksumValid": true,
+   "cardmarketId": 906388
   },
   "bk-hooh": {
    "retailerRef": "PKLIVFO07",
    "isbn13": "9788575322352",
    "isbnStatus": "given by Gaz",
-   "isbnChecksumValid": true
+   "isbnChecksumValid": true,
+   "cardmarketId": 755664
   },
   "bk-lugia": {
    "retailerRef": "PKLUGIACON",
    "isbn13": "9788575322369",
    "isbnStatus": "given by Gaz",
-   "isbnChecksumValid": true
+   "isbnChecksumValid": true,
+   "cardmarketId": 698569
   },
   "bk-golem": {
    "retailerRef": "PKLIVLM09",
    "isbn13": "9788575322581",
    "isbnStatus": "given by Gaz",
-   "isbnChecksumValid": true
+   "isbnChecksumValid": true,
+   "cardmarketId": 695810
   },
   "bk-omastar": {
    "retailerRef": "PKLIVLM10",
    "isbn13": "9788575322598",
    "isbnStatus": "given by Gaz",
-   "isbnChecksumValid": true
+   "isbnChecksumValid": true,
+   "cardmarketId": 698568
   },
   "bk-machamp": {
    "retailerRef": "PKLIVLM11",
    "isbn13": "9788575322604",
    "isbnStatus": "given by Gaz",
-   "isbnChecksumValid": true
+   "isbnChecksumValid": true,
+   "cardmarketId": 695811
   },
   "h-gengar-deck": {
    "retailerRef": "PKLIVLM12",
    "isbn13": "9788575322611",
    "isbnStatus": "given by Gaz",
-   "isbnChecksumValid": true
+   "isbnChecksumValid": true,
+   "cardmarketId": 695809
   }
  },
  "_spelling": "PKLIVTREEKO and PKLIVRALTZ are the retailer's spellings (TREEKO, RALTZ)."

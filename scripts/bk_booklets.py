@@ -36,6 +36,12 @@ CID, CS = os.environ.get("EBAY_CLIENT_ID"), os.environ.get("EBAY_CLIENT_SECRET")
 tok = get("https://api.ebay.com/identity/v1/oauth2/token", {"Authorization": "Basic " + base64.b64encode(f"{CID}:{CS}".encode()).decode(), "Content-Type": "application/x-www-form-urlencoded"},
           urllib.parse.urlencode({"grant_type": "client_credentials", "scope": "https://api.ebay.com/oauth/api_scope"}).encode()).get("access_token")
 cfg = ld("devir_retail_urls.json", {}); BK = cfg.get("booklets", {})
+CMG, CMN = {}, {}      # Cardmarket price guide + product names, by the ledger's cardmarketId (English EX booklets used as the price proxy)
+try:
+    _req = lambda u: json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "sealed-ledger"}), timeout=180))
+    CMG = {g["idProduct"]: g for g in _req("https://downloads.s3.cardmarket.com/productCatalog/priceGuide/price_guide_6.json")["priceGuides"]}
+    CMN = {p["idProduct"]: p["name"] for p in _req("https://downloads.s3.cardmarket.com/productCatalog/productList/products_nonsingles_6.json")["products"]}
+except Exception as _e: print("cardmarket download failed", type(_e).__name__)
 found = {k: {} for k in ROWS}
 OTHER = {rid: re.compile(r"(?<![a-z])" + re.escape(nm) + r"(?![a-z])", re.I) for rid, nm in ROWS.items()}
 if tok:
@@ -77,7 +83,7 @@ for st_ in refs["items"].values():     # drop earlier fuzzy ISBN junk (novels et
     st_["seen"] = {k: v for k, v in st_["seen"].items() if valid_title(v.get("title"))}
     if st_.get("reference") and not valid_title(st_["reference"].get("title")): st_["reference"] = None; maxp = ld("booklet_max.json", {})   # booklet_max.json: {"bk-golem": 60, ...} all-in max you set; optional
 stock = ld("stock_check.json", {})
-out = {"searchKeys": {r: {"titleQueries": [f"Devir Livro Ilustrado {n}", f"Estampas Ilustradas {n}", f"Pokemon Origem das Lendas {n} Devir"], "isbn13": BK.get(r, {}).get("isbn13"), "isbnStatus": BK.get(r, {}).get("isbnStatus"),
+out = {"searchKeys": {r: {"titleQueries": [f"Devir Livro Ilustrado {n}", f"Estampas Ilustradas {n}", f"Pokemon Origem das Lendas {n} Devir"], "isbn13": BK.get(r, {}).get("isbn13"), "isbnStatus": BK.get(r, {}).get("isbnStatus"), "cardmarketId": BK.get(r, {}).get("cardmarketId"),
        "retailerRef": BK.get(r, {}).get("retailerRef")} for r, n in ROWS.items()}, "retailerInStock": stock.get("inStock", []), "retailerCheck": {"generated": stock.get("generated"), "sites": stock.get("sites"), "devirBrasil": {k: v for k, v in (stock.get("devirBrasil") or {}).items() if v.get("productLinks")},
        "productsChecked": len(stock.get("products", [])), "note": "in-stock retail copies under EUR 30 are listed here first; sites marked DISALLOWED/JS-only are skipped, not worked around"},
        "generated": TODAY, "label": "unverified: asking prices, not sold; import cost is an ESTIMATE", "assumptions": {"importEstimatePct": IMPORT_PCT, "shipTo": "Burbank CA 91505",
@@ -85,7 +91,8 @@ out = {"searchKeys": {r: {"titleQueries": [f"Devir Livro Ilustrado {n}", f"Estam
                  "no sealed Portuguese reference yet -> flag any sealed listing the first time its item id appears", "only sealed/new listings are flagged; others listed under notSealed", "shipping not shown -> all-in is 'shipping unknown' (item+import shown as lower bound)"]},
        "flags": [], "notSealed": [], "counts": {}, "items": {}}
 for rid, nm in ROWS.items():
-    cmn, cd = cm.get(nm, (None, None))
+    cmid = BK.get(rid, {}).get("cardmarketId"); g_ = CMG.get(cmid) if cmid else None; cmn = CMN.get(cmid) if cmid else None
+    cd = {"id": cmid, "trendEUR": (g_ or {}).get("trend"), "lowEUR": (g_ or {}).get("low"), "inPriceGuide": g_ is not None} if cmid else None
     proxy = round(cd["trendEUR"] * fx, 2) if cd and cd.get("trendEUR") else None
     ls = sorted(found[rid].values(), key=lambda x: x["itemUSD"])
     e = prices["items"].setdefault(rid, {"name": nm, "history": []})
@@ -97,6 +104,7 @@ for rid, nm in ROWS.items():
     st = refs["items"].setdefault(rid, {"name": nm, "reference": None, "seen": {}})
     ref0 = dict(st["reference"]) if st["reference"] else None          # reference BEFORE today's listings
     mx = maxp.get(rid)
+    cmt = round(proxy * 0.85, 2) if proxy else None     # 85% of the English Cardmarket trend, once a trend exists
     sealed_ls = [x for x in ls if x["sealed"]]; ns_ls = [x for x in ls if not x["sealed"]]
     for x in ls:
         iid = x["url"].split("/")[-1]
@@ -116,6 +124,7 @@ for rid, nm in ROWS.items():
                 head = round(mx / (1 + IMPORT_PCT if x["importEstUSD"] else 1) - x["itemUSD"], 2)     # shipping must stay at/under this for the cap to hold
                 if head > 0: reasons.append(f"shipping unknown: item ${x['itemUSD']}; under your ${mx} cap only if shipping stays at/under ${head}")
             elif mx is not None and allin is not None and allin <= mx: reasons.append(f"at/below your max ${mx}")
+            if cmt and allin is not None and allin <= cmt: reasons.append(f"at/below 85% of the English Cardmarket trend (${cmt})")
             if reasons:
                 out["flags"].append({"id": rid, "name": nm, "reasons": reasons, "new": first, "allInUSD": allin, "allInStatus": "shipping unknown" if unk else "known", "itemOnlyLowerBoundUSD": lb, "maxShippingForCapUSD": head,
                     "itemUSD": x["itemUSD"], "shippingUSD": x["shippingUSD"], "importEstUSD": x["importEstUSD"], "title": x["title"], "seller": x["seller"], "feedbackPct": x["feedbackPct"],
@@ -126,7 +135,7 @@ for rid, nm in ROWS.items():
             if not st["reference"] or b["allInUSD"] < st["reference"]["allInUSD"]:
                 st["reference"] = {"allInUSD": b["allInUSD"], "itemUSD": b["itemUSD"], "date": TODAY, "url": b["url"], "title": b["title"]}
     out["counts"][rid] = {"name": nm, "owned": rid in OWNED, "foundToday": len(ls), "sealedToday": len(sealed_ls), "notSealedToday": len(ns_ls), "distinctEverSeen": len(st["seen"]),
-                          "sealedEverSeen": sum(1 for v in st["seen"].values() if v["sealed"]), "reference": st["reference"], "max": mx}
+                          "sealedEverSeen": sum(1 for v in st["seen"].values() if v["sealed"]), "reference": st["reference"], "max": mx, "cardmarketTrendUSD": proxy, "cardmarketTarget85": cmt, "cardmarketId": cmid, "cardmarketProduct": cmn}
     out["items"][rid] = {"listings": ls}
 # ---- market log: every listing seen, disappearances = "probably sold" (unverified implied sale; asks are NOT sold prices)
 import statistics
@@ -151,7 +160,8 @@ out["market"] = {"label": "unverified: ASKING prices of Portuguese Devir booklet
 for rid, nm in ROWS.items():
     liv = [e for e in LG.values() if e["row"] == rid and e["status"] == "live"]; imp = [e for e in LG.values() if e["row"] == rid and e["status"] == "probably sold"]
     out["market"]["perBooklet"][rid] = {"name": nm, "liveListings": len(liv), "liveSealed": sum(1 for e in liv if e["sealed"]), "askItemUSD": stats([e["lastItemUSD"] for e in liv]),
-        "impliedSales": len(imp), "impliedSaleMedianUSD": stats([e["impliedSale"]["price"] for e in imp])["median"], "everSeen": sum(1 for e in LG.values() if e["row"] == rid)}
+        "cardmarketId": BK.get(rid, {}).get("cardmarketId"), "cardmarketProduct": CMN.get(BK.get(rid, {}).get("cardmarketId")), "cardmarketTrendUSD": out["counts"][rid]["cardmarketTrendUSD"], "target85OfTrend": out["counts"][rid]["cardmarketTarget85"],
+        "targetNote": None if out["counts"][rid]["cardmarketTrendUSD"] else "no Cardmarket trend yet; target set automatically at 85% once one is published", "impliedSales": len(imp), "impliedSaleMedianUSD": stats([e["impliedSale"]["price"] for e in imp])["median"], "everSeen": sum(1 for e in LG.values() if e["row"] == rid)}
 log["generated"] = TODAY; log["note"] = "one record per eBay item id: first/last seen, last ask, shipping, sealed y/n, status; asks only"
 json.dump(log, open(os.path.join(ROOT, "booklet_listings.json"), "w"), indent=1, ensure_ascii=False)
 allc = out["counts"]
