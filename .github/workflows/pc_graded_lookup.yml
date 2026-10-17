@@ -1,0 +1,21 @@
+name: PC graded lookup
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/pc_graded_lookup.py
+        env:
+          PRICECHARTING_TOKEN: ${{ secrets.PRICECHARTING_TOKEN }}
+      - run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add -f pc_graded_lookup.json
+          git diff --cached --quiet || git commit -m "pc graded lookup"
+          git pull --rebase
+          git push

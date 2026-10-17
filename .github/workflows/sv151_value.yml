@@ -1,0 +1,19 @@
+name: SV151 value
+on:
+  schedule: [{cron: "55 9 * * *"}]
+  workflow_dispatch:
+permissions: {contents: write}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/sv151_value.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
+          git add sv151_value.json sv151_lines.json sv151_history.json sv151_backfill.json
+          git diff --cached --quiet || git commit -m "sv151 value $(date -u +%F)"
+          git pull --rebase && git push
