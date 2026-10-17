@@ -2331,6 +2331,14 @@
   "how": "tcg-id",
   "pcId": 11748916
  },
+ "s-30-sir-jirachi": {
+  "how": "tcg-id",
+  "pcId": 14451069
+ },
+ "s-30-sir-sylveon": {
+  "how": "tcg-id",
+  "pcId": 14451067
+ },
  "s-cc-zard": {
   "how": "tcg-id",
   "pcId": 14470806
@@ -2338,6 +2346,66 @@
  "s-charizard-tg03": {
   "how": "tcg-id",
   "pcId": 4080755
+ },
+ "s-cri-ampharos-090": {
+  "how": "tcg-id",
+  "pcId": 13025516
+ },
+ "s-cri-bubbly-water-energy-084": {
+  "how": "tcg-id",
+  "pcId": 13087233
+ },
+ "s-cri-cinccino-ex-105": {
+  "how": "tcg-id",
+  "pcId": 13025533
+ },
+ "s-cri-cobalion-ex-064": {
+  "how": "tcg-id",
+  "pcId": 13025536
+ },
+ "s-cri-crobat-051": {
+  "how": "tcg-id",
+  "pcId": 13074032
+ },
+ "s-cri-crobat-093": {
+  "how": "tcg-id",
+  "pcId": 13025538
+ },
+ "s-cri-energy-retrieval-108": {
+  "how": "tcg-id",
+  "pcId": 13025545
+ },
+ "s-cri-fennekin-mep080": {
+  "how": "tcg-id",
+  "pcId": 13041035
+ },
+ "s-cri-froakie-088": {
+  "how": "tcg-id",
+  "pcId": 13025625
+ },
+ "s-cri-ho-oh-010": {
+  "how": "tcg-id",
+  "pcId": 13067661
+ },
+ "s-cri-jumbo-ice-cream-109": {
+  "how": "tcg-id",
+  "pcId": 13025565
+ },
+ "s-cri-mega-dragalge-ex-104": {
+  "how": "tcg-id",
+  "pcId": 13025572
+ },
+ "s-cri-nitro-fire-energy-086": {
+  "how": "tcg-id",
+  "pcId": 13067674
+ },
+ "s-cri-sliggoo-095": {
+  "how": "tcg-id",
+  "pcId": 13025608
+ },
+ "s-cri-watchog-097": {
+  "how": "tcg-id",
+  "pcId": 13025618
  },
  "s-darkrai-sir": {
   "how": "tcg-id",
@@ -2367,6 +2435,10 @@
   "how": "tcg-id",
   "pcId": 6277151
  },
+ "s-por-mega-clefable-ex-031": {
+  "how": "tcg-id",
+  "pcId": 12368540
+ },
  "sealed:ah-bundle": {
   "how": "tcg-id",
   "pcId": 11748912
@@ -2379,9 +2451,21 @@
   "how": "tcg-id",
   "pcId": 14328084
  },
+ "sealed:c30-pcetb": {
+  "how": "tcg-id",
+  "pcId": 14328086
+ },
  "sealed:c30-poster": {
   "how": "tcg-id",
   "pcId": 14328096
+ },
+ "sealed:c30-upc": {
+  "how": "tcg-id",
+  "pcId": 14328114
+ },
+ "sealed:c30-upc-night": {
+  "how": "tcg-id",
+  "pcId": 14328116
  },
  "sealed:cr-etb": {
   "how": "tcg-id",
@@ -2410,6 +2494,14 @@
  "sealed:h-greninja": {
   "how": "tcg-id",
   "pcId": 13701456
+ },
+ "sealed:h-moonlit-clefable": {
+  "how": "tcg-id",
+  "pcId": 13256793
+ },
+ "sealed:h-moonlit-gengar": {
+  "how": "tcg-id",
+  "pcId": 13257802
  },
  "sealed:h-pb-box": {
   "how": "tcg-id",
@@ -2442,6 +2534,38 @@
  "sealed:pe-spc-2": {
   "how": "tcg-id",
   "pcId": 9382733
+ },
+ "sealed:radar-282401": {
+  "how": "tcg-id",
+  "pcId": 4234475
+ },
+ "sealed:radar-565236": {
+  "how": "tcg-id",
+  "pcId": 5604459
+ },
+ "sealed:radar-565248": {
+  "how": "tcg-id",
+  "pcId": 5571283
+ },
+ "sealed:radar-571832": {
+  "how": "tcg-id",
+  "pcId": 5604350
+ },
+ "sealed:radar-575042": {
+  "how": "tcg-id",
+  "pcId": 5571281
+ },
+ "sealed:radar-587728": {
+  "how": "tcg-id",
+  "pcId": 7641161
+ },
+ "sealed:radar-603428": {
+  "how": "tcg-id",
+  "pcId": 7980012
+ },
+ "sealed:radar-637384": {
+  "how": "tcg-id",
+  "pcId": 9647241
  },
  "sealed:rp-668541": {
   "how": "tcg-id",
