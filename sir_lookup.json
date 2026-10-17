@@ -1,0 +1,968 @@
+{
+ "groups": [
+  [
+   3,
+   24831,
+   "ME06: Delta Reign",
+   "2026-11-06T00:00:00"
+  ],
+  [
+   3,
+   24722,
+   "ME: 30th Celebration",
+   "2026-09-16T00:00:00"
+  ],
+  [
+   3,
+   24837,
+   "ME: 30th Celebration Classic Collection",
+   "2026-09-16T00:00:00"
+  ],
+  [
+   3,
+   24688,
+   "ME05: Pitch Black",
+   "2026-07-17T00:00:00"
+  ],
+  [
+   3,
+   24541,
+   "ME: Ascended Heroes",
+   "2026-01-30T00:00:00"
+  ],
+  [
+   3,
+   24451,
+   "ME: Mega Evolution Promo",
+   "2025-09-26T00:00:00"
+  ],
+  [
+   3,
+   24380,
+   "ME01: Mega Evolution",
+   "2025-09-26T00:00:00"
+  ],
+  [
+   3,
+   24461,
+   "MEE: Mega Evolution Energies",
+   "2025-09-26T00:00:00"
+  ],
+  [
+   3,
+   2867,
+   "Celebrations",
+   "2021-10-08T00:00:00"
+  ],
+  [
+   3,
+   2931,
+   "Celebrations: Classic Collection",
+   "2021-10-08T00:00:00"
+  ],
+  [
+   68,
+   24736,
+   "The World's Strongest Warriors",
+   "2026-08-28T00:00:00"
+  ],
+  [
+   68,
+   24775,
+   "The World's Strongest Warriors Release Event Cards",
+   "2026-08-21T00:00:00"
+  ]
+ ],
+ "hits": [
+  {
+   "cat": 3,
+   "group": "ME: 30th Celebration",
+   "gid": 24722,
+   "pid": 696677,
+   "name": "Sylveon ex - 071/128",
+   "number": "071/128",
+   "rarity": "Double Rare",
+   "prices": [
+    [
+     "Holofoil",
+     0.77,
+     0.01
+    ]
+   ]
+  },
+  {
+   "cat": 3,
+   "group": "ME: 30th Celebration",
+   "gid": 24722,
+   "pid": 704149,
+   "name": "30th Celebration ex Tin [Sylveon ex] (International Version)",
+   "number": null,
+   "rarity": null,
+   "prices": [
+    [
+     "Normal",
+     70.12,
+     94.39
+    ]
+   ]
+  },
+  {
+   "cat": 3,
+   "group": "ME: 30th Celebration",
+   "gid": 24722,
+   "pid": 704155,
+   "name": "30th Celebration Sylveon ex Box",
+   "number": null,
+   "rarity": null,
+   "prices": [
+    [
+     "Normal",
+     61.37,
+     51.0
+    ]
+   ]
+  },
+  {
+   "cat": 3,
+   "group": "ME: 30th Celebration",
+   "gid": 24722,
+   "pid": 716231,
+   "name": "Sylveon ex - 153/128",
+   "number": "153/128",
+   "rarity": "Special Illustration Rare",
+   "prices": [
+    [
+     "Holofoil",
+     42.79,
+     40.0
+    ]
+   ]
+  },
+  {
+   "cat": 3,
+   "group": "ME: 30th Celebration",
+   "gid": 24722,
+   "pid": 716232,
+   "name": "Jirachi ex - 155/128",
+   "number": "155/128",
+   "rarity": "Special Illustration Rare",
+   "prices": [
+    [
+     "Holofoil",
+     43.46,
+     42.61
+    ]
+   ]
+  },
+  {
+   "cat": 3,
+   "group": "ME: 30th Celebration",
+   "gid": 24722,
+   "pid": 716495,
+   "name": "Jirachi ex - 102/128",
+   "number": "102/128",
+   "rarity": "Double Rare",
+   "prices": [
+    [
+     "Holofoil",
+     0.6,
+     0.2
+    ]
+   ]
+  },
+  {
+   "cat": 3,
+   "group": "ME: 30th Celebration",
+   "gid": 24722,
+   "pid": 718674,
+   "name": "30th Celebration ex Tin [Sylveon ex] (Retail Version)",
+   "number": null,
+   "rarity": null,
+   "prices": [
+    [
+     "Normal",
+     61.81,
+     55.0
+    ]
+   ]
+  },
+  {
+   "cat": 3,
+   "group": "ME: 30th Celebration Classic Collection",
+   "gid": 24837,
+   "pid": 716196,
+   "name": "Rayquaza EX",
+   "number": "85/124",
+   "rarity": "Classic Collection",
+   "prices": [
+    [
+     "Holofoil",
+     21.26,
+     20.0
+    ]
+   ]
+  },
+  {
+   "cat": 3,
+   "group": "ME: Mega Evolution Promo",
+   "gid": 24451,
+   "pid": 713267,
+   "name": "Sylveon ex - 100 (30th Celebration)",
+   "number": "100",
+   "rarity": "Promo",
+   "prices": [
+    [
+     "Holofoil",
+     1.08,
+     0.51
+    ]
+   ]
+  },
+  {
+   "cat": 3,
+   "group": "Celebrations",
+   "gid": 2867,
+   "pid": 242809,
+   "name": "Celebrations Collection [Dark Sylveon V]",
+   "number": null,
+   "rarity": null,
+   "prices": [
+    [
+     "Normal",
+     164.85,
+     145.7
+    ]
+   ]
+  },
+  {
+   "cat": 3,
+   "group": "Celebrations",
+   "gid": 2867,
+   "pid": 251050,
+   "name": "Code Card - Celebrations Collection [Dark Sylveon V]",
+   "number": null,
+   "rarity": "Code Card",
+   "prices": [
+    [
+     "Normal",
+     0.1,
+     0.05
+    ]
+   ]
+  },
+  {
+   "cat": 3,
+   "group": "Celebrations",
+   "gid": 2867,
+   "pid": 251988,
+   "name": "Pokemon Celebrations International Tin [Dark Sylveon V]",
+   "number": null,
+   "rarity": null,
+   "prices": [
+    [
+     "Normal",
+     127.85,
+     129.98
+    ]
+   ]
+  },
+  {
+   "cat": 3,
+   "group": "Celebrations",
+   "gid": 2867,
+   "pid": 251989,
+   "name": "Pokemon Celebrations Tin [Dark Sylveon V]",
+   "number": null,
+   "rarity": null,
+   "prices": [
+    [
+     "Normal",
+     173.99,
+     385.0
+    ]
+   ]
+  },
+  {
+   "cat": 3,
+   "group": "Celebrations",
+   "gid": 2867,
+   "pid": 491227,
+   "name": "Code Card - Pokemon Celebrations Tin [Dark Sylveon V]",
+   "number": null,
+   "rarity": "Code Card",
+   "prices": [
+    [
+     "Normal",
+     null,
+     0.1
+    ]
+   ]
+  },
+  {
+   "cat": 3,
+   "group": "Celebrations",
+   "gid": 2867,
+   "pid": 491228,
+   "name": "Code Card - Pokemon Celebrations International Tin [Dark Sylveon V]",
+   "number": null,
+   "rarity": "Code Card",
+   "prices": []
+  },
+  {
+   "cat": 3,
+   "group": "Celebrations: Classic Collection",
+   "gid": 2931,
+   "pid": 250341,
+   "name": "M Rayquaza EX",
+   "number": "76/108",
+   "rarity": "Classic Collection",
+   "prices": [
+    [
+     "Holofoil",
+     34.73,
+     31.45
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 705923,
+   "name": "Shanks (020) (Alternate Art)",
+   "number": "OP17-020",
+   "rarity": "L",
+   "prices": [
+    [
+     "Foil",
+     26.78,
+     24.75
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 705924,
+   "name": "Edward.Newgate (001) (Alternate Art)",
+   "number": "OP17-001",
+   "rarity": "L",
+   "prices": [
+    [
+     "Foil",
+     11.12,
+     10.26
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 707118,
+   "name": "Kaido (058) (Alternate Art)",
+   "number": "OP17-058",
+   "rarity": "L",
+   "prices": [
+    [
+     "Foil",
+     26.75,
+     24.0
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 707121,
+   "name": "Shanks (022) (Alternate Art)",
+   "number": "OP17-022",
+   "rarity": "SR",
+   "prices": [
+    [
+     "Foil",
+     30.69,
+     29.7
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 707124,
+   "name": "Monkey.D.Luffy (079) (Alternate Art)",
+   "number": "OP17-079",
+   "rarity": "L",
+   "prices": [
+    [
+     "Foil",
+     43.22,
+     39.99
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 707135,
+   "name": "Kaido (062) (Alternate Art)",
+   "number": "OP17-062",
+   "rarity": "SR",
+   "prices": [
+    [
+     "Foil",
+     15.7,
+     15.16
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 707139,
+   "name": "Charlotte Linlin (099) (Alternate Art)",
+   "number": "OP17-099",
+   "rarity": "L",
+   "prices": [
+    [
+     "Foil",
+     14.71,
+     11.0
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 708072,
+   "name": "Charlotte Linlin (112) (Manga)",
+   "number": "OP17-112",
+   "rarity": "SR",
+   "prices": [
+    [
+     "Foil",
+     801.65,
+     740.99
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 708077,
+   "name": "Edward.Newgate (005) (Alternate Art)",
+   "number": "OP17-005",
+   "rarity": "SR",
+   "prices": [
+    [
+     "Foil",
+     13.62,
+     12.01
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 709837,
+   "name": "Rocks.D.Xebec (118) (Alternate Art)",
+   "number": "OP17-118",
+   "rarity": "SEC",
+   "prices": [
+    [
+     "Foil",
+     37.22,
+     36.0
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 710539,
+   "name": "Miss Buckingham Stussy (Alternate Art)",
+   "number": "OP17-054",
+   "rarity": "R",
+   "prices": [
+    [
+     "Foil",
+     21.3,
+     18.99
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 710540,
+   "name": "Charlotte Linlin (049) (Alternate Art)",
+   "number": "OP17-049",
+   "rarity": "R",
+   "prices": [
+    [
+     "Foil",
+     19.8,
+     17.92
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 710586,
+   "name": "Loki (Alternate Art)",
+   "number": "OP17-119",
+   "rarity": "SEC",
+   "prices": [
+    [
+     "Foil",
+     47.64,
+     44.99
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 710591,
+   "name": "Rocks.D.Xebec (039) (Alternate Art)",
+   "number": "OP17-039",
+   "rarity": "L",
+   "prices": [
+    [
+     "Foil",
+     37.95,
+     36.0
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 710859,
+   "name": "DON!! Card (Alternate Art) (Gold)",
+   "number": null,
+   "rarity": "DON!!",
+   "prices": [
+    [
+     "Foil",
+     8.12,
+     5.81
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 710860,
+   "name": "DON!! Card (Alternate Art) (Luffy and Loki) (Gold)",
+   "number": null,
+   "rarity": "DON!!",
+   "prices": [
+    [
+     "Foil",
+     27.44,
+     24.99
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 710862,
+   "name": "Monkey.D.Luffy (093) (Alternate Art)",
+   "number": "OP17-093",
+   "rarity": "SR",
+   "prices": [
+    [
+     "Foil",
+     32.21,
+     28.34
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 711324,
+   "name": "Charlotte Linlin (112) (Alternate Art)",
+   "number": "OP17-112",
+   "rarity": "SR",
+   "prices": [
+    [
+     "Foil",
+     19.99,
+     17.99
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 711420,
+   "name": "DON!! Card (Alternate Art) (Rocks) (Special Foil)",
+   "number": null,
+   "rarity": "DON!!",
+   "prices": [
+    [
+     "Foil",
+     43.51,
+     39.24
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 711421,
+   "name": "DON!! Card (Alternate Art) (The Four Emperors) (Gold)",
+   "number": null,
+   "rarity": "DON!!",
+   "prices": [
+    [
+     "Foil",
+     12.04,
+     10.0
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 711423,
+   "name": "Yasopp (Alternate Art)",
+   "number": "OP17-031",
+   "rarity": "SR",
+   "prices": [
+    [
+     "Foil",
+     8.66,
+     7.55
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 711425,
+   "name": "Are You That Afraid of the New Era?! (Alternate Art)",
+   "number": "OP17-037",
+   "rarity": "R",
+   "prices": [
+    [
+     "Foil",
+     80.16,
+     64.69
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 711427,
+   "name": "Usopp (Alternate Art)",
+   "number": "OP17-080",
+   "rarity": "SR",
+   "prices": [
+    [
+     "Foil",
+     16.02,
+     14.43
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 711513,
+   "name": "Gloriosa (Alternate Art)",
+   "number": "OP17-046",
+   "rarity": "SR",
+   "prices": [
+    [
+     "Foil",
+     22.66,
+     21.01
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 712083,
+   "name": "Edward.Newgate (005) (Manga)",
+   "number": "OP17-005",
+   "rarity": "SR",
+   "prices": [
+    [
+     "Foil",
+     1076.92,
+     1000.0
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 712084,
+   "name": "Shanks (022) (Manga)",
+   "number": "OP17-022",
+   "rarity": "SR",
+   "prices": [
+    [
+     "Foil",
+     1497.03,
+     1100.0
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 712085,
+   "name": "Benn.Beckman (Alternate Art)",
+   "number": "OP17-027",
+   "rarity": "R",
+   "prices": [
+    [
+     "Foil",
+     8.41,
+     7.87
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 712087,
+   "name": "Shiki (048) (Alternate Art)",
+   "number": "OP17-048",
+   "rarity": "SR",
+   "prices": [
+    [
+     "Foil",
+     10.74,
+     8.96
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 712090,
+   "name": "Kaido (062) (Manga)",
+   "number": "OP17-062",
+   "rarity": "SR",
+   "prices": [
+    [
+     "Foil",
+     1062.45,
+     828.0
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 712091,
+   "name": "Kaido (062) (Super Alternate Art)",
+   "number": "OP17-062",
+   "rarity": "SR",
+   "prices": [
+    [
+     "Foil",
+     190.19,
+     167.95
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 712092,
+   "name": "Kaido (063) (Alternate Art)",
+   "number": "OP17-063",
+   "rarity": "SR",
+   "prices": [
+    [
+     "Foil",
+     8.1,
+     7.0
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 712114,
+   "name": "Monkey.D.Luffy (079) (Super Leader Alternate Art)",
+   "number": "OP17-079",
+   "rarity": "L",
+   "prices": [
+    [
+     "Foil",
+     1421.46,
+     1350.95
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 712115,
+   "name": "Nico Robin (Alternate Art)",
+   "number": "OP17-087",
+   "rarity": "R",
+   "prices": [
+    [
+     "Foil",
+     35.72,
+     34.0
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 712116,
+   "name": "Sweet 3 Generals (Alternate Art)",
+   "number": "OP17-114",
+   "rarity": "R",
+   "prices": [
+    [
+     "Foil",
+     18.34,
+     16.5
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 712117,
+   "name": "Rocks.D.Xebec (118) (Super Alternate Art)",
+   "number": "OP17-118",
+   "rarity": "SEC",
+   "prices": [
+    [
+     "Foil",
+     6100.0,
+     5999.95
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 712626,
+   "name": "Lead Performers (Alternate Art)",
+   "number": "OP17-061",
+   "rarity": "R",
+   "prices": [
+    [
+     "Foil",
+     7.77,
+     6.99
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 712747,
+   "name": "DON!! Card (Alternate Art)",
+   "number": null,
+   "rarity": "DON!!",
+   "prices": [
+    [
+     "Normal",
+     0.31,
+     0.05
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 712748,
+   "name": "DON!! Card (Alternate Art) (Luffy and Loki)",
+   "number": null,
+   "rarity": "DON!!",
+   "prices": [
+    [
+     "Normal",
+     1.38,
+     0.5
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 712749,
+   "name": "DON!! Card (Alternate Art) (Rocks)",
+   "number": null,
+   "rarity": "DON!!",
+   "prices": [
+    [
+     "Normal",
+     1.76,
+     1.17
+    ]
+   ]
+  },
+  {
+   "cat": 68,
+   "group": "The World's Strongest Warriors",
+   "gid": 24736,
+   "pid": 712750,
+   "name": "DON!! Card (Alternate Art) (The Four Emperors)",
+   "number": null,
+   "rarity": "DON!!",
+   "prices": [
+    [
+     "Normal",
+     0.62,
+     0.1
+    ]
+   ]
+  }
+ ]
+}
