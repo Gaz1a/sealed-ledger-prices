@@ -13,9 +13,9 @@ ROWS = {"bk-golem": "Golem", "bk-hooh": "Ho-Oh", "bk-lugia": "Lugia", "bk-macham
 OWNED = {"h-gengar-deck"}
 BELOW_REF = 0.85       # flag when all-in <= 85% of the lowest Portuguese sealed all-in seen so far (>=15% below)
 MARKETS = ("EBAY_US", "EBAY_GB", "EBAY_DE", "EBAY_ES", "EBAY_IT", "EBAY_FR", "EBAY_CA", "EBAY_AU")
-PT = re.compile(r"devir|livro ilustrado|estampas ilustradas|portugu[eê]s|portuguese|brasil|brazil", re.I)
-BAD = re.compile(r"\blots?\b|loose|incomplete|missing|opened|aberto|usado|\bused\b|empty|cards only|proxy|custom|reprint|\bpsa\b|\bcgc\b|\bbgs\b|graded", re.I)
-SEALED = re.compile(r"sealed|lacrado|selado|precintado|versiegelt|\bneuf\b|\bneuve\b|\bovp\b|\bnew\b|\bnovo\b", re.I)
+PT = re.compile(r"devir|livro|livraria|baralho|estampas ilustradas|origem das lendas|portugu[eéê]s|portuguese|portoghese|portogallo|portugal|brasil|brazil", re.I)
+BAD = re.compile(r"\bcase\b|\blots?\b|loose|incomplete|missing|opened|aberto|usado|\bused\b|empty|cards only|proxy|custom|reprint|\bpsa\b|\bcgc\b|\bbgs\b|graded", re.I)
+SEALED = re.compile(r"sealed|lacrado|selado|precintado|versiegelt|\bneuf\b|\bneuve\b|\bovp\b|sigillat[oa]|scell[ée]|cerrado|\bnew\b|\bnovo\b", re.I)
 def ld(p, d):
     try: return json.load(open(os.path.join(ROOT, p)))
     except Exception: return d
@@ -56,8 +56,8 @@ if tok:
                     name_ok = bool(OTHER[rid].search(t))
                     if via == "title":
                         if not name_ok or not PT.search(t) or BAD.search(t): continue
-                    else:      # matched by ISBN / retailer ref: eBay did the matching; reject only lots/graded and listings that name a different booklet
-                        if BAD.search(t) or any(r2 != rid and p.search(t) for r2, p in OTHER.items()): continue
+                    else:      # matched by ISBN / GTIN / retailer ref: eBay's matching is fuzzy (returns novels), so still require a Pokemon/booklet signal AND a Portuguese signal
+                        if BAD.search(t) or not PT.search(t) or not (name_ok or re.search(r"pok[eé]mon", t, re.I)) or any(r2 != rid and p.search(t) for r2, p in OTHER.items()): continue
                     if "FIXED_PRICE" not in (i.get("buyingOptions") or []): continue
                     item = usd(i.get("price"))
                     if item is None: continue
@@ -70,8 +70,12 @@ if tok:
                         "importEstUSD": imp, "allInUSD": round(item + (ship or 0) + imp, 2), "originCountry": loc, "condition": i.get("condition"), "itemEndDate": i.get("itemEndDate"), "sealed": sealed, "matchedBy": via + (" (ISBN unverified)" if via.startswith("isbn") and not b.get("isbnStatus", "").endswith("Gaz") else ""),
                         "sealedBasis": "condition New" if i.get("condition") == "New" else "title says sealed/new" if SEALED.search(t) else "unconfirmed",
                         "seller": (i.get("seller") or {}).get("username"), "feedbackPct": (i.get("seller") or {}).get("feedbackPercentage"), "feedbackScore": (i.get("seller") or {}).get("feedbackScore")}
+def valid_title(t): return bool(PT.search(t or "")) and bool(re.search(r"pok[eé]mon|booklet|half deck|theme deck|legend maker|livro", t or "", re.I)) and not BAD.search(t or "")
 prices = ld("booklet_prices.json", {"items": {}})
-refs = ld("booklet_refs.json", {"items": {}}); maxp = ld("booklet_max.json", {})   # booklet_max.json: {"bk-golem": 60, ...} all-in max you set; optional
+refs = ld("booklet_refs.json", {"items": {}})
+for st_ in refs["items"].values():     # drop earlier fuzzy ISBN junk (novels etc.) from the seen-log and from references
+    st_["seen"] = {k: v for k, v in st_["seen"].items() if valid_title(v.get("title"))}
+    if st_.get("reference") and not valid_title(st_["reference"].get("title")): st_["reference"] = None; maxp = ld("booklet_max.json", {})   # booklet_max.json: {"bk-golem": 60, ...} all-in max you set; optional
 stock = ld("stock_check.json", {})
 out = {"searchKeys": {r: {"titleQueries": [f"Devir Livro Ilustrado {n}", f"Estampas Ilustradas {n}", f"Pokemon Origem das Lendas {n} Devir"], "isbn13": BK.get(r, {}).get("isbn13"), "isbnStatus": BK.get(r, {}).get("isbnStatus"),
        "retailerRef": BK.get(r, {}).get("retailerRef")} for r, n in ROWS.items()}, "retailerInStock": stock.get("inStock", []), "retailerCheck": {"generated": stock.get("generated"), "sites": stock.get("sites"), "devirBrasil": {k: v for k, v in (stock.get("devirBrasil") or {}).items() if v.get("productLinks")},
@@ -126,7 +130,7 @@ for rid, nm in ROWS.items():
     out["items"][rid] = {"listings": ls}
 # ---- market log: every listing seen, disappearances = "probably sold" (unverified implied sale; asks are NOT sold prices)
 import statistics
-log = ld("booklet_listings.json", {"listings": {}}); LG = log["listings"]; live_ids = set()
+log = ld("booklet_listings.json", {"listings": {}}); log["listings"] = {k: v for k, v in log["listings"].items() if valid_title(v.get("title"))}; LG = log["listings"]; live_ids = set()
 for rid in ROWS:
     for x in found[rid].values():
         iid = x["url"].split("/")[-1]; live_ids.add(iid)
