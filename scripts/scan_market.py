@@ -88,6 +88,12 @@ def fetch_group(args):
 
 def main():
     tracked = {v["productId"] for v in load("tracked.json", {}).values()}
+    try:
+        import jumbo_util as ju
+        tracked |= ju.sealed_pids()      # jumbo sealed gets its own section below, not the generic untracked-movers list
+        jp = ju.prices()
+    except Exception:
+        jp = {}
     jobs = []
     for cat in CATS:
         d = get(f"{BASE}/{cat}/groups")
@@ -102,6 +108,13 @@ def main():
 
     os.makedirs(os.path.join(ROOT, "snapshots"), exist_ok=True)
     snap = {str(r["pid"]): [r["market"], r["low"]] for r in rows}
+    # jumbo sealed + loose jumbo cards: market/low from the daily jumbo scan (jumbo_prices.json), so the snapshot history covers them
+    jq = {}
+    for jid, it in jp.items():
+        for kind in ("sealed", "card"):
+            e = it.get(kind) or {}
+            if e.get("market") is not None and e.get("productId"):
+                snap.setdefault(str(e["productId"]), [e["market"], e.get("low")]); jq[(jid, kind)] = e
     json.dump(snap, open(os.path.join(ROOT, f"snapshots/{TODAY}.json"), "w"), separators=(",", ":"))
     json.dump(snap, open(os.path.join(ROOT, "snap_latest.json"), "w"), separators=(",", ":"))
     files = sorted(glob.glob(os.path.join(ROOT, "snapshots/*.json")))
@@ -147,18 +160,32 @@ def main():
                           "chg4w": round(chg4, 3) if chg4 is not None else None,
                           "tags": tags, "score": score,
                           "url": f"https://www.tcgplayer.com/product/{r['pid']}"})
+    jmov = []
+    for (jid, kind), e in jq.items():
+        pid = str(e["productId"]); m = e["market"]
+        c1 = (m / s1w[pid][0] - 1) if s1w and pid in s1w and s1w[pid][0] else None
+        c4 = (m / s4w[pid][0] - 1) if s4w and pid in s4w and s4w[pid][0] else None
+        jmov.append({"jumboId": jid, "kind": kind, "name": e.get("name") or jp[jid].get("title"), "productId": e["productId"], "market": m, "low": e.get("low"),
+                     "chg1w": round(c1, 3) if c1 is not None else None, "chg4w": round(c4, 3) if c4 is not None else None,
+                     "source": e.get("source"), "url": f"https://www.tcgplayer.com/product/{e['productId']}"})
+    jmov.sort(key=lambda x: -abs(x["chg4w"] if x["chg4w"] is not None else (x["chg1w"] or 0)))
     cands.sort(key=lambda c: (-c["score"], -c["market"]))
     top = cands[:25]
     note = "" if s1w else "First run: no earlier snapshot yet, so slide signals start next week."
     json.dump({"generated": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
                "source": "tcgcsv.com (TCGplayer market and lowest listing)",
-               "scanned": len(rows), "note": note, "candidates": top},
+               "scanned": len(rows), "note": note, "candidates": top, "jumbo": jmov[:40], "jumboTracked": len(jmov)},
               open(os.path.join(ROOT, "radar.json"), "w"), indent=1, ensure_ascii=False)
     lines = [f"# Market radar {TODAY}", f"Scanned {len(rows)} sealed products. {note}", "",
              "| Product | Set | Market | Low | Signals |", "|---|---|---|---|---|"]
     for c in top:
         lines.append(f"| [{c['name']}]({c['url']}) | {c['set']} | ${c['market']:.2f} | "
                      f"{'$%.2f' % c['low'] if c['low'] else '-'} | {'; '.join(c['tags'])} |")
+    if jmov:
+        lines += ["", f"## Jumbo movers ({len(jmov)} jumbo products priced; TCGplayer market, not sold-verified)", "| Jumbo | Kind | Market | 1w | 4w |", "|---|---|---|---|---|"]
+        for x in jmov[:15]:
+            f = lambda v: "-" if v is None else f"{v*100:+.0f}%"
+            lines.append(f"| [{x['name']}]({x['url']}) | {x['kind']} | ${x['market']:.2f} | {f(x['chg1w'])} | {f(x['chg4w'])} |")
     open(os.path.join(ROOT, "radar.md"), "w").write("\n".join(lines) + "\n")
     print(f"scanned {len(rows)} sealed products, {len(cands)} flagged, top {len(top)} written")
 

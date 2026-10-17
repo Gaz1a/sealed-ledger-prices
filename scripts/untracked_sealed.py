@@ -57,6 +57,11 @@ def fetch_group(args):
 def main():
     tracked = json.load(open(os.path.join(ROOT, "tracked.json")))
     tpids = {v["productId"] for v in tracked.values()}
+    try:
+        import jumbo_util as ju
+        tpids |= ju.sealed_pids()      # jumbo sealed is tracked via jumbo_ids.json; don't flag as missing
+    except Exception:
+        pass
     gmap = sm.load("group-map.json", {})
     item_sets = sm.load("item_sets.json", {})
     jobs = []

@@ -17,6 +17,9 @@ LOTQ = ["gyarados lot pokemon cards", "magikarp lot pokemon cards", "gyarados ma
         "base set holo lot", "jungle holo lot", "fossil holo lot", "team rocket holo lot",
         "wotc holo rare lot pokemon", "vintage pokemon holo lot"]
 
+NOISE_J = re.compile(NOISE.pattern.replace(r"\bjumbo\b|\boversized?\b|", ""), re.I)   # jumbo wants must NOT be filtered out for saying "jumbo"
+def is_j(wid): return wid.startswith("jumbo-")
+
 def load(n, d):
     p = os.path.join(ROOT, n)
     return json.load(open(p)) if os.path.exists(p) else d
@@ -77,18 +80,23 @@ def main():
     for wid, title in wants.items():
         name, num, clean = parse(title)
         mk = (prices.get(wid) or {}).get("market")
+        if is_j(wid):
+            mk = ((load("jumbo_prices.json", {}).get("items", {}).get(wid[6:], {}) or {}).get("card") or {}).get("market")
         W[wid] = {"title": title, "name": name, "num": num, "clean": clean, "market": mk, "target": round(target(mk), 2) if mk else None}
     singles, seen = [], set()
     nq = 0
     for wid, w in W.items():
-        if not w["market"] or w["market"] < 8: continue   # cheap commons are only worth buying inside lots
+        if not w["market"] or (w["market"] < 8 and not is_j(wid)): continue   # cheap commons are only worth buying inside lots
         q = f"{w['name']} {w['num']}" if w["num"] else w["clean"]
+        if is_j(wid): q = f"{w['name']} jumbo"
         filt = f"price:[{max(2, round(w['market'] * 0.50))}..{round(w['market'] * 1.6)}],priceCurrency:USD,buyingOptions:{{FIXED_PRICE|AUCTION}}"
+        if is_j(wid): filt = f"price:[1..{max(15, round(w['market'] * 4))}],priceCurrency:USD,buyingOptions:{{FIXED_PRICE|AUCTION}}"
         kept = 0
         nq += 1
         for h in search(q, H, filt, 40, 0, "price"):
             t = h.get("title", "")
-            if h["itemId"] in seen or NOISE.search(t) or not seller_ok(h): continue
+            if h["itemId"] in seen or (NOISE_J if is_j(wid) else NOISE).search(t) or not seller_ok(h): continue
+            if is_j(wid) and not re.search(r"jumbo|oversize", t, re.I): continue
             if w["name"].lower() not in t.lower(): continue
             if w["num"] and not has_num(t, w["num"]): continue
             if not w["num"] and not all(x.lower() in t.lower() for x in re.findall(r"[A-Za-z]{3,}", w["clean"])[:3]): continue
