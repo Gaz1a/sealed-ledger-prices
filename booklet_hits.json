@@ -1,4 +1,126 @@
 {
+ "searchKeys": {
+  "bk-golem": {
+   "titleQueries": [
+    "Devir Livro Ilustrado Golem",
+    "Estampas Ilustradas Golem",
+    "Pokemon Origem das Lendas Golem Devir"
+   ],
+   "isbn13": "9788575322581",
+   "isbnStatus": "given by Gaz",
+   "retailerRef": "PKLIVLM09"
+  },
+  "bk-hooh": {
+   "titleQueries": [
+    "Devir Livro Ilustrado Ho-Oh",
+    "Estampas Ilustradas Ho-Oh",
+    "Pokemon Origem das Lendas Ho-Oh Devir"
+   ],
+   "isbn13": "9788575322352",
+   "isbnStatus": "given by Gaz",
+   "retailerRef": "PKLIVFO07"
+  },
+  "bk-lugia": {
+   "titleQueries": [
+    "Devir Livro Ilustrado Lugia",
+    "Estampas Ilustradas Lugia",
+    "Pokemon Origem das Lendas Lugia Devir"
+   ],
+   "isbn13": "9788575322369",
+   "isbnStatus": "given by Gaz",
+   "retailerRef": "PKLUGIACON"
+  },
+  "bk-machamp": {
+   "titleQueries": [
+    "Devir Livro Ilustrado Machamp",
+    "Estampas Ilustradas Machamp",
+    "Pokemon Origem das Lendas Machamp Devir"
+   ],
+   "isbn13": "9788575322604",
+   "isbnStatus": "given by Gaz",
+   "retailerRef": "PKLIVLM11"
+  },
+  "bk-omastar": {
+   "titleQueries": [
+    "Devir Livro Ilustrado Omastar",
+    "Estampas Ilustradas Omastar",
+    "Pokemon Origem das Lendas Omastar Devir"
+   ],
+   "isbn13": "9788575322598",
+   "isbnStatus": "given by Gaz",
+   "retailerRef": "PKLIVLM10"
+  },
+  "bk-ralts": {
+   "titleQueries": [
+    "Devir Livro Ilustrado Ralts",
+    "Estampas Ilustradas Ralts",
+    "Pokemon Origem das Lendas Ralts Devir"
+   ],
+   "isbn13": "9788575321324",
+   "isbnStatus": "given by Gaz",
+   "retailerRef": "PKLIVRALTZ"
+  },
+  "bk-treecko": {
+   "titleQueries": [
+    "Devir Livro Ilustrado Treecko",
+    "Estampas Ilustradas Treecko",
+    "Pokemon Origem das Lendas Treecko Devir"
+   ],
+   "isbn13": "9788575321331",
+   "isbnStatus": "given by Gaz",
+   "retailerRef": "PKLIVTREEKO"
+  },
+  "bk-exploud": {
+   "titleQueries": [
+    "Devir Livro Ilustrado Exploud",
+    "Estampas Ilustradas Exploud",
+    "Pokemon Origem das Lendas Exploud Devir"
+   ],
+   "isbn13": null,
+   "isbnStatus": "unknown",
+   "retailerRef": "Comix SKU 6982"
+  },
+  "bk-mudkip": {
+   "titleQueries": [
+    "Devir Livro Ilustrado Mudkip",
+    "Estampas Ilustradas Mudkip",
+    "Pokemon Origem das Lendas Mudkip Devir"
+   ],
+   "isbn13": "9788575321348",
+   "isbnStatus": "given by Gaz, unverified",
+   "retailerRef": "Comix SKU 8203"
+  },
+  "bk-rayquaza": {
+   "titleQueries": [
+    "Devir Livro Ilustrado Rayquaza",
+    "Estampas Ilustradas Rayquaza",
+    "Pokemon Origem das Lendas Rayquaza Devir"
+   ],
+   "isbn13": "9788575322079",
+   "isbnStatus": "given by Gaz, unverified",
+   "retailerRef": "Comix SKU 8220"
+  },
+  "bk-torchic": {
+   "titleQueries": [
+    "Devir Livro Ilustrado Torchic",
+    "Estampas Ilustradas Torchic",
+    "Pokemon Origem das Lendas Torchic Devir"
+   ],
+   "isbn13": null,
+   "isbnStatus": "unknown",
+   "retailerRef": "Comix SKU 6983"
+  },
+  "h-gengar-deck": {
+   "titleQueries": [
+    "Devir Livro Ilustrado Gengar",
+    "Estampas Ilustradas Gengar",
+    "Pokemon Origem das Lendas Gengar Devir"
+   ],
+   "isbn13": "9788575322611",
+   "isbnStatus": "given by Gaz",
+   "retailerRef": "PKLIVLM12"
+  }
+ },
  "retailerInStock": [],
  "retailerCheck": {
   "generated": "2026-10-17",
@@ -59,6 +181,78 @@
  },
  "flags": [
   {
+   "id": "bk-golem",
+   "name": "Golem",
+   "reasons": [
+    "first sealed Portuguese listing seen for this booklet",
+    "at/below your max $105"
+   ],
+   "new": true,
+   "allInUSD": 23.81,
+   "allInStatus": "known",
+   "itemOnlyLowerBoundUSD": 17.83,
+   "maxShippingForCapUSD": null,
+   "itemUSD": 17.83,
+   "shippingUSD": 5.98,
+   "importEstUSD": 0.0,
+   "title": "Recessional: A Novel",
+   "seller": "trend_bay",
+   "feedbackPct": "99.4",
+   "feedbackScore": 4605,
+   "itemLocation": "US",
+   "sealedBasis": "condition New",
+   "url": "https://www.ebay.com/itm/168110568839",
+   "reference": null
+  },
+  {
+   "id": "bk-golem",
+   "name": "Golem",
+   "reasons": [
+    "first sealed Portuguese listing seen for this booklet",
+    "at/below your max $105"
+   ],
+   "new": true,
+   "allInUSD": 27.63,
+   "allInStatus": "known",
+   "itemOnlyLowerBoundUSD": 21.65,
+   "maxShippingForCapUSD": null,
+   "itemUSD": 21.65,
+   "shippingUSD": 5.98,
+   "importEstUSD": 0.0,
+   "title": "Liabilities: An Anomalies Novella",
+   "seller": "trend_bay",
+   "feedbackPct": "99.4",
+   "feedbackScore": 4605,
+   "itemLocation": "US",
+   "sealedBasis": "condition New",
+   "url": "https://www.ebay.com/itm/158198168526",
+   "reference": null
+  },
+  {
+   "id": "bk-hooh",
+   "name": "Ho-Oh",
+   "reasons": [
+    "first sealed Portuguese listing seen for this booklet",
+    "at/below your max $105"
+   ],
+   "new": true,
+   "allInUSD": 25.67,
+   "allInStatus": "known",
+   "itemOnlyLowerBoundUSD": 19.69,
+   "maxShippingForCapUSD": null,
+   "itemUSD": 19.69,
+   "shippingUSD": 5.98,
+   "importEstUSD": 0.0,
+   "title": "Falling: A Novel",
+   "seller": "trend_bay",
+   "feedbackPct": "99.4",
+   "feedbackScore": 4605,
+   "itemLocation": "US",
+   "sealedBasis": "condition New",
+   "url": "https://www.ebay.com/itm/167926227235",
+   "reference": null
+  },
+  {
    "id": "bk-hooh",
    "name": "Ho-Oh",
    "reasons": [
@@ -81,9 +275,192 @@
    "sealedBasis": "title says sealed/new",
    "url": "https://www.ebay.es/itm/178546022377",
    "reference": null
+  },
+  {
+   "id": "bk-machamp",
+   "name": "Machamp",
+   "reasons": [
+    "first sealed Portuguese listing seen for this booklet",
+    "shipping unknown: item $33.76; under your $105 cap only if shipping stays at/under $61.69"
+   ],
+   "new": true,
+   "allInUSD": null,
+   "allInStatus": "shipping unknown",
+   "itemOnlyLowerBoundUSD": 37.14,
+   "maxShippingForCapUSD": 61.69,
+   "itemUSD": 33.76,
+   "shippingUSD": null,
+   "importEstUSD": 3.38,
+   "title": "Pokémon Ex Legend Maker \"Origem das Lendas\" Machamp theme deck - Factory Sealed",
+   "seller": "ectotiff",
+   "feedbackPct": "0.0",
+   "feedbackScore": 0,
+   "itemLocation": "PT",
+   "sealedBasis": "title says sealed/new",
+   "url": "https://www.ebay.fr/itm/860040295766",
+   "reference": null
+  },
+  {
+   "id": "bk-omastar",
+   "name": "Omastar",
+   "reasons": [
+    "first sealed Portuguese listing seen for this booklet",
+    "shipping unknown: item $18.44; under your $105 cap only if shipping stays at/under $77.01"
+   ],
+   "new": true,
+   "allInUSD": null,
+   "allInStatus": "shipping unknown",
+   "itemOnlyLowerBoundUSD": 20.28,
+   "maxShippingForCapUSD": 77.01,
+   "itemUSD": 18.44,
+   "shippingUSD": null,
+   "importEstUSD": 1.84,
+   "title": "Notizen zu Ihrem plötzlichen Verschwinden: Vom Millionen-Exemplaren-Bestsellerautor...",
+   "seller": "muhammil-868",
+   "feedbackPct": "99.4",
+   "feedbackScore": 5598,
+   "itemLocation": "GB",
+   "sealedBasis": "condition New",
+   "url": "https://www.ebay.de/itm/318593109650",
+   "reference": null
+  },
+  {
+   "id": "bk-omastar",
+   "name": "Omastar",
+   "reasons": [
+    "first sealed Portuguese listing seen for this booklet",
+    "at/below your max $105"
+   ],
+   "new": true,
+   "allInUSD": 26.0,
+   "allInStatus": "known",
+   "itemOnlyLowerBoundUSD": 20.02,
+   "maxShippingForCapUSD": null,
+   "itemUSD": 20.02,
+   "shippingUSD": 5.98,
+   "importEstUSD": 0.0,
+   "title": "May The Dead Forgive",
+   "seller": "trend_bay",
+   "feedbackPct": "99.4",
+   "feedbackScore": 4605,
+   "itemLocation": "US",
+   "sealedBasis": "condition New",
+   "url": "https://www.ebay.com/itm/960022440461",
+   "reference": null
+  },
+  {
+   "id": "bk-omastar",
+   "name": "Omastar",
+   "reasons": [
+    "first sealed Portuguese listing seen for this booklet",
+    "at/below your max $105"
+   ],
+   "new": true,
+   "allInUSD": 27.63,
+   "allInStatus": "known",
+   "itemOnlyLowerBoundUSD": 21.65,
+   "maxShippingForCapUSD": null,
+   "itemUSD": 21.65,
+   "shippingUSD": 5.98,
+   "importEstUSD": 0.0,
+   "title": "Liabilities: An Anomalies Novella",
+   "seller": "trend_bay",
+   "feedbackPct": "99.4",
+   "feedbackScore": 4605,
+   "itemLocation": "US",
+   "sealedBasis": "condition New",
+   "url": "https://www.ebay.com/itm/158198168526",
+   "reference": null
+  },
+  {
+   "id": "bk-mudkip",
+   "name": "Mudkip",
+   "reasons": [
+    "first sealed Portuguese listing seen for this booklet",
+    "shipping unknown: item $15.0; under your $105 cap only if shipping stays at/under $90.0"
+   ],
+   "new": true,
+   "allInUSD": null,
+   "allInStatus": "shipping unknown",
+   "itemOnlyLowerBoundUSD": 15.0,
+   "maxShippingForCapUSD": 90.0,
+   "itemUSD": 15.0,
+   "shippingUSD": null,
+   "importEstUSD": 0.0,
+   "title": "books ",
+   "seller": "todew3337",
+   "feedbackPct": "0.0",
+   "feedbackScore": 0,
+   "itemLocation": "US",
+   "sealedBasis": "condition New",
+   "url": "https://www.ebay.com/itm/404947855627",
+   "reference": null
+  },
+  {
+   "id": "bk-rayquaza",
+   "name": "Rayquaza",
+   "reasons": [
+    "first sealed Portuguese listing seen for this booklet",
+    "shipping unknown: item $18.44; under your $105 cap only if shipping stays at/under $77.01"
+   ],
+   "new": true,
+   "allInUSD": null,
+   "allInStatus": "shipping unknown",
+   "itemOnlyLowerBoundUSD": 20.28,
+   "maxShippingForCapUSD": 77.01,
+   "itemUSD": 18.44,
+   "shippingUSD": null,
+   "importEstUSD": 1.84,
+   "title": "Notizen zu Ihrem plötzlichen Verschwinden: Vom Millionen-Exemplaren-Bestsellerautor...",
+   "seller": "muhammil-868",
+   "feedbackPct": "99.4",
+   "feedbackScore": 5598,
+   "itemLocation": "GB",
+   "sealedBasis": "condition New",
+   "url": "https://www.ebay.de/itm/318593109650",
+   "reference": null
+  },
+  {
+   "id": "bk-rayquaza",
+   "name": "Rayquaza",
+   "reasons": [
+    "first sealed Portuguese listing seen for this booklet",
+    "at/below your max $105"
+   ],
+   "new": true,
+   "allInUSD": 27.63,
+   "allInStatus": "known",
+   "itemOnlyLowerBoundUSD": 21.65,
+   "maxShippingForCapUSD": null,
+   "itemUSD": 21.65,
+   "shippingUSD": 5.98,
+   "importEstUSD": 0.0,
+   "title": "Liabilities: An Anomalies Novella",
+   "seller": "trend_bay",
+   "feedbackPct": "99.4",
+   "feedbackScore": 4605,
+   "itemLocation": "US",
+   "sealedBasis": "condition New",
+   "url": "https://www.ebay.com/itm/158198168526",
+   "reference": null
   }
  ],
  "notSealed": [
+  {
+   "id": "bk-hooh",
+   "name": "Ho-Oh",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "New/Factory Sealed",
+   "itemUSD": 95.11,
+   "shippingUSD": 19.02,
+   "shippingUnknown": false,
+   "title": "2006 POKEMON Ho-OH EX Forze Invisibili Libro Mezzo Mazzo Portoghese Portogallo",
+   "seller": "kalondro",
+   "feedbackPct": "99.6",
+   "itemLocation": "PT",
+   "url": "https://www.ebay.it/itm/278342218536"
+  },
   {
    "id": "bk-lugia",
    "name": "Lugia",
@@ -98,6 +475,21 @@
    "feedbackPct": "100.0",
    "itemLocation": "US",
    "url": "https://www.ebay.es/itm/396842554717"
+  },
+  {
+   "id": "bk-lugia",
+   "name": "Lugia",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "Ungraded",
+   "itemUSD": 200.24,
+   "shippingUSD": 7.01,
+   "shippingUnknown": false,
+   "title": "Pokemon Lugia 30 Carte Mini Deck Portoghese Sigillato EX Epoca Vintage Raro",
+   "seller": "fishe-60",
+   "feedbackPct": "100.0",
+   "itemLocation": "PT",
+   "url": "https://www.ebay.it/itm/800328245637"
   },
   {
    "id": "bk-machamp",
@@ -119,6 +511,21 @@
    "name": "Machamp",
    "reason": "opened/unspecified condition",
    "sealedBasis": "unconfirmed",
+   "condition": "New/Factory Sealed",
+   "itemUSD": 56.06,
+   "shippingUSD": 6.7,
+   "shippingUnknown": false,
+   "title": "Nuovo Sigillato EX Legend Maker Origem das Lendas 2007 Machamp Theme Deck Portoghese",
+   "seller": "qualityhunted",
+   "feedbackPct": "99.9",
+   "itemLocation": "US",
+   "url": "https://www.ebay.it/itm/137748578395"
+  },
+  {
+   "id": "bk-machamp",
+   "name": "Machamp",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
    "condition": "Nuevo/Precintado de fábrica",
    "itemUSD": 56.27,
    "shippingUSD": 28.13,
@@ -128,6 +535,36 @@
    "feedbackPct": "0.0",
    "itemLocation": "PT",
    "url": "https://www.ebay.it/itm/307154141294"
+  },
+  {
+   "id": "bk-machamp",
+   "name": "Machamp",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "New/Factory Sealed",
+   "itemUSD": 60.08,
+   "shippingUSD": null,
+   "shippingUnknown": true,
+   "title": "Nuovo Sigillato EX Legend Maker Origem das Lendas 2007 Machamp Theme Deck Portoghese",
+   "seller": "tapo953795",
+   "feedbackPct": "97.8",
+   "itemLocation": "US",
+   "url": "https://www.ebay.it/itm/860013459559"
+  },
+  {
+   "id": "bk-machamp",
+   "name": "Machamp",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "New/Factory Sealed",
+   "itemUSD": 70.07,
+   "shippingUSD": 19.02,
+   "shippingUnknown": false,
+   "title": "Pokémon EX Legend Maker Machamp 2007 SIGILLATO PORTOGHESE RARO",
+   "seller": "kalondro",
+   "feedbackPct": "99.6",
+   "itemLocation": "PT",
+   "url": "https://www.ebay.it/itm/287560989653"
   },
   {
    "id": "bk-machamp",
@@ -175,6 +612,96 @@
    "url": "https://www.ebay.it/itm/307154261661"
   },
   {
+   "id": "bk-ralts",
+   "name": "Ralts",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "New/Factory Sealed",
+   "itemUSD": 70.07,
+   "shippingUSD": 19.02,
+   "shippingUnknown": false,
+   "title": "Libro mezzo mazzo POKEMON RALTS EX 2006 rubino e zaffiro portoghese Portogallo",
+   "seller": "kalondro",
+   "feedbackPct": "99.6",
+   "itemLocation": "PT",
+   "url": "https://www.ebay.it/itm/278336135897"
+  },
+  {
+   "id": "bk-treecko",
+   "name": "Treecko",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "New/Factory Sealed",
+   "itemUSD": 70.07,
+   "shippingUSD": 19.02,
+   "shippingUnknown": false,
+   "title": "2006 POKEMON TREECKO EX Rubino e Zaffiro Half Deck Libro Portogallo Portoghese",
+   "seller": "kalondro",
+   "feedbackPct": "99.6",
+   "itemLocation": "PT",
+   "url": "https://www.ebay.it/itm/278336139761"
+  },
+  {
+   "id": "bk-mudkip",
+   "name": "Mudkip",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": null,
+   "itemUSD": 21.35,
+   "shippingUSD": null,
+   "shippingUnknown": true,
+   "title": "Bücher",
+   "seller": "theblueloft",
+   "feedbackPct": "98.6",
+   "itemLocation": "GB",
+   "url": "https://www.ebay.de/itm/405839187921"
+  },
+  {
+   "id": "bk-rayquaza",
+   "name": "Rayquaza",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "Good",
+   "itemUSD": 7.72,
+   "shippingUSD": 0.0,
+   "shippingUnknown": false,
+   "title": "99 Days Hardcover Matteo Casali",
+   "seller": "betterworldbooks",
+   "feedbackPct": "99.7",
+   "itemLocation": "US",
+   "url": "https://www.ebay.com/itm/227334104558"
+  },
+  {
+   "id": "h-gengar-deck",
+   "name": "Gengar",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "Non gradée",
+   "itemUSD": 146.18,
+   "shippingUSD": null,
+   "shippingUnknown": true,
+   "title": "Pokemon Ho Oh EX Forces invisibles Deck",
+   "seller": "levelgames30",
+   "feedbackPct": "100.0",
+   "itemLocation": "NL",
+   "url": "https://www.ebay.fr/itm/227529547369"
+  },
+  {
+   "id": "h-gengar-deck",
+   "name": "Gengar",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "Non gradée",
+   "itemUSD": 224.95,
+   "shippingUSD": null,
+   "shippingUnknown": true,
+   "title": "Pokemon GENGAR Ectoplasma EX Créateur de légendes Deck",
+   "seller": "levelgames30",
+   "feedbackPct": "100.0",
+   "itemLocation": "NL",
+   "url": "https://www.ebay.fr/itm/227529533248"
+  },
+  {
    "id": "h-gengar-deck",
    "name": "Gengar",
    "reason": "opened/unspecified condition",
@@ -188,38 +715,65 @@
    "feedbackPct": "0.0",
    "itemLocation": "US",
    "url": "https://www.ebay.com/itm/298511253175"
+  },
+  {
+   "id": "h-gengar-deck",
+   "name": "Gengar",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "Ungraded",
+   "itemUSD": 297.0,
+   "shippingUSD": 11.31,
+   "shippingUnknown": false,
+   "title": "PORTUGUESE GENGAR ILLUSTRATED BOOKLET/HALF DECK EX LEGEND MAKER FOREIGN POKEMON",
+   "seller": "fusiongamingonline",
+   "feedbackPct": "99.2",
+   "itemLocation": "CA",
+   "url": "https://www.ebay.com/itm/227503023742"
   }
  ],
  "counts": {
   "bk-golem": {
    "name": "Golem",
    "owned": false,
-   "foundToday": 0,
-   "sealedToday": 0,
+   "foundToday": 2,
+   "sealedToday": 2,
    "notSealedToday": 0,
-   "distinctEverSeen": 0,
-   "sealedEverSeen": 0,
-   "reference": null,
+   "distinctEverSeen": 2,
+   "sealedEverSeen": 2,
+   "reference": {
+    "allInUSD": 23.81,
+    "itemUSD": 17.83,
+    "date": "2026-10-17",
+    "url": "https://www.ebay.com/itm/168110568839",
+    "title": "Recessional: A Novel"
+   },
    "max": 105
   },
   "bk-hooh": {
    "name": "Ho-Oh",
    "owned": false,
-   "foundToday": 1,
-   "sealedToday": 1,
-   "notSealedToday": 0,
-   "distinctEverSeen": 1,
-   "sealedEverSeen": 0,
-   "reference": null,
+   "foundToday": 3,
+   "sealedToday": 2,
+   "notSealedToday": 1,
+   "distinctEverSeen": 3,
+   "sealedEverSeen": 1,
+   "reference": {
+    "allInUSD": 25.67,
+    "itemUSD": 19.69,
+    "date": "2026-10-17",
+    "url": "https://www.ebay.com/itm/167926227235",
+    "title": "Falling: A Novel"
+   },
    "max": 105
   },
   "bk-lugia": {
    "name": "Lugia",
    "owned": false,
-   "foundToday": 1,
+   "foundToday": 2,
    "sealedToday": 0,
-   "notSealedToday": 1,
-   "distinctEverSeen": 1,
+   "notSealedToday": 2,
+   "distinctEverSeen": 2,
    "sealedEverSeen": 0,
    "reference": null,
    "max": 105
@@ -227,32 +781,38 @@
   "bk-machamp": {
    "name": "Machamp",
    "owned": false,
-   "foundToday": 4,
-   "sealedToday": 0,
-   "notSealedToday": 4,
-   "distinctEverSeen": 4,
-   "sealedEverSeen": 0,
+   "foundToday": 8,
+   "sealedToday": 1,
+   "notSealedToday": 7,
+   "distinctEverSeen": 8,
+   "sealedEverSeen": 1,
    "reference": null,
    "max": 105
   },
   "bk-omastar": {
    "name": "Omastar",
    "owned": false,
-   "foundToday": 0,
-   "sealedToday": 0,
+   "foundToday": 3,
+   "sealedToday": 3,
    "notSealedToday": 0,
-   "distinctEverSeen": 0,
-   "sealedEverSeen": 0,
-   "reference": null,
+   "distinctEverSeen": 3,
+   "sealedEverSeen": 3,
+   "reference": {
+    "allInUSD": 26.0,
+    "itemUSD": 20.02,
+    "date": "2026-10-17",
+    "url": "https://www.ebay.com/itm/960022440461",
+    "title": "May The Dead Forgive"
+   },
    "max": 105
   },
   "bk-ralts": {
    "name": "Ralts",
    "owned": false,
-   "foundToday": 1,
+   "foundToday": 2,
    "sealedToday": 0,
-   "notSealedToday": 1,
-   "distinctEverSeen": 1,
+   "notSealedToday": 2,
+   "distinctEverSeen": 2,
    "sealedEverSeen": 0,
    "reference": null,
    "max": 105
@@ -260,10 +820,10 @@
   "bk-treecko": {
    "name": "Treecko",
    "owned": false,
-   "foundToday": 0,
+   "foundToday": 1,
    "sealedToday": 0,
-   "notSealedToday": 0,
-   "distinctEverSeen": 0,
+   "notSealedToday": 1,
+   "distinctEverSeen": 1,
    "sealedEverSeen": 0,
    "reference": null,
    "max": 105
@@ -282,23 +842,29 @@
   "bk-mudkip": {
    "name": "Mudkip",
    "owned": false,
-   "foundToday": 0,
-   "sealedToday": 0,
-   "notSealedToday": 0,
-   "distinctEverSeen": 0,
-   "sealedEverSeen": 0,
+   "foundToday": 2,
+   "sealedToday": 1,
+   "notSealedToday": 1,
+   "distinctEverSeen": 2,
+   "sealedEverSeen": 1,
    "reference": null,
    "max": 105
   },
   "bk-rayquaza": {
    "name": "Rayquaza",
    "owned": false,
-   "foundToday": 0,
-   "sealedToday": 0,
-   "notSealedToday": 0,
-   "distinctEverSeen": 0,
-   "sealedEverSeen": 0,
-   "reference": null,
+   "foundToday": 3,
+   "sealedToday": 2,
+   "notSealedToday": 1,
+   "distinctEverSeen": 3,
+   "sealedEverSeen": 2,
+   "reference": {
+    "allInUSD": 27.63,
+    "itemUSD": 21.65,
+    "date": "2026-10-17",
+    "url": "https://www.ebay.com/itm/158198168526",
+    "title": "Liabilities: An Anomalies Novella"
+   },
    "max": 105
   },
   "bk-torchic": {
@@ -315,21 +881,79 @@
   "h-gengar-deck": {
    "name": "Gengar",
    "owned": true,
-   "foundToday": 2,
-   "sealedToday": 1,
-   "notSealedToday": 1,
-   "distinctEverSeen": 2,
-   "sealedEverSeen": 1,
+   "foundToday": 8,
+   "sealedToday": 4,
+   "notSealedToday": 4,
+   "distinctEverSeen": 8,
+   "sealedEverSeen": 4,
    "reference": null,
    "max": null
   }
  },
  "items": {
   "bk-golem": {
-   "listings": []
+   "listings": [
+    {
+     "title": "Recessional: A Novel",
+     "url": "https://www.ebay.com/itm/168110568839",
+     "marketplace": "EBAY_US",
+     "itemUSD": 17.83,
+     "shippingUSD": 5.98,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 23.81,
+     "originCountry": "US",
+     "condition": "New",
+     "itemEndDate": null,
+     "sealed": true,
+     "matchedBy": "isbn",
+     "sealedBasis": "condition New",
+     "seller": "trend_bay",
+     "feedbackPct": "99.4",
+     "feedbackScore": 4605
+    },
+    {
+     "title": "Liabilities: An Anomalies Novella",
+     "url": "https://www.ebay.com/itm/158198168526",
+     "marketplace": "EBAY_US",
+     "itemUSD": 21.65,
+     "shippingUSD": 5.98,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 27.63,
+     "originCountry": "US",
+     "condition": "New",
+     "itemEndDate": null,
+     "sealed": true,
+     "matchedBy": "isbn",
+     "sealedBasis": "condition New",
+     "seller": "trend_bay",
+     "feedbackPct": "99.4",
+     "feedbackScore": 4605
+    }
+   ]
   },
   "bk-hooh": {
    "listings": [
+    {
+     "title": "Falling: A Novel",
+     "url": "https://www.ebay.com/itm/167926227235",
+     "marketplace": "EBAY_US",
+     "itemUSD": 19.69,
+     "shippingUSD": 5.98,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 25.67,
+     "originCountry": "US",
+     "condition": "New",
+     "itemEndDate": null,
+     "sealed": true,
+     "matchedBy": "isbn",
+     "sealedBasis": "condition New",
+     "seller": "trend_bay",
+     "feedbackPct": "99.4",
+     "feedbackScore": 4605
+    },
     {
      "title": "Pokémon EX Forças Ocultas Ho-Oh Devir Portugués Precintado Vintage",
      "url": "https://www.ebay.es/itm/178546022377",
@@ -343,10 +967,30 @@
      "condition": "Sin clasificar",
      "itemEndDate": null,
      "sealed": true,
+     "matchedBy": "title",
      "sealedBasis": "title says sealed/new",
      "seller": "hearthicegroup",
      "feedbackPct": "0.0",
      "feedbackScore": 0
+    },
+    {
+     "title": "2006 POKEMON Ho-OH EX Forze Invisibili Libro Mezzo Mazzo Portoghese Portogallo",
+     "url": "https://www.ebay.it/itm/278342218536",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 95.11,
+     "shippingUSD": 19.02,
+     "shipUnknown": false,
+     "importEstUSD": 11.41,
+     "allInUSD": 125.54,
+     "originCountry": "PT",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": null,
+     "sealed": false,
+     "matchedBy": "isbn",
+     "sealedBasis": "unconfirmed",
+     "seller": "kalondro",
+     "feedbackPct": "99.6",
+     "feedbackScore": 3771
     }
    ]
   },
@@ -365,15 +1009,54 @@
      "condition": "Ungraded",
      "itemEndDate": null,
      "sealed": false,
+     "matchedBy": "title",
      "sealedBasis": "unconfirmed",
      "seller": "maxis50",
      "feedbackPct": "100.0",
      "feedbackScore": 14
+    },
+    {
+     "title": "Pokemon Lugia 30 Carte Mini Deck Portoghese Sigillato EX Epoca Vintage Raro",
+     "url": "https://www.ebay.it/itm/800328245637",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 200.24,
+     "shippingUSD": 7.01,
+     "shipUnknown": false,
+     "importEstUSD": 20.73,
+     "allInUSD": 227.98,
+     "originCountry": "PT",
+     "condition": "Ungraded",
+     "itemEndDate": null,
+     "sealed": false,
+     "matchedBy": "isbn-gtin",
+     "sealedBasis": "unconfirmed",
+     "seller": "fishe-60",
+     "feedbackPct": "100.0",
+     "feedbackScore": 2
     }
    ]
   },
   "bk-machamp": {
    "listings": [
+    {
+     "title": "Pokémon Ex Legend Maker \"Origem das Lendas\" Machamp theme deck - Factory Sealed",
+     "url": "https://www.ebay.fr/itm/860040295766",
+     "marketplace": "EBAY_FR",
+     "itemUSD": 33.76,
+     "shippingUSD": null,
+     "shipUnknown": true,
+     "importEstUSD": 3.38,
+     "allInUSD": 37.14,
+     "originCountry": "PT",
+     "condition": "Neuf/Scellé",
+     "itemEndDate": "2026-10-23T11:27:30.000Z",
+     "sealed": true,
+     "matchedBy": "isbn-gtin",
+     "sealedBasis": "title says sealed/new",
+     "seller": "ectotiff",
+     "feedbackPct": "0.0",
+     "feedbackScore": 0
+    },
     {
      "title": "Devir Livraria Pokémon Livro em das lendas Machamp Deck 30 Cards PT 2007",
      "url": "https://www.ebay.com/itm/820228536215",
@@ -387,10 +1070,30 @@
      "condition": "New/Factory Sealed",
      "itemEndDate": null,
      "sealed": false,
+     "matchedBy": "title",
      "sealedBasis": "unconfirmed",
      "seller": "logans_store",
      "feedbackPct": "100.0",
      "feedbackScore": 6
+    },
+    {
+     "title": "Nuovo Sigillato EX Legend Maker Origem das Lendas 2007 Machamp Theme Deck Portoghese",
+     "url": "https://www.ebay.it/itm/137748578395",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 56.06,
+     "shippingUSD": 6.7,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 62.76,
+     "originCountry": "US",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": null,
+     "sealed": false,
+     "matchedBy": "isbn",
+     "sealedBasis": "unconfirmed",
+     "seller": "qualityhunted",
+     "feedbackPct": "99.9",
+     "feedbackScore": 1807
     },
     {
      "title": "Devir Livraria Pokémon TCG Theme Deck Origem das Lendas Machamp- 30 cards",
@@ -405,10 +1108,49 @@
      "condition": "Nuevo/Precintado de fábrica",
      "itemEndDate": null,
      "sealed": false,
+     "matchedBy": "title",
      "sealedBasis": "unconfirmed",
      "seller": "fafiti",
      "feedbackPct": "0.0",
      "feedbackScore": 0
+    },
+    {
+     "title": "Nuovo Sigillato EX Legend Maker Origem das Lendas 2007 Machamp Theme Deck Portoghese",
+     "url": "https://www.ebay.it/itm/860013459559",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 60.08,
+     "shippingUSD": null,
+     "shipUnknown": true,
+     "importEstUSD": 0.0,
+     "allInUSD": 60.08,
+     "originCountry": "US",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": null,
+     "sealed": false,
+     "matchedBy": "isbn",
+     "sealedBasis": "unconfirmed",
+     "seller": "tapo953795",
+     "feedbackPct": "97.8",
+     "feedbackScore": 43
+    },
+    {
+     "title": "Pokémon EX Legend Maker Machamp 2007 SIGILLATO PORTOGHESE RARO",
+     "url": "https://www.ebay.it/itm/287560989653",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 70.07,
+     "shippingUSD": 19.02,
+     "shipUnknown": false,
+     "importEstUSD": 8.91,
+     "allInUSD": 98.0,
+     "originCountry": "PT",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": null,
+     "sealed": false,
+     "matchedBy": "isbn",
+     "sealedBasis": "unconfirmed",
+     "seller": "kalondro",
+     "feedbackPct": "99.6",
+     "feedbackScore": 3771
     },
     {
      "title": "Pokemon Portoghese Machamp Illustrated BookDeck Sigillato Livro Ilustrado Devir 06'",
@@ -423,6 +1165,7 @@
      "condition": "Ungraded",
      "itemEndDate": null,
      "sealed": false,
+     "matchedBy": "title",
      "sealedBasis": "unconfirmed",
      "seller": "vintagemonsterr",
      "feedbackPct": "100.0",
@@ -441,6 +1184,7 @@
      "condition": "New/Factory Sealed",
      "itemEndDate": null,
      "sealed": false,
+     "matchedBy": "title",
      "sealedBasis": "unconfirmed",
      "seller": "bleeedblue",
      "feedbackPct": "100.0",
@@ -449,7 +1193,65 @@
    ]
   },
   "bk-omastar": {
-   "listings": []
+   "listings": [
+    {
+     "title": "Notizen zu Ihrem plötzlichen Verschwinden: Vom Millionen-Exemplaren-Bestsellerautor...",
+     "url": "https://www.ebay.de/itm/318593109650",
+     "marketplace": "EBAY_DE",
+     "itemUSD": 18.44,
+     "shippingUSD": null,
+     "shipUnknown": true,
+     "importEstUSD": 1.84,
+     "allInUSD": 20.28,
+     "originCountry": "GB",
+     "condition": "New",
+     "itemEndDate": null,
+     "sealed": true,
+     "matchedBy": "isbn",
+     "sealedBasis": "condition New",
+     "seller": "muhammil-868",
+     "feedbackPct": "99.4",
+     "feedbackScore": 5598
+    },
+    {
+     "title": "May The Dead Forgive",
+     "url": "https://www.ebay.com/itm/960022440461",
+     "marketplace": "EBAY_US",
+     "itemUSD": 20.02,
+     "shippingUSD": 5.98,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 26.0,
+     "originCountry": "US",
+     "condition": "New",
+     "itemEndDate": null,
+     "sealed": true,
+     "matchedBy": "isbn",
+     "sealedBasis": "condition New",
+     "seller": "trend_bay",
+     "feedbackPct": "99.4",
+     "feedbackScore": 4605
+    },
+    {
+     "title": "Liabilities: An Anomalies Novella",
+     "url": "https://www.ebay.com/itm/158198168526",
+     "marketplace": "EBAY_US",
+     "itemUSD": 21.65,
+     "shippingUSD": 5.98,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 27.63,
+     "originCountry": "US",
+     "condition": "New",
+     "itemEndDate": null,
+     "sealed": true,
+     "matchedBy": "isbn",
+     "sealedBasis": "condition New",
+     "seller": "trend_bay",
+     "feedbackPct": "99.4",
+     "feedbackScore": 4605
+    }
+   ]
   },
   "bk-ralts": {
    "listings": [
@@ -466,30 +1268,243 @@
      "condition": "Nuevo/Precintado de fábrica",
      "itemEndDate": null,
      "sealed": false,
+     "matchedBy": "title",
      "sealedBasis": "unconfirmed",
      "seller": "fafiti",
      "feedbackPct": "0.0",
      "feedbackScore": 0
+    },
+    {
+     "title": "Libro mezzo mazzo POKEMON RALTS EX 2006 rubino e zaffiro portoghese Portogallo",
+     "url": "https://www.ebay.it/itm/278336135897",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 70.07,
+     "shippingUSD": 19.02,
+     "shipUnknown": false,
+     "importEstUSD": 8.91,
+     "allInUSD": 98.0,
+     "originCountry": "PT",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": null,
+     "sealed": false,
+     "matchedBy": "isbn",
+     "sealedBasis": "unconfirmed",
+     "seller": "kalondro",
+     "feedbackPct": "99.6",
+     "feedbackScore": 3771
     }
    ]
   },
   "bk-treecko": {
-   "listings": []
+   "listings": [
+    {
+     "title": "2006 POKEMON TREECKO EX Rubino e Zaffiro Half Deck Libro Portogallo Portoghese",
+     "url": "https://www.ebay.it/itm/278336139761",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 70.07,
+     "shippingUSD": 19.02,
+     "shipUnknown": false,
+     "importEstUSD": 8.91,
+     "allInUSD": 98.0,
+     "originCountry": "PT",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": null,
+     "sealed": false,
+     "matchedBy": "isbn",
+     "sealedBasis": "unconfirmed",
+     "seller": "kalondro",
+     "feedbackPct": "99.6",
+     "feedbackScore": 3771
+    }
+   ]
   },
   "bk-exploud": {
    "listings": []
   },
   "bk-mudkip": {
-   "listings": []
+   "listings": [
+    {
+     "title": "books ",
+     "url": "https://www.ebay.com/itm/404947855627",
+     "marketplace": "EBAY_US",
+     "itemUSD": 15.0,
+     "shippingUSD": null,
+     "shipUnknown": true,
+     "importEstUSD": 0.0,
+     "allInUSD": 15.0,
+     "originCountry": "US",
+     "condition": "New",
+     "itemEndDate": null,
+     "sealed": true,
+     "matchedBy": "isbn (ISBN unverified)",
+     "sealedBasis": "condition New",
+     "seller": "todew3337",
+     "feedbackPct": "0.0",
+     "feedbackScore": 0
+    },
+    {
+     "title": "Bücher",
+     "url": "https://www.ebay.de/itm/405839187921",
+     "marketplace": "EBAY_DE",
+     "itemUSD": 21.35,
+     "shippingUSD": null,
+     "shipUnknown": true,
+     "importEstUSD": 2.14,
+     "allInUSD": 23.49,
+     "originCountry": "GB",
+     "condition": null,
+     "itemEndDate": null,
+     "sealed": false,
+     "matchedBy": "isbn (ISBN unverified)",
+     "sealedBasis": "unconfirmed",
+     "seller": "theblueloft",
+     "feedbackPct": "98.6",
+     "feedbackScore": 198
+    }
+   ]
   },
   "bk-rayquaza": {
-   "listings": []
+   "listings": [
+    {
+     "title": "99 Days Hardcover Matteo Casali",
+     "url": "https://www.ebay.com/itm/227334104558",
+     "marketplace": "EBAY_US",
+     "itemUSD": 7.72,
+     "shippingUSD": 0.0,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 7.72,
+     "originCountry": "US",
+     "condition": "Good",
+     "itemEndDate": null,
+     "sealed": false,
+     "matchedBy": "isbn (ISBN unverified)",
+     "sealedBasis": "unconfirmed",
+     "seller": "betterworldbooks",
+     "feedbackPct": "99.7",
+     "feedbackScore": 3330853
+    },
+    {
+     "title": "Notizen zu Ihrem plötzlichen Verschwinden: Vom Millionen-Exemplaren-Bestsellerautor...",
+     "url": "https://www.ebay.de/itm/318593109650",
+     "marketplace": "EBAY_DE",
+     "itemUSD": 18.44,
+     "shippingUSD": null,
+     "shipUnknown": true,
+     "importEstUSD": 1.84,
+     "allInUSD": 20.28,
+     "originCountry": "GB",
+     "condition": "New",
+     "itemEndDate": null,
+     "sealed": true,
+     "matchedBy": "isbn (ISBN unverified)",
+     "sealedBasis": "condition New",
+     "seller": "muhammil-868",
+     "feedbackPct": "99.4",
+     "feedbackScore": 5598
+    },
+    {
+     "title": "Liabilities: An Anomalies Novella",
+     "url": "https://www.ebay.com/itm/158198168526",
+     "marketplace": "EBAY_US",
+     "itemUSD": 21.65,
+     "shippingUSD": 5.98,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 27.63,
+     "originCountry": "US",
+     "condition": "New",
+     "itemEndDate": null,
+     "sealed": true,
+     "matchedBy": "isbn (ISBN unverified)",
+     "sealedBasis": "condition New",
+     "seller": "trend_bay",
+     "feedbackPct": "99.4",
+     "feedbackScore": 4605
+    }
+   ]
   },
   "bk-torchic": {
    "listings": []
   },
   "h-gengar-deck": {
    "listings": [
+    {
+     "title": "Falling: A Novel",
+     "url": "https://www.ebay.com/itm/167926227235",
+     "marketplace": "EBAY_US",
+     "itemUSD": 19.69,
+     "shippingUSD": 5.98,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 25.67,
+     "originCountry": "US",
+     "condition": "New",
+     "itemEndDate": null,
+     "sealed": true,
+     "matchedBy": "isbn",
+     "sealedBasis": "condition New",
+     "seller": "trend_bay",
+     "feedbackPct": "99.4",
+     "feedbackScore": 4605
+    },
+    {
+     "title": "Absolution: A Novel",
+     "url": "https://www.ebay.com/itm/167764605413",
+     "marketplace": "EBAY_US",
+     "itemUSD": 19.69,
+     "shippingUSD": 5.98,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 25.67,
+     "originCountry": "US",
+     "condition": "New",
+     "itemEndDate": null,
+     "sealed": true,
+     "matchedBy": "isbn",
+     "sealedBasis": "condition New",
+     "seller": "trend_bay",
+     "feedbackPct": "99.4",
+     "feedbackScore": 4605
+    },
+    {
+     "title": "Pokemon Ho Oh EX Forces invisibles Deck",
+     "url": "https://www.ebay.fr/itm/227529547369",
+     "marketplace": "EBAY_FR",
+     "itemUSD": 146.18,
+     "shippingUSD": null,
+     "shipUnknown": true,
+     "importEstUSD": 14.62,
+     "allInUSD": 160.8,
+     "originCountry": "NL",
+     "condition": "Non gradée",
+     "itemEndDate": null,
+     "sealed": false,
+     "matchedBy": "isbn-gtin",
+     "sealedBasis": "unconfirmed",
+     "seller": "levelgames30",
+     "feedbackPct": "100.0",
+     "feedbackScore": 1445
+    },
+    {
+     "title": "Pokemon GENGAR Ectoplasma EX Créateur de légendes Deck",
+     "url": "https://www.ebay.fr/itm/227529533248",
+     "marketplace": "EBAY_FR",
+     "itemUSD": 224.95,
+     "shippingUSD": null,
+     "shipUnknown": true,
+     "importEstUSD": 22.5,
+     "allInUSD": 247.45,
+     "originCountry": "NL",
+     "condition": "Non gradée",
+     "itemEndDate": null,
+     "sealed": false,
+     "matchedBy": "isbn-gtin",
+     "sealedBasis": "unconfirmed",
+     "seller": "levelgames30",
+     "feedbackPct": "100.0",
+     "feedbackScore": 1445
+    },
     {
      "title": "Devir Pokémon TCG Origem das Lendas Gengar Deck 30 Cards PT 2007 14+",
      "url": "https://www.ebay.com/itm/298511253175",
@@ -503,10 +1518,30 @@
      "condition": "New/Factory Sealed",
      "itemEndDate": null,
      "sealed": false,
+     "matchedBy": "title",
      "sealedBasis": "unconfirmed",
      "seller": "rafa.r0",
      "feedbackPct": "0.0",
      "feedbackScore": 0
+    },
+    {
+     "title": "PORTUGUESE GENGAR ILLUSTRATED BOOKLET/HALF DECK EX LEGEND MAKER FOREIGN POKEMON",
+     "url": "https://www.ebay.com/itm/227503023742",
+     "marketplace": "EBAY_US",
+     "itemUSD": 297.0,
+     "shippingUSD": 11.31,
+     "shipUnknown": false,
+     "importEstUSD": 30.83,
+     "allInUSD": 339.14,
+     "originCountry": "CA",
+     "condition": "Ungraded",
+     "itemEndDate": null,
+     "sealed": false,
+     "matchedBy": "isbn-gtin",
+     "sealedBasis": "unconfirmed",
+     "seller": "fusiongamingonline",
+     "feedbackPct": "99.2",
+     "feedbackScore": 2178
     },
     {
      "title": "Gengar EX Legend Maker Half Deck Box Sealed Portuguese Pokemon SWIRL",
@@ -521,10 +1556,30 @@
      "condition": "New/Factory Sealed",
      "itemEndDate": null,
      "sealed": true,
+     "matchedBy": "title",
      "sealedBasis": "title says sealed/new",
      "seller": "goobytcg",
      "feedbackPct": "100.0",
      "feedbackScore": 2093
+    },
+    {
+     "title": "Pokemon SEALED case (10) GENGAR Picture Book EX Legend Maker Half Deck EXCLUSIVE",
+     "url": "https://www.ebay.it/itm/236504160693",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 1601.23,
+     "shippingUSD": null,
+     "shipUnknown": true,
+     "importEstUSD": 160.12,
+     "allInUSD": 1761.35,
+     "originCountry": "PT",
+     "condition": "Ungraded",
+     "itemEndDate": null,
+     "sealed": true,
+     "matchedBy": "isbn-gtin",
+     "sealedBasis": "title says sealed/new",
+     "seller": "pokept_tcg",
+     "feedbackPct": "100.0",
+     "feedbackScore": 357
     }
    ]
   }
@@ -535,94 +1590,94 @@
   "perBooklet": {
    "bk-golem": {
     "name": "Golem",
-    "liveListings": 0,
-    "liveSealed": 0,
-    "askItemUSD": {
-     "low": null,
-     "median": null,
-     "high": null
-    },
-    "impliedSales": 0,
-    "impliedSaleMedianUSD": null,
-    "everSeen": 0
-   },
-   "bk-hooh": {
-    "name": "Ho-Oh",
     "liveListings": 1,
     "liveSealed": 1,
     "askItemUSD": {
-     "low": 67.51,
-     "median": 67.51,
-     "high": 67.51
+     "low": 17.83,
+     "median": 17.83,
+     "high": 17.83
     },
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
     "everSeen": 1
+   },
+   "bk-hooh": {
+    "name": "Ho-Oh",
+    "liveListings": 2,
+    "liveSealed": 1,
+    "askItemUSD": {
+     "low": 67.51,
+     "median": 81.31,
+     "high": 95.11
+    },
+    "impliedSales": 0,
+    "impliedSaleMedianUSD": null,
+    "everSeen": 2
    },
    "bk-lugia": {
     "name": "Lugia",
-    "liveListings": 1,
+    "liveListings": 2,
     "liveSealed": 0,
     "askItemUSD": {
      "low": 169.21,
-     "median": 169.21,
-     "high": 169.21
+     "median": 184.73,
+     "high": 200.24
     },
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
-    "everSeen": 1
+    "everSeen": 2
    },
    "bk-machamp": {
     "name": "Machamp",
-    "liveListings": 4,
-    "liveSealed": 0,
+    "liveListings": 8,
+    "liveSealed": 1,
     "askItemUSD": {
-     "low": 45.0,
-     "median": 77.7,
+     "low": 33.76,
+     "median": 58.17,
      "high": 149.99
     },
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
-    "everSeen": 4
+    "everSeen": 8
    },
    "bk-omastar": {
     "name": "Omastar",
-    "liveListings": 0,
-    "liveSealed": 0,
-    "askItemUSD": {
-     "low": null,
-     "median": null,
-     "high": null
-    },
-    "impliedSales": 0,
-    "impliedSaleMedianUSD": null,
-    "everSeen": 0
-   },
-   "bk-ralts": {
-    "name": "Ralts",
     "liveListings": 1,
-    "liveSealed": 0,
+    "liveSealed": 1,
     "askItemUSD": {
-     "low": 31.51,
-     "median": 31.51,
-     "high": 31.51
+     "low": 20.02,
+     "median": 20.02,
+     "high": 20.02
     },
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
     "everSeen": 1
    },
-   "bk-treecko": {
-    "name": "Treecko",
-    "liveListings": 0,
+   "bk-ralts": {
+    "name": "Ralts",
+    "liveListings": 2,
     "liveSealed": 0,
     "askItemUSD": {
-     "low": null,
-     "median": null,
-     "high": null
+     "low": 31.51,
+     "median": 50.79,
+     "high": 70.07
     },
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
-    "everSeen": 0
+    "everSeen": 2
+   },
+   "bk-treecko": {
+    "name": "Treecko",
+    "liveListings": 1,
+    "liveSealed": 0,
+    "askItemUSD": {
+     "low": 70.07,
+     "median": 70.07,
+     "high": 70.07
+    },
+    "impliedSales": 0,
+    "impliedSaleMedianUSD": null,
+    "everSeen": 1
    },
    "bk-exploud": {
     "name": "Exploud",
@@ -639,29 +1694,29 @@
    },
    "bk-mudkip": {
     "name": "Mudkip",
-    "liveListings": 0,
-    "liveSealed": 0,
+    "liveListings": 2,
+    "liveSealed": 1,
     "askItemUSD": {
-     "low": null,
-     "median": null,
-     "high": null
+     "low": 15.0,
+     "median": 18.18,
+     "high": 21.35
     },
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
-    "everSeen": 0
+    "everSeen": 2
    },
    "bk-rayquaza": {
     "name": "Rayquaza",
-    "liveListings": 0,
-    "liveSealed": 0,
+    "liveListings": 3,
+    "liveSealed": 2,
     "askItemUSD": {
-     "low": null,
-     "median": null,
-     "high": null
+     "low": 7.72,
+     "median": 18.44,
+     "high": 21.65
     },
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
-    "everSeen": 0
+    "everSeen": 3
    },
    "bk-torchic": {
     "name": "Torchic",
@@ -678,23 +1733,23 @@
    },
    "h-gengar-deck": {
     "name": "Gengar",
-    "liveListings": 2,
-    "liveSealed": 1,
+    "liveListings": 8,
+    "liveSealed": 4,
     "askItemUSD": {
-     "low": 250.0,
-     "median": 300.0,
-     "high": 349.99
+     "low": 19.69,
+     "median": 237.47,
+     "high": 1601.23
     },
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
-    "everSeen": 2
+    "everSeen": 8
    }
   }
  },
  "totals": {
-  "foundToday": 9,
-  "sealedToday": 2,
-  "distinctEverSeen": 9,
-  "unownedRowsWithAnyListing": 4
+  "foundToday": 34,
+  "sealedToday": 15,
+  "distinctEverSeen": 34,
+  "unownedRowsWithAnyListing": 9
  }
 }

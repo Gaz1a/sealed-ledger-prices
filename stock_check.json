@@ -91,10 +91,12 @@
    "isbnOnPage": false,
    "isbnsOnPage": [],
    "ref": [],
-   "stock": "unknown (page is JavaScript-rendered)",
+   "stock": "out_of_stock",
    "price": 8.99,
    "currency": "EUR",
-   "title": "Pokémon Origem das Lendas Gengar - Americana.pt"
+   "title": "Pokémon Origem das Lendas Gengar - Americana.pt",
+   "expectedIsbn": "9788575322611",
+   "isbnMatchesExpected": null
   },
   {
    "id": "bk-machamp",
@@ -109,15 +111,17 @@
    "url": "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-machamp---cartas-+-livro-ilustrado",
    "site": "americana.pt",
    "http": 200,
-   "isbnOnPage": null,
+   "isbnOnPage": false,
    "isbnsOnPage": [],
    "ref": [
     "PKLIVLM11"
    ],
-   "stock": "unknown (page is JavaScript-rendered)",
+   "stock": "out_of_stock",
    "price": 8.99,
    "currency": "EUR",
-   "title": "Pokémon Origem das Lendas Machamp - cartas + livro ilustrado | Brinquedos | Americana.pt"
+   "title": "Pokémon Origem das Lendas Machamp - cartas + livro ilustrado | Brinquedos | Americana.pt",
+   "expectedIsbn": "9788575322604",
+   "isbnMatchesExpected": null
   },
   {
    "id": "bk-machamp",
@@ -125,7 +129,7 @@
    "url": "https://forretas.com/p/4961741/pokemon-baralho-11-origem-das-lendas-machamp",
    "site": "forretas.com",
    "http": 200,
-   "isbnOnPage": null,
+   "isbnOnPage": true,
    "isbnsOnPage": [
     "9788575322604"
    ],
@@ -135,7 +139,9 @@
    "stock": "unknown (page is JavaScript-rendered)",
    "price": null,
    "currency": "EUR",
-   "title": "Forretas"
+   "title": "Forretas",
+   "expectedIsbn": "9788575322604",
+   "isbnMatchesExpected": true
   },
   {
    "id": "bk-omastar",
@@ -247,5 +253,57 @@
    "url": "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-torchic---cartas-+-livro-ilustrado",
    "http": 404
   }
- ]
+ ],
+ "devirBrasilIsbn": {
+  "bk-golem": {
+   "isbn": "9788575322581",
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-hooh": {
+   "isbn": "9788575322352",
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-lugia": {
+   "isbn": "9788575322369",
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-machamp": {
+   "isbn": "9788575322604",
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-omastar": {
+   "isbn": "9788575322598",
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-ralts": {
+   "isbn": "9788575321324",
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-treecko": {
+   "isbn": "9788575321331",
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-mudkip": {
+   "isbn": "9788575321348",
+   "http": 200,
+   "productLinks": []
+  },
+  "bk-rayquaza": {
+   "isbn": "9788575322079",
+   "http": 200,
+   "productLinks": []
+  },
+  "h-gengar-deck": {
+   "isbn": "9788575322611",
+   "http": 200,
+   "productLinks": []
+  }
+ }
 }
