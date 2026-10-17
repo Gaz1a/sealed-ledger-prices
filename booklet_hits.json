@@ -1,33 +1,279 @@
 {
  "generated": "2026-10-17",
+ "label": "unverified: asking prices, not sold; import cost is an ESTIMATE",
  "assumptions": {
   "importEstimatePct": 0.1,
-  "importNote": "ESTIMATE for non-US origin; eBay's API does not return duty/fees",
-  "targetMultiplier": 0.85,
-  "targets": "ledger targets for 7 rows; 0.85 x English Cardmarket trend for the rest once a trend exists",
-  "reference": "median Portuguese ask if >=3 live listings, else English proxy (Cardmarket trend)",
   "shipTo": "Burbank CA 91505",
-  "label": "unverified: asking prices/trend, not sold"
+  "rules": [
+   "reference = lowest all-in Portuguese Devir SEALED asking price seen so far (known shipping only)",
+   "flag if all-in <= 0.85 x reference, or <= your max for that booklet",
+   "no sealed Portuguese reference yet -> flag any sealed listing the first time its item id appears",
+   "only sealed/new listings are flagged; others listed under notSealed",
+   "shipping not shown -> all-in is 'shipping unknown' (item+import shown as lower bound)"
+  ]
  },
- "items": {
+ "flags": [],
+ "notSealed": [
+  {
+   "id": "bk-hooh",
+   "name": "Ho-Oh",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "Sin clasificar",
+   "itemUSD": 67.51,
+   "shippingUSD": null,
+   "shippingUnknown": true,
+   "title": "Pokémon EX Forças Ocultas Ho-Oh Devir Portugués Precintado Vintage",
+   "seller": "hearthicegroup",
+   "feedbackPct": "0.0",
+   "itemLocation": "ES",
+   "url": "https://www.ebay.es/itm/178546022377"
+  },
+  {
+   "id": "bk-lugia",
+   "name": "Lugia",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "Ungraded",
+   "itemUSD": 169.21,
+   "shippingUSD": null,
+   "shippingUnknown": true,
+   "title": "Tarjeta Lugia 29/115 con Colección Ex Fuerzas Portuguesas Ocultas (SOLO UNA EN EBAY)",
+   "seller": "maxis50",
+   "feedbackPct": "100.0",
+   "itemLocation": "US",
+   "url": "https://www.ebay.es/itm/396842554717"
+  },
+  {
+   "id": "bk-machamp",
+   "name": "Machamp",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "New/Factory Sealed",
+   "itemUSD": 45.0,
+   "shippingUSD": null,
+   "shippingUnknown": true,
+   "title": "Devir Livraria Pokémon Livro em das lendas Machamp Deck 30 Cards PT 2007",
+   "seller": "logans_store",
+   "feedbackPct": "100.0",
+   "itemLocation": "US",
+   "url": "https://www.ebay.com/itm/820228536215"
+  },
+  {
+   "id": "bk-machamp",
+   "name": "Machamp",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "Nuevo/Precintado de fábrica",
+   "itemUSD": 56.27,
+   "shippingUSD": 28.13,
+   "shippingUnknown": false,
+   "title": "Devir Livraria Pokémon TCG Theme Deck Origem das Lendas Machamp- 30 cards",
+   "seller": "fafiti",
+   "feedbackPct": "0.0",
+   "itemLocation": "PT",
+   "url": "https://www.ebay.it/itm/307154141294"
+  },
+  {
+   "id": "bk-machamp",
+   "name": "Machamp",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "Ungraded",
+   "itemUSD": 99.13,
+   "shippingUSD": 8.01,
+   "shippingUnknown": false,
+   "title": "Pokemon Portoghese Machamp Illustrated BookDeck Sigillato Livro Ilustrado Devir 06'",
+   "seller": "vintagemonsterr",
+   "feedbackPct": "100.0",
+   "itemLocation": "US",
+   "url": "https://www.ebay.it/itm/307159080098"
+  },
+  {
+   "id": "bk-machamp",
+   "name": "Machamp",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "New/Factory Sealed",
+   "itemUSD": 149.99,
+   "shippingUSD": null,
+   "shippingUnknown": true,
+   "title": "Pokémon TCG  Machamp Rare Kit 30 Cards! Portuguese!",
+   "seller": "bleeedblue",
+   "feedbackPct": "100.0",
+   "itemLocation": "US",
+   "url": "https://www.ebay.com/itm/407112914567"
+  },
+  {
+   "id": "bk-ralts",
+   "name": "Ralts",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "Nuevo/Precintado de fábrica",
+   "itemUSD": 31.51,
+   "shippingUSD": 28.13,
+   "shippingUnknown": false,
+   "title": "Devir Livraria Pokémon TCG Theme Deck EX Rubi & Safira Ralts- 30 cards",
+   "seller": "fafiti",
+   "feedbackPct": "0.0",
+   "itemLocation": "PT",
+   "url": "https://www.ebay.it/itm/307154261661"
+  },
+  {
+   "id": "h-gengar-deck",
+   "name": "Gengar",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "New/Factory Sealed",
+   "itemUSD": 250.0,
+   "shippingUSD": null,
+   "shippingUnknown": true,
+   "title": "Devir Pokémon TCG Origem das Lendas Gengar Deck 30 Cards PT 2007 14+",
+   "seller": "rafa.r0",
+   "feedbackPct": "0.0",
+   "itemLocation": "US",
+   "url": "https://www.ebay.com/itm/298511253175"
+  }
+ ],
+ "counts": {
   "bk-golem": {
    "name": "Golem",
    "owned": false,
-   "reference": 124.01,
-   "referenceBasis": "English proxy (Cardmarket trend)",
-   "target": 104.98,
-   "targetBasis": "ledger target",
-   "portugueseListings": 0,
-   "listings": []
+   "foundToday": 0,
+   "sealedToday": 0,
+   "notSealedToday": 0,
+   "distinctEverSeen": 0,
+   "sealedEverSeen": 0,
+   "reference": null,
+   "max": null
   },
   "bk-hooh": {
    "name": "Ho-Oh",
    "owned": false,
-   "reference": 27.7,
-   "referenceBasis": "English proxy (Cardmarket trend)",
-   "target": 19.69,
-   "targetBasis": "ledger target",
-   "portugueseListings": 1,
+   "foundToday": 1,
+   "sealedToday": 0,
+   "notSealedToday": 1,
+   "distinctEverSeen": 1,
+   "sealedEverSeen": 0,
+   "reference": null,
+   "max": null
+  },
+  "bk-lugia": {
+   "name": "Lugia",
+   "owned": false,
+   "foundToday": 1,
+   "sealedToday": 0,
+   "notSealedToday": 1,
+   "distinctEverSeen": 1,
+   "sealedEverSeen": 0,
+   "reference": null,
+   "max": null
+  },
+  "bk-machamp": {
+   "name": "Machamp",
+   "owned": false,
+   "foundToday": 4,
+   "sealedToday": 0,
+   "notSealedToday": 4,
+   "distinctEverSeen": 4,
+   "sealedEverSeen": 0,
+   "reference": null,
+   "max": null
+  },
+  "bk-omastar": {
+   "name": "Omastar",
+   "owned": false,
+   "foundToday": 0,
+   "sealedToday": 0,
+   "notSealedToday": 0,
+   "distinctEverSeen": 0,
+   "sealedEverSeen": 0,
+   "reference": null,
+   "max": null
+  },
+  "bk-ralts": {
+   "name": "Ralts",
+   "owned": false,
+   "foundToday": 1,
+   "sealedToday": 0,
+   "notSealedToday": 1,
+   "distinctEverSeen": 1,
+   "sealedEverSeen": 0,
+   "reference": null,
+   "max": null
+  },
+  "bk-treecko": {
+   "name": "Treecko",
+   "owned": false,
+   "foundToday": 0,
+   "sealedToday": 0,
+   "notSealedToday": 0,
+   "distinctEverSeen": 0,
+   "sealedEverSeen": 0,
+   "reference": null,
+   "max": null
+  },
+  "bk-exploud": {
+   "name": "Exploud",
+   "owned": false,
+   "foundToday": 0,
+   "sealedToday": 0,
+   "notSealedToday": 0,
+   "distinctEverSeen": 0,
+   "sealedEverSeen": 0,
+   "reference": null,
+   "max": null
+  },
+  "bk-mudkip": {
+   "name": "Mudkip",
+   "owned": false,
+   "foundToday": 0,
+   "sealedToday": 0,
+   "notSealedToday": 0,
+   "distinctEverSeen": 0,
+   "sealedEverSeen": 0,
+   "reference": null,
+   "max": null
+  },
+  "bk-rayquaza": {
+   "name": "Rayquaza",
+   "owned": false,
+   "foundToday": 0,
+   "sealedToday": 0,
+   "notSealedToday": 0,
+   "distinctEverSeen": 0,
+   "sealedEverSeen": 0,
+   "reference": null,
+   "max": null
+  },
+  "bk-torchic": {
+   "name": "Torchic",
+   "owned": false,
+   "foundToday": 0,
+   "sealedToday": 0,
+   "notSealedToday": 0,
+   "distinctEverSeen": 0,
+   "sealedEverSeen": 0,
+   "reference": null,
+   "max": null
+  },
+  "h-gengar-deck": {
+   "name": "Gengar",
+   "owned": true,
+   "foundToday": 2,
+   "sealedToday": 1,
+   "notSealedToday": 1,
+   "distinctEverSeen": 2,
+   "sealedEverSeen": 1,
+   "reference": null,
+   "max": null
+  }
+ },
+ "items": {
+  "bk-golem": {
+   "listings": []
+  },
+  "bk-hooh": {
    "listings": [
     {
      "title": "Pokémon EX Forças Ocultas Ho-Oh Devir Portugués Precintado Vintage",
@@ -44,20 +290,11 @@
      "sealedBasis": "unconfirmed",
      "seller": "hearthicegroup",
      "feedbackPct": "0.0",
-     "feedbackScore": 0,
-     "underTarget": false,
-     "nearMiss": false
+     "feedbackScore": 0
     }
    ]
   },
   "bk-lugia": {
-   "name": "Lugia",
-   "owned": false,
-   "reference": 45.82,
-   "referenceBasis": "English proxy (Cardmarket trend)",
-   "target": 25.36,
-   "targetBasis": "ledger target",
-   "portugueseListings": 1,
    "listings": [
     {
      "title": "Tarjeta Lugia 29/115 con Colección Ex Fuerzas Portuguesas Ocultas (SOLO UNA EN EBAY)",
@@ -74,20 +311,11 @@
      "sealedBasis": "unconfirmed",
      "seller": "maxis50",
      "feedbackPct": "100.0",
-     "feedbackScore": 14,
-     "underTarget": false,
-     "nearMiss": false
+     "feedbackScore": 14
     }
    ]
   },
   "bk-machamp": {
-   "name": "Machamp",
-   "owned": false,
-   "reference": 99.13,
-   "referenceBasis": "median Portuguese ask",
-   "target": 14.85,
-   "targetBasis": "ledger target",
-   "portugueseListings": 4,
    "listings": [
     {
      "title": "Devir Livraria Pokémon Livro em das lendas Machamp Deck 30 Cards PT 2007",
@@ -104,9 +332,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "logans_store",
      "feedbackPct": "100.0",
-     "feedbackScore": 6,
-     "underTarget": false,
-     "nearMiss": false
+     "feedbackScore": 6
     },
     {
      "title": "Devir Livraria Pokémon TCG Theme Deck Origem das Lendas Machamp- 30 cards",
@@ -123,9 +349,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "fafiti",
      "feedbackPct": "0.0",
-     "feedbackScore": 0,
-     "underTarget": false,
-     "nearMiss": false
+     "feedbackScore": 0
     },
     {
      "title": "Pokemon Portoghese Machamp Illustrated BookDeck Sigillato Livro Ilustrado Devir 06'",
@@ -142,9 +366,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "vintagemonsterr",
      "feedbackPct": "100.0",
-     "feedbackScore": 112,
-     "underTarget": false,
-     "nearMiss": false
+     "feedbackScore": 112
     },
     {
      "title": "Pokémon TCG  Machamp Rare Kit 30 Cards! Portuguese!",
@@ -161,30 +383,14 @@
      "sealedBasis": "unconfirmed",
      "seller": "bleeedblue",
      "feedbackPct": "100.0",
-     "feedbackScore": 13,
-     "underTarget": false,
-     "nearMiss": false
+     "feedbackScore": 13
     }
    ]
   },
   "bk-omastar": {
-   "name": "Omastar",
-   "owned": false,
-   "reference": 22.3,
-   "referenceBasis": "English proxy (Cardmarket trend)",
-   "target": 18.88,
-   "targetBasis": "ledger target",
-   "portugueseListings": 0,
    "listings": []
   },
   "bk-ralts": {
-   "name": "Ralts",
-   "owned": false,
-   "reference": 23.1,
-   "referenceBasis": "English proxy (Cardmarket trend)",
-   "target": 19.67,
-   "targetBasis": "ledger target",
-   "portugueseListings": 1,
    "listings": [
     {
      "title": "Devir Livraria Pokémon TCG Theme Deck EX Rubi & Safira Ralts- 30 cards",
@@ -201,70 +407,26 @@
      "sealedBasis": "unconfirmed",
      "seller": "fafiti",
      "feedbackPct": "0.0",
-     "feedbackScore": 0,
-     "underTarget": false,
-     "nearMiss": false
+     "feedbackScore": 0
     }
    ]
   },
   "bk-treecko": {
-   "name": "Treecko",
-   "owned": false,
-   "reference": 26.4,
-   "referenceBasis": "English proxy (Cardmarket trend)",
-   "target": 21.69,
-   "targetBasis": "ledger target",
-   "portugueseListings": 0,
    "listings": []
   },
   "bk-exploud": {
-   "name": "Exploud",
-   "owned": false,
-   "reference": null,
-   "referenceBasis": "English proxy (Cardmarket trend)",
-   "target": null,
-   "targetBasis": "none (no English proxy trend yet)",
-   "portugueseListings": 0,
    "listings": []
   },
   "bk-mudkip": {
-   "name": "Mudkip",
-   "owned": false,
-   "reference": null,
-   "referenceBasis": "English proxy (Cardmarket trend)",
-   "target": null,
-   "targetBasis": "none (no English proxy trend yet)",
-   "portugueseListings": 0,
    "listings": []
   },
   "bk-rayquaza": {
-   "name": "Rayquaza",
-   "owned": false,
-   "reference": null,
-   "referenceBasis": "English proxy (Cardmarket trend)",
-   "target": null,
-   "targetBasis": "none (no English proxy trend yet)",
-   "portugueseListings": 0,
    "listings": []
   },
   "bk-torchic": {
-   "name": "Torchic",
-   "owned": false,
-   "reference": null,
-   "referenceBasis": "English proxy (Cardmarket trend)",
-   "target": null,
-   "targetBasis": "none (no English proxy trend yet)",
-   "portugueseListings": 0,
    "listings": []
   },
   "h-gengar-deck": {
-   "name": "Gengar",
-   "owned": true,
-   "reference": 45.69,
-   "referenceBasis": "English proxy (Cardmarket trend)",
-   "target": 38.84,
-   "targetBasis": "0.85 x English proxy (Cardmarket trend)",
-   "portugueseListings": 2,
    "listings": [
     {
      "title": "Devir Pokémon TCG Origem das Lendas Gengar Deck 30 Cards PT 2007 14+",
@@ -281,9 +443,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "rafa.r0",
      "feedbackPct": "0.0",
-     "feedbackScore": 0,
-     "underTarget": false,
-     "nearMiss": false
+     "feedbackScore": 0
     },
     {
      "title": "Gengar EX Legend Maker Half Deck Box Sealed Portuguese Pokemon SWIRL",
@@ -300,33 +460,15 @@
      "sealedBasis": "title says sealed/new",
      "seller": "goobytcg",
      "feedbackPct": "100.0",
-     "feedbackScore": 2093,
-     "underTarget": false,
-     "nearMiss": false
+     "feedbackScore": 2093
     }
    ]
   }
  },
- "hits": [],
  "totals": {
-  "portugueseBuyItNowListingsFound": 9,
-  "ofWhichSealedConfirmed": 1,
-  "unownedRows": 7,
-  "perRow": {
-   "bk-golem": 0,
-   "bk-hooh": 1,
-   "bk-lugia": 1,
-   "bk-machamp": 4,
-   "bk-omastar": 0,
-   "bk-ralts": 1,
-   "bk-treecko": 0,
-   "bk-exploud": 0,
-   "bk-mudkip": 0,
-   "bk-rayquaza": 0,
-   "bk-torchic": 0,
-   "h-gengar-deck": 2
-  },
-  "note": "title-matched (Devir/Livro Ilustrado/Estampas Ilustradas/Portuguese + Pokemon name), buy-it-now, ships to US, excluding lots/loose/graded"
- },
- "nearMisses": []
+  "foundToday": 9,
+  "sealedToday": 1,
+  "distinctEverSeen": 9,
+  "unownedRowsWithAnyListing": 4
+ }
 }
