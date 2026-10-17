@@ -39,7 +39,100 @@
    "note": null
   }
  },
- "products": [],
+ "products": [
+  {
+   "id": "h-gengar-deck",
+   "name": "Gengar",
+   "url": "https://devir.pt/pokemon-baralho-12-origem-das-lendas-gengar",
+   "site": "devir.pt",
+   "status": "skipped: robots.txt disallows or unreadable"
+  },
+  {
+   "id": "h-gengar-deck",
+   "name": "Gengar",
+   "url": "https://cubosluminosos.pt/en/pokemon-baralho-12-origem-das-lendas-gengar",
+   "site": "cubosluminosos.pt",
+   "status": "skipped: robots.txt disallows or unreadable"
+  },
+  {
+   "id": "h-gengar-deck",
+   "name": "Gengar",
+   "url": "https://www.worten.pt/produtos/pokemon-baralho-12-origem-das-lendas-gengar-devir-mrkean-9788575322611",
+   "site": "worten.pt",
+   "status": "skipped: robots.txt disallows or unreadable"
+  },
+  {
+   "id": "h-gengar-deck",
+   "name": "Gengar",
+   "url": "https://www.wook.pt/en/livro/pokemon-origem-das-lendas-volume-12-gengar-preto/10723441",
+   "site": "wook.pt",
+   "status": "skipped: robots.txt disallows or unreadable"
+  },
+  {
+   "id": "h-gengar-deck",
+   "name": "Gengar",
+   "url": "https://www.bertrand.pt/livro/pokemon-origem-das-lendas-volume-12-gengar-preto-/10723441",
+   "site": "bertrand.pt",
+   "status": "skipped: robots.txt disallows or unreadable"
+  },
+  {
+   "id": "h-gengar-deck",
+   "name": "Gengar",
+   "url": "https://www.shop4nerds.pt/item-detalhe.php?p=16360",
+   "site": "shop4nerds.pt",
+   "status": "skipped: robots.txt disallows or unreadable"
+  },
+  {
+   "id": "h-gengar-deck",
+   "name": "Gengar",
+   "url": "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-gengar---cartas-+-livro-ilustrado",
+   "site": "americana.pt",
+   "http": 200,
+   "isbnOnPage": false,
+   "stock": "out_of_stock",
+   "price": 8.99,
+   "currency": "EUR",
+   "title": "Pokémon Origem das Lendas Gengar - Americana.pt"
+  },
+  {
+   "id": "bk-machamp",
+   "name": "Machamp",
+   "url": "https://devir.pt/pokemon-baralho-11-origem-das-lendas-machamp",
+   "site": "devir.pt",
+   "status": "skipped: robots.txt disallows or unreadable"
+  },
+  {
+   "id": "bk-machamp",
+   "name": "Machamp",
+   "url": "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-machamp---cartas-+-livro-ilustrado",
+   "site": "americana.pt",
+   "http": 200,
+   "isbnOnPage": null,
+   "stock": "out_of_stock",
+   "price": 8.99,
+   "currency": "EUR",
+   "title": "Pokémon Origem das Lendas Machamp - cartas + livro ilustrado | Brinquedos | Americana.pt"
+  },
+  {
+   "id": "bk-machamp",
+   "name": "Machamp",
+   "url": "https://forretas.com/p/4961741/pokemon-baralho-11-origem-das-lendas-machamp",
+   "site": "forretas.com",
+   "http": 200,
+   "isbnOnPage": null,
+   "stock": "in_stock",
+   "price": null,
+   "currency": "EUR",
+   "title": "Forretas"
+  },
+  {
+   "id": "bk-omastar",
+   "name": "Omastar",
+   "url": "https://cubosluminosos.pt/pokemon-baralho-10-origem-das-lendas-omastar",
+   "site": "cubosluminosos.pt",
+   "status": "skipped: robots.txt disallows or unreadable"
+  }
+ ],
  "devirBrasil": {
   "bk-golem": {
    "http": 200,
