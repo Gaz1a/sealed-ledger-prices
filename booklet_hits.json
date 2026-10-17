@@ -57,23 +57,33 @@
    "shipping not shown -> all-in is 'shipping unknown' (item+import shown as lower bound)"
   ]
  },
- "flags": [],
- "notSealed": [
+ "flags": [
   {
    "id": "bk-hooh",
    "name": "Ho-Oh",
-   "reason": "opened/unspecified condition",
-   "sealedBasis": "unconfirmed",
-   "condition": "Sin clasificar",
+   "reasons": [
+    "first sealed Portuguese listing seen for this booklet",
+    "shipping unknown: item $67.51; under your $105 cap only if shipping stays at/under $27.94"
+   ],
+   "new": true,
+   "allInUSD": null,
+   "allInStatus": "shipping unknown",
+   "itemOnlyLowerBoundUSD": 74.26,
+   "maxShippingForCapUSD": 27.94,
    "itemUSD": 67.51,
    "shippingUSD": null,
-   "shippingUnknown": true,
+   "importEstUSD": 6.75,
    "title": "Pokémon EX Forças Ocultas Ho-Oh Devir Portugués Precintado Vintage",
    "seller": "hearthicegroup",
    "feedbackPct": "0.0",
+   "feedbackScore": 0,
    "itemLocation": "ES",
-   "url": "https://www.ebay.es/itm/178546022377"
-  },
+   "sealedBasis": "title says sealed/new",
+   "url": "https://www.ebay.es/itm/178546022377",
+   "reference": null
+  }
+ ],
+ "notSealed": [
   {
    "id": "bk-lugia",
    "name": "Lugia",
@@ -190,18 +200,18 @@
    "distinctEverSeen": 0,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": null
+   "max": 105
   },
   "bk-hooh": {
    "name": "Ho-Oh",
    "owned": false,
    "foundToday": 1,
-   "sealedToday": 0,
-   "notSealedToday": 1,
+   "sealedToday": 1,
+   "notSealedToday": 0,
    "distinctEverSeen": 1,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": null
+   "max": 105
   },
   "bk-lugia": {
    "name": "Lugia",
@@ -212,7 +222,7 @@
    "distinctEverSeen": 1,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": null
+   "max": 105
   },
   "bk-machamp": {
    "name": "Machamp",
@@ -223,7 +233,7 @@
    "distinctEverSeen": 4,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": null
+   "max": 105
   },
   "bk-omastar": {
    "name": "Omastar",
@@ -234,7 +244,7 @@
    "distinctEverSeen": 0,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": null
+   "max": 105
   },
   "bk-ralts": {
    "name": "Ralts",
@@ -245,7 +255,7 @@
    "distinctEverSeen": 1,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": null
+   "max": 105
   },
   "bk-treecko": {
    "name": "Treecko",
@@ -256,7 +266,7 @@
    "distinctEverSeen": 0,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": null
+   "max": 105
   },
   "bk-exploud": {
    "name": "Exploud",
@@ -267,7 +277,7 @@
    "distinctEverSeen": 0,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": null
+   "max": 105
   },
   "bk-mudkip": {
    "name": "Mudkip",
@@ -278,7 +288,7 @@
    "distinctEverSeen": 0,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": null
+   "max": 105
   },
   "bk-rayquaza": {
    "name": "Rayquaza",
@@ -289,7 +299,7 @@
    "distinctEverSeen": 0,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": null
+   "max": 105
   },
   "bk-torchic": {
    "name": "Torchic",
@@ -300,7 +310,7 @@
    "distinctEverSeen": 0,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": null
+   "max": 105
   },
   "h-gengar-deck": {
    "name": "Gengar",
@@ -331,8 +341,8 @@
      "allInUSD": 74.26,
      "originCountry": "ES",
      "condition": "Sin clasificar",
-     "sealed": false,
-     "sealedBasis": "unconfirmed",
+     "sealed": true,
+     "sealedBasis": "title says sealed/new",
      "seller": "hearthicegroup",
      "feedbackPct": "0.0",
      "feedbackScore": 0
@@ -512,7 +522,7 @@
  },
  "totals": {
   "foundToday": 9,
-  "sealedToday": 1,
+  "sealedToday": 2,
   "distinctEverSeen": 9,
   "unownedRowsWithAnyListing": 4
  }

@@ -89,7 +89,9 @@
    "site": "americana.pt",
    "http": 200,
    "isbnOnPage": false,
-   "stock": "out_of_stock",
+   "isbnsOnPage": [],
+   "ref": [],
+   "stock": "unknown (page is JavaScript-rendered)",
    "price": 8.99,
    "currency": "EUR",
    "title": "Pokémon Origem das Lendas Gengar - Americana.pt"
@@ -108,7 +110,11 @@
    "site": "americana.pt",
    "http": 200,
    "isbnOnPage": null,
-   "stock": "out_of_stock",
+   "isbnsOnPage": [],
+   "ref": [
+    "PKLIVLM11"
+   ],
+   "stock": "unknown (page is JavaScript-rendered)",
    "price": 8.99,
    "currency": "EUR",
    "title": "Pokémon Origem das Lendas Machamp - cartas + livro ilustrado | Brinquedos | Americana.pt"
@@ -120,7 +126,13 @@
    "site": "forretas.com",
    "http": 200,
    "isbnOnPage": null,
-   "stock": "in_stock",
+   "isbnsOnPage": [
+    "9788575322604"
+   ],
+   "ref": [
+    "PKLIVLM11"
+   ],
+   "stock": "unknown (page is JavaScript-rendered)",
    "price": null,
    "currency": "EUR",
    "title": "Forretas"
@@ -183,5 +195,57 @@
    "productLinks": []
   }
  },
- "inStock": []
+ "inStock": [],
+ "probedNotFound": [
+  {
+   "id": "bk-golem",
+   "url": "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-golem---cartas-+-livro-ilustrado",
+   "http": 404
+  },
+  {
+   "id": "bk-hooh",
+   "url": "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-ho-oh---cartas-+-livro-ilustrado",
+   "http": 404
+  },
+  {
+   "id": "bk-lugia",
+   "url": "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-lugia---cartas-+-livro-ilustrado",
+   "http": 404
+  },
+  {
+   "id": "bk-omastar",
+   "url": "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-omastar---cartas-+-livro-ilustrado",
+   "http": 404
+  },
+  {
+   "id": "bk-ralts",
+   "url": "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-ralts---cartas-+-livro-ilustrado",
+   "http": 404
+  },
+  {
+   "id": "bk-treecko",
+   "url": "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-treecko---cartas-+-livro-ilustrado",
+   "http": 404
+  },
+  {
+   "id": "bk-exploud",
+   "url": "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-exploud---cartas-+-livro-ilustrado",
+   "http": 404
+  },
+  {
+   "id": "bk-mudkip",
+   "url": "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-mudkip---cartas-+-livro-ilustrado",
+   "http": 404
+  },
+  {
+   "id": "bk-rayquaza",
+   "url": "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-rayquaza---cartas-+-livro-ilustrado",
+   "http": 404
+  },
+  {
+   "id": "bk-torchic",
+   "url": "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-torchic---cartas-+-livro-ilustrado",
+   "http": 404
+  }
+ ]
 }
