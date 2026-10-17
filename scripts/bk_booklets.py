@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Daily Portuguese Devir illustrated-booklet prices + buy scan -> booklet_prices.json, booklet_hits.json.
 Price point per booklet per day: lowest live Portuguese/Devir buy-it-now ASKING price if one exists, else the matching English EX booklet's Cardmarket TREND ("English proxy").
-All prices unverified (asking/trend, not sold). Buy scan: worldwide eBay Browse API, buy-it-now only, sealed only, all-in = item + shipping (+ estimated import cost for non-US origin).
+All prices unverified (asking/trend, not sold). Buy scan: worldwide eBay Browse API, buy-it-now only, sealed only, all-in = item + shipping (+ estimated import urllib.error, urllib.parse, cost for non-US origin).
 Target = 0.85 x reference (median Portuguese ask if >=3 live listings, else English proxy trend). Never prints keys."""
 import json, os, re, time, base64, datetime, urllib.request, urllib.parse, urllib.error
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -20,10 +20,15 @@ SEALED = re.compile(r"sealed|lacrado|selado|precintado|versiegelt|\bneuf\b|\bneu
 def ld(p, d):
     try: return json.load(open(os.path.join(ROOT, p)))
     except Exception: return d
+DIAG = {"calls": 0, "errors": {}}
 def get(u, h=None, data=None):
+    DIAG["calls"] += 1
     try:
         with urllib.request.urlopen(urllib.request.Request(u, headers=h or {"User-Agent": "sealed-ledger"}, data=data), timeout=60) as r: return json.load(r)
-    except Exception: return {}
+    except urllib.error.HTTPError as e:
+        k = "%s %s" % (e.code, urllib.parse.urlparse(u).netloc); DIAG["errors"][k] = DIAG["errors"].get(k, 0) + 1; return {}
+    except Exception as e:
+        k = type(e).__name__; DIAG["errors"][k] = DIAG["errors"].get(k, 0) + 1; return {}
 bk = ld("booklets.json", {}); fx = bk.get("fx") or 1.1208
 cm = {}
 for n, d in bk.get("decks", {}).items():
@@ -94,7 +99,7 @@ out = {"searchKeys": {r: {"titleQueries": [f"Devir Livro Ilustrado {n}", f"Estam
        "generated": TODAY, "label": "unverified: asking prices, not sold; import cost is an ESTIMATE", "assumptions": {"importEstimatePct": IMPORT_PCT, "shipTo": "Burbank CA 91505",
        "rules": ["reference = lowest all-in Portuguese Devir SEALED asking price seen so far (known shipping only)", "flag only when all-in (item + shipping + 12% import for non-US sellers) is within that booklet's cap (hard gate); other reasons annotate", "auctions: current bid + shipping + import vs cap; a 0-bid auction is flagged only if shipping alone is under the cap",
                  "no sealed Portuguese reference yet -> flag any sealed listing the first time its item id appears", "only sealed/new listings are flagged; others listed under notSealed", "shipping not shown -> all-in is 'shipping unknown' (item+import shown as lower bound)"]},
-       "flags": [], "notSealed": [], "counts": {}, "items": {}}
+       "diagnostics": DIAG, "flags": [], "notSealed": [], "counts": {}, "items": {}}
 for rid, nm in ROWS.items():
     cmid = BK.get(rid, {}).get("cardmarketId"); g_ = CMG.get(cmid) if cmid else None; cmn = CMN.get(cmid) if cmid else None
     cd = {"id": cmid, "trendEUR": (g_ or {}).get("trend"), "lowEUR": (g_ or {}).get("low"), "inPriceGuide": g_ is not None} if cmid else None
