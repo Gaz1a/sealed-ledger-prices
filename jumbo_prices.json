@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T15:18:13Z",
+ "generated": "2026-10-17T17:35:32Z",
  "items": {
   "j-None-paldean-fates-great-tusk-ex-iron-treads-ex-premium-collection-en": {
    "title": "Paldean Fates Great Tusk ex & Iron Treads ex Premium Collection",
@@ -823,7 +823,41 @@
    "title": "Expedition Base Set booster display"
   },
   "j-2002-legendary-collection-booster-display-en": {
-   "title": "Legendary Collection booster display"
+   "title": "Legendary Collection booster display",
+   "cardSet": {
+    "mode": "range",
+    "items": [
+     {
+      "productId": 210841,
+      "name": "Charizard - S1/S4 (Box Topper)",
+      "market": 900.0,
+      "subType": "Reverse Holofoil"
+     },
+     {
+      "productId": 210842,
+      "name": "Dark Blastoise - S2/S4 (Box Topper)",
+      "market": 399.99,
+      "subType": "Reverse Holofoil"
+     },
+     {
+      "productId": 210843,
+      "name": "Dark Raichu - S3/S4 (Box Topper)",
+      "market": null,
+      "subType": null
+     },
+     {
+      "productId": 210844,
+      "name": "Mewtwo - S4/S4 (Box Topper)",
+      "market": null,
+      "subType": null
+     }
+    ],
+    "low": 399.99,
+    "high": 900.0,
+    "sum": null,
+    "date": "2026-10-17",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)"
+   }
   },
   "j-2003-aquapolis-booster-display-en": {
    "title": "Aquapolis booster display"
@@ -1517,7 +1551,29 @@
    }
   },
   "j-2014-mega-charizard-box-en": {
-   "title": "Mega Charizard Box"
+   "title": "Mega Charizard Box",
+   "cardSet": {
+    "mode": "range",
+    "items": [
+     {
+      "productId": 211420,
+      "name": "M Charizard EX - 13/106 (Form Y)",
+      "market": null,
+      "subType": null
+     },
+     {
+      "productId": 211421,
+      "name": "M Charizard EX - 69/106 (Form X)",
+      "market": null,
+      "subType": null
+     }
+    ],
+    "low": null,
+    "high": null,
+    "sum": null,
+    "date": "2026-10-17",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)"
+   }
   },
   "j-2014-krookodile-ex-box-en": {
    "title": "Krookodile-EX Box",
@@ -2936,7 +2992,29 @@
    }
   },
   "j-2015-mega-mewtwo-box-en": {
-   "title": "Mega Mewtwo Box"
+   "title": "Mega Mewtwo Box",
+   "cardSet": {
+    "mode": "range",
+    "items": [
+     {
+      "productId": 211502,
+      "name": "M Mewtwo EX - 63/162",
+      "market": null,
+      "subType": null
+     },
+     {
+      "productId": 211503,
+      "name": "M Mewtwo EX - 64/162",
+      "market": null,
+      "subType": null
+     }
+    ],
+    "low": null,
+    "high": null,
+    "sum": null,
+    "date": "2026-10-17",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)"
+   }
   },
   "j-2016-evolutions-kanto-power-collection-en": {
    "title": "Evolutions Kanto Power Collection"
@@ -14567,7 +14645,22 @@
    }
   },
   "j-2018-dragon-majesty-legends-of-unova-gx-premium-collection-en": {
-   "title": "Dragon Majesty Legends of Unova GX Premium Collection"
+   "title": "Dragon Majesty Legends of Unova GX Premium Collection",
+   "card": {
+    "productId": 179036,
+    "history": [
+     [
+      "2026-10-17",
+      14.25
+     ]
+    ],
+    "name": "Reshiram, Zekrom & Kyurem",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 14.25,
+    "low": 5.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2018-dragon-majesty-premium-powers-collection-en": {
    "title": "Dragon Majesty Premium Powers Collection",
@@ -16533,6 +16626,15 @@
      },
      "own": "daily tcgcsv scan from 9999"
     }
+   },
+   "card": {
+    "productId": 707231,
+    "history": [],
+    "name": "Primarina GX",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": null,
+    "date": "2026-10-17",
+    "note": "no priced row today"
    }
   },
   "j-2018-island-guardians-gx-collection-pt": {
@@ -17384,7 +17486,22 @@
    }
   },
   "j-2018-dragon-majesty-legends-of-unova-gx-collection-en": {
-   "title": "Dragon Majesty Legends of Unova GX Collection"
+   "title": "Dragon Majesty Legends of Unova GX Collection",
+   "card": {
+    "productId": 179036,
+    "history": [
+     [
+      "2026-10-17",
+      14.25
+     ]
+    ],
+    "name": "Reshiram, Zekrom & Kyurem",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 14.25,
+    "low": 5.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
+   }
   },
   "j-2018-island-guardians-gx-pin-collection-en": {
    "title": "Island Guardians GX Pin Collection",
@@ -18544,7 +18661,35 @@
    }
   },
   "j-2019-eevee-gx-box-en": {
-   "title": "Eevee-GX Box"
+   "title": "Eevee-GX Box",
+   "cardSet": {
+    "mode": "range",
+    "items": [
+     {
+      "productId": 211433,
+      "name": "Eevee GX - SM174 (SM Black Star Promo)",
+      "market": null,
+      "subType": null
+     },
+     {
+      "productId": 211437,
+      "name": "Eevee GX - SM175 (SM Black Star Promo)",
+      "market": null,
+      "subType": null
+     },
+     {
+      "productId": 211439,
+      "name": "Eevee GX - SM176 (SM Black Star Promo)",
+      "market": null,
+      "subType": null
+     }
+    ],
+    "low": null,
+    "high": null,
+    "sum": null,
+    "date": "2026-10-17",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)"
+   }
   },
   "j-2019-flareon-gx-special-collection-en": {
    "title": "Flareon-GX Special Collection",
@@ -72040,6 +72185,34 @@
      },
      "own": "daily tcgcsv scan from 2026-10-17"
     }
+   },
+   "cardSet": {
+    "mode": "components",
+    "items": [
+     {
+      "productId": 231467,
+      "name": "Snivy",
+      "market": 1.83,
+      "subType": "Normal"
+     },
+     {
+      "productId": 231470,
+      "name": "Tepig",
+      "market": 1.56,
+      "subType": "Normal"
+     },
+     {
+      "productId": 231461,
+      "name": "Oshawott",
+      "market": 1.93,
+      "subType": "Normal"
+     }
+    ],
+    "low": 1.56,
+    "high": 1.93,
+    "sum": 5.32,
+    "date": "2026-10-17",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)"
    }
   },
   "j-2021-first-partner-pack-sinnoh-en": {
@@ -154993,6 +155166,21 @@
      },
      "own": "daily tcgcsv scan from 2026-10-17"
     }
+   },
+   "card": {
+    "productId": 605497,
+    "history": [
+     [
+      "2026-10-17",
+      1.53
+     ]
+    ],
+    "name": "Zacian V - 095/159",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 1.53,
+    "low": 1.0,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2024-meddling-sparks-premium-collection-en": {
@@ -161132,6 +161320,21 @@
      },
      "own": "daily tcgcsv scan from 2026-10-17"
     }
+   },
+   "card": {
+    "productId": 646170,
+    "history": [
+     [
+      "2026-10-17",
+      3.46
+     ]
+    ],
+    "name": "Victini - 208",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 3.46,
+    "low": 0.99,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2025-black-kyurem-ex-box-en": {
@@ -172418,6 +172621,21 @@
      },
      "own": "daily tcgcsv scan from 2026-10-17"
     }
+   },
+   "card": {
+    "productId": 668961,
+    "history": [
+     [
+      "2026-10-17",
+      0.8
+     ]
+    ],
+    "name": "Kyurem ex (Black Bolt)",
+    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+    "market": 0.8,
+    "low": 0.49,
+    "subType": "Holofoil",
+    "date": "2026-10-17"
    }
   },
   "j-2025-mega-kangaskhan-ex-box-en": {
