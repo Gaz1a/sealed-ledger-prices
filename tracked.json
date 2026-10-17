@@ -32,7 +32,7 @@
  "gy-151-130-165": {
   "productId": 516693,
   "title": "Gyarados 130/165 (Rare)",
-  "variant": "Normal"
+  "variant": "Holofoil"
  },
  "gy-ancient-origins-20-98": {
   "productId": 101441,
@@ -67,7 +67,7 @@
  "gy-destined-rivals-misty-s-49-182": {
   "productId": 633108,
   "title": "Gyarados 49/182 (Rare)",
-  "variant": "Normal"
+  "variant": "Holofoil"
  },
  "gy-dragon-majesty-20-70": {
   "productId": 175382,
@@ -142,7 +142,7 @@
  "gy-paldea-evolved-43-193": {
   "productId": 497454,
   "title": "Gyarados 43/193 (Rare)",
-  "variant": "Normal"
+  "variant": "Holofoil"
  },
  "gy-pokemon-go-22-078": {
   "productId": 276955,
@@ -2519,11 +2519,6 @@
   "title": "30th Celebration Pokemon Center Elite Trainer Box",
   "variant": null
  },
- "dr-box": {
-  "productId": 624679,
-  "title": "Destined Rivals Booster Box",
-  "variant": null
- },
  "s-30-sir-jirachi": {
   "productId": 716232,
   "title": "Jirachi ex - 155/128 (Special Illustration Rare)",
@@ -2533,5 +2528,25 @@
   "productId": 716231,
   "title": "Sylveon ex - 153/128 (Special Illustration Rare)",
   "variant": "Holofoil"
+ },
+ "c30-upc": {
+  "productId": 704190,
+  "title": "30th Celebration Ultra-Premium Collection [Day]",
+  "variant": null
+ },
+ "c30-upc-night": {
+  "productId": 704191,
+  "title": "30th Celebration Ultra-Premium Collection [Night]",
+  "variant": null
+ },
+ "h-moonlit-gengar": {
+  "productId": 686437,
+  "title": "Mega Moonlit Tin [Mega Gengar ex]",
+  "variant": null
+ },
+ "h-moonlit-clefable": {
+  "productId": 686438,
+  "title": "Mega Moonlit Tin [Mega Clefable ex]",
+  "variant": null
  }
 }
