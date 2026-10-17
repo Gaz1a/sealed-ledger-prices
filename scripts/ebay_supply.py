@@ -16,7 +16,7 @@ def call(url, hdr, data=None):
         return None
     except Exception: return None
 
-CARD_BAD = re.compile(r"\b(psa|cgc|bgs|graded|slab|lot of|lot|custom|proxy|replica|fake|mystery|repack|empty|code card|sticker)\b", re.I)
+CARD_BAD = re.compile(r"\b(psa|cgc|bgs|graded|slab|lot of|lot|custom|proxy|replica|fake|mystery|repack|empty|code card|sticker|box|collection|tin|pack|packs|sealed|bundle|etb|case|display|binder|album)\b", re.I)
 def measure(title, H, need, new_only, bad, extra_q=""):
     asks, total = [], None
     filt = "buyingOptions:{FIXED_PRICE}," + ("conditions:{NEW}," if new_only else "") + "priceCurrency:USD"
