@@ -38,15 +38,15 @@ sealed = [(ids[k]["sealedId"], k) for k in order if ids[k].get("sealedId")]
 for pid, _ in sealed:   # earlier probe wrongly used the /cards endpoint; retry those
     e = state.get(str(pid))
     if e and e["kind"] == "sealed" and e["status"] == "no PPT record" and "source" not in e: del state[str(pid)]
+if True:
+    for pid, k in sealed:
+        if stop: break
+        if str(pid) not in state or state[str(pid)]["status"].startswith("error"): fetch(pid, "sealed")
 cards = [(ids[k]["cardId"], k) for k in order if ids[k].get("cardId")]
 for pid, k in cards:
     if stop: break
     if str(pid) in state and state[str(pid)]["status"] in ("ok", "no PPT record", "no history rows"): continue
     fetch(pid, "card")
-if True:
-    for pid, k in sealed:
-        if stop: break
-        if str(pid) not in state or state[str(pid)]["status"].startswith("error"): fetch(pid, "sealed")
 # merge into jumbo_prices history
 merged = 0
 for k, it in prices["items"].items():
