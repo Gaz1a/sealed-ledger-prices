@@ -6,7 +6,7 @@ Target = 0.85 x reference (median Portuguese ask if >=3 live listings, else Engl
 import json, os, re, time, base64, datetime, urllib.request, urllib.parse, urllib.error
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TODAY = datetime.date.today().isoformat()
-IMPORT_PCT = 0.10      # ESTIMATE added to (item+shipping) for items located outside the US (duty/brokerage/fees); not provided by eBay's API
+IMPORT_PCT = 0.12      # ESTIMATE added to (item+shipping) for items located outside the US (duty/brokerage/fees); not provided by eBay's API
 SHIP_TO = {"X-EBAY-C-ENDUSERCTX": "contextualLocation=country=US,zip=91505"}
 ROWS = {"bk-golem": "Golem", "bk-hooh": "Ho-Oh", "bk-lugia": "Lugia", "bk-machamp": "Machamp", "bk-omastar": "Omastar", "bk-ralts": "Ralts", "bk-treecko": "Treecko",
         "bk-exploud": "Exploud", "bk-mudkip": "Mudkip", "bk-rayquaza": "Rayquaza", "bk-torchic": "Torchic", "h-gengar-deck": "Gengar"}
@@ -57,7 +57,7 @@ if tok:
             if rfc.startswith("PK"): plan.append((rfc, {}, "retailer-ref"))
             for q, extra, via in plan:
                 time.sleep(0.35)
-                prm = {"limit": 50, "filter": "buyingOptions:{FIXED_PRICE},deliveryCountry:US", **extra}
+                prm = {"limit": 50, "filter": "buyingOptions:{FIXED_PRICE|AUCTION},deliveryCountry:US", **extra}
                 if q: prm["q"] = q
                 j = get("https://api.ebay.com/buy/browse/v1/item_summary/search?" + urllib.parse.urlencode(prm), H)
                 for i in j.get("itemSummaries", []):
@@ -67,8 +67,10 @@ if tok:
                         if not name_ok or not PT.search(t) or BAD.search(t): continue
                     else:      # matched by ISBN / GTIN / retailer ref: eBay's matching is fuzzy (returns novels), so still require a Pokemon/booklet signal AND a Portuguese signal
                         if BAD.search(t) or not PT.search(t) or not (name_ok or re.search(r"pok[eé]mon", t, re.I)) or any(r2 != rid and p.search(t) for r2, p in OTHER.items()): continue
-                    if "FIXED_PRICE" not in (i.get("buyingOptions") or []): continue
-                    item = usd(i.get("price"))
+                    bo = i.get("buyingOptions") or []
+                    if "FIXED_PRICE" not in bo and "AUCTION" not in bo: continue
+                    is_auc = "AUCTION" in bo
+                    item = usd(i.get("currentBidPrice") or i.get("price")) if is_auc else usd(i.get("price"))
                     if item is None: continue
                     so = (i.get("shippingOptions") or [{}])[0].get("shippingCost")
                     ship = usd(so) if so else None
@@ -76,7 +78,7 @@ if tok:
                     imp = round((item + (ship or 0)) * IMPORT_PCT, 2) if loc and loc != "US" else 0.0
                     sealed = (i.get("condition") == "New") or bool(SEALED.search(t))
                     found[rid][i["itemId"]] = {"title": t, "url": i.get("itemWebUrl", "").split("?")[0], "marketplace": mk, "itemUSD": item, "shippingUSD": ship, "shipUnknown": ship is None,
-                        "importEstUSD": imp, "allInUSD": round(item + (ship or 0) + imp, 2), "originCountry": loc, "condition": i.get("condition"), "itemEndDate": i.get("itemEndDate"), "sealed": sealed, "matchedBy": via + (" (ISBN unverified)" if via.startswith("isbn") and not b.get("isbnStatus", "").endswith("Gaz") else ""),
+                        "importEstUSD": imp, "allInUSD": round(item + (ship or 0) + imp, 2), "originCountry": loc, "condition": i.get("condition"), "itemEndDate": i.get("itemEndDate"), "sealed": sealed, "auction": is_auc, "bidCount": i.get("bidCount") or 0, "matchedBy": via + (" (ISBN unverified)" if via.startswith("isbn") and not b.get("isbnStatus", "").endswith("Gaz") else ""),
                         "sealedBasis": "condition New" if i.get("condition") == "New" else "title says sealed/new" if SEALED.search(t) else "unconfirmed",
                         "seller": (i.get("seller") or {}).get("username"), "feedbackPct": (i.get("seller") or {}).get("feedbackPercentage"), "feedbackScore": (i.get("seller") or {}).get("feedbackScore")}
 def valid_title(t): return bool(PT.search(t or "")) and bool(re.search(r"pok[eé]mon|booklet|half deck|theme deck|legend maker|livro", t or "", re.I)) and not BAD.search(t or "")
@@ -90,14 +92,15 @@ out = {"searchKeys": {r: {"titleQueries": [f"Devir Livro Ilustrado {n}", f"Estam
        "retailerRef": BK.get(r, {}).get("retailerRef")} for r, n in ROWS.items()}, "retailerInStock": stock.get("inStock", []), "retailerCheck": {"generated": stock.get("generated"), "sites": stock.get("sites"), "devirBrasil": {k: v for k, v in (stock.get("devirBrasil") or {}).items() if v.get("productLinks")},
        "productsChecked": len(stock.get("products", [])), "note": "in-stock retail copies under EUR 30 are listed here first; sites marked DISALLOWED/JS-only are skipped, not worked around"},
        "generated": TODAY, "label": "unverified: asking prices, not sold; import cost is an ESTIMATE", "assumptions": {"importEstimatePct": IMPORT_PCT, "shipTo": "Burbank CA 91505",
-       "rules": ["reference = lowest all-in Portuguese Devir SEALED asking price seen so far (known shipping only)", "flag if all-in <= 0.85 x reference, or <= your max for that booklet",
+       "rules": ["reference = lowest all-in Portuguese Devir SEALED asking price seen so far (known shipping only)", "flag only when all-in (item + shipping + 12% import for non-US sellers) is within that booklet's cap (hard gate); other reasons annotate", "auctions: current bid + shipping + import vs cap; a 0-bid auction is flagged only if shipping alone is under the cap",
                  "no sealed Portuguese reference yet -> flag any sealed listing the first time its item id appears", "only sealed/new listings are flagged; others listed under notSealed", "shipping not shown -> all-in is 'shipping unknown' (item+import shown as lower bound)"]},
        "flags": [], "notSealed": [], "counts": {}, "items": {}}
 for rid, nm in ROWS.items():
     cmid = BK.get(rid, {}).get("cardmarketId"); g_ = CMG.get(cmid) if cmid else None; cmn = CMN.get(cmid) if cmid else None
     cd = {"id": cmid, "trendEUR": (g_ or {}).get("trend"), "lowEUR": (g_ or {}).get("low"), "inPriceGuide": g_ is not None} if cmid else None
     proxy = round(cd["trendEUR"] * fx, 2) if cd and cd.get("trendEUR") else None
-    ls = sorted(found[rid].values(), key=lambda x: x["itemUSD"])
+    _all = sorted(found[rid].values(), key=lambda x: x["itemUSD"])
+    ls = [x for x in _all if not x.get("auction")]; auc_all = [x for x in _all if x.get("auction")]      # auctions are evaluated against the cap only; never used as reference or in the ask log
     e = prices["items"].setdefault(rid, {"name": nm, "history": []})
     if ls: pt = [TODAY, ls[0]["itemUSD"], "asking", "eBay " + ls[0]["marketplace"] + " " + ls[0]["url"], "unverified"]
     elif proxy is not None: pt = [TODAY, proxy, "english-proxy", f"Cardmarket trend, {cmn} (id {cd['id']}), EUR {cd['trendEUR']} x {fx}", "English proxy; unverified"]
@@ -106,7 +109,7 @@ for rid, nm in ROWS.items():
     e["latest"] = pt; e["englishProxy"] = {"usd": proxy, "product": cmn, "cardmarketId": (cd or {}).get("id"), "note": "price series only; not used as a buying benchmark"}; e["owned"] = rid in OWNED
     st = refs["items"].setdefault(rid, {"name": nm, "reference": None, "seen": {}})
     ref0 = dict(st["reference"]) if st["reference"] else None          # reference BEFORE today's listings
-    mx = maxp.get(rid)
+    _cp = maxp.get(rid); mx = _cp.get("cap") if isinstance(_cp, dict) else _cp; capbasis = (_cp or {}).get("basis") if isinstance(_cp, dict) else None; caplabel = (_cp or {}).get("label") if isinstance(_cp, dict) else None
     cmt = round(proxy * 0.85, 2) if proxy else None     # 85% of the English Cardmarket trend, once a trend exists
     sealed_ls = [x for x in ls if x["sealed"]]; ns_ls = [x for x in ls if not x["sealed"]]
     for x in ls:
@@ -128,20 +131,38 @@ for rid, nm in ROWS.items():
                 if head > 0: reasons.append(f"shipping unknown: item ${x['itemUSD']}; under your ${mx} cap only if shipping stays at/under ${head}")
             elif mx is not None and allin is not None and allin <= mx: reasons.append(f"at/below your max ${mx}")
             if cmt and allin is not None and allin <= cmt: reasons.append(f"at/below 85% of the English Cardmarket trend (${cmt})")
+            if mx is not None and ((allin is not None and allin > mx) or (unk and head is not None and head <= 0)): reasons = []      # per-deck cap is a hard gate
             if reasons:
-                out["flags"].append({"id": rid, "name": nm, "reasons": reasons, "new": first, "allInUSD": allin, "allInStatus": "shipping unknown" if unk else "known", "itemOnlyLowerBoundUSD": lb, "maxShippingForCapUSD": head,
+                out["flags"].append({"id": rid, "name": nm, "kind": "buy-it-now", "capUSD": mx, "capBasis": capbasis, "capLabel": caplabel, "reasons": reasons, "new": first, "allInUSD": allin, "allInStatus": "shipping unknown" if unk else "known", "itemOnlyLowerBoundUSD": lb, "maxShippingForCapUSD": head,
                     "itemUSD": x["itemUSD"], "shippingUSD": x["shippingUSD"], "importEstUSD": x["importEstUSD"], "title": x["title"], "seller": x["seller"], "feedbackPct": x["feedbackPct"],
                     "feedbackScore": x["feedbackScore"], "itemLocation": x["originCountry"], "sealedBasis": x["sealedBasis"], "url": x["url"], "reference": ref0,
                     "readyToBuy": (not unk), "readyNote": ("ships to US (eBay deliveryCountry:US filter) with known shipping" if not unk else "NOT ready: shipping cost unknown - confirm it ships to the US and the cost first"),
                     "sellerNote": ("seller has 0 feedback" if not x["feedbackScore"] else None)})
+        for x in [a for a in auc_all if a["sealed"]]:
+            if mx is None: continue
+            loc_nonus = bool(x["originCountry"]) and x["originCountry"] != "US"; ip = IMPORT_PCT if loc_nonus else 0.0
+            bid, ship, nb = x["itemUSD"], x["shippingUSD"], x["bidCount"]
+            maxbid = None if ship is None else round(mx / (1 + ip) - ship, 2)
+            if nb == 0:
+                ok = ship is not None and round(ship * (1 + ip), 2) < mx      # 0-bid auction: only when shipping alone leaves room under the cap
+                allin = None; why = f"0 bids: flagged only because shipping alone (${round(ship*(1+ip),2) if ship is not None else '?'} incl. import) is under the ${mx} cap; max winning bid about ${maxbid} item"
+            else:
+                allin = None if ship is None else round((bid + ship) * (1 + ip), 2)
+                ok = (bid * (1 + ip) < mx) if ship is None else allin <= mx
+                why = f"current bid ${bid} ({nb} bids) + shipping {'unknown' if ship is None else '$'+str(ship)} + import, under the ${mx} cap" if ok else ""
+            if ok:
+                out["flags"].append({"id": rid, "name": nm, "kind": "auction", "capUSD": mx, "capBasis": capbasis, "capLabel": caplabel, "reasons": [why], "bidCount": nb, "currentBidUSD": bid, "maxWinningBidUSD": maxbid,
+                    "allInAtCurrentBidUSD": allin, "allInStatus": "shipping unknown" if ship is None else "known", "shippingUSD": ship, "importEstUSD": round((bid + (ship or 0)) * ip, 2), "itemEndDate": x.get("itemEndDate"),
+                    "title": x["title"], "seller": x["seller"], "feedbackPct": x["feedbackPct"], "feedbackScore": x["feedbackScore"], "itemLocation": x["originCountry"], "url": x["url"],
+                    "readyToBuy": False, "readyNote": "auction: place a bid at or below maxWinningBidUSD; not a buy-now", "sellerNote": ("seller has 0 feedback" if not x["feedbackScore"] else None)})
         known = [x for x in sealed_ls if not x["shipUnknown"]]
         if known:
             b = min(known, key=lambda x: x["allInUSD"])
             if not st["reference"] or b["allInUSD"] < st["reference"]["allInUSD"]:
                 st["reference"] = {"allInUSD": b["allInUSD"], "itemUSD": b["itemUSD"], "date": TODAY, "url": b["url"], "title": b["title"]}
-    out["counts"][rid] = {"name": nm, "owned": rid in OWNED, "foundToday": len(ls), "sealedToday": len(sealed_ls), "notSealedToday": len(ns_ls), "distinctEverSeen": len(st["seen"]),
+    out["counts"][rid] = {"name": nm, "owned": rid in OWNED, "capUSD": mx, "capBasis": capbasis, "capLabel": caplabel, "auctionsToday": len(auc_all), "foundToday": len(ls), "sealedToday": len(sealed_ls), "notSealedToday": len(ns_ls), "distinctEverSeen": len(st["seen"]),
                           "sealedEverSeen": sum(1 for v in st["seen"].values() if v["sealed"]), "reference": st["reference"], "max": mx, "cardmarketTrendUSD": proxy, "cardmarketTarget85": cmt, "cardmarketId": cmid, "cardmarketProduct": cmn}
-    out["items"][rid] = {"listings": ls}
+    out["items"][rid] = {"listings": ls, "auctions": auc_all}
 # ---- market log: every listing seen, disappearances = "probably sold" (unverified implied sale; asks are NOT sold prices)
 import statistics
 log = ld("booklet_listings.json", {"listings": {}}); log["listings"] = {k: v for k, v in log["listings"].items() if valid_title(v.get("title"))}; LG = log["listings"]; live_ids = set()

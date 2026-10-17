@@ -1,1 +1,51 @@
-{"bk-golem": 105, "bk-hooh": 105, "bk-lugia": 105, "bk-omastar": 105, "bk-ralts": 105, "bk-treecko": 105, "bk-exploud": 105, "bk-mudkip": 105, "bk-rayquaza": 105, "bk-torchic": 105}
+{
+ "bk-hooh": {
+  "cap": 37.55,
+  "basis": "85% of median sold item+shipping, 12 months (eBay Product Research)"
+ },
+ "bk-treecko": {
+  "cap": 43.32,
+  "basis": "85% of median sold item+shipping, 12 months (eBay Product Research)"
+ },
+ "bk-ralts": {
+  "cap": 46.75,
+  "basis": "85% of median sold item+shipping, 12 months (eBay Product Research)"
+ },
+ "bk-lugia": {
+  "cap": 54.9,
+  "basis": "85% of median sold item+shipping, 12 months (eBay Product Research)"
+ },
+ "bk-omastar": {
+  "cap": 88.11,
+  "basis": "85% of median sold item+shipping, 12 months (eBay Product Research); THIN: 2 sales in 3 years"
+ },
+ "h-gengar-deck": {
+  "cap": 63.86,
+  "basis": "85% of median sold item+shipping, 12 months (eBay Product Research); owned - reference only, never flagged"
+ },
+ "bk-golem": {
+  "cap": 60,
+  "basis": "placeholder cap (no eBay sold history)",
+  "label": "no sold comps, asking price only"
+ },
+ "bk-torchic": {
+  "cap": 60,
+  "basis": "placeholder cap (no eBay sold history)",
+  "label": "no sold comps, asking price only"
+ },
+ "bk-mudkip": {
+  "cap": 60,
+  "basis": "placeholder cap (no eBay sold history)",
+  "label": "no sold comps, asking price only"
+ },
+ "bk-exploud": {
+  "cap": 60,
+  "basis": "placeholder cap (no eBay sold history)",
+  "label": "no sold comps, asking price only"
+ },
+ "bk-rayquaza": {
+  "cap": 60,
+  "basis": "placeholder cap (no eBay sold history)",
+  "label": "no sold comps, asking price only"
+ }
+}
