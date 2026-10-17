@@ -62,7 +62,7 @@ for j in cat:
         one = one_card(j["cards"])
         if one:
             cands = card_idx.get(norm(one), [])
-            st["cardCandidates"] = [{k: c[k] for k in ("productId", "name", "number")} for c in cands][:8]
+            st["cardCandidates"] = [{**{k: c[k] for k in ("productId", "name", "number")}, "market": (pick_price(c["productId"]) or {}).get("marketPrice")} for c in cands][:8]
             if len(cands) == 1: st["cardId"], st["cardBasis"] = cands[0]["productId"], "unique-name-in-Jumbo-Cards (confirm print)"
         else:
             st["cardNote"] = "multiple/unspecified jumbo cards in sheet"
