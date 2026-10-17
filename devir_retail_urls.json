@@ -1,3 +1,44 @@
-{"_note": "Product-page URLs per booklet row. Add the exact retailer product page URLs here (devir.pt, americana.pt, cubosluminosos.pt, worten.pt, wook.pt, bertrand.pt, forretas.com, Brazilian shops). The daily check reads schema.org availability/price from each page and skips pages whose robots.txt disallows fetching.",
- "isbn": {"h-gengar-deck": "9788575322611"},
- "urls": {"h-gengar-deck": [], "bk-golem": [], "bk-machamp": [], "bk-omastar": [], "bk-lugia": [], "bk-hooh": [], "bk-treecko": [], "bk-ralts": [], "bk-exploud": [], "bk-mudkip": [], "bk-rayquaza": [], "bk-torchic": []}}
+{
+ "_note": "Product-page URLs per booklet row, supplied by Gaz Oct 17 plus any found by scripts/devir_discover.py. Read-only; pages whose robots.txt disallows fetching are skipped and reported.",
+ "isbn": {
+  "h-gengar-deck": "9788575322611"
+ },
+ "urls": {
+  "h-gengar-deck": [
+   "https://devir.pt/pokemon-baralho-12-origem-das-lendas-gengar",
+   "https://cubosluminosos.pt/en/pokemon-baralho-12-origem-das-lendas-gengar",
+   "https://www.worten.pt/produtos/pokemon-baralho-12-origem-das-lendas-gengar-devir-mrkean-9788575322611",
+   "https://www.wook.pt/en/livro/pokemon-origem-das-lendas-volume-12-gengar-preto/10723441",
+   "https://www.bertrand.pt/livro/pokemon-origem-das-lendas-volume-12-gengar-preto-/10723441",
+   "https://www.shop4nerds.pt/item-detalhe.php?p=16360",
+   "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-gengar---cartas-+-livro-ilustrado"
+  ],
+  "bk-golem": [],
+  "bk-machamp": [
+   "https://devir.pt/pokemon-baralho-11-origem-das-lendas-machamp",
+   "https://americana.pt/pt/produtos/brinquedos/jogos/pokemon-origem-das-lendas-machamp---cartas-+-livro-ilustrado",
+   "https://forretas.com/p/4961741/pokemon-baralho-11-origem-das-lendas-machamp"
+  ],
+  "bk-omastar": [
+   "https://cubosluminosos.pt/pokemon-baralho-10-origem-das-lendas-omastar"
+  ],
+  "bk-lugia": [],
+  "bk-hooh": [],
+  "bk-treecko": [],
+  "bk-ralts": [],
+  "bk-exploud": [],
+  "bk-mudkip": [],
+  "bk-rayquaza": [],
+  "bk-torchic": []
+ },
+ "ref": {
+  "h-gengar-deck": "PKLIVLM12",
+  "bk-omastar": "PKLIVLM10",
+  "bk-machamp": "PKLIVLM11"
+ },
+ "deck": {
+  "h-gengar-deck": 12,
+  "bk-machamp": 11,
+  "bk-omastar": 10
+ }
+}
