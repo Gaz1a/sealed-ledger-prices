@@ -7,12 +7,11 @@ import json, os, re, time, base64, datetime, urllib.request, urllib.parse, urlli
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TODAY = datetime.date.today().isoformat()
 IMPORT_PCT = 0.10      # ESTIMATE added to (item+shipping) for items located outside the US (duty/brokerage/fees); not provided by eBay's API
-TARGET_X = 0.85
 SHIP_TO = {"X-EBAY-C-ENDUSERCTX": "contextualLocation=country=US,zip=91505"}
 ROWS = {"bk-golem": "Golem", "bk-hooh": "Ho-Oh", "bk-lugia": "Lugia", "bk-machamp": "Machamp", "bk-omastar": "Omastar", "bk-ralts": "Ralts", "bk-treecko": "Treecko",
         "bk-exploud": "Exploud", "bk-mudkip": "Mudkip", "bk-rayquaza": "Rayquaza", "bk-torchic": "Torchic", "h-gengar-deck": "Gengar"}
 OWNED = {"h-gengar-deck"}
-LEDGER_TARGET = {"bk-golem": 104.98, "bk-hooh": 19.69, "bk-lugia": 25.36, "bk-machamp": 14.85, "bk-omastar": 18.88, "bk-ralts": 19.67, "bk-treecko": 21.69}   # from the ledger (Gaz, Oct 16)
+BELOW_REF = 0.85       # flag when all-in <= 85% of the lowest Portuguese sealed all-in seen so far (>=15% below)
 MARKETS = ("EBAY_US", "EBAY_GB", "EBAY_DE", "EBAY_ES", "EBAY_IT", "EBAY_FR", "EBAY_CA", "EBAY_AU")
 PT = re.compile(r"devir|livro ilustrado|estampas ilustradas|portugu[eê]s|portuguese|brasil|brazil", re.I)
 BAD = re.compile(r"\blots?\b|loose|incomplete|missing|opened|aberto|usado|\bused\b|empty|cards only|proxy|custom|reprint|\bpsa\b|\bcgc\b|\bbgs\b|graded", re.I)
@@ -59,42 +58,61 @@ if tok:
                         "importEstUSD": imp, "allInUSD": round(item + (ship or 0) + imp, 2), "originCountry": loc, "condition": i.get("condition"), "sealed": sealed,
                         "sealedBasis": "condition New" if i.get("condition") == "New" else "title says sealed/new" if SEALED.search(t) else "unconfirmed",
                         "seller": (i.get("seller") or {}).get("username"), "feedbackPct": (i.get("seller") or {}).get("feedbackPercentage"), "feedbackScore": (i.get("seller") or {}).get("feedbackScore")}
-prices = ld("booklet_prices.json", {"items": {}}); hits_out = {"generated": TODAY, "assumptions": {"importEstimatePct": IMPORT_PCT, "importNote": "ESTIMATE for non-US origin; eBay's API does not return duty/fees",
-    "targetMultiplier": TARGET_X, "targets": "ledger targets for 7 rows; 0.85 x English Cardmarket trend for the rest once a trend exists", "reference": "median Portuguese ask if >=3 live listings, else English proxy (Cardmarket trend)", "shipTo": "Burbank CA 91505", "label": "unverified: asking prices/trend, not sold"}, "items": {}, "hits": []}
+prices = ld("booklet_prices.json", {"items": {}})
+refs = ld("booklet_refs.json", {"items": {}}); maxp = ld("booklet_max.json", {})   # booklet_max.json: {"bk-golem": 60, ...} all-in max you set; optional
+out = {"generated": TODAY, "label": "unverified: asking prices, not sold; import cost is an ESTIMATE", "assumptions": {"importEstimatePct": IMPORT_PCT, "shipTo": "Burbank CA 91505",
+       "rules": ["reference = lowest all-in Portuguese Devir SEALED asking price seen so far (known shipping only)", "flag if all-in <= 0.85 x reference, or <= your max for that booklet",
+                 "no sealed Portuguese reference yet -> flag any sealed listing the first time its item id appears", "only sealed/new listings are flagged; others listed under notSealed", "shipping not shown -> all-in is 'shipping unknown' (item+import shown as lower bound)"]},
+       "flags": [], "notSealed": [], "counts": {}, "items": {}}
 for rid, nm in ROWS.items():
     cmn, cd = cm.get(nm, (None, None))
     proxy = round(cd["trendEUR"] * fx, 2) if cd and cd.get("trendEUR") else None
     ls = sorted(found[rid].values(), key=lambda x: x["itemUSD"])
     e = prices["items"].setdefault(rid, {"name": nm, "history": []})
-    if ls:
-        pt = [TODAY, ls[0]["itemUSD"], "asking", "eBay " + ls[0]["marketplace"] + " " + ls[0]["url"], "unverified"]
-    elif proxy is not None:
-        pt = [TODAY, proxy, "english-proxy", f"Cardmarket trend, {cmn} (id {cd['id']}), EUR {cd['trendEUR']} x {fx}", "English proxy; unverified"]
+    if ls: pt = [TODAY, ls[0]["itemUSD"], "asking", "eBay " + ls[0]["marketplace"] + " " + ls[0]["url"], "unverified"]
+    elif proxy is not None: pt = [TODAY, proxy, "english-proxy", f"Cardmarket trend, {cmn} (id {cd['id']}), EUR {cd['trendEUR']} x {fx}", "English proxy; unverified"]
     else: pt = None
     if pt: e["history"] = [h for h in e["history"] if h[0] != TODAY] + [pt]
-    e["latest"] = pt; e["englishProxy"] = {"usd": proxy, "cardmarketLowEURNotUsed": (cd or {}).get("lowEUR") if proxy is None else None, "note": None if proxy is not None else "Cardmarket has the English booklet but no trend price; its low (if any) is an asking floor and is not used as a price", "product": cmn, "cardmarketId": (cd or {}).get("id")}; e["owned"] = rid in OWNED
-    ref = round(sorted(x["itemUSD"] for x in ls)[len(ls) // 2], 2) if len(ls) >= 3 else proxy
-    tgt = LEDGER_TARGET.get(rid) or (round(proxy * TARGET_X, 2) if proxy else None)
-    tbasis = "ledger target" if rid in LEDGER_TARGET else "0.85 x English proxy (Cardmarket trend)" if proxy else "none (no English proxy trend yet)"
-    rec = {"name": nm, "owned": rid in OWNED, "reference": ref, "referenceBasis": "median Portuguese ask" if len(ls) >= 3 else "English proxy (Cardmarket trend)", "target": tgt, "targetBasis": tbasis, "portugueseListings": len(ls), "listings": []}
+    e["latest"] = pt; e["englishProxy"] = {"usd": proxy, "product": cmn, "cardmarketId": (cd or {}).get("id"), "note": "price series only; not used as a buying benchmark"}; e["owned"] = rid in OWNED
+    st = refs["items"].setdefault(rid, {"name": nm, "reference": None, "seen": {}})
+    ref0 = dict(st["reference"]) if st["reference"] else None          # reference BEFORE today's listings
+    mx = maxp.get(rid)
+    sealed_ls = [x for x in ls if x["sealed"]]; ns_ls = [x for x in ls if not x["sealed"]]
     for x in ls:
-        x = dict(x); x["underTarget"] = bool(tgt and x["sealed"] and x["allInUSD"] <= tgt)
-        x["nearMiss"] = bool(tgt and x["sealed"] and tgt < x["allInUSD"] <= tgt * 1.15)
-        rec["listings"].append(x)
-        row = {"id": rid, "name": nm, "target": tgt, "allInUSD": x["allInUSD"], "itemUSD": x["itemUSD"], "shippingUSD": x["shippingUSD"], "shipUnknown": x["shipUnknown"], "importEstUSD": x["importEstUSD"],
-               "title": x["title"], "seller": x["seller"], "feedbackPct": x["feedbackPct"], "feedbackScore": x["feedbackScore"], "itemLocation": x["originCountry"], "url": x["url"], "sealedBasis": x["sealedBasis"]}
-        if rid not in OWNED:
-            if x["underTarget"]: hits_out["hits"].append(row)
-            elif x["nearMiss"]: hits_out.setdefault("nearMisses", []).append(row)
-    hits_out["items"][rid] = rec
-allL = [(r, l) for r, v in hits_out["items"].items() for l in v["listings"]]
-hits_out["totals"] = {"portugueseBuyItNowListingsFound": len(allL), "ofWhichSealedConfirmed": sum(1 for _, l in allL if l["sealed"]), "unownedRows": sum(1 for r, _ in allL if r not in OWNED),
-                      "perRow": {r: len(v["listings"]) for r, v in hits_out["items"].items()}, "note": "title-matched (Devir/Livro Ilustrado/Estampas Ilustradas/Portuguese + Pokemon name), buy-it-now, ships to US, excluding lots/loose/graded"}
-hits_out.setdefault("nearMisses", [])
-ew = ld("ebay_wants.json", {})
-ew["booklets"] = {"generated": TODAY, "label": "unverified: asking prices; import cost is an estimate", "assumptions": hits_out["assumptions"], "totals": hits_out["totals"], "hits": hits_out["hits"], "nearMisses": hits_out["nearMisses"]}
-json.dump(ew, open(os.path.join(ROOT, "ebay_wants.json"), "w"), indent=1, ensure_ascii=False)
-prices["generated"] = TODAY
+        iid = x["url"].split("/")[-1]
+        st["seen"].setdefault(iid, {"firstSeen": TODAY, "title": x["title"][:90], "sealed": x["sealed"], "itemUSD": x["itemUSD"], "url": x["url"]})
+    for x in ns_ls:
+        out["notSealed"].append({"id": rid, "name": nm, "reason": "opened/unspecified condition", "sealedBasis": x["sealedBasis"], "condition": x["condition"], "itemUSD": x["itemUSD"], "shippingUSD": x["shippingUSD"],
+                                 "shippingUnknown": x["shipUnknown"], "title": x["title"], "seller": x["seller"], "feedbackPct": x["feedbackPct"], "itemLocation": x["originCountry"], "url": x["url"]})
+    if rid not in OWNED:
+        for x in sealed_ls:
+            iid = x["url"].split("/")[-1]; first = st["seen"][iid]["firstSeen"] == TODAY
+            unk = x["shipUnknown"]; allin = None if unk else x["allInUSD"]; lb = round(x["itemUSD"] + x["importEstUSD"], 2)
+            reasons = []
+            if ref0 is None and first: reasons.append("first sealed Portuguese listing seen for this booklet")
+            if ref0 and (allin is not None and allin <= ref0["allInUSD"] * BELOW_REF): reasons.append(f">=15% below reference (${ref0['allInUSD']})")
+            if mx is not None and ((allin is not None and allin <= mx) or (unk and lb <= mx)): reasons.append(f"at/below your max ${mx}" + (" (shipping unknown)" if unk else ""))
+            if reasons:
+                out["flags"].append({"id": rid, "name": nm, "reasons": reasons, "new": first, "allInUSD": allin, "allInStatus": "shipping unknown" if unk else "known", "itemOnlyLowerBoundUSD": lb,
+                    "itemUSD": x["itemUSD"], "shippingUSD": x["shippingUSD"], "importEstUSD": x["importEstUSD"], "title": x["title"], "seller": x["seller"], "feedbackPct": x["feedbackPct"],
+                    "feedbackScore": x["feedbackScore"], "itemLocation": x["originCountry"], "sealedBasis": x["sealedBasis"], "url": x["url"], "reference": ref0})
+        known = [x for x in sealed_ls if not x["shipUnknown"]]
+        if known:
+            b = min(known, key=lambda x: x["allInUSD"])
+            if not st["reference"] or b["allInUSD"] < st["reference"]["allInUSD"]:
+                st["reference"] = {"allInUSD": b["allInUSD"], "itemUSD": b["itemUSD"], "date": TODAY, "url": b["url"], "title": b["title"]}
+    out["counts"][rid] = {"name": nm, "owned": rid in OWNED, "foundToday": len(ls), "sealedToday": len(sealed_ls), "notSealedToday": len(ns_ls), "distinctEverSeen": len(st["seen"]),
+                          "sealedEverSeen": sum(1 for v in st["seen"].values() if v["sealed"]), "reference": st["reference"], "max": mx}
+    out["items"][rid] = {"listings": ls}
+allc = out["counts"]
+out["totals"] = {"foundToday": sum(c["foundToday"] for c in allc.values()), "sealedToday": sum(c["sealedToday"] for c in allc.values()), "distinctEverSeen": sum(c["distinctEverSeen"] for c in allc.values()),
+                 "unownedRowsWithAnyListing": sum(1 for r, c in allc.items() if r not in OWNED and c["foundToday"])}
+prices["generated"] = TODAY; refs["generated"] = TODAY
 json.dump(prices, open(os.path.join(ROOT, "booklet_prices.json"), "w"), indent=1, ensure_ascii=False)
-json.dump(hits_out, open(os.path.join(ROOT, "booklet_hits.json"), "w"), indent=1, ensure_ascii=False)
-print({k: (v["portugueseListings"], v["reference"]) for k, v in hits_out["items"].items()}, "hits", len(hits_out["hits"]))
+json.dump(refs, open(os.path.join(ROOT, "booklet_refs.json"), "w"), indent=1, ensure_ascii=False)
+json.dump(out, open(os.path.join(ROOT, "booklet_hits.json"), "w"), indent=1, ensure_ascii=False)
+if not os.path.exists(os.path.join(ROOT, "booklet_max.json")): json.dump({}, open(os.path.join(ROOT, "booklet_max.json"), "w"))
+ew = ld("ebay_wants.json", {})
+ew["booklets"] = {"generated": TODAY, "label": out["label"], "assumptions": out["assumptions"], "totals": out["totals"], "counts": out["counts"], "flags": out["flags"], "notSealed": out["notSealed"]}
+json.dump(ew, open(os.path.join(ROOT, "ebay_wants.json"), "w"), indent=1, ensure_ascii=False)
+print(out["totals"], "flags", len(out["flags"]), "notSealed", len(out["notSealed"]))
