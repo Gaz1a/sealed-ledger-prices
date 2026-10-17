@@ -20,6 +20,8 @@
    ],
    "englishProxy": {
     "usd": 123.51,
+    "cardmarketLowEURNotUsed": null,
+    "note": null,
     "product": "EX Legend Maker: Illustrated Booklet - Golem",
     "cardmarketId": 695810
    },
@@ -30,21 +32,23 @@
    "history": [
     [
      "2026-10-17",
-     26.13,
-     "english-proxy",
-     "Cardmarket trend, EX Unseen Forces: Illustrated Booklet - Ho-Oh (id 755664), EUR 23.31 x 1.1208",
-     "English proxy; unverified"
+     67.24,
+     "asking",
+     "eBay EBAY_ES https://www.ebay.es/itm/178546022377",
+     "unverified"
     ]
    ],
    "latest": [
     "2026-10-17",
-    26.13,
-    "english-proxy",
-    "Cardmarket trend, EX Unseen Forces: Illustrated Booklet - Ho-Oh (id 755664), EUR 23.31 x 1.1208",
-    "English proxy; unverified"
+    67.24,
+    "asking",
+    "eBay EBAY_ES https://www.ebay.es/itm/178546022377",
+    "unverified"
    ],
    "englishProxy": {
     "usd": 26.13,
+    "cardmarketLowEURNotUsed": null,
+    "note": null,
     "product": "EX Unseen Forces: Illustrated Booklet - Ho-Oh",
     "cardmarketId": 755664
    },
@@ -55,21 +59,23 @@
    "history": [
     [
      "2026-10-17",
-     45.64,
-     "english-proxy",
-     "Cardmarket trend, EX Unseen Forces: Illustrated Booklet - Lugia (id 698569), EUR 40.72 x 1.1208",
-     "English proxy; unverified"
+     168.53,
+     "asking",
+     "eBay EBAY_ES https://www.ebay.es/itm/396842554717",
+     "unverified"
     ]
    ],
    "latest": [
     "2026-10-17",
-    45.64,
-    "english-proxy",
-    "Cardmarket trend, EX Unseen Forces: Illustrated Booklet - Lugia (id 698569), EUR 40.72 x 1.1208",
-    "English proxy; unverified"
+    168.53,
+    "asking",
+    "eBay EBAY_ES https://www.ebay.es/itm/396842554717",
+    "unverified"
    ],
    "englishProxy": {
     "usd": 45.64,
+    "cardmarketLowEURNotUsed": null,
+    "note": null,
     "product": "EX Unseen Forces: Illustrated Booklet - Lugia",
     "cardmarketId": 698569
    },
@@ -80,21 +86,23 @@
    "history": [
     [
      "2026-10-17",
-     98.73,
+     45.0,
      "asking",
-     "eBay EBAY_IT https://www.ebay.it/itm/307159080098",
+     "eBay EBAY_US https://www.ebay.com/itm/820228536215",
      "unverified"
     ]
    ],
    "latest": [
     "2026-10-17",
-    98.73,
+    45.0,
     "asking",
-    "eBay EBAY_IT https://www.ebay.it/itm/307159080098",
+    "eBay EBAY_US https://www.ebay.com/itm/820228536215",
     "unverified"
    ],
    "englishProxy": {
     "usd": 17.37,
+    "cardmarketLowEURNotUsed": null,
+    "note": null,
     "product": "EX Legend Maker: Illustrated Booklet - Machamp",
     "cardmarketId": 695811
    },
@@ -120,6 +128,8 @@
    ],
    "englishProxy": {
     "usd": 22.21,
+    "cardmarketLowEURNotUsed": null,
+    "note": null,
     "product": "EX Legend Maker: Illustrated Booklet - Omastar",
     "cardmarketId": 698568
    },
@@ -130,21 +140,23 @@
    "history": [
     [
      "2026-10-17",
-     23.01,
-     "english-proxy",
-     "Cardmarket trend, EX Ruby & Sapphire: Illustrated Booklet - Ralts (id 755666), EUR 20.53 x 1.1208",
-     "English proxy; unverified"
+     31.38,
+     "asking",
+     "eBay EBAY_IT https://www.ebay.it/itm/307154261661",
+     "unverified"
     ]
    ],
    "latest": [
     "2026-10-17",
-    23.01,
-    "english-proxy",
-    "Cardmarket trend, EX Ruby & Sapphire: Illustrated Booklet - Ralts (id 755666), EUR 20.53 x 1.1208",
-    "English proxy; unverified"
+    31.38,
+    "asking",
+    "eBay EBAY_IT https://www.ebay.it/itm/307154261661",
+    "unverified"
    ],
    "englishProxy": {
     "usd": 23.01,
+    "cardmarketLowEURNotUsed": null,
+    "note": null,
     "product": "EX Ruby & Sapphire: Illustrated Booklet - Ralts",
     "cardmarketId": 755666
    },
@@ -170,6 +182,8 @@
    ],
    "englishProxy": {
     "usd": 26.29,
+    "cardmarketLowEURNotUsed": null,
+    "note": null,
     "product": "EX Ruby & Sapphire: Illustrated Booklet - Treecko",
     "cardmarketId": 755665
    },
@@ -181,6 +195,8 @@
    "latest": null,
    "englishProxy": {
     "usd": null,
+    "cardmarketLowEURNotUsed": 800,
+    "note": "Cardmarket has the English booklet but no trend price; its low (if any) is an asking floor and is not used as a price",
     "product": "EX Emerald: Illustrated Booklet - Exploud",
     "cardmarketId": 906369
    },
@@ -192,6 +208,8 @@
    "latest": null,
    "englishProxy": {
     "usd": null,
+    "cardmarketLowEURNotUsed": 400,
+    "note": "Cardmarket has the English booklet but no trend price; its low (if any) is an asking floor and is not used as a price",
     "product": "EX Ruby & Sapphire: Illustrated Booklet - Mudkip",
     "cardmarketId": 906378
    },
@@ -203,6 +221,8 @@
    "latest": null,
    "englishProxy": {
     "usd": null,
+    "cardmarketLowEURNotUsed": null,
+    "note": "Cardmarket has the English booklet but no trend price; its low (if any) is an asking floor and is not used as a price",
     "product": "EX Emerald: Illustrated Booklet - Rayquaza",
     "cardmarketId": 906388
    },
@@ -214,6 +234,8 @@
    "latest": null,
    "englishProxy": {
     "usd": null,
+    "cardmarketLowEURNotUsed": null,
+    "note": "Cardmarket has the English booklet but no trend price; its low (if any) is an asking floor and is not used as a price",
     "product": "EX Ruby & Sapphire: Illustrated Booklet - Torchic",
     "cardmarketId": 906395
    },
@@ -224,21 +246,23 @@
    "history": [
     [
      "2026-10-17",
-     44.39,
-     "english-proxy",
-     "Cardmarket trend, EX Legend Maker: Illustrated Booklet - Gengar (id 695809), EUR 39.61 x 1.1208",
-     "English proxy; unverified"
+     250.0,
+     "asking",
+     "eBay EBAY_US https://www.ebay.com/itm/298511253175",
+     "unverified"
     ]
    ],
    "latest": [
     "2026-10-17",
-    44.39,
-    "english-proxy",
-    "Cardmarket trend, EX Legend Maker: Illustrated Booklet - Gengar (id 695809), EUR 39.61 x 1.1208",
-    "English proxy; unverified"
+    250.0,
+    "asking",
+    "eBay EBAY_US https://www.ebay.com/itm/298511253175",
+    "unverified"
    ],
    "englishProxy": {
     "usd": 44.39,
+    "cardmarketLowEURNotUsed": null,
+    "note": null,
     "product": "EX Legend Maker: Illustrated Booklet - Gengar",
     "cardmarketId": 695809
    },
