@@ -26,7 +26,9 @@ def get(u, h=None, data=None):
     try:
         with urllib.request.urlopen(urllib.request.Request(u, headers=h or {"User-Agent": "sealed-ledger"}, data=data), timeout=60) as r: return json.load(r)
     except urllib.error.HTTPError as e:
-        k = "%s %s" % (e.code, urllib.parse.urlparse(u).netloc); DIAG["errors"][k] = DIAG["errors"].get(k, 0) + 1; return {}
+        k = "%s %s" % (e.code, urllib.parse.urlparse(u).netloc); DIAG["errors"][k] = DIAG["errors"].get(k, 0) + 1
+        if e.code == 429 and "ebay" in u: DIAG["rateLimited"] = True; DIAG["note"] = "eBay 429 (daily call limit): scan stopped early; today has NO eBay listing data, not zero listings"
+        return {}
     except Exception as e:
         k = type(e).__name__; DIAG["errors"][k] = DIAG["errors"].get(k, 0) + 1; return {}
 bk = ld("booklets.json", {}); fx = bk.get("fx") or 1.1208
@@ -55,12 +57,13 @@ if tok:
     for mk in MARKETS:
         H = {"Authorization": "Bearer " + tok, "X-EBAY-C-MARKETPLACE-ID": mk, **SHIP_TO}
         for rid, nm in ROWS.items():
-            if rid in NOSCAN: continue
+            if rid in NOSCAN or DIAG.get("rateLimited"): continue
             b = BK.get(rid, {}); isbn = b.get("isbn13"); rfc = b.get("retailerRef") or ""
             plan = [(q, {}, "title") for q in (f"Devir Livro Ilustrado {nm}", f"Estampas Ilustradas {nm}", f"Pokemon Devir {nm} Portuguese booklet", f"Pokemon Origem das Lendas {nm} Devir", f"Devir Pokemon {nm}")]
             if isbn: plan += [(isbn, {}, "isbn"), (None, {"gtin": isbn}, "isbn-gtin")]
             if rfc.startswith("PK"): plan.append((rfc, {}, "retailer-ref"))
             for q, extra, via in plan:
+                if DIAG.get("rateLimited"): break
                 time.sleep(0.35)
                 prm = {"limit": 50, "filter": "buyingOptions:{FIXED_PRICE|AUCTION},deliveryCountry:US", **extra}
                 if q: prm["q"] = q
