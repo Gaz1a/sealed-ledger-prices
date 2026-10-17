@@ -1,0 +1,158 @@
+{
+ "generated": "2026-10-17",
+ "assumptions": {
+  "importEstimatePct": 0.1,
+  "importNote": "ESTIMATE for non-US origin; eBay's API does not return duty/fees",
+  "targetMultiplier": 0.85,
+  "reference": "median Portuguese ask if >=3 live listings, else English proxy (Cardmarket trend)",
+  "label": "unverified: asking prices/trend, not sold"
+ },
+ "items": {
+  "bk-golem": {
+   "name": "Golem",
+   "owned": false,
+   "reference": 123.51,
+   "referenceBasis": "English proxy (Cardmarket trend)",
+   "target": 104.98,
+   "portugueseListings": 0,
+   "listings": []
+  },
+  "bk-hooh": {
+   "name": "Ho-Oh",
+   "owned": false,
+   "reference": 26.13,
+   "referenceBasis": "English proxy (Cardmarket trend)",
+   "target": 22.21,
+   "portugueseListings": 0,
+   "listings": []
+  },
+  "bk-lugia": {
+   "name": "Lugia",
+   "owned": false,
+   "reference": 45.64,
+   "referenceBasis": "English proxy (Cardmarket trend)",
+   "target": 38.79,
+   "portugueseListings": 0,
+   "listings": []
+  },
+  "bk-machamp": {
+   "name": "Machamp",
+   "owned": false,
+   "reference": 17.37,
+   "referenceBasis": "English proxy (Cardmarket trend)",
+   "target": 14.76,
+   "portugueseListings": 2,
+   "listings": [
+    {
+     "title": "Pokemon Portoghese Machamp Illustrated BookDeck Sigillato Livro Ilustrado Devir 06'",
+     "url": "https://www.ebay.it/itm/307159080098",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 98.73,
+     "shippingUSD": 7.98,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 106.71,
+     "originCountry": "US",
+     "condition": "Ungraded",
+     "sealed": false,
+     "sealedBasis": "unconfirmed",
+     "seller": "vintagemonsterr",
+     "feedbackPct": "100.0",
+     "feedbackScore": 112,
+     "underTarget": false
+    },
+    {
+     "title": "Pokémon TCG  Machamp Rare Kit 30 Cards! Portuguese!",
+     "url": "https://www.ebay.com/itm/407112914567",
+     "marketplace": "EBAY_US",
+     "itemUSD": 149.99,
+     "shippingUSD": null,
+     "shipUnknown": true,
+     "importEstUSD": 0.0,
+     "allInUSD": 149.99,
+     "originCountry": "US",
+     "condition": "New/Factory Sealed",
+     "sealed": false,
+     "sealedBasis": "unconfirmed",
+     "seller": "bleeedblue",
+     "feedbackPct": "100.0",
+     "feedbackScore": 13,
+     "underTarget": false
+    }
+   ]
+  },
+  "bk-omastar": {
+   "name": "Omastar",
+   "owned": false,
+   "reference": 22.21,
+   "referenceBasis": "English proxy (Cardmarket trend)",
+   "target": 18.88,
+   "portugueseListings": 0,
+   "listings": []
+  },
+  "bk-ralts": {
+   "name": "Ralts",
+   "owned": false,
+   "reference": 23.01,
+   "referenceBasis": "English proxy (Cardmarket trend)",
+   "target": 19.56,
+   "portugueseListings": 0,
+   "listings": []
+  },
+  "bk-treecko": {
+   "name": "Treecko",
+   "owned": false,
+   "reference": 26.29,
+   "referenceBasis": "English proxy (Cardmarket trend)",
+   "target": 22.35,
+   "portugueseListings": 0,
+   "listings": []
+  },
+  "bk-exploud": {
+   "name": "Exploud",
+   "owned": false,
+   "reference": null,
+   "referenceBasis": "English proxy (Cardmarket trend)",
+   "target": null,
+   "portugueseListings": 0,
+   "listings": []
+  },
+  "bk-mudkip": {
+   "name": "Mudkip",
+   "owned": false,
+   "reference": null,
+   "referenceBasis": "English proxy (Cardmarket trend)",
+   "target": null,
+   "portugueseListings": 0,
+   "listings": []
+  },
+  "bk-rayquaza": {
+   "name": "Rayquaza",
+   "owned": false,
+   "reference": null,
+   "referenceBasis": "English proxy (Cardmarket trend)",
+   "target": null,
+   "portugueseListings": 0,
+   "listings": []
+  },
+  "bk-torchic": {
+   "name": "Torchic",
+   "owned": false,
+   "reference": null,
+   "referenceBasis": "English proxy (Cardmarket trend)",
+   "target": null,
+   "portugueseListings": 0,
+   "listings": []
+  },
+  "h-gengar-deck": {
+   "name": "Gengar",
+   "owned": true,
+   "reference": 44.39,
+   "referenceBasis": "English proxy (Cardmarket trend)",
+   "target": 37.73,
+   "portugueseListings": 0,
+   "listings": []
+  }
+ },
+ "hits": []
+}
