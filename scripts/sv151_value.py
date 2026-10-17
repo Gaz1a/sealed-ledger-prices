@@ -50,8 +50,10 @@ hist = ld("sv151_history.json", {"history": []})
 hist["history"] = [h for h in hist["history"] if h["date"] != TODAY] + [{"date": TODAY, "total": total, "linesPriced": len(priced), "lines": len(lines), "gaps": len(gaps)}]
 hist["note"] = "one row per daily run; gaps excluded from the sum, never zero-filled"
 json.dump(hist, open(os.path.join(ROOT, "sv151_history.json"), "w"), indent=1)
-# backfill from card histories already in the repo (NM per variant)
+# backfill: PPT NM history per variant. State comes from scripts/sv151_backfill_ppt.py (resumable, all cards x all variants);
+# older card histories already in the repo (ppt_backfill_180.json) fill in until then.
 tracked, b = ld("tracked.json", {}), ld("ppt_backfill_180.json", {})
+st = ld("sv151_ppt_state.json", {})
 want = {(l["productId"], l["subtype"]): l for l in lines}
 series = {}
 for lid, cs in b.get("cands", {}).items():
@@ -60,12 +62,29 @@ for lid, cs in b.get("cands", {}).items():
         m = re.match(r"variants/(.+)/Near Mint/history$", label)
         if m and (pid, m.group(1)) in want and (pid, m.group(1)) not in series:
             series[(pid, m.group(1))] = {d: p for d, p in pts}
-dates = sorted({d for s in series.values() for d in s})
+for pid, e in st.items():
+    for sub, pts in (e.get("variants") or {}).items():
+        if (int(pid), sub) in want: series[(int(pid), sub)] = {d: p for d, p in pts}
+final = {"ok", "no PPT record", "no history rows"}
+done_cards = sum(1 for c in cards if st.get(str(c), {}).get("status") in final)
+complete = done_cards == len(cards)
+dates = sorted({d for s_ in series.values() for d in s_})
 bf = []
 for d in dates:
-    vals = [s[d] for s in series.values() if d in s]
+    vals = [s_[d] for s_ in series.values() if d in s_]
     bf.append({"date": d, "partialTotal": round(sum(vals), 2), "linesWithHistory": len(vals), "linesTotal": len(lines), "complete": len(vals) == len(lines)})
-out = {"generated": now, "note": "PARTIAL: only lines with a card history already in the repo. partialTotal is NOT the master-set value unless complete=true.",
-       "linesWithAnyHistory": len(series), "linesTotal": len(lines), "lines": [{"productId": k[0], "subtype": k[1], "name": want[k]["name"], "number": want[k]["number"], "points": len(v)} for k, v in series.items()], "days": bf}
+out = {"generated": now, "cardsFetched": done_cards, "cardsTotal": len(cards), "backfillComplete": complete,
+       "note": "partialTotal is NOT the master-set value unless complete=true; days are merged into sv151_history.json only once every card has been fetched (lines with no point that day are counted as gaps, never zero).",
+       "linesWithAnyHistory": len(series), "linesTotal": len(lines),
+       "lines": [{"productId": k[0], "subtype": k[1], "name": want[k]["name"], "number": want[k]["number"], "points": len(v)} for k, v in series.items()], "days": bf}
 json.dump(out, open(os.path.join(ROOT, "sv151_backfill.json"), "w"), indent=1)
-print(len(cards), "cards", len(lines), "lines", len(priced), "priced", len(gaps), "gaps", total, "total; backfill lines", len(series), "cosmos", len(cosmos))
+if complete:
+    own = {h["date"] for h in hist["history"] if h.get("source") != "ppt-backfill"}
+    first_own = min(own) if own else TODAY
+    keep = [h for h in hist["history"] if h.get("source") != "ppt-backfill"]
+    for r in bf:
+        if r["date"] < first_own:
+            keep.append({"date": r["date"], "total": r["partialTotal"], "linesPriced": r["linesWithHistory"], "lines": len(lines), "gaps": len(lines) - r["linesWithHistory"], "source": "ppt-backfill"})
+    hist["history"] = sorted(keep, key=lambda h: h["date"])
+    json.dump(hist, open(os.path.join(ROOT, "sv151_history.json"), "w"), indent=1)
+print(len(cards), "cards", len(lines), "lines", len(priced), "priced", len(gaps), "gaps", total, "total; backfill cards", done_cards, "complete", complete)
