@@ -40,7 +40,7 @@ if tok:
     for mk in MARKETS:
         H = {"Authorization": "Bearer " + tok, "X-EBAY-C-MARKETPLACE-ID": mk, **SHIP_TO}
         for rid, nm in ROWS.items():
-            for q in (f"Devir Livro Ilustrado {nm}", f"Estampas Ilustradas {nm}", f"Pokemon Devir {nm} Portuguese booklet"):
+            for q in (f"Devir Livro Ilustrado {nm}", f"Estampas Ilustradas {nm}", f"Pokemon Devir {nm} Portuguese booklet", f"Pokemon Origem das Lendas {nm} Devir", f"Devir Pokemon {nm}"):
                 time.sleep(0.35)
                 j = get("https://api.ebay.com/buy/browse/v1/item_summary/search?" + urllib.parse.urlencode({"q": q, "limit": 50, "filter": "buyingOptions:{FIXED_PRICE},deliveryCountry:US"}), H)
                 for i in j.get("itemSummaries", []):
@@ -71,7 +71,7 @@ for rid, nm in ROWS.items():
         pt = [TODAY, proxy, "english-proxy", f"Cardmarket trend, {cmn} (id {cd['id']}), EUR {cd['trendEUR']} x {fx}", "English proxy; unverified"]
     else: pt = None
     if pt: e["history"] = [h for h in e["history"] if h[0] != TODAY] + [pt]
-    e["latest"] = pt; e["englishProxy"] = {"usd": proxy, "product": cmn, "cardmarketId": (cd or {}).get("id")}; e["owned"] = rid in OWNED
+    e["latest"] = pt; e["englishProxy"] = {"usd": proxy, "cardmarketLowEURNotUsed": (cd or {}).get("lowEUR") if proxy is None else None, "note": None if proxy is not None else "Cardmarket has the English booklet but no trend price; its low (if any) is an asking floor and is not used as a price", "product": cmn, "cardmarketId": (cd or {}).get("id")}; e["owned"] = rid in OWNED
     ref = round(sorted(x["itemUSD"] for x in ls)[len(ls) // 2], 2) if len(ls) >= 3 else proxy
     tgt = round(ref * TARGET_X, 2) if ref else None
     rec = {"name": nm, "owned": rid in OWNED, "reference": ref, "referenceBasis": "median Portuguese ask" if len(ls) >= 3 else "English proxy (Cardmarket trend)", "target": tgt, "portugueseListings": len(ls), "listings": []}
