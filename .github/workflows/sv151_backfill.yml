@@ -2,7 +2,7 @@ name: SV151 backfill
 on:
   schedule: [{cron: "10 16 * * *"}]
   workflow_dispatch:
-permissions: {contents: write}
+permissions: {contents: write, actions: write}
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -20,3 +20,8 @@ jobs:
           git add sv151_ppt_state.json sv151_value.json sv151_lines.json sv151_history.json sv151_backfill.json
           git diff --cached --quiet || git commit -m "sv151 backfill $(date -u +%F)"
           git pull --rebase && git push
+      - name: Disable when done
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 -c "import json,sys; sys.exit(0 if json.load(open('sv151_backfill.json'))['backfillComplete'] else 1)" && gh api -X PUT repos/${{ github.repository }}/actions/workflows/sv151_backfill.yml/disable || echo "not complete yet"

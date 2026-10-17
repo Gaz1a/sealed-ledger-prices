@@ -74,17 +74,20 @@ for d in dates:
     vals = [s_[d] for s_ in series.values() if d in s_]
     bf.append({"date": d, "partialTotal": round(sum(vals), 2), "linesWithHistory": len(vals), "linesTotal": len(lines), "complete": len(vals) == len(lines)})
 out = {"generated": now, "cardsFetched": done_cards, "cardsTotal": len(cards), "backfillComplete": complete,
-       "note": "partialTotal is NOT the master-set value unless complete=true; days are merged into sv151_history.json only once every card has been fetched (lines with no point that day are counted as gaps, never zero).",
+       "note": "partialTotal is NOT the master-set value unless complete=true; days are merged into sv151_history.json every run with partial=true wherever lines are missing (never zero-filled).",
        "linesWithAnyHistory": len(series), "linesTotal": len(lines),
        "lines": [{"productId": k[0], "subtype": k[1], "name": want[k]["name"], "number": want[k]["number"], "points": len(v)} for k, v in series.items()], "days": bf}
 json.dump(out, open(os.path.join(ROOT, "sv151_backfill.json"), "w"), indent=1)
-if complete:
-    own = {h["date"] for h in hist["history"] if h.get("source") != "ppt-backfill"}
-    first_own = min(own) if own else TODAY
-    keep = [h for h in hist["history"] if h.get("source") != "ppt-backfill"]
-    for r in bf:
-        if r["date"] < first_own:
-            keep.append({"date": r["date"], "total": r["partialTotal"], "linesPriced": r["linesWithHistory"], "lines": len(lines), "gaps": len(lines) - r["linesWithHistory"], "source": "ppt-backfill"})
-    hist["history"] = sorted(keep, key=lambda h: h["date"])
-    json.dump(hist, open(os.path.join(ROOT, "sv151_history.json"), "w"), indent=1)
+own = [h["date"] for h in hist["history"] if h.get("source") != "ppt-backfill"]
+first_own = min(own) if own else TODAY
+keep = [h for h in hist["history"] if h.get("source") != "ppt-backfill"]
+for r in bf:
+    if r["date"] < first_own:
+        miss = len(lines) - r["linesWithHistory"]
+        keep.append({"date": r["date"], "total": r["partialTotal"], "linesPriced": r["linesWithHistory"], "lines": len(lines), "gaps": miss, "partial": miss > 0, "source": "ppt-backfill"})
+for h in keep:
+    if h.get("source") != "ppt-backfill": h["partial"] = h.get("gaps", 0) > 0
+hist["history"] = sorted(keep, key=lambda h: h["date"])
+hist["note"] = "one row per day; partial=true means some lines had no price that day (excluded from total, never zero-filled). Backfill rows (source=ppt-backfill) come from PokemonPriceTracker NM history and stay partial until every card is fetched."
+json.dump(hist, open(os.path.join(ROOT, "sv151_history.json"), "w"), indent=1)
 print(len(cards), "cards", len(lines), "lines", len(priced), "priced", len(gaps), "gaps", total, "total; backfill cards", done_cards, "complete", complete)
