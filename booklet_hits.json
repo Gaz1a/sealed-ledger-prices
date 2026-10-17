@@ -4,7 +4,9 @@
   "importEstimatePct": 0.1,
   "importNote": "ESTIMATE for non-US origin; eBay's API does not return duty/fees",
   "targetMultiplier": 0.85,
+  "targets": "ledger targets for 7 rows; 0.85 x English Cardmarket trend for the rest once a trend exists",
   "reference": "median Portuguese ask if >=3 live listings, else English proxy (Cardmarket trend)",
+  "shipTo": "Burbank CA 91505",
   "label": "unverified: asking prices/trend, not sold"
  },
  "items": {
@@ -14,6 +16,7 @@
    "reference": 123.51,
    "referenceBasis": "English proxy (Cardmarket trend)",
    "target": 104.98,
+   "targetBasis": "ledger target",
    "portugueseListings": 0,
    "listings": []
   },
@@ -22,7 +25,8 @@
    "owned": false,
    "reference": 26.13,
    "referenceBasis": "English proxy (Cardmarket trend)",
-   "target": 22.21,
+   "target": 19.69,
+   "targetBasis": "ledger target",
    "portugueseListings": 1,
    "listings": [
     {
@@ -41,7 +45,8 @@
      "seller": "hearthicegroup",
      "feedbackPct": "0.0",
      "feedbackScore": 0,
-     "underTarget": false
+     "underTarget": false,
+     "nearMiss": false
     }
    ]
   },
@@ -50,7 +55,8 @@
    "owned": false,
    "reference": 45.64,
    "referenceBasis": "English proxy (Cardmarket trend)",
-   "target": 38.79,
+   "target": 25.36,
+   "targetBasis": "ledger target",
    "portugueseListings": 1,
    "listings": [
     {
@@ -69,7 +75,8 @@
      "seller": "maxis50",
      "feedbackPct": "100.0",
      "feedbackScore": 14,
-     "underTarget": false
+     "underTarget": false,
+     "nearMiss": false
     }
    ]
   },
@@ -78,7 +85,8 @@
    "owned": false,
    "reference": 98.73,
    "referenceBasis": "median Portuguese ask",
-   "target": 83.92,
+   "target": 14.85,
+   "targetBasis": "ledger target",
    "portugueseListings": 4,
    "listings": [
     {
@@ -97,7 +105,8 @@
      "seller": "logans_store",
      "feedbackPct": "100.0",
      "feedbackScore": 6,
-     "underTarget": false
+     "underTarget": false,
+     "nearMiss": false
     },
     {
      "title": "Devir Livraria Pokémon TCG Theme Deck Origem das Lendas Machamp- 30 cards",
@@ -115,7 +124,8 @@
      "seller": "fafiti",
      "feedbackPct": "0.0",
      "feedbackScore": 0,
-     "underTarget": false
+     "underTarget": false,
+     "nearMiss": false
     },
     {
      "title": "Pokemon Portoghese Machamp Illustrated BookDeck Sigillato Livro Ilustrado Devir 06'",
@@ -133,7 +143,8 @@
      "seller": "vintagemonsterr",
      "feedbackPct": "100.0",
      "feedbackScore": 112,
-     "underTarget": false
+     "underTarget": false,
+     "nearMiss": false
     },
     {
      "title": "Pokémon TCG  Machamp Rare Kit 30 Cards! Portuguese!",
@@ -151,7 +162,8 @@
      "seller": "bleeedblue",
      "feedbackPct": "100.0",
      "feedbackScore": 13,
-     "underTarget": false
+     "underTarget": false,
+     "nearMiss": false
     }
    ]
   },
@@ -161,6 +173,7 @@
    "reference": 22.21,
    "referenceBasis": "English proxy (Cardmarket trend)",
    "target": 18.88,
+   "targetBasis": "ledger target",
    "portugueseListings": 0,
    "listings": []
   },
@@ -169,7 +182,8 @@
    "owned": false,
    "reference": 23.01,
    "referenceBasis": "English proxy (Cardmarket trend)",
-   "target": 19.56,
+   "target": 19.67,
+   "targetBasis": "ledger target",
    "portugueseListings": 1,
    "listings": [
     {
@@ -188,7 +202,8 @@
      "seller": "fafiti",
      "feedbackPct": "0.0",
      "feedbackScore": 0,
-     "underTarget": false
+     "underTarget": false,
+     "nearMiss": false
     }
    ]
   },
@@ -197,7 +212,8 @@
    "owned": false,
    "reference": 26.29,
    "referenceBasis": "English proxy (Cardmarket trend)",
-   "target": 22.35,
+   "target": 21.69,
+   "targetBasis": "ledger target",
    "portugueseListings": 0,
    "listings": []
   },
@@ -207,6 +223,7 @@
    "reference": null,
    "referenceBasis": "English proxy (Cardmarket trend)",
    "target": null,
+   "targetBasis": "none (no English proxy trend yet)",
    "portugueseListings": 0,
    "listings": []
   },
@@ -216,6 +233,7 @@
    "reference": null,
    "referenceBasis": "English proxy (Cardmarket trend)",
    "target": null,
+   "targetBasis": "none (no English proxy trend yet)",
    "portugueseListings": 0,
    "listings": []
   },
@@ -225,6 +243,7 @@
    "reference": null,
    "referenceBasis": "English proxy (Cardmarket trend)",
    "target": null,
+   "targetBasis": "none (no English proxy trend yet)",
    "portugueseListings": 0,
    "listings": []
   },
@@ -234,6 +253,7 @@
    "reference": null,
    "referenceBasis": "English proxy (Cardmarket trend)",
    "target": null,
+   "targetBasis": "none (no English proxy trend yet)",
    "portugueseListings": 0,
    "listings": []
   },
@@ -243,6 +263,7 @@
    "reference": 44.39,
    "referenceBasis": "English proxy (Cardmarket trend)",
    "target": 37.73,
+   "targetBasis": "0.85 x English proxy (Cardmarket trend)",
    "portugueseListings": 2,
    "listings": [
     {
@@ -261,7 +282,8 @@
      "seller": "rafa.r0",
      "feedbackPct": "0.0",
      "feedbackScore": 0,
-     "underTarget": false
+     "underTarget": false,
+     "nearMiss": false
     },
     {
      "title": "Gengar EX Legend Maker Half Deck Box Sealed Portuguese Pokemon SWIRL",
@@ -279,10 +301,32 @@
      "seller": "goobytcg",
      "feedbackPct": "100.0",
      "feedbackScore": 2093,
-     "underTarget": false
+     "underTarget": false,
+     "nearMiss": false
     }
    ]
   }
  },
- "hits": []
+ "hits": [],
+ "totals": {
+  "portugueseBuyItNowListingsFound": 9,
+  "ofWhichSealedConfirmed": 1,
+  "unownedRows": 7,
+  "perRow": {
+   "bk-golem": 0,
+   "bk-hooh": 1,
+   "bk-lugia": 1,
+   "bk-machamp": 4,
+   "bk-omastar": 0,
+   "bk-ralts": 1,
+   "bk-treecko": 0,
+   "bk-exploud": 0,
+   "bk-mudkip": 0,
+   "bk-rayquaza": 0,
+   "bk-torchic": 0,
+   "h-gengar-deck": 2
+  },
+  "note": "title-matched (Devir/Livro Ilustrado/Estampas Ilustradas/Portuguese + Pokemon name), buy-it-now, ships to US, excluding lots/loose/graded"
+ },
+ "nearMisses": []
 }
