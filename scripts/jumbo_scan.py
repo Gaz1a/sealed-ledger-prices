@@ -58,7 +58,7 @@ for j in cat:
         cands = sealed_idx.get(norm(j["title"]), [])
         st["sealedCandidates"] = [{k: c[k] for k in ("productId", "name", "group")} for c in cands][:6]
         if len(cands) == 1: st["sealedId"], st["sealedBasis"] = cands[0]["productId"], "exact-name"
-    if not st["cardId"]:
+    if not st["cardId"] and not st.get("cardIds"):
         one = one_card(j["cards"])
         if one:
             cands = card_idx.get(norm(one), [])
@@ -79,6 +79,15 @@ for j in cat:
             if not e["history"] or e["history"][-1][0] != TODAY: e["history"].append([TODAY, r["marketPrice"]])
         else:
             e.update({"market": None, "date": TODAY, "note": "no priced row today"})
+    if st.get("cardIds"):
+        its = []
+        for pid in st["cardIds"]:
+            r = pick_price(pid)
+            its.append({"productId": pid, "name": name_of.get(pid, {}).get("name"), "market": (r or {}).get("marketPrice"), "subType": (r or {}).get("subTypeName")})
+        ms = [x["market"] for x in its if x["market"] is not None]
+        it["cardSet"] = {"mode": st["cardMode"], "items": its, "low": min(ms) if ms else None, "high": max(ms) if ms else None,
+                         "sum": round(sum(ms), 2) if ms and len(ms) == len(its) and st["cardMode"] == "components" else None,
+                         "date": TODAY, "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)"}
 json.dump(ids, open("jumbo_ids.json", "w"), indent=1)
 json.dump({"generated": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"), "items": prices["items"]}, open("jumbo_prices.json", "w"), indent=1)
 print("sealed resolved", sum(1 for v in ids.values() if v["sealedId"]), "card resolved", sum(1 for v in ids.values() if v["cardId"]), "of", len(ids))

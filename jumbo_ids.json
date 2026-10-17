@@ -155,9 +155,15 @@
   "sealedId": null,
   "sealedBasis": null,
   "cardId": null,
-  "cardBasis": null,
+  "cardBasis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
   "sealedCandidates": [],
-  "cardNote": "multiple/unspecified jumbo cards in sheet"
+  "cardIds": [
+   210841,
+   210842,
+   210843,
+   210844
+  ],
+  "cardMode": "range"
  },
  "j-2003-aquapolis-booster-display-en": {
   "title": "Aquapolis booster display",
@@ -580,7 +586,7 @@
   "sealedId": null,
   "sealedBasis": null,
   "cardId": null,
-  "cardBasis": null,
+  "cardBasis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
   "sealedCandidates": [],
   "cardCandidates": [
    {
@@ -595,7 +601,12 @@
     "number": "069/106",
     "market": null
    }
-  ]
+  ],
+  "cardIds": [
+   211420,
+   211421
+  ],
+  "cardMode": "range"
  },
  "j-2014-krookodile-ex-box-en": {
   "title": "Krookodile-EX Box",
@@ -914,7 +925,7 @@
   "sealedId": null,
   "sealedBasis": null,
   "cardId": null,
-  "cardBasis": null,
+  "cardBasis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
   "sealedCandidates": [],
   "cardCandidates": [
    {
@@ -929,7 +940,12 @@
     "number": "064/162",
     "market": null
    }
-  ]
+  ],
+  "cardIds": [
+   211502,
+   211503
+  ],
+  "cardMode": "range"
  },
  "j-2016-evolutions-kanto-power-collection-en": {
   "title": "Evolutions Kanto Power Collection",
@@ -2147,7 +2163,7 @@
   "sealedId": null,
   "sealedBasis": null,
   "cardId": 169950,
-  "cardBasis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
+  "cardBasis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId) - Mewtwo-EX Challenge Box: kept 169950 (XY183, same print as the 2016 box); 61/162 not sourced",
   "sealedCandidates": []
  },
  "j-2017-pikachu-ex-challenge-box-en": {
@@ -2249,10 +2265,9 @@
   "lang": "English",
   "sealedId": null,
   "sealedBasis": null,
-  "cardId": null,
-  "cardBasis": null,
-  "sealedCandidates": [],
-  "cardNote": "multiple/unspecified jumbo cards in sheet"
+  "cardId": 179036,
+  "cardBasis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
+  "sealedCandidates": []
  },
  "j-2018-dragon-majesty-premium-powers-collection-en": {
   "title": "Dragon Majesty Premium Powers Collection",
@@ -2538,8 +2553,8 @@
   "lang": "English",
   "sealedId": 656924,
   "sealedBasis": "exact-name",
-  "cardId": null,
-  "cardBasis": null,
+  "cardId": 707231,
+  "cardBasis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
   "sealedCandidates": [
    {
     "productId": 656924,
@@ -2629,10 +2644,9 @@
   "lang": "English",
   "sealedId": null,
   "sealedBasis": null,
-  "cardId": null,
-  "cardBasis": null,
-  "sealedCandidates": [],
-  "cardNote": "multiple/unspecified jumbo cards in sheet"
+  "cardId": 179036,
+  "cardBasis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
+  "sealedCandidates": []
  },
  "j-2018-island-guardians-gx-pin-collection-en": {
   "title": "Island Guardians GX Pin Collection",
@@ -2791,7 +2805,7 @@
   "sealedId": null,
   "sealedBasis": null,
   "cardId": null,
-  "cardBasis": null,
+  "cardBasis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
   "sealedCandidates": [],
   "cardCandidates": [
    {
@@ -2812,7 +2826,13 @@
     "number": "SM176",
     "market": null
    }
-  ]
+  ],
+  "cardIds": [
+   211433,
+   211437,
+   211439
+  ],
+  "cardMode": "range"
  },
  "j-2019-flareon-gx-special-collection-en": {
   "title": "Flareon-GX Special Collection",
@@ -3269,7 +3289,7 @@
   "sealedId": 199772,
   "sealedBasis": "exact-name",
   "cardId": 200274,
-  "cardBasis": "unique-name-in-Jumbo-Cards (confirm print)",
+  "cardBasis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
   "sealedCandidates": [
    {
     "productId": 199772,
@@ -3992,7 +4012,7 @@
   "sealedId": 231302,
   "sealedBasis": "exact-name",
   "cardId": null,
-  "cardBasis": null,
+  "cardBasis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
   "sealedCandidates": [
    {
     "productId": 231302,
@@ -4000,7 +4020,12 @@
     "group": "First Partner Pack"
    }
   ],
-  "cardNote": "multiple/unspecified jumbo cards in sheet"
+  "cardIds": [
+   231467,
+   231470,
+   231461
+  ],
+  "cardMode": "components"
  },
  "j-2021-first-partner-pack-sinnoh-en": {
   "title": "First Partner Pack (Sinnoh)",
@@ -6008,8 +6033,8 @@
   "lang": "English",
   "sealedId": 594495,
   "sealedBasis": "exact-name",
-  "cardId": null,
-  "cardBasis": null,
+  "cardId": 605497,
+  "cardBasis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
   "sealedCandidates": [
    {
     "productId": 594495,
@@ -6350,8 +6375,8 @@
   "lang": "English",
   "sealedId": 630615,
   "sealedBasis": "exact-name",
-  "cardId": null,
-  "cardBasis": null,
+  "cardId": 646170,
+  "cardBasis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
   "sealedCandidates": [
    {
     "productId": 630615,
@@ -6670,8 +6695,8 @@
   "lang": "English",
   "sealedId": 668632,
   "sealedBasis": "exact-name",
-  "cardId": null,
-  "cardBasis": null,
+  "cardId": 668961,
+  "cardBasis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
   "sealedCandidates": [
    {
     "productId": 668632,

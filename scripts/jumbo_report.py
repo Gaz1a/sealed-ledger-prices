@@ -3,6 +3,7 @@ ids = json.load(open("jumbo_ids.json")); cat = {x["id"]: x for x in json.load(op
 def order(j):
     en = j["lang"] == "English"
     return (0 if en and (j["year"] or 0) >= 2019 else 1 if en else 2, j["lang"], j["year"] or 0)
+BASIS = {"tcgplayer": "TCGplayer market, dated snapshot = historical (not sold-verified)", "pricecharting": "estimate", "cardmarket": "asking price (EUR converted to USD at the feed rate, rate stated)"}
 out = []
 for k, j in sorted(cat.items(), key=lambda kv: order(kv[1])):
     v, p = ids[k], pr.get(k, {})
@@ -19,6 +20,12 @@ for k, j in sorted(cat.items(), key=lambda kv: order(kv[1])):
             r[kind]["candidateRange"] = [min(ms), max(ms)] if ms else None
         elif e.get("market") is None: why = "listing found but no priced row"
         r[kind]["problem"] = why
+    cs = (p.get("cardSet") or {})
+    if v.get("cardIds"):
+        r["card"].update({"productIds": v["cardIds"], "mode": v["cardMode"], "items": cs.get("items", []), "low": cs.get("low"), "high": cs.get("high"), "sum": cs.get("sum"), "date": cs.get("date"), "source": cs.get("source"), "basis": v.get("cardBasis")})
+        miss = [x["productId"] for x in cs.get("items", []) if x["market"] is None]
+        r["card"]["problem"] = ("no priced row for %s" % miss) if miss or not cs else None
+    r["priceBasisLabels"] = BASIS
     out.append(r)
 json.dump(out, open("jumbo_report.json", "w"), indent=1)
 json.dump([r for r in out if r["sealed"]["problem"] or r["card"]["problem"]], open("jumbo_unresolved.json", "w"), indent=1)

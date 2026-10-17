@@ -1,17 +1,91 @@
-{"confirmed": {
-"j-2000-corocoro-comic-april-2000-issue-insert-march-15-2000-en":179079,"j-2013-team-plasma-box-en":211425,"j-2016-blastoise-ex-red-blue-collection-en":542981,"j-2016-mewtwo-ex-box-en":169950,
-"j-2017-charizard-gx-premium-collection-en":148152,"j-2017-pikachu-ex-challenge-box-en":198772,"j-2017-silvally-box-en":211470,"j-2018-lunala-gx-box-en":177709,
-"j-2019-detective-pikachu-charizard-gx-case-file-en":185252,"j-2019-hidden-fates-collection-raichu-gx-en":205168,"j-2021-first-partner-collector-s-binder-en":257780,
-"j-2022-lucario-v-tyranitar-v-heavy-hitters-premium-collection-en":284285,"j-2025-151-blooming-waters-premium-collections-en":618764,"j-2000-top-deck-magazine-february-2000-en":211500,
-"j-2014-charizard-ex-box-en":91614,"j-2015-rayquaza-ex-box-en":147232,"j-2016-charizard-ex-box-fire-blast-en":152944,"j-2016-pikachu-ex-red-blue-collection-en":211463,
-"j-2017-decidueye-gx-premium-collection-en":152933,"j-2017-primarina-gx-premium-collection-en":148409,"j-2017-tapu-koko-box-en":169954,"j-2019-lunala-gx-challenge-box-en":169946,
-"j-2021-shining-fates-collection-pikachu-v-en":232443,"j-2022-pikachu-v-box-en":260712,"j-2008-darkrai-premium-box-en":211427,"j-2014-garchomp-ex-box-en":173082,
-"j-2016-alola-collection-en":169946,"j-2016-charizard-ex-red-blue-collection-en":211422,"j-2016-venusaur-ex-red-blue-collection-en":211487,"j-2017-incineroar-gx-premium-collection-en":169945,
-"j-2017-shiny-silvally-gx-box-en":152605,"j-2018-decidueye-gx-challenge-box-en":599671,"j-2018-shining-legends-special-collection-raichu-gx-en":155588,"j-2012-mewtwo-collection-en":211501,
-"j-2016-alola-collection-redacted-en":169951,"j-2016-dragonite-ex-box-en":131863,"j-2016-zygarde-box-en":618848,"j-2017-mewtwo-ex-challenge-box-en":169950,
-"j-2017-shiny-tapu-koko-gx-box-en":169955,"j-2019-hidden-fates-collection-charizard-gx-en":205166,"j-2020-toxtricity-v-box-en":206426,"j-2022-boltund-v-box-en":276051,
-"j-2026-mega-zygarde-ex-premium-collection-en":696460},
-"likely": {
-"j-2019-detective-pikachu-charizard-gx-special-case-file-en":185252,"j-2019-solgaleo-gx-challenge-box-en":177901,"j-2021-shining-fates-collection-shiny-boltund-v-en":243659,
-"j-2023-lucario-v-tyranitar-v-heavy-hitters-premium-collection-2023-en":284285,"j-2025-venusaur-ex-blastoise-ex-premium-collection-en":648584,
-"j-2018-incineroar-gx-challenge-box-en":169945,"j-2018-solgaleo-gx-box-en":177901}}
+{
+ "confirmed": {
+  "j-2000-corocoro-comic-april-2000-issue-insert-march-15-2000-en": 179079,
+  "j-2013-team-plasma-box-en": 211425,
+  "j-2016-blastoise-ex-red-blue-collection-en": 542981,
+  "j-2016-mewtwo-ex-box-en": 169950,
+  "j-2017-charizard-gx-premium-collection-en": 148152,
+  "j-2017-pikachu-ex-challenge-box-en": 198772,
+  "j-2017-silvally-box-en": 211470,
+  "j-2018-lunala-gx-box-en": 177709,
+  "j-2019-detective-pikachu-charizard-gx-case-file-en": 185252,
+  "j-2019-hidden-fates-collection-raichu-gx-en": 205168,
+  "j-2021-first-partner-collector-s-binder-en": 257780,
+  "j-2022-lucario-v-tyranitar-v-heavy-hitters-premium-collection-en": 284285,
+  "j-2025-151-blooming-waters-premium-collections-en": 618764,
+  "j-2000-top-deck-magazine-february-2000-en": 211500,
+  "j-2014-charizard-ex-box-en": 91614,
+  "j-2015-rayquaza-ex-box-en": 147232,
+  "j-2016-charizard-ex-box-fire-blast-en": 152944,
+  "j-2016-pikachu-ex-red-blue-collection-en": 211463,
+  "j-2017-decidueye-gx-premium-collection-en": 152933,
+  "j-2017-primarina-gx-premium-collection-en": 148409,
+  "j-2017-tapu-koko-box-en": 169954,
+  "j-2019-lunala-gx-challenge-box-en": 169946,
+  "j-2021-shining-fates-collection-pikachu-v-en": 232443,
+  "j-2022-pikachu-v-box-en": 260712,
+  "j-2008-darkrai-premium-box-en": 211427,
+  "j-2014-garchomp-ex-box-en": 173082,
+  "j-2016-alola-collection-en": 169946,
+  "j-2016-charizard-ex-red-blue-collection-en": 211422,
+  "j-2016-venusaur-ex-red-blue-collection-en": 211487,
+  "j-2017-incineroar-gx-premium-collection-en": 169945,
+  "j-2017-shiny-silvally-gx-box-en": 152605,
+  "j-2018-decidueye-gx-challenge-box-en": 599671,
+  "j-2018-shining-legends-special-collection-raichu-gx-en": 155588,
+  "j-2012-mewtwo-collection-en": 211501,
+  "j-2016-alola-collection-redacted-en": 169951,
+  "j-2016-dragonite-ex-box-en": 131863,
+  "j-2016-zygarde-box-en": 618848,
+  "j-2017-mewtwo-ex-challenge-box-en": 169950,
+  "j-2017-shiny-tapu-koko-gx-box-en": 169955,
+  "j-2019-hidden-fates-collection-charizard-gx-en": 205166,
+  "j-2020-toxtricity-v-box-en": 206426,
+  "j-2022-boltund-v-box-en": 276051,
+  "j-2026-mega-zygarde-ex-premium-collection-en": 696460,
+  "j-2018-primarina-gx-challenge-box-en": 707231,
+  "j-2025-unova-victini-illustration-collection-en": 646170,
+  "j-2024-legendary-warriors-premium-collection-en": 605497,
+  "j-2018-dragon-majesty-legends-of-unova-gx-premium-collection-en": 179036,
+  "j-2018-dragon-majesty-legends-of-unova-gx-collection-en": 179036,
+  "j-2019-pikachu-gx-eevee-gx-special-collection-en": 200274,
+  "j-2025-unova-heavy-hitters-premium-collection-en": 668961
+ },
+ "likely": {
+  "j-2019-detective-pikachu-charizard-gx-special-case-file-en": 185252,
+  "j-2019-solgaleo-gx-challenge-box-en": 177901,
+  "j-2021-shining-fates-collection-shiny-boltund-v-en": 243659,
+  "j-2023-lucario-v-tyranitar-v-heavy-hitters-premium-collection-2023-en": 284285,
+  "j-2025-venusaur-ex-blastoise-ex-premium-collection-en": 648584,
+  "j-2018-incineroar-gx-challenge-box-en": 169945,
+  "j-2018-solgaleo-gx-box-en": 177901
+ },
+ "ranges": {
+  "j-2015-mega-mewtwo-box-en": [
+   211502,
+   211503
+  ],
+  "j-2019-eevee-gx-box-en": [
+   211433,
+   211437,
+   211439
+  ],
+  "j-2014-mega-charizard-box-en": [
+   211420,
+   211421
+  ],
+  "j-2002-legendary-collection-booster-display-en": [
+   210841,
+   210842,
+   210843,
+   210844
+  ]
+ },
+ "components": {
+  "j-2021-first-partner-pack-unova-en": [
+   231467,
+   231470,
+   231461
+  ]
+ }
+}
