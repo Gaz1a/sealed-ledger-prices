@@ -247,7 +247,7 @@
   },
   "bk-machamp": {
    "name": "Machamp",
-   "owned": false,
+   "owned": true,
    "foundToday": 0,
    "sealedToday": 0,
    "notSealedToday": 0,
@@ -260,7 +260,7 @@
     "url": "https://www.ebay.it/itm/137748578395",
     "title": "Nuovo Sigillato EX Legend Maker Origem das Lendas 2007 Machamp Theme Deck Portoghese"
    },
-   "max": 105,
+   "max": null,
    "cardmarketTrendUSD": 16.58,
    "cardmarketTarget85": 14.09,
    "cardmarketId": 695811,
@@ -449,56 +449,56 @@
    },
    "bk-hooh": {
     "name": "Ho-Oh",
-    "liveListings": 2,
-    "liveSealed": 1,
+    "liveListings": 0,
+    "liveSealed": 0,
     "askItemUSD": {
-     "low": 67.51,
-     "median": 81.31,
-     "high": 95.11
+     "low": null,
+     "median": null,
+     "high": null
     },
     "cardmarketId": 755664,
     "cardmarketProduct": "EX Unseen Forces: Illustrated Booklet - Ho-Oh",
     "cardmarketTrendUSD": 27.7,
     "target85OfTrend": 23.54,
     "targetNote": null,
-    "impliedSales": 0,
-    "impliedSaleMedianUSD": null,
+    "impliedSales": 2,
+    "impliedSaleMedianUSD": 81.31,
     "everSeen": 2
    },
    "bk-lugia": {
     "name": "Lugia",
-    "liveListings": 1,
-    "liveSealed": 1,
+    "liveListings": 0,
+    "liveSealed": 0,
     "askItemUSD": {
-     "low": 200.24,
-     "median": 200.24,
-     "high": 200.24
+     "low": null,
+     "median": null,
+     "high": null
     },
     "cardmarketId": 698569,
     "cardmarketProduct": "EX Unseen Forces: Illustrated Booklet - Lugia",
     "cardmarketTrendUSD": 45.82,
     "target85OfTrend": 38.95,
     "targetNote": null,
-    "impliedSales": 0,
-    "impliedSaleMedianUSD": null,
+    "impliedSales": 1,
+    "impliedSaleMedianUSD": 200.24,
     "everSeen": 1
    },
    "bk-machamp": {
     "name": "Machamp",
-    "liveListings": 8,
-    "liveSealed": 5,
+    "liveListings": 0,
+    "liveSealed": 0,
     "askItemUSD": {
-     "low": 33.76,
-     "median": 58.17,
-     "high": 150.17
+     "low": null,
+     "median": null,
+     "high": null
     },
     "cardmarketId": 695811,
     "cardmarketProduct": "EX Legend Maker: Illustrated Booklet - Machamp",
     "cardmarketTrendUSD": 16.58,
     "target85OfTrend": 14.09,
     "targetNote": null,
-    "impliedSales": 0,
-    "impliedSaleMedianUSD": null,
+    "impliedSales": 8,
+    "impliedSaleMedianUSD": 58.17,
     "everSeen": 8
    },
    "bk-omastar": {
@@ -521,38 +521,38 @@
    },
    "bk-ralts": {
     "name": "Ralts",
-    "liveListings": 2,
+    "liveListings": 0,
     "liveSealed": 0,
     "askItemUSD": {
-     "low": 31.51,
-     "median": 50.79,
-     "high": 70.07
+     "low": null,
+     "median": null,
+     "high": null
     },
     "cardmarketId": 755666,
     "cardmarketProduct": "EX Ruby & Sapphire: Illustrated Booklet - Ralts",
     "cardmarketTrendUSD": 23.1,
     "target85OfTrend": 19.64,
     "targetNote": null,
-    "impliedSales": 0,
-    "impliedSaleMedianUSD": null,
+    "impliedSales": 2,
+    "impliedSaleMedianUSD": 50.79,
     "everSeen": 2
    },
    "bk-treecko": {
     "name": "Treecko",
-    "liveListings": 1,
+    "liveListings": 0,
     "liveSealed": 0,
     "askItemUSD": {
-     "low": 70.07,
-     "median": 70.07,
-     "high": 70.07
+     "low": null,
+     "median": null,
+     "high": null
     },
     "cardmarketId": 755665,
     "cardmarketProduct": "EX Ruby & Sapphire: Illustrated Booklet - Treecko",
     "cardmarketTrendUSD": 26.4,
     "target85OfTrend": 22.44,
     "targetNote": null,
-    "impliedSales": 0,
-    "impliedSaleMedianUSD": null,
+    "impliedSales": 1,
+    "impliedSaleMedianUSD": 70.07,
     "everSeen": 1
    },
    "bk-exploud": {
@@ -629,20 +629,20 @@
    },
    "h-gengar-deck": {
     "name": "Gengar",
-    "liveListings": 3,
-    "liveSealed": 1,
+    "liveListings": 0,
+    "liveSealed": 0,
     "askItemUSD": {
-     "low": 250.0,
-     "median": 297.0,
-     "high": 350.43
+     "low": null,
+     "median": null,
+     "high": null
     },
     "cardmarketId": 695809,
     "cardmarketProduct": "EX Legend Maker: Illustrated Booklet - Gengar",
     "cardmarketTrendUSD": 45.69,
     "target85OfTrend": 38.84,
     "targetNote": null,
-    "impliedSales": 0,
-    "impliedSaleMedianUSD": null,
+    "impliedSales": 3,
+    "impliedSaleMedianUSD": 297.0,
     "everSeen": 3
    }
   }
