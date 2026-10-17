@@ -7,6 +7,7 @@ import jumbo_util as ju
 CID, CSEC = os.environ.get("EBAY_CLIENT_ID"), os.environ.get("EBAY_CLIENT_SECRET")
 TODAY = datetime.date.today().isoformat()
 BAD = re.compile(r"\b(empty|lot of|custom|sleeve|opened|no cards|code card|repack|mystery|break|proxy|sticker|display case|storage|replica|pack art|single pack|card only|case of)\b", re.I)
+FORCE_SUPPLY = {"rp-672733"}   # sealed box whose title ("... Box") does not match the sealed-words filter
 def call(url, hdr, data=None):
     req = urllib.request.Request(url, data=data, headers=hdr)
     try:
@@ -61,7 +62,7 @@ def main():
         title = t.get("title") or ""
         st = sets.get(lid, "")
         if re.search(r"gundam|one piece|lorcana|riftbound", st + " " + title, re.I): continue   # non-Pokemon: query would be wrong
-        if not sealed_re.search(title) or re.search(r"\d+/\d+|\bTG\d", title): continue
+        if lid not in FORCE_SUPPLY and (not sealed_re.search(title) or re.search(r"\d+/\d+|\bTG\d", title)): continue
         if st and st != "Pokemon" and not set(re.findall(r"[a-z0-9]+", st.lower())) <= set(re.findall(r"[a-z0-9]+", title.lower())):
             title = f"{st} {title}"
         need = {w for w in re.findall(r"[a-z0-9]+", title.lower()) if w not in {"the", "of", "and"}}
