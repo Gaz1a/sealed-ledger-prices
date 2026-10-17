@@ -1,12 +1,25 @@
 {
- "generated": "2026-10-16",
+ "generated": "2026-10-17",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (53 entries, 1 new matches)",
+  "googlenews-reprint": "ok (52 entries, 1 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
+  {
+   "id": "30cc36cd064e",
+   "feed": "googlenews-reprint",
+   "title": "Best Pokémon TCG deal: Shop 30th Celebration Elite Trainer Box for under market price - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVEhLNUZydi1ndGRWeG9POHV3TkZiQzBFRU56a3lIcS1uZzQ1QmR5bGRmYVBVcmJHdnJSRS1kdnJsTjZYLW9ZdVVhdENXM0g4LUMxczJJMGEtUTBISEFObXpHUjdweU9sRnM0aDZEQ1phZ1YtdUtUdkltQTlseGxXc3R1QlloUkkySlBZOFhVMjdVNlU3VmYxU2RyOA?oc=5",
+   "published": "2026-10-17",
+   "firstSeen": "2026-10-17",
+   "classes": [],
+   "matched": [
+    "elite trainer",
+    "30th celebration"
+   ]
+  },
   {
    "id": "2f075228844e",
    "feed": "googlenews-reprint",
