@@ -60,7 +60,10 @@ if tok:
                         "seller": (i.get("seller") or {}).get("username"), "feedbackPct": (i.get("seller") or {}).get("feedbackPercentage"), "feedbackScore": (i.get("seller") or {}).get("feedbackScore")}
 prices = ld("booklet_prices.json", {"items": {}})
 refs = ld("booklet_refs.json", {"items": {}}); maxp = ld("booklet_max.json", {})   # booklet_max.json: {"bk-golem": 60, ...} all-in max you set; optional
-out = {"generated": TODAY, "label": "unverified: asking prices, not sold; import cost is an ESTIMATE", "assumptions": {"importEstimatePct": IMPORT_PCT, "shipTo": "Burbank CA 91505",
+stock = ld("stock_check.json", {})
+out = {"retailerInStock": stock.get("inStock", []), "retailerCheck": {"generated": stock.get("generated"), "sites": stock.get("sites"), "devirBrasil": {k: v for k, v in (stock.get("devirBrasil") or {}).items() if v.get("productLinks")},
+       "productsChecked": len(stock.get("products", [])), "note": "in-stock retail copies under EUR 30 are listed here first; sites marked DISALLOWED/JS-only are skipped, not worked around"},
+       "generated": TODAY, "label": "unverified: asking prices, not sold; import cost is an ESTIMATE", "assumptions": {"importEstimatePct": IMPORT_PCT, "shipTo": "Burbank CA 91505",
        "rules": ["reference = lowest all-in Portuguese Devir SEALED asking price seen so far (known shipping only)", "flag if all-in <= 0.85 x reference, or <= your max for that booklet",
                  "no sealed Portuguese reference yet -> flag any sealed listing the first time its item id appears", "only sealed/new listings are flagged; others listed under notSealed", "shipping not shown -> all-in is 'shipping unknown' (item+import shown as lower bound)"]},
        "flags": [], "notSealed": [], "counts": {}, "items": {}}
@@ -113,6 +116,6 @@ json.dump(refs, open(os.path.join(ROOT, "booklet_refs.json"), "w"), indent=1, en
 json.dump(out, open(os.path.join(ROOT, "booklet_hits.json"), "w"), indent=1, ensure_ascii=False)
 if not os.path.exists(os.path.join(ROOT, "booklet_max.json")): json.dump({}, open(os.path.join(ROOT, "booklet_max.json"), "w"))
 ew = ld("ebay_wants.json", {})
-ew["booklets"] = {"generated": TODAY, "label": out["label"], "assumptions": out["assumptions"], "totals": out["totals"], "counts": out["counts"], "flags": out["flags"], "notSealed": out["notSealed"]}
+ew["booklets"] = {"retailerInStock": out["retailerInStock"], "retailerCheck": out["retailerCheck"], "generated": TODAY, "label": out["label"], "assumptions": out["assumptions"], "totals": out["totals"], "counts": out["counts"], "flags": out["flags"], "notSealed": out["notSealed"]}
 json.dump(ew, open(os.path.join(ROOT, "ebay_wants.json"), "w"), indent=1, ensure_ascii=False)
 print(out["totals"], "flags", len(out["flags"]), "notSealed", len(out["notSealed"]))
