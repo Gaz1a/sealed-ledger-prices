@@ -8,6 +8,7 @@
    ],
    "isbn13": "9788575322581",
    "isbnStatus": "given by Gaz",
+   "cardmarketId": 695810,
    "retailerRef": "PKLIVLM09"
   },
   "bk-hooh": {
@@ -18,6 +19,7 @@
    ],
    "isbn13": "9788575322352",
    "isbnStatus": "given by Gaz",
+   "cardmarketId": 755664,
    "retailerRef": "PKLIVFO07"
   },
   "bk-lugia": {
@@ -28,6 +30,7 @@
    ],
    "isbn13": "9788575322369",
    "isbnStatus": "given by Gaz",
+   "cardmarketId": 698569,
    "retailerRef": "PKLUGIACON"
   },
   "bk-machamp": {
@@ -38,6 +41,7 @@
    ],
    "isbn13": "9788575322604",
    "isbnStatus": "given by Gaz",
+   "cardmarketId": 695811,
    "retailerRef": "PKLIVLM11"
   },
   "bk-omastar": {
@@ -48,6 +52,7 @@
    ],
    "isbn13": "9788575322598",
    "isbnStatus": "given by Gaz",
+   "cardmarketId": 698568,
    "retailerRef": "PKLIVLM10"
   },
   "bk-ralts": {
@@ -58,6 +63,7 @@
    ],
    "isbn13": "9788575321324",
    "isbnStatus": "given by Gaz",
+   "cardmarketId": 755666,
    "retailerRef": "PKLIVRALTZ"
   },
   "bk-treecko": {
@@ -68,6 +74,7 @@
    ],
    "isbn13": "9788575321331",
    "isbnStatus": "given by Gaz",
+   "cardmarketId": 755665,
    "retailerRef": "PKLIVTREEKO"
   },
   "bk-exploud": {
@@ -76,8 +83,9 @@
     "Estampas Ilustradas Exploud",
     "Pokemon Origem das Lendas Exploud Devir"
    ],
-   "isbn13": null,
-   "isbnStatus": "unknown",
+   "isbn13": "9788575322062",
+   "isbnStatus": "given by Gaz",
+   "cardmarketId": 906369,
    "retailerRef": "Comix SKU 6982"
   },
   "bk-mudkip": {
@@ -87,7 +95,8 @@
     "Pokemon Origem das Lendas Mudkip Devir"
    ],
    "isbn13": "9788575321348",
-   "isbnStatus": "given by Gaz, unverified",
+   "isbnStatus": "given by Gaz",
+   "cardmarketId": 906378,
    "retailerRef": "Comix SKU 8203"
   },
   "bk-rayquaza": {
@@ -97,7 +106,8 @@
     "Pokemon Origem das Lendas Rayquaza Devir"
    ],
    "isbn13": "9788575322079",
-   "isbnStatus": "given by Gaz, unverified",
+   "isbnStatus": "given by Gaz",
+   "cardmarketId": 906388,
    "retailerRef": "Comix SKU 8220"
   },
   "bk-torchic": {
@@ -106,8 +116,9 @@
     "Estampas Ilustradas Torchic",
     "Pokemon Origem das Lendas Torchic Devir"
    ],
-   "isbn13": null,
-   "isbnStatus": "unknown",
+   "isbn13": "9788575321201",
+   "isbnStatus": "given by Gaz",
+   "cardmarketId": 906395,
    "retailerRef": "Comix SKU 6983"
   },
   "h-gengar-deck": {
@@ -118,6 +129,7 @@
    ],
    "isbn13": "9788575322611",
    "isbnStatus": "given by Gaz",
+   "cardmarketId": 695809,
    "retailerRef": "PKLIVLM12"
   }
  },
@@ -179,326 +191,8 @@
    "shipping not shown -> all-in is 'shipping unknown' (item+import shown as lower bound)"
   ]
  },
- "flags": [
-  {
-   "id": "bk-hooh",
-   "name": "Ho-Oh",
-   "reasons": [
-    "first sealed Portuguese listing seen for this booklet",
-    "shipping unknown: item $67.51; under your $105 cap only if shipping stays at/under $27.94"
-   ],
-   "new": true,
-   "allInUSD": null,
-   "allInStatus": "shipping unknown",
-   "itemOnlyLowerBoundUSD": 74.26,
-   "maxShippingForCapUSD": 27.94,
-   "itemUSD": 67.51,
-   "shippingUSD": null,
-   "importEstUSD": 6.75,
-   "title": "Pokémon EX Forças Ocultas Ho-Oh Devir Portugués Precintado Vintage",
-   "seller": "hearthicegroup",
-   "feedbackPct": "0.0",
-   "feedbackScore": 0,
-   "itemLocation": "ES",
-   "sealedBasis": "title says sealed/new",
-   "url": "https://www.ebay.es/itm/178546022377",
-   "reference": null
-  },
-  {
-   "id": "bk-lugia",
-   "name": "Lugia",
-   "reasons": [
-    "first sealed Portuguese listing seen for this booklet"
-   ],
-   "new": true,
-   "allInUSD": 227.98,
-   "allInStatus": "known",
-   "itemOnlyLowerBoundUSD": 220.97,
-   "maxShippingForCapUSD": null,
-   "itemUSD": 200.24,
-   "shippingUSD": 7.01,
-   "importEstUSD": 20.73,
-   "title": "Pokemon Lugia 30 Carte Mini Deck Portoghese Sigillato EX Epoca Vintage Raro",
-   "seller": "fishe-60",
-   "feedbackPct": "100.0",
-   "feedbackScore": 2,
-   "itemLocation": "PT",
-   "sealedBasis": "title says sealed/new",
-   "url": "https://www.ebay.it/itm/800328245637",
-   "reference": null
-  },
-  {
-   "id": "bk-machamp",
-   "name": "Machamp",
-   "reasons": [
-    "first sealed Portuguese listing seen for this booklet",
-    "shipping unknown: item $33.76; under your $105 cap only if shipping stays at/under $61.69"
-   ],
-   "new": true,
-   "allInUSD": null,
-   "allInStatus": "shipping unknown",
-   "itemOnlyLowerBoundUSD": 37.14,
-   "maxShippingForCapUSD": 61.69,
-   "itemUSD": 33.76,
-   "shippingUSD": null,
-   "importEstUSD": 3.38,
-   "title": "Pokémon Ex Legend Maker \"Origem das Lendas\" Machamp theme deck - Factory Sealed",
-   "seller": "ectotiff",
-   "feedbackPct": "0.0",
-   "feedbackScore": 0,
-   "itemLocation": "PT",
-   "sealedBasis": "title says sealed/new",
-   "url": "https://www.ebay.fr/itm/860040295766",
-   "reference": null
-  },
-  {
-   "id": "bk-machamp",
-   "name": "Machamp",
-   "reasons": [
-    "first sealed Portuguese listing seen for this booklet",
-    "at/below your max $105"
-   ],
-   "new": true,
-   "allInUSD": 62.76,
-   "allInStatus": "known",
-   "itemOnlyLowerBoundUSD": 56.06,
-   "maxShippingForCapUSD": null,
-   "itemUSD": 56.06,
-   "shippingUSD": 6.7,
-   "importEstUSD": 0.0,
-   "title": "Nuovo Sigillato EX Legend Maker Origem das Lendas 2007 Machamp Theme Deck Portoghese",
-   "seller": "qualityhunted",
-   "feedbackPct": "99.9",
-   "feedbackScore": 1807,
-   "itemLocation": "US",
-   "sealedBasis": "title says sealed/new",
-   "url": "https://www.ebay.it/itm/137748578395",
-   "reference": null
-  },
-  {
-   "id": "bk-machamp",
-   "name": "Machamp",
-   "reasons": [
-    "first sealed Portuguese listing seen for this booklet",
-    "shipping unknown: item $60.08; under your $105 cap only if shipping stays at/under $44.92"
-   ],
-   "new": true,
-   "allInUSD": null,
-   "allInStatus": "shipping unknown",
-   "itemOnlyLowerBoundUSD": 60.08,
-   "maxShippingForCapUSD": 44.92,
-   "itemUSD": 60.08,
-   "shippingUSD": null,
-   "importEstUSD": 0.0,
-   "title": "Nuovo Sigillato EX Legend Maker Origem das Lendas 2007 Machamp Theme Deck Portoghese",
-   "seller": "tapo953795",
-   "feedbackPct": "97.8",
-   "feedbackScore": 43,
-   "itemLocation": "US",
-   "sealedBasis": "title says sealed/new",
-   "url": "https://www.ebay.it/itm/860013459559",
-   "reference": null
-  },
-  {
-   "id": "bk-machamp",
-   "name": "Machamp",
-   "reasons": [
-    "first sealed Portuguese listing seen for this booklet",
-    "at/below your max $105"
-   ],
-   "new": true,
-   "allInUSD": 98.0,
-   "allInStatus": "known",
-   "itemOnlyLowerBoundUSD": 78.98,
-   "maxShippingForCapUSD": null,
-   "itemUSD": 70.07,
-   "shippingUSD": 19.02,
-   "importEstUSD": 8.91,
-   "title": "Pokémon EX Legend Maker Machamp 2007 SIGILLATO PORTOGHESE RARO",
-   "seller": "kalondro",
-   "feedbackPct": "99.6",
-   "feedbackScore": 3771,
-   "itemLocation": "PT",
-   "sealedBasis": "title says sealed/new",
-   "url": "https://www.ebay.it/itm/287560989653",
-   "reference": null
-  },
-  {
-   "id": "bk-machamp",
-   "name": "Machamp",
-   "reasons": [
-    "first sealed Portuguese listing seen for this booklet"
-   ],
-   "new": true,
-   "allInUSD": 107.14,
-   "allInStatus": "known",
-   "itemOnlyLowerBoundUSD": 99.13,
-   "maxShippingForCapUSD": null,
-   "itemUSD": 99.13,
-   "shippingUSD": 8.01,
-   "importEstUSD": 0.0,
-   "title": "Pokemon Portoghese Machamp Illustrated BookDeck Sigillato Livro Ilustrado Devir 06'",
-   "seller": "vintagemonsterr",
-   "feedbackPct": "100.0",
-   "feedbackScore": 112,
-   "itemLocation": "US",
-   "sealedBasis": "title says sealed/new",
-   "url": "https://www.ebay.it/itm/307159080098",
-   "reference": null
-  }
- ],
- "notSealed": [
-  {
-   "id": "bk-hooh",
-   "name": "Ho-Oh",
-   "reason": "opened/unspecified condition",
-   "sealedBasis": "unconfirmed",
-   "condition": "New/Factory Sealed",
-   "itemUSD": 95.11,
-   "shippingUSD": 19.02,
-   "shippingUnknown": false,
-   "title": "2006 POKEMON Ho-OH EX Forze Invisibili Libro Mezzo Mazzo Portoghese Portogallo",
-   "seller": "kalondro",
-   "feedbackPct": "99.6",
-   "itemLocation": "PT",
-   "url": "https://www.ebay.it/itm/278342218536"
-  },
-  {
-   "id": "bk-lugia",
-   "name": "Lugia",
-   "reason": "opened/unspecified condition",
-   "sealedBasis": "unconfirmed",
-   "condition": "Ungraded",
-   "itemUSD": 169.21,
-   "shippingUSD": null,
-   "shippingUnknown": true,
-   "title": "Carta Lugia 29/115 W Collezione Portoghese Ex Forze Ocultas (SOLO UNA SU EBAY)",
-   "seller": "maxis50",
-   "feedbackPct": "100.0",
-   "itemLocation": "US",
-   "url": "https://www.ebay.it/itm/396842554717"
-  },
-  {
-   "id": "bk-machamp",
-   "name": "Machamp",
-   "reason": "opened/unspecified condition",
-   "sealedBasis": "unconfirmed",
-   "condition": "New/Factory Sealed",
-   "itemUSD": 45.0,
-   "shippingUSD": null,
-   "shippingUnknown": true,
-   "title": "Devir Livraria Pokémon Livro em das lendas Machamp Deck 30 Cards PT 2007",
-   "seller": "logans_store",
-   "feedbackPct": "100.0",
-   "itemLocation": "US",
-   "url": "https://www.ebay.com/itm/820228536215"
-  },
-  {
-   "id": "bk-machamp",
-   "name": "Machamp",
-   "reason": "opened/unspecified condition",
-   "sealedBasis": "unconfirmed",
-   "condition": "Nuevo/Precintado de fábrica",
-   "itemUSD": 56.27,
-   "shippingUSD": 28.13,
-   "shippingUnknown": false,
-   "title": "Devir Livraria Pokémon TCG Theme Deck Origem das Lendas Machamp- 30 cards",
-   "seller": "fafiti",
-   "feedbackPct": "0.0",
-   "itemLocation": "PT",
-   "url": "https://www.ebay.it/itm/307154141294"
-  },
-  {
-   "id": "bk-machamp",
-   "name": "Machamp",
-   "reason": "opened/unspecified condition",
-   "sealedBasis": "unconfirmed",
-   "condition": "New/Factory Sealed",
-   "itemUSD": 150.17,
-   "shippingUSD": null,
-   "shippingUnknown": true,
-   "title": "Pokémon TCG Machamp Raro Kit 30 Carte! Portoghese!",
-   "seller": "bleeedblue",
-   "feedbackPct": "100.0",
-   "itemLocation": "US",
-   "url": "https://www.ebay.it/itm/407112914567"
-  },
-  {
-   "id": "bk-ralts",
-   "name": "Ralts",
-   "reason": "opened/unspecified condition",
-   "sealedBasis": "unconfirmed",
-   "condition": "Nuevo/Precintado de fábrica",
-   "itemUSD": 31.51,
-   "shippingUSD": 28.13,
-   "shippingUnknown": false,
-   "title": "Devir Livraria Pokémon TCG Theme Deck EX Rubi & Safira Ralts- 30 cards",
-   "seller": "fafiti",
-   "feedbackPct": "0.0",
-   "itemLocation": "PT",
-   "url": "https://www.ebay.it/itm/307154261661"
-  },
-  {
-   "id": "bk-ralts",
-   "name": "Ralts",
-   "reason": "opened/unspecified condition",
-   "sealedBasis": "unconfirmed",
-   "condition": "New/Factory Sealed",
-   "itemUSD": 70.07,
-   "shippingUSD": 19.02,
-   "shippingUnknown": false,
-   "title": "Libro mezzo mazzo POKEMON RALTS EX 2006 rubino e zaffiro portoghese Portogallo",
-   "seller": "kalondro",
-   "feedbackPct": "99.6",
-   "itemLocation": "PT",
-   "url": "https://www.ebay.it/itm/278336135897"
-  },
-  {
-   "id": "bk-treecko",
-   "name": "Treecko",
-   "reason": "opened/unspecified condition",
-   "sealedBasis": "unconfirmed",
-   "condition": "New/Factory Sealed",
-   "itemUSD": 70.07,
-   "shippingUSD": 19.02,
-   "shippingUnknown": false,
-   "title": "2006 POKEMON TREECKO EX Rubino e Zaffiro Half Deck Libro Portogallo Portoghese",
-   "seller": "kalondro",
-   "feedbackPct": "99.6",
-   "itemLocation": "PT",
-   "url": "https://www.ebay.it/itm/278336139761"
-  },
-  {
-   "id": "h-gengar-deck",
-   "name": "Gengar",
-   "reason": "opened/unspecified condition",
-   "sealedBasis": "unconfirmed",
-   "condition": "New/Factory Sealed",
-   "itemUSD": 250.0,
-   "shippingUSD": null,
-   "shippingUnknown": true,
-   "title": "Devir Pokémon TCG Origem das Lendas Gengar Deck 30 Cards PT 2007 14+",
-   "seller": "rafa.r0",
-   "feedbackPct": "0.0",
-   "itemLocation": "US",
-   "url": "https://www.ebay.com/itm/298511253175"
-  },
-  {
-   "id": "h-gengar-deck",
-   "name": "Gengar",
-   "reason": "opened/unspecified condition",
-   "sealedBasis": "unconfirmed",
-   "condition": "Ungraded",
-   "itemUSD": 297.0,
-   "shippingUSD": 11.31,
-   "shippingUnknown": false,
-   "title": "PORTUGUESE GENGAR ILLUSTRATED BOOKLET/HALF DECK EX LEGEND MAKER FOREIGN POKEMON",
-   "seller": "fusiongamingonline",
-   "feedbackPct": "99.2",
-   "itemLocation": "CA",
-   "url": "https://www.ebay.com/itm/227503023742"
-  }
- ],
+ "flags": [],
+ "notSealed": [],
  "counts": {
   "bk-golem": {
    "name": "Golem",
@@ -509,26 +203,34 @@
    "distinctEverSeen": 0,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": 105
+   "max": 105,
+   "cardmarketTrendUSD": 124.01,
+   "cardmarketTarget85": 105.41,
+   "cardmarketId": 695810,
+   "cardmarketProduct": "EX Legend Maker: Illustrated Booklet - Golem"
   },
   "bk-hooh": {
    "name": "Ho-Oh",
    "owned": false,
-   "foundToday": 2,
-   "sealedToday": 1,
-   "notSealedToday": 1,
+   "foundToday": 0,
+   "sealedToday": 0,
+   "notSealedToday": 0,
    "distinctEverSeen": 2,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": 105
+   "max": 105,
+   "cardmarketTrendUSD": 27.7,
+   "cardmarketTarget85": 23.54,
+   "cardmarketId": 755664,
+   "cardmarketProduct": "EX Unseen Forces: Illustrated Booklet - Ho-Oh"
   },
   "bk-lugia": {
    "name": "Lugia",
    "owned": false,
-   "foundToday": 2,
-   "sealedToday": 1,
-   "notSealedToday": 1,
-   "distinctEverSeen": 2,
+   "foundToday": 0,
+   "sealedToday": 0,
+   "notSealedToday": 0,
+   "distinctEverSeen": 1,
    "sealedEverSeen": 0,
    "reference": {
     "allInUSD": 227.98,
@@ -537,14 +239,18 @@
     "url": "https://www.ebay.it/itm/800328245637",
     "title": "Pokemon Lugia 30 Carte Mini Deck Portoghese Sigillato EX Epoca Vintage Raro"
    },
-   "max": 105
+   "max": 105,
+   "cardmarketTrendUSD": 45.82,
+   "cardmarketTarget85": 38.95,
+   "cardmarketId": 698569,
+   "cardmarketProduct": "EX Unseen Forces: Illustrated Booklet - Lugia"
   },
   "bk-machamp": {
    "name": "Machamp",
    "owned": false,
-   "foundToday": 8,
-   "sealedToday": 5,
-   "notSealedToday": 3,
+   "foundToday": 0,
+   "sealedToday": 0,
+   "notSealedToday": 0,
    "distinctEverSeen": 8,
    "sealedEverSeen": 1,
    "reference": {
@@ -554,7 +260,11 @@
     "url": "https://www.ebay.it/itm/137748578395",
     "title": "Nuovo Sigillato EX Legend Maker Origem das Lendas 2007 Machamp Theme Deck Portoghese"
    },
-   "max": 105
+   "max": 105,
+   "cardmarketTrendUSD": 16.58,
+   "cardmarketTarget85": 14.09,
+   "cardmarketId": 695811,
+   "cardmarketProduct": "EX Legend Maker: Illustrated Booklet - Machamp"
   },
   "bk-omastar": {
    "name": "Omastar",
@@ -565,29 +275,41 @@
    "distinctEverSeen": 0,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": 105
+   "max": 105,
+   "cardmarketTrendUSD": 22.3,
+   "cardmarketTarget85": 18.96,
+   "cardmarketId": 698568,
+   "cardmarketProduct": "EX Legend Maker: Illustrated Booklet - Omastar"
   },
   "bk-ralts": {
    "name": "Ralts",
    "owned": false,
-   "foundToday": 2,
+   "foundToday": 0,
    "sealedToday": 0,
-   "notSealedToday": 2,
+   "notSealedToday": 0,
    "distinctEverSeen": 2,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": 105
+   "max": 105,
+   "cardmarketTrendUSD": 23.1,
+   "cardmarketTarget85": 19.64,
+   "cardmarketId": 755666,
+   "cardmarketProduct": "EX Ruby & Sapphire: Illustrated Booklet - Ralts"
   },
   "bk-treecko": {
    "name": "Treecko",
    "owned": false,
-   "foundToday": 1,
+   "foundToday": 0,
    "sealedToday": 0,
-   "notSealedToday": 1,
+   "notSealedToday": 0,
    "distinctEverSeen": 1,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": 105
+   "max": 105,
+   "cardmarketTrendUSD": 26.4,
+   "cardmarketTarget85": 22.44,
+   "cardmarketId": 755665,
+   "cardmarketProduct": "EX Ruby & Sapphire: Illustrated Booklet - Treecko"
   },
   "bk-exploud": {
    "name": "Exploud",
@@ -598,7 +320,11 @@
    "distinctEverSeen": 0,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": 105
+   "max": 105,
+   "cardmarketTrendUSD": null,
+   "cardmarketTarget85": null,
+   "cardmarketId": 906369,
+   "cardmarketProduct": "EX Emerald: Illustrated Booklet - Exploud"
   },
   "bk-mudkip": {
    "name": "Mudkip",
@@ -609,7 +335,11 @@
    "distinctEverSeen": 0,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": 105
+   "max": 105,
+   "cardmarketTrendUSD": null,
+   "cardmarketTarget85": null,
+   "cardmarketId": 906378,
+   "cardmarketProduct": "EX Ruby & Sapphire: Illustrated Booklet - Mudkip"
   },
   "bk-rayquaza": {
    "name": "Rayquaza",
@@ -620,7 +350,11 @@
    "distinctEverSeen": 0,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": 105
+   "max": 105,
+   "cardmarketTrendUSD": null,
+   "cardmarketTarget85": null,
+   "cardmarketId": 906388,
+   "cardmarketProduct": "EX Emerald: Illustrated Booklet - Rayquaza"
   },
   "bk-torchic": {
    "name": "Torchic",
@@ -631,18 +365,26 @@
    "distinctEverSeen": 0,
    "sealedEverSeen": 0,
    "reference": null,
-   "max": 105
+   "max": 105,
+   "cardmarketTrendUSD": null,
+   "cardmarketTarget85": null,
+   "cardmarketId": 906395,
+   "cardmarketProduct": "EX Ruby & Sapphire: Illustrated Booklet - Torchic"
   },
   "h-gengar-deck": {
    "name": "Gengar",
    "owned": true,
-   "foundToday": 3,
-   "sealedToday": 1,
-   "notSealedToday": 2,
+   "foundToday": 0,
+   "sealedToday": 0,
+   "notSealedToday": 0,
    "distinctEverSeen": 3,
    "sealedEverSeen": 1,
    "reference": null,
-   "max": null
+   "max": null,
+   "cardmarketTrendUSD": 45.69,
+   "cardmarketTarget85": 38.84,
+   "cardmarketId": 695809,
+   "cardmarketProduct": "EX Legend Maker: Illustrated Booklet - Gengar"
   }
  },
  "items": {
@@ -650,312 +392,22 @@
    "listings": []
   },
   "bk-hooh": {
-   "listings": [
-    {
-     "title": "Pokémon EX Forças Ocultas Ho-Oh Devir Portugués Precintado Vintage",
-     "url": "https://www.ebay.es/itm/178546022377",
-     "marketplace": "EBAY_ES",
-     "itemUSD": 67.51,
-     "shippingUSD": null,
-     "shipUnknown": true,
-     "importEstUSD": 6.75,
-     "allInUSD": 74.26,
-     "originCountry": "ES",
-     "condition": "Sin clasificar",
-     "itemEndDate": null,
-     "sealed": true,
-     "matchedBy": "title",
-     "sealedBasis": "title says sealed/new",
-     "seller": "hearthicegroup",
-     "feedbackPct": "0.0",
-     "feedbackScore": 0
-    },
-    {
-     "title": "2006 POKEMON Ho-OH EX Forze Invisibili Libro Mezzo Mazzo Portoghese Portogallo",
-     "url": "https://www.ebay.it/itm/278342218536",
-     "marketplace": "EBAY_IT",
-     "itemUSD": 95.11,
-     "shippingUSD": 19.02,
-     "shipUnknown": false,
-     "importEstUSD": 11.41,
-     "allInUSD": 125.54,
-     "originCountry": "PT",
-     "condition": "New/Factory Sealed",
-     "itemEndDate": null,
-     "sealed": false,
-     "matchedBy": "isbn",
-     "sealedBasis": "unconfirmed",
-     "seller": "kalondro",
-     "feedbackPct": "99.6",
-     "feedbackScore": 3771
-    }
-   ]
+   "listings": []
   },
   "bk-lugia": {
-   "listings": [
-    {
-     "title": "Carta Lugia 29/115 W Collezione Portoghese Ex Forze Ocultas (SOLO UNA SU EBAY)",
-     "url": "https://www.ebay.it/itm/396842554717",
-     "marketplace": "EBAY_IT",
-     "itemUSD": 169.21,
-     "shippingUSD": null,
-     "shipUnknown": true,
-     "importEstUSD": 0.0,
-     "allInUSD": 169.21,
-     "originCountry": "US",
-     "condition": "Ungraded",
-     "itemEndDate": null,
-     "sealed": false,
-     "matchedBy": "title",
-     "sealedBasis": "unconfirmed",
-     "seller": "maxis50",
-     "feedbackPct": "100.0",
-     "feedbackScore": 14
-    },
-    {
-     "title": "Pokemon Lugia 30 Carte Mini Deck Portoghese Sigillato EX Epoca Vintage Raro",
-     "url": "https://www.ebay.it/itm/800328245637",
-     "marketplace": "EBAY_IT",
-     "itemUSD": 200.24,
-     "shippingUSD": 7.01,
-     "shipUnknown": false,
-     "importEstUSD": 20.73,
-     "allInUSD": 227.98,
-     "originCountry": "PT",
-     "condition": "Ungraded",
-     "itemEndDate": null,
-     "sealed": true,
-     "matchedBy": "isbn-gtin",
-     "sealedBasis": "title says sealed/new",
-     "seller": "fishe-60",
-     "feedbackPct": "100.0",
-     "feedbackScore": 2
-    }
-   ]
+   "listings": []
   },
   "bk-machamp": {
-   "listings": [
-    {
-     "title": "Pokémon Ex Legend Maker \"Origem das Lendas\" Machamp theme deck - Factory Sealed",
-     "url": "https://www.ebay.fr/itm/860040295766",
-     "marketplace": "EBAY_FR",
-     "itemUSD": 33.76,
-     "shippingUSD": null,
-     "shipUnknown": true,
-     "importEstUSD": 3.38,
-     "allInUSD": 37.14,
-     "originCountry": "PT",
-     "condition": "Neuf/Scellé",
-     "itemEndDate": "2026-10-23T11:27:30.000Z",
-     "sealed": true,
-     "matchedBy": "isbn-gtin",
-     "sealedBasis": "title says sealed/new",
-     "seller": "ectotiff",
-     "feedbackPct": "0.0",
-     "feedbackScore": 0
-    },
-    {
-     "title": "Devir Livraria Pokémon Livro em das lendas Machamp Deck 30 Cards PT 2007",
-     "url": "https://www.ebay.com/itm/820228536215",
-     "marketplace": "EBAY_US",
-     "itemUSD": 45.0,
-     "shippingUSD": null,
-     "shipUnknown": true,
-     "importEstUSD": 0.0,
-     "allInUSD": 45.0,
-     "originCountry": "US",
-     "condition": "New/Factory Sealed",
-     "itemEndDate": null,
-     "sealed": false,
-     "matchedBy": "title",
-     "sealedBasis": "unconfirmed",
-     "seller": "logans_store",
-     "feedbackPct": "100.0",
-     "feedbackScore": 6
-    },
-    {
-     "title": "Nuovo Sigillato EX Legend Maker Origem das Lendas 2007 Machamp Theme Deck Portoghese",
-     "url": "https://www.ebay.it/itm/137748578395",
-     "marketplace": "EBAY_IT",
-     "itemUSD": 56.06,
-     "shippingUSD": 6.7,
-     "shipUnknown": false,
-     "importEstUSD": 0.0,
-     "allInUSD": 62.76,
-     "originCountry": "US",
-     "condition": "New/Factory Sealed",
-     "itemEndDate": null,
-     "sealed": true,
-     "matchedBy": "isbn",
-     "sealedBasis": "title says sealed/new",
-     "seller": "qualityhunted",
-     "feedbackPct": "99.9",
-     "feedbackScore": 1807
-    },
-    {
-     "title": "Devir Livraria Pokémon TCG Theme Deck Origem das Lendas Machamp- 30 cards",
-     "url": "https://www.ebay.it/itm/307154141294",
-     "marketplace": "EBAY_IT",
-     "itemUSD": 56.27,
-     "shippingUSD": 28.13,
-     "shipUnknown": false,
-     "importEstUSD": 8.44,
-     "allInUSD": 92.84,
-     "originCountry": "PT",
-     "condition": "Nuevo/Precintado de fábrica",
-     "itemEndDate": null,
-     "sealed": false,
-     "matchedBy": "title",
-     "sealedBasis": "unconfirmed",
-     "seller": "fafiti",
-     "feedbackPct": "0.0",
-     "feedbackScore": 0
-    },
-    {
-     "title": "Nuovo Sigillato EX Legend Maker Origem das Lendas 2007 Machamp Theme Deck Portoghese",
-     "url": "https://www.ebay.it/itm/860013459559",
-     "marketplace": "EBAY_IT",
-     "itemUSD": 60.08,
-     "shippingUSD": null,
-     "shipUnknown": true,
-     "importEstUSD": 0.0,
-     "allInUSD": 60.08,
-     "originCountry": "US",
-     "condition": "New/Factory Sealed",
-     "itemEndDate": null,
-     "sealed": true,
-     "matchedBy": "isbn",
-     "sealedBasis": "title says sealed/new",
-     "seller": "tapo953795",
-     "feedbackPct": "97.8",
-     "feedbackScore": 43
-    },
-    {
-     "title": "Pokémon EX Legend Maker Machamp 2007 SIGILLATO PORTOGHESE RARO",
-     "url": "https://www.ebay.it/itm/287560989653",
-     "marketplace": "EBAY_IT",
-     "itemUSD": 70.07,
-     "shippingUSD": 19.02,
-     "shipUnknown": false,
-     "importEstUSD": 8.91,
-     "allInUSD": 98.0,
-     "originCountry": "PT",
-     "condition": "New/Factory Sealed",
-     "itemEndDate": null,
-     "sealed": true,
-     "matchedBy": "isbn",
-     "sealedBasis": "title says sealed/new",
-     "seller": "kalondro",
-     "feedbackPct": "99.6",
-     "feedbackScore": 3771
-    },
-    {
-     "title": "Pokemon Portoghese Machamp Illustrated BookDeck Sigillato Livro Ilustrado Devir 06'",
-     "url": "https://www.ebay.it/itm/307159080098",
-     "marketplace": "EBAY_IT",
-     "itemUSD": 99.13,
-     "shippingUSD": 8.01,
-     "shipUnknown": false,
-     "importEstUSD": 0.0,
-     "allInUSD": 107.14,
-     "originCountry": "US",
-     "condition": "Ungraded",
-     "itemEndDate": null,
-     "sealed": true,
-     "matchedBy": "title",
-     "sealedBasis": "title says sealed/new",
-     "seller": "vintagemonsterr",
-     "feedbackPct": "100.0",
-     "feedbackScore": 112
-    },
-    {
-     "title": "Pokémon TCG Machamp Raro Kit 30 Carte! Portoghese!",
-     "url": "https://www.ebay.it/itm/407112914567",
-     "marketplace": "EBAY_IT",
-     "itemUSD": 150.17,
-     "shippingUSD": null,
-     "shipUnknown": true,
-     "importEstUSD": 0.0,
-     "allInUSD": 150.17,
-     "originCountry": "US",
-     "condition": "New/Factory Sealed",
-     "itemEndDate": null,
-     "sealed": false,
-     "matchedBy": "title",
-     "sealedBasis": "unconfirmed",
-     "seller": "bleeedblue",
-     "feedbackPct": "100.0",
-     "feedbackScore": 13
-    }
-   ]
+   "listings": []
   },
   "bk-omastar": {
    "listings": []
   },
   "bk-ralts": {
-   "listings": [
-    {
-     "title": "Devir Livraria Pokémon TCG Theme Deck EX Rubi & Safira Ralts- 30 cards",
-     "url": "https://www.ebay.it/itm/307154261661",
-     "marketplace": "EBAY_IT",
-     "itemUSD": 31.51,
-     "shippingUSD": 28.13,
-     "shipUnknown": false,
-     "importEstUSD": 5.96,
-     "allInUSD": 65.6,
-     "originCountry": "PT",
-     "condition": "Nuevo/Precintado de fábrica",
-     "itemEndDate": null,
-     "sealed": false,
-     "matchedBy": "title",
-     "sealedBasis": "unconfirmed",
-     "seller": "fafiti",
-     "feedbackPct": "0.0",
-     "feedbackScore": 0
-    },
-    {
-     "title": "Libro mezzo mazzo POKEMON RALTS EX 2006 rubino e zaffiro portoghese Portogallo",
-     "url": "https://www.ebay.it/itm/278336135897",
-     "marketplace": "EBAY_IT",
-     "itemUSD": 70.07,
-     "shippingUSD": 19.02,
-     "shipUnknown": false,
-     "importEstUSD": 8.91,
-     "allInUSD": 98.0,
-     "originCountry": "PT",
-     "condition": "New/Factory Sealed",
-     "itemEndDate": null,
-     "sealed": false,
-     "matchedBy": "isbn",
-     "sealedBasis": "unconfirmed",
-     "seller": "kalondro",
-     "feedbackPct": "99.6",
-     "feedbackScore": 3771
-    }
-   ]
+   "listings": []
   },
   "bk-treecko": {
-   "listings": [
-    {
-     "title": "2006 POKEMON TREECKO EX Rubino e Zaffiro Half Deck Libro Portogallo Portoghese",
-     "url": "https://www.ebay.it/itm/278336139761",
-     "marketplace": "EBAY_IT",
-     "itemUSD": 70.07,
-     "shippingUSD": 19.02,
-     "shipUnknown": false,
-     "importEstUSD": 8.91,
-     "allInUSD": 98.0,
-     "originCountry": "PT",
-     "condition": "New/Factory Sealed",
-     "itemEndDate": null,
-     "sealed": false,
-     "matchedBy": "isbn",
-     "sealedBasis": "unconfirmed",
-     "seller": "kalondro",
-     "feedbackPct": "99.6",
-     "feedbackScore": 3771
-    }
-   ]
+   "listings": []
   },
   "bk-exploud": {
    "listings": []
@@ -970,65 +422,7 @@
    "listings": []
   },
   "h-gengar-deck": {
-   "listings": [
-    {
-     "title": "Devir Pokémon TCG Origem das Lendas Gengar Deck 30 Cards PT 2007 14+",
-     "url": "https://www.ebay.com/itm/298511253175",
-     "marketplace": "EBAY_US",
-     "itemUSD": 250.0,
-     "shippingUSD": null,
-     "shipUnknown": true,
-     "importEstUSD": 0.0,
-     "allInUSD": 250.0,
-     "originCountry": "US",
-     "condition": "New/Factory Sealed",
-     "itemEndDate": null,
-     "sealed": false,
-     "matchedBy": "title",
-     "sealedBasis": "unconfirmed",
-     "seller": "rafa.r0",
-     "feedbackPct": "0.0",
-     "feedbackScore": 0
-    },
-    {
-     "title": "PORTUGUESE GENGAR ILLUSTRATED BOOKLET/HALF DECK EX LEGEND MAKER FOREIGN POKEMON",
-     "url": "https://www.ebay.com/itm/227503023742",
-     "marketplace": "EBAY_US",
-     "itemUSD": 297.0,
-     "shippingUSD": 11.31,
-     "shipUnknown": false,
-     "importEstUSD": 30.83,
-     "allInUSD": 339.14,
-     "originCountry": "CA",
-     "condition": "Ungraded",
-     "itemEndDate": null,
-     "sealed": false,
-     "matchedBy": "isbn-gtin",
-     "sealedBasis": "unconfirmed",
-     "seller": "fusiongamingonline",
-     "feedbackPct": "99.2",
-     "feedbackScore": 2178
-    },
-    {
-     "title": "Gengar EX Legend Maker Half Deck Box Sigillato Pokemon Portoghese SWIRL",
-     "url": "https://www.ebay.it/itm/227524801148",
-     "marketplace": "EBAY_IT",
-     "itemUSD": 350.43,
-     "shippingUSD": null,
-     "shipUnknown": true,
-     "importEstUSD": 0.0,
-     "allInUSD": 350.43,
-     "originCountry": "US",
-     "condition": "New/Factory Sealed",
-     "itemEndDate": null,
-     "sealed": true,
-     "matchedBy": "title",
-     "sealedBasis": "title says sealed/new",
-     "seller": "goobytcg",
-     "feedbackPct": "100.0",
-     "feedbackScore": 2093
-    }
-   ]
+   "listings": []
   }
  },
  "market": {
@@ -1044,6 +438,11 @@
      "median": null,
      "high": null
     },
+    "cardmarketId": 695810,
+    "cardmarketProduct": "EX Legend Maker: Illustrated Booklet - Golem",
+    "cardmarketTrendUSD": 124.01,
+    "target85OfTrend": 105.41,
+    "targetNote": null,
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
     "everSeen": 0
@@ -1057,22 +456,32 @@
      "median": 81.31,
      "high": 95.11
     },
+    "cardmarketId": 755664,
+    "cardmarketProduct": "EX Unseen Forces: Illustrated Booklet - Ho-Oh",
+    "cardmarketTrendUSD": 27.7,
+    "target85OfTrend": 23.54,
+    "targetNote": null,
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
     "everSeen": 2
    },
    "bk-lugia": {
     "name": "Lugia",
-    "liveListings": 2,
+    "liveListings": 1,
     "liveSealed": 1,
     "askItemUSD": {
-     "low": 169.21,
-     "median": 184.73,
+     "low": 200.24,
+     "median": 200.24,
      "high": 200.24
     },
+    "cardmarketId": 698569,
+    "cardmarketProduct": "EX Unseen Forces: Illustrated Booklet - Lugia",
+    "cardmarketTrendUSD": 45.82,
+    "target85OfTrend": 38.95,
+    "targetNote": null,
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
-    "everSeen": 2
+    "everSeen": 1
    },
    "bk-machamp": {
     "name": "Machamp",
@@ -1083,6 +492,11 @@
      "median": 58.17,
      "high": 150.17
     },
+    "cardmarketId": 695811,
+    "cardmarketProduct": "EX Legend Maker: Illustrated Booklet - Machamp",
+    "cardmarketTrendUSD": 16.58,
+    "target85OfTrend": 14.09,
+    "targetNote": null,
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
     "everSeen": 8
@@ -1096,6 +510,11 @@
      "median": null,
      "high": null
     },
+    "cardmarketId": 698568,
+    "cardmarketProduct": "EX Legend Maker: Illustrated Booklet - Omastar",
+    "cardmarketTrendUSD": 22.3,
+    "target85OfTrend": 18.96,
+    "targetNote": null,
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
     "everSeen": 0
@@ -1109,6 +528,11 @@
      "median": 50.79,
      "high": 70.07
     },
+    "cardmarketId": 755666,
+    "cardmarketProduct": "EX Ruby & Sapphire: Illustrated Booklet - Ralts",
+    "cardmarketTrendUSD": 23.1,
+    "target85OfTrend": 19.64,
+    "targetNote": null,
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
     "everSeen": 2
@@ -1122,6 +546,11 @@
      "median": 70.07,
      "high": 70.07
     },
+    "cardmarketId": 755665,
+    "cardmarketProduct": "EX Ruby & Sapphire: Illustrated Booklet - Treecko",
+    "cardmarketTrendUSD": 26.4,
+    "target85OfTrend": 22.44,
+    "targetNote": null,
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
     "everSeen": 1
@@ -1135,6 +564,11 @@
      "median": null,
      "high": null
     },
+    "cardmarketId": 906369,
+    "cardmarketProduct": "EX Emerald: Illustrated Booklet - Exploud",
+    "cardmarketTrendUSD": null,
+    "target85OfTrend": null,
+    "targetNote": "no Cardmarket trend yet; target set automatically at 85% once one is published",
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
     "everSeen": 0
@@ -1148,6 +582,11 @@
      "median": null,
      "high": null
     },
+    "cardmarketId": 906378,
+    "cardmarketProduct": "EX Ruby & Sapphire: Illustrated Booklet - Mudkip",
+    "cardmarketTrendUSD": null,
+    "target85OfTrend": null,
+    "targetNote": "no Cardmarket trend yet; target set automatically at 85% once one is published",
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
     "everSeen": 0
@@ -1161,6 +600,11 @@
      "median": null,
      "high": null
     },
+    "cardmarketId": 906388,
+    "cardmarketProduct": "EX Emerald: Illustrated Booklet - Rayquaza",
+    "cardmarketTrendUSD": null,
+    "target85OfTrend": null,
+    "targetNote": "no Cardmarket trend yet; target set automatically at 85% once one is published",
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
     "everSeen": 0
@@ -1174,6 +618,11 @@
      "median": null,
      "high": null
     },
+    "cardmarketId": 906395,
+    "cardmarketProduct": "EX Ruby & Sapphire: Illustrated Booklet - Torchic",
+    "cardmarketTrendUSD": null,
+    "target85OfTrend": null,
+    "targetNote": "no Cardmarket trend yet; target set automatically at 85% once one is published",
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
     "everSeen": 0
@@ -1187,6 +636,11 @@
      "median": 297.0,
      "high": 350.43
     },
+    "cardmarketId": 695809,
+    "cardmarketProduct": "EX Legend Maker: Illustrated Booklet - Gengar",
+    "cardmarketTrendUSD": 45.69,
+    "target85OfTrend": 38.84,
+    "targetNote": null,
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
     "everSeen": 3
@@ -1194,9 +648,9 @@
   }
  },
  "totals": {
-  "foundToday": 18,
-  "sealedToday": 8,
-  "distinctEverSeen": 18,
-  "unownedRowsWithAnyListing": 5
+  "foundToday": 0,
+  "sealedToday": 0,
+  "distinctEverSeen": 17,
+  "unownedRowsWithAnyListing": 0
  }
 }
