@@ -80,7 +80,7 @@ def record(h, ent, mk, q, lang):
     if price is None: return None
     so = (h.get("shippingOptions") or [{}])[0].get("shippingCost"); ship = usd(so) if so else None
     allin = round((price + (ship or 0)) * TAX, 2)
-    tgt = ent.get("targetAllIn"); ref = tgt or ent.get("price")
+    tgt = ent.get("targetAllIn"); ref = tgt or ent.get("price"); s = h.get("seller") or {}
     if allin < (0.25 * ref if ref else 10): return None       # accessories / $1 placeholder listings; a real jumbo item never sells this far below market; s = h.get("seller") or {}
     return {"id": ent["id"], "itemId": h.get("itemId"), "title": t, "price": price, "shipping": ship, "shipUnknown": ship is None, "allIn": allin,
             "format": "auction" if auc else "buy-it-now", "bids": h.get("bidCount") if auc else None, "ends": h.get("itemEndDate"), "seller": s.get("username"),
