@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17",
+ "generated": "2026-10-18",
  "label": "unverified: retailer pages, stock can change within the day",
  "sites": {
   "devir.pt": {
@@ -27,7 +27,7 @@
    "note": null
   },
   "forretas.com": {
-   "robots": "robots.txt unreadable (skipped)",
+   "robots": "allowed",
    "note": "price-comparison site rendered by JavaScript (no readable results)"
   },
   "devir.com.br": {
@@ -128,7 +128,20 @@
    "name": "Machamp",
    "url": "https://forretas.com/p/4961741/pokemon-baralho-11-origem-das-lendas-machamp",
    "site": "forretas.com",
-   "status": "skipped: robots.txt disallows or unreadable"
+   "http": 200,
+   "isbnOnPage": true,
+   "isbnsOnPage": [
+    "9788575322604"
+   ],
+   "ref": [
+    "PKLIVLM11"
+   ],
+   "stock": "unknown (page is JavaScript-rendered)",
+   "price": null,
+   "currency": "EUR",
+   "title": "Forretas",
+   "expectedIsbn": "9788575322604",
+   "isbnMatchesExpected": true
   },
   {
    "id": "bk-omastar",
