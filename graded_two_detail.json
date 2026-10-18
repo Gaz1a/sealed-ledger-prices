@@ -1,0 +1,362 @@
+{
+ "s-flareon-065-svp-jp": {
+  "matched": {
+   "name": "Flareon - 065/SV-P",
+   "set": "SV-P Promotional Cards",
+   "number": "065/SV-P",
+   "tcgPlayerId": "587823",
+   "rarity": "Common"
+  },
+  "salesByGrade": {
+   "psa10": {
+    "count": 260,
+    "totalValue": 25583.54,
+    "averagePrice": 98.39823076923078,
+    "medianPrice": 49.6,
+    "minPrice": 27.6,
+    "maxPrice": 299.99,
+    "marketPrice7Day": 155.47666666666666,
+    "marketPriceMedian7Day": 163.43,
+    "dailyVolume7Day": 0.42857142857142855,
+    "marketTrend": "up",
+    "lastMarketUpdate": "2026-10-17T20:53:54.983Z",
+    "lastSaleDate": "2026-10-17T00:00:00.000Z",
+    "smartMarketPrice": {
+     "price": 150.72,
+     "confidence": "medium",
+     "method": "7day_filtered_weighted",
+     "daysUsed": 7
+    },
+    "salesBySource": {
+     "ebay": 73,
+     "fanatics": 187
+    },
+    "labels": null
+   },
+   "psa9": {
+    "count": 35,
+    "totalValue": 1942.27,
+    "averagePrice": 55.49342857142857,
+    "medianPrice": 37.2,
+    "minPrice": 19.2,
+    "maxPrice": 130,
+    "marketPrice7Day": null,
+    "marketPriceMedian7Day": null,
+    "dailyVolume7Day": 0,
+    "marketTrend": "up",
+    "lastMarketUpdate": "2026-10-17T20:53:54.985Z",
+    "lastSaleDate": "2026-10-10T00:00:00.000Z",
+    "smartMarketPrice": {
+     "price": 69.7,
+     "confidence": "high",
+     "method": "90day_filtered_weighted",
+     "daysUsed": 90
+    },
+    "salesBySource": {
+     "ebay": 10,
+     "fanatics": 25
+    },
+    "labels": null
+   }
+  },
+  "gradeKeys": [
+   "psa10",
+   "cgc10",
+   "tag10",
+   "bgs9_5",
+   "psa9",
+   "cgc8_5",
+   "ace10",
+   "bgs10",
+   "bgs9",
+   "cgc9_5",
+   "cgc5",
+   "cgc9",
+   "cgc8",
+   "psa5",
+   "cgc6_5",
+   "psa6"
+  ],
+  "totalSales": 435,
+  "range": [
+   "2026-03-03T00:00:00.000Z",
+   "2026-10-17T00:00:00.000Z"
+  ],
+  "psa10Daily": {
+   "2026-09-28": {
+    "average": 175,
+    "count": 1,
+    "totalValue": 175,
+    "sevenDayAverage": 172.98125,
+    "sevenDayVolumeAvg": 1.1428571428571428,
+    "sevenDayValueAvg": 197.69285714285712,
+    "rollingWindow": null
+   },
+   "2026-09-29": {
+    "average": 215,
+    "count": 1,
+    "totalValue": 215,
+    "sevenDayAverage": 176.73125,
+    "sevenDayVolumeAvg": 1.1428571428571428,
+    "sevenDayValueAvg": 201.97857142857143,
+    "rollingWindow": null
+   },
+   "2026-10-01": {
+    "average": 200,
+    "count": 1,
+    "totalValue": 200,
+    "sevenDayAverage": 180.73250000000002,
+    "sevenDayVolumeAvg": 1.1428571428571428,
+    "sevenDayValueAvg": 206.5514285714286,
+    "rollingWindow": null
+   },
+   "2026-10-03": {
+    "average": 158.465,
+    "count": 2,
+    "totalValue": 316.93,
+    "sevenDayAverage": 178.42875,
+    "sevenDayVolumeAvg": 1.1428571428571428,
+    "sevenDayValueAvg": 203.91857142857143,
+    "rollingWindow": null
+   },
+   "2026-10-06": {
+    "average": 180,
+    "count": 1,
+    "totalValue": 180,
+    "sevenDayAverage": 178.42875,
+    "sevenDayVolumeAvg": 1.1428571428571428,
+    "sevenDayValueAvg": 203.91857142857143,
+    "rollingWindow": null
+   },
+   "2026-10-08": {
+    "average": 170,
+    "count": 1,
+    "totalValue": 170,
+    "sevenDayAverage": 177.42875,
+    "sevenDayVolumeAvg": 1.1428571428571428,
+    "sevenDayValueAvg": 202.7757142857143,
+    "rollingWindow": null
+   },
+   "2026-10-09": {
+    "average": 169,
+    "count": 1,
+    "totalValue": 169,
+    "sevenDayAverage": 178.24125,
+    "sevenDayVolumeAvg": 1.1428571428571428,
+    "sevenDayValueAvg": 203.70428571428573,
+    "rollingWindow": null
+   },
+   "2026-10-12": {
+    "average": 138,
+    "count": 1,
+    "totalValue": 138,
+    "sevenDayAverage": 173.61625,
+    "sevenDayVolumeAvg": 1.1428571428571428,
+    "sevenDayValueAvg": 198.41857142857143,
+    "rollingWindow": null
+   },
+   "2026-10-15": {
+    "average": 163.43,
+    "count": 1,
+    "totalValue": 163.43,
+    "sevenDayAverage": 167.17000000000002,
+    "sevenDayVolumeAvg": 1.1428571428571428,
+    "sevenDayValueAvg": 191.0514285714286,
+    "rollingWindow": null
+   },
+   "2026-10-17": {
+    "average": 165,
+    "count": 1,
+    "totalValue": 165,
+    "sevenDayAverage": 162.79500000000002,
+    "sevenDayVolumeAvg": 1.1428571428571428,
+    "sevenDayValueAvg": 186.0514285714286,
+    "rollingWindow": null
+   }
+  }
+ },
+ "s-pikachu-vmax-tg29": {
+  "matched": {
+   "name": "Pikachu VMAX (Secret)",
+   "set": "SWSH11: Lost Origin Trainer Gallery",
+   "number": "TG29/TG30",
+   "tcgPlayerId": "284302",
+   "rarity": "Ultra Rare"
+  },
+  "salesByGrade": {
+   "psa9": {
+    "count": 110,
+    "totalValue": 3832.32,
+    "averagePrice": 36.498285714285714,
+    "medianPrice": 36,
+    "minPrice": 16.5,
+    "maxPrice": 64.99,
+    "marketPrice7Day": 38.5,
+    "marketPriceMedian7Day": 38.5,
+    "dailyVolume7Day": 0.2857142857142857,
+    "marketTrend": "up",
+    "lastMarketUpdate": "2026-10-16T15:13:09.219Z",
+    "lastSaleDate": "2026-10-15T00:00:00.000Z",
+    "smartMarketPrice": {
+     "price": 42.89,
+     "confidence": "medium",
+     "method": "14day_filtered_weighted",
+     "daysUsed": 14
+    },
+    "salesBySource": {
+     "ebay": 95,
+     "fanatics": 15
+    },
+    "labels": null
+   },
+   "psa10": {
+    "count": 330,
+    "totalValue": 41144.66,
+    "averagePrice": 130.20462025316456,
+    "medianPrice": 130,
+    "minPrice": 55.2,
+    "maxPrice": 200.77,
+    "marketPrice7Day": 123.28571428571429,
+    "marketPriceMedian7Day": 130,
+    "dailyVolume7Day": 1,
+    "marketTrend": "up",
+    "lastMarketUpdate": "2026-10-16T15:13:09.219Z",
+    "lastSaleDate": "2026-10-12T00:00:00.000Z",
+    "smartMarketPrice": {
+     "price": 123.75,
+     "confidence": "high",
+     "method": "7day_filtered_weighted",
+     "daysUsed": 7
+    },
+    "salesBySource": {
+     "ebay": 278,
+     "fanatics": 52
+    },
+    "labels": null
+   }
+  },
+  "gradeKeys": [
+   "psa9",
+   "psa8",
+   "psa10",
+   "cgc10",
+   "cgc9_5",
+   "cgc9",
+   "tag10",
+   "ace9",
+   "ace10",
+   "sgc9_5",
+   "psa7",
+   "cgc8",
+   "bgs9",
+   "bgs9_5",
+   "cgc7",
+   "cgc8_5",
+   "cgc5_5",
+   "cgc7_5",
+   "cgc6_5",
+   "tag9",
+   "sgc9",
+   "sgc10",
+   "bgs8_5",
+   "psa6"
+  ],
+  "totalSales": 653,
+  "range": [
+   "2022-11-28T00:00:00.000Z",
+   "2026-10-15T00:00:00.000Z"
+  ],
+  "psa10Daily": {
+   "2026-10-01": {
+    "average": 121.25,
+    "count": 2,
+    "totalValue": 242.5,
+    "sevenDayAverage": 132.46615384615387,
+    "sevenDayVolumeAvg": 1.8571428571428572,
+    "sevenDayValueAvg": 246.00857142857146,
+    "rollingWindow": null
+   },
+   "2026-10-03": {
+    "average": 135,
+    "count": 1,
+    "totalValue": 135,
+    "sevenDayAverage": 133.12,
+    "sevenDayVolumeAvg": 1.8571428571428572,
+    "sevenDayValueAvg": 247.22285714285712,
+    "rollingWindow": null
+   },
+   "2026-10-04": {
+    "average": 135,
+    "count": 1,
+    "totalValue": 135,
+    "sevenDayAverage": 129.65923076923076,
+    "sevenDayVolumeAvg": 1.8571428571428572,
+    "sevenDayValueAvg": 240.79571428571427,
+    "rollingWindow": null
+   },
+   "2026-10-06": {
+    "average": 129.995,
+    "count": 2,
+    "totalValue": 259.99,
+    "sevenDayAverage": 129.28,
+    "sevenDayVolumeAvg": 1.5714285714285714,
+    "sevenDayValueAvg": 203.1542857142857,
+    "rollingWindow": null
+   },
+   "2026-10-07": {
+    "average": 224.96,
+    "count": 1,
+    "totalValue": 224.96,
+    "sevenDayAverage": 141.239,
+    "sevenDayVolumeAvg": 1.4285714285714286,
+    "sevenDayValueAvg": 201.77,
+    "rollingWindow": null
+   },
+   "2026-10-08": {
+    "average": 145.51,
+    "count": 1,
+    "totalValue": 145.51,
+    "sevenDayAverage": 142.29000000000002,
+    "sevenDayVolumeAvg": 1.4285714285714286,
+    "sevenDayValueAvg": 203.27142857142857,
+    "rollingWindow": null
+   },
+   "2026-10-09": {
+    "average": 108,
+    "count": 1,
+    "totalValue": 108,
+    "sevenDayAverage": 138.99555555555557,
+    "sevenDayVolumeAvg": 1.2857142857142858,
+    "sevenDayValueAvg": 178.70857142857145,
+    "rollingWindow": null
+   },
+   "2026-10-10": {
+    "average": 112.5,
+    "count": 2,
+    "totalValue": 225,
+    "sevenDayAverage": 137.0511111111111,
+    "sevenDayVolumeAvg": 1.2857142857142858,
+    "sevenDayValueAvg": 176.20857142857145,
+    "rollingWindow": null
+   },
+   "2026-10-11": {
+    "average": 130,
+    "count": 2,
+    "totalValue": 260,
+    "sevenDayAverage": 135.846,
+    "sevenDayVolumeAvg": 1.4285714285714286,
+    "sevenDayValueAvg": 194.06571428571428,
+    "rollingWindow": null
+   },
+   "2026-10-12": {
+    "average": 135,
+    "count": 2,
+    "totalValue": 270,
+    "sevenDayAverage": 135.76909090909092,
+    "sevenDayVolumeAvg": 1.5714285714285714,
+    "sevenDayValueAvg": 213.35142857142858,
+    "rollingWindow": null
+   }
+  }
+ }
+}
