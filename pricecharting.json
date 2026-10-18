@@ -13978,13 +13978,3671 @@
   "scope": "jumbo_pc_scope.csv (entries with a TCGplayer id but no current TCGplayer market; entries with no ids skipped)",
   "note": "PriceCharting estimates, unverified. ungraded = loose-price (sealed price for sealed products). Data licensed for internal use only.",
   "stats": {
-   "scope": 0,
-   "matched": 0,
-   "unmatched": 0,
-   "tcgIdMatches": 0,
-   "nameMatches": 0,
-   "apiCalls": 0
+   "scope": 89,
+   "matched": 26,
+   "unmatched": 63,
+   "tcgIdMatches": 15,
+   "nameMatches": 11,
+   "apiCalls": 163
   },
-  "items": {}
+  "items": {
+   "j-2019-towering-splash-gx-box-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "tcg-id",
+     "detail": "tcg-id 181693 in search 'pokemon Towering Splash-GX Box'",
+     "ungraded": 1200.0,
+     "salesVolumeYearly": "7",
+     "pcId": 13645269,
+     "productName": "Towering Splash GX Box",
+     "console": "Pokemon Team Up",
+     "releaseDate": null,
+     "tcgId": "181693",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "SM - Team Up",
+     "box": "Towering Splash-GX Box",
+     "language": "English",
+     "year": "2019",
+     "tcgplayerId": 181693
+    }
+   },
+   "j-2017-mega-powers-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "11370280",
+       "productName": "Zoroark Illusions Collection Box",
+       "console": "Pokemon Emerging Powers",
+       "releaseDate": null,
+       "ungraded": 40.72,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10637914",
+       "productName": "Powers: The Definitive Collection [Hardcover] #4 (2010)",
+       "console": "Comic Books Powers: The Definitive Collection",
+       "releaseDate": "2010-01-01",
+       "ungraded": 23.52,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "13118771",
+       "productName": "Powers: The Definitive Collection [Hardcover] #5 (2012)",
+       "console": "Comic Books Powers: The Definitive Collection",
+       "releaseDate": "2012-09-12",
+       "ungraded": 60.38,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "8447366",
+       "productName": "Premium Powers Collection",
+       "console": "Pokemon Hidden Fates",
+       "releaseDate": null,
+       "ungraded": 744.95,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "9359963",
+       "productName": "Tag Team Powers Collection Box: Espeon & Deoxys GX",
+       "console": "Pokemon Cosmic Eclipse",
+       "releaseDate": null,
+       "ungraded": 1640.68,
+       "rejected": "name tokens"
+      }
+     ],
+     "tcgId": 131693,
+     "tcgGroup": "SM - Guardians Rising",
+     "asOf": "2026-10-18",
+     "box": "Mega Powers Collection",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 131693
+    }
+   },
+   "j-2015-rayquaza-ex-box-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "tcg-id",
+     "detail": "tcg-id 100499 in search 'pokemon Rayquaza-EX Box'",
+     "ungraded": 545.06,
+     "salesVolumeYearly": "10",
+     "pcId": 11216387,
+     "productName": "Rayquaza EX Box",
+     "console": "Pokemon XY",
+     "releaseDate": null,
+     "tcgId": "100499",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "XY - Roaring Skies",
+     "box": "Rayquaza-EX Box",
+     "language": "English",
+     "year": "2015",
+     "tcgplayerId": 100499
+    }
+   },
+   "j-2017-shining-legends-premium-powers-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "6675553",
+       "productName": "Super Premium Collection Box",
+       "console": "Pokemon Shining Legends",
+       "releaseDate": null,
+       "ungraded": 1382.3,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "8447366",
+       "productName": "Premium Powers Collection",
+       "console": "Pokemon Hidden Fates",
+       "releaseDate": null,
+       "ungraded": 744.95,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "2203375",
+       "productName": "Premium Collection Box [Crobat]",
+       "console": "Pokemon Shining Fates",
+       "releaseDate": null,
+       "ungraded": 104.03,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10235342",
+       "productName": "Evolving Powers Premium Collection",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 193.29,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "2203376",
+       "productName": "Premium Collection Box [Dragapult]",
+       "console": "Pokemon Shining Fates",
+       "releaseDate": null,
+       "ungraded": 106.33,
+       "rejected": "name tokens"
+      }
+     ],
+     "tcgId": 209439,
+     "tcgGroup": "Shining Legends",
+     "asOf": "2026-10-18",
+     "box": "Shining Legends Premium Powers Collection",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 209439
+    }
+   },
+   "j-2019-alolan-marowak-gx-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "13357011",
+       "productName": "Alolan Marowak GX [Jumbo] #SM187",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 15.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10809678",
+       "productName": "Alolan Marowak GX [Jumbo] #190",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "8329913",
+       "productName": "Alolan Marowak [Reverse Holo] #40",
+       "console": "Pokemon Japanese GX Ultra Shiny",
+       "releaseDate": null,
+       "ungraded": 19.95,
+       "rejected": "language"
+      },
+      {
+       "pcId": "844877",
+       "productName": "Alolan Marowak GX #SM187",
+       "console": "Pokemon Promo",
+       "releaseDate": "2016-11-18",
+       "ungraded": 16.5,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "9133360",
+       "productName": "Alolan Marowak GX #252",
+       "console": "Pokemon Japanese Promo",
+       "releaseDate": null,
+       "ungraded": 19.99,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 189658,
+     "tcgGroup": "SM - Unbroken Bonds",
+     "asOf": "2026-10-18",
+     "box": "Alolan Marowak-GX Box",
+     "language": "English",
+     "year": "2019",
+     "tcgplayerId": 189658
+    }
+   },
+   "j-2014-garchomp-ex-box-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "name+set+year",
+     "detail": "search 'Garchomp-EX Box Pokemon'; set XY Base Set; year 2014; release-date n/a",
+     "ungraded": 414.58,
+     "salesVolumeYearly": "3",
+     "pcId": 5768419,
+     "productName": "Garchomp EX Collection Box",
+     "console": "Pokemon Plasma Storm",
+     "releaseDate": null,
+     "tcgId": null,
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "XY Base Set",
+     "box": "Garchomp-EX Box",
+     "language": "English",
+     "year": "2014",
+     "tcgplayerId": 97729
+    }
+   },
+   "j-2019-vaporeon-gx-special-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "4186049",
+       "productName": "Pikachu GX & Eevee GX Special Collection",
+       "console": "Pokemon Cosmic Eclipse",
+       "releaseDate": null,
+       "ungraded": 397.92,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "6160904",
+       "productName": "Special Collection Box [Raichu GX]",
+       "console": "Pokemon Shining Legends",
+       "releaseDate": null,
+       "ungraded": 568.67,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "5997777",
+       "productName": "Vaporeon GX [Jumbo] #SM172",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 14.99,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10809665",
+       "productName": "Vaporeon GX [Jumbo] #175",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "844861",
+       "productName": "Vaporeon GX #SM172",
+       "console": "Pokemon Promo",
+       "releaseDate": "2016-11-18",
+       "ungraded": 10.9,
+       "rejected": "name tokens"
+      }
+     ],
+     "tcgId": 181710,
+     "tcgGroup": "SM - Lost Thunder",
+     "asOf": "2026-10-18",
+     "box": "Vaporeon-GX Special Collection",
+     "language": "English",
+     "year": "2019",
+     "tcgplayerId": 181710
+    }
+   },
+   "j-2019-flareon-gx-special-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "4186049",
+       "productName": "Pikachu GX & Eevee GX Special Collection",
+       "console": "Pokemon Cosmic Eclipse",
+       "releaseDate": null,
+       "ungraded": 397.92,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "6160904",
+       "productName": "Special Collection Box [Raichu GX]",
+       "console": "Pokemon Shining Legends",
+       "releaseDate": null,
+       "ungraded": 568.67,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "3895031",
+       "productName": "Flareon GX [Jumbo] #SM171",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 25.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10809663",
+       "productName": "Flareon GX [Jumbo] #174",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "844860",
+       "productName": "Flareon GX #SM171",
+       "console": "Pokemon Promo",
+       "releaseDate": "2016-11-18",
+       "ungraded": 13.65,
+       "rejected": "name tokens"
+      }
+     ],
+     "tcgId": 181708,
+     "tcgGroup": "SM - Lost Thunder",
+     "asOf": "2026-10-18",
+     "box": "Flareon-GX Special Collection",
+     "language": "English",
+     "year": "2019",
+     "tcgplayerId": 181708
+    }
+   },
+   "j-2019-pikachu-gx-eevee-gx-special-collection-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "name+set+year",
+     "detail": "search 'Pikachu-GX & Eevee-GX Special Collection Pokemon'; set SM - Cosmic Eclipse; year 2019; release-date n/a",
+     "ungraded": 397.92,
+     "salesVolumeYearly": "4",
+     "pcId": 4186049,
+     "productName": "Pikachu GX & Eevee GX Special Collection",
+     "console": "Pokemon Cosmic Eclipse",
+     "releaseDate": null,
+     "tcgId": null,
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "SM - Cosmic Eclipse",
+     "box": "Pikachu-GX & Eevee-GX Special Collection",
+     "language": "English",
+     "year": "2019",
+     "tcgplayerId": 199772
+    }
+   },
+   "j-2015-gallade-ex-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10023881",
+       "productName": "Gallade EX Collection Box",
+       "console": "Pokemon XY",
+       "releaseDate": null,
+       "ungraded": 497.51,
+       "rejected": "set"
+      }
+     ],
+     "tcgId": 97794,
+     "tcgGroup": "XY - Phantom Forces",
+     "asOf": "2026-10-18",
+     "box": "Gallade-EX Box",
+     "language": "English",
+     "year": "2015",
+     "tcgplayerId": 97794
+    }
+   },
+   "j-2016-mega-beedrill-ex-premium-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "5921904",
+       "productName": "M Beedrill EX #2",
+       "console": "Pokemon Japanese Premium Champion Pack",
+       "releaseDate": "2016-06-01",
+       "ungraded": 22.31,
+       "rejected": "language"
+      },
+      {
+       "pcId": "5921903",
+       "productName": "Beedrill EX #1",
+       "console": "Pokemon Japanese Premium Champion Pack",
+       "releaseDate": "2016-06-01",
+       "ungraded": 11.44,
+       "rejected": "language"
+      },
+      {
+       "pcId": "10767942",
+       "productName": "Mega Charizard X Ex Ultra-Premium Collection",
+       "console": "Pokemon Phantasmal Flames",
+       "releaseDate": "2025-11-14",
+       "ungraded": 223.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "844625",
+       "productName": "Mega Beedrill EX #XY158",
+       "console": "Pokemon Promo",
+       "releaseDate": "2013-10-12",
+       "ungraded": 27.72,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "13025623",
+       "productName": "Beedrill ex #3",
+       "console": "Pokemon Chaos Rising",
+       "releaseDate": "2026-05-22",
+       "ungraded": 1.6,
+       "rejected": "regular card"
+      }
+     ],
+     "tcgId": 125563,
+     "tcgGroup": "XY - Evolutions",
+     "asOf": "2026-10-18",
+     "box": "Mega Beedrill-EX Premium Collection",
+     "language": "English",
+     "year": "2016",
+     "tcgplayerId": 125563
+    }
+   },
+   "j-2016-aurorus-ex-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809754",
+       "productName": "Aurorus EX [Jumbo] #103",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "8828370",
+       "productName": "Aurorus EX [Jumbo] #XY102",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 11.99,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "844563",
+       "productName": "Aurorus EX #XY102",
+       "console": "Pokemon Promo",
+       "releaseDate": "2013-10-12",
+       "ungraded": 12.49,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "11262589",
+       "productName": "Aurorus EX #168/XY-P",
+       "console": "Pokemon Japanese Promo",
+       "releaseDate": null,
+       "ungraded": 21.85,
+       "rejected": "language"
+      },
+      {
+       "pcId": "12414158",
+       "productName": "Aurorus [Stamped] #24",
+       "console": "Pokemon Promo",
+       "releaseDate": "2026-03-27",
+       "ungraded": 8.62,
+       "rejected": "regular card"
+      }
+     ],
+     "tcgId": 117278,
+     "tcgGroup": "XY - BREAKthrough",
+     "asOf": "2026-10-18",
+     "box": "Aurorus-EX Box",
+     "language": "English",
+     "year": "2016",
+     "tcgplayerId": 117278
+    }
+   },
+   "j-2016-mewtwo-ex-box-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "tcg-id",
+     "detail": "tcg-id 125735 in search 'pokemon Mewtwo-EX Box'",
+     "ungraded": 380.0,
+     "salesVolumeYearly": "11",
+     "pcId": 14075171,
+     "productName": "Sealed Mewtwo EX Box",
+     "console": "Pokemon Evolutions",
+     "releaseDate": null,
+     "tcgId": "125735",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "XY - Evolutions",
+     "box": "Mewtwo-EX Box",
+     "language": "English",
+     "year": "2016",
+     "tcgplayerId": 125735
+    }
+   },
+   "j-2020-alolan-sandslash-gx-box-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "tcg-id",
+     "detail": "tcg-id 205384 in search 'pokemon Alolan Sandslash-GX Box'",
+     "ungraded": 370.0,
+     "salesVolumeYearly": "1",
+     "pcId": 12468055,
+     "productName": "Alolan Sandslash GX Box",
+     "console": "Pokemon Promo",
+     "releaseDate": null,
+     "tcgId": "205384",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "Miscellaneous Cards & Products",
+     "box": "Alolan Sandslash-GX Box",
+     "language": "English",
+     "year": "2020",
+     "tcgplayerId": 205384
+    }
+   },
+   "j-2015-flygon-ex-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809742",
+       "productName": "Flygon EX [Jumbo] #61",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": 11.37,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "10806133",
+       "productName": "Latios Ex #12",
+       "console": "Pokemon Japanese Flygon Starter Deck",
+       "releaseDate": null,
+       "ungraded": 16.65,
+       "rejected": "language"
+      },
+      {
+       "pcId": "12741993",
+       "productName": "Flygon Ex [Jun Hasebe] #92",
+       "console": "Pokemon World Championships 2007",
+       "releaseDate": null,
+       "ungraded": 9.93,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "8453897",
+       "productName": "Flygon ex [1st Edition] #66",
+       "console": "Pokemon Japanese Mirage Forest",
+       "releaseDate": "2005-06-30",
+       "ungraded": 26.17,
+       "rejected": "language"
+      },
+      {
+       "pcId": "10803124",
+       "productName": "Flygon ex [1st Edition] #75",
+       "console": "Pokemon Japanese World Champions Pack",
+       "releaseDate": "2007-07-05",
+       "ungraded": 44.89,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 97820,
+     "tcgGroup": "XY - Primal Clash",
+     "asOf": "2026-10-18",
+     "box": "Flygon-EX Box",
+     "language": "English",
+     "year": "2015",
+     "tcgplayerId": 97820
+    }
+   },
+   "j-2019-porygon-z-gx-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "11223955",
+       "productName": "Porygon-Z GX #44",
+       "console": "Pokemon Chinese CSM2.5C",
+       "releaseDate": "2023-03-17",
+       "ungraded": 1.0,
+       "rejected": "language"
+      },
+      {
+       "pcId": "8433908",
+       "productName": "Porygon-Z GX #317/SM-P",
+       "console": "Pokemon Japanese Promo",
+       "releaseDate": null,
+       "ungraded": 8.95,
+       "rejected": "language"
+      },
+      {
+       "pcId": "9659871",
+       "productName": "Porygon-Z GX #156/SM-P",
+       "console": "Pokemon Korean Promo",
+       "releaseDate": "2016-06-01",
+       "ungraded": null,
+       "rejected": "language"
+      },
+      {
+       "pcId": "10809697",
+       "productName": "Porygon-Z GX [Jumbo] #219",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "3459380",
+       "productName": "Porygon-Z LV.X",
+       "console": "Pokemon Japanese Temple of Anger",
+       "releaseDate": "2008-03-14",
+       "ungraded": 34.99,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 198521,
+     "tcgGroup": "SM - Unified Minds",
+     "asOf": "2026-10-18",
+     "box": "Porygon-Z-GX Box",
+     "language": "English",
+     "year": "2019",
+     "tcgplayerId": 198521
+    }
+   },
+   "j-2016-ash-greninja-ex-box-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "tcg-id",
+     "detail": "tcg-id 118336 in search 'pokemon Ash-Greninja-EX Box'",
+     "ungraded": 2151.07,
+     "salesVolumeYearly": "10",
+     "pcId": 10022991,
+     "productName": "Ash Greninja EX Collection Box",
+     "console": "Pokemon XY",
+     "releaseDate": null,
+     "tcgId": "118336",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "XY - Fates Collide",
+     "box": "Ash-Greninja-EX Box",
+     "language": "English",
+     "year": "2016",
+     "tcgplayerId": 118336
+    }
+   },
+   "j-2016-snorlax-gx-box-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "tcg-id",
+     "detail": "tcg-id 125736 in search 'pokemon Snorlax-GX Box'",
+     "ungraded": 342.91,
+     "salesVolumeYearly": "32",
+     "pcId": 11185782,
+     "productName": "Snorlax GX Box",
+     "console": "Pokemon Evolutions",
+     "releaseDate": null,
+     "tcgId": "125736",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "XY - Evolutions",
+     "box": "Snorlax-GX Box",
+     "language": "English",
+     "year": "2016",
+     "tcgplayerId": 125736
+    }
+   },
+   "j-2017-primarina-gx-premium-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809686",
+       "productName": "Primarina GX [Jumbo] #40",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "7747429",
+       "productName": "Primarina GX [Jumbo] #SM39",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 4.5,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10809657",
+       "productName": "Primarina GX [Jumbo] #42",
+       "console": "Pokemon Sun & Moon",
+       "releaseDate": "2025-01-01",
+       "ungraded": 0.99,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "844942",
+       "productName": "Primarina GX #SM39",
+       "console": "Pokemon Promo",
+       "releaseDate": "2016-11-18",
+       "ungraded": 9.88,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "806791",
+       "productName": "Primarina GX #42",
+       "console": "Pokemon Sun & Moon",
+       "releaseDate": "2017-02-03",
+       "ungraded": 3.85,
+       "rejected": "regular card"
+      }
+     ],
+     "tcgId": 133805,
+     "tcgGroup": "SM - Guardians Rising",
+     "asOf": "2026-10-18",
+     "box": "Primarina-GX Premium Collection",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 133805
+    }
+   },
+   "j-2016-dragonite-ex-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "3398892",
+       "productName": "Dragonite V Box",
+       "console": "Pokemon Evolving Skies",
+       "releaseDate": null,
+       "ungraded": 172.81,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "4644675",
+       "productName": "Dragonite V Box",
+       "console": "Pokemon Battle Styles",
+       "releaseDate": null,
+       "ungraded": 115.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "6245978",
+       "productName": "Dragonite EX [Jumbo] #72",
+       "console": "Pokemon Evolutions",
+       "releaseDate": null,
+       "ungraded": 8.86,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "10809723",
+       "productName": "Dragonite EX [Jumbo] #75",
+       "console": "Pokemon Furious Fists",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "6106227",
+       "productName": "Dragonite EX [Jumbo] #74",
+       "console": "Pokemon Furious Fists",
+       "releaseDate": null,
+       "ungraded": 5.63,
+       "rejected": "regular card"
+      }
+     ],
+     "tcgId": 125734,
+     "tcgGroup": "XY - Evolutions",
+     "asOf": "2026-10-18",
+     "box": "Dragonite-EX Box",
+     "language": "English",
+     "year": "2016",
+     "tcgplayerId": 125734
+    }
+   },
+   "j-2019-kangaskhan-gx-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809680",
+       "productName": "Kangaskhan GX [Jumbo] #191",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "6202547",
+       "productName": "Kangaskhan GX [Jumbo] #SM188",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 3.47,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "844878",
+       "productName": "Kangaskhan GX #SM188",
+       "console": "Pokemon Promo",
+       "releaseDate": "2016-11-18",
+       "ungraded": 3.83,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "3473412",
+       "productName": "Kangaskhan #82",
+       "console": "Pokemon Japanese GX Battle Boost",
+       "releaseDate": "2017-10-20",
+       "ungraded": 4.25,
+       "rejected": "language"
+      },
+      {
+       "pcId": "9659864",
+       "productName": "Kangaskhan GX #149/SM-P",
+       "console": "Pokemon Korean Promo",
+       "releaseDate": "2016-06-01",
+       "ungraded": null,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 192083,
+     "tcgGroup": "SM - Unbroken Bonds",
+     "asOf": "2026-10-18",
+     "box": "Kangaskhan-GX Box",
+     "language": "English",
+     "year": "2019",
+     "tcgplayerId": 192083
+    }
+   },
+   "j-2017-mega-tyranitar-ex-premium-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10513852",
+       "productName": "Lucario Ex & Tyranitar Ex Premium Collection",
+       "console": "Pokemon Prismatic Evolutions",
+       "releaseDate": null,
+       "ungraded": 199.75,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "8604967",
+       "productName": "Tyranitar Ex Premium Collection",
+       "console": "Pokemon Scarlet & Violet",
+       "releaseDate": null,
+       "ungraded": 53.99,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10767942",
+       "productName": "Mega Charizard X Ex Ultra-Premium Collection",
+       "console": "Pokemon Phantasmal Flames",
+       "releaseDate": "2025-11-14",
+       "ungraded": 223.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "8917021",
+       "productName": "Heavy Hitters Premium Collection: Lucario V & Tyranitar V",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 321.76,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10616093",
+       "productName": "Premium Checklane Blister: Tyranitar",
+       "console": "Pokemon Mega Evolution",
+       "releaseDate": "2025-09-26",
+       "ungraded": 33.28,
+       "rejected": "name tokens"
+      }
+     ],
+     "tcgId": 133808,
+     "tcgGroup": "SM - Guardians Rising",
+     "asOf": "2026-10-18",
+     "box": "Mega Tyranitar-EX Premium Collection",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 133808
+    }
+   },
+   "j-2019-jolteon-gx-special-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "4186049",
+       "productName": "Pikachu GX & Eevee GX Special Collection",
+       "console": "Pokemon Cosmic Eclipse",
+       "releaseDate": null,
+       "ungraded": 397.92,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10809667",
+       "productName": "Jolteon GX [Jumbo] #176",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "7747437",
+       "productName": "Jolteon GX [Jumbo] #SM173",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 11.04,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "6160904",
+       "productName": "Special Collection Box [Raichu GX]",
+       "console": "Pokemon Shining Legends",
+       "releaseDate": null,
+       "ungraded": 568.67,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "7322516",
+       "productName": "Jolteon GX #13",
+       "console": "Pokemon Japanese sm1",
+       "releaseDate": null,
+       "ungraded": 10.78,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 181709,
+     "tcgGroup": "SM - Lost Thunder",
+     "asOf": "2026-10-18",
+     "box": "Jolteon-GX Special Collection",
+     "language": "English",
+     "year": "2019",
+     "tcgplayerId": 181709
+    }
+   },
+   "j-2018-dawn-wings-necrozma-premium-collection-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "tcg-id",
+     "detail": "tcg-id 164314 in search 'pokemon Dawn Wings Necrozma Premium Collection'",
+     "ungraded": 213.51,
+     "salesVolumeYearly": "3",
+     "pcId": 13366648,
+     "productName": "Dawn Wings Necrozma Premium Collection",
+     "console": "Pokemon Forbidden Light",
+     "releaseDate": null,
+     "tcgId": "164314",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "SM - Forbidden Light",
+     "box": "Dawn Wings Necrozma Premium Collection",
+     "language": "English",
+     "year": "2018",
+     "tcgplayerId": 164314
+    }
+   },
+   "j-2017-incineroar-gx-premium-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809684",
+       "productName": "Incineroar GX [Jumbo] #39",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "5672068",
+       "productName": "Incineroar GX [Jumbo] #SM38",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 9.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10809655",
+       "productName": "Incineroar GX [Jumbo] #27",
+       "console": "Pokemon Sun & Moon",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "12645113",
+       "productName": "Ultra Beasts GX Premium Collection: Pheromosa GX & Celesteela GX",
+       "console": "Pokemon Crimson Invasion",
+       "releaseDate": null,
+       "ungraded": 370.49,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "14227371",
+       "productName": "Ultra Beasts GX Premium Collection [Buzzwole GX & Xurkitree GX]",
+       "console": "Pokemon Promo",
+       "releaseDate": "2017-11-03",
+       "ungraded": 275.0,
+       "rejected": "name tokens"
+      }
+     ],
+     "tcgId": 133807,
+     "tcgGroup": "SM - Guardians Rising",
+     "asOf": "2026-10-18",
+     "box": "Incineroar-GX Premium Collection",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 133807
+    }
+   },
+   "j-2017-kingdra-ex-box-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "name+set+year",
+     "detail": "search 'Kingdra-EX Box Pokemon'; set SM Base Set; year 2017; release-date n/a",
+     "ungraded": 61.99,
+     "salesVolumeYearly": "56",
+     "pcId": 11236291,
+     "productName": "Greninja EX & Kingdra EX Special Collection Box",
+     "console": "Pokemon Promo",
+     "releaseDate": null,
+     "tcgId": "656950",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "SM Base Set",
+     "box": "Kingdra-EX Box",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 131867
+    }
+   },
+   "j-2017-tsareena-gx-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "6202554",
+       "productName": "Tsareena GX [Jumbo] #SM56",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 5.63,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10809689",
+       "productName": "Tsareena GX [Jumbo] #57",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "844959",
+       "productName": "Tsareena GX #SM56",
+       "console": "Pokemon Promo",
+       "releaseDate": "2016-11-18",
+       "ungraded": 2.15,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "3473340",
+       "productName": "Tsareena #10",
+       "console": "Pokemon Japanese GX Battle Boost",
+       "releaseDate": "2017-10-20",
+       "ungraded": 1.99,
+       "rejected": "language"
+      },
+      {
+       "pcId": "9659751",
+       "productName": "Tsareena GX #35/SM-P",
+       "console": "Pokemon Korean Promo",
+       "releaseDate": "2016-06-01",
+       "ungraded": null,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 141243,
+     "tcgGroup": "SM - Burning Shadows",
+     "asOf": "2026-10-18",
+     "box": "Tsareena-GX Box",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 141243
+    }
+   },
+   "j-2020-toxtricity-v-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "1656550",
+       "productName": "Toxtricity V #SWSH017",
+       "console": "Pokemon Promo",
+       "releaseDate": "2020-04-26",
+       "ungraded": 2.62,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "3471711",
+       "productName": "Toxtricity V #100",
+       "console": "Pokemon Japanese Rebel Clash",
+       "releaseDate": "2020-03-06",
+       "ungraded": 5.82,
+       "rejected": "language"
+      },
+      {
+       "pcId": "3471647",
+       "productName": "Toxtricity V #36",
+       "console": "Pokemon Japanese Rebel Clash",
+       "releaseDate": "2020-03-06",
+       "ungraded": 1.96,
+       "rejected": "language"
+      },
+      {
+       "pcId": "11262630",
+       "productName": "Toxtricity V #179",
+       "console": "Pokemon Chinese CS1aC",
+       "releaseDate": null,
+       "ungraded": 2.49,
+       "rejected": "language"
+      },
+      {
+       "pcId": "11263099",
+       "productName": "Toxtricity V #42",
+       "console": "Pokemon Chinese CS1aC",
+       "releaseDate": null,
+       "ungraded": 0.99,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 206424,
+     "tcgGroup": "SWSH01: Sword & Shield Base Set",
+     "asOf": "2026-10-18",
+     "box": "Toxtricity V Box",
+     "language": "English",
+     "year": "2020",
+     "tcgplayerId": 206424
+    }
+   },
+   "j-2017-lycanroc-gx-box-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "name+set+year",
+     "detail": "search 'Lycanroc-GX Box Pokemon'; set SM Base Set; year 2017; release-date n/a",
+     "ungraded": 70.0,
+     "salesVolumeYearly": "5",
+     "pcId": 10851275,
+     "productName": "GX Challenge Box Lycanroc",
+     "console": "Pokemon Promo",
+     "releaseDate": null,
+     "tcgId": "218321",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "SM Base Set",
+     "box": "Lycanroc-GX Box",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 131865
+    }
+   },
+   "j-2019-solgaleo-gx-challenge-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "6137608",
+       "productName": "Solgaleo GX #007",
+       "console": "Pokemon Japanese Solgaleo-GX & Lunala-GX Legendary Set",
+       "releaseDate": "2017-06-10",
+       "ungraded": 4.94,
+       "rejected": "language"
+      },
+      {
+       "pcId": "10851274",
+       "productName": "GX Challenge Box Alolan Ninetales",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 115.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10809652",
+       "productName": "Solgaleo GX [Jumbo] #106",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "6116155",
+       "productName": "Solgaleo GX [Jumbo] #89",
+       "console": "Pokemon Sun & Moon",
+       "releaseDate": null,
+       "ungraded": 4.28,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "964313",
+       "productName": "Solgaleo & Lunala GX #75",
+       "console": "Pokemon Cosmic Eclipse",
+       "releaseDate": "2019-08-23",
+       "ungraded": 36.45,
+       "rejected": "regular card"
+      }
+     ],
+     "tcgId": 218327,
+     "tcgGroup": "SM - Guardians Rising",
+     "asOf": "2026-10-18",
+     "box": "Solgaleo-GX Challenge Box",
+     "language": "English",
+     "year": "2019",
+     "tcgplayerId": 218327
+    }
+   },
+   "j-2015-mega-absol-ex-premium-collection-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "tcg-id",
+     "detail": "tcg-id 99151 in search 'pokemon Mega Absol-EX Premium Collection'",
+     "ungraded": 1045.05,
+     "salesVolumeYearly": "1",
+     "pcId": 14075074,
+     "productName": "Mega Absol EX Premium Collection Box",
+     "console": "Pokemon Roaring Skies",
+     "releaseDate": null,
+     "tcgId": "99151",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "XY - Roaring Skies",
+     "box": "Mega Absol-EX Premium Collection",
+     "language": "English",
+     "year": "2015",
+     "tcgplayerId": 99151
+    }
+   },
+   "j-2017-kommo-o-gx-box-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "tcg-id",
+     "detail": "tcg-id 153454 in search 'pokemon Kommo-o-GX Box'",
+     "ungraded": 121.98,
+     "salesVolumeYearly": "4",
+     "pcId": 10851285,
+     "productName": "Kommo-O GX Box",
+     "console": "Pokemon Promo",
+     "releaseDate": null,
+     "tcgId": "153454",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "SM - Burning Shadows",
+     "box": "Kommo-o-GX Box",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 153454
+    }
+   },
+   "j-2017-shiny-tapu-koko-gx-box-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "name+set+year",
+     "detail": "search 'Shiny Tapu Koko-GX Box Pokemon'; set SM - Guardians Rising; year 2017; release-date n/a",
+     "ungraded": 91.29,
+     "salesVolumeYearly": "11",
+     "pcId": 7323484,
+     "productName": "Shiny Tapu Koko-GX Box",
+     "console": "Pokemon Guardians Rising",
+     "releaseDate": null,
+     "tcgId": null,
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "SM - Guardians Rising",
+     "box": "Shiny Tapu Koko-GX Box",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 137872
+    }
+   },
+   "j-2022-mew-v-box-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "tcg-id",
+     "detail": "tcg-id 286476 in search 'pokemon Mew V Box'",
+     "ungraded": 133.38,
+     "salesVolumeYearly": "32",
+     "pcId": 10907372,
+     "productName": "Mew V Box",
+     "console": "Pokemon Promo",
+     "releaseDate": null,
+     "tcgId": "286476",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "Miscellaneous Cards & Products",
+     "box": "Mew V Box",
+     "language": "English",
+     "year": "2022",
+     "tcgplayerId": 286476
+    }
+   },
+   "j-2020-polteageist-v-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "1656552",
+       "productName": "Polteageist V #SWSH021",
+       "console": "Pokemon Promo",
+       "releaseDate": "2020-04-26",
+       "ungraded": 3.5,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10809496",
+       "productName": "Polteageist V [Jumbo] #21",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "5672070",
+       "productName": "Polteageist V [Jumbo] #SWSH021",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 3.13,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "9659466",
+       "productName": "Polteageist V #29/S-P",
+       "console": "Pokemon Korean Promo",
+       "releaseDate": "2022-06-01",
+       "ungraded": null,
+       "rejected": "language"
+      },
+      {
+       "pcId": "4682737",
+       "productName": "Polteageist V #40/S-P",
+       "console": "Pokemon Japanese Promo",
+       "releaseDate": null,
+       "ungraded": 3.48,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 210563,
+     "tcgGroup": "SWSH02: Rebel Clash",
+     "asOf": "2026-10-18",
+     "box": "Polteageist V Box",
+     "language": "English",
+     "year": "2020",
+     "tcgplayerId": 210563
+    }
+   },
+   "j-2024-decidueye-ex-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809470",
+       "productName": "Decidueye ex [Jumbo] #15",
+       "console": "Pokemon Obsidian Flames",
+       "releaseDate": "2025-01-01",
+       "ungraded": 9.5,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "14418457",
+       "productName": "Decidueye Ex [Prize Pack] #12",
+       "console": "Pokemon Perfect Order",
+       "releaseDate": null,
+       "ungraded": 3.24,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "7640111",
+       "productName": "Decidueye ex #8",
+       "console": "Pokemon Japanese ex Starter Decks",
+       "releaseDate": "2023-04-01",
+       "ungraded": 2.79,
+       "rejected": "language"
+      },
+      {
+       "pcId": "5605533",
+       "productName": "Decidueye ex #15",
+       "console": "Pokemon Obsidian Flames",
+       "releaseDate": "2023-08-11",
+       "ungraded": 1.54,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "13545828",
+       "productName": "Decidueye ex #12",
+       "console": "Pokemon Chinese m3",
+       "releaseDate": "2026-02-06",
+       "ungraded": 0.01,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 604493,
+     "tcgGroup": "Miscellaneous Cards & Products",
+     "asOf": "2026-10-18",
+     "box": "Decidueye ex Box",
+     "language": "English",
+     "year": "2024",
+     "tcgplayerId": 604493
+    }
+   },
+   "j-2017-shiny-silvally-gx-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "3445659",
+       "productName": "Silvally GX #111",
+       "console": "Pokemon Japanese GX Ultra Shiny",
+       "releaseDate": "2018-11-02",
+       "ungraded": 2.56,
+       "rejected": "language"
+      },
+      {
+       "pcId": "3445790",
+       "productName": "Silvally GX #242",
+       "console": "Pokemon Japanese GX Ultra Shiny",
+       "releaseDate": "2018-11-02",
+       "ungraded": 15.18,
+       "rejected": "language"
+      },
+      {
+       "pcId": "10809645",
+       "productName": "Silvally GX [Jumbo] #92",
+       "console": "Pokemon Crimson Invasion",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "10809646",
+       "productName": "Silvally GX [Jumbo] #92",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "6944743",
+       "productName": "Silvally GX [Jumbo] #SM91",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 1.88,
+       "rejected": "name tokens"
+      }
+     ],
+     "tcgId": 152598,
+     "tcgGroup": "SM - Crimson Invasion",
+     "asOf": "2026-10-18",
+     "box": "Shiny Silvally-GX Box",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 152598
+    }
+   },
+   "j-2009-arceus-poster-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "2245023",
+       "productName": "Booster Box",
+       "console": "Pokemon Arceus",
+       "releaseDate": "2009-11-04",
+       "ungraded": 14784.74,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "13118423",
+       "productName": "Booster Box",
+       "console": "Pokemon Japanese Advent of Arceus",
+       "releaseDate": null,
+       "ungraded": null,
+       "rejected": "language"
+      },
+      {
+       "pcId": "8353255",
+       "productName": "Poster Pack Box",
+       "console": "Pokemon Supreme Victors",
+       "releaseDate": null,
+       "ungraded": 806.69,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "9748903",
+       "productName": "Arceus Mythical Collection Box",
+       "console": "Pokemon Generations",
+       "releaseDate": null,
+       "ungraded": 571.8,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "14038797",
+       "productName": "Arceus VSTAR #24",
+       "console": "Pokemon Chinese CSZC",
+       "releaseDate": "2024-11-15",
+       "ungraded": 12.0,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 714416,
+     "tcgGroup": "Arceus",
+     "asOf": "2026-10-18",
+     "box": "Arceus Poster Box",
+     "language": "English",
+     "year": "2009",
+     "tcgplayerId": 714416
+    }
+   },
+   "j-2011-zoroark-illusions-collection-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "tcg-id",
+     "detail": "tcg-id 98620 in search 'pokemon Zoroark-Illusions Collection'",
+     "ungraded": 40.72,
+     "salesVolumeYearly": "7",
+     "pcId": 11370280,
+     "productName": "Zoroark Illusions Collection Box",
+     "console": "Pokemon Emerging Powers",
+     "releaseDate": null,
+     "tcgId": "98620",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "Emerging Powers",
+     "box": "Zoroark-Illusions Collection",
+     "language": "English",
+     "year": "2011",
+     "tcgplayerId": 98620
+    }
+   },
+   "j-2011-world-of-illusions-box-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "name+set+year",
+     "detail": "search 'World of Illusions Box Pokemon'; set Miscellaneous Cards & Products; year 2011; release-date 2011-02-01",
+     "ungraded": 38.39,
+     "salesVolumeYearly": "46",
+     "pcId": 5977917,
+     "productName": "Zoroark & Legendary Pokemon [Jumbo] #World of Illusions Box Promo",
+     "console": "Pokemon Promo",
+     "releaseDate": "2011-02-01",
+     "tcgId": "211493",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "Miscellaneous Cards & Products",
+     "box": "World of Illusions Box",
+     "language": "English",
+     "year": "2011",
+     "tcgplayerId": 206311
+    }
+   },
+   "j-2012-mewtwo-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "2253712",
+       "productName": "Mewtwo [Reverse Holo] #29",
+       "console": "Pokemon Legendary Collection",
+       "releaseDate": "2002-05-24",
+       "ungraded": 864.5,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "14328120",
+       "productName": "Figure Collection: Mewtwo",
+       "console": "Pokemon 30th Celebration",
+       "releaseDate": "2026-09-16",
+       "ungraded": 97.19,
+       "rejected": "set"
+      },
+      {
+       "pcId": "842336",
+       "productName": "Mewtwo #29",
+       "console": "Pokemon Legendary Collection",
+       "releaseDate": "2002-05-24",
+       "ungraded": 54.99,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "957548",
+       "productName": "Mewtwo EX #54",
+       "console": "Pokemon Legendary Treasures",
+       "releaseDate": "2013-11-06",
+       "ungraded": 11.37,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "957547",
+       "productName": "Mewtwo #53",
+       "console": "Pokemon Legendary Treasures",
+       "releaseDate": "2013-11-06",
+       "ungraded": 18.55,
+       "rejected": "regular card"
+      }
+     ],
+     "tcgId": 98635,
+     "tcgGroup": "Next Destinies",
+     "asOf": "2026-10-18",
+     "box": "Mewtwo Collection",
+     "language": "English",
+     "year": "2012",
+     "tcgplayerId": 98635
+    }
+   },
+   "j-2012-keldeo-box-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "name+set+year",
+     "detail": "search 'Keldeo Box Pokemon'; set Miscellaneous Cards & Products; year 2012; release-date n/a",
+     "ungraded": 407.94,
+     "salesVolumeYearly": "6",
+     "pcId": 9906842,
+     "productName": "Keldeo Mythical Collection Box",
+     "console": "Pokemon Celebrations",
+     "releaseDate": null,
+     "tcgId": "123740",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "Miscellaneous Cards & Products",
+     "box": "Keldeo Box",
+     "language": "English",
+     "year": "2012",
+     "tcgplayerId": 206308
+    }
+   },
+   "j-2014-mega-metagross-ex-premium-collection-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "tcg-id",
+     "detail": "tcg-id 97791 in search 'pokemon Mega Metagross-EX Premium Collection'",
+     "ungraded": null,
+     "salesVolumeYearly": "0",
+     "pcId": 14227370,
+     "productName": "Mega Metagross EX Premium Collection",
+     "console": "Pokemon Promo",
+     "releaseDate": "2014-11-19",
+     "tcgId": "97791",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "XY - Phantom Forces",
+     "box": "Mega Metagross-EX Premium Collection",
+     "language": "English",
+     "year": "2014",
+     "tcgplayerId": 97791
+    }
+   },
+   "j-2014-krookodile-ex-box-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "name+set+year",
+     "detail": "search 'Krookodile-EX Box Pokemon'; set XY - Flashfire; year 2014; release-date n/a",
+     "ungraded": 319.83,
+     "salesVolumeYearly": "3",
+     "pcId": 6636088,
+     "productName": "Krookodile EX Box",
+     "console": "Pokemon Flashfire",
+     "releaseDate": null,
+     "tcgId": null,
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "XY - Flashfire",
+     "box": "Krookodile-EX Box",
+     "language": "English",
+     "year": "2014",
+     "tcgplayerId": 97742
+    }
+   },
+   "j-2015-mega-diancie-ex-premium-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10515218",
+       "productName": "Mega Diancie ex #5",
+       "console": "Pokemon Japanese Mega Starter Deck Diancie Ex",
+       "releaseDate": "2025-09-05",
+       "ungraded": 3.64,
+       "rejected": "language"
+      },
+      {
+       "pcId": "10991713",
+       "productName": "Mega Battle Deck: Mega Diancie Ex",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 22.3,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10767942",
+       "productName": "Mega Charizard X Ex Ultra-Premium Collection",
+       "console": "Pokemon Phantasmal Flames",
+       "releaseDate": "2025-11-14",
+       "ungraded": 223.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "13014946",
+       "productName": "Mega Diancie ex #227",
+       "console": "Pokemon Korean Mega Dream ex",
+       "releaseDate": "2025-11-28",
+       "ungraded": 5.0,
+       "rejected": "language"
+      },
+      {
+       "pcId": "13014948",
+       "productName": "Mega Diancie ex #238",
+       "console": "Pokemon Korean Mega Dream ex",
+       "releaseDate": "2025-11-28",
+       "ungraded": 17.82,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 97793,
+     "tcgGroup": "XY - Phantom Forces",
+     "asOf": "2026-10-18",
+     "box": "Mega Diancie-EX Premium Collection",
+     "language": "English",
+     "year": "2015",
+     "tcgplayerId": 97793
+    }
+   },
+   "j-2015-shiny-rayquaza-ex-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10023878",
+       "productName": "Shiny Rayquaza EX Collection Box",
+       "console": "Pokemon XY",
+       "releaseDate": null,
+       "ungraded": 1900.0,
+       "rejected": "set"
+      }
+     ],
+     "tcgId": 103462,
+     "tcgGroup": "XY - Ancient Origins",
+     "asOf": "2026-10-18",
+     "box": "Shiny Rayquaza-EX Box",
+     "language": "English",
+     "year": "2015",
+     "tcgplayerId": 103462
+    }
+   },
+   "j-2015-tyrantrum-ex-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809749",
+       "productName": "Tyrantrum EX [Jumbo] #71",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "844736",
+       "productName": "Tyrantrum EX #XY70",
+       "console": "Pokemon Promo",
+       "releaseDate": "2013-10-12",
+       "ungraded": 11.61,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "12552927",
+       "productName": "Tyrantrum [Stamped] #66",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 16.0,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "12894898",
+       "productName": "Tyrantrum [Staff] #66",
+       "console": "Pokemon Promo",
+       "releaseDate": "2026-03-14",
+       "ungraded": 44.15,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "12368512",
+       "productName": "Tyrantrum [Holo] #45",
+       "console": "Pokemon Perfect Order",
+       "releaseDate": "2026-03-27",
+       "ungraded": 0.96,
+       "rejected": "regular card"
+      }
+     ],
+     "tcgId": 104379,
+     "tcgGroup": "XY - Ancient Origins",
+     "asOf": "2026-10-18",
+     "box": "Tyrantrum-EX Box",
+     "language": "English",
+     "year": "2015",
+     "tcgplayerId": 104379
+    }
+   },
+   "j-2015-mega-blaziken-ex-premium-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "11561877",
+       "productName": "Blaziken Ex & Volcanion Ex Premium Collection",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 89.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10767942",
+       "productName": "Mega Charizard X Ex Ultra-Premium Collection",
+       "console": "Pokemon Phantasmal Flames",
+       "releaseDate": "2025-11-14",
+       "ungraded": 223.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "14227370",
+       "productName": "Mega Metagross EX Premium Collection",
+       "console": "Pokemon Promo",
+       "releaseDate": "2014-11-19",
+       "ungraded": null,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "844752",
+       "productName": "Mega Blaziken EX #XY86",
+       "console": "Pokemon Promo",
+       "releaseDate": "2013-10-12",
+       "ungraded": 22.5,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "5431514",
+       "productName": "Mega Blaziken EX #138/XY-P",
+       "console": "Pokemon Japanese Promo",
+       "releaseDate": "2015-03-14",
+       "ungraded": 120.0,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 107104,
+     "tcgGroup": "XY - BREAKthrough",
+     "asOf": "2026-10-18",
+     "box": "Mega Blaziken-EX Premium Collection",
+     "language": "English",
+     "year": "2015",
+     "tcgplayerId": 107104
+    }
+   },
+   "j-2015-mega-swampert-ex-premium-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10767942",
+       "productName": "Mega Charizard X Ex Ultra-Premium Collection",
+       "console": "Pokemon Phantasmal Flames",
+       "releaseDate": "2025-11-14",
+       "ungraded": 223.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "844753",
+       "productName": "Mega Swampert EX #XY87",
+       "console": "Pokemon Promo",
+       "releaseDate": "2013-10-12",
+       "ungraded": 32.41,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "14227370",
+       "productName": "Mega Metagross EX Premium Collection",
+       "console": "Pokemon Promo",
+       "releaseDate": "2014-11-19",
+       "ungraded": null,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "11123861",
+       "productName": "Mega Lucario Ex Premium Figure Collection",
+       "console": "Pokemon Mega Evolution",
+       "releaseDate": null,
+       "ungraded": 54.85,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "11385025",
+       "productName": "Mega Venusaur Ex Premium Collection",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 68.04,
+       "rejected": "name tokens"
+      }
+     ],
+     "tcgId": 107105,
+     "tcgGroup": "XY - BREAKthrough",
+     "asOf": "2026-10-18",
+     "box": "Mega Swampert-EX Premium Collection",
+     "language": "English",
+     "year": "2015",
+     "tcgplayerId": 107105
+    }
+   },
+   "j-2016-mega-aerodactyl-ex-premium-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "14656103",
+       "productName": "Mega Aerodactyl-EX #183",
+       "console": "Pokemon Japanese Promo",
+       "releaseDate": null,
+       "ungraded": null,
+       "rejected": "language"
+      },
+      {
+       "pcId": "10767942",
+       "productName": "Mega Charizard X Ex Ultra-Premium Collection",
+       "console": "Pokemon Phantasmal Flames",
+       "releaseDate": "2025-11-14",
+       "ungraded": 223.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "14227370",
+       "productName": "Mega Metagross EX Premium Collection",
+       "console": "Pokemon Promo",
+       "releaseDate": "2014-11-19",
+       "ungraded": null,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "844764",
+       "productName": "Mega Aerodactyl EX #XY98",
+       "console": "Pokemon Promo",
+       "releaseDate": "2013-10-12",
+       "ungraded": 9.25,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "11123861",
+       "productName": "Mega Lucario Ex Premium Figure Collection",
+       "console": "Pokemon Mega Evolution",
+       "releaseDate": null,
+       "ungraded": 54.85,
+       "rejected": "name tokens"
+      }
+     ],
+     "tcgId": 117277,
+     "tcgGroup": "XY - BREAKthrough",
+     "asOf": "2026-10-18",
+     "box": "Mega Aerodactyl-EX Premium Collection",
+     "language": "English",
+     "year": "2016",
+     "tcgplayerId": 117277
+    }
+   },
+   "j-2016-mega-mawile-ex-premium-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "12031804",
+       "productName": "Mega Mawile EX [Prize Pack] #94",
+       "console": "Pokemon Mega Evolution",
+       "releaseDate": null,
+       "ungraded": 8.75,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "10767942",
+       "productName": "Mega Charizard X Ex Ultra-Premium Collection",
+       "console": "Pokemon Phantasmal Flames",
+       "releaseDate": "2025-11-14",
+       "ungraded": 223.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10616200",
+       "productName": "Mega Mawile ex #94",
+       "console": "Pokemon Mega Evolution",
+       "releaseDate": "2025-09-26",
+       "ungraded": 1.53,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "10669957",
+       "productName": "Mega Mawile Ex #162",
+       "console": "Pokemon Mega Evolution",
+       "releaseDate": null,
+       "ungraded": 3.09,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "10085249",
+       "productName": "Mega Mawile ex #46",
+       "console": "Pokemon Japanese Mega Brave",
+       "releaseDate": "2025-08-01",
+       "ungraded": 1.51,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 118335,
+     "tcgGroup": "XY - Fates Collide",
+     "asOf": "2026-10-18",
+     "box": "Mega Mawile-EX Premium Collection",
+     "language": "English",
+     "year": "2016",
+     "tcgplayerId": 118335
+    }
+   },
+   "j-2016-mega-garchomp-ex-premium-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "9757804",
+       "productName": "Sealed Cynthia's Garchomp Ex Premium Collection",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 75.86,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10767942",
+       "productName": "Mega Charizard X Ex Ultra-Premium Collection",
+       "console": "Pokemon Phantasmal Flames",
+       "releaseDate": "2025-11-14",
+       "ungraded": 223.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "11302457",
+       "productName": "Cynthia's Garchomp ex #90",
+       "console": "Pokemon Japanese Mega Dream ex",
+       "releaseDate": "2025-11-28",
+       "ungraded": 1.48,
+       "rejected": "language"
+      },
+      {
+       "pcId": "13014871",
+       "productName": "Cynthia's Garchomp ex #90",
+       "console": "Pokemon Korean Mega Dream ex",
+       "releaseDate": "2025-11-28",
+       "ungraded": 0.71,
+       "rejected": "language"
+      },
+      {
+       "pcId": "11462717",
+       "productName": "Cynthia's Garchomp ex #378",
+       "console": "Pokemon Japanese Start Deck 100 Battle Collection",
+       "releaseDate": "2025-12-19",
+       "ungraded": 8.28,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 125738,
+     "tcgGroup": "XY - Evolutions",
+     "asOf": "2026-10-18",
+     "box": "Mega Garchomp-EX Premium Collection",
+     "language": "English",
+     "year": "2016",
+     "tcgplayerId": 125738
+    }
+   },
+   "j-2016-mega-salamence-ex-premium-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "11004345",
+       "productName": "Salamence Ex & Reshiram Ex Premium Collection",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 92.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10767942",
+       "productName": "Mega Charizard X Ex Ultra-Premium Collection",
+       "console": "Pokemon Phantasmal Flames",
+       "releaseDate": "2025-11-14",
+       "ungraded": 223.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "14227370",
+       "productName": "Mega Metagross EX Premium Collection",
+       "console": "Pokemon Promo",
+       "releaseDate": "2014-11-19",
+       "ungraded": null,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "11519727",
+       "productName": "Salamence ex [Mirror Holo] #540",
+       "console": "Pokemon Japanese Start Deck 100 Battle Collection",
+       "releaseDate": "2025-12-19",
+       "ungraded": null,
+       "rejected": "language"
+      },
+      {
+       "pcId": "11462877",
+       "productName": "Salamence ex #540",
+       "console": "Pokemon Japanese Start Deck 100 Battle Collection",
+       "releaseDate": "2025-12-19",
+       "ungraded": 1.89,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 125737,
+     "tcgGroup": "XY - Evolutions",
+     "asOf": "2026-10-18",
+     "box": "Mega Salamence-EX Premium Collection",
+     "language": "English",
+     "year": "2016",
+     "tcgplayerId": 125737
+    }
+   },
+   "j-2017-hoopa-ex-challenge-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "3398891",
+       "productName": "Hoopa V Box",
+       "console": "Pokemon Fusion Strike",
+       "releaseDate": null,
+       "ungraded": 99.99,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "14423958",
+       "productName": "Hoopa #10",
+       "console": "Pokemon Japanese Extra Regulation Box",
+       "releaseDate": null,
+       "ungraded": 4.92,
+       "rejected": "language"
+      },
+      {
+       "pcId": "5952936",
+       "productName": "Hoopa ex [Holo] #98",
+       "console": "Pokemon Paradox Rift",
+       "releaseDate": "2023-11-03",
+       "ungraded": 1.0,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "7084351",
+       "productName": "Hoopa EX [Jumbo] #36",
+       "console": "Pokemon Ancient Origins",
+       "releaseDate": null,
+       "ungraded": 4.99,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "5953065",
+       "productName": "Hoopa ex #226",
+       "console": "Pokemon Paradox Rift",
+       "releaseDate": "2023-11-03",
+       "ungraded": 4.04,
+       "rejected": "regular card"
+      }
+     ],
+     "tcgId": 693146,
+     "tcgGroup": "XY - Steam Siege",
+     "asOf": "2026-10-18",
+     "box": "Hoopa-EX Challenge Box",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 693146
+    },
+    "card": {
+     "matched": true,
+     "matchMethod": "name+set+year",
+     "detail": "search 'Hoopa-EX Pokemon jumbo'; set Jumbo Cards; year 2017; release-date n/a",
+     "ungraded": 4.99,
+     "salesVolumeYearly": "2",
+     "pcId": 7084351,
+     "productName": "Hoopa EX [Jumbo] #36",
+     "console": "Pokemon Ancient Origins",
+     "releaseDate": null,
+     "tcgId": null,
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "Jumbo Cards",
+     "box": "Hoopa-EX Challenge Box",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 153074
+    }
+   },
+   "j-2017-mega-camerupt-ex-premium-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "12189301",
+       "productName": "Mega Camerupt ex [Prize Pack] #22",
+       "console": "Pokemon Mega Evolution",
+       "releaseDate": "2025-09-26",
+       "ungraded": 1.55,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "10767942",
+       "productName": "Mega Charizard X Ex Ultra-Premium Collection",
+       "console": "Pokemon Phantasmal Flames",
+       "releaseDate": "2025-11-14",
+       "ungraded": 223.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "11326125",
+       "productName": "Camerupt [Ball] #23",
+       "console": "Pokemon Japanese Mega Dream ex",
+       "releaseDate": "2025-11-28",
+       "ungraded": 1.99,
+       "rejected": "language"
+      },
+      {
+       "pcId": "13014796",
+       "productName": "Camerupt [Ball] #23",
+       "console": "Pokemon Korean Mega Dream ex",
+       "releaseDate": "2025-11-28",
+       "ungraded": null,
+       "rejected": "language"
+      },
+      {
+       "pcId": "10616131",
+       "productName": "Mega Camerupt ex #22",
+       "console": "Pokemon Mega Evolution",
+       "releaseDate": "2025-09-26",
+       "ungraded": 1.5,
+       "rejected": "regular card"
+      }
+     ],
+     "tcgId": 129896,
+     "tcgGroup": "SM Base Set",
+     "asOf": "2026-10-18",
+     "box": "Mega Camerupt-EX Premium Collection",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 129896
+    }
+   },
+   "j-2017-mega-sharpedo-ex-premium-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10767942",
+       "productName": "Mega Charizard X Ex Ultra-Premium Collection",
+       "console": "Pokemon Phantasmal Flames",
+       "releaseDate": "2025-11-14",
+       "ungraded": 223.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "13818415",
+       "productName": "Mega Sharpedo Ex [Prize Pack] #61",
+       "console": "Pokemon Phantasmal Flames",
+       "releaseDate": null,
+       "ungraded": 13.86,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "14227370",
+       "productName": "Mega Metagross EX Premium Collection",
+       "console": "Pokemon Promo",
+       "releaseDate": "2014-11-19",
+       "ungraded": null,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "844674",
+       "productName": "Mega Sharpedo EX #XY200a",
+       "console": "Pokemon Promo",
+       "releaseDate": "2013-10-12",
+       "ungraded": 45.2,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "11068973",
+       "productName": "Mega Sharpedo ex #113",
+       "console": "Pokemon Phantasmal Flames",
+       "releaseDate": "2025-11-14",
+       "ungraded": 2.76,
+       "rejected": "regular card"
+      }
+     ],
+     "tcgId": 129897,
+     "tcgGroup": "SM Base Set",
+     "asOf": "2026-10-18",
+     "box": "Mega Sharpedo-EX Premium Collection",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 129897
+    }
+   },
+   "j-2017-decidueye-gx-premium-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809682",
+       "productName": "Decidueye GX [Jumbo] #38",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": 5.93,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "10809653",
+       "productName": "Decidueye GX [Jumbo] #12",
+       "console": "Pokemon Sun & Moon",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "12645113",
+       "productName": "Ultra Beasts GX Premium Collection: Pheromosa GX & Celesteela GX",
+       "console": "Pokemon Crimson Invasion",
+       "releaseDate": null,
+       "ungraded": 370.49,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "3445755",
+       "productName": "Decidueye GX #207",
+       "console": "Pokemon Japanese GX Ultra Shiny",
+       "releaseDate": "2018-11-02",
+       "ungraded": 19.94,
+       "rejected": "language"
+      },
+      {
+       "pcId": "14227371",
+       "productName": "Ultra Beasts GX Premium Collection [Buzzwole GX & Xurkitree GX]",
+       "console": "Pokemon Promo",
+       "releaseDate": "2017-11-03",
+       "ungraded": 275.0,
+       "rejected": "name tokens"
+      }
+     ],
+     "tcgId": 133806,
+     "tcgGroup": "SM - Guardians Rising",
+     "asOf": "2026-10-18",
+     "box": "Decidueye-GX Premium Collection",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 133806
+    }
+   },
+   "j-2017-charizard-gx-premium-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "3808299",
+       "productName": "Reshiram & Charizard GX Premium Collection Box",
+       "console": "Pokemon Team Up",
+       "releaseDate": "2021-01-06",
+       "ungraded": 315.0,
+       "rejected": "set"
+      },
+      {
+       "pcId": "5407997",
+       "productName": "Charizard GX Premium Collection Box",
+       "console": "Pokemon Sun & Moon",
+       "releaseDate": "2017-02-03",
+       "ungraded": 300.0,
+       "rejected": "set"
+      }
+     ],
+     "tcgId": 148154,
+     "tcgGroup": "SM - Burning Shadows",
+     "asOf": "2026-10-18",
+     "box": "Charizard-GX Premium Collection",
+     "language": "English",
+     "year": "2017",
+     "tcgplayerId": 148154
+    }
+   },
+   "j-2018-guzzlord-gx-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "6944745",
+       "productName": "Guzzlord GX [Jumbo] #63a",
+       "console": "Pokemon Crimson Invasion",
+       "releaseDate": null,
+       "ungraded": 9.87,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "3470301",
+       "productName": "Naganadel & Guzzlord GX #66",
+       "console": "Pokemon Japanese Alter Genesis",
+       "releaseDate": "2019-09-06",
+       "ungraded": 7.19,
+       "rejected": "language"
+      },
+      {
+       "pcId": "3470336",
+       "productName": "Naganadel & Guzzlord GX #101",
+       "console": "Pokemon Japanese Alter Genesis",
+       "releaseDate": "2019-09-06",
+       "ungraded": 17.06,
+       "rejected": "language"
+      },
+      {
+       "pcId": "3470337",
+       "productName": "Naganadel & Guzzlord GX #102",
+       "console": "Pokemon Japanese Alter Genesis",
+       "releaseDate": "2019-09-06",
+       "ungraded": 73.5,
+       "rejected": "language"
+      },
+      {
+       "pcId": "3470349",
+       "productName": "Naganadel & Guzzlord GX #113",
+       "console": "Pokemon Japanese Alter Genesis",
+       "releaseDate": "2019-09-06",
+       "ungraded": 23.62,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 155061,
+     "tcgGroup": "SM - Crimson Invasion",
+     "asOf": "2026-10-18",
+     "box": "Guzzlord-GX Box",
+     "language": "English",
+     "year": "2018",
+     "tcgplayerId": 155061
+    }
+   },
+   "j-2018-lucario-gx-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "961798",
+       "productName": "Lucario-GX #135",
+       "console": "Pokemon Forbidden Light",
+       "releaseDate": "2018-05-04",
+       "ungraded": 65.0,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "10809648",
+       "productName": "Lucario GX [Jumbo] #101",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "7747435",
+       "productName": "Lucario GX [Jumbo] #SM100",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 7.98,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "12460261",
+       "productName": "Lucario & Melmetal GX #171",
+       "console": "Pokemon Chinese CSM2aC",
+       "releaseDate": null,
+       "ungraded": 13.99,
+       "rejected": "language"
+      },
+      {
+       "pcId": "12460262",
+       "productName": "Lucario & Melmetal GX #172",
+       "console": "Pokemon Chinese CSM2aC",
+       "releaseDate": null,
+       "ungraded": 33.5,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 161256,
+     "tcgGroup": "SM - Ultra Prism",
+     "asOf": "2026-10-18",
+     "box": "Lucario-GX Box",
+     "language": "English",
+     "year": "2018",
+     "tcgplayerId": 161256
+    }
+   },
+   "j-2018-dusk-mane-necrozma-premium-collection-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "tcg-id",
+     "detail": "tcg-id 164315 in search 'pokemon Dusk Mane Necrozma Premium Collection'",
+     "ungraded": 289.99,
+     "salesVolumeYearly": "3",
+     "pcId": 13366649,
+     "productName": "Dusk Mane Necrozma Premium Collection",
+     "console": "Pokemon Forbidden Light",
+     "releaseDate": null,
+     "tcgId": "164315",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "SM - Forbidden Light",
+     "box": "Dusk Mane Necrozma Premium Collection",
+     "language": "English",
+     "year": "2018",
+     "tcgplayerId": 164315
+    }
+   },
+   "j-2018-decidueye-gx-challenge-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10851274",
+       "productName": "GX Challenge Box Alolan Ninetales",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 115.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10809682",
+       "productName": "Decidueye GX [Jumbo] #38",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": 5.93,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "10809653",
+       "productName": "Decidueye GX [Jumbo] #12",
+       "console": "Pokemon Sun & Moon",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "10851275",
+       "productName": "GX Challenge Box Lycanroc",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 70.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "3445755",
+       "productName": "Decidueye GX #207",
+       "console": "Pokemon Japanese GX Ultra Shiny",
+       "releaseDate": "2018-11-02",
+       "ungraded": 19.94,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 230425,
+     "tcgGroup": "SM Base Set",
+     "asOf": "2026-10-18",
+     "box": "Decidueye-GX Challenge Box",
+     "language": "English",
+     "year": "2018",
+     "tcgplayerId": 230425
+    }
+   },
+   "j-2018-incineroar-gx-challenge-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10851274",
+       "productName": "GX Challenge Box Alolan Ninetales",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 115.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10809684",
+       "productName": "Incineroar GX [Jumbo] #39",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "5672068",
+       "productName": "Incineroar GX [Jumbo] #SM38",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 9.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10809655",
+       "productName": "Incineroar GX [Jumbo] #27",
+       "console": "Pokemon Sun & Moon",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "10851275",
+       "productName": "GX Challenge Box Lycanroc",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 70.0,
+       "rejected": "name tokens"
+      }
+     ],
+     "tcgId": 209655,
+     "tcgGroup": "SM Base Set",
+     "asOf": "2026-10-18",
+     "box": "Incineroar-GX Challenge Box",
+     "language": "English",
+     "year": "2018",
+     "tcgplayerId": 209655
+    }
+   },
+   "j-2018-primarina-gx-challenge-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809686",
+       "productName": "Primarina GX [Jumbo] #40",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "7747429",
+       "productName": "Primarina GX [Jumbo] #SM39",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 4.5,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10809657",
+       "productName": "Primarina GX [Jumbo] #42",
+       "console": "Pokemon Sun & Moon",
+       "releaseDate": "2025-01-01",
+       "ungraded": 0.99,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "10851274",
+       "productName": "GX Challenge Box Alolan Ninetales",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 115.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10851275",
+       "productName": "GX Challenge Box Lycanroc",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 70.0,
+       "rejected": "name tokens"
+      }
+     ],
+     "tcgId": 656924,
+     "tcgGroup": "SM Base Set",
+     "asOf": "2026-10-18",
+     "box": "Primarina-GX Challenge Box",
+     "language": "English",
+     "year": "2018",
+     "tcgplayerId": 656924
+    }
+   },
+   "j-2018-solgaleo-gx-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "6137608",
+       "productName": "Solgaleo GX #007",
+       "console": "Pokemon Japanese Solgaleo-GX & Lunala-GX Legendary Set",
+       "releaseDate": "2017-06-10",
+       "ungraded": 4.94,
+       "rejected": "language"
+      },
+      {
+       "pcId": "10809652",
+       "productName": "Solgaleo GX [Jumbo] #106",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "6116155",
+       "productName": "Solgaleo GX [Jumbo] #89",
+       "console": "Pokemon Sun & Moon",
+       "releaseDate": null,
+       "ungraded": 4.28,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "3470210",
+       "productName": "Solgaleo & Lunala GX #63",
+       "console": "Pokemon Japanese Dream League",
+       "releaseDate": "2019-08-02",
+       "ungraded": 220.0,
+       "rejected": "language"
+      },
+      {
+       "pcId": "3470217",
+       "productName": "Solgaleo & Lunala GX #70",
+       "console": "Pokemon Japanese Dream League",
+       "releaseDate": "2019-08-02",
+       "ungraded": 93.21,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 175558,
+     "tcgGroup": "SM - Celestial Storm",
+     "asOf": "2026-10-18",
+     "box": "Solgaleo-GX Box",
+     "language": "English",
+     "year": "2018",
+     "tcgplayerId": 175558
+    }
+   },
+   "j-2018-island-guardians-gx-premium-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "11952083",
+       "productName": "Umbreon GX Premium Collection",
+       "console": "Pokemon Guardians Rising",
+       "releaseDate": null,
+       "ungraded": 800.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "12645113",
+       "productName": "Ultra Beasts GX Premium Collection: Pheromosa GX & Celesteela GX",
+       "console": "Pokemon Crimson Invasion",
+       "releaseDate": null,
+       "ungraded": 370.49,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "14227371",
+       "productName": "Ultra Beasts GX Premium Collection [Buzzwole GX & Xurkitree GX]",
+       "console": "Pokemon Promo",
+       "releaseDate": "2017-11-03",
+       "ungraded": 275.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "3808300",
+       "productName": "Pikachu & Zekrom GX Premium Collection Box",
+       "console": "Pokemon Sword & Shield",
+       "releaseDate": null,
+       "ungraded": 286.36,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "3808299",
+       "productName": "Reshiram & Charizard GX Premium Collection Box",
+       "console": "Pokemon Team Up",
+       "releaseDate": "2021-01-06",
+       "ungraded": 315.0,
+       "rejected": "name tokens"
+      }
+     ],
+     "tcgId": 177864,
+     "tcgGroup": "SM - Lost Thunder",
+     "asOf": "2026-10-18",
+     "box": "Island Guardians GX Premium Collection",
+     "language": "English",
+     "year": "2018",
+     "tcgplayerId": 177864
+    }
+   },
+   "j-2019-lunala-gx-challenge-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "6137607",
+       "productName": "Lunala GX #005",
+       "console": "Pokemon Japanese Solgaleo-GX & Lunala-GX Legendary Set",
+       "releaseDate": "2017-06-10",
+       "ungraded": 5.06,
+       "rejected": "language"
+      },
+      {
+       "pcId": "10851274",
+       "productName": "GX Challenge Box Alolan Ninetales",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 115.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10809650",
+       "productName": "Lunala GX [Jumbo] #104",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "7747430",
+       "productName": "Lunala GX [Jumbo] #66",
+       "console": "Pokemon Sun & Moon",
+       "releaseDate": null,
+       "ungraded": 4.99,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "964313",
+       "productName": "Solgaleo & Lunala GX #75",
+       "console": "Pokemon Cosmic Eclipse",
+       "releaseDate": "2019-08-23",
+       "ungraded": 36.45,
+       "rejected": "regular card"
+      }
+     ],
+     "tcgId": 218328,
+     "tcgGroup": "SM - Guardians Rising",
+     "asOf": "2026-10-18",
+     "box": "Lunala-GX Challenge Box",
+     "language": "English",
+     "year": "2019",
+     "tcgplayerId": 218328
+    }
+   },
+   "j-2022-kyurem-v-box-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10718066",
+       "productName": "Kyurem #9",
+       "console": "Pokemon Japanese Master Deck Build Box Ex",
+       "releaseDate": null,
+       "ungraded": 4.98,
+       "rejected": "language"
+      },
+      {
+       "pcId": "3970158",
+       "productName": "Kyurem V #102",
+       "console": "Pokemon Japanese Lost Abyss",
+       "releaseDate": "2022-07-15",
+       "ungraded": 4.36,
+       "rejected": "language"
+      },
+      {
+       "pcId": "11196559",
+       "productName": "Kyurem V #21",
+       "console": "Pokemon Chinese CS6bC",
+       "releaseDate": null,
+       "ungraded": 1.5,
+       "rejected": "language"
+      },
+      {
+       "pcId": "3970085",
+       "productName": "Kyurem V #29",
+       "console": "Pokemon Japanese Lost Abyss",
+       "releaseDate": "2022-07-15",
+       "ungraded": 1.53,
+       "rejected": "language"
+      },
+      {
+       "pcId": "4049965",
+       "productName": "Kyurem V #48",
+       "console": "Pokemon Lost Origin",
+       "releaseDate": "2022-09-09",
+       "ungraded": 0.99,
+       "rejected": "regular card"
+      }
+     ],
+     "tcgId": 286477,
+     "tcgGroup": "Miscellaneous Cards & Products",
+     "asOf": "2026-10-18",
+     "box": "Kyurem V Box",
+     "language": "English",
+     "year": "2022",
+     "tcgplayerId": 286477
+    }
+   },
+   "j-2023-paradox-powers-ex-special-collection-en": {
+    "sealed": {
+     "matched": true,
+     "matchMethod": "tcg-id",
+     "detail": "tcg-id 621096 in search 'pokemon Paradox Powers ex Special Collection'",
+     "ungraded": 92.0,
+     "salesVolumeYearly": "1",
+     "pcId": 9042120,
+     "productName": "Paradox Powers Ex Special Collection",
+     "console": "Pokemon Promo",
+     "releaseDate": null,
+     "tcgId": "621096",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "Miscellaneous Cards & Products",
+     "box": "Paradox Powers ex Special Collection",
+     "language": "English",
+     "year": "2023",
+     "tcgplayerId": 621096
+    }
+   },
+   "j-2025-blaziken-ex-special-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "11561877",
+       "productName": "Blaziken Ex & Volcanion Ex Premium Collection",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 89.0,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10809750",
+       "productName": "M Blaziken EX [Jumbo] #87",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": 28.18,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "14414957",
+       "productName": "M Blaziken EX [Jumbo] #XY86",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 28.62,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "10809455",
+       "productName": "Blaziken ex [Jumbo] #24",
+       "console": "Pokemon Journey Together",
+       "releaseDate": "2025-01-01",
+       "ungraded": 6.27,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "11196522",
+       "productName": "Snorlax Ex & Blissey Ex Special Collection",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 80.89,
+       "rejected": "name tokens"
+      }
+     ],
+     "tcgId": 662758,
+     "tcgGroup": "Miscellaneous Cards & Products",
+     "asOf": "2026-10-18",
+     "box": "Blaziken ex Special Collection",
+     "language": "English",
+     "year": "2025",
+     "tcgplayerId": 662758
+    }
+   },
+   "j-2025-latias-ex-special-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "11168774",
+       "productName": "Lugia Ex & Latias Ex Premium Collection",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 105.04,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "11519691",
+       "productName": "Latias ex [Mirror Holo] #312",
+       "console": "Pokemon Japanese Start Deck 100 Battle Collection",
+       "releaseDate": "2025-12-19",
+       "ungraded": 13.0,
+       "rejected": "language"
+      },
+      {
+       "pcId": "11462622",
+       "productName": "Latias ex #312",
+       "console": "Pokemon Japanese Start Deck 100 Battle Collection",
+       "releaseDate": "2025-12-19",
+       "ungraded": 5.93,
+       "rejected": "language"
+      },
+      {
+       "pcId": "849761",
+       "productName": "Latias #4",
+       "console": "Pokemon EX Latias & Latios",
+       "releaseDate": "2004-06-01",
+       "ungraded": 14.03,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "11196522",
+       "productName": "Snorlax Ex & Blissey Ex Special Collection",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 80.89,
+       "rejected": "name tokens"
+      }
+     ],
+     "tcgId": 657884,
+     "tcgGroup": "Miscellaneous Cards & Products",
+     "asOf": "2026-10-18",
+     "box": "Latias ex Special Collection",
+     "language": "English",
+     "year": "2025",
+     "tcgplayerId": 657884
+    }
+   },
+   "j-2025-lugia-ex-special-collection-en": {
+    "sealed": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "6385660",
+       "productName": "Lugia V & Unown V Special Collection",
+       "console": "Pokemon Crown Zenith",
+       "releaseDate": null,
+       "ungraded": 199.56,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "11168774",
+       "productName": "Lugia Ex & Latias Ex Premium Collection",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 105.04,
+       "rejected": "name tokens"
+      },
+      {
+       "pcId": "957725",
+       "productName": "Lugia EX [Reverse Holo] #102",
+       "console": "Pokemon Legendary Treasures",
+       "releaseDate": "2013-11-06",
+       "ungraded": 7.06,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "957596",
+       "productName": "Lugia EX #102",
+       "console": "Pokemon Legendary Treasures",
+       "releaseDate": "2013-11-06",
+       "ungraded": 33.22,
+       "rejected": "regular card"
+      },
+      {
+       "pcId": "11196522",
+       "productName": "Snorlax Ex & Blissey Ex Special Collection",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 80.89,
+       "rejected": "name tokens"
+      }
+     ],
+     "tcgId": 665038,
+     "tcgGroup": "Miscellaneous Cards & Products",
+     "asOf": "2026-10-18",
+     "box": "Lugia ex Special Collection",
+     "language": "English",
+     "year": "2025",
+     "tcgplayerId": 665038
+    }
+   },
+   "j-2009-regigigas-colossal-box-en": {
+    "card": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809788",
+       "productName": "Regigigas [Jumbo] #40",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "year"
+      }
+     ],
+     "tcgId": 211505,
+     "tcgGroup": "Jumbo Cards",
+     "asOf": "2026-10-18",
+     "box": "Regigigas Colossal Box",
+     "language": "English",
+     "year": "2009",
+     "tcgplayerId": 211505
+    }
+   },
+   "j-2014-xerneas-jumbo-collection-en": {
+    "card": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809731",
+       "productName": "Xerneas [Jumbo] #5",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "year"
+      },
+      {
+       "pcId": "10809727",
+       "productName": "Xerneas EX [Jumbo] #97",
+       "console": "Pokemon XY",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "year"
+      }
+     ],
+     "tcgId": 211488,
+     "tcgGroup": "Jumbo Cards",
+     "asOf": "2026-10-18",
+     "box": "Xerneas Jumbo Collection",
+     "language": "English",
+     "year": "2014",
+     "tcgplayerId": 211488
+    }
+   },
+   "j-2014-xerneas-collection-fr": {
+    "card": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809727",
+       "productName": "Xerneas EX [Jumbo] #97",
+       "console": "Pokemon XY",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 707206,
+     "tcgGroup": "Jumbo Cards",
+     "asOf": "2026-10-18",
+     "box": "Xerneas Collection",
+     "language": "French",
+     "year": "2014",
+     "tcgplayerId": 707206
+    }
+   },
+   "j-2014-yveltal-collection-fr": {
+    "card": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809726",
+       "productName": "Yveltal EX [Jumbo] #79",
+       "console": "Pokemon XY",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 707205,
+     "tcgGroup": "Jumbo Cards",
+     "asOf": "2026-10-18",
+     "box": "Yveltal Collection",
+     "language": "French",
+     "year": "2014",
+     "tcgplayerId": 707205
+    }
+   },
+   "j-2015-groudon-box-en": {
+    "card": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "7866953",
+       "productName": "Primal Groudon EX [Jumbo] #86",
+       "console": "Pokemon Primal Clash",
+       "releaseDate": null,
+       "ungraded": 17.31,
+       "rejected": "ambiguous"
+      },
+      {
+       "pcId": "8746057",
+       "productName": "Primal Groudon ex [Jumbo] #97",
+       "console": "Pokemon Ancient Origins",
+       "releaseDate": null,
+       "ungraded": 32.75,
+       "rejected": "ambiguous"
+      },
+      {
+       "pcId": "8797638",
+       "productName": "Groudon [Jumbo] #XY52",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 11.77,
+       "rejected": "ambiguous"
+      },
+      {
+       "pcId": "10809717",
+       "productName": "Primal Groudon EX [Jumbo] #98",
+       "console": "Pokemon Ancient Origins",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "year"
+      },
+      {
+       "pcId": "10809740",
+       "productName": "Groudon [Jumbo] #52",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "year"
+      }
+     ],
+     "tcgId": 211446,
+     "tcgGroup": "Jumbo Cards",
+     "asOf": "2026-10-18",
+     "box": "Groudon Box",
+     "language": "English",
+     "year": "2015",
+     "tcgplayerId": 211446
+    }
+   },
+   "j-2015-kyogre-box-en": {
+    "card": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10262880",
+       "productName": "Primal Kyogre EX [Jumbo] #96",
+       "console": "Pokemon Ancient Origins",
+       "releaseDate": null,
+       "ungraded": 60.0,
+       "rejected": "ambiguous"
+      },
+      {
+       "pcId": "8576546",
+       "productName": "Primal Kyogre EX [Jumbo] #55",
+       "console": "Pokemon Ancient Origins",
+       "releaseDate": null,
+       "ungraded": null,
+       "rejected": "ambiguous"
+      },
+      {
+       "pcId": "10809720",
+       "productName": "Primal Kyogre EX [Jumbo] #55",
+       "console": "Pokemon Primal Clash",
+       "releaseDate": "2025-01-01",
+       "ungraded": 18.99,
+       "rejected": "year"
+      },
+      {
+       "pcId": "10809739",
+       "productName": "Kyogre [Jumbo] #51",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "year"
+      },
+      {
+       "pcId": "10809716",
+       "productName": "Primal Kyogre EX [Jumbo] #97",
+       "console": "Pokemon Ancient Origins",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "year"
+      }
+     ],
+     "tcgId": 211459,
+     "tcgGroup": "Jumbo Cards",
+     "asOf": "2026-10-18",
+     "box": "Kyogre Box",
+     "language": "English",
+     "year": "2015",
+     "tcgplayerId": 211459
+    }
+   },
+   "j-2015-rayquaza-box-en": {
+    "card": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "5420697",
+       "productName": "M Rayquaza EX [Jumbo] #98",
+       "console": "Pokemon Ancient Origins",
+       "releaseDate": null,
+       "ungraded": 40.58,
+       "rejected": "ambiguous"
+      },
+      {
+       "pcId": "8576081",
+       "productName": "Rayquaza EX [Jumbo] #XY69",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 18.45,
+       "rejected": "ambiguous"
+      },
+      {
+       "pcId": "9543972",
+       "productName": "Rayquaza GX [Jumbo] #177A",
+       "console": "Pokemon Celestial Storm",
+       "releaseDate": null,
+       "ungraded": 40.37,
+       "rejected": "ambiguous"
+      },
+      {
+       "pcId": "5527649",
+       "productName": "Rayquaza VMAX [Jumbo] #111",
+       "console": "Pokemon Evolving Skies",
+       "releaseDate": null,
+       "ungraded": 11.0,
+       "rejected": "ambiguous"
+      },
+      {
+       "pcId": "7470161",
+       "productName": "Rayquaza V [Jumbo] #100",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 2.49,
+       "rejected": "ambiguous"
+      }
+     ],
+     "tcgId": 560469,
+     "tcgGroup": "Jumbo Cards",
+     "asOf": "2026-10-18",
+     "box": "Rayquaza Box",
+     "language": "English",
+     "year": "2015",
+     "tcgplayerId": 560469
+    }
+   },
+   "j-2016-shiny-mega-gyarados-box-en": {
+    "card": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809711",
+       "productName": "M Gyarados EX [Jumbo] #27",
+       "console": "Pokemon BREAKpoint",
+       "releaseDate": "2025-01-01",
+       "ungraded": 33.87,
+       "rejected": "year"
+      }
+     ],
+     "tcgId": 211450,
+     "tcgGroup": "Jumbo Cards",
+     "asOf": "2026-10-18",
+     "box": "Shiny Mega Gyarados Box",
+     "language": "English",
+     "year": "2016",
+     "tcgplayerId": 211450
+    }
+   },
+   "j-2016-ho-oh-box-fr": {
+    "card": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "9715766",
+       "productName": "Ho-Oh BREAK [Jumbo] #XY154",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 18.17,
+       "rejected": "language"
+      },
+      {
+       "pcId": "13668398",
+       "productName": "Ho-Oh GX [Jumbo] #SM80",
+       "console": "Pokemon Promo",
+       "releaseDate": null,
+       "ungraded": 19.44,
+       "rejected": "language"
+      },
+      {
+       "pcId": "10809641",
+       "productName": "Ho-Oh GX [Jumbo] #81",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "language"
+      },
+      {
+       "pcId": "10809764",
+       "productName": "Ho-Oh [Jumbo] #155",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "language"
+      },
+      {
+       "pcId": "10809765",
+       "productName": "Ho-Oh BREAK [Jumbo] #156",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 210853,
+     "tcgGroup": "Jumbo Cards",
+     "asOf": "2026-10-18",
+     "box": "Ho-Oh Box",
+     "language": "French",
+     "year": "2016",
+     "tcgplayerId": 210853
+    }
+   },
+   "j-2018-dragon-majesty-premium-powers-collection-en": {
+    "card": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809660",
+       "productName": "Dragonite GX [Jumbo] #159",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "year"
+      }
+     ],
+     "tcgId": 277679,
+     "tcgGroup": "Jumbo Cards",
+     "asOf": "2026-10-18",
+     "box": "Dragon Majesty Premium Powers Collection",
+     "language": "English",
+     "year": "2018",
+     "tcgplayerId": 277679
+    }
+   },
+   "j-2018-dragon-majesty-collection-ultra-necrozma-gx-en": {
+    "card": {
+     "matched": true,
+     "matchMethod": "tcg-id",
+     "detail": "tcg-id 211485 in search 'pokemon Ultra Necrozma-GX jumbo'",
+     "ungraded": null,
+     "salesVolumeYearly": "0",
+     "pcId": 13668392,
+     "productName": "Ultra Necrozma GX [Jumbo] #SM126",
+     "console": "Pokemon Promo",
+     "releaseDate": null,
+     "tcgId": "211485",
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "Jumbo Cards",
+     "box": "Dragon Majesty Collection—Ultra Necrozma-GX",
+     "language": "English",
+     "year": "2018",
+     "tcgplayerId": 211485
+    }
+   },
+   "j-2020-champion-s-path-special-collection-marnie-en": {
+    "card": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809504",
+       "productName": "Grimmsnarl V [Jumbo] #57",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "year"
+      }
+     ],
+     "tcgId": 229436,
+     "tcgGroup": "Jumbo Cards",
+     "asOf": "2026-10-18",
+     "box": "Champion's Path Special Collection—Marnie",
+     "language": "English",
+     "year": "2020",
+     "tcgplayerId": 229436
+    }
+   },
+   "j-2021-snorlax-v-box-fr": {
+    "card": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "10809670",
+       "productName": "Snorlax GX [Jumbo] #5",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "language"
+      },
+      {
+       "pcId": "7084228",
+       "productName": "Snorlax V [Jumbo] #141",
+       "console": "Pokemon Sword & Shield",
+       "releaseDate": null,
+       "ungraded": 14.86,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 264312,
+     "tcgGroup": "Jumbo Cards",
+     "asOf": "2026-10-18",
+     "box": "Snorlax V Box",
+     "language": "French",
+     "year": "2021",
+     "tcgplayerId": 264312
+    }
+   },
+   "j-2024-aegislash-ex-box-en": {
+    "card": {
+     "matched": true,
+     "matchMethod": "name+set+year",
+     "detail": "search 'Aegislash ex Pokemon jumbo'; set Jumbo Cards; year 2024; release-date 2025-01-01",
+     "ungraded": null,
+     "salesVolumeYearly": "0",
+     "pcId": 10809468,
+     "productName": "Aegislash ex [Jumbo] #135",
+     "console": "Pokemon Paradox Rift",
+     "releaseDate": "2025-01-01",
+     "tcgId": null,
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "Jumbo Cards",
+     "box": "Aegislash ex Box",
+     "language": "English",
+     "year": "2024",
+     "tcgplayerId": 707208
+    }
+   },
+   "j-2024-terapagos-ex-box-pt": {
+    "card": {
+     "matched": false,
+     "reason": "no tcg-id match; no single set/year/variant-fit candidate",
+     "candidates": [
+      {
+       "pcId": "7912783",
+       "productName": "Terapagos EX [Jumbo] #128",
+       "console": "Pokemon Stellar Crown",
+       "releaseDate": null,
+       "ungraded": 21.38,
+       "rejected": "language"
+      },
+      {
+       "pcId": "10809492",
+       "productName": "Terapagos ex [Jumbo] #165",
+       "console": "Pokemon Promo",
+       "releaseDate": "2025-01-01",
+       "ungraded": null,
+       "rejected": "language"
+      }
+     ],
+     "tcgId": 594779,
+     "tcgGroup": "Jumbo Cards",
+     "asOf": "2026-10-18",
+     "box": "Terapagos ex Box",
+     "language": "Portuguese",
+     "year": "2024",
+     "tcgplayerId": 594779
+    }
+   },
+   "j-2024-lycanroc-ex-box-en": {
+    "card": {
+     "matched": true,
+     "matchMethod": "name+set+year",
+     "detail": "search 'Lycanroc ex Pokemon jumbo'; set Jumbo Cards; year 2024; release-date 2025-01-01",
+     "ungraded": 13.63,
+     "salesVolumeYearly": "1",
+     "pcId": 10809471,
+     "productName": "Lycanroc ex [Jumbo] #117",
+     "console": "Pokemon Paldea Evolved",
+     "releaseDate": "2025-01-01",
+     "tcgId": null,
+     "asOf": "2026-10-18",
+     "label": "PriceCharting estimate (unverified; ungraded/sealed = loose-price)",
+     "tcgGroup": "Jumbo Cards",
+     "box": "Lycanroc ex Box",
+     "language": "English",
+     "year": "2024",
+     "tcgplayerId": 707209
+    }
+   }
+  }
  }
 }
