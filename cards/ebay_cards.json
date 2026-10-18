@@ -1,17 +1,17 @@
 {
- "generated": "2026-10-11T23:48:17Z",
+ "generated": "2026-10-18T23:53:52Z",
  "note": "active asks and auctions ending within 9 days; not sold prices",
  "queries": [
   {
    "ledger": "football",
    "id": "palmer-ultimate-2526",
    "q": "Adrenalyn XL Cole Palmer Ultimate",
-   "total": 5,
+   "total": 6,
    "asks": [
     {
      "title": "Panini Adrenalyn XL Plus 2025 Cole Palmer Ultimate Chelsea ",
-     "total": 3.49,
-     "price": 3.49,
+     "total": 3.47,
+     "price": 3.47,
      "bids": null,
      "buying": [
       "FIXED_PRICE"
@@ -19,6 +19,19 @@
      "seller": "hymz271",
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/389646660898?_skw=Adrenalyn+XL+Cole+Palmer+Ultimate&hash=item5ab8c03522:g:7rIAAeSwCDtpl-66"
+    },
+    {
+     "title": "Panini Adrenalyn XL Ultimate Insert Cole Palmer #4 Chelsea Premier League",
+     "total": 5.56,
+     "price": 2.43,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE",
+      "BEST_OFFER"
+     ],
+     "seller": "addytradingcards",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/377566478139?_skw=Adrenalyn+XL+Cole+Palmer+Ultimate&hash=item57e8b73f3b:g:KPsAAeSw9wRqzc~3"
     },
     {
      "title": "Panini Adrenalyn XL Plus 2025 Cole Palmer Ultimate Chelsea #4",
@@ -35,8 +48,8 @@
     },
     {
      "title": "Panini Adrenalyn XL Plus 2025 Cole Palmer Ultimate Chelsea ",
-     "total": 9.07,
-     "price": 6.98,
+     "total": 9.03,
+     "price": 6.95,
      "bids": null,
      "buying": [
       "FIXED_PRICE"
@@ -47,8 +60,8 @@
     },
     {
      "title": "Panini Adrenalyn XL Plus 2025 Premier League Cole Palmer Chelsea Ultimate #4",
-     "total": 18.45,
-     "price": 5.21,
+     "total": 18.35,
+     "price": 5.18,
      "bids": null,
      "buying": [
       "FIXED_PRICE",
@@ -60,8 +73,8 @@
     },
     {
      "title": "2025 Panini Adrenalyn XL Plus Premier League Cole Palmer Ultimate  #4 Chelsea",
-     "total": 23.15,
-     "price": 5.94,
+     "total": 23.02,
+     "price": 5.9,
      "bids": null,
      "buying": [
       "FIXED_PRICE"
@@ -77,19 +90,31 @@
    "ledger": "football",
    "id": "salah-goldenballer-2526",
    "q": "Adrenalyn XL Mohamed Salah Golden Baller",
-   "total": 44,
+   "total": 49,
    "asks": [
     {
+     "title": "Panini adrenalyn XL FIFA World Cup 2026 Mohamed Salah Egypt Golden Baller",
+     "total": 0.0,
+     "price": 0.0,
+     "bids": 0,
+     "buying": [
+      "AUCTION"
+     ],
+     "seller": "sydcards927",
+     "feedbackPct": "85.7",
+     "url": "https://www.ebay.com/itm/407293702115?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item5ed498afe3:g:-cUAAeSwdElq0ZeL"
+    },
+    {
      "title": "MOHAMED SALAH - GOLDEN BALLER INSERT - #221 - PANINI ADRENALYN XL PL 21/22",
-     "total": 4.5,
-     "price": 4.5,
+     "total": 4.47,
+     "price": 4.47,
      "bids": null,
      "buying": [
       "FIXED_PRICE",
       "BEST_OFFER"
      ],
      "seller": "emucardsaus",
-     "feedbackPct": "94.7",
+     "feedbackPct": "95.7",
      "url": "https://www.ebay.com/itm/920016829029?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=itemd63546ba65:g:~AIAAeSwICxqrmdq"
     },
     {
@@ -118,6 +143,19 @@
      "url": "https://www.ebay.com/itm/366399273507?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&var=636166001837&hash=item554f193a23:g:r0IAAeSwnSNp~-Ty"
     },
     {
+     "title": "Panini Adrenalyn XL Golden Baller Insert Mohamed Salah #221 Liverpool",
+     "total": 7.3,
+     "price": 4.17,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE",
+      "BEST_OFFER"
+     ],
+     "seller": "addytradingcards",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/377566472093?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item57e8b7279d:g:d8MAAeSwBVpqzc-q"
+    },
+    {
      "title": "Panini Premier League Adrenalyn XL 2020/21 - Golden Ballers & Limited Editions",
      "total": 7.99,
      "price": 7.99,
@@ -128,73 +166,58 @@
      "seller": "f00tball_is_life",
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/198451126131?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&var=497491130316&hash=item2e349bdf73:g:-I4AAeSwTAVqO~16"
-    },
-    {
-     "title": "PANINI ADRENALYN XL CARD FIFA WORLD CUP 2026 GOLDEN BALLER Mohamed SALAH # 3",
-     "total": 10.0,
-     "price": 10.0,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE",
-      "BEST_OFFER"
-     ],
-     "seller": "ma-296158",
-     "feedbackPct": "0.0",
-     "url": "https://www.ebay.com/itm/406866399235?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item5ebb209003:g:JF4AAeSwuzJp40qO"
-    },
-    {
-     "title": "Mohamed Salah - Egypt - Panini World Cup 2026 Adrenalyn XL - Golden Baller - #3",
-     "total": 10.5,
-     "price": 10.5,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE"
-     ],
-     "seller": "the_card_and_brick_guild",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/178295756875?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item298341584b:g:zKUAAeSwxHhqTv4Q"
     }
    ],
    "auctions": [
     {
      "title": "Golden Ballers 2026 Panini Adrenalyn XL FIFA World Cup Mohamed Salah Egypt #3",
      "total": 13.0,
-     "bids": 0,
-     "daysLeft": 2.88,
-     "endDate": "2026-10-14T21:01:42.000Z",
+     "bids": 1,
+     "daysLeft": 0.88,
+     "endDate": "2026-10-19T21:01:55.000Z",
      "seller": "augusto.sk8",
-     "feedbackPct": "92.3",
-     "url": "https://www.ebay.com/itm/287638150955?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item42f891df2b:g:tHAAAeSwWSVqvCb8"
+     "feedbackPct": "94.7",
+     "url": "https://www.ebay.com/itm/287648558205?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item42f930ac7d:g:tHAAAeSwWSVqvCb8"
+    },
+    {
+     "title": "Golden Ballers 2026 Panini Adrenalyn XL FIFA World Cup Mohamed Salah Egypt #3",
+     "total": 13.0,
+     "bids": 1,
+     "daysLeft": 1.9,
+     "endDate": "2026-10-20T21:28:58.000Z",
+     "seller": "augusto.sk8",
+     "feedbackPct": "94.7",
+     "url": "https://www.ebay.com/itm/287650669987?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item42f950e5a3:g:~HoAAeSwynBqxBZ0"
     },
     {
      "title": "Golden Ballers 2026 Panini Adrenalyn XL FIFA World Cup Mohamed Salah Egypt #3",
      "total": 13.0,
      "bids": 0,
-     "daysLeft": 3.9,
-     "endDate": "2026-10-15T21:28:50.000Z",
+     "daysLeft": 2.93,
+     "endDate": "2026-10-21T22:11:36.000Z",
      "seller": "augusto.sk8",
-     "feedbackPct": "92.3",
-     "url": "https://www.ebay.com/itm/287640215538?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item42f8b15ff2:g:~HoAAeSwynBqxBZ0"
+     "feedbackPct": "94.7",
+     "url": "https://www.ebay.com/itm/287652952437?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item42f973b975:g:m5AAAeSwaw5qsan4"
     },
     {
-     "title": "Golden Ballers 2026 Panini Adrenalyn XL FIFA World Cup Mohamed Salah Egypt #3",
+     "title": "Panini adrenalyn XL FIFA World Cup 2026 Mohamed Salah Egypt Golden Baller",
      "total": 13.0,
      "bids": 0,
-     "daysLeft": 4.93,
-     "endDate": "2026-10-16T22:11:22.000Z",
-     "seller": "augusto.sk8",
-     "feedbackPct": "92.3",
-     "url": "https://www.ebay.com/itm/287642245842?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item42f8d05ad2:g:m5AAAeSwaw5qsan4"
+     "daysLeft": 4.14,
+     "endDate": "2026-10-23T03:19:41.000Z",
+     "seller": "sydcards927",
+     "feedbackPct": "85.7",
+     "url": "https://www.ebay.com/itm/407293702115?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item5ed498afe3:g:-cUAAeSwdElq0ZeL"
     },
     {
      "title": "Golden Ballers 2026 Panini Adrenalyn XL FIFA World Cup Mohamed Salah Egypt #3",
-     "total": 13.0,
+     "total": 12.0,
      "bids": 0,
      "daysLeft": 5.98,
-     "endDate": "2026-10-17T23:12:44.000Z",
+     "endDate": "2026-10-24T23:25:54.000Z",
      "seller": "augusto.sk8",
-     "feedbackPct": "92.3",
-     "url": "https://www.ebay.com/itm/287640356181?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item42f8b38555:g:gxIAAeSwkP9quFEq"
+     "feedbackPct": "94.7",
+     "url": "https://www.ebay.com/itm/287654957278?_skw=Adrenalyn+XL+Mohamed+Salah+Golden+Baller&hash=item42f99250de:g:YP4AAeSw1Hlq1APz"
     }
    ]
   },
@@ -214,8 +237,8 @@
    "asks": [
     {
      "title": "Anthony Gordon 2024-25 Ultimate Panini  Plus Adrenalyn XL Newcastle #8",
-     "total": 9.81,
-     "price": 7.01,
+     "total": 9.88,
+     "price": 7.06,
      "bids": null,
      "buying": [
       "FIXED_PRICE"
@@ -278,8 +301,8 @@
     },
     {
      "title": "30% OFF! 2025 Panini Adrenalyn XL Plus Signature Foil Cards - Son Isak Eze Szobo",
-     "total": 6.97,
-     "price": 3.48,
+     "total": 6.94,
+     "price": 3.47,
      "bids": null,
      "buying": [
       "FIXED_PRICE"
@@ -290,8 +313,8 @@
     },
     {
      "title": "2025 Panini Adrenalyn XL EPL Card - Dominik Szoboszlai Signature Foil Liverpool",
-     "total": 7.33,
-     "price": 2.79,
+     "total": 7.28,
+     "price": 2.77,
      "bids": null,
      "buying": [
       "FIXED_PRICE"
@@ -302,8 +325,8 @@
     },
     {
      "title": "2025 Panini Adrenalyn XL Plus Dominik Szoboszlai Signature #398 Liverpool",
-     "total": 18.96,
-     "price": 1.75,
+     "total": 18.86,
+     "price": 1.74,
      "bids": null,
      "buying": [
       "FIXED_PRICE"
@@ -331,8 +354,8 @@
    "asks": [
     {
      "title": "PANINI ADRENALYN XL PREMIER LEAGUE 2021/22 (Pick your Missing Card #244-468)",
-     "total": 3.51,
-     "price": 0.7,
+     "total": 3.54,
+     "price": 0.71,
      "bids": null,
      "buying": [
       "FIXED_PRICE"
@@ -376,8 +399,8 @@
    "asks": [
     {
      "title": "Sam Johnstone - Crystal Palace - Adrenalyn XL 2025 - Signature Limited Edition",
-     "total": 10.17,
-     "price": 7.01,
+     "total": 10.24,
+     "price": 7.06,
      "bids": null,
      "buying": [
       "FIXED_PRICE",
@@ -406,12 +429,12 @@
    "ledger": "football",
    "id": "haaland-invincible-watch",
    "q": "Adrenalyn XL Erling Haaland Invincible",
-   "total": 19,
+   "total": 18,
    "asks": [
     {
      "title": "Panini Adrenalyn XL 2025 - Invincible Rare #5",
-     "total": 12.34,
-     "price": 12.34,
+     "total": 12.45,
+     "price": 12.45,
      "bids": null,
      "buying": [
       "FIXED_PRICE",
@@ -471,16 +494,17 @@
      "url": "https://www.ebay.com/itm/168242268430?_skw=Adrenalyn+XL+Erling+Haaland+Invincible&hash=item272c05490e:g:KGwAAeSwPfRpueUO"
     },
     {
-     "title": "PANINI ADRENALYN XL FIFA 365 2026 EXCELLENCE CARDS EXC 1 - EXC 53 MESSI / YAMAL",
-     "total": 17.5,
-     "price": 7.5,
+     "title": "Panini 2024 Adrenalyn XL Premier League Invincible Rare Erling Haaland #5",
+     "total": 18.0,
+     "price": 18.0,
      "bids": null,
      "buying": [
-      "FIXED_PRICE"
+      "FIXED_PRICE",
+      "BEST_OFFER"
      ],
-     "seller": "gvour_11",
+     "seller": "timdmd",
      "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/366255287241?_skw=Adrenalyn+XL+Erling+Haaland+Invincible&hash=item5546842bc9:g:qLoAAeSwdRtprUtP"
+     "url": "https://www.ebay.com/itm/237117680387?_skw=Adrenalyn+XL+Erling+Haaland+Invincible&hash=item373550ab03:g:0PEAAeSwIqlqymF-"
     }
    ],
    "auctions": []
@@ -501,21 +525,21 @@
    "asks": [
     {
      "title": "2024-25 Panini Adrenalyn XL Plus Bukayo Saka Golden Baller Arsenal #33 ",
-     "total": 3.47,
-     "price": 3.47,
+     "total": 2.22,
+     "price": 2.22,
      "bids": null,
      "buying": [
       "FIXED_PRICE",
       "BEST_OFFER"
      ],
      "seller": "emucardsaus",
-     "feedbackPct": "94.7",
+     "feedbackPct": "95.7",
      "url": "https://www.ebay.com/itm/398410458723?_skw=Adrenalyn+XL+Bukayo+Saka+Golden+Baller&hash=item5cc31d2663:g:RNUAAeSwSmdqrnqQ"
     },
     {
      "title": "2024 Panini ADRENALYN XL Premier League Bukayo Saka Golden Baller #1 Arsenal",
-     "total": 3.5,
-     "price": 3.5,
+     "total": 3.53,
+     "price": 3.53,
      "bids": null,
      "buying": [
       "FIXED_PRICE",
@@ -540,8 +564,8 @@
     },
     {
      "title": "2025 Panini ADRENALYN XL PLUS Premier League Bukayo Saka Golden Baller -Card 33",
-     "total": 6.98,
-     "price": 6.98,
+     "total": 6.95,
+     "price": 6.95,
      "bids": null,
      "buying": [
       "FIXED_PRICE",
@@ -592,8 +616,21 @@
    "ledger": "football",
    "id": "scholes-chrome-ucc-auto-blue-150",
    "q": "Paul Scholes 2025-26 Topps Chrome UEFA auto /150",
-   "total": 3,
+   "total": 4,
    "asks": [
+    {
+     "title": "2025-26 Topps Chrome UEFA Paul Scholes Legends Auto Blue Refractor #/150 Man U",
+     "total": 45.0,
+     "price": 45.0,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE",
+      "BEST_OFFER"
+     ],
+     "seller": "killakards",
+     "feedbackPct": "90.8",
+     "url": "https://www.ebay.com/itm/820247670970?_skw=Paul+Scholes+2025-26+Topps+Chrome+UEFA+auto+%2F150&hash=itembefa9230ba:g:3~8AAeSwQthq0w-1"
+    },
     {
      "title": "PAUL SCHOLES 2025-26 TOPPS CHROME UEFA BLUE REFRACTOR AUTO /150 #CLA-PS Q5332",
      "total": 61.99,
@@ -608,6 +645,19 @@
      "url": "https://www.ebay.com/itm/377249332379?_skw=Paul+Scholes+2025-26+Topps+Chrome+UEFA+auto+%2F150&hash=item57d5cffc9b:g:z-MAAeSwgkRqKLv3"
     },
     {
+     "title": "2025-26 Topps Chrome UEFA Paul Scholes Legends Auto /150 Blue Wave Auto Jersey",
+     "total": 69.69,
+     "price": 69.69,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE",
+      "BEST_OFFER"
+     ],
+     "seller": "r0ytan3",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/358606981790?_skw=Paul+Scholes+2025-26+Topps+Chrome+UEFA+auto+%2F150&hash=item537ea44a9e:g:7RMAAeSwuMVqF1sH"
+    },
+    {
      "title": "🔥Paul Scholes 2025-26 Topps Chrome UEFA Blue Lava Refractor Auto /150 Man U",
      "total": 69.99,
      "price": 69.99,
@@ -619,19 +669,6 @@
      "seller": "vldvo35",
      "feedbackPct": "99.9",
      "url": "https://www.ebay.com/itm/800024354227?_skw=Paul+Scholes+2025-26+Topps+Chrome+UEFA+auto+%2F150&hash=itemba452addb3:g:Q-UAAeSwVRdqB52u"
-    },
-    {
-     "title": "2025-26 Topps Chrome UEFA Paul Scholes Legends Auto /150 Blue Wave Auto Jersey",
-     "total": 75.75,
-     "price": 75.75,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE",
-      "BEST_OFFER"
-     ],
-     "seller": "r0ytan3",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/358606981790?_skw=Paul+Scholes+2025-26+Topps+Chrome+UEFA+auto+%2F150&hash=item537ea44a9e:g:7RMAAeSwuMVqF1sH"
     }
    ],
    "auctions": []
@@ -640,7 +677,7 @@
    "ledger": "wrestling",
    "id": "w-scsa-undertaker-2000",
    "q": "2000 WWF Stone Cold Steve Austin #3",
-   "total": 122,
+   "total": 125,
    "asks": [
     {
      "title": "Stone Cold Steve Austin WWF 2000 Chaos Comics Vending Sticker NM WWE 3:16",
@@ -669,6 +706,19 @@
     },
     {
      "title": "2000 Comic Images WWF No Mercy #3 Stone Cold Steve Austin",
+     "total": 2.64,
+     "price": 1.32,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE",
+      "BEST_OFFER"
+     ],
+     "seller": "651gardonovan23",
+     "feedbackPct": "99.8",
+     "url": "https://www.ebay.com/itm/267476187289?_skw=2000+WWF+Stone+Cold+Steve+Austin+%233&hash=item3e46d2b899:g:OFEAAeSw6GdpGjN1"
+    },
+    {
+     "title": "2000 Comic Images WWF No Mercy #3 Stone Cold Steve Austin",
      "total": 2.75,
      "price": 1.76,
      "bids": null,
@@ -679,18 +729,6 @@
      "seller": "zyphertradingvideogames",
      "feedbackPct": "99.9",
      "url": "https://www.ebay.com/itm/317080516755?_skw=2000+WWF+Stone+Cold+Steve+Austin+%233&hash=item49d378b893:g:0-wAAeSwaZdodANb"
-    },
-    {
-     "title": "2000 Comic Images WWF No Mercy -#3Stone Cold Steve Austin",
-     "total": 3.0,
-     "price": 3.0,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE"
-     ],
-     "seller": "jwidner-2011",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/326446193282?_skw=2000+WWF+Stone+Cold+Steve+Austin+%233&hash=item4c01b59a82:g:2ekAAOSwqTdnrWfP"
     },
     {
      "title": "2000 Comic Images WWF No Mercy #3 Stone Cold Steve Austin WWE Wrestling Card",
@@ -706,17 +744,16 @@
      "url": "https://www.ebay.com/itm/366709786155?_skw=2000+WWF+Stone+Cold+Steve+Austin+%233&hash=item55619b462b:g:CT8AAeSwjr5qHQYz"
     },
     {
-     "title": "2000 Comic Images WWF No Mercy #3 Stone Cold Steve Austin",
-     "total": 3.21,
-     "price": 1.89,
+     "title": "2000 Comic Images WWF No Mercy -#3Stone Cold Steve Austin",
+     "total": 3.0,
+     "price": 3.0,
      "bids": null,
      "buying": [
-      "FIXED_PRICE",
-      "BEST_OFFER"
+      "FIXED_PRICE"
      ],
-     "seller": "651gardonovan23",
-     "feedbackPct": "99.8",
-     "url": "https://www.ebay.com/itm/267476187289?_skw=2000+WWF+Stone+Cold+Steve+Austin+%233&hash=item3e46d2b899:g:OFEAAeSw6GdpGjN1"
+     "seller": "jwidner-2011",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/326446193282?_skw=2000+WWF+Stone+Cold+Steve+Austin+%233&hash=item4c01b59a82:g:2ekAAOSwqTdnrWfP"
     }
    ],
    "auctions": []
@@ -725,7 +762,7 @@
    "ledger": "football",
    "id": "topps-pl-2627-flagship-box",
    "q": "Topps Premier League 2026/27 Flagship hobby box sealed",
-   "total": 20,
+   "total": 19,
    "asks": [
     {
      "title": "2x 2026-27 Topps Flagship Premier League Factory Sealed Hobby Pack LOT From Box",
@@ -740,53 +777,16 @@
      "url": "https://www.ebay.com/itm/327380217203?_skw=Topps+Premier+League+2026%2F27+Flagship+hobby+box+sealed&hash=item4c3961ad73:g:9PcAAeSwfCZqvAL9"
     },
     {
-     "title": "2026/27 Topps Flagship Premier League Hobby Box NEW SEALED IN HAND SHIPS FAST",
-     "total": 279.85,
-     "price": 279.85,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE"
-     ],
-     "seller": "tuph59",
-     "feedbackPct": "99.8",
-     "url": "https://www.ebay.com/itm/318934108677?_skw=Topps+Premier+League+2026%2F27+Flagship+hobby+box+sealed&hash=item4a41f44a05:g:m7cAAeSwILxqv-pP"
-    },
-    {
-     "title": "2026/27 Topps Flagship Premier League Hobby Box NEW SEALED IN HAND SHIPS FAST",
+     "title": "Topps Flagship Premier League 2026/27 Hobby Box NEW Factory Sealed",
      "total": 279.99,
      "price": 279.99,
      "bids": null,
      "buying": [
       "FIXED_PRICE"
      ],
-     "seller": "neflone",
-     "feedbackPct": "0.0",
-     "url": "https://www.ebay.com/itm/237119563827?_skw=Topps+Premier+League+2026%2F27+Flagship+hobby+box+sealed&hash=item37356d6833:g:uiQAAeSwtKhqzAKn"
-    },
-    {
-     "title": "Topps Flagship Premier League 2026/27 Hobby Box NEW Factory Sealed",
-     "total": 280.0,
-     "price": 280.0,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE"
-     ],
-     "seller": "cgoexclusivegoods",
+     "seller": "cardscards.com",
      "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/227562653571?_skw=Topps+Premier+League+2026%2F27+Flagship+hobby+box+sealed&hash=item34fbca8783:g:qpIAAeSwBx5qy8E9"
-    },
-    {
-     "title": "2026-27 TOPPS FLAGSHIP PREMIER LEAGUE EPL SOCCER HOBBY BOX FACTORY SEALED INHAND",
-     "total": 284.94,
-     "price": 284.94,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE",
-      "BEST_OFFER"
-     ],
-     "seller": "stevmar14",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/117459520894?_skw=Topps+Premier+League+2026%2F27+Flagship+hobby+box+sealed&hash=item1b59220d7e:g:~2sAAeSwx8VqyrRQ"
+     "url": "https://www.ebay.com/itm/960072482375?_skw=Topps+Premier+League+2026%2F27+Flagship+hobby+box+sealed&hash=itemdf88c77e47:g:EnIAAeSwTcdq0W5~"
     },
     {
      "title": "2026/27 TOPPS FLAGSHIP PREMIER LEAGUE HOBBY BOX Factory Sealed ✅ IN HAND",
@@ -799,6 +799,43 @@
      "seller": "alexd1591",
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/820169511411?_skw=Topps+Premier+League+2026%2F27+Flagship+hobby+box+sealed&hash=itembef5e991f3:g:ME0AAeSwrABqtfcv"
+    },
+    {
+     "title": "Topps Flagship Premier League 2026/27 Hobby Box NEW Factory Sealed",
+     "total": 285.0,
+     "price": 285.0,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE"
+     ],
+     "seller": "cgoexclusivegoods",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/227567160640?_skw=Topps+Premier+League+2026%2F27+Flagship+hobby+box+sealed&hash=item34fc0f4d40:g:WcsAAeSwhjlqzTSs"
+    },
+    {
+     "title": "2026/27 Topps Flagship Premier League Factory Sealed Hobby Box",
+     "total": 289.99,
+     "price": 289.99,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE"
+     ],
+     "seller": "yawara",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/377551287498?_skw=Topps+Premier+League+2026%2F27+Flagship+hobby+box+sealed&hash=item57e7cf74ca:g:4YYAAeSwMeZqxfJj"
+    },
+    {
+     "title": "2026-27 Topps Flagship Premier League Hobby Box SEALED NEW",
+     "total": 289.99,
+     "price": 289.99,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE",
+      "BEST_OFFER"
+     ],
+     "seller": "penussle1",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/287650545773?_skw=Topps+Premier+League+2026%2F27+Flagship+hobby+box+sealed&hash=item42f94f006d:g:BC8AAeSwKc9qzq3I"
     }
    ],
    "auctions": []
@@ -811,8 +848,8 @@
    "asks": [
     {
      "title": "1997 Panini WWF Superstars Rocky Maivia #123 Stickers PSA 9 Mint Low Pop",
-     "total": 50.75,
-     "price": 50.75,
+     "total": 51.0,
+     "price": 51.0,
      "bids": null,
      "buying": [
       "FIXED_PRICE"
@@ -828,7 +865,7 @@
    "ledger": "wrestling",
    "id": "w-rock-cardinal-trivia-1997",
    "q": "1997 Cardinal The Rock",
-   "total": 320,
+   "total": 322,
    "asks": [
     {
      "title": "1997 Cardinal WWF Wrestling Trivia Game 1st Edition #NNO Sycho Sid",
@@ -881,18 +918,6 @@
      "url": "https://www.ebay.com/itm/257789790831?_skw=1997+Cardinal+The+Rock&hash=item3c05780a6f:g:zPEAAeSwt3xqr1Xa"
     },
     {
-     "title": "1997 Cardinal WWF Wrestling Trivia Game 1st Edition #NNO Marc Mero Near Mint +",
-     "total": 1.98,
-     "price": 0.99,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE"
-     ],
-     "seller": "junkyard_breaks",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/267808442618?_skw=1997+Cardinal+The+Rock&hash=item3e5aa088fa:g:vwEAAeSwDTZqr1Xb"
-    },
-    {
      "title": "JUSTIN Hawk BRADSHAW 1997 WWF Trivia Cardinal Rookie Card WWE RC John Layfield",
      "total": 1.99,
      "price": 1.99,
@@ -903,6 +928,18 @@
      "seller": "herosquestcollectables",
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/358638998871?_skw=1997+Cardinal+The+Rock&hash=item53808cd557:g:E54AAeSw7WVqId48"
+    },
+    {
+     "title": "1997 WWF CARDINAL TRIVIA GAME SERIES - BRAKUS (RC) ROOKIE CARD WWE!",
+     "total": 1.99,
+     "price": 1.99,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE"
+     ],
+     "seller": "herosquestcollectables",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/358639012543?_skw=1997+Cardinal+The+Rock&hash=item53808d0abf:g:MBcAAeSw1MxqId-e"
     }
    ],
    "auctions": [
@@ -911,30 +948,50 @@
      "total": 70.0,
      "bids": 0,
      "daysLeft": 1.87,
-     "endDate": "2026-10-13T20:44:40.000Z",
+     "endDate": "2026-10-20T20:44:50.000Z",
      "seller": "ty.t.i",
      "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/128119468260?_skw=1997+Cardinal+The+Rock&hash=item1dd483f0e4:g:fsgAAeSwRvdqlzgt"
+     "url": "https://www.ebay.com/itm/128133718219?_skw=1997+Cardinal+The+Rock&hash=item1dd55d60cb:g:fsgAAeSwRvdqlzgt"
     },
     {
-     "title": "DWAYNE THE ROCK JOHNSON ROCKY MAIVIA PSA 9 1997 CARDINAL WWF TRIVIA SERIES RC 79",
-     "total": 37.0,
-     "bids": 11,
-     "daysLeft": 2.1,
-     "endDate": "2026-10-14T02:08:00.000Z",
-     "seller": "mc_sportscards",
-     "feedbackPct": "99.9",
-     "url": "https://www.ebay.com/itm/189046984387?_skw=1997+Cardinal+The+Rock&hash=item2c04140ec3:g:ocAAAeSwp0Jqw-M5"
-    },
-    {
-     "title": "1997 CARDINAL WWF TRIVIA SERIES ROCKY MAIVIA PSA 6",
-     "total": 104.99,
+     "title": "1997 WWF Cardinal Trivia Marc Mero Set Break",
+     "total": 9.99,
      "bids": 0,
-     "daysLeft": 3.08,
-     "endDate": "2026-10-15T01:43:00.000Z",
-     "seller": "psa",
-     "feedbackPct": "99.9",
-     "url": "https://www.ebay.com/itm/307218469874?_skw=1997+Cardinal+The+Rock&hash=item4787a5d3f2:g:17YAAeSwADJqxaca"
+     "daysLeft": 4.91,
+     "endDate": "2026-10-23T21:49:16.000Z",
+     "seller": "davischmeltze_4",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/267817259751?_skw=1997+Cardinal+The+Rock&hash=item3e5b2712e7:g:lRAAAOSwjcJmdea4"
+    },
+    {
+     "title": "1997 WWF Cardinal Trivia Philip Lafon Set Break",
+     "total": 9.99,
+     "bids": 0,
+     "daysLeft": 4.91,
+     "endDate": "2026-10-23T21:49:16.000Z",
+     "seller": "davischmeltze_4",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/267817259793?_skw=1997+Cardinal+The+Rock&hash=item3e5b271311:g:QMkAAOSwhh1mdeVf"
+    },
+    {
+     "title": "1997 WWF Cardinal Trivia Diesel Kane Rookie Set Break",
+     "total": 9.99,
+     "bids": 0,
+     "daysLeft": 4.91,
+     "endDate": "2026-10-23T21:49:16.000Z",
+     "seller": "davischmeltze_4",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/267817259796?_skw=1997+Cardinal+The+Rock&hash=item3e5b271314:g:sQYAAOSw4ixmWUPM"
+    },
+    {
+     "title": "1997 Cardinal WWF Trivia Game Rookie Card WWE JBL Justin Hawk Bradshaw",
+     "total": 9.99,
+     "bids": 0,
+     "daysLeft": 4.92,
+     "endDate": "2026-10-23T21:55:13.000Z",
+     "seller": "davischmeltze_4",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/267817262380?_skw=1997+Cardinal+The+Rock&hash=item3e5b271d2c:g:ogEAAeSwh6JpLPxi"
     }
    ]
   },
@@ -972,20 +1029,8 @@
    "ledger": "wrestling",
    "id": "w-hogan-wrestling-allstars-1982",
    "q": "1982 Wrestling All-Stars Hulk Hogan #2",
-   "total": 134,
+   "total": 131,
    "asks": [
-    {
-     "title": "PGK - HULK HOGAN 1982 Wrestling All Stars #2 Mini Slab Keychain - 2/$25",
-     "total": 20.99,
-     "price": 15.0,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE"
-     ],
-     "seller": "pgk_keychains",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/168611728159?_skw=1982+Wrestling+All-Stars+Hulk+Hogan+%232&hash=item27420acb1f:g:D7YAAeSwXbFpwcvq"
-    },
     {
      "title": "PGK - Walter Payton 1976 TOPPS #148 - Mix N Match 2/$25 Keychains",
      "total": 20.99,
@@ -1045,6 +1090,18 @@
      "seller": "pgk_keychains",
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/168558712396?_skw=1982+Wrestling+All-Stars+Hulk+Hogan+%232&hash=item273ee1d64c:g:45EAAeSwGkFpwcuc"
+    },
+    {
+     "title": "PGK - SHOHEI OHTANI - 2023 * ALL ACES * #AA11 - Mix N Match 2/$25 Keychain",
+     "total": 20.99,
+     "price": 15.0,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE"
+     ],
+     "seller": "pgk_keychains",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/168259361166?_skw=1982+Wrestling+All-Stars+Hulk+Hogan+%232&hash=item272d0a198e:g:EMgAAeSwQdppwcsJ"
     }
    ],
    "auctions": []
@@ -1053,7 +1110,7 @@
    "ledger": "wrestling",
    "id": "w-undertaker-classic-1991",
    "q": "1991 Classic The Undertaker #64",
-   "total": 15,
+   "total": 14,
    "asks": [
     {
      "title": "1991 Classic WWF The Undertaker Portrait Rookie Card RC #64 BGS NM-MT 8",
@@ -1067,19 +1124,6 @@
      "seller": "andpers-6024",
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/314815527667?_skw=1991+Classic+The+Undertaker+%2364&hash=item494c77baf3:g:l9EAAOSwNNlk-E5I"
-    },
-    {
-     "title": "1991 Classic WWF The Undertaker RC #64",
-     "total": 105.98,
-     "price": 99.99,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE",
-      "BEST_OFFER"
-     ],
-     "seller": "comebackcollectibles",
-     "feedbackPct": "99.9",
-     "url": "https://www.ebay.com/itm/327310758748?_skw=1991+Classic+The+Undertaker+%2364&hash=item4c353dd35c:g:yZsAAeSwxxdqf7I9"
     },
     {
      "title": "1991 Classic WWF WWE #64 The Undertaker RC wwf wwe Rookie",
@@ -1119,9 +1163,22 @@
      "url": "https://www.ebay.com/itm/275184317572?_skw=1991+Classic+The+Undertaker+%2364&hash=item4012437484:g:RXkAAOSwoN5iGZOU"
     },
     {
+     "title": "1991 classic WWF European undertaker RC #64 PSA 6 Campaign Cover POP 3, 7 Higher",
+     "total": 399.99,
+     "price": 393.99,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE",
+      "BEST_OFFER"
+     ],
+     "seller": "treasures_4_u",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/227043222560?_skw=1991+Classic+The+Undertaker+%2364&hash=item34dcd4a420:g:98EAAeSwLHJo~Yzb"
+    },
+    {
      "title": "The Undertaker RC BGS 9: 1991 Classic WWF Superstars Rookie Gisto - 1st Graded",
-     "total": 345.94,
-     "price": 339.99,
+     "total": 405.94,
+     "price": 399.99,
      "bids": null,
      "buying": [
       "FIXED_PRICE",
@@ -1186,7 +1243,7 @@
    "ledger": "wrestling",
    "id": "w-scsa-stunning-steve-1995",
    "q": "1995 Cardz WCW Stone Cold Steve Austin",
-   "total": 35,
+   "total": 40,
    "asks": [
     {
      "title": "Steve Austin 1995 Cardz WCW Main Event Hollywood & Vine #62 Stone Cold WWF WWE",
@@ -1226,9 +1283,22 @@
      "url": "https://www.ebay.com/itm/178137020150?_skw=1995+Cardz+WCW+Stone+Cold+Steve+Austin&hash=item2979cb36f6:g:FPgAAeSwhjZqB07H"
     },
     {
+     "title": "1992 Topps WCW - One Man Gang #24 - (RC) hasbro ljn galoob akeem",
+     "total": 17.98,
+     "price": 12.99,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE",
+      "BEST_OFFER"
+     ],
+     "seller": "alwayzunce",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/206627145090?_skw=1995+Cardz+WCW+Stone+Cold+Steve+Austin&hash=item301bf00582:g:xiEAAeSwl6Jqz5Yf"
+    },
+    {
      "title": "Stone Cold Steve Austin: 1995 CARDZ WCW Main Event Rookie Year Fall Brawl #92",
-     "total": 16.94,
-     "price": 10.19,
+     "total": 18.74,
+     "price": 11.99,
      "bids": null,
      "buying": [
       "FIXED_PRICE",
@@ -1250,22 +1320,20 @@
      "seller": "audioa_77",
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/267095201099?_skw=1995+Cardz+WCW+Stone+Cold+Steve+Austin&hash=item3e301d554b:g:JvIAAOSwrS9nWsBL"
-    },
-    {
-     "title": "1995 Cardz WCW Main Event Steve Austin RC Hollywood & Vine #62 Stone Cold WWF",
-     "total": 20.49,
-     "price": 18.99,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE",
-      "BEST_OFFER"
-     ],
-     "seller": "hof_and_rc",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/377283000829?_skw=1995+Cardz+WCW+Stone+Cold+Steve+Austin&hash=item57d7d1b9fd:g:q4EAAeSwE2hqNwqo"
     }
    ],
-   "auctions": []
+   "auctions": [
+    {
+     "title": "Stone Cold Steve Austin 13 Card Lot 1995 Cardz WCW Chromium Vintage WWF Promo",
+     "total": 9.99,
+     "bids": 1,
+     "daysLeft": 1.04,
+     "endDate": "2026-10-20T00:50:00.000Z",
+     "seller": "coachrus1",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/257795309777?_skw=1995+Cardz+WCW+Stone+Cold+Steve+Austin&hash=item3c05cc40d1:g:arMAAeSwC3RqsqY-"
+    }
+   ]
   },
   {
    "ledger": "wrestling",
@@ -1273,6 +1341,18 @@
    "q": "1985 Wrestling All-Stars Rowdy Roddy Piper #15",
    "total": 4,
    "asks": [
+    {
+     "title": "1985 -ROWDY RODDY PIPER- PSA 6 Wrestling All-Stars WWF Magazine Card",
+     "total": 7.0,
+     "price": 0.0,
+     "bids": 0,
+     "buying": [
+      "AUCTION"
+     ],
+     "seller": "paradigm_pop_culture",
+     "feedbackPct": "99.9",
+     "url": "https://www.ebay.com/itm/800787468702?_skw=1985+Wrestling+All-Stars+Rowdy+Roddy+Piper+%2315&hash=itemba72a7119e:g:SnkAAeSwROhqYjt2"
+    },
     {
      "title": "(5) 1985 -ROWDY RODDY PIPER Wrestling All-Stars Magazine WWF Hand Cut Jesse V",
      "total": 55.22,
@@ -1285,19 +1365,6 @@
      "seller": "vintagelanellc",
      "feedbackPct": "100.0",
      "url": "https://www.ebay.com/itm/136930344020?_skw=1985+Wrestling+All-Stars+Rowdy+Roddy+Piper+%2315&hash=item1fe1af3c54:g:TacAAeSwJJRpX2Mg"
-    },
-    {
-     "title": "1985 -ROWDY RODDY PIPER- PSA 6 Wrestling All-Stars WWF Magazine Card",
-     "total": 106.99,
-     "price": 99.99,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE",
-      "BEST_OFFER"
-     ],
-     "seller": "paradigm_pop_culture",
-     "feedbackPct": "99.9",
-     "url": "https://www.ebay.com/itm/800433594310?_skw=1985+Wrestling+All-Stars+Rowdy+Roddy+Piper+%2315&hash=itemba5d8f5fc6:g:SnkAAeSwROhqYjt2"
     },
     {
      "title": "1985 O'QUINN WRESTLING ALL STARS #15 ROWDY RODDY PiPER PERF-HAND CUT VG PSA 3",
@@ -1326,7 +1393,18 @@
      "url": "https://www.ebay.com/itm/284373920771?_skw=1985+Wrestling+All-Stars+Rowdy+Roddy+Piper+%2315&hash=item423601ac03:g:qT0AAOSw5jZg8bJD"
     }
    ],
-   "auctions": []
+   "auctions": [
+    {
+     "title": "1985 -ROWDY RODDY PIPER- PSA 6 Wrestling All-Stars WWF Magazine Card",
+     "total": 96.99,
+     "bids": 0,
+     "daysLeft": 0.71,
+     "endDate": "2026-10-19T17:03:00.000Z",
+     "seller": "paradigm_pop_culture",
+     "feedbackPct": "99.9",
+     "url": "https://www.ebay.com/itm/800787468702?_skw=1985+Wrestling+All-Stars+Rowdy+Roddy+Piper+%2315&hash=itemba72a7119e:g:SnkAAeSwROhqYjt2"
+    }
+   ]
   },
   {
    "ledger": "football",
@@ -1348,18 +1426,6 @@
      "url": "https://www.ebay.com/itm/137050632163?_skw=Paul+Scholes+Best+of+the+Best+Legendary+Numbers+BB-6&hash=item1fe8daafe3:g:MX8AAeSw5Alplrdq"
     },
     {
-     "title": "2025-26 Topps UEFA Club Best Of The Best Legendary Numbers BB-6 Paul Scholes, Ma",
-     "total": 2.0,
-     "price": 2.0,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE"
-     ],
-     "seller": "broricards",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/406704047669?_skw=Paul+Scholes+Best+of+the+Best+Legendary+Numbers+BB-6&hash=item5eb1734635:g:hRsAAeSwx~BplNyk"
-    },
-    {
      "title": "2025-26 Topps UEFA Flagship Best Of The Best Legendary Numbers Paul Scholes BB-6",
      "total": 2.0,
      "price": 2.0,
@@ -1370,6 +1436,18 @@
      "seller": "lrjcards",
      "feedbackPct": "99.7",
      "url": "https://www.ebay.com/itm/297975642053?_skw=Paul+Scholes+Best+of+the+Best+Legendary+Numbers+BB-6&hash=item4560bb77c5:g:CekAAeSwKGxpeTyU"
+    },
+    {
+     "title": "2025-26 Topps UEFA Club Best Of The Best Legendary Numbers BB-6 Paul Scholes, Ma",
+     "total": 2.0,
+     "price": 2.0,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE"
+     ],
+     "seller": "broricards",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/406704047669?_skw=Paul+Scholes+Best+of+the+Best+Legendary+Numbers+BB-6&hash=item5eb1734635:g:hRsAAeSwx~BplNyk"
     },
     {
      "title": "Paul Scholes 2025-26 Topps UEFA #BB-6 Best of the Best: Legendary Numbers",
@@ -1416,22 +1494,10 @@
    "ledger": "football",
    "id": "jj-gabriel-rookie",
    "q": "JJ Gabriel Topps Premier League 2026-27 rookie",
-   "total": 220,
+   "total": 236,
    "asks": [
     {
-     "title": "JJ Gabriel  Rookie - 2026-27 Topps Flagship Premier League #3 (RC)",
-     "total": 0.0,
-     "price": 0.0,
-     "bids": 2,
-     "buying": [
-      "AUCTION"
-     ],
-     "seller": "card_collecther",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/147618758234?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item225ec37e5a:g:rXQAAeSwCFxqwstt"
-    },
-    {
-     "title": "Topps 2026-27 Premier League Flagship True RC JJ Gabriel #198 Base Rookie Card",
+     "title": "2026/27 Topps Premier League JJ Gabriel Rookie #198 Manchester United",
      "total": 0.0,
      "price": 0.0,
      "bids": 0,
@@ -1439,12 +1505,12 @@
       "AUCTION",
       "BEST_OFFER"
      ],
-     "seller": "cardphantom",
-     "feedbackPct": "0.0",
-     "url": "https://www.ebay.com/itm/128123791545?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item1dd4c5e8b9:g:ITgAAeSwxahqyGNC"
+     "seller": "btackalack",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/900008638537?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=itemd18cb1f849:g:scMAAeSweAlqzRli"
     },
     {
-     "title": "Topps Premier League JJ Gabriel Manchester United #198 Rookie Card 2026/27 Base",
+     "title": "JJ Gabriel 2026-27 Topps Flagship Premier League Rookie Base RC #198 -TW3",
      "total": 0.0,
      "price": 0.0,
      "bids": 0,
@@ -1452,98 +1518,111 @@
       "AUCTION",
       "BEST_OFFER"
      ],
-     "seller": "prog_2728",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/407270638538?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item5ed338c3ca:g:iHoAAeSw49NqxQAw"
+     "seller": "u2elec",
+     "feedbackPct": "99.9",
+     "url": "https://www.ebay.com/itm/377567732461?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item57e8ca62ed:g:GxoAAeSw--pqxpSs"
     },
     {
-     "title": "JJ GABRIEL - 2026-27 Topps Flagship Premier League #198 - MANCHESTER UNITED",
-     "total": 1.25,
+     "title": "2026-27 Topps EPL JJ GABRIEL Rookie RC Base Set Manchester United #198",
+     "total": 0.0,
+     "price": 0.0,
+     "bids": 0,
+     "buying": [
+      "AUCTION",
+      "BEST_OFFER"
+     ],
+     "seller": "u2elec",
+     "feedbackPct": "99.9",
+     "url": "https://www.ebay.com/itm/377567732329?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item57e8ca6269:g:ulQAAeSwVABqw70p"
+    },
+    {
+     "title": "Topps 2026/27 Premier League JJ Gabriel Manchester United Rookie Card #198 RC ",
+     "total": 0.0,
+     "price": 0.0,
+     "bids": 0,
+     "buying": [
+      "AUCTION",
+      "BEST_OFFER"
+     ],
+     "seller": "uscardz",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/137844667303?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item20182eb3a7:g:EPgAAeSwS5hq0AKp"
+    },
+    {
+     "title": "2026-27 Topps Flagship Premier League JJ Gabriel Rookie Card PL Parallel #198 RC",
+     "total": 0.0,
      "price": 0.0,
      "bids": 2,
      "buying": [
       "AUCTION"
      ],
-     "seller": "spot8cards",
+     "seller": "patja44",
      "feedbackPct": "99.8",
-     "url": "https://www.ebay.com/itm/206597981842?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item301a330692:g:67oAAeSwo29qwBRi"
+     "url": "https://www.ebay.com/itm/128137188672?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item1dd5925540:g:-DQAAeSwrMBq0P3s"
     },
     {
-     "title": "Topps Premier League 2026/27 JJ Gabriel Manchester United #198 RC Rookie",
-     "total": 1.75,
+     "title": "JJ Gabriel RC Green Voltage 2026-27 Topps Premier League Flagship Man Utd #198 ",
+     "total": 0.0,
      "price": 0.0,
-     "bids": 5,
+     "bids": 2,
      "buying": [
       "AUCTION"
      ],
-     "seller": "twc5",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/800766491892?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=itemba7166fcf4:g:j6YAAeSw8pNqxZRy"
-    },
-    {
-     "title": "Topps Premier League JJ Gabriel Rookie Manchester United #198 2026/27",
-     "total": 3.0,
-     "price": 0.0,
-     "bids": 0,
-     "buying": [
-      "AUCTION",
-      "BEST_OFFER"
-     ],
-     "seller": "bankscardvaultt",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/820225068117?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=itembef9394c55:g:kwwAAeSw1MBqyov-"
+     "seller": "mtyv-collection",
+     "feedbackPct": "99.8",
+     "url": "https://www.ebay.com/itm/237122868978?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item37359fd6f2:g:ByoAAeSwe~pqzs1R"
     }
    ],
    "auctions": [
     {
-     "title": "JJ Gabriel  Rookie - 2026-27 Topps Flagship Premier League #3 (RC)",
-     "total": 2.18,
-     "bids": 2,
-     "daysLeft": 0.05,
-     "endDate": "2026-10-12T01:00:01.000Z",
-     "seller": "card_collecther",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/147618758234?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item225ec37e5a:g:rXQAAeSwCFxqwstt"
+     "title": "2026-27 Topps Premier League JJ Gabriel #BR-JJ RC Rookie Relic Gold /50 (BEE",
+     "total": 121.75,
+     "bids": 20,
+     "daysLeft": 0.0,
+     "endDate": "2026-10-18T23:55:01.000Z",
+     "seller": "ig_slabspaceirvine",
+     "feedbackPct": "99.9",
+     "url": "https://www.ebay.com/itm/900011881933?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=itemd18ce375cd:g:OPsAAeSwygRqzsJw"
     },
     {
-     "title": "2026-27 Topps Flagship Premier League JJ Gabriel Black Edge RC Man United BE-39",
-     "total": 4.99,
-     "bids": 1,
+     "title": "2026-27 Topps Premier League JJ Gabriel RC Purple Relic /199 Manchester United",
+     "total": 61.0,
+     "bids": 9,
+     "daysLeft": 0.02,
+     "endDate": "2026-10-19T00:25:01.000Z",
+     "seller": "90_plus",
+     "feedbackPct": "99.2",
+     "url": "https://www.ebay.com/itm/237117481868?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item37354da38c:g:~r4AAeSwrsxqv50X"
+    },
+    {
+     "title": "2026-27 Topps Flagship Premier League JJ Gabriel RC Rookie #198 OP62",
+     "total": 11.24,
+     "bids": 3,
      "daysLeft": 0.08,
-     "endDate": "2026-10-12T01:42:07.000Z",
-     "seller": "brettque",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/189042972679?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item2c03d6d807:g:SyEAAeSwnm9quVeF"
+     "endDate": "2026-10-19T01:46:04.000Z",
+     "seller": "gecards_shop",
+     "feedbackPct": "99.6",
+     "url": "https://www.ebay.com/itm/407288605083?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item5ed44ae99b:g:-z8AAeSwmHRqzuCB"
     },
     {
      "title": "2026-27 Topps Flagship Premier League Gold Lion SP JJ Gabriel RC Rookie #GL-17",
      "total": 74.99,
      "bids": 0,
      "daysLeft": 0.16,
-     "endDate": "2026-10-12T03:40:11.000Z",
+     "endDate": "2026-10-19T03:40:18.000Z",
      "seller": "grizzzlllyyy",
-     "feedbackPct": "98.8",
-     "url": "https://www.ebay.com/itm/336828263916?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item4e6c876dec:g:c7kAAeSwwHBqueGD"
+     "feedbackPct": "98.9",
+     "url": "https://www.ebay.com/itm/336840536035?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item4e6d42afe3:g:c7kAAeSwwHBqueGD"
     },
     {
-     "title": "2026-27 Topps Flagship Premier League - JJ Gabriel - Manchester Utd - Gold Lion",
-     "total": 11.79,
-     "bids": 6,
-     "daysLeft": 0.36,
-     "endDate": "2026-10-12T08:30:27.000Z",
-     "seller": "kopite_reds",
+     "title": "Topps Premier League Flagship  2026/27 JJ Gabriel Gold Lion RC",
+     "total": 20.5,
+     "bids": 7,
+     "daysLeft": 0.29,
+     "endDate": "2026-10-19T06:47:21.000Z",
+     "seller": "giosmithcards7",
      "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/198689281251?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item2e42cdd4e3:g:uMoAAeSw8qtqw18e"
-    },
-    {
-     "title": "Topps 2026/27 Gold Lion JJ Gabriel GL 17 Rookie Man United EPL",
-     "total": 30.0,
-     "bids": 0,
-     "daysLeft": 0.86,
-     "endDate": "2026-10-12T20:32:57.000Z",
-     "seller": "bak_5665",
-     "feedbackPct": "0.0",
-     "url": "https://www.ebay.com/itm/860012374786?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=itemc83cbb6b02:g:~PEAAeSwRMlqxAlQ"
+     "url": "https://www.ebay.com/itm/366728367209?_skw=JJ+Gabriel+Topps+Premier+League+2026-27+rookie&hash=item5562b6cc69:g:COcAAeSwughqzIH4"
     }
    ]
   },
@@ -1551,19 +1630,32 @@
    "ledger": "football",
    "id": "rayan-rookie",
    "q": "Rayan Bournemouth Topps Premier League 2026-27 rookie",
-   "total": 73,
+   "total": 74,
    "asks": [
     {
-     "title": "2026/27 Topps Premier League - Rayan AFC Bournemouth Rookie (RC) DR-2",
+     "title": "Topps Premier League 2026/27 Rayan AFC Bournemouth Rookie Green Voltage #61",
      "total": 0.0,
      "price": 0.0,
-     "bids": 1,
+     "bids": 2,
      "buying": [
       "AUCTION"
      ],
-     "seller": "pgarci_24",
+     "seller": "chrome-giantcards",
      "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/960044180869?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=itemdf8717a585:g:-AkAAeSwNxRqyTDG"
+     "url": "https://www.ebay.com/itm/800798373783?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=itemba734d7797:g:B9EAAeSwtQtq0QHY"
+    },
+    {
+     "title": "2026/27 Topps Premier League Rayan Rookie RC #61",
+     "total": 0.0,
+     "price": 0.0,
+     "bids": 0,
+     "buying": [
+      "AUCTION",
+      "BEST_OFFER"
+     ],
+     "seller": "btackalack",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/900011144613?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=itemd18cd835a5:g:nMsAAeSwo-Rqzlts"
     },
     {
      "title": "2026-27 Topps Premier League RAYAN True Base RC #61 AFC Bournemouth Brazilian",
@@ -1576,7 +1668,33 @@
      ],
      "seller": "9093jc",
      "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/257788225009?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=item3c056025f1:g:ymkAAeSw24tqvTuI"
+     "url": "https://www.ebay.com/itm/257798982371?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=item3c06044ae3:g:ymkAAeSw24tqvTuI"
+    },
+    {
+     "title": "Topps Premier League Season 2026/27 Rayan AFC Bournemouth #61 Rookie",
+     "total": 0.99,
+     "price": 0.99,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE",
+      "BEST_OFFER"
+     ],
+     "seller": "amimuji5",
+     "feedbackPct": "95.1",
+     "url": "https://www.ebay.com/itm/800798566505?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=itemba73506869:g:x0sAAeSwLv1q0RPx"
+    },
+    {
+     "title": "Topps Premier League 2026/27 Season Rayan Rookie Card RC #61 AFC Bournemouth",
+     "total": 1.0,
+     "price": 1.0,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE",
+      "BEST_OFFER"
+     ],
+     "seller": "cardsbc23",
+     "feedbackPct": "99.6",
+     "url": "https://www.ebay.com/itm/960055543216?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=itemdf87c505b0:g:VvYAAeSwFVVqrblF"
     },
     {
      "title": "2026/27 Topps Flagship Premier League Rayan RC AFC Bournemouth #61",
@@ -1588,96 +1706,59 @@
      ],
      "seller": "mechanic_htx",
      "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/407274538214?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=item5ed37444e6:g:QzsAAeSwkedqtGS-"
-    },
-    {
-     "title": "Rayan - 2026-27 Topps Flagship Premier League PL PARALLEL ROOKIE - #61",
-     "total": 1.25,
-     "price": 0.0,
-     "bids": 0,
-     "buying": [
-      "AUCTION",
-      "BEST_OFFER"
-     ],
-     "seller": "adberg44",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/860015739016?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=itemc83ceec088:g:9CIAAeSwG7pqxQGn"
-    },
-    {
-     "title": "Rayan 2026-27 Topps Premier League RC AFC Bournemouth Card 61",
-     "total": 1.49,
-     "price": 0.0,
-     "bids": 0,
-     "buying": [
-      "AUCTION"
-     ],
-     "seller": "kosmar3131",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/168774651519?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=item274bc0ce7f:g:1AEAAeSwSUlqkEGG"
-    },
-    {
-     "title": "2026-27 Topps Flagship Premier League - Black Edge, Inserts, and Rookies (#1/2)",
-     "total": 2.49,
-     "price": 2.49,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE"
-     ],
-     "seller": "pickjo5",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/158339711738?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=item24ddc842fa:g:-A8AAeSwTD9qtyes"
+     "url": "https://www.ebay.com/itm/407290990212?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=item5ed46f4e84:g:QzsAAeSwkedqtGS-"
     }
    ],
    "auctions": [
     {
-     "title": "2026-27 Topps Premier League Rayan Diamond Rookies Rookie RC #DR 2 Bournemouth",
-     "total": 13.49,
-     "bids": 7,
-     "daysLeft": 0.04,
-     "endDate": "2026-10-12T00:40:00.000Z",
-     "seller": "dcsports87",
-     "feedbackPct": "99.8",
-     "url": "https://www.ebay.com/itm/128118914997?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=item1dd47b7fb5:g:CKYAAeSwO9VqxRAG"
-    },
-    {
-     "title": "Rayan Orange  Rookie RC /25 Bournemouth 2026-27 Topps Premier League",
-     "total": 12.5,
-     "bids": 3,
-     "daysLeft": 1.09,
-     "endDate": "2026-10-13T01:57:47.000Z",
-     "seller": "thevault_jsh",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/206605687514?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=item301aa89ada:g:ddkAAeSw-wtquxpN"
-    },
-    {
-     "title": "2026-27 Topps Flagship Premier League RAYAN Rookie RC Gold Lion Bournemouth #GL5",
-     "total": 24.99,
-     "bids": 1,
-     "daysLeft": 1.14,
-     "endDate": "2026-10-13T03:08:01.000Z",
-     "seller": "scc_consignments",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/307209926108?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=item47872375dc:g:NCEAAeSwm~Fqv2X4"
-    },
-    {
-     "title": "Rayan 2026-27 Topps Premier League RC AFC Bournemouth Card 61",
-     "total": 4.48,
+     "title": "2026-27 Topps Premier League Black Edge Edition Rayan #BE 8 Rookie RC",
+     "total": 12.98,
      "bids": 0,
-     "daysLeft": 1.17,
-     "endDate": "2026-10-13T03:47:28.000Z",
-     "seller": "kosmar3131",
+     "daysLeft": 0.05,
+     "endDate": "2026-10-19T01:06:00.000Z",
+     "seller": "wintersuncards",
      "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/168774651519?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=item274bc0ce7f:g:1AEAAeSwSUlqkEGG"
+     "url": "https://www.ebay.com/itm/377553684894?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=item57e7f4099e:g:PBoAAeSw8wtqxw67"
+    },
+    {
+     "title": "2026/27 Topps Flagship Premier League Rayan RC Gold Lion AFC Bournemouth #GL5",
+     "total": 20.84,
+     "bids": 0,
+     "daysLeft": 0.32,
+     "endDate": "2026-10-19T07:31:16.000Z",
+     "seller": "gong_collectables",
+     "feedbackPct": "99.0",
+     "url": "https://www.ebay.com/itm/257798091425?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=item3c05f6b2a1:g:mh0AAeSw8f5qtN98"
+    },
+    {
+     "title": "2026/27 Topps Premier League Rayan Rookie RC #61",
+     "total": 0.99,
+     "bids": 0,
+     "daysLeft": 1.69,
+     "endDate": "2026-10-20T16:26:50.000Z",
+     "seller": "btackalack",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/900011144613?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=itemd18cd835a5:g:nMsAAeSwo-Rqzlts"
+    },
+    {
+     "title": "Topps Premier League 2026/27 Rayan AFC Bournemouth Rookie Green Voltage #61",
+     "total": 1.25,
+     "bids": 2,
+     "daysLeft": 1.7,
+     "endDate": "2026-10-20T16:45:30.000Z",
+     "seller": "chrome-giantcards",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/800798373783?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=itemba734d7797:g:B9EAAeSwtQtq0QHY"
     },
     {
      "title": "Topps Premier League Rayan Rookie Insert DR 2 AFC Bournemouth Soccer 2026/27",
      "total": 50.0,
      "bids": 0,
      "daysLeft": 1.82,
-     "endDate": "2026-10-13T19:31:03.000Z",
+     "endDate": "2026-10-20T19:31:11.000Z",
      "seller": "regkray101",
      "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/117451629570?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=item1b58a9a402:g:NrYAAeSwsTpqstc3"
+     "url": "https://www.ebay.com/itm/117465064143?_skw=Rayan+Bournemouth+Topps+Premier+League+2026-27+rookie&hash=item1b5976a2cf:g:NrYAAeSwsTpqstc3"
     }
    ]
   },
@@ -1685,8 +1766,21 @@
    "ledger": "football",
    "id": "madjo-rookie",
    "q": "Brian Madjo Topps Premier League 2026-27",
-   "total": 155,
+   "total": 181,
    "asks": [
+    {
+     "title": "2026/27 Topps Flagship Premier League Brian Madjo RC #46 Aston Villa Rookie",
+     "total": 0.0,
+     "price": 0.0,
+     "bids": 0,
+     "buying": [
+      "AUCTION",
+      "BEST_OFFER"
+     ],
+     "seller": "10westcards",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/920039540029?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=itemd636a1453d:g:xMkAAeSwdF5qz6Du"
+    },
     {
      "title": "2026-27 Topps Flagship Premier League - You Pick - #1-250 - Rookies, Stars",
      "total": 0.99,
@@ -1712,6 +1806,18 @@
      "url": "https://www.ebay.com/itm/198684241290?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=item2e4280ed8a:g:ECEAAeSw78VqwGew"
     },
     {
+     "title": "2026-27 Topps Flagship Premier League - Beast Mode #BM-4 Brian Madjo (RC)",
+     "total": 1.0,
+     "price": 1.0,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE"
+     ],
+     "seller": "10highmaintenance",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/227571820403?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=item34fc566773:g:nXgAAeSwogBq09AL"
+    },
+    {
      "title": "Topps Premier League 2026/27 Brian Madjo Rookie RC #46 Aston Villa Soccer",
      "total": 1.0,
      "price": 1.0,
@@ -1725,92 +1831,68 @@
      "url": "https://www.ebay.com/itm/189052184631?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=item2c04636837:g:qt4AAeSwp0JqxR6l"
     },
     {
-     "title": "Brian Madjo 2026-27 Topps Premier League RC Aston Villa Card 46",
-     "total": 1.49,
+     "title": "2026-27 Topps Flagship Premier League Brian Madjo Beast Mode Refractor RC Rookie",
+     "total": 1.36,
      "price": 0.0,
      "bids": 0,
      "buying": [
       "AUCTION"
      ],
-     "seller": "kosmar3131",
+     "seller": "burch1975",
      "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/168774600634?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=item274bc007ba:g:4VEAAeSwPGdqs0OK"
-    },
-    {
-     "title": "2026-27 Topps Flagship Premier League Soccer Pick Base #1-150 - Buy More & Save",
-     "total": 1.84,
-     "price": 1.49,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE"
-     ],
-     "seller": "sirius*",
-     "feedbackPct": "99.9",
-     "url": "https://www.ebay.com/itm/407276868131?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=item5ed397d223:g:UdgAAeSw0zVqx-hq"
-    },
-    {
-     "title": "2026-27 Topps Flagship Premier League #46 Brian Madjo",
-     "total": 1.89,
-     "price": 1.89,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE"
-     ],
-     "seller": "sgoodbar",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/189053550015?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=item2c04783dbf:g:IicAAeSwMtRqxZgC"
+     "url": "https://www.ebay.com/itm/960057251305?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=itemdf87df15e9:g:7ocAAeSwV71qvsPN"
     }
    ],
    "auctions": [
     {
-     "title": "2026-27 Topps Premier League Brian Madjo Perfect Storm RC #PS 2 Aston Villa",
-     "total": 137.49,
-     "bids": 19,
-     "daysLeft": 0.02,
-     "endDate": "2026-10-12T00:12:00.000Z",
-     "seller": "dcsports87",
-     "feedbackPct": "99.8",
-     "url": "https://www.ebay.com/itm/128118537377?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=item1dd475bca1:g:BscAAeSw8DZqxOoR"
-    },
-    {
-     "title": "2026-27 Topps Flagship Premier League Brian Madjo Beast Mode Refractor RC Rookie",
-     "total": 4.36,
-     "bids": 0,
-     "daysLeft": 0.05,
-     "endDate": "2026-10-12T01:05:01.000Z",
-     "seller": "burch1975",
-     "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/158377604248?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=item24e00a7498:g:7ocAAeSwV71qvsPN"
-    },
-    {
-     "title": "2026-27 Topps Premier League Brian Madjo RC Purple Parallel #46 Aston Villa",
-     "total": 10.89,
+     "title": "2026-27 Topps Flagship Premier League Brian Madjo Rookie Beast Mode #BM4 Lot 10",
+     "total": 24.99,
      "bids": 1,
-     "daysLeft": 0.08,
-     "endDate": "2026-10-12T01:37:23.000Z",
-     "seller": "ouyi889",
+     "daysLeft": 0.12,
+     "endDate": "2026-10-19T02:43:52.000Z",
+     "seller": "topstox-official",
+     "feedbackPct": "99.6",
+     "url": "https://www.ebay.com/itm/366732670268?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=item5562f8753c:g:LNgAAeSwhPpqzuxm"
+    },
+    {
+     "title": "Topps Premier League Soccer Brian Madjo Aston Villa 2026-27 DR 1 RC",
+     "total": 19.99,
+     "bids": 0,
+     "daysLeft": 0.91,
+     "endDate": "2026-10-19T21:46:07.000Z",
+     "seller": "jqcardsfc",
      "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/298739193632?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=item458e3e5720:g:cuMAAeSw4GFqxaJS"
+     "url": "https://www.ebay.com/itm/820232333595?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=itembef9a8291b:g:rz8AAeSwMaJqsaCp"
     },
     {
-     "title": "Brian Madjo 2026-27 Topps Flagship Premier League Diamond RC #DR 1 -H4",
-     "total": 20.49,
-     "bids": 5,
-     "daysLeft": 0.88,
-     "endDate": "2026-10-12T20:59:29.000Z",
-     "seller": "nc81cards",
-     "feedbackPct": "99.9",
-     "url": "https://www.ebay.com/itm/298741193523?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=item458e5cdb33:g:3LQAAeSwhlNqxrLw"
-    },
-    {
-     "title": "Brian Madjo 2026-27 Topps Flagship Premier League Diamond RC #DR 1 -vk4",
-     "total": 14.24,
+     "title": "Brian Madjo 2026-27 Topps Flagship Premier League Diamond RC #DR 1 -zc3",
+     "total": 11.24,
      "bids": 2,
-     "daysLeft": 0.96,
-     "endDate": "2026-10-12T22:50:43.000Z",
+     "daysLeft": 1.04,
+     "endDate": "2026-10-20T00:54:58.000Z",
      "seller": "nc81cards",
      "feedbackPct": "99.9",
-     "url": "https://www.ebay.com/itm/298741354759?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=item458e5f5107:g:FKIAAeSwQZZqxs0C"
+     "url": "https://www.ebay.com/itm/900014096881?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=itemd18d0541f1:g:dcwAAeSwuxFq0CSj"
+    },
+    {
+     "title": "Brian Madjo 2026-27 Topps Flagship Premier League Diamond RC #DR 1 -hb4",
+     "total": 10.98,
+     "bids": 1,
+     "daysLeft": 1.84,
+     "endDate": "2026-10-20T20:06:54.000Z",
+     "seller": "nc81cards",
+     "feedbackPct": "99.9",
+     "url": "https://www.ebay.com/itm/900015805471?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=itemd18d1f541f:g:h84AAeSwlQ9q0TKf"
+    },
+    {
+     "title": "Brian Madjo 2026-27 Topps Flagship Premier League Diamond RC #DR 1 -sh6",
+     "total": 10.98,
+     "bids": 1,
+     "daysLeft": 1.85,
+     "endDate": "2026-10-20T20:16:13.000Z",
+     "seller": "nc81cards",
+     "feedbackPct": "99.9",
+     "url": "https://www.ebay.com/itm/900015829680?_skw=Brian+Madjo+Topps+Premier+League+2026-27&hash=itemd18d1fb2b0:g:3asAAeSwI4dq0TTN"
     }
    ]
   },
@@ -1821,41 +1903,41 @@
    "total": 22,
    "asks": [
     {
-     "title": "2025-26 Topps Finest UEFA Club Competitions Hobby Box Factory Sealed",
+     "title": "2025-26 TOPPS FINEST UEFA Club Competitions HOBBY BOX 2 AUTOS GUARANTEED!",
      "total": 0.0,
      "price": 0.0,
-     "bids": 12,
+     "bids": 3,
      "buying": [
       "AUCTION"
      ],
-     "seller": "livcards",
+     "seller": "drshogun",
      "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/267808362192?_skw=2025-26+Topps+Finest+UEFA+Club+Competitions+hobby+box&hash=item3e5a9f4ed0:g:Y4sAAeSw9UZqyDiE"
+     "url": "https://www.ebay.com/itm/880017828133?_skw=2025-26+Topps+Finest+UEFA+Club+Competitions+hobby+box&hash=itemcce5266925:g:SVIAAeSwssFq0B-E"
     },
     {
-     "title": "2025/26 Topps UEFA Club Competitions Finest Soccer Hobby Box",
-     "total": 9.99,
+     "title": "2025-26 TOPPS FINEST UEFA Club Competitions HOBBY BOX (2 AUTOs) UCC Soccer New",
+     "total": 0.0,
      "price": 0.0,
-     "bids": 16,
+     "bids": 3,
      "buying": [
       "AUCTION"
      ],
-     "seller": "greatbuys-usa",
-     "feedbackPct": "99.8",
-     "url": "https://www.ebay.com/itm/198667474645?_skw=2025-26+Topps+Finest+UEFA+Club+Competitions+hobby+box&hash=item2e418116d5:g:AzgAAeSwlQNqtw7K"
+     "seller": "drshogun",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/880017827428?_skw=2025-26+Topps+Finest+UEFA+Club+Competitions+hobby+box&hash=itemcce5266664:g:SVIAAeSwssFq0B-E"
     },
     {
-     "title": "2025-26 Topps Finest UEFA Club Competitions Hobby Box Factory Sealed",
-     "total": 398.0,
-     "price": 398.0,
-     "bids": null,
+     "title": "2025-26 TOPPS FINEST UEFA Club Competitions HOBBY BOX TWO AUTOS!!!!!",
+     "total": 390.0,
+     "price": 390.0,
+     "bids": 0,
      "buying": [
       "FIXED_PRICE",
-      "BEST_OFFER"
+      "AUCTION"
      ],
-     "seller": "godbearltt",
+     "seller": "drshogun",
      "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/820175596717?_skw=2025-26+Topps+Finest+UEFA+Club+Competitions+hobby+box&hash=itembef6466cad:g:i~QAAeSwbdtquB3I"
+     "url": "https://www.ebay.com/itm/880017828536?_skw=2025-26+Topps+Finest+UEFA+Club+Competitions+hobby+box&hash=itemcce5266ab8:g:SVIAAeSwssFq0B-E"
     },
     {
      "title": "2025-26 TOPPS FINEST UEFA Club Competitions HOBBY BOX (2 AUTOs) UCC Soccer New",
@@ -1870,18 +1952,6 @@
      "url": "https://www.ebay.com/itm/178282333851?_skw=2025-26+Topps+Finest+UEFA+Club+Competitions+hobby+box&hash=item298274869b:g:-rAAAeSwwgpqSXtU"
     },
     {
-     "title": "2025-26 TOPPS FINEST UEFA Club Competitions HOBBY BOX (2 AUTOs) Ready To Ship",
-     "total": 399.95,
-     "price": 399.95,
-     "bids": null,
-     "buying": [
-      "FIXED_PRICE"
-     ],
-     "seller": "djedbust",
-     "feedbackPct": "99.4",
-     "url": "https://www.ebay.com/itm/227384185298?_skw=2025-26+Topps+Finest+UEFA+Club+Competitions+hobby+box&hash=item34f12751d2:g:WKUAAeSw2UdqKxTX"
-    },
-    {
      "title": "2025-26 Topps Finest UEFA Club Competitions Hobby Box Factory Sealed",
      "total": 400.0,
      "price": 400.0,
@@ -1890,31 +1960,54 @@
       "FIXED_PRICE",
       "BEST_OFFER"
      ],
-     "seller": "rexyscollectibles",
+     "seller": "pollitos_sportscards",
+     "feedbackPct": "0.0",
+     "url": "https://www.ebay.com/itm/298645560724?_skw=2025-26+Topps+Finest+UEFA+Club+Competitions+hobby+box&hash=item4588a99d94:g:rEsAAeSw61RqmxQO"
+    },
+    {
+     "title": "2025-26 Topps Finest UEFA Club Competitions Hobby Box Brand New Factory Sealed",
+     "total": 403.99,
+     "price": 403.99,
+     "bids": null,
+     "buying": [
+      "FIXED_PRICE",
+      "BEST_OFFER"
+     ],
+     "seller": "danilo_ayala",
      "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/227371638594?_skw=2025-26+Topps+Finest+UEFA+Club+Competitions+hobby+box&hash=item34f067df42:g:iJwAAeSwXslqILoJ"
+     "url": "https://www.ebay.com/itm/407256342188?_skw=2025-26+Topps+Finest+UEFA+Club+Competitions+hobby+box&hash=item5ed25e9eac:g:atsAAeSwFY1qvJc~"
     }
    ],
    "auctions": [
     {
-     "title": "2025/26 Topps UEFA Club Competitions Finest Soccer Hobby Box",
-     "total": 60.99,
-     "bids": 16,
-     "daysLeft": 4.04,
-     "endDate": "2026-10-16T00:39:00.000Z",
-     "seller": "greatbuys-usa",
-     "feedbackPct": "99.8",
-     "url": "https://www.ebay.com/itm/198667474645?_skw=2025-26+Topps+Finest+UEFA+Club+Competitions+hobby+box&hash=item2e418116d5:g:AzgAAeSwlQNqtw7K"
+     "title": "2025-26 TOPPS FINEST UEFA Club Competitions HOBBY BOX (2 AUTOs) UCC Soccer New",
+     "total": 285.0,
+     "bids": 3,
+     "daysLeft": 3.03,
+     "endDate": "2026-10-22T00:36:30.000Z",
+     "seller": "drshogun",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/880017827428?_skw=2025-26+Topps+Finest+UEFA+Club+Competitions+hobby+box&hash=itemcce5266664:g:SVIAAeSwssFq0B-E"
     },
     {
-     "title": "2025-26 Topps Finest UEFA Club Competitions Hobby Box Factory Sealed",
-     "total": 232.5,
-     "bids": 12,
-     "daysLeft": 4.04,
-     "endDate": "2026-10-16T00:45:45.000Z",
-     "seller": "livcards",
+     "title": "2025-26 TOPPS FINEST UEFA Club Competitions HOBBY BOX 2 AUTOS GUARANTEED!",
+     "total": 280.0,
+     "bids": 3,
+     "daysLeft": 3.03,
+     "endDate": "2026-10-22T00:37:42.000Z",
+     "seller": "drshogun",
      "feedbackPct": "100.0",
-     "url": "https://www.ebay.com/itm/267808362192?_skw=2025-26+Topps+Finest+UEFA+Club+Competitions+hobby+box&hash=item3e5a9f4ed0:g:Y4sAAeSw9UZqyDiE"
+     "url": "https://www.ebay.com/itm/880017828133?_skw=2025-26+Topps+Finest+UEFA+Club+Competitions+hobby+box&hash=itemcce5266925:g:SVIAAeSwssFq0B-E"
+    },
+    {
+     "title": "2025-26 TOPPS FINEST UEFA Club Competitions HOBBY BOX TWO AUTOS!!!!!",
+     "total": 270.0,
+     "bids": 0,
+     "daysLeft": 3.03,
+     "endDate": "2026-10-22T00:38:16.000Z",
+     "seller": "drshogun",
+     "feedbackPct": "100.0",
+     "url": "https://www.ebay.com/itm/880017828536?_skw=2025-26+Topps+Finest+UEFA+Club+Competitions+hobby+box&hash=itemcce5266ab8:g:SVIAAeSwssFq0B-E"
     }
    ]
   },
@@ -1955,7 +2048,7 @@
    "live": true,
    "price": 11.99,
    "title": "1995 Cardz WCW Main Event STUNNING STEVE AUSTIN RC ROOKIE #29 WWF STONE COLD ",
-   "url": "https://www.ebay.com/itm/178137020150?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2FY%2BXURXn3O%2BJo6mhKCHvAw7QYLLQQhFXSiKoQxwdPSXCLlfAQDHSluRwb4u48Qd0QAt2zz1eVZY3ZwNJqKQy%2Ftfu1o64e8sZUrsoGFKmuamkyH0wOVssN%2Fo7%2B9IC2OHUaTlGwpZXApAu7W8QANZmWeuV3lpUoPGk%2FFb5CdxSSfnbvgf1GBUKrp00zJWh8nshs%3D",
+   "url": "https://www.ebay.com/itm/178137020150?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2FY%2BXURXn3O%2BJo6mhKCHvAw7QYLLQQhFXSiKoQxwdPSXPYJAzfife%2BUDcl8%2B3oFBDuMsFe11HUghCn%2FQIkcaFdl6mMOdZBnDP61Ezk08YdSFKj%2BgjSVuySOpV1oyjDA4UtTJMm4EkzFxlqFKucPalbNAELgI3%2FXllmKkwBgKpUPGnTXGnW%2FlVaGkPg9%2BvrKjpo%3D",
    "returnsAccepted": false
   },
   {
