@@ -57,12 +57,15 @@ def norm_entries(raw):
         out.append(e)
     return out
 def core_tokens(s): return [w for w in re.findall(r"[a-z0-9]{3,}", (s or "").lower()) if w not in GENERIC]
+TYPE = {"box", "collection", "premium", "display", "binder", "special", "tin", "challenge", "case", "insert", "pack", "set", "jumbo", "oversized", "oversize"}
 def relevant(title, ent):
     t = title.lower()
+    tt = set(re.findall(r"[a-z]+", (ent.get("title") or "").lower())) & TYPE
+    if tt and not (tt & set(re.findall(r"[a-z]+", t)) or re.search(r"jumbo|oversize|box|display|collection", t)): return False
     names = [ent.get("title") or ""] + ([ent["orig"]] if isinstance(ent.get("orig"), str) else list(ent.get("orig") or []))
     for n in names:
         tok = core_tokens(n)
-        if tok and sum(1 for w in tok if w in t) >= max(1, round(0.6 * len(tok))): return True
+        if tok and sum(1 for w in tok if w in t) >= max(1, round(0.8 * len(tok))): return True
     return False
 def lang_ok(title, lang):
     lang = (lang or "english").lower().split(";")[0].strip()
@@ -77,7 +80,8 @@ def record(h, ent, mk, q, lang):
     if price is None: return None
     so = (h.get("shippingOptions") or [{}])[0].get("shippingCost"); ship = usd(so) if so else None
     allin = round((price + (ship or 0)) * TAX, 2)
-    tgt = ent.get("targetAllIn"); s = h.get("seller") or {}
+    tgt = ent.get("targetAllIn"); ref = tgt or ent.get("price")
+    if allin < (0.25 * ref if ref else 10): return None       # accessories / $1 placeholder listings; a real jumbo item never sells this far below market; s = h.get("seller") or {}
     return {"id": ent["id"], "itemId": h.get("itemId"), "title": t, "price": price, "shipping": ship, "shipUnknown": ship is None, "allIn": allin,
             "format": "auction" if auc else "buy-it-now", "bids": h.get("bidCount") if auc else None, "ends": h.get("itemEndDate"), "seller": s.get("username"),
             "feedbackPct": s.get("feedbackPercentage"), "feedbackScore": s.get("feedbackScore"), "location": (h.get("itemLocation") or {}).get("country"),
@@ -109,8 +113,10 @@ def main():
                 if RL["hit"]: break
                 j = get("https://api.ebay.com/buy/browse/v1/item_summary/search?" + urllib.parse.urlencode({"q": q, "filter": filt, "limit": 50, "sort": "price"}), {**H0, "X-EBAY-C-MARKETPLACE-ID": mk})
                 time.sleep(0.3)
+                pm = DIAG.setdefault("perMarket", {}).setdefault(mk, {"queries": 0, "raw": 0, "kept": 0}); pm["queries"] += 1; pm["raw"] += len(j.get("itemSummaries", []))
                 for h in j.get("itemSummaries", []):
                     r = record(h, ent, mk, q, lang)
+                    if r: pm["kept"] += 1
                     if r and r["itemId"] not in found: found[r["itemId"]] = r
         if RL["hit"]: break           # entry only partially searched: do not record it as checked
         for iid in [i for i, r in keep.items() if r["id"] == eid]: keep.pop(iid)
@@ -129,7 +135,7 @@ def main():
     live = {r["id"] for r in listings}
     cov.update({"checkedAt": TODAY, "status": "rate limited (eBay 429): sweep stopped early, remaining entries rotate to the next run" if RL["hit"] else "ok", "entriesTotal": len(ids),
                 "entriesChecked": len(ids) - len(never), "entriesCheckedThisRun": len(swept), "entriesWithLiveListing": len(live & ids), "entriesNoHitIn14Days": len(nohit), "neverChecked": len(never),
-                "noHit14DayIds": sorted(nohit), "markets": "by language: English US/GB/CA/AU; French FR/DE/IT/ES; others all 8", "apiCalls": DIAG["calls"], "errors": DIAG["errors"], "maxCalls": MAX_CALLS})
+                "noHit14DayIds": sorted(nohit), "markets": "by language: English US/GB/CA/AU; French FR/DE/IT/ES; others all 8", "apiCalls": DIAG["calls"], "errors": DIAG["errors"], "perMarket": DIAG.get("perMarket"), "maxCalls": MAX_CALLS})
     json.dump(cov, open(os.path.join(ROOT, "jumbo_coverage.json"), "w"), indent=1)
     print(cov["status"], "swept", len(swept), "of", len(ids), "listings", len(listings), "calls", DIAG["calls"])
 if __name__ == "__main__": main()
