@@ -1,0 +1,15 @@
+{
+ "items": {},
+ "generated": "2026-10-18",
+ "eligibleQueries": 277,
+ "queriedThisRun": 0,
+ "maxPerRun": 120,
+ "skipped": {
+  "noId": 339,
+  "under5": 103,
+  "noMarket": 104
+ },
+ "rateLimited": true,
+ "note": "eBay 429: run stopped early, remaining queries rotate to next run",
+ "rules": "sealed -> box name; card -> name + jumbo + number; skip no id / market < $5; target 85% ($100-299), 90% ($5-99), 80% ($300+) of ledger jumbo market; all-in = (price or current bid + shipping) x1.10"
+}
