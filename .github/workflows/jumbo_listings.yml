@@ -1,7 +1,7 @@
 name: Jumbo eBay listings sweep
 on:
   schedule:
-    - cron: "40 11 * * 1-6"     # daily: least-recently-swept entries, 1800-call budget
+    - cron: "40 11 * * 1-6"     # daily: least-recently-swept entries, 2300-call budget
     - cron: "10 13 * * 0"       # Sunday: weekly full sweep attempt, larger budget
   workflow_dispatch:
 permissions:
@@ -18,7 +18,7 @@ jobs:
         env:
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
-          MAX_CALLS: ${{ github.event.schedule == '10 13 * * 0' && '3500' || '1800' }}
+          MAX_CALLS: ${{ github.event.schedule == '10 13 * * 0' && '3500' || '2300' }}
       - name: Commit only if changed
         run: |
           git config user.name "price-bot"

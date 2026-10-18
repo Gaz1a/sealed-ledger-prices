@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 """Daily + weekly eBay sweep for every Jumbo watch entry -> jumbo_listings.json, jumbo_coverage.json.
-Input jumbo_watch_queries.json (list or {id: entry}); entry fields used: id, queries[] (search strings), orig (native-language name, string or list), targetAllIn (USD), lang (optional; else jumbo_ids.json), title (optional).
-Searches eBay Browse API on every marketplace in MARKETS (Buy It Now + auctions, ships to US), same credentials/route as bk_booklets.py / scan_ebay_jumbo.py.
+Input jumbo_watch_queries.json {generated, rule, entries:[...]}; entry fields used: id, title, orig (native-language name, '' for English), lang, price, targetAllIn (USD, may be null). The file's web-search `queries` (site: operators) are ignored.
+Search term = orig if set else title (+ 'pokemon' for title searches); a listing must match the title or orig. Marketplaces by language: English US/GB/CA/AU; French FR/DE/IT/ES; Korean/Japanese/Portuguese/other: all 8.
+Buy It Now + auctions, ships to US, same credentials/route as bk_booklets.py / scan_ebay_jumbo.py.
 Quota guard: each run takes the least-recently-swept entries until MAX_CALLS is used, stops at the first eBay 429 (so a full sweep may take several days when the API quota is tight).
 all-in = (item or current bid + shipping) x 1.10. Listings are unverified asks/bids, not sold prices."""
 import json, os, re, sys, time, base64, datetime, urllib.request, urllib.parse, urllib.error
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CID, CSEC = os.environ.get("EBAY_CLIENT_ID"), os.environ.get("EBAY_CLIENT_SECRET")
 MAX_CALLS = int(os.environ.get("MAX_CALLS", "1800"))
-MARKETS = [m for m in os.environ.get("MARKETS", "EBAY_US,EBAY_GB,EBAY_DE,EBAY_ES,EBAY_IT,EBAY_FR,EBAY_CA,EBAY_AU").split(",") if m]
+ALL = ["EBAY_US", "EBAY_GB", "EBAY_DE", "EBAY_ES", "EBAY_IT", "EBAY_FR", "EBAY_CA", "EBAY_AU"]
+BY_LANG = {"english": ["EBAY_US", "EBAY_GB", "EBAY_CA", "EBAY_AU"], "french": ["EBAY_FR", "EBAY_DE", "EBAY_IT", "EBAY_ES"]}
+MARKETS = ALL
+def markets_for(lang): return BY_LANG.get((lang or "english").lower().split(";")[0].strip(), ALL)
 TAX, NOW = 1.10, datetime.datetime.utcnow()
 TODAY = NOW.strftime("%Y-%m-%d")
 SHIP_TO = {"X-EBAY-C-ENDUSERCTX": "contextualLocation=country=US,zip=91505"}
@@ -44,6 +48,7 @@ def usd(p):
     rate = FX.get(p.get("currency", "USD"))
     return round(float(p["value"]) * rate, 2) if rate else None
 def norm_entries(raw):
+    if isinstance(raw, dict) and isinstance(raw.get("entries"), list): raw = raw["entries"]
     items = list(raw.items()) if isinstance(raw, dict) else [(e.get("id"), e) for e in raw]
     out = []
     for k, e in items:
@@ -77,7 +82,7 @@ def record(h, ent, mk, q, lang):
             "format": "auction" if auc else "buy-it-now", "bids": h.get("bidCount") if auc else None, "ends": h.get("itemEndDate"), "seller": s.get("username"),
             "feedbackPct": s.get("feedbackPercentage"), "feedbackScore": s.get("feedbackScore"), "location": (h.get("itemLocation") or {}).get("country"),
             "marketplace": mk, "query": q, "condition": h.get("condition"), "url": (h.get("itemWebUrl") or "").split("?")[0],
-            "underTarget": bool(tgt) and allin <= tgt, "targetAllIn": tgt, "seen": TODAY}
+            "underTarget": (allin <= tgt) if tgt else None, "discovery": not tgt, "targetAllIn": tgt, "seen": TODAY}
 def main():
     ents = norm_entries(ld("jumbo_watch_queries.json", []))
     cov = ld("jumbo_coverage.json", {"entries": {}})
@@ -88,19 +93,18 @@ def main():
     if not (CID and CSEC): print("no eBay credentials"); return
     load_fx(); H0 = {"Authorization": "Bearer " + token(), **SHIP_TO}
     st = cov.setdefault("entries", {})
-    order = sorted(ents, key=lambda e: (st.get(e["id"], {}).get("lastChecked") or "", e["id"]))
+    order = sorted(ents, key=lambda e: (st.get(e["id"], {}).get("lastChecked") or "", e.get("price") is not None, -(e.get("price") or 0), e["id"]))      # least recently swept first; within that, unpriced entries, then highest price first
     swept = []
     for ent in order:
         if RL["hit"] or DIAG["calls"] >= MAX_CALLS: break
         eid = ent["id"]; lang = ent.get("lang") or langs.get(eid) or (cats.get(eid) or {}).get("lang")
         ent.setdefault("title", (cats.get(eid) or {}).get("title"))
-        qs = list(ent.get("queries") or [])
-        orig = ent.get("orig"); qs += ([orig] if isinstance(orig, str) else list(orig or []))
-        if not qs: qs = [ent["title"]] if ent.get("title") else []
-        tgt = ent.get("targetAllIn"); cap = max(60, round((tgt or 20) * 3))
-        filt = f"price:[1..{cap}],priceCurrency:USD,buyingOptions:{{FIXED_PRICE|AUCTION}},deliveryCountry:US"
+        orig = ent.get("orig"); term = orig if isinstance(orig, str) and orig.strip() else ((ent.get("title") or "") + " pokemon")
+        qs = [term] if term.strip() else []
+        tgt = ent.get("targetAllIn"); ref = tgt or ent.get("price")
+        filt = (f"price:[1..{max(60, round(ref * 3))}]," if ref else "price:[1..5000],") + "priceCurrency:USD,buyingOptions:{FIXED_PRICE|AUCTION},deliveryCountry:US"
         found = {}
-        for mk in MARKETS:
+        for mk in markets_for(lang):
             for q in dict.fromkeys(qs):
                 if RL["hit"]: break
                 j = get("https://api.ebay.com/buy/browse/v1/item_summary/search?" + urllib.parse.urlencode({"q": q, "filter": filt, "limit": 50, "sort": "price"}), {**H0, "X-EBAY-C-MARKETPLACE-ID": mk})
@@ -117,7 +121,7 @@ def main():
     listings = sorted(keep.values(), key=lambda r: (not r["underTarget"], r["allIn"]))
     changed = {r["itemId"]: (r["allIn"], r["bids"]) for r in listings} != {r["itemId"]: (r["allIn"], r.get("bids")) for r in old.get("listings", [])}
     if changed or not old.get("generated"):
-        json.dump({"generated": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"), "listings": listings, "underTarget": sum(1 for r in listings if r["underTarget"]),
+        json.dump({"generated": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"), "listings": listings, "underTarget": sum(1 for r in listings if r["underTarget"]), "discovery": sum(1 for r in listings if r.get("discovery")),
                    "note": "eBay asks / current bids, unverified; all-in = (price or current bid + shipping) x 1.10; underTarget compares all-in with the entry's targetAllIn"}, open(os.path.join(ROOT, "jumbo_listings.json"), "w"), indent=1)
     ids = {e["id"] for e in ents}; cutoff = (NOW - datetime.timedelta(days=14)).strftime("%Y-%m-%d")
     nohit = [i for i in ids if (st.get(i, {}).get("lastHit") or "") < cutoff and (st.get(i, {}).get("lastChecked"))]
@@ -125,7 +129,7 @@ def main():
     live = {r["id"] for r in listings}
     cov.update({"checkedAt": TODAY, "status": "rate limited (eBay 429): sweep stopped early, remaining entries rotate to the next run" if RL["hit"] else "ok", "entriesTotal": len(ids),
                 "entriesChecked": len(ids) - len(never), "entriesCheckedThisRun": len(swept), "entriesWithLiveListing": len(live & ids), "entriesNoHitIn14Days": len(nohit), "neverChecked": len(never),
-                "noHit14DayIds": sorted(nohit), "markets": MARKETS, "apiCalls": DIAG["calls"], "errors": DIAG["errors"], "maxCalls": MAX_CALLS})
+                "noHit14DayIds": sorted(nohit), "markets": "by language: English US/GB/CA/AU; French FR/DE/IT/ES; others all 8", "apiCalls": DIAG["calls"], "errors": DIAG["errors"], "maxCalls": MAX_CALLS})
     json.dump(cov, open(os.path.join(ROOT, "jumbo_coverage.json"), "w"), indent=1)
     print(cov["status"], "swept", len(swept), "of", len(ids), "listings", len(listings), "calls", DIAG["calls"])
 if __name__ == "__main__": main()
