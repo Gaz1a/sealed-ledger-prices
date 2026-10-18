@@ -1,0 +1,29 @@
+name: Jumbo eBay listings sweep
+on:
+  schedule:
+    - cron: "40 11 * * 1-6"     # daily: least-recently-swept entries, 1800-call budget
+    - cron: "10 13 * * 0"       # Sunday: weekly full sweep attempt, larger budget
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/jumbo_listings.py
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+          MAX_CALLS: ${{ github.event.schedule == '10 13 * * 0' && '3500' || '1800' }}
+      - name: Commit only if changed
+        run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add -f jumbo_listings.json jumbo_coverage.json
+          git diff --cached --quiet || git commit -m "jumbo listings sweep $(date -u +%F)"
+          git pull --rebase
+          git push
