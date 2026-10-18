@@ -13969,5 +13969,22 @@
  "run": {
   "errors": [],
   "stopped": null
+ },
+ "jumbo": {
+  "generated": "2026-10-18",
+  "partial": false,
+  "stopped": null,
+  "units": "USD (API returns cents; converted /100)",
+  "scope": "jumbo_pc_scope.csv (entries with a TCGplayer id but no current TCGplayer market; entries with no ids skipped)",
+  "note": "PriceCharting estimates, unverified. ungraded = loose-price (sealed price for sealed products). Data licensed for internal use only.",
+  "stats": {
+   "scope": 0,
+   "matched": 0,
+   "unmatched": 0,
+   "tcgIdMatches": 0,
+   "nameMatches": 0,
+   "apiCalls": 0
+  },
+  "items": {}
  }
 }
