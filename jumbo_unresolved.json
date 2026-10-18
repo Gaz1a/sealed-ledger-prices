@@ -64229,13 +64229,15 @@
    "problem": "no TCGplayer listing found by exact name"
   },
   "card": {
-   "productId": 210853,
-   "basis": "unique-name-in-Jumbo-Cards (confirm print)",
+   "productId": null,
+   "basis": null,
    "market": null,
-   "date": "2026-10-18",
-   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
+   "date": null,
+   "source": null,
    "history": [],
-   "problem": "listing found but no priced row"
+   "candidates": [],
+   "candidateRange": null,
+   "problem": "No TCGplayer id. 210853 is the 2002/2003 English box topper used by the Expedition/Skyridge display entries (Gaz research); the auto-guess was wrong. Do not price."
   },
   "refs": null,
   "cardmarketIds": null,
@@ -64458,22 +64460,15 @@
    "problem": "no TCGplayer listing found by exact name"
   },
   "card": {
-   "productId": 210845,
-   "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 99.99,
-   "date": "2026-10-18",
-   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
-   "history": [
-    [
-     "2026-10-17",
-     99.99
-    ],
-    [
-     "2026-10-18",
-     99.99
-    ]
-   ],
-   "problem": null
+   "productId": null,
+   "basis": null,
+   "market": null,
+   "date": null,
+   "source": null,
+   "history": [],
+   "candidates": [],
+   "candidateRange": null,
+   "problem": "No TCGplayer id. 210845 is the 2002/2003 English box topper used by the Expedition/Skyridge display entries (Gaz research); the auto-guess was wrong. Do not price."
   },
   "refs": null,
   "cardmarketIds": null,
