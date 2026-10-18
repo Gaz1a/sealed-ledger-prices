@@ -66,7 +66,7 @@ def accept(p, row, kind, qname, grp):
     if rd[:4].isdigit() and abs(int(rd[:4]) - int(row["year"])) > 1: return "year"
     return None
 def main():
-    rows = list(csv.DictReader(open(os.path.join(ROOT, "jumbo_pc_scope.csv"), encoding="utf-8")))
+    rows = list(csv.DictReader(open(os.path.join(ROOT, "jumbo_pc_scope.csv"), encoding="utf-8-sig")))
     rows = [r for r in rows if r.get("ledger id") and str(r.get("TCGplayer id", "")).strip().isdigit()]
     rows = [{"jid": r["ledger id"], "box": r["box"], "kind": r["which part"], "language": r["language"], "year": r["year"], "tcg": int(r["TCGplayer id"]),
              "q": urllib.parse.parse_qs(urllib.parse.urlparse(r["PriceCharting search"]).query).get("q", [""])[0]} for r in rows]
