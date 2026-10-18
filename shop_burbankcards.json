@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-17T14:15:03Z",
+ "generated": "2026-10-18T14:15:34Z",
  "shop": "https://burbankcards.com",
- "sealedCatalogSize": 263,
+ "sealedCatalogSize": 265,
  "checked": 54,
- "matched": 7,
- "unmatched": 47,
+ "matched": 6,
+ "unmatched": 48,
  "deals": [
   {
    "id": "s-fur-mewtwo",
@@ -14,7 +14,7 @@
    "ceiling": 60,
    "shopPrice": 50.0,
    "shopTitle": "2026 Pokemon 30th Celebration Futuristic Rare #157/128 Mewtwo ex",
-   "url": "https://burbankcards.com/products/handle284586?_pos=7&_psq=Mewtwo+ex+Futuristic+Rare+157%2F128+30th+Celebration&_psid=a925ebbdf&_ss=e",
+   "url": "https://burbankcards.com/products/handle284586?_pos=5&_psq=Mewtwo+ex+Futuristic+Rare+157%2F128+30th+Celebration&_psid=414532680&_ss=e",
    "deal": true,
    "overCeilingBy": null
   },
@@ -26,7 +26,7 @@
    "ceiling": 69.72,
    "shopPrice": 10.0,
    "shopTitle": "2021 Pokemon Sword & Shield Celebrations Classic Collection #15/102 Venusaur",
-   "url": "https://burbankcards.com/products/handle273922?_pos=3&_psq=Venusaur+15%2F102+Base+Set&_psid=85c350d64&_ss=e",
+   "url": "https://burbankcards.com/products/handle273861?_pos=3&_psq=Venusaur+15%2F102+Base+Set&_psid=2038ff091&_ss=e",
    "deal": true,
    "overCeilingBy": null
   }
@@ -44,18 +44,6 @@
    "overCeilingBy": 94.95
   },
   {
-   "id": "s-30-sir-sylveon",
-   "kind": "chase-single",
-   "name": "Sylveon ex SIR",
-   "set": "30th Celebration",
-   "ceiling": 40,
-   "shopPrice": 50.0,
-   "shopTitle": "2026 Pokemon 30th Celebration Special Illustration Rare #153/128 Sylveon ex",
-   "url": "https://burbankcards.com/products/handle284592?_pos=2&_psq=Sylveon+ex+SIR+153%2F128+30th+Celebration&_psid=95bb436bb&_ss=e",
-   "deal": false,
-   "overCeilingBy": 10.0
-  },
-  {
    "id": "s-fur-mew",
    "kind": "chase-single",
    "name": "Mew ex Futuristic Rare",
@@ -63,7 +51,7 @@
    "ceiling": 90,
    "shopPrice": 100.0,
    "shopTitle": "2026 Pokemon 30th Celebration Futuristic Rare #158/128 Mew ex",
-   "url": "https://burbankcards.com/products/handle284614?_pos=6&_psq=Mew+ex+Futuristic+Rare+158%2F128+30th+Celebration&_psid=a742470e0&_ss=e",
+   "url": "https://burbankcards.com/products/handle284615?_pos=4&_psq=Mew+ex+Futuristic+Rare+158%2F128+30th+Celebration&_psid=6d2b784c1&_ss=e",
    "deal": false,
    "overCeilingBy": 10.0
   },
@@ -75,7 +63,7 @@
    "ceiling": 8.52,
    "shopPrice": 11.0,
    "shopTitle": "1999 Pokemon Fossil 1st Edition #13/62 Muk",
-   "url": "https://burbankcards.com/products/handle273785?_pos=1&_psq=Muk+13%2F62+Fossil&_psid=983ce3268&_ss=e",
+   "url": "https://burbankcards.com/products/handle273785?_pos=1&_psq=Muk+13%2F62+Fossil&_psid=8fa92de46&_ss=e",
    "deal": false,
    "overCeilingBy": 2.48
   },
@@ -87,7 +75,7 @@
    "ceiling": 36.86,
    "shopPrice": 95.0,
    "shopTitle": "1999 Pokemon Jungle #3/64 Flareon",
-   "url": "https://burbankcards.com/products/handle273898?_pos=1&_psq=Flareon+3%2F64+Jungle&_psid=cecc848c7&_ss=e",
+   "url": "https://burbankcards.com/products/handle273898?_pos=1&_psq=Flareon+3%2F64+Jungle&_psid=722025068&_ss=e",
    "deal": false,
    "overCeilingBy": 58.14
   }
@@ -163,6 +151,13 @@
    "id": "s-30-sir-jirachi",
    "kind": "chase-single",
    "name": "Jirachi ex SIR",
+   "set": "30th Celebration",
+   "ceiling": 40
+  },
+  {
+   "id": "s-30-sir-sylveon",
+   "kind": "chase-single",
+   "name": "Sylveon ex SIR",
    "set": "30th Celebration",
    "ceiling": 40
   },
@@ -419,7 +414,7 @@
    "name": "Jirachi ex SIR",
    "shopTitle": "Jirachi ex (155/128) [ME 30th Celebration] Holofoil - Special Illustration Rare",
    "shopPrice": 0.0,
-   "url": "https://burbankcards.com/products/jirachi-ex-155-128-me-30th-celebration-holofoil-special-illustration-rare?_pos=1&_psq=Jirachi+ex+SIR+155%2F128+30th+Celebration&_psid=be98e3d74&_ss=e",
+   "url": "https://burbankcards.com/products/jirachi-ex-155-128-me-30th-celebration-holofoil-special-illustration-rare?_pos=1&_psq=Jirachi+ex+SIR+155%2F128+30th+Celebration&_psid=ce7928ad3&_ss=e",
    "note": "price below sane floor — likely a parsing artifact, not a real listing"
   },
   {
@@ -428,7 +423,7 @@
    "name": "Sylveon ex SIR",
    "shopTitle": "Sylveon ex (153/128) [ME 30th Celebration] Holofoil - Special Illustration Rare",
    "shopPrice": 0.0,
-   "url": "https://burbankcards.com/products/sylveon-ex-153-128-me-30th-celebration-holofoil-special-illustration-rare?_pos=1&_psq=Sylveon+ex+SIR+153%2F128+30th+Celebration&_psid=95bb436bb&_ss=e",
+   "url": "https://burbankcards.com/products/sylveon-ex-153-128-me-30th-celebration-holofoil-special-illustration-rare?_pos=1&_psq=Sylveon+ex+SIR+153%2F128+30th+Celebration&_psid=089de60bd&_ss=e",
    "note": "price below sane floor — likely a parsing artifact, not a real listing"
   }
  ],
@@ -441,7 +436,7 @@
    "ceiling": 150,
    "shopPrice": 56.02,
    "shopTitle": "Mega Darkrai ex (116/084) [ME05 Pitch Black] Holofoil - Special Illustration Rare",
-   "url": "https://burbankcards.com/products/mega-darkrai-ex-116-084-me05-pitch-black-holofoil-special-illustration-rare?_pos=1&_psq=Mega+Darkrai+ex+SIR+116%2F084+Pitch+Black&_psid=8fe0f886e&_ss=e",
+   "url": "https://burbankcards.com/products/mega-darkrai-ex-116-084-me05-pitch-black-holofoil-special-illustration-rare?_pos=1&_psq=Mega+Darkrai+ex+SIR+116%2F084+Pitch+Black&_psid=279822742&_ss=e",
    "wouldBeDeal": true
   },
   {
@@ -452,7 +447,7 @@
    "ceiling": 400,
    "shopPrice": 165.79,
    "shopTitle": "Mega Dragonite ex (290/217) [ME Ascended Heroes] Holofoil - Special Illustration Rare",
-   "url": "https://burbankcards.com/products/mega-dragonite-ex-290-217-me-ascended-heroes-holofoil-special-illustration-rare?_pos=1&_psq=Mega+Dragonite+ex+SIR+290%2F217+Ascended+Heroes&_psid=cb216006b&_ss=e",
+   "url": "https://burbankcards.com/products/mega-dragonite-ex-290-217-me-ascended-heroes-holofoil-special-illustration-rare?_pos=1&_psq=Mega+Dragonite+ex+SIR+290%2F217+Ascended+Heroes&_psid=eef25ff1b&_ss=e",
    "wouldBeDeal": true
   },
   {
@@ -463,7 +458,7 @@
    "ceiling": 700,
    "shopPrice": 261.64,
    "shopTitle": "Mew ex (232/091) [SV Paldean Fates] Holofoil - Special Illustration Rare",
-   "url": "https://burbankcards.com/products/mew-ex-232-091-sv-paldean-fates-holofoil-special-illustration-rare?_pos=3&_psq=Mew+ex+SIR+232%2F091+Paldean+Fates&_psid=93c711084&_ss=e",
+   "url": "https://burbankcards.com/products/mew-ex-232-091-sv-paldean-fates-holofoil-special-illustration-rare?_pos=3&_psq=Mew+ex+SIR+232%2F091+Paldean+Fates&_psid=e48ebe3f0&_ss=e",
    "wouldBeDeal": true
   }
  ]
