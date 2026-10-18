@@ -1,0 +1,266 @@
+{
+ "tcg": {
+  "flareon": [
+   {
+    "cat": 85,
+    "group": "SV-P Promotional Cards",
+    "groupId": 23779,
+    "pid": 587823,
+    "name": "Flareon - 065/SV-P",
+    "number": "065/SV-P",
+    "rarity": "Common",
+    "prices": [
+     [
+      "Holofoil",
+      95.44
+     ]
+    ]
+   }
+  ],
+  "pikachu": [
+   {
+    "cat": 3,
+    "group": "SWSH11: Lost Origin Trainer Gallery",
+    "groupId": 3172,
+    "pid": 284302,
+    "name": "Pikachu VMAX (Secret)",
+    "number": "TG29/TG30",
+    "rarity": "Ultra Rare",
+    "prices": [
+     [
+      "Holofoil",
+      24.5
+     ]
+    ]
+   }
+  ]
+ },
+ "ppt": {
+  "587823": {
+   "error": null,
+   "pptName": null,
+   "pptSet": null,
+   "pptNumber": null,
+   "pptRarity": null,
+   "pptTcgPlayerId": null,
+   "ebayKeys": [],
+   "salesByGrade": {},
+   "gradeKeys": [],
+   "saleLists": {}
+  },
+  "284302": {
+   "error": null,
+   "pptName": "Pikachu VMAX (Secret)",
+   "pptSet": "SWSH11: Lost Origin Trainer Gallery",
+   "pptNumber": "TG29/TG30",
+   "pptRarity": "Ultra Rare",
+   "pptTcgPlayerId": "284302",
+   "ebayKeys": [
+    "updatedAt",
+    "lastScrapedDate",
+    "lastEbayCheck",
+    "salesByGrade",
+    "smartPriceOutlierByGrade",
+    "salesVelocity",
+    "priceHistory",
+    "totalSales",
+    "totalValue",
+    "gradesTracked",
+    "dateRangeStart",
+    "dateRangeEnd"
+   ],
+   "salesByGrade": {
+    "psa9": {
+     "count": 110,
+     "totalValue": 3832.32,
+     "averagePrice": 36.498285714285714,
+     "medianPrice": 36,
+     "minPrice": 16.5,
+     "maxPrice": 64.99,
+     "marketPrice7Day": 38.5,
+     "marketPriceMedian7Day": 38.5,
+     "dailyVolume7Day": 0.2857142857142857,
+     "marketTrend": "up",
+     "lastMarketUpdate": "2026-10-16T15:13:09.219Z",
+     "lastSaleDate": "2026-10-15T00:00:00.000Z",
+     "smartMarketPrice": {
+      "price": 42.89,
+      "confidence": "medium",
+      "method": "14day_filtered_weighted",
+      "daysUsed": 14
+     },
+     "salesBySource": {
+      "ebay": 95,
+      "fanatics": 15
+     },
+     "labels": null
+    },
+    "psa10": {
+     "count": 330,
+     "totalValue": 41144.66,
+     "averagePrice": 130.20462025316456,
+     "medianPrice": 130,
+     "minPrice": 55.2,
+     "maxPrice": 200.77,
+     "marketPrice7Day": 123.28571428571429,
+     "marketPriceMedian7Day": 130,
+     "dailyVolume7Day": 1,
+     "marketTrend": "up",
+     "lastMarketUpdate": "2026-10-16T15:13:09.219Z",
+     "lastSaleDate": "2026-10-12T00:00:00.000Z",
+     "smartMarketPrice": {
+      "price": 123.75,
+      "confidence": "high",
+      "method": "7day_filtered_weighted",
+      "daysUsed": 7
+     },
+     "salesBySource": {
+      "ebay": 278,
+      "fanatics": 52
+     },
+     "labels": null
+    }
+   },
+   "gradeKeys": [
+    "psa9",
+    "psa8",
+    "psa10",
+    "cgc10",
+    "cgc9_5",
+    "cgc9",
+    "tag10",
+    "ace9",
+    "ace10",
+    "sgc9_5",
+    "psa7",
+    "cgc8",
+    "bgs9",
+    "bgs9_5",
+    "cgc7",
+    "cgc8_5",
+    "cgc5_5",
+    "cgc7_5",
+    "cgc6_5",
+    "tag9",
+    "sgc9",
+    "sgc10",
+    "bgs8_5",
+    "psa6"
+   ],
+   "saleLists": {}
+  }
+ },
+ "pc": {
+  "flareon": {
+   "pokemon japanese flareon 065 sv-p": [
+    {
+     "id": "5333719",
+     "name": "Flareon [Nagaba] #65/SV-P",
+     "console": "Pokemon Japanese Promo",
+     "tcgId": "587823",
+     "ungraded": 8050,
+     "psa10": 16450,
+     "psa9": 8500
+    }
+   ],
+   "pokemon flareon yu nagaba": [
+    {
+     "id": "5333719",
+     "name": "Flareon [Nagaba] #65/SV-P",
+     "console": "Pokemon Japanese Promo",
+     "tcgId": "587823",
+     "ungraded": 8050,
+     "psa10": 16450,
+     "psa9": 8500
+    },
+    {
+     "id": "7420524",
+     "name": "Yu Nagaba Eevee's Special Box",
+     "console": "Pokemon Japanese Promo",
+     "tcgId": null,
+     "ungraded": 24366,
+     "psa10": null,
+     "psa9": null
+    },
+    {
+     "id": "5333720",
+     "name": "Eevee [Nagaba] #62/SV-P",
+     "console": "Pokemon Japanese Promo",
+     "tcgId": "587820",
+     "ungraded": 9400,
+     "psa10": 19500,
+     "psa9": 9750
+    },
+    {
+     "id": "5403723",
+     "name": "Espeon [Nagaba] #66/SV-P",
+     "console": "Pokemon Japanese Promo",
+     "tcgId": "587824",
+     "ungraded": 9231,
+     "psa10": 17325,
+     "psa9": 9128
+    },
+    {
+     "id": "5333721",
+     "name": "Glaceon [Nagaba] #69/SV-P",
+     "console": "Pokemon Japanese Promo",
+     "tcgId": "587827",
+     "ungraded": 8360,
+     "psa10": 16125,
+     "psa9": 7400
+    },
+    {
+     "id": "5404742",
+     "name": "Vaporeon [Nagaba] #63/SV-P",
+     "console": "Pokemon Japanese Promo",
+     "tcgId": "587821",
+     "ungraded": 8800,
+     "psa10": 16908,
+     "psa9": 8505
+    },
+    {
+     "id": "5403738",
+     "name": "Leafeon [Nagaba] #68/SV-P",
+     "console": "Pokemon Japanese Promo",
+     "tcgId": "587826",
+     "ungraded": 8672,
+     "psa10": 15675,
+     "psa9": 8899
+    },
+    {
+     "id": "5404695",
+     "name": "Sylveon [Nagaba] #70/SV-P",
+     "console": "Pokemon Japanese Promo",
+     "tcgId": "587828",
+     "ungraded": 8146,
+     "psa10": 18500,
+     "psa9": 10115
+    }
+   ]
+  },
+  "pikachu": {
+   "pokemon pikachu vmax tg29": [
+    {
+     "id": "4080781",
+     "name": "Pikachu VMAX #TG29",
+     "console": "Pokemon Lost Origin",
+     "tcgId": "284302",
+     "ungraded": 2071,
+     "psa10": 13000,
+     "psa9": 3561
+    }
+   ],
+   "pokemon lost origin pikachu vmax tg29": [
+    {
+     "id": "4080781",
+     "name": "Pikachu VMAX #TG29",
+     "console": "Pokemon Lost Origin",
+     "tcgId": "284302",
+     "ungraded": 2071,
+     "psa10": 13000,
+     "psa9": 3561
+    }
+   ]
+  }
+ }
+}
