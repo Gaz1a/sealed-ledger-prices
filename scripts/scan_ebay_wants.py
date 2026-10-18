@@ -78,6 +78,7 @@ def main():
     H = {"Authorization": "Bearer " + token(), "X-EBAY-C-MARKETPLACE-ID": "EBAY_US"}
     W = {}
     for wid, title in wants.items():
+        if is_j(wid): continue   # jumbo wants are scanned by scripts/scan_ebay_jumbo.py (all jumbo ids, rotating)
         if wid.startswith("bk-"): continue   # Portuguese Devir booklets are scanned daily by scripts/bk_booklets.py (worldwide, all-in, BIN only)
         name, num, clean = parse(title)
         mk = (prices.get(wid) or {}).get("market")
@@ -146,6 +147,8 @@ def main():
     keep = load("ebay_wants.json", {}).get("booklets")   # written daily by scripts/bk_booklets.py; preserve it
     out = {"generated": datetime.date.today().isoformat(), "wants": len(W), "queries": nq, "singles": singles, "lots": lots}
     if keep: out["booklets"] = keep
+    jk = load("ebay_wants.json", {}).get("jumbo")      # written by scripts/scan_ebay_jumbo.py; preserve it
+    if jk: out["jumbo"] = jk
     json.dump(out, open(os.path.join(ROOT, "ebay_wants.json"), "w"), indent=1)
     print(len(singles), "singles,", len(lots), "lots,", nq, "queries")
 

@@ -207,6 +207,10 @@ def main():
     candidates.sort(key=lambda x: x["daysLeft"])
     out = {"generated": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
            "queryCount": len(queries), "candidates": candidates}
+    try:      # jumbo auction hits are written by scripts/scan_ebay_jumbo.py; preserve them
+        _jk = json.load(open(os.path.join(ROOT, "ebay_sealed.json"))).get("jumbo")
+        if _jk: out["jumbo"] = _jk
+    except Exception: pass
     json.dump(out, open(os.path.join(ROOT, "ebay_sealed.json"), "w"), indent=1, ensure_ascii=False)
     print(f"scanned {len(queries)} queries, {len(candidates)} auction candidates written")
 
