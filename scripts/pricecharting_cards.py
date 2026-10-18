@@ -198,6 +198,8 @@ def main():
                           "sealedMatched": sum(1 for c in out["sealed"].values() if c.get("matched")), "sealed": len(out["sealed"]),
                           "japanMatched": sum(1 for c in out["japan"].values() if c.get("matched", True) and c.get("pcId")), "japan": len(out["japan"]),
                           "apiCalls": calls}, "run": notes})
+    _pj = load("pricecharting.json", {}).get("jumbo")      # written by scripts/pc_jumbo.py; preserve it
+    if _pj: out["jumbo"] = _pj
     json.dump(out, open(os.path.join(ROOT, "pricecharting.json"), "w"), indent=1, ensure_ascii=False)
     print(json.dumps(out["stats"]), "| stopped:", notes["stopped"], "| mappingConfirmed:", check.get("mappingConfirmed"))
 
