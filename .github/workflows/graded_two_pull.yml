@@ -1,4 +1,4 @@
-name: Graded two-card lookup
+name: Graded two-card pull
 on: workflow_dispatch
 permissions:
   contents: write
@@ -9,14 +9,14 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: python scripts/graded_two_lookup.py
+      - run: python scripts/graded_two_pull.py
         env:
           PPT_KEY: ${{ secrets.PPT_KEY }}
           PRICECHARTING_TOKEN: ${{ secrets.PRICECHARTING_TOKEN }}
       - run: |
           git config user.name "price-bot"
           git config user.email "price-bot@users.noreply.github.com"
-          git add -f graded_two_lookup.json
+          git add -f graded.json graded_two_detail.json
           git diff --cached --quiet || git commit -m "graded two-card lookup"
           git pull --rebase
           git push

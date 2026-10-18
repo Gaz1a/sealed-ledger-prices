@@ -52,8 +52,8 @@ def slim(g):
         "trend": pick(g, "trend", "marketTrend"),
     }
 
-def fetch(pid):
-    url = f"https://www.pokemonpricetracker.com/api/v2/cards?tcgPlayerId={pid}&includeEbay=true&limit=1"
+def fetch(pid, lang=None):
+    url = f"https://www.pokemonpricetracker.com/api/v2/cards?tcgPlayerId={pid}&includeEbay=true&limit=1" + (f"&language={lang}" if lang else "")
     for a in range(3):
         try:
             r = urllib.request.Request(url, headers={"Authorization": f"Bearer {KEY}"})
@@ -68,7 +68,7 @@ def fetch(pid):
 prev = load("graded.json", {"cards": {}})
 res = {"generated": TODAY, "cards": {}}
 for c in watch:
-    j = fetch(c["productId"])
+    j = fetch(c["productId"], c.get("language"))
     d = j.get("data", j)
     if isinstance(d, list): d = d[0] if d else {}
     sbg = ((d.get("ebay") or {}).get("salesByGrade")) or {}
@@ -82,7 +82,9 @@ for c in watch:
         if s and s.get("median") is not None:
             h = hist.setdefault(g, [])
             if not h or h[-1][0] != TODAY: h.append([TODAY, s["median"], s.get("n")])
-    res["cards"][c["id"]] = {"name": c["name"], "productId": c["productId"], "grades": grades,
+    pj = ((d.get("ebay") or {}).get("priceHistory") or {}).get("psa10") or {}
+    last10 = [[k, v.get("average"), v.get("count")] for k, v in sorted(pj.items())][-10:]
+    res["cards"][c["id"]] = {"name": c["name"], "productId": c["productId"], "grades": grades, "psa10DailyLast10": last10, "language": c.get("language"),
                              "history": hist, "ok": bool(grades)}
     time.sleep(1.2)
 json.dump(res, open("graded.json", "w"), indent=1)
