@@ -1544,14 +1544,15 @@
   "lang": "French",
   "sealedId": null,
   "sealedBasis": null,
-  "cardId": null,
-  "cardBasis": null,
+  "cardId": 210853,
+  "cardBasis": "unique-name-in-Jumbo-Cards (confirm print)",
   "sealedCandidates": [],
   "cardCandidates": [
    {
     "productId": 210853,
     "name": "Ho-oh - 11/12 (Box Topper)",
-    "number": "011/012"
+    "number": "011/012",
+    "market": null
    }
   ],
   "cardNote": "auto-guess 210853 removed: it is a 2002/2003 English box topper used by a display entry (Gaz research); French box has no TCGplayer id"
@@ -1730,7 +1731,7 @@
     "productId": 652029,
     "name": "Charizard ex - 054/091",
     "number": "054/091",
-    "market": 6.68
+    "market": 6.77
    }
   ],
   "researchSrc": "https://tcgbox.co.kr/product/%EC%8A%A4%ED%8E%98%EC%85%9C-%EC%A0%90%EB%B3%B4%EC%B9%B4%EB%93%9C%EC%84%B8%ED%8A%B8-%EB%A6%AC%EC%9E%90%EB%AA%BDex/3268/",
@@ -2393,14 +2394,15 @@
   "lang": "French",
   "sealedId": null,
   "sealedBasis": null,
-  "cardId": null,
-  "cardBasis": null,
+  "cardId": 210845,
+  "cardBasis": "unique-name-in-Jumbo-Cards (confirm print)",
   "sealedCandidates": [],
   "cardCandidates": [
    {
     "productId": 210845,
     "name": "Feraligatr - 2/12 (Box Topper)",
-    "number": "002/012"
+    "number": "002/012",
+    "market": 99.99
    }
   ],
   "cardNote": "auto-guess 210845 removed: it is a 2002/2003 English box topper used by a display entry (Gaz research); French box has no TCGplayer id"
@@ -6232,7 +6234,7 @@
     "productId": 605497,
     "name": "Zacian V - 095/159",
     "number": "095/159",
-    "market": 1.53
+    "market": 1.54
    }
   ],
   "researchSrc": "https://www.ligapokemon.com.br/?view=prod/view&pcode=126724",
@@ -6633,7 +6635,7 @@
     "productId": 652029,
     "name": "Charizard ex - 054/091",
     "number": "054/091",
-    "market": 6.68
+    "market": 6.77
    }
   ],
   "researchSrc": "https://www.ligapokemon.com.br/?view=prod/view&pcode=128935",
@@ -7253,7 +7255,7 @@
     "productId": 652029,
     "name": "Charizard ex - 054/091",
     "number": "054/091",
-    "market": 6.68
+    "market": 6.77
    }
   ],
   "researchSrc": "https://www.11st.co.kr/products/9354123046",
