@@ -21,11 +21,13 @@ for k, j in sorted(cat.items(), key=lambda kv: order(kv[1])):
         elif e.get("market") is None: why = "listing found but no priced row"
         if kind == "card" and v.get("cardClosed"): why = v.get("cardNote")
         r[kind]["problem"] = why
-    cs = (p.get("cardSet") or {})
-    if v.get("cardIds"):
-        r["card"].update({"productIds": v["cardIds"], "mode": v["cardMode"], "items": cs.get("items", []), "low": cs.get("low"), "high": cs.get("high"), "sum": cs.get("sum"), "date": cs.get("date"), "source": cs.get("source"), "basis": v.get("cardBasis")})
-        miss = [x["productId"] for x in cs.get("items", []) if x["market"] is None]
-        r["card"]["problem"] = ("no priced row for %s" % miss) if miss or not cs else None
+    for kind, ik in (("card", "cardIds"), ("sealed", "sealedIds")):
+        cs = (p.get(kind + "Set") or {})
+        if v.get(ik):
+            r[kind].update({"productIds": v[ik], "mode": v.get(kind + "Mode") or "separate", "items": cs.get("items", []), "byId": cs.get("byId", {}), "low": cs.get("low"), "high": cs.get("high"), "sum": cs.get("sum"), "date": cs.get("date"), "source": cs.get("source"), "basis": v.get(kind + "Basis")})
+            miss = [x["productId"] for x in cs.get("items", []) if x["market"] is None]
+            r[kind]["problem"] = ("no priced row for %s" % miss) if miss or not cs else None
+    r["refs"] = v.get("refs"); r["cardmarketIds"] = v.get("cardmarket")
     r["priceBasisLabels"] = BASIS
     out.append(r)
 json.dump(out, open("jumbo_report.json", "w"), indent=1)

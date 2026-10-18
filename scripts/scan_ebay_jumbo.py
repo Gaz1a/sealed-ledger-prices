@@ -43,12 +43,14 @@ for jid, v in ids.items():
     if v.get("sealedId"):
         e = p.get("sealed") or {}
         tasks.append((jid, "sealed", v["sealedId"], e.get("name") or v["title"], e.get("market")))
-    else: skipped["noId"] += 1
+    elif not v.get("sealedIds"): skipped["noId"] += 1
     if v.get("cardId"):
         e = p.get("card") or {}
         tasks.append((jid, "card", v["cardId"], e.get("name") or v["title"], e.get("market")))
     for it in (p.get("cardSet") or {}).get("items", []):
         tasks.append((jid, f"card_{it['productId']}", it["productId"], it.get("name") or v["title"], it.get("market")))
+    for it in (p.get("sealedSet") or {}).get("items", []):
+        tasks.append((jid, f"sealed_{it['productId']}", it["productId"], it.get("name") or v["title"], it.get("market")))
     if not v.get("cardId") and not v.get("cardIds"): skipped["noId"] += 1
 elig = []
 for t in tasks:
@@ -64,7 +66,7 @@ if CID and CSEC:
     H = {"Authorization": "Bearer " + token(), "X-EBAY-C-MARKETPLACE-ID": "EBAY_US"}
     for jid, kind, pid, nm, mk in elig[:MAX_Q]:
         if RL["hit"]: break
-        if kind == "sealed":
+        if kind.startswith("sealed"):
             base, num = re.sub(r"\s*\(.*?\)\s*$", "", nm).strip(), None; q = base
         else:
             base, num = split_card(nm); q = f"{base} jumbo {num}" if num else f"{base} jumbo"
@@ -80,7 +82,7 @@ if CID and CSEC:
             s = h.get("seller") or {}
             if NOISE.search(t) or (s.get("feedbackScore") or 0) < MIN_FB or float(s.get("feedbackPercentage") or 0) < MIN_PCT: continue
             if not all(w in t.lower() for w in ws): continue
-            if kind != "sealed" and (not re.search(r"jumbo|oversize", t, re.I) or (num and not has_num(t, num))): continue
+            if not kind.startswith("sealed") and (not re.search(r"jumbo|oversize", t, re.I) or (num and not has_num(t, num))): continue
             pr = (h.get("currentBidPrice") or h.get("price") or {}).get("value")
             if pr is None: continue
             sh = next((float(o["shippingCost"]["value"]) for o in h.get("shippingOptions") or [] if o.get("shippingCost")), None)

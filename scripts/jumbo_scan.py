@@ -54,7 +54,7 @@ for j in cat:
     jid = j["id"]; st = ids.setdefault(jid, {"title": j["title"], "lang": j["lang"], "sealedId": None, "sealedBasis": None, "cardId": None, "cardBasis": None})
     if j["id"] in HELD and not st["sealedId"] and HELD[j["id"]] in tracked:
         st["sealedId"], st["sealedBasis"] = tracked[HELD[j["id"]]]["productId"], "tracked.json (held)"
-    if not st["sealedId"]:
+    if not st["sealedId"] and not st.get("sealedIds"):
         cands = sealed_idx.get(norm(j["title"]), [])
         st["sealedCandidates"] = [{k: c[k] for k in ("productId", "name", "group")} for c in cands][:6]
         if len(cands) == 1: st["sealedId"], st["sealedBasis"] = cands[0]["productId"], "exact-name"
@@ -68,7 +68,7 @@ for j in cat:
             st["cardNote"] = "multiple/unspecified jumbo cards in sheet"
     it = prices["items"].setdefault(jid, {"title": j["title"]})
     for kind, pid in (("sealed", st["sealedId"]), ("card", st["cardId"])):
-        if not pid: it.pop(kind, None) if False else None; continue
+        if not pid: it.pop(kind, None); continue
         e = it.setdefault(kind, {"productId": pid, "history": []})
         e["productId"] = pid
         r = pick_price(pid)
@@ -79,14 +79,15 @@ for j in cat:
             if not e["history"] or e["history"][-1][0] != TODAY: e["history"].append([TODAY, r["marketPrice"]])
         else:
             e.update({"market": None, "date": TODAY, "note": "no priced row today"})
-    if st.get("cardIds"):
+    for _k, _ik, _mk in (("card", "cardIds", "cardMode"), ("sealed", "sealedIds", "sealedMode")):
+        if not st.get(_ik): it.pop(_k + "Set", None); continue
         its = []
-        for pid in st["cardIds"]:
+        for pid in st[_ik]:
             r = pick_price(pid)
             its.append({"productId": pid, "name": name_of.get(pid, {}).get("name"), "market": (r or {}).get("marketPrice"), "subType": (r or {}).get("subTypeName")})
         ms = [x["market"] for x in its if x["market"] is not None]
-        it["cardSet"] = {"mode": st["cardMode"], "items": its, "low": min(ms) if ms else None, "high": max(ms) if ms else None,
-                         "sum": round(sum(ms), 2) if ms and len(ms) == len(its) and st["cardMode"] == "components" else None,
+        it[_k + "Set"] = {"mode": st.get(_mk) or "separate", "items": its, "byId": {str(x["productId"]): x for x in its}, "low": min(ms) if ms else None, "high": max(ms) if ms else None,
+                         "sum": round(sum(ms), 2) if ms and len(ms) == len(its) and st.get(_mk) == "components" else None,
                          "date": TODAY, "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)"}
 json.dump(ids, open("jumbo_ids.json", "w"), indent=1)
 json.dump({"generated": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"), "items": prices["items"]}, open("jumbo_prices.json", "w"), indent=1)
