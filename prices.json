@@ -1,6 +1,6 @@
 {
- "count": 507,
- "generated": "2026-10-19T08:55:04Z",
+ "count": 508,
+ "generated": "2026-10-19T17:45:27Z",
  "pinMismatch": [],
  "prices": {
   "ah-bundle": {
@@ -3538,6 +3538,13 @@
    "productId": 565232,
    "subType": "Normal"
   },
+  "w-610931": {
+   "low": 179.4,
+   "market": 193.06,
+   "mid": 263.96,
+   "productId": 610931,
+   "subType": "Normal"
+  },
   "zard-premium23": {
    "low": 100.11,
    "market": 108.64,
@@ -3557,5 +3564,18 @@
  "unresolved": [
   "gy-skyridge-h10-h32",
   "kg-572562"
- ]
+ ],
+ "feedStaleness": {
+  "checked": "2026-10-19T17:45:27Z",
+  "feeds": [
+   {
+    "feed": "untracked_sealed.json",
+    "generated": "2026-10-19T17:44:27Z",
+    "ageDays": 0.0,
+    "maxAgeDays": 7,
+    "status": "ok"
+   }
+  ],
+  "stale": []
+ }
 }
