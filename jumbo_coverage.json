@@ -1,62 +1,62 @@
 {
  "entries": {
   "j-2010-clash-of-legends-box-en": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2014-hoenn-collection-en": {
-   "lastChecked": "2026-10-18",
-   "lastCount": 0,
-   "lastHit": "2026-10-18"
+   "lastChecked": "2026-10-19",
+   "lastCount": 2,
+   "lastHit": "2026-10-19"
   },
   "j-2014-mega-charizard-box-en": {
-   "lastChecked": "2026-10-18",
-   "lastCount": 3,
-   "lastHit": "2026-10-18"
+   "lastChecked": "2026-10-19",
+   "lastCount": 32,
+   "lastHit": "2026-10-19"
   },
   "j-2014-xerneas-collection-fr": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2014-yveltal-collection-fr": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2015-latios-box-fr": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2015-m-mewtwo-ex-special-jumbo-card-pack-blue-shock-rage-of-the-broken-heavens-ver-ja": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2015-m-mewtwo-ex-special-jumbo-card-pack-red-flash-rage-of-the-broken-heavens-ver-ja": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2015-mega-mewtwo-box-en": {
-   "lastChecked": "2026-10-18",
-   "lastCount": 11,
-   "lastHit": "2026-10-18"
+   "lastChecked": "2026-10-19",
+   "lastCount": 19,
+   "lastHit": "2026-10-19"
   },
   "j-2016-blastoise-ex-special-jumbo-card-set-ko": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2016-charizard-ex-special-jumbo-card-set-ko": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2016-m-mewtwo-ex-special-jumbo-card-set-blue-shock-rage-of-the-broken-heavens-ko": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2016-m-mewtwo-ex-special-jumbo-card-set-red-flash-rage-of-the-broken-heavens-ko": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2016-pansear-box-fr": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2016-venusaur-ex-special-jumbo-card-set-ko": {
@@ -1908,12 +1908,12 @@
    "lastCount": 0
   }
  },
- "checkedAt": "2026-10-18",
+ "checkedAt": "2026-10-19",
  "status": "ok",
  "entriesTotal": 407,
  "entriesChecked": 407,
- "entriesCheckedThisRun": 407,
- "entriesWithLiveListing": 234,
+ "entriesCheckedThisRun": 14,
+ "entriesWithLiveListing": 235,
  "entriesNoHitIn14Days": 128,
  "neverChecked": 0,
  "noHit14DayIds": [
@@ -2047,49 +2047,105 @@
   "j-2025-salamence-ex-reshiram-ex-special-collection-en"
  ],
  "markets": "by language: English US/GB/CA/AU; French FR/DE/IT/ES; others all 8",
- "apiCalls": 1924,
+ "apiCalls": 80,
  "errors": {},
- "maxCalls": 2300,
+ "maxCalls": 80,
  "perMarket": {
   "EBAY_US": {
-   "queries": 378,
-   "raw": 8449,
-   "kept": 3240
+   "queries": 10,
+   "raw": 151,
+   "kept": 14
   },
   "EBAY_GB": {
-   "queries": 378,
-   "raw": 6497,
-   "kept": 0
+   "queries": 10,
+   "raw": 151,
+   "kept": 23
   },
   "EBAY_CA": {
-   "queries": 378,
-   "raw": 8031,
-   "kept": 0
+   "queries": 10,
+   "raw": 151,
+   "kept": 28
   },
   "EBAY_AU": {
-   "queries": 378,
-   "raw": 9229,
-   "kept": 0
+   "queries": 10,
+   "raw": 164,
+   "kept": 21
   },
   "EBAY_FR": {
-   "queries": 103,
-   "raw": 534,
+   "queries": 10,
+   "raw": 115,
    "kept": 0
   },
   "EBAY_DE": {
-   "queries": 103,
-   "raw": 464,
+   "queries": 10,
+   "raw": 106,
    "kept": 0
   },
   "EBAY_IT": {
-   "queries": 103,
-   "raw": 1146,
+   "queries": 10,
+   "raw": 150,
    "kept": 0
   },
   "EBAY_ES": {
-   "queries": 103,
-   "raw": 1138,
+   "queries": 10,
+   "raw": 150,
    "kept": 0
   }
- }
+ },
+ "drops": {
+  "EBAY_US": {
+   "noise": 14,
+   "irrelevant": 67,
+   "lang": 3,
+   "floor": 53
+  },
+  "EBAY_GB": {
+   "noise": 9,
+   "irrelevant": 66,
+   "lang": 2,
+   "floor": 51
+  },
+  "EBAY_CA": {
+   "noise": 11,
+   "irrelevant": 65,
+   "lang": 3,
+   "floor": 44
+  },
+  "EBAY_AU": {
+   "noise": 16,
+   "irrelevant": 54,
+   "lang": 3,
+   "floor": 70
+  },
+  "EBAY_FR": {
+   "noise": 3,
+   "irrelevant": 111,
+   "lang": 1,
+   "floor": 0
+  },
+  "EBAY_DE": {
+   "noise": 2,
+   "irrelevant": 100,
+   "lang": 4,
+   "floor": 0
+  },
+  "EBAY_IT": {
+   "noise": 0,
+   "irrelevant": 147,
+   "lang": 3,
+   "floor": 0
+  },
+  "EBAY_ES": {
+   "noise": 2,
+   "irrelevant": 142,
+   "lang": 6,
+   "floor": 0
+  }
+ },
+ "noPrice": null,
+ "fxSource": "fallback-constants",
+ "fxErrors": [
+  "HTTP Error 403: Forbidden",
+  "HTTP Error 403: Forbidden"
+ ]
 }
