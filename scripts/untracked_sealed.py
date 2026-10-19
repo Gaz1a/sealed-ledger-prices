@@ -138,7 +138,7 @@ def main():
         coverage.append(entry)
     coverage.sort(key=lambda e: (e["category"], e["released"]), reverse=True)
 
-    out = {"generated": TODAY.isoformat(), "scanned": len(rows), "snapshotsAvailable": len(hist),
+    out = {"generated": TODAY.isoformat(), "generatedAt": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "scanned": len(rows), "snapshotsAvailable": len(hist),
            "historyNote": "chg4w/chg12w/ath/atl come from snapshots/ (earliest %s); null when no snapshot in range" % (min(hist).isoformat() if hist else "n/a"),
            "minUntrackedMarket": MIN_UNTRACKED, "untracked": untracked, "cases_displays": cases, "coverage": coverage}
     json.dump(out, open(os.path.join(ROOT, "untracked_sealed.json"), "w"), indent=1, ensure_ascii=False)

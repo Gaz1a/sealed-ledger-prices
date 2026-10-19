@@ -1,5 +1,7 @@
 name: Untracked sealed audit
 on:
+  schedule:
+    - cron: "0 9 * * 1"     # Monday 09:00 UTC = 01:00-02:00 PT, ahead of the 10:31 PT market review
   workflow_dispatch:
 permissions:
   contents: write
