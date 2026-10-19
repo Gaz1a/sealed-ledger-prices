@@ -6,14 +6,18 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from card_images import ld, IMG, ROOT
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 MAXB = 12 * 1024
+UA2 = "sealed-ledger-prices/1.0 (personal collection tracker; https://github.com/Gaz1a/sealed-ledger-prices)"
+def q(u): return urllib.parse.quote(u, safe=":/?&=%#@+,;~!*'()[]-._")
 def fetch(url, ref):
-    h = {"User-Agent": UA, "Accept": "image/avif,image/webp,image/*,*/*;q=0.8"}
-    if ref: h["Referer"] = ref
-    try:
-        r = urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=40); b = r.read()
-        return b, None
-    except urllib.error.HTTPError as e: return None, f"HTTP {e.code}"
-    except Exception as e: return None, type(e).__name__ + ":" + str(e)[:60]
+    last = None
+    for ua, rf in ((UA, ref), (UA2, None), (UA2, ref), (UA, None)):
+        h = {"User-Agent": ua, "Accept": "image/avif,image/webp,image/*,*/*;q=0.8"}
+        if rf: h["Referer"] = q(rf)
+        try:
+            r = urllib.request.urlopen(urllib.request.Request(q(url), headers=h), timeout=40); return r.read(), None
+        except urllib.error.HTTPError as e: last = f"HTTP {e.code}"
+        except Exception as e: last = type(e).__name__ + ":" + str(e)[:60]
+    return None, last
 def webp(raw):
     try:
         from PIL import Image
