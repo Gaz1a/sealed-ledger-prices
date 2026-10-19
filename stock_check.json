@@ -19,7 +19,7 @@
    "note": null
   },
   "wook.pt": {
-   "robots": "DISALLOWED (skipped)",
+   "robots": "allowed",
    "note": null
   },
   "bertrand.pt": {
@@ -66,7 +66,18 @@
    "name": "Gengar",
    "url": "https://www.wook.pt/en/livro/pokemon-origem-das-lendas-volume-12-gengar-preto/10723441",
    "site": "wook.pt",
-   "status": "skipped: robots.txt disallows or unreadable"
+   "http": 200,
+   "isbnOnPage": true,
+   "isbnsOnPage": [
+    "9788575322611"
+   ],
+   "ref": [],
+   "stock": "out_of_stock",
+   "price": 9.99,
+   "currency": null,
+   "title": "Pokemon: Origem das Lendas - Volume 12 - Gengar (preto) - Livro - WOOK",
+   "expectedIsbn": "9788575322611",
+   "isbnMatchesExpected": true
   },
   {
    "id": "h-gengar-deck",
