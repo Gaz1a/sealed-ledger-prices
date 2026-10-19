@@ -63,13 +63,21 @@ def detail(lang, sid):
     if k not in _detail: _detail[k] = get(f"{API}/{lang}/sets/{sid}") or {}
     return _detail[k]
 
+ALIAS = {"xy promos": ["xyp"], "sm promos": ["smp"], "wotc promo": ["basep"], "scarlet violet 151": ["sv03.5"], "swsh promos": ["swshp"], "sword shield promos": ["swshp"], "celebrations classic collection": ["cel25c"], "sv promos": ["svp"], "scarlet violet promos": ["svp"], "nintendo promos": ["np"], "hgss promos": ["hgssp"], "dp promos": ["dpp"], "bw promos": ["bwp"]}
 def find_card(lang, gname, name, num, den, bracket):
     keys = [setkey(gname)] + ([setkey(bracket)] if bracket else [])
     cands = []
     for s in sets(lang):
         sk = setkey(s.get("name"))
         if any(k and (k == sk or (len(k) > 4 and (k in sk or sk in k) and len(sk) > 4)) for k in keys): cands.append(s)
-    cands.sort(key=lambda s: (setkey(s["name"]) not in keys, abs((s.get("cardCount", {}).get("official") or 0) - int(re.sub(r"\D", "", den) or 0)) if den else 0))
+    for k in keys:
+        for sid in ALIAS.get(k, []):
+            c0 = next((x for x in sets(lang) if x["id"] == sid), None)
+            if c0: cands.insert(0, c0)
+    exact = [x for x in cands if setkey(x["name"]) in keys]
+    if exact: cands = exact + [x for x in cands if x not in exact and x["id"] in sum(ALIAS.values(), [])]
+    cands = list(dict.fromkeys(x["id"] for x in cands)) and [next(y for y in cands if y["id"] == i) for i in dict.fromkeys(x["id"] for x in cands)]
+    cands.sort(key=lambda s: (setkey(s["name"]) not in keys and s["id"] not in sum(ALIAS.values(), []), abs((s.get("cardCount", {}).get("official") or 0) - int(re.sub(r"\D", "", den) or 0)) if den else 0))
     if not cands and den and re.sub(r"\D", "", den):                       # fall back to sets whose official count equals the denominator
         d = int(re.sub(r"\D", "", den))
         cands = [s for s in sets(lang) if (s.get("cardCount") or {}).get("official") == d][:8]
