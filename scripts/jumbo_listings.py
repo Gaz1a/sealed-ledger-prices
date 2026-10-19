@@ -16,7 +16,9 @@ def markets_for(lang): return BY_LANG.get((lang or "english").lower().split(";")
 TAX, NOW = 1.10, datetime.datetime.utcnow()
 TODAY = NOW.strftime("%Y-%m-%d")
 SHIP_TO = {"X-EBAY-C-ENDUSERCTX": "contextualLocation=country=US,zip=91505"}
-NOISE = re.compile(r"\bempty\b|\bopened\b|\bopen box\b|box only|no cards?\b|cards? only|code cards?|\bpacks? only\b|\bempty pack|wrapper|\bproxy\b|\bcustom\b|\breprint\b|replica|fan ?art|\blots?\b|\bbundle\b|\bpsa\b|\bcgc\b|\bbgs\b|\bgraded\b|\bslab\b|\bfake\b|\bplush\b|\bdigital\b|damaged|\bdmg\b", re.I)
+NOISE = re.compile(r"\bempty\b|\bopened\b|\bopen box\b|box only|no cards?\b|cards? only|code cards?|\bpacks? only\b|\bempty pack|wrapper|\bproxy\b|\bcustom\b|\breprint\b|replica|fan ?art|\blots?\b|\bbundle\b|\bpsa\b|\bcgc\b|\bbgs\b|\bgraded\b|\bslab\b|\bfake\b|\bplush\b|\bdigital\b|damaged|\bdmg\b|\bcases?\b|\bacrylic\b|\bprotectors?\b|\bsleeves?\b|\bbinders?\b|\bstands?\b|display case|\btop ?loaders?\b|\bmagnetic\b", re.I)
+SINGLE_NUM = re.compile(r"#\s?\d{1,3}\b|\b\d{1,3}\s?/\s?\d{2,3}\b|\b[A-Za-z]{1,4}-?\d{2,3}\b|\b0\d{2}\b")
+SET_WORD = re.compile(r"\b(box|boxes|collection|tin|tins|set|display|booster|bundle|deck|pack|case|chest|binder|kit)\b", re.I)
 LANGS = {"english": r"\benglish\b", "japanese": r"japan|\bjp\b|日本|ポケモン", "korean": r"korea|한국|포켓몬", "french": r"fran[cç]ais|french|\bfr\b", "portuguese": r"portugu|\bpt\b|\bbr\b", "german": r"deutsch|german", "italian": r"italian|italiano", "spanish": r"espa[nñ]ol|spanish|castellano", "chinese": r"chinese|中文|繁體|简体"}
 GENERIC = {"box", "collection", "premium", "special", "pokemon", "the", "and", "card", "cards", "set", "jumbo", "display", "booster", "case", "promo", "pack"}
 RL = {"hit": False}; DIAG = {"calls": 0, "errors": {}}
@@ -78,6 +80,7 @@ def record(h, ent, mk, q, lang):
     t = h.get("title", "")
     dr = DIAG.setdefault("drops", {}).setdefault(mk, {"noise": 0, "irrelevant": 0, "lang": 0, "floor": 0})
     if NOISE.search(t): dr["noise"] += 1; return None
+    if SINGLE_NUM.search(t) and not SET_WORD.search(t): dr.setdefault("single", 0); dr["single"] += 1; return None
     if not relevant(t, ent): dr["irrelevant"] += 1; return None
     if not lang_ok(t, lang): dr["lang"] += 1; return None
     auc = "AUCTION" in (h.get("buyingOptions") or [])
@@ -93,7 +96,7 @@ def record(h, ent, mk, q, lang):
             "format": "auction" if auc else "buy-it-now", "bids": h.get("bidCount") if auc else None, "ends": h.get("itemEndDate"), "seller": s.get("username"),
             "feedbackPct": s.get("feedbackPercentage"), "feedbackScore": s.get("feedbackScore"), "location": (h.get("itemLocation") or {}).get("country"),
             "marketplace": mk, "query": q, "condition": h.get("condition"), "url": (h.get("itemWebUrl") or "").split("?")[0],
-            "underTarget": (allin <= tgt) if tgt else None, "discovery": not tgt, "targetAllIn": tgt, "seen": TODAY}
+            "underTarget": (0.25 * tgt <= allin <= tgt) if tgt else None, "discovery": not tgt, "targetAllIn": tgt, "seen": TODAY}
 def main():
     ents = norm_entries(ld("jumbo_watch_queries.json", []))
     cov = ld("jumbo_coverage.json", {"entries": {}})
