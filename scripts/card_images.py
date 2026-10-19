@@ -104,9 +104,85 @@ def is_single(k, title):
     if re.search(r"booster|box|bundle|collection|tin\b|pack\b|display|elite trainer|etb|case|blister|deck|binder", title, re.I) and not re.search(r"\d+\s*/\s*[\w-]+|\b(MEP|XY|SM|SWSH|SVP|TG)\s?-?\d+", title): return False
     return bool(re.search(r"\d+\s*/\s*[\w-]+|\b(MEP|XY|SM|SWSH|SVP|TG)\s?-?\d+|\[", title)) or k.startswith("bs-")
 
+CARD_RATIO = (0.66, 0.78)
+def to_webp(raw):
+    """any image bytes -> webp <= MAXB at card size, or (None, reason). Rejects non-card aspect ratios / tiny images."""
+    try:
+        from PIL import Image
+        im = Image.open(io.BytesIO(raw)).convert("RGB")
+    except Exception: return None, "undecodable image"
+    w, h = im.size
+    if w < 120 or h < 160: return None, "image too small (%dx%d)" % (w, h)
+    if not (CARD_RATIO[0] <= w / h <= CARD_RATIO[1]): return None, "not card-shaped (%dx%d)" % (w, h)
+    if w > 245: im = im.resize((245, round(h * 245 / w)))
+    w, h = im.size
+    for scale in (1.0, 0.9, 0.8, 0.7):
+        for q in (80, 70, 60, 50, 40):
+            b = io.BytesIO(); im.resize((int(w * scale), int(h * scale))).save(b, "WEBP", quality=q, method=6)
+            if b.tell() <= MAXB: return b.getvalue(), None
+    return None, "cannot shrink under 15KB"
+
+def code_of(gname):
+    m = re.match(r"\s*([A-Za-z0-9\-]{2,8}):", gname or ""); return m.group(1).lower() if m else None
+def tcgdex_loose(lang, gname, name, num, den):
+    """code-based set match (e.g. 'S7R: ...' -> set id s7r) and name-only search + number check."""
+    if not num: return None, "no card number"
+    code = code_of(gname); d = int(re.sub(r"\D", "", den)) if den and re.sub(r"\D", "", den) else None
+    for lg in ([lang] + (["en"] if lang == "ja" else []) + (["ja"] if lang == "en" else [])):
+        if code:
+            for s in sets(lg):
+                if s["id"].lower() == code:
+                    for c in detail(lg, s["id"]).get("cards", []):
+                        if numkey(c.get("localId")) == numkey(num) and (lg == "ja" or names_match(c.get("name"), name)) and c.get("image"):
+                            if d and (s.get("cardCount") or {}).get("official") not in (d, None): continue
+                            return (c, s["id"], lg), None
+        if lg == "en" and name:
+            r = get(f"{API}/en/cards?name={urllib.parse.quote(name)}") or []
+            hits = [c for c in r if numkey(c.get("localId")) == numkey(num) and names_match(c.get("name"), name) and c.get("image")]
+            if d:
+                f = []
+                for c in hits:
+                    sid = c["id"].rsplit("-", 1)[0]; sd = next((x for x in sets("en") if x["id"] == sid), None)
+                    if sd and (sd.get("cardCount") or {}).get("official") == d: f.append(c)
+                hits = f
+            if len(hits) == 1: return (hits[0], hits[0]["id"].rsplit("-", 1)[0], "en"), None
+    return None, "tcgdex loose: no unique match"
+
+def ptcg(gname, name, num, den, bracket):
+    if not (name and num): return None, "pokemontcg: need name+number"
+    q = f'name:"{name.replace(chr(34), "")}" number:"{numkey(num)}"'
+    j = get("https://api.pokemontcg.io/v2/cards?" + urllib.parse.urlencode({"q": q, "pageSize": 25}))
+    if not j: return None, "pokemontcg: no response"
+    keys = {setkey(gname), setkey(bracket)} - {""}
+    for k in list(keys): keys |= {setkey(x) for x in []}
+    d = int(re.sub(r"\D", "", den)) if den and re.sub(r"\D", "", den) else None
+    hits = []
+    for c in j.get("data", []):
+        st = c.get("set") or {}
+        if numkey(c.get("number")) != numkey(num) or not names_match(c.get("name"), name): continue
+        okset = setkey(st.get("name")) in keys or (d and st.get("printedTotal") == d) or (d is None and any(k and k in setkey(st.get("name")) for k in keys))
+        if okset and (c.get("images") or {}).get("small"): hits.append(c)
+    if len(hits) == 1: return hits[0], None
+    return None, "pokemontcg: %d candidates" % len(hits)
+
+_ph = {}
+def tcgplayer(pid):
+    raw = get(f"https://product-images.tcgplayer.com/fit-in/437x437/{pid}.jpg", raw=True, tries=2)
+    if not raw: return None, "tcgplayer: no image"
+    if "ph" not in _ph:
+        _ph["ph"] = {hash(x) for x in [get("https://product-images.tcgplayer.com/fit-in/437x437/1.jpg", raw=True, tries=1)] if x}
+    if hash(raw) in _ph["ph"]: return None, "tcgplayer: placeholder"
+    return raw, None
+
+def save(k, data, idx, un, tcgdex_id, source, extra=None):
+    open(os.path.join(IMG, k + ".webp"), "wb").write(data)
+    idx[k] = {"file": f"images/{k}.webp", "tcgdexId": tcgdex_id, "matched": True, "source": source, **(extra or {})}; un.pop(k, None)
+
 def main():
     tr = ld("tracked.json", {}); gm = ld("group-map.json", {})
     idx = ld("images/index.json", {}); un = {u["id"]: u for u in ld("images/unmatched.json", [])}
+    for v in idx.values():
+        if v.get("matched") and not v.get("source"): v["source"] = "tcgdex"
     ids = sorted([k for k in tr if k.startswith("k-")]) + [k for k in tr if not k.startswith("k-") and is_single(k, tr[k].get("title", ""))]
     todo = [k for k in ids if not (idx.get(k) or {}).get("matched") or not os.path.exists(os.path.join(IMG, k + ".webp"))]
     print("singles", len(ids), "todo", len(todo))
@@ -117,20 +193,40 @@ def main():
         gname = groups(cat).get(gid) if gid else None
         name, num, den, br = parse(title)
         if k.startswith("s-") and not num: name = title.split(" — ")[0]
+        reasons = []
+        # 1. tcgdex strict, then loose
         card, why = find_card(lang, gname or "", name, num, den, br)
         if lang == "ja" and not card: card, why = find_card("en", gname or "", name, num, den, br)
-        if not card or not card.get("image"):
-            idx[k] = {"file": None, "tcgdexId": card["id"] if card else None, "matched": False}
-            un[k] = {"id": k, "title": title, "group": gname, "reason": why if not card else "tcgdex has no image"}; continue
-        raw = get(card["image"] + "/low.webp", raw=True); data = shrink(raw) if raw else None
-        if not data:
-            idx[k] = {"file": None, "tcgdexId": card["id"], "matched": False}; un[k] = {"id": k, "title": title, "group": gname, "reason": "image download/shrink failed"}; continue
-        open(os.path.join(IMG, k + ".webp"), "wb").write(data)
-        idx[k] = {"file": f"images/{k}.webp", "tcgdexId": card["id"], "matched": True}; un.pop(k, None)
+        if card and card.get("image"):
+            raw = get(card["image"] + "/low.webp", raw=True); data = shrink(raw) if raw else None
+            if data: save(k, data, idx, un, card["id"], "tcgdex"); continue
+            reasons.append("tcgdex image download/shrink failed")
+        else: reasons.append(why if not card else "tcgdex has no image")
+        hit, why = tcgdex_loose(lang, gname, name, num, den)
+        if hit:
+            c, sid, lg = hit; raw = get(c["image"] + "/low.webp", raw=True); data = shrink(raw) if raw else None
+            if data: save(k, data, idx, un, c["id"], "tcgdex"); continue
+        reasons.append(why or "tcgdex loose: download failed")
+        # 2. pokemontcg.io (English-language cards only)
+        c, why = ptcg(gname, name, num, den, br)
+        if c:
+            raw = get(c["images"]["small"], raw=True); data, bad = to_webp(raw) if raw else (None, "download failed")
+            if data: save(k, data, idx, un, None, "pokemontcg", {"pokemontcgId": c["id"]}); continue
+            reasons.append("pokemontcg image rejected: " + str(bad))
+        else: reasons.append(why)
+        # 3. TCGplayer product image
+        raw, why = tcgplayer(e["productId"])
+        if raw:
+            data, bad = to_webp(raw)
+            if data: save(k, data, idx, un, None, "tcgplayer", {"tcgProductId": e["productId"]}); continue
+            reasons.append("tcgplayer image rejected: " + str(bad))
+        else: reasons.append(why)
+        idx[k] = {"file": None, "tcgdexId": None, "matched": False, "source": None}
+        un[k] = {"id": k, "title": title, "group": gname, "reason": " | ".join(reasons)}
     for k in list(un):
         if k not in tr: un.pop(k)
     json.dump(dict(sorted(idx.items())), open(os.path.join(IMG, "index.json"), "w"), indent=1)
     json.dump(sorted(un.values(), key=lambda u: u["id"]), open(os.path.join(IMG, "unmatched.json"), "w"), indent=1)
-    m = sum(1 for v in idx.values() if v["matched"]); km = sum(1 for k, v in idx.items() if k.startswith("k-") and v["matched"])
-    print(f"matched {m}/{len(idx)}  (kanto {km}/151)  unmatched {len(un)}")
+    import collections
+    print("by source", dict(collections.Counter(v.get("source") for v in idx.values() if v["matched"])), "unmatched", len(un))
 if __name__ == "__main__": main()
