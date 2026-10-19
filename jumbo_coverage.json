@@ -11,7 +11,7 @@
   },
   "j-2014-mega-charizard-box-en": {
    "lastChecked": "2026-10-19",
-   "lastCount": 31,
+   "lastCount": 24,
    "lastHit": "2026-10-19"
   },
   "j-2014-xerneas-collection-fr": {
@@ -1920,7 +1920,7 @@
  "status": "ok",
  "entriesTotal": 407,
  "entriesChecked": 407,
- "entriesCheckedThisRun": 407,
+ "entriesCheckedThisRun": 8,
  "entriesWithLiveListing": 248,
  "entriesNoHitIn14Days": 120,
  "neverChecked": 0,
@@ -2047,113 +2047,126 @@
   "j-2025-salamence-ex-reshiram-ex-special-collection-en"
  ],
  "markets": "by language: English US/GB/CA/AU; French FR/DE/IT/ES; others all 8",
- "apiCalls": 1924,
+ "apiCalls": 40,
  "errors": {},
- "maxCalls": 2300,
+ "maxCalls": 40,
  "perMarket": {
   "EBAY_US": {
-   "queries": 378,
-   "raw": 8424,
-   "kept": 3020
+   "queries": 5,
+   "raw": 101,
+   "kept": 3
   },
   "EBAY_GB": {
-   "queries": 378,
-   "raw": 6495,
-   "kept": 1630
-  },
-  "EBAY_DE": {
-   "queries": 103,
-   "raw": 461,
-   "kept": 11
-  },
-  "EBAY_ES": {
-   "queries": 103,
-   "raw": 1137,
-   "kept": 10
-  },
-  "EBAY_IT": {
-   "queries": 103,
-   "raw": 1145,
-   "kept": 15
-  },
-  "EBAY_FR": {
-   "queries": 103,
-   "raw": 534,
-   "kept": 12
+   "queries": 5,
+   "raw": 101,
+   "kept": 16
   },
   "EBAY_CA": {
-   "queries": 378,
-   "raw": 8011,
-   "kept": 2826
+   "queries": 5,
+   "raw": 101,
+   "kept": 5
   },
   "EBAY_AU": {
-   "queries": 378,
-   "raw": 9221,
-   "kept": 2954
+   "queries": 5,
+   "raw": 101,
+   "kept": 10
+  },
+  "EBAY_FR": {
+   "queries": 5,
+   "raw": 111,
+   "kept": 0
+  },
+  "EBAY_DE": {
+   "queries": 5,
+   "raw": 103,
+   "kept": 0
+  },
+  "EBAY_IT": {
+   "queries": 5,
+   "raw": 150,
+   "kept": 0
+  },
+  "EBAY_ES": {
+   "queries": 5,
+   "raw": 150,
+   "kept": 0
   }
  },
  "drops": {
-  "EBAY_AU": {
-   "noise": 1966,
-   "irrelevant": 1177,
-   "lang": 279,
-   "floor": 1639,
-   "single": 1206
-  },
   "EBAY_US": {
-   "noise": 1992,
-   "irrelevant": 1164,
-   "lang": 272,
-   "floor": 1500,
-   "single": 476
+   "noise": 24,
+   "irrelevant": 15,
+   "lang": 0,
+   "floor": 50,
+   "single": 9
   },
   "EBAY_GB": {
-   "noise": 1751,
-   "irrelevant": 809,
-   "lang": 278,
-   "floor": 1417,
-   "single": 610
+   "noise": 17,
+   "irrelevant": 18,
+   "lang": 0,
+   "floor": 48,
+   "single": 2
   },
   "EBAY_CA": {
-   "noise": 1891,
-   "irrelevant": 1096,
-   "lang": 272,
-   "floor": 1409,
-   "single": 517
+   "noise": 23,
+   "irrelevant": 15,
+   "lang": 0,
+   "floor": 49,
+   "single": 9
+  },
+  "EBAY_AU": {
+   "noise": 21,
+   "irrelevant": 6,
+   "lang": 0,
+   "floor": 64
   },
   "EBAY_FR": {
-   "noise": 32,
-   "irrelevant": 273,
-   "lang": 15,
-   "floor": 3,
-   "single": 199
+   "noise": 7,
+   "irrelevant": 35,
+   "lang": 0,
+   "floor": 0,
+   "single": 69
   },
   "EBAY_DE": {
-   "noise": 26,
-   "irrelevant": 241,
-   "lang": 70,
-   "floor": 2,
-   "single": 111
+   "noise": 5,
+   "irrelevant": 29,
+   "lang": 4,
+   "floor": 0,
+   "single": 65
   },
   "EBAY_IT": {
-   "noise": 110,
-   "irrelevant": 451,
-   "lang": 154,
-   "floor": 3,
-   "single": 412
+   "noise": 2,
+   "irrelevant": 33,
+   "lang": 3,
+   "floor": 0,
+   "single": 112
   },
   "EBAY_ES": {
-   "noise": 94,
-   "irrelevant": 533,
-   "lang": 101,
-   "floor": 2,
-   "single": 397
+   "noise": 2,
+   "irrelevant": 63,
+   "lang": 6,
+   "floor": 0,
+   "single": 79
   }
  },
  "noPrice": null,
- "fxSource": "fallback-constants",
- "fxErrors": [
-  "HTTP Error 403: Forbidden",
-  "HTTP Error 403: Forbidden"
- ]
+ "fxSource": "ecb",
+ "fxErrors": null,
+ "fx": {
+  "date": "2026-10-19",
+  "source": "ecb",
+  "rates": {
+   "USD": 1.0,
+   "EUR": 1.1225,
+   "GBP": 1.333056,
+   "CAD": 0.710533,
+   "AUD": 0.698593,
+   "JPY": 0.006319,
+   "KRW": 0.000752
+  },
+  "estimated": false,
+  "fallbackStreakDays": 0,
+  "lastFallbackDate": null,
+  "errors": null
+ }
 }
