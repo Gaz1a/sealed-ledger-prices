@@ -41,6 +41,10 @@ MAX_DETAIL_CALLS_PER_QUERY = 8   # only fetch full photos/returns for the best f
 # listings where the buyer picks one card from a dropdown / list: never a real lot
 PICK_ONE = re.compile(r"multiple choice|multi[- ]?choice|choose your|choose a card|choose (?:the )?card|pick your|pick a card|pick one|you pick|you choose|select card|select your|select a card|\bchoose\b.*\bcard|\bselect\b.*\bcard", re.I)
 
+# species (single-card) listings: raw cards are only wanted Near Mint / Mint, and the holo version
+CONDITION_BAD = re.compile(r"\bdmg\b|damaged|heavily played|\bhp\b|\bmp\b|moderately played|\bplayed\b|\bpoor\b|\blp\b|light(?:ly)? played|non[- ]?holo|\bcommon\b|uncommon|reverse|\bcreased?\b|\bbent\b|\bwater damage|\bwatermark|\bproxy\b|\bsticker\b|\bcustom\b|\bbinder\b|\bcase\b", re.I)
+SPECIES_FLOOR_PCT = 0.40     # an NM holo listed below 40% of its market price is almost always damaged / misdescribed
+
 BAD_WORDS = re.compile(
     r"\bpsa\b|\bcgc\b|\bbgs\b|\bgraded\b|\breprint\b|\bcustom\b|\bproxy\b|\bfake\b|"
     r"\bdigital\b|\bonline\b|\bcode card\b|\bsingle card\b|\b1st edition\b|\bfirst edition\b",
@@ -133,7 +137,8 @@ def main():
     for q, mode, w in jobs:
         if mode == "species":
             hi = round(max(60, (w["market"] or 0) * 1.5), 2) if w["market"] else SPECIES_MAX_DEFAULT
-            hits = search(q, token, SPECIES_MIN_PRICE, hi)
+            lo = round(max(SPECIES_MIN_PRICE, (w["market"] or 0) * SPECIES_FLOOR_PCT), 2)
+            hits = search(q, token, lo, hi)
         else: hits = search(q, token)
         if not hits:
             continue
@@ -148,6 +153,7 @@ def main():
                 if re.search(r"\bsingle card\b", title, re.I) and not species_ok(title, w): continue
                 bw = re.compile(bw.pattern.replace(r"\bsingle card\b|", ""), re.I)
                 if not species_ok(title, w): continue
+                if CONDITION_BAD.search(title): stats["condition"] = stats.get("condition", 0) + 1; continue
             elif "lot" not in title.lower():
                 continue
             if bw.search(title): stats["badWords"] += 1; continue
