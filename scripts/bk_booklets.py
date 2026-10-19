@@ -11,6 +11,7 @@ SHIP_TO = {"X-EBAY-C-ENDUSERCTX": "contextualLocation=country=US,zip=91505"}
 ROWS = {"bk-golem": "Golem", "bk-hooh": "Ho-Oh", "bk-lugia": "Lugia", "bk-machamp": "Machamp", "bk-omastar": "Omastar", "bk-ralts": "Ralts", "bk-treecko": "Treecko",
         "bk-exploud": "Exploud", "bk-mudkip": "Mudkip", "bk-rayquaza": "Rayquaza", "bk-torchic": "Torchic", "h-gengar-deck": "Gengar"}
 OWNED = {"h-gengar-deck", "bk-machamp"}      # owned: never flagged / not a buy target
+NOCAP_PREFIX = "bk-"      # Portuguese Devir booklets: NO price cap (Gaz tracks the market and buys when comfortable): every live sealed Portuguese listing of an unowned booklet is flagged, whatever the price; booklet_max.json is ignored for these rows
 NOSCAN = {"bk-machamp"}      # bought 2026-10-17 (booklet_owned.json): no eBay scan at all
 BELOW_REF = 0.85       # flag when all-in <= 85% of the lowest Portuguese sealed all-in seen so far (>=15% below)
 MARKETS = ("EBAY_US", "EBAY_GB", "EBAY_DE", "EBAY_ES", "EBAY_IT", "EBAY_FR", "EBAY_CA", "EBAY_AU")
@@ -100,7 +101,7 @@ out = {"searchKeys": {r: {"titleQueries": [f"Devir Livro Ilustrado {n}", f"Estam
        "retailerRef": BK.get(r, {}).get("retailerRef")} for r, n in ROWS.items()}, "retailerInStock": stock.get("inStock", []), "retailerCheck": {"generated": stock.get("generated"), "sites": stock.get("sites"), "devirBrasil": {k: v for k, v in (stock.get("devirBrasil") or {}).items() if v.get("productLinks")},
        "productsChecked": len(stock.get("products", [])), "note": "in-stock retail copies under EUR 30 are listed here first; sites marked DISALLOWED/JS-only are skipped, not worked around"},
        "generated": TODAY, "label": "unverified: asking prices, not sold; import cost is an ESTIMATE", "assumptions": {"importEstimatePct": IMPORT_PCT, "shipTo": "Burbank CA 91505",
-       "rules": ["reference = lowest all-in Portuguese Devir SEALED asking price seen so far (known shipping only)", "flag only when all-in (item + shipping + 12% import for non-US sellers) is within that booklet's cap (hard gate); other reasons annotate", "auctions: current bid + shipping + import vs cap; a 0-bid auction is flagged only if shipping alone is under the cap",
+       "rules": ["reference = lowest all-in Portuguese Devir SEALED asking price seen so far (known shipping only)", "bk-* rows have NO cap: every live sealed Portuguese listing of an unowned booklet is flagged (US-based first, then international), whatever the price; other rows: flag only when all-in (item + shipping + 12% import for non-US sellers) is within that booklet's cap (hard gate); other reasons annotate", "auctions: current bid + shipping + import vs cap; a 0-bid auction is flagged only if shipping alone is under the cap",
                  "no sealed Portuguese reference yet -> flag any sealed listing the first time its item id appears", "only sealed/new listings are flagged; others listed under notSealed", "shipping not shown -> all-in is 'shipping unknown' (item+import shown as lower bound)"]},
        "diagnostics": DIAG, "flags": [], "notSealed": [], "counts": {}, "items": {}}
 for rid, nm in ROWS.items():
@@ -118,6 +119,8 @@ for rid, nm in ROWS.items():
     st = refs["items"].setdefault(rid, {"name": nm, "reference": None, "seen": {}})
     ref0 = dict(st["reference"]) if st["reference"] else None          # reference BEFORE today's listings
     _cp = maxp.get(rid); mx = _cp.get("cap") if isinstance(_cp, dict) else _cp; capbasis = (_cp or {}).get("basis") if isinstance(_cp, dict) else None; caplabel = (_cp or {}).get("label") if isinstance(_cp, dict) else None
+    NOCAP = rid.startswith(NOCAP_PREFIX)
+    if NOCAP: mx, capbasis, caplabel = None, None, "no cap: market tracking, every live sealed listing flagged"
     cmt = round(proxy * 0.85, 2) if proxy else None     # 85% of the English Cardmarket trend, once a trend exists
     sealed_ls = [x for x in ls if x["sealed"]]; ns_ls = [x for x in ls if not x["sealed"]]
     for x in ls:
@@ -140,18 +143,22 @@ for rid, nm in ROWS.items():
             elif mx is not None and allin is not None and allin <= mx: reasons.append(f"at/below your max ${mx}")
             if cmt and allin is not None and allin <= cmt: reasons.append(f"at/below 85% of the English Cardmarket trend (${cmt})")
             if mx is not None and ((allin is not None and allin > mx) or (unk and head is not None and head <= 0)): reasons = []      # per-deck cap is a hard gate
+            if NOCAP and not reasons: reasons = ["no cap: live sealed Portuguese listing"]
             if reasons:
-                out["flags"].append({"id": rid, "name": nm, "kind": "buy-it-now", "capUSD": mx, "capBasis": capbasis, "capLabel": caplabel, "reasons": reasons, "new": first, "allInUSD": allin, "allInStatus": "shipping unknown" if unk else "known", "itemOnlyLowerBoundUSD": lb, "maxShippingForCapUSD": head,
+                out["flags"].append({"id": rid, "name": nm, "kind": "buy-it-now", "noCap": NOCAP, "usBased": x["originCountry"] == "US", "bidCount": 0, "itemEndDate": x.get("itemEndDate"), "originCountry": x["originCountry"], "marketplace": x["marketplace"], "capUSD": mx, "capBasis": capbasis, "capLabel": caplabel, "reasons": reasons, "new": first, "allInUSD": allin, "allInStatus": "shipping unknown" if unk else "known", "itemOnlyLowerBoundUSD": lb, "maxShippingForCapUSD": head,
                     "itemUSD": x["itemUSD"], "shippingUSD": x["shippingUSD"], "importEstUSD": x["importEstUSD"], "title": x["title"], "seller": x["seller"], "feedbackPct": x["feedbackPct"],
                     "feedbackScore": x["feedbackScore"], "itemLocation": x["originCountry"], "sealedBasis": x["sealedBasis"], "url": x["url"], "reference": ref0,
                     "readyToBuy": (not unk), "readyNote": ("ships to US (eBay deliveryCountry:US filter) with known shipping" if not unk else "NOT ready: shipping cost unknown - confirm it ships to the US and the cost first"),
                     "sellerNote": ("seller has 0 feedback" if not x["feedbackScore"] else None)})
         for x in [a for a in auc_all if a["sealed"]]:
-            if mx is None: continue
+            if mx is None and not NOCAP: continue
             loc_nonus = bool(x["originCountry"]) and x["originCountry"] != "US"; ip = IMPORT_PCT if loc_nonus else 0.0
             bid, ship, nb = x["itemUSD"], x["shippingUSD"], x["bidCount"]
-            maxbid = None if ship is None else round(mx / (1 + ip) - ship, 2)
-            if nb == 0:
+            maxbid = None if (ship is None or mx is None) else round(mx / (1 + ip) - ship, 2)
+            if NOCAP:
+                allin = None if ship is None else round((bid + ship) * (1 + ip), 2); ok = True
+                why = f"no cap: live sealed Portuguese auction, current bid ${bid} ({nb} bids) + shipping {'unknown' if ship is None else '$'+str(ship)}" + (" + import est." if ip else "")
+            elif nb == 0:
                 ok = ship is not None and round(ship * (1 + ip), 2) < mx      # 0-bid auction: only when shipping alone leaves room under the cap
                 allin = None; why = f"0 bids: flagged only because shipping alone (${round(ship*(1+ip),2) if ship is not None else '?'} incl. import) is under the ${mx} cap; max winning bid about ${maxbid} item"
             else:
@@ -159,7 +166,7 @@ for rid, nm in ROWS.items():
                 ok = (bid * (1 + ip) < mx) if ship is None else allin <= mx
                 why = f"current bid ${bid} ({nb} bids) + shipping {'unknown' if ship is None else '$'+str(ship)} + import, under the ${mx} cap" if ok else ""
             if ok:
-                out["flags"].append({"id": rid, "name": nm, "kind": "auction", "capUSD": mx, "capBasis": capbasis, "capLabel": caplabel, "reasons": [why], "bidCount": nb, "currentBidUSD": bid, "maxWinningBidUSD": maxbid,
+                out["flags"].append({"id": rid, "name": nm, "kind": "auction", "noCap": NOCAP, "usBased": x["originCountry"] == "US", "originCountry": x["originCountry"], "marketplace": x["marketplace"], "capUSD": mx, "capBasis": capbasis, "capLabel": caplabel, "reasons": [why], "bidCount": nb, "currentBidUSD": bid, "maxWinningBidUSD": maxbid,
                     "allInAtCurrentBidUSD": allin, "allInStatus": "shipping unknown" if ship is None else "known", "shippingUSD": ship, "importEstUSD": round((bid + (ship or 0)) * ip, 2), "itemEndDate": x.get("itemEndDate"),
                     "title": x["title"], "seller": x["seller"], "feedbackPct": x["feedbackPct"], "feedbackScore": x["feedbackScore"], "itemLocation": x["originCountry"], "url": x["url"],
                     "readyToBuy": False, "readyNote": "auction: place a bid at or below maxWinningBidUSD; not a buy-now", "sellerNote": ("seller has 0 feedback" if not x["feedbackScore"] else None)})
@@ -198,6 +205,11 @@ for rid, nm in ROWS.items():
         "targetNote": None if out["counts"][rid]["cardmarketTrendUSD"] else "no Cardmarket trend yet; target set automatically at 85% once one is published", "impliedSales": len(imp), "impliedSaleMedianUSD": stats([e["impliedSale"]["price"] for e in imp])["median"], "everSeen": sum(1 for e in LG.values() if e["row"] == rid)}
 log["generated"] = TODAY; log["note"] = "one record per eBay item id: first/last seen, last ask, shipping, sealed y/n, status; asks only"
 json.dump(log, open(os.path.join(ROOT, "booklet_listings.json"), "w"), indent=1, ensure_ascii=False)
+order_ = {r: i for i, r in enumerate(ROWS)}
+out["flags"].sort(key=lambda f: (order_.get(f["id"], 99), not f.get("usBased"), f.get("allInUSD") or f.get("allInAtCurrentBidUSD") or f.get("itemUSD") or f.get("currentBidUSD") or 9e9))
+for r_, c_ in out["counts"].items():      # per booklet: is there a live US-based sealed listing? (the ledger job uses an international one only when there is none)
+    fl_ = [f for f in out["flags"] if f["id"] == r_]
+    c_["liveSealedUS"] = sum(1 for f in fl_ if f.get("usBased")); c_["liveSealedInternational"] = sum(1 for f in fl_ if not f.get("usBased")); c_["noCap"] = r_.startswith(NOCAP_PREFIX)
 allc = out["counts"]
 out["totals"] = {"foundToday": sum(c["foundToday"] for c in allc.values()), "sealedToday": sum(c["sealedToday"] for c in allc.values()), "distinctEverSeen": sum(c["distinctEverSeen"] for c in allc.values()),
                  "unownedRowsWithAnyListing": sum(1 for r, c in allc.items() if r not in OWNED and c["foundToday"])}
