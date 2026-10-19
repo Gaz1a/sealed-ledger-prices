@@ -45,6 +45,8 @@ def bulba(title):
 def main():
     tr = ld("tracked.json", {}); ji = ld("jumbo_ids.json", {}); cat = {c["id"]: c for c in ld("jumbo_catalogue.json", [])}
     idx = ld("images/index.json", {}); un = {u["id"]: u for u in ld("images/unmatched_products.json", [])}
+    for k, v in idx.items():
+        if v.get("matched"): un.pop(k, None)          # includes manual overrides: never re-queue or overwrite them
     singles = {k for k in tr if k.startswith("k-") or ci.is_single(k, tr[k].get("title", ""))}
     jobs = []                                  # (id, kind, title, [(pid, label)])
     for k, e in tr.items():
