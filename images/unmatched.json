@@ -3,19 +3,7 @@
   "id": "bs-imposteroak",
   "title": "Imposter Professor Oak",
   "group": "Base Set",
-  "reason": "number None not in base1,base4,ecard1"
- },
- {
-  "id": "gy-151-130-165",
-  "title": "Gyarados 130/165 (Rare)",
-  "group": "SV: Scarlet & Violet 151",
-  "reason": "number 130 not in sv01"
- },
- {
-  "id": "gy-151-130-165-rev",
-  "title": "Gyarados 130/165 (Rare) [Reverse Holo]",
-  "group": "SV: Scarlet & Violet 151",
-  "reason": "number 130 not in sv01"
+  "reason": "number None not in base1"
  },
  {
   "id": "gy-celebrations-dark-gyarados-reprint-8-82",
@@ -45,55 +33,13 @@
   "id": "k-151",
   "title": "Mew Black Star Promo #8 (holo)",
   "group": "WoTC Promo",
-  "reason": "no set match for 'WoTC Promo'"
- },
- {
-  "id": "kg-102802",
-  "title": "Gyarados - XY60 (Prerelease) XY60 [XY Promos]",
-  "group": "XY Promos",
-  "reason": "no set match for 'XY Promos'"
- },
- {
-  "id": "kg-102803",
-  "title": "Gyarados - XY60 (Prerelease) [Staff] XY60 [XY Promos]",
-  "group": "XY Promos",
-  "reason": "no set match for 'XY Promos'"
- },
- {
-  "id": "kg-116779",
-  "title": "Magikarp XY143 [XY Promos]",
-  "group": "XY Promos",
-  "reason": "no set match for 'XY Promos'"
- },
- {
-  "id": "kg-117701",
-  "title": "Gyarados EX XY106 [XY Promos]",
-  "group": "XY Promos",
-  "reason": "no set match for 'XY Promos'"
- },
- {
-  "id": "kg-177110",
-  "title": "Gyarados - XY109 XY109 [XY Promos]",
-  "group": "XY Promos",
-  "reason": "no set match for 'XY Promos'"
- },
- {
-  "id": "kg-181694",
-  "title": "Magikarp & Wailord GX SM166 [SM Promos]",
-  "group": "SM Promos",
-  "reason": "no set match for 'SM Promos'"
+  "reason": "number None not in basep"
  },
  {
   "id": "kg-181804",
   "title": "Magikarp & Wailord GX - SM166 SM166 [Jumbo Cards]",
   "group": "Jumbo Cards",
   "reason": "number SM166 not in jumbo"
- },
- {
-  "id": "kg-197875",
-  "title": "Gyarados GX - SM212 SM212 [SM Promos]",
-  "group": "SM Promos",
-  "reason": "no set match for 'SM Promos'"
  },
  {
   "id": "kg-205167",
@@ -622,18 +568,6 @@
   "title": "Switch (Gyarados) 28/30 [HGSS Trainer Kit: Gyarados & Raichu]",
   "group": "HGSS Trainer Kit: Gyarados & Raichu",
   "reason": "tcgdex has no image"
- },
- {
-  "id": "mk-151-129-165",
-  "title": "Magikarp 129/165 (Common)",
-  "group": "SV: Scarlet & Violet 151",
-  "reason": "number 129 not in sv01"
- },
- {
-  "id": "mk-151-129-165-rev",
-  "title": "Magikarp 129/165 (Common) [Reverse Holo]",
-  "group": "SV: Scarlet & Violet 151",
-  "reason": "number 129 not in sv01"
  },
  {
   "id": "mk-dragon-majesty-19-70",
