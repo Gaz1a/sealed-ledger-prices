@@ -40,17 +40,52 @@ def token():
     b = urllib.parse.urlencode({"grant_type": "client_credentials", "scope": "https://api.ebay.com/oauth/api_scope"}).encode()
     with urllib.request.urlopen(urllib.request.Request("https://api.ebay.com/identity/v1/oauth2/token", data=b, headers={"Authorization": f"Basic {a}", "Content-Type": "application/x-www-form-urlencoded"}), timeout=30) as x: return json.load(x)["access_token"]
 FX = {"USD": 1.0}
+FXINFO = {}
+FX_UA = {"User-Agent": "sealed-ledger-prices/1.0 (+https://github.com/Gaz1a/sealed-ledger-prices)", "Accept": "application/json, application/xml, text/xml, */*"}
+FALLBACK_RATES = {"EUR": 1.1253, "GBP": 1.3335, "CAD": 0.7062, "AUD": 0.6959, "JPY": 0.006328, "KRW": 0.000751}   # 16 Oct 2026 reference rates, USD per 1 unit
+FALLBACK_DATE = "2026-10-16"
+FX_CCY = ("EUR", "GBP", "CAD", "AUD", "JPY", "KRW")
+def _fx_get(u):
+    return urllib.request.urlopen(urllib.request.Request(u, headers=FX_UA), timeout=30).read()
+def fx_ecb():
+    import re as _re
+    x = _fx_get("https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml").decode()
+    date = _re.search(r"time=['\"](\d{4}-\d{2}-\d{2})['\"]", x).group(1)
+    per_eur = {m.group(1): float(m.group(2)) for m in _re.finditer(r"currency=['\"]([A-Z]{3})['\"]\s+rate=['\"]([\d.]+)['\"]", x)}
+    usd_per_eur = per_eur["USD"]
+    return date, {"EUR": usd_per_eur, **{c: usd_per_eur / v for c, v in per_eur.items() if c != "USD" and v}}
+def fx_frankfurter():
+    j = json.loads(_fx_get("https://api.frankfurter.app/latest?from=USD"))
+    return j["date"], {c: 1.0 / v for c, v in j["rates"].items() if v}
+def fx_erapi():
+    j = json.loads(_fx_get("https://open.er-api.com/v6/latest/USD"))
+    d = datetime.datetime.strptime(j["time_last_update_utc"][5:16], "%d %b %Y").strftime("%Y-%m-%d")
+    return d, {c: 1.0 / v for c, v in j["rates"].items() if v}
 def load_fx():
-    for u in ("https://api.frankfurter.dev/v1/latest?base=USD", "https://api.frankfurter.app/latest?from=USD"):
+    for name, fn in (("ecb", fx_ecb), ("frankfurter", fx_frankfurter), ("open.er-api", fx_erapi)):
         try:
-            r = json.load(urllib.request.urlopen(u, timeout=30))["rates"]
-            FX.update({c: 1.0 / v for c, v in r.items() if v}); DIAG["fxSource"] = u; return       # 1 unit of c in USD
-        except Exception as ex: DIAG.setdefault("fxErrors", []).append(str(ex)[:80])
-    FX.update({"EUR": 1.16, "GBP": 1.33, "CAD": 0.72, "AUD": 0.65}); DIAG["fxSource"] = "fallback-constants"
+            date, rates = fn(); rates = {c: round(rates[c], 6) for c in FX_CCY if c in rates}
+            if not all(c in rates for c in ("EUR", "GBP", "CAD", "AUD")): raise ValueError("missing currencies")
+            FX.update(rates); FXINFO.update({"date": date, "source": name, "rates": {"USD": 1.0, **rates}, "estimated": False}); DIAG["fxSource"] = name; return
+        except Exception as ex: DIAG.setdefault("fxErrors", []).append(f"{name}: {str(ex)[:80]}")
+    FX.update(FALLBACK_RATES); DIAG["fxSource"] = "fallback-constants"
+    FXINFO.update({"date": FALLBACK_DATE, "source": "fallback-constants", "rates": {"USD": 1.0, **FALLBACK_RATES}, "estimated": True})
+def fx_streak(cov):
+    """consecutive days (ending today) on which the fallback constants were used; persisted in jumbo_coverage.json"""
+    if not FXINFO.get("estimated"): return 0
+    prev = cov.get("fx") or {}; pd = prev.get("lastFallbackDate") or (cov.get("checkedAt") if cov.get("fxSource") == "fallback-constants" else None)
+    ps = prev.get("fallbackStreakDays") or (1 if pd else 0)
+    if not pd: return 1
+    gap = (datetime.date.fromisoformat(TODAY) - datetime.date.fromisoformat(pd)).days
+    return ps if gap == 0 else (ps + 1 if gap == 1 else 1)
+FX_FAIL_DAYS = 3
 def usd(p):
     if not p or p.get("value") is None: return None
     rate = FX.get(p.get("currency", "USD"))
     return round(float(p["value"]) * rate, 2) if rate else None
+def fx_est(p):
+    """True when this price was converted with the fallback constants (not a live rate)"""
+    return bool(FXINFO.get("estimated") and p and (p.get("currency", "USD") != "USD"))
 def norm_entries(raw):
     if isinstance(raw, dict) and isinstance(raw.get("entries"), list): raw = raw["entries"]
     items = list(raw.items()) if isinstance(raw, dict) else [(e.get("id"), e) for e in raw]
@@ -84,7 +119,7 @@ def record(h, ent, mk, q, lang):
     if not relevant(t, ent): dr["irrelevant"] += 1; return None
     if not lang_ok(t, lang): dr["lang"] += 1; return None
     auc = "AUCTION" in (h.get("buyingOptions") or [])
-    price = usd(h.get("currentBidPrice") or h.get("price"))
+    praw = h.get("currentBidPrice") or h.get("price"); price = usd(praw)
     if price is None:
         c = (h.get("currentBidPrice") or h.get("price") or {}).get("currency"); DIAG.setdefault("noPrice", {}); DIAG["noPrice"][f"{mk}:{c}"] = DIAG["noPrice"].get(f"{mk}:{c}", 0) + 1
         return None
@@ -96,7 +131,8 @@ def record(h, ent, mk, q, lang):
             "format": "auction" if auc else "buy-it-now", "bids": h.get("bidCount") if auc else None, "ends": h.get("itemEndDate"), "seller": s.get("username"),
             "feedbackPct": s.get("feedbackPercentage"), "feedbackScore": s.get("feedbackScore"), "location": (h.get("itemLocation") or {}).get("country"),
             "marketplace": mk, "query": q, "condition": h.get("condition"), "url": (h.get("itemWebUrl") or "").split("?")[0],
-            "underTarget": (0.25 * tgt <= allin <= tgt) if tgt else None, "discovery": not tgt, "targetAllIn": tgt, "seen": TODAY}
+            "underTarget": (0.25 * tgt <= allin <= tgt) if tgt else None, "discovery": not tgt, "targetAllIn": tgt, "seen": TODAY,
+            "priceCurrency": (praw or {}).get("currency"), "fxEstimated": fx_est(praw)}
 def main():
     ents = norm_entries(ld("jumbo_watch_queries.json", []))
     cov = ld("jumbo_coverage.json", {"entries": {}})
@@ -136,8 +172,8 @@ def main():
     for iid in [i for i, r in keep.items() if r.get("ends") and r["ends"] < NOW.strftime("%Y-%m-%dT%H:%M:%S")]: keep.pop(iid)      # ended
     listings = sorted(keep.values(), key=lambda r: (not r["underTarget"], r["allIn"]))
     changed = {r["itemId"]: (r["allIn"], r["bids"]) for r in listings} != {r["itemId"]: (r["allIn"], r.get("bids")) for r in old.get("listings", [])}
-    if changed or not old.get("generated"):
-        json.dump({"generated": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"), "listings": listings, "underTarget": sum(1 for r in listings if r["underTarget"]), "discovery": sum(1 for r in listings if r.get("discovery")),
+    if changed or not old.get("generated") or (old.get("fx") or {}).get("source") != FXINFO.get("source") or (old.get("fx") or {}).get("date") != FXINFO.get("date"):
+        json.dump({"generated": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"), "fx": {"date": FXINFO.get("date"), "source": FXINFO.get("source"), "rates": FXINFO.get("rates"), "estimated": FXINFO.get("estimated")}, "listings": listings, "underTarget": sum(1 for r in listings if r["underTarget"]), "discovery": sum(1 for r in listings if r.get("discovery")),
                    "note": "eBay asks / current bids, unverified; all-in = (price or current bid + shipping) x 1.10; underTarget compares all-in with the entry's targetAllIn"}, open(os.path.join(ROOT, "jumbo_listings.json"), "w"), indent=1)
     ids = {e["id"] for e in ents}; cutoff = (NOW - datetime.timedelta(days=14)).strftime("%Y-%m-%d")
     nohit = [i for i in ids if (st.get(i, {}).get("lastHit") or "") < cutoff and (st.get(i, {}).get("lastChecked"))]
@@ -146,6 +182,12 @@ def main():
     cov.update({"checkedAt": TODAY, "status": "rate limited (eBay 429): sweep stopped early, remaining entries rotate to the next run" if RL["hit"] else "ok", "entriesTotal": len(ids),
                 "entriesChecked": len(ids) - len(never), "entriesCheckedThisRun": len(swept), "entriesWithLiveListing": len(live & ids), "entriesNoHitIn14Days": len(nohit), "neverChecked": len(never),
                 "noHit14DayIds": sorted(nohit), "markets": "by language: English US/GB/CA/AU; French FR/DE/IT/ES; others all 8", "apiCalls": DIAG["calls"], "errors": DIAG["errors"], "perMarket": DIAG.get("perMarket"), "drops": DIAG.get("drops"), "noPrice": DIAG.get("noPrice"), "fxSource": DIAG.get("fxSource"), "fxErrors": DIAG.get("fxErrors"), "maxCalls": MAX_CALLS})
+    streak = fx_streak(cov)
+    cov["fx"] = {"date": FXINFO.get("date"), "source": FXINFO.get("source"), "rates": FXINFO.get("rates"), "estimated": FXINFO.get("estimated"),
+                 "fallbackStreakDays": streak, "lastFallbackDate": TODAY if streak else None, "errors": DIAG.get("fxErrors")}
+    fail = streak > FX_FAIL_DAYS
+    if fail: cov["status"] = f"FAILED: FX fallback constants used {streak} days in a row - all live FX sources are failing; converted prices are estimates"
     json.dump(cov, open(os.path.join(ROOT, "jumbo_coverage.json"), "w"), indent=1)
-    print(cov["status"], "swept", len(swept), "of", len(ids), "listings", len(listings), "calls", DIAG["calls"])
+    print(cov["status"], "swept", len(swept), "of", len(ids), "listings", len(listings), "calls", DIAG["calls"], "fx", FXINFO.get("source"), FXINFO.get("date"))
+    if fail: sys.exit(1)
 if __name__ == "__main__": main()
