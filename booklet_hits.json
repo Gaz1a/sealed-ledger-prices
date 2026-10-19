@@ -135,7 +135,7 @@
  },
  "retailerInStock": [],
  "retailerCheck": {
-  "generated": "2026-10-18",
+  "generated": "2026-10-19",
   "sites": {
    "devir.pt": {
     "robots": "DISALLOWED (skipped)",
@@ -178,7 +178,7 @@
   "productsChecked": 11,
   "note": "in-stock retail copies under EUR 30 are listed here first; sites marked DISALLOWED/JS-only are skipped, not worked around"
  },
- "generated": "2026-10-18",
+ "generated": "2026-10-19",
  "label": "unverified: asking prices, not sold; import cost is an ESTIMATE",
  "assumptions": {
   "importEstimatePct": 0.12,
@@ -194,9 +194,39 @@
  },
  "diagnostics": {
   "calls": 673,
-  "errors": {}
+  "errors": {
+   "URLError": 1
+  }
  },
  "flags": [
+  {
+   "id": "bk-hooh",
+   "name": "Ho-Oh",
+   "kind": "auction",
+   "capUSD": 37.55,
+   "capBasis": "85% of median sold item+shipping, 12 months (eBay Product Research)",
+   "capLabel": null,
+   "reasons": [
+    "0 bids: flagged only because shipping alone ($15.02 incl. import) is under the $37.55 cap; max winning bid about $22.53 item"
+   ],
+   "bidCount": 0,
+   "currentBidUSD": 0.99,
+   "maxWinningBidUSD": 22.53,
+   "allInAtCurrentBidUSD": null,
+   "allInStatus": "known",
+   "shippingUSD": 15.02,
+   "importEstUSD": 0.0,
+   "itemEndDate": "2026-10-25T19:00:01.000Z",
+   "title": "Mazzo Mezzo Tema Pokémon Portoghese EX Forze Invisibili 2006 HOOH - Sigillato in fabbrica",
+   "seller": "teamrocketgiovanni",
+   "feedbackPct": "100.0",
+   "feedbackScore": 23313,
+   "itemLocation": "US",
+   "url": "https://www.ebay.it/itm/287654059500",
+   "readyToBuy": false,
+   "readyNote": "auction: place a bid at or below maxWinningBidUSD; not a buy-now",
+   "sellerNote": null
+  },
   {
    "id": "bk-ralts",
    "name": "Ralts",
@@ -218,7 +248,7 @@
    "title": "2006 POKEMON RALTS EX Rubino e Zaffiro Half Deck Libro Portoghese Portogallo SIGILLATO",
    "seller": "luckywhiskercollectibles",
    "feedbackPct": "100.0",
-   "feedbackScore": 603,
+   "feedbackScore": 604,
    "itemLocation": "US",
    "url": "https://www.ebay.it/itm/287643558326",
    "readyToBuy": false,
@@ -246,7 +276,7 @@
    "title": "2004 POKEMON TCG TREECKO EX Rubino e Zaffiro Half Deck Libro Portoghese SIGILLATO",
    "seller": "luckywhiskercollectibles",
    "feedbackPct": "100.0",
-   "feedbackScore": 603,
+   "feedbackScore": 604,
    "itemLocation": "US",
    "url": "https://www.ebay.it/itm/287643559268",
    "readyToBuy": false,
@@ -372,13 +402,19 @@
    "capUSD": 37.55,
    "capBasis": "85% of median sold item+shipping, 12 months (eBay Product Research)",
    "capLabel": null,
-   "auctionsToday": 1,
-   "foundToday": 1,
-   "sealedToday": 1,
+   "auctionsToday": 2,
+   "foundToday": 2,
+   "sealedToday": 2,
    "notSealedToday": 0,
-   "distinctEverSeen": 2,
-   "sealedEverSeen": 0,
-   "reference": null,
+   "distinctEverSeen": 3,
+   "sealedEverSeen": 1,
+   "reference": {
+    "allInUSD": 215.27,
+    "itemUSD": 200.25,
+    "date": "2026-10-19",
+    "url": "https://www.ebay.it/itm/287654058533",
+    "title": "Mazzo Mezzo Tema Pokémon Portoghese EX Forze Invisibili 2006 HOOH - Sigillato in fabbrica"
+   },
    "max": 37.55,
    "cardmarketTrendUSD": 27.7,
    "cardmarketTarget85": 23.54,
@@ -615,9 +651,51 @@
      "seller": "hearthicegroup",
      "feedbackPct": "0.0",
      "feedbackScore": 0
+    },
+    {
+     "title": "Mazzo Mezzo Tema Pokémon Portoghese EX Forze Invisibili 2006 HOOH - Sigillato in fabbrica",
+     "url": "https://www.ebay.it/itm/287654058533",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 200.25,
+     "shippingUSD": 15.02,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 215.27,
+     "originCountry": "US",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": null,
+     "sealed": true,
+     "auction": false,
+     "bidCount": 0,
+     "matchedBy": "isbn-gtin",
+     "sealedBasis": "title says sealed/new",
+     "seller": "teamrocketgiovanni",
+     "feedbackPct": "100.0",
+     "feedbackScore": 23313
     }
    ],
    "auctions": [
+    {
+     "title": "Mazzo Mezzo Tema Pokémon Portoghese EX Forze Invisibili 2006 HOOH - Sigillato in fabbrica",
+     "url": "https://www.ebay.it/itm/287654059500",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 0.99,
+     "shippingUSD": 15.02,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 16.01,
+     "originCountry": "US",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": "2026-10-25T19:00:01.000Z",
+     "sealed": true,
+     "auction": true,
+     "bidCount": 0,
+     "matchedBy": "isbn-gtin",
+     "sealedBasis": "title says sealed/new",
+     "seller": "teamrocketgiovanni",
+     "feedbackPct": "100.0",
+     "feedbackScore": 23313
+    },
     {
      "title": "Pokemon Portoghese EX Forze Invisibili Ho-Oh Libro Sigillato 30 Carte Holo Vintage",
      "url": "https://www.ebay.it/itm/287643555973",
@@ -637,7 +715,7 @@
      "sealedBasis": "title says sealed/new",
      "seller": "luckywhiskercollectibles",
      "feedbackPct": "100.0",
-     "feedbackScore": 603
+     "feedbackScore": 604
     }
    ]
   },
@@ -761,7 +839,7 @@
      "sealedBasis": "title says sealed/new",
      "seller": "luckywhiskercollectibles",
      "feedbackPct": "100.0",
-     "feedbackScore": 603
+     "feedbackScore": 604
     }
    ]
   },
@@ -809,7 +887,7 @@
      "sealedBasis": "title says sealed/new",
      "seller": "luckywhiskercollectibles",
      "feedbackPct": "100.0",
-     "feedbackScore": 603
+     "feedbackScore": 604
     }
    ]
   },
@@ -922,12 +1000,12 @@
    },
    "bk-hooh": {
     "name": "Ho-Oh",
-    "liveListings": 2,
-    "liveSealed": 2,
+    "liveListings": 4,
+    "liveSealed": 4,
     "askItemUSD": {
-     "low": 46.06,
+     "low": 0.99,
      "median": 56.79,
-     "high": 67.51
+     "high": 200.25
     },
     "cardmarketId": 755664,
     "cardmarketProduct": "EX Unseen Forces: Illustrated Booklet - Ho-Oh",
@@ -936,7 +1014,7 @@
     "targetNote": null,
     "impliedSales": 1,
     "impliedSaleMedianUSD": 95.11,
-    "everSeen": 3
+    "everSeen": 5
    },
    "bk-lugia": {
     "name": "Lugia",
@@ -1121,9 +1199,9 @@
   }
  },
  "totals": {
-  "foundToday": 9,
-  "sealedToday": 3,
-  "distinctEverSeen": 18,
+  "foundToday": 10,
+  "sealedToday": 4,
+  "distinctEverSeen": 19,
   "unownedRowsWithAnyListing": 4
  }
 }

@@ -7,7 +7,13 @@
   },
   "bk-hooh": {
    "name": "Ho-Oh",
-   "reference": null,
+   "reference": {
+    "allInUSD": 215.27,
+    "itemUSD": 200.25,
+    "date": "2026-10-19",
+    "url": "https://www.ebay.it/itm/287654058533",
+    "title": "Mazzo Mezzo Tema Pokémon Portoghese EX Forze Invisibili 2006 HOOH - Sigillato in fabbrica"
+   },
    "seen": {
     "178546022377": {
      "firstSeen": "2026-10-17",
@@ -22,6 +28,13 @@
      "sealed": false,
      "itemUSD": 95.11,
      "url": "https://www.ebay.it/itm/278342218536"
+    },
+    "287654058533": {
+     "firstSeen": "2026-10-19",
+     "title": "Mazzo Mezzo Tema Pokémon Portoghese EX Forze Invisibili 2006 HOOH - Sigillato in fabbrica",
+     "sealed": true,
+     "itemUSD": 200.25,
+     "url": "https://www.ebay.it/itm/287654058533"
     }
    }
   },
@@ -43,7 +56,7 @@
      "url": "https://www.ebay.it/itm/800328245637"
     },
     "396842554717": {
-     "firstSeen": "2026-10-18",
+     "firstSeen": "2026-10-19",
      "title": "Carta Lugia 29/115 W Collezione Portoghese Ex Forze Ocultas (SOLO UNA SU EBAY)",
      "sealed": false,
      "itemUSD": 169.21,
@@ -205,5 +218,5 @@
    }
   }
  },
- "generated": "2026-10-18"
+ "generated": "2026-10-19"
 }
