@@ -13,6 +13,7 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install pillow
       - run: python scripts/card_images.py
+      - run: python scripts/product_images.py
       - run: |
           git config user.name "price-bot"
           git config user.email "price-bot@users.noreply.github.com"
