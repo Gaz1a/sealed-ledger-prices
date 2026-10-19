@@ -522,11 +522,17 @@
   "tcgProductId": 704147
  },
  "j-1997-corocoro-comic-july-1997-issue-insert-june-15-1997-ja": {
-  "file": null,
+  "file": "images/j-1997-corocoro-comic-july-1997-issue-insert-june-15-1997-ja.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-card",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/c/c2/PikachuJigglypuffClefairyCoroCoroPromo.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Pikachu,_Jigglypuff,_and_Clefairy_(CoroCoro_promo)",
+  "variant": "Pikachu, Jigglypuff, and Clefairy",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-1997-corocoro-comic-october-1997-issue-insert-september-15-1997-ja": {
   "file": "images/j-1997-corocoro-comic-october-1997-issue-insert-september-15-1997-ja.webp",
@@ -538,49 +544,86 @@
   "imageUrl": "https://pokecardex-scans.b-cdn.net/sets_jp/JUMBO/2.jpg?class=hd",
   "sourceUrl": "https://www.pokecardex.com/carte/jp/13827",
   "variant": "Articuno, Moltres, and Zapdos",
-  "variantsAvailable": 1
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-1998-corocoro-comic-june-1998-issue-insert-may-15-1998-ja": {
-  "file": null,
+  "file": "images/j-1998-corocoro-comic-june-1998-issue-insert-may-15-1998-ja.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-card",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/1/1e/PikachuSummerVacationCoroCoroPromo.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Pikachu%27s_Summer_Vacation_(CoroCoro_promo)",
+  "variant": "Pikachu's Summer Vacation",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-1998-corocoro-comic-may-1998-issue-insert-april-15-1998-ja": {
-  "file": null,
+  "file": "images/j-1998-corocoro-comic-may-1998-issue-insert-april-15-1998-ja.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-card",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/f/f7/MewtwoStrikesBackCoroCoroPromo.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Mewtwo_Strikes_Back_(CoroCoro_promo)",
+  "variant": "Mewtwo Strikes Back",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-1998-corocoro-comic-october-1998-issue-insert-september-15-1998-ja": {
-  "file": null,
+  "file": "images/j-1998-corocoro-comic-october-1998-issue-insert-september-15-1998-ja.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-card",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/d/de/Pok%C3%A9monPlazaCoroCoroPromo.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Plaza_(CoroCoro_promo)",
+  "variant": "Pok\u00e9mon Plaza",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-1999-bessatsu-corocoro-comic-special-august-1999-issue-insert-june-30-1999-ja": {
-  "file": null,
+  "file": "images/j-1999-bessatsu-corocoro-comic-special-august-1999-issue-insert-june-30-1999-ja.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-card",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/e/eb/PokemonValleyCoroCoroPromo.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Valley_(CoroCoro_promo)",
+  "variant": "Pok\u00e9mon Valley",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-1999-corocoro-comic-august-1999-issue-insert-july-15-1999-ja": {
-  "file": null,
+  "file": "images/j-1999-corocoro-comic-august-1999-issue-insert-july-15-1999-ja.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-card",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/1/15/LawrenceIIICoroCoropromo.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Lawrence_III_(CoroCoro_promo)",
+  "variant": "Lawrence III",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2000-bessatsu-corocoro-comic-special-august-2000-issue-insert-july-6-2000-ja": {
-  "file": null,
+  "file": "images/j-2000-bessatsu-corocoro-comic-special-august-2000-issue-insert-july-6-2000-ja.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-card",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/e/e0/PichuPikachuCoroCoroPromo.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Pikachu_%26_Pichu_(CoroCoro_promo)",
+  "variant": "Pikachu & Pichu",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2000-corocoro-comic-april-2000-issue-insert-march-15-2000-en": {
   "file": "images/j-2000-corocoro-comic-april-2000-issue-insert-march-15-2000-en.webp",
@@ -591,11 +634,17 @@
   "tcgProductId": 179079
  },
  "j-2000-corocoro-comic-august-2000-issue-insert-july-15-2000-ja": {
-  "file": null,
+  "file": "images/j-2000-corocoro-comic-august-2000-issue-insert-july-15-2000-ja.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-card",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/e/ec/CrystalTowerEnteiCoroCoroPromo.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Crystal_Tower%27s_Entei_(CoroCoro_promo)",
+  "variant": "Crystal Tower's Entei",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2000-top-deck-magazine-february-2000-en": {
   "file": "images/j-2000-top-deck-magazine-february-2000-en.webp",
@@ -606,11 +655,17 @@
   "tcgProductId": 211500
  },
  "j-2001-corocoro-comic-september-2001-issue-ja": {
-  "file": null,
+  "file": "images/j-2001-corocoro-comic-september-2001-issue-ja.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-card",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/b/b8/TimelessCelebiJPromo1.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Timeless_Celebi_(J_Promo_1)",
+  "variant": "Timeless Celebi 001/J",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2002-expedition-base-set-booster-display-en": {
   "file": "images/j-2002-expedition-base-set-booster-display-en.webp",
@@ -622,7 +677,8 @@
   "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/j55lylo4jjskx3ry/1600.jpg",
   "sourceUrl": "https://www.pricecharting.com/game/pokemon-expedition/booster-box",
   "variant": "Expedition Base Set booster display",
-  "variantsAvailable": 1
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2002-legendary-collection-booster-display-en": {
   "file": "images/j-2002-legendary-collection-booster-display-en.webp",
@@ -642,7 +698,8 @@
   "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/005a4e16932ccf17a3538793a6ffb5e082bdbe3a7fa7c5ca6fc12ca4a21884fa/1600.jpg",
   "sourceUrl": "https://www.pricecharting.com/game/pokemon-aquapolis/booster-box",
   "variant": "Aquapolis booster display",
-  "variantsAvailable": 1
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2003-skyridge-booster-display-en": {
   "file": "images/j-2003-skyridge-booster-display-en.webp",
@@ -654,14 +711,21 @@
   "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/d1d756655393bca4b73d0ae394713c98f846e71f305cefaf7547dc063adc527e/1600.jpg",
   "sourceUrl": "https://www.pricecharting.com/game/pokemon-skyridge/booster-box",
   "variant": "Skyridge booster display",
-  "variantsAvailable": 1
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2005-summer-2005-pok-mon-scoop-special-edition-insert-ja": {
-  "file": null,
+  "file": "images/j-2005-summer-2005-pok-mon-scoop-special-edition-insert-ja.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-card",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/8/86/ShadowLugiaNintendoWorldPromo.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Shadow_Lugia_(Nintendo_World_promo)",
+  "variant": "Shadow Lugia",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2007-pok-mon-wonderland-vol-9-july-14-2007-ja": {
   "file": "images/j-2007-pok-mon-wonderland-vol-9-july-14-2007-ja.webp",
@@ -673,7 +737,8 @@
   "imageUrl": "https://pokecardex-scans.b-cdn.net/sets_jp/JUMBO/21.jpg?class=hd",
   "sourceUrl": "https://www.pokecardex.com/carte/jp/13846",
   "variant": "Darkrai",
-  "variantsAvailable": 1
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2008-darkrai-premium-box-en": {
   "file": "images/j-2008-darkrai-premium-box-en.webp",
@@ -716,11 +781,17 @@
   "tcgProductId": 211505
  },
  "j-2010-clash-of-legends-box-en": {
-  "file": null,
+  "file": "images/j-2010-clash-of-legends-box-en.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/1/1c/DialgaPalkia_Clash_of_Legends.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/HeartGold_%26_SoulSilver_TCG_Series_merchandise#Clash_of_Legends",
+  "variant": "Dialga & Palkia LEGEND",
+  "variantsAvailable": 2,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2011-outstanding-oshawott-box-en": {
   "file": "images/j-2011-outstanding-oshawott-box-en.webp",
@@ -811,11 +882,17 @@
   "tcgProductId": 97729
  },
  "j-2014-hoenn-collection-en": {
-  "file": null,
+  "file": "images/j-2014-hoenn-collection-en.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/8/81/HoennCollection_PrimalGroudon.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/XY_TCG_Series_merchandise#Hoenn_Collection",
+  "variant": "Primal Groudon-EX",
+  "variantsAvailable": 2,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2014-krookodile-ex-box-en": {
   "file": "images/j-2014-krookodile-ex-box-en.webp",
@@ -906,11 +983,17 @@
   "tcgProductId": 211459
  },
  "j-2015-latios-box-fr": {
-  "file": null,
+  "file": "images/j-2015-latios-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/0/03/Latios_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/XY_French_TCG_Series_merchandise#Latios_Box",
+  "variant": "French edition; Latios Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2015-m-mewtwo-ex-special-jumbo-card-pack-blue-shock-rage-of-the-broken-heavens-ver-ja": {
   "file": "images/j-2015-m-mewtwo-ex-special-jumbo-card-pack-blue-shock-rage-of-the-broken-heavens-ver-ja.webp",
@@ -922,7 +1005,8 @@
   "imageUrl": "https://www.pokemon-card.com/products/2016/images/f8449f6e507517b947264e8f7bc40231615a2fdb.jpg",
   "sourceUrl": "https://www.pokemon-card.com/products/xy/sjcpxy8.html",
   "variant": "M Mewtwo-EX",
-  "variantsAvailable": 1
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2015-m-mewtwo-ex-special-jumbo-card-pack-red-flash-rage-of-the-broken-heavens-ver-ja": {
   "file": "images/j-2015-m-mewtwo-ex-special-jumbo-card-pack-red-flash-rage-of-the-broken-heavens-ver-ja.webp",
@@ -934,7 +1018,8 @@
   "imageUrl": "https://www.pokemon-card.com/products/2016/images/f8449f6e507517b947264e8f7bc40231615a2fdb.jpg",
   "sourceUrl": "https://www.pokemon-card.com/products/xy/sjcpxy8.html",
   "variant": "M Mewtwo-EX",
-  "variantsAvailable": 1
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2015-mega-absol-ex-premium-collection-en": {
   "file": "images/j-2015-mega-absol-ex-premium-collection-en.webp",
@@ -1057,8 +1142,9 @@
   "manual": true,
   "imageUrl": "https://data1.pokemonkorea.co.kr/2016/11/2016-11-01_16-14-48-68604-1477984488.jpg",
   "sourceUrl": "https://pokemoncard.co.kr/card/91",
-  "variant": null,
-  "variantsAvailable": 1
+  "variant": "",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2016-break-evolution-box-en": {
   "file": "images/j-2016-break-evolution-box-en.webp",
@@ -1101,8 +1187,9 @@
   "manual": true,
   "imageUrl": "https://data1.pokemonkorea.co.kr/2016/11/2016-11-02_16-23-01-80945-1478071381.jpg",
   "sourceUrl": "https://pokemoncard.co.kr/card/93",
-  "variant": null,
-  "variantsAvailable": 1
+  "variant": "",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2016-dragonite-ex-box-en": {
   "file": "images/j-2016-dragonite-ex-box-en.webp",
@@ -1121,11 +1208,17 @@
   "tcgProductId": 222989
  },
  "j-2016-fearow-box-fr": {
-  "file": null,
+  "file": "images/j-2016-fearow-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/4/45/Fearow_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/XY_French_TCG_Series_merchandise#Fearow_Box",
+  "variant": "French edition; Fearow Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2016-gengar-ex-box-en": {
   "file": "images/j-2016-gengar-ex-box-en.webp",
@@ -1136,18 +1229,30 @@
   "tcgProductId": 125733
  },
  "j-2016-ho-oh-box-fr": {
-  "file": null,
+  "file": "images/j-2016-ho-oh-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/9/98/Ho-Oh_Box_FR.png",
+  "sourceUrl": "https://www.relictcg.com/products/coffret-vintage-ho-oh-xy-fr",
+  "variant": "French edition; Ho-Oh Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2016-jirachi-box-fr": {
-  "file": null,
+  "file": "images/j-2016-jirachi-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/7/72/Jirachi_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/XY_French_TCG_Series_merchandise#Jirachi_Box",
+  "variant": "French edition; Jirachi Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2016-kangaskhan-ex-box-en": {
   "file": "images/j-2016-kangaskhan-ex-box-en.webp",
@@ -1158,18 +1263,30 @@
   "tcgProductId": 125732
  },
  "j-2016-lucario-box-fr": {
-  "file": null,
+  "file": "images/j-2016-lucario-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/0/0e/Lucario_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/XY_French_TCG_Series_merchandise#Lucario_Box",
+  "variant": "French edition; Lucario Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2016-lugia-box-fr": {
-  "file": null,
+  "file": "images/j-2016-lugia-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/2/2e/Lugia_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/XY_French_TCG_Series_merchandise#Lugia_Box",
+  "variant": "French edition; Lugia Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2016-m-mewtwo-ex-special-jumbo-card-set-blue-shock-rage-of-the-broken-heavens-ko": {
   "file": "images/j-2016-m-mewtwo-ex-special-jumbo-card-set-blue-shock-rage-of-the-broken-heavens-ko.webp",
@@ -1181,7 +1298,8 @@
   "imageUrl": "https://kream-phinf.pstatic.net/MjAyNjAxMDlfMjM2/MDAxNzY3OTUyOTMxODkw.8qvLaoAbbS_Vy6ZkKKb9vgNwQD6uCwAp5fiS9cPXVBQg.iy6zrMyCaMyDIEpVQIcZUjr5XqmQ_tHflxDbkJz078Yg.PNG/a_7457b42c533a41a4b4fb5549bb143374.png",
   "sourceUrl": "https://kream.co.kr/products/756166",
   "variant": "Blue Shock / Rage of the Broken Heavens (\ud478\ub978 \ucda9\uaca9 \ucc9c\uacf5\uc758 \ubd84\ub178 Ver.)",
-  "variantsAvailable": 2
+  "variantsAvailable": 2,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2016-m-mewtwo-ex-special-jumbo-card-set-red-flash-rage-of-the-broken-heavens-ko": {
   "file": "images/j-2016-m-mewtwo-ex-special-jumbo-card-set-red-flash-rage-of-the-broken-heavens-ko.webp",
@@ -1193,7 +1311,8 @@
   "imageUrl": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/1449085841/B.jpg?702000000",
   "sourceUrl": "https://www.11st.co.kr/products/1449085841",
   "variant": "Red Flash / Rage of the Broken Heavens (\ubd89\uc740 \uc12c\uad11 \ucc9c\uacf5\uc758 \ubd84\ub178 Ver.)",
-  "variantsAvailable": 2
+  "variantsAvailable": 2,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2016-mega-aerodactyl-ex-premium-collection-en": {
   "file": "images/j-2016-mega-aerodactyl-ex-premium-collection-en.webp",
@@ -1244,18 +1363,30 @@
   "tcgProductId": 125735
  },
  "j-2016-pansear-box-fr": {
-  "file": null,
+  "file": "images/j-2016-pansear-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/c/c1/Pansear_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/XY_French_TCG_Series_merchandise#Pansear_Box",
+  "variant": "French edition; Pansear Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2016-pikachu-box-fr": {
-  "file": null,
+  "file": "images/j-2016-pikachu-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/1/13/Pikachu_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/XY_French_TCG_Series_merchandise#Pikachu_Box",
+  "variant": "French edition; Pikachu Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2016-pikachu-ex-red-blue-collection-en": {
   "file": "images/j-2016-pikachu-ex-red-blue-collection-en.webp",
@@ -1298,8 +1429,9 @@
   "manual": true,
   "imageUrl": "https://data1.pokemonkorea.co.kr/2016/10/2016-10-06_16-53-25-49738-1475740405.png",
   "sourceUrl": "https://pokemoncard.co.kr/card/90",
-  "variant": null,
-  "variantsAvailable": 1
+  "variant": "",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2016-volcanion-ex-special-jumbo-card-pack-ja": {
   "file": "images/j-2016-volcanion-ex-special-jumbo-card-pack-ja.webp",
@@ -1311,7 +1443,8 @@
   "imageUrl": "https://www.pokemon-card.com/products/2016/images/cbe6a42996b23536602c7bd2bd8583ecde47d580.jpg",
   "sourceUrl": "https://www.pokemon-card.com/products/xy/sjp.html",
   "variant": "Volcanion-EX",
-  "variantsAvailable": 1
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2016-volcanion-ex-special-jumbo-card-set-ko": {
   "file": "images/j-2016-volcanion-ex-special-jumbo-card-set-ko.webp",
@@ -1322,8 +1455,9 @@
   "manual": true,
   "imageUrl": "https://data1.pokemonkorea.co.kr/2016/11/2016-11-17_11-56-37-53162-1479351397.jpg",
   "sourceUrl": "https://pokemoncard.co.kr/card/94",
-  "variant": null,
-  "variantsAvailable": 1
+  "variant": "",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2016-zygarde-box-en": {
   "file": "images/j-2016-zygarde-box-en.webp",
@@ -1382,11 +1516,17 @@
   "tcgProductId": 137523
  },
  "j-2017-hearts-of-champions-box-fr": {
-  "file": null,
+  "file": "images/j-2017-hearts-of-champions-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/3/37/Hearts_of_Champions_Box_FR.png",
+  "sourceUrl": "https://gradedcardcenter.com/item/c17acc6a-bde6-4fdc-88bc-5748b143722f",
+  "variant": "French edition; Hearts of Champions Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2017-ho-oh-gx-special-jumbo-card-pack-ja": {
   "file": "images/j-2017-ho-oh-gx-special-jumbo-card-pack-ja.webp",
@@ -1493,11 +1633,17 @@
   "tcgProductId": 169950
  },
  "j-2017-mimikyu-box-fr": {
-  "file": null,
+  "file": "images/j-2017-mimikyu-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/4/4d/Mimikyu_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Mimikyu_Box",
+  "variant": "French edition; Mimikyu Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2017-pikachu-ex-challenge-box-en": {
   "file": "images/j-2017-pikachu-ex-challenge-box-en.webp",
@@ -1540,11 +1686,17 @@
   "tcgProductId": 149387
  },
  "j-2017-shiny-mega-gengar-ex-box-fr": {
-  "file": null,
+  "file": "images/j-2017-shiny-mega-gengar-ex-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/9/9c/Shiny_Mega_Gengar-EX_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Shiny_Mega_Gengar-EX_Box",
+  "variant": "French edition; Shiny Mega Gengar-EX Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2017-shiny-silvally-gx-box-en": {
   "file": "images/j-2017-shiny-silvally-gx-box-en.webp",
@@ -1587,8 +1739,9 @@
   "manual": true,
   "imageUrl": "https://data1.pokemonkorea.co.kr/2017/08/2017-08-04_18-49-12-11321-1501840152.jpg",
   "sourceUrl": "https://pokemoncard.co.kr/card/114",
-  "variant": null,
-  "variantsAvailable": 1
+  "variant": "",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2017-tapu-lele-box-fr": {
   "file": "images/j-2017-tapu-lele-box-fr.webp",
@@ -1599,11 +1752,17 @@
   "tcgProductId": 179368
  },
  "j-2017-tsareena-box-fr": {
-  "file": null,
+  "file": "images/j-2017-tsareena-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/5/54/Tsareena_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Tsareena_Box",
+  "variant": "French edition; Tsareena Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2017-tsareena-gx-box-en": {
   "file": "images/j-2017-tsareena-gx-box-en.webp",
@@ -1718,11 +1877,17 @@
   "tcgProductId": 211496
  },
  "j-2018-dragon-majesty-special-collection-white-kyurem-gx-en": {
-  "file": null,
+  "file": "images/j-2018-dragon-majesty-special-collection-white-kyurem-gx-en.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/1/13/WhiteKyuremGX_Special_Collection.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_TCG_Series_merchandise#Dragon_Majesty_Special_Collection\u2014White_Kyurem-GX",
+  "variant": "White Kyurem-GX",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2018-dusk-mane-necrozma-box-en": {
   "file": "images/j-2018-dusk-mane-necrozma-box-en.webp",
@@ -1789,11 +1954,17 @@
   "tcgProductId": 177864
  },
  "j-2018-legends-of-johto-gx-collection-en": {
-  "file": null,
+  "file": "images/j-2018-legends-of-johto-gx-collection-en.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-box"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/4/4c/Legends_of_Johto_GX_Collection.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_TCG_Series_merchandise#Legends_of_Johto_GX_Collection",
+  "variant": "European Collection \u2014 five packs, without coin or pin",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2018-legends-of-johto-gx-premium-collection-en": {
   "file": "images/j-2018-legends-of-johto-gx-premium-collection-en.webp",
@@ -1901,7 +2072,8 @@
   "imageUrl": "https://www.cardrush-pokemon.jp/data/cardrushpokemon/product/20240723_1438c8.jpg",
   "sourceUrl": "https://www.cardrush-pokemon.jp/product/58414",
   "variant": "Zeraora and Friends",
-  "variantsAvailable": 1
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2018-zeraora-special-jumbo-card-set-ko": {
   "file": "images/j-2018-zeraora-special-jumbo-card-set-ko.webp",
@@ -1912,8 +2084,9 @@
   "manual": true,
   "imageUrl": "https://data1.pokemonkorea.co.kr/2018/12/2018-12-26_18-09-06-44997-1545815346.png",
   "sourceUrl": "https://pokemoncard.co.kr/card/160",
-  "variant": null,
-  "variantsAvailable": 1
+  "variant": "",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2019-alolan-marowak-gx-box-en": {
   "file": "images/j-2019-alolan-marowak-gx-box-en.webp",
@@ -1981,7 +2154,8 @@
   "imageUrl": "https://www.pokemon-card.com/ex/smp2/assets/images/special/special-jumbo-card-display-charizard.png",
   "sourceUrl": "https://www.pokemon-card.com/ex/smp2/index.html",
   "variant": "Charizard-GX",
-  "variantsAvailable": 1
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2019-detective-pikachu-special-jumbo-card-pack-mewtwo-gx-version-ja": {
   "file": "images/j-2019-detective-pikachu-special-jumbo-card-pack-mewtwo-gx-version-ja.webp",
@@ -2001,7 +2175,8 @@
   "imageUrl": "https://img.danuri.io/catalog-image/318/126/023/05ee9ec9edca4081b13776d55e57e7e4.jpg?shrink=330:*&_v=20261002154337",
   "sourceUrl": "https://prod.danawa.com/info/?pcode=23126318",
   "variant": "Detective Pikachu Charizard-GX version (\ub9ac\uc790\ubabd GX ver.)",
-  "variantsAvailable": 2
+  "variantsAvailable": 2,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2019-detective-pikachu-special-jumbo-card-set-mewtwo-gx-ko": {
   "file": "images/j-2019-detective-pikachu-special-jumbo-card-set-mewtwo-gx-ko.webp",
@@ -2037,14 +2212,21 @@
   "imageUrl": "https://cardtrader.com/uploads/blueprints/image/104695/grookey-galar-collection-zamazenta-sword-shield-merchandise.jpg",
   "sourceUrl": "https://tcgtracking.com/tcgapi/v1/products/199778",
   "variant": "Galar Collection [Grookey] - with Zamazenta V",
-  "variantsAvailable": 6
+  "variantsAvailable": 6,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2019-galar-collection-pt": {
-  "file": null,
+  "file": "images/j-2019-galar-collection-pt.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://repositorio.sbrauble.com/arquivos/up/prod/20200420/1587393283_2320.jpg",
+  "sourceUrl": "https://www.ligapokemon.com.br/?view=prod/view&pcode=108279",
+  "variant": "Sobble / Zamazenta V",
+  "variantsAvailable": 6,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2019-hidden-fates-collection-charizard-gx-en": {
   "file": "images/j-2019-hidden-fates-collection-charizard-gx-en.webp",
@@ -2120,14 +2302,21 @@
   "imageUrl": "https://www.pokemon-card.com/ex/sm11/assets/images/movie/special-pack.png",
   "sourceUrl": "https://www.pokemon-card.com/ex/sm11/index.html",
   "variant": "Mewtwo & Mew-GX",
-  "variantsAvailable": 1
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2019-mimikyu-gx-box-fr": {
-  "file": null,
+  "file": "images/j-2019-mimikyu-gx-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/a/a2/Mimikyu-GX_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Mimikyu-GX_Box",
+  "variant": "French edition; Mimikyu-GX Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2019-pale-moon-gx-box-en": {
   "file": "images/j-2019-pale-moon-gx-box-en.webp",
@@ -2154,8 +2343,9 @@
   "manual": true,
   "imageUrl": "https://data1.pokemonkorea.co.kr/2019/03/2019-03-13_11-14-17-31018-1552443257.png",
   "sourceUrl": "https://pokemoncard.co.kr/card/170",
-  "variant": null,
-  "variantsAvailable": 1
+  "variant": "",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2019-porygon-z-gx-box-en": {
   "file": "images/j-2019-porygon-z-gx-box-en.webp",
@@ -2214,11 +2404,17 @@
   "tcgProductId": 205384
  },
  "j-2020-carracosta-gx-box-fr": {
-  "file": null,
+  "file": "images/j-2020-carracosta-gx-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/5/56/Carracosta-GX_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Carracosta-GX_Box",
+  "variant": "French edition; Carracosta-GX Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2020-champion-s-path-collection-dubwool-v-en": {
   "file": "images/j-2020-champion-s-path-collection-dubwool-v-en.webp",
@@ -2261,11 +2457,17 @@
   "tcgProductId": 214227
  },
  "j-2020-eevee-gx-box-fr": {
-  "file": null,
+  "file": "images/j-2020-eevee-gx-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/f/f6/Eevee-GX_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Eevee-GX_Box",
+  "variant": "French edition; Eevee-GX Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2020-eternatus-vmax-premium-collection-en": {
   "file": "images/j-2020-eternatus-vmax-premium-collection-en.webp",
@@ -2284,11 +2486,17 @@
   "tcgProductId": 220272
  },
  "j-2020-gardevoir-sylveon-gx-box-fr": {
-  "file": null,
+  "file": "images/j-2020-gardevoir-sylveon-gx-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/9/94/Gardevoir_Sylveon-GX_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Gardevoir_&_Sylveon-GX_Box",
+  "variant": "French edition; Gardevoir & Sylveon-GX Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2020-inteleon-v-galar-partners-box-en": {
   "file": "images/j-2020-inteleon-v-galar-partners-box-en.webp",
@@ -2299,18 +2507,30 @@
   "tcgProductId": 220753
  },
  "j-2020-kanto-power-collection-en": {
-  "file": null,
+  "file": "images/j-2020-kanto-power-collection-en.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/4/45/Kanto_Power_Collection_Mewtwo-EX_Slowbro-EX.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sword_%26_Shield_TCG_Series_merchandise#Kanto_Power_Collection",
+  "variant": "Mewtwo-EX & Slowbro-EX",
+  "variantsAvailable": 2,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2020-mega-sableye-tyranitar-gx-box-fr": {
-  "file": null,
+  "file": "images/j-2020-mega-sableye-tyranitar-gx-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/d/de/Mega_Sableye_Tyranitar-GX_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Mega_Sableye_&_Tyranitar-GX_Box",
+  "variant": "French edition; Mega Sableye & Tyranitar-GX Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2020-meowth-vmax-special-collection-en": {
   "file": "images/j-2020-meowth-vmax-special-collection-en.webp",
@@ -2345,25 +2565,43 @@
   "tcgProductId": 220754
  },
  "j-2020-rowlet-alolan-exeggutor-gx-box-fr": {
-  "file": null,
+  "file": "images/j-2020-rowlet-alolan-exeggutor-gx-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/e/e2/Rowlet_Alolan_Exeggutor-GX_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Rowlet_&_Alolan_Exeggutor-GX_Box",
+  "variant": "French edition; Rowlet & Alolan Exeggutor-GX Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2020-slowpoke-psyduck-gx-box-fr": {
-  "file": null,
+  "file": "images/j-2020-slowpoke-psyduck-gx-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/c/ce/Slowpoke_%26_Psyduck-GX_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Slowpoke_&_Psyduck-GX_Box",
+  "variant": "French edition; Slowpoke & Psyduck-GX Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2020-tag-team-powers-collection-en": {
-  "file": null,
+  "file": "images/j-2020-tag-team-powers-collection-en.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/9/9f/TAG_TEAM_Powers_Collection_Umbreon_Darkrai.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_TCG_Series_merchandise#TAG_TEAM_Powers_Collection",
+  "variant": "Umbreon & Darkrai-GX",
+  "variantsAvailable": 2,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2020-toxtricity-v-box-en": {
   "file": "images/j-2020-toxtricity-v-box-en.webp",
@@ -2382,8 +2620,9 @@
   "manual": true,
   "imageUrl": "https://data1.pokemonkorea.co.kr/2020/04/2020-04-23_15-43-48-52614-1587624228.png",
   "sourceUrl": "https://pokemoncard.co.kr/card/304",
-  "variant": null,
-  "variantsAvailable": 1
+  "variant": "",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2021-alakazam-v-box-en": {
   "file": "images/j-2021-alakazam-v-box-en.webp",
@@ -2586,11 +2825,17 @@
   "tcgProductId": 249693
  },
  "j-2021-lapras-v-box-fr": {
-  "file": null,
+  "file": "images/j-2021-lapras-v-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/c/c5/Lapras_V_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sword_%26_Shield_French_TCG_Series_merchandise#Lapras_V_Box",
+  "variant": "French edition; Lapras V Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2021-mewtwo-v-union-special-collection-en": {
   "file": "images/j-2021-mewtwo-v-union-special-collection-en.webp",
@@ -2601,11 +2846,17 @@
   "tcgProductId": 245877
  },
  "j-2021-ninetales-v-box-fr": {
-  "file": null,
+  "file": "images/j-2021-ninetales-v-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/b/bf/Feunard_V_box.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sword_%26_Shield_French_TCG_Series_merchandise#Ninetales_V_Box",
+  "variant": "French edition; Ninetales V Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2021-pikachu-zekrom-gx-premium-collection-en": {
   "file": "images/j-2021-pikachu-zekrom-gx-premium-collection-en.webp",
@@ -2625,7 +2876,8 @@
   "imageUrl": "https://kream-phinf.pstatic.net/MjAyNjAxMDlfMTk5/MDAxNzY3OTUyOTY3NTk4.1XZ32xDWG7roKOrzOwVXc_LHuebmy9uHHN4WGnQGl8Ug.eEqSpXDBSzZrIxhJsr9TLGYFVWmYiuk6ERy9X41paqAg.PNG/a_8c9dcc6017994bbcb2cdbf944e6e0b32.png",
   "sourceUrl": "https://kream.co.kr/products/756084",
   "variant": "Rapid Strike Master (\uc5f0\uaca9\ub9c8\uc2a4\ud130), blue package",
-  "variantsAvailable": 2
+  "variantsAvailable": 2,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2021-rapid-strike-urshifu-v-box-en": {
   "file": "images/j-2021-rapid-strike-urshifu-v-box-en.webp",
@@ -2652,11 +2904,17 @@
   "tcgProductId": 248208
  },
  "j-2021-salamence-v-box-fr": {
-  "file": null,
+  "file": "images/j-2021-salamence-v-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/0/0a/Salamence_V_Box_FR.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sword_%26_Shield_French_TCG_Series_merchandise#Salamence_V_Box",
+  "variant": "French edition; Salamence V Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2021-shadow-rider-calyrex-v-box-en": {
   "file": "images/j-2021-shadow-rider-calyrex-v-box-en.webp",
@@ -2724,7 +2982,8 @@
   "imageUrl": "https://kream-phinf.pstatic.net/MjAyNjAxMDlfMjkx/MDAxNzY3OTUyOTY3ODgw.DxJbqo695eja4Kk20Df9IDpPG73CAmZyCzEHthFKbb0g.Jzijy8yffOjLtxU3IcYyo9YW5aGsbrVbjXdMnxoFlykg.PNG/a_695c548067b841568a2a8fbc20662211.png",
   "sourceUrl": "https://kream.co.kr/products/756082",
   "variant": "Single Strike Master (\uc77c\uaca9\ub9c8\uc2a4\ud130), red package",
-  "variantsAvailable": 2
+  "variantsAvailable": 2,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2021-single-strike-urshifu-v-box-en": {
   "file": "images/j-2021-single-strike-urshifu-v-box-en.webp",
@@ -2775,11 +3034,17 @@
   "tcgProductId": 245879
  },
  "j-2022-arceus-v-collection-pt": {
-  "file": null,
+  "file": "images/j-2022-arceus-v-collection-pt.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://repositorio.sbrauble.com/arquivos/up/prod/20220627/1729775244_3006.jpg",
+  "sourceUrl": "https://www.ligapokemon.com.br/?view=prod/view&pcode=124263",
+  "variant": "Arceus V",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2022-arceus-vstar-premium-collection-en": {
   "file": "images/j-2022-arceus-vstar-premium-collection-en.webp",
@@ -2814,18 +3079,30 @@
   "tcgProductId": 282002
  },
  "j-2022-flapple-v-box-fr": {
-  "file": null,
+  "file": "images/j-2022-flapple-v-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/a/af/Pomdrapi_V_box.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sword_%26_Shield_French_TCG_Series_merchandise#Flapple_V_Box",
+  "variant": "French edition; Flapple V Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2022-galarian-slowking-v-box-fr": {
-  "file": null,
+  "file": "images/j-2022-galarian-slowking-v-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/f/fb/Roigada_de_Galar_V_box.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sword_%26_Shield_French_TCG_Series_merchandise#Galarian_Slowking_V_Box",
+  "variant": "French edition; Galarian Slowking V Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2022-glaceon-vstar-special-collection-en": {
   "file": "images/j-2022-glaceon-vstar-special-collection-en.webp",
@@ -2836,11 +3113,17 @@
   "tcgProductId": 256146
  },
  "j-2022-greedent-v-box-fr": {
-  "file": null,
+  "file": "images/j-2022-greedent-v-box-fr.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/5/5f/Rongrigou_V_box.png",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Sword_%26_Shield_French_TCG_Series_merchandise#Greedent_V_Box",
+  "variant": "French edition; Greedent V Box",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2022-hisuian-electrode-v-box-en": {
   "file": "images/j-2022-hisuian-electrode-v-box-en.webp",
@@ -2892,7 +3175,8 @@
   "imageUrl": "https://www.houhou-news.com/wp-content/uploads/2022/11/b43080ae64b4854a310a16a54126cff0.jpg",
   "sourceUrl": "https://www.houhou-news.com/jumbo-card-collection-lapras-information",
   "variant": "Lapras; Galarian Moltres",
-  "variantsAvailable": 1
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2022-latias-jumbo-card-collection-ja": {
   "file": "images/j-2022-latias-jumbo-card-collection-ja.webp",
@@ -2904,7 +3188,8 @@
   "imageUrl": "https://www.houhou-news.com/wp-content/uploads/2022/11/b1893633b5af49a03b1e070729861449.jpg",
   "sourceUrl": "https://www.houhou-news.com/jumbo-card-collection-latias-information",
   "variant": "Latias; Ditto",
-  "variantsAvailable": 1
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2022-leafeon-vstar-special-collection-en": {
   "file": "images/j-2022-leafeon-vstar-special-collection-en.webp",
@@ -2940,7 +3225,8 @@
   "imageUrl": "https://www.houhou-news.com/wp-content/uploads/2022/11/1195b326f23fa70f92af954f60dbf796.jpg",
   "sourceUrl": "https://www.houhou-news.com/jumbo-card-collection-mew-information",
   "variant": "Mew; Oricorio",
-  "variantsAvailable": 1
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2022-mew-v-box-en": {
   "file": "images/j-2022-mew-v-box-en.webp",
@@ -2983,11 +3269,17 @@
   "tcgProductId": 260709
  },
  "j-2022-pikachu-v-collection-pt": {
-  "file": null,
+  "file": "images/j-2022-pikachu-v-collection-pt.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://repositorio.sbrauble.com/arquivos/up/prod/20220330/1648644588_3416.jpg",
+  "sourceUrl": "https://www.ligapokemon.com.br/?view=prod/view&pcode=122235",
+  "variant": "Pikachu V",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2022-pok-mon-go-collection-alolan-exeggutor-v-en": {
   "file": "images/j-2022-pok-mon-go-collection-alolan-exeggutor-v-en.webp",
@@ -2998,11 +3290,17 @@
   "tcgProductId": 279028
  },
  "j-2022-pok-mon-go-radiant-eevee-premium-collection-pt": {
-  "file": null,
+  "file": "images/j-2022-pok-mon-go-radiant-eevee-premium-collection-pt.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://repositorio.sbrauble.com/arquivos/up/prod/20220706/1729712706_6548.jpg",
+  "sourceUrl": "https://www.ligapokemon.com.br/?view=prod/view&pcode=124347",
+  "variant": "Radiant Eevee",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2022-pok-mon-go-special-collection-team-instinct-pt": {
   "file": "images/j-2022-pok-mon-go-special-collection-team-instinct-pt.webp",
@@ -3037,8 +3335,9 @@
   "manual": true,
   "imageUrl": "https://data1.pokemonkorea.co.kr/2022/06/2022-06-20_11-55-53-14841-1655693753.png",
   "sourceUrl": "https://pokemoncard.co.kr/card/441",
-  "variant": null,
-  "variantsAvailable": 1
+  "variant": "",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2022-shaymin-vstar-premium-collection-en": {
   "file": "images/j-2022-shaymin-vstar-premium-collection-en.webp",
@@ -3081,11 +3380,17 @@
   "tcgProductId": 502006
  },
  "j-2023-151-mew-ex-mewtwo-special-collection-pt": {
-  "file": null,
+  "file": "images/j-2023-151-mew-ex-mewtwo-special-collection-pt.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://repositorio.sbrauble.com/arquivos/up/prod/20231206/1701892877_8848.jpg",
+  "sourceUrl": "https://www.ligapokemon.com.br/?view=prod/view&pcode=128920",
+  "variant": "Mew ex",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2023-151-zapdos-ex-collection-en": {
   "file": "images/j-2023-151-zapdos-ex-collection-en.webp",
@@ -3136,11 +3441,17 @@
   "tcgProductId": 516939
  },
  "j-2023-crown-zenith-shiny-zacian-special-collection-pt": {
-  "file": null,
+  "file": "images/j-2023-crown-zenith-shiny-zacian-special-collection-pt.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://repositorio.sbrauble.com/arquivos/up/prod/20221228/1729705403_9886.jpg",
+  "sourceUrl": "https://www.ligapokemon.com.br/?view=prod/view&pcode=126724",
+  "variant": "Zacian V",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2023-crown-zenith-shiny-zamazenta-special-collection-pt": {
   "file": "images/j-2023-crown-zenith-shiny-zamazenta-special-collection-pt.webp",
@@ -3199,8 +3510,9 @@
   "manual": true,
   "imageUrl": "https://data1.pokemonkorea.co.kr/2023/01/2023-01-18_11-56-40-44474-1674010600.png",
   "sourceUrl": "https://pokemoncard.co.kr/card/509",
-  "variant": null,
-  "variantsAvailable": 1
+  "variant": "",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2023-jumbo-card-collection-latias-ko": {
   "file": "images/j-2023-jumbo-card-collection-latias-ko.webp",
@@ -3211,8 +3523,9 @@
   "manual": true,
   "imageUrl": "https://data1.pokemonkorea.co.kr/2023/01/2023-01-18_11-55-55-12903-1674010555.png",
   "sourceUrl": "https://pokemoncard.co.kr/card/508",
-  "variant": null,
-  "variantsAvailable": 1
+  "variant": "",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2023-jumbo-card-collection-mew-ko": {
   "file": "images/j-2023-jumbo-card-collection-mew-ko.webp",
@@ -3223,8 +3536,9 @@
   "manual": true,
   "imageUrl": "https://data1.pokemonkorea.co.kr/2023/01/2023-01-18_11-53-03-97335-1674010383.png",
   "sourceUrl": "https://pokemoncard.co.kr/card/507",
-  "variant": null,
-  "variantsAvailable": 1
+  "variant": "",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2023-kleavor-vstar-special-collection-en": {
   "file": "images/j-2023-kleavor-vstar-special-collection-en.webp",
@@ -3259,11 +3573,17 @@
   "tcgProductId": 497728
  },
  "j-2023-meowscarada-ex-collection-pt": {
-  "file": null,
+  "file": "images/j-2023-meowscarada-ex-collection-pt.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://repositorio.sbrauble.com/arquivos/up/prod/20230906/1729693086_6940.jpg",
+  "sourceUrl": "https://www.ligapokemon.com.br/?view=prod/view&pcode=128476",
+  "variant": "Meowscarada ex",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2023-mimikyu-ex-box-en": {
   "file": "images/j-2023-mimikyu-ex-box-en.webp",
@@ -3296,10 +3616,11 @@
   "source": "manual",
   "kind": "jumbo-box",
   "manual": true,
-  "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/477172_400w.jpg",
-  "sourceUrl": "https://www.tcgplayer.com/product/477172/pokemon-miscellaneous-cards-and-products-paldea-collection-sprigatito-koraidon-ex",
-  "variant": "Sprigatito / Koraidon ex",
-  "variantsAvailable": 6
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/d/d9/Paldea_Collection_Sprigatito.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Scarlet_%26_Violet_TCG_Series_merchandise#Paldea_Collection",
+  "variant": "Sprigatito / Miraidon ex",
+  "variantsAvailable": 6,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2023-paradox-powers-ex-special-collection-en": {
   "file": "images/j-2023-paradox-powers-ex-special-collection-en.webp",
@@ -3310,11 +3631,17 @@
   "tcgProductId": 621096
  },
  "j-2023-quaquaval-ex-collection-pt": {
-  "file": null,
+  "file": "images/j-2023-quaquaval-ex-collection-pt.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://repositorio.sbrauble.com/arquivos/up/prod/20230906/1729692758_3552.jpg",
+  "sourceUrl": "https://www.ligapokemon.com.br/?view=prod/view&pcode=128477",
+  "variant": "Quaquaval ex",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2023-roaring-moon-ex-box-en": {
   "file": "images/j-2023-roaring-moon-ex-box-en.webp",
@@ -3325,11 +3652,17 @@
   "tcgProductId": 516577
  },
  "j-2023-skeledirge-ex-collection-pt": {
-  "file": null,
+  "file": "images/j-2023-skeledirge-ex-collection-pt.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://repositorio.sbrauble.com/arquivos/up/prod/20230906/1729692326_1572.jpg",
+  "sourceUrl": "https://www.ligapokemon.com.br/?view=prod/view&pcode=128478",
+  "variant": "Skeledirge ex",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2024-aegislash-ex-box-en": {
   "file": "images/j-2024-aegislash-ex-box-en.webp",
@@ -3340,11 +3673,17 @@
   "tcgProductId": 707208
  },
  "j-2024-armarouge-ex-collection-pt": {
-  "file": null,
+  "file": "images/j-2024-armarouge-ex-collection-pt.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://repositorio.sbrauble.com/arquivos/up/prod/20240429/1729689047_7324.jpg",
+  "sourceUrl": "https://www.ligapokemon.com.br/?view=prod/view&pcode=130210",
+  "variant": "Armarouge ex",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2024-bloodmoon-ursaluna-ex-box-en": {
   "file": "images/j-2024-bloodmoon-ursaluna-ex-box-en.webp",
@@ -3451,8 +3790,9 @@
   "manual": true,
   "imageUrl": "https://data1.pokemonkorea.co.kr/2024/06/2024-06-20_15-12-47-13255-1718863967.png",
   "sourceUrl": "https://pokemoncard.co.kr/card/645",
-  "variant": null,
-  "variantsAvailable": 1
+  "variant": "",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2024-ogerpon-special-jumbo-card-set-may-17-2024-ja": {
   "file": "images/j-2024-ogerpon-special-jumbo-card-set-may-17-2024-ja.webp",
@@ -3464,7 +3804,8 @@
   "imageUrl": "https://www.pokemon-card.com/info/2024/04/images/sv6_1.png",
   "sourceUrl": "https://www.pokemon-card.com/info/004391.html",
   "variant": "Teal Mask Ogerpon",
-  "variantsAvailable": 1
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2024-palafin-ex-box-en": {
   "file": "images/j-2024-palafin-ex-box-en.webp",
@@ -3475,18 +3816,30 @@
   "tcgProductId": 547129
  },
  "j-2024-paldean-fates-premium-collections-en": {
-  "file": null,
+  "file": "images/j-2024-paldean-fates-premium-collections-en.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://archives.bulbagarden.net/media/upload/c/c1/SV4.5_Premium_Collection_Meowscarada.jpg",
+  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Scarlet_%26_Violet_TCG_Series_merchandise#Paldean_Fates_Premium_Collections",
+  "variant": "Meowscarada ex",
+  "variantsAvailable": 3,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2024-paldean-fates-shiny-charizard-ex-collection-pt": {
-  "file": null,
+  "file": "images/j-2024-paldean-fates-shiny-charizard-ex-collection-pt.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://repositorio.sbrauble.com/arquivos/up/prod/20231211/1707162572_2288.jpg",
+  "sourceUrl": "https://www.ligapokemon.com.br/?view=prod/view&pcode=128935",
+  "variant": "Charizard ex",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2024-paldean-fates-shiny-great-tusk-ex-collection-pt": {
   "file": "images/j-2024-paldean-fates-shiny-great-tusk-ex-collection-pt.webp",
@@ -3497,18 +3850,30 @@
   "tcgProductId": 666593
  },
  "j-2024-paldean-fates-shiny-iron-treads-ex-collection-pt": {
-  "file": null,
+  "file": "images/j-2024-paldean-fates-shiny-iron-treads-ex-collection-pt.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://repositorio.sbrauble.com/arquivos/up/prod/20240205/1707163007_2445.jpg",
+  "sourceUrl": "https://www.ligapokemon.com.br/?view=prod/view&pcode=129432",
+  "variant": "Iron Treads ex",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2024-paradox-destinies-collections-pt": {
-  "file": null,
+  "file": "images/j-2024-paradox-destinies-collections-pt.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null,
-  "kind": "jumbo-card"
+  "matched": true,
+  "source": "manual",
+  "kind": "jumbo-box",
+  "manual": true,
+  "imageUrl": "https://repositorio.sbrauble.com/arquivos/up/prod/20240820/1729703558_5826.jpg",
+  "sourceUrl": "https://www.ligapokemon.com.br/?view=prod/view&pcode=131639",
+  "variant": "Gouging Fire ex / Fogo Corros\u00e3o ex",
+  "variantsAvailable": 4,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2024-paradox-fury-premium-collection-en": {
   "file": "images/j-2024-paradox-fury-premium-collection-en.webp",
@@ -3535,8 +3900,9 @@
   "manual": true,
   "imageUrl": "https://data1.pokemonkorea.co.kr/2024/12/2024-12-04_10-11-08-46642-1733274668.png",
   "sourceUrl": "https://pokemoncard.co.kr/card/690",
-  "variant": null,
-  "variantsAvailable": 1
+  "variant": "",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2024-shrouded-fable-greninja-ex-special-illustration-collection-pt": {
   "file": "images/j-2024-shrouded-fable-greninja-ex-special-illustration-collection-pt.webp",
@@ -3619,8 +3985,9 @@
   "manual": true,
   "imageUrl": "https://data1.pokemonkorea.co.kr/2025/04/2025-04-24_15-02-32-38730-1745474552.png",
   "sourceUrl": "https://pokemoncard.co.kr/card/775",
-  "variant": null,
-  "variantsAvailable": 1
+  "variant": "",
+  "variantsAvailable": 1,
+  "pack": "Jumbo_Image_Sources_92"
  },
  "j-2025-greninja-ex-kingdra-ex-special-collection-en": {
   "file": "images/j-2025-greninja-ex-kingdra-ex-special-collection-en.webp",

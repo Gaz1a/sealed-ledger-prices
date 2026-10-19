@@ -1,0 +1,3107 @@
+{
+  "schema_version": 1,
+  "title": "Jumbo product image sources — 92 ledger entries",
+  "checked_date_utc": "2026-10-19",
+  "scope": "Image references for the 92 specified unmatched jumbo records. Original ledger IDs are preserved. This file does not change ledger inventory, prices or marketplace IDs.",
+  "counts": {
+    "entries": 92,
+    "packaging_entries": 80,
+    "jumbo_insert_scan_entries": 12,
+    "image_references": 121,
+    "unique_image_files": 118,
+    "english_edition_fallbacks": 0,
+    "unresolved_entries": 0,
+    "by_language": {
+      "French": 25,
+      "Japanese": 22,
+      "Korean": 20,
+      "Portuguese": 13,
+      "English": 12
+    },
+    "original_reason_counts": {
+      "no_id": 80,
+      "multi_product": 7,
+      "id_no_image": 5
+    }
+  },
+  "entries": [
+    {
+      "id": "j-2015-latios-box-fr",
+      "title": "Latios Box",
+      "language": "French",
+      "year": "2015",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2015-latios-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/0/03/Latios_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/XY_French_TCG_Series_merchandise#Latios_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Latios Box",
+          "label": "French edition packaging — Latios",
+          "width": 702,
+          "height": 600,
+          "sha256": "697d87a3c6a5883a021fd1b796cd7e43ce5a6ceed74e6286a5f8c014941be6b0",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Latios; French logo and card text; Latios regular card and large card, purple/blue box."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2016-fearow-box-fr",
+      "title": "Fearow Box",
+      "language": "French",
+      "year": "2016",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2016-fearow-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/4/45/Fearow_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/XY_French_TCG_Series_merchandise#Fearow_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Fearow Box",
+          "label": "French edition packaging — Rapasdepic",
+          "width": 300,
+          "height": 265,
+          "sha256": "4f0e735b1e6ad5290610fcad9fd63b6d6c221222acfde8fd569aba394bab6fef",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Rapasdepic; French logo, Rapasdepic jumbo and small card; turquoise/yellow box. Source original is only 300×265."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2016-jirachi-box-fr",
+      "title": "Jirachi Box",
+      "language": "French",
+      "year": "2016",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2016-jirachi-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/7/72/Jirachi_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/XY_French_TCG_Series_merchandise#Jirachi_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Jirachi Box",
+          "label": "French edition packaging — Jirachi",
+          "width": 1280,
+          "height": 1093,
+          "sha256": "d6fc5f19255e8d0f7dbe473aadd58d5d50bd5a11316a0ba22803677e3e2ccce5",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Jirachi; French logo and card text; turquoise/yellow box with Jirachi small and oversized card."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2016-lucario-box-fr",
+      "title": "Lucario Box",
+      "language": "French",
+      "year": "2016",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2016-lucario-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/0/0e/Lucario_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/XY_French_TCG_Series_merchandise#Lucario_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Lucario Box",
+          "label": "French edition packaging — Lucario",
+          "width": 1280,
+          "height": 1093,
+          "sha256": "cd28b821654a5f321055d623e25318b9912f9375f26a9be047c966afda52c730",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Lucario; French logo, Lucario jumbo and regular card; blue/red box."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2016-lugia-box-fr",
+      "title": "Lugia Box",
+      "language": "French",
+      "year": "2016",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2016-lugia-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/2/2e/Lugia_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/XY_French_TCG_Series_merchandise#Lugia_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Lugia Box",
+          "label": "French edition packaging — Lugia",
+          "width": 698,
+          "height": 596,
+          "sha256": "ea76c0352a098f3b012bff41bef4b5df5ef2deed76c14520850c673f0d9600d2",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Lugia; French logo and Lugia cards; blue/pink packaging."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2016-pansear-box-fr",
+      "title": "Pansear Box",
+      "language": "French",
+      "year": "2016",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2016-pansear-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/c/c1/Pansear_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/XY_French_TCG_Series_merchandise#Pansear_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Pansear Box",
+          "label": "French edition packaging — Flamajou",
+          "width": 500,
+          "height": 427,
+          "sha256": "69354c378964391430307cb767a27e554dbaa69fbfa6bb3c41905d67f2da3992",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Flamajou; French logo and Flamajou cards; orange/yellow packaging."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2016-pikachu-box-fr",
+      "title": "Pikachu Box",
+      "language": "French",
+      "year": "2016",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2016-pikachu-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/1/13/Pikachu_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/XY_French_TCG_Series_merchandise#Pikachu_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Pikachu Box",
+          "label": "French edition packaging — Pikachu",
+          "width": 1280,
+          "height": 1093,
+          "sha256": "9f0c36ac0c13f259da8a912c55f9a68f04924c9bbaed27ca21764dc2cf8fa167",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Pikachu; French logo; XY95 artwork of Pikachu, Chespin and Sylveon, not a Pikachu-EX box."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2017-mimikyu-box-fr",
+      "title": "Mimikyu Box",
+      "language": "French",
+      "year": "2017",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2017-mimikyu-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/4/4d/Mimikyu_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Mimikyu_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Mimikyu Box",
+          "label": "French edition packaging — Mimiqui",
+          "width": 754,
+          "height": 568,
+          "sha256": "64999ed1562df07b2792ecec251f70e589ad177cb70b8590bccd74c38531a941",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Mimiqui; French logo and Mimiqui cards; purple box with SM029 artwork, not the later GX box."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2017-shiny-mega-gengar-ex-box-fr",
+      "title": "Shiny Mega Gengar-EX Box",
+      "language": "French",
+      "year": "2017",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2017-shiny-mega-gengar-ex-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/9/9c/Shiny_Mega_Gengar-EX_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Shiny_Mega_Gengar-EX_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Shiny Mega Gengar-EX Box",
+          "label": "French edition packaging — Méga-Ectoplasma-EX Chromatique",
+          "width": 1043,
+          "height": 916,
+          "sha256": "800963184f72e69c171eebac22864c127098268bf437e50d222663e5bcba1b35",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Méga-Ectoplasma-EX Chromatique; French logo; shiny pale Mega Gengar on regular and jumbo cards; purple/yellow box."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2017-tsareena-box-fr",
+      "title": "Tsareena Box",
+      "language": "French",
+      "year": "2017",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2017-tsareena-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/5/54/Tsareena_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Tsareena_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Tsareena Box",
+          "label": "French edition packaging — Sucreine",
+          "width": 742,
+          "height": 522,
+          "sha256": "211a4d4bef5bef5c5366830025ce5ab08afa889bb522eff2d5a8908b1106fa52",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Sucreine; French logo and card text; SM026 Sucreine jumbo, yellow-green/red box."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2019-mimikyu-gx-box-fr",
+      "title": "Mimikyu-GX Box",
+      "language": "French",
+      "year": "2019",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2019-mimikyu-gx-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/a/a2/Mimikyu-GX_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Mimikyu-GX_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Mimikyu-GX Box",
+          "label": "French edition packaging — Mimiqui-GX",
+          "width": 600,
+          "height": 519,
+          "sha256": "546c7e8179ee0df75380d56a8a82b8630fe720895a5b8f695996f33ccee9742d",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Mimiqui-GX; French logo and Mimiqui-GX regular card; burgundy-purple packaging."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2020-carracosta-gx-box-fr",
+      "title": "Carracosta-GX Box",
+      "language": "French",
+      "year": "2020",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2020-carracosta-gx-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/5/56/Carracosta-GX_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Carracosta-GX_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Carracosta-GX Box",
+          "label": "French edition packaging — Mégapagos-GX",
+          "width": 1154,
+          "height": 1002,
+          "sha256": "449378f13cd8028537e7836dbb2d10eb3e2a5440e66583b0f567ee3586c73031",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Mégapagos-GX; French logo; Mégapagos-GX jumbo and small card; blue/red packaging."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2020-eevee-gx-box-fr",
+      "title": "Eevee-GX Box",
+      "language": "French",
+      "year": "2020",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2020-eevee-gx-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/f/f6/Eevee-GX_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Eevee-GX_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Eevee-GX Box",
+          "label": "French edition packaging — Évoli-GX",
+          "width": 512,
+          "height": 460,
+          "sha256": "caad52fefcdea812ffa496c48327da2e45a6718566459e963d1c49bb3607ab83",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Évoli-GX; French logo; SM242 cartoon-style Évoli-GX jumbo and two regular cards, matching 2020 French box."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2020-gardevoir-sylveon-gx-box-fr",
+      "title": "Gardevoir & Sylveon-GX Box",
+      "language": "French",
+      "year": "2020",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2020-gardevoir-sylveon-gx-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/9/94/Gardevoir_Sylveon-GX_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Gardevoir_&_Sylveon-GX_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Gardevoir & Sylveon-GX Box",
+          "label": "French edition packaging — Gardevoir et Nymphali-GX",
+          "width": 1500,
+          "height": 1298,
+          "sha256": "d980f57dde6ac2fd142445d1c4be8ccfac9be4e5987f6539a996c315bc07e78e",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Gardevoir et Nymphali-GX; French logo and ESCOUADE card heading; 2020 French four-pack box."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2020-mega-sableye-tyranitar-gx-box-fr",
+      "title": "Mega Sableye & Tyranitar-GX Box",
+      "language": "French",
+      "year": "2020",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2020-mega-sableye-tyranitar-gx-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/d/de/Mega_Sableye_Tyranitar-GX_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Mega_Sableye_&_Tyranitar-GX_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Mega Sableye & Tyranitar-GX Box",
+          "label": "French edition packaging — Méga-Ténéfix et Tyranocif-GX",
+          "width": 1200,
+          "height": 1039,
+          "sha256": "4cbdb56b1ec890b42c3afc372817362890e148c9120ca3aa3869dee4f6fde924",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Méga-Ténéfix et Tyranocif-GX; French logo; jumbo and regular tag-team card plus Regigigas, green/pink packaging."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2020-rowlet-alolan-exeggutor-gx-box-fr",
+      "title": "Rowlet & Alolan Exeggutor-GX Box",
+      "language": "French",
+      "year": "2020",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2020-rowlet-alolan-exeggutor-gx-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/e/e2/Rowlet_Alolan_Exeggutor-GX_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Rowlet_&_Alolan_Exeggutor-GX_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Rowlet & Alolan Exeggutor-GX Box",
+          "label": "French edition packaging — Brindibou et Noadkoko d’Alola-GX",
+          "width": 1398,
+          "height": 1211,
+          "sha256": "13a9e020a5f3351e9e9c319e87478dc786ac637c55ed5f730161b9c0292bd212",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Brindibou et Noadkoko d’Alola-GX; French logo; jumbo and regular tag-team card, green/yellow packaging."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2020-slowpoke-psyduck-gx-box-fr",
+      "title": "Slowpoke & Psyduck-GX Box",
+      "language": "French",
+      "year": "2020",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2020-slowpoke-psyduck-gx-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/c/ce/Slowpoke_%26_Psyduck-GX_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_French_TCG_Series_merchandise#Slowpoke_&_Psyduck-GX_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Slowpoke & Psyduck-GX Box",
+          "label": "French edition packaging — Ramoloss et Psykokwak-GX",
+          "width": 924,
+          "height": 800,
+          "sha256": "b16847a32e371e5aaa0ed8ae50694f6a929fc85e956926f8f3e7769a9d999fc3",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Ramoloss et Psykokwak-GX; French logo; tag-team jumbo and regular card plus Simularbre, blue/pink/yellow packaging."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2021-lapras-v-box-fr",
+      "title": "Lapras V Box",
+      "language": "French",
+      "year": "2021",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2021-lapras-v-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/c/c5/Lapras_V_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sword_%26_Shield_French_TCG_Series_merchandise#Lapras_V_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Lapras V Box",
+          "label": "French edition packaging — Lokhlass V",
+          "width": 860,
+          "height": 814,
+          "sha256": "89c97c4ecb7af18a14ad14aac2b689a67ec4568cee29ca03a99d51507044a20b",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Lokhlass V; French logo and card text; Sword & Shield 049 artwork, pink/blue packaging. The Bulbapedia text lists jumbo 143, apparently a transcription error; the pictured Pokémon and regular-card number identify Lokhlass V."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2021-ninetales-v-box-fr",
+      "title": "Ninetales V Box",
+      "language": "French",
+      "year": "2021",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2021-ninetales-v-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/b/bf/Feunard_V_box.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sword_%26_Shield_French_TCG_Series_merchandise#Ninetales_V_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Ninetales V Box",
+          "label": "French edition packaging — Feunard V",
+          "width": 1200,
+          "height": 1200,
+          "sha256": "6692403367152c8716026f3be02005c880eb1960ddf888aa2a4a07afffbef117",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Feunard V; French logo and card text; red/orange packaging, Feunard V jumbo and regular card."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2021-salamence-v-box-fr",
+      "title": "Salamence V Box",
+      "language": "French",
+      "year": "2021",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2021-salamence-v-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/0/0a/Salamence_V_Box_FR.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sword_%26_Shield_French_TCG_Series_merchandise#Salamence_V_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Salamence V Box",
+          "label": "French edition packaging — Drattak V",
+          "width": 600,
+          "height": 569,
+          "sha256": "d81f47356d23f9dc5bbc1d3f19c539ff2b0e8fe287708b308bb510e3cbb8f093",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Drattak V; French logo and card text; green box with Drattak V jumbo and regular card."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2022-flapple-v-box-fr",
+      "title": "Flapple V Box",
+      "language": "French",
+      "year": "2022",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2022-flapple-v-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/a/af/Pomdrapi_V_box.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sword_%26_Shield_French_TCG_Series_merchandise#Flapple_V_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Flapple V Box",
+          "label": "French edition packaging — Pomdrapi V",
+          "width": 463,
+          "height": 423,
+          "sha256": "a24c80a11fceb45aef424a7c69e5b9ba5a0bbed75fe194befdabaf584720c65b",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Pomdrapi V; French logo, Pomdrapi V and Dratatin; green/black packaging."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2022-galarian-slowking-v-box-fr",
+      "title": "Galarian Slowking V Box",
+      "language": "French",
+      "year": "2022",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2022-galarian-slowking-v-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/f/fb/Roigada_de_Galar_V_box.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sword_%26_Shield_French_TCG_Series_merchandise#Galarian_Slowking_V_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Galarian Slowking V Box",
+          "label": "French edition packaging — Roigada de Galar V",
+          "width": 1200,
+          "height": 1200,
+          "sha256": "a0f01941165138595bdb33fa9471006122d058454fa5286fd79c3dbe93732297",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Roigada de Galar V; French logo and Poing Final card logo; jumbo plus Roigada de Galar V and Kokiyas regular cards; purple/black packaging."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2022-greedent-v-box-fr",
+      "title": "Greedent V Box",
+      "language": "French",
+      "year": "2022",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2022-greedent-v-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/5/5f/Rongrigou_V_box.png",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sword_%26_Shield_French_TCG_Series_merchandise#Greedent_V_Box",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Greedent V Box",
+          "label": "French edition packaging — Rongrigou V",
+          "width": 360,
+          "height": 360,
+          "sha256": "beeba6e53cea2f4003556196f7722d8e64a17113dc1397f9fe02e404ba2d51bc",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Rongrigou V; French logo and card text, Rongrigou V plus Morpeko, brown/black packaging. Source original is only 360×360."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-1997-corocoro-comic-july-1997-issue-insert-june-15-1997-ja",
+      "title": "CoroCoro Comic July 1997 issue insert (June 15, 1997)",
+      "language": "Japanese",
+      "year": "1997",
+      "original_reason": "no_id",
+      "status": "exact_jumbo_scan",
+      "image_type": "jumbo_insert_scan",
+      "images": [
+        {
+          "file": "images/ja/j-1997-corocoro-comic-july-1997-issue-insert-june-15-1997-ja-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/c/c2/PikachuJigglypuffClefairyCoroCoroPromo.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Pikachu,_Jigglypuff,_and_Clefairy_(CoroCoro_promo)",
+          "image_language": "Japanese",
+          "match_type": "exact_jumbo_scan",
+          "variant": "Pikachu, Jigglypuff, and Clefairy",
+          "label": "Japanese jumbo insert scan; not a sealed magazine photo",
+          "width": 719,
+          "height": 1000,
+          "sha256": "0315d7a285ea8a70c5e912ae4eb811443ad51b3948496e5db8396f3b448757cd",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese jumbo card scan, visually checked against the listed card and Japanese text. This depicts the magazine insert itself; it does not show a magazine cover or sealed magazine."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-1997-corocoro-comic-october-1997-issue-insert-september-15-1997-ja",
+      "title": "CoroCoro Comic October 1997 issue insert (September 15, 1997)",
+      "language": "Japanese",
+      "year": "1997",
+      "original_reason": "no_id",
+      "status": "exact_jumbo_scan",
+      "image_type": "jumbo_insert_scan",
+      "images": [
+        {
+          "file": "images/ja/j-1997-corocoro-comic-october-1997-issue-insert-september-15-1997-ja-01.webp",
+          "url": "https://pokecardex-scans.b-cdn.net/sets_jp/JUMBO/2.jpg?class=hd",
+          "source_page": "https://www.pokecardex.com/carte/jp/13827",
+          "image_language": "Japanese",
+          "match_type": "exact_jumbo_scan",
+          "variant": "Articuno, Moltres, and Zapdos",
+          "label": "Japanese jumbo insert scan; not a sealed magazine photo",
+          "width": 438,
+          "height": 620,
+          "sha256": "f323380423e38d943651696982d0c43ca7fb2e85bc28ef925d732299498d22d6",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese jumbo card scan, visually checked against the listed card and Japanese text. This depicts the magazine insert itself; it does not show a magazine cover or sealed magazine. Used the Japanese Pokecardex scan. Bulbapedia’s main image is the English Warner Bros. version and was deliberately excluded."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-1998-corocoro-comic-june-1998-issue-insert-may-15-1998-ja",
+      "title": "CoroCoro Comic June 1998 issue insert (May 15, 1998)",
+      "language": "Japanese",
+      "year": "1998",
+      "original_reason": "no_id",
+      "status": "exact_jumbo_scan",
+      "image_type": "jumbo_insert_scan",
+      "images": [
+        {
+          "file": "images/ja/j-1998-corocoro-comic-june-1998-issue-insert-may-15-1998-ja-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/1/1e/PikachuSummerVacationCoroCoroPromo.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Pikachu%27s_Summer_Vacation_(CoroCoro_promo)",
+          "image_language": "Japanese",
+          "match_type": "exact_jumbo_scan",
+          "variant": "Pikachu's Summer Vacation",
+          "label": "Japanese jumbo insert scan; not a sealed magazine photo",
+          "width": 719,
+          "height": 1000,
+          "sha256": "0146cc940119353c54fdabdaaf57b9ba6dd7bc560f28dbadf7715d5e25e1884e",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese jumbo card scan, visually checked against the listed card and Japanese text. This depicts the magazine insert itself; it does not show a magazine cover or sealed magazine."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-1998-corocoro-comic-may-1998-issue-insert-april-15-1998-ja",
+      "title": "CoroCoro Comic May 1998 issue insert (April 15, 1998)",
+      "language": "Japanese",
+      "year": "1998",
+      "original_reason": "no_id",
+      "status": "exact_jumbo_scan",
+      "image_type": "jumbo_insert_scan",
+      "images": [
+        {
+          "file": "images/ja/j-1998-corocoro-comic-may-1998-issue-insert-april-15-1998-ja-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/f/f7/MewtwoStrikesBackCoroCoroPromo.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Mewtwo_Strikes_Back_(CoroCoro_promo)",
+          "image_language": "Japanese",
+          "match_type": "exact_jumbo_scan",
+          "variant": "Mewtwo Strikes Back",
+          "label": "Japanese jumbo insert scan; not a sealed magazine photo",
+          "width": 719,
+          "height": 1000,
+          "sha256": "fcaf5453d9355b6f1ae64ca5b555d990579c574deea7b751dacb96627467c38b",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese jumbo card scan, visually checked against the listed card and Japanese text. This depicts the magazine insert itself; it does not show a magazine cover or sealed magazine."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-1998-corocoro-comic-october-1998-issue-insert-september-15-1998-ja",
+      "title": "CoroCoro Comic October 1998 issue insert (September 15, 1998)",
+      "language": "Japanese",
+      "year": "1998",
+      "original_reason": "no_id",
+      "status": "exact_jumbo_scan",
+      "image_type": "jumbo_insert_scan",
+      "images": [
+        {
+          "file": "images/ja/j-1998-corocoro-comic-october-1998-issue-insert-september-15-1998-ja-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/d/de/Pok%C3%A9monPlazaCoroCoroPromo.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Plaza_(CoroCoro_promo)",
+          "image_language": "Japanese",
+          "match_type": "exact_jumbo_scan",
+          "variant": "Pokémon Plaza",
+          "label": "Japanese jumbo insert scan; not a sealed magazine photo",
+          "width": 719,
+          "height": 1000,
+          "sha256": "3b057d0949af765aab202415db6e719e8e367106e3088664774d97a3c4a2a004",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese jumbo card scan, visually checked against the listed card and Japanese text. This depicts the magazine insert itself; it does not show a magazine cover or sealed magazine."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-1999-bessatsu-corocoro-comic-special-august-1999-issue-insert-june-30-1999-ja",
+      "title": "Bessatsu CoroCoro Comic Special August 1999 issue insert (June 30, 1999)",
+      "language": "Japanese",
+      "year": "1999",
+      "original_reason": "no_id",
+      "status": "exact_jumbo_scan",
+      "image_type": "jumbo_insert_scan",
+      "images": [
+        {
+          "file": "images/ja/j-1999-bessatsu-corocoro-comic-special-august-1999-issue-insert-june-30-1999-ja-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/e/eb/PokemonValleyCoroCoroPromo.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Valley_(CoroCoro_promo)",
+          "image_language": "Japanese",
+          "match_type": "exact_jumbo_scan",
+          "variant": "Pokémon Valley",
+          "label": "Japanese jumbo insert scan; not a sealed magazine photo",
+          "width": 719,
+          "height": 1000,
+          "sha256": "3740e83dbb32db81a88097bbcc625ca12589e6d7ad1bac9ef67c298379dc32b9",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese jumbo card scan, visually checked against the listed card and Japanese text. This depicts the magazine insert itself; it does not show a magazine cover or sealed magazine."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-1999-corocoro-comic-august-1999-issue-insert-july-15-1999-ja",
+      "title": "CoroCoro Comic August 1999 issue insert (July 15, 1999)",
+      "language": "Japanese",
+      "year": "1999",
+      "original_reason": "no_id",
+      "status": "exact_jumbo_scan",
+      "image_type": "jumbo_insert_scan",
+      "images": [
+        {
+          "file": "images/ja/j-1999-corocoro-comic-august-1999-issue-insert-july-15-1999-ja-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/1/15/LawrenceIIICoroCoropromo.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Lawrence_III_(CoroCoro_promo)",
+          "image_language": "Japanese",
+          "match_type": "exact_jumbo_scan",
+          "variant": "Lawrence III",
+          "label": "Japanese jumbo insert scan; not a sealed magazine photo",
+          "width": 719,
+          "height": 1000,
+          "sha256": "0a29344d33bc081636bdc59d85425d1c6ff2f5912d3122c28396e71f2d5c201a",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese jumbo card scan, visually checked against the listed card and Japanese text. This depicts the magazine insert itself; it does not show a magazine cover or sealed magazine."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2000-bessatsu-corocoro-comic-special-august-2000-issue-insert-july-6-2000-ja",
+      "title": "Bessatsu CoroCoro Comic Special August 2000 issue insert (July 6, 2000)",
+      "language": "Japanese",
+      "year": "2000",
+      "original_reason": "no_id",
+      "status": "exact_jumbo_scan",
+      "image_type": "jumbo_insert_scan",
+      "images": [
+        {
+          "file": "images/ja/j-2000-bessatsu-corocoro-comic-special-august-2000-issue-insert-july-6-2000-ja-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/e/e0/PichuPikachuCoroCoroPromo.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Pikachu_%26_Pichu_(CoroCoro_promo)",
+          "image_language": "Japanese",
+          "match_type": "exact_jumbo_scan",
+          "variant": "Pikachu & Pichu",
+          "label": "Japanese jumbo insert scan; not a sealed magazine photo",
+          "width": 719,
+          "height": 1000,
+          "sha256": "0368d28059d011ea347763202ba3933f80f0188558be4d4a6d0c78013ce9ad2c",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese jumbo card scan, visually checked against the listed card and Japanese text. This depicts the magazine insert itself; it does not show a magazine cover or sealed magazine."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2000-corocoro-comic-august-2000-issue-insert-july-15-2000-ja",
+      "title": "CoroCoro Comic August 2000 issue insert (July 15, 2000)",
+      "language": "Japanese",
+      "year": "2000",
+      "original_reason": "no_id",
+      "status": "exact_jumbo_scan",
+      "image_type": "jumbo_insert_scan",
+      "images": [
+        {
+          "file": "images/ja/j-2000-corocoro-comic-august-2000-issue-insert-july-15-2000-ja-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/e/ec/CrystalTowerEnteiCoroCoroPromo.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Crystal_Tower%27s_Entei_(CoroCoro_promo)",
+          "image_language": "Japanese",
+          "match_type": "exact_jumbo_scan",
+          "variant": "Crystal Tower's Entei",
+          "label": "Japanese jumbo insert scan; not a sealed magazine photo",
+          "width": 719,
+          "height": 1000,
+          "sha256": "ec1eb33ba209c1afc7a8bc4626deecd6f4c8b57bd8962499c14c8e3f5326bb0c",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese jumbo card scan, visually checked against the listed card and Japanese text. This depicts the magazine insert itself; it does not show a magazine cover or sealed magazine."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2001-corocoro-comic-september-2001-issue-ja",
+      "title": "CoroCoro Comic September 2001 issue",
+      "language": "Japanese",
+      "year": "2001",
+      "original_reason": "no_id",
+      "status": "exact_jumbo_scan",
+      "image_type": "jumbo_insert_scan",
+      "images": [
+        {
+          "file": "images/ja/j-2001-corocoro-comic-september-2001-issue-ja-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/b/b8/TimelessCelebiJPromo1.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Timeless_Celebi_(J_Promo_1)",
+          "image_language": "Japanese",
+          "match_type": "exact_jumbo_scan",
+          "variant": "Timeless Celebi 001/J",
+          "label": "Japanese jumbo insert scan; not a sealed magazine photo",
+          "width": 400,
+          "height": 550,
+          "sha256": "edacc7bd924d7f9dea27686ed0de315ac5b573f402c370f5533a72d9df686dd9",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese jumbo card scan, visually checked against the listed card and Japanese text. This depicts the magazine insert itself; it does not show a magazine cover or sealed magazine."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2005-summer-2005-pok-mon-scoop-special-edition-insert-ja",
+      "title": "Summer 2005 Pokémon Scoop Special Edition insert",
+      "language": "Japanese",
+      "year": "2005",
+      "original_reason": "no_id",
+      "status": "exact_jumbo_scan",
+      "image_type": "jumbo_insert_scan",
+      "images": [
+        {
+          "file": "images/ja/j-2005-summer-2005-pok-mon-scoop-special-edition-insert-ja-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/8/86/ShadowLugiaNintendoWorldPromo.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Shadow_Lugia_(Nintendo_World_promo)",
+          "image_language": "Japanese",
+          "match_type": "exact_jumbo_scan",
+          "variant": "Shadow Lugia",
+          "label": "Japanese jumbo insert scan; not a sealed magazine photo",
+          "width": 463,
+          "height": 660,
+          "sha256": "6b951c46d79e92e35efb5d6da6c0b61bd6dfa52a40da5ead56c75635963c3d7f",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese jumbo card scan, visually checked against the listed card and Japanese text. This depicts the magazine insert itself; it does not show a magazine cover or sealed magazine. Used the Japanese gallery image from Bulbapedia; the English infobox image was excluded."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2007-pok-mon-wonderland-vol-9-july-14-2007-ja",
+      "title": "Pokémon Wonderland Vol. 9 (July 14, 2007)",
+      "language": "Japanese",
+      "year": "2007",
+      "original_reason": "no_id",
+      "status": "exact_jumbo_scan",
+      "image_type": "jumbo_insert_scan",
+      "images": [
+        {
+          "file": "images/ja/j-2007-pok-mon-wonderland-vol-9-july-14-2007-ja-01.webp",
+          "url": "https://pokecardex-scans.b-cdn.net/sets_jp/JUMBO/21.jpg?class=hd",
+          "source_page": "https://www.pokecardex.com/carte/jp/13846",
+          "image_language": "Japanese",
+          "match_type": "exact_jumbo_scan",
+          "variant": "Darkrai",
+          "label": "Japanese jumbo insert scan; not a sealed magazine photo",
+          "width": 444,
+          "height": 620,
+          "sha256": "a8c8fc4381e9ce935b069f6fd672955bf97096f8b327ad1247a38e06dba27797",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese jumbo card scan, visually checked against the listed card and Japanese text. This depicts the magazine insert itself; it does not show a magazine cover or sealed magazine. TCGplayer product 707236 independently identifies this as the Wonderland Vol. 9 Japanese jumbo; that loose-card ID must not be represented as a sealed-magazine ID."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2015-m-mewtwo-ex-special-jumbo-card-pack-blue-shock-rage-of-the-broken-heavens-ver-ja",
+      "title": "M Mewtwo-EX Special Jumbo Card Pack: Blue Shock/Rage of the Broken Heavens Ver.",
+      "language": "Japanese",
+      "year": "2015",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ja/j-2015-m-mewtwo-ex-special-jumbo-card-pack-blue-shock-rage-of-the-broken-heavens-ver-ja-01.jpg",
+          "url": "https://www.pokemon-card.com/products/2016/images/f8449f6e507517b947264e8f7bc40231615a2fdb.jpg",
+          "source_page": "https://www.pokemon-card.com/products/xy/sjcpxy8.html",
+          "image_language": "Japanese",
+          "match_type": "exact_packaging",
+          "variant": "M Mewtwo-EX",
+          "label": "Japanese Blue Shock edition packaging (left; official image shows both variants)",
+          "width": 900,
+          "height": 500,
+          "sha256": "4a9ff3c643530aa07093ba2e5f4b6f64ae4b1e074dea2fad7595d6a64396904b",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Original official manufacturer image shows Blue Shock on the left and Red Flash on the right. Shared image is unchanged; the target variant is explicitly labelled."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2015-m-mewtwo-ex-special-jumbo-card-pack-red-flash-rage-of-the-broken-heavens-ver-ja",
+      "title": "M Mewtwo-EX Special Jumbo Card Pack: Red Flash/Rage of the Broken Heavens Ver.",
+      "language": "Japanese",
+      "year": "2015",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ja/j-2015-m-mewtwo-ex-special-jumbo-card-pack-blue-shock-rage-of-the-broken-heavens-ver-ja-01.jpg",
+          "url": "https://www.pokemon-card.com/products/2016/images/f8449f6e507517b947264e8f7bc40231615a2fdb.jpg",
+          "source_page": "https://www.pokemon-card.com/products/xy/sjcpxy8.html",
+          "image_language": "Japanese",
+          "match_type": "exact_packaging",
+          "variant": "M Mewtwo-EX",
+          "label": "Japanese Red Flash edition packaging (right; official image shows both variants)",
+          "width": 900,
+          "height": 500,
+          "sha256": "4a9ff3c643530aa07093ba2e5f4b6f64ae4b1e074dea2fad7595d6a64396904b",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Original official manufacturer image shows Blue Shock on the left and Red Flash on the right. Shared image is unchanged; the target variant is explicitly labelled."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2016-volcanion-ex-special-jumbo-card-pack-ja",
+      "title": "Volcanion-EX Special Jumbo Card Pack",
+      "language": "Japanese",
+      "year": "2016",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ja/j-2016-volcanion-ex-special-jumbo-card-pack-ja-01.jpg",
+          "url": "https://www.pokemon-card.com/products/2016/images/cbe6a42996b23536602c7bd2bd8583ecde47d580.jpg",
+          "source_page": "https://www.pokemon-card.com/products/xy/sjp.html",
+          "image_language": "Japanese",
+          "match_type": "exact_packaging",
+          "variant": "Volcanion-EX",
+          "label": "Japanese Volcanion-EX Special Jumbo Card Pack packaging",
+          "width": 1280,
+          "height": 1280,
+          "sha256": "61a1ad7b63fe142d025a440b9f07b3bf7c84c86e25019c5a9397782a5eb1ddeb",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese packaging image from the official Pokémon Card product page; visually checked."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2018-zeraora-special-jumbo-card-pack-ja",
+      "title": "Zeraora Special Jumbo Card Pack",
+      "language": "Japanese",
+      "year": "2018",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ja/j-2018-zeraora-special-jumbo-card-pack-ja-01.jpg",
+          "url": "https://www.cardrush-pokemon.jp/data/cardrushpokemon/product/20240723_1438c8.jpg",
+          "source_page": "https://www.cardrush-pokemon.jp/product/58414",
+          "image_language": "Japanese",
+          "match_type": "exact_packaging",
+          "variant": "Zeraora and Friends",
+          "label": "Japanese Zeraora Special Jumbo Card Pack packaging",
+          "width": 789,
+          "height": 789,
+          "sha256": "8769f49f15c2d4a35762036747f3af773a1fdd985cb3dd3e17bf550ae9130f49",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese packaging photo from Cardrush’s explicitly titled unopened product page. Used the original linked image without the storefront SOLD OUT overlay. The page’s stock status is not an availability claim."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2019-detective-pikachu-special-jumbo-card-pack-charizard-gx-version-ja",
+      "title": "Detective Pikachu Special Jumbo Card Pack: Charizard-GX Version",
+      "language": "Japanese",
+      "year": "2019",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ja/j-2019-detective-pikachu-special-jumbo-card-pack-charizard-gx-version-ja-01.png",
+          "url": "https://www.pokemon-card.com/ex/smp2/assets/images/special/special-jumbo-card-display-charizard.png",
+          "source_page": "https://www.pokemon-card.com/ex/smp2/index.html",
+          "image_language": "Japanese",
+          "match_type": "exact_packaging",
+          "variant": "Charizard-GX",
+          "label": "Japanese Detective Pikachu Charizard-GX Special Jumbo Card Pack packaging",
+          "width": 337,
+          "height": 563,
+          "sha256": "3b7266501459da2c0386aefb9e03cca606ecaa8925766c38344e998dc0dd5b73",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese Charizard-GX packaging from official Pokémon Card site; Loppi branding visible. Visually checked; distinct from the Mewtwo-GX version."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2019-mewtwo-mew-gx-special-jumbo-card-pack-ja",
+      "title": "Mewtwo & Mew-GX Special Jumbo Card Pack",
+      "language": "Japanese",
+      "year": "2019",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ja/j-2019-mewtwo-mew-gx-special-jumbo-card-pack-ja-01.png",
+          "url": "https://www.pokemon-card.com/ex/sm11/assets/images/movie/special-pack.png",
+          "source_page": "https://www.pokemon-card.com/ex/sm11/index.html",
+          "image_language": "Japanese",
+          "match_type": "exact_packaging",
+          "variant": "Mewtwo & Mew-GX",
+          "label": "Japanese Mewtwo & Mew-GX Special Jumbo Card Pack packaging",
+          "width": 346,
+          "height": 608,
+          "sha256": "e62ec53b704e978d598cedea3aac8cef4ebbc0d03b53fdba383fa16cc013835f",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese packaging from the official Miracle Twin product page, with the jumbo and included packs visible; visually checked."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2022-lapras-jumbo-card-collection-ja",
+      "title": "Lapras Jumbo Card Collection",
+      "language": "Japanese",
+      "year": "2022",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ja/j-2022-lapras-jumbo-card-collection-ja-01.jpg",
+          "url": "https://www.houhou-news.com/wp-content/uploads/2022/11/b43080ae64b4854a310a16a54126cff0.jpg",
+          "source_page": "https://www.houhou-news.com/jumbo-card-collection-lapras-information",
+          "image_language": "Japanese",
+          "match_type": "exact_packaging",
+          "variant": "Lapras; Galarian Moltres",
+          "label": "Japanese Lapras Jumbo Card Collection packaging",
+          "width": 370,
+          "height": 610,
+          "sha256": "0b556ac2cabc65cdbdb55ac15661a98653042f0954adb4892daf65908eec8495",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese Lapras packaging, individually pictured by Houhou News. The official product announcement independently shows the identical pack as the left member of its three-product group."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2022-latias-jumbo-card-collection-ja",
+      "title": "Latias Jumbo Card Collection",
+      "language": "Japanese",
+      "year": "2022",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ja/j-2022-latias-jumbo-card-collection-ja-01.jpg",
+          "url": "https://www.houhou-news.com/wp-content/uploads/2022/11/b1893633b5af49a03b1e070729861449.jpg",
+          "source_page": "https://www.houhou-news.com/jumbo-card-collection-latias-information",
+          "image_language": "Japanese",
+          "match_type": "exact_packaging",
+          "variant": "Latias; Ditto",
+          "label": "Japanese Latias Jumbo Card Collection packaging",
+          "width": 373,
+          "height": 610,
+          "sha256": "a78f792c0ef97345ec53e2a482c30f71f7212e4b853a8cabb106246e46be65b0",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese Latias packaging, individually pictured by Houhou News. The official product announcement independently shows the identical pack as the right member of its three-product group."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2022-mew-jumbo-card-collection-ja",
+      "title": "Mew Jumbo Card Collection",
+      "language": "Japanese",
+      "year": "2022",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ja/j-2022-mew-jumbo-card-collection-ja-01.jpg",
+          "url": "https://www.houhou-news.com/wp-content/uploads/2022/11/1195b326f23fa70f92af954f60dbf796.jpg",
+          "source_page": "https://www.houhou-news.com/jumbo-card-collection-mew-information",
+          "image_language": "Japanese",
+          "match_type": "exact_packaging",
+          "variant": "Mew; Oricorio",
+          "label": "Japanese Mew Jumbo Card Collection packaging",
+          "width": 373,
+          "height": 609,
+          "sha256": "bf289278e5c067c3625e85bf1f67dce515e291607329083f5da04a467a93ed4c",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese Mew packaging, individually pictured by Houhou News. The official product announcement independently shows the identical pack as the middle member of its three-product group."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2024-ogerpon-special-jumbo-card-set-may-17-2024-ja",
+      "title": "Ogerpon Special Jumbo Card Set (May 17, 2024)",
+      "language": "Japanese",
+      "year": "2024",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ja/j-2024-ogerpon-special-jumbo-card-set-may-17-2024-ja-01.png",
+          "url": "https://www.pokemon-card.com/info/2024/04/images/sv6_1.png",
+          "source_page": "https://www.pokemon-card.com/info/004391.html",
+          "image_language": "Japanese",
+          "match_type": "exact_packaging",
+          "variant": "Teal Mask Ogerpon",
+          "label": "Japanese Ogerpon Special Jumbo Card Set packaging",
+          "width": 2894,
+          "height": 4416,
+          "sha256": "14491d6f27731ca7255ec94a71e06aa3b0668610caad432fdae854ec139a07f8",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Japanese packaging from official Pokémon Card announcement. The page confirms the May 17, 2024 release. Original high resolution PNG retained unchanged."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2016-blastoise-ex-special-jumbo-card-set-ko",
+      "title": "Blastoise-EX Special Jumbo Card Set",
+      "language": "Korean",
+      "year": "2016",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2016-blastoise-ex-special-jumbo-card-set-ko-01.jpg",
+          "url": "https://data1.pokemonkorea.co.kr/2016/11/2016-11-01_16-14-48-68604-1477984488.jpg",
+          "source_page": "https://pokemoncard.co.kr/card/91",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "",
+          "label": "Korean edition packaging",
+          "width": 310,
+          "height": 280,
+          "sha256": "6f7aaa08246f7f0c4352cb1515a063e45b42336feb01c7348a0c74ba4a87ae3f",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2016-charizard-ex-special-jumbo-card-set-ko",
+      "title": "Charizard-EX Special Jumbo Card Set",
+      "language": "Korean",
+      "year": "2016",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2016-charizard-ex-special-jumbo-card-set-ko-01.jpg",
+          "url": "https://data1.pokemonkorea.co.kr/2016/11/2016-11-02_16-23-01-80945-1478071381.jpg",
+          "source_page": "https://pokemoncard.co.kr/card/93",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "",
+          "label": "Korean edition packaging",
+          "width": 310,
+          "height": 280,
+          "sha256": "dd286f1ca2c0ff2c26bda8dc366dc9d00b96970d13cee6cc560abf92e4e8d589",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2016-m-mewtwo-ex-special-jumbo-card-set-blue-shock-rage-of-the-broken-heavens-ko",
+      "title": "M Mewtwo-EX Special Jumbo Card Set — Blue Shock / Rage of the Broken Heavens",
+      "language": "Korean",
+      "year": "2016",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2016-m-mewtwo-ex-special-jumbo-card-set-blue-shock-rage-of-the-broken-heavens-ko-01.png",
+          "url": "https://kream-phinf.pstatic.net/MjAyNjAxMDlfMjM2/MDAxNzY3OTUyOTMxODkw.8qvLaoAbbS_Vy6ZkKKb9vgNwQD6uCwAp5fiS9cPXVBQg.iy6zrMyCaMyDIEpVQIcZUjr5XqmQ_tHflxDbkJz078Yg.PNG/a_7457b42c533a41a4b4fb5549bb143374.png",
+          "source_page": "https://kream.co.kr/products/756166",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "Blue Shock / Rage of the Broken Heavens (푸른 충격 천공의 분노 Ver.)",
+          "label": "Korean edition packaging — Blue Shock / Rage of the Broken Heavens (푸른 충격 천공의 분노 Ver.)",
+          "width": 1120,
+          "height": 1120,
+          "sha256": "60340f72a7b61894b86ac216e084bd4fbab25118201c90618a8cffa085335cc0",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/ko/j-2016-m-mewtwo-ex-special-jumbo-card-set-blue-shock-rage-of-the-broken-heavens-ko-02.jpg",
+          "url": "http://pokemonkorea.co.kr/templates/default/content_image/card/JUMBO_main_1.jpg",
+          "source_page": "https://pokemoncard.co.kr/card/63",
+          "image_language": "Korean",
+          "match_type": "exact_packaging_composite",
+          "variant": "Blue Shock / Rage of the Broken Heavens (푸른 충격 천공의 분노 Ver.)",
+          "label": "Official Korean product image — includes both variants; see variant label and notes",
+          "width": 310,
+          "height": 281,
+          "sha256": "cace56fd35e230e32b2569aade4ba10d840d39873e051ebdc8756b04277cc050",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source. Blue package, Vanishing Strike M Mewtwo EX jumbo (230 HP), blue Blue Shock boosters and Rage of the Broken Heavens boosters. The official shared image shows this variant on the left."
+      ],
+      "display_mode": "gallery"
+    },
+    {
+      "id": "j-2016-m-mewtwo-ex-special-jumbo-card-set-red-flash-rage-of-the-broken-heavens-ko",
+      "title": "M Mewtwo-EX Special Jumbo Card Set — Red Flash / Rage of the Broken Heavens",
+      "language": "Korean",
+      "year": "2016",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2016-m-mewtwo-ex-special-jumbo-card-set-red-flash-rage-of-the-broken-heavens-ko-01.jpg",
+          "url": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/1449085841/B.jpg?702000000",
+          "source_page": "https://www.11st.co.kr/products/1449085841",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "Red Flash / Rage of the Broken Heavens (붉은 섬광 천공의 분노 Ver.)",
+          "label": "Korean edition packaging — Red Flash / Rage of the Broken Heavens (붉은 섬광 천공의 분노 Ver.)",
+          "width": 600,
+          "height": 600,
+          "sha256": "1aa7c8582af042318a79b112f1b63c23a9820c65c731f2dae1d85318f6270712",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/ko/j-2016-m-mewtwo-ex-special-jumbo-card-set-blue-shock-rage-of-the-broken-heavens-ko-02.jpg",
+          "url": "http://pokemonkorea.co.kr/templates/default/content_image/card/JUMBO_main_1.jpg",
+          "source_page": "https://pokemoncard.co.kr/card/63",
+          "image_language": "Korean",
+          "match_type": "exact_packaging_composite",
+          "variant": "Red Flash / Rage of the Broken Heavens (붉은 섬광 천공의 분노 Ver.)",
+          "label": "Official Korean product image — includes both variants; see variant label and notes",
+          "width": 310,
+          "height": 281,
+          "sha256": "cace56fd35e230e32b2569aade4ba10d840d39873e051ebdc8756b04277cc050",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source. Red package, Psychic Infinity M Mewtwo EX jumbo (210 HP), red Red Flash boosters and Rage of the Broken Heavens boosters. The official shared image shows this variant on the right."
+      ],
+      "display_mode": "gallery"
+    },
+    {
+      "id": "j-2016-venusaur-ex-special-jumbo-card-set-ko",
+      "title": "Venusaur-EX Special Jumbo Card Set",
+      "language": "Korean",
+      "year": "2016",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2016-venusaur-ex-special-jumbo-card-set-ko-01.png",
+          "url": "https://data1.pokemonkorea.co.kr/2016/10/2016-10-06_16-53-25-49738-1475740405.png",
+          "source_page": "https://pokemoncard.co.kr/card/90",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "",
+          "label": "Korean edition packaging",
+          "width": 310,
+          "height": 280,
+          "sha256": "778f5fd24cfb66d5e34a42b328ee9a7871dd8f6a721dab8d7ddadfedd75dc736",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2016-volcanion-ex-special-jumbo-card-set-ko",
+      "title": "Volcanion-EX Special Jumbo Card Set",
+      "language": "Korean",
+      "year": "2016",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2016-volcanion-ex-special-jumbo-card-set-ko-01.jpg",
+          "url": "https://data1.pokemonkorea.co.kr/2016/11/2016-11-17_11-56-37-53162-1479351397.jpg",
+          "source_page": "https://pokemoncard.co.kr/card/94",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "",
+          "label": "Korean edition packaging",
+          "width": 310,
+          "height": 280,
+          "sha256": "63e1304a6b793aa8b1630635434e1176792eac5f577ab04160951a327966e4bc",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2017-tapu-koko-gx-special-jumbo-card-set-ko",
+      "title": "Tapu Koko-GX Special Jumbo Card Set",
+      "language": "Korean",
+      "year": "2017",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2017-tapu-koko-gx-special-jumbo-card-set-ko-01.jpg",
+          "url": "https://data1.pokemonkorea.co.kr/2017/08/2017-08-04_18-49-12-11321-1501840152.jpg",
+          "source_page": "https://pokemoncard.co.kr/card/114",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "",
+          "label": "Korean edition packaging",
+          "width": 310,
+          "height": 280,
+          "sha256": "8762cbdc0de2114a7c85081902daf9120172410f6b333274a3e2af1f303db00b",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2018-zeraora-special-jumbo-card-set-ko",
+      "title": "Zeraora Special Jumbo Card Set",
+      "language": "Korean",
+      "year": "2018",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2018-zeraora-special-jumbo-card-set-ko-01.png",
+          "url": "https://data1.pokemonkorea.co.kr/2018/12/2018-12-26_18-09-06-44997-1545815346.png",
+          "source_page": "https://pokemoncard.co.kr/card/160",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "",
+          "label": "Korean edition packaging",
+          "width": 310,
+          "height": 280,
+          "sha256": "381eb2c00db2e3f6c4f0af1767683185085ebbe502798c526a845498ebfbbdc8",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2019-detective-pikachu-special-jumbo-card-set-charizard-gx-ko",
+      "title": "Detective Pikachu Special Jumbo Card Set — Charizard-GX",
+      "language": "Korean",
+      "year": "2019",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2019-detective-pikachu-special-jumbo-card-set-charizard-gx-ko-01.jpg",
+          "url": "https://img.danuri.io/catalog-image/318/126/023/05ee9ec9edca4081b13776d55e57e7e4.jpg?shrink=330:*&_v=20261002154337",
+          "source_page": "https://prod.danawa.com/info/?pcode=23126318",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "Detective Pikachu Charizard-GX version (리자몽 GX ver.)",
+          "label": "Korean edition packaging — Detective Pikachu Charizard-GX version (리자몽 GX ver.)",
+          "width": 300,
+          "height": 300,
+          "sha256": "aa2b7a9074d402824c356ec15c076aaa66e9e8c0feafbfd0d73e3ec21c9cd091",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/ko/j-2019-detective-pikachu-special-jumbo-card-set-charizard-gx-ko-02.png",
+          "url": "https://data1.pokemonkorea.co.kr/2019/04/2019-04-29_16-07-58-96550-1556521678.png",
+          "source_page": "https://pokemoncard.co.kr/card/183",
+          "image_language": "Korean",
+          "match_type": "exact_packaging_composite",
+          "variant": "Detective Pikachu Charizard-GX version (리자몽 GX ver.)",
+          "label": "Official Korean product image — includes both variants; see variant label and notes",
+          "width": 310,
+          "height": 280,
+          "sha256": "2c33d3bc7e129203eb70881b51ea9accd3f312b23efe0a312f61a720fcc3655b",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source. Selected the Charizard-GX package only. Official /card/183 image contains both Charizard-GX (left, dark blue) and Mewtwo-GX (right, purple); the Mewtwo sibling must not be used alone for this entry."
+      ],
+      "display_mode": "gallery"
+    },
+    {
+      "id": "j-2019-pikachu-zekrom-special-kit-ko",
+      "title": "Pikachu & Zekrom Special Kit",
+      "language": "Korean",
+      "year": "2019",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2019-pikachu-zekrom-special-kit-ko-01.png",
+          "url": "https://data1.pokemonkorea.co.kr/2019/03/2019-03-13_11-14-17-31018-1552443257.png",
+          "source_page": "https://pokemoncard.co.kr/card/170",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "",
+          "label": "Korean edition packaging",
+          "width": 310,
+          "height": 280,
+          "sha256": "defeef28ec95a41eb2195c169022564624dac36a13a0b8945fa51751e29fdc5d",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2020-toxtricity-v-double-jumbo-card-set-ko",
+      "title": "Toxtricity V Double Jumbo Card Set",
+      "language": "Korean",
+      "year": "2020",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2020-toxtricity-v-double-jumbo-card-set-ko-01.png",
+          "url": "https://data1.pokemonkorea.co.kr/2020/04/2020-04-23_15-43-48-52614-1587624228.png",
+          "source_page": "https://pokemoncard.co.kr/card/304",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "",
+          "label": "Korean edition packaging",
+          "width": 310,
+          "height": 280,
+          "sha256": "530e3863e3adec77602eb541c57f1f0c3f414e30fe0f3b41678c872ee85ef61a",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2021-rapid-strike-master-special-jumbo-card-set-ko",
+      "title": "Rapid Strike Master Special Jumbo Card Set",
+      "language": "Korean",
+      "year": "2021",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2021-rapid-strike-master-special-jumbo-card-set-ko-01.png",
+          "url": "https://kream-phinf.pstatic.net/MjAyNjAxMDlfMTk5/MDAxNzY3OTUyOTY3NTk4.1XZ32xDWG7roKOrzOwVXc_LHuebmy9uHHN4WGnQGl8Ug.eEqSpXDBSzZrIxhJsr9TLGYFVWmYiuk6ERy9X41paqAg.PNG/a_8c9dcc6017994bbcb2cdbf944e6e0b32.png",
+          "source_page": "https://kream.co.kr/products/756084",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "Rapid Strike Master (연격마스터), blue package",
+          "label": "Korean edition packaging — Rapid Strike Master (연격마스터), blue package",
+          "width": 1120,
+          "height": 1120,
+          "sha256": "01e4db4857200bada0c71808ac2c3812217e97787c755c1133e78cac854deaec",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/ko/j-2021-rapid-strike-master-special-jumbo-card-set-ko-02.png",
+          "url": "https://data1.pokemonkorea.co.kr/2021/03/2021-03-17_09-35-48-11485-1615941348.png",
+          "source_page": "https://pokemoncard.co.kr/card/357",
+          "image_language": "Korean",
+          "match_type": "exact_packaging_composite",
+          "variant": "Rapid Strike Master (연격마스터), blue package",
+          "label": "Official Korean product image — includes both variants; see variant label and notes",
+          "width": 900,
+          "height": 900,
+          "sha256": "ff02ceca30210f005f6683c600640ef7b79ae55f92d0e128bff9cf1a60f2518a",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source. Blue Rapid Strike Master package; official shared image shows this variant on the right."
+      ],
+      "display_mode": "gallery"
+    },
+    {
+      "id": "j-2021-single-strike-master-special-jumbo-card-set-ko",
+      "title": "Single Strike Master Special Jumbo Card Set",
+      "language": "Korean",
+      "year": "2021",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2021-single-strike-master-special-jumbo-card-set-ko-01.png",
+          "url": "https://kream-phinf.pstatic.net/MjAyNjAxMDlfMjkx/MDAxNzY3OTUyOTY3ODgw.DxJbqo695eja4Kk20Df9IDpPG73CAmZyCzEHthFKbb0g.Jzijy8yffOjLtxU3IcYyo9YW5aGsbrVbjXdMnxoFlykg.PNG/a_695c548067b841568a2a8fbc20662211.png",
+          "source_page": "https://kream.co.kr/products/756082",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "Single Strike Master (일격마스터), red package",
+          "label": "Korean edition packaging — Single Strike Master (일격마스터), red package",
+          "width": 1120,
+          "height": 1120,
+          "sha256": "85d8d286e73e06f9b32fd9727f54b07bfe7aba9ba6949561644b0d1a7c4dc375",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/ko/j-2021-rapid-strike-master-special-jumbo-card-set-ko-02.png",
+          "url": "https://data1.pokemonkorea.co.kr/2021/03/2021-03-17_09-35-48-11485-1615941348.png",
+          "source_page": "https://pokemoncard.co.kr/card/357",
+          "image_language": "Korean",
+          "match_type": "exact_packaging_composite",
+          "variant": "Single Strike Master (일격마스터), red package",
+          "label": "Official Korean product image — includes both variants; see variant label and notes",
+          "width": 900,
+          "height": 900,
+          "sha256": "ff02ceca30210f005f6683c600640ef7b79ae55f92d0e128bff9cf1a60f2518a",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source. Red Single Strike Master package; official shared image shows this variant on the left. Rejected the image on Danawa pcode=21373115: despite the Single Strike page title, its product image depicts the blue Rapid Strike package."
+      ],
+      "display_mode": "gallery"
+    },
+    {
+      "id": "j-2022-pok-mon-go-special-jumbo-card-set-ko",
+      "title": "Pokémon GO Special Jumbo Card Set",
+      "language": "Korean",
+      "year": "2022",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2022-pok-mon-go-special-jumbo-card-set-ko-01.png",
+          "url": "https://data1.pokemonkorea.co.kr/2022/06/2022-06-20_11-55-53-14841-1655693753.png",
+          "source_page": "https://pokemoncard.co.kr/card/441",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "",
+          "label": "Korean edition packaging",
+          "width": 900,
+          "height": 900,
+          "sha256": "2359a595d7765f9985cfb0302fe39c5bab166b37cf73f1d535db925d6f92aa08",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2023-jumbo-card-collection-lapras-ko",
+      "title": "Jumbo Card Collection — Lapras",
+      "language": "Korean",
+      "year": "2023",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2023-jumbo-card-collection-lapras-ko-01.png",
+          "url": "https://data1.pokemonkorea.co.kr/2023/01/2023-01-18_11-56-40-44474-1674010600.png",
+          "source_page": "https://pokemoncard.co.kr/card/509",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "",
+          "label": "Korean edition packaging",
+          "width": 900,
+          "height": 900,
+          "sha256": "f69798edf747cee219bb131809cc1c77092521d2a0629f2c6717f3ca3dd557e7",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2023-jumbo-card-collection-latias-ko",
+      "title": "Jumbo Card Collection — Latias",
+      "language": "Korean",
+      "year": "2023",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2023-jumbo-card-collection-latias-ko-01.png",
+          "url": "https://data1.pokemonkorea.co.kr/2023/01/2023-01-18_11-55-55-12903-1674010555.png",
+          "source_page": "https://pokemoncard.co.kr/card/508",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "",
+          "label": "Korean edition packaging",
+          "width": 900,
+          "height": 900,
+          "sha256": "8a0cc2a5822df5302aeacf0cbba6a42751dd6de46238b28814f23947d4171ad4",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2023-jumbo-card-collection-mew-ko",
+      "title": "Jumbo Card Collection — Mew",
+      "language": "Korean",
+      "year": "2023",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2023-jumbo-card-collection-mew-ko-01.png",
+          "url": "https://data1.pokemonkorea.co.kr/2023/01/2023-01-18_11-53-03-97335-1674010383.png",
+          "source_page": "https://pokemoncard.co.kr/card/507",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "",
+          "label": "Korean edition packaging",
+          "width": 900,
+          "height": 900,
+          "sha256": "4e69addf0b7350f258167dd23b64e2a8b8e04004619c71c513e9ad2ee4714740",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2024-ogerpon-special-jumbo-card-set-ko",
+      "title": "Ogerpon Special Jumbo Card Set",
+      "language": "Korean",
+      "year": "2024",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2024-ogerpon-special-jumbo-card-set-ko-01.png",
+          "url": "https://data1.pokemonkorea.co.kr/2024/06/2024-06-20_15-12-47-13255-1718863967.png",
+          "source_page": "https://pokemoncard.co.kr/card/645",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "",
+          "label": "Korean edition packaging",
+          "width": 900,
+          "height": 900,
+          "sha256": "2d16f835435908fc21b8dda5c354df6c45fbf737a4605b6034c4cbc7c80e0f0a",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2024-pikachu-special-jumbo-card-set-ko",
+      "title": "Pikachu Special Jumbo Card Set",
+      "language": "Korean",
+      "year": "2024",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2024-pikachu-special-jumbo-card-set-ko-01.png",
+          "url": "https://data1.pokemonkorea.co.kr/2024/12/2024-12-04_10-11-08-46642-1733274668.png",
+          "source_page": "https://pokemoncard.co.kr/card/690",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "",
+          "label": "Korean edition packaging",
+          "width": 900,
+          "height": 900,
+          "sha256": "804019eaafb0503c089ea3724d0969c20f8fe9b34669574c5975fc50fcfb9f5f",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2025-charizard-ex-special-jumbo-card-set-ko",
+      "title": "Charizard ex Special Jumbo Card Set",
+      "language": "Korean",
+      "year": "2025",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/ko/j-2025-charizard-ex-special-jumbo-card-set-ko-01.png",
+          "url": "https://data1.pokemonkorea.co.kr/2025/04/2025-04-24_15-02-32-38730-1745474552.png",
+          "source_page": "https://pokemoncard.co.kr/card/775",
+          "image_language": "Korean",
+          "match_type": "exact_packaging",
+          "variant": "",
+          "label": "Korean edition packaging",
+          "width": 900,
+          "height": 900,
+          "sha256": "c134f1152a36d5e6e10ff07d41354c62cb20d8e83a72eb53a00886063be245c1",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Korean packaging visually inspected against the official Pokémon Korea product page; image downloaded unchanged. No TCGplayer ID is required for this source."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2019-galar-collection-pt",
+      "title": "Galar Collection",
+      "language": "Portuguese",
+      "year": "2019",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/pt/j-2019-galar-collection-pt-01.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20200420/1587393283_2320.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=108279",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Sobble / Zamazenta V",
+          "label": "Box Coleção Galar - Sobble / Zamazenta V",
+          "width": 350,
+          "height": 500,
+          "sha256": "a9ab3b8232aaba5ac0f248f586c1a98870d0d11bf2bd21d1a1ebbc3e72c2ee91",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/pt/j-2019-galar-collection-pt-02.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20200420/1587393491_5915.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=108280",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Scorbunny / Zamazenta V",
+          "label": "Box Coleção Galar - Scorbunny / Zamazenta V",
+          "width": 350,
+          "height": 500,
+          "sha256": "b60deb8af571837ea1766f9d2874eed66e12f436b00cf434a7f7361e1cd918e1",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/pt/j-2019-galar-collection-pt-03.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20200420/1587393570_3732.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=108281",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Grookey / Zamazenta V",
+          "label": "Box Coleção Galar - Grookey / Zamazenta V",
+          "width": 350,
+          "height": 500,
+          "sha256": "9983c4a85b098ac26611710034956239ac6a67448548702e16942eeef9d62570",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/pt/j-2019-galar-collection-pt-04.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20200420/1587393621_7729.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=108282",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Sobble / Zacian V",
+          "label": "Box Coleção Galar - Sobble / Zacian-V",
+          "width": 350,
+          "height": 500,
+          "sha256": "99812ddcba0a705ab4bdf2311b1c6338a5dd58c0ad96058999f4cb0501d88944",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/pt/j-2019-galar-collection-pt-05.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20200420/1587393649_3186.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=108283",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Scorbunny / Zacian V",
+          "label": "Box Coleção Galar - Scorbunny / Zacian-V",
+          "width": 350,
+          "height": 500,
+          "sha256": "cfa274682cfc11d0c96bf0f2ed559ec16a18b3b921581db3071aa023f3f69d56",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/pt/j-2019-galar-collection-pt-06.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20200420/1587393659_4103.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=108284",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Grookey / Zacian V",
+          "label": "Box Coleção Galar - Grookey / Zacian-V",
+          "width": 350,
+          "height": 500,
+          "sha256": "1f11c74371ff4b893d9a0a966a280df0cfdfb9659501813553b2190da777c39c",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "All six Portuguese variants confirmed visually: Grookey, Scorbunny and Sobble, each with Zacian V or Zamazenta V jumbo. Packaging says Coleção Galar and packs say Eclipse Cósmico, with Portuguese card text. Manufacturer description gives 3 starter promos, 1 jumbo, a pin and 6 booster packs. Preserve all six variants."
+      ],
+      "display_mode": "gallery"
+    },
+    {
+      "id": "j-2022-arceus-v-collection-pt",
+      "title": "Arceus V Collection",
+      "language": "Portuguese",
+      "year": "2022",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/pt/j-2022-arceus-v-collection-pt-01.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20220627/1729775244_3006.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=124263",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Arceus V",
+          "label": "(PT-BR) Box Coleção Especial - Arceus-V",
+          "width": 350,
+          "height": 500,
+          "sha256": "e3ab43e32ccf14e632ef1ca5ad3325168e9b727e5942b6c0776974c17e93c3f2",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Brazilian Coleção Arceus V packaging with Portuguese promo/jumbo and 6 boosters; visually confirmed Portuguese text and Brazilian flag supplied in the original catalogue image. Do not substitute English Arceus V Figure Collection with different contents."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2022-pikachu-v-collection-pt",
+      "title": "Pikachu V Collection",
+      "language": "Portuguese",
+      "year": "2022",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/pt/j-2022-pikachu-v-collection-pt-01.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20220330/1648644588_3416.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=122235",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Pikachu V",
+          "label": "Box Coleção Especial - Pikachu-V",
+          "width": 350,
+          "height": 500,
+          "sha256": "c914ced8f44a7b8987f021b555805fad44adc625f8d9c9b46d9a57898e8721e6",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Coleção Pikachu V Brazilian packaging, with Portuguese Pikachu V jumbo and Mimikyu promo. LigaPokemon manufacturer description says 6 booster packs; Bulbapedia Portuguese page says 4, a source discrepancy. Packaging photo and LigaPokemon support the six-pack Brazilian edition; do not infer four from the English box."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2022-pok-mon-go-radiant-eevee-premium-collection-pt",
+      "title": "Pokémon GO Radiant Eevee Premium Collection",
+      "language": "Portuguese",
+      "year": "2022",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/pt/j-2022-pok-mon-go-radiant-eevee-premium-collection-pt-01.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20220706/1729712706_6548.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=124347",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Radiant Eevee",
+          "label": "(PT-BR) Box Coleção Premium - Pokémon GO - Eevee Radiante",
+          "width": 350,
+          "height": 500,
+          "sha256": "91110f67f0c55c042579054d02f60d6755af7e23e7042dc85a751bb971ad4204",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Portuguese Coleção premium Eevee Radiante packaging visibly includes the Portuguese-exclusive Radiant Eevee jumbo, regular promo, Eevee pin and 6 Pokémon GO boosters. English sibling lacks this jumbo and is not an equivalent image."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2023-151-mew-ex-mewtwo-special-collection-pt",
+      "title": "151 Mew ex & Mewtwo Special Collection",
+      "language": "Portuguese",
+      "year": "2023",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/pt/j-2023-151-mew-ex-mewtwo-special-collection-pt-01.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20231206/1701892877_8848.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=128920",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Mew ex",
+          "label": "(PT-BR) Caixa Coleção Especial - 151 - Mew ex e Mewtwo",
+          "width": 350,
+          "height": 500,
+          "sha256": "33e4e16736e2b2d309e09583101a993aaf23e2cc587d28abe64e6f53af353166",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Portuguese 151 Coleção Especial Mew ex e Mewtwo packaging, 8 Brazilian six-card boosters, Mew ex and Mewtwo promos, plus Mew ex jumbo. Distinct Brazilian configuration."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2023-crown-zenith-shiny-zacian-special-collection-pt",
+      "title": "Crown Zenith Shiny Zacian Special Collection",
+      "language": "Portuguese",
+      "year": "2023",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/pt/j-2023-crown-zenith-shiny-zacian-special-collection-pt-01.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20221228/1729705403_9886.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=126724",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Zacian V",
+          "label": "(PT-BR) Box Coleção Premium - Realeza Absoluta - Zacian Brilhante",
+          "width": 350,
+          "height": 500,
+          "sha256": "edc4e7777b822aa66f66235ffb192fd05a5e355b6b51eff3c17e240d2166af85",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Realeza Absoluta Zacian Brilhante Brazilian box with Portuguese Zacian V promo and exclusive jumbo, 8 boosters. Distinct from the English shiny Zacian figure/pin/sleeve collection."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2024-armarouge-ex-collection-pt",
+      "title": "Armarouge ex Collection",
+      "language": "Portuguese",
+      "year": "2024",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/pt/j-2024-armarouge-ex-collection-pt-01.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20240429/1729689047_7324.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=130210",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Armarouge ex",
+          "label": "(PT-BR) Box Coleção - Armarouge ex",
+          "width": 350,
+          "height": 500,
+          "sha256": "9b3c95871c7c6ad30bed0f8c7f5f9930179fa6e9ec3827fec271cf410a2e78de",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Portuguese Coleção Armarouge ex packaging: Armarouge ex jumbo and textured promo, Charcadet promo, 8 Brazilian boosters. Portuguese text visually confirmed."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2024-paldean-fates-shiny-charizard-ex-collection-pt",
+      "title": "Paldean Fates Shiny Charizard ex Collection",
+      "language": "Portuguese",
+      "year": "2024",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/pt/j-2024-paldean-fates-shiny-charizard-ex-collection-pt-01.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20231211/1707162572_2288.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=128935",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Charizard ex",
+          "label": "(PT-BR) Box Coleção - Destinos de Paldea - Charizard ex Brilhante",
+          "width": 350,
+          "height": 500,
+          "sha256": "604c28892c2cef141f44ddea04b17a21dc2aa74cf0793a9841e318684293f126",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Brazilian Destinos de Paldea Coleção Charizard ex Brilhante box. Portuguese Charizard ex shiny jumbo and promo, 8 boosters. This is a Brazilian box configuration, not the English Paldean Fates Charizard tin."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2024-paldean-fates-shiny-iron-treads-ex-collection-pt",
+      "title": "Paldean Fates Shiny Iron Treads ex Collection",
+      "language": "Portuguese",
+      "year": "2024",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/pt/j-2024-paldean-fates-shiny-iron-treads-ex-collection-pt-01.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20240205/1707163007_2445.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=129432",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Iron Treads ex",
+          "label": "(PT-BR) Box Coleção - Destinos de Paldea - Trilho Férreo ex Brilhante",
+          "width": 350,
+          "height": 500,
+          "sha256": "3affba36caa442a959a7653b21d60ac229f282f32ec930e605d9b4a418d29040",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Brazilian Destinos de Paldea Coleção Trilho Férreo ex Brilhante box. Portuguese Iron Treads ex shiny jumbo and promo, 8 boosters. This is a Brazilian box configuration, not the English Paldean Fates Iron Treads tin."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2024-paradox-destinies-collections-pt",
+      "title": "Paradox Destinies Collections",
+      "language": "Portuguese",
+      "year": "2024",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/pt/j-2024-paradox-destinies-collections-pt-01.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20240820/1729703558_5826.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=131639",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Gouging Fire ex / Fogo Corrosão ex",
+          "label": "(PT-BR) Box Coleção - Destinos Paradoxais: Fogo Corrosão ex",
+          "width": 350,
+          "height": 500,
+          "sha256": "88b5bd12179c7adb4547f88c6703e8ab186816d13987181ae07265fb5e4fbdae",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/pt/j-2024-paradox-destinies-collections-pt-02.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20240820/1729701694_7562.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=131642",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Raging Bolt ex / Raio Fúria ex",
+          "label": "(PT-BR) Box Coleção - Destinos Paradoxais: Raio Fúria ex",
+          "width": 350,
+          "height": 500,
+          "sha256": "25cb54d777c9998a31dd055fd097fb9a789718715a0644981a52618e37f6b0f1",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/pt/j-2024-paradox-destinies-collections-pt-03.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20240820/1729702735_5571.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=131641",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Iron Crown ex / Chifres Férreos ex",
+          "label": "(PT-BR) Box Coleção - Destinos Paradoxais: Chifres Férreos ex",
+          "width": 350,
+          "height": 500,
+          "sha256": "e76ba3092d02144e3a50d7112570dd30e8238658b5a6a711d0946b533bd2c406",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/pt/j-2024-paradox-destinies-collections-pt-04.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20240820/1729703036_8985.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=131640",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Iron Boulder ex / Rocha Férrea ex",
+          "label": "(PT-BR) Box Coleção - Destinos Paradoxais: Rocha Férrea ex",
+          "width": 350,
+          "height": 500,
+          "sha256": "7f592db47d0dc7b4791666c8b59ea29006884efd9b4c00e2a195bc77e4a55cc9",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "All four exact Portuguese Destinos Paradoxais variants visually confirmed: Fogo Corrosão ex, Raio Fúria ex, Chifres Férreos ex and Rocha Férrea ex. Each contains one matching promo, matching jumbo and 6 boosters. Preserve all four; do not use the English combined Ancient/Future product."
+      ],
+      "display_mode": "gallery"
+    },
+    {
+      "id": "j-2016-ho-oh-box-fr",
+      "title": "Ho-Oh Box",
+      "language": "French",
+      "year": "2016",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2016-ho-oh-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/9/98/Ho-Oh_Box_FR.png",
+          "source_page": "https://www.relictcg.com/products/coffret-vintage-ho-oh-xy-fr",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Ho-Oh Box",
+          "label": "French edition packaging — Ho-Oh",
+          "width": 1200,
+          "height": 1034,
+          "sha256": "3efb982a76435c68b7c1d8a81ba6d91710fef51ef9b8405f9be95b8325b0143b",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Ho-Oh; French logo and card text; Ho-Oh jumbo and regular card in orange box."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2017-hearts-of-champions-box-fr",
+      "title": "Hearts of Champions Box",
+      "language": "French",
+      "year": "2017",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/fr/j-2017-hearts-of-champions-box-fr-01.png",
+          "url": "https://archives.bulbagarden.net/media/upload/3/37/Hearts_of_Champions_Box_FR.png",
+          "source_page": "https://gradedcardcenter.com/item/c17acc6a-bde6-4fdc-88bc-5748b143722f",
+          "image_language": "French",
+          "match_type": "exact_packaging",
+          "variant": "French edition; Hearts of Champions Box",
+          "label": "French edition packaging — Cœurs de Champions",
+          "width": 506,
+          "height": 440,
+          "sha256": "e9757c5252ecab66e431fbf9cd7203ede41a016094e09334ad4da13a750745a1",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Coffret Cœurs de Champions; French logo; Aligatueur jumbo with small Aligatueur plus Méganium and Typhlosion; one product, not three different variants."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2002-expedition-base-set-booster-display-en",
+      "title": "Expedition Base Set booster display",
+      "language": "English",
+      "year": "2002",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/en/j-2002-expedition-base-set-booster-display-en-01.jpg",
+          "url": "https://storage.googleapis.com/images.pricecharting.com/j55lylo4jjskx3ry/1600.jpg",
+          "source_page": "https://www.pricecharting.com/game/pokemon-expedition/booster-box",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Expedition Base Set booster display",
+          "label": "Expedition Base Set booster display",
+          "width": 830,
+          "height": 580,
+          "sha256": "b98a4efb5429ee73212dd7e6d12bd4051997b26f14fec89d866356df19da3dc8",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2003-aquapolis-booster-display-en",
+      "title": "Aquapolis booster display",
+      "language": "English",
+      "year": "2003",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/en/j-2003-aquapolis-booster-display-en-01.jpg",
+          "url": "https://storage.googleapis.com/images.pricecharting.com/005a4e16932ccf17a3538793a6ffb5e082bdbe3a7fa7c5ca6fc12ca4a21884fa/1600.jpg",
+          "source_page": "https://www.pricecharting.com/game/pokemon-aquapolis/booster-box",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Aquapolis booster display",
+          "label": "Aquapolis booster display",
+          "width": 250,
+          "height": 222,
+          "sha256": "9879bf05e2b515cb6fd69d2e26fb1ab5c4dc9dc45d710c68741ebc81c3552d53",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Box-top packaging photograph; the available source is 250 × 222 pixels."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2003-skyridge-booster-display-en",
+      "title": "Skyridge booster display",
+      "language": "English",
+      "year": "2003",
+      "original_reason": "no_id",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/en/j-2003-skyridge-booster-display-en-01.jpg",
+          "url": "https://storage.googleapis.com/images.pricecharting.com/d1d756655393bca4b73d0ae394713c98f846e71f305cefaf7547dc063adc527e/1600.jpg",
+          "source_page": "https://www.pricecharting.com/game/pokemon-skyridge/booster-box",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Skyridge booster display",
+          "label": "Skyridge booster display",
+          "width": 1024,
+          "height": 906,
+          "sha256": "e9f1fd971bb0b43f46668adfb8060fe5dde4a649e1e99c5aea29c144ae80f723",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2010-clash-of-legends-box-en",
+      "title": "Clash of Legends Box",
+      "language": "English",
+      "year": "2010",
+      "original_reason": "multi_product",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/en/j-2010-clash-of-legends-box-en-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/1/1c/DialgaPalkia_Clash_of_Legends.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/HeartGold_%26_SoulSilver_TCG_Series_merchandise#Clash_of_Legends",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Dialga & Palkia LEGEND",
+          "label": "English edition packaging — Dialga & Palkia LEGEND",
+          "width": 600,
+          "height": 459,
+          "sha256": "e6a5c783886b1a473450e3db6e53f304e78b8b802b5bab8a842052c8c6618372",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/en/j-2010-clash-of-legends-box-en-02.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/6/69/DarkraiCresselia_Clash_of_Legends.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/HeartGold_%26_SoulSilver_TCG_Series_merchandise#Clash_of_Legends",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Darkrai & Cresselia LEGEND",
+          "label": "English edition packaging — Darkrai & Cresselia LEGEND",
+          "width": 600,
+          "height": 468,
+          "sha256": "46b37dc7e8eee9f6ae54280e14b1c9a89e361b3396b0e25d6bf0803f8228ac1f",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Product family: retain images as labelled alternatives; do not choose a physical variant or value automatically."
+      ],
+      "display_mode": "gallery"
+    },
+    {
+      "id": "j-2014-hoenn-collection-en",
+      "title": "Hoenn Collection",
+      "language": "English",
+      "year": "2014",
+      "original_reason": "multi_product",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/en/j-2014-hoenn-collection-en-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/8/81/HoennCollection_PrimalGroudon.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/XY_TCG_Series_merchandise#Hoenn_Collection",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Primal Groudon-EX",
+          "label": "English edition packaging — Primal Groudon-EX",
+          "width": 450,
+          "height": 307,
+          "sha256": "786c2931847713074df0391d60c2102fc5e1646cfa0ee0a86c7ea0b60a1ab7b7",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/en/j-2014-hoenn-collection-en-02.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/4/47/HoennCollection_PrimalKyogre.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/XY_TCG_Series_merchandise#Hoenn_Collection",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Primal Kyogre-EX",
+          "label": "English edition packaging — Primal Kyogre-EX",
+          "width": 450,
+          "height": 310,
+          "sha256": "443e047ae2d1d6cd39ae08f9de6bf9b55276be9b73ce6c9a85e099ecbff03bc9",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Product family: retain images as labelled alternatives; do not choose a physical variant or value automatically."
+      ],
+      "display_mode": "gallery"
+    },
+    {
+      "id": "j-2019-galar-collection-en",
+      "title": "Galar Collection",
+      "language": "English",
+      "year": "2019",
+      "original_reason": "multi_product",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/en/j-2019-galar-collection-en-01.jpg",
+          "url": "https://cardtrader.com/uploads/blueprints/image/104695/grookey-galar-collection-zamazenta-sword-shield-merchandise.jpg",
+          "source_page": "https://tcgtracking.com/tcgapi/v1/products/199778",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Galar Collection [Grookey] - with Zamazenta V",
+          "label": "Galar Collection [Grookey] - with Zamazenta V",
+          "width": 300,
+          "height": 300,
+          "sha256": "cb3b01805ef48ef4f09abfec207ff5706d194ee8d5c8f4dee18a77ed78d14409",
+          "downloaded_unchanged": true,
+          "visually_verified": true,
+          "tcgplayer_id": "199778"
+        },
+        {
+          "file": "images/en/j-2019-galar-collection-en-02.jpg",
+          "url": "https://cardtrader.com/uploads/blueprints/image/104690/grookey-galar-collection-zacian-sword-shield-merchandise.jpg",
+          "source_page": "https://tcgtracking.com/tcgapi/v1/products/199780",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Galar Collection [Grookey] - with Zacian V",
+          "label": "Galar Collection [Grookey] - with Zacian V",
+          "width": 300,
+          "height": 300,
+          "sha256": "1845b08aa87daae2c98b10c5113ffbdcba0ce9f366d7de035fa68bf04fa2e2cd",
+          "downloaded_unchanged": true,
+          "visually_verified": true,
+          "tcgplayer_id": "199780"
+        },
+        {
+          "file": "images/en/j-2019-galar-collection-en-03.jpg",
+          "url": "https://cardtrader.com/uploads/blueprints/image/104696/scorbunny-galar-collection-zacian-sword-shield-merchandise.jpg",
+          "source_page": "https://tcgtracking.com/tcgapi/v1/products/199782",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Galar Collection [Scorbunny] - with Zacian V",
+          "label": "Galar Collection [Scorbunny] - with Zacian V",
+          "width": 300,
+          "height": 300,
+          "sha256": "09459c1eb4ce1708cd8ae18c0a96e5795b353bab8e034e22a97041b877c2880f",
+          "downloaded_unchanged": true,
+          "visually_verified": true,
+          "tcgplayer_id": "199782"
+        },
+        {
+          "file": "images/en/j-2019-galar-collection-en-04.jpg",
+          "url": "https://cardtrader.com/uploads/blueprints/image/104699/scorbunny-galar-collection-zamazenta-sword-shield-merchandise.jpg",
+          "source_page": "https://tcgtracking.com/tcgapi/v1/products/199784",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Galar Collection [Scorbunny] - with Zamazenta V",
+          "label": "Galar Collection [Scorbunny] - with Zamazenta V",
+          "width": 300,
+          "height": 300,
+          "sha256": "cda6e80febb3c26648e4e9c05d5ffc8dd8bad3daeaa3343e7c9cd5cea76cd816",
+          "downloaded_unchanged": true,
+          "visually_verified": true,
+          "tcgplayer_id": "199784"
+        },
+        {
+          "file": "images/en/j-2019-galar-collection-en-05.jpg",
+          "url": "https://cardtrader.com/uploads/blueprints/image/104709/sobble-galar-collection-zamazenta-sword-shield-merchandise.jpg",
+          "source_page": "https://tcgtracking.com/tcgapi/v1/products/199785",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Galar Collection [Sobble] - with Zamazenta V",
+          "label": "Galar Collection [Sobble] - with Zamazenta V",
+          "width": 300,
+          "height": 300,
+          "sha256": "4d32b0ea6884552b05c6050f9b89cb8cd4d47826831bafafa772ae0efbe1ff29",
+          "downloaded_unchanged": true,
+          "visually_verified": true,
+          "tcgplayer_id": "199785"
+        },
+        {
+          "file": "images/en/j-2019-galar-collection-en-06.jpg",
+          "url": "https://cardtrader.com/uploads/blueprints/image/104702/sobble-galar-collection-zacian-sword-shield-merchandise.jpg",
+          "source_page": "https://tcgtracking.com/tcgapi/v1/products/199786",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Galar Collection [Sobble] - with Zacian V",
+          "label": "Galar Collection [Sobble] - with Zacian V",
+          "width": 300,
+          "height": 300,
+          "sha256": "711adc809690eb5de230a8fa655bd49cd6e31b09890f132664552ba8fc88c791",
+          "downloaded_unchanged": true,
+          "visually_verified": true,
+          "tcgplayer_id": "199786"
+        }
+      ],
+      "notes": [
+        "All six English starter/mascot combinations are illustrated. Keep the variants together under the existing family record."
+      ],
+      "display_mode": "gallery"
+    },
+    {
+      "id": "j-2020-kanto-power-collection-en",
+      "title": "Kanto Power Collection",
+      "language": "English",
+      "year": "2020",
+      "original_reason": "multi_product",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/en/j-2020-kanto-power-collection-en-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/4/45/Kanto_Power_Collection_Mewtwo-EX_Slowbro-EX.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sword_%26_Shield_TCG_Series_merchandise#Kanto_Power_Collection",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Mewtwo-EX & Slowbro-EX",
+          "label": "English edition packaging — Mewtwo-EX & Slowbro-EX",
+          "width": 994,
+          "height": 657,
+          "sha256": "6643ecba785fc5e604c7bdcd94b5daa6e2eb837ef6e5573d338cdf80f55bee82",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/en/j-2020-kanto-power-collection-en-02.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/e/e9/Kanto_Power_Collection_Dragonite-EX_Pidgeot-EX.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sword_%26_Shield_TCG_Series_merchandise#Kanto_Power_Collection",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Dragonite-EX & Pidgeot-EX",
+          "label": "English edition packaging — Dragonite-EX & Pidgeot-EX",
+          "width": 994,
+          "height": 657,
+          "sha256": "d0aaf8d47e07e04f6a54e3bcf620aaf9412a781020a96165980e5d9338179e18",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Product family: retain images as labelled alternatives; do not choose a physical variant or value automatically."
+      ],
+      "display_mode": "gallery"
+    },
+    {
+      "id": "j-2020-tag-team-powers-collection-en",
+      "title": "TAG TEAM Powers Collection",
+      "language": "English",
+      "year": "2020",
+      "original_reason": "multi_product",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/en/j-2020-tag-team-powers-collection-en-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/9/9f/TAG_TEAM_Powers_Collection_Umbreon_Darkrai.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_TCG_Series_merchandise#TAG_TEAM_Powers_Collection",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Umbreon & Darkrai-GX",
+          "label": "English edition packaging — Umbreon & Darkrai-GX",
+          "width": 1280,
+          "height": 1132,
+          "sha256": "1e4cffacad37cf14942e413f382b947d1498608eda8e6be9f2cf163f1e06e80f",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/en/j-2020-tag-team-powers-collection-en-02.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/1/14/TAG_TEAM_Powers_Collection_Espeon_Deoxys.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_TCG_Series_merchandise#TAG_TEAM_Powers_Collection",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Espeon & Deoxys-GX",
+          "label": "English edition packaging — Espeon & Deoxys-GX",
+          "width": 1280,
+          "height": 1132,
+          "sha256": "02f559b2feed1cd3d9e9db1c88a5f1e1b591040e33539c136b6c4e0f3c1c0900",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Product family: retain images as labelled alternatives; do not choose a physical variant or value automatically."
+      ],
+      "display_mode": "gallery"
+    },
+    {
+      "id": "j-2023-paldea-collection-en",
+      "title": "Paldea Collection",
+      "language": "English",
+      "year": "2023",
+      "original_reason": "multi_product",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/en/j-2023-paldea-collection-en-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/d/d9/Paldea_Collection_Sprigatito.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Scarlet_%26_Violet_TCG_Series_merchandise#Paldea_Collection",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Sprigatito / Miraidon ex",
+          "label": "English edition packaging — Sprigatito / Miraidon ex",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "06201d8d517f020029c873e788d2a6ef128baee52b9755c53f5fd57db9cbc2de",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/en/j-2023-paldea-collection-en-02.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/5/58/Paldea_Collection_Fuecoco.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Scarlet_%26_Violet_TCG_Series_merchandise#Paldea_Collection",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Fuecoco / Koraidon ex",
+          "label": "English edition packaging — Fuecoco / Koraidon ex",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b293d3078824a39347e831a6ef2f5092c9afaaa23eaf3f689bb35a5f0ab9e446",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/en/j-2023-paldea-collection-en-03.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/c/ce/Paldea_Collection_Quaxly.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Scarlet_%26_Violet_TCG_Series_merchandise#Paldea_Collection",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Quaxly / Miraidon ex",
+          "label": "English edition packaging — Quaxly / Miraidon ex",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "82392173bb67e385d79bda8b050d3770629600177fe2727cfbd7155ddc1d6f8b",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/en/j-2023-paldea-collection-en-04.jpg",
+          "url": "https://tcgplayer-cdn.tcgplayer.com/product/477172_400w.jpg",
+          "source_page": "https://www.tcgplayer.com/product/477172/pokemon-miscellaneous-cards-and-products-paldea-collection-sprigatito-koraidon-ex",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Sprigatito / Koraidon ex",
+          "label": "English Paldea Collection packaging — Sprigatito / Koraidon ex",
+          "width": 400,
+          "height": 400,
+          "sha256": "7f9e35716381cbe53a1b0e257a51b608320e5ef5d81e6fcbd67ea6e34f95e1ee",
+          "downloaded_unchanged": true,
+          "visually_verified": true,
+          "tcgplayer_id": "477172"
+        },
+        {
+          "file": "images/en/j-2023-paldea-collection-en-05.jpg",
+          "url": "https://tcgplayer-cdn.tcgplayer.com/product/477170_400w.jpg",
+          "source_page": "https://www.tcgplayer.com/product/477170/pokemon-miscellaneous-cards-and-products-paldea-collection-fuecoco-miraidon-ex",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Fuecoco / Miraidon ex",
+          "label": "English Paldea Collection packaging — Fuecoco / Miraidon ex",
+          "width": 400,
+          "height": 400,
+          "sha256": "d4869234b792bf280851d779874aec8228e5621431273f6861c444bfd3b25cca",
+          "downloaded_unchanged": true,
+          "visually_verified": true,
+          "tcgplayer_id": "477170"
+        },
+        {
+          "file": "images/en/j-2023-paldea-collection-en-06.jpg",
+          "url": "https://tcgplayer-cdn.tcgplayer.com/product/477171_400w.jpg",
+          "source_page": "https://www.tcgplayer.com/product/477171/pokemon-miscellaneous-cards-and-products-paldea-collection-quaxly-koraidon-ex",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Quaxly / Koraidon ex",
+          "label": "English Paldea Collection packaging — Quaxly / Koraidon ex",
+          "width": 400,
+          "height": 400,
+          "sha256": "b1cb461a51f6279ff7e9934fb336c82d11c5625c1c8929a1292248cff545d786",
+          "downloaded_unchanged": true,
+          "visually_verified": true,
+          "tcgplayer_id": "477171"
+        }
+      ],
+      "notes": [
+        "All six English starter/mascot combinations are illustrated. Keep the variants together under the existing family record.",
+        "Verified alternate-combination TCGplayer references: 477172 = Sprigatito / Koraidon ex; 477170 = Fuecoco / Miraidon ex; 477171 = Quaxly / Koraidon ex."
+      ],
+      "display_mode": "gallery"
+    },
+    {
+      "id": "j-2024-paldean-fates-premium-collections-en",
+      "title": "Paldean Fates Premium Collections",
+      "language": "English",
+      "year": "2024",
+      "original_reason": "multi_product",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/en/j-2024-paldean-fates-premium-collections-en-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/c/c1/SV4.5_Premium_Collection_Meowscarada.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Scarlet_%26_Violet_TCG_Series_merchandise#Paldean_Fates_Premium_Collections",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Meowscarada ex",
+          "label": "English edition packaging — Meowscarada ex",
+          "width": 3398,
+          "height": 3141,
+          "sha256": "47530f82da5535095a95ec1ae27e0efd219bfb72afa93ca75f690770724970b6",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/en/j-2024-paldean-fates-premium-collections-en-02.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/4/44/SV4.5_Premium_Collection_Skeledirge.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Scarlet_%26_Violet_TCG_Series_merchandise#Paldean_Fates_Premium_Collections",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Skeledirge ex",
+          "label": "English edition packaging — Skeledirge ex",
+          "width": 3398,
+          "height": 3141,
+          "sha256": "9ba8fc521b8b03b375f4b68742351a20967eea4b99afb674635df454e4f90dc6",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        },
+        {
+          "file": "images/en/j-2024-paldean-fates-premium-collections-en-03.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/e/e0/SV4.5_Premium_Collection_Quaquaval.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Scarlet_%26_Violet_TCG_Series_merchandise#Paldean_Fates_Premium_Collections",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "Quaquaval ex",
+          "label": "English edition packaging — Quaquaval ex",
+          "width": 3398,
+          "height": 3141,
+          "sha256": "2d062d79bff89d74e8ddf8b3cb11105885c225a1dd8b176a14df56419ccaef3e",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Product family: retain images as labelled alternatives; do not choose a physical variant or value automatically."
+      ],
+      "display_mode": "gallery"
+    },
+    {
+      "id": "j-2018-dragon-majesty-special-collection-white-kyurem-gx-en",
+      "title": "Dragon Majesty Special Collection—White Kyurem-GX",
+      "language": "English",
+      "year": "2018",
+      "original_reason": "id_no_image",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/en/j-2018-dragon-majesty-special-collection-white-kyurem-gx-en-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/1/13/WhiteKyuremGX_Special_Collection.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_TCG_Series_merchandise#Dragon_Majesty_Special_Collection—White_Kyurem-GX",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "White Kyurem-GX",
+          "label": "English edition packaging — White Kyurem-GX",
+          "width": 1280,
+          "height": 853,
+          "sha256": "e82d7b8eeb674f352845149a8acce07dacfcb57d14ea0db1b6e5eaa260afdf3a",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2018-legends-of-johto-gx-collection-en",
+      "title": "Legends of Johto GX Collection",
+      "language": "English",
+      "year": "2018",
+      "original_reason": "id_no_image",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/en/j-2018-legends-of-johto-gx-collection-en-01.jpg",
+          "url": "https://archives.bulbagarden.net/media/upload/4/4c/Legends_of_Johto_GX_Collection.jpg",
+          "source_page": "https://bulbapedia.bulbagarden.net/wiki/Sun_%26_Moon_TCG_Series_merchandise#Legends_of_Johto_GX_Collection",
+          "image_language": "English",
+          "match_type": "exact_packaging",
+          "variant": "European Collection — five packs, without coin or pin",
+          "label": "English edition packaging — European Collection — five packs, without coin or pin",
+          "width": 1602,
+          "height": 1055,
+          "sha256": "35ce3fbcda91c257580c493580de6e359a4cf9508eb43dade32dc1ac0cb2f0b4",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "European five-pack Collection configuration without the Suicune coin or pin; not the Premium Collection."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2023-meowscarada-ex-collection-pt",
+      "title": "Meowscarada ex Collection",
+      "language": "Portuguese",
+      "year": "2023",
+      "original_reason": "id_no_image",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/pt/j-2023-meowscarada-ex-collection-pt-01.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20230906/1729693086_6940.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=128476",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Meowscarada ex",
+          "label": "(PT-BR) Box Coleção - Parceiros de Paldea - Meowscarada ex",
+          "width": 350,
+          "height": 500,
+          "sha256": "d27364e4930dfc4e05350ab8f902b54e3c5153e9d5acfb9d75902421fd7a6c2c",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Portuguese Coleção Meowscarada ex / Parceiros de Paldea box. Matching Portuguese promo and jumbo, 6 Brazilian six-card boosters. This 2023 non-shiny product is distinct from 2024 Paldean Fates premium collections."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2023-quaquaval-ex-collection-pt",
+      "title": "Quaquaval ex Collection",
+      "language": "Portuguese",
+      "year": "2023",
+      "original_reason": "id_no_image",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/pt/j-2023-quaquaval-ex-collection-pt-01.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20230906/1729692758_3552.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=128477",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Quaquaval ex",
+          "label": "(PT-BR) Box Coleção - Parceiros de Paldea - Quaquaval ex",
+          "width": 350,
+          "height": 500,
+          "sha256": "60111626fbb28ce65230d64dc7bedd98c652be7b5d96694b7e8d20dd9b291e5f",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Portuguese Coleção Quaquaval ex / Parceiros de Paldea box. Matching Portuguese promo and jumbo, 6 Brazilian six-card boosters. This 2023 non-shiny product is distinct from 2024 Paldean Fates premium collections."
+      ],
+      "display_mode": "single"
+    },
+    {
+      "id": "j-2023-skeledirge-ex-collection-pt",
+      "title": "Skeledirge ex Collection",
+      "language": "Portuguese",
+      "year": "2023",
+      "original_reason": "id_no_image",
+      "status": "exact_packaging",
+      "image_type": "packaging",
+      "images": [
+        {
+          "file": "images/pt/j-2023-skeledirge-ex-collection-pt-01.jpg",
+          "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20230906/1729692326_1572.jpg",
+          "source_page": "https://www.ligapokemon.com.br/?view=prod/view&pcode=128478",
+          "image_language": "Portuguese",
+          "match_type": "exact_packaging",
+          "variant": "Skeledirge ex",
+          "label": "(PT-BR) Box Coleção - Parceiros de Paldea - Skeledirge ex",
+          "width": 350,
+          "height": 500,
+          "sha256": "416205b1452ce3924308bc02e9533534f8f2979cd8929caad5f4c6d74f303965",
+          "downloaded_unchanged": true,
+          "visually_verified": true
+        }
+      ],
+      "notes": [
+        "Exact Portuguese Coleção Skeledirge ex / Parceiros de Paldea box. Matching Portuguese promo and jumbo, 6 Brazilian six-card boosters. This 2023 non-shiny product is distinct from 2024 Paldean Fates premium collections."
+      ],
+      "display_mode": "single"
+    }
+  ]
+}
