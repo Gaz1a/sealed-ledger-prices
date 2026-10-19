@@ -60,36 +60,37 @@
    "lastCount": 0
   },
   "j-2016-venusaur-ex-special-jumbo-card-set-ko": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2016-volcanion-ex-special-jumbo-card-pack-ja": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2016-volcanion-ex-special-jumbo-card-set-ko": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2017-tapu-koko-gx-special-jumbo-card-set-ko": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2017-tsareena-box-fr": {
-   "lastChecked": "2026-10-18",
-   "lastCount": 0
+   "lastChecked": "2026-10-19",
+   "lastCount": 2,
+   "lastHit": "2026-10-19"
   },
   "j-2018-zeraora-special-jumbo-card-set-ko": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2019-galar-collection-en": {
-   "lastChecked": "2026-10-18",
-   "lastCount": 0,
-   "lastHit": "2026-10-18"
+   "lastChecked": "2026-10-19",
+   "lastCount": 16,
+   "lastHit": "2026-10-19"
   },
   "j-2019-galar-collection-pt": {
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-19",
    "lastCount": 0
   },
   "j-2019-pikachu-zekrom-special-kit-ko": {
@@ -1909,12 +1910,12 @@
   }
  },
  "checkedAt": "2026-10-19",
- "status": "ok",
+ "status": "rate limited (eBay 429): sweep stopped early, remaining entries rotate to the next run",
  "entriesTotal": 407,
  "entriesChecked": 407,
- "entriesCheckedThisRun": 14,
- "entriesWithLiveListing": 235,
- "entriesNoHitIn14Days": 128,
+ "entriesCheckedThisRun": 8,
+ "entriesWithLiveListing": 237,
+ "entriesNoHitIn14Days": 127,
  "neverChecked": 0,
  "noHit14DayIds": [
   "j-1997-corocoro-comic-july-1997-issue-insert-june-15-1997-ja",
@@ -1970,7 +1971,6 @@
   "j-2017-shiny-mega-gengar-ex-box-fr",
   "j-2017-tapu-koko-gx-special-jumbo-card-set-ko",
   "j-2017-tapu-lele-box-fr",
-  "j-2017-tsareena-box-fr",
   "j-2017-tsareena-gx-box-en",
   "j-2017-volcanion-ex-challenge-box-en",
   "j-2018-darkrai-gx-special-jumbo-card-set-ko",
@@ -2047,99 +2047,108 @@
   "j-2025-salamence-ex-reshiram-ex-special-collection-en"
  ],
  "markets": "by language: English US/GB/CA/AU; French FR/DE/IT/ES; others all 8",
- "apiCalls": 80,
- "errors": {},
- "maxCalls": 80,
+ "apiCalls": 57,
+ "errors": {
+  "429 EBAY_US": 1
+ },
+ "maxCalls": 2300,
  "perMarket": {
   "EBAY_US": {
-   "queries": 10,
-   "raw": 151,
-   "kept": 14
+   "queries": 8,
+   "raw": 101,
+   "kept": 0
   },
   "EBAY_GB": {
-   "queries": 10,
-   "raw": 151,
-   "kept": 23
-  },
-  "EBAY_CA": {
-   "queries": 10,
-   "raw": 151,
-   "kept": 28
-  },
-  "EBAY_AU": {
-   "queries": 10,
-   "raw": 164,
-   "kept": 21
-  },
-  "EBAY_FR": {
-   "queries": 10,
-   "raw": 115,
+   "queries": 7,
+   "raw": 101,
    "kept": 0
   },
   "EBAY_DE": {
-   "queries": 10,
-   "raw": 106,
-   "kept": 0
-  },
-  "EBAY_IT": {
-   "queries": 10,
-   "raw": 150,
+   "queries": 7,
+   "raw": 51,
    "kept": 0
   },
   "EBAY_ES": {
-   "queries": 10,
-   "raw": 150,
+   "queries": 7,
+   "raw": 101,
    "kept": 0
+  },
+  "EBAY_IT": {
+   "queries": 7,
+   "raw": 101,
+   "kept": 0
+  },
+  "EBAY_FR": {
+   "queries": 7,
+   "raw": 85,
+   "kept": 2
+  },
+  "EBAY_CA": {
+   "queries": 7,
+   "raw": 101,
+   "kept": 0
+  },
+  "EBAY_AU": {
+   "queries": 7,
+   "raw": 109,
+   "kept": 16
   }
  },
  "drops": {
   "EBAY_US": {
-   "noise": 14,
-   "irrelevant": 67,
-   "lang": 3,
-   "floor": 53
+   "noise": 2,
+   "irrelevant": 46,
+   "lang": 6,
+   "floor": 5,
+   "single": 42
   },
   "EBAY_GB": {
-   "noise": 9,
-   "irrelevant": 66,
-   "lang": 2,
-   "floor": 51
-  },
-  "EBAY_CA": {
-   "noise": 11,
-   "irrelevant": 65,
-   "lang": 3,
-   "floor": 44
-  },
-  "EBAY_AU": {
-   "noise": 16,
-   "irrelevant": 54,
-   "lang": 3,
-   "floor": 70
-  },
-  "EBAY_FR": {
-   "noise": 3,
-   "irrelevant": 111,
-   "lang": 1,
-   "floor": 0
-  },
-  "EBAY_DE": {
-   "noise": 2,
-   "irrelevant": 100,
+   "noise": 22,
+   "irrelevant": 22,
    "lang": 4,
-   "floor": 0
-  },
-  "EBAY_IT": {
-   "noise": 0,
-   "irrelevant": 147,
-   "lang": 3,
-   "floor": 0
+   "floor": 3,
+   "single": 50
   },
   "EBAY_ES": {
    "noise": 2,
-   "irrelevant": 142,
-   "lang": 6,
-   "floor": 0
+   "irrelevant": 62,
+   "lang": 5,
+   "floor": 0,
+   "single": 32
+  },
+  "EBAY_IT": {
+   "noise": 3,
+   "irrelevant": 67,
+   "lang": 5,
+   "floor": 0,
+   "single": 26
+  },
+  "EBAY_CA": {
+   "noise": 4,
+   "irrelevant": 30,
+   "lang": 5,
+   "floor": 4,
+   "single": 58
+  },
+  "EBAY_AU": {
+   "noise": 26,
+   "irrelevant": 25,
+   "lang": 31,
+   "floor": 11
+  },
+  "EBAY_FR": {
+   "noise": 6,
+   "irrelevant": 32,
+   "lang": 1,
+   "floor": 0,
+   "single": 44
+  },
+  "EBAY_DE": {
+   "noise": 0,
+   "irrelevant": 6,
+   "lang": 0,
+   "floor": 0,
+   "single": 45
   }
  },
  "noPrice": null,
