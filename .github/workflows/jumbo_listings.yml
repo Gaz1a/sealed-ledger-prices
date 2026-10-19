@@ -4,6 +4,10 @@ on:
     - cron: "40 11 * * 1-6"     # daily: least-recently-swept entries, 2300-call budget
     - cron: "10 13 * * 0"       # Sunday: weekly full sweep attempt, larger budget
   workflow_dispatch:
+    inputs:
+      max_calls:
+        description: call cap for a test run
+        required: false
 permissions:
   contents: write
 jobs:
@@ -18,7 +22,7 @@ jobs:
         env:
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
-          MAX_CALLS: ${{ github.event.schedule == '10 13 * * 0' && '3500' || '2300' }}
+          MAX_CALLS: ${{ github.event.inputs.max_calls || github.event.schedule == '10 13 * * 0' && '3500' || '2300' }}
       - name: Commit only if changed
         run: |
           git config user.name "price-bot"

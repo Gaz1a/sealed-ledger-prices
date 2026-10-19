@@ -39,10 +39,12 @@ def token():
     with urllib.request.urlopen(urllib.request.Request("https://api.ebay.com/identity/v1/oauth2/token", data=b, headers={"Authorization": f"Basic {a}", "Content-Type": "application/x-www-form-urlencoded"}), timeout=30) as x: return json.load(x)["access_token"]
 FX = {"USD": 1.0}
 def load_fx():
-    try:
-        r = json.load(urllib.request.urlopen("https://api.frankfurter.app/latest?from=USD", timeout=30))["rates"]
-        FX.update({c: 1.0 / v for c, v in r.items() if v})       # 1 unit of c in USD
-    except Exception: pass
+    for u in ("https://api.frankfurter.dev/v1/latest?base=USD", "https://api.frankfurter.app/latest?from=USD"):
+        try:
+            r = json.load(urllib.request.urlopen(u, timeout=30))["rates"]
+            FX.update({c: 1.0 / v for c, v in r.items() if v}); DIAG["fxSource"] = u; return       # 1 unit of c in USD
+        except Exception as ex: DIAG.setdefault("fxErrors", []).append(str(ex)[:80])
+    FX.update({"EUR": 1.16, "GBP": 1.33, "CAD": 0.72, "AUD": 0.65}); DIAG["fxSource"] = "fallback-constants"
 def usd(p):
     if not p or p.get("value") is None: return None
     rate = FX.get(p.get("currency", "USD"))
@@ -74,14 +76,19 @@ def lang_ok(title, lang):
     return bool(LANGS.get(lang) and re.search(LANGS[lang], title, re.I))
 def record(h, ent, mk, q, lang):
     t = h.get("title", "")
-    if NOISE.search(t) or not relevant(t, ent) or not lang_ok(t, lang): return None
+    dr = DIAG.setdefault("drops", {}).setdefault(mk, {"noise": 0, "irrelevant": 0, "lang": 0, "floor": 0})
+    if NOISE.search(t): dr["noise"] += 1; return None
+    if not relevant(t, ent): dr["irrelevant"] += 1; return None
+    if not lang_ok(t, lang): dr["lang"] += 1; return None
     auc = "AUCTION" in (h.get("buyingOptions") or [])
     price = usd(h.get("currentBidPrice") or h.get("price"))
-    if price is None: return None
+    if price is None:
+        c = (h.get("currentBidPrice") or h.get("price") or {}).get("currency"); DIAG.setdefault("noPrice", {}); DIAG["noPrice"][f"{mk}:{c}"] = DIAG["noPrice"].get(f"{mk}:{c}", 0) + 1
+        return None
     so = (h.get("shippingOptions") or [{}])[0].get("shippingCost"); ship = usd(so) if so else None
     allin = round((price + (ship or 0)) * TAX, 2)
     tgt = ent.get("targetAllIn"); ref = tgt or ent.get("price"); s = h.get("seller") or {}
-    if allin < (0.25 * ref if ref else 10): return None       # accessories / $1 placeholder listings; a real jumbo item never sells this far below market; s = h.get("seller") or {}
+    if allin < (0.25 * ref if ref else 10): dr["floor"] += 1; return None       # accessories / $1 placeholder listings; a real jumbo item never sells this far below market; s = h.get("seller") or {}
     return {"id": ent["id"], "itemId": h.get("itemId"), "title": t, "price": price, "shipping": ship, "shipUnknown": ship is None, "allIn": allin,
             "format": "auction" if auc else "buy-it-now", "bids": h.get("bidCount") if auc else None, "ends": h.get("itemEndDate"), "seller": s.get("username"),
             "feedbackPct": s.get("feedbackPercentage"), "feedbackScore": s.get("feedbackScore"), "location": (h.get("itemLocation") or {}).get("country"),
@@ -135,7 +142,7 @@ def main():
     live = {r["id"] for r in listings}
     cov.update({"checkedAt": TODAY, "status": "rate limited (eBay 429): sweep stopped early, remaining entries rotate to the next run" if RL["hit"] else "ok", "entriesTotal": len(ids),
                 "entriesChecked": len(ids) - len(never), "entriesCheckedThisRun": len(swept), "entriesWithLiveListing": len(live & ids), "entriesNoHitIn14Days": len(nohit), "neverChecked": len(never),
-                "noHit14DayIds": sorted(nohit), "markets": "by language: English US/GB/CA/AU; French FR/DE/IT/ES; others all 8", "apiCalls": DIAG["calls"], "errors": DIAG["errors"], "perMarket": DIAG.get("perMarket"), "maxCalls": MAX_CALLS})
+                "noHit14DayIds": sorted(nohit), "markets": "by language: English US/GB/CA/AU; French FR/DE/IT/ES; others all 8", "apiCalls": DIAG["calls"], "errors": DIAG["errors"], "perMarket": DIAG.get("perMarket"), "drops": DIAG.get("drops"), "noPrice": DIAG.get("noPrice"), "fxSource": DIAG.get("fxSource"), "fxErrors": DIAG.get("fxErrors"), "maxCalls": MAX_CALLS})
     json.dump(cov, open(os.path.join(ROOT, "jumbo_coverage.json"), "w"), indent=1)
     print(cov["status"], "swept", len(swept), "of", len(ids), "listings", len(listings), "calls", DIAG["calls"])
 if __name__ == "__main__": main()
