@@ -18,6 +18,6 @@ jobs:
       - name: Commit
         run: |
           git config user.name "price-bot"; git config user.email "price-bot@users.noreply.github.com"
-          git add booklet_listings.json stock_check.json devir_retail_urls.json booklet_prices.json booklet_hits.json booklet_refs.json booklet_max.json ebay_wants.json
+          git add booklet_listings.json stock_check.json devir_retail_urls.json booklet_prices.json booklet_hits.json booklet_unmatched.json booklet_watch.json booklet_refs.json booklet_max.json ebay_wants.json
           git diff --cached --quiet || git commit -m "booklets $(date -u +%F)"
           git pull --rebase && git push

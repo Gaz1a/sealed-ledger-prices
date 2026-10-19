@@ -17,7 +17,8 @@ BELOW_REF = 0.85       # flag when all-in <= 85% of the lowest Portuguese sealed
 MARKETS = ("EBAY_US", "EBAY_GB", "EBAY_DE", "EBAY_ES", "EBAY_IT", "EBAY_FR", "EBAY_CA", "EBAY_AU")
 PT = re.compile(r"devir|livro|livraria|baralho|estampas ilustradas|origem das lendas|for[cç]as ocultas|meio[- ]baralho|portugu[eéê]s|portuguese|portoghese|portogallo|portugais|portugiesisch|portugal|brasil|brazil|\bpt[- ]?br\b", re.I)
 PRODUCT = re.compile(r"half[- ]?(theme[- ])?deck|theme deck|\bdeck\b|booklet|livro|estampas|baralho", re.I)      # product-type word: required for the BROAD (non-Devir) queries so Portuguese single cards are not picked up
-NAME_RX = {"Ho-Oh": r"ho[\s\-]*oh"}      # sellers write Ho-Oh / HOOH / Ho Oh
+NAME_RX = {"Ho-Oh": r"ho[\s\-]*oh"}
+UNMATCHED = {}      # self-check: Portuguese sealed-deck/booklet listings from the category sweep that match NO tracked booklet name -> booklet_unmatched.json, reviewed each run for new naming patterns      # sellers write Ho-Oh / HOOH / Ho Oh
 CATS = ("183457", "183456")      # eBay: CCG Sealed Decks & Kits, CCG Sealed Packs (where these listings sit)
 BAD = re.compile(r"\bcase\b|\blots?\b|loose|incomplete|missing|opened|aberto|usado|\bused\b|empty|cards only|proxy|custom|reprint|\bpsa\b|\bcgc\b|\bbgs\b|graded", re.I)
 SEALED = re.compile(r"sealed|lacrado|selado|precintado|versiegelt|\bneuf\b|\bneuve\b|\bovp\b|sigillat[oa]|scell[ée]|cerrado|\bnew\b|\bnovo\b", re.I)
@@ -103,6 +104,9 @@ if tok:
                     j = get("https://api.ebay.com/buy/browse/v1/item_summary/search?" + urllib.parse.urlencode({"q": cq, "category_ids": cid, "limit": 50, "offset": off, "filter": "buyingOptions:{FIXED_PRICE|AUCTION},deliveryCountry:US"}), H)
                     its = j.get("itemSummaries", [])
                     for i in its:
+                        ti = i.get("title", "")
+                        if PT.search(ti) and PRODUCT.search(ti) and not BAD.search(ti) and not any(p_.search(ti) for p_ in OTHER.values()):
+                            UNMATCHED[i["itemId"]] = {"title": ti, "url": i.get("itemWebUrl", "").split("?")[0], "marketplace": mk, "price": (i.get("price") or i.get("currentBidPrice") or {}).get("value")}
                         for rid2, nm2 in ROWS.items():
                             if rid2 not in NOSCAN and OTHER[rid2].search(i.get("title", "")): ingest(rid2, nm2, i, mk, "broad")
                     if len(its) < 50: break
@@ -232,6 +236,12 @@ out["totals"] = {"foundToday": sum(c["foundToday"] for c in allc.values()), "sea
 prices["generated"] = TODAY; refs["generated"] = TODAY
 json.dump(prices, open(os.path.join(ROOT, "booklet_prices.json"), "w"), indent=1, ensure_ascii=False)
 json.dump(refs, open(os.path.join(ROOT, "booklet_refs.json"), "w"), indent=1, ensure_ascii=False)
+# canary: items Gaz is watching must always be flagged (booklet_watch.json: {"ids": ["800795730845", ...]}); a miss is recorded loudly
+watch = ld("booklet_watch.json", {"ids": []}).get("ids", [])
+flagged_ids = {f["url"].split("/")[-1] for f in out["flags"]}
+out["diagnostics"]["watchCheck"] = {w: ("flagged" if w in flagged_ids else "NOT FLAGGED" if not DIAG.get("rateLimited") else "unchecked (rate limited)") for w in watch}
+if any(v == "NOT FLAGGED" for v in out["diagnostics"]["watchCheck"].values()): print("WATCHED LISTING NOT FLAGGED", out["diagnostics"]["watchCheck"])
+json.dump(UNMATCHED, open(os.path.join(ROOT, "booklet_unmatched.json"), "w"), indent=1, ensure_ascii=False)
 json.dump(out, open(os.path.join(ROOT, "booklet_hits.json"), "w"), indent=1, ensure_ascii=False)
 if not os.path.exists(os.path.join(ROOT, "booklet_max.json")): json.dump({}, open(os.path.join(ROOT, "booklet_max.json"), "w"))
 ew = ld("ebay_wants.json", {})
