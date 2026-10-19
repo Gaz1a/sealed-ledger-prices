@@ -15,7 +15,10 @@ NOCAP_PREFIX = "bk-"      # Portuguese Devir booklets: NO price cap (Gaz tracks 
 NOSCAN = {"bk-machamp"}      # bought 2026-10-17 (booklet_owned.json): no eBay scan at all
 BELOW_REF = 0.85       # flag when all-in <= 85% of the lowest Portuguese sealed all-in seen so far (>=15% below)
 MARKETS = ("EBAY_US", "EBAY_GB", "EBAY_DE", "EBAY_ES", "EBAY_IT", "EBAY_FR", "EBAY_CA", "EBAY_AU")
-PT = re.compile(r"devir|livro|livraria|baralho|estampas ilustradas|origem das lendas|portugu[eéê]s|portuguese|portoghese|portogallo|portugal|brasil|brazil", re.I)
+PT = re.compile(r"devir|livro|livraria|baralho|estampas ilustradas|origem das lendas|for[cç]as ocultas|meio[- ]baralho|portugu[eéê]s|portuguese|portoghese|portogallo|portugais|portugiesisch|portugal|brasil|brazil|\bpt[- ]?br\b", re.I)
+PRODUCT = re.compile(r"half[- ]?(theme[- ])?deck|theme deck|\bdeck\b|booklet|livro|estampas|baralho", re.I)      # product-type word: required for the BROAD (non-Devir) queries so Portuguese single cards are not picked up
+NAME_RX = {"Ho-Oh": r"ho[\s\-]*oh"}      # sellers write Ho-Oh / HOOH / Ho Oh
+CATS = ("183457", "183456")      # eBay: CCG Sealed Decks & Kits, CCG Sealed Packs (where these listings sit)
 BAD = re.compile(r"\bcase\b|\blots?\b|loose|incomplete|missing|opened|aberto|usado|\bused\b|empty|cards only|proxy|custom|reprint|\bpsa\b|\bcgc\b|\bbgs\b|graded", re.I)
 SEALED = re.compile(r"sealed|lacrado|selado|precintado|versiegelt|\bneuf\b|\bneuve\b|\bovp\b|sigillat[oa]|scell[ée]|cerrado|\bnew\b|\bnovo\b", re.I)
 def ld(p, d):
@@ -53,7 +56,28 @@ try:
     CMN = {p["idProduct"]: p["name"] for p in _req("https://downloads.s3.cardmarket.com/productCatalog/productList/products_nonsingles_6.json")["products"]}
 except Exception as _e: print("cardmarket download failed", type(_e).__name__)
 found = {k: {} for k in ROWS}
-OTHER = {rid: re.compile(r"(?<![a-z])" + re.escape(nm) + r"(?![a-z])", re.I) for rid, nm in ROWS.items()}
+OTHER = {rid: re.compile(r"(?<![a-z])" + NAME_RX.get(nm, re.escape(nm)) + r"(?![a-z])", re.I) for rid, nm in ROWS.items()}
+def ingest(rid, nm, i, mk, via):
+    t = i.get("title", "")
+    name_ok = bool(OTHER[rid].search(t))
+    if via in ("title", "broad"):
+        if not name_ok or not PT.search(t) or BAD.search(t) or (via == "broad" and not PRODUCT.search(t)): return
+    else:      # matched by ISBN / GTIN / retailer ref: eBay's matching is fuzzy (returns novels), so still require a Pokemon/booklet signal AND a Portuguese signal
+        if BAD.search(t) or not PT.search(t) or not (name_ok or re.search(r"pok[eé]mon", t, re.I)) or any(r2 != rid and p.search(t) for r2, p in OTHER.items()): return
+    bo = i.get("buyingOptions") or []
+    if "FIXED_PRICE" not in bo and "AUCTION" not in bo: return
+    is_auc = "AUCTION" in bo
+    item = usd(i.get("currentBidPrice") or i.get("price")) if is_auc else usd(i.get("price"))
+    if item is None: return
+    so = (i.get("shippingOptions") or [{}])[0].get("shippingCost")
+    ship = usd(so) if so else None
+    loc = (i.get("itemLocation") or {}).get("country")
+    imp = round((item + (ship or 0)) * IMPORT_PCT, 2) if loc and loc != "US" else 0.0
+    sealed = (i.get("condition") == "New") or bool(SEALED.search(t))
+    found[rid][i["itemId"]] = {"title": t, "url": i.get("itemWebUrl", "").split("?")[0], "marketplace": mk, "itemUSD": item, "shippingUSD": ship, "shipUnknown": ship is None,
+        "importEstUSD": imp, "allInUSD": round(item + (ship or 0) + imp, 2), "originCountry": loc, "condition": i.get("condition"), "itemEndDate": i.get("itemEndDate"), "sealed": sealed, "auction": is_auc, "bidCount": i.get("bidCount") or 0, "matchedBy": via + (" (ISBN unverified)" if via.startswith("isbn") and not b.get("isbnStatus", "").endswith("Gaz") else ""),
+        "sealedBasis": "condition New" if i.get("condition") == "New" else "title says sealed/new" if SEALED.search(t) else "unconfirmed",
+        "seller": (i.get("seller") or {}).get("username"), "feedbackPct": (i.get("seller") or {}).get("feedbackPercentage"), "feedbackScore": (i.get("seller") or {}).get("feedbackScore")}
 if tok:
     for mk in MARKETS:
         H = {"Authorization": "Bearer " + tok, "X-EBAY-C-MARKETPLACE-ID": mk, **SHIP_TO}
@@ -61,6 +85,7 @@ if tok:
             if rid in NOSCAN or DIAG.get("rateLimited"): continue
             b = BK.get(rid, {}); isbn = b.get("isbn13"); rfc = b.get("retailerRef") or ""
             plan = [(q, {}, "title") for q in (f"Devir Livro Ilustrado {nm}", f"Estampas Ilustradas {nm}", f"Pokemon Devir {nm} Portuguese booklet", f"Pokemon Origem das Lendas {nm} Devir", f"Devir Pokemon {nm}")]
+            plan += [(f"Pokemon Portuguese {nm}", {}, "broad"), (f"{nm} Half Theme Deck Portuguese", {}, "broad")]      # sellers often title these "Half Theme Deck" / "Unseen Forces" with no Devir/Livro/booklet word; eBay search needs every query word in the title
             if isbn: plan += [(isbn, {}, "isbn"), (None, {"gtin": isbn}, "isbn-gtin")]
             if rfc.startswith("PK"): plan.append((rfc, {}, "retailer-ref"))
             for q, extra, via in plan:
@@ -69,27 +94,18 @@ if tok:
                 prm = {"limit": 50, "filter": "buyingOptions:{FIXED_PRICE|AUCTION},deliveryCountry:US", **extra}
                 if q: prm["q"] = q
                 j = get("https://api.ebay.com/buy/browse/v1/item_summary/search?" + urllib.parse.urlencode(prm), H)
-                for i in j.get("itemSummaries", []):
-                    t = i.get("title", "")
-                    name_ok = bool(OTHER[rid].search(t))
-                    if via == "title":
-                        if not name_ok or not PT.search(t) or BAD.search(t): continue
-                    else:      # matched by ISBN / GTIN / retailer ref: eBay's matching is fuzzy (returns novels), so still require a Pokemon/booklet signal AND a Portuguese signal
-                        if BAD.search(t) or not PT.search(t) or not (name_ok or re.search(r"pok[eé]mon", t, re.I)) or any(r2 != rid and p.search(t) for r2, p in OTHER.items()): continue
-                    bo = i.get("buyingOptions") or []
-                    if "FIXED_PRICE" not in bo and "AUCTION" not in bo: continue
-                    is_auc = "AUCTION" in bo
-                    item = usd(i.get("currentBidPrice") or i.get("price")) if is_auc else usd(i.get("price"))
-                    if item is None: continue
-                    so = (i.get("shippingOptions") or [{}])[0].get("shippingCost")
-                    ship = usd(so) if so else None
-                    loc = (i.get("itemLocation") or {}).get("country")
-                    imp = round((item + (ship or 0)) * IMPORT_PCT, 2) if loc and loc != "US" else 0.0
-                    sealed = (i.get("condition") == "New") or bool(SEALED.search(t))
-                    found[rid][i["itemId"]] = {"title": t, "url": i.get("itemWebUrl", "").split("?")[0], "marketplace": mk, "itemUSD": item, "shippingUSD": ship, "shipUnknown": ship is None,
-                        "importEstUSD": imp, "allInUSD": round(item + (ship or 0) + imp, 2), "originCountry": loc, "condition": i.get("condition"), "itemEndDate": i.get("itemEndDate"), "sealed": sealed, "auction": is_auc, "bidCount": i.get("bidCount") or 0, "matchedBy": via + (" (ISBN unverified)" if via.startswith("isbn") and not b.get("isbnStatus", "").endswith("Gaz") else ""),
-                        "sealedBasis": "condition New" if i.get("condition") == "New" else "title says sealed/new" if SEALED.search(t) else "unconfirmed",
-                        "seller": (i.get("seller") or {}).get("username"), "feedbackPct": (i.get("seller") or {}).get("feedbackPercentage"), "feedbackScore": (i.get("seller") or {}).get("feedbackScore")}
+                for i in j.get("itemSummaries", []): ingest(rid, nm, i, mk, via)
+        for cq in ("Portuguese", "Portuguese sealed", "Portuguese Half Deck", "Pokemon Portuguese deck", "Portuguese Pokemon booklet"):      # category sweep: finds listings whatever the seller put in the title (names matched against every unowned booklet)
+            for cid in CATS:
+                for off in (0, 50, 100):
+                    if DIAG.get("rateLimited"): break
+                    time.sleep(0.35)
+                    j = get("https://api.ebay.com/buy/browse/v1/item_summary/search?" + urllib.parse.urlencode({"q": cq, "category_ids": cid, "limit": 50, "offset": off, "filter": "buyingOptions:{FIXED_PRICE|AUCTION},deliveryCountry:US"}), H)
+                    its = j.get("itemSummaries", [])
+                    for i in its:
+                        for rid2, nm2 in ROWS.items():
+                            if rid2 not in NOSCAN and OTHER[rid2].search(i.get("title", "")): ingest(rid2, nm2, i, mk, "broad")
+                    if len(its) < 50: break
 def valid_title(t): return bool(PT.search(t or "")) and bool(re.search(r"pok[eé]mon|booklet|half deck|theme deck|legend maker|livro", t or "", re.I)) and not BAD.search(t or "")
 prices = ld("booklet_prices.json", {"items": {}})
 refs = ld("booklet_refs.json", {"items": {}})
