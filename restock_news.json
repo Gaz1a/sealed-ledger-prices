@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-18",
+ "generated": "2026-10-19",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (47 entries, 0 new matches)",
+  "googlenews-reprint": "ok (45 entries, 1 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
@@ -317,6 +317,18 @@
    "matched": [
     "elite trainer",
     "ascended heroes"
+   ]
+  },
+  {
+   "id": "5100e07aadad",
+   "feed": "googlenews-reprint",
+   "title": "The Pokémon TCG 30th Celebration ETB is down to market price — shop for $159.99 on Prime Day - Yahoo",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdEdnT0Raek9hOUF1QWw0dzJxa1pZc1RsMmdwbnJWXzJvcjZXaFZnMUlUcUN3eHVFTm9BZDNXWWJjQUJtTnVBOW1aS21YdlRpREJEaG5NY3ZDcmFWeU5qeUZQM25UVzNnY29ES1RTaUJlbzNNSmtBMHI0MkVmNWZBQmhsX1RDOFFWUXV1R09R?oc=5",
+   "published": "2026-10-07",
+   "firstSeen": "2026-10-19",
+   "classes": [],
+   "matched": [
+    "30th celebration"
    ]
   },
   {
