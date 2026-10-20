@@ -1,0 +1,190 @@
+{
+ "_note": "Explicit image sources for ledger ids that cannot be derived from tracked.json. Types: alias (copy another id's image), tcgplayer (product id), tcgdexBase (Base Set card name), tcgcsv (TCGplayer group search, fills itself once the product is listed), booklet (ISBN cover, then eBay listing photo). Add a line here for any new ledger id the weekly check reports as missing.",
+ "w-716231": {
+  "alias": "s-30-sir-sylveon"
+ },
+ "w-716232": {
+  "alias": "s-30-sir-jirachi"
+ },
+ "s-30-sir": {
+  "alias": "s-30-sir-sylveon"
+ },
+ "w-516576": {
+  "alias": "zard-premium23"
+ },
+ "w-610931": {
+  "tcgplayer": 610931,
+  "kind": "sealed"
+ },
+ "dragonite-v-box": {
+  "alias": "j-2021-dragonite-v-box-en"
+ },
+ "dr-box": {
+  "tcgcsv": {
+   "group": 24831,
+   "include": "booster box",
+   "exclude": [
+    "case",
+    "bundle",
+    "display"
+   ]
+  },
+  "kind": "sealed"
+ },
+ "s-rayq-sir": {
+  "tcgcsv": {
+   "group": 24831,
+   "number": "138/103",
+   "include": "rayquaza"
+  },
+  "kind": "sv-card"
+ },
+ "h-jp-venusaur": {
+  "tcgplayer": 576066,
+  "kind": "slab-card"
+ },
+ "h-bday-pikachu": {
+  "tcgplayer": 250325,
+  "kind": "slab-card"
+ },
+ "bs-maintenance": {
+  "tcgdexBase": "Maintenance",
+  "kind": "base-set-card"
+ },
+ "bs-energy-water": {
+  "tcgdexBase": "Water Energy",
+  "kind": "base-set-card"
+ },
+ "bs-dce": {
+  "tcgdexBase": "Double Colorless Energy",
+  "kind": "base-set-card"
+ },
+ "bs-professoroak": {
+  "tcgdexBase": "Professor Oak",
+  "kind": "base-set-card"
+ },
+ "bs-revive": {
+  "tcgdexBase": "Revive",
+  "kind": "base-set-card"
+ },
+ "bs-pokemonflute": {
+  "tcgdexBase": "Poké Flute",
+  "kind": "base-set-card"
+ },
+ "bs-defender": {
+  "tcgdexBase": "Defender",
+  "kind": "base-set-card"
+ },
+ "bs-pokedex": {
+  "tcgdexBase": "Pokédex",
+  "kind": "base-set-card"
+ },
+ "bs-energyremoval": {
+  "tcgdexBase": "Energy Removal",
+  "kind": "base-set-card"
+ },
+ "bs-energy-psychic": {
+  "tcgdexBase": "Psychic Energy",
+  "kind": "base-set-card"
+ },
+ "bs-energy-fire": {
+  "tcgdexBase": "Fire Energy",
+  "kind": "base-set-card"
+ },
+ "bs-gustofwind": {
+  "tcgdexBase": "Gust of Wind",
+  "kind": "base-set-card"
+ },
+ "bs-potion": {
+  "tcgdexBase": "Potion",
+  "kind": "base-set-card"
+ },
+ "bs-superpotion": {
+  "tcgdexBase": "Super Potion",
+  "kind": "base-set-card"
+ },
+ "bs-fullheal": {
+  "tcgdexBase": "Full Heal",
+  "kind": "base-set-card"
+ },
+ "bs-pluspower": {
+  "tcgdexBase": "PlusPower",
+  "kind": "base-set-card"
+ },
+ "bs-energy-lightning": {
+  "tcgdexBase": "Lightning Energy",
+  "kind": "base-set-card"
+ },
+ "bs-switch": {
+  "tcgdexBase": "Switch",
+  "kind": "base-set-card"
+ },
+ "bs-pokemoncenter": {
+  "tcgdexBase": "Pokémon Center",
+  "kind": "base-set-card"
+ },
+ "bs-energy-fighting": {
+  "tcgdexBase": "Fighting Energy",
+  "kind": "base-set-card"
+ },
+ "bs-energy-grass": {
+  "tcgdexBase": "Grass Energy",
+  "kind": "base-set-card"
+ },
+ "bs-energyretrieval": {
+  "tcgdexBase": "Energy Retrieval",
+  "kind": "base-set-card"
+ },
+ "bs-bill": {
+  "tcgdexBase": "Bill",
+  "kind": "base-set-card"
+ },
+ "bk-rayquaza": {
+  "booklet": true,
+  "kind": "booklet"
+ },
+ "bk-omastar": {
+  "booklet": true,
+  "kind": "booklet"
+ },
+ "bk-machamp": {
+  "booklet": true,
+  "kind": "booklet"
+ },
+ "bk-ralts": {
+  "booklet": true,
+  "kind": "booklet"
+ },
+ "bk-mudkip": {
+  "booklet": true,
+  "kind": "booklet"
+ },
+ "bk-exploud": {
+  "booklet": true,
+  "kind": "booklet"
+ },
+ "bk-golem": {
+  "booklet": true,
+  "kind": "booklet"
+ },
+ "bk-torchic": {
+  "booklet": true,
+  "kind": "booklet"
+ },
+ "bk-treecko": {
+  "booklet": true,
+  "kind": "booklet"
+ },
+ "bk-lugia": {
+  "booklet": true,
+  "kind": "booklet"
+ },
+ "bk-hooh": {
+  "booklet": true,
+  "kind": "booklet"
+ },
+ "h-gengar-deck": {
+  "booklet": true,
+  "kind": "booklet"
+ }
+}
