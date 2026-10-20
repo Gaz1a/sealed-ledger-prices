@@ -1,0 +1,73 @@
+{
+ "idsChecked": 961,
+ "missing": [
+  {
+   "id": "bk-exploud",
+   "reason": "openlibrary: no cover"
+  },
+  {
+   "id": "bk-golem",
+   "reason": "openlibrary: no cover"
+  },
+  {
+   "id": "bk-hooh",
+   "reason": "openlibrary: no cover"
+  },
+  {
+   "id": "bk-lugia",
+   "reason": "openlibrary: no cover"
+  },
+  {
+   "id": "bk-machamp",
+   "reason": "openlibrary: no cover"
+  },
+  {
+   "id": "bk-mudkip",
+   "reason": "openlibrary: no cover"
+  },
+  {
+   "id": "bk-omastar",
+   "reason": "openlibrary: no cover"
+  },
+  {
+   "id": "bk-ralts",
+   "reason": "openlibrary: no cover"
+  },
+  {
+   "id": "bk-rayquaza",
+   "reason": "openlibrary: no cover"
+  },
+  {
+   "id": "bk-torchic",
+   "reason": "openlibrary: no cover"
+  },
+  {
+   "id": "bk-treecko",
+   "reason": "openlibrary: no cover"
+  },
+  {
+   "id": "bs-pokemonflute",
+   "reason": "base1 has no card named Pok\u00e9 Flute"
+  },
+  {
+   "id": "dr-box",
+   "reason": "2 candidates in group 24831 (need exactly 1)"
+  },
+  {
+   "id": "h-gengar-deck",
+   "reason": "openlibrary: no cover"
+  },
+  {
+   "id": "kg-608257",
+   "reason": "no source configured in ledger_image_map.json"
+  },
+  {
+   "id": "kg-608258",
+   "reason": "no source configured in ledger_image_map.json"
+  },
+  {
+   "id": "s-rayq-sir",
+   "reason": "0 candidates in group 24831 (need exactly 1)"
+  }
+ ]
+}
