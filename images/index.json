@@ -5978,16 +5978,22 @@
   "tcgProductId": 608178
  },
  "kg-608257": {
-  "file": null,
+  "file": "images/kg-608257.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null
+  "matched": true,
+  "source": "manual-url",
+  "kind": "slab-card",
+  "sourceUrl": "https://storage.googleapis.com/images.pricecharting.com/d38d3228f6c50ea8fb873731ca57ab6958ae0c9878d5d020b3b27f61b0411e7a/1600.jpg",
+  "manual": true
  },
  "kg-608258": {
-  "file": null,
+  "file": "images/kg-608258.webp",
   "tcgdexId": null,
-  "matched": false,
-  "source": null
+  "matched": true,
+  "source": "manual-url",
+  "kind": "slab-card",
+  "sourceUrl": "https://storage.googleapis.com/images.pricecharting.com/8de590344e1afc663ebf475af11dd7f7975d95323384ed5b1be0c8ae0aa772f3/1600.jpg",
+  "manual": true
  },
  "kg-608959": {
   "file": "images/kg-608959.webp",
@@ -8842,5 +8848,25 @@
   "source": "tcgplayer",
   "kind": "sealed",
   "tcgProductId": 712094
+ },
+ "bk-machamp": {
+  "file": "images/bk-machamp.webp",
+  "tcgdexId": null,
+  "matched": true,
+  "source": "manual-url",
+  "kind": "booklet",
+  "sourceUrl": "https://i.ebayimg.com/images/g/Mx0AAeSwMP9qy~LI/s-l1600.webp",
+  "manual": true
+ },
+ "s-rayq-sir": {
+  "file": "images/s-rayq-sir.webp",
+  "tcgdexId": null,
+  "matched": true,
+  "source": "manual-url",
+  "kind": "sv-card",
+  "sourceUrl": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpc/M6/M6_110_R_JP.png",
+  "manual": true,
+  "label": "Japanese edition image",
+  "provisional": true
  }
 }
