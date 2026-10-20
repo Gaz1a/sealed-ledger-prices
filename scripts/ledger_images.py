@@ -46,8 +46,27 @@ def ebay_img(item_id):
     except Exception: return None
 isbns = ld("devir_retail_urls.json", {}).get("isbn", {})
 lst = ld("booklet_listings.json", {"listings": {}})["listings"]
+def dl(url):
+    raw = get(url, raw=True, tries=2)
+    if raw: return raw
+    import urllib.request, urllib.parse as up      # hosts that need a Referer (Bulbagarden archives)
+    try:
+        host = up.urlsplit(url); ref = f"{host.scheme}://{host.netloc.replace('archives.', 'bulbapedia.')}/"
+        return urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "Referer": ref}), timeout=40).read()
+    except Exception: return None
+def from_urls(i, urls, kind, label=None, provisional=False):
+    why = "no url"
+    for u in urls:
+        raw = dl(u)
+        if not raw: why = f"download failed ({up_host(u)})"; continue
+        d, why = card_or_box(raw, kind)
+        if d:
+            put(i, d, source="manual-url", kind=kind, sourceUrl=u, manual=True, **({"label": label, "provisional": True} if provisional else {})); return True
+    reasons[i] = why; return False
+def up_host(u): return re.sub(r"^https?://([^/]+).*", r"\1", u)
 def fill(i, s):
     kind = s.get("kind") or "sealed"
+    if s.get("urls") and from_urls(i, s["urls"], kind): return True
     if "alias" in s:
         a = s["alias"]
         if have(a): shutil.copyfile(os.path.join(IMG, a + ".webp"), os.path.join(IMG, i + ".webp")); idx[i] = {**idx[a], "file": f"images/{i}.webp", "source": "alias:" + a}; return True
@@ -67,7 +86,7 @@ def fill(i, s):
         put(i, d, tcgdexId=c["id"], source="tcgdex", kind=kind); return True
     if "tcgcsv" in s:
         q = s["tcgcsv"]; ps = (get(f"https://tcgcsv.com/tcgplayer/3/{q['group']}/products") or {}).get("results") or []
-        if not ps: reasons[i] = f"group {q['group']} not listed on tcgcsv yet"; return False
+        if not ps: reasons[i] = f"group {q['group']} not listed on tcgcsv yet"; return fb(i, s, kind)
         hit = []
         for p in ps:
             n = p["name"].lower(); num = next((e.get("value") for e in p.get("extendedData", []) if e.get("name") == "Number"), "") or ""
@@ -75,7 +94,7 @@ def fill(i, s):
             if q.get("include") and q["include"] not in n: continue
             if any(x in n for x in q.get("exclude", [])): continue
             hit.append(p)
-        if len(hit) != 1: reasons[i] = f"{len(hit)} candidates in group {q['group']} (need exactly 1): " + "; ".join(f"{h['productId']} {h['name']}" for h in hit[:6]); return False
+        if len(hit) != 1: reasons[i] = f"{len(hit)} candidates in group {q['group']} (need exactly 1): " + "; ".join(f"{h['productId']} {h['name']}" for h in hit[:6]); return fb(i, s, kind)
         pid = hit[0]["productId"]; raw = get(f"https://product-images.tcgplayer.com/fit-in/437x437/{pid}.jpg", raw=True, tries=2)
         d, why = card_or_box(raw, kind) if raw else (None, "no image")
         if not d: reasons[i] = f"tcgplayer {pid}: {why}"; return False
@@ -100,13 +119,16 @@ def fill(i, s):
         reasons[i] = "; ".join(tried) or ("no sealed listing photo available yet" if tok else "no cover found; no eBay credentials in this run")
         return False
     reasons[i] = "no source configured in ledger_image_map.json"; return False
+def fb(i, s, kind):
+    if s.get("fallbackUrls"): return from_urls(i, s["fallbackUrls"], kind, s.get("fallbackLabel"), provisional=True)
+    return False
 for i in sorted(ids):
-    if have(i): continue
+    if have(i) and not idx[i].get("provisional"): continue
     if i in spec:
         try: fill(i, spec[i])
         except Exception as e: reasons[i] = f"error {type(e).__name__}"
 json.dump(idx, open(os.path.join(IMG, "index.json"), "w"), indent=1, ensure_ascii=False)
-missing = sorted(i for i in ids if not have(i))
+missing = sorted(i for i in ids if not have(i) or idx[i].get("provisional"))
 for i in missing: reasons.setdefault(i, "no source configured in ledger_image_map.json" if i not in spec else "unresolved")
 rep = {"idsChecked": len(ids), "missing": [{"id": i, "reason": reasons[i]} for i in missing]}
 json.dump(rep, open(os.path.join(IMG, "missing_report.json"), "w"), indent=1)

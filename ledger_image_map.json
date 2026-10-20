@@ -38,7 +38,11 @@
    "number": "138/103",
    "include": "rayquaza"
   },
-  "kind": "sv-card"
+  "kind": "sv-card",
+  "fallbackUrls": [
+   "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpc/M6/M6_110_R_JP.png"
+  ],
+  "fallbackLabel": "Japanese edition image"
  },
  "h-jp-venusaur": {
   "tcgplayer": 576066,
@@ -142,50 +146,98 @@
  },
  "bk-rayquaza": {
   "booklet": true,
-  "kind": "booklet"
+  "kind": "booklet",
+  "urls": [
+   "https://archives.bulbagarden.net/media/upload/8/81/Rayquaza_Illustrated_Booklet_BR.png"
+  ]
  },
  "bk-omastar": {
   "booklet": true,
-  "kind": "booklet"
+  "kind": "booklet",
+  "urls": [
+   "https://archives.bulbagarden.net/media/upload/5/55/Omastar_Illustrated_Booklet_BR.png"
+  ]
  },
  "bk-machamp": {
   "booklet": true,
-  "kind": "booklet"
+  "kind": "booklet",
+  "urls": [
+   "https://i.ebayimg.com/images/g/Mx0AAeSwMP9qy~LI/s-l1600.webp"
+  ]
  },
  "bk-ralts": {
   "booklet": true,
-  "kind": "booklet"
+  "kind": "booklet",
+  "urls": [
+   "https://archives.bulbagarden.net/media/upload/e/e3/Ralts_Illustrated_Booklet_BR.png"
+  ]
  },
  "bk-mudkip": {
   "booklet": true,
-  "kind": "booklet"
+  "kind": "booklet",
+  "urls": [
+   "https://archives.bulbagarden.net/media/upload/b/b1/Mudkip_Illustrated_Booklet_BR.jpg"
+  ]
  },
  "bk-exploud": {
   "booklet": true,
-  "kind": "booklet"
+  "kind": "booklet",
+  "urls": [
+   "https://archives.bulbagarden.net/media/upload/f/fc/Exploud_Illustrated_Booklet_BR.jpg"
+  ]
  },
  "bk-golem": {
   "booklet": true,
-  "kind": "booklet"
+  "kind": "booklet",
+  "urls": [
+   "https://archives.bulbagarden.net/media/upload/4/4f/Golem_Illustrated_Booklet_BR.png"
+  ]
  },
  "bk-torchic": {
   "booklet": true,
-  "kind": "booklet"
+  "kind": "booklet",
+  "urls": [
+   "https://archives.bulbagarden.net/media/upload/e/ec/Torchic_Illustrated_Booklet_BR.jpg"
+  ]
  },
  "bk-treecko": {
   "booklet": true,
-  "kind": "booklet"
+  "kind": "booklet",
+  "urls": [
+   "https://archives.bulbagarden.net/media/upload/3/3e/Treecko_Illustrated_Booklet_BR.png"
+  ]
  },
  "bk-lugia": {
   "booklet": true,
-  "kind": "booklet"
+  "kind": "booklet",
+  "urls": [
+   "https://archives.bulbagarden.net/media/upload/7/72/Lugia_Illustrated_Booklet_BR.png"
+  ]
  },
  "bk-hooh": {
   "booklet": true,
-  "kind": "booklet"
+  "kind": "booklet",
+  "urls": [
+   "https://archives.bulbagarden.net/media/upload/a/a3/Ho-Oh_Illustrated_Booklet_BR.jpg"
+  ]
  },
  "h-gengar-deck": {
   "booklet": true,
-  "kind": "booklet"
+  "kind": "booklet",
+  "urls": [
+   "https://archives.bulbagarden.net/media/upload/4/4c/Gengar_Illustrated_Booklet_BR.jpg"
+  ]
+ },
+ "kg-608257": {
+  "urls": [
+   "https://storage.googleapis.com/images.pricecharting.com/d38d3228f6c50ea8fb873731ca57ab6958ae0c9878d5d020b3b27f61b0411e7a/1600.jpg"
+  ],
+  "kind": "slab-card"
+ },
+ "kg-608258": {
+  "urls": [
+   "https://storage.googleapis.com/images.pricecharting.com/8de590344e1afc663ebf475af11dd7f7975d95323384ed5b1be0c8ae0aa772f3/1600.jpg"
+  ],
+  "kind": "slab-card"
  }
 }
