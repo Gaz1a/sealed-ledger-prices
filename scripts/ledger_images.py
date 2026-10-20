@@ -75,7 +75,7 @@ def fill(i, s):
             if q.get("include") and q["include"] not in n: continue
             if any(x in n for x in q.get("exclude", [])): continue
             hit.append(p)
-        if len(hit) != 1: reasons[i] = f"{len(hit)} candidates in group {q['group']} (need exactly 1)"; return False
+        if len(hit) != 1: reasons[i] = f"{len(hit)} candidates in group {q['group']} (need exactly 1): " + "; ".join(f"{h['productId']} {h['name']}" for h in hit[:6]); return False
         pid = hit[0]["productId"]; raw = get(f"https://product-images.tcgplayer.com/fit-in/437x437/{pid}.jpg", raw=True, tries=2)
         d, why = card_or_box(raw, kind) if raw else (None, "no image")
         if not d: reasons[i] = f"tcgplayer {pid}: {why}"; return False
@@ -93,7 +93,7 @@ def fill(i, s):
         for iid, l in sorted(((k, v) for k, v in lst.items() if v["row"] == i), key=lambda kv: (not kv[1].get("sealed"), kv[1].get("lastSeen") or ""), reverse=False):
             if not l.get("sealed"): continue
             u = ebay_img(iid)
-            if not u: continue
+            if not u: tried.append(f"ebay {iid}: getItem returned no image (quota/ended)"); continue
             raw = get(u, raw=True, tries=2); d, why = pi.to_webp(raw) if raw else (None, "download failed")
             if d: put(i, d, source="ebay-listing", kind="booklet", sourceUrl=l.get("url")); return True
             tried.append(f"ebay {iid}: {why}")
