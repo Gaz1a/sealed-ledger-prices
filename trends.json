@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14",
+ "generated": "2026-10-21",
  "label": "HYPE SIGNAL ONLY - not a price source. Do not use for valuations.",
  "terms": [
   "Umbreon ex pokemon card",
@@ -15,12 +15,12 @@
   "Mega Charizard X ex pokemon card",
   "Victini pokemon card",
   "Zekrom ex pokemon card",
+  "Magikarp pokemon card",
   "Paradise Resort pokemon card",
   "Snorlax pokemon card",
   "Reshiram ex pokemon card",
-  "Mega Dragonite ex pokemon card",
   "Sylveon ex pokemon card",
-  "Magikarp pokemon card",
+  "Mega Dragonite ex pokemon card",
   "Ditto pokemon card",
   "Ascended Heroes pokemon",
   "Chaos Rising pokemon",
@@ -29,358 +29,238 @@
   "Prismatic Evolutions pokemon"
  ],
  "sourceStatus": {
-  "googleTrends": "ok",
+  "googleTrends": "TooManyRequestsError",
   "youtube": "ok",
   "reddit": "parked: Reddit API access denied; set REDDIT_CLIENT_ID/SECRET in the workflow env to re-enable"
  },
  "items": {
   "Umbreon ex pokemon card": {
-   "googleTrends": {
-    "latest": 1.9,
-    "last4wAvg": 3.1,
-    "prior4wAvg": 3.2,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 4196,
-    "views14d": 450157
+    "apiEstimateTotal": 8298,
+    "views14d": 706424
    },
    "reddit14d": null
   },
   "Pikachu with Grey Felt Hat pokemon card": {
-   "googleTrends": {
-    "latest": 0.0,
-    "last4wAvg": 0.0,
-    "prior4wAvg": 0.0,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
-    "videos14d": 10,
-    "apiEstimateTotal": 10,
-    "views14d": 36216
+    "videos14d": 32,
+    "apiEstimateTotal": 36,
+    "views14d": 865661
    },
    "reddit14d": null
   },
   "Charizard pokemon card": {
-   "googleTrends": {
-    "latest": 41.5,
-    "last4wAvg": 40.5,
-    "prior4wAvg": 39.8,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 129857,
-    "views14d": 10725885
+    "apiEstimateTotal": 140711,
+    "views14d": 3969795
    },
    "reddit14d": null
   },
   "Chimecho pokemon card": {
-   "googleTrends": {
-    "latest": 0.0,
-    "last4wAvg": 0.0,
-    "prior4wAvg": 0.0,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
-    "videos14d": 7,
-    "apiEstimateTotal": 7,
-    "views14d": 5712
+    "videos14d": 3,
+    "apiEstimateTotal": 3,
+    "views14d": 2448
    },
    "reddit14d": null
   },
   "Mew ex pokemon card": {
-   "googleTrends": {
-    "latest": 7.5,
-    "last4wAvg": 7.0,
-    "prior4wAvg": 6.8,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 30386,
-    "views14d": 361311
+    "apiEstimateTotal": 55314,
+    "views14d": 1102609
    },
    "reddit14d": null
   },
   "Pikachu ex pokemon card": {
-   "googleTrends": {
-    "latest": 9.4,
-    "last4wAvg": 8.4,
-    "prior4wAvg": 7.8,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 67145,
-    "views14d": 103604
+    "apiEstimateTotal": 77218,
+    "views14d": 226330
    },
    "reddit14d": null
   },
   "Mega Gengar ex pokemon card": {
-   "googleTrends": {
-    "latest": 0.0,
-    "last4wAvg": 1.7,
-    "prior4wAvg": 1.6,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 4473,
-    "views14d": 256795
+    "apiEstimateTotal": 9439,
+    "views14d": 233234
    },
    "reddit14d": null
   },
   "Rayquaza ex pokemon card": {
-   "googleTrends": {
-    "latest": 3.8,
-    "last4wAvg": 3.6,
-    "prior4wAvg": 3.2,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 6648,
-    "views14d": 235612
+    "apiEstimateTotal": 10358,
+    "views14d": 142481
    },
    "reddit14d": null
   },
   "Gyarados pokemon card": {
-   "googleTrends": {
-    "latest": 3.8,
-    "last4wAvg": 3.6,
-    "prior4wAvg": 3.2,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 4034,
-    "views14d": 670473
+    "apiEstimateTotal": 4500,
+    "views14d": 331466
    },
    "reddit14d": null
   },
   "Celebratory Fanfare pokemon card": {
-   "googleTrends": {
-    "latest": 0.0,
-    "last4wAvg": 0.0,
-    "prior4wAvg": 0.0,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 2,
     "apiEstimateTotal": 2,
-    "views14d": 16029
+    "views14d": 300
    },
    "reddit14d": null
   },
   "Mega Charizard X ex pokemon card": {
-   "googleTrends": {
-    "latest": 0.0,
-    "last4wAvg": 0.8,
-    "prior4wAvg": 1.6,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 5729,
-    "views14d": 377519
+    "apiEstimateTotal": 4392,
+    "views14d": 140680
    },
    "reddit14d": null
   },
   "Victini pokemon card": {
-   "googleTrends": {
-    "latest": 0.0,
-    "last4wAvg": 1.3,
-    "prior4wAvg": 1.6,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 161,
-    "views14d": 1860231
+    "apiEstimateTotal": 337,
+    "views14d": 1308168
    },
    "reddit14d": null
   },
   "Zekrom ex pokemon card": {
-   "googleTrends": {
-    "latest": 1.9,
-    "last4wAvg": 1.3,
-    "prior4wAvg": 1.6,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 129,
-    "views14d": 81778
-   },
-   "reddit14d": null
-  },
-  "Paradise Resort pokemon card": {
-   "googleTrends": {
-    "latest": 0.0,
-    "last4wAvg": 0.0,
-    "prior4wAvg": 0.0,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
-   "youtube14d": {
-    "videos14d": 14,
-    "apiEstimateTotal": 14,
-    "views14d": 181157
-   },
-   "reddit14d": null
-  },
-  "Snorlax pokemon card": {
-   "googleTrends": {
-    "latest": 7.5,
-    "last4wAvg": 6.6,
-    "prior4wAvg": 5.2,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
-   "youtube14d": {
-    "videos14d": 50,
-    "apiEstimateTotal": 18913,
-    "views14d": 3256906
-   },
-   "reddit14d": null
-  },
-  "Reshiram ex pokemon card": {
-   "googleTrends": {
-    "latest": 3.8,
-    "last4wAvg": 1.4,
-    "prior4wAvg": 1.2,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
-   "youtube14d": {
-    "videos14d": 50,
-    "apiEstimateTotal": 91,
-    "views14d": 1711345
-   },
-   "reddit14d": null
-  },
-  "Mega Dragonite ex pokemon card": {
-   "googleTrends": {
-    "latest": 0.0,
-    "last4wAvg": 0.5,
-    "prior4wAvg": 1.2,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
-   "youtube14d": {
-    "videos14d": 50,
-    "apiEstimateTotal": 694,
-    "views14d": 298815
-   },
-   "reddit14d": null
-  },
-  "Sylveon ex pokemon card": {
-   "googleTrends": {
-    "latest": 3.8,
-    "last4wAvg": 3.1,
-    "prior4wAvg": 1.9,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
-   "youtube14d": {
-    "videos14d": 50,
-    "apiEstimateTotal": 17083,
-    "views14d": 37498
+    "apiEstimateTotal": 119,
+    "views14d": 220221
    },
    "reddit14d": null
   },
   "Magikarp pokemon card": {
-   "googleTrends": {
-    "latest": 3.8,
-    "last4wAvg": 3.5,
-    "prior4wAvg": 3.2,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 5497,
-    "views14d": 284251
+    "apiEstimateTotal": 6820,
+    "views14d": 712929
+   },
+   "reddit14d": null
+  },
+  "Paradise Resort pokemon card": {
+   "googleTrends": null,
+   "youtube14d": {
+    "videos14d": 5,
+    "apiEstimateTotal": 5,
+    "views14d": 54009
+   },
+   "reddit14d": null
+  },
+  "Snorlax pokemon card": {
+   "googleTrends": null,
+   "youtube14d": {
+    "videos14d": 50,
+    "apiEstimateTotal": 9118,
+    "views14d": 411312
+   },
+   "reddit14d": null
+  },
+  "Reshiram ex pokemon card": {
+   "googleTrends": null,
+   "youtube14d": {
+    "videos14d": 50,
+    "apiEstimateTotal": 79,
+    "views14d": 287683
+   },
+   "reddit14d": null
+  },
+  "Sylveon ex pokemon card": {
+   "googleTrends": null,
+   "youtube14d": {
+    "videos14d": 50,
+    "apiEstimateTotal": 15331,
+    "views14d": 72535
+   },
+   "reddit14d": null
+  },
+  "Mega Dragonite ex pokemon card": {
+   "googleTrends": null,
+   "youtube14d": {
+    "videos14d": 50,
+    "apiEstimateTotal": 929,
+    "views14d": 478018
    },
    "reddit14d": null
   },
   "Ditto pokemon card": {
-   "googleTrends": {
-    "latest": 7.5,
-    "last4wAvg": 6.2,
-    "prior4wAvg": 6.0,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 1057,
-    "views14d": 152585
+    "apiEstimateTotal": 1871,
+    "views14d": 508176
    },
    "reddit14d": null
   },
   "Ascended Heroes pokemon": {
-   "googleTrends": {
-    "latest": 57.1,
-    "last4wAvg": 52.1,
-    "prior4wAvg": 52.0,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 54839,
-    "views14d": 1859896
+    "apiEstimateTotal": 61621,
+    "views14d": 4617621
    },
    "reddit14d": null
   },
   "Chaos Rising pokemon": {
-   "googleTrends": {
-    "latest": 28.6,
-    "last4wAvg": 38.4,
-    "prior4wAvg": 37.2,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 53204,
-    "views14d": 262453
+    "apiEstimateTotal": 53856,
+    "views14d": 379903
    },
    "reddit14d": null
   },
   "Perfect Order pokemon": {
-   "googleTrends": {
-    "latest": 28.6,
-    "last4wAvg": 28.9,
-    "prior4wAvg": 25.6,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 46980,
-    "views14d": 56275
+    "apiEstimateTotal": 51988,
+    "views14d": 71365
    },
    "reddit14d": null
   },
   "Pitch Black pokemon": {
-   "googleTrends": {
-    "latest": 71.4,
-    "last4wAvg": 73.9,
-    "prior4wAvg": 90.0,
-    "relativeToAnchor": "indexed to 'Charizard card' = 100"
-   },
+   "googleTrends": null,
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 67357,
-    "views14d": 1142691
+    "apiEstimateTotal": 64680,
+    "views14d": 369501
    },
    "reddit14d": null
   },
   "Prismatic Evolutions pokemon": {
    "googleTrends": {
-    "latest": 22.2,
-    "last4wAvg": 20.0,
-    "prior4wAvg": 58.1,
+    "latest": 16.7,
+    "last4wAvg": 18.0,
+    "prior4wAvg": 22.6,
     "relativeToAnchor": "indexed to 'Charizard card' = 100"
    },
    "youtube14d": {
     "videos14d": 50,
-    "apiEstimateTotal": 47939,
-    "views14d": 1196932
+    "apiEstimateTotal": 55450,
+    "views14d": 942235
    },
    "reddit14d": null
   }
