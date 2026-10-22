@@ -1650,6 +1650,14 @@
    "lines": 361,
    "gaps": 0,
    "partial": false
+  },
+  {
+   "date": "2026-10-22",
+   "total": 1769.45,
+   "linesPriced": 361,
+   "lines": 361,
+   "gaps": 0,
+   "partial": false
   }
  ],
  "note": "one row per day; partial=true means some lines had no price that day (excluded from total, never zero-filled). Backfill rows (source=ppt-backfill) come from PokemonPriceTracker NM history and stay partial until every card is fetched."
