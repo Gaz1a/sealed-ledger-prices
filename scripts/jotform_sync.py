@@ -59,14 +59,24 @@ def latest_payload():
                     p["date"] = (sd[0].strip() if sd else (s.get("created_at") or "")[:10]) or None
                 found.append((str(p.get("date") or ""), s.get("created_at") or "", p))
     print(f"{len(subs)} submissions, {len(found)} valid payloads")
+    global SEEN
+    SEEN = [{"created": s.get("created_at"), "answers": [
+        {"type": a.get("type"), "len": len(a["answer"]) if isinstance(a.get("answer"), str) else None,
+         "head": a["answer"][:60] if isinstance(a.get("answer"), str) else str(type(a.get("answer")).__name__),
+         "tail": a["answer"][-40:] if isinstance(a.get("answer"), str) else None}
+        for a in (s.get("answers") or {}).values() if a.get("answer") not in (None, "")]} for s in subs[:6]]
     if not found:
         return None, None
     found.sort(key=lambda t: (t[0], t[1]), reverse=True)
     return found[0][2], found[0][1]
 
 
+SEEN = []
+
+
 def status(**kw):
     """sync_status.json: what the last run did (Actions logs are not readable from the ledger tasks)."""
+    kw["seen"] = SEEN
     kw["ran"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
     json.dump(kw, open(os.path.join(ROOT, "sync_status.json"), "w"), indent=1)
 
