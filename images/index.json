@@ -8853,10 +8853,11 @@
   "file": "images/bk-machamp.webp",
   "tcgdexId": null,
   "matched": true,
-  "source": "manual-url",
+  "source": "manual-upload",
   "kind": "booklet",
-  "sourceUrl": "https://i.ebayimg.com/images/g/Mx0AAeSwMP9qy~LI/s-l1600.webp",
-  "manual": true
+  "manual": true,
+  "sourceUrl": "https://product-images.s3.cardmarket.com/1015/695811/695811.png",
+  "cardmarketId": 695811
  },
  "s-rayq-sir": {
   "file": "images/s-rayq-sir.webp",
@@ -8875,7 +8876,9 @@
   "matched": true,
   "source": "manual-upload",
   "kind": "booklet",
-  "manual": true
+  "manual": true,
+  "sourceUrl": "https://product-images.s3.cardmarket.com/1015/906369/906369.jpg",
+  "cardmarketId": 906369
  },
  "bk-golem": {
   "file": "images/bk-golem.webp",
@@ -8883,7 +8886,9 @@
   "matched": true,
   "source": "manual-upload",
   "kind": "booklet",
-  "manual": true
+  "manual": true,
+  "sourceUrl": "https://product-images.s3.cardmarket.com/1015/695810/695810.png",
+  "cardmarketId": 695810
  },
  "bk-hooh": {
   "file": "images/bk-hooh.webp",
@@ -8891,7 +8896,9 @@
   "matched": true,
   "source": "manual-upload",
   "kind": "booklet",
-  "manual": true
+  "manual": true,
+  "sourceUrl": "https://product-images.s3.cardmarket.com/1015/755664/755664.png",
+  "cardmarketId": 755664
  },
  "bk-lugia": {
   "file": "images/bk-lugia.webp",
@@ -8899,7 +8906,9 @@
   "matched": true,
   "source": "manual-upload",
   "kind": "booklet",
-  "manual": true
+  "manual": true,
+  "sourceUrl": "https://product-images.s3.cardmarket.com/1015/698569/698569.png",
+  "cardmarketId": 698569
  },
  "bk-mudkip": {
   "file": "images/bk-mudkip.webp",
@@ -8907,7 +8916,9 @@
   "matched": true,
   "source": "manual-upload",
   "kind": "booklet",
-  "manual": true
+  "manual": true,
+  "sourceUrl": "https://product-images.s3.cardmarket.com/1015/906378/906378.jpg",
+  "cardmarketId": 906378
  },
  "bk-omastar": {
   "file": "images/bk-omastar.webp",
@@ -8915,7 +8926,9 @@
   "matched": true,
   "source": "manual-upload",
   "kind": "booklet",
-  "manual": true
+  "manual": true,
+  "sourceUrl": "https://product-images.s3.cardmarket.com/1015/698568/698568.png",
+  "cardmarketId": 698568
  },
  "bk-ralts": {
   "file": "images/bk-ralts.webp",
@@ -8923,7 +8936,9 @@
   "matched": true,
   "source": "manual-upload",
   "kind": "booklet",
-  "manual": true
+  "manual": true,
+  "sourceUrl": "https://product-images.s3.cardmarket.com/1015/755666/755666.png",
+  "cardmarketId": 755666
  },
  "bk-rayquaza": {
   "file": "images/bk-rayquaza.webp",
@@ -8931,7 +8946,9 @@
   "matched": true,
   "source": "manual-upload",
   "kind": "booklet",
-  "manual": true
+  "manual": true,
+  "sourceUrl": "https://product-images.s3.cardmarket.com/1015/906388/906388.jpg",
+  "cardmarketId": 906388
  },
  "bk-torchic": {
   "file": "images/bk-torchic.webp",
@@ -8939,7 +8956,9 @@
   "matched": true,
   "source": "manual-upload",
   "kind": "booklet",
-  "manual": true
+  "manual": true,
+  "sourceUrl": "https://product-images.s3.cardmarket.com/1015/906395/906395.jpg",
+  "cardmarketId": 906395
  },
  "bk-treecko": {
   "file": "images/bk-treecko.webp",
@@ -8947,7 +8966,9 @@
   "matched": true,
   "source": "manual-upload",
   "kind": "booklet",
-  "manual": true
+  "manual": true,
+  "sourceUrl": "https://product-images.s3.cardmarket.com/1015/755665/755665.png",
+  "cardmarketId": 755665
  },
  "h-gengar-deck": {
   "file": "images/h-gengar-deck.webp",
@@ -8955,6 +8976,8 @@
   "matched": true,
   "source": "manual-upload",
   "kind": "booklet",
-  "manual": true
+  "manual": true,
+  "sourceUrl": "https://product-images.s3.cardmarket.com/1015/695809/695809.png",
+  "cardmarketId": 695809
  }
 }
