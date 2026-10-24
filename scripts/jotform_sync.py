@@ -1,146 +1,155 @@
 #!/usr/bin/env python3
 """Daily bridge from the Claude ledger tasks to this repo.
 
-Scheduled Claude tasks cannot push to GitHub, so the Tracker posts a small JSON
-payload to a private Jotform form ("Ledger sync") once a day. This job reads the
-newest submission with a read-only Jotform API key and updates:
+Scheduled Claude tasks cannot push to GitHub, so the Tracker posts the CHANGES to
+the want list (and new rows for the price feed) to a private Jotform form
+("Ledger sync"). Long answers do not survive the Jotform connector, so each post
+is a small delta (under ~700 characters) and a big change is split into parts.
 
-  wants_auto.json  - every unowned ledger row (drives the daily eBay scans)
-  tracked.json     - NEW rows only (w-/rp- ids) so the daily price feed covers them
+Payload v3, one per submission:
+  {"v":3, "date":"YYYY-MM-DD", "batch":"YYYYMMDD-HHMM", "part":"i/k",
+   "base":"<md5[:8] of the sorted want ids the Tracker diffed against>",
+   "chk":"<md5[:8] of the sorted want ids after applying the whole batch>", "n": <want count>,
+   "add": {id: [cond 's'|'n', title, set, target]},   # new or changed wants
+   "del": [id, ...],                                  # no longer wanted
+   "tr":  {id: [productId, title, variant]}}          # new w-/rp- rows for tracked.json
 
-Payload (v2): {"v": 2, "date": "YYYY-MM-DD",
-               "wants": {id: [cond 's'|'n', title, set, target]},
-               "tracked": {id: {"productId": int, "title": str, "variant": str|null}}}
-
-Everything is validated; anything malformed is skipped, never written.
-Secrets: JOTFORM_API_KEY (read-only key is enough). Stdlib only."""
-import datetime, json, os, re, sys, urllib.request, urllib.parse
+This job takes the newest batch with every part present, checks that its base
+matches the repo, applies it, and writes the files only if the result matches chk.
+Every run writes sync_status.json (Actions logs are not readable by the tasks).
+Secrets: JOTFORM_API_KEY (read-only is enough). Stdlib only."""
+import datetime, hashlib, json, os, re, sys, urllib.request, urllib.parse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FORM_ID = os.environ.get("JOTFORM_FORM_ID", "262965110035047")
 KEY = os.environ.get("JOTFORM_API_KEY", "")
 API = os.environ.get("JOTFORM_API", "https://api.jotform.com")
-TODAY = datetime.date.today()
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9\-]{1,90}$")
 NEW_TRACKED_RE = re.compile(r"^(w|rp)-\d{3,8}$")
 
 
+def ids_hash(ids):
+    return hashlib.md5(",".join(sorted(ids)).encode()).hexdigest()[:8]
+
+
 def load(name, default):
-    p = os.path.join(ROOT, name)
     try:
-        return json.load(open(p))
+        return json.load(open(os.path.join(ROOT, name)))
     except Exception:
         return default
 
 
-def latest_payload():
-    # Do not trust the API's sort order: fetch a page and pick the newest valid payload ourselves.
-    q = urllib.parse.urlencode({"apiKey": KEY, "orderby": "created_at", "direction": "DESC", "limit": 100})
+def status(**kw):
+    kw["ran"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
+    json.dump(kw, open(os.path.join(ROOT, "sync_status.json"), "w"), indent=1)
+    print(json.dumps(kw))
+
+
+def payloads():
+    q = urllib.parse.urlencode({"apiKey": KEY, "limit": 200, "orderby": "created_at", "direction": "DESC"})
     with urllib.request.urlopen(f"{API}/form/{FORM_ID}/submissions?{q}", timeout=40) as r:
         subs = json.load(r).get("content") or []
-    found = []
+    out = []
     for s in subs:
         if s.get("status") == "DELETED":
             continue
         for a in (s.get("answers") or {}).values():
             ans = a.get("answer")
-            if not isinstance(ans, str) or not ans.lstrip().startswith("{"):
-                continue
-            try:
-                p = json.loads(ans)
-            except Exception:
-                continue
-            if isinstance(p, dict) and p.get("v") in (1, 2) and isinstance(p.get("wants"), dict) \
-                    and 20 <= len(p["wants"]) <= 3000:   # skip test posts and truncated payloads
-                if not re.match(r"^\d{4}-\d{2}-\d{2}", str(p.get("date") or "")):
-                    # fall back to the form's 'Sync date' field, then the submission date
-                    sd = [x.get("answer") for x in s["answers"].values()
-                          if isinstance(x.get("answer"), str) and re.match(r"^\d{4}-\d{2}-\d{2}$", x["answer"].strip())]
-                    p["date"] = (sd[0].strip() if sd else (s.get("created_at") or "")[:10]) or None
-                found.append((str(p.get("date") or ""), s.get("created_at") or "", p))
-    print(f"{len(subs)} submissions, {len(found)} valid payloads")
-    global SEEN
-    SEEN = [{"created": s.get("created_at"), "answers": [
-        {"type": a.get("type"), "len": len(a["answer"]) if isinstance(a.get("answer"), str) else None,
-         "head": a["answer"][:60] if isinstance(a.get("answer"), str) else str(type(a.get("answer")).__name__),
-         "tail": a["answer"][-40:] if isinstance(a.get("answer"), str) else None}
-        for a in (s.get("answers") or {}).values() if a.get("answer") not in (None, "")]} for s in subs[:6]]
-    if not found:
-        return None, None
-    found.sort(key=lambda t: (t[0], t[1]), reverse=True)
-    return found[0][2], found[0][1]
-
-
-SEEN = []
-
-
-def status(**kw):
-    """sync_status.json: what the last run did (Actions logs are not readable from the ledger tasks)."""
-    kw["seen"] = SEEN
-    kw["ran"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
-    json.dump(kw, open(os.path.join(ROOT, "sync_status.json"), "w"), indent=1)
+            if isinstance(ans, str) and ans.lstrip().startswith("{"):
+                try:
+                    p = json.loads(ans)
+                except Exception:
+                    continue
+                if isinstance(p, dict) and p.get("v") == 3 and re.match(r"^\d+/\d+$", str(p.get("part", ""))):
+                    out.append(p)
+    return out
 
 
 def main():
     if not KEY:
         sys.exit("JOTFORM_API_KEY not set")
-    p, created = latest_payload()
-    if not p:
-        status(ok=False, reason="no valid payload found")
-        sys.exit("no valid ledger-sync payload found")
+    batches = {}
+    for p in payloads():
+        batches.setdefault(str(p.get("batch")), []).append(p)
+    complete = []
+    for b, parts in batches.items():
+        k = int(parts[0]["part"].split("/")[1])
+        got = {int(p["part"].split("/")[0]): p for p in parts}
+        if k >= 1 and set(got) == set(range(1, k + 1)):
+            complete.append((b, [got[i] for i in range(1, k + 1)]))
+    if not complete:
+        status(ok=False, reason="no complete v3 batch found")
+        sys.exit(1)
+    complete.sort(key=lambda t: t[0], reverse=True)
+    batch, parts = complete[0]
+    head = parts[0]
     try:
-        age = (TODAY - datetime.date.fromisoformat(str(p.get("date"))[:10])).days
+        age = (datetime.date.today() - datetime.date.fromisoformat(str(head.get("date"))[:10])).days
     except Exception:
         age = 99
-    print(f"newest payload: date {p.get('date')}, submitted {created}, {len(p['wants'])} wants")
-    if age > 3:
-        print(f"newest payload is {age} days old; leaving files unchanged")
-        status(ok=False, reason=f"newest payload is {age} days old", payloadDate=p.get("date"), submittedAt=created)
-        return
 
+    wa = load("wants_auto.json", {})
+    old = wa.get("items", {})
     tracked = load("tracked.json", {})
-    old = load("wants_auto.json", {}).get("items", {})
-    items = {}
-    for k, v in p["wants"].items():
-        if not ID_RE.match(str(k)):
-            continue
-        if isinstance(v, str):            # v1: just the condition code
-            v = [v]
-        if not isinstance(v, list) or not v or v[0] not in ("s", "n"):
-            continue
-        title = (v[1] if len(v) > 1 and isinstance(v[1], str) else "") or (tracked.get(k) or {}).get("title") or (old.get(k) or {}).get("title") or k
-        item = {"title": title[:200], "cond": "sealed" if v[0] == "s" else "nm"}
-        if len(v) > 2 and isinstance(v[2], str) and v[2]:
-            item["set"] = v[2][:120]
-        if len(v) > 3 and isinstance(v[3], (int, float)) and 0 < v[3] < 100000:
-            item["target"] = round(float(v[3]), 2)
-        if k.startswith("jumbo-"):
-            item["kind"] = "jumbo"
-        items[k] = item
-    if not (20 <= len(items) <= 3000):
-        status(ok=False, reason=f"suspicious want count {len(items)}", payloadDate=p.get("date"))
-        sys.exit(f"suspicious want count {len(items)}; leaving files unchanged")
+    info = dict(batch=batch, parts=len(parts), payloadDate=head.get("date"), wants=len(old))
 
-    added_t = []
-    for k, t in (p.get("tracked") or {}).items():
-        if not NEW_TRACKED_RE.match(str(k)) or k in tracked or not isinstance(t, dict):
-            continue
-        pid = t.get("productId")
-        if not isinstance(pid, int) or not (1000 <= pid < 10_000_000):
-            continue
-        tracked[k] = {"productId": pid, "title": str(t.get("title") or k)[:200], "variant": t.get("variant") if isinstance(t.get("variant"), str) else None}
-        added_t.append(k)
+    if wa.get("batch") == batch:
+        status(ok=True, note="already applied", **info)
+        return
+    if age > 3:
+        status(ok=False, reason=f"newest complete batch is {age} days old", **info)
+        return
+    if head.get("base") != ids_hash(old):
+        status(ok=False, reason="base mismatch: batch was computed against a different want list", **info)
+        sys.exit(1)
 
-    added = sorted(set(items) - set(old))
-    removed = sorted(set(old) - set(items))
-    out = {"generated": TODAY.isoformat(), "payloadDate": p.get("date"), "submittedAt": created,
-           "source": "Pokémon TCG Ledger, posted daily by the Tracker task via the Ledger sync form",
-           "items": items}
-    json.dump(out, open(os.path.join(ROOT, "wants_auto.json"), "w"), indent=1, ensure_ascii=False)
+    items = {k: dict(v) for k, v in old.items()}
+    added, removed, changed, added_t = [], [], [], []
+    for p in parts:
+        for k in p.get("del") or []:
+            if k in items:
+                items.pop(k)
+                removed.append(k)
+        for k, v in (p.get("add") or {}).items():
+            if not ID_RE.match(str(k)) or not isinstance(v, list) or not v or v[0] not in ("s", "n"):
+                continue
+            prev = items.get(k, {})
+            title = v[1] if len(v) > 1 and isinstance(v[1], str) and v[1] else prev.get("title") or (tracked.get(k) or {}).get("title") or k
+            it = {"title": title[:200], "cond": "sealed" if v[0] == "s" else "nm"}
+            st = v[2] if len(v) > 2 and isinstance(v[2], str) and v[2] else prev.get("set")
+            if st:
+                it["set"] = st[:120]
+            if len(v) > 3 and isinstance(v[3], (int, float)) and 0 < v[3] < 100000:
+                it["target"] = round(float(v[3]), 2)
+            if k.startswith("jumbo-"):
+                it["kind"] = "jumbo"
+            for f in ("kind", "tcgProductId", "market", "status"):
+                if f in prev and f not in it:
+                    it[f] = prev[f]
+            (changed if k in items else added).append(k)
+            items[k] = it
+        for k, t in (p.get("tr") or {}).items():
+            if not NEW_TRACKED_RE.match(str(k)) or k in tracked or not isinstance(t, list) or not t:
+                continue
+            pid = t[0]
+            if not isinstance(pid, int) or not (1000 <= pid < 10_000_000):
+                continue
+            tracked[k] = {"productId": pid, "title": str(t[1] if len(t) > 1 else k)[:200],
+                          "variant": t[2] if len(t) > 2 and isinstance(t[2], str) else None}
+            added_t.append(k)
+
+    if ids_hash(items) != head.get("chk") or len(items) != head.get("n"):
+        status(ok=False, reason=f"checksum mismatch after applying ({len(items)} vs {head.get('n')}); files unchanged", **info)
+        sys.exit(1)
+
+    wa.update({"generated": datetime.date.today().isoformat(), "payloadDate": head.get("date"), "batch": batch,
+               "source": "Pokémon TCG Ledger, synced daily by the Tracker task via the Ledger sync form",
+               "items": items})
+    json.dump(wa, open(os.path.join(ROOT, "wants_auto.json"), "w"), indent=1, ensure_ascii=False)
     if added_t:
         json.dump(tracked, open(os.path.join(ROOT, "tracked.json"), "w"), indent=2, ensure_ascii=False)
-    status(ok=True, payloadDate=p.get("date"), submittedAt=created, wants=len(items), added=len(added), removed=len(removed), newTracked=added_t)
-    print(f"wants: {len(items)} rows (+{len(added)} / -{len(removed)}); tracked.json: +{len(added_t)} {added_t}")
+    info["wants"] = len(items)
+    status(ok=True, added=added, removed=removed, changed=len(changed), newTracked=added_t, **info)
 
 
 if __name__ == "__main__":
