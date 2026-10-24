@@ -1,12 +1,41 @@
 {
- "generated": "2026-10-23",
+ "generated": "2026-10-24",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (38 entries, 1 new matches)",
+  "googlenews-reprint": "ok (37 entries, 2 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
+  {
+   "id": "c19e970dd459",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon TCG Delta Reign Pre-Orders: Where to Find Stock and Best Prices - ComicBook.com",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbDQ2Z0Rva04zMldOYk5nVDJpeUFfUWFNczFTTlkza1NxTXBZTjFsZEd5SUZQQllWTWNubWZIZm1vaXdoVHM0LU5zV1A0VzNMRDRBQmpfM3pWTjd5S3RRbkdZVFdJV0o1TjRrQkktWnBpcnJPa3RVUEViOEdhTVBaMDNrbw?oc=5",
+   "published": "2026-10-23",
+   "firstSeen": "2026-10-24",
+   "classes": [
+    "preorder"
+   ],
+   "matched": [
+    "pre-order",
+    "delta reign"
+   ]
+  },
+  {
+   "id": "71c195801d06",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon TCG 30th Anniversary Ultra-Premium Collection is live on Amazon: Preorder now - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRzR3cDcxWFEzdXdrc3JMRHZPZVpGZE5pTHZYUFNQOWVySUt0bjdYOUhfUVlWdlV0amJsWVQ1WmJiSUtfcC1XVHFvVktHajA4SEdzdVNubzBibTBSZnBJQ2pSYWVQTlNvVFg5TmtQaHdaMi1GbmgtYWdla21RYWdRLWlVZk5OT0NkdEJfeFJlZlFiZw?oc=5",
+   "published": "2026-10-19",
+   "firstSeen": "2026-10-24",
+   "classes": [
+    "preorder"
+   ],
+   "matched": [
+    "preorder"
+   ]
+  },
   {
    "id": "30cc36cd064e",
    "feed": "googlenews-reprint",
