@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-24",
- "source": "Pokémon TCG Ledger export (unowned rows below target quantity); refreshed from a GitHub-connected chat",
+ "source": "Pokémon TCG Ledger, synced daily by the Tracker task via the Ledger sync form",
  "items": {
   "bs-maintenance": {
    "title": "Maintenance",
@@ -3202,5 +3202,7 @@
    "cond": "nm",
    "status": "watch"
   }
- }
+ },
+ "payloadDate": "2026-10-24",
+ "batch": "20261024-1145"
 }
