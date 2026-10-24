@@ -1,58 +1,9 @@
 {
  "ok": false,
- "reason": "no valid payload found",
- "seen": [
-  {
-   "created": "2026-10-24 14:39:44",
-   "answers": [
-    {
-     "type": "control_textbox",
-     "len": 10,
-     "head": "2026-10-24",
-     "tail": "2026-10-24"
-    },
-    {
-     "type": "control_textarea",
-     "len": 730,
-     "head": "{\"v\":3,\"date\":\"2026-10-24\",\"part\":\"1/1\",\"n\":320,\"add\":{},\"de",
-     "tail": "ev\":1.95,\"kg-253843\":7.25},\"chk\":\"x7Q2\"}"
-    }
-   ]
-  },
-  {
-   "created": "2026-10-24 14:12:36",
-   "answers": [
-    {
-     "type": "control_textbox",
-     "len": 10,
-     "head": "2026-10-24",
-     "tail": "2026-10-24"
-    },
-    {
-     "type": "control_textarea",
-     "len": 54,
-     "head": "{\"v\":1,\"date\":\"2026-10-24\",\"wants\":{...},\"tracked\":{}}",
-     "tail": "\"2026-10-24\",\"wants\":{...},\"tracked\":{}}"
-    }
-   ]
-  },
-  {
-   "created": "2026-10-24 14:11:36",
-   "answers": [
-    {
-     "type": "control_textbox",
-     "len": 10,
-     "head": "2026-10-24",
-     "tail": "2026-10-24"
-    },
-    {
-     "type": "control_textarea",
-     "len": 70,
-     "head": "{\"v\":1,\"test\":true,\"wants\":{\"ah-bundle\":\"s\",\"k-006\":\"n\"},\"tr",
-     "tail": "h-bundle\":\"s\",\"k-006\":\"n\"},\"tracked\":{}}"
-    }
-   ]
-  }
- ],
- "ran": "2026-10-24T18:40Z"
+ "reason": "base mismatch: batch was computed against a different want list",
+ "batch": "None",
+ "parts": 1,
+ "payloadDate": "2026-10-24",
+ "wants": 320,
+ "ran": "2026-10-24T18:41Z"
 }
