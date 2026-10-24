@@ -34,19 +34,35 @@ def load(name, default):
 
 
 def latest_payload():
-    q = urllib.parse.urlencode({"apiKey": KEY, "orderby": "created_at", "direction": "DESC", "limit": 10})
+    # Do not trust the API's sort order: fetch a page and pick the newest valid payload ourselves.
+    q = urllib.parse.urlencode({"apiKey": KEY, "orderby": "created_at", "direction": "DESC", "limit": 100})
     with urllib.request.urlopen(f"{API}/form/{FORM_ID}/submissions?{q}", timeout=40) as r:
         subs = json.load(r).get("content") or []
-    for s in subs:   # newest first; take the first one that parses as a valid payload
+    found = []
+    for s in subs:
+        if s.get("status") == "DELETED":
+            continue
         for a in (s.get("answers") or {}).values():
-            if a.get("type") == "control_textarea" and a.get("answer"):
-                try:
-                    p = json.loads(a["answer"])
-                except Exception:
-                    continue
-                if isinstance(p, dict) and p.get("v") in (1, 2) and isinstance(p.get("wants"), dict):
-                    return p, s.get("created_at")
-    return None, None
+            ans = a.get("answer")
+            if not isinstance(ans, str) or not ans.lstrip().startswith("{"):
+                continue
+            try:
+                p = json.loads(ans)
+            except Exception:
+                continue
+            if isinstance(p, dict) and p.get("v") in (1, 2) and isinstance(p.get("wants"), dict):
+                found.append((str(p.get("date") or ""), s.get("created_at") or "", p))
+    print(f"{len(subs)} submissions, {len(found)} valid payloads")
+    if not found:
+        return None, None
+    found.sort(key=lambda t: (t[0], t[1]), reverse=True)
+    return found[0][2], found[0][1]
+
+
+def status(**kw):
+    """sync_status.json: what the last run did (Actions logs are not readable from the ledger tasks)."""
+    kw["ran"] = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")
+    json.dump(kw, open(os.path.join(ROOT, "sync_status.json"), "w"), indent=1)
 
 
 def main():
@@ -54,13 +70,16 @@ def main():
         sys.exit("JOTFORM_API_KEY not set")
     p, created = latest_payload()
     if not p:
+        status(ok=False, reason="no valid payload found")
         sys.exit("no valid ledger-sync payload found")
     try:
         age = (TODAY - datetime.date.fromisoformat(str(p.get("date"))[:10])).days
     except Exception:
         age = 99
+    print(f"newest payload: date {p.get('date')}, submitted {created}, {len(p['wants'])} wants")
     if age > 3:
         print(f"newest payload is {age} days old; leaving files unchanged")
+        status(ok=False, reason=f"newest payload is {age} days old", payloadDate=p.get("date"), submittedAt=created)
         return
 
     tracked = load("tracked.json", {})
@@ -83,6 +102,7 @@ def main():
             item["kind"] = "jumbo"
         items[k] = item
     if not (20 <= len(items) <= 3000):
+        status(ok=False, reason=f"suspicious want count {len(items)}", payloadDate=p.get("date"))
         sys.exit(f"suspicious want count {len(items)}; leaving files unchanged")
 
     added_t = []
@@ -103,6 +123,7 @@ def main():
     json.dump(out, open(os.path.join(ROOT, "wants_auto.json"), "w"), indent=1, ensure_ascii=False)
     if added_t:
         json.dump(tracked, open(os.path.join(ROOT, "tracked.json"), "w"), indent=2, ensure_ascii=False)
+    status(ok=True, payloadDate=p.get("date"), submittedAt=created, wants=len(items), added=len(added), removed=len(removed), newTracked=added_t)
     print(f"wants: {len(items)} rows (+{len(added)} / -{len(removed)}); tracked.json: +{len(added_t)} {added_t}")
 
 
