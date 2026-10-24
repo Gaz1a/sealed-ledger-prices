@@ -1,6 +1,6 @@
 name: SV151 backfill
 on:
-  schedule: [{cron: "10 16 * * *"}]
+  # schedule paused 2026-10-24: backfill complete (backfillComplete true); dispatch manually if needed
   workflow_dispatch:
 permissions: {contents: write, actions: write}
 jobs:

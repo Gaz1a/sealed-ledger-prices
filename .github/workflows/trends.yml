@@ -1,8 +1,7 @@
 name: Hype trends
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "20 14 * * 3"
+  # schedule paused 2026-10-24: Google Trends rate-limited, Reddit denied, YouTube counts never changed a decision
 permissions:
   contents: write
 jobs:
