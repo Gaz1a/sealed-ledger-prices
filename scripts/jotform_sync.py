@@ -60,7 +60,8 @@ def payloads():
                     p = json.loads(ans)
                 except Exception:
                     continue
-                if isinstance(p, dict) and p.get("v") == 3 and re.match(r"^\d+/\d+$", str(p.get("part", ""))):
+                if isinstance(p, dict) and p.get("v") == 3 and re.match(r"^\d+/\d+$", str(p.get("part", ""))) \
+                        and re.match(r"^\d{8}-\d{4}$", str(p.get("batch", ""))):
                     out.append(p)
     return out
 
