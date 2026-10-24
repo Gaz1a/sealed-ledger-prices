@@ -50,7 +50,8 @@ def latest_payload():
                 p = json.loads(ans)
             except Exception:
                 continue
-            if isinstance(p, dict) and p.get("v") in (1, 2) and isinstance(p.get("wants"), dict):
+            if isinstance(p, dict) and p.get("v") in (1, 2) and isinstance(p.get("wants"), dict) \
+                    and 20 <= len(p["wants"]) <= 3000:   # skip test posts and truncated payloads
                 if not re.match(r"^\d{4}-\d{2}-\d{2}", str(p.get("date") or "")):
                     # fall back to the form's 'Sync date' field, then the submission date
                     sd = [x.get("answer") for x in s["answers"].values()
