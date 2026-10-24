@@ -90,7 +90,7 @@ def build_queries():
     wa = load("wants_auto.json", {})
     fresh = False
     try:
-        fresh = (TODAY - datetime.date.fromisoformat(str(wa.get("generated", ""))[:10])).days <= 3
+        fresh = (TODAY - datetime.date.fromisoformat(str(wa.get("generated", ""))[:10])).days <= 45
     except Exception:
         pass
     item_sets = load("item_sets.json", {})

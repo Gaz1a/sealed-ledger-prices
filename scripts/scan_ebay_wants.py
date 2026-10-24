@@ -37,7 +37,7 @@ def nm_check(item_id, H):
 def load_wants():
     wa = load("wants_auto.json", {})
     try:
-        if (datetime.date.today() - datetime.date.fromisoformat(str(wa.get("generated", ""))[:10])).days <= 3:
+        if (datetime.date.today() - datetime.date.fromisoformat(str(wa.get("generated", ""))[:10])).days <= 45:
             return {k: v.get("title") for k, v in (wa.get("items") or {}).items() if v.get("cond") == "nm"}, "wants_auto.json"
     except Exception:
         pass
