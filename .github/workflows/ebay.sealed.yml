@@ -1,7 +1,7 @@
 name: Sealed auction scan
 on:
   schedule:
-    - cron: "35 23 * * 0"   # Sundays 23:35 UTC — after radar.yml (23:20), ahead of the Claude weekly task (~23:52 UTC)
+    - cron: "35 12 * * *"   # daily 12:35 UTC (5:35am PT), well before the Buy Hunter (~16:52 UTC)
   workflow_dispatch:
 permissions:
   contents: write

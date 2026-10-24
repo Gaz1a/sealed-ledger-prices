@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-"""Weekly scan of eBay's Browse API for active AUCTION listings on sealed
-product Gaz already tracks or that the market radar flagged as interesting.
+"""Daily scan of eBay's Browse API for live AUCTION and BUY-IT-NOW listings of
+NEW (sealed) product Gaz still wants (wants_auto.json, exported daily from the
+ledger) or that the market radar flagged. Falls back to tracked.json when the
+want export is missing or stale.
 Pure mechanical collection: price/keyword/seller/end-date filtering only.
 No "is this a good buy" judgment — that happens in the Claude task that
 reads this file, using each candidate's ceiling from the ledger's rules.
@@ -18,16 +20,18 @@ CLIENT_ID = os.environ.get("EBAY_CLIENT_ID")
 CLIENT_SECRET = os.environ.get("EBAY_CLIENT_SECRET")
 
 MIN_PRICE, MAX_PRICE = 15.0, 2000.0
-MAX_DAYS_TO_END = 9          # only auctions ending before next week's scan
+MAX_DAYS_TO_END = 9          # auctions only; buy-it-now has no end filter
 MIN_FEEDBACK_SCORE = 20
 MIN_FEEDBACK_PCT = 96.0
-MAX_DETAIL_CALLS_PER_QUERY = 6
-MAX_QUERIES = 40             # keep the run and the rate-limit budget bounded
+MAX_DETAIL_CALLS_PER_QUERY = 4
+MAX_QUERIES = 160            # daily; ~800 calls, well inside the 5,000/day Browse API quota
+NEW_CONDITION = "1000"       # eBay condition id for New = factory sealed
 
 BAD_WORDS = re.compile(
     r"\bpsa\b|\bcgc\b|\bbgs\b|\bgraded\b|\breprint\b|\bcustom\b|\bproxy\b|\bfake\b|"
     r"\bdigital\b|\bonline\b|\bcode card\b|\bsingle card\b|\bempty\b|\bbox only\b|"
-    r"\bwrapper\b|\bsleeve\b|\bproxy\b|\blot of 1\b",
+    r"\bwrapper\b|\bsleeve\b|\bproxy\b|\blot of 1\b|\bopened\b|\bresealed\b|\bre-sealed\b|"
+    r"\bunsealed\b|\bno shrink\b|\bwithout shrink\b|\bloose\b|\bpacks? only\b|\bno packs\b",
     re.I)
 
 # Same sealed-product vocabulary scan_market.py uses to decide a TCGplayer
@@ -83,13 +87,32 @@ def build_queries():
     """One query per tracked sealed item + top radar candidates, deduped."""
     seen_titles, queries = set(), []
 
-    tracked = load("tracked.json", {})
+    wa = load("wants_auto.json", {})
+    fresh = False
+    try:
+        fresh = (TODAY - datetime.date.fromisoformat(str(wa.get("generated", ""))[:10])).days <= 3
+    except Exception:
+        pass
+    item_sets = load("item_sets.json", {})
+    if fresh:
+        # Only products Gaz still wants (unowned, sealed), highest target first.
+        rows = [(k, v) for k, v in (wa.get("items") or {}).items()
+                if v.get("cond") == "sealed" and not k.startswith(("bk-", "jumbo-"))]
+        rows.sort(key=lambda kv: -(kv[1].get("target") or kv[1].get("market") or 0))
+        for lid, v in rows:
+            title = (v.get("title") or "").strip()
+            set_name = v.get("set") or item_sets.get(lid, "")
+            q = f"{set_name} {title}".strip() if set_name and set_name.lower() not in title.lower() else title
+            if not q or q.lower() in seen_titles:
+                continue
+            seen_titles.add(q.lower())
+            queries.append({"q": q, "source": "want", "ledgerId": lid, "target": v.get("target")})
+    tracked = {} if fresh else load("tracked.json", {})
     # Many ledger titles are generic ("Elite Trainer Box", "Booster Box (36
     # packs)") shared across several sets — item_sets.json gives the set
     # name to prefix so the eBay search is actually specific. Update this
     # file when a new sealed item is added to tracked.json; entries missing
     # from it just search on the bare title.
-    item_sets = load("item_sets.json", {})
     for lid, t in tracked.items():
         title = (t.get("title") or "").strip()
         if not title or not SEALED_WORDS.search(title):
@@ -119,7 +142,8 @@ def build_queries():
 def search_auctions(query, token):
     q = urllib.parse.quote(query)
     filt = urllib.parse.quote(
-        f"price:[{MIN_PRICE}..{MAX_PRICE}],priceCurrency:USD,buyingOptions:{{AUCTION}}")
+        f"price:[{MIN_PRICE}..{MAX_PRICE}],priceCurrency:USD,buyingOptions:{{AUCTION|FIXED_PRICE}},"
+        f"conditionIds:{{{NEW_CONDITION}}}")
     url = (f"https://api.ebay.com/buy/browse/v1/item_summary/search"
            f"?q={q}&filter={filt}&limit=20&sort=endingSoonest")
     d = get(url, headers={"Authorization": f"Bearer {token}",
@@ -150,16 +174,17 @@ def main():
             title = h.get("title", "")
             if BAD_WORDS.search(title):
                 continue
+            is_auction = "AUCTION" in (h.get("buyingOptions") or [])
             end_raw = h.get("itemEndDate")
-            if not end_raw:
-                continue
-            try:
-                end_dt = datetime.datetime.strptime(end_raw, "%Y-%m-%dT%H:%M:%S.%fZ").replace(
-                    tzinfo=datetime.timezone.utc)
-            except ValueError:
-                continue
-            days_left = (end_dt - now).total_seconds() / 86400
-            if days_left < 0 or days_left > MAX_DAYS_TO_END:
+            days_left = None
+            if end_raw:
+                try:
+                    end_dt = datetime.datetime.strptime(end_raw, "%Y-%m-%dT%H:%M:%S.%fZ").replace(
+                        tzinfo=datetime.timezone.utc)
+                    days_left = (end_dt - now).total_seconds() / 86400
+                except ValueError:
+                    days_left = None
+            if is_auction and (days_left is None or days_left < 0 or days_left > MAX_DAYS_TO_END):
                 continue
             seller = h.get("seller", {}) or {}
             score = seller.get("feedbackScore", 0) or 0
@@ -179,13 +204,17 @@ def main():
                 "itemId": iid, "title": title, "price": price, "shipping": ship_cost,
                 "total": round(price + ship_cost, 2), "condition": h.get("condition"),
                 "bidCount": h.get("bidCount"), "endDate": end_raw,
-                "daysLeft": round(days_left, 2),
+                "type": "auction" if is_auction else "buy-it-now",
+                "daysLeft": round(days_left, 2) if days_left is not None else None,
+                "target": query.get("target"),
+                "itemLocation": (h.get("itemLocation") or {}).get("country"),
                 "seller": seller.get("username"), "feedbackScore": score, "feedbackPct": pct,
                 "url": h.get("itemWebUrl"), "image": (h.get("image") or {}).get("imageUrl"),
                 "query": query["q"], "source": query["source"],
                 "ledgerId": query.get("ledgerId"), "radarPid": query.get("pid"),
             })
-        filtered.sort(key=lambda x: x["daysLeft"])
+        # cheapest landed first, so buy-it-now bargains are not crowded out by auctions
+        filtered.sort(key=lambda x: (x["total"], x["daysLeft"] if x["daysLeft"] is not None else 99))
         top = filtered[:MAX_DETAIL_CALLS_PER_QUERY]
         for c in top:
             seen_ids.add(c["itemId"])
@@ -204,15 +233,16 @@ def main():
                 c["description"] = ""
             candidates.append(c)
 
-    candidates.sort(key=lambda x: x["daysLeft"])
+    candidates.sort(key=lambda x: (x["daysLeft"] if x["daysLeft"] is not None else 99))
     out = {"generated": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
-           "queryCount": len(queries), "candidates": candidates}
+           "queryCount": len(queries), "source": "wants_auto.json" if any(q["source"] == "want" for q in queries) else "tracked.json",
+           "candidates": candidates}
     try:      # jumbo auction hits are written by scripts/scan_ebay_jumbo.py; preserve them
         _jk = json.load(open(os.path.join(ROOT, "ebay_sealed.json"))).get("jumbo")
         if _jk: out["jumbo"] = _jk
     except Exception: pass
     json.dump(out, open(os.path.join(ROOT, "ebay_sealed.json"), "w"), indent=1, ensure_ascii=False)
-    print(f"scanned {len(queries)} queries, {len(candidates)} auction candidates written")
+    print(f"scanned {len(queries)} queries, {len(candidates)} sealed candidates (auction + buy-it-now) written")
 
 
 if __name__ == "__main__":

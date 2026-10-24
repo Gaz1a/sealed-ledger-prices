@@ -1,7 +1,7 @@
-name: Wants scan
+name: Wants scan (daily)
 on:
   schedule:
-    - cron: "30 14 * * 1"
+    - cron: "50 12 * * *"   # daily 12:50 UTC (5:50am PT), before the Buy Hunter
   workflow_dispatch:
 permissions:
   contents: write

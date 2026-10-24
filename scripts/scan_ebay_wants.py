@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Weekly eBay Browse API scan driven by the want list (wants.json: ledgerId -> title).
+"""Daily eBay Browse API scan driven by the want list: wants_auto.json (exported daily from the
+ledger: every unowned single, Kanto gap and collector print) or, if that is missing/stale, wants.json.
+Raw singles only: eBay condition Ungraded, and each kept listing is checked for the
+"Near mint or better" condition descriptor (nmVerified).
 Finds (1) single listings at/near each wanted card's max price and (2) lots that name wanted cards.
 Mechanical matching only; Claude judges photos, condition and value. Writes ebay_wants.json."""
 import json, os, re, sys, time, base64, datetime, html, urllib.request, urllib.parse
@@ -19,6 +22,26 @@ LOTQ = ["gyarados lot pokemon cards", "magikarp lot pokemon cards", "gyarados ma
 
 NOISE_J = re.compile(NOISE.pattern.replace(r"\bjumbo\b|\boversized?\b|", ""), re.I)   # jumbo wants must NOT be filtered out for saying "jumbo"
 def is_j(wid): return wid.startswith("jumbo-")
+UNGRADED = "4000"   # eBay trading-card condition id for raw (ungraded) cards
+PLAYED = re.compile(r"lightly played|moderately played|heavily played|damaged|excellent|very good|poor", re.I)
+
+def nm_check(item_id, H):
+    """True = seller states Near mint or better; False = states a played grade; None = not stated."""
+    d = get("https://api.ebay.com/buy/browse/v1/item/" + urllib.parse.quote(item_id, safe=""), H) or {}
+    vals = [v.get("content", "") for cd in (d.get("conditionDescriptors") or []) for v in (cd.get("values") or [])]
+    txt = " ".join(vals)
+    if re.search(r"near mint or better|near mint|\bmint\b", txt, re.I): return True
+    if PLAYED.search(txt): return False
+    return None
+
+def load_wants():
+    wa = load("wants_auto.json", {})
+    try:
+        if (datetime.date.today() - datetime.date.fromisoformat(str(wa.get("generated", ""))[:10])).days <= 3:
+            return {k: v.get("title") for k, v in (wa.get("items") or {}).items() if v.get("cond") == "nm"}, "wants_auto.json"
+    except Exception:
+        pass
+    return load("wants.json", {}), "wants.json"
 
 def load(n, d):
     p = os.path.join(ROOT, n)
@@ -74,7 +97,7 @@ def search(q, H, filt, limit=50, offset=0, sort="newlyListed"):
     return (get(url, H) or {}).get("itemSummaries", [])
 
 def main():
-    wants, prices = load("wants.json", {}), load("prices.json", {}).get("prices", {})
+    (wants, wsrc), prices = load_wants(), load("prices.json", {}).get("prices", {})
     H = {"Authorization": "Bearer " + token(), "X-EBAY-C-MARKETPLACE-ID": "EBAY_US"}
     W = {}
     for wid, title in wants.items():
@@ -91,13 +114,16 @@ def main():
         if not w["market"] or (w["market"] < 8 and not is_j(wid)): continue   # cheap commons are only worth buying inside lots
         q = f"{w['name']} {w['num']}" if w["num"] else w["clean"]
         if is_j(wid): q = f"{w['name']} jumbo"
-        filt = f"price:[{max(2, round(w['market'] * 0.50))}..{round(w['market'] * 1.6)}],priceCurrency:USD,buyingOptions:{{FIXED_PRICE|AUCTION}}"
+        filt = f"price:[{max(2, round(w['market'] * 0.50))}..{round(w['market'] * 1.6)}],priceCurrency:USD,buyingOptions:{{FIXED_PRICE|AUCTION}},conditionIds:{{{UNGRADED}}}"
         if is_j(wid): filt = f"price:[1..{max(15, round(w['market'] * 4))}],priceCurrency:USD,buyingOptions:{{FIXED_PRICE|AUCTION}}"
         kept = 0
         nq += 1
         for h in search(q, H, filt, 40, 0, "price"):
             t = h.get("title", "")
-            if h["itemId"] in seen or (NOISE_J if is_j(wid) else NOISE).search(t) or not seller_ok(h): continue
+            noise = NOISE_J if is_j(wid) else NOISE
+            if "[JP]" in w["title"]:   # Japanese prints are wanted: do not drop listings for saying "japanese"
+                noise = re.compile(noise.pattern.replace(r"\bjapanese\b|", ""), re.I)
+            if h["itemId"] in seen or noise.search(t) or not seller_ok(h): continue
             if is_j(wid) and not re.search(r"jumbo|oversize", t, re.I): continue
             if w["name"].lower() not in t.lower(): continue
             if w["num"] and not has_num(t, w["num"]): continue
@@ -107,12 +133,15 @@ def main():
             all_in = round((price + (sh or 0)) * TAX, 2)
             if all_in > w["target"] * 1.15: continue
             if kept >= 2: break
+            nm = None if is_j(wid) else nm_check(h["itemId"], H)
+            if nm is False: continue   # seller states a played grade: never a candidate
             kept += 1
             seen.add(h["itemId"])
             singles.append({"wantId": wid, "want": w["title"], "market": w["market"], "target": w["target"],
                 "title": t, "url": h.get("itemWebUrl"), "price": price, "shipping": sh, "shipUnknown": sh is None, "allIn": all_in,
                 "underTarget": all_in <= w["target"], "buyingOptions": h.get("buyingOptions"),
-                "bids": h.get("bidCount"), "itemEndDate": h.get("itemEndDate"), "condition": h.get("condition"),
+                "bids": h.get("bidCount"), "itemEndDate": h.get("itemEndDate"), "condition": h.get("condition"), "nmVerified": nm,
+                "itemLocation": (h.get("itemLocation") or {}).get("country"),
                 "seller": h.get("seller", {}).get("username"), "feedbackPct": h.get("seller", {}).get("feedbackPercentage"),
                 "feedbackScore": h.get("seller", {}).get("feedbackScore"), "image": (h.get("image") or {}).get("imageUrl")})
         time.sleep(0.25)
@@ -145,7 +174,7 @@ def main():
             "condition": h.get("condition"), "matchedIds": matched, "photos": [p for p in photos if p][:6], "desc": re.sub(r"\s+", " ", desc)[:700]})
         time.sleep(0.3)
     keep = load("ebay_wants.json", {}).get("booklets")   # written daily by scripts/bk_booklets.py; preserve it
-    out = {"generated": datetime.date.today().isoformat(), "wants": len(W), "queries": nq, "singles": singles, "lots": lots}
+    out = {"generated": datetime.date.today().isoformat(), "wantsSource": wsrc, "wants": len(W), "queries": nq, "singles": singles, "lots": lots}
     if keep: out["booklets"] = keep
     jk = load("ebay_wants.json", {}).get("jumbo")      # written by scripts/scan_ebay_jumbo.py; preserve it
     if jk: out["jumbo"] = jk
