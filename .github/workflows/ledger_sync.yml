@@ -1,0 +1,23 @@
+name: Ledger sync (want list + new tracked rows)
+on:
+  schedule:
+    - cron: "15 12 * * *"   # daily 12:15 UTC (5:15am PT), before the eBay scans (12:35 / 12:50)
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/jotform_sync.py
+        env:
+          JOTFORM_API_KEY: ${{ secrets.JOTFORM_API_KEY }}
+      - run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add wants_auto.json tracked.json
+          git diff --cached --quiet || git commit -m "ledger sync $(date -u +%F)"
+          git pull --rebase && git push
