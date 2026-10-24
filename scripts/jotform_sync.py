@@ -51,6 +51,11 @@ def latest_payload():
             except Exception:
                 continue
             if isinstance(p, dict) and p.get("v") in (1, 2) and isinstance(p.get("wants"), dict):
+                if not re.match(r"^\d{4}-\d{2}-\d{2}", str(p.get("date") or "")):
+                    # fall back to the form's 'Sync date' field, then the submission date
+                    sd = [x.get("answer") for x in s["answers"].values()
+                          if isinstance(x.get("answer"), str) and re.match(r"^\d{4}-\d{2}-\d{2}$", x["answer"].strip())]
+                    p["date"] = (sd[0].strip() if sd else (s.get("created_at") or "")[:10]) or None
                 found.append((str(p.get("date") or ""), s.get("created_at") or "", p))
     print(f"{len(subs)} submissions, {len(found)} valid payloads")
     if not found:
@@ -61,7 +66,7 @@ def latest_payload():
 
 def status(**kw):
     """sync_status.json: what the last run did (Actions logs are not readable from the ledger tasks)."""
-    kw["ran"] = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")
+    kw["ran"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
     json.dump(kw, open(os.path.join(ROOT, "sync_status.json"), "w"), indent=1)
 
 
