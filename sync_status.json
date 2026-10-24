@@ -3,6 +3,23 @@
  "reason": "no valid payload found",
  "seen": [
   {
+   "created": "2026-10-24 14:39:44",
+   "answers": [
+    {
+     "type": "control_textbox",
+     "len": 10,
+     "head": "2026-10-24",
+     "tail": "2026-10-24"
+    },
+    {
+     "type": "control_textarea",
+     "len": 730,
+     "head": "{\"v\":3,\"date\":\"2026-10-24\",\"part\":\"1/1\",\"n\":320,\"add\":{},\"de",
+     "tail": "ev\":1.95,\"kg-253843\":7.25},\"chk\":\"x7Q2\"}"
+    }
+   ]
+  },
+  {
    "created": "2026-10-24 14:12:36",
    "answers": [
     {
@@ -37,5 +54,5 @@
    ]
   }
  ],
- "ran": "2026-10-24T18:38Z"
+ "ran": "2026-10-24T18:40Z"
 }
