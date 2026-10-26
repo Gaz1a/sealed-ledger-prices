@@ -127,24 +127,52 @@ def find_card(img):
     return cv2.warpPerspective(img, M, (W, H)), int(hq)
 
 
-def is_back(card):
+_R = int(0.05 * W)   # card corner radius (~3 mm of 63 mm)
+
+
+def _masks():
+    m = np.zeros((H, W), np.uint8)
+    cv2.rectangle(m, (_R, 0), (W - 1 - _R, H - 1), 255, -1)
+    cv2.rectangle(m, (0, _R), (W - 1, H - 1 - _R), 255, -1)
+    for cx, cy in ((_R, _R), (W - 1 - _R, _R), (_R, H - 1 - _R), (W - 1 - _R, H - 1 - _R)):
+        cv2.circle(m, (cx, cy), _R, 255, -1)
+    dist = cv2.distanceTransform(cv2.copyMakeBorder(m, 1, 1, 1, 1, cv2.BORDER_CONSTANT, value=0), cv2.DIST_L2, 3)[1:-1, 1:-1]
+    band = (dist > 4) & (dist < 0.035 * W)          # border band, skipping the outermost pixels
+    c = int(0.09 * W)
+    reg = {"top": np.zeros((H, W), bool), "bottom": np.zeros((H, W), bool), "left": np.zeros((H, W), bool), "right": np.zeros((H, W), bool)}
+    reg["top"][:c, c:W - c] = True; reg["bottom"][H - c:, c:W - c] = True
+    reg["left"][c:H - c, :c] = True; reg["right"][c:H - c, W - c:] = True
+    cor = {}
+    for k, (ys, xs) in {"tl": (slice(0, c), slice(0, c)), "tr": (slice(0, c), slice(W - c, W)),
+                        "bl": (slice(H - c, H), slice(0, c)), "br": (slice(H - c, H), slice(W - c, W))}.items():
+        z = np.zeros((H, W), bool); z[ys, xs] = True; cor[k] = z
+    return band, reg, cor
+
+
+BAND, SIDES, CORNERS = _masks()
+
+
+def band_kind(card):
+    """Classify a flattened photo by its border band: 'back' (blue border), 'front' (yellow/silver) or None (bad crop)."""
     hsv = cv2.cvtColor(card, cv2.COLOR_BGR2HSV)
-    blue = cv2.inRange(hsv, (95, 80, 40), (130, 255, 255))
-    return blue.mean() / 255 > 0.30
+    h, s_, v = hsv[..., 0][BAND], hsv[..., 1][BAND], hsv[..., 2][BAND]
+    blue = ((h >= 95) & (h <= 130) & (s_ > 60)).mean()
+    white = ((v > 185) & (s_ < 60)).mean()
+    yellow = ((h >= 15) & (h <= 40) & (s_ > 70)).mean()
+    silver = ((s_ < 40) & (v > 110)).mean()
+    if blue >= 0.45 and blue + white >= 0.85:
+        return "back"
+    if yellow >= 0.6 or silver >= 0.75:
+        return "front"
+    return None
 
 
 def back_whitening(card):
-    """Share of near-white pixels in the outer blue border band (should be ~0 on a clean back)."""
+    """Share of white among border-band pixels per side and per corner (a clean blue back is ~0%)."""
     hsv = cv2.cvtColor(card, cv2.COLOR_BGR2HSV)
-    white = ((hsv[..., 2] > 185) & (hsv[..., 1] < 60)).astype(np.float32)
-    b = int(0.035 * W)
-    m = 4   # skip the outermost pixels (warp/background bleed)
-    sides = {"top": white[m:b, b:W - b], "bottom": white[H - b:H - m, b:W - b],
-             "left": white[b:H - b, m:b], "right": white[b:H - b, W - b:W - m]}
-    c = int(0.07 * W)
-    corners = {"tl": white[m:c, m:c], "tr": white[m:c, W - c:W - m], "br": white[H - c:H - m, W - c:W - m], "bl": white[H - c:H - m, m:c]}
-    return ({k: round(float(v.mean()) * 100, 2) for k, v in sides.items()},
-            {k: round(float(v.mean()) * 100, 2) for k, v in corners.items()})
+    white = (hsv[..., 2] > 185) & (hsv[..., 1] < 60)
+    f = lambda m: round(float(white[m & BAND].mean()) * 100, 2) if (m & BAND).any() else 0.0
+    return {k: f(m) for k, m in SIDES.items()}, {k: f(m) for k, m in CORNERS.items()}
 
 
 def centering(card):
@@ -180,11 +208,21 @@ def sheet_row(img, card, label):
         left = cv2.resize(card, (int(W * hrow / H), hrow))
         z = cv2.resize(zooms(card), (hrow, hrow))
         row = np.hstack([left, z])
-    else:
+    else:   # no reliable crop: whole photo plus its four quadrants at 2x, so the eye can check corners and edges
         h0, w0 = img.shape[:2]
-        row = cv2.resize(img, (int(w0 * hrow / h0), hrow))
-    canvas = np.full((hrow + 30, max(row.shape[1], 900), 3), 255, np.uint8)
-    canvas[30:30 + hrow, :row.shape[1]] = row
+        whole = cv2.resize(img, (int(w0 * hrow / h0), hrow))
+        q = [img[:h0 // 2, :w0 // 2], img[:h0 // 2, w0 // 2:], img[h0 // 2:, :w0 // 2], img[h0 // 2:, w0 // 2:]]
+        qs = [cv2.resize(x, (hrow // 2 * w0 // h0 or 1, hrow // 2)) for x in q]
+        quad = np.vstack([np.hstack(qs[:2]), np.hstack(qs[2:])])
+        quad = cv2.resize(quad, (int(quad.shape[1] * 2), hrow * 2))
+        row = whole if quad is None else None
+        canvas_w = max(whole.shape[1] + 10, quad.shape[1])
+        out = np.full((hrow + 10 + quad.shape[0], canvas_w, 3), 255, np.uint8)
+        out[:hrow, :whole.shape[1]] = whole
+        out[hrow + 10:, :quad.shape[1]] = quad
+        row = out
+    canvas = np.full((row.shape[0] + 30, max(row.shape[1], 900), 3), 255, np.uint8)
+    canvas[30:30 + row.shape[0], :row.shape[1]] = row
     cv2.putText(canvas, label[:110], (6, 21), cv2.FONT_HERSHEY_SIMPLEX, 0.55, (0, 0, 0), 1, cv2.LINE_AA)
     return canvas
 
@@ -204,10 +242,13 @@ def main():
             if img is None:
                 continue
             card, px = find_card(img)
-            if card is None:
-                rows.append(sheet_row(img, None, f"photo {n + 1}: card not found - judge by eye"))
+            kind = band_kind(card) if card is not None else None
+            if kind is None:
+                rows.append(sheet_row(img, None, f"photo {n + 1}: card edges not measurable (toploader, glare or background) - judge by eye in the 2x quadrants"))
+                if card is None or True:
+                    info.setdefault("unmeasured", []).append(n + 1)
                 continue
-            if is_back(card):
+            if kind == "back":
                 sides, corners = back_whitening(card)
                 info["backs"].append({"photo": n + 1, "cardPx": px, "sides": sides, "corners": corners})
                 lab = f"photo {n + 1} BACK {px}px  whitening % sides " + " ".join(f"{k[0]}{v}" for k, v in sides.items()) + "  corners " + " ".join(f"{k}{v}" for k, v in corners.items())
@@ -217,9 +258,9 @@ def main():
                 lab = f"photo {n + 1} FRONT {px}px  centering " + (f"L/R {ce['lr']}  T/B {ce['tb']}" if ce else "n/a (full art or no border found)")
             rows.append(sheet_row(img, card, lab))
         if not info["backs"]:
-            info["flags"].append("no back photo found")
+            info["flags"].append("no measurable back photo (check by eye; none at all = fail)")
         for b in info["backs"]:
-            if max(b["sides"].values()) > 0.8 or max(b["corners"].values()) > 3.0:
+            if max(b["sides"].values()) > 1.5 or max(b["corners"].values()) > 4.0:
                 info["flags"].append(f"back whitening (photo {b['photo']})")
             if b["cardPx"] < 700:
                 info["flags"].append(f"low resolution back (photo {b['photo']}, {b['cardPx']}px)")
