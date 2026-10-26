@@ -1,0 +1,42 @@
+name: Train card grader v2 (manual)
+on:
+  workflow_dispatch:
+    inputs:
+      target: { description: "listings per PSA grade", default: "900" }
+permissions:
+  contents: write
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: |
+          pip install --quiet torch torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install --quiet timm opencv-python-headless numpy scikit-learn
+      - name: Collect PSA-graded photos and crops
+        run: python scripts/grader/collect.py "$RUNNER_TEMP/gd" 2>&1 | tee models/grader_v2_log.txt
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+          TARGET: ${{ github.event.inputs.target }}
+      - name: Embed and train
+        run: python scripts/grader/embed_train.py "$RUNNER_TEMP/gd" 2>&1 | tee -a models/grader_v2_log.txt; exit ${PIPESTATUS[0]}
+      - name: Keep features for retraining (90 days)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: grader-v2-features
+          path: |
+            ${{ runner.temp }}/gd/feats.npz
+            ${{ runner.temp }}/gd/meta.json
+          retention-days: 90
+          if-no-files-found: ignore
+      - if: always()
+        run: |
+          tail -c 20000 models/grader_v2_log.txt > models/grader_v2_log.tmp && mv models/grader_v2_log.tmp models/grader_v2_log.txt
+          git config user.name "price-bot"; git config user.email "price-bot@users.noreply.github.com"
+          git add models/
+          git commit -qm "grader v2 $(date -u +%F)" && git pull --rebase && git push
