@@ -1,0 +1,33 @@
+{
+ "trained": "2026-10-26",
+ "listings": 2080,
+ "usablePhotos": 1261,
+ "photosByGrade": {
+  "10": 124,
+  "9": 164,
+  "8": 174,
+  "7": 178,
+  "6": 162,
+  "5": 153,
+  "4": 148,
+  "3": 158
+ },
+ "trainPhotos": 869,
+ "testPhotos": 214,
+ "testListings": 140,
+ "photoAccuracy": 0.636,
+ "photoAUC": 0.682,
+ "listingAccuracy": 0.643,
+ "meanScoreByGrade(test)": {
+  "3": 0.291,
+  "4": 0.265,
+  "5": 0.249,
+  "6": 0.448,
+  "7": 0.411,
+  "8": 0.439,
+  "9": 0.686,
+  "10": 0.743
+ },
+ "task": "P(looks PSA 8+) from 4 corner + 4 edge crops; PSA 7 held out",
+ "embedder": "DINOv2-small (frozen)"
+}
