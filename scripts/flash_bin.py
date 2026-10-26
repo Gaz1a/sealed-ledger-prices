@@ -6,6 +6,7 @@ Scope: want-list rows (wants_auto.json) with a target of $10+; sealed product mu
 eBay condition New with no opened/resealed wording; raw cards must be Ungraded with the
 seller stating Near Mint or better. US sellers only, shipping known, seller 97%+ / 50+.
 All-in = (price + shipping) x 1.10 (LA tax) must be at or under target.
+Only SEALED hits raise a GitHub alert; card hits wait for the morning photo check.
 
 Output: flash.json (hits from the last 7 days, newest first) and, for NEW hits, one GitHub
 issue per run (GitHub emails/pushes it to the repo owner). The daily Buy Hunter task then
@@ -161,6 +162,10 @@ def main():
               open(os.path.join(ROOT, "flash.json"), "w"), indent=1, ensure_ascii=False)
     print(f"{nq} queries, {len(new)} new hits, {len(hits)} in the last {KEEP_DAYS} days")
 
+    # Raw cards are condition-sensitive and seller-stated "NM" is often wrong, so card hits are NOT
+    # pushed as alerts: the morning Buy Hunter checks every photo (front and back) first.
+    # Sealed product is pushed straight away.
+    new = [x for x in new if x["cond"] == "sealed"]
     if new and os.environ.get("GH_TOKEN"):
         top = new[0]
         head = f"Bargain: {top['want'][:60]} ${top['allIn']:.2f} all-in (target ${top['target']:.2f})"
