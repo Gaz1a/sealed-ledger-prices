@@ -1,7 +1,139 @@
 {
  "ok": [
   {
+   "id": "j-2015-latios-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2016-fearow-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2016-jirachi-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2016-lucario-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2016-lugia-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2016-pansear-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2016-pikachu-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2017-mimikyu-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2017-shiny-mega-gengar-ex-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2017-tsareena-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2019-mimikyu-gx-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2020-carracosta-gx-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2020-eevee-gx-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2020-gardevoir-sylveon-gx-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2020-mega-sableye-tyranitar-gx-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2020-rowlet-alolan-exeggutor-gx-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2020-slowpoke-psyduck-gx-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2021-lapras-v-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2021-ninetales-v-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2021-salamence-v-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2022-flapple-v-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2022-galarian-slowking-v-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2022-greedent-v-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-1997-corocoro-comic-july-1997-issue-insert-june-15-1997-ja",
+   "kept": true
+  },
+  {
    "id": "j-1997-corocoro-comic-october-1997-issue-insert-september-15-1997-ja",
+   "kept": true
+  },
+  {
+   "id": "j-1998-corocoro-comic-june-1998-issue-insert-may-15-1998-ja",
+   "kept": true
+  },
+  {
+   "id": "j-1998-corocoro-comic-may-1998-issue-insert-april-15-1998-ja",
+   "kept": true
+  },
+  {
+   "id": "j-1998-corocoro-comic-october-1998-issue-insert-september-15-1998-ja",
+   "kept": true
+  },
+  {
+   "id": "j-1999-bessatsu-corocoro-comic-special-august-1999-issue-insert-june-30-1999-ja",
+   "kept": true
+  },
+  {
+   "id": "j-1999-corocoro-comic-august-1999-issue-insert-july-15-1999-ja",
+   "kept": true
+  },
+  {
+   "id": "j-2000-bessatsu-corocoro-comic-special-august-2000-issue-insert-july-6-2000-ja",
+   "kept": true
+  },
+  {
+   "id": "j-2000-corocoro-comic-august-2000-issue-insert-july-15-2000-ja",
+   "kept": true
+  },
+  {
+   "id": "j-2001-corocoro-comic-september-2001-issue-ja",
+   "kept": true
+  },
+  {
+   "id": "j-2005-summer-2005-pok-mon-scoop-special-edition-insert-ja",
    "kept": true
   },
   {
@@ -129,6 +261,54 @@
    "kept": true
   },
   {
+   "id": "j-2019-galar-collection-pt",
+   "kept": true
+  },
+  {
+   "id": "j-2022-arceus-v-collection-pt",
+   "kept": true
+  },
+  {
+   "id": "j-2022-pikachu-v-collection-pt",
+   "kept": true
+  },
+  {
+   "id": "j-2022-pok-mon-go-radiant-eevee-premium-collection-pt",
+   "kept": true
+  },
+  {
+   "id": "j-2023-151-mew-ex-mewtwo-special-collection-pt",
+   "kept": true
+  },
+  {
+   "id": "j-2023-crown-zenith-shiny-zacian-special-collection-pt",
+   "kept": true
+  },
+  {
+   "id": "j-2024-armarouge-ex-collection-pt",
+   "kept": true
+  },
+  {
+   "id": "j-2024-paldean-fates-shiny-charizard-ex-collection-pt",
+   "kept": true
+  },
+  {
+   "id": "j-2024-paldean-fates-shiny-iron-treads-ex-collection-pt",
+   "kept": true
+  },
+  {
+   "id": "j-2024-paradox-destinies-collections-pt",
+   "kept": true
+  },
+  {
+   "id": "j-2016-ho-oh-box-fr",
+   "kept": true
+  },
+  {
+   "id": "j-2017-hearts-of-champions-box-fr",
+   "kept": true
+  },
+  {
    "id": "j-2002-expedition-base-set-booster-display-en",
    "kept": true
   },
@@ -141,643 +321,59 @@
    "kept": true
   },
   {
+   "id": "j-2010-clash-of-legends-box-en",
+   "kept": true
+  },
+  {
+   "id": "j-2014-hoenn-collection-en",
+   "kept": true
+  },
+  {
    "id": "j-2019-galar-collection-en",
+   "kept": true
+  },
+  {
+   "id": "j-2020-kanto-power-collection-en",
+   "kept": true
+  },
+  {
+   "id": "j-2020-tag-team-powers-collection-en",
    "kept": true
   },
   {
    "id": "j-2023-paldea-collection-en",
    "kept": true
-  }
- ],
- "failed": [
-  {
-   "id": "j-2015-latios-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/0/03/Latios_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2016-fearow-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/4/45/Fearow_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2016-jirachi-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/7/72/Jirachi_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2016-lucario-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/0/0e/Lucario_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2016-lugia-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/2/2e/Lugia_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2016-pansear-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/c/c1/Pansear_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2016-pikachu-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/1/13/Pikachu_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2017-mimikyu-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/4/4d/Mimikyu_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2017-shiny-mega-gengar-ex-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/9/9c/Shiny_Mega_Gengar-EX_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2017-tsareena-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/5/54/Tsareena_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2019-mimikyu-gx-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/a/a2/Mimikyu-GX_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2020-carracosta-gx-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/5/56/Carracosta-GX_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2020-eevee-gx-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/f/f6/Eevee-GX_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2020-gardevoir-sylveon-gx-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/9/94/Gardevoir_Sylveon-GX_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2020-mega-sableye-tyranitar-gx-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/d/de/Mega_Sableye_Tyranitar-GX_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2020-rowlet-alolan-exeggutor-gx-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/e/e2/Rowlet_Alolan_Exeggutor-GX_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2020-slowpoke-psyduck-gx-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/c/ce/Slowpoke_%26_Psyduck-GX_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2021-lapras-v-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/c/c5/Lapras_V_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2021-ninetales-v-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/b/bf/Feunard_V_box.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2021-salamence-v-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/0/0a/Salamence_V_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2022-flapple-v-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/a/af/Pomdrapi_V_box.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2022-galarian-slowking-v-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/f/fb/Roigada_de_Galar_V_box.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2022-greedent-v-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/5/5f/Rongrigou_V_box.png"
-    }
-   ]
-  },
-  {
-   "id": "j-1997-corocoro-comic-july-1997-issue-insert-june-15-1997-ja",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/c/c2/PikachuJigglypuffClefairyCoroCoroPromo.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-1998-corocoro-comic-june-1998-issue-insert-may-15-1998-ja",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/1/1e/PikachuSummerVacationCoroCoroPromo.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-1998-corocoro-comic-may-1998-issue-insert-april-15-1998-ja",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/f/f7/MewtwoStrikesBackCoroCoroPromo.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-1998-corocoro-comic-october-1998-issue-insert-september-15-1998-ja",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/d/de/Pok%C3%A9monPlazaCoroCoroPromo.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-1999-bessatsu-corocoro-comic-special-august-1999-issue-insert-june-30-1999-ja",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/e/eb/PokemonValleyCoroCoroPromo.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-1999-corocoro-comic-august-1999-issue-insert-july-15-1999-ja",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/1/15/LawrenceIIICoroCoropromo.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2000-bessatsu-corocoro-comic-special-august-2000-issue-insert-july-6-2000-ja",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/e/e0/PichuPikachuCoroCoroPromo.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2000-corocoro-comic-august-2000-issue-insert-july-15-2000-ja",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/e/ec/CrystalTowerEnteiCoroCoroPromo.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2001-corocoro-comic-september-2001-issue-ja",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/b/b8/TimelessCelebiJPromo1.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2005-summer-2005-pok-mon-scoop-special-edition-insert-ja",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/8/86/ShadowLugiaNintendoWorldPromo.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2019-galar-collection-pt",
-   "errors": [
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20200420/1587393283_2320.jpg"
-    },
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20200420/1587393491_5915.jpg"
-    },
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20200420/1587393570_3732.jpg"
-    },
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20200420/1587393621_7729.jpg"
-    },
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20200420/1587393649_3186.jpg"
-    },
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20200420/1587393659_4103.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2022-arceus-v-collection-pt",
-   "errors": [
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20220627/1729775244_3006.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2022-pikachu-v-collection-pt",
-   "errors": [
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20220330/1648644588_3416.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2022-pok-mon-go-radiant-eevee-premium-collection-pt",
-   "errors": [
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20220706/1729712706_6548.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2023-151-mew-ex-mewtwo-special-collection-pt",
-   "errors": [
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20231206/1701892877_8848.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2023-crown-zenith-shiny-zacian-special-collection-pt",
-   "errors": [
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20221228/1729705403_9886.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2024-armarouge-ex-collection-pt",
-   "errors": [
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20240429/1729689047_7324.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2024-paldean-fates-shiny-charizard-ex-collection-pt",
-   "errors": [
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20231211/1707162572_2288.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2024-paldean-fates-shiny-iron-treads-ex-collection-pt",
-   "errors": [
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20240205/1707163007_2445.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2024-paradox-destinies-collections-pt",
-   "errors": [
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20240820/1729703558_5826.jpg"
-    },
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20240820/1729701694_7562.jpg"
-    },
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20240820/1729702735_5571.jpg"
-    },
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20240820/1729703036_8985.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2016-ho-oh-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/9/98/Ho-Oh_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2017-hearts-of-champions-box-fr",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/3/37/Hearts_of_Champions_Box_FR.png"
-    }
-   ]
-  },
-  {
-   "id": "j-2010-clash-of-legends-box-en",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/1/1c/DialgaPalkia_Clash_of_Legends.jpg"
-    },
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/6/69/DarkraiCresselia_Clash_of_Legends.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2014-hoenn-collection-en",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/8/81/HoennCollection_PrimalGroudon.jpg"
-    },
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/4/47/HoennCollection_PrimalKyogre.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2020-kanto-power-collection-en",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/4/45/Kanto_Power_Collection_Mewtwo-EX_Slowbro-EX.jpg"
-    },
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/e/e9/Kanto_Power_Collection_Dragonite-EX_Pidgeot-EX.jpg"
-    }
-   ]
-  },
-  {
-   "id": "j-2020-tag-team-powers-collection-en",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/9/9f/TAG_TEAM_Powers_Collection_Umbreon_Darkrai.jpg"
-    },
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/1/14/TAG_TEAM_Powers_Collection_Espeon_Deoxys.jpg"
-    }
-   ]
   },
   {
    "id": "j-2024-paldean-fates-premium-collections-en",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/c/c1/SV4.5_Premium_Collection_Meowscarada.jpg"
-    },
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/4/44/SV4.5_Premium_Collection_Skeledirge.jpg"
-    },
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/e/e0/SV4.5_Premium_Collection_Quaquaval.jpg"
-    }
-   ]
+   "kept": true
   },
   {
    "id": "j-2018-dragon-majesty-special-collection-white-kyurem-gx-en",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/1/13/WhiteKyuremGX_Special_Collection.jpg"
-    }
-   ]
+   "kept": true
   },
   {
    "id": "j-2018-legends-of-johto-gx-collection-en",
-   "errors": [
-    {
-     "host": "archives.bulbagarden.net",
-     "error": "HTTP 403",
-     "url": "https://archives.bulbagarden.net/media/upload/4/4c/Legends_of_Johto_GX_Collection.jpg"
-    }
-   ]
+   "kept": true
   },
   {
    "id": "j-2023-meowscarada-ex-collection-pt",
-   "errors": [
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20230906/1729693086_6940.jpg"
-    }
-   ]
+   "kept": true
   },
   {
    "id": "j-2023-quaquaval-ex-collection-pt",
-   "errors": [
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20230906/1729692758_3552.jpg"
-    }
-   ]
+   "kept": true
   },
   {
    "id": "j-2023-skeledirge-ex-collection-pt",
-   "errors": [
-    {
-     "host": "repositorio.sbrauble.com",
-     "error": "HTTP 403",
-     "url": "https://repositorio.sbrauble.com/arquivos/up/prod/20230906/1729692326_1572.jpg"
-    }
-   ]
+   "kept": true
   }
  ],
+ "failed": [],
  "summary": {
   "ids": 92,
-  "matched": 37,
-  "failed": 55,
-  "blockedHosts": {
-   "archives.bulbagarden.net": 48,
-   "repositorio.sbrauble.com": 21
-  }
+  "matched": 92,
+  "failed": 0,
+  "blockedHosts": {}
  }
 }
