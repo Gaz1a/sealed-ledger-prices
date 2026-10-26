@@ -1,0 +1,66 @@
+name: Train card grader (parallel)
+on:
+  workflow_dispatch:
+    inputs:
+      target: { description: "listings per PSA grade", default: "900" }
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install --quiet opencv-python-headless numpy
+      - run: python scripts/grader/collect.py "$RUNNER_TEMP/gd"
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+          TARGET: ${{ github.event.inputs.target }}
+      - run: tar -C "$RUNNER_TEMP" -cf "$RUNNER_TEMP/gd.tar" gd
+      - uses: actions/upload-artifact@v4
+        with: { name: grader-crops, path: "${{ runner.temp }}/gd.tar", retention-days: 90, compression-level: 0 }
+  embed:
+    needs: collect
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      matrix: { shard: [0, 1, 2, 3, 4, 5, 6, 7] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: |
+          pip install --quiet torch torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install --quiet timm opencv-python-headless numpy scikit-learn
+      - uses: actions/download-artifact@v4
+        with: { name: grader-crops, path: "${{ runner.temp }}" }
+      - run: tar -C "$RUNNER_TEMP" -xf "$RUNNER_TEMP/gd.tar"
+      - run: python scripts/grader/embed_train.py "$RUNNER_TEMP/gd"
+        env: { EMBED_SHARD: "${{ matrix.shard }}/8" }
+      - uses: actions/upload-artifact@v4
+        with: { name: "grader-feats-${{ matrix.shard }}", path: "${{ runner.temp }}/gd/feats_${{ matrix.shard }}.npz", retention-days: 90 }
+  train:
+    needs: embed
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: |
+          pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu
+          pip install --quiet opencv-python-headless numpy scikit-learn
+      - uses: actions/download-artifact@v4
+        with: { name: grader-crops, path: "${{ runner.temp }}" }
+      - run: tar -C "$RUNNER_TEMP" -xf "$RUNNER_TEMP/gd.tar" gd/meta.json
+      - uses: actions/download-artifact@v4
+        with: { pattern: "grader-feats-*", path: "${{ runner.temp }}/gd/shards" }
+      - run: python scripts/grader/embed_train.py "$RUNNER_TEMP/gd" 2>&1 | tee models/grader_v2_log.txt; exit ${PIPESTATUS[0]}
+      - if: always()
+        run: |
+          git config user.name "price-bot"; git config user.email "price-bot@users.noreply.github.com"
+          git add models/
+          git commit -qm "grader trained $(date -u +%F)" && git pull --rebase && git push

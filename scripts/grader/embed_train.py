@@ -22,28 +22,41 @@ torch.manual_seed(7); random.seed(7); np.random.seed(7)
 torch.set_num_threads(os.cpu_count() or 4)
 
 
-def embed_all(rows):
-    cache = os.path.join(DATA, "feats.npz")
-    if os.path.exists(cache):
-        z = np.load(cache)
-        if len(z["X"]) == len(rows):
-            return z["X"]
+RES = int(os.environ.get("EMBED_RES", "280"))
+
+
+def embed_rows(rows, idx, out):
     import timm
-    m = timm.create_model("vit_small_patch14_dinov2.lvd142m", pretrained=True, num_classes=0, img_size=336).eval()
+    m = timm.create_model("vit_small_patch14_dinov2.lvd142m", pretrained=True, num_classes=0, img_size=RES).eval()
     mean = np.array([0.485, 0.456, 0.406], np.float32); std = np.array([0.229, 0.224, 0.225], np.float32)
-    X = np.zeros((len(rows), 8, 1152), np.float16)
+    X = np.zeros((len(idx), 8, 1152), np.float16)
     t0 = time.time()
-    for i, r in enumerate(rows):
-        imgs = [cv2.cvtColor(cv2.resize(cv2.imread(os.path.join(DATA, "crops", f)), (336, 336)), cv2.COLOR_BGR2RGB) for f in r["files"]]
+    for j, i in enumerate(idx):
+        r = rows[i]
+        imgs = [cv2.cvtColor(cv2.resize(cv2.imread(os.path.join(DATA, "crops", f)), (RES, RES)), cv2.COLOR_BGR2RGB) for f in r["files"]]
         x = (np.stack(imgs).astype(np.float32) / 255 - mean) / std
         with torch.no_grad():
             tok = m.forward_features(torch.from_numpy(x.transpose(0, 3, 1, 2)))
         cls, pt = tok[:, 0], tok[:, 1:]
-        X[i] = torch.cat([cls, pt.mean(1), pt.max(1).values], 1).numpy().astype(np.float16)
-        if i % 500 == 0:
-            print(f"embedded {i}/{len(rows)} photos, {time.time() - t0:.0f}s", flush=True)
-    np.savez_compressed(cache, X=X)
-    return X
+        X[j] = torch.cat([cls, pt.mean(1), pt.max(1).values], 1).numpy().astype(np.float16)
+        if j % 300 == 0:
+            print(f"embedded {j}/{len(idx)} photos, {time.time() - t0:.0f}s", flush=True)
+    np.savez_compressed(out, X=X, idx=np.array(idx))
+
+
+def embed_all(rows):
+    """Merge shard files feats_*.npz (from parallel jobs) or embed everything here."""
+    import glob
+    parts = sorted(glob.glob(os.path.join(DATA, "**", "feats_*.npz"), recursive=True))
+    if parts:
+        X = np.zeros((len(rows), 8, 1152), np.float16); got = np.zeros(len(rows), bool)
+        for f in parts:
+            z = np.load(f); X[z["idx"]] = z["X"]; got[z["idx"]] = True
+        print(f"merged {len(parts)} shards, {got.sum()}/{len(rows)} photos", flush=True)
+        return X, got
+    out = os.path.join(DATA, "feats_all.npz")
+    embed_rows(rows, list(range(len(rows))), out)
+    return np.load(out)["X"], np.ones(len(rows), bool)
 
 
 class Head(nn.Module):
@@ -68,7 +81,13 @@ def auc(y, p):
 def main():
     meta = json.load(open(os.path.join(DATA, "meta.json")))
     rows = meta["rows"]
-    X = embed_all(rows).astype(np.float32)
+    sh = os.environ.get("EMBED_SHARD")
+    if sh:
+        i, n = map(int, sh.split("/"))
+        embed_rows(rows, list(range(i, len(rows), n)), os.path.join(DATA, f"feats_{i}.npz"))
+        return
+    X, got = embed_all(rows)
+    rows = [r for r, k in zip(rows, got) if k]; X = X[got].astype(np.float32)
     g = np.array([r["grade"] for r in rows], np.float32)
     s = np.array([1 if r["side"] == "back" else 0 for r in rows])
     ids = sorted({r["iid"] for r in rows}); random.shuffle(ids)
