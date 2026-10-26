@@ -234,8 +234,19 @@ def sheet_row(img, card, label):
     return canvas
 
 
+def load_grader():
+    try:
+        sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "grader"))
+        from score import Grader
+        return Grader()
+    except Exception as e:   # grader is an extra signal; the photo check still runs without it
+        print("grader unavailable:", e)
+        return None
+
+
 def main():
     os.makedirs(os.path.join(OUT, "sheets"), exist_ok=True)
+    G = load_grader()
     H_ = {"Authorization": "Bearer " + token(), "X-EBAY-C-MARKETPLACE-ID": "EBAY_US"}
     res = {}
     for iid, c in candidates().items():
@@ -248,6 +259,14 @@ def main():
             img = fetch_img(u)
             if img is None:
                 continue
+            if G is not None:
+                try:
+                    gs = G.score(img)
+                except Exception:
+                    gs = None
+                if gs:
+                    gs["photo"] = n + 1
+                    info.setdefault("grader", []).append(gs)
             card, px = find_card(img)
             kind = band_kind(card) if card is not None else None
             if kind is None:
@@ -270,6 +289,15 @@ def main():
             rows.append(sheet_row(img, card, lab))
         if not info["backs"]:
             info["flags"].append("no measurable back photo (check by eye; none at all = fail)")
+        gr = info.get("grader") or []
+        if gr:
+            worst = min(gr, key=lambda x: x["p8"])
+            info["graderP8"] = worst["p8"]; info["graderGrade"] = min(x["grade"] for x in gr)
+            if worst["p8"] < 0.4:
+                info["flags"].append(f"grader: likely PSA 7 or lower (P8+ {worst['p8']}, est. PSA {worst['grade']}, photo {worst['photo']})")
+            rows.insert(0, np.full((34, 900, 3), 255, np.uint8))
+            cv2.putText(rows[0], f"GRADER (PSA-trained): worst photo P(PSA 8+) {worst['p8']}, est. PSA {info['graderGrade']}", (6, 24),
+                        cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 160) if worst["p8"] < 0.4 else (0, 110, 0) if worst["p8"] >= 0.8 else (0, 0, 0), 1, cv2.LINE_AA)
         for b in info["backs"]:
             if max(b["sides"].values()) > 4.0 or max(b["corners"].values()) > 20.0:
                 info["flags"].append(f"back whitening (photo {b['photo']})")

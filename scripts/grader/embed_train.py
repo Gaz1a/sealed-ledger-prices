@@ -16,7 +16,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 
-DATA = sys.argv[1]
+DATA = sys.argv[1] if len(sys.argv) > 1 else "."
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 torch.manual_seed(7); random.seed(7); np.random.seed(7)
 torch.set_num_threads(os.cpu_count() or 4)
