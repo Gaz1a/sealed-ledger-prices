@@ -35,3 +35,13 @@ in the photos; TCGplayer "Near Mint" is the floor, not the target. Seller-stated
   accepts (log each verdict on the recs doc as photoCheck).
 - Front centering from border widths; n/a on full-art or borderless cards.
 - Card height in pixels: under 700px is too small to judge edges.
+
+## Grader score (models/grader_v2.pt, scripts/grader/)
+- Our own model, trained on ~18,000 photos of PSA-slabbed Pokemon cards (PSA 1-10, grade from the title),
+  tested on 1,888 listings it never saw: AUC 0.85 for "PSA 8+ vs 7 or lower"; a score of 0.8+ was PSA 8+
+  81% of the time, 0.9+ 87%. Per listing the worst photo counts (graderP8 in checks.json).
+- Rule: a raw-card buy needs a visual PASS **and** graderP8 >= 0.7. Under 0.4 is a veto even if the card
+  looks fine. 0.4-0.7 = BORDERLINE at best. No score (card not isolated, photo too small) = the visual check
+  decides alone.
+- Learned from slabbed cards, so raw-card photos are slightly out of its comfort zone: it is one signal next
+  to the eye, never the only one. Retrain with scripts/grader (collect -> embed -> train workflows).
