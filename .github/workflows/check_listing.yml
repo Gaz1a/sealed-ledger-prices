@@ -3,7 +3,7 @@ name: Check a listing
 # Runs the photo check + PSA-trained grader on that one listing, replies on the issue, closes it.
 on:
   issues:
-    types: [opened, labeled]
+    types: [opened]
   workflow_dispatch:
     inputs:
       url: { description: "eBay listing link", required: true }
@@ -13,7 +13,7 @@ permissions:
 concurrency: { group: check-listing, cancel-in-progress: false }
 jobs:
   check:
-    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.labels.*.name, 'check')
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.labels.*.name, 'check') || startsWith(github.event.issue.title, 'Check')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
