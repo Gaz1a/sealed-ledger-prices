@@ -9,6 +9,7 @@ at flag time (price0) with each later point.
 
 Usage: python3 -I scripts/wait_study.py <export dir with ledger/*.json [and recs/*.json]> [out.json]
 Prints a plain summary; writes the numbers to out.json if given."""
+import json,glob,datetime as dt,statistics as st,sys,collections
 D=sys.argv[1]
 def tier(m): return 1.0 if m<10 else .9 if m<100 else .85 if m<300 else .8
 def seg_kind(d):
