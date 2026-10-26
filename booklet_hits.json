@@ -135,7 +135,7 @@
  },
  "retailerInStock": [],
  "retailerCheck": {
-  "generated": "2026-10-25",
+  "generated": "2026-10-26",
   "sites": {
    "devir.pt": {
     "robots": "DISALLOWED (skipped)",
@@ -178,7 +178,7 @@
   "productsChecked": 11,
   "note": "in-stock retail copies under EUR 30 are listed here first; sites marked DISALLOWED/JS-only are skipped, not worked around"
  },
- "generated": "2026-10-25",
+ "generated": "2026-10-26",
  "label": "unverified: asking prices, not sold; import cost is an ESTIMATE",
  "assumptions": {
   "importEstimatePct": 0.12,
@@ -193,11 +193,11 @@
   ]
  },
  "diagnostics": {
-  "calls": 948,
+  "calls": 947,
   "errors": {},
   "watchCheck": {
    "800795730845": "NOT FLAGGED",
-   "287654059500": "flagged"
+   "287654059500": "NOT FLAGGED"
   }
  },
  "flags": [
@@ -213,22 +213,22 @@
    "capBasis": null,
    "capLabel": "no cap: market tracking, every live sealed listing flagged",
    "reasons": [
-    "no cap: live sealed Portuguese auction, current bid $52.95 (10 bids) + shipping $14.99"
+    "no cap: live sealed Portuguese auction, current bid $0.98 (0 bids) + shipping unknown"
    ],
-   "bidCount": 10,
-   "currentBidUSD": 52.95,
+   "bidCount": 0,
+   "currentBidUSD": 0.98,
    "maxWinningBidUSD": null,
-   "allInAtCurrentBidUSD": 67.94,
-   "allInStatus": "known",
-   "shippingUSD": 14.99,
+   "allInAtCurrentBidUSD": null,
+   "allInStatus": "shipping unknown",
+   "shippingUSD": null,
    "importEstUSD": 0.0,
-   "itemEndDate": "2026-10-25T19:00:01.000Z",
-   "title": "Mazzo Mezzo Tema Pokémon Portoghese EX Forze Invisibili 2006 HOOH - Sigillato in fabbrica",
-   "seller": "teamrocketgiovanni",
+   "itemEndDate": "2026-11-02T04:43:41.000Z",
+   "title": "Pokemon Portoghese EX Forze Invisibili Ho-Oh Libro Sigillato 30 Carte Holo Vintage",
+   "seller": "luckywhiskercollectibles",
    "feedbackPct": "100.0",
-   "feedbackScore": 23703,
+   "feedbackScore": 629,
    "itemLocation": "US",
-   "url": "https://www.ebay.it/itm/287654059500",
+   "url": "https://www.ebay.it/itm/287680192101",
    "readyToBuy": false,
    "readyNote": "auction: place a bid at or below maxWinningBidUSD; not a buy-now",
    "sellerNote": null
@@ -302,7 +302,7 @@
    "title": "Mazzo Mezzo Tema Pokémon Portoghese EX Forze Invisibili 2006 HOOH - Sigillato in fabbrica",
    "seller": "teamrocketgiovanni",
    "feedbackPct": "100.0",
-   "feedbackScore": 23703,
+   "feedbackScore": 23706,
    "itemLocation": "US",
    "sealedBasis": "title says sealed/new",
    "url": "https://www.ebay.it/itm/287654058533",
@@ -528,6 +528,48 @@
    "sellerNote": null
   },
   {
+   "id": "bk-hooh",
+   "name": "Ho-Oh",
+   "kind": "buy-it-now",
+   "noCap": true,
+   "usBased": false,
+   "bidCount": 0,
+   "itemEndDate": null,
+   "originCountry": "BR",
+   "marketplace": "EBAY_US",
+   "capUSD": null,
+   "capBasis": null,
+   "capLabel": "no cap: market tracking, every live sealed listing flagged",
+   "reasons": [
+    "no cap: live sealed Portuguese listing"
+   ],
+   "new": true,
+   "allInUSD": 212.8,
+   "allInStatus": "known",
+   "itemOnlyLowerBoundUSD": 172.8,
+   "maxShippingForCapUSD": null,
+   "itemUSD": 150.0,
+   "shippingUSD": 40.0,
+   "importEstUSD": 22.8,
+   "title": "Pokemon Portuguese EX Unseen Forces Ho-Oh! Picture Book Half Deck Rare Sealed",
+   "seller": "discoverycards",
+   "feedbackPct": "100.0",
+   "feedbackScore": 34,
+   "itemLocation": "BR",
+   "sealedBasis": "title says sealed/new",
+   "url": "https://www.ebay.com/itm/366761998610",
+   "reference": {
+    "allInUSD": 175.49,
+    "itemUSD": 149.7,
+    "date": "2026-10-21",
+    "url": "https://www.ebay.it/itm/800060100333",
+    "title": "Pokemon Ho-Oh 30 Carte Mini Deck Portoghese Sigillato EX Forze Invisibili Vintage Raro"
+   },
+   "readyToBuy": true,
+   "readyNote": "ships to US (eBay deliveryCountry:US filter) with known shipping",
+   "sellerNote": null
+  },
+  {
    "id": "bk-lugia",
    "name": "Lugia",
    "kind": "buy-it-now",
@@ -554,7 +596,7 @@
    "title": "2006 Pokémon Portuguese EX Unseen Forces Lugia Half Theme Deck- Factory Sealed",
    "seller": "teamrocketgiovanni",
    "feedbackPct": "100.0",
-   "feedbackScore": 23703,
+   "feedbackScore": 23706,
    "itemLocation": "US",
    "sealedBasis": "title says sealed/new",
    "url": "https://www.ebay.com/itm/287654072818",
@@ -698,6 +740,38 @@
   {
    "id": "bk-ralts",
    "name": "Ralts",
+   "kind": "auction",
+   "noCap": true,
+   "usBased": true,
+   "originCountry": "US",
+   "marketplace": "EBAY_IT",
+   "capUSD": null,
+   "capBasis": null,
+   "capLabel": "no cap: market tracking, every live sealed listing flagged",
+   "reasons": [
+    "no cap: live sealed Portuguese auction, current bid $0.98 (0 bids) + shipping unknown"
+   ],
+   "bidCount": 0,
+   "currentBidUSD": 0.98,
+   "maxWinningBidUSD": null,
+   "allInAtCurrentBidUSD": null,
+   "allInStatus": "shipping unknown",
+   "shippingUSD": null,
+   "importEstUSD": 0.0,
+   "itemEndDate": "2026-11-02T04:41:00.000Z",
+   "title": "2006 POKEMON RALTS EX Rubino e Zaffiro Half Deck Libro Portoghese Portogallo SIGILLATO",
+   "seller": "luckywhiskercollectibles",
+   "feedbackPct": "100.0",
+   "feedbackScore": 629,
+   "itemLocation": "US",
+   "url": "https://www.ebay.it/itm/287680185310",
+   "readyToBuy": false,
+   "readyNote": "auction: place a bid at or below maxWinningBidUSD; not a buy-now",
+   "sellerNote": null
+  },
+  {
+   "id": "bk-ralts",
+   "name": "Ralts",
    "kind": "buy-it-now",
    "noCap": true,
    "usBased": true,
@@ -722,7 +796,7 @@
    "title": "2004 Pokémon Portuguese EX Ruby & Sapphire Ralts Half Theme Deck- Factory Sealed",
    "seller": "teamrocketgiovanni",
    "feedbackPct": "100.0",
-   "feedbackScore": 23703,
+   "feedbackScore": 23706,
    "itemLocation": "US",
    "sealedBasis": "title says sealed/new",
    "url": "https://www.ebay.com/itm/287654063952",
@@ -812,46 +886,36 @@
    "sellerNote": "seller has 0 feedback"
   },
   {
-   "id": "bk-ralts",
-   "name": "Ralts",
-   "kind": "buy-it-now",
+   "id": "bk-treecko",
+   "name": "Treecko",
+   "kind": "auction",
    "noCap": true,
-   "usBased": false,
-   "bidCount": 0,
-   "itemEndDate": null,
-   "originCountry": "PT",
+   "usBased": true,
+   "originCountry": "US",
    "marketplace": "EBAY_IT",
    "capUSD": null,
    "capBasis": null,
    "capLabel": "no cap: market tracking, every live sealed listing flagged",
    "reasons": [
-    "no cap: live sealed Portuguese listing"
+    "no cap: live sealed Portuguese auction, current bid $0.98 (0 bids) + shipping unknown"
    ],
-   "new": false,
-   "allInUSD": 55.97,
-   "allInStatus": "known",
-   "itemOnlyLowerBoundUSD": 37.98,
-   "maxShippingForCapUSD": null,
-   "itemUSD": 31.98,
-   "shippingUSD": 17.99,
-   "importEstUSD": 6.0,
-   "title": "Pokémon TCG Portoghese Scatola Illustrazione Vintage Mezzo Deck - Ralts - SIGILLATO",
-   "seller": "figue_239",
-   "feedbackPct": "0.0",
-   "feedbackScore": 0,
-   "itemLocation": "PT",
-   "sealedBasis": "title says sealed/new",
-   "url": "https://www.ebay.it/itm/336808252486",
-   "reference": {
-    "allInUSD": 55.9,
-    "itemUSD": 31.94,
-    "date": "2026-10-21",
-    "url": "https://www.ebay.it/itm/336808252486",
-    "title": "Pokémon TCG Portoghese Scatola Illustrazione Vintage Mezzo Deck - Ralts - SIGILLATO"
-   },
-   "readyToBuy": true,
-   "readyNote": "ships to US (eBay deliveryCountry:US filter) with known shipping",
-   "sellerNote": "seller has 0 feedback"
+   "bidCount": 0,
+   "currentBidUSD": 0.98,
+   "maxWinningBidUSD": null,
+   "allInAtCurrentBidUSD": null,
+   "allInStatus": "shipping unknown",
+   "shippingUSD": null,
+   "importEstUSD": 0.0,
+   "itemEndDate": "2026-11-02T04:41:33.000Z",
+   "title": "2004 POKEMON TCG TREECKO EX Rubino e Zaffiro Half Deck Libro Portoghese SIGILLATO",
+   "seller": "luckywhiskercollectibles",
+   "feedbackPct": "100.0",
+   "feedbackScore": 629,
+   "itemLocation": "US",
+   "url": "https://www.ebay.it/itm/287680186649",
+   "readyToBuy": false,
+   "readyNote": "auction: place a bid at or below maxWinningBidUSD; not a buy-now",
+   "sellerNote": null
   },
   {
    "id": "bk-treecko",
@@ -928,6 +992,21 @@
  ],
  "notSealed": [
   {
+   "id": "bk-hooh",
+   "name": "Ho-Oh",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "Neuf/Scellé",
+   "itemUSD": 217.19,
+   "shippingUSD": 22.27,
+   "shippingUnknown": false,
+   "title": "Devir Livraria Pokémon JCC ex Forças Ocultas Ho-Oh Kit livre +30 cartes",
+   "seller": "antjim4607",
+   "feedbackPct": "0.0",
+   "itemLocation": "FR",
+   "url": "https://www.ebay.fr/itm/366760470772"
+  },
+  {
    "id": "bk-lugia",
    "name": "Lugia",
    "reason": "opened/unspecified condition",
@@ -986,6 +1065,21 @@
    "feedbackPct": "100.0",
    "itemLocation": "PT",
    "url": "https://www.ebay.com/itm/960048558504"
+  },
+  {
+   "id": "bk-lugia",
+   "name": "Lugia",
+   "reason": "opened/unspecified condition",
+   "sealedBasis": "unconfirmed",
+   "condition": "New/Factory Sealed",
+   "itemUSD": 224.82,
+   "shippingUSD": null,
+   "shippingUnknown": true,
+   "title": "Pokemon Portoghese EX Forze Invisibili Lugia Libro Vintage 30 Carte Sigillate ",
+   "seller": "luckywhiskercollectibles",
+   "feedbackPct": "100.0",
+   "itemLocation": "US",
+   "url": "https://www.ebay.it/itm/287680193633"
   },
   {
    "id": "bk-ralts",
@@ -1123,11 +1217,11 @@
    "capBasis": null,
    "capLabel": "no cap: market tracking, every live sealed listing flagged",
    "auctionsToday": 7,
-   "foundToday": 7,
-   "sealedToday": 7,
-   "notSealedToday": 0,
-   "distinctEverSeen": 8,
-   "sealedEverSeen": 6,
+   "foundToday": 9,
+   "sealedToday": 8,
+   "notSealedToday": 1,
+   "distinctEverSeen": 10,
+   "sealedEverSeen": 7,
    "reference": {
     "allInUSD": 175.49,
     "itemUSD": 149.7,
@@ -1141,7 +1235,7 @@
    "cardmarketId": 755664,
    "cardmarketProduct": "EX Unseen Forces: Illustrated Booklet - Ho-Oh",
    "liveSealedUS": 3,
-   "liveSealedInternational": 5,
+   "liveSealedInternational": 6,
    "noCap": true
   },
   "bk-lugia": {
@@ -1151,10 +1245,10 @@
    "capBasis": null,
    "capLabel": "no cap: market tracking, every live sealed listing flagged",
    "auctionsToday": 3,
-   "foundToday": 8,
+   "foundToday": 9,
    "sealedToday": 4,
-   "notSealedToday": 4,
-   "distinctEverSeen": 8,
+   "notSealedToday": 5,
+   "distinctEverSeen": 9,
    "sealedEverSeen": 3,
    "reference": {
     "allInUSD": 227.98,
@@ -1228,9 +1322,9 @@
    "capUSD": null,
    "capBasis": null,
    "capLabel": "no cap: market tracking, every live sealed listing flagged",
-   "auctionsToday": 3,
-   "foundToday": 5,
-   "sealedToday": 3,
+   "auctionsToday": 4,
+   "foundToday": 4,
+   "sealedToday": 2,
    "notSealedToday": 2,
    "distinctEverSeen": 6,
    "sealedEverSeen": 3,
@@ -1246,8 +1340,8 @@
    "cardmarketTarget85": 19.93,
    "cardmarketId": 755666,
    "cardmarketProduct": "EX Ruby & Sapphire: Illustrated Booklet - Ralts",
-   "liveSealedUS": 2,
-   "liveSealedInternational": 2,
+   "liveSealedUS": 3,
+   "liveSealedInternational": 1,
    "noCap": true
   },
   "bk-treecko": {
@@ -1256,7 +1350,7 @@
    "capUSD": null,
    "capBasis": null,
    "capLabel": "no cap: market tracking, every live sealed listing flagged",
-   "auctionsToday": 5,
+   "auctionsToday": 6,
    "foundToday": 4,
    "sealedToday": 2,
    "notSealedToday": 2,
@@ -1268,7 +1362,7 @@
    "cardmarketTarget85": 20.94,
    "cardmarketId": 755665,
    "cardmarketProduct": "EX Ruby & Sapphire: Illustrated Booklet - Treecko",
-   "liveSealedUS": 0,
+   "liveSealedUS": 1,
    "liveSealedInternational": 2,
    "noCap": true
   },
@@ -1366,12 +1460,12 @@
    "capUSD": 63.86,
    "capBasis": "85% of median sold item+shipping, 12 months (eBay Product Research); owned - reference only, never flagged",
    "capLabel": null,
-   "auctionsToday": 0,
-   "foundToday": 9,
-   "sealedToday": 6,
+   "auctionsToday": 2,
+   "foundToday": 11,
+   "sealedToday": 8,
    "notSealedToday": 3,
-   "distinctEverSeen": 10,
-   "sealedEverSeen": 7,
+   "distinctEverSeen": 12,
+   "sealedEverSeen": 9,
    "reference": null,
    "max": 63.86,
    "cardmarketTrendUSD": 45.75,
@@ -1496,6 +1590,27 @@
      "feedbackScore": 4
     },
     {
+     "title": "Pokemon Portuguese EX Unseen Forces Ho-Oh! Picture Book Half Deck Rare Sealed",
+     "url": "https://www.ebay.com/itm/366761998610",
+     "marketplace": "EBAY_US",
+     "itemUSD": 150.0,
+     "shippingUSD": 40.0,
+     "shipUnknown": false,
+     "importEstUSD": 22.8,
+     "allInUSD": 212.8,
+     "originCountry": "BR",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": null,
+     "sealed": true,
+     "auction": false,
+     "bidCount": 0,
+     "matchedBy": "broad",
+     "sealedBasis": "title says sealed/new",
+     "seller": "discoverycards",
+     "feedbackPct": "100.0",
+     "feedbackScore": 34
+    },
+    {
      "title": "HO-OH HOLO UNSEEN FORCES Theme Deck Sealed ex forcas ocultas PORTUGESE POKEMON",
      "url": "https://www.ebay.com/itm/336756608947",
      "marketplace": "EBAY_US",
@@ -1535,10 +1650,52 @@
      "sealedBasis": "title says sealed/new",
      "seller": "teamrocketgiovanni",
      "feedbackPct": "100.0",
-     "feedbackScore": 23703
+     "feedbackScore": 23706
+    },
+    {
+     "title": "Devir Livraria Pokémon JCC ex Forças Ocultas Ho-Oh Kit livre +30 cartes",
+     "url": "https://www.ebay.fr/itm/366760470772",
+     "marketplace": "EBAY_FR",
+     "itemUSD": 217.19,
+     "shippingUSD": 22.27,
+     "shipUnknown": false,
+     "importEstUSD": 28.74,
+     "allInUSD": 268.2,
+     "originCountry": "FR",
+     "condition": "Neuf/Scellé",
+     "itemEndDate": null,
+     "sealed": false,
+     "auction": false,
+     "bidCount": 0,
+     "matchedBy": "isbn-gtin",
+     "sealedBasis": "unconfirmed",
+     "seller": "antjim4607",
+     "feedbackPct": "0.0",
+     "feedbackScore": 4
     }
    ],
    "auctions": [
+    {
+     "title": "Pokemon Portoghese EX Forze Invisibili Ho-Oh Libro Sigillato 30 Carte Holo Vintage",
+     "url": "https://www.ebay.it/itm/287680192101",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 0.98,
+     "shippingUSD": null,
+     "shipUnknown": true,
+     "importEstUSD": 0.0,
+     "allInUSD": 0.98,
+     "originCountry": "US",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": "2026-11-02T04:43:41.000Z",
+     "sealed": true,
+     "auction": true,
+     "bidCount": 0,
+     "matchedBy": "title",
+     "sealedBasis": "title says sealed/new",
+     "seller": "luckywhiskercollectibles",
+     "feedbackPct": "100.0",
+     "feedbackScore": 629
+    },
     {
      "title": "#2 Pokemon Portuguese EX Unseen Forces Ho-Oh! Picture Book Half Deck",
      "url": "https://www.ebay.com/itm/800826807440",
@@ -1558,7 +1715,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "probstein123",
      "feedbackPct": "99.6",
-     "feedbackScore": 1738528
+     "feedbackScore": 1738684
     },
     {
      "title": "#3 Pokemon Portuguese EX Unseen Forces Ho-Oh! Picture Book Half Deck",
@@ -1579,7 +1736,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "probstein123",
      "feedbackPct": "99.6",
-     "feedbackScore": 1738528
+     "feedbackScore": 1738684
     },
     {
      "title": "#4 Pokemon Portuguese EX Unseen Forces Ho-Oh! Picture Book Half Deck",
@@ -1600,7 +1757,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "probstein123",
      "feedbackPct": "99.6",
-     "feedbackScore": 1738528
+     "feedbackScore": 1738684
     },
     {
      "title": "#5 Pokemon Portuguese EX Unseen Forces Ho-Oh! Picture Book Half Deck",
@@ -1621,28 +1778,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "probstein123",
      "feedbackPct": "99.6",
-     "feedbackScore": 1738528
-    },
-    {
-     "title": "#1 Pokemon Portuguese EX Unseen Forces Ho-Oh! Picture Book Half Deck",
-     "url": "https://www.ebay.com/itm/366753227478",
-     "marketplace": "EBAY_US",
-     "itemUSD": 0.99,
-     "shippingUSD": 16.0,
-     "shipUnknown": false,
-     "importEstUSD": 0.0,
-     "allInUSD": 16.99,
-     "originCountry": "US",
-     "condition": "New/Factory Sealed",
-     "itemEndDate": "2026-10-30T03:15:01.000Z",
-     "sealed": false,
-     "auction": true,
-     "bidCount": 1,
-     "matchedBy": "broad",
-     "sealedBasis": "unconfirmed",
-     "seller": "probstein123",
-     "feedbackPct": "99.6",
-     "feedbackScore": 1738528
+     "feedbackScore": 1738684
     },
     {
      "title": "#6 Pokemon Portuguese EX Unseen Forces Ho-Oh! Picture Book Half Deck",
@@ -1663,28 +1799,28 @@
      "sealedBasis": "unconfirmed",
      "seller": "probstein123",
      "feedbackPct": "99.6",
-     "feedbackScore": 1738528
+     "feedbackScore": 1738684
     },
     {
-     "title": "Mazzo Mezzo Tema Pokémon Portoghese EX Forze Invisibili 2006 HOOH - Sigillato in fabbrica",
-     "url": "https://www.ebay.it/itm/287654059500",
-     "marketplace": "EBAY_IT",
-     "itemUSD": 52.95,
-     "shippingUSD": 14.99,
+     "title": "#1 Pokemon Portuguese EX Unseen Forces Ho-Oh! Picture Book Half Deck",
+     "url": "https://www.ebay.com/itm/366753227478",
+     "marketplace": "EBAY_US",
+     "itemUSD": 0.99,
+     "shippingUSD": 16.0,
      "shipUnknown": false,
      "importEstUSD": 0.0,
-     "allInUSD": 67.94,
+     "allInUSD": 16.99,
      "originCountry": "US",
      "condition": "New/Factory Sealed",
-     "itemEndDate": "2026-10-25T19:00:01.000Z",
-     "sealed": true,
+     "itemEndDate": "2026-10-30T03:15:01.000Z",
+     "sealed": false,
      "auction": true,
-     "bidCount": 10,
-     "matchedBy": "isbn-gtin",
-     "sealedBasis": "title says sealed/new",
-     "seller": "teamrocketgiovanni",
-     "feedbackPct": "100.0",
-     "feedbackScore": 23703
+     "bidCount": 1,
+     "matchedBy": "broad",
+     "sealedBasis": "unconfirmed",
+     "seller": "probstein123",
+     "feedbackPct": "99.6",
+     "feedbackScore": 1738684
     }
    ]
   },
@@ -1709,7 +1845,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "asonlinestore",
      "feedbackPct": "100.0",
-     "feedbackScore": 17
+     "feedbackScore": 18
     },
     {
      "title": "Lugia Artwork - EX Unseen Forces - Half Deck Book ! (Portuguese) ￼Sealed 💎 Rare",
@@ -1751,7 +1887,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "lcmgtradingcards",
      "feedbackPct": "99.9",
-     "feedbackScore": 15550
+     "feedbackScore": 15572
     },
     {
      "title": "Carta Lugia 29/115 W Collezione Portoghese Ex Forze Ocultas (SOLO UNA SU EBAY)",
@@ -1838,6 +1974,27 @@
      "feedbackScore": 255
     },
     {
+     "title": "Pokemon Portoghese EX Forze Invisibili Lugia Libro Vintage 30 Carte Sigillate ",
+     "url": "https://www.ebay.it/itm/287680193633",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 224.82,
+     "shippingUSD": null,
+     "shipUnknown": true,
+     "importEstUSD": 0.0,
+     "allInUSD": 224.82,
+     "originCountry": "US",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": null,
+     "sealed": false,
+     "auction": false,
+     "bidCount": 0,
+     "matchedBy": "title",
+     "sealedBasis": "unconfirmed",
+     "seller": "luckywhiskercollectibles",
+     "feedbackPct": "100.0",
+     "feedbackScore": 629
+    },
+    {
      "title": "2006 Pokémon Portuguese EX Unseen Forces Lugia Half Theme Deck- Factory Sealed",
      "url": "https://www.ebay.com/itm/287654072818",
      "marketplace": "EBAY_US",
@@ -1856,7 +2013,7 @@
      "sealedBasis": "title says sealed/new",
      "seller": "teamrocketgiovanni",
      "feedbackPct": "100.0",
-     "feedbackScore": 23703
+     "feedbackScore": 23706
     }
    ],
    "auctions": [
@@ -1874,33 +2031,12 @@
      "itemEndDate": "2026-10-30T03:12:01.000Z",
      "sealed": false,
      "auction": true,
-     "bidCount": 0,
+     "bidCount": 2,
      "matchedBy": "broad",
      "sealedBasis": "unconfirmed",
      "seller": "probstein123",
      "feedbackPct": "99.6",
-     "feedbackScore": 1738528
-    },
-    {
-     "title": "#2 Pokemon Portuguese EX Unseen Forces Lugia Picture Book Half Deck",
-     "url": "https://www.ebay.com/itm/377590731641",
-     "marketplace": "EBAY_US",
-     "itemUSD": 0.99,
-     "shippingUSD": 16.0,
-     "shipUnknown": false,
-     "importEstUSD": 0.0,
-     "allInUSD": 16.99,
-     "originCountry": "US",
-     "condition": "New/Factory Sealed",
-     "itemEndDate": "2026-10-30T03:09:01.000Z",
-     "sealed": false,
-     "auction": true,
-     "bidCount": 1,
-     "matchedBy": "broad",
-     "sealedBasis": "unconfirmed",
-     "seller": "probstein123",
-     "feedbackPct": "99.6",
-     "feedbackScore": 1738528
+     "feedbackScore": 1738684
     },
     {
      "title": "#1 Pokemon Portuguese EX Unseen Forces Lugia Picture Book Half Deck",
@@ -1921,7 +2057,28 @@
      "sealedBasis": "unconfirmed",
      "seller": "probstein123",
      "feedbackPct": "99.6",
-     "feedbackScore": 1738528
+     "feedbackScore": 1738684
+    },
+    {
+     "title": "#2 Pokemon Portuguese EX Unseen Forces Lugia Picture Book Half Deck",
+     "url": "https://www.ebay.com/itm/377590731641",
+     "marketplace": "EBAY_US",
+     "itemUSD": 66.0,
+     "shippingUSD": 16.0,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 82.0,
+     "originCountry": "US",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": "2026-10-30T03:09:01.000Z",
+     "sealed": false,
+     "auction": true,
+     "bidCount": 4,
+     "matchedBy": "broad",
+     "sealedBasis": "unconfirmed",
+     "seller": "probstein123",
+     "feedbackPct": "99.6",
+     "feedbackScore": 1738684
     }
    ]
   },
@@ -1953,27 +2110,6 @@
      "matchedBy": "title",
      "sealedBasis": "unconfirmed",
      "seller": "fafiti",
-     "feedbackPct": "0.0",
-     "feedbackScore": 0
-    },
-    {
-     "title": "Pokémon TCG Portoghese Scatola Illustrazione Vintage Mezzo Deck - Ralts - SIGILLATO",
-     "url": "https://www.ebay.it/itm/336808252486",
-     "marketplace": "EBAY_IT",
-     "itemUSD": 31.98,
-     "shippingUSD": 17.99,
-     "shipUnknown": false,
-     "importEstUSD": 6.0,
-     "allInUSD": 55.97,
-     "originCountry": "PT",
-     "condition": "New/Factory Sealed",
-     "itemEndDate": null,
-     "sealed": true,
-     "auction": false,
-     "bidCount": 0,
-     "matchedBy": "broad",
-     "sealedBasis": "title says sealed/new",
-     "seller": "figue_239",
      "feedbackPct": "0.0",
      "feedbackScore": 0
     },
@@ -2017,7 +2153,7 @@
      "sealedBasis": "title says sealed/new",
      "seller": "teamrocketgiovanni",
      "feedbackPct": "100.0",
-     "feedbackScore": 23703
+     "feedbackScore": 23706
     },
     {
      "title": "2006 POKEMON RALTS EX Rubino e Zaffiro Half Deck Libro Portoghese Portogallo SIGILLATO",
@@ -2043,6 +2179,27 @@
    ],
    "auctions": [
     {
+     "title": "2006 POKEMON RALTS EX Rubino e Zaffiro Half Deck Libro Portoghese Portogallo SIGILLATO",
+     "url": "https://www.ebay.it/itm/287680185310",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 0.98,
+     "shippingUSD": null,
+     "shipUnknown": true,
+     "importEstUSD": 0.0,
+     "allInUSD": 0.98,
+     "originCountry": "US",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": "2026-11-02T04:41:00.000Z",
+     "sealed": true,
+     "auction": true,
+     "bidCount": 0,
+     "matchedBy": "broad",
+     "sealedBasis": "title says sealed/new",
+     "seller": "luckywhiskercollectibles",
+     "feedbackPct": "100.0",
+     "feedbackScore": 629
+    },
+    {
      "title": "#2 Pokemon Portuguese EX Ruby & Sapphire Ralts Half Theme Deck & Picture Book",
      "url": "https://www.ebay.com/itm/800826784764",
      "marketplace": "EBAY_US",
@@ -2061,7 +2218,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "probstein123",
      "feedbackPct": "99.6",
-     "feedbackScore": 1738528
+     "feedbackScore": 1738684
     },
     {
      "title": "#1 Pokemon Portuguese EX Ruby & Sapphire Ralts Half Theme Deck & Picture Book",
@@ -2082,7 +2239,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "probstein123",
      "feedbackPct": "99.6",
-     "feedbackScore": 1738528
+     "feedbackScore": 1738684
     },
     {
      "title": "2006 POKEMON RALTS EX Ruby & Sapphire Half Deck Book Portuguese Portugal SEALED",
@@ -2196,25 +2353,25 @@
    ],
    "auctions": [
     {
-     "title": "#3 Pokemon Portuguese EX Ruby & Sapphire Treecko Picture Book Half Deck",
-     "url": "https://www.ebay.com/itm/800826793658",
-     "marketplace": "EBAY_US",
-     "itemUSD": 0.99,
-     "shippingUSD": 16.0,
-     "shipUnknown": false,
+     "title": "2004 POKEMON TCG TREECKO EX Rubino e Zaffiro Half Deck Libro Portoghese SIGILLATO",
+     "url": "https://www.ebay.it/itm/287680186649",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 0.98,
+     "shippingUSD": null,
+     "shipUnknown": true,
      "importEstUSD": 0.0,
-     "allInUSD": 16.99,
+     "allInUSD": 0.98,
      "originCountry": "US",
      "condition": "New/Factory Sealed",
-     "itemEndDate": "2026-10-30T02:55:01.000Z",
-     "sealed": false,
+     "itemEndDate": "2026-11-02T04:41:33.000Z",
+     "sealed": true,
      "auction": true,
      "bidCount": 0,
      "matchedBy": "broad",
-     "sealedBasis": "unconfirmed",
-     "seller": "probstein123",
-     "feedbackPct": "99.6",
-     "feedbackScore": 1738528
+     "sealedBasis": "title says sealed/new",
+     "seller": "luckywhiskercollectibles",
+     "feedbackPct": "100.0",
+     "feedbackScore": 629
     },
     {
      "title": "#5 Pokemon Portuguese EX Ruby & Sapphire Treecko Picture Book Half Deck",
@@ -2235,7 +2392,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "probstein123",
      "feedbackPct": "99.6",
-     "feedbackScore": 1738528
+     "feedbackScore": 1738684
     },
     {
      "title": "#4 Pokemon Portuguese EX Ruby & Sapphire Treecko Picture Book Half Deck",
@@ -2256,7 +2413,28 @@
      "sealedBasis": "unconfirmed",
      "seller": "probstein123",
      "feedbackPct": "99.6",
-     "feedbackScore": 1738528
+     "feedbackScore": 1738684
+    },
+    {
+     "title": "#3 Pokemon Portuguese EX Ruby & Sapphire Treecko Picture Book Half Deck",
+     "url": "https://www.ebay.com/itm/800826793658",
+     "marketplace": "EBAY_US",
+     "itemUSD": 0.99,
+     "shippingUSD": 16.0,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 16.99,
+     "originCountry": "US",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": "2026-10-30T02:55:01.000Z",
+     "sealed": false,
+     "auction": true,
+     "bidCount": 1,
+     "matchedBy": "broad",
+     "sealedBasis": "unconfirmed",
+     "seller": "probstein123",
+     "feedbackPct": "99.6",
+     "feedbackScore": 1738684
     },
     {
      "title": "#2 Pokemon Portuguese EX Ruby & Sapphire Treecko Picture Book Half Deck",
@@ -2277,7 +2455,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "probstein123",
      "feedbackPct": "99.6",
-     "feedbackScore": 1738528
+     "feedbackScore": 1738684
     },
     {
      "title": "#1 Pokemon Portuguese EX Ruby & Sapphire Treecko Picture Book Half Deck",
@@ -2298,7 +2476,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "probstein123",
      "feedbackPct": "99.6",
-     "feedbackScore": 1738528
+     "feedbackScore": 1738684
     }
    ]
   },
@@ -2339,7 +2517,28 @@
      "sealedBasis": "unconfirmed",
      "seller": "lcmgtradingcards",
      "feedbackPct": "99.9",
-     "feedbackScore": 15550
+     "feedbackScore": 15572
+    },
+    {
+     "title": "Devir Livraria Pokémon JCC Origens das Lendas Gengar Deck scellé 30 cartes",
+     "url": "https://www.ebay.fr/itm/366760466318",
+     "marketplace": "EBAY_FR",
+     "itemUSD": 245.18,
+     "shippingUSD": 22.27,
+     "shipUnknown": false,
+     "importEstUSD": 32.09,
+     "allInUSD": 299.54,
+     "originCountry": "FR",
+     "condition": "Neuf/Scellé",
+     "itemEndDate": null,
+     "sealed": true,
+     "auction": false,
+     "bidCount": 0,
+     "matchedBy": "isbn-gtin",
+     "sealedBasis": "title says sealed/new",
+     "seller": "antjim4607",
+     "feedbackPct": "0.0",
+     "feedbackScore": 4
     },
     {
      "title": "Pokemon Legend Maker Half Deck Box W Gengar Holo Portuguese Sealed",
@@ -2402,7 +2601,28 @@
      "sealedBasis": "title says sealed/new",
      "seller": "teamrocketgiovanni",
      "feedbackPct": "100.0",
-     "feedbackScore": 23703
+     "feedbackScore": 23706
+    },
+    {
+     "title": "Pokemon 2007 Portoghese EX Legend Maker Gengar Libro Sigillato 30 Carte Holo Vintage",
+     "url": "https://www.ebay.it/itm/287680194444",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 299.75,
+     "shippingUSD": null,
+     "shipUnknown": true,
+     "importEstUSD": 0.0,
+     "allInUSD": 299.75,
+     "originCountry": "US",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": null,
+     "sealed": true,
+     "auction": false,
+     "bidCount": 0,
+     "matchedBy": "title",
+     "sealedBasis": "title says sealed/new",
+     "seller": "luckywhiskercollectibles",
+     "feedbackPct": "100.0",
+     "feedbackScore": 629
     },
     {
      "title": "PORTUGUESE GENGAR ILLUSTRATED BOOKLET/HALF DECK EX LEGEND MAKER FOREIGN POKEMON",
@@ -2510,7 +2730,50 @@
      "feedbackScore": 4370
     }
    ],
-   "auctions": []
+   "auctions": [
+    {
+     "title": "#2 Pokemon TCG Portoghese EX Legend Maker Gengar Libro Illustrato Half Deck",
+     "url": "https://www.ebay.it/itm/800836997684",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 0.98,
+     "shippingUSD": 15.98,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 16.96,
+     "originCountry": "US",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": "2026-11-02T03:00:01.000Z",
+     "sealed": false,
+     "auction": true,
+     "bidCount": 0,
+     "matchedBy": "broad",
+     "sealedBasis": "unconfirmed",
+     "seller": "probstein123",
+     "feedbackPct": "99.6",
+     "feedbackScore": 1738684
+    },
+    {
+     "title": "#1 Pokemon TCG Portoghese EX Legend Maker Gengar Libro Illustrato Half Deck",
+     "url": "https://www.ebay.it/itm/366760422781",
+     "marketplace": "EBAY_IT",
+     "itemUSD": 35.97,
+     "shippingUSD": 15.98,
+     "shipUnknown": false,
+     "importEstUSD": 0.0,
+     "allInUSD": 51.95,
+     "originCountry": "US",
+     "condition": "New/Factory Sealed",
+     "itemEndDate": "2026-11-02T04:00:01.000Z",
+     "sealed": false,
+     "auction": true,
+     "bidCount": 3,
+     "matchedBy": "broad",
+     "sealedBasis": "unconfirmed",
+     "seller": "probstein123",
+     "feedbackPct": "99.6",
+     "feedbackScore": 1738684
+    }
+   ]
   }
  },
  "market": {
@@ -2537,12 +2800,12 @@
    },
    "bk-hooh": {
     "name": "Ho-Oh",
-    "liveListings": 14,
-    "liveSealed": 8,
+    "liveListings": 17,
+    "liveSealed": 10,
     "askItemUSD": {
-     "low": 0.99,
-     "median": 44.39,
-     "high": 199.84
+     "low": 0.98,
+     "median": 52.95,
+     "high": 217.19
     },
     "cardmarketId": 755664,
     "cardmarketProduct": "EX Unseen Forces: Illustrated Booklet - Ho-Oh",
@@ -2551,15 +2814,15 @@
     "targetNote": null,
     "impliedSales": 1,
     "impliedSaleMedianUSD": 95.11,
-    "everSeen": 17
+    "everSeen": 20
    },
    "bk-lugia": {
     "name": "Lugia",
-    "liveListings": 11,
+    "liveListings": 12,
     "liveSealed": 4,
     "askItemUSD": {
      "low": 0.98,
-     "median": 140.6,
+     "median": 154.74,
      "high": 225.0
     },
     "cardmarketId": 698569,
@@ -2569,7 +2832,7 @@
     "targetNote": null,
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
-    "everSeen": 11
+    "everSeen": 12
    },
    "bk-machamp": {
     "name": "Machamp",
@@ -2612,8 +2875,8 @@
     "liveListings": 9,
     "liveSealed": 5,
     "askItemUSD": {
-     "low": 0.99,
-     "median": 31.98,
+     "low": 0.98,
+     "median": 31.34,
      "high": 174.86
     },
     "cardmarketId": 755666,
@@ -2623,15 +2886,15 @@
     "targetNote": null,
     "impliedSales": 1,
     "impliedSaleMedianUSD": 33.47,
-    "everSeen": 12
+    "everSeen": 13
    },
    "bk-treecko": {
     "name": "Treecko",
     "liveListings": 10,
     "liveSealed": 3,
     "askItemUSD": {
-     "low": 0.99,
-     "median": 14.48,
+     "low": 0.98,
+     "median": 0.99,
      "high": 69.93
     },
     "cardmarketId": 755665,
@@ -2641,7 +2904,7 @@
     "targetNote": null,
     "impliedSales": 0,
     "impliedSaleMedianUSD": null,
-    "everSeen": 11
+    "everSeen": 12
    },
    "bk-exploud": {
     "name": "Exploud",
@@ -2717,11 +2980,11 @@
    },
    "h-gengar-deck": {
     "name": "Gengar",
-    "liveListings": 9,
-    "liveSealed": 6,
+    "liveListings": 13,
+    "liveSealed": 8,
     "askItemUSD": {
-     "low": 210.9,
-     "median": 299.93,
+     "low": 0.98,
+     "median": 280.0,
      "high": 349.95
     },
     "cardmarketId": 695809,
@@ -2731,14 +2994,14 @@
     "targetNote": null,
     "impliedSales": 1,
     "impliedSaleMedianUSD": 151.27,
-    "everSeen": 10
+    "everSeen": 14
    }
   }
  },
  "totals": {
-  "foundToday": 33,
-  "sealedToday": 22,
-  "distinctEverSeen": 44,
+  "foundToday": 37,
+  "sealedToday": 24,
+  "distinctEverSeen": 49,
   "unownedRowsWithAnyListing": 4
  }
 }
