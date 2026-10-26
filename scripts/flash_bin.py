@@ -44,6 +44,47 @@ def words(s):
             if w.lower() not in {"pokemon", "the", "and", "box", "with", "pack", "packs", "card", "cards", "tcg"}]
 
 
+LANG = re.compile(r"\bjapanese\b|\bjapan\b|\bjpn?\b|\bkorean\b|\bchinese\b|\bs-chinese\b|\bt-chinese\b|\bthai\b|\bindonesian\b", re.I)
+REPRINT = re.compile(r"celebrations?|classic collection|25th|30th|anniversary|evolutions|reprint|base set 2|legendary collection", re.I)
+JUNK = re.compile(r"choose your|you pick|pick your|\bsleeves?\b|acrylic|protector|\bcase\b|magnetic|display stand|\bempty\b|"
+                  r"\bproxy\b|\bcoin\b|\bdice\b|\bmetal\b|\bgold\b|playmat|binder|\blot\b", re.I)
+TYPES = [("booster box", r"booster box|booster display|display box|\b36 packs?\b"),
+         ("booster bundle", r"booster bundle|\bbundle\b"),
+         ("elite trainer box", r"elite trainer box|\betb\b"),
+         ("tin", r"\btins?\b"), ("blister", r"blister"), ("collection", r"collection|premium|box set"),
+         ("build & battle", r"build ?(&|and) ?battle"), ("booster pack", r"booster pack|\bsleeved\b")]
+
+
+def ptype(text):
+    t = text.lower()
+    for name, rx in TYPES:
+        if re.search(rx, t):
+            return name
+    return None
+
+
+def variant_ok(want, listing):
+    """Reject the wrong print: reverse vs non-reverse, edition, shadowless, reprints, language."""
+    w, l = want.lower(), listing.lower()
+    if ("reverse" in w) != ("reverse" in l):
+        return False
+    if "1st edition" in w and not re.search(r"1st|first", l):
+        return False
+    if "1st edition" not in w and re.search(r"\b1st ed|first edition|1st edition", l):
+        return False
+    if "shadowless" in w and "shadowless" not in l:
+        return False
+    if "shadowless" not in w and "shadowless" in l and "unlimited" not in w:
+        return False
+    if not REPRINT.search(w):
+        if REPRINT.search(l):
+            return False
+    jp_w = bool(re.search(r"\[jp\]|japanese", w))
+    if bool(LANG.search(l)) != jp_w:
+        return False
+    return True
+
+
 def main():
     wa = load("wants_auto.json", {}).get("items", {})
     prices = load("prices.json", {}).get("prices", {})
@@ -59,10 +100,15 @@ def main():
     new, nq = [], 0
     for wid, w in rows:
         tgt, cond, title = float(w["target"]), w["cond"], w.get("title") or ""
+        wtext = f"{title} {w.get('set') or ''}"
         market = (prices.get(wid) or {}).get("market") or w.get("market")
+        if not market:
+            continue
+        cap = min(tgt, float(market))            # never above target, never above market
+        floor = 0.55 * float(market)             # far under market is almost always the wrong item or a fake
         pid = (prices.get(wid) or {}).get("productId") or w.get("tcgProductId")
-        hi = max(2, round(tgt / TAX, 2))   # item price alone can't exceed target/1.10
-        lo = max(1, round(tgt * 0.35))      # far below target is usually the wrong product
+        hi = max(2, round(cap / TAX, 2))
+        lo = max(1, round(floor / TAX * 0.8))
         if cond == "sealed":
             setn = w.get("set") or ""
             q = f"{setn} {title}".strip() if setn and setn.lower() not in title.lower() else title
@@ -78,8 +124,12 @@ def main():
             iid, t = h.get("itemId"), h.get("title", "")
             if not iid or iid in seen or not seller_ok(h):
                 continue
+            if JUNK.search(t) or not variant_ok(wtext, t):
+                continue
             if cond == "sealed":
                 if BAD_WORDS.search(t) or not all(x in t.lower() for x in need):
+                    continue
+                if ptype(title) and ptype(t) != ptype(title):
                     continue
             else:
                 if NOISE.search(t) and "[JP]" not in title:
@@ -90,7 +140,7 @@ def main():
             if price is None or sh is None:
                 continue
             all_in = round((price + sh) * TAX, 2)
-            if all_in > tgt:
+            if all_in > cap or all_in < floor:
                 continue
             if cond == "nm" and nm_check(iid, H) is not True:
                 continue
