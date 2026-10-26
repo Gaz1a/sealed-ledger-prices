@@ -160,8 +160,15 @@ def band_kind(card):
     white = ((v > 185) & (s_ < 60)).mean()
     yellow = ((h >= 15) & (h <= 40) & (s_ > 70)).mean()
     silver = ((s_ < 40) & (v > 110)).mean()
-    if blue >= 0.45 and blue + white >= 0.85:
-        return "back"
+    if blue >= 0.6 and white < 0.25 and blue + white >= 0.85:   # a solid blue border; the white swirl inside is not a border
+        # and the back's own design: yellow 'Pokemon' logo in the top band, red Poke Ball top half in the middle
+        top = hsv[int(0.06 * H):int(0.30 * H), int(0.12 * W):int(0.88 * W)]
+        mid = hsv[int(0.36 * H):int(0.52 * H), int(0.30 * W):int(0.70 * W)]
+        ylw = ((top[..., 0] >= 15) & (top[..., 0] <= 40) & (top[..., 1] > 90)).mean()
+        red = (((mid[..., 0] <= 8) | (mid[..., 0] >= 170)) & (mid[..., 1] > 90)).mean()
+        if ylw > 0.12 and red > 0.04:
+            return "back"
+        return None
     if yellow >= 0.6 or silver >= 0.75:
         return "front"
     return None
@@ -196,7 +203,7 @@ def centering(card):
 
 
 def zooms(card):
-    c = int(0.16 * W)
+    c = int(0.10 * W)
     tiles = [card[0:c, 0:c], card[0:c, W - c:W], card[H - c:H, 0:c], card[H - c:H, W - c:W]]
     tiles = [cv2.resize(t, (210, 210), interpolation=cv2.INTER_CUBIC) for t in tiles]
     return np.vstack([np.hstack(tiles[:2]), np.hstack(tiles[2:])])
@@ -260,7 +267,7 @@ def main():
         if not info["backs"]:
             info["flags"].append("no measurable back photo (check by eye; none at all = fail)")
         for b in info["backs"]:
-            if max(b["sides"].values()) > 1.5 or max(b["corners"].values()) > 4.0:
+            if max(b["sides"].values()) > 4.0 or max(b["corners"].values()) > 6.0:
                 info["flags"].append(f"back whitening (photo {b['photo']})")
             if b["cardPx"] < 700:
                 info["flags"].append(f"low resolution back (photo {b['photo']}, {b['cardPx']}px)")

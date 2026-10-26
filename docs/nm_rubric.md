@@ -31,7 +31,7 @@ in the photos; TCGplayer "Near Mint" is the floor, not the target. Seller-stated
 
 ## Measured aids (scripts/photo_check.py, photos branch)
 - Back whitening % per side (outer 3.5% band) and per corner (7% squares). A clean back is ~0%.
-  Flag thresholds (side > 0.8%, corner > 3%) are uncalibrated: tune them against cards Gaz rejects or
+  Flag thresholds (side > 4%, corner > 6%; a clean back measured 0-1%, one clean-looking scan 3.4% on one side) are uncalibrated: tune them against cards Gaz rejects or
   accepts (log each verdict on the recs doc as photoCheck).
 - Front centering from border widths; n/a on full-art or borderless cards.
 - Card height in pixels: under 700px is too small to judge edges.
