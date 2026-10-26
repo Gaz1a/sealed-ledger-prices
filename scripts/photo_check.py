@@ -84,6 +84,31 @@ def candidates():
     return dict(list(out.items())[:MAX_LISTINGS])
 
 
+def one_listing(link, H):
+    """CHECK_URL mode: any eBay listing link (ebay.com/itm/..., ebay.us short link) or a bare item number."""
+    link = link.strip()
+    if not re.fullmatch(r"\d{9,15}", link) and "/itm/" not in link:
+        try:   # short links redirect to the full listing url
+            with urllib.request.urlopen(urllib.request.Request(link, headers=UA), timeout=20) as r:
+                link = r.geturl()
+        except Exception:
+            pass
+    m = re.search(r"(\d{9,15})", link.split("?")[0] if "/itm/" in link else link)
+    if not m:
+        return {}
+    legacy = m.group(1)
+    d = get("https://api.ebay.com/buy/browse/v1/item/get_item_by_legacy_id?legacy_item_id=" + legacy, H) or {}
+    if not d.get("itemId"):   # multi-variation listings: take the first variation
+        g = get("https://api.ebay.com/buy/browse/v1/item/get_items_by_item_group?item_group_id=" + legacy, H) or {}
+        d = (g.get("items") or [{}])[0]
+    if not d.get("itemId"):
+        return {}
+    ph = [(d.get("image") or {}).get("imageUrl")] + [i.get("imageUrl") for i in (d.get("additionalImages") or [])]
+    return {d["itemId"]: {"src": "manual", "wantId": None, "title": d.get("title"), "url": d.get("itemWebUrl") or link,
+                          "price": (d.get("price") or {}).get("value"), "condition": d.get("condition"),
+                          "seller": (d.get("seller") or {}).get("username"), "photos": [p for p in ph if p][:MAX_PHOTOS]}}
+
+
 def photos_for(iid, H):
     d = get("https://api.ebay.com/buy/browse/v1/item/" + urllib.parse.quote(iid, safe=""), H) or {}
     ph = [(d.get("image") or {}).get("imageUrl")] + [i.get("imageUrl") for i in (d.get("additionalImages") or [])]
@@ -255,11 +280,18 @@ def main():
     G = load_grader()
     H_ = {"Authorization": "Bearer " + token(), "X-EBAY-C-MARKETPLACE-ID": "EBAY_US"}
     res = {}
-    for iid, c in candidates().items():
+    manual = os.environ.get("CHECK_URL")
+    cands = one_listing(manual, H_) if manual else candidates()
+    if manual and not cands:
+        json.dump({"generated": NOW.isoformat(timespec="minutes"), "error": "could not read that eBay listing (ended, private or not an eBay link)", "listings": {}},
+                  open(os.path.join(OUT, "checks.json"), "w"), indent=1)
+        print("listing not found"); return
+    for iid, c in cands.items():
         photos = c["photos"]
         if len(photos) < 2:
             photos, _ = photos_for(iid, H_)
         rows, info = [], {"src": c["src"], "wantId": c["wantId"], "title": c["title"], "url": c["url"], "photos": len(photos),
+                          **{k: c[k] for k in ("price", "condition", "seller") if c.get(k)},
                           "backs": [], "fronts": [], "flags": []}
         for n, u in enumerate(photos):
             img = fetch_img(u)

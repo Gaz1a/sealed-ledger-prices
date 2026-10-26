@@ -1,0 +1,55 @@
+name: Check a listing
+# Open an issue labelled "check" (the ledger's Buy tab has a button) with an eBay link in the title or body.
+# Runs the photo check + PSA-trained grader on that one listing, replies on the issue, closes it.
+on:
+  issues:
+    types: [opened, labeled]
+  workflow_dispatch:
+    inputs:
+      url: { description: "eBay listing link", required: true }
+permissions:
+  contents: write
+  issues: write
+concurrency: { group: check-listing, cancel-in-progress: false }
+jobs:
+  check:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.labels.*.name, 'check')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: link
+        env:
+          TEXT: ${{ github.event.issue.title }} ${{ github.event.issue.body }} ${{ github.event.inputs.url }}
+        run: |
+          u=$(printf '%s' "$TEXT" | grep -oE 'https?://[^ )>"]*ebay[^ )>"]*|\b[0-9]{11,13}\b' | head -1)
+          echo "url=$u" >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/cache@v4
+        with: { path: ~/.cache/huggingface, key: dinov2-small-v1 }
+      - run: |
+          pip install --quiet torch torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install --quiet timm opencv-python-headless numpy
+      - run: python scripts/photo_check.py "$RUNNER_TEMP/one"
+        env:
+          CHECK_URL: ${{ steps.link.outputs.url || 'none' }}
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+      - name: Save the sheet to the checks branch and reply
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE: ${{ github.event.issue.number || '0' }}
+        run: |
+          git fetch -q origin checks && git worktree add -q "$RUNNER_TEMP/cb" origin/checks || { git worktree add -q --detach "$RUNNER_TEMP/cb"; (cd "$RUNNER_TEMP/cb" && git checkout -q --orphan checks && git rm -rqf .); }
+          python scripts/check_comment.py "$RUNNER_TEMP/one" "$RUNNER_TEMP/cb" "$ISSUE" > "$RUNNER_TEMP/comment.md"
+          cd "$RUNNER_TEMP/cb"
+          git config user.name "price-bot"; git config user.email "price-bot@users.noreply.github.com"
+          git add -A && git commit -qm "listing check #$ISSUE" && git push -q origin HEAD:checks
+          cd "$GITHUB_WORKSPACE"
+          if [ "$ISSUE" != "0" ]; then
+            sleep 5
+            gh issue comment "$ISSUE" --body-file "$RUNNER_TEMP/comment.md"
+            gh issue close "$ISSUE"
+          else
+            cat "$RUNNER_TEMP/comment.md"
+          fi
