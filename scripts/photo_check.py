@@ -240,8 +240,14 @@ def load_grader():
         from score import Grader
         return Grader()
     except Exception as e:   # grader is an extra signal; the photo check still runs without it
+        import traceback
+        global GRADER_ERR
+        GRADER_ERR = traceback.format_exc()[-1500:]
         print("grader unavailable:", e)
         return None
+
+
+GRADER_ERR = None
 
 
 def main():
@@ -314,7 +320,7 @@ def main():
             info["sheet"] = "sheets/" + fn
         res[iid] = info
         time.sleep(0.3)
-    json.dump({"generated": NOW.isoformat(timespec="minutes"), "rubric": "docs/nm_rubric.md on main", "listings": res},
+    json.dump({"generated": NOW.isoformat(timespec="minutes"), "graderError": GRADER_ERR, "rubric": "docs/nm_rubric.md on main", "listings": res},
               open(os.path.join(OUT, "checks.json"), "w"), indent=1, ensure_ascii=False)
     print(len(res), "listings checked;", sum(1 for v in res.values() if v["flags"]), "with flags")
 
