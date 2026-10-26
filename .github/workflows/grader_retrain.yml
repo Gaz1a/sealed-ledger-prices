@@ -1,0 +1,31 @@
+name: Retrain card grader from saved features
+on:
+  workflow_dispatch:
+    inputs:
+      run_id: { description: "run id of the parallel training run whose artifacts to reuse", required: true }
+permissions:
+  contents: write
+  actions: read
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: |
+          pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu
+          pip install --quiet opencv-python-headless numpy scikit-learn
+      - uses: actions/download-artifact@v4
+        with: { name: grader-crops, path: "${{ runner.temp }}", run-id: "${{ github.event.inputs.run_id }}", github-token: "${{ secrets.GITHUB_TOKEN }}" }
+      - run: tar -C "$RUNNER_TEMP" -xf "$RUNNER_TEMP/gd.tar" gd/meta.json && rm "$RUNNER_TEMP/gd.tar"
+      - uses: actions/download-artifact@v4
+        with: { pattern: "grader-feats-*", path: "${{ runner.temp }}/gd/shards", run-id: "${{ github.event.inputs.run_id }}", github-token: "${{ secrets.GITHUB_TOKEN }}" }
+      - run: ls -R "$RUNNER_TEMP/gd" | head -30 > models/grader_ls.txt; python scripts/grader/embed_train.py "$RUNNER_TEMP/gd" 2>&1 | tail -c 20000 > models/grader_train_log.txt; exit ${PIPESTATUS[0]}
+      - if: always()
+        run: |
+          git config user.name "price-bot"; git config user.email "price-bot@users.noreply.github.com"
+          git pull -q --rebase || true
+          git add models/
+          git commit -qm "grader retrain $(date -u +%F)" && git pull --rebase && git push

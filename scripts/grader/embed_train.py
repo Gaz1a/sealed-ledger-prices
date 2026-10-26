@@ -153,4 +153,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception:
+        import traceback
+        os.makedirs(os.path.join(ROOT, "models"), exist_ok=True)
+        open(os.path.join(ROOT, "models", "grader_error.txt"), "w").write(traceback.format_exc())
+        raise
