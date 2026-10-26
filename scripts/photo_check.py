@@ -160,7 +160,7 @@ def band_kind(card):
     white = ((v > 185) & (s_ < 60)).mean()
     yellow = ((h >= 15) & (h <= 40) & (s_ > 70)).mean()
     silver = ((s_ < 40) & (v > 110)).mean()
-    if blue >= 0.6 and white < 0.25 and blue + white >= 0.85:   # a solid blue border; the white swirl inside is not a border
+    if blue >= 0.7 and white < 0.12 and blue + white >= 0.85:   # a solid blue border; the white swirl inside is not a border
         # and the back's own design: yellow 'Pokemon' logo in the top band, red Poke Ball top half in the middle
         top = hsv[int(0.06 * H):int(0.30 * H), int(0.12 * W):int(0.88 * W)]
         mid = hsv[int(0.36 * H):int(0.52 * H), int(0.30 * W):int(0.70 * W)]
@@ -257,6 +257,10 @@ def main():
                 continue
             if kind == "back":
                 sides, corners = back_whitening(card)
+                if max(sides.values()) > 30:   # a whole side "white" means the crop missed the border: do not trust it
+                    rows.append(sheet_row(img, None, f"photo {n + 1}: back found but border crop unreliable - judge by eye"))
+                    info.setdefault("unmeasured", []).append(n + 1)
+                    continue
                 info["backs"].append({"photo": n + 1, "cardPx": px, "sides": sides, "corners": corners})
                 lab = f"photo {n + 1} BACK {px}px  whitening % sides " + " ".join(f"{k[0]}{v}" for k, v in sides.items()) + "  corners " + " ".join(f"{k}{v}" for k, v in corners.items())
             else:
@@ -267,7 +271,7 @@ def main():
         if not info["backs"]:
             info["flags"].append("no measurable back photo (check by eye; none at all = fail)")
         for b in info["backs"]:
-            if max(b["sides"].values()) > 4.0 or max(b["corners"].values()) > 6.0:
+            if max(b["sides"].values()) > 4.0 or max(b["corners"].values()) > 20.0:
                 info["flags"].append(f"back whitening (photo {b['photo']})")
             if b["cardPx"] < 700:
                 info["flags"].append(f"low resolution back (photo {b['photo']}, {b['cardPx']}px)")
