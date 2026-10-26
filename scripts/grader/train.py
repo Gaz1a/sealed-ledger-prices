@@ -31,6 +31,11 @@ random.seed(7)
 
 def collect(Hd):
     os.makedirs(os.path.join(ROOT, "models"), exist_ok=True)
+    for f in ("grader_progress.txt", "grader_error.txt"):
+        try:
+            os.remove(os.path.join(ROOT, "models", f))
+        except OSError:
+            pass
     lst = {}
     for g in GRADES:
         got = {}
