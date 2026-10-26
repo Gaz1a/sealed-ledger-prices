@@ -30,6 +30,7 @@ random.seed(7)
 
 
 def collect(Hd):
+    os.makedirs(os.path.join(ROOT, "models"), exist_ok=True)
     lst = {}
     for g in GRADES:
         got = {}
@@ -52,6 +53,7 @@ def collect(Hd):
             if len(got) >= PER_GRADE:
                 break
         print(f"PSA {g}: {len(got)} listings", flush=True)
+        open(os.path.join(ROOT, "models", "grader_progress.txt"), "a").write(f"PSA {g}: {len(got)} listings\n")
         lst.update(dict(list(got.items())[:PER_GRADE]))
     return lst
 
@@ -143,4 +145,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception:
+        import traceback
+        os.makedirs(os.path.join(ROOT, "models"), exist_ok=True)
+        open(os.path.join(ROOT, "models", "grader_error.txt"), "w").write(traceback.format_exc())
+        raise
