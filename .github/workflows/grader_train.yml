@@ -1,0 +1,27 @@
+name: Train card grader (manual)
+on:
+  workflow_dispatch:
+    inputs:
+      per_grade: { description: "listings per PSA grade", default: "260" }
+permissions:
+  contents: write
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: |
+          pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu
+          pip install --quiet timm opencv-python-headless numpy scikit-learn
+      - run: python scripts/grader/train.py
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+          PER_GRADE: ${{ github.event.inputs.per_grade }}
+      - run: |
+          git config user.name "price-bot"; git config user.email "price-bot@users.noreply.github.com"
+          git add models/grader.npz models/grader_report.json
+          git commit -qm "grader trained $(date -u +%F)" && git pull --rebase && git push
