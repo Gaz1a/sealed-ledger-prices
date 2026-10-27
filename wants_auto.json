@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26",
+ "generated": "2026-10-27",
  "source": "Pokémon TCG Ledger, synced daily by the Tracker task via the Ledger sync form",
  "items": {
   "bs-maintenance": {
@@ -2984,12 +2984,12 @@
   },
   "k-130": {
    "title": "Gyarados 6/102 (holo)",
-   "kind": "kanto",
+   "cond": "nm",
    "set": "Base Set",
+   "target": 50.7,
+   "kind": "kanto",
    "tcgProductId": "42404",
    "market": 56.78,
-   "target": 44.96,
-   "cond": "nm",
    "status": "want"
   },
   "kg-717006": {
@@ -3203,6 +3203,6 @@
    "status": "watch"
   }
  },
- "payloadDate": "2026-10-25",
- "batch": "20261025-0858"
+ "payloadDate": "2026-10-27",
+ "batch": "20261027-0855"
 }
