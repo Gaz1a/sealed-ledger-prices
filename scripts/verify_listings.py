@@ -124,7 +124,8 @@ def check(i, c, H):
 
 def main():
     cands = candidates()
-    H = {"Authorization": "Bearer " + token(), "X-EBAY-C-MARKETPLACE-ID": "EBAY_US"}
+    H = {"Authorization": "Bearer " + token(), "X-EBAY-C-MARKETPLACE-ID": "EBAY_US",
+         "X-EBAY-C-ENDUSERCTX": "contextualLocation=country%3DUS%2Czip%3D91505"}   # shipping quoted to Burbank
     items = {}
     for i, c in cands.items():
         items[i] = check(i, c, H)
