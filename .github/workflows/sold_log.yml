@@ -12,6 +12,9 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: python scripts/sold_log.py
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
       - run: |
           git config user.name "price-bot"; git config user.email "price-bot@users.noreply.github.com"
           git add sold_prices.json data/sold_registry.json

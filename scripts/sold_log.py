@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
-"""Final prices of ended eBay auctions, read from the public item pages (free; replaces the Tracker's page fetches).
+"""Final prices of ended eBay auctions, free, from GitHub (replaces the Tracker's page fetches).
 
+Uses the eBay Browse API (ended listings stay readable there; the public pages block GitHub with 403).
 Registry: every auction seen in the scan feeds (ebay_sealed, ebay_wants, jumbo_listings, booklet_hits) plus
 data/sold_queue.json, keyed by eBay item number with its end time. Once an auction has ended (+1h), fetch
 https://www.ebay.com/itm/<id> and read the winning bid, shipping and bid count. Up to 3 tries per item.
 Output: sold_prices.json {generated, items: {id: {status: sold|nosale|unknown, final, ship, bids, currency, end, checked, tries, title}}}
 The Tracker copies these onto its auctions docs instead of opening the pages itself."""
-import datetime, json, os, re, sys, time, urllib.request
+import datetime, json, os, re, sys, time
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from scan_ebay_wants import get, token  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NOW = datetime.datetime.now(datetime.timezone.utc)
@@ -56,30 +59,28 @@ def harvest(reg):
         reg.setdefault(iid, v)
 
 
-MONEY = r"([A-Z]{0,3}\s?[$£€]|EUR|GBP|AU \$|C \$)\s?([\d,]+\.\d{2})"
-
-
-def parse(html):
-    t = re.sub(r"<[^>]+>", " ", html)
-    t = re.sub(r"&nbsp;|\s+", " ", t)
-    out = {}
-    if re.search(r"(This listing (has )?ended|Bidding has ended|This listing was ended|no longer available)", t, re.I) is None and "Winning bid" not in t:
-        out["status"] = "live"
-        return out
-    m = re.search(r"Winning bid:?\s*" + MONEY, t)
-    if m:
-        out.update(status="sold", currency=m.group(1).strip(), final=float(m.group(2).replace(",", "")))
-    elif re.search(r"(Starting bid|Price):?.{0,40}\[\s*0 bids?\s*\]|0 bids|no bids", t, re.I):
-        out["status"] = "nosale"
-    m = re.search(r"\[\s*(\d+)\s*bids?\s*\]", t)
-    if m:
-        out["bids"] = int(m.group(1))
-    if re.search(r"Shipping:?\s*Free", t, re.I):
-        out["ship"] = 0.0
+def check(iid, H):
+    """eBay Browse API keeps returning ended listings: currentBidPrice is the winning bid,
+    estimatedSoldQuantity says whether it sold. Page scraping is blocked (403) from GitHub."""
+    d = get("https://api.ebay.com/buy/browse/v1/item/get_item_by_legacy_id?legacy_item_id=" + iid, H, tries=2)
+    if not d:
+        g = get("https://api.ebay.com/buy/browse/v1/item/get_items_by_item_group?item_group_id=" + iid, H, tries=1) or {}
+        d = (g.get("items") or [None])[0]
+    if not d:
+        return {"status": "unknown", "note": "not returned by the eBay API"}
+    end = ts(d.get("itemEndDate"))
+    if end and end > NOW:
+        return {"status": "unknown", "note": "still live (relisted or extended)"}
+    av = (d.get("estimatedAvailabilities") or [{}])[0]
+    out = {"bids": d.get("bidCount"), "url": d.get("itemWebUrl")}
+    so = d.get("shippingOptions") or []
+    if so and (so[0].get("shippingCost") or {}).get("value") is not None:
+        out["ship"] = float(so[0]["shippingCost"]["value"])
+    if (av.get("estimatedSoldQuantity") or 0) >= 1:
+        p = d.get("currentBidPrice") or d.get("price") or {}
+        out.update(status="sold", final=float(p["value"]), currency=p.get("currency"))
     else:
-        m = re.search(r"Shipping:?\s*" + MONEY, t)
-        if m:
-            out["ship"] = float(m.group(2).replace(",", ""))
+        out["status"] = "nosale"
     return out
 
 
@@ -91,20 +92,17 @@ def main():
            and res.get(i, {}).get("status") not in ("sold", "nosale") and res.get(i, {}).get("tries", 0) < 3]
     due.sort(key=lambda i: ts(reg[i]["end"]))
     n = 0
+    H = {"Authorization": "Bearer " + token(), "X-EBAY-C-MARKETPLACE-ID": "EBAY_US"}
     for iid in due[:MAX]:
         r = dict(res.get(iid, {}), title=reg[iid].get("title"), end=reg[iid]["end"], checked=NOW.isoformat(timespec="minutes"))
-        try:
-            with urllib.request.urlopen(urllib.request.Request(f"https://www.ebay.com/itm/{iid}", headers=UA), timeout=25) as h:
-                p = parse(h.read().decode("utf-8", "replace"))
-        except Exception as e:
-            p = {"status": "unknown", "error": str(e)[:80]}
+        p = check(iid, H)
         if p.get("status") in ("sold", "nosale"):
             r.update(p)
         else:
-            r.update(status="unknown", tries=r.get("tries", 0) + 1, note=p.get("error") or p.get("status") or "price not shown")
+            r.update(status="unknown", tries=r.get("tries", 0) + 1, note=p.get("note"))
         res[iid] = r
         n += 1
-        time.sleep(1.2)
+        time.sleep(0.2)
     # forget registry entries over 45 days past their end
     cut = NOW - datetime.timedelta(days=45)
     reg = {i: v for i, v in reg.items() if ts(v["end"]) and ts(v["end"]) > cut}
