@@ -1,0 +1,19 @@
+name: Sold prices (ended auctions)
+on:
+  schedule: [{ cron: "40 14 * * *" }]   # 7:40am PT, before the Tracker (8:47am PT)
+  workflow_dispatch:
+permissions: { contents: write }
+concurrency: { group: commit-main, cancel-in-progress: false }
+jobs:
+  log:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/sold_log.py
+      - run: |
+          git config user.name "price-bot"; git config user.email "price-bot@users.noreply.github.com"
+          git add sold_prices.json data/sold_registry.json
+          git commit -qm "sold prices $(date -u +%F)" || exit 0
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
