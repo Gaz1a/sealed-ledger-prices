@@ -1,157 +1,157 @@
 {
- "count": 505,
- "generated": "2026-10-26T08:59:31Z",
+ "count": 508,
+ "generated": "2026-10-27T14:34:47Z",
  "pinMismatch": [],
  "prices": {
   "ah-bundle": {
-   "low": 69.0,
-   "market": 74.91,
+   "low": 59.0,
+   "market": 74.01,
    "mid": 90.0,
    "productId": 668541,
    "subType": "Normal"
   },
   "ah-etb": {
-   "low": 114.92,
-   "market": 121.13,
-   "mid": 174.99,
+   "low": 115.99,
+   "market": 125.53,
+   "mid": 175.99,
    "productId": 668496,
    "subType": "Normal"
   },
   "bs-breeder": {
    "low": 2.46,
    "market": 6.46,
-   "mid": 5.58,
+   "mid": 5.85,
    "productId": 42422,
    "subType": "Normal"
   },
   "bs-clefairydoll": {
    "low": 3.75,
-   "market": 8.19,
-   "mid": 6.35,
+   "market": 8.06,
+   "mid": 6.38,
    "productId": 42416,
    "subType": "Normal"
   },
   "bs-computersearch": {
    "low": 1.0,
    "market": 3.29,
-   "mid": 3.04,
+   "mid": 3.17,
    "productId": 42417,
    "subType": "Normal"
   },
   "bs-devolutionspray": {
    "low": 1.5,
-   "market": 7.53,
-   "mid": 4.75,
+   "market": 7.88,
+   "mid": 4.38,
    "productId": 42418,
    "subType": "Normal"
   },
   "bs-imposteroak": {
    "low": 3.5,
    "market": 6.62,
-   "mid": 4.99,
+   "mid": 5.0,
    "productId": 86271,
    "subType": "Normal"
   },
   "bs-itemfinder": {
-   "low": 5.0,
-   "market": 9.1,
-   "mid": 8.88,
+   "low": 5.82,
+   "market": 9.14,
+   "mid": 8.84,
    "productId": 42420,
    "subType": "Normal"
   },
   "bs-lass": {
    "low": 1.0,
-   "market": 3.48,
-   "mid": 2.95,
+   "market": 3.51,
+   "mid": 2.97,
    "productId": 42421,
    "subType": "Normal"
   },
   "bs-scoopup": {
-   "low": 5.67,
-   "market": 9.51,
-   "mid": 8.02,
+   "low": 5.69,
+   "market": 9.48,
+   "mid": 8.26,
    "productId": 42423,
    "subType": "Normal"
   },
   "bs-superenergyremoval": {
    "low": 1.25,
-   "market": 3.5,
+   "market": 3.49,
    "mid": 3.24,
    "productId": 42424,
    "subType": "Normal"
   },
   "bs-trader": {
    "low": 2.99,
-   "market": 5.3,
-   "mid": 4.93,
+   "market": 5.41,
+   "mid": 4.95,
    "productId": 108648,
    "subType": "Normal"
   },
   "c30-etb": {
-   "low": 109.5,
-   "market": 114.09,
+   "low": 105.99,
+   "market": 119.78,
    "mid": 135.0,
    "productId": 704143,
    "subType": "Normal"
   },
   "c30-pcetb": {
-   "low": 285.0,
-   "market": 292.82,
+   "low": 279.0,
+   "market": 293.23,
    "mid": 350.0,
    "productId": 704144,
    "subType": "Normal"
   },
   "c30-poster": {
-   "low": 24.95,
-   "market": 34.58,
+   "low": 24.99,
+   "market": 33.44,
    "mid": 40.0,
    "productId": 704153,
    "subType": "Normal"
   },
   "c30-upc": {
-   "low": 523.89,
-   "market": 547.37,
-   "mid": 559.3,
+   "low": 523.76,
+   "market": 545.87,
+   "mid": 559.29,
    "productId": 704190,
    "subType": "Normal"
   },
   "c30-upc-night": {
-   "low": 574.6,
-   "market": 583.58,
+   "low": 574.46,
+   "market": 583.82,
    "mid": 590.84,
    "productId": 704191,
    "subType": "Normal"
   },
   "cr-etb": {
    "low": 47.5,
-   "market": 69.83,
-   "mid": 79.99,
+   "market": 70.51,
+   "mid": 80.0,
    "productId": 684450,
    "subType": "Normal"
   },
   "fpic1": {
    "low": 54.99,
-   "market": 62.34,
-   "mid": 68.48,
+   "market": 62.68,
+   "mid": 67.99,
    "productId": 673436,
    "subType": "Normal"
   },
   "gy-151-130-165": {
    "low": 0.05,
-   "market": 0.38,
+   "market": 0.31,
    "mid": 0.37,
    "productId": 516693,
    "subType": "Holofoil"
   },
   "gy-151-130-165-rev": {
    "low": 0.5,
-   "market": 1.56,
-   "mid": 1.58,
+   "market": 1.65,
+   "mid": 1.6,
    "productId": 516693,
    "subType": "Reverse Holofoil"
   },
   "gy-ancient-origins-20-98": {
-   "low": 0.25,
+   "low": 0.2,
    "market": 0.9,
    "mid": 0.94,
    "productId": 101441,
@@ -159,29 +159,29 @@
   },
   "gy-ancient-origins-20-98-rev": {
    "low": 2.12,
-   "market": 6.05,
-   "mid": 6.0,
+   "market": 6.12,
+   "mid": 6.35,
    "productId": 101441,
    "subType": "Reverse Holofoil"
   },
   "gy-ancient-origins-21-98": {
    "low": 34.99,
    "market": 64.68,
-   "mid": 60.0,
+   "mid": 59.99,
    "productId": 101442,
    "subType": "Holofoil"
   },
   "gy-ancient-origins-21-98-rev": {
    "low": 39.0,
    "market": 66.91,
-   "mid": 61.77,
+   "mid": 63.45,
    "productId": 101442,
    "subType": "Reverse Holofoil"
   },
   "gy-base-set-2-7-130": {
    "low": 20.0,
-   "market": 57.51,
-   "mid": 33.04,
+   "market": 57.35,
+   "mid": 32.59,
    "productId": 42489,
    "subType": "Holofoil"
   },
@@ -193,51 +193,51 @@
    "subType": "Holofoil"
   },
   "gy-burning-shadows-33-147-rev": {
-   "low": 1.4,
+   "low": 1.49,
    "market": 3.72,
-   "mid": 3.64,
+   "mid": 3.7,
    "productId": 138513,
    "subType": "Reverse Holofoil"
   },
   "gy-call-of-legends-7-95": {
    "low": 199.99,
    "market": 132.18,
-   "mid": 393.28,
+   "mid": 492.5,
    "productId": 85999,
    "subType": "Holofoil"
   },
   "gy-call-of-legends-7-95-rev": {
    "low": 150.0,
    "market": 142.5,
-   "mid": 698.98,
+   "mid": 425.98,
    "productId": 85999,
    "subType": "Reverse Holofoil"
   },
   "gy-celebrations-dark-gyarados-reprint-8-82": {
    "low": 3.5,
-   "market": 4.95,
-   "mid": 6.1,
+   "market": 4.79,
+   "mid": 6.12,
    "productId": 250294,
    "subType": "Holofoil"
   },
   "gy-destined-rivals-misty-s-49-182": {
    "low": 12.15,
    "market": 15.81,
-   "mid": 19.04,
+   "mid": 19.07,
    "productId": 633108,
    "subType": "Holofoil"
   },
   "gy-dragon-majesty-20-70": {
    "low": 1.88,
    "market": 3.26,
-   "mid": 3.12,
+   "mid": 3.14,
    "productId": 175382,
    "subType": "Holofoil"
   },
   "gy-dragon-majesty-20-70-rev": {
-   "low": 5.02,
+   "low": 5.0,
    "market": 7.41,
-   "mid": 44.99,
+   "mid": 27.31,
    "productId": 175382,
    "subType": "Reverse Holofoil"
   },
@@ -257,8 +257,8 @@
   },
   "gy-evolutions-34-108": {
    "low": 3.25,
-   "market": 9.05,
-   "mid": 8.93,
+   "market": 9.14,
+   "mid": 8.99,
    "productId": 124047,
    "subType": "Holofoil"
   },
@@ -286,7 +286,7 @@
   "gy-ex-dragon-32-97": {
    "low": 11.99,
    "market": 20.49,
-   "mid": 28.72,
+   "mid": 26.76,
    "productId": 85990,
    "subType": "Normal"
   },
@@ -307,19 +307,19 @@
   "gy-generations-23-83": {
    "low": 0.34,
    "market": 1.11,
-   "mid": 1.13,
+   "mid": 1.11,
    "productId": 113681,
    "subType": "Normal"
   },
   "gy-generations-23-83-rev": {
    "low": 4.24,
    "market": 10.11,
-   "mid": 10.71,
+   "mid": 11.03,
    "productId": 113681,
    "subType": "Reverse Holofoil"
   },
   "gy-gym-challenge-giovanni-s-5-132": {
-   "low": 99.06,
+   "low": 98.57,
    "market": 139.86,
    "mid": 146.85,
    "productId": 85710,
@@ -328,14 +328,14 @@
   "gy-gym-challenge-misty-s-13-132": {
    "low": 124.0,
    "market": 161.9,
-   "mid": 209.46,
+   "mid": 204.73,
    "productId": 87531,
    "subType": "Unlimited Holofoil"
   },
   "gy-heartgold-soulsilver-4-123": {
    "low": 45.48,
    "market": 166.11,
-   "mid": 156.66,
+   "mid": 149.5,
    "productId": 85992,
    "subType": "Holofoil"
   },
@@ -347,9 +347,9 @@
    "subType": "Reverse Holofoil"
   },
   "gy-legendary-collection-12-110": {
-   "low": 32.99,
+   "low": 33.73,
    "market": 51.69,
-   "mid": 37.55,
+   "mid": 36.39,
    "productId": 85989,
    "subType": "Holofoil"
   },
@@ -362,22 +362,22 @@
   },
   "gy-legendary-treasures-31-113": {
    "low": 0.25,
-   "market": 1.76,
-   "mid": 1.93,
+   "market": 1.75,
+   "mid": 1.94,
    "productId": 86001,
    "subType": "Normal"
   },
   "gy-legendary-treasures-31-113-rev": {
    "low": 14.36,
    "market": 39.05,
-   "mid": 40.0,
+   "mid": 39.44,
    "productId": 86001,
    "subType": "Reverse Holofoil"
   },
   "gy-mysterious-treasures-26-123": {
-   "low": 6.45,
+   "low": 7.31,
    "market": 14.57,
-   "mid": 15.04,
+   "mid": 17.02,
    "productId": 85993,
    "subType": "Normal"
   },
@@ -404,43 +404,43 @@
   },
   "gy-paldea-evolved-43-193-rev": {
    "low": 0.22,
-   "market": 0.47,
-   "mid": 0.5,
+   "market": 0.43,
+   "mid": 0.49,
    "productId": 497454,
    "subType": "Reverse Holofoil"
   },
   "gy-pokemon-go-22-078": {
-   "low": 0.2,
+   "low": 0.05,
    "market": 0.46,
-   "mid": 0.5,
+   "mid": 0.49,
    "productId": 276955,
    "subType": "Holofoil"
   },
   "gy-pokemon-go-22-078-rev": {
    "low": 0.2,
-   "market": 0.59,
-   "mid": 0.71,
+   "market": 0.61,
+   "mid": 0.68,
    "productId": 276955,
    "subType": "Reverse Holofoil"
   },
   "gy-rebel-clash-40-192": {
    "low": 0.61,
    "market": 1.54,
-   "mid": 1.61,
+   "mid": 1.64,
    "productId": 213118,
    "subType": "Holofoil"
   },
   "gy-rebel-clash-40-192-rev": {
    "low": 1.68,
    "market": 2.92,
-   "mid": 3.72,
+   "mid": 3.7,
    "productId": 213118,
    "subType": "Reverse Holofoil"
   },
   "gy-skyridge-11-144": {
-   "low": 184.66,
+   "low": 149.99,
    "market": 197.08,
-   "mid": 209.89,
+   "mid": 199.99,
    "productId": 85988,
    "subType": "Normal"
   },
@@ -452,16 +452,16 @@
    "subType": "Normal"
   },
   "gy-stormfront-19-100-rev": {
-   "low": 499.64,
+   "low": 35.68,
    "market": 48.46,
-   "mid": 499.74,
+   "mid": 499.69,
    "productId": 85994,
    "subType": "Reverse Holofoil"
   },
   "gy-team-rocket-dark-gyarados-25-82": {
    "low": 11.0,
-   "market": 19.44,
-   "mid": 17.25,
+   "market": 19.19,
+   "mid": 16.9,
    "productId": 84607,
    "subType": "Unlimited"
   },
@@ -474,112 +474,112 @@
   },
   "gy-team-up-30-181": {
    "low": 6.25,
-   "market": 11.49,
-   "mid": 10.63,
+   "market": 11.68,
+   "mid": 10.59,
    "productId": 183801,
    "subType": "Holofoil"
   },
   "gy-team-up-30-181-rev": {
    "low": 8.0,
    "market": 11.58,
-   "mid": 10.57,
+   "mid": 10.21,
    "productId": 183801,
    "subType": "Reverse Holofoil"
   },
   "h-cr-box": {
    "low": 164.25,
-   "market": 183.44,
+   "market": 182.81,
    "mid": 219.99,
    "productId": 684444,
    "subType": "Normal"
   },
   "h-fpic2": {
    "low": 23.25,
-   "market": 26.99,
-   "mid": 34.47,
+   "market": 27.02,
+   "mid": 34.48,
    "productId": 688712,
    "subType": "Normal"
   },
   "h-fpic3": {
-   "low": 20.56,
-   "market": 23.63,
+   "low": 20.57,
+   "market": 23.12,
    "mid": 30.0,
    "productId": 695400,
    "subType": "Normal"
   },
   "h-greninja": {
    "low": 36.99,
-   "market": 48.37,
-   "mid": 54.49,
+   "market": 48.23,
+   "mid": 54.99,
    "productId": 690660,
    "subType": "Normal"
   },
   "h-lumiose": {
    "low": 50.0,
    "market": 62.19,
-   "mid": 68.99,
+   "mid": 70.0,
    "productId": 685580,
    "subType": "Normal"
   },
   "h-moonlit-clefable": {
    "low": 11.97,
-   "market": 24.01,
-   "mid": 30.0,
+   "market": 23.92,
+   "mid": 30.6,
    "productId": 686438,
    "subType": "Normal"
   },
   "h-moonlit-gengar": {
-   "low": 21.99,
-   "market": 32.02,
-   "mid": 38.0,
+   "low": 20.03,
+   "market": 32.29,
+   "mid": 38.2,
    "productId": 686437,
    "subType": "Normal"
   },
   "h-pb-box": {
    "low": 159.99,
-   "market": 180.35,
-   "mid": 210.44,
+   "market": 181.43,
+   "mid": 210.0,
    "productId": 692939,
    "subType": "Normal"
   },
   "h-po-box": {
    "low": 167.0,
-   "market": 173.26,
+   "market": 173.43,
    "mid": 224.95,
    "productId": 672394,
    "subType": "Normal"
   },
   "h-tsc": {
    "low": 68.99,
-   "market": 72.65,
-   "mid": 81.75,
+   "market": 73.21,
+   "mid": 81.5,
    "productId": 704147,
    "subType": "Normal"
   },
   "k-001": {
    "low": 0.4,
-   "market": 3.74,
-   "mid": 2.11,
+   "market": 3.8,
+   "mid": 2.2,
    "productId": 42387,
    "subType": "Normal"
   },
   "k-002": {
    "low": 0.87,
-   "market": 5.74,
-   "mid": 3.39,
+   "market": 5.26,
+   "mid": 3.4,
    "productId": 42372,
    "subType": "Normal"
   },
   "k-003": {
    "low": 90.0,
-   "market": 152.86,
-   "mid": 126.16,
+   "market": 151.66,
+   "mid": 127.0,
    "productId": 42355,
    "subType": "Holofoil"
   },
   "k-004": {
    "low": 0.25,
-   "market": 3.52,
+   "market": 3.59,
    "mid": 1.5,
    "productId": 42389,
    "subType": "Normal"
@@ -587,21 +587,21 @@
   "k-005": {
    "low": 0.33,
    "market": 4.24,
-   "mid": 1.45,
+   "mid": 1.46,
    "productId": 42365,
    "subType": "Normal"
   },
   "k-006": {
    "low": 475.0,
    "market": 954.65,
-   "mid": 587.98,
+   "mid": 600.0,
    "productId": 42382,
    "subType": "Holofoil"
   },
   "k-007": {
    "low": 0.75,
-   "market": 5.85,
-   "mid": 4.33,
+   "market": 5.94,
+   "mid": 4.9,
    "productId": 42408,
    "subType": "Normal"
   },
@@ -615,27 +615,27 @@
   "k-009": {
    "low": 140.0,
    "market": 227.27,
-   "mid": 172.45,
+   "mid": 181.21,
    "productId": 42360,
    "subType": "Holofoil"
   },
   "k-010": {
    "low": 0.25,
-   "market": 1.44,
+   "market": 1.59,
    "mid": 0.8,
    "productId": 42388,
    "subType": "Normal"
   },
   "k-011": {
    "low": 0.25,
-   "market": 1.69,
+   "market": 1.76,
    "mid": 0.9,
    "productId": 42398,
    "subType": "Normal"
   },
   "k-012": {
    "low": 0.37,
-   "market": 1.73,
+   "market": 1.72,
    "mid": 1.7,
    "productId": 45136,
    "subType": "Unlimited"
@@ -643,56 +643,56 @@
   "k-013": {
    "low": 0.2,
    "market": 0.59,
-   "mid": 0.5,
+   "mid": 0.52,
    "productId": 42414,
    "subType": "Normal"
   },
   "k-014": {
    "low": 0.25,
    "market": 1.29,
-   "mid": 1.0,
+   "mid": 1.01,
    "productId": 42375,
    "subType": "Normal"
   },
   "k-015": {
    "low": 1.98,
    "market": 6.19,
-   "mid": 4.04,
+   "mid": 4.38,
    "productId": 42357,
    "subType": "Normal"
   },
   "k-016": {
    "low": 0.33,
-   "market": 2.48,
-   "mid": 1.01,
+   "market": 2.57,
+   "mid": 1.0,
    "productId": 42401,
    "subType": "Normal"
   },
   "k-017": {
-   "low": 6.0,
-   "market": 8.89,
+   "low": 5.0,
+   "market": 9.03,
    "mid": 8.38,
    "productId": 42363,
    "subType": "Normal"
   },
   "k-018": {
-   "low": 24.0,
+   "low": 25.0,
    "market": 50.88,
-   "mid": 49.59,
+   "mid": 49.64,
    "productId": 45134,
    "subType": "Unlimited Holofoil"
   },
   "k-019": {
    "low": 0.15,
-   "market": 0.79,
-   "mid": 0.62,
+   "market": 0.81,
+   "mid": 0.65,
    "productId": 42406,
    "subType": "Normal"
   },
   "k-020": {
    "low": 0.6,
-   "market": 2.96,
-   "mid": 1.75,
+   "market": 3.03,
+   "mid": 1.76,
    "productId": 42383,
    "subType": "Normal"
   },
@@ -705,7 +705,7 @@
   },
   "k-022": {
    "low": 0.3,
-   "market": 1.05,
+   "market": 1.07,
    "mid": 0.9,
    "productId": 45139,
    "subType": "Unlimited"
@@ -720,21 +720,21 @@
   "k-024": {
    "low": 0.24,
    "market": 1.82,
-   "mid": 0.86,
+   "mid": 0.85,
    "productId": 44433,
    "subType": "Unlimited"
   },
   "k-025": {
-   "low": 1.67,
-   "market": 11.72,
+   "low": 1.82,
+   "market": 11.83,
    "mid": 5.99,
    "productId": 42402,
    "subType": "Normal"
   },
   "k-026": {
    "low": 41.0,
-   "market": 62.71,
-   "mid": 59.75,
+   "market": 62.51,
+   "mid": 59.5,
    "productId": 42354,
    "subType": "Holofoil"
   },
@@ -748,21 +748,21 @@
   "k-028": {
    "low": 0.38,
    "market": 1.33,
-   "mid": 0.93,
+   "mid": 0.94,
    "productId": 44443,
    "subType": "Unlimited"
   },
   "k-029": {
    "low": 0.25,
-   "market": 2.11,
-   "mid": 1.0,
+   "market": 2.21,
+   "mid": 1.01,
    "productId": 45142,
    "subType": "Unlimited"
   },
   "k-030": {
    "low": 0.1,
-   "market": 0.57,
-   "mid": 0.51,
+   "market": 0.59,
+   "mid": 0.52,
    "productId": 45143,
    "subType": "Unlimited"
   },
@@ -775,56 +775,56 @@
   },
   "k-032": {
    "low": 0.25,
-   "market": 2.9,
-   "mid": 1.77,
+   "market": 3.24,
+   "mid": 1.85,
    "productId": 42377,
    "subType": "Normal"
   },
   "k-033": {
    "low": 0.5,
-   "market": 4.05,
-   "mid": 1.99,
+   "market": 4.1,
+   "mid": 2.0,
    "productId": 42379,
    "subType": "Normal"
   },
   "k-034": {
    "low": 20.0,
    "market": 41.26,
-   "mid": 31.39,
+   "mid": 33.0,
    "productId": 42351,
    "subType": "Holofoil"
   },
   "k-035": {
    "low": 22.0,
    "market": 46.26,
-   "mid": 30.0,
+   "mid": 30.4,
    "productId": 42393,
    "subType": "Holofoil"
   },
   "k-036": {
-   "low": 17.0,
+   "low": 18.99,
    "market": 37.88,
-   "mid": 26.49,
+   "mid": 26.89,
    "productId": 45120,
    "subType": "Unlimited Holofoil"
   },
   "k-037": {
    "low": 0.19,
-   "market": 0.92,
-   "mid": 0.75,
+   "market": 0.96,
+   "mid": 0.76,
    "productId": 42413,
    "subType": "Normal"
   },
   "k-038": {
    "low": 18.82,
    "market": 40.09,
-   "mid": 30.48,
+   "mid": 30.94,
    "productId": 42352,
    "subType": "Holofoil"
   },
   "k-039": {
    "low": 0.25,
-   "market": 1.47,
+   "market": 1.45,
    "mid": 0.99,
    "productId": 45157,
    "subType": "Unlimited"
@@ -832,27 +832,27 @@
   "k-040": {
    "low": 20.0,
    "market": 40.37,
-   "mid": 30.0,
+   "mid": 30.55,
    "productId": 45127,
    "subType": "Unlimited Holofoil"
   },
   "k-041": {
    "low": 0.09,
-   "market": 0.47,
+   "market": 0.49,
    "mid": 0.48,
    "productId": 44459,
    "subType": "Unlimited"
   },
   "k-042": {
    "low": 0.19,
-   "market": 0.73,
-   "mid": 0.62,
+   "market": 0.71,
+   "mid": 0.61,
    "productId": 44436,
    "subType": "Unlimited"
   },
   "k-043": {
    "low": 0.12,
-   "market": 0.54,
+   "market": 0.53,
    "mid": 0.49,
    "productId": 45161,
    "subType": "Unlimited"
@@ -860,34 +860,34 @@
   "k-044": {
    "low": 0.15,
    "market": 0.79,
-   "mid": 0.7,
+   "mid": 0.69,
    "productId": 45140,
    "subType": "Unlimited"
   },
   "k-045": {
    "low": 17.74,
-   "market": 36.23,
-   "mid": 34.5,
+   "market": 36.17,
+   "mid": 29.99,
    "productId": 45126,
    "subType": "Unlimited Holofoil"
   },
   "k-046": {
    "low": 0.16,
-   "market": 0.47,
+   "market": 0.49,
    "mid": 0.48,
    "productId": 45162,
    "subType": "Unlimited"
   },
   "k-047": {
    "low": 0.25,
-   "market": 1.03,
+   "market": 1.05,
    "mid": 0.75,
    "productId": 45144,
    "subType": "Unlimited"
   },
   "k-048": {
    "low": 0.13,
-   "market": 0.48,
+   "market": 0.49,
    "mid": 0.47,
    "productId": 45166,
    "subType": "Unlimited"
@@ -901,22 +901,22 @@
   },
   "k-050": {
    "low": 0.17,
-   "market": 1.03,
-   "mid": 0.6,
+   "market": 1.02,
+   "mid": 0.61,
    "productId": 42390,
    "subType": "Normal"
   },
   "k-051": {
    "low": 4.45,
    "market": 11.09,
-   "mid": 7.25,
+   "mid": 7.77,
    "productId": 42359,
    "subType": "Normal"
   },
   "k-052": {
    "low": 0.2,
-   "market": 0.82,
-   "mid": 0.74,
+   "market": 0.81,
+   "mid": 0.75,
    "productId": 45159,
    "subType": "Unlimited"
   },
@@ -929,8 +929,8 @@
   },
   "k-054": {
    "low": 0.3,
-   "market": 2.1,
-   "mid": 1.36,
+   "market": 2.13,
+   "mid": 1.31,
    "productId": 44455,
    "subType": "Unlimited"
   },
@@ -951,35 +951,35 @@
   "k-057": {
    "low": 0.4,
    "market": 2.22,
-   "mid": 0.99,
+   "mid": 1.0,
    "productId": 45146,
    "subType": "Unlimited"
   },
   "k-058": {
-   "low": 0.3,
-   "market": 1.18,
+   "low": 0.25,
+   "market": 1.19,
    "mid": 0.86,
    "productId": 42369,
    "subType": "Normal"
   },
   "k-059": {
    "low": 1.0,
-   "market": 4.52,
-   "mid": 2.94,
+   "market": 4.56,
+   "mid": 2.91,
    "productId": 42364,
    "subType": "Normal"
   },
   "k-060": {
    "low": 0.21,
-   "market": 0.89,
-   "mid": 0.69,
+   "market": 0.85,
+   "mid": 0.68,
    "productId": 42403,
    "subType": "Normal"
   },
   "k-061": {
    "low": 0.49,
-   "market": 1.96,
-   "mid": 1.23,
+   "market": 2.01,
+   "mid": 1.24,
    "productId": 42380,
    "subType": "Normal"
   },
@@ -992,28 +992,28 @@
   },
   "k-063": {
    "low": 0.15,
-   "market": 1.85,
+   "market": 2.0,
    "mid": 0.75,
    "productId": 42386,
    "subType": "Normal"
   },
   "k-064": {
    "low": 0.4,
-   "market": 3.43,
-   "mid": 1.15,
+   "market": 3.78,
+   "mid": 1.12,
    "productId": 42374,
    "subType": "Normal"
   },
   "k-065": {
    "low": 43.5,
-   "market": 72.46,
+   "market": 72.49,
    "mid": 59.99,
    "productId": 42346,
    "subType": "Holofoil"
   },
   "k-066": {
    "low": 0.09,
-   "market": 0.88,
+   "market": 0.89,
    "mid": 0.5,
    "productId": 42396,
    "subType": "Normal"
@@ -1027,15 +1027,15 @@
   },
   "k-068": {
    "low": 11.48,
-   "market": 24.37,
-   "mid": 24.25,
+   "market": 23.97,
+   "mid": 24.18,
    "productId": 42425,
    "subType": "1st Edition Holofoil"
   },
   "k-069": {
    "low": 0.07,
-   "market": 0.5,
-   "mid": 0.5,
+   "market": 0.49,
+   "mid": 0.49,
    "productId": 45152,
    "subType": "Unlimited"
   },
@@ -1047,7 +1047,7 @@
    "subType": "Unlimited"
   },
   "k-071": {
-   "low": 20.0,
+   "low": 21.0,
    "market": 44.23,
    "mid": 32.0,
    "productId": 45125,
@@ -1062,7 +1062,7 @@
   },
   "k-073": {
    "low": 0.4,
-   "market": 1.21,
+   "market": 1.14,
    "mid": 0.95,
    "productId": 44446,
    "subType": "Unlimited"
@@ -1076,22 +1076,22 @@
   },
   "k-075": {
    "low": 0.19,
-   "market": 0.83,
-   "mid": 0.67,
+   "market": 0.84,
+   "mid": 0.65,
    "productId": 44439,
    "subType": "Unlimited"
   },
   "k-076": {
    "low": 0.5,
    "market": 2.39,
-   "mid": 1.09,
+   "mid": 1.1,
    "productId": 44438,
    "subType": "Unlimited"
   },
   "k-077": {
    "low": 0.15,
    "market": 0.69,
-   "mid": 0.72,
+   "mid": 0.71,
    "productId": 42405,
    "subType": "Normal"
   },
@@ -1104,8 +1104,8 @@
   },
   "k-079": {
    "low": 0.2,
-   "market": 1.04,
-   "mid": 0.78,
+   "market": 0.97,
+   "mid": 0.79,
    "productId": 44457,
    "subType": "Unlimited"
   },
@@ -1125,41 +1125,41 @@
   },
   "k-082": {
    "low": 15.0,
-   "market": 32.39,
-   "mid": 31.82,
+   "market": 31.83,
+   "mid": 31.97,
    "productId": 42433,
    "subType": "Holofoil"
   },
   "k-083": {
    "low": 0.25,
-   "market": 1.46,
+   "market": 1.5,
    "mid": 0.99,
    "productId": 42368,
    "subType": "Normal"
   },
   "k-084": {
    "low": 0.29,
-   "market": 1.24,
-   "mid": 0.99,
+   "market": 1.22,
+   "mid": 1.0,
    "productId": 42391,
    "subType": "Normal"
   },
   "k-085": {
    "low": 0.46,
-   "market": 1.88,
+   "market": 1.95,
    "mid": 1.0,
    "productId": 45137,
    "subType": "Unlimited"
   },
   "k-086": {
    "low": 0.3,
-   "market": 1.25,
-   "mid": 0.98,
+   "market": 1.24,
+   "mid": 0.99,
    "productId": 42384,
    "subType": "Normal"
   },
   "k-087": {
-   "low": 0.85,
+   "low": 0.75,
    "market": 3.67,
    "mid": 2.25,
    "productId": 42366,
@@ -1167,21 +1167,21 @@
   },
   "k-088": {
    "low": 0.1,
-   "market": 0.65,
+   "market": 0.64,
    "mid": 0.5,
    "productId": 44450,
    "subType": "Unlimited"
   },
   "k-089": {
    "low": 5.0,
-   "market": 10.98,
-   "mid": 9.0,
+   "market": 11.23,
+   "mid": 9.25,
    "productId": 44422,
    "subType": "Unlimited Holofoil"
   },
   "k-090": {
    "low": 0.1,
-   "market": 0.47,
+   "market": 0.46,
    "mid": 0.48,
    "productId": 44456,
    "subType": "Unlimited"
@@ -1195,7 +1195,7 @@
   },
   "k-092": {
    "low": 0.29,
-   "market": 0.98,
+   "market": 1.0,
    "mid": 0.79,
    "productId": 42394,
    "subType": "Normal"
@@ -1203,21 +1203,21 @@
   "k-093": {
    "low": 0.5,
    "market": 2.57,
-   "mid": 1.5,
+   "mid": 1.49,
    "productId": 42370,
    "subType": "Normal"
   },
   "k-094": {
    "low": 130.0,
    "market": 218.48,
-   "mid": 190.0,
+   "mid": 195.05,
    "productId": 106521,
    "subType": "Unlimited Holofoil"
   },
   "k-095": {
    "low": 0.19,
-   "market": 0.94,
-   "mid": 0.69,
+   "market": 0.96,
+   "mid": 0.7,
    "productId": 42400,
    "subType": "Normal"
   },
@@ -1231,7 +1231,7 @@
   "k-097": {
    "low": 19.5,
    "market": 40.39,
-   "mid": 34.01,
+   "mid": 34.25,
    "productId": 106524,
    "subType": "Unlimited Holofoil"
   },
@@ -1244,78 +1244,78 @@
   },
   "k-099": {
    "low": 0.2,
-   "market": 1.12,
+   "market": 1.08,
    "mid": 0.7,
    "productId": 44440,
    "subType": "Unlimited"
   },
   "k-100": {
    "low": 0.5,
-   "market": 3.18,
-   "mid": 2.0,
+   "market": 3.21,
+   "mid": 2.02,
    "productId": 42412,
    "subType": "Normal"
   },
   "k-101": {
    "low": 3.0,
    "market": 8.78,
-   "mid": 5.85,
+   "mid": 5.9,
    "productId": 42362,
    "subType": "Normal"
   },
   "k-102": {
    "low": 0.07,
-   "market": 0.44,
-   "mid": 0.47,
+   "market": 0.42,
+   "mid": 0.46,
    "productId": 45155,
    "subType": "Unlimited"
   },
   "k-103": {
    "low": 0.24,
-   "market": 1.53,
-   "mid": 1.15,
+   "market": 1.56,
+   "mid": 1.11,
    "productId": 45138,
    "subType": "Unlimited"
   },
   "k-104": {
    "low": 0.05,
-   "market": 1.88,
+   "market": 1.89,
    "mid": 1.0,
    "productId": 45153,
    "subType": "Unlimited"
   },
   "k-105": {
    "low": 0.25,
-   "market": 2.11,
-   "mid": 1.0,
+   "market": 2.21,
+   "mid": 1.01,
    "productId": 45142,
    "subType": "Unlimited"
   },
   "k-106": {
    "low": 24.58,
    "market": 40.7,
-   "mid": 37.25,
+   "mid": 39.86,
    "productId": 106523,
    "subType": "Unlimited Holofoil"
   },
   "k-107": {
-   "low": 9.15,
-   "market": 18.66,
-   "mid": 16.63,
+   "low": 10.79,
+   "market": 18.96,
+   "mid": 16.73,
    "productId": 42415,
    "subType": "Holofoil"
   },
   "k-108": {
    "low": 0.39,
-   "market": 1.67,
+   "market": 1.71,
    "mid": 1.0,
    "productId": 45141,
    "subType": "Unlimited"
   },
   "k-109": {
    "low": 0.15,
-   "market": 0.82,
-   "mid": 0.64,
+   "market": 0.8,
+   "mid": 0.63,
    "productId": 42395,
    "subType": "Normal"
   },
@@ -1335,13 +1335,13 @@
   },
   "k-112": {
    "low": 0.25,
-   "market": 2.4,
-   "mid": 0.97,
+   "market": 2.39,
+   "mid": 0.99,
    "productId": 45148,
    "subType": "Unlimited"
   },
   "k-113": {
-   "low": 19.99,
+   "low": 17.49,
    "market": 55.42,
    "mid": 35.0,
    "productId": 42371,
@@ -1349,35 +1349,35 @@
   },
   "k-114": {
    "low": 0.25,
-   "market": 0.9,
+   "market": 0.92,
    "mid": 0.73,
    "productId": 42411,
    "subType": "Normal"
   },
   "k-115": {
    "low": 8.0,
-   "market": 21.65,
+   "market": 21.78,
    "mid": 18.98,
    "productId": 45131,
    "subType": "Unlimited Holofoil"
   },
   "k-116": {
    "low": 0.11,
-   "market": 0.54,
+   "market": 0.55,
    "mid": 0.49,
    "productId": 44451,
    "subType": "Unlimited"
   },
   "k-117": {
    "low": 0.2,
-   "market": 0.85,
+   "market": 0.82,
    "mid": 0.68,
    "productId": 44444,
    "subType": "Unlimited"
   },
   "k-118": {
    "low": 0.12,
-   "market": 0.62,
+   "market": 0.65,
    "mid": 0.5,
    "productId": 45156,
    "subType": "Unlimited"
@@ -1385,49 +1385,49 @@
   "k-119": {
    "low": 0.3,
    "market": 1.43,
-   "mid": 0.85,
+   "mid": 0.9,
    "productId": 45149,
    "subType": "Unlimited"
   },
   "k-120": {
    "low": 0.01,
-   "market": 0.77,
-   "mid": 0.57,
+   "market": 0.76,
+   "mid": 0.55,
    "productId": 42410,
    "subType": "Normal"
   },
   "k-121": {
    "low": 0.25,
-   "market": 0.72,
-   "mid": 0.7,
+   "market": 0.73,
+   "mid": 0.72,
    "productId": 42409,
    "subType": "Normal"
   },
   "k-122": {
    "low": 20.0,
    "market": 38.9,
-   "mid": 31.5,
+   "mid": 26.54,
    "productId": 45132,
    "subType": "Unlimited Holofoil"
   },
   "k-123": {
    "low": 30.0,
-   "market": 52.87,
-   "mid": 37.53,
+   "market": 52.47,
+   "mid": 38.07,
    "productId": 45121,
    "subType": "Unlimited Holofoil"
   },
   "k-124": {
    "low": 0.25,
-   "market": 1.07,
-   "mid": 0.86,
+   "market": 1.03,
+   "mid": 0.89,
    "productId": 42373,
    "subType": "Normal"
   },
   "k-125": {
-   "low": 4.5,
-   "market": 10.37,
-   "mid": 6.98,
+   "low": 4.0,
+   "market": 10.45,
+   "mid": 6.97,
    "productId": 42361,
    "subType": "Normal"
   },
@@ -1440,85 +1440,85 @@
   },
   "k-127": {
    "low": 17.0,
-   "market": 41.81,
-   "mid": 22.8,
+   "market": 41.42,
+   "mid": 23.8,
    "productId": 45135,
    "subType": "Unlimited Holofoil"
   },
   "k-128": {
-   "low": 0.2,
-   "market": 0.9,
-   "mid": 0.79,
+   "low": 0.3,
+   "market": 0.92,
+   "mid": 0.78,
    "productId": 45150,
    "subType": "Unlimited"
   },
   "k-129": {
    "low": 0.25,
-   "market": 2.9,
-   "mid": 1.77,
+   "market": 3.24,
+   "mid": 1.85,
    "productId": 42377,
    "subType": "Normal"
   },
   "k-130": {
    "low": 20.01,
    "market": 56.33,
-   "mid": 47.24,
+   "mid": 48.48,
    "productId": 42404,
    "subType": "Holofoil"
   },
   "k-131": {
    "low": 13.5,
-   "market": 35.85,
-   "mid": 19.36,
+   "market": 36.09,
+   "mid": 20.0,
    "productId": 44419,
    "subType": "Unlimited Holofoil"
   },
   "k-132": {
    "low": 31.86,
    "market": 48.62,
-   "mid": 46.2,
+   "mid": 45.85,
    "productId": 106519,
    "subType": "Unlimited Holofoil"
   },
   "k-133": {
    "low": 0.3,
-   "market": 2.27,
+   "market": 2.59,
    "mid": 1.49,
    "productId": 45154,
    "subType": "Unlimited"
   },
   "k-134": {
    "low": 18.0,
-   "market": 49.98,
-   "mid": 30.4,
+   "market": 49.78,
+   "mid": 30.05,
    "productId": 45123,
    "subType": "Unlimited Holofoil"
   },
   "k-135": {
    "low": 48.0,
-   "market": 103.75,
-   "mid": 98.6,
+   "market": 104.3,
+   "mid": 98.99,
    "productId": 45130,
    "subType": "Unlimited Holofoil"
   },
   "k-136": {
    "low": 53.0,
    "market": 92.57,
-   "mid": 72.05,
+   "mid": 70.82,
    "productId": 45129,
    "subType": "Unlimited Holofoil"
   },
   "k-137": {
-   "low": 1.0,
-   "market": 3.72,
-   "mid": 2.53,
+   "low": 0.98,
+   "market": 3.79,
+   "mid": 2.5,
    "productId": 42381,
    "subType": "Normal"
   },
   "k-138": {
    "low": 0.15,
-   "market": 1.09,
-   "mid": 0.78,
+   "market": 1.06,
+   "mid": 0.75,
    "productId": 44454,
    "subType": "Unlimited"
   },
@@ -1531,20 +1531,20 @@
   },
   "k-140": {
    "low": 0.19,
-   "market": 1.52,
+   "market": 1.56,
    "mid": 1.0,
    "productId": 44452,
    "subType": "Unlimited"
   },
   "k-141": {
    "low": 17.99,
-   "market": 38.52,
+   "market": 40.78,
    "mid": 34.99,
    "productId": 106525,
    "subType": "Unlimited Holofoil"
   },
   "k-142": {
-   "low": 19.95,
+   "low": 25.19,
    "market": 36.88,
    "mid": 29.97,
    "productId": 44418,
@@ -1553,21 +1553,21 @@
   "k-143": {
    "low": 80.0,
    "market": 164.03,
-   "mid": 138.0,
+   "mid": 151.2,
    "productId": 45122,
    "subType": "Unlimited Holofoil"
   },
   "k-144": {
    "low": 36.2,
    "market": 72.24,
-   "mid": 49.24,
+   "mid": 50.0,
    "productId": 106518,
    "subType": "Unlimited Holofoil"
   },
   "k-145": {
    "low": 26.0,
    "market": 50.27,
-   "mid": 38.52,
+   "mid": 40.0,
    "productId": 42356,
    "subType": "Holofoil"
   },
@@ -1581,14 +1581,14 @@
   "k-147": {
    "low": 0.25,
    "market": 3.13,
-   "mid": 1.6,
+   "mid": 1.65,
    "productId": 42367,
    "subType": "Normal"
   },
   "k-148": {
-   "low": 7.99,
-   "market": 19.42,
-   "mid": 12.15,
+   "low": 8.0,
+   "market": 19.34,
+   "mid": 12.89,
    "productId": 42358,
    "subType": "Normal"
   },
@@ -1601,29 +1601,29 @@
   },
   "k-150": {
    "low": 38.9,
-   "market": 84.59,
-   "mid": 49.75,
+   "market": 84.79,
+   "mid": 54.99,
    "productId": 42347,
    "subType": "Holofoil"
   },
   "k-151": {
    "low": 5.0,
-   "market": 11.42,
-   "mid": 10.0,
+   "market": 11.34,
+   "mid": 9.99,
    "productId": 87394,
    "subType": "Normal"
   },
   "kg-102802": {
-   "low": 550.0,
-   "market": 415.74,
-   "mid": 662.5,
+   "low": 545.99,
+   "market": 457.5,
+   "mid": 550.0,
    "productId": 102802,
    "subType": "Holofoil"
   },
   "kg-102803": {
-   "low": 975.0,
+   "low": 5000.0,
    "market": 2000.0,
-   "mid": 978.64,
+   "mid": 5000.0,
    "productId": 102803,
    "subType": "Holofoil"
   },
@@ -1642,30 +1642,30 @@
    "subType": "Unlimited Holofoil"
   },
   "kg-107032-1stedition": {
-   "low": 115.0,
+   "low": 114.0,
    "market": 188.87,
-   "mid": 148.96,
+   "mid": 146.57,
    "productId": 107032,
    "subType": "1st Edition"
   },
   "kg-107032-unlimited": {
    "low": 9.66,
    "market": 26.63,
-   "mid": 16.55,
+   "mid": 17.78,
    "productId": 107032,
    "subType": "Unlimited"
   },
   "kg-111529": {
-   "low": 9.0,
+   "low": 10.49,
    "market": 26.53,
-   "mid": 26.75,
+   "mid": 27.06,
    "productId": 111529,
    "subType": "Holofoil"
   },
   "kg-111530": {
    "low": 47.82,
-   "market": 79.15,
-   "mid": 77.53,
+   "market": 78.76,
+   "mid": 68.45,
    "productId": 111530,
    "subType": "Holofoil"
   },
@@ -1679,13 +1679,13 @@
   "kg-111532": {
    "low": 29.99,
    "market": 51.98,
-   "mid": 49.99,
+   "mid": 51.07,
    "productId": 111532,
    "subType": "Holofoil"
   },
   "kg-111533": {
-   "low": 79.89,
-   "market": 128.9,
+   "low": 79.0,
+   "market": 129.77,
    "mid": 101.49,
    "productId": 111533,
    "subType": "Holofoil"
@@ -1700,7 +1700,7 @@
   "kg-111632-reverseholofoil": {
    "low": 1.0,
    "market": 6.26,
-   "mid": 6.5,
+   "mid": 6.58,
    "productId": 111632,
    "subType": "Reverse Holofoil"
   },
@@ -1721,14 +1721,14 @@
   "kg-117701": {
    "low": 13.0,
    "market": 27.14,
-   "mid": 20.13,
+   "mid": 24.32,
    "productId": 117701,
    "subType": "Holofoil"
   },
   "kg-118775": {
-   "low": 28.33,
-   "market": 35.01,
-   "mid": 37.79,
+   "low": 28.26,
+   "market": 35.07,
+   "mid": 37.8,
    "productId": 118775,
    "subType": "Holofoil"
   },
@@ -1742,14 +1742,14 @@
   "kg-126024": {
    "low": 179.99,
    "market": 178.7,
-   "mid": 225.69,
+   "mid": 232.84,
    "productId": 126024,
    "subType": "Holofoil"
   },
   "kg-131314": {
    "low": 28.29,
    "market": 38.79,
-   "mid": 36.37,
+   "mid": 33.51,
    "productId": 131314,
    "subType": "Normal"
   },
@@ -1763,21 +1763,21 @@
   "kg-141250": {
    "low": 118.8,
    "market": 238.82,
-   "mid": 226.0,
+   "mid": 226.62,
    "productId": 141250,
    "subType": "Holofoil"
   },
   "kg-144669": {
    "low": 58.88,
-   "market": 45.42,
-   "mid": 74.99,
+   "market": 46.8,
+   "mid": 75.48,
    "productId": 144669,
    "subType": "Holofoil"
   },
   "kg-149039": {
-   "low": 10.97,
-   "market": 20.46,
-   "mid": 20.82,
+   "low": 10.94,
+   "market": 20.44,
+   "mid": 21.07,
    "productId": 149039,
    "subType": "Holofoil"
   },
@@ -1791,14 +1791,14 @@
   "kg-149127": {
    "low": 57.63,
    "market": 82.41,
-   "mid": 138.0,
+   "mid": 106.59,
    "productId": 149127,
    "subType": "Holofoil"
   },
   "kg-177110": {
    "low": 44.84,
    "market": 70.76,
-   "mid": 62.77,
+   "mid": 63.06,
    "productId": 177110,
    "subType": "Holofoil"
   },
@@ -1826,7 +1826,7 @@
   "kg-183963": {
    "low": 105.0,
    "market": 138.12,
-   "mid": 139.09,
+   "mid": 130.53,
    "productId": 183963,
    "subType": "Holofoil"
   },
@@ -1853,14 +1853,14 @@
   },
   "kg-197660": {
    "low": 3.15,
-   "market": 6.5,
-   "mid": 6.99,
+   "market": 6.51,
+   "mid": 7.0,
    "productId": 197660,
    "subType": "Holofoil"
   },
   "kg-197875": {
    "low": 2.0,
-   "market": 3.06,
+   "market": 3.12,
    "mid": 3.69,
    "productId": 197875,
    "subType": "Holofoil"
@@ -1873,58 +1873,58 @@
    "subType": "Normal"
   },
   "kg-205167": {
-   "low": 5.0,
+   "low": 5.35,
    "market": 6.14,
-   "mid": 6.28,
+   "mid": 6.23,
    "productId": 205167,
    "subType": "Holofoil"
   },
   "kg-226912": {
    "low": 129.99,
    "market": 57.82,
-   "mid": 158.89,
+   "mid": 192.07,
    "productId": 226912,
    "subType": "Holofoil"
   },
   "kg-239090": {
    "low": 375.0,
-   "market": 319.5,
+   "market": 376.0,
    "mid": 687.5,
    "productId": 239090,
    "subType": "Normal"
   },
   "kg-246724": {
    "low": 6.31,
-   "market": 8.72,
-   "mid": 9.89,
+   "market": 8.81,
+   "mid": 9.99,
    "productId": 246724,
    "subType": "Holofoil"
   },
   "kg-246726": {
    "low": 35.99,
-   "market": 46.28,
-   "mid": 47.85,
+   "market": 46.3,
+   "mid": 48.15,
    "productId": 246726,
    "subType": "Holofoil"
   },
   "kg-246729": {
    "low": 1.64,
    "market": 2.58,
-   "mid": 2.8,
+   "mid": 2.81,
    "productId": 246729,
    "subType": "Holofoil"
   },
   "kg-246732": {
-   "low": 13.38,
-   "market": 19.23,
-   "mid": 20.38,
+   "low": 13.37,
+   "market": 19.35,
+   "mid": 20.32,
    "productId": 246732,
    "subType": "Holofoil"
   },
   "kg-250327": {
    "low": 24.0,
    "market": 30.11,
-   "mid": 35.64,
+   "mid": 35.9,
    "productId": 250327,
    "subType": "Holofoil"
   },
@@ -1937,8 +1937,8 @@
   },
   "kg-253843": {
    "low": 113.99,
-   "market": 134.17,
-   "mid": 134.16,
+   "market": 136.86,
+   "mid": 135.0,
    "productId": 253843,
    "subType": "Reverse Holofoil"
   },
@@ -1958,8 +1958,8 @@
   },
   "kg-480052": {
    "low": 9.0,
-   "market": 12.46,
-   "mid": 14.08,
+   "market": 12.11,
+   "mid": 13.99,
    "productId": 480052,
    "subType": "Normal"
   },
@@ -1972,28 +1972,28 @@
   },
   "kg-487889": {
    "low": 0.75,
-   "market": 1.89,
+   "market": 2.23,
    "mid": 2.0,
    "productId": 487889,
    "subType": "Holofoil"
   },
   "kg-490083": {
-   "low": 8.33,
-   "market": 9.29,
-   "mid": 10.99,
+   "low": 8.37,
+   "market": 9.62,
+   "mid": 11.0,
    "productId": 490083,
    "subType": "Holofoil"
   },
   "kg-524054": {
    "low": 7.99,
-   "market": 9.5,
+   "market": 9.45,
    "mid": 9.99,
    "productId": 524054,
    "subType": "Normal"
   },
   "kg-524055": {
    "low": 50.0,
-   "market": 8.27,
+   "market": 8.25,
    "mid": 69.99,
    "productId": 524055,
    "subType": "Normal"
@@ -2001,33 +2001,33 @@
   "kg-526914": {
    "low": 148.0,
    "market": 125.23,
-   "mid": 156.5,
+   "mid": 154.5,
    "productId": 526914,
    "subType": "Normal"
   },
   "kg-527991": {
    "low": 8.13,
    "market": 10.28,
-   "mid": 11.54,
+   "mid": 11.6,
    "productId": 527991,
    "subType": "Holofoil"
   },
   "kg-527992": {
    "low": 13.68,
    "market": 15.58,
-   "mid": 17.63,
+   "mid": 17.62,
    "productId": 527992,
    "subType": "Holofoil"
   },
   "kg-549339": {
    "low": 6.0,
-   "market": 9.35,
-   "mid": 10.44,
+   "market": 9.42,
+   "mid": 11.08,
    "productId": 549339,
    "subType": "Holofoil"
   },
   "kg-566474": {
-   "low": 0.04,
+   "low": 0.01,
    "market": 0.19,
    "mid": 0.2,
    "productId": 566474,
@@ -2035,7 +2035,7 @@
   },
   "kg-566475": {
    "low": 0.1,
-   "market": 0.34,
+   "market": 0.33,
    "mid": 0.33,
    "productId": 566475,
    "subType": "Holofoil"
@@ -2050,20 +2050,20 @@
   "kg-566672": {
    "low": 1.0,
    "market": 1.28,
-   "mid": 1.36,
+   "mid": 1.37,
    "productId": 566672,
    "subType": "Holofoil"
   },
   "kg-566824": {
    "low": 175.0,
-   "market": 85.21,
+   "market": 88.41,
    "mid": 180.0,
    "productId": 566824,
    "subType": "Holofoil"
   },
   "kg-566825": {
    "low": 68.45,
-   "market": 49.13,
+   "market": 50.81,
    "mid": 71.0,
    "productId": 566825,
    "subType": "Holofoil"
@@ -2077,7 +2077,7 @@
   },
   "kg-567131": {
    "low": 0.1,
-   "market": 0.88,
+   "market": 0.87,
    "mid": 0.99,
    "productId": 567131,
    "subType": "Holofoil"
@@ -2106,20 +2106,20 @@
   "kg-568203": {
    "low": 123.0,
    "market": 135.38,
-   "mid": 150.0,
+   "mid": 149.9,
    "productId": 568203,
    "subType": "Holofoil"
   },
   "kg-569432": {
    "low": 1.0,
-   "market": 1.53,
-   "mid": 1.59,
+   "market": 1.56,
+   "mid": 1.64,
    "productId": 569432,
    "subType": "Holofoil"
   },
   "kg-569433": {
    "low": 3.69,
-   "market": 4.09,
+   "market": 4.13,
    "mid": 5.0,
    "productId": 569433,
    "subType": "Holofoil"
@@ -2133,7 +2133,7 @@
   },
   "kg-569493": {
    "low": 44.99,
-   "market": 29.59,
+   "market": 30.05,
    "mid": 47.49,
    "productId": 569493,
    "subType": "Holofoil"
@@ -2174,7 +2174,7 @@
    "subType": "Holofoil"
   },
   "kg-572561": {
-   "low": 0.5,
+   "low": 0.35,
    "market": 1.06,
    "mid": 1.25,
    "productId": 572561,
@@ -2183,7 +2183,7 @@
   "kg-572562": {
    "low": 9.95,
    "market": 2.82,
-   "mid": 9.95,
+   "mid": 9.98,
    "productId": 572562,
    "subType": "Holofoil"
   },
@@ -2197,7 +2197,7 @@
   "kg-572645": {
    "low": 75.0,
    "market": 92.34,
-   "mid": 107.5,
+   "mid": 75.0,
    "productId": 572645,
    "subType": "Holofoil"
   },
@@ -2231,20 +2231,20 @@
   },
   "kg-575307": {
    "low": 1.2,
-   "market": 2.77,
-   "mid": 2.64,
+   "market": 2.74,
+   "mid": 2.58,
    "productId": 575307,
    "subType": "Normal"
   },
   "kg-575334": {
-   "low": 42.86,
+   "low": 41.57,
    "market": 55.32,
    "mid": 60.0,
    "productId": 575334,
    "subType": "Holofoil"
   },
   "kg-575606": {
-   "low": 50.0,
+   "low": 42.0,
    "market": 119.49,
    "mid": 115.0,
    "productId": 575606,
@@ -2252,7 +2252,7 @@
   },
   "kg-575647": {
    "low": 4.77,
-   "market": 6.94,
+   "market": 7.03,
    "mid": 8.16,
    "productId": 575647,
    "subType": "Normal"
@@ -2267,14 +2267,14 @@
   "kg-575748": {
    "low": 27.95,
    "market": 44.02,
-   "mid": 43.24,
+   "mid": 36.49,
    "productId": 575748,
    "subType": "Holofoil"
   },
   "kg-576013": {
    "low": 29.0,
-   "market": 44.24,
-   "mid": 80.0,
+   "market": 55.0,
+   "mid": 89.5,
    "productId": 576013,
    "subType": "1st Edition"
   },
@@ -2287,21 +2287,21 @@
   },
   "kg-576700": {
    "low": 0.14,
-   "market": 0.33,
+   "market": 0.34,
    "mid": 0.4,
    "productId": 576700,
    "subType": "Normal"
   },
   "kg-576819": {
-   "low": 27.99,
+   "low": 32.0,
    "market": 54.05,
-   "mid": 44.5,
+   "mid": 50.0,
    "productId": 576819,
    "subType": "Holofoil"
   },
   "kg-576822": {
    "low": 1.05,
-   "market": 2.72,
+   "market": 2.71,
    "mid": 2.74,
    "productId": 576822,
    "subType": "Normal"
@@ -2315,7 +2315,7 @@
   },
   "kg-591881": {
    "low": 23.85,
-   "market": 24.09,
+   "market": 22.43,
    "mid": 41.99,
    "productId": 591881,
    "subType": "Holofoil"
@@ -2323,7 +2323,7 @@
   "kg-594621": {
    "low": 25.0,
    "market": 36.5,
-   "mid": 36.5,
+   "mid": 36.58,
    "productId": 594621,
    "subType": "Holofoil"
   },
@@ -2337,14 +2337,14 @@
   "kg-596450": {
    "low": 2.09,
    "market": 2.15,
-   "mid": 3.27,
+   "mid": 3.03,
    "productId": 596450,
    "subType": "Holofoil"
   },
   "kg-596481": {
    "low": 14.0,
    "market": 12.75,
-   "mid": 15.51,
+   "mid": 14.0,
    "productId": 596481,
    "subType": "Holofoil"
   },
@@ -2393,7 +2393,7 @@
   "kg-603948": {
    "low": 3.0,
    "market": 4.06,
-   "mid": 3.69,
+   "mid": 3.84,
    "productId": 603948,
    "subType": "1st Edition"
   },
@@ -2441,7 +2441,7 @@
   },
   "kg-606120": {
    "low": 3.0,
-   "market": 1.92,
+   "market": 1.97,
    "mid": 3.0,
    "productId": 606120,
    "subType": "1st Edition"
@@ -2546,8 +2546,8 @@
   },
   "kg-612972-1stedition": {
    "low": 9.0,
-   "market": 8.5,
-   "mid": 17.97,
+   "market": 12.0,
+   "mid": 15.99,
    "productId": 612972,
    "subType": "1st Edition"
   },
@@ -2568,20 +2568,20 @@
   "kg-623272": {
    "low": 0.25,
    "market": 0.59,
-   "mid": 0.66,
+   "mid": 0.67,
    "productId": 623272,
    "subType": "Holofoil"
   },
   "kg-630816-holofoil": {
-   "low": 0.1,
-   "market": 0.19,
-   "mid": 0.33,
+   "low": 0.09,
+   "market": 0.27,
+   "mid": 0.32,
    "productId": 630816,
    "subType": "Holofoil"
   },
   "kg-630816-reverseholofoil": {
-   "low": 0.15,
-   "market": 0.38,
+   "low": 0.18,
+   "market": 0.41,
    "mid": 0.48,
    "productId": 630816,
    "subType": "Reverse Holofoil"
@@ -2596,14 +2596,14 @@
   "kg-634335": {
    "low": 133.99,
    "market": 140.79,
-   "mid": 139.89,
+   "mid": 140.79,
    "productId": 634335,
    "subType": "Holofoil"
   },
   "kg-635481": {
-   "low": 0.2,
+   "low": 0.25,
    "market": 0.94,
-   "mid": 0.98,
+   "mid": 0.97,
    "productId": 635481,
    "subType": "Normal"
   },
@@ -2615,14 +2615,14 @@
    "subType": "Normal"
   },
   "kg-716210": {
-   "low": 80.0,
-   "market": 81.93,
-   "mid": 91.28,
+   "low": 80.67,
+   "market": 80.57,
+   "mid": 90.92,
    "productId": 716210,
    "subType": "Holofoil"
   },
   "kg-717006": {
-   "low": 65.0,
+   "low": 64.69,
    "market": 75.87,
    "mid": 79.98,
    "productId": 717006,
@@ -2630,7 +2630,7 @@
   },
   "kg-84608-normal": {
    "low": 29.0,
-   "market": 46.53,
+   "market": 47.3,
    "mid": 99.98,
    "productId": 84608,
    "subType": "Normal"
@@ -2671,16 +2671,16 @@
    "subType": "Normal"
   },
   "kg-85997": {
-   "low": 6.7,
+   "low": 6.73,
    "market": 8.99,
-   "mid": 9.75,
+   "mid": 10.0,
    "productId": 85997,
    "subType": "Normal"
   },
   "kg-85998": {
    "low": 22.95,
    "market": 44.54,
-   "mid": 44.78,
+   "mid": 44.6,
    "productId": 85998,
    "subType": "Holofoil"
   },
@@ -2715,7 +2715,7 @@
   "kg-86005-reverseholofoil": {
    "low": 24.9,
    "market": 64.15,
-   "mid": 40.24,
+   "mid": 41.12,
    "productId": 86005,
    "subType": "Reverse Holofoil"
   },
@@ -2743,7 +2743,7 @@
   "kg-89719": {
    "low": 0.78,
    "market": 1.74,
-   "mid": 1.48,
+   "mid": 1.47,
    "productId": 89719,
    "subType": "Normal"
   },
@@ -2756,99 +2756,99 @@
   },
   "mk-151-129-165-rev": {
    "low": 0.1,
-   "market": 0.27,
+   "market": 0.26,
    "mid": 0.32,
    "productId": 516692,
    "subType": "Reverse Holofoil"
   },
   "mk-ancient-origins-19-98": {
    "low": 0.05,
-   "market": 0.26,
+   "market": 0.27,
    "mid": 0.28,
    "productId": 101440,
    "subType": "Normal"
   },
   "mk-ancient-origins-19-98-rev": {
-   "low": 0.7,
+   "low": 0.69,
    "market": 5.46,
-   "mid": 2.24,
+   "mid": 2.22,
    "productId": 101440,
    "subType": "Reverse Holofoil"
   },
   "mk-base-set-2-50-130": {
    "low": 0.48,
    "market": 1.71,
-   "mid": 1.0,
+   "mid": 1.01,
    "productId": 42513,
    "subType": "Normal"
   },
   "mk-burning-shadows-32-147": {
    "low": 0.08,
    "market": 0.31,
-   "mid": 0.33,
+   "mid": 0.32,
    "productId": 138512,
    "subType": "Normal"
   },
   "mk-burning-shadows-32-147-rev": {
    "low": 0.81,
    "market": 2.03,
-   "mid": 1.41,
+   "mid": 1.77,
    "productId": 138512,
    "subType": "Reverse Holofoil"
   },
   "mk-call-of-legends-61-95": {
-   "low": 0.99,
+   "low": 1.24,
    "market": 3.0,
-   "mid": 2.69,
+   "mid": 2.84,
    "productId": 87035,
    "subType": "Normal"
   },
   "mk-call-of-legends-61-95-rev": {
    "low": 20.72,
    "market": 38.51,
-   "mid": 34.99,
+   "mid": 45.83,
    "productId": 87035,
    "subType": "Reverse Holofoil"
   },
   "mk-crimson-invasion-17-111": {
    "low": 0.09,
    "market": 0.36,
-   "mid": 0.39,
+   "mid": 0.38,
    "productId": 149038,
    "subType": "Normal"
   },
   "mk-crimson-invasion-17-111-rev": {
    "low": 0.29,
    "market": 1.9,
-   "mid": 1.71,
+   "mid": 1.67,
    "productId": 149038,
    "subType": "Reverse Holofoil"
   },
   "mk-destined-rivals-misty-s-48-182": {
    "low": 0.01,
-   "market": 0.23,
-   "mid": 0.22,
+   "market": 0.21,
+   "mid": 0.21,
    "productId": 630815,
    "subType": "Normal"
   },
   "mk-destined-rivals-misty-s-48-182-rev": {
    "low": 0.1,
-   "market": 0.4,
+   "market": 0.44,
    "mid": 0.45,
    "productId": 630815,
    "subType": "Reverse Holofoil"
   },
   "mk-detective-pikachu-8-18": {
    "low": 0.15,
-   "market": 1.01,
-   "mid": 0.85,
+   "market": 1.0,
+   "mid": 0.86,
    "productId": 186012,
    "subType": "Holofoil"
   },
   "mk-dragon-majesty-19-70": {
    "low": 0.15,
    "market": 0.59,
-   "mid": 0.65,
+   "mid": 0.63,
    "productId": 175381,
    "subType": "Normal"
   },
@@ -2875,14 +2875,14 @@
   },
   "mk-evolutions-33-108": {
    "low": 0.01,
-   "market": 0.31,
+   "market": 0.3,
    "mid": 0.27,
    "productId": 124046,
    "subType": "Normal"
   },
   "mk-evolutions-33-108-rev": {
    "low": 0.45,
-   "market": 2.22,
+   "market": 2.18,
    "mid": 0.99,
    "productId": 124046,
    "subType": "Reverse Holofoil"
@@ -2890,20 +2890,20 @@
   "mk-ex-deoxys-64-107": {
    "low": 4.99,
    "market": 9.5,
-   "mid": 9.72,
+   "mid": 9.7,
    "productId": 87028,
    "subType": "Normal"
   },
   "mk-ex-deoxys-64-107-rev": {
    "low": 89.99,
    "market": 172.08,
-   "mid": 113.4,
+   "mid": 156.05,
    "productId": 87028,
    "subType": "Reverse Holofoil"
   },
   "mk-ex-dragon-60-97": {
    "low": 3.13,
-   "market": 5.13,
+   "market": 5.15,
    "mid": 5.0,
    "productId": 87025,
    "subType": "Normal"
@@ -2911,14 +2911,14 @@
   "mk-ex-dragon-60-97-rev": {
    "low": 40.0,
    "market": 69.65,
-   "mid": 49.24,
+   "mid": 57.55,
    "productId": 87025,
    "subType": "Reverse Holofoil"
   },
   "mk-ex-firered-leafgreen-67-112": {
    "low": 3.66,
-   "market": 7.26,
-   "mid": 7.17,
+   "market": 7.38,
+   "mid": 7.6,
    "productId": 87026,
    "subType": "Normal"
   },
@@ -2932,35 +2932,35 @@
   "mk-ex-holon-phantoms-69-110": {
    "low": 2.47,
    "market": 5.2,
-   "mid": 4.99,
+   "mid": 4.75,
    "productId": 87038,
    "subType": "Normal"
   },
   "mk-ex-holon-phantoms-69-110-rev": {
    "low": 164.75,
    "market": 184.23,
-   "mid": 269.99,
+   "mid": 228.17,
    "productId": 87038,
    "subType": "Reverse Holofoil"
   },
   "mk-ex-team-rocket-returns-65-109": {
    "low": 4.21,
    "market": 9.41,
-   "mid": 9.5,
+   "mid": 9.62,
    "productId": 87027,
    "subType": "Normal"
   },
   "mk-ex-team-rocket-returns-65-109-rev": {
    "low": 205.0,
    "market": 599.99,
-   "mid": 230.75,
+   "mid": 231.49,
    "productId": 87027,
    "subType": "Reverse Holofoil"
   },
   "mk-expedition-base-set-118-165": {
    "low": 27.58,
    "market": 35.24,
-   "mid": 44.25,
+   "mid": 43.5,
    "productId": 87024,
    "subType": "Normal"
   },
@@ -2973,7 +2973,7 @@
   },
   "mk-generations-22-83": {
    "low": 0.31,
-   "market": 0.68,
+   "market": 0.69,
    "mid": 0.6,
    "productId": 113680,
    "subType": "Normal"
@@ -2981,41 +2981,41 @@
   "mk-generations-22-83-rev": {
    "low": 2.8,
    "market": 6.5,
-   "mid": 6.49,
+   "mid": 6.14,
    "productId": 113680,
    "subType": "Reverse Holofoil"
   },
   "mk-gym-challenge-giovanni-s-73-132": {
-   "low": 2.01,
-   "market": 3.67,
-   "mid": 3.43,
+   "low": 2.04,
+   "market": 3.65,
+   "mid": 3.45,
    "productId": 85715,
    "subType": "Unlimited"
   },
   "mk-gym-challenge-misty-s-88-132": {
    "low": 1.49,
-   "market": 4.37,
-   "mid": 3.84,
+   "market": 4.44,
+   "mid": 3.85,
    "productId": 87534,
    "subType": "Unlimited"
   },
   "mk-heartgold-soulsilver-72-123": {
    "low": 0.2,
    "market": 2.06,
-   "mid": 1.86,
+   "mid": 1.88,
    "productId": 87032,
    "subType": "Normal"
   },
   "mk-heartgold-soulsilver-72-123-rev": {
    "low": 14.0,
    "market": 52.87,
-   "mid": 35.66,
+   "mid": 36.45,
    "productId": 87032,
    "subType": "Reverse Holofoil"
   },
   "mk-hidden-fates-15-68": {
    "low": 0.03,
-   "market": 0.32,
+   "market": 0.33,
    "mid": 0.33,
    "productId": 197659,
    "subType": "Normal"
@@ -3023,14 +3023,14 @@
   "mk-hidden-fates-15-68-rev": {
    "low": 0.93,
    "market": 2.24,
-   "mid": 2.17,
+   "mid": 2.23,
    "productId": 197659,
    "subType": "Reverse Holofoil"
   },
   "mk-legendary-collection-52-110": {
    "low": 2.79,
-   "market": 8.21,
-   "mid": 5.07,
+   "market": 8.22,
+   "mid": 5.04,
    "productId": 87022,
    "subType": "Normal"
   },
@@ -3044,55 +3044,55 @@
   "mk-legendary-treasures-30-113": {
    "low": 0.99,
    "market": 2.91,
-   "mid": 1.91,
+   "mid": 2.0,
    "productId": 87037,
    "subType": "Normal"
   },
   "mk-legendary-treasures-30-113-rev": {
    "low": 15.7,
    "market": 31.46,
-   "mid": 25.64,
+   "mid": 25.65,
    "productId": 87037,
    "subType": "Reverse Holofoil"
   },
   "mk-mysterious-treasures-89-123": {
    "low": 0.6,
    "market": 1.62,
-   "mid": 1.35,
+   "mid": 1.43,
    "productId": 87029,
    "subType": "Normal"
   },
   "mk-mysterious-treasures-89-123-rev": {
-   "low": 20.0,
+   "low": 19.99,
    "market": 33.74,
-   "mid": 27.12,
+   "mid": 27.8,
    "productId": 87029,
    "subType": "Reverse Holofoil"
   },
   "mk-neo-revelation-shining-66-64": {
-   "low": 379.98,
+   "low": 600.0,
    "market": 445.0,
-   "mid": 379.99,
+   "mid": 1250.0,
    "productId": 89166,
    "subType": "Unlimited Holofoil"
   },
   "mk-paldea-evolved-203-193": {
    "low": 238.99,
-   "market": 311.34,
-   "mid": 359.69,
+   "market": 303.02,
+   "mid": 350.0,
    "productId": 497606,
    "subType": "Holofoil"
   },
   "mk-paldea-evolved-42-193": {
    "low": 0.01,
-   "market": 0.19,
+   "market": 0.18,
    "mid": 0.2,
    "productId": 497453,
    "subType": "Normal"
   },
   "mk-paldea-evolved-42-193-rev": {
    "low": 0.04,
-   "market": 0.34,
+   "market": 0.33,
    "mid": 0.33,
    "productId": 497453,
    "subType": "Reverse Holofoil"
@@ -3100,35 +3100,35 @@
   "mk-pokemon-go-021-078": {
    "low": 0.01,
    "market": 0.18,
-   "mid": 0.21,
+   "mid": 0.22,
    "productId": 276951,
    "subType": "Normal"
   },
   "mk-pokemon-go-021-078-rev": {
-   "low": 0.1,
-   "market": 0.46,
-   "mid": 0.42,
+   "low": 0.07,
+   "market": 0.49,
+   "mid": 0.44,
    "productId": 276951,
    "subType": "Reverse Holofoil"
   },
   "mk-rebel-clash-39-192": {
    "low": 0.17,
-   "market": 1.85,
+   "market": 1.92,
    "mid": 1.89,
    "productId": 213117,
    "subType": "Normal"
   },
   "mk-rebel-clash-39-192-rev": {
    "low": 7.59,
-   "market": 19.35,
-   "mid": 16.6,
+   "market": 19.36,
+   "mid": 15.99,
    "productId": 213117,
    "subType": "Reverse Holofoil"
   },
   "mk-scarlet-violet-44-198": {
    "low": 0.01,
    "market": 0.21,
-   "mid": 0.2,
+   "mid": 0.21,
    "productId": 487888,
    "subType": "Normal"
   },
@@ -3148,22 +3148,22 @@
   },
   "mk-stormfront-65-100": {
    "low": 2.0,
-   "market": 5.94,
-   "mid": 5.85,
+   "market": 6.09,
+   "mid": 5.94,
    "productId": 87030,
    "subType": "Normal"
   },
   "mk-stormfront-65-100-rev": {
-   "low": 150.0,
+   "low": 499.99,
    "market": 19.99,
-   "mid": 499.99,
+   "mid": 749.98,
    "productId": 87030,
    "subType": "Reverse Holofoil"
   },
   "mk-supreme-victors-110-147": {
    "low": 0.5,
    "market": 2.91,
-   "mid": 2.6,
+   "mid": 2.59,
    "productId": 87031,
    "subType": "Normal"
   },
@@ -3176,14 +3176,14 @@
   },
   "mk-team-rocket-47-82": {
    "low": 1.0,
-   "market": 3.12,
+   "market": 3.0,
    "mid": 2.7,
    "productId": 87021,
    "subType": "Unlimited"
   },
   "mk-team-up-29-181": {
    "low": 0.19,
-   "market": 0.6,
+   "market": 0.59,
    "mid": 0.53,
    "productId": 183800,
    "subType": "Normal"
@@ -3196,43 +3196,43 @@
    "subType": "Reverse Holofoil"
   },
   "pe-etb": {
-   "low": 112.99,
-   "market": 120.9,
-   "mid": 175.0,
+   "low": 117.99,
+   "market": 119.67,
+   "mid": 175.99,
    "productId": 593355,
    "subType": "Normal"
   },
   "pe-spc": {
    "low": 234.99,
-   "market": 247.76,
-   "mid": 318.6,
+   "market": 247.57,
+   "mid": 314.1,
    "productId": 622770,
    "subType": "Normal"
   },
   "pe-spc-2": {
    "low": 234.99,
-   "market": 247.76,
-   "mid": 318.6,
+   "market": 247.57,
+   "mid": 314.1,
    "productId": 622770,
    "subType": "Normal"
   },
   "radar-282401": {
-   "low": 539.0,
-   "market": 500.34,
+   "low": 539.76,
+   "market": 523.5,
    "mid": 625.0,
    "productId": 282401,
    "subType": "Normal"
   },
   "radar-565236": {
    "low": 130.0,
-   "market": 150.6,
-   "mid": 157.68,
+   "market": 150.1,
+   "mid": 158.73,
    "productId": 565236,
    "subType": "Normal"
   },
   "radar-565248": {
    "low": 145.0,
-   "market": 149.51,
+   "market": 150.37,
    "mid": 155.0,
    "productId": 565248,
    "subType": "Normal"
@@ -3259,14 +3259,14 @@
    "subType": "Normal"
   },
   "radar-603428": {
-   "low": 93.96,
-   "market": 97.08,
-   "mid": 139.74,
+   "low": 93.0,
+   "market": 96.28,
+   "mid": 139.48,
    "productId": 603428,
    "subType": "Normal"
   },
   "radar-637384": {
-   "low": 130.0,
+   "low": 125.0,
    "market": 144.24,
    "mid": 151.27,
    "productId": 637384,
@@ -3274,106 +3274,106 @@
   },
   "rp-672733": {
    "low": 43.8,
-   "market": 55.17,
+   "market": 54.7,
    "mid": 60.0,
    "productId": 672733,
    "subType": "Normal"
   },
   "rp-692947": {
    "low": 54.44,
-   "market": 70.22,
+   "market": 72.1,
    "mid": 85.0,
    "productId": 692947,
    "subType": "Normal"
   },
   "s-30-sir-jirachi": {
-   "low": 40.66,
-   "market": 41.97,
-   "mid": 48.5,
+   "low": 35.54,
+   "market": 39.77,
+   "mid": 47.05,
    "productId": 716232,
    "subType": "Holofoil"
   },
   "s-30-sir-sylveon": {
-   "low": 38.53,
-   "market": 39.31,
-   "mid": 47.18,
+   "low": 39.35,
+   "market": 39.68,
+   "mid": 46.92,
    "productId": 716231,
    "subType": "Holofoil"
   },
   "s-cc-zard": {
-   "low": 157.99,
-   "market": 156.67,
-   "mid": 200.13,
+   "low": 145.71,
+   "market": 159.13,
+   "mid": 196.69,
    "productId": 714372,
    "subType": "Holofoil"
   },
   "s-charizard-tg03": {
    "low": 22.29,
-   "market": 29.1,
-   "mid": 32.8,
+   "market": 28.86,
+   "mid": 32.97,
    "productId": 284251,
    "subType": "Holofoil"
   },
   "s-cri-ampharos-090": {
    "low": 3.0,
-   "market": 4.36,
-   "mid": 5.41,
+   "market": 4.2,
+   "mid": 5.5,
    "productId": 693446,
    "subType": "Holofoil"
   },
   "s-cri-bubbly-water-energy-084": {
    "low": 0.01,
-   "market": 0.21,
-   "mid": 0.21,
+   "market": 0.25,
+   "mid": 0.22,
    "productId": 693458,
    "subType": "Holofoil"
   },
   "s-cri-cinccino-ex-105": {
-   "low": 2.49,
-   "market": 3.53,
-   "mid": 4.39,
+   "low": 2.45,
+   "market": 3.62,
+   "mid": 4.32,
    "productId": 693464,
    "subType": "Holofoil"
   },
   "s-cri-cobalion-ex-064": {
    "low": 0.08,
-   "market": 0.53,
+   "market": 0.45,
    "mid": 0.6,
    "productId": 693468,
    "subType": "Holofoil"
   },
   "s-cri-crobat-051": {
    "low": 0.01,
-   "market": 0.14,
+   "market": 0.16,
    "mid": 0.19,
    "productId": 693470,
    "subType": "Holofoil"
   },
   "s-cri-crobat-093": {
-   "low": 1.0,
-   "market": 1.78,
+   "low": 0.99,
+   "market": 1.96,
    "mid": 2.5,
    "productId": 693471,
    "subType": "Holofoil"
   },
   "s-cri-energy-retrieval-108": {
    "low": 1.0,
-   "market": 1.63,
-   "mid": 1.99,
+   "market": 1.93,
+   "mid": 2.0,
    "productId": 693482,
    "subType": "Holofoil"
   },
   "s-cri-fennekin-mep080": {
    "low": 1.0,
-   "market": 1.62,
+   "market": 1.59,
    "mid": 2.35,
    "productId": 694694,
    "subType": "Holofoil"
   },
   "s-cri-froakie-088": {
    "low": 3.5,
-   "market": 5.72,
-   "mid": 6.65,
+   "market": 5.58,
+   "mid": 6.53,
    "productId": 693489,
    "subType": "Holofoil"
   },
@@ -3386,106 +3386,106 @@
   },
   "s-cri-jumbo-ice-cream-109": {
    "low": 0.95,
-   "market": 2.54,
-   "mid": 3.74,
+   "market": 2.61,
+   "mid": 3.75,
    "productId": 693501,
    "subType": "Holofoil"
   },
   "s-cri-mega-dragalge-ex-104": {
    "low": 1.0,
-   "market": 1.94,
-   "mid": 2.68,
+   "market": 2.16,
+   "mid": 2.59,
    "productId": 693509,
    "subType": "Holofoil"
   },
   "s-cri-nitro-fire-energy-086": {
    "low": 0.01,
-   "market": 0.2,
+   "market": 0.22,
    "mid": 0.21,
    "productId": 693527,
    "subType": "Holofoil"
   },
   "s-cri-sliggoo-095": {
-   "low": 0.97,
-   "market": 1.52,
+   "low": 0.94,
+   "market": 1.58,
    "mid": 2.0,
    "productId": 693546,
    "subType": "Holofoil"
   },
   "s-cri-watchog-097": {
-   "low": 0.69,
-   "market": 1.25,
+   "low": 0.7,
+   "market": 1.17,
    "mid": 1.66,
    "productId": 693560,
    "subType": "Holofoil"
   },
   "s-darkrai-sir": {
-   "low": 142.5,
-   "market": 143.91,
-   "mid": 178.49,
+   "low": 130.0,
+   "market": 141.42,
+   "mid": 172.3,
    "productId": 704873,
    "subType": "Holofoil"
   },
   "s-drago-sir": {
    "low": 425.0,
-   "market": 445.32,
-   "mid": 489.85,
+   "market": 437.88,
+   "mid": 485.31,
    "productId": 676102,
    "subType": "Holofoil"
   },
   "s-flareon-065-svp-jp": {
    "low": 89.0,
-   "market": 95.77,
+   "market": 96.06,
    "mid": 99.98,
    "productId": 587823,
    "subType": "Holofoil"
   },
   "s-fur-mew": {
-   "low": 44.65,
-   "market": 46.17,
-   "mid": 63.0,
+   "low": 42.69,
+   "market": 46.07,
+   "mid": 62.0,
    "productId": 696688,
    "subType": "Holofoil"
   },
   "s-fur-mewtwo": {
    "low": 36.46,
-   "market": 37.51,
-   "mid": 42.99,
+   "market": 38.04,
+   "mid": 44.0,
    "productId": 696687,
    "subType": "Holofoil"
   },
   "s-gengar-tg06": {
-   "low": 38.34,
-   "market": 44.45,
-   "mid": 51.82,
+   "low": 37.0,
+   "market": 45.66,
+   "mid": 51.78,
    "productId": 284266,
    "subType": "Holofoil"
   },
   "s-gren-sir": {
    "low": 107.99,
-   "market": 111.41,
-   "mid": 134.87,
+   "market": 110.2,
+   "mid": 135.15,
    "productId": 693517,
    "subType": "Holofoil"
   },
   "s-mew-paf": {
    "low": 723.99,
-   "market": 853.37,
-   "mid": 887.76,
+   "market": 848.99,
+   "mid": 893.01,
    "productId": 534919,
    "subType": "Holofoil"
   },
   "s-pikachu-vmax-tg29": {
    "low": 19.7,
-   "market": 24.3,
-   "mid": 25.83,
+   "market": 24.23,
+   "mid": 25.52,
    "productId": 284302,
    "subType": "Holofoil"
   },
   "s-por-mega-clefable-ex-031": {
    "low": 0.17,
-   "market": 0.48,
-   "mid": 0.74,
+   "market": 0.55,
+   "mid": 0.75,
    "productId": 684383,
    "subType": "Holofoil"
   },
@@ -3498,31 +3498,52 @@
   },
   "sf-etb": {
    "low": 131.0,
-   "market": 139.92,
-   "mid": 169.95,
+   "market": 140.9,
+   "mid": 167.47,
    "productId": 228821,
    "subType": "Normal"
   },
   "sv2a-box": {
    "low": 218.47,
-   "market": 225.35,
-   "mid": 349.67,
+   "market": 226.59,
+   "mid": 349.84,
    "productId": 565243,
    "subType": "Normal"
   },
   "sv4a-box": {
    "low": 110.5,
-   "market": 117.41,
-   "mid": 144.0,
+   "market": 118.13,
+   "mid": 143.7,
    "productId": 565232,
+   "subType": "Normal"
+  },
+  "w-516576": {
+   "low": 100.11,
+   "market": 108.39,
+   "mid": 129.99,
+   "productId": 516576,
    "subType": "Normal"
   },
   "w-610931": {
    "low": 203.88,
-   "market": 204.61,
-   "mid": 282.97,
+   "market": 204.54,
+   "mid": 288.92,
    "productId": 610931,
    "subType": "Normal"
+  },
+  "w-716231": {
+   "low": 39.35,
+   "market": 39.68,
+   "mid": 46.92,
+   "productId": 716231,
+   "subType": "Holofoil"
+  },
+  "w-716232": {
+   "low": 35.54,
+   "market": 39.77,
+   "mid": 47.05,
+   "productId": 716232,
+   "subType": "Holofoil"
   },
   "zard-premium23": {
    "low": 100.11,
@@ -3532,9 +3553,9 @@
    "subType": "Normal"
   },
   "zard-special-collection": {
-   "low": 47.44,
-   "market": 58.2,
-   "mid": 66.44,
+   "low": 47.0,
+   "market": 57.72,
+   "mid": 65.7,
    "productId": 616305,
    "subType": "Normal"
   }
@@ -3547,12 +3568,12 @@
   "kg-604161"
  ],
  "feedStaleness": {
-  "checked": "2026-10-26T08:59:31Z",
+  "checked": "2026-10-27T14:34:47Z",
   "feeds": [
    {
     "feed": "untracked_sealed.json",
-    "generated": "2026-10-19T17:44:27Z",
-    "ageDays": 6.6,
+    "generated": "2026-10-26T09:31:04Z",
+    "ageDays": 1.2,
     "maxAgeDays": 7,
     "status": "ok"
    }
