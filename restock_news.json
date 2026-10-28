@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-27",
+ "generated": "2026-10-28",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (19 entries, 1 new matches)",
+  "googlenews-reprint": "ok (32 entries, 2 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
@@ -32,6 +32,31 @@
    "matched": [
     "pre-order",
     "delta reign"
+   ]
+  },
+  {
+   "id": "4675d0aa3d40",
+   "feed": "googlenews-reprint",
+   "title": "The Pokémon TCG Delta Reign Booster Display Box is close to market price at Amazon — save over $15 - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQUR6eE1mYXBDYXloa2xETDVoT3FqREd1WGYwMXBIbDNMYll4ZTR4aWN4cVJqSktwRVAtMnhHLWlBcjdQLTh4NnQtMHdWWmNvU3A2MldXRkdfbEZjUG9JTzZqczZKamRVQTc2U1dnNVlwdXBkZnN3UzVnR1lkSFRhM1RyUU9KaW93RmdHc1paa3RZa2pTODhLSEFPaw?oc=5",
+   "published": "2026-10-23",
+   "firstSeen": "2026-10-28",
+   "classes": [],
+   "matched": [
+    "delta reign"
+   ]
+  },
+  {
+   "id": "fc1aa99fbe10",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon TCG: 30th Celebration Elite Trainer Box Down to $59.99 at Amazon — if You Can Secure an Invite to Buy - IGN",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQai02LXRsTU9GY1BTT0dMZ3JRaWptQ3Y2SHE5UVMzUW55aVlwOFNfc2hzalNNeU4wcTVpS1NzN1puR0h3ZzVCb1JsS0hqZUdYVkk2cG9NY3BBRlBGZXdfdlpPcmVvNG5mcXFXZWpoQnhxYTFZeW9jWHdZaTNvU2RBcjM1S1VtWFMwcmxSSlg0b1pOYmo4TjE4QWgyT2E1bUk?oc=5",
+   "published": "2026-10-23",
+   "firstSeen": "2026-10-28",
+   "classes": [],
+   "matched": [
+    "elite trainer",
+    "30th celebration"
    ]
   },
   {
