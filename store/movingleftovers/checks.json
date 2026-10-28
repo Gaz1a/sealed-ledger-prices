@@ -1,0 +1,3213 @@
+{
+ "generated": "2026-10-28T17:22+00:00",
+ "graderError": null,
+ "rubric": "docs/nm_rubric.md on main",
+ "listings": {
+  "v1|227576302093|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Venomoth 13/64 Jungle",
+   "url": "https://www.ebay.com/itm/227576302093?_skw=pokemon&hash=item34fc9aca0d:g:gXQAAeSwKWZq2A73",
+   "photos": 2,
+   "price": "19.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1420,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.6,
+      "right": 3.36
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.21,
+      "bl": 1.1,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1416,
+     "centering": {
+      "lr": "53/47",
+      "tb": "51/49",
+      "worst": 53
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.776,
+     "grade": 8.9,
+     "side": "front",
+     "px": 1413,
+     "photo": 1
+    },
+    {
+     "p8": 0.569,
+     "grade": 7.6,
+     "side": "back",
+     "px": 1417,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.569,
+   "graderGrade": 7.6,
+   "sheet": "sheets/v1_227576302093_0.jpg"
+  },
+  "v1|227576283876|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Gloom 37/64 Jungle",
+   "url": "https://www.ebay.com/itm/227576283876?_skw=pokemon&hash=item34fc9a82e4:g:dkcAAeSwUfJq2Alr",
+   "photos": 2,
+   "price": "3.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1420,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 2.58
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1418,
+     "centering": {
+      "lr": "57/43",
+      "tb": "55/45",
+      "worst": 57
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.613,
+     "grade": 8.1,
+     "side": "front",
+     "px": 1415,
+     "photo": 1
+    },
+    {
+     "p8": 0.59,
+     "grade": 7.1,
+     "side": "back",
+     "px": 1416,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.59,
+   "graderGrade": 7.1,
+   "sheet": "sheets/v1_227576283876_0.jpg"
+  },
+  "v1|227540574978|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Koffing 51/102  Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227540574978?_skw=pokemon&hash=item34fa79a302:g:pDsAAeSwg0dquAzI",
+   "photos": 2,
+   "price": "12.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1417,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.15,
+      "right": 0.52
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 1.03,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1414,
+     "centering": {
+      "lr": "58/42",
+      "tb": "51/49",
+      "worst": 58
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.855,
+     "grade": 8.9,
+     "side": "front",
+     "px": 1411,
+     "photo": 1
+    },
+    {
+     "p8": 0.585,
+     "grade": 7.8,
+     "side": "back",
+     "px": 1414,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.585,
+   "graderGrade": 7.8,
+   "sheet": "sheets/v1_227540574978_0.jpg"
+  },
+  "v1|227553938748|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Kakuna 033/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227553938748?_skw=pokemon&hash=item34fb458d3c:g:WxQAAeSwjjZqxCQ9",
+   "photos": 2,
+   "price": "19.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1419,
+     "sides": {
+      "top": 0.0,
+      "bottom": 2.53,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.69,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1421,
+     "centering": {
+      "lr": "51/49",
+      "tb": "54/46",
+      "worst": 54
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.941,
+     "grade": 9.8,
+     "side": "front",
+     "px": 1418,
+     "photo": 1
+    },
+    {
+     "p8": 0.56,
+     "grade": 7.0,
+     "side": "back",
+     "px": 1420,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.56,
+   "graderGrade": 7.0,
+   "sheet": "sheets/v1_227553938748_0.jpg"
+  },
+  "v1|227540228908|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Kangaskhan 05/64 Jungle",
+   "url": "https://www.ebay.com/itm/227540228908?_skw=pokemon&hash=item34fa745b2c:g:KroAAeSws~pqtvkK",
+   "photos": 2,
+   "price": "19.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1418,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 1.32
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.07,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1416,
+     "centering": {
+      "lr": "54/46",
+      "tb": "52/48",
+      "worst": 54
+     }
+    }
+   ],
+   "flags": [
+    "grader: likely PSA 7 or lower (P8+ 0.105, est. PSA 5.5, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.105,
+     "grade": 5.5,
+     "side": "front",
+     "px": 1413,
+     "photo": 1
+    },
+    {
+     "p8": 0.76,
+     "grade": 8.2,
+     "side": "back",
+     "px": 1415,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.105,
+   "graderGrade": 5.5,
+   "sheet": "sheets/v1_227540228908_0.jpg"
+  },
+  "v1|227539285419|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Scyther 10/64 Jungle",
+   "url": "https://www.ebay.com/itm/227539285419?_skw=pokemon&hash=item34fa65f5ab:g:9ggAAeSwv91qtsyF",
+   "photos": 2,
+   "price": "55.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1390,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1376,
+     "centering": {
+      "lr": "55/45",
+      "tb": "57/43",
+      "worst": 57
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.708,
+     "grade": 8.4,
+     "side": "front",
+     "px": 1373,
+     "photo": 1
+    },
+    {
+     "p8": 0.637,
+     "grade": 8.0,
+     "side": "back",
+     "px": 1387,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.637,
+   "graderGrade": 8.0,
+   "sheet": "sheets/v1_227539285419_0.jpg"
+  },
+  "v1|227576233451|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Abra 43/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227576233451?_skw=pokemon&hash=item34fc99bdeb:g:G9EAAeSwf3Fq1~7Q",
+   "photos": 2,
+   "price": "9.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1414,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1378,
+     "centering": {
+      "lr": "52/48",
+      "tb": "51/49",
+      "worst": 52
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.769,
+     "grade": 8.7,
+     "side": "front",
+     "px": 1375,
+     "photo": 1
+    },
+    {
+     "p8": 0.863,
+     "grade": 8.9,
+     "side": "back",
+     "px": 1411,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.769,
+   "graderGrade": 8.7,
+   "sheet": "sheets/v1_227576233451_0.jpg"
+  },
+  "v1|227540588058|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Machoke 34/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227540588058?_skw=pokemon&hash=item34fa79d61a:g:qPoAAeSwZuFq1~Ua",
+   "photos": 2,
+   "price": "4.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1420,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1389,
+     "centering": {
+      "lr": "67/33",
+      "tb": "53/47",
+      "worst": 67
+     }
+    }
+   ],
+   "flags": [
+    "front off-centre 67/33 / 53/47 (PSA 8 needs 65/35)"
+   ],
+   "grader": [
+    {
+     "p8": 0.667,
+     "grade": 8.1,
+     "side": "front",
+     "px": 1386,
+     "photo": 1
+    },
+    {
+     "p8": 0.777,
+     "grade": 8.5,
+     "side": "back",
+     "px": 1417,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.667,
+   "graderGrade": 8.1,
+   "sheet": "sheets/v1_227540588058_0.jpg"
+  },
+  "v1|227553938378|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Bulbasaur 44/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227553938378?_skw=pokemon&hash=item34fb458bca:g:uBgAAeSw6MhqxCZJ",
+   "photos": 2,
+   "price": "19.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1424,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 4.24,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 4.18,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1416,
+     "centering": {
+      "lr": "55/45",
+      "tb": "53/47",
+      "worst": 55
+     }
+    }
+   ],
+   "flags": [
+    "back whitening (photo 2)"
+   ],
+   "grader": [
+    {
+     "p8": 0.835,
+     "grade": 8.8,
+     "side": "front",
+     "px": 1412,
+     "photo": 1
+    },
+    {
+     "p8": 0.635,
+     "grade": 8.0,
+     "side": "back",
+     "px": 1421,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.635,
+   "graderGrade": 8.0,
+   "sheet": "sheets/v1_227553938378_0.jpg"
+  },
+  "v1|227576229573|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Machop 52/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227576229573?_skw=pokemon&hash=item34fc99aec5:g:0-AAAeSw8hNq1~3K",
+   "photos": 2,
+   "price": "4.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1420,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.26
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1385,
+     "centering": {
+      "lr": "55/45",
+      "tb": "52/48",
+      "worst": 55
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.869,
+     "grade": 9.2,
+     "side": "front",
+     "px": 1381,
+     "photo": 1
+    },
+    {
+     "p8": 0.83,
+     "grade": 9.0,
+     "side": "back",
+     "px": 1416,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.83,
+   "graderGrade": 9.0,
+   "sheet": "sheets/v1_227576229573_0.jpg"
+  },
+  "v1|227576236549|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Poliwag 59/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227576236549?_skw=pokemon&hash=item34fc99ca05:g:DiwAAeSwvOVq1~-z",
+   "photos": 2,
+   "price": "9.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1417,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1376,
+     "centering": {
+      "lr": "50/50",
+      "tb": "52/48",
+      "worst": 52
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.684,
+     "grade": 8.4,
+     "side": "front",
+     "px": 1373,
+     "photo": 1
+    },
+    {
+     "p8": 0.843,
+     "grade": 9.0,
+     "side": "back",
+     "px": 1414,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.684,
+   "graderGrade": 8.4,
+   "sheet": "sheets/v1_227576236549_0.jpg"
+  },
+  "v1|227576280255|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Exeggcute 52/64 Jungle",
+   "url": "https://www.ebay.com/itm/227576280255?_skw=pokemon&hash=item34fc9a74bf:g:MiIAAeSwmzlq2Afs",
+   "photos": 2,
+   "price": "3.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 1,
+     "cardPx": 1419,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 4.09
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 2,
+     "cardPx": 1370,
+     "centering": {
+      "lr": "57/43",
+      "tb": "57/43",
+      "worst": 57
+     }
+    }
+   ],
+   "flags": [
+    "back whitening (photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.536,
+     "grade": 7.3,
+     "side": "back",
+     "px": 1416,
+     "photo": 1
+    },
+    {
+     "p8": 0.816,
+     "grade": 9.0,
+     "side": "front",
+     "px": 1367,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.536,
+   "graderGrade": 7.3,
+   "sheet": "sheets/v1_227576280255_0.jpg"
+  },
+  "v1|227553952275|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Staryu 65/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227553952275?_skw=pokemon&hash=item34fb45c213:g:Z6IAAeSwcjxqxByO",
+   "photos": 2,
+   "price": "3.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1425,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 2.23
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1420,
+     "centering": {
+      "lr": "53/47",
+      "tb": "54/46",
+      "worst": 54
+     }
+    }
+   ],
+   "flags": [
+    "grader: likely PSA 7 or lower (P8+ 0.378, est. PSA 7.3, photo 2)"
+   ],
+   "grader": [
+    {
+     "p8": 0.754,
+     "grade": 8.7,
+     "side": "front",
+     "px": 1417,
+     "photo": 1
+    },
+    {
+     "p8": 0.378,
+     "grade": 7.3,
+     "side": "back",
+     "px": 1422,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.378,
+   "graderGrade": 7.3,
+   "sheet": "sheets/v1_227553952275_0.jpg"
+  },
+  "v1|227553805661|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Tangela 66/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227553805661?_skw=pokemon&hash=item34fb43855d:g:PDUAAeSwQ-FqxBWR",
+   "photos": 2,
+   "price": "3.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1416,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1412,
+     "centering": {
+      "lr": "51/49",
+      "tb": "50/50",
+      "worst": 51
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.767,
+     "grade": 8.0,
+     "side": "front",
+     "px": 1409,
+     "photo": 1
+    },
+    {
+     "p8": 0.688,
+     "grade": 7.8,
+     "side": "back",
+     "px": 1413,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.688,
+   "graderGrade": 7.8,
+   "sheet": "sheets/v1_227553805661_0.jpg"
+  },
+  "v1|227540578168|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Nidoran 55/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227540578168?_skw=pokemon&hash=item34fa79af78:g:QNoAAeSw1kVquA2s",
+   "photos": 2,
+   "price": "19.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1414,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1418,
+     "centering": {
+      "lr": "59/41",
+      "tb": "53/47",
+      "worst": 59
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.847,
+     "grade": 9.1,
+     "side": "front",
+     "px": 1415,
+     "photo": 1
+    },
+    {
+     "p8": 0.857,
+     "grade": 8.7,
+     "side": "back",
+     "px": 1411,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.847,
+   "graderGrade": 8.7,
+   "sheet": "sheets/v1_227540578168_0.jpg"
+  },
+  "v1|227540586873|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Magnemite 53/102  Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227540586873?_skw=pokemon&hash=item34fa79d179:g:WX4AAeSwSrJquBCz",
+   "photos": 2,
+   "price": "4.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1414,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 3.28
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1412,
+     "centering": {
+      "lr": "66/34",
+      "tb": "52/48",
+      "worst": 66
+     }
+    }
+   ],
+   "flags": [
+    "front off-centre 66/34 / 52/48 (PSA 8 needs 65/35)"
+   ],
+   "grader": [
+    {
+     "p8": 0.714,
+     "grade": 8.4,
+     "side": "front",
+     "px": 1408,
+     "photo": 1
+    },
+    {
+     "p8": 0.606,
+     "grade": 7.5,
+     "side": "back",
+     "px": 1411,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.606,
+   "graderGrade": 7.5,
+   "sheet": "sheets/v1_227540586873_0.jpg"
+  },
+  "v1|227576254177|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Haunter 29/102 Base Set Shadowles",
+   "url": "https://www.ebay.com/itm/227576254177?_skw=pokemon&hash=item34fc9a0ee1:g:DJIAAeSw6tRq2AJ1",
+   "photos": 2,
+   "price": "15.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1414,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.6,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 1.17,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1430,
+     "centering": {
+      "lr": "52/48",
+      "tb": "54/46",
+      "worst": 54
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.718,
+     "grade": 8.3,
+     "side": "front",
+     "px": 1427,
+     "photo": 1
+    },
+    {
+     "p8": 0.546,
+     "grade": 7.0,
+     "side": "back",
+     "px": 1411,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.546,
+   "graderGrade": 7.0,
+   "sheet": "sheets/v1_227576254177_0.jpg"
+  },
+  "v1|227576299858|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Clefable 17/64 Jungle",
+   "url": "https://www.ebay.com/itm/227576299858?_skw=pokemon&hash=item34fc9ac152:g:TGgAAeSwiBpq2A4r",
+   "photos": 2,
+   "price": "9.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1414,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 1.22,
+      "right": 0.79
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.82,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1375,
+     "centering": {
+      "lr": "60/40",
+      "tb": "58/42",
+      "worst": 60
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.598,
+     "grade": 7.8,
+     "side": "front",
+     "px": 1369,
+     "photo": 1
+    },
+    {
+     "p8": 0.566,
+     "grade": 8.0,
+     "side": "back",
+     "px": 1411,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.566,
+   "graderGrade": 7.8,
+   "sheet": "sheets/v1_227576299858_0.jpg"
+  },
+  "v1|227539282651|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Kadabra 32/102   Base Set Shadowles",
+   "url": "https://www.ebay.com/itm/227539282651?_skw=pokemon&hash=item34fa65eadb:g:cmEAAeSwuWBqtsuA",
+   "photos": 2,
+   "price": "19.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1384,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1379,
+     "centering": {
+      "lr": "52/48",
+      "tb": "51/49",
+      "worst": 52
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.429,
+     "grade": 6.6,
+     "side": "front",
+     "px": 1376,
+     "photo": 1
+    },
+    {
+     "p8": 0.428,
+     "grade": 6.2,
+     "side": "back",
+     "px": 1381,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.428,
+   "graderGrade": 6.2,
+   "sheet": "sheets/v1_227539282651_0.jpg"
+  },
+  "v1|227553926291|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Caterpie 045/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227553926291?_skw=pokemon&hash=item34fb455c93:g:UBEAAeSw~XZqxCVh",
+   "photos": 2,
+   "price": "55.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1415,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 1.54
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1419,
+     "centering": {
+      "lr": "53/47",
+      "tb": "52/48",
+      "worst": 53
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.875,
+     "grade": 8.9,
+     "side": "front",
+     "px": 1416,
+     "photo": 1
+    },
+    {
+     "p8": 0.601,
+     "grade": 7.7,
+     "side": "back",
+     "px": 1412,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.601,
+   "graderGrade": 7.7,
+   "sheet": "sheets/v1_227553926291_0.jpg"
+  },
+  "v1|227576241311|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Sandshrew 90/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227576241311?_skw=pokemon&hash=item34fc99dc9f:g:EH4AAeSwAg9q2ACV",
+   "photos": 2,
+   "price": "4.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1419,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1349,
+     "centering": {
+      "lr": "51/49",
+      "tb": "54/46",
+      "worst": 54
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.786,
+     "grade": 8.9,
+     "side": "front",
+     "px": 1346,
+     "photo": 1
+    },
+    {
+     "p8": 0.682,
+     "grade": 8.2,
+     "side": "back",
+     "px": 1416,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.682,
+   "graderGrade": 8.2,
+   "sheet": "sheets/v1_227576241311_0.jpg"
+  },
+  "v1|227576218293|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon  Ivysaur 30/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227576218293?_skw=pokemon&hash=item34fc9982b5:g:iCEAAeSwDQRq1~qo",
+   "photos": 2,
+   "price": "29.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1415,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 1.73,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 1.92,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1456,
+     "centering": {
+      "lr": "53/47",
+      "tb": "52/48",
+      "worst": 53
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.695,
+     "grade": 7.6,
+     "side": "front",
+     "px": 1453,
+     "photo": 1
+    },
+    {
+     "p8": 0.844,
+     "grade": 9.2,
+     "side": "back",
+     "px": 1412,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.695,
+   "graderGrade": 7.6,
+   "sheet": "sheets/v1_227576218293_0.jpg"
+  },
+  "v1|227540642375|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Oddish 58/64 Jungle",
+   "url": "https://www.ebay.com/itm/227540642375?_skw=pokemon&hash=item34fa7aaa47:g:~bcAAeSwmIRquCD7",
+   "photos": 2,
+   "price": "5.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1418,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1416,
+     "centering": {
+      "lr": "58/42",
+      "tb": "54/46",
+      "worst": 58
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.794,
+     "grade": 9.4,
+     "side": "front",
+     "px": 1412,
+     "photo": 1
+    },
+    {
+     "p8": 0.725,
+     "grade": 8.5,
+     "side": "back",
+     "px": 1415,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.725,
+   "graderGrade": 8.5,
+   "sheet": "sheets/v1_227540642375_0.jpg"
+  },
+  "v1|227541507626|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokémon TCG Switch 95/102 Base Set",
+   "url": "https://www.ebay.com/itm/227541507626?_skw=pokemon&hash=item34fa87de2a:g:irsAAeSweiRquRB2",
+   "photos": 2,
+   "price": "3.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1420,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1412,
+     "centering": {
+      "lr": "53/47",
+      "tb": "55/45",
+      "worst": 55
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.604,
+     "grade": 7.5,
+     "side": "front",
+     "px": 1409,
+     "photo": 1
+    },
+    {
+     "p8": 0.834,
+     "grade": 8.3,
+     "side": "back",
+     "px": 1417,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.604,
+   "graderGrade": 7.5,
+   "sheet": "sheets/v1_227541507626_0.jpg"
+  },
+  "v1|227540585494|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Drowzee 49/102  Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227540585494?_skw=pokemon&hash=item34fa79cc16:g:OnYAAeSwsilquBAK",
+   "photos": 2,
+   "price": "9.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1420,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 2.04
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1412,
+     "centering": {
+      "lr": "52/48",
+      "tb": "50/50",
+      "worst": 52
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.826,
+     "grade": 8.7,
+     "side": "front",
+     "px": 1409,
+     "photo": 1
+    },
+    {
+     "p8": 0.66,
+     "grade": 8.2,
+     "side": "back",
+     "px": 1416,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.66,
+   "graderGrade": 8.2,
+   "sheet": "sheets/v1_227540585494_0.jpg"
+  },
+  "v1|227540210193|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Gastly 50/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227540210193?_skw=pokemon&hash=item34fa741211:g:SpsAAeSw1B5q1~ML",
+   "photos": 2,
+   "price": "15.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1414,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 1.38
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1375,
+     "centering": {
+      "lr": "51/49",
+      "tb": "52/48",
+      "worst": 52
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.544,
+     "grade": 7.3,
+     "side": "front",
+     "px": 1372,
+     "photo": 1
+    },
+    {
+     "p8": 0.729,
+     "grade": 8.4,
+     "side": "back",
+     "px": 1411,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.544,
+   "graderGrade": 7.3,
+   "sheet": "sheets/v1_227540210193_0.jpg"
+  },
+  "v1|227576273327|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Butterfree 33/64 Jungle",
+   "url": "https://www.ebay.com/itm/227576273327?_skw=pokemon&hash=item34fc9a59af:g:AbAAAeSwOQhq2ATi",
+   "photos": 2,
+   "price": "5.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1421,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1433,
+     "centering": {
+      "lr": "51/49",
+      "tb": "56/44",
+      "worst": 56
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.594,
+     "grade": 7.9,
+     "side": "front",
+     "px": 1430,
+     "photo": 1
+    },
+    {
+     "p8": 0.725,
+     "grade": 8.0,
+     "side": "back",
+     "px": 1418,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.594,
+   "graderGrade": 7.9,
+   "sheet": "sheets/v1_227576273327_0.jpg"
+  },
+  "v1|227553941551|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Onix 56/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227553941551?_skw=pokemon&hash=item34fb45982f:g:JTEAAeSwf5ZqxBek",
+   "photos": 2,
+   "price": "19.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1418,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.03,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.62,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1416,
+     "centering": {
+      "lr": "53/47",
+      "tb": "52/48",
+      "worst": 53
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.755,
+     "grade": 8.9,
+     "side": "front",
+     "px": 1413,
+     "photo": 1
+    },
+    {
+     "p8": 0.629,
+     "grade": 7.8,
+     "side": "back",
+     "px": 1415,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.629,
+   "graderGrade": 7.8,
+   "sheet": "sheets/v1_227553941551_0.jpg"
+  },
+  "v1|227576224647|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Starmie 64/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227576224647?_skw=pokemon&hash=item34fc999b87:g:2kkAAeSwVntq1~xH",
+   "photos": 2,
+   "price": "49.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1416,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1383,
+     "centering": {
+      "lr": "56/44",
+      "tb": "51/49",
+      "worst": 56
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.758,
+     "grade": 8.5,
+     "side": "back",
+     "px": 1380,
+     "photo": 1
+    },
+    {
+     "p8": 0.857,
+     "grade": 8.7,
+     "side": "back",
+     "px": 1412,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.758,
+   "graderGrade": 8.5,
+   "sheet": "sheets/v1_227576224647_0.jpg"
+  },
+  "v1|227553950093|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Ponyta 60/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227553950093?_skw=pokemon&hash=item34fb45b98d:g:XVcAAeSwO9VqxBhI",
+   "photos": 2,
+   "price": "3.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1423,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 3.01
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.07,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1418,
+     "centering": {
+      "lr": "56/44",
+      "tb": "52/48",
+      "worst": 56
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.791,
+     "grade": 9.0,
+     "side": "front",
+     "px": 1415,
+     "photo": 1
+    },
+    {
+     "p8": 0.594,
+     "grade": 7.2,
+     "side": "back",
+     "px": 1420,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.594,
+   "graderGrade": 7.2,
+   "sheet": "sheets/v1_227553950093_0.jpg"
+  },
+  "v1|227540624078|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Nidoran 57/64 Jungle",
+   "url": "https://www.ebay.com/itm/227540624078?_skw=pokemon&hash=item34fa7a62ce:g:OQUAAeSw8EdquBsp",
+   "photos": 2,
+   "price": "4.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1419,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 1.63
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1419,
+     "centering": {
+      "lr": "51/49",
+      "tb": "55/45",
+      "worst": 55
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.492,
+     "grade": 7.3,
+     "side": "front",
+     "px": 1416,
+     "photo": 1
+    },
+    {
+     "p8": 0.748,
+     "grade": 8.0,
+     "side": "back",
+     "px": 1416,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.492,
+   "graderGrade": 7.3,
+   "sheet": "sheets/v1_227540624078_0.jpg"
+  },
+  "v1|227576246409|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Farfetch'd 27/102 Base Set Shadowles",
+   "url": "https://www.ebay.com/itm/227576246409?_skw=pokemon&hash=item34fc99f089:g:P9AAAeSwVBNq2AHH",
+   "photos": 2,
+   "price": "10.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1421,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1396,
+     "centering": {
+      "lr": "55/45",
+      "tb": "53/47",
+      "worst": 55
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.913,
+     "grade": 10.3,
+     "side": "front",
+     "px": 1393,
+     "photo": 1
+    },
+    {
+     "p8": 0.71,
+     "grade": 8.2,
+     "side": "back",
+     "px": 1417,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.71,
+   "graderGrade": 8.2,
+   "sheet": "sheets/v1_227576246409_0.jpg"
+  },
+  "v1|227540632040|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Parasect 41/64  Jungle",
+   "url": "https://www.ebay.com/itm/227540632040?_skw=pokemon&hash=item34fa7a81e8:g:8n4AAeSwdFlquB1r",
+   "photos": 2,
+   "price": "3.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1420,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.55,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1420,
+     "centering": {
+      "lr": "53/47",
+      "tb": "50/50",
+      "worst": 53
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.731,
+     "grade": 9.2,
+     "side": "front",
+     "px": 1417,
+     "photo": 1
+    },
+    {
+     "p8": 0.558,
+     "grade": 7.6,
+     "side": "back",
+     "px": 1416,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.558,
+   "graderGrade": 7.6,
+   "sheet": "sheets/v1_227540632040_0.jpg"
+  },
+  "v1|227540638343|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Meowth 56/64 Jungle",
+   "url": "https://www.ebay.com/itm/227540638343?_skw=pokemon&hash=item34fa7a9a87:g:7dkAAeSwqBJquB99",
+   "photos": 2,
+   "price": "3.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1417,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 1.81
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1421,
+     "centering": {
+      "lr": "53/47",
+      "tb": "55/45",
+      "worst": 55
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.763,
+     "grade": 8.5,
+     "side": "front",
+     "px": 1418,
+     "photo": 1
+    },
+    {
+     "p8": 0.514,
+     "grade": 7.2,
+     "side": "back",
+     "px": 1414,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.514,
+   "graderGrade": 7.2,
+   "sheet": "sheets/v1_227540638343_0.jpg"
+  },
+  "v1|227540583952|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Weedle 069/102  Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227540583952?_skw=pokemon&hash=item34fa79c610:g:g-gAAeSwZT5quA9N",
+   "photos": 2,
+   "price": "49.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1424,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 1.83
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.07,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1416,
+     "centering": {
+      "lr": "53/47",
+      "tb": "51/49",
+      "worst": 53
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.497,
+     "grade": 7.1,
+     "side": "front",
+     "px": 1412,
+     "photo": 1
+    },
+    {
+     "p8": 0.632,
+     "grade": 7.6,
+     "side": "back",
+     "px": 1421,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.497,
+   "graderGrade": 7.1,
+   "sheet": "sheets/v1_227540583952_0.jpg"
+  },
+  "v1|227540611982|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Rhydon 45/64  Jungle",
+   "url": "https://www.ebay.com/itm/227540611982?_skw=pokemon&hash=item34fa7a338e:g:nYEAAeSwtyZquBdL",
+   "photos": 2,
+   "price": "3.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1424,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1418,
+     "centering": {
+      "lr": "52/48",
+      "tb": "52/48",
+      "worst": 52
+     }
+    }
+   ],
+   "flags": [
+    "grader: likely PSA 7 or lower (P8+ 0.358, est. PSA 6.8, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.358,
+     "grade": 6.8,
+     "side": "front",
+     "px": 1415,
+     "photo": 1
+    },
+    {
+     "p8": 0.826,
+     "grade": 8.7,
+     "side": "back",
+     "px": 1421,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.358,
+   "graderGrade": 6.8,
+   "sheet": "sheets/v1_227540611982_0.jpg"
+  },
+  "v1|227541567655|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokémon TCG Energy Retrieval 081/102 Base Set",
+   "url": "https://www.ebay.com/itm/227541567655?_skw=pokemon&hash=item34fa88c8a7:g:C4YAAeSw2EJquR2M",
+   "photos": 2,
+   "price": "3.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1418,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.13,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 1.1,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1425,
+     "centering": {
+      "lr": "53/47",
+      "tb": "52/48",
+      "worst": 53
+     }
+    }
+   ],
+   "flags": [
+    "grader: likely PSA 7 or lower (P8+ 0.333, est. PSA 6.8, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.333,
+     "grade": 6.8,
+     "side": "front",
+     "px": 1422,
+     "photo": 1
+    },
+    {
+     "p8": 0.697,
+     "grade": 8.0,
+     "side": "back",
+     "px": 1415,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.333,
+   "graderGrade": 6.8,
+   "sheet": "sheets/v1_227541567655_0.jpg"
+  },
+  "v1|227540596367|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Yenonat 63/64 Jungle",
+   "url": "https://www.ebay.com/itm/227540596367?_skw=pokemon&hash=item34fa79f68f:g:WrsAAeSwhcFquBN0",
+   "photos": 2,
+   "price": "9.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1420,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 2.87,
+      "right": 0.63
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 1.92,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1416,
+     "centering": {
+      "lr": "54/46",
+      "tb": "51/49",
+      "worst": 54
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.751,
+     "grade": 8.7,
+     "side": "front",
+     "px": 1413,
+     "photo": 1
+    },
+    {
+     "p8": 0.683,
+     "grade": 8.1,
+     "side": "back",
+     "px": 1416,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.683,
+   "graderGrade": 8.1,
+   "sheet": "sheets/v1_227540596367_0.jpg"
+  },
+  "v1|227540628080|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon EXEGGUTOR 35/64 Jungle",
+   "url": "https://www.ebay.com/itm/227540628080?_skw=pokemon&hash=item34fa7a7270:g:vwEAAeSw3XxquBxU",
+   "photos": 2,
+   "price": "5.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1419,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1429,
+     "centering": {
+      "lr": "51/49",
+      "tb": "55/45",
+      "worst": 55
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.643,
+     "grade": 8.1,
+     "side": "front",
+     "px": 1426,
+     "photo": 1
+    },
+    {
+     "p8": 0.527,
+     "grade": 7.6,
+     "side": "back",
+     "px": 1416,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.527,
+   "graderGrade": 7.6,
+   "sheet": "sheets/v1_227540628080_0.jpg"
+  },
+  "v1|227540626007|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Rhyhorn 61/64  Jungle",
+   "url": "https://www.ebay.com/itm/227540626007?_skw=pokemon&hash=item34fa7a6a57:g:k5UAAeSwM95quBvR",
+   "photos": 2,
+   "price": "3.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1415,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.82,
+      "right": 1.03
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 1.23,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1416,
+     "centering": {
+      "lr": "53/47",
+      "tb": "51/49",
+      "worst": 53
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.504,
+     "grade": 7.6,
+     "side": "front",
+     "px": 1413,
+     "photo": 1
+    },
+    {
+     "p8": 0.685,
+     "grade": 7.9,
+     "side": "back",
+     "px": 1412,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.504,
+   "graderGrade": 7.6,
+   "sheet": "sheets/v1_227540626007_0.jpg"
+  },
+  "v1|227539388838|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Cubone 50/64  Jungle",
+   "url": "https://www.ebay.com/itm/227539388838?_skw=pokemon&hash=item34fa6789a6:g:TY8AAeSwGB1qtui0",
+   "photos": 2,
+   "price": "19.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1393,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1390,
+     "centering": {
+      "lr": "54/46",
+      "tb": "56/44",
+      "worst": 56
+     }
+    }
+   ],
+   "flags": [
+    "grader: likely PSA 7 or lower (P8+ 0.166, est. PSA 6.1, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.166,
+     "grade": 6.1,
+     "side": "front",
+     "px": 1387,
+     "photo": 1
+    },
+    {
+     "p8": 0.56,
+     "grade": 7.6,
+     "side": "back",
+     "px": 1390,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.166,
+   "graderGrade": 6.1,
+   "sheet": "sheets/v1_227539388838_0.jpg"
+  },
+  "v1|227540644303|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Persian 42/64 Jungle",
+   "url": "https://www.ebay.com/itm/227540644303?_skw=pokemon&hash=item34fa7ab1cf:g:-IwAAeSwU2FquCG8",
+   "photos": 2,
+   "price": "14.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1416,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 1.13,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.55,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1421,
+     "centering": {
+      "lr": "57/43",
+      "tb": "52/48",
+      "worst": 57
+     }
+    }
+   ],
+   "flags": [
+    "grader: likely PSA 7 or lower (P8+ 0.383, est. PSA 6.8, photo 2)"
+   ],
+   "grader": [
+    {
+     "p8": 0.617,
+     "grade": 7.5,
+     "side": "front",
+     "px": 1418,
+     "photo": 1
+    },
+    {
+     "p8": 0.383,
+     "grade": 6.8,
+     "side": "back",
+     "px": 1413,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.383,
+   "graderGrade": 6.8,
+   "sheet": "sheets/v1_227540644303_0.jpg"
+  },
+  "v1|227540604495|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Paras 59/64 Jungle",
+   "url": "https://www.ebay.com/itm/227540604495?_skw=pokemon&hash=item34fa7a164f:g:ru4AAeSwEstquBW7",
+   "photos": 2,
+   "price": "3.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1420,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 1.01
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.41,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1416,
+     "centering": {
+      "lr": "53/47",
+      "tb": "51/49",
+      "worst": 53
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.774,
+     "grade": 8.6,
+     "side": "front",
+     "px": 1412,
+     "photo": 1
+    },
+    {
+     "p8": 0.737,
+     "grade": 7.9,
+     "side": "back",
+     "px": 1417,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.737,
+   "graderGrade": 7.9,
+   "sheet": "sheets/v1_227540604495_0.jpg"
+  },
+  "v1|227540601965|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Jigglypuff 54/64 Jungle",
+   "url": "https://www.ebay.com/itm/227540601965?_skw=pokemon&hash=item34fa7a0c6d:g:fT8AAeSwuhlquBUw",
+   "photos": 2,
+   "price": "9.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1420,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1418,
+     "centering": {
+      "lr": "57/43",
+      "tb": "50/50",
+      "worst": 57
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.729,
+     "grade": 8.7,
+     "side": "front",
+     "px": 1415,
+     "photo": 1
+    },
+    {
+     "p8": 0.774,
+     "grade": 8.9,
+     "side": "back",
+     "px": 1417,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.729,
+   "graderGrade": 8.7,
+   "sheet": "sheets/v1_227540601965_0.jpg"
+  },
+  "v1|227553943590|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon PlusPower  84/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227553943590?_skw=pokemon&hash=item34fb45a026:g:SbwAAeSwfKJqxCOT",
+   "photos": 2,
+   "price": "9.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1416,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.61
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.07,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1414,
+     "centering": {
+      "lr": "52/48",
+      "tb": "51/49",
+      "worst": 52
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.431,
+     "grade": 6.5,
+     "side": "front",
+     "px": 1411,
+     "photo": 1
+    },
+    {
+     "p8": 0.616,
+     "grade": 7.7,
+     "side": "back",
+     "px": 1413,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.431,
+   "graderGrade": 6.5,
+   "sheet": "sheets/v1_227553943590_0.jpg"
+  },
+  "v1|227540639987|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Nidorina 40/64 Jungle",
+   "url": "https://www.ebay.com/itm/227540639987?_skw=pokemon&hash=item34fa7aa0f3:g:6Y0AAeSwfJNquCBE",
+   "photos": 2,
+   "price": "3.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1417,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1425,
+     "centering": {
+      "lr": "52/48",
+      "tb": "55/45",
+      "worst": 55
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.808,
+     "grade": 9.3,
+     "side": "front",
+     "px": 1422,
+     "photo": 1
+    },
+    {
+     "p8": 0.511,
+     "grade": 7.2,
+     "side": "back",
+     "px": 1414,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.511,
+   "graderGrade": 7.2,
+   "sheet": "sheets/v1_227540639987_0.jpg"
+  },
+  "v1|227541522852|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokémon TCG POTION 94/102 Base Set",
+   "url": "https://www.ebay.com/itm/227541522852?_skw=pokemon&hash=item34fa8819a4:g:rsQAAeSw1kVquROL",
+   "photos": 2,
+   "price": "3.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1421,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1424,
+     "centering": {
+      "lr": "54/46",
+      "tb": "55/45",
+      "worst": 55
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.518,
+     "grade": 7.1,
+     "side": "front",
+     "px": 1420,
+     "photo": 1
+    },
+    {
+     "p8": 0.679,
+     "grade": 8.6,
+     "side": "back",
+     "px": 1418,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.518,
+   "graderGrade": 7.1,
+   "sheet": "sheets/v1_227541522852_0.jpg"
+  },
+  "v1|227540617288|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Weepinbell 48/64 Jungle",
+   "url": "https://www.ebay.com/itm/227540617288?_skw=pokemon&hash=item34fa7a4848:g:jVoAAeSwEkpquBki",
+   "photos": 2,
+   "price": "3.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1420,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 1.15
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.07,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1420,
+     "centering": {
+      "lr": "52/48",
+      "tb": "53/47",
+      "worst": 53
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.632,
+     "grade": 8.4,
+     "side": "front",
+     "px": 1417,
+     "photo": 1
+    },
+    {
+     "p8": 0.538,
+     "grade": 7.1,
+     "side": "back",
+     "px": 1416,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.538,
+   "graderGrade": 7.1,
+   "sheet": "sheets/v1_227540617288_0.jpg"
+  },
+  "v1|227553933689|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Voltorb 067/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227553933689?_skw=pokemon&hash=item34fb457979:g:jtMAAeSw6clqxBpD",
+   "photos": 2,
+   "price": "49.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1416,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1415,
+     "centering": {
+      "lr": "55/45",
+      "tb": "51/49",
+      "worst": 55
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.859,
+     "grade": 9.4,
+     "side": "front",
+     "px": 1412,
+     "photo": 1
+    },
+    {
+     "p8": 0.51,
+     "grade": 7.1,
+     "side": "back",
+     "px": 1413,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.51,
+   "graderGrade": 7.1,
+   "sheet": "sheets/v1_227553933689_0.jpg"
+  },
+  "v1|227553945531|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Poke Ball 64/64 Jungle Trainer Unlimited Regular English",
+   "url": "https://www.ebay.com/itm/227553945531?_skw=pokemon&hash=item34fb45a7bb:g:2pgAAeSwaH1qxCdw",
+   "photos": 2,
+   "price": "5.00",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1421,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 3.88
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1418,
+     "centering": {
+      "lr": "53/47",
+      "tb": "54/46",
+      "worst": 54
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.588,
+     "grade": 7.4,
+     "side": "front",
+     "px": 1415,
+     "photo": 1
+    },
+    {
+     "p8": 0.542,
+     "grade": 7.6,
+     "side": "back",
+     "px": 1417,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.542,
+   "graderGrade": 7.4,
+   "sheet": "sheets/v1_227553945531_0.jpg"
+  },
+  "v1|227553949219|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Vulpix 068/102 Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227553949219?_skw=pokemon&hash=item34fb45b623:g:3~0AAeSwxk5qxBby",
+   "photos": 2,
+   "price": "49.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1418,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.5
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1416,
+     "centering": {
+      "lr": "51/49",
+      "tb": "51/49",
+      "worst": 51
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.677,
+     "grade": 8.1,
+     "side": "front",
+     "px": 1412,
+     "photo": 1
+    },
+    {
+     "p8": 0.552,
+     "grade": 6.9,
+     "side": "back",
+     "px": 1415,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.552,
+   "graderGrade": 6.9,
+   "sheet": "sheets/v1_227553949219_0.jpg"
+  },
+  "v1|227540218595|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Dratini 26/102  Base Set Shadowless",
+   "url": "https://www.ebay.com/itm/227540218595?_skw=pokemon&hash=item34fa7432e3:g:Br8AAeSwyBBqtv3t",
+   "photos": 2,
+   "price": "49.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1417,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 3.1
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.21,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1414,
+     "centering": {
+      "lr": "52/48",
+      "tb": "51/49",
+      "worst": 52
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.813,
+     "grade": 8.7,
+     "side": "front",
+     "px": 1411,
+     "photo": 1
+    },
+    {
+     "p8": 0.684,
+     "grade": 7.8,
+     "side": "back",
+     "px": 1414,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.684,
+   "graderGrade": 7.8,
+   "sheet": "sheets/v1_227540218595_0.jpg"
+  },
+  "v1|227540614076|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Pokemon Eevee 51/64 Jungle",
+   "url": "https://www.ebay.com/itm/227540614076?_skw=pokemon&hash=item34fa7a3bbc:g:mQUAAeSwoLZquBgt",
+   "photos": 2,
+   "price": "19.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1412,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1418,
+     "centering": {
+      "lr": "53/47",
+      "tb": "55/45",
+      "worst": 55
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.733,
+     "grade": 8.9,
+     "side": "front",
+     "px": 1415,
+     "photo": 1
+    },
+    {
+     "p8": 0.579,
+     "grade": 7.5,
+     "side": "back",
+     "px": 1409,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.579,
+   "graderGrade": 7.5,
+   "sheet": "sheets/v1_227540614076_0.jpg"
+  },
+  "v1|227540598623|0": {
+   "src": "seller",
+   "wantId": null,
+   "title": "Bellsprout 49/64 Jungle",
+   "url": "https://www.ebay.com/itm/227540598623?_skw=pokemon&hash=item34fa79ff5f:g:i9QAAeSwl~pquBSZ",
+   "photos": 2,
+   "price": "4.99",
+   "condition": "Ungraded",
+   "seller": "movingleftovers",
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1418,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1418,
+     "centering": {
+      "lr": "57/43",
+      "tb": "53/47",
+      "worst": 57
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.791,
+     "grade": 9.6,
+     "side": "front",
+     "px": 1415,
+     "photo": 1
+    },
+    {
+     "p8": 0.682,
+     "grade": 8.0,
+     "side": "back",
+     "px": 1415,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.682,
+   "graderGrade": 8.0,
+   "sheet": "sheets/v1_227540598623_0.jpg"
+  }
+ }
+}
