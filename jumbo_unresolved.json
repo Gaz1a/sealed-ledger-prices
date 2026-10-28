@@ -10,7 +10,7 @@
    "productId": 181693,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -345,7 +345,7 @@
    "productId": null,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "candidates": [
@@ -441,7 +441,7 @@
    "productId": 181708,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -518,8 +518,8 @@
   "card": {
    "productId": 183564,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 24.68,
-   "date": "2026-10-27",
+   "market": 24.13,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -1281,6 +1281,10 @@
     [
      "2026-10-27",
      24.68
+    ],
+    [
+     "2026-10-28",
+     24.13
     ]
    ],
    "problem": null
@@ -1304,7 +1308,7 @@
    "productId": 181709,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -1386,7 +1390,7 @@
    "productId": 183565,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 15.72,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -2148,6 +2152,10 @@
     [
      "2026-10-27",
      15.72
+    ],
+    [
+     "2026-10-28",
+     15.72
     ]
    ],
    "problem": null
@@ -2171,7 +2179,7 @@
    "productId": 181710,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -2561,7 +2569,7 @@
    "productId": 183568,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 18.54,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -3315,6 +3323,10 @@
     [
      "2026-10-27",
      18.54
+    ],
+    [
+     "2026-10-28",
+     18.54
     ]
    ],
    "problem": null
@@ -3349,7 +3361,7 @@
    "productId": 185251,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 11.59,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -4087,6 +4099,10 @@
     [
      "2026-10-27",
      11.59
+    ],
+    [
+     "2026-10-28",
+     11.59
     ]
    ],
    "problem": null
@@ -4110,7 +4126,7 @@
    "productId": 189658,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -4312,7 +4328,7 @@
    "productId": 185988,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 31.25,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -4798,6 +4814,10 @@
     [
      "2026-10-27",
      31.25
+    ],
+    [
+     "2026-10-28",
+     31.25
     ]
    ],
    "problem": null
@@ -4821,7 +4841,7 @@
    "productId": 192083,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -4867,7 +4887,7 @@
    "productId": 192085,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 6.52,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -5629,6 +5649,10 @@
     [
      "2026-10-27",
      6.52
+    ],
+    [
+     "2026-10-28",
+     6.52
     ]
    ],
    "problem": null
@@ -5652,7 +5676,7 @@
    "productId": 218328,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -5661,7 +5685,7 @@
    "productId": 169946,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 10.59,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -6255,6 +6279,10 @@
     [
      "2026-10-27",
      10.59
+    ],
+    [
+     "2026-10-28",
+     10.59
     ]
    ],
    "problem": null
@@ -6278,7 +6306,7 @@
    "productId": 218327,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -6348,7 +6376,7 @@
    "productId": 177901,
    "basis": "likely print: user-supplied 2026-10-17, not fully confirmed",
    "market": 19.92,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -7110,6 +7138,10 @@
     [
      "2026-10-27",
      19.92
+    ],
+    [
+     "2026-10-28",
+     19.92
     ]
    ],
    "problem": null
@@ -7133,7 +7165,7 @@
    "productId": 194597,
    "basis": "exact-name",
    "market": 900.0,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -7883,6 +7915,10 @@
     [
      "2026-10-27",
      900.0
+    ],
+    [
+     "2026-10-28",
+     900.0
     ]
    ],
    "problem": null
@@ -7917,7 +7953,7 @@
    "productId": 198521,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -8099,7 +8135,7 @@
    "productId": 198532,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 10.82,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -8861,6 +8897,10 @@
     [
      "2026-10-27",
      10.82
+    ],
+    [
+     "2026-10-28",
+     10.82
     ]
    ],
    "problem": null
@@ -8884,7 +8924,7 @@
    "productId": 198528,
    "basis": "exact-name",
    "market": 400.0,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -9078,6 +9118,10 @@
     [
      "2026-10-27",
      400.0
+    ],
+    [
+     "2026-10-28",
+     400.0
     ]
    ],
    "problem": null
@@ -9123,7 +9167,7 @@
    "productId": 205167,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 6.14,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -9885,6 +9929,10 @@
     [
      "2026-10-27",
      6.14
+    ],
+    [
+     "2026-10-28",
+     6.14
     ]
    ],
    "problem": null
@@ -9908,7 +9956,7 @@
    "productId": 199772,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -10574,7 +10622,7 @@
    "productId": 200274,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 8.28,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -11336,6 +11384,10 @@
     [
      "2026-10-27",
      8.28
+    ],
+    [
+     "2026-10-28",
+     8.28
     ]
    ],
    "problem": null
@@ -11359,7 +11411,7 @@
    "productId": null,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "candidates": [],
@@ -11484,7 +11536,7 @@
    "productId": 200172,
    "basis": "exact-name",
    "market": 1815.0,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -12182,6 +12234,10 @@
     [
      "2026-10-27",
      1815.0
+    ],
+    [
+     "2026-10-28",
+     1815.0
     ]
    ],
    "problem": null
@@ -12227,7 +12283,7 @@
    "productId": 220755,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 8.29,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -12989,6 +13045,10 @@
     [
      "2026-10-27",
      8.29
+    ],
+    [
+     "2026-10-28",
+     8.29
     ]
    ],
    "problem": null
@@ -13023,7 +13083,7 @@
    "productId": 220753,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 4.16,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -13777,6 +13837,10 @@
     [
      "2026-10-27",
      4.16
+    ],
+    [
+     "2026-10-28",
+     4.16
     ]
    ],
    "problem": null
@@ -13811,7 +13875,7 @@
    "productId": 220754,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 6.39,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -14573,6 +14637,10 @@
     [
      "2026-10-27",
      6.39
+    ],
+    [
+     "2026-10-28",
+     6.39
     ]
    ],
    "problem": null
@@ -14596,7 +14664,7 @@
    "productId": 205384,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -14750,7 +14818,7 @@
    "productId": 207497,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 17.79,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -15424,6 +15492,10 @@
     [
      "2026-10-27",
      17.79
+    ],
+    [
+     "2026-10-28",
+     17.79
     ]
    ],
    "problem": null
@@ -15447,7 +15519,7 @@
    "productId": 206424,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -15809,7 +15881,7 @@
    "productId": 206426,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 5.31,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -16571,6 +16643,10 @@
     [
      "2026-10-27",
      5.31
+    ],
+    [
+     "2026-10-28",
+     5.31
     ]
    ],
    "problem": null
@@ -16594,7 +16670,7 @@
    "productId": null,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "candidates": [],
@@ -16641,7 +16717,7 @@
    "productId": null,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "candidates": [],
@@ -16703,7 +16779,7 @@
    "productId": 210563,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -17397,7 +17473,7 @@
    "productId": 214236,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 5.38,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -18159,6 +18235,10 @@
     [
      "2026-10-27",
      5.38
+    ],
+    [
+     "2026-10-28",
+     5.38
     ]
    ],
    "problem": null
@@ -18193,7 +18273,7 @@
    "productId": 223753,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 1.01,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -18955,6 +19035,10 @@
     [
      "2026-10-27",
      1.01
+    ],
+    [
+     "2026-10-28",
+     1.01
     ]
    ],
    "problem": null
@@ -18989,7 +19073,7 @@
    "productId": 223756,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 1.4,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -19751,6 +19835,10 @@
     [
      "2026-10-27",
      1.4
+    ],
+    [
+     "2026-10-28",
+     1.4
     ]
    ],
    "problem": null
@@ -19785,7 +19873,7 @@
    "productId": 229436,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -19809,7 +19897,7 @@
    "productId": 231298,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -19818,7 +19906,7 @@
    "productId": 257780,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 7.59,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -20580,6 +20668,10 @@
     [
      "2026-10-27",
      7.59
+    ],
+    [
+     "2026-10-28",
+     7.59
     ]
    ],
    "problem": null
@@ -20603,7 +20695,7 @@
    "productId": 231299,
    "basis": "exact-name",
    "market": 31.5,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -21365,6 +21457,10 @@
     [
      "2026-10-27",
      31.5
+    ],
+    [
+     "2026-10-28",
+     31.5
     ]
    ],
    "problem": null
@@ -21410,7 +21506,7 @@
    "productId": 232614,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 4.2,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -22172,6 +22268,10 @@
     [
      "2026-10-27",
      4.2
+    ],
+    [
+     "2026-10-28",
+     4.2
     ]
    ],
    "problem": null
@@ -22206,7 +22306,7 @@
    "productId": 232609,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 3.75,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -22968,6 +23068,10 @@
     [
      "2026-10-27",
      3.75
+    ],
+    [
+     "2026-10-28",
+     3.75
     ]
    ],
    "problem": null
@@ -22991,7 +23095,7 @@
    "productId": 231300,
    "basis": "exact-name",
    "market": 25.33,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -23753,6 +23857,10 @@
     [
      "2026-10-27",
      25.33
+    ],
+    [
+     "2026-10-28",
+     25.33
     ]
    ],
    "problem": null
@@ -23787,7 +23895,7 @@
    "productId": 231301,
    "basis": "exact-name",
    "market": 27.54,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -24549,6 +24657,10 @@
     [
      "2026-10-27",
      27.54
+    ],
+    [
+     "2026-10-28",
+     27.54
     ]
    ],
    "problem": null
@@ -24594,7 +24706,7 @@
    "productId": 251622,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 2.35,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -25356,6 +25468,10 @@
     [
      "2026-10-27",
      2.35
+    ],
+    [
+     "2026-10-28",
+     2.35
     ]
    ],
    "problem": null
@@ -25390,7 +25506,7 @@
    "productId": 251623,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 1.52,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -26152,6 +26268,10 @@
     [
      "2026-10-27",
      1.52
+    ],
+    [
+     "2026-10-28",
+     1.52
     ]
    ],
    "problem": null
@@ -26175,7 +26295,7 @@
    "productId": 231303,
    "basis": "exact-name",
    "market": 23.43,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -26937,6 +27057,10 @@
     [
      "2026-10-27",
      23.43
+    ],
+    [
+     "2026-10-28",
+     23.43
     ]
    ],
    "problem": null
@@ -26971,7 +27095,7 @@
    "productId": 231304,
    "basis": "exact-name",
    "market": 24.98,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -27733,6 +27857,10 @@
     [
      "2026-10-27",
      24.98
+    ],
+    [
+     "2026-10-28",
+     24.98
     ]
    ],
    "problem": null
@@ -27767,7 +27895,7 @@
    "productId": 231305,
    "basis": "exact-name",
    "market": 64.52,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -28529,6 +28657,10 @@
     [
      "2026-10-27",
      64.52
+    ],
+    [
+     "2026-10-28",
+     64.52
     ]
    ],
    "problem": null
@@ -28574,7 +28706,7 @@
    "productId": 251105,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 4.71,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -29336,6 +29468,10 @@
     [
      "2026-10-27",
      4.71
+    ],
+    [
+     "2026-10-28",
+     4.71
     ]
    ],
    "problem": null
@@ -29369,8 +29505,8 @@
   "card": {
    "productId": 251104,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 4.65,
-   "date": "2026-10-27",
+   "market": 4.69,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -30132,6 +30268,10 @@
     [
      "2026-10-27",
      4.65
+    ],
+    [
+     "2026-10-28",
+     4.69
     ]
    ],
    "problem": null
@@ -30165,8 +30305,8 @@
   "card": {
    "productId": 251104,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 4.65,
-   "date": "2026-10-27",
+   "market": 4.69,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -30928,6 +31068,10 @@
     [
      "2026-10-27",
      4.65
+    ],
+    [
+     "2026-10-28",
+     4.69
     ]
    ],
    "problem": null
@@ -30962,7 +31106,7 @@
    "productId": 251100,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 12.16,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -31724,6 +31868,10 @@
     [
      "2026-10-27",
      12.16
+    ],
+    [
+     "2026-10-28",
+     12.16
     ]
    ],
    "problem": null
@@ -31747,7 +31895,7 @@
    "productId": 252416,
    "basis": "exact-name",
    "market": 359.18,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -32509,6 +32657,10 @@
     [
      "2026-10-27",
      359.18
+    ],
+    [
+     "2026-10-28",
+     359.18
     ]
    ],
    "problem": null
@@ -32554,7 +32706,7 @@
    "productId": 251100,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 12.16,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -33316,6 +33468,10 @@
     [
      "2026-10-27",
      12.16
+    ],
+    [
+     "2026-10-28",
+     12.16
     ]
    ],
    "problem": null
@@ -33339,7 +33495,7 @@
    "productId": 231306,
    "basis": "exact-name",
    "market": 69.65,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -34101,6 +34257,10 @@
     [
      "2026-10-27",
      69.65
+    ],
+    [
+     "2026-10-28",
+     69.65
     ]
    ],
    "problem": null
@@ -34135,7 +34295,7 @@
    "productId": 253396,
    "basis": "exact-name",
    "market": 292.6,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -34897,6 +35057,10 @@
     [
      "2026-10-27",
      292.6
+    ],
+    [
+     "2026-10-28",
+     292.6
     ]
    ],
    "problem": null
@@ -34931,7 +35095,7 @@
    "productId": 248208,
    "basis": "exact-name",
    "market": 292.03,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -35693,6 +35857,10 @@
     [
      "2026-10-27",
      292.03
+    ],
+    [
+     "2026-10-28",
+     292.03
     ]
    ],
    "problem": null
@@ -35727,7 +35895,7 @@
    "productId": 262646,
    "basis": "exact-name",
    "market": 75.1,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -36489,6 +36657,10 @@
     [
      "2026-10-27",
      75.1
+    ],
+    [
+     "2026-10-28",
+     75.1
     ]
    ],
    "problem": null
@@ -36533,8 +36705,8 @@
   "card": {
    "productId": 279028,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 1.2,
-   "date": "2026-10-27",
+   "market": 1.23,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -37296,6 +37468,10 @@
     [
      "2026-10-27",
      1.2
+    ],
+    [
+     "2026-10-28",
+     1.23
     ]
    ],
    "problem": null
@@ -37319,7 +37495,7 @@
    "productId": 286477,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -37328,7 +37504,7 @@
    "productId": 450094,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 9.94,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -38090,6 +38266,10 @@
     [
      "2026-10-27",
      9.94
+    ],
+    [
+     "2026-10-28",
+     9.94
     ]
    ],
    "problem": null
@@ -38113,7 +38293,7 @@
    "productId": 286476,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -38667,7 +38847,7 @@
    "productId": 450093,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 52.88,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -39429,6 +39609,10 @@
     [
      "2026-10-27",
      52.88
+    ],
+    [
+     "2026-10-28",
+     52.88
     ]
    ],
    "problem": null
@@ -39452,7 +39636,7 @@
    "productId": 287228,
    "basis": "exact-name",
    "market": 247.9,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -40214,6 +40398,10 @@
     [
      "2026-10-27",
      247.9
+    ],
+    [
+     "2026-10-28",
+     247.9
     ]
    ],
    "problem": null
@@ -40248,7 +40436,7 @@
    "productId": null,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "candidates": [],
@@ -40384,7 +40572,7 @@
    "productId": 479880,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 1.11,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -41146,6 +41334,10 @@
     [
      "2026-10-27",
      1.11
+    ],
+    [
+     "2026-10-28",
+     1.11
     ]
    ],
    "problem": null
@@ -41180,7 +41372,7 @@
    "productId": 479879,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 0.86,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -41942,6 +42134,10 @@
     [
      "2026-10-27",
      0.86
+    ],
+    [
+     "2026-10-28",
+     0.86
     ]
    ],
    "problem": null
@@ -41976,7 +42172,7 @@
    "productId": 478425,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 5.82,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -42738,6 +42934,10 @@
     [
      "2026-10-27",
      5.82
+    ],
+    [
+     "2026-10-28",
+     5.82
     ]
    ],
    "problem": null
@@ -42771,8 +42971,8 @@
   "card": {
    "productId": 506006,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 4.4,
-   "date": "2026-10-27",
+   "market": 4.48,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -43534,6 +43734,10 @@
     [
      "2026-10-27",
      4.4
+    ],
+    [
+     "2026-10-28",
+     4.48
     ]
    ],
    "problem": null
@@ -43557,7 +43761,7 @@
    "productId": 621096,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -43566,7 +43770,7 @@
    "productId": 497721,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 1.1,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -44328,6 +44532,10 @@
     [
      "2026-10-27",
      1.1
+    ],
+    [
+     "2026-10-28",
+     1.1
     ]
    ],
    "problem": null
@@ -44362,7 +44570,7 @@
    "productId": 478425,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 5.82,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -45124,6 +45332,10 @@
     [
      "2026-10-27",
      5.82
+    ],
+    [
+     "2026-10-28",
+     5.82
     ]
    ],
    "problem": null
@@ -45147,7 +45359,7 @@
    "productId": 531572,
    "basis": "exact-name",
    "market": 39.54,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -45909,6 +46121,10 @@
     [
      "2026-10-27",
      39.54
+    ],
+    [
+     "2026-10-28",
+     39.54
     ]
    ],
    "problem": null
@@ -45954,7 +46170,7 @@
    "productId": 707208,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -45978,7 +46194,7 @@
    "productId": 604493,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -46472,7 +46688,7 @@
    "productId": 602875,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 14.99,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -47022,6 +47238,10 @@
     [
      "2026-10-27",
      14.99
+    ],
+    [
+     "2026-10-28",
+     14.99
     ]
    ],
    "problem": null
@@ -47045,7 +47265,7 @@
    "productId": 594896,
    "basis": "exact-name",
    "market": 46.35,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -47807,6 +48027,10 @@
     [
      "2026-10-27",
      46.35
+    ],
+    [
+     "2026-10-28",
+     46.35
     ]
    ],
    "problem": null
@@ -47852,7 +48076,7 @@
    "productId": 707209,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -47876,7 +48100,7 @@
    "productId": 629647,
    "basis": "exact-name",
    "market": 90.53,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -48638,6 +48862,10 @@
     [
      "2026-10-27",
      90.53
+    ],
+    [
+     "2026-10-28",
+     90.53
     ]
    ],
    "problem": null
@@ -48672,7 +48900,7 @@
    "productId": 662758,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -48681,7 +48909,7 @@
    "productId": 651982,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 7.89,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -49435,6 +49663,10 @@
     [
      "2026-10-27",
      7.89
+    ],
+    [
+     "2026-10-28",
+     7.89
     ]
    ],
    "problem": null
@@ -49458,7 +49690,7 @@
    "productId": 657884,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -49493,7 +49725,7 @@
    "productId": 665038,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -49502,7 +49734,7 @@
    "productId": 545663,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 1.7,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -50260,6 +50492,10 @@
     [
      "2026-10-27",
      1.7
+    ],
+    [
+     "2026-10-28",
+     1.7
     ]
    ],
    "problem": null
@@ -50283,7 +50519,7 @@
    "productId": 662745,
    "basis": "exact-name",
    "market": 39.41,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -51045,6 +51281,10 @@
     [
      "2026-10-27",
      39.41
+    ],
+    [
+     "2026-10-28",
+     39.41
     ]
    ],
    "problem": null
@@ -51078,8 +51318,8 @@
   "sealed": {
    "productId": 666512,
    "basis": "exact-name",
-   "market": 42.94,
-   "date": "2026-10-27",
+   "market": 43.54,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -51841,6 +52081,10 @@
     [
      "2026-10-27",
      42.94
+    ],
+    [
+     "2026-10-28",
+     43.54
     ]
    ],
    "problem": null
@@ -51885,8 +52129,8 @@
   "card": {
    "productId": 713269,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 2.53,
-   "date": "2026-10-27",
+   "market": 2.41,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -52056,6 +52300,10 @@
     [
      "2026-10-27",
      2.53
+    ],
+    [
+     "2026-10-28",
+     2.41
     ]
    ],
    "problem": null
@@ -52078,8 +52326,8 @@
   "sealed": {
    "productId": 662770,
    "basis": "exact-name",
-   "market": 82.83,
-   "date": "2026-10-27",
+   "market": 82.51,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -52841,6 +53089,10 @@
     [
      "2026-10-27",
      82.83
+    ],
+    [
+     "2026-10-28",
+     82.51
     ]
    ],
    "problem": null
@@ -52885,8 +53137,8 @@
   "card": {
    "productId": 662000,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 1.66,
-   "date": "2026-10-27",
+   "market": 1.68,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -53640,6 +53892,10 @@
     [
      "2026-10-27",
      1.66
+    ],
+    [
+     "2026-10-28",
+     1.68
     ]
    ],
    "problem": null
@@ -53663,7 +53919,7 @@
    "productId": 656955,
    "basis": "exact-name",
    "market": 39.4,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -54425,6 +54681,10 @@
     [
      "2026-10-27",
      39.4
+    ],
+    [
+     "2026-10-28",
+     39.4
     ]
    ],
    "problem": null
@@ -54459,7 +54719,7 @@
    "productId": 662750,
    "basis": "exact-name",
    "market": 37.03,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -55221,6 +55481,10 @@
     [
      "2026-10-27",
      37.03
+    ],
+    [
+     "2026-10-28",
+     37.03
     ]
    ],
    "problem": null
@@ -55265,8 +55529,8 @@
   "card": {
    "productId": 692116,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 0.83,
-   "date": "2026-10-27",
+   "market": 0.8,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -56016,6 +56280,10 @@
     [
      "2026-10-27",
      0.83
+    ],
+    [
+     "2026-10-28",
+     0.8
     ]
    ],
    "problem": null
@@ -56049,8 +56317,8 @@
   "card": {
    "productId": 692117,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 1.24,
-   "date": "2026-10-27",
+   "market": 1.22,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -56800,6 +57068,10 @@
     [
      "2026-10-27",
      1.24
+    ],
+    [
+     "2026-10-28",
+     1.22
     ]
    ],
    "problem": null
@@ -56833,8 +57105,8 @@
   "card": {
    "productId": 692115,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 1.13,
-   "date": "2026-10-27",
+   "market": 1.11,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -57584,6 +57856,10 @@
     [
      "2026-10-27",
      1.13
+    ],
+    [
+     "2026-10-28",
+     1.11
     ]
    ],
    "problem": null
@@ -57618,7 +57894,7 @@
    "productId": 710794,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 4.89,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -57916,6 +58192,10 @@
     [
      "2026-10-27",
      4.89
+    ],
+    [
+     "2026-10-28",
+     4.89
     ]
    ],
    "problem": null
@@ -57950,7 +58230,7 @@
    "productId": 179079,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -58346,7 +58626,7 @@
    "productId": 211500,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 34.49,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -59096,6 +59376,10 @@
     [
      "2026-10-27",
      34.49
+    ],
+    [
+     "2026-10-28",
+     34.49
     ]
    ],
    "problem": null
@@ -59130,7 +59414,7 @@
    "productId": null,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "candidates": [],
@@ -59231,7 +59515,7 @@
    "productId": null,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "candidates": [],
@@ -59332,7 +59616,7 @@
    "productId": null,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "candidates": [],
@@ -59433,7 +59717,7 @@
    "productId": null,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "candidates": [],
@@ -59534,7 +59818,7 @@
    "productId": 211427,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 26.63,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -59644,6 +59928,10 @@
     [
      "2026-10-27",
      26.63
+    ],
+    [
+     "2026-10-28",
+     26.63
     ]
    ],
    "problem": null
@@ -59680,7 +59968,7 @@
    "productId": 211429,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 20.9,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -59726,6 +60014,10 @@
     [
      "2026-10-27",
      20.9
+    ],
+    [
+     "2026-10-28",
+     20.9
     ]
    ],
    "problem": null
@@ -59760,7 +60052,7 @@
    "productId": 211504,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 17.0,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -59806,6 +60098,10 @@
     [
      "2026-10-27",
      17.0
+    ],
+    [
+     "2026-10-28",
+     17.0
     ]
    ],
    "problem": null
@@ -59829,7 +60125,7 @@
    "productId": 714416,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -59838,7 +60134,7 @@
    "productId": 211415,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 41.79,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -60144,6 +60440,10 @@
     [
      "2026-10-27",
      41.79
+    ],
+    [
+     "2026-10-28",
+     41.79
     ]
    ],
    "problem": null
@@ -60178,7 +60478,7 @@
    "productId": 211505,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -60202,7 +60502,7 @@
    "productId": null,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "candidates": [],
@@ -60249,7 +60549,7 @@
    "productId": null,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "candidates": [],
@@ -60311,7 +60611,7 @@
    "productId": 98620,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -60346,7 +60646,7 @@
    "productId": 206311,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -60392,7 +60692,7 @@
    "productId": 180718,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 59.45,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -61141,6 +61441,10 @@
     ],
     [
      "2026-10-27",
+     59.45
+    ],
+    [
+     "2026-10-28",
      59.45
     ]
    ],
@@ -61176,7 +61480,7 @@
    "productId": 211418,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 49.48,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -61925,6 +62229,10 @@
     ],
     [
      "2026-10-27",
+     49.48
+    ],
+    [
+     "2026-10-28",
      49.48
     ]
    ],
@@ -61960,7 +62268,7 @@
    "productId": 211419,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 47.86,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -62402,6 +62710,10 @@
     [
      "2026-10-27",
      47.86
+    ],
+    [
+     "2026-10-28",
+     47.86
     ]
    ],
    "problem": null
@@ -62425,7 +62737,7 @@
    "productId": 98635,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -62434,7 +62746,7 @@
    "productId": 211501,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 29.54,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -63128,6 +63440,10 @@
     [
      "2026-10-27",
      29.54
+    ],
+    [
+     "2026-10-28",
+     29.54
     ]
    ],
    "problem": null
@@ -63151,7 +63467,7 @@
    "productId": 206308,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -63160,7 +63476,7 @@
    "productId": 211457,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 13.0,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -63758,6 +64074,10 @@
     [
      "2026-10-27",
      13.0
+    ],
+    [
+     "2026-10-28",
+     13.0
     ]
    ],
    "problem": null
@@ -63792,7 +64112,7 @@
    "productId": 211425,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 29.7,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -64253,6 +64573,10 @@
     ],
     [
      "2026-10-27",
+     29.7
+    ],
+    [
+     "2026-10-28",
      29.7
     ]
    ],
@@ -64290,7 +64614,7 @@
    "productId": 211428,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 31.5,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -64856,6 +65180,10 @@
     [
      "2026-10-27",
      31.5
+    ],
+    [
+     "2026-10-28",
+     31.5
     ]
    ],
    "problem": null
@@ -64890,7 +65218,7 @@
    "productId": 211488,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -65170,7 +65498,7 @@
    "productId": 211489,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 59.99,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -65388,6 +65716,10 @@
     [
      "2026-10-27",
      59.99
+    ],
+    [
+     "2026-10-28",
+     59.99
     ]
    ],
    "problem": null
@@ -65411,7 +65743,7 @@
    "productId": 97729,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -65697,7 +66029,7 @@
    "productId": 173082,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 9.0,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -66167,6 +66499,10 @@
     [
      "2026-10-27",
      9.0
+    ],
+    [
+     "2026-10-28",
+     9.0
     ]
    ],
    "problem": null
@@ -66190,7 +66526,7 @@
    "productId": 91612,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -66199,7 +66535,7 @@
    "productId": 91614,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 15.62,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -66949,6 +67285,10 @@
     [
      "2026-10-27",
      15.62
+    ],
+    [
+     "2026-10-28",
+     15.62
     ]
    ],
    "problem": null
@@ -66972,7 +67312,7 @@
    "productId": null,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "candidates": [],
@@ -67019,7 +67359,7 @@
    "productId": null,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "candidates": [],
@@ -67081,7 +67421,7 @@
    "productId": 97791,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -67090,7 +67430,7 @@
    "productId": 211461,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 17.92,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -67840,6 +68180,10 @@
     [
      "2026-10-27",
      17.92
+    ],
+    [
+     "2026-10-28",
+     17.92
     ]
    ],
    "problem": null
@@ -67874,7 +68218,7 @@
    "productId": null,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "candidates": [
@@ -67949,7 +68293,7 @@
    "productId": 97742,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -67958,7 +68302,7 @@
    "productId": 211458,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 9.97,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -68648,6 +68992,10 @@
     [
      "2026-10-27",
      9.97
+    ],
+    [
+     "2026-10-28",
+     9.97
     ]
    ],
    "problem": null
@@ -68671,7 +69019,7 @@
    "productId": 97793,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -68680,7 +69028,7 @@
    "productId": 211430,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 14.97,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -69430,6 +69778,10 @@
     [
      "2026-10-27",
      14.97
+    ],
+    [
+     "2026-10-28",
+     14.97
     ]
    ],
    "problem": null
@@ -69453,7 +69805,7 @@
    "productId": 97794,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -69887,7 +70239,7 @@
    "productId": 191545,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 7.72,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -70633,6 +70985,10 @@
     [
      "2026-10-27",
      7.72
+    ],
+    [
+     "2026-10-28",
+     7.72
     ]
    ],
    "problem": null
@@ -70667,7 +71023,7 @@
    "productId": 211446,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -70702,7 +71058,7 @@
    "productId": 211459,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -70726,7 +71082,7 @@
    "productId": 97820,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -71024,7 +71380,7 @@
    "productId": 152934,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 11.95,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -71654,6 +72010,10 @@
     [
      "2026-10-27",
      11.95
+    ],
+    [
+     "2026-10-28",
+     11.95
     ]
    ],
    "problem": null
@@ -71677,7 +72037,7 @@
    "productId": 99151,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -71923,7 +72283,7 @@
    "productId": 106207,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 11.78,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -72665,6 +73025,10 @@
     [
      "2026-10-27",
      11.78
+    ],
+    [
+     "2026-10-28",
+     11.78
     ]
    ],
    "problem": null
@@ -72688,7 +73052,7 @@
    "productId": 100499,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -72826,7 +73190,7 @@
    "productId": 147232,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 22.14,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -73552,6 +73916,10 @@
     [
      "2026-10-27",
      22.14
+    ],
+    [
+     "2026-10-28",
+     22.14
     ]
    ],
    "problem": null
@@ -73586,7 +73954,7 @@
    "productId": 560469,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -73610,7 +73978,7 @@
    "productId": 103462,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -73645,7 +74013,7 @@
    "productId": 104379,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -73654,7 +74022,7 @@
    "productId": 173081,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 17.77,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -74400,6 +74768,10 @@
     [
      "2026-10-27",
      17.77
+    ],
+    [
+     "2026-10-28",
+     17.77
     ]
    ],
    "problem": null
@@ -74423,7 +74795,7 @@
    "productId": 107104,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -74432,7 +74804,7 @@
    "productId": 211416,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 26.97,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -75018,6 +75390,10 @@
     [
      "2026-10-27",
      26.97
+    ],
+    [
+     "2026-10-28",
+     26.97
     ]
    ],
    "problem": null
@@ -75041,7 +75417,7 @@
    "productId": 107105,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -75050,7 +75426,7 @@
    "productId": 211466,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 34.14,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -75396,6 +75772,10 @@
     [
      "2026-10-27",
      34.14
+    ],
+    [
+     "2026-10-28",
+     34.14
     ]
    ],
    "problem": null
@@ -75430,7 +75810,7 @@
    "productId": null,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "candidates": [
@@ -75518,7 +75898,7 @@
    "productId": 211422,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -75693,7 +76073,7 @@
    "productId": 117278,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -76063,7 +76443,7 @@
    "productId": 147230,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 17.95,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -76769,6 +77149,10 @@
     [
      "2026-10-27",
      17.95
+    ],
+    [
+     "2026-10-28",
+     17.95
     ]
    ],
    "problem": null
@@ -76792,7 +77176,7 @@
    "productId": 117277,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -76801,7 +77185,7 @@
    "productId": 147235,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 10.36,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -77547,6 +77931,10 @@
     [
      "2026-10-27",
      10.36
+    ],
+    [
+     "2026-10-28",
+     10.36
     ]
    ],
    "problem": null
@@ -77581,7 +77969,7 @@
    "productId": 147231,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 10.63,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -78327,6 +78715,10 @@
     [
      "2026-10-27",
      10.63
+    ],
+    [
+     "2026-10-28",
+     10.63
     ]
    ],
    "problem": null
@@ -78361,7 +78753,7 @@
    "productId": 211450,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -78385,7 +78777,7 @@
    "productId": 118336,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -78630,8 +79022,8 @@
   "card": {
    "productId": 141939,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 11.89,
-   "date": "2026-10-27",
+   "market": 11.79,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -79377,6 +79769,10 @@
     [
      "2026-10-27",
      11.89
+    ],
+    [
+     "2026-10-28",
+     11.79
     ]
    ],
    "problem": null
@@ -79400,7 +79796,7 @@
    "productId": 118335,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -79409,7 +79805,7 @@
    "productId": 147233,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 17.36,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -80155,6 +80551,10 @@
     [
      "2026-10-27",
      17.36
+    ],
+    [
+     "2026-10-28",
+     17.36
     ]
    ],
    "problem": null
@@ -80189,7 +80589,7 @@
    "productId": 542981,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -80275,7 +80675,7 @@
    "productId": 618848,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -80333,7 +80733,7 @@
    "productId": 147234,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 16.1,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -81079,6 +81479,10 @@
     [
      "2026-10-27",
      16.1
+    ],
+    [
+     "2026-10-28",
+     16.1
     ]
    ],
    "problem": null
@@ -81113,7 +81517,7 @@
    "productId": 211487,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 39.99,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -81451,6 +81855,10 @@
     [
      "2026-10-27",
      39.99
+    ],
+    [
+     "2026-10-28",
+     39.99
     ]
    ],
    "problem": null
@@ -81487,7 +81895,7 @@
    "productId": 211463,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -81513,7 +81921,7 @@
    "productId": 125738,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -81521,8 +81929,8 @@
   "card": {
    "productId": 148410,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 31.42,
-   "date": "2026-10-27",
+   "market": 32.01,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -82260,6 +82668,10 @@
     [
      "2026-10-27",
      31.42
+    ],
+    [
+     "2026-10-28",
+     32.01
     ]
    ],
    "problem": null
@@ -82283,7 +82695,7 @@
    "productId": 125737,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -82292,7 +82704,7 @@
    "productId": 211486,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 49.95,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -82894,6 +83306,10 @@
     [
      "2026-10-27",
      49.95
+    ],
+    [
+     "2026-10-28",
+     49.95
     ]
    ],
    "problem": null
@@ -82917,7 +83333,7 @@
    "productId": 125736,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -83483,7 +83899,7 @@
    "productId": 131864,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 13.04,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -84229,1505 +84645,10 @@
     [
      "2026-10-27",
      13.04
-    ]
-   ],
-   "problem": null
-  },
-  "refs": null,
-  "cardmarketIds": null,
-  "priceBasisLabels": {
-   "tcgplayer": "TCGplayer market, dated snapshot = historical (not sold-verified)",
-   "pricecharting": "estimate",
-   "cardmarket": "asking price (EUR converted to USD at the feed rate, rate stated)"
-  }
- },
- {
-  "id": "j-2016-gengar-ex-box-en",
-  "title": "Gengar-EX Box",
-  "lang": "English",
-  "year": 2016,
-  "sheetCards": "Gengar-EX",
-  "sheetCheck": null,
-  "sealed": {
-   "productId": 125733,
-   "basis": "exact-name",
-   "market": null,
-   "date": "2026-10-27",
-   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
-   "history": [
-    [
-     "2026-04-21",
-     409
-    ],
-    [
-     "2026-04-22",
-     407.55
-    ],
-    [
-     "2026-04-23",
-     415.44
-    ],
-    [
-     "2026-04-24",
-     409
-    ],
-    [
-     "2026-04-25",
-     428.33
-    ],
-    [
-     "2026-04-26",
-     415.44
-    ],
-    [
-     "2026-04-27",
-     428.33
-    ],
-    [
-     "2026-04-28",
-     428.33
-    ],
-    [
-     "2026-04-29",
-     415.44
-    ],
-    [
-     "2026-04-30",
-     428.33
-    ],
-    [
-     "2026-05-01",
-     428.33
-    ],
-    [
-     "2026-05-02",
-     415.44
-    ],
-    [
-     "2026-05-03",
-     428.33
-    ],
-    [
-     "2026-05-04",
-     428.33
-    ],
-    [
-     "2026-05-05",
-     415.44
-    ],
-    [
-     "2026-05-06",
-     428.33
-    ],
-    [
-     "2026-05-07",
-     428.33
-    ],
-    [
-     "2026-05-08",
-     415.44
-    ],
-    [
-     "2026-05-09",
-     428.33
-    ],
-    [
-     "2026-05-10",
-     428.33
-    ],
-    [
-     "2026-05-11",
-     428.33
-    ],
-    [
-     "2026-05-12",
-     428.33
-    ],
-    [
-     "2026-05-13",
-     428.33
-    ],
-    [
-     "2026-05-14",
-     428.33
-    ],
-    [
-     "2026-05-15",
-     428.33
-    ],
-    [
-     "2026-05-16",
-     428.33
-    ],
-    [
-     "2026-05-17",
-     428.33
-    ],
-    [
-     "2026-05-18",
-     428.33
-    ],
-    [
-     "2026-05-19",
-     428.33
-    ],
-    [
-     "2026-05-20",
-     428.33
-    ],
-    [
-     "2026-05-21",
-     428.33
-    ],
-    [
-     "2026-05-22",
-     428.33
-    ],
-    [
-     "2026-05-23",
-     428.33
-    ],
-    [
-     "2026-05-24",
-     428.33
-    ],
-    [
-     "2026-05-25",
-     428.33
-    ],
-    [
-     "2026-05-26",
-     428.33
-    ],
-    [
-     "2026-05-27",
-     428.33
-    ],
-    [
-     "2026-05-28",
-     427.14
-    ],
-    [
-     "2026-05-29",
-     427.14
-    ],
-    [
-     "2026-05-30",
-     427.14
-    ],
-    [
-     "2026-05-31",
-     427.14
-    ],
-    [
-     "2026-06-01",
-     427.14
-    ],
-    [
-     "2026-06-02",
-     427.14
-    ],
-    [
-     "2026-06-03",
-     427.14
-    ],
-    [
-     "2026-06-04",
-     435
-    ],
-    [
-     "2026-06-05",
-     435
-    ],
-    [
-     "2026-06-06",
-     435
-    ],
-    [
-     "2026-06-07",
-     435
-    ],
-    [
-     "2026-06-08",
-     435
-    ],
-    [
-     "2026-06-09",
-     435
-    ],
-    [
-     "2026-06-10",
-     435
-    ],
-    [
-     "2026-06-11",
-     435
-    ],
-    [
-     "2026-06-12",
-     435
-    ],
-    [
-     "2026-06-13",
-     435
-    ],
-    [
-     "2026-06-14",
-     444
-    ],
-    [
-     "2026-06-15",
-     444
-    ],
-    [
-     "2026-06-16",
-     444
-    ],
-    [
-     "2026-06-17",
-     444
-    ],
-    [
-     "2026-06-18",
-     444
-    ],
-    [
-     "2026-06-19",
-     455
-    ],
-    [
-     "2026-06-20",
-     455
-    ],
-    [
-     "2026-06-21",
-     455
-    ],
-    [
-     "2026-06-22",
-     455
-    ],
-    [
-     "2026-06-23",
-     455
-    ],
-    [
-     "2026-06-24",
-     455
-    ],
-    [
-     "2026-06-25",
-     455
-    ],
-    [
-     "2026-06-26",
-     455
-    ],
-    [
-     "2026-06-27",
-     455
-    ],
-    [
-     "2026-06-28",
-     455
-    ],
-    [
-     "2026-06-29",
-     455
-    ],
-    [
-     "2026-06-30",
-     455
-    ],
-    [
-     "2026-07-01",
-     455
-    ],
-    [
-     "2026-07-02",
-     455
-    ],
-    [
-     "2026-07-03",
-     455
-    ],
-    [
-     "2026-07-04",
-     455
-    ],
-    [
-     "2026-07-05",
-     455
-    ],
-    [
-     "2026-07-06",
-     455
-    ],
-    [
-     "2026-07-07",
-     455
-    ],
-    [
-     "2026-07-08",
-     455
-    ],
-    [
-     "2026-07-09",
-     455
-    ],
-    [
-     "2026-07-10",
-     455
-    ],
-    [
-     "2026-07-11",
-     455
-    ],
-    [
-     "2026-07-12",
-     455
-    ],
-    [
-     "2026-07-13",
-     455
-    ],
-    [
-     "2026-07-14",
-     455
-    ],
-    [
-     "2026-07-15",
-     455
-    ],
-    [
-     "2026-07-16",
-     455
-    ],
-    [
-     "2026-07-17",
-     455
-    ],
-    [
-     "2026-07-18",
-     455
-    ],
-    [
-     "2026-07-19",
-     455
-    ],
-    [
-     "2026-07-20",
-     455
-    ],
-    [
-     "2026-07-21",
-     455
-    ],
-    [
-     "2026-07-22",
-     455
-    ],
-    [
-     "2026-07-23",
-     455
-    ],
-    [
-     "2026-07-24",
-     455
-    ],
-    [
-     "2026-07-25",
-     455
-    ],
-    [
-     "2026-07-26",
-     455
-    ],
-    [
-     "2026-07-27",
-     455
-    ],
-    [
-     "2026-07-28",
-     455
-    ],
-    [
-     "2026-07-29",
-     466.66
-    ],
-    [
-     "2026-07-30",
-     466.66
-    ],
-    [
-     "2026-07-31",
-     466.66
-    ],
-    [
-     "2026-08-01",
-     466.66
-    ],
-    [
-     "2026-08-02",
-     466.66
-    ],
-    [
-     "2026-08-03",
-     466.66
-    ],
-    [
-     "2026-08-04",
-     466.66
-    ],
-    [
-     "2026-08-05",
-     472.5
-    ],
-    [
-     "2026-08-06",
-     472.5
-    ],
-    [
-     "2026-08-07",
-     472.5
-    ],
-    [
-     "2026-08-08",
-     472.5
-    ],
-    [
-     "2026-08-09",
-     472.5
-    ],
-    [
-     "2026-08-10",
-     472.5
-    ],
-    [
-     "2026-08-11",
-     472.5
-    ],
-    [
-     "2026-08-12",
-     472.5
-    ],
-    [
-     "2026-08-13",
-     472.5
-    ],
-    [
-     "2026-08-14",
-     472.5
-    ],
-    [
-     "2026-08-15",
-     472.5
-    ],
-    [
-     "2026-08-16",
-     472.5
-    ],
-    [
-     "2026-08-17",
-     472.5
-    ],
-    [
-     "2026-08-18",
-     472.5
-    ],
-    [
-     "2026-08-19",
-     472.5
-    ],
-    [
-     "2026-08-20",
-     472.5
-    ],
-    [
-     "2026-08-21",
-     472.5
-    ],
-    [
-     "2026-08-22",
-     472.5
-    ],
-    [
-     "2026-08-23",
-     472.5
-    ],
-    [
-     "2026-08-24",
-     472.5
-    ],
-    [
-     "2026-08-25",
-     472.5
-    ],
-    [
-     "2026-08-26",
-     472.5
-    ],
-    [
-     "2026-08-27",
-     472.5
-    ],
-    [
-     "2026-08-28",
-     472.5
-    ],
-    [
-     "2026-08-29",
-     472.5
-    ],
-    [
-     "2026-08-30",
-     472.5
-    ],
-    [
-     "2026-08-31",
-     472.5
-    ],
-    [
-     "2026-09-01",
-     472.5
-    ],
-    [
-     "2026-09-02",
-     472.5
-    ],
-    [
-     "2026-09-03",
-     472.5
-    ],
-    [
-     "2026-09-04",
-     472.5
-    ],
-    [
-     "2026-09-09",
-     472.5
-    ],
-    [
-     "2026-09-10",
-     472.5
-    ],
-    [
-     "2026-09-11",
-     472.5
-    ],
-    [
-     "2026-09-12",
-     472.5
-    ],
-    [
-     "2026-09-13",
-     472.5
-    ],
-    [
-     "2026-09-14",
-     472.5
-    ],
-    [
-     "2026-09-15",
-     472.5
-    ],
-    [
-     "2026-09-16",
-     472.5
-    ],
-    [
-     "2026-09-17",
-     472.5
-    ],
-    [
-     "2026-09-18",
-     472.5
-    ],
-    [
-     "2026-09-19",
-     472.5
-    ],
-    [
-     "2026-09-20",
-     472.5
-    ],
-    [
-     "2026-09-21",
-     472.5
-    ],
-    [
-     "2026-09-22",
-     472.5
-    ],
-    [
-     "2026-09-23",
-     472.5
-    ],
-    [
-     "2026-09-24",
-     472.5
-    ],
-    [
-     "2026-09-25",
-     472.5
-    ],
-    [
-     "2026-09-26",
-     472.5
-    ],
-    [
-     "2026-09-27",
-     472.5
-    ],
-    [
-     "2026-09-28",
-     472.5
-    ],
-    [
-     "2026-09-29",
-     472.5
-    ],
-    [
-     "2026-09-30",
-     472.5
-    ],
-    [
-     "2026-10-01",
-     472.5
-    ],
-    [
-     "2026-10-02",
-     472.5
-    ],
-    [
-     "2026-10-03",
-     472.5
-    ],
-    [
-     "2026-10-04",
-     472.5
-    ],
-    [
-     "2026-10-05",
-     472.5
-    ],
-    [
-     "2026-10-06",
-     498.56
-    ],
-    [
-     "2026-10-07",
-     498.56
-    ],
-    [
-     "2026-10-08",
-     498.56
-    ],
-    [
-     "2026-10-09",
-     498.56
-    ],
-    [
-     "2026-10-10",
-     511.42
-    ],
-    [
-     "2026-10-11",
-     511.42
-    ],
-    [
-     "2026-10-12",
-     511.42
-    ],
-    [
-     "2026-10-13",
-     511.42
-    ],
-    [
-     "2026-10-14",
-     523.08
-    ],
-    [
-     "2026-10-15",
-     530.9
-    ],
-    [
-     "2026-10-16",
-     523.08
-    ],
-    [
-     "2026-10-17",
-     523.08
-    ],
-    [
-     "2026-10-18",
-     523.08
-    ],
-    [
-     "2026-10-19",
-     523.08
-    ],
-    [
-     "2026-10-20",
-     523.08
-    ],
-    [
-     "2026-10-21",
-     523.08
-    ],
-    [
-     "2026-10-22",
-     523.08
-    ]
-   ],
-   "problem": "listing found but no priced row"
-  },
-  "card": {
-   "productId": 169940,
-   "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 23.51,
-   "date": "2026-10-27",
-   "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
-   "history": [
-    [
-     "2026-04-26",
-     24.61
-    ],
-    [
-     "2026-04-27",
-     24.8
-    ],
-    [
-     "2026-04-28",
-     24.8
-    ],
-    [
-     "2026-04-29",
-     24.61
-    ],
-    [
-     "2026-04-30",
-     24.8
-    ],
-    [
-     "2026-05-01",
-     25.66
-    ],
-    [
-     "2026-05-02",
-     25.09
-    ],
-    [
-     "2026-05-03",
-     25.66
-    ],
-    [
-     "2026-05-04",
-     25.66
-    ],
-    [
-     "2026-05-05",
-     25.09
-    ],
-    [
-     "2026-05-06",
-     25.66
-    ],
-    [
-     "2026-05-07",
-     25.66
-    ],
-    [
-     "2026-05-08",
-     25.09
-    ],
-    [
-     "2026-05-09",
-     25.66
-    ],
-    [
-     "2026-05-10",
-     25.66
-    ],
-    [
-     "2026-05-11",
-     25.66
-    ],
-    [
-     "2026-05-12",
-     25.66
-    ],
-    [
-     "2026-05-13",
-     25.66
-    ],
-    [
-     "2026-05-14",
-     25.39
-    ],
-    [
-     "2026-05-15",
-     25.42
-    ],
-    [
-     "2026-05-16",
-     25.42
-    ],
-    [
-     "2026-05-17",
-     25.42
-    ],
-    [
-     "2026-05-18",
-     25.42
-    ],
-    [
-     "2026-05-19",
-     25.42
-    ],
-    [
-     "2026-05-20",
-     25.42
-    ],
-    [
-     "2026-05-21",
-     25.35
-    ],
-    [
-     "2026-05-22",
-     25.35
-    ],
-    [
-     "2026-05-23",
-     25.35
-    ],
-    [
-     "2026-05-24",
-     25.35
-    ],
-    [
-     "2026-05-25",
-     25.35
-    ],
-    [
-     "2026-05-26",
-     25.15
-    ],
-    [
-     "2026-05-27",
-     25.15
-    ],
-    [
-     "2026-05-28",
-     25.15
-    ],
-    [
-     "2026-05-29",
-     25.15
-    ],
-    [
-     "2026-05-30",
-     25.15
-    ],
-    [
-     "2026-05-31",
-     25.15
-    ],
-    [
-     "2026-06-01",
-     25.15
-    ],
-    [
-     "2026-06-02",
-     25.14
-    ],
-    [
-     "2026-06-03",
-     25.14
-    ],
-    [
-     "2026-06-04",
-     25.14
-    ],
-    [
-     "2026-06-05",
-     25.14
-    ],
-    [
-     "2026-06-06",
-     25.14
-    ],
-    [
-     "2026-06-07",
-     25.14
-    ],
-    [
-     "2026-06-08",
-     25.14
-    ],
-    [
-     "2026-06-09",
-     25.14
-    ],
-    [
-     "2026-06-10",
-     25.14
-    ],
-    [
-     "2026-06-11",
-     25.14
-    ],
-    [
-     "2026-06-12",
-     25.14
-    ],
-    [
-     "2026-06-13",
-     25.14
-    ],
-    [
-     "2026-06-14",
-     25.14
-    ],
-    [
-     "2026-06-15",
-     25.48
-    ],
-    [
-     "2026-06-16",
-     25.48
-    ],
-    [
-     "2026-06-17",
-     25.89
-    ],
-    [
-     "2026-06-18",
-     25.89
-    ],
-    [
-     "2026-06-19",
-     25.89
-    ],
-    [
-     "2026-06-20",
-     26.06
-    ],
-    [
-     "2026-06-21",
-     26.06
-    ],
-    [
-     "2026-06-22",
-     26.03
-    ],
-    [
-     "2026-06-23",
-     26.03
-    ],
-    [
-     "2026-06-24",
-     25.95
-    ],
-    [
-     "2026-06-25",
-     25.95
-    ],
-    [
-     "2026-06-26",
-     25.95
-    ],
-    [
-     "2026-06-27",
-     25.95
-    ],
-    [
-     "2026-06-28",
-     25.94
-    ],
-    [
-     "2026-06-29",
-     25.94
-    ],
-    [
-     "2026-06-30",
-     26.14
-    ],
-    [
-     "2026-07-01",
-     26.14
-    ],
-    [
-     "2026-07-02",
-     26.14
-    ],
-    [
-     "2026-07-03",
-     26.14
-    ],
-    [
-     "2026-07-04",
-     26.14
-    ],
-    [
-     "2026-07-05",
-     26.14
-    ],
-    [
-     "2026-07-06",
-     26.14
-    ],
-    [
-     "2026-07-07",
-     25.6
-    ],
-    [
-     "2026-07-08",
-     25.37
-    ],
-    [
-     "2026-07-09",
-     25.37
-    ],
-    [
-     "2026-07-10",
-     25.19
-    ],
-    [
-     "2026-07-11",
-     25.19
-    ],
-    [
-     "2026-07-12",
-     25.19
-    ],
-    [
-     "2026-07-13",
-     25.19
-    ],
-    [
-     "2026-07-14",
-     25.19
-    ],
-    [
-     "2026-07-15",
-     25.19
-    ],
-    [
-     "2026-07-16",
-     25.22
-    ],
-    [
-     "2026-07-17",
-     25.22
-    ],
-    [
-     "2026-07-18",
-     25.22
-    ],
-    [
-     "2026-07-19",
-     25.22
-    ],
-    [
-     "2026-07-20",
-     24.85
-    ],
-    [
-     "2026-07-21",
-     24.48
-    ],
-    [
-     "2026-07-22",
-     24.48
-    ],
-    [
-     "2026-07-23",
-     24.11
-    ],
-    [
-     "2026-07-24",
-     24.11
-    ],
-    [
-     "2026-07-25",
-     23.74
-    ],
-    [
-     "2026-07-26",
-     23.74
-    ],
-    [
-     "2026-07-27",
-     23.74
-    ],
-    [
-     "2026-07-28",
-     23.74
-    ],
-    [
-     "2026-07-29",
-     23.54
-    ],
-    [
-     "2026-07-30",
-     23.14
-    ],
-    [
-     "2026-07-31",
-     23.14
-    ],
-    [
-     "2026-08-01",
-     23.14
-    ],
-    [
-     "2026-08-02",
-     23.14
-    ],
-    [
-     "2026-08-03",
-     23.14
-    ],
-    [
-     "2026-08-04",
-     23.14
-    ],
-    [
-     "2026-08-05",
-     23.8
-    ],
-    [
-     "2026-08-06",
-     23.8
-    ],
-    [
-     "2026-08-07",
-     23.8
-    ],
-    [
-     "2026-08-08",
-     23.8
-    ],
-    [
-     "2026-08-09",
-     23.8
-    ],
-    [
-     "2026-08-10",
-     23.8
-    ],
-    [
-     "2026-08-11",
-     23.8
-    ],
-    [
-     "2026-08-12",
-     23.8
-    ],
-    [
-     "2026-08-13",
-     23.28
-    ],
-    [
-     "2026-08-14",
-     23.28
-    ],
-    [
-     "2026-08-15",
-     23.28
-    ],
-    [
-     "2026-08-16",
-     23.12
-    ],
-    [
-     "2026-08-17",
-     23.12
-    ],
-    [
-     "2026-08-18",
-     23.12
-    ],
-    [
-     "2026-08-19",
-     23.12
-    ],
-    [
-     "2026-08-20",
-     23.12
-    ],
-    [
-     "2026-08-21",
-     23.12
-    ],
-    [
-     "2026-08-22",
-     22.76
-    ],
-    [
-     "2026-08-23",
-     22.76
-    ],
-    [
-     "2026-08-24",
-     22.52
-    ],
-    [
-     "2026-08-25",
-     22.52
-    ],
-    [
-     "2026-08-26",
-     22.52
-    ],
-    [
-     "2026-08-27",
-     23.19
-    ],
-    [
-     "2026-08-28",
-     23.19
-    ],
-    [
-     "2026-08-29",
-     23.19
-    ],
-    [
-     "2026-08-30",
-     23.19
-    ],
-    [
-     "2026-08-31",
-     23.19
-    ],
-    [
-     "2026-09-01",
-     23.19
-    ],
-    [
-     "2026-09-02",
-     23.19
-    ],
-    [
-     "2026-09-03",
-     23.15
-    ],
-    [
-     "2026-09-04",
-     23.15
-    ],
-    [
-     "2026-09-05",
-     23.15
-    ],
-    [
-     "2026-09-06",
-     23.15
-    ],
-    [
-     "2026-09-07",
-     23.54
-    ],
-    [
-     "2026-09-08",
-     23.54
-    ],
-    [
-     "2026-09-09",
-     23.54
-    ],
-    [
-     "2026-09-10",
-     23.54
-    ],
-    [
-     "2026-09-11",
-     23.54
-    ],
-    [
-     "2026-09-12",
-     23.54
-    ],
-    [
-     "2026-09-13",
-     23.54
-    ],
-    [
-     "2026-09-14",
-     23.39
-    ],
-    [
-     "2026-09-15",
-     23.3
-    ],
-    [
-     "2026-09-16",
-     23.3
-    ],
-    [
-     "2026-09-17",
-     23.3
-    ],
-    [
-     "2026-09-18",
-     23.3
-    ],
-    [
-     "2026-09-19",
-     23.3
-    ],
-    [
-     "2026-09-20",
-     23.3
-    ],
-    [
-     "2026-09-21",
-     23.3
-    ],
-    [
-     "2026-09-22",
-     23.3
-    ],
-    [
-     "2026-09-23",
-     23.3
-    ],
-    [
-     "2026-09-24",
-     23.3
-    ],
-    [
-     "2026-09-25",
-     23.23
-    ],
-    [
-     "2026-09-26",
-     23.23
-    ],
-    [
-     "2026-09-27",
-     23.23
-    ],
-    [
-     "2026-09-28",
-     23.23
-    ],
-    [
-     "2026-09-29",
-     23.23
-    ],
-    [
-     "2026-09-30",
-     23.23
-    ],
-    [
-     "2026-10-01",
-     23.23
-    ],
-    [
-     "2026-10-02",
-     23.23
-    ],
-    [
-     "2026-10-03",
-     23.23
-    ],
-    [
-     "2026-10-04",
-     23.23
-    ],
-    [
-     "2026-10-05",
-     23.23
-    ],
-    [
-     "2026-10-06",
-     22.83
-    ],
-    [
-     "2026-10-07",
-     22.83
-    ],
-    [
-     "2026-10-08",
-     22.83
-    ],
-    [
-     "2026-10-09",
-     22.83
-    ],
-    [
-     "2026-10-10",
-     22.83
-    ],
-    [
-     "2026-10-11",
-     22.99
-    ],
-    [
-     "2026-10-12",
-     22.99
-    ],
-    [
-     "2026-10-13",
-     22.99
-    ],
-    [
-     "2026-10-14",
-     22.99
-    ],
-    [
-     "2026-10-15",
-     22.99
-    ],
-    [
-     "2026-10-16",
-     22.99
-    ],
-    [
-     "2026-10-17",
-     22.99
-    ],
-    [
-     "2026-10-18",
-     22.99
-    ],
-    [
-     "2026-10-19",
-     22.99
-    ],
-    [
-     "2026-10-20",
-     23.19
-    ],
-    [
-     "2026-10-21",
-     23.19
-    ],
-    [
-     "2026-10-22",
-     23.35
-    ],
-    [
-     "2026-10-23",
-     23.35
-    ],
-    [
-     "2026-10-24",
-     23.51
-    ],
-    [
-     "2026-10-25",
-     23.51
-    ],
-    [
-     "2026-10-26",
-     23.51
     ],
     [
-     "2026-10-27",
-     23.51
+     "2026-10-28",
+     13.04
     ]
    ],
    "problem": null
@@ -85751,7 +84672,7 @@
    "productId": 125735,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -86317,7 +85238,7 @@
    "productId": 169950,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 9.93,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -87059,6 +85980,10 @@
     [
      "2026-10-27",
      9.93
+    ],
+    [
+     "2026-10-28",
+     9.93
     ]
    ],
    "problem": null
@@ -87082,7 +86007,7 @@
    "productId": 125734,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -87764,7 +86689,7 @@
    "productId": 131863,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 15.08,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -88506,6 +87431,10 @@
     [
      "2026-10-27",
      15.08
+    ],
+    [
+     "2026-10-28",
+     15.08
     ]
    ],
    "problem": null
@@ -88529,7 +87458,7 @@
    "productId": 693146,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -88538,7 +87467,7 @@
    "productId": 153074,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -88698,7 +87627,7 @@
    "productId": 131869,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 28.65,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -89364,6 +88293,10 @@
     [
      "2026-10-27",
      28.65
+    ],
+    [
+     "2026-10-28",
+     28.65
     ]
    ],
    "problem": null
@@ -89387,7 +88320,7 @@
    "productId": 131865,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -89693,7 +88626,7 @@
    "productId": 131866,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 4.23,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -90435,6 +89368,10 @@
     [
      "2026-10-27",
      4.23
+    ],
+    [
+     "2026-10-28",
+     4.23
     ]
    ],
    "problem": null
@@ -90458,7 +89395,7 @@
    "productId": 131867,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -90628,7 +89565,7 @@
    "productId": 131868,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 7.55,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -91318,6 +90255,10 @@
     [
      "2026-10-27",
      7.55
+    ],
+    [
+     "2026-10-28",
+     7.55
     ]
    ],
    "problem": null
@@ -91341,7 +90282,7 @@
    "productId": 129896,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -91349,8 +90290,8 @@
   "card": {
    "productId": 169947,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 8.87,
-   "date": "2026-10-27",
+   "market": 8.88,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -92092,6 +91033,10 @@
     [
      "2026-10-27",
      8.87
+    ],
+    [
+     "2026-10-28",
+     8.88
     ]
    ],
    "problem": null
@@ -92115,7 +91060,7 @@
    "productId": 129897,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -92124,7 +91069,7 @@
    "productId": 169948,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 11.34,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -92866,6 +91811,10 @@
     [
      "2026-10-27",
      11.34
+    ],
+    [
+     "2026-10-28",
+     11.34
     ]
    ],
    "problem": null
@@ -92889,7 +91838,7 @@
    "productId": 131693,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -93183,7 +92132,7 @@
    "productId": 152939,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 17.6,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -93925,6 +92874,10 @@
     [
      "2026-10-27",
      17.6
+    ],
+    [
+     "2026-10-28",
+     17.6
     ]
    ],
    "problem": null
@@ -93948,7 +92901,7 @@
    "productId": 133808,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -94014,7 +92967,7 @@
    "productId": 152946,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 19.5,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -94756,6 +93709,10 @@
     [
      "2026-10-27",
      19.5
+    ],
+    [
+     "2026-10-28",
+     19.5
     ]
    ],
    "problem": null
@@ -94779,7 +93736,7 @@
    "productId": 133806,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -94788,7 +93745,7 @@
    "productId": 152933,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 4.71,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -95530,6 +94487,10 @@
     [
      "2026-10-27",
      4.71
+    ],
+    [
+     "2026-10-28",
+     4.71
     ]
    ],
    "problem": null
@@ -95553,7 +94514,7 @@
    "productId": 133807,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -95623,7 +94584,7 @@
    "productId": 169945,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 12.36,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -96365,6 +95326,10 @@
     [
      "2026-10-27",
      12.36
+    ],
+    [
+     "2026-10-28",
+     12.36
     ]
    ],
    "problem": null
@@ -96388,7 +95353,7 @@
    "productId": 133805,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -96594,7 +95559,7 @@
    "productId": 148409,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 10.21,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -97336,6 +96301,10 @@
     [
      "2026-10-27",
      10.21
+    ],
+    [
+     "2026-10-28",
+     10.21
     ]
    ],
    "problem": null
@@ -97359,7 +96328,7 @@
    "productId": 137872,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -97633,7 +96602,7 @@
    "productId": 169955,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 4.76,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -98303,6 +97272,10 @@
     [
      "2026-10-27",
      4.76
+    ],
+    [
+     "2026-10-28",
+     4.76
     ]
    ],
    "problem": null
@@ -98326,7 +97299,7 @@
    "productId": 141243,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -98856,7 +97829,7 @@
    "productId": 141631,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 6.01,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -99222,6 +98195,10 @@
     [
      "2026-10-27",
      6.01
+    ],
+    [
+     "2026-10-28",
+     6.01
     ]
    ],
    "problem": null
@@ -99245,7 +98222,7 @@
    "productId": 153454,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -99555,7 +98532,7 @@
    "productId": 153453,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 9.99,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -99913,6 +98890,10 @@
     [
      "2026-10-27",
      9.99
+    ],
+    [
+     "2026-10-28",
+     9.99
     ]
    ],
    "problem": null
@@ -99936,7 +98917,7 @@
    "productId": 148154,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -99945,7 +98926,7 @@
    "productId": 148152,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 24.38,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -100687,6 +99668,10 @@
     [
      "2026-10-27",
      24.38
+    ],
+    [
+     "2026-10-28",
+     24.38
     ]
    ],
    "problem": null
@@ -100710,7 +99695,7 @@
    "productId": 209439,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -100892,7 +99877,7 @@
    "productId": 169944,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 20.22,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -101634,6 +100619,10 @@
     [
      "2026-10-27",
      20.22
+    ],
+    [
+     "2026-10-28",
+     20.22
     ]
    ],
    "problem": null
@@ -101668,7 +100657,7 @@
    "productId": 149387,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 6.96,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -102409,6 +101398,10 @@
     ],
     [
      "2026-10-27",
+     6.96
+    ],
+    [
+     "2026-10-28",
      6.96
     ]
    ],
@@ -102444,7 +101437,7 @@
    "productId": 149389,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 9.18,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -103185,6 +102178,10 @@
     ],
     [
      "2026-10-27",
+     9.18
+    ],
+    [
+     "2026-10-28",
      9.18
     ]
    ],
@@ -103220,7 +102217,7 @@
    "productId": 149388,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 5.12,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -103962,6 +102959,10 @@
     [
      "2026-10-27",
      5.12
+    ],
+    [
+     "2026-10-28",
+     5.12
     ]
    ],
    "problem": null
@@ -103996,7 +102997,7 @@
    "productId": 169949,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 3.76,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -104630,6 +103631,10 @@
     [
      "2026-10-27",
      3.76
+    ],
+    [
+     "2026-10-28",
+     3.76
     ]
    ],
    "problem": null
@@ -104653,7 +103658,7 @@
    "productId": 152598,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -104979,7 +103984,7 @@
    "productId": 152605,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 6.8,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -105709,6 +104714,10 @@
     [
      "2026-10-27",
      6.8
+    ],
+    [
+     "2026-10-28",
+     6.8
     ]
    ],
    "problem": null
@@ -105743,7 +104752,7 @@
    "productId": 211470,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 5.62,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -106309,6 +105318,10 @@
     [
      "2026-10-27",
      5.62
+    ],
+    [
+     "2026-10-28",
+     5.62
     ]
    ],
    "problem": null
@@ -106345,7 +105358,7 @@
    "productId": 211491,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": 38.0,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -106386,6 +105399,10 @@
     ],
     [
      "2026-10-27",
+     38.0
+    ],
+    [
+     "2026-10-28",
      38.0
     ]
    ],
@@ -106428,7 +105445,7 @@
    "productId": 169950,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId) - Mewtwo-EX Challenge Box: kept 169950 (XY183, same print as the 2016 box); 61/162 not sourced",
    "market": 9.93,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -107170,6 +106187,10 @@
     [
      "2026-10-27",
      9.93
+    ],
+    [
+     "2026-10-28",
+     9.93
     ]
    ],
    "problem": null
@@ -107206,7 +106227,7 @@
    "productId": 198772,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 39.05,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -107944,6 +106965,10 @@
     [
      "2026-10-27",
      39.05
+    ],
+    [
+     "2026-10-28",
+     39.05
     ]
    ],
    "problem": null
@@ -107969,7 +106994,7 @@
    "productId": 164314,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -108379,7 +107404,7 @@
    "productId": 191618,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 4.0,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -108989,6 +108014,10 @@
     [
      "2026-10-27",
      4.0
+    ],
+    [
+     "2026-10-28",
+     4.0
     ]
    ],
    "problem": null
@@ -109012,7 +108041,7 @@
    "productId": 179033,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -109090,7 +108119,7 @@
    "productId": 179036,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 15.0,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -109196,6 +108225,10 @@
     [
      "2026-10-27",
      15.0
+    ],
+    [
+     "2026-10-28",
+     15.0
     ]
    ],
    "problem": null
@@ -109230,7 +108263,7 @@
    "productId": 277679,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -109254,7 +108287,7 @@
    "productId": 246416,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -109263,7 +108296,7 @@
    "productId": 164235,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": 31.28,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -110001,6 +109034,10 @@
     [
      "2026-10-27",
      31.28
+    ],
+    [
+     "2026-10-28",
+     31.28
     ]
    ],
    "problem": null
@@ -110024,7 +109061,7 @@
    "productId": 155061,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -110033,7 +109070,7 @@
    "productId": 155600,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 11.55,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -110103,6 +109140,10 @@
     [
      "2026-10-27",
      11.55
+    ],
+    [
+     "2026-10-28",
+     11.55
     ]
    ],
    "problem": null
@@ -110126,7 +109167,7 @@
    "productId": 161256,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -110135,7 +109176,7 @@
    "productId": 162043,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 11.97,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -110849,6 +109890,10 @@
     [
      "2026-10-27",
      11.97
+    ],
+    [
+     "2026-10-28",
+     11.97
     ]
    ],
    "problem": null
@@ -110883,7 +109928,7 @@
    "productId": 169938,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 6.64,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -111621,6 +110666,10 @@
     [
      "2026-10-27",
      6.64
+    ],
+    [
+     "2026-10-28",
+     6.64
     ]
    ],
    "problem": null
@@ -111644,7 +110693,7 @@
    "productId": 164315,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -112002,7 +111051,7 @@
    "productId": 210765,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 4.32,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -112668,6 +111717,10 @@
     [
      "2026-10-27",
      4.32
+    ],
+    [
+     "2026-10-28",
+     4.32
     ]
    ],
    "problem": null
@@ -112702,7 +111755,7 @@
    "productId": 174495,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 16.07,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -113012,6 +112065,10 @@
     [
      "2026-10-27",
      16.07
+    ],
+    [
+     "2026-10-28",
+     16.07
     ]
    ],
    "problem": null
@@ -113035,7 +112092,7 @@
    "productId": 169414,
    "basis": "exact-name",
    "market": 265.0,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -113421,6 +112478,10 @@
     [
      "2026-10-27",
      265.0
+    ],
+    [
+     "2026-10-28",
+     265.0
     ]
    ],
    "problem": null
@@ -113466,7 +112527,7 @@
    "productId": 170121,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": 27.21,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -113735,6 +112796,10 @@
     ],
     [
      "2026-10-27",
+     27.21
+    ],
+    [
+     "2026-10-28",
      27.21
     ]
    ],
@@ -113772,7 +112837,7 @@
    "productId": 170121,
    "basis": "researched by Gaz 2026-10-17 (jumbo_new_ids.json) - TCGplayer product id from the listed page",
    "market": 27.21,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -114042,6 +113107,10 @@
     [
      "2026-10-27",
      27.21
+    ],
+    [
+     "2026-10-28",
+     27.21
     ]
    ],
    "problem": null
@@ -114067,7 +113136,7 @@
    "productId": 230425,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -114213,7 +113282,7 @@
    "productId": 599671,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -114237,7 +113306,7 @@
    "productId": 209655,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -114443,7 +113512,7 @@
    "productId": 169945,
    "basis": "likely print: user-supplied 2026-10-17, not fully confirmed",
    "market": 12.36,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -115185,6 +114254,10 @@
     [
      "2026-10-27",
      12.36
+    ],
+    [
+     "2026-10-28",
+     12.36
     ]
    ],
    "problem": null
@@ -115208,7 +114281,7 @@
    "productId": 656924,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -115466,7 +114539,7 @@
    "productId": 707231,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -115490,7 +114563,7 @@
    "productId": 175558,
    "basis": "exact-name",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -115499,7 +114572,7 @@
    "productId": 177901,
    "basis": "likely print: user-supplied 2026-10-17, not fully confirmed",
    "market": 19.92,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -116261,6 +115334,10 @@
     [
      "2026-10-27",
      19.92
+    ],
+    [
+     "2026-10-28",
+     19.92
     ]
    ],
    "problem": null
@@ -116295,7 +115372,7 @@
    "productId": 211485,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -116330,7 +115407,7 @@
    "productId": 179036,
    "basis": "user-confirmed 2026-10-17 (jumbo row id -> TCGplayer Jumbo Cards productId)",
    "market": 15.0,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -116436,6 +115513,10 @@
     [
      "2026-10-27",
      15.0
+    ],
+    [
+     "2026-10-28",
+     15.0
     ]
    ],
    "problem": null
@@ -116472,7 +115553,7 @@
    "productId": 191605,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 5.9,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -117082,6 +116163,10 @@
     [
      "2026-10-27",
      5.9
+    ],
+    [
+     "2026-10-28",
+     5.9
     ]
    ],
    "problem": null
@@ -117116,7 +116201,7 @@
    "productId": 211496,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 18.21,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -117822,6 +116907,10 @@
     [
      "2026-10-27",
      18.21
+    ],
+    [
+     "2026-10-28",
+     18.21
     ]
    ],
    "problem": null
@@ -117856,7 +116945,7 @@
    "productId": 191353,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 6.49,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -118594,6 +117683,10 @@
     [
      "2026-10-27",
      6.49
+    ],
+    [
+     "2026-10-28",
+     6.49
     ]
    ],
    "problem": null
@@ -118628,7 +117721,7 @@
    "productId": 707206,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -118663,7 +117756,7 @@
    "productId": 707205,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -119230,7 +118323,7 @@
    "productId": 179368,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 9.0,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -119968,6 +119061,10 @@
     [
      "2026-10-27",
      9.0
+    ],
+    [
+     "2026-10-28",
+     9.0
     ]
    ],
    "problem": null
@@ -120326,7 +119423,7 @@
    "productId": 264312,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -121804,7 +120901,7 @@
    "productId": 169944,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 20.22,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -122546,6 +121643,10 @@
     [
      "2026-10-27",
      20.22
+    ],
+    [
+     "2026-10-28",
+     20.22
     ]
    ],
    "problem": null
@@ -122692,7 +121793,7 @@
    "productId": 191625,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 17.1,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -123454,6 +122555,10 @@
     [
      "2026-10-27",
      17.1
+    ],
+    [
+     "2026-10-28",
+     17.1
     ]
    ],
    "problem": null
@@ -123890,12 +122995,12 @@
      "productId": 618764,
      "name": "Blastoise ex - 009/165",
      "number": "009/165",
-     "market": 2.64
+     "market": 2.6
     }
    ],
    "candidateRange": [
-    2.64,
-    2.64
+    2.6,
+    2.6
    ],
    "problem": "ambiguous: 2 candidates"
   },
@@ -124118,7 +123223,7 @@
    "productId": 169944,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 20.22,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -124860,6 +123965,10 @@
     [
      "2026-10-27",
      20.22
+    ],
+    [
+     "2026-10-28",
+     20.22
     ]
    ],
    "problem": null
@@ -124894,7 +124003,7 @@
    "productId": 191618,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 4.0,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -125504,6 +124613,10 @@
     [
      "2026-10-27",
      4.0
+    ],
+    [
+     "2026-10-28",
+     4.0
     ]
    ],
    "problem": null
@@ -125538,7 +124651,7 @@
    "productId": 210765,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 4.32,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -126204,6 +125317,10 @@
     [
      "2026-10-27",
      4.32
+    ],
+    [
+     "2026-10-28",
+     4.32
     ]
    ],
    "problem": null
@@ -126238,7 +125355,7 @@
    "productId": 169938,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 6.64,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -126976,6 +126093,10 @@
     [
      "2026-10-27",
      6.64
+    ],
+    [
+     "2026-10-28",
+     6.64
     ]
    ],
    "problem": null
@@ -127164,7 +126285,7 @@
    "productId": 191625,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 17.1,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -127926,6 +127047,10 @@
     [
      "2026-10-27",
      17.1
+    ],
+    [
+     "2026-10-28",
+     17.1
     ]
    ],
    "problem": null
@@ -128503,7 +127628,7 @@
    "productId": 270713,
    "basis": "exact-name",
    "market": 87.56,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -129265,6 +128390,10 @@
     [
      "2026-10-27",
      87.56
+    ],
+    [
+     "2026-10-28",
+     87.56
     ]
    ],
    "problem": null
@@ -129299,7 +128428,7 @@
    "productId": 270715,
    "basis": "exact-name",
    "market": 95.47,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -130061,6 +129190,10 @@
     [
      "2026-10-27",
      95.47
+    ],
+    [
+     "2026-10-28",
+     95.47
     ]
    ],
    "problem": null
@@ -130114,7 +129247,7 @@
      "productId": 232443,
      "name": "Pikachu V - SWSH061",
      "number": "SWSH061",
-     "market": 3.54
+     "market": 3.58
     },
     {
      "productId": 260712,
@@ -130249,7 +129382,7 @@
    "productId": 270714,
    "basis": "exact-name",
    "market": 136.0,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -131011,6 +130144,10 @@
     [
      "2026-10-27",
      136.0
+    ],
+    [
+     "2026-10-28",
+     136.0
     ]
    ],
    "problem": null
@@ -131115,8 +130252,8 @@
   "card": {
    "productId": 203916,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 4.45,
-   "date": "2026-10-27",
+   "market": 4.36,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -131854,6 +130991,10 @@
     [
      "2026-10-27",
      4.45
+    ],
+    [
+     "2026-10-28",
+     4.36
     ]
    ],
    "problem": null
@@ -131888,7 +131029,7 @@
    "productId": 475654,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 4.1,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -132626,6 +131767,10 @@
     [
      "2026-10-27",
      4.1
+    ],
+    [
+     "2026-10-28",
+     4.1
     ]
    ],
    "problem": null
@@ -132660,7 +131805,7 @@
    "productId": 537979,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 3.58,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -133394,6 +132539,10 @@
     [
      "2026-10-27",
      3.58
+    ],
+    [
+     "2026-10-28",
+     3.58
     ]
    ],
    "problem": null
@@ -133428,7 +132577,7 @@
    "productId": 475655,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 6.23,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -134162,6 +133311,10 @@
     [
      "2026-10-27",
      6.23
+    ],
+    [
+     "2026-10-28",
+     6.23
     ]
    ],
    "problem": null
@@ -134196,7 +133349,7 @@
    "productId": 537977,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 2.19,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -134930,6 +134083,10 @@
     [
      "2026-10-27",
      2.19
+    ],
+    [
+     "2026-10-28",
+     2.19
     ]
    ],
    "problem": null
@@ -134964,7 +134121,7 @@
    "productId": 537976,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 1.95,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -135698,6 +134855,10 @@
     [
      "2026-10-27",
      1.95
+    ],
+    [
+     "2026-10-28",
+     1.95
     ]
    ],
    "problem": null
@@ -135720,8 +134881,8 @@
   "sealed": {
    "productId": 502006,
    "basis": "exact-name",
-   "market": 114.53,
-   "date": "2026-10-27",
+   "market": 114.54,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -136483,6 +135644,10 @@
     [
      "2026-10-27",
      114.53
+    ],
+    [
+     "2026-10-28",
+     114.54
     ]
    ],
    "problem": null
@@ -136649,8 +135814,8 @@
   "card": {
    "productId": 666593,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 1.91,
-   "date": "2026-10-27",
+   "market": 1.9,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -137400,6 +136565,10 @@
     [
      "2026-10-27",
      1.91
+    ],
+    [
+     "2026-10-28",
+     1.9
     ]
    ],
    "problem": null
@@ -137477,8 +136646,8 @@
   "card": {
    "productId": 713269,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
-   "market": 2.53,
-   "date": "2026-10-27",
+   "market": 2.41,
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -137648,6 +136817,10 @@
     [
      "2026-10-27",
      2.53
+    ],
+    [
+     "2026-10-28",
+     2.41
     ]
    ],
    "problem": null
@@ -137682,7 +136855,7 @@
    "productId": 131868,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 7.55,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -138372,6 +137545,10 @@
     [
      "2026-10-27",
      7.55
+    ],
+    [
+     "2026-10-28",
+     7.55
     ]
    ],
    "problem": null
@@ -138406,7 +137583,7 @@
    "productId": 594779,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": null,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [],
    "problem": "listing found but no priced row"
@@ -138541,7 +137718,7 @@
    "productId": 179368,
    "basis": "unique-name-in-Jumbo-Cards (confirm print)",
    "market": 9.0,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
    "history": [
     [
@@ -139278,6 +138455,10 @@
     ],
     [
      "2026-10-27",
+     9.0
+    ],
+    [
+     "2026-10-28",
      9.0
     ]
    ],
