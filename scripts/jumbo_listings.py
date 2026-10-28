@@ -4,7 +4,7 @@ Input jumbo_watch_queries.json {generated, rule, entries:[...]}; entry fields us
 Search term = orig if set else title (+ 'pokemon' for title searches); a listing must match the title or orig. Marketplaces by language: English US/GB/CA/AU; French FR/DE/IT/ES; Korean/Japanese/Portuguese/other: all 8.
 Buy It Now + auctions, ships to US, same credentials/route as bk_booklets.py / scan_ebay_jumbo.py.
 Quota guard: each run takes the least-recently-swept entries until MAX_CALLS is used, stops at the first eBay 429 (so a full sweep may take several days when the API quota is tight).
-all-in = (item or current bid + shipping) x 1.10. Listings are unverified asks/bids, not sold prices."""
+all-in = item or current bid + shipping (no sales tax). Listings are unverified asks/bids, not sold prices."""
 import json, os, re, sys, time, base64, datetime, urllib.request, urllib.parse, urllib.error
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CID, CSEC = os.environ.get("EBAY_CLIENT_ID"), os.environ.get("EBAY_CLIENT_SECRET")
@@ -13,7 +13,7 @@ ALL = ["EBAY_US", "EBAY_GB", "EBAY_DE", "EBAY_ES", "EBAY_IT", "EBAY_FR", "EBAY_C
 BY_LANG = {"english": ["EBAY_US", "EBAY_GB", "EBAY_CA", "EBAY_AU"], "french": ["EBAY_FR", "EBAY_DE", "EBAY_IT", "EBAY_ES"]}
 MARKETS = ALL
 def markets_for(lang): return BY_LANG.get((lang or "english").lower().split(";")[0].strip(), ALL)
-TAX, NOW = 1.10, datetime.datetime.utcnow()
+TAX, NOW = 1.00, datetime.datetime.utcnow()
 TODAY = NOW.strftime("%Y-%m-%d")
 SHIP_TO = {"X-EBAY-C-ENDUSERCTX": "contextualLocation=country=US,zip=91505"}
 NOISE = re.compile(r"\bempty\b|\bopened\b|\bopen box\b|box only|no cards?\b|cards? only|code cards?|\bpacks? only\b|\bempty pack|wrapper|\bproxy\b|\bcustom\b|\breprint\b|replica|fan ?art|\blots?\b|\bbundle\b|\bpsa\b|\bcgc\b|\bbgs\b|\bgraded\b|\bslab\b|\bfake\b|\bplush\b|\bdigital\b|damaged|\bdmg\b|\bcases?\b|\bacrylic\b|\bprotectors?\b|\bsleeves?\b|\bbinders?\b|\bstands?\b|display case|\btop ?loaders?\b|\bmagnetic\b", re.I)
@@ -174,7 +174,7 @@ def main():
     changed = {r["itemId"]: (r["allIn"], r["bids"]) for r in listings} != {r["itemId"]: (r["allIn"], r.get("bids")) for r in old.get("listings", [])}
     if changed or not old.get("generated") or (old.get("fx") or {}).get("source") != FXINFO.get("source") or (old.get("fx") or {}).get("date") != FXINFO.get("date"):
         json.dump({"generated": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"), "fx": {"date": FXINFO.get("date"), "source": FXINFO.get("source"), "rates": FXINFO.get("rates"), "estimated": FXINFO.get("estimated")}, "listings": listings, "underTarget": sum(1 for r in listings if r["underTarget"]), "discovery": sum(1 for r in listings if r.get("discovery")),
-                   "note": "eBay asks / current bids, unverified; all-in = (price or current bid + shipping) x 1.10; underTarget compares all-in with the entry's targetAllIn"}, open(os.path.join(ROOT, "jumbo_listings.json"), "w"), indent=1)
+                   "note": "eBay asks / current bids, unverified; all-in = price or current bid + shipping; underTarget compares all-in with the entry's targetAllIn"}, open(os.path.join(ROOT, "jumbo_listings.json"), "w"), indent=1)
     ids = {e["id"] for e in ents}; cutoff = (NOW - datetime.timedelta(days=14)).strftime("%Y-%m-%d")
     nohit = [i for i in ids if (st.get(i, {}).get("lastHit") or "") < cutoff and (st.get(i, {}).get("lastChecked"))]
     never = [i for i in ids if not st.get(i, {}).get("lastChecked")]

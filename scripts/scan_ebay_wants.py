@@ -9,7 +9,7 @@ import json, os, re, sys, time, base64, datetime, html, urllib.request, urllib.p
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CID, CSEC = os.environ.get("EBAY_CLIENT_ID"), os.environ.get("EBAY_CLIENT_SECRET")
 UA = "sealed-ledger-wants-scout/1.0"
-TAX = 1.10
+TAX = 1.00          # Gaz pays no sales tax on most purchases (Oct 28); taxed buys are logged with taxRate
 MIN_FB, MIN_PCT = 50, 97.0
 MAX_LOT_DETAIL = 60
 NOISE = re.compile(r"\bpsa\b|\bcgc\b|\bbgs\b|\bgraded\b|\bslab\b|\breprint\b|\bcustom\b|\bproxy\b|\bfake\b|\bplush\b|"

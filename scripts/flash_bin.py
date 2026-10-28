@@ -5,7 +5,7 @@ priced at or under Gaz's target, so a momentary dip is not missed between daily 
 Scope: want-list rows (wants_auto.json) with a target of $10+; sealed product must be
 eBay condition New with no opened/resealed wording; raw cards must be Ungraded with the
 seller stating Near Mint or better. US sellers only, shipping known, seller 97%+ / 50+.
-All-in = (price + shipping) x 1.10 (LA tax) must be at or under target.
+All-in = price + shipping (no sales tax) must be at or under target.
 Only SEALED hits raise a GitHub alert; card hits wait for the morning photo check.
 
 Output: flash.json (hits from the last 7 days, newest first) and, for NEW hits, one GitHub
@@ -20,7 +20,7 @@ from scan_ebay_wants import (NOISE, UNGRADED, get, has_num, nm_check, parse, pri
 from scan_ebay_sealed import BAD_WORDS, NEW_CONDITION  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TAX = 1.10
+TAX = 1.00          # Gaz pays no sales tax on most purchases (Oct 28); taxed buys are logged with taxRate
 MIN_TARGET = 10
 KEEP_DAYS = 7
 NOW = datetime.datetime.now(datetime.timezone.utc)

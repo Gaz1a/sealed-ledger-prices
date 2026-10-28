@@ -83,7 +83,7 @@ for f in glob.glob(D+'/recs/*.json'):
     for k in H:
         x=fo.get(f'd{k}') or {}
         cands=[v for v in (x.get('low'),x.get('ebayLow')) if isinstance(v,(int,float)) and v>0]
-        if cands: row[f'r{k}']=min(cands)*1.10/p0   # cheapest listing then, landed, vs what we flagged
+        if cands: row[f'r{k}']=min(cands)/p0   # cheapest listing then, landed, vs what we flagged
     flags.append(row)
 print('\nLIVE FLAGS with follow-ups:',len(flags))
 for seg in sorted({x['seg'] for x in flags}):

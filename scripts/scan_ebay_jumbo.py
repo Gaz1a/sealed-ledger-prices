@@ -10,7 +10,7 @@ import json, os, re, sys, time, base64, datetime, urllib.request, urllib.parse, 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CID, CSEC = os.environ.get("EBAY_CLIENT_ID"), os.environ.get("EBAY_CLIENT_SECRET")
 MAX_Q = int(os.environ.get("MAX_Q", "120"))
-TAX = 1.10          # same all-in convention as scan_ebay_wants.py (price + shipping, x1.10 sales-tax estimate)
+TAX = 1.00          # Gaz pays no sales tax on most purchases (Oct 28); taxed buys are logged with taxRate
 MIN_MARKET, MIN_FB, MIN_PCT = 5.0, 50, 97.0
 NOISE = re.compile(r"\bpsa\b|\bcgc\b|\bbgs\b|\bgraded\b|\bslab\b|\breprint\b|\bcustom\b|\bproxy\b|\bfake\b|\bplush\b|\bfunko\b|\bsticker\b|\bdigital\b|\bcode card\b|\bdamaged\b|\bempty\b|box only|no cards|\bopened\b|\bheavily played\b|\bdmg\b|\bcreased?\b|\blots?\b|\bbundle\b", re.I)
 def ld(n, d):
@@ -104,7 +104,7 @@ for jid in list(out["items"]):
     if not any(k not in ("title", "lang") for k in out["items"][jid]): out.pop("items", {}).pop(jid, None) if False else out["items"].pop(jid)
 out.update({"generated": datetime.date.today().isoformat(), "eligibleQueries": len(elig), "queriedThisRun": done, "maxPerRun": MAX_Q, "skipped": skipped,
             "rateLimited": RL["hit"], "note": "eBay 429: run stopped early, remaining queries rotate to next run" if RL["hit"] else None,
-            "rules": "sealed -> box name; card -> name + jumbo + number; skip no id / market < $5; target 85% ($100-299), 90% ($5-99), 80% ($300+) of ledger jumbo market; all-in = (price or current bid + shipping) x1.10"})
+            "rules": "sealed -> box name; card -> name + jumbo + number; skip no id / market < $5; target 85% ($100-299), 90% ($5-99), 80% ($300+) of ledger jumbo market; all-in = price or current bid + shipping"})
 json.dump(out, open(os.path.join(ROOT, "ebay_jumbo.json"), "w"), indent=1)
 # mirror an under-target / near-miss summary into the want-list and auction outputs (keyed by jumbo id)
 flat = [{"jumboId": jid, "kind": k, "title": h["title"], "url": h["url"], "allIn": h["allIn"], "target": d["targetUSD"], "underTarget": h["underTarget"], "auction": h["auction"], "bids": h["bids"], "itemEndDate": h["itemEndDate"]}

@@ -6,7 +6,7 @@ booklet_hits.json listings and flash.json hits; only those at or near target (or
 Output verified.json {generated, items: {legacy id: {live, ends, format, price, currentBid, bids, ship, shipKnown,
 shipType, currency, seller, feedbackPct, feedbackScore, returns, condition, country, photos, title, url,
 target, landed (est. all-in at the current price), snipe (auctions: highest bid that stays at or under target), src}}}.
-Landed: US seller (price + ship) x 1.10 (LA tax); foreign price x 1.15 + ship + $12."""
+Landed: US seller price + ship (Gaz pays no sales tax); foreign price x 1.15 + ship + $12 (duty estimate)."""
 import datetime, json, os, re, sys, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from scan_ebay_wants import get, token  # noqa: E402
@@ -111,10 +111,10 @@ def check(i, c, H):
          "target": c["target"], "src": c["src"], "ref": c["ref"]}
     if price is not None and ship is not None:
         us = country == "US"
-        r["landed"] = round((price + ship) * 1.10, 2) if us else round(price * 1.15 + ship + 12, 2)
+        r["landed"] = round(price + ship, 2) if us else round(price * 1.15 + ship + 12, 2)
         t = c["target"]
         if auction and t:
-            s = (t / 1.10 - ship) if us else (t - ship - 12) / 1.15
+            s = (t - ship) if us else (t - ship - 12) / 1.15
             r["snipe"] = round(int(s * 100) / 100, 2) if s > 0 else None
             r["snipeOk"] = bool(r["snipe"] and r["snipe"] >= price + 1)
         if t:
