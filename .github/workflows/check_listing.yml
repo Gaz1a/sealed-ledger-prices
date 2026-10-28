@@ -6,7 +6,8 @@ on:
     types: [opened]
   workflow_dispatch:
     inputs:
-      url: { description: "eBay listing link", required: true }
+      url: { description: "eBay listing link", required: false }
+      seller: { description: "eBay seller username: check every listing in their store", required: false }
 permissions:
   contents: write
   issues: write
@@ -33,6 +34,7 @@ jobs:
       - run: python scripts/photo_check.py "$RUNNER_TEMP/one"
         env:
           CHECK_URL: ${{ steps.link.outputs.url || 'none' }}
+          CHECK_SELLER: ${{ github.event.inputs.seller }}
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
       - name: Save the sheet to the checks branch and reply
@@ -41,7 +43,13 @@ jobs:
           ISSUE: ${{ github.event.issue.number || '0' }}
         run: |
           git fetch -q origin checks && git worktree add -q "$RUNNER_TEMP/cb" origin/checks || { git worktree add -q --detach "$RUNNER_TEMP/cb"; (cd "$RUNNER_TEMP/cb" && git checkout -q --orphan checks && git rm -rqf .); }
-          python scripts/check_comment.py "$RUNNER_TEMP/one" "$RUNNER_TEMP/cb" "$ISSUE" > "$RUNNER_TEMP/comment.md"
+          if [ -n "${{ github.event.inputs.seller }}" ]; then
+            mkdir -p "$RUNNER_TEMP/cb/store/${{ github.event.inputs.seller }}"
+            cp -r "$RUNNER_TEMP/one/." "$RUNNER_TEMP/cb/store/${{ github.event.inputs.seller }}/"
+            echo "store check" > "$RUNNER_TEMP/comment.md"
+          else
+            python scripts/check_comment.py "$RUNNER_TEMP/one" "$RUNNER_TEMP/cb" "$ISSUE" > "$RUNNER_TEMP/comment.md"
+          fi
           cd "$RUNNER_TEMP/cb"
           git config user.name "price-bot"; git config user.email "price-bot@users.noreply.github.com"
           git add -A && git commit -qm "listing check #$ISSUE" && git push -q origin HEAD:checks

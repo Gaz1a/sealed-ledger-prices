@@ -109,6 +109,24 @@ def one_listing(link, H):
                           "seller": (d.get("seller") or {}).get("username"), "photos": [p for p in ph if p][:MAX_PHOTOS]}}
 
 
+def seller_listings(seller, H, cap=80):
+    """CHECK_SELLER mode: every live listing from one eBay seller (Browse API search filtered by seller)."""
+    out, off = {}, 0
+    while len(out) < cap:
+        q = ("https://api.ebay.com/buy/browse/v1/item_summary/search?q=pokemon&limit=200&offset=%d&filter=" % off
+             + urllib.parse.quote("sellers:{%s}" % seller))
+        d = get(q, H) or {}
+        for it in d.get("itemSummaries", []):
+            ph = [(it.get("image") or {}).get("imageUrl")] + [a.get("imageUrl") for a in (it.get("additionalImages") or [])]
+            out[it["itemId"]] = {"src": "seller", "wantId": None, "title": it.get("title"), "url": it.get("itemWebUrl"),
+                                 "price": (it.get("price") or {}).get("value"), "condition": it.get("condition"),
+                                 "seller": seller, "photos": [p for p in ph if p][:MAX_PHOTOS]}
+        if len(d.get("itemSummaries", [])) < 200:
+            break
+        off += 200
+    return dict(list(out.items())[:cap])
+
+
 def photos_for(iid, H):
     d = get("https://api.ebay.com/buy/browse/v1/item/" + urllib.parse.quote(iid, safe=""), H) or {}
     ph = [(d.get("image") or {}).get("imageUrl")] + [i.get("imageUrl") for i in (d.get("additionalImages") or [])]
@@ -281,7 +299,8 @@ def main():
     H_ = {"Authorization": "Bearer " + token(), "X-EBAY-C-MARKETPLACE-ID": "EBAY_US"}
     res = {}
     manual = os.environ.get("CHECK_URL")
-    cands = one_listing(manual, H_) if manual else candidates()
+    seller = os.environ.get("CHECK_SELLER")
+    cands = seller_listings(seller, H_) if seller else one_listing(manual, H_) if manual else candidates()
     if manual and not cands:
         json.dump({"generated": NOW.isoformat(timespec="minutes"), "error": "could not read that eBay listing (ended, private or not an eBay link)", "listings": {}},
                   open(os.path.join(OUT, "checks.json"), "w"), indent=1)
