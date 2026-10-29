@@ -84,6 +84,9 @@ def candidates():
     return dict(sorted(out.items(), key=lambda kv: kv[1]["prio"])[:MAX])
 
 
+LIVE_SELLERS = {x.lower() for x in load("data/live_sellers.json", [])}
+
+
 def check(i, c, H):
     d = get("https://api.ebay.com/buy/browse/v1/item/get_item_by_legacy_id?legacy_item_id=" + i, H, tries=2)
     if not d:
@@ -109,6 +112,10 @@ def check(i, c, H):
          "returns": (d.get("returnTerms") or {}).get("returnsAccepted"), "condition": d.get("condition"), "country": country,
          "photos": 1 + len(d.get("additionalImages") or []), "title": d.get("title"), "url": d.get("itemWebUrl"),
          "target": c["target"], "src": c["src"], "ref": c["ref"]}
+    if (r["seller"] or "").lower() in LIVE_SELLERS:
+        # eBay Live show seller: the API shows a normal Buy It Now, but the item is held for a scheduled live show
+        # (usually re-auctioned from $1), so it cannot be bought now.
+        r["ebayLive"] = True
     if price is not None and ship is not None:
         us = country == "US"
         r["landed"] = round(price + ship, 2) if us else round(price * 1.15 + ship + 12, 2)
