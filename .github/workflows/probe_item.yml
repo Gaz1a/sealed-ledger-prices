@@ -2,6 +2,7 @@ name: Probe eBay item (temporary)
 on:
   workflow_dispatch:
     inputs: { ids: { required: true } }
+permissions: { contents: write }
 jobs:
   p:
     runs-on: ubuntu-latest
@@ -9,8 +10,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: python scripts/probe_item.py
+      - run: python scripts/probe_item.py > probe_out.txt
         env:
           IDS: ${{ inputs.ids }}
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+      - run: |
+          git config user.name "price-bot"; git config user.email "price-bot@users.noreply.github.com"
+          git add -f probe_out.txt; git commit -qm "probe output"; git pull -q --rebase && git push -q
