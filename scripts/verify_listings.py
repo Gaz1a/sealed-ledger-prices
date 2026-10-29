@@ -114,8 +114,10 @@ def check(i, c, H):
          "target": c["target"], "src": c["src"], "ref": c["ref"]}
     if (r["seller"] or "").lower() in LIVE_SELLERS:
         # eBay Live show seller: the API shows a normal Buy It Now, but the item is held for a scheduled live show
-        # (usually re-auctioned from $1), so it cannot be bought now.
+        # (usually re-auctioned from $1). Gaz does not do eBay Live, so treat it as not live.
         r["ebayLive"] = True
+        r["live"] = False
+        r["note"] = "eBay Live show item (Gaz skips eBay Live)"
     if price is not None and ship is not None:
         us = country == "US"
         r["landed"] = round(price + ship, 2) if us else round(price * 1.15 + ship + 12, 2)

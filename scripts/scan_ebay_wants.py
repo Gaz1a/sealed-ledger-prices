@@ -74,8 +74,14 @@ def parse(title):
 def target(m):
     return m * (1.0 if m < 10 else .9 if m < 100 else .85 if m < 300 else .8)
 
+try:  # eBay Live show sellers: Gaz skips these (items are held for a live show, not buyable now)
+    LIVE_SELLERS = {x.lower() for x in json.load(open(os.path.join(ROOT, "data", "live_sellers.json")))}
+except Exception:
+    LIVE_SELLERS = set()
+
 def seller_ok(h):
     s = h.get("seller", {})
+    if (s.get("username") or "").lower() in LIVE_SELLERS: return False
     return (s.get("feedbackScore") or 0) >= MIN_FB and float(s.get("feedbackPercentage") or 0) >= MIN_PCT
 
 def price_of(h):
