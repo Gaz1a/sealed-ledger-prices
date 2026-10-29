@@ -1,0 +1,16 @@
+name: Probe eBay item (temporary)
+on:
+  workflow_dispatch:
+    inputs: { ids: { required: true } }
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/probe_item.py
+        env:
+          IDS: ${{ inputs.ids }}
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
