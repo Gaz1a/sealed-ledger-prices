@@ -5,5 +5,5 @@ H = {"Authorization": "Bearer " + token(), "X-EBAY-C-MARKETPLACE-ID": "EBAY_US",
      "X-EBAY-C-ENDUSERCTX": "contextualLocation=country%3DUS%2Czip%3D91505"}
 for i in os.environ["IDS"].split(","):
     d = get("https://api.ebay.com/buy/browse/v1/item/get_item_by_legacy_id?legacy_item_id=" + i, H, tries=2) or {}
-    for k in ("description", "image", "additionalImages", "localizedAspects", "product", "seller", "primaryProductReviewRating"): d.pop(k, None)
+    for k in ("description", "image", "additionalImages", "localizedAspects", "product", "seller", "primaryProductReviewRating", "shipToLocations", "shippingOptions", "itemLocation"): d.pop(k, None)
     print(i, json.dumps(d, indent=1)[:6000])
