@@ -1,0 +1,276 @@
+206660278096 {
+ "itemId": "v1|206660278096|0",
+ "sellerItemRevision": "5",
+ "title": "Pokemon Prismatic Evolutions - Elite Trainer Box",
+ "price": {
+  "value": "99.87",
+  "currency": "USD"
+ },
+ "categoryPath": "Toys & Hobbies|Collectible Card Games|CCG Sealed Boxes",
+ "categoryIdPath": "220|2536|261044",
+ "condition": "New/Factory Sealed",
+ "conditionId": "1000",
+ "itemLocation": {
+  "city": "Dunlap",
+  "stateOrProvince": "Illinois",
+  "postalCode": "615**",
+  "country": "US"
+ },
+ "material": "Cardboard",
+ "itemCreationDate": "2026-10-28T22:02:53.000Z",
+ "gtin": "196214105133",
+ "mpn": "SKU85PACK",
+ "estimatedAvailabilities": [
+  {
+   "deliveryOptions": [
+    "SHIP_TO_HOME"
+   ],
+   "estimatedAvailabilityStatus": "IN_STOCK",
+   "estimatedAvailableQuantity": 1,
+   "estimatedSoldQuantity": 0,
+   "estimatedRemainingQuantity": 1
+  }
+ ],
+ "shippingOptions": [
+  {
+   "shippingServiceCode": "USPS Ground Advantage",
+   "trademarkSymbol": "\u00ae",
+   "shippingCarrierCode": "USPS",
+   "type": "Standard Shipping",
+   "shippingCost": {
+    "value": "0.00",
+    "currency": "USD"
+   },
+   "quantityUsedForEstimate": 1,
+   "minEstimatedDeliveryDate": "2026-11-02T10:00:00.000Z",
+   "maxEstimatedDeliveryDate": "2026-11-07T10:00:00.000Z",
+   "shipToLocationUsedForEstimate": {
+    "postalCode": "91505",
+    "country": "US"
+   },
+   "shippingCostType": "CALCULATED"
+  },
+  {
+   "shippingServiceCode": "USPS Priority Mail",
+   "trademarkSymbol": "\u00ae",
+   "shippingCarrierCode": "USPS",
+   "type": "Expedited Shipping",
+   "shippingCost": {
+    "value": "20.45",
+    "currency": "USD"
+   },
+   "quantityUsedForEstimate": 1,
+   "minEstimatedDeliveryDate": "2026-11-02T10:00:00.000Z",
+   "maxEstimatedDeliveryDate": "2026-11-07T10:00:00.000Z",
+   "shipToLocationUsedForEstimate": {
+    "postalCode": "91505",
+    "country": "US"
+   },
+   "shippingCostType": "CALCULATED"
+  },
+  {
+   "shippingServiceCode": "UPS Next Day Air",
+   "trademarkSymbol": "\u00ae",
+   "shippingCarrierCode": "UPS",
+   "type": "One-day Shipping",
+   "shippingCost": {
+    "value": "157.65",
+    "currency": "USD"
+   },
+   "quantityUsedForEstimate": 1,
+   "minEstimatedDeliveryDate": "2026-10-31T10:00:00.000Z",
+   "maxEstimatedDeliveryDate": "2026-11-03T10:00:00.000Z",
+   "shipToLocationUsedForEstimate": {
+    "postalCode": "91505",
+    "country": "US"
+   },
+   "shippingCostType": "CALCULATED"
+  },
+  {
+   "shippingServiceCode": "UPS 2nd Day Air",
+   "trademarkSymbol": "\u00ae",
+   "shippingCarrierCode": "UPS",
+   "type": "Expedited Shipping",
+   "shippingCost": {
+    "value": "74.95",
+    "currency": "USD"
+   },
+   "quantityUsedForEstimate": 1,
+   "minEstimatedDeliveryDate": "2026-10-31T10:00:00.000Z",
+   "maxEstimatedDeliveryDate": "2026-11-04T10:00:00.000Z",
+   "shipToLocationUsedForEstimate": {
+    "postalCode": "91505",
+    "country": "US"
+   },
+   "shippingCostType": "CALCULATED"
+  }
+ ],
+ "shipToLocations": {
+  "regionIncluded": [
+   {
+    "regionName": "United States",
+    "regionType": "COUNTRY",
+    "regionId": "US"
+   },
+   {
+    "regionName": "Denmark",
+    "regionType": "COUNTRY",
+    "regionId": "DK"
+   },
+   {
+    "regionName": "Guatemala",
+    "regionType": "COUNTRY",
+    "regionId": "GT"
+   },
+   {
+    "regionName": "New Zealand",
+    "regionType": "COUNTRY",
+    "regionId": "NZ"
+   },
+   {
+    "regionName": "Fiji",
+    "regionType": "COUNTRY",
+    "regionId": "FJ"
+   },
+   {
+    "regionName": "Papua New Guinea",
+    "regionType": "COUNTRY",
+    "regionId": "PG"
+   },
+   {
+    "regionName": "Solomon Islands",
+    "regionType": "COUNTRY",
+    "regionId": "SB"
+   },
+   {
+    "regionName": "Vatican City State",
+    "regionType": "COUNTRY",
+    "regionId": "VA"
+   },
+   {
+    "regionName": "Sierra Leone",
+    "regionType": "COUNTRY",
+    "regionId": "SL"
+   },
+   {
+    "regionName": "Nauru",
+    "regionType": "COUNTRY",
+    "regionId": "NR"
+   },
+   {
+    "regionName": "Wallis and Futuna",
+    "regionType": "COUNTRY",
+    "regionId": "WF"
+   },
+   {
+    "regionName": "Anguilla",
+    "regionType": "COUNTRY",
+    "regionId": "AI"
+   },
+   {
+    "regionName": "El Salvador",
+    "regionType": "COUNTRY",
+    "regionId": "SV"
+   },
+   {
+    "regionName": "Gambia",
+    "regionType": "COUNTRY",
+    "regionId": "GM"
+   },
+   {
+    "regionName": "Dominican Republic",
+    "regionType": "COUNTRY",
+    "regionId": "DO"
+   },
+   {
+    "regionName": "Malaysia",
+    "regionType": "COUNTRY",
+    "regionId": "MY"
+   },
+   {
+    "regionName": "Cameroon",
+    "regionType": "COUNTRY",
+    "regionId": "CM"
+   },
+   {
+    "regionName": "Guyana",
+    "regionType": "COUNTRY",
+    "regionId": "GY"
+   },
+   {
+    "regionName": "Taiwan",
+    "regionType": "COUNTRY",
+    "regionId": "TW"
+   },
+   {
+    "regionName": "Azerbaijan Republic",
+    "regionType": "COUNTRY",
+    "regionId": "AZ"
+   },
+   {
+    "regionName": "Poland",
+    "regionType": "COUNTRY",
+    "regionId": "PL"
+   },
+   {
+    "regionName": "Macau",
+    "regionType": "COUNTRY",
+    "regionId": "MO"
+   },
+   {
+    "regionName": "Georgia",
+    "regionType": "COUNTRY",
+    "regionId": "GE"
+   },
+   {
+    "regionName": "Suriname",
+    "regionType": "COUNTRY",
+    "regionId": "SR"
+   },
+   {
+    "regionName": "Tonga",
+    "regionType": "COUNTRY",
+    "regionId": "TO"
+   },
+   {
+    "regionName": "Kenya",
+    "regionType": "COUNTRY",
+    "regionId": "KE"
+   },
+   {
+    "regionName": "Argentina",
+    "regionType": "COUNTRY",
+    "regionId": "AR"
+   },
+   {
+    "regionName": "San Marino",
+    "regionType": "COUNTRY",
+    "regionId": "SM"
+   },
+   {
+    "regionName": "Guinea-Bissau",
+    "regionType": "COUNTRY",
+    "regionId": "GW"
+   },
+   {
+    "regionName": "Armenia",
+    "regionType": "COUNTRY",
+    "regionId": "AM"
+   },
+   {
+    "regionName": "Uzbekistan",
+    "regionType": "COUNTRY",
+    "regionId": "UZ"
+   },
+   {
+    "regionName": "Senegal",
+    "regionType": "COUNTRY",
+    "regionId": "SN"
+   },
+   {
+    "regionName": "Togo",
+    "regionType": "COUNTRY",
+    "regionId": "TG"
+   },
+   {
+    "regionName": "Saint Kitt
