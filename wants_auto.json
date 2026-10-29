@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28",
+ "generated": "2026-10-29",
  "source": "Pokémon TCG Ledger, synced daily by the Tracker task via the Ledger sync form",
  "items": {
   "bs-maintenance": {
@@ -302,16 +302,6 @@
    "cond": "nm",
    "status": "watch"
   },
-  "gy-dragon-majesty-20-70": {
-   "title": "Gyarados 20/70 (Holo Rare)",
-   "kind": "singles",
-   "set": "Dragon Majesty",
-   "tcgProductId": "175382",
-   "market": 3.29,
-   "target": 1.88,
-   "cond": "nm",
-   "status": "want"
-  },
   "kg-605786-unlimited": {
    "title": "[JP] Magikarp (DP2: Secret of the Lakes) · Unlimited",
    "kind": "singles",
@@ -424,12 +414,12 @@
   },
   "radar-603428": {
    "title": "Terastal Fest ex Booster Box",
-   "kind": "items",
+   "cond": "sealed",
    "set": "Pokemon Japan · SV8a: Terastal Fest ex",
+   "target": 97.0,
+   "kind": "items",
    "tcgProductId": 603428,
    "market": 99.52,
-   "target": 108.3,
-   "cond": "sealed",
    "status": "ready"
   },
   "kg-596481": {
@@ -2002,16 +1992,6 @@
    "cond": "sealed",
    "status": "watch"
   },
-  "gy-burning-shadows-33-147": {
-   "title": "Gyarados 33/147 (Holo Rare)",
-   "kind": "singles",
-   "set": "Burning Shadows",
-   "tcgProductId": "138513",
-   "market": 3.02,
-   "target": 1,
-   "cond": "nm",
-   "status": "want"
-  },
   "kg-604865": {
    "title": "[JP] Gyarados 002/015 (Garchomp Half Deck) · Holofoil",
    "kind": "singles",
@@ -2181,16 +2161,6 @@
    "target": 0,
    "cond": "nm",
    "status": "watch"
-  },
-  "s-fur-mewtwo": {
-   "title": "Mewtwo ex — Futuristic Rare 157/128",
-   "kind": "singles",
-   "set": "30th Celebration",
-   "tcgProductId": "696687",
-   "market": 37.57,
-   "target": 60,
-   "cond": "nm",
-   "status": "ready"
   },
   "kg-149039": {
    "title": "Gyarados GX 18/111 (SM - Crimson Invasion) · Holofoil",
@@ -2982,16 +2952,6 @@
    "cond": "nm",
    "status": "watch"
   },
-  "k-130": {
-   "title": "Gyarados 6/102 (holo)",
-   "cond": "nm",
-   "set": "Base Set",
-   "target": 50.7,
-   "kind": "kanto",
-   "tcgProductId": "42404",
-   "market": 56.78,
-   "status": "want"
-  },
   "kg-717006": {
    "title": "[JP] Magikarp 165/103 (M6a: MEGA Expansion 30th Celebration) · Holofoil",
    "kind": "singles",
@@ -3203,6 +3163,6 @@
    "status": "watch"
   }
  },
- "payloadDate": "2026-10-28",
- "batch": "20261028-0854"
+ "payloadDate": "2026-10-29",
+ "batch": "20261029-0859"
 }
