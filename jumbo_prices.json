@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T19:33:05Z",
+ "generated": "2026-10-30T19:52:15Z",
  "items": {
   "j-None-paldean-fates-great-tusk-ex-iron-treads-ex-premium-collection-en": {
    "title": "Paldean Fates Great Tusk ex & Iron Treads ex Premium Collection",
@@ -212231,12 +212231,34 @@
    "title": "Kyurem V Box",
    "sealed": {
     "productId": 286477,
-    "history": [],
+    "history": [
+     [
+      "2026-10-26",
+      185
+     ],
+     [
+      "2026-10-29",
+      185
+     ],
+     [
+      "2026-10-30",
+      185
+     ]
+    ],
     "name": "Kyurem V Box",
     "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
     "market": null,
     "date": "2026-10-30",
-    "note": "no priced row today"
+    "note": "no priced row today",
+    "ownFrom": "9999",
+    "historySources": {
+     "ppt": {
+      "points": 3,
+      "from": "2026-10-26",
+      "to": "2026-10-30"
+     },
+     "own": "daily tcgcsv scan from 9999"
+    }
    },
    "card": {
     "productId": 450094,
