@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-29",
+ "generated": "2026-10-30",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (25 entries, 0 new matches)",
+  "googlenews-reprint": "ok (30 entries, 1 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
@@ -57,6 +57,21 @@
    "matched": [
     "elite trainer",
     "30th celebration"
+   ]
+  },
+  {
+   "id": "90b78b76cd92",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon TCG Delta Reign Pre-Orders: Where to Find Stock and Best Prices - ComicBook.com",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5DQ1hnY0duQzN1R0FjRXFtSEJsdXBobEstVGd4R3RHeWEtajNOYmRtMTFkWjZ1RkFFcUtaNjRTN1hkZmlhRTYxcEtYbVpNSHBvQ1E2cVdoc0JhOXU3b1hUTWV6UkpIYW1ieC1vNlJkdG83ckE?oc=5",
+   "published": "2026-10-23",
+   "firstSeen": "2026-10-30",
+   "classes": [
+    "preorder"
+   ],
+   "matched": [
+    "pre-order",
+    "delta reign"
    ]
   },
   {
