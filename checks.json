@@ -1,0 +1,1575 @@
+{
+ "generated": "2026-10-31T17:24+00:00",
+ "graderError": null,
+ "rubric": "docs/nm_rubric.md on main",
+ "listings": {
+  "v1|860099461850|0": {
+   "src": "flash",
+   "wantId": "k-003",
+   "title": "1999 Pokemon Unlimited Set #15/102 Venusaur Rare Holo",
+   "url": "https://www.ebay.com/itm/860099461850?_skw=Venusaur+15%2F102&hash=itemc841ec42da:g:zEUAAeSw495q5Vat",
+   "photos": 2,
+   "backs": [],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1514,
+     "centering": {
+      "lr": "55/45",
+      "tb": "51/49",
+      "worst": 55
+     }
+    }
+   ],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.05, est. PSA 4.4, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.05,
+     "grade": 4.4,
+     "side": "front",
+     "px": 1511,
+     "photo": 1
+    },
+    {
+     "p8": 0.804,
+     "grade": 7.3,
+     "side": "back",
+     "px": 1400,
+     "photo": 2
+    }
+   ],
+   "unmeasured": [
+    2
+   ],
+   "graderP8": 0.05,
+   "graderGrade": 4.4,
+   "sheet": "sheets/v1_860099461850_0.jpg"
+  },
+  "v1|940054162653|0": {
+   "src": "flash",
+   "wantId": "k-123",
+   "title": "Vtg 1999 WOTC Scyther 10/64 Jungle Holo Rare Vintage Pokemon Card NM",
+   "url": "https://www.ebay.com/itm/940054162653?_skw=Scyther+10%2F64&hash=itemdadf982cdd:g:WSgAAeSwkAlq5Zl9",
+   "photos": 6,
+   "backs": [],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1233,
+     "centering": {
+      "lr": "52/48",
+      "tb": "51/49",
+      "worst": 52
+     }
+    }
+   ],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.348, est. PSA 6.1, photo 2)"
+   ],
+   "grader": [
+    {
+     "p8": 0.482,
+     "grade": 6.9,
+     "side": "front",
+     "px": 1231,
+     "photo": 1
+    },
+    {
+     "p8": 0.348,
+     "grade": 6.1,
+     "side": "front",
+     "px": 1282,
+     "photo": 2
+    }
+   ],
+   "unmeasured": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "graderP8": 0.348,
+   "graderGrade": 6.1,
+   "sheet": "sheets/v1_940054162653_0.jpg"
+  },
+  "v1|880046293327|0": {
+   "src": "flash",
+   "wantId": "w-716231",
+   "title": "Pokemon TCG Sylveon EX 153/128 30th Celebration SIR Holo Full Art Near Mint",
+   "url": "https://www.ebay.com/itm/880046293327?_skw=Sylveon+ex+153%2F128&hash=itemcce6d8c14f:g:SfsAAeSw~rFq2r9z",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "grader": [
+    {
+     "p8": 0.733,
+     "grade": 8.1,
+     "side": "front",
+     "px": 1416,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "graderP8": 0.733,
+   "graderGrade": 8.1,
+   "sheet": "sheets/v1_880046293327_0.jpg"
+  },
+  "v1|227589430545|0": {
+   "src": "flash",
+   "wantId": "kg-246732",
+   "title": "Gyarados V - 171/203 - Pokemon Evolving Skies Sword Shield Full Art Rare Card NM",
+   "url": "https://www.ebay.com/itm/227589430545?_skw=Gyarados+V+171%2F203&hash=item34fd631d11:g:yvYAAeSwxvxqgkdK",
+   "photos": 1,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1
+   ],
+   "sheet": "sheets/v1_227589430545_0.jpg"
+  },
+  "v1|940051336760|0": {
+   "src": "flash",
+   "wantId": "k-049",
+   "title": "Vtg 1999 WOTC Pokemon Venomoth Jungle Holo Rare 13/64 NM",
+   "url": "https://www.ebay.com/itm/940051336760?_skw=Venomoth+13%2F64&hash=itemdadf6d0e38:g:MQ4AAeSwsZJq4uKw",
+   "photos": 6,
+   "backs": [],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1176,
+     "centering": {
+      "lr": "51/49",
+      "tb": "56/44",
+      "worst": 56
+     }
+    }
+   ],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "grader": [
+    {
+     "p8": 0.417,
+     "grade": 6.9,
+     "side": "front",
+     "px": 1173,
+     "photo": 1
+    },
+    {
+     "p8": 0.448,
+     "grade": 7.0,
+     "side": "front",
+     "px": 1596,
+     "photo": 2
+    }
+   ],
+   "unmeasured": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "graderP8": 0.417,
+   "graderGrade": 6.9,
+   "sheet": "sheets/v1_940051336760_0.jpg"
+  },
+  "v1|940051413819|0": {
+   "src": "flash",
+   "wantId": "k-031",
+   "title": "Vtg WOTC 1999 Nidoqueen 7/64 Holo RARE Jungle Pokemon Card NM",
+   "url": "https://www.ebay.com/itm/940051413819?_skw=Nidoqueen+7%2F64&hash=itemdadf6e3b3b:g:1KcAAeSw4Bpq5C58",
+   "photos": 6,
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1217,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.34
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1257,
+     "centering": {
+      "lr": "50/50",
+      "tb": "56/44",
+      "worst": 56
+     }
+    }
+   ],
+   "flags": [
+    "grader: likely PSA 7 or lower (P8+ 0.259, est. PSA 6.4, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.259,
+     "grade": 6.4,
+     "side": "front",
+     "px": 1254,
+     "photo": 1
+    },
+    {
+     "p8": 0.75,
+     "grade": 7.9,
+     "side": "front",
+     "px": 1208,
+     "photo": 2
+    }
+   ],
+   "unmeasured": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "graderP8": 0.259,
+   "graderGrade": 6.4,
+   "sheet": "sheets/v1_940051413819_0.jpg"
+  },
+  "v1|307249486745|0": {
+   "src": "flash",
+   "wantId": "gy-ancient-origins-21-98-rev",
+   "title": "Pokemon Card Gyarados Ancient Origins Reverse Holo 21/98 Near Mint",
+   "url": "https://www.ebay.com/itm/307249486745?_skw=Gyarados+21%2F98&hash=item47897f1b99:g:3xQAAeSwdz1q3saL",
+   "photos": 6,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "grader": [
+    {
+     "p8": 0.654,
+     "grade": 6.9,
+     "side": "front",
+     "px": 1373,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "graderP8": 0.654,
+   "graderGrade": 6.9,
+   "sheet": "sheets/v1_307249486745_0.jpg"
+  },
+  "v1|128018429187|0": {
+   "src": "wants",
+   "wantId": "kg-86005-normal",
+   "title": "Gyarados G 30/127 Platinum 2009 Rare NM",
+   "url": "https://www.ebay.com/itm/128018429187?_skw=Gyarados+G+30%2F127&hash=item1dce7e3503:g:E90AAeSwbiNqeSYu",
+   "photos": 3,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3
+   ],
+   "grader": [
+    {
+     "p8": 0.477,
+     "grade": 6.8,
+     "side": "front",
+     "px": 1128,
+     "photo": 2
+    },
+    {
+     "p8": 0.81,
+     "grade": 7.9,
+     "side": "back",
+     "px": 1072,
+     "photo": 3
+    }
+   ],
+   "graderP8": 0.477,
+   "graderGrade": 6.8,
+   "sheet": "sheets/v1_128018429187_0.jpg"
+  },
+  "v1|377193604661|0": {
+   "src": "wants",
+   "wantId": "kg-86005-normal",
+   "title": "GYARADOS G 30/127 R PLATINUM POKEMON NM/M",
+   "url": "https://www.ebay.com/itm/377193604661?_skw=Gyarados+G+30%2F127&hash=item57d27da635:g:bVIAAeSwO6VqC2i2",
+   "photos": 3,
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1016,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    },
+    {
+     "photo": 3,
+     "cardPx": 1018,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [],
+   "flags": [
+    "grader: likely PSA 7 or lower (P8+ 0.095, est. PSA 4.2, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.095,
+     "grade": 4.2,
+     "side": "front",
+     "px": 1013,
+     "photo": 1
+    },
+    {
+     "p8": 0.113,
+     "grade": 4.8,
+     "side": "back",
+     "px": 1013,
+     "photo": 2
+    },
+    {
+     "p8": 0.175,
+     "grade": 5.3,
+     "side": "back",
+     "px": 1015,
+     "photo": 3
+    }
+   ],
+   "unmeasured": [
+    1
+   ],
+   "graderP8": 0.095,
+   "graderGrade": 4.2,
+   "sheet": "sheets/v1_377193604661_0.jpg"
+  },
+  "v1|197741794496|0": {
+   "src": "wants",
+   "wantId": "k-003",
+   "title": "Venusaur 15/102 Near Mint Celebrations: Classic Collection Pokemon Shipnow",
+   "url": "https://www.ebay.com/itm/197741794496?_skw=Venusaur+15%2F102&hash=item2e0a5454c0:g:xEMAAeSwBDxo3j40",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "grader": [
+    {
+     "p8": 0.711,
+     "grade": 8.2,
+     "side": "back",
+     "px": 1522,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.711,
+   "graderGrade": 8.2,
+   "sheet": "sheets/v1_197741794496_0.jpg"
+  },
+  "v1|307241327434|0": {
+   "src": "wants",
+   "wantId": "kg-118775",
+   "title": "WoTC Promo #08/82 Dark Gyarados (Prerelease)",
+   "url": "https://www.ebay.com/itm/307241327434?_skw=Dark+Gyarados+08%2F82&hash=item4789029b4a:g:CYcAAeSwHJRq1-TV",
+   "photos": 2,
+   "backs": [],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1028,
+     "centering": {
+      "lr": "57/43",
+      "tb": "56/44",
+      "worst": 57
+     }
+    }
+   ],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "grader": [
+    {
+     "p8": 0.902,
+     "grade": 9.7,
+     "side": "front",
+     "px": 1025,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    2
+   ],
+   "graderP8": 0.902,
+   "graderGrade": 9.7,
+   "sheet": "sheets/v1_307241327434_0.jpg"
+  },
+  "v1|137575023697|0": {
+   "src": "wants",
+   "wantId": "kg-118775",
+   "title": "Dark Gyarados (Prerelease) 08/82 Holo Promo WoTC Promo Pokemon Near Mint",
+   "url": "https://www.ebay.com/itm/137575023697?_skw=Dark+Gyarados+08%2F82&hash=item20081c4451:g:-BoAAeSwBFtqbiTw",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "grader": [
+    {
+     "p8": 0.579,
+     "grade": 7.0,
+     "side": "front",
+     "px": 739,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.579,
+   "graderGrade": 7.0,
+   "sheet": "sheets/v1_137575023697_0.jpg"
+  },
+  "v1|158142382734|0": {
+   "src": "wants",
+   "wantId": "kg-253843",
+   "title": "Pokémon TCG Magikarp 039/192 Reverse Holo Rare Card Rebel Clash Nm",
+   "url": "https://www.ebay.com/itm/158142382734?_skw=Magikarp+039%2F192&hash=item24d205428e:g:61YAAeSwYJFqXxzk",
+   "photos": 4,
+   "backs": [],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 945,
+     "centering": {
+      "lr": "51/49",
+      "tb": "55/45",
+      "worst": 55
+     }
+    }
+   ],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.345, est. PSA 6.0, photo 3)"
+   ],
+   "grader": [
+    {
+     "p8": 0.659,
+     "grade": 7.2,
+     "side": "front",
+     "px": 941,
+     "photo": 1
+    },
+    {
+     "p8": 0.345,
+     "grade": 6.0,
+     "side": "front",
+     "px": 1417,
+     "photo": 3
+    }
+   ],
+   "unmeasured": [
+    2,
+    3,
+    4
+   ],
+   "graderP8": 0.345,
+   "graderGrade": 6.0,
+   "sheet": "sheets/v1_158142382734_0.jpg"
+  },
+  "v1|820092483409|0": {
+   "src": "wants",
+   "wantId": "kg-226912",
+   "title": "Gyarados 4/123 Holo Rare HeartGold & SoulSilver Pokemon Near Mint Spanish",
+   "url": "https://www.ebay.com/itm/820092483409?_skw=Gyarados+4%2F123&hash=itembef1523751:g:PjwAAeSw4vlqnKw7",
+   "photos": 2,
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1464,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.7,
+     "grade": 8.0,
+     "side": "front",
+     "px": 1464,
+     "photo": 1
+    },
+    {
+     "p8": 0.761,
+     "grade": 7.8,
+     "side": "back",
+     "px": 1376,
+     "photo": 2
+    }
+   ],
+   "unmeasured": [
+    1
+   ],
+   "graderP8": 0.7,
+   "graderGrade": 7.8,
+   "sheet": "sheets/v1_820092483409_0.jpg"
+  },
+  "v1|128149327516|0": {
+   "src": "wants",
+   "wantId": "kg-226912",
+   "title": "GYARADOS 4/123 HeartGold & SoulSilver HOLO rare Pokemon TCG card NM (Spanish)",
+   "url": "https://www.ebay.com/itm/128149327516?_skw=Gyarados+4%2F123&hash=item1dd64b8e9c:g:J4cAAeSwDeJq2VTG",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.198, est. PSA 5.8, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.198,
+     "grade": 5.8,
+     "side": "front",
+     "px": 1450,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "graderP8": 0.198,
+   "graderGrade": 5.8,
+   "sheet": "sheets/v1_128149327516_0.jpg"
+  },
+  "v1|407261927674|0": {
+   "src": "wants",
+   "wantId": "gy-team-rocket-dark-gyarados-8-82",
+   "title": "Dark Gyarados - Prerelease - 8/82 Team Rocket - Pokémon TCG - 2000",
+   "url": "https://www.ebay.com/itm/407261927674?_skw=Gyarados+8%2F82&hash=item5ed2b3d8fa:g:4nIAAeSwoYxqv-tX",
+   "photos": 2,
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1556,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.93,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [],
+   "flags": [],
+   "unmeasured": [
+    1
+   ],
+   "grader": [
+    {
+     "p8": 0.505,
+     "grade": 6.7,
+     "side": "back",
+     "px": 1436,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.505,
+   "graderGrade": 6.7,
+   "sheet": "sheets/v1_407261927674_0.jpg"
+  },
+  "v1|860066465347|0": {
+   "src": "wants",
+   "wantId": "gy-team-rocket-dark-gyarados-8-82",
+   "title": "Dark Gyarados (Prerelease) [PR - 8/82] - Promo - NM",
+   "url": "https://www.ebay.com/itm/860066465347?_skw=Gyarados+8%2F82&hash=itemc83ff4c643:g:f7YAAeSwaThq18cU",
+   "photos": 2,
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1015,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1013,
+     "centering": {
+      "lr": "57/43",
+      "tb": "53/47",
+      "worst": 57
+     }
+    }
+   ],
+   "flags": [
+    "grader: likely PSA 7 or lower (P8+ 0.189, est. PSA 5.8, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.189,
+     "grade": 5.8,
+     "side": "front",
+     "px": 1011,
+     "photo": 1
+    },
+    {
+     "p8": 0.498,
+     "grade": 7.3,
+     "side": "back",
+     "px": 1013,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.189,
+   "graderGrade": 5.8,
+   "sheet": "sheets/v1_860066465347_0.jpg"
+  },
+  "v1|318456415567|0": {
+   "src": "wants",
+   "wantId": "gy-legendary-treasures-31-113-rev",
+   "title": "Gyarados 31/113 Rare Legendary Treasures Pokemon Near Mint(P-3-26)",
+   "url": "https://www.ebay.com/itm/318456415567?_skw=Gyarados+31%2F113&hash=item4a257b454f:g:oucAAeSwallqL0RO",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.293, est. PSA 6.3, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.293,
+     "grade": 6.3,
+     "side": "front",
+     "px": 1500,
+     "photo": 1
+    },
+    {
+     "p8": 0.576,
+     "grade": 7.1,
+     "side": "front",
+     "px": 1473,
+     "photo": 2
+    }
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "graderP8": 0.293,
+   "graderGrade": 6.3,
+   "sheet": "sheets/v1_318456415567_0.jpg"
+  },
+  "v1|117468675250|0": {
+   "src": "wants",
+   "wantId": "gy-legendary-treasures-31-113-rev",
+   "title": "Gyarados 31/113 Legendary Treasures Reverse Holo Near Mint",
+   "url": "https://www.ebay.com/itm/117468675250?_skw=Gyarados+31%2F113&hash=item1b59adbcb2:g:zzgAAeSwUdBq0auF",
+   "photos": 6,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "grader": [
+    {
+     "p8": 0.609,
+     "grade": 7.4,
+     "side": "front",
+     "px": 1247,
+     "photo": 6
+    }
+   ],
+   "graderP8": 0.609,
+   "graderGrade": 7.4,
+   "sheet": "sheets/v1_117468675250_0.jpg"
+  },
+  "v1|267822805427|0": {
+   "src": "wants",
+   "wantId": "k-151",
+   "title": "Wizards of the Coast Pokémon TCG Mew Black Star Promo #8 1999 ",
+   "url": "https://www.ebay.com/itm/267822805427?_skw=Mew+Black+Star+Promo+%238&hash=item3e5b7bb1b3:g:jAMAAeSwGY9q3NSZ",
+   "photos": 6,
+   "backs": [],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1203,
+     "centering": {
+      "lr": "55/45",
+      "tb": "57/43",
+      "worst": 57
+     }
+    }
+   ],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.398, est. PSA 7.4, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.398,
+     "grade": 7.4,
+     "side": "front",
+     "px": 1179,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "graderP8": 0.398,
+   "graderGrade": 7.4,
+   "sheet": "sheets/v1_267822805427_0.jpg"
+  },
+  "v1|157702944837|0": {
+   "src": "wants",
+   "wantId": "k-035",
+   "title": "Clefairy - Base Set (BS) HoloFoil Printing Pokemon Trading Card 5/102 ",
+   "url": "https://www.ebay.com/itm/157702944837?_skw=Clefairy+5%2F102&hash=item24b7d3f845:g:1TcAAeSwrilpnK2b",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "sheet": "sheets/v1_157702944837_0.jpg"
+  },
+  "v1|227590263712|0": {
+   "src": "wants",
+   "wantId": "gy-team-up-30-181",
+   "title": "Pokemon - Gyarados 30/181 2019 Reverse Holo Team Up Sun & Moon Rare - NM",
+   "url": "https://www.ebay.com/itm/227590263712?_skw=Gyarados+30%2F181&hash=item34fd6fd3a0:g:zOAAAeSwYNlq3Yzq",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "grader": [
+    {
+     "p8": 0.948,
+     "grade": 8.9,
+     "side": "front",
+     "px": 1160,
+     "photo": 1
+    },
+    {
+     "p8": 0.639,
+     "grade": 7.1,
+     "side": "front",
+     "px": 1104,
+     "photo": 2
+    }
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "graderP8": 0.639,
+   "graderGrade": 7.1,
+   "sheet": "sheets/v1_227590263712_0.jpg"
+  },
+  "v1|287637768141|0": {
+   "src": "wants",
+   "wantId": "s-drago-sir",
+   "title": "Pokemon TCG MEGA DRAGONITE EX ASCit 290/217 HEROIC RISE - ITALIAN ITA IT",
+   "url": "https://www.ebay.com/itm/287637768141?_skw=Mega+Dragonite+ex+290%2F217&hash=item42f88c07cd:g:h4kAAeSw~KNqyRVo",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "grader": [
+    {
+     "p8": 0.977,
+     "grade": 10.5,
+     "side": "front",
+     "px": 1489,
+     "photo": 1
+    },
+    {
+     "p8": 0.764,
+     "grade": 7.2,
+     "side": "front",
+     "px": 1429,
+     "photo": 2
+    }
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "graderP8": 0.764,
+   "graderGrade": 7.2,
+   "sheet": "sheets/v1_287637768141_0.jpg"
+  },
+  "v1|117488562931|0": {
+   "src": "wants",
+   "wantId": "mk-dragons-exalted-23-124-rev",
+   "title": "Pokemon TCG Magikarp 23/124 Dragons Exalted Regular Common 30HP",
+   "url": "https://www.ebay.com/itm/117488562931?_skw=Magikarp+23%2F124&hash=item1b5add32f3:g:RNoAAeSwf5Bq33if",
+   "photos": 2,
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1387,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 1.43
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1299,
+     "centering": {
+      "lr": "60/40",
+      "tb": "58/42",
+      "worst": 60
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.511,
+     "grade": 6.9,
+     "side": "front",
+     "px": 1295,
+     "photo": 1
+    },
+    {
+     "p8": 0.601,
+     "grade": 7.3,
+     "side": "back",
+     "px": 1384,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.511,
+   "graderGrade": 6.9,
+   "sheet": "sheets/v1_117488562931_0.jpg"
+  },
+  "v1|298485830523|0": {
+   "src": "wants",
+   "wantId": "mk-dragons-exalted-23-124-rev",
+   "title": "Magikarp 23/124 Common Dragons Exalted Pokemon Reverse Holo NM",
+   "url": "https://www.ebay.com/itm/298485830523?_skw=Magikarp+23%2F124&hash=item457f24537b:g:vtAAAeSwCOdqTFB5",
+   "photos": 2,
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1020,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1020,
+     "centering": {
+      "lr": "51/49",
+      "tb": "51/49",
+      "worst": 51
+     }
+    }
+   ],
+   "flags": [],
+   "grader": [
+    {
+     "p8": 0.536,
+     "grade": 6.9,
+     "side": "front",
+     "px": 1018,
+     "photo": 1
+    },
+    {
+     "p8": 0.753,
+     "grade": 8.6,
+     "side": "back",
+     "px": 1018,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.536,
+   "graderGrade": 6.9,
+   "sheet": "sheets/v1_298485830523_0.jpg"
+  },
+  "v1|257824311689|0": {
+   "src": "wants",
+   "wantId": "k-146",
+   "title": "Moltres 12/62 Fossil Set - Holo Pokemon Card #1",
+   "url": "https://www.ebay.com/itm/257824311689?_skw=Moltres+12%2F62&hash=item3c0786c989:g:v4UAAeSw5ZNq48o4",
+   "photos": 2,
+   "backs": [],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1070,
+     "centering": {
+      "lr": "56/44",
+      "tb": "61/39",
+      "worst": 61
+     }
+    }
+   ],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.212, est. PSA 6.0, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.212,
+     "grade": 6.0,
+     "side": "front",
+     "px": 1067,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    2
+   ],
+   "graderP8": 0.212,
+   "graderGrade": 6.0,
+   "sheet": "sheets/v1_257824311689_0.jpg"
+  },
+  "v1|298590892900|0": {
+   "src": "wants",
+   "wantId": "kg-107032-unlimited",
+   "title": "Magikarp 035/102 Base Set Regular",
+   "url": "https://www.ebay.com/itm/298590892900?_skw=Magikarp+035%2F102&hash=item4585677364:g:WfMAAeSwNSNqgLDr",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "grader": [
+    {
+     "p8": 0.62,
+     "grade": 7.0,
+     "side": "front",
+     "px": 1231,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.62,
+   "graderGrade": 7.0,
+   "sheet": "sheets/v1_298590892900_0.jpg"
+  },
+  "v1|158207180091|0": {
+   "src": "wants",
+   "wantId": "kg-107032-unlimited",
+   "title": "Base Set Magikarp 035/102 1999 English  Pokemon",
+   "url": "https://www.ebay.com/itm/158207180091?_skw=Magikarp+035%2F102&hash=item24d5e1fd3b:g:5BcAAeSw~7pqhkD7",
+   "photos": 1,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.009, est. PSA 2.7, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.009,
+     "grade": 2.7,
+     "side": "front",
+     "px": 864,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    1
+   ],
+   "graderP8": 0.009,
+   "graderGrade": 2.7,
+   "sheet": "sheets/v1_158207180091_0.jpg"
+  },
+  "v1|336688307304|0": {
+   "src": "wants",
+   "wantId": "gy-evolutions-34-108-rev",
+   "title": "The Pokémon Company Gyarados 34/108 Evolutions Holo ",
+   "url": "https://www.ebay.com/itm/336688307304?_skw=Gyarados+34%2F108&hash=item4e642fdc68:g:mQUAAeSw-DtqVmdw",
+   "photos": 3,
+   "backs": [],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1132,
+     "centering": {
+      "lr": "63/37",
+      "tb": "83/17",
+      "worst": 83
+     }
+    }
+   ],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "front off-centre 63/37 / 83/17 (PSA 8 needs 65/35)"
+   ],
+   "grader": [
+    {
+     "p8": 0.599,
+     "grade": 6.9,
+     "side": "front",
+     "px": 1132,
+     "photo": 1
+    },
+    {
+     "p8": 0.946,
+     "grade": 9.6,
+     "side": "front",
+     "px": 1316,
+     "photo": 2
+    },
+    {
+     "p8": 0.782,
+     "grade": 8.3,
+     "side": "front",
+     "px": 1456,
+     "photo": 3
+    }
+   ],
+   "unmeasured": [
+    2,
+    3
+   ],
+   "graderP8": 0.599,
+   "graderGrade": 6.9,
+   "sheet": "sheets/v1_336688307304_0.jpg"
+  },
+  "v1|406967160431|0": {
+   "src": "wants",
+   "wantId": "gy-mysterious-treasures-26-123",
+   "title": "Pokémon TCG Gyarados Mysterious Treasures 26/123 Regular Rare English 120HP 2007",
+   "url": "https://www.ebay.com/itm/406967160431?_skw=Gyarados+26%2F123&hash=item5ec1220e6f:g:LeoAAeSwMzVqHgUT",
+   "photos": 6,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.104, est. PSA 4.9, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.104,
+     "grade": 4.9,
+     "side": "front",
+     "px": 1449,
+     "photo": 1
+    },
+    {
+     "p8": 0.515,
+     "grade": 6.7,
+     "side": "front",
+     "px": 1263,
+     "photo": 3
+    }
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "graderP8": 0.104,
+   "graderGrade": 4.9,
+   "sheet": "sheets/v1_406967160431_0.jpg"
+  },
+  "v1|287471148147|0": {
+   "src": "wants",
+   "wantId": "gy-mysterious-treasures-26-123",
+   "title": "Gyarados 26/123 Mysterious Treasures Regular",
+   "url": "https://www.ebay.com/itm/287471148147?_skw=Gyarados+26%2F123&hash=item42ee9d9c73:g:IqYAAeSwjYdqXEes",
+   "photos": 6,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.277, est. PSA 6.1, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.277,
+     "grade": 6.1,
+     "side": "front",
+     "px": 1155,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "graderP8": 0.277,
+   "graderGrade": 6.1,
+   "sheet": "sheets/v1_287471148147_0.jpg"
+  },
+  "v1|227555707543|0": {
+   "src": "wants",
+   "wantId": "kg-111529",
+   "title": "XY - BREAKpoint #26/122 Gyarados EX",
+   "url": "https://www.ebay.com/itm/227555707543?_skw=Gyarados+EX+26%2F122&hash=item34fb608a97:g:wW8AAeSwfTxqxU1V",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.08, est. PSA 4.4, photo 2)"
+   ],
+   "grader": [
+    {
+     "p8": 0.403,
+     "grade": 5.1,
+     "side": "front",
+     "px": 1090,
+     "photo": 1
+    },
+    {
+     "p8": 0.08,
+     "grade": 4.4,
+     "side": "front",
+     "px": 1089,
+     "photo": 2
+    }
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "graderP8": 0.08,
+   "graderGrade": 4.4,
+   "sheet": "sheets/v1_227555707543_0.jpg"
+  },
+  "v1|257765705479|0": {
+   "src": "wants",
+   "wantId": "kg-111529",
+   "title": "Gyarados EX 26/122 Breakpoint Holo - NM",
+   "url": "https://www.ebay.com/itm/257765705479?_skw=Gyarados+EX+26%2F122&hash=item3c04088707:g:TZQAAeSwpAVqtuHh",
+   "photos": 2,
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 512,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 734,
+     "centering": {
+      "lr": "61/39",
+      "tb": "67/33",
+      "worst": 67
+     }
+    }
+   ],
+   "flags": [
+    "grader: likely PSA 7 or lower (P8+ 0.274, est. PSA 5.6, photo 1)",
+    "low resolution back (photo 2, 512px)",
+    "front off-centre 61/39 / 67/33 (PSA 8 needs 65/35)"
+   ],
+   "grader": [
+    {
+     "p8": 0.274,
+     "grade": 5.6,
+     "side": "front",
+     "px": 733,
+     "photo": 1
+    },
+    {
+     "p8": 0.52,
+     "grade": 7.2,
+     "side": "back",
+     "px": 508,
+     "photo": 2
+    }
+   ],
+   "graderP8": 0.274,
+   "graderGrade": 5.6,
+   "sheet": "sheets/v1_257765705479_0.jpg"
+  },
+  "v1|960115386206|0": {
+   "src": "wants",
+   "wantId": "kg-126024",
+   "title": "Gyarados 34/108 XY Evolutions Holo Rare Pokémon TCG Card NM+",
+   "url": "https://www.ebay.com/itm/960115386206?_skw=Gyarados+34%2F108&hash=itemdf8b56275e:g:y04AAeSwUS9q3nO0",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.151, est. PSA 5.1, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.151,
+     "grade": 5.1,
+     "side": "front",
+     "px": 1316,
+     "photo": 1
+    },
+    {
+     "p8": 0.455,
+     "grade": 6.8,
+     "side": "back",
+     "px": 1273,
+     "photo": 2
+    }
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "graderP8": 0.151,
+   "graderGrade": 5.1,
+   "sheet": "sheets/v1_960115386206_0.jpg"
+  },
+  "v1|298426718891|0": {
+   "src": "wants",
+   "wantId": "gy-dragons-exalted-24-124-rev",
+   "title": "Gyarados 24/124 Dragons Exalted Reverse Holo NM",
+   "url": "https://www.ebay.com/itm/298426718891?_skw=Gyarados+24%2F124&hash=item457b9e5aab:g:TiEAAeSwpfdqM0RR",
+   "photos": 3,
+   "backs": [],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 994,
+     "centering": {
+      "lr": "59/41",
+      "tb": "56/44",
+      "worst": 59
+     }
+    }
+   ],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.348, est. PSA 5.5, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.348,
+     "grade": 5.5,
+     "side": "front",
+     "px": 993,
+     "photo": 1
+    },
+    {
+     "p8": 0.394,
+     "grade": 6.3,
+     "side": "front",
+     "px": 1154,
+     "photo": 2
+    },
+    {
+     "p8": 0.483,
+     "grade": 6.8,
+     "side": "front",
+     "px": 911,
+     "photo": 3
+    }
+   ],
+   "unmeasured": [
+    2,
+    3
+   ],
+   "graderP8": 0.348,
+   "graderGrade": 5.5,
+   "sheet": "sheets/v1_298426718891_0.jpg"
+  },
+  "v1|287436162297|0": {
+   "src": "wants",
+   "wantId": "gy-dragons-exalted-24-124-rev",
+   "title": "2012 Dragons Exalted Reverse Holo Gyarados Rare #24/124",
+   "url": "https://www.ebay.com/itm/287436162297?_skw=Gyarados+24%2F124&hash=item42ec87c4f9:g:NmcAAeSwsyhqSAiC",
+   "photos": 2,
+   "backs": [],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1017,
+     "centering": {
+      "lr": "60/40",
+      "tb": "55/45",
+      "worst": 60
+     }
+    }
+   ],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "grader": [
+    {
+     "p8": 0.758,
+     "grade": 8.1,
+     "side": "front",
+     "px": 1015,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    2
+   ],
+   "graderP8": 0.758,
+   "graderGrade": 8.1,
+   "sheet": "sheets/v1_287436162297_0.jpg"
+  },
+  "v1|287380879981|0": {
+   "src": "wants",
+   "wantId": "kg-149126",
+   "title": "Pokémon Gyarados GX 101/111 - Crimson Invasion  - NM",
+   "url": "https://www.ebay.com/itm/287380879981?_skw=Gyarados+GX+101%2F111&hash=item42e93c3a6d:g:180AAeSw84pqJiCy",
+   "photos": 3,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3
+   ],
+   "sheet": "sheets/v1_287380879981_0.jpg"
+  },
+  "v1|317740787019|0": {
+   "src": "wants",
+   "wantId": "kg-149126",
+   "title": "Gyarados GX 101/111",
+   "url": "https://www.ebay.com/itm/317740787019?_skw=Gyarados+GX+101%2F111&hash=item49fad3a54b:g:~70AAeSwgNJpXj8y",
+   "photos": 3,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3
+   ],
+   "sheet": "sheets/v1_317740787019_0.jpg"
+  },
+  "v1|800697566899|0": {
+   "src": "wants",
+   "wantId": "kg-527992",
+   "title": "The Pokémon Company Gyarados 007/034 Trading Card Game Classic Holo ENG HP130",
+   "url": "https://www.ebay.com/itm/800697566899?_skw=Gyarados+007%2F034&hash=itemba6d4b46b3:g:JSoAAeSwShxqseix",
+   "photos": 6,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "grader": [
+    {
+     "p8": 0.682,
+     "grade": 8.0,
+     "side": "front",
+     "px": 927,
+     "photo": 3
+    },
+    {
+     "p8": 0.681,
+     "grade": 8.6,
+     "side": "front",
+     "px": 1241,
+     "photo": 5
+    }
+   ],
+   "graderP8": 0.681,
+   "graderGrade": 8.0,
+   "sheet": "sheets/v1_800697566899_0.jpg"
+  },
+  "v1|398154567885|0": {
+   "src": "wants",
+   "wantId": "kg-141250",
+   "title": "Gyarados 21 Holo Rare XY Ancient Origins 21/98 NM TOKIYA",
+   "url": "https://www.ebay.com/itm/398154567885?_skw=Gyarados+21%2F98&hash=item5cb3dc90cd:g:U0oAAeSw7UVqTouP",
+   "photos": 3,
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1035,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 3.27,
+      "right": 1.77
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.21,
+      "bl": 16.67,
+      "br": 16.94
+     }
+    }
+   ],
+   "fronts": [],
+   "flags": [],
+   "unmeasured": [
+    1,
+    3
+   ],
+   "sheet": "sheets/v1_398154567885_0.jpg"
+  }
+ }
+}
