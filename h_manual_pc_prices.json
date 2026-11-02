@@ -65,6 +65,10 @@
     [
      "2026-11-01",
      96.11
+    ],
+    [
+     "2026-11-02",
+     96.11
     ]
    ],
    "pcId": 3438333,
@@ -74,7 +78,7 @@
    "ungraded": 29.99,
    "psa10": 420.0,
    "salesVolume": "33",
-   "date": "2026-11-01",
+   "date": "2026-11-02",
    "label": "unverified: PriceCharting graded-price (PSA 9 field), not CGC-specific, not checked against sold listings"
   },
   "h-bday-pikachu": {
@@ -142,18 +146,22 @@
     [
      "2026-11-01",
      52.19
+    ],
+    [
+     "2026-11-02",
+     54.6
     ]
    ],
    "pcId": 2618178,
    "product": "Pikachu Birthday #24",
    "console": "Pokemon Celebrations",
-   "grade9": 52.19,
-   "ungraded": 30.99,
-   "psa10": 185.5,
-   "salesVolume": "2932",
-   "date": "2026-11-01",
+   "grade9": 54.6,
+   "ungraded": 29.5,
+   "psa10": 187.25,
+   "salesVolume": "3051",
+   "date": "2026-11-02",
    "label": "unverified: PriceCharting graded-price (PSA 9 field), not CGC-specific, not checked against sold listings"
   }
  },
- "generated": "2026-11-01"
+ "generated": "2026-11-02"
 }
