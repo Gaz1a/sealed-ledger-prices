@@ -1,13 +1,15 @@
 {
- "checked": "2026-11-01T15:15:01Z",
+ "checked": "2026-11-02T18:26:41Z",
  "feeds": [
   {
    "feed": "untracked_sealed.json",
    "generated": "2026-10-26T09:31:04Z",
-   "ageDays": 6.2,
+   "ageDays": 7.4,
    "maxAgeDays": 7,
-   "status": "ok"
+   "status": "STALE"
   }
  ],
- "stale": []
+ "stale": [
+  "untracked_sealed.json"
+ ]
 }
