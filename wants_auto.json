@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01",
+ "generated": "2026-11-02",
  "source": "Pokémon TCG Ledger, synced daily by the Tracker task via the Ledger sync form",
  "items": {
   "bs-maintenance": {
@@ -184,12 +184,12 @@
   },
   "k-003": {
    "title": "Venusaur 15/102 (holo)",
-   "kind": "kanto",
+   "cond": "nm",
    "set": "Base Set",
+   "target": 121.91,
+   "kind": "kanto",
    "tcgProductId": "42355",
    "market": 161.06,
-   "target": 142.95,
-   "cond": "nm",
    "status": "want"
   },
   "gy-ancient-origins-21-98": {
@@ -1982,16 +1982,6 @@
    "cond": "nm",
    "status": "want"
   },
-  "w-516576": {
-   "title": "Charizard ex Premium Collection Box (2023)",
-   "kind": "items",
-   "set": "Charizard ex Premium Collection",
-   "tcgProductId": 516576,
-   "market": 100.25,
-   "target": 92.34,
-   "cond": "sealed",
-   "status": "watch"
-  },
   "kg-604865": {
    "title": "[JP] Gyarados 002/015 (Garchomp Half Deck) · Holofoil",
    "kind": "singles",
@@ -3163,6 +3153,6 @@
    "status": "watch"
   }
  },
- "payloadDate": "2026-11-01",
- "batch": "20261101-0857"
+ "payloadDate": "2026-11-02",
+ "batch": "20261102-0925"
 }
