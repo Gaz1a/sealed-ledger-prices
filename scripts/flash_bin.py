@@ -15,7 +15,7 @@ Uses ~1 search call per want per run (~700/day), inside the 5,000/day Browse API
 import datetime, json, os, re, subprocess, sys, time, urllib.parse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from scan_ebay_wants import (NOISE, UNGRADED, get, has_num, nm_check, parse, price_of,  # noqa: E402
+from scan_ebay_wants import (NOISE, variant_ok, UNGRADED, get, has_num, nm_check, parse, price_of,  # noqa: E402
                              search, seller_ok, ship_of, token)
 from scan_ebay_sealed import BAD_WORDS, NEW_CONDITION  # noqa: E402
 
@@ -45,8 +45,6 @@ def words(s):
             if w.lower() not in {"pokemon", "the", "and", "box", "with", "pack", "packs", "card", "cards", "tcg"}]
 
 
-LANG = re.compile(r"\bjapanese\b|\bjapan\b|\bjpn?\b|\bkorean\b|\bchinese\b|\bs-chinese\b|\bt-chinese\b|\bthai\b|\bindonesian\b", re.I)
-REPRINT = re.compile(r"celebrations?|classic collection|25th|30th|anniversary|evolutions|reprint|base set 2|legendary collection", re.I)
 JUNK = re.compile(r"choose your|you pick|pick your|\bsleeves?\b|acrylic|protector|\bcase\b|magnetic|display stand|\bempty\b|"
                   r"\bproxy\b|\bcoin\b|\bdice\b|\bmetal\b|\bgold\b|playmat|binder|\blot\b", re.I)
 TYPES = [("booster box", r"booster box|booster display|display box|\b36 packs?\b"),
@@ -62,28 +60,6 @@ def ptype(text):
         if re.search(rx, t):
             return name
     return None
-
-
-def variant_ok(want, listing):
-    """Reject the wrong print: reverse vs non-reverse, edition, shadowless, reprints, language."""
-    w, l = want.lower(), listing.lower()
-    if ("reverse" in w) != ("reverse" in l):
-        return False
-    if "1st edition" in w and not re.search(r"1st|first", l):
-        return False
-    if "1st edition" not in w and re.search(r"\b1st ed|first edition|1st edition", l):
-        return False
-    if "shadowless" in w and "shadowless" not in l:
-        return False
-    if "shadowless" not in w and "shadowless" in l and "unlimited" not in w:
-        return False
-    if not REPRINT.search(w):
-        if REPRINT.search(l):
-            return False
-    jp_w = bool(re.search(r"\[jp\]|japanese", w))
-    if bool(LANG.search(l)) != jp_w:
-        return False
-    return True
 
 
 def main():

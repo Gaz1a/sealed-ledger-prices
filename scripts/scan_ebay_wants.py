@@ -97,6 +97,36 @@ def ship_of(h):
 def has_num(text, num):
     return bool(num) and re.search(r"(?<![\w/])" + re.escape(num) + r"(?![\w/])", text, re.I) is not None
 
+LANG = re.compile(r"\bjapanese\b|\bjapan\b|\bjpn?\b|\bkorean\b|\bchinese\b|\bs-chinese\b|\bt-chinese\b|\bthai\b|\bindonesian\b", re.I)
+REPRINT = re.compile(r"celebrations?|classic collection|25th|30th|anniversary|evolutions|reprint|base set 2|legendary collection", re.I)
+SPECIAL = [r"cosmos", r"\bstamp(ed)?\b", r"pre-?release", r"\bstaff\b", r"misprint|error card"]
+
+
+def variant_ok(want, listing):
+    """Reject the wrong print: reverse vs non-reverse, edition, shadowless, reprints, language."""
+    w, l = want.lower(), listing.lower()
+    if ("reverse" in w) != ("reverse" in l):
+        return False
+    if "1st edition" in w and not re.search(r"1st|first", l):
+        return False
+    if "1st edition" not in w and re.search(r"\b1st ed|first edition|1st edition", l):
+        return False
+    if "shadowless" in w and "shadowless" not in l:
+        return False
+    if "shadowless" not in w and "shadowless" in l and "unlimited" not in w:
+        return False
+    if not REPRINT.search(w):
+        if REPRINT.search(l):
+            return False
+    for m in SPECIAL:   # special prints: cosmos holo, stamped, prerelease, staff, error
+        if bool(re.search(m, w)) != bool(re.search(m, l)):
+            return False
+    jp_w = bool(re.search(r"\[jp\]|japanese", w))
+    if bool(LANG.search(l)) != jp_w:
+        return False
+    return True
+
+
 def search(q, H, filt, limit=50, offset=0, sort="newlyListed"):
     url = ("https://api.ebay.com/buy/browse/v1/item_summary/search?q=" + urllib.parse.quote(q) +
            "&filter=" + urllib.parse.quote(filt) + f"&limit={limit}&offset={offset}&sort={sort}")
@@ -133,6 +163,7 @@ def main():
             if is_j(wid) and not re.search(r"jumbo|oversize", t, re.I): continue
             if w["name"].lower() not in t.lower(): continue
             if w["num"] and not has_num(t, w["num"]): continue
+            if not is_j(wid) and not variant_ok(w["title"], t): continue   # wrong print (reverse, cosmos, edition, reprint, language)
             if not w["num"] and not all(x.lower() in t.lower() for x in re.findall(r"[A-Za-z]{3,}", w["clean"])[:3]): continue
             sh = ship_of(h); price = price_of(h)
             if price is None: continue
