@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T19:56:42Z",
+ "generated": "2026-11-03T17:31:53Z",
  "currency": {
   "cm": "EUR",
   "tcg": "USD"
@@ -99,7 +99,7 @@
   },
   "gy-dragon-majesty-20-70": {
    "cnId": 26498,
-   "finish": null,
+   "finish": "Foil",
    "cm": {},
    "tcg": {}
   },
@@ -129,7 +129,7 @@
   },
   "gy-ex-firered-leafgreen-ex-109-112": {
    "cnId": 17449,
-   "finish": null,
+   "finish": "Standard",
    "cm": {},
    "tcg": {}
   },
@@ -657,7 +657,7 @@
   },
   "k-071": {
    "cnId": 17176,
-   "finish": null,
+   "finish": "Foil",
    "cm": {},
    "tcg": {}
   },
@@ -1659,7 +1659,7 @@
   },
   "gy-dragon-majesty-20-70-rev": {
    "cnId": 26498,
-   "finish": null,
+   "finish": "Foil",
    "cm": {},
    "tcg": {}
   },
@@ -2829,7 +2829,7 @@
   },
   "kg-85997": {
    "cnId": 24684,
-   "finish": "Standard",
+   "finish": null,
    "cm": {},
    "tcg": {}
   },
@@ -3009,7 +3009,7 @@
   },
   "radar-282401": {
    "cnId": 223353,
-   "finish": "Standard",
+   "finish": null,
    "cm": {},
    "tcg": {}
   },
@@ -3057,13 +3057,13 @@
   },
   "c30-upc": {
    "cnId": 251592,
-   "finish": "Standard",
+   "finish": null,
    "cm": {},
    "tcg": {}
   },
   "c30-upc-night": {
    "cnId": 251593,
-   "finish": "Standard",
+   "finish": null,
    "cm": {},
    "tcg": {}
   },
@@ -3111,6 +3111,12 @@
   },
   "w-516576": {
    "cnId": 223011,
+   "finish": null,
+   "cm": {},
+   "tcg": {}
+  },
+  "rp-712097": {
+   "cnId": 362501,
    "finish": null,
    "cm": {},
    "tcg": {}
