@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02",
+ "generated": "2026-11-03",
  "source": "Pokémon TCG Ledger, synced daily by the Tracker task via the Ledger sync form",
  "items": {
   "bs-maintenance": {
@@ -3151,8 +3151,14 @@
    "target": 0,
    "cond": "nm",
    "status": "watch"
+  },
+  "w-kr-magikarp-special-set": {
+   "title": "Magikarp Special Set (Korean)",
+   "cond": "sealed",
+   "set": "Korean",
+   "target": 190.0
   }
  },
- "payloadDate": "2026-11-02",
- "batch": "20261102-0925"
+ "payloadDate": "2026-11-03",
+ "batch": "20261103-0856"
 }
