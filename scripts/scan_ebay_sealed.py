@@ -86,6 +86,13 @@ def load(name, default):
 def build_queries():
     """One query per tracked sealed item + top radar candidates, deduped."""
     seen_titles, queries = set(), []
+    # Manual extra searches (data/extra_sealed.json) for wants that need a specific eBay query
+    # (non-English products, items with no TCGplayer id). They run first so the cap never drops them.
+    extra_ids = set()
+    for x in (load("data/extra_sealed.json", {}).get("queries") or []):
+        if x.get("q"):
+            seen_titles.add(x["q"].lower()); extra_ids.add(x.get("ledgerId"))
+            queries.append({"q": x["q"], "source": "want", "ledgerId": x.get("ledgerId"), "target": x.get("target")})
 
     wa = load("wants_auto.json", {})
     fresh = False
@@ -100,6 +107,8 @@ def build_queries():
                 if v.get("cond") == "sealed" and not k.startswith(("bk-", "jumbo-"))]
         rows.sort(key=lambda kv: -(kv[1].get("target") or kv[1].get("market") or 0))
         for lid, v in rows:
+            if lid in extra_ids:
+                continue
             title = (v.get("title") or "").strip()
             set_name = v.get("set") or item_sets.get(lid, "")
             q = f"{set_name} {title}".strip() if set_name and set_name.lower() not in title.lower() else title
