@@ -1,6 +1,10 @@
 {
- "idsChecked": 960,
+ "idsChecked": 961,
  "missing": [
+  {
+   "id": "rp-712097",
+   "reason": "no source configured in ledger_image_map.json"
+  },
   {
    "id": "s-rayq-sir",
    "reason": "tcgplayer 728061: no image"
