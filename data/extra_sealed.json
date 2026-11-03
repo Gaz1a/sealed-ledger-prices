@@ -2,7 +2,7 @@
  "note": "Extra eBay searches for sealed wants the want-list query can't find well (non-English, no TCGplayer id). ledgerId links hits to the ledger row.",
  "queries": [
   {
-   "q": "Magikarp Special Set Korean",
+   "q": "MEGA Magikarp Special Set Korean",
    "ledgerId": "w-kr-magikarp-special-set",
    "target": null
   },
@@ -15,43 +15,50 @@
    "q": "30th Celebration Korean booster box",
    "ledgerId": null,
    "target": null,
-   "tag": "intl-30th"
+   "tag": "intl-30th",
+   "source": "rip"
   },
   {
    "q": "30th Celebration Korean Premium Deck Set Espeon Umbreon",
    "ledgerId": null,
    "target": null,
-   "tag": "intl-30th"
+   "tag": "intl-30th",
+   "source": "rip"
   },
   {
    "q": "30th Celebration Traditional Chinese booster box",
    "ledgerId": null,
    "target": null,
-   "tag": "intl-30th"
+   "tag": "intl-30th",
+   "source": "rip"
   },
   {
    "q": "30th Celebration Simplified Chinese gift box",
    "ledgerId": null,
    "target": null,
-   "tag": "intl-30th"
+   "tag": "intl-30th",
+   "source": "rip"
   },
   {
    "q": "30th Celebration Thai booster box",
    "ledgerId": null,
    "target": null,
-   "tag": "intl-30th"
+   "tag": "intl-30th",
+   "source": "rip"
   },
   {
    "q": "30th Celebration Indonesian booster box",
    "ledgerId": null,
    "target": null,
-   "tag": "intl-30th"
+   "tag": "intl-30th",
+   "source": "rip"
   },
   {
    "q": "포켓몬 30th CELEBRATION 박스",
    "ledgerId": null,
    "target": null,
-   "tag": "intl-30th"
+   "tag": "intl-30th",
+   "source": "rip"
   }
  ]
 }

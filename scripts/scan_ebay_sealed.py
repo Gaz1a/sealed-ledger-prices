@@ -92,7 +92,7 @@ def build_queries():
     for x in (load("data/extra_sealed.json", {}).get("queries") or []):
         if x.get("q"):
             seen_titles.add(x["q"].lower()); extra_ids.add(x.get("ledgerId"))
-            queries.append({"q": x["q"], "source": "want", "ledgerId": x.get("ledgerId"), "target": x.get("target")})
+            queries.append({"q": x["q"], "source": x.get("source", "want"), "ledgerId": x.get("ledgerId"), "target": x.get("target")})
 
     wa = load("wants_auto.json", {})
     fresh = False
