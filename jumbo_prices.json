@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T20:53:30Z",
+ "generated": "2026-11-04T21:04:31Z",
  "items": {
   "j-None-paldean-fates-great-tusk-ex-iron-treads-ex-premium-collection-en": {
    "title": "Paldean Fates Great Tusk ex & Iron Treads ex Premium Collection",
@@ -75043,6 +75043,10 @@
     "productId": 155061,
     "history": [
      [
+      "2026-11-02",
+      299.99
+     ],
+     [
       "2026-11-03",
       299.99
      ]
@@ -75053,7 +75057,16 @@
     "date": "2026-11-04",
     "note": "no priced row today",
     "low": 299.99,
-    "subType": "Normal"
+    "subType": "Normal",
+    "ownFrom": "2026-11-03",
+    "historySources": {
+     "ppt": {
+      "points": 1,
+      "from": "2026-11-02",
+      "to": "2026-11-02"
+     },
+     "own": "daily tcgcsv scan from 2026-11-03"
+    }
    },
    "card": {
     "productId": 155600,
