@@ -2,6 +2,9 @@ name: Photo check (raw-card candidates)
 on:
   schedule:
     - cron: "50 */3 * * *"   # 30 min after each flash scan; also covers the 12:50 UTC wants scan
+  workflow_run:   # GitHub cron runs hours late, so also run straight after every flash scan
+    workflows: ["Flash bargains (every 3 hours)"]
+    types: [completed]
   workflow_dispatch:
 permissions:
   contents: write
