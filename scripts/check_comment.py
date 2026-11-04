@@ -39,7 +39,8 @@ try:
     m = json.load(open(log))
 except Exception:
     m = {"checks": []}
-m["checks"] = [c for c in m["checks"] if c.get("issue") != int(issue)] + [{
+keep = (lambda c: c.get("issue") != int(issue)) if int(issue) > 0 else (lambda c: c.get("itemId") != iid)   # manual dispatches all have issue 0
+m["checks"] = [c for c in m["checks"] if keep(c)] + [{
     "issue": int(issue), "checked": d["generated"], "itemId": iid, "url": x.get("url"), "title": x.get("title"), "price": x.get("price"),
     "graderP8": p8, "graderGrade": x.get("graderGrade"), "flags": x.get("flags", []), "sheet": sheet, "visualVerdict": None}]
 m["checks"] = m["checks"][-200:]
