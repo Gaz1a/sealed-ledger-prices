@@ -1,12 +1,45 @@
 {
- "generated": "2026-11-04",
+ "generated": "2026-11-05",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (20 entries, 1 new matches)",
+  "googlenews-reprint": "ok (27 entries, 3 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
+  {
+   "id": "1ab53e3e8740",
+   "feed": "googlenews-reprint",
+   "title": "Major Pokémon Center TCG Orders Delayed At The Last Minute - Polygon.com",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNajlHbjc0ckpISGdTQW9RMm56eE8tTHo3enIwNkw1b1FuUEEwVWtrR3VnSmpWNHF6cm5ZR0Y4UlN6bHV3NnJYc0pQU3VQckdibVZTWXRtMnUxSU9JMUZwdHFUeWtRbmJSZ2d0NVk0T0x0ek5Ua09kU3FITFBvYWhUVmxEX1FZUVlYVENlZHFyaXh4M0JBRXZn?oc=5",
+   "published": "2026-11-05",
+   "firstSeen": "2026-11-05",
+   "classes": [
+    "delay"
+   ],
+   "matched": [
+    "delay",
+    "delayed"
+   ]
+  },
+  {
+   "id": "773e003a2daa",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon TCG Delta Reign preorders delayed over checkout bug - Wargamer",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQckNzZ0FnVUVmY1R2QUVUa25Sbjk3Ymo4Z09RS3RrMHB4dzNmX3BvV0tyNEwwWHhVeTRNMk5LYks3NU1lZHJwd3ZKbEY4VzVvMk9sSFpTU0JEZHdBSFBKZGE4OFItaWVJSVB5Umx4RjBlNlgwenB2SHJuVzQzV3NacklfbEo?oc=5",
+   "published": "2026-11-05",
+   "firstSeen": "2026-11-05",
+   "classes": [
+    "preorder",
+    "delay"
+   ],
+   "matched": [
+    "preorder",
+    "delay",
+    "delayed",
+    "delta reign"
+   ]
+  },
   {
    "id": "70e5cea9d43e",
    "feed": "googlenews-reprint",
@@ -18,6 +51,18 @@
    "matched": [
     "elite trainer",
     "30th celebration"
+   ]
+  },
+  {
+   "id": "35828746d53b",
+   "feed": "googlenews-reprint",
+   "title": "Now Live! Walmart's Limited-Time Lottery Has Pokémon Ascended Heroes ETBs for Less Than $100 - SheKnows",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNkVBdE8xS3lMOHQ4ZHdmRmNTbUlDMF9JWHU2b3Q0UGpFeWV0WUF6dnJab2xJMEkxUWVIMl9ldjQ2bHZhTlc0TXk0QXpZWU9ob2Vqa3UxX0ZxSkJVajJQZHMtOE45Mm5FZnVJaFdnS19jRU1oOFp0eS11VUFYa19KMkF6WGQtZllCaW90eTBPNUdHRjBYMWxz?oc=5",
+   "published": "2026-10-28",
+   "firstSeen": "2026-11-05",
+   "classes": [],
+   "matched": [
+    "ascended heroes"
    ]
   },
   {
