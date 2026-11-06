@@ -8897,12 +8897,9 @@
   "file": "images/s-rayq-sir.webp",
   "tcgdexId": null,
   "matched": true,
-  "source": "manual-url",
+  "source": "tcgplayer",
   "kind": "sv-card",
-  "sourceUrl": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpc/M6/M6_110_R_JP.png",
-  "manual": true,
-  "label": "Japanese edition image",
-  "provisional": true
+  "tcgProductId": 728061
  },
  "s12-box": {
   "file": "images/s12-box.webp",
