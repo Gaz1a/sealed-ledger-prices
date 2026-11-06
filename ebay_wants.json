@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-05",
+ "generated": "2026-11-06",
  "wantsSource": "wants_auto.json",
  "wants": 296,
- "queries": 222,
+ "queries": 223,
  "singles": [
   {
    "wantId": "kg-86005-normal",
@@ -35,26 +35,25 @@
    "want": "Gyarados G 30/127 (Platinum) \u00b7 Normal",
    "market": 12.73,
    "target": 11.46,
-   "title": "GYARADOS G 30/127 R PLATINUM POKEMON NM/M",
-   "url": "https://www.ebay.com/itm/377193604661?_skw=Gyarados+G+30%2F127&hash=item57d27da635:g:bVIAAeSwO6VqC2i2",
-   "price": 11.99,
-   "shipping": 0.0,
-   "shipUnknown": false,
-   "allIn": 11.99,
-   "underTarget": false,
+   "title": "Gyarados G 30/127 Platinum Regular",
+   "url": "https://www.ebay.com/itm/820312750988?_skw=Gyarados+G+30%2F127&hash=itembefe733b8c:g:gBUAAeSwqd1q6o4P",
+   "price": 10.0,
+   "shipping": null,
+   "shipUnknown": true,
+   "allIn": 10.0,
+   "underTarget": true,
    "buyingOptions": [
-    "FIXED_PRICE",
-    "BEST_OFFER"
+    "FIXED_PRICE"
    ],
    "bids": null,
    "itemEndDate": null,
    "condition": "Ungraded",
    "nmVerified": true,
    "itemLocation": "US",
-   "seller": "sushigradetcg",
-   "feedbackPct": "99.3",
-   "feedbackScore": 149,
-   "image": "https://i.ebayimg.com/images/g/bVIAAeSwO6VqC2i2/s-l225.jpg"
+   "seller": "bentpokemon",
+   "feedbackPct": "100.0",
+   "feedbackScore": 50,
+   "image": "https://i.ebayimg.com/images/g/gBUAAeSwqd1q6o4P/s-l225.jpg"
   },
   {
    "wantId": "k-003",
@@ -78,8 +77,58 @@
    "itemLocation": "US",
    "seller": "highnooncomics",
    "feedbackPct": "100.0",
-   "feedbackScore": 2392,
+   "feedbackScore": 2393,
    "image": "https://i.ebayimg.com/images/g/hcUAAeSwVYZpbAJB/s-l225.jpg"
+  },
+  {
+   "wantId": "gy-call-of-legends-7-95-rev",
+   "want": "Gyarados 7/95 Reverse Holo (Holo Rare)",
+   "market": 142.5,
+   "target": 121.12,
+   "title": "Gyarados - 7/95 - Pokemon Call of Legends Reverse Holo Card! NM",
+   "url": "https://www.ebay.com/itm/198775640894?_skw=Gyarados+7%2F95&hash=item2e47f3933e:g:O80AAeSwTARq7PkD",
+   "price": 103.97,
+   "shipping": 7.12,
+   "shipUnknown": false,
+   "allIn": 111.09,
+   "underTarget": true,
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "bids": null,
+   "itemEndDate": null,
+   "condition": "Ungraded",
+   "nmVerified": true,
+   "itemLocation": "CA",
+   "seller": "poke_canada",
+   "feedbackPct": "99.4",
+   "feedbackScore": 47076,
+   "image": "https://i.ebayimg.com/images/g/O80AAeSwTARq7PkD/s-l225.jpg"
+  },
+  {
+   "wantId": "kg-118775",
+   "want": "Dark Gyarados (Prerelease) 08/82 (WoTC Promo) \u00b7 Holofoil",
+   "market": 34.44,
+   "target": 31.0,
+   "title": "Dark Gyarados (Prerelease) 08/82 Wotc Promo Holo - NM - Fart Swirl \ud83c\udf00 \ud83d\udcab (READ)",
+   "url": "https://www.ebay.com/itm/860104175279?_skw=Dark+Gyarados+08%2F82&hash=itemc842342eaf:g:Hj8AAeSwD1xq56LX",
+   "price": 20.0,
+   "shipping": 4.99,
+   "shipUnknown": false,
+   "allIn": 24.99,
+   "underTarget": true,
+   "buyingOptions": [
+    "AUCTION"
+   ],
+   "bids": 5,
+   "itemEndDate": "2026-11-08T20:37:41.000Z",
+   "condition": "Ungraded",
+   "nmVerified": true,
+   "itemLocation": "US",
+   "seller": "thegrateful.poke",
+   "feedbackPct": "100.0",
+   "feedbackScore": 362,
+   "image": "https://i.ebayimg.com/images/g/Hj8AAeSwD1xq56LX/s-l225.jpg"
   },
   {
    "wantId": "kg-118775",
@@ -103,34 +152,8 @@
    "itemLocation": "US",
    "seller": "highland.express.collectibles",
    "feedbackPct": "98.3",
-   "feedbackScore": 3508,
+   "feedbackScore": 3544,
    "image": "https://i.ebayimg.com/images/g/-BoAAeSwBFtqbiTw/s-l225.jpg"
-  },
-  {
-   "wantId": "kg-118775",
-   "want": "Dark Gyarados (Prerelease) 08/82 (WoTC Promo) \u00b7 Holofoil",
-   "market": 34.44,
-   "target": 31.0,
-   "title": "Dark Gyarados (Prerelease) 08/82 Wotc Promo Holo",
-   "url": "https://www.ebay.com/itm/206658194574?_skw=Dark+Gyarados+08%2F82&hash=item301dc9cc8e:g:TNQAAeSwA2Zq4QS4",
-   "price": 35.0,
-   "shipping": null,
-   "shipUnknown": true,
-   "allIn": 35.0,
-   "underTarget": false,
-   "buyingOptions": [
-    "FIXED_PRICE",
-    "BEST_OFFER"
-   ],
-   "bids": null,
-   "itemEndDate": null,
-   "condition": "Ungraded",
-   "nmVerified": true,
-   "itemLocation": "US",
-   "seller": "mr.underbank",
-   "feedbackPct": "99.1",
-   "feedbackScore": 2743,
-   "image": "https://i.ebayimg.com/images/g/TNQAAeSwA2Zq4QS4/s-l225.jpg"
   },
   {
    "wantId": "kg-226912",
@@ -179,7 +202,7 @@
    "itemLocation": "US",
    "seller": "far-and-wide-tcg",
    "feedbackPct": "99.5",
-   "feedbackScore": 382,
+   "feedbackScore": 386,
    "image": "https://i.ebayimg.com/images/g/J4cAAeSwDeJq2VTG/s-l225.jpg"
   },
   {
@@ -205,7 +228,7 @@
    "itemLocation": "US",
    "seller": "papajoeyscollectibles",
    "feedbackPct": "99.6",
-   "feedbackScore": 1695,
+   "feedbackScore": 1696,
    "image": "https://i.ebayimg.com/images/g/d40AAeSwMstq6lW8/s-l225.jpg"
   },
   {
@@ -230,14 +253,14 @@
    "itemLocation": "US",
    "seller": "undercovercomicbooks",
    "feedbackPct": "100.0",
-   "feedbackScore": 11150,
+   "feedbackScore": 11157,
    "image": "https://i.ebayimg.com/images/g/5vUAAeSwJK9ql2RX/s-l225.jpg"
   },
   {
    "wantId": "gy-team-rocket-dark-gyarados-8-82",
    "want": "Gyarados 8/82 (Holo Rare)",
-   "market": 75.25,
-   "target": 67.73,
+   "market": 75.51,
+   "target": 67.96,
    "title": "Dark Gyarados 8/82 - Team Rocket Pokemon Card (Near Mint) w Swirl",
    "url": "https://www.ebay.com/itm/158125637164?_skw=Gyarados+8%2F82&hash=item24d105be2c:g:0JAAAeSwSApqZ8v-",
    "price": 50.0,
@@ -255,7 +278,7 @@
    "itemLocation": "US",
    "seller": "deal-things",
    "feedbackPct": "98.4",
-   "feedbackScore": 2471,
+   "feedbackScore": 2476,
    "image": "https://i.ebayimg.com/images/g/0JAAAeSwSApqZ8v-/s-l225.jpg"
   },
   {
@@ -283,6 +306,32 @@
    "feedbackPct": "100.0",
    "feedbackScore": 52,
    "image": "https://i.ebayimg.com/images/g/zzgAAeSwUdBq0auF/s-l225.jpg"
+  },
+  {
+   "wantId": "kg-480052",
+   "want": "Gyarados - 2010 (Mychael Bryan) 19/100 (World Championship Decks) \u00b7 Normal",
+   "market": 11.83,
+   "target": 10.65,
+   "title": "Gyarados - 2010 (Mychael Bryan) Rare World Championship Decks 19/100 NM",
+   "url": "https://www.ebay.com/itm/137906145638?_skw=Gyarados+19%2F100&hash=item201bd8c966:g:y8gAAeSw-rZq7SUI",
+   "price": 12.07,
+   "shipping": 0.0,
+   "shipUnknown": false,
+   "allIn": 12.07,
+   "underTarget": false,
+   "buyingOptions": [
+    "FIXED_PRICE",
+    "BEST_OFFER"
+   ],
+   "bids": null,
+   "itemEndDate": null,
+   "condition": "Ungraded",
+   "nmVerified": true,
+   "itemLocation": "US",
+   "seller": "oakleycards",
+   "feedbackPct": "100.0",
+   "feedbackScore": 747,
+   "image": "https://i.ebayimg.com/images/g/y8gAAeSw-rZq7SUI/s-l225.jpg"
   },
   {
    "wantId": "gy-stormfront-19-100",
@@ -333,20 +382,20 @@
    "itemLocation": "US",
    "seller": "aquatictortoisecollectibles",
    "feedbackPct": "99.1",
-   "feedbackScore": 1656,
+   "feedbackScore": 1657,
    "image": "https://i.ebayimg.com/images/g/1TcAAeSwrilpnK2b/s-l225.jpg"
   },
   {
    "wantId": "s-drago-sir",
    "want": "Mega Dragonite ex \u2014 SIR 290/217",
-   "market": 420.86,
-   "target": 336.69,
+   "market": 402.11,
+   "target": 321.69,
    "title": "Pokemon TCG MEGA DRAGONITE EX ASCit 290/217 HEROIC RISE - ITALIAN ITA IT",
    "url": "https://www.ebay.com/itm/287637768141?_skw=Mega+Dragonite+ex+290%2F217&hash=item42f88c07cd:g:h4kAAeSw~KNqyRVo",
-   "price": 224.55,
-   "shipping": 16.84,
+   "price": 224.37,
+   "shipping": 16.83,
    "shipUnknown": false,
-   "allIn": 241.39,
+   "allIn": 241.2,
    "underTarget": true,
    "buyingOptions": [
     "FIXED_PRICE",
@@ -359,7 +408,7 @@
    "itemLocation": "IT",
    "seller": "cotegames",
    "feedbackPct": "99.9",
-   "feedbackScore": 10724,
+   "feedbackScore": 10763,
    "image": "https://i.ebayimg.com/images/g/h4kAAeSw~KNqyRVo/s-l225.jpg"
   },
   {
@@ -369,10 +418,10 @@
    "target": 13.82,
    "title": "Magikarp 23/124 Common Dragons Exalted Pokemon Reverse Holo Near Mint",
    "url": "https://www.ebay.com/itm/287459552440?_skw=Magikarp+23%2F124&hash=item42edecacb8:g:VHUAAeSw9h1qVXgj",
-   "price": 14.35,
+   "price": 14.31,
    "shipping": 0.36,
    "shipUnknown": false,
-   "allIn": 14.71,
+   "allIn": 14.67,
    "underTarget": false,
    "buyingOptions": [
     "FIXED_PRICE"
@@ -390,14 +439,14 @@
   {
    "wantId": "kg-591880",
    "want": "Magikarp 006/032 (Pokemon TCG Classic: Blastoise) \u00b7 Holofoil",
-   "market": 11.94,
-   "target": 10.75,
+   "market": 11.98,
+   "target": 10.78,
    "title": "Magikarp 006/032 Pokemon TCG Classic Blastoise Holo NM",
    "url": "https://www.ebay.com/itm/366736179845?_skw=Magikarp+006%2F032&hash=item55632e0285:g:qTUAAeSwdYBq0QsC",
-   "price": 10.72,
+   "price": 10.69,
    "shipping": null,
    "shipUnknown": true,
-   "allIn": 10.72,
+   "allIn": 10.69,
    "underTarget": true,
    "buyingOptions": [
     "FIXED_PRICE",
@@ -410,7 +459,7 @@
    "itemLocation": "CA",
    "seller": "sidequestsupplyco",
    "feedbackPct": "100.0",
-   "feedbackScore": 225,
+   "feedbackScore": 226,
    "image": "https://i.ebayimg.com/images/g/qTUAAeSwdYBq0QsC/s-l225.jpg"
   },
   {
@@ -436,7 +485,7 @@
    "itemLocation": "US",
    "seller": "llbigjtcg",
    "feedbackPct": "99.2",
-   "feedbackScore": 340,
+   "feedbackScore": 341,
    "image": "https://i.ebayimg.com/images/g/jGUAAeSwWg9qkVZl/s-l225.jpg"
   },
   {
@@ -462,7 +511,7 @@
    "itemLocation": "US",
    "seller": "jam3850",
    "feedbackPct": "99.9",
-   "feedbackScore": 25900,
+   "feedbackScore": 25923,
    "image": "https://i.ebayimg.com/images/g/dakAAeSweElpvivR/s-l225.jpg"
   },
   {
@@ -514,7 +563,7 @@
    "itemLocation": "US",
    "seller": "argel_tal",
    "feedbackPct": "100.0",
-   "feedbackScore": 988,
+   "feedbackScore": 990,
    "image": "https://i.ebayimg.com/images/g/FDIAAeSwXYxqpdZX/s-l225.jpg"
   },
   {
@@ -565,8 +614,8 @@
    "nmVerified": true,
    "itemLocation": "CA",
    "seller": "chamaxcards",
-   "feedbackPct": "98.6",
-   "feedbackScore": 11814,
+   "feedbackPct": "98.4",
+   "feedbackScore": 11813,
    "image": "https://i.ebayimg.com/images/g/NmcAAeSwsyhqSAiC/s-l225.jpg"
   },
   {
@@ -591,7 +640,7 @@
    "itemLocation": "US",
    "seller": "watchman7119",
    "feedbackPct": "99.5",
-   "feedbackScore": 9701,
+   "feedbackScore": 9731,
    "image": "https://i.ebayimg.com/images/g/~70AAeSwgNJpXj8y/s-l225.jpg"
   },
   {
@@ -599,25 +648,25 @@
    "want": "Gyarados GX (Full Art) 101/111 (SM - Crimson Invasion) \u00b7 Holofoil",
    "market": 27.78,
    "target": 25.0,
-   "title": "Gyarados GX (Full Art) 101/111 Sm-Crimson Invasion Holo",
-   "url": "https://www.ebay.com/itm/168838979051?_skw=Gyarados+GX+101%2F111&hash=item274f965deb:g:pOkAAeSwCZlq4Po~",
-   "price": 25.0,
-   "shipping": null,
-   "shipUnknown": true,
-   "allIn": 25.0,
-   "underTarget": true,
+   "title": "Gyarados GX - 101/111 - Pokemon Crimson Invasion Sun Moon Full Art Card NM  Mint",
+   "url": "https://www.ebay.com/itm/237156687851?_skw=Gyarados+GX+101%2F111&hash=item3737a3dfeb:g:4uQAAeSweYFq5~LE",
+   "price": 20.0,
+   "shipping": 7.0,
+   "shipUnknown": false,
+   "allIn": 27.0,
+   "underTarget": false,
    "buyingOptions": [
-    "AUCTION"
+    "FIXED_PRICE"
    ],
-   "bids": 0,
-   "itemEndDate": "2026-11-11T20:30:17.000Z",
+   "bids": null,
+   "itemEndDate": null,
    "condition": "Ungraded",
    "nmVerified": true,
    "itemLocation": "US",
-   "seller": "thecollectors222",
+   "seller": "retroantiquesandoddities",
    "feedbackPct": "100.0",
-   "feedbackScore": 61,
-   "image": "https://i.ebayimg.com/images/g/pOkAAeSwCZlq4Po~/s-l225.jpg"
+   "feedbackScore": 562,
+   "image": "https://i.ebayimg.com/images/g/4uQAAeSweYFq5~LE/s-l225.jpg"
   },
   {
    "wantId": "kg-527992",
@@ -625,7 +674,7 @@
    "market": 15.63,
    "target": 14.07,
    "title": "Gyarados Holofoil EN [CL - 007/034] NM",
-   "url": "https://www.ebay.com/itm/336759924239?_skw=Gyarados+007%2F034&hash=item4e6874a60f:g:f04AAeSwXQFq5ckt",
+   "url": "https://www.ebay.com/itm/336759924239?_skw=Gyarados+007%2F034&hash=item4e6874a60f:g:F7kAAeSw-hpq7WZL",
    "price": 15.63,
    "shipping": null,
    "shipUnknown": true,
@@ -642,8 +691,8 @@
    "itemLocation": "US",
    "seller": "hiddenmachine602",
    "feedbackPct": "100.0",
-   "feedbackScore": 4548,
-   "image": "https://i.ebayimg.com/images/g/f04AAeSwXQFq5ckt/s-l225.jpg"
+   "feedbackScore": 4588,
+   "image": "https://i.ebayimg.com/images/g/F7kAAeSw-hpq7WZL/s-l225.jpg"
   },
   {
    "wantId": "kg-527992",
@@ -694,7 +743,7 @@
    "itemLocation": "US",
    "seller": "mayt_9425",
    "feedbackPct": "100.0",
-   "feedbackScore": 127,
+   "feedbackScore": 132,
    "image": "https://i.ebayimg.com/images/g/cfAAAeSw0olqL3U9/s-l225.jpg"
   },
   {
@@ -720,7 +769,7 @@
    "itemLocation": "US",
    "seller": "cachecollectibletrading",
    "feedbackPct": "100.0",
-   "feedbackScore": 87,
+   "feedbackScore": 90,
    "image": "https://i.ebayimg.com/images/g/kiEAAeSwxc5qzu46/s-l225.jpg"
   },
   {
@@ -745,7 +794,7 @@
    "itemLocation": "US",
    "seller": "evolution.vault",
    "feedbackPct": "99.9",
-   "feedbackScore": 1617,
+   "feedbackScore": 1625,
    "image": "https://i.ebayimg.com/images/g/tIEAAeSw-95qljEs/s-l225.jpg"
   },
   {
@@ -770,20 +819,45 @@
    "itemLocation": "US",
    "seller": "bjornshoptcg",
    "feedbackPct": "100.0",
-   "feedbackScore": 6842,
+   "feedbackScore": 6856,
    "image": "https://i.ebayimg.com/images/g/GB8AAeSwTGBpwdQ~/s-l225.jpg"
   },
   {
    "wantId": "kg-527991",
    "want": "Magikarp 006/034 (Trading Card Game Classic) \u00b7 Holofoil",
-   "market": 10.04,
-   "target": 9.04,
-   "title": "2023 Pokemon Magikarp 006/034 Trading Card Game Classic Holo",
-   "url": "https://www.ebay.com/itm/880073648592?_skw=Magikarp+006%2F034&hash=itemcce87a29d0:g:zN8AAeSwk3xq5-2k",
-   "price": 9.99,
-   "shipping": null,
-   "shipUnknown": true,
-   "allIn": 9.99,
+   "market": 9.94,
+   "target": 9.94,
+   "title": "Pokemon TCG Classic \"Magikarp\" CLB 006/034 / Holo Rare / Near Mint",
+   "url": "https://www.ebay.com/itm/800566421055?_skw=Magikarp+006%2F034&hash=itemba657a263f:g:8mIAAeSwSytqja36",
+   "price": 10.7,
+   "shipping": 0.0,
+   "shipUnknown": false,
+   "allIn": 10.7,
+   "underTarget": false,
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "bids": null,
+   "itemEndDate": null,
+   "condition": "Ungraded",
+   "nmVerified": true,
+   "itemLocation": "CA",
+   "seller": "matthe-75",
+   "feedbackPct": "100.0",
+   "feedbackScore": 1565,
+   "image": "https://i.ebayimg.com/images/g/8mIAAeSwSytqja36/s-l225.jpg"
+  },
+  {
+   "wantId": "kg-527991",
+   "want": "Magikarp 006/034 (Trading Card Game Classic) \u00b7 Holofoil",
+   "market": 9.94,
+   "target": 9.94,
+   "title": "Trading Card Game Classic #006/034 Magikarp",
+   "url": "https://www.ebay.com/itm/377626798006?_skw=Magikarp+006%2F034&hash=item57ec4fa7b6:g:PREAAeSwdjVq7g4w",
+   "price": 9.95,
+   "shipping": 1.32,
+   "shipUnknown": false,
+   "allIn": 11.27,
    "underTarget": false,
    "buyingOptions": [
     "FIXED_PRICE"
@@ -793,42 +867,16 @@
    "condition": "Ungraded",
    "nmVerified": true,
    "itemLocation": "US",
-   "seller": "sonho158",
+   "seller": "xtremecollector78",
    "feedbackPct": "100.0",
-   "feedbackScore": 1585,
-   "image": "https://i.ebayimg.com/images/g/zN8AAeSwk3xq5-2k/s-l225.jpg"
-  },
-  {
-   "wantId": "kg-527991",
-   "want": "Magikarp 006/034 (Trading Card Game Classic) \u00b7 Holofoil",
-   "market": 10.04,
-   "target": 9.04,
-   "title": "Magikarp 006/034 Trading Card Game Classic Holo",
-   "url": "https://www.ebay.com/itm/389953917771?_skw=Magikarp+006%2F034&hash=item5acb10934b:g:JUgAAeSw5D5p8lek",
-   "price": 10.0,
-   "shipping": null,
-   "shipUnknown": true,
-   "allIn": 10.0,
-   "underTarget": false,
-   "buyingOptions": [
-    "FIXED_PRICE",
-    "BEST_OFFER"
-   ],
-   "bids": null,
-   "itemEndDate": null,
-   "condition": "Ungraded",
-   "nmVerified": true,
-   "itemLocation": "US",
-   "seller": "katruc_39",
-   "feedbackPct": "100.0",
-   "feedbackScore": 77,
-   "image": "https://i.ebayimg.com/images/g/JUgAAeSw5D5p8lek/s-l225.jpg"
+   "feedbackScore": 3335,
+   "image": "https://i.ebayimg.com/images/g/PREAAeSwdjVq7g4w/s-l225.jpg"
   },
   {
    "wantId": "k-049",
    "want": "Venomoth 13/64 (holo)",
-   "market": 36.29,
-   "target": 32.66,
+   "market": 35.95,
+   "target": 32.36,
    "title": "Pokemon Venomoth 13/64 Jungle",
    "url": "https://www.ebay.com/itm/227576302093?_skw=Venomoth+13%2F64&hash=item34fc9aca0d:g:gXQAAeSwKWZq2A73",
    "price": 19.0,
@@ -847,8 +895,34 @@
    "itemLocation": "US",
    "seller": "movingleftovers",
    "feedbackPct": "100.0",
-   "feedbackScore": 214,
+   "feedbackScore": 215,
    "image": "https://i.ebayimg.com/images/g/gXQAAeSwKWZq2A73/s-l225.jpg"
+  },
+  {
+   "wantId": "w-716232",
+   "want": "Jirachi ex 155/128 (SIR)",
+   "market": 30.82,
+   "target": 27.74,
+   "title": "Jirachi ex Holofoil [30C - 155/128]",
+   "url": "https://www.ebay.com/itm/960159552837?_skw=Jirachi+ex+155%2F128&hash=itemdf8df81545:g:CL8AAeSwz-Nq7RJv",
+   "price": 30.82,
+   "shipping": null,
+   "shipUnknown": true,
+   "allIn": 30.82,
+   "underTarget": false,
+   "buyingOptions": [
+    "FIXED_PRICE",
+    "BEST_OFFER"
+   ],
+   "bids": null,
+   "itemEndDate": null,
+   "condition": "Ungraded",
+   "nmVerified": true,
+   "itemLocation": "US",
+   "seller": "dealzandthrillztcg",
+   "feedbackPct": "98.9",
+   "feedbackScore": 88,
+   "image": "https://i.ebayimg.com/images/g/CL8AAeSwz-Nq7RJv/s-l225.jpg"
   },
   {
    "wantId": "kg-84608-normal",
@@ -873,7 +947,7 @@
    "itemLocation": "US",
    "seller": "legendrhyno3",
    "feedbackPct": "100.0",
-   "feedbackScore": 687,
+   "feedbackScore": 688,
    "image": "https://i.ebayimg.com/images/g/jiAAAeSwwIRq6RjM/s-l225.jpg"
   },
   {
@@ -898,7 +972,7 @@
    "itemLocation": "US",
    "seller": "foil_fanatics",
    "feedbackPct": "100.0",
-   "feedbackScore": 182,
+   "feedbackScore": 183,
    "image": "https://i.ebayimg.com/images/g/a00AAeSwYKZq7MrF/s-l225.jpg"
   },
   {
@@ -934,10 +1008,10 @@
    "target": 89.56,
    "title": "Magikarp 75/144 Common Skyridge Pokemon Near Mint",
    "url": "https://www.ebay.com/itm/307172241134?_skw=Magikarp+75%2F144&hash=item4784e46eee:g:UzcAAeSwd6tqot0h",
-   "price": 87.17,
+   "price": 87.03,
    "shipping": null,
    "shipUnknown": true,
-   "allIn": 87.17,
+   "allIn": 87.03,
    "underTarget": true,
    "buyingOptions": [
     "FIXED_PRICE"
@@ -999,7 +1073,7 @@
    "itemLocation": "US",
    "seller": "hamrnchsl07",
    "feedbackPct": "100.0",
-   "feedbackScore": 341,
+   "feedbackScore": 342,
    "image": "https://i.ebayimg.com/images/g/5r8AAeSwm9NpU2W9/s-l225.jpg"
   },
   {
@@ -1050,7 +1124,7 @@
    "itemLocation": "US",
    "seller": "nutmeggamesllc",
    "feedbackPct": "99.3",
-   "feedbackScore": 3968,
+   "feedbackScore": 3979,
    "image": "https://i.ebayimg.com/images/g/Vh8AAeSwxDtq7D0I/s-l225.jpg"
   },
   {
@@ -1075,7 +1149,7 @@
    "itemLocation": "US",
    "seller": "chase_card_collectibles",
    "feedbackPct": "100.0",
-   "feedbackScore": 231,
+   "feedbackScore": 235,
    "image": "https://i.ebayimg.com/images/g/7q8AAeSw7Zdq1slw/s-l225.jpg"
   },
   {
@@ -1100,7 +1174,7 @@
    "itemLocation": "US",
    "seller": "shinytcgtrader",
    "feedbackPct": "100.0",
-   "feedbackScore": 2819,
+   "feedbackScore": 2821,
    "image": "https://i.ebayimg.com/images/g/LSYAAeSwrz5q6T7U/s-l225.jpg"
   },
   {
@@ -1110,10 +1184,10 @@
    "target": 662.98,
    "title": "Pokemon Mew ex 232/091 PAF",
    "url": "https://www.ebay.com/itm/287694656289?_skw=Mew+ex+232%2F091&hash=item42fbf01321:g:WWoAAeSwsKZq5geG",
-   "price": 729.82,
-   "shipping": 22.46,
+   "price": 729.24,
+   "shipping": 22.44,
    "shipUnknown": false,
-   "allIn": 752.28,
+   "allIn": 751.68,
    "underTarget": false,
    "buyingOptions": [
     "FIXED_PRICE"
@@ -1201,58 +1275,8 @@
    "itemLocation": "US",
    "seller": "next_day_cards",
    "feedbackPct": "100.0",
-   "feedbackScore": 427,
+   "feedbackScore": 428,
    "image": "https://i.ebayimg.com/images/g/bpMAAeSwKuRp3CD7/s-l225.jpg"
-  },
-  {
-   "wantId": "mk-ex-deoxys-64-107",
-   "want": "Magikarp 64/107 (Common)",
-   "market": 9.54,
-   "target": 9.54,
-   "title": "Magikarp 64/107 EX Deoxys Regular Common NM",
-   "url": "https://www.ebay.com/itm/237146092519?_skw=Magikarp+64%2F107&hash=item37370233e7:g:L9sAAeSwIR1q4AzE",
-   "price": 7.99,
-   "shipping": null,
-   "shipUnknown": true,
-   "allIn": 7.99,
-   "underTarget": true,
-   "buyingOptions": [
-    "FIXED_PRICE"
-   ],
-   "bids": null,
-   "itemEndDate": null,
-   "condition": "Ungraded",
-   "nmVerified": true,
-   "itemLocation": "US",
-   "seller": "percyspokemart",
-   "feedbackPct": "100.0",
-   "feedbackScore": 245,
-   "image": "https://i.ebayimg.com/images/g/L9sAAeSwIR1q4AzE/s-l225.jpg"
-  },
-  {
-   "wantId": "gy-ex-dragon-32-97",
-   "want": "Gyarados 32/97 (Uncommon)",
-   "market": 20.7,
-   "target": 18.63,
-   "title": "1x Gyarados - 32/97 - Uncommon NM-Mint Pokemon EX - Dragon",
-   "url": "https://www.ebay.com/itm/168827366956?_skw=Gyarados+32%2F97&hash=item274ee52e2c:g:WBwAAeSwFBtq5QzR",
-   "price": 18.73,
-   "shipping": 0.0,
-   "shipUnknown": false,
-   "allIn": 18.73,
-   "underTarget": false,
-   "buyingOptions": [
-    "FIXED_PRICE"
-   ],
-   "bids": null,
-   "itemEndDate": null,
-   "condition": "Ungraded",
-   "nmVerified": true,
-   "itemLocation": "US",
-   "seller": "thewastelandgaming",
-   "feedbackPct": "99.5",
-   "feedbackScore": 135375,
-   "image": "https://i.ebayimg.com/images/g/WBwAAeSwFBtq5QzR/s-l225.jpg"
   },
   {
    "wantId": "gy-ex-dragon-32-97",
@@ -1285,6 +1309,32 @@
    "want": "Gyarados GX (Secret) 112/111 (SM - Crimson Invasion) \u00b7 Holofoil",
    "market": 84.42,
    "target": 75.98,
+   "title": "Gyarados GX 112/111 Rainbow Secret Rare Crimson Invasion Holo 2017 NM",
+   "url": "https://www.ebay.com/itm/267832627481?_skw=Gyarados+GX+112%2F111&hash=item3e5c119119:g:qMQAAeSw14tq6oT4",
+   "price": 75.0,
+   "shipping": 5.62,
+   "shipUnknown": false,
+   "allIn": 80.62,
+   "underTarget": false,
+   "buyingOptions": [
+    "FIXED_PRICE",
+    "BEST_OFFER"
+   ],
+   "bids": null,
+   "itemEndDate": null,
+   "condition": "Ungraded",
+   "nmVerified": true,
+   "itemLocation": "US",
+   "seller": "chunkymeowpokeshop",
+   "feedbackPct": "100.0",
+   "feedbackScore": 242,
+   "image": "https://i.ebayimg.com/images/g/qMQAAeSw14tq6oT4/s-l225.jpg"
+  },
+  {
+   "wantId": "kg-149127",
+   "want": "Gyarados GX (Secret) 112/111 (SM - Crimson Invasion) \u00b7 Holofoil",
+   "market": 84.42,
+   "target": 75.98,
    "title": "Gyarados GX (Secret) 112/111 Sm-Crimson Invasion Holo Rainbow ",
    "url": "https://www.ebay.com/itm/147656960368?_skw=Gyarados+GX+112%2F111&hash=item22610a6970:g:dQkAAeSwWWtq425v",
    "price": 82.0,
@@ -1302,34 +1352,8 @@
    "itemLocation": "US",
    "seller": "collectalldayus2",
    "feedbackPct": "99.0",
-   "feedbackScore": 358,
+   "feedbackScore": 359,
    "image": "https://i.ebayimg.com/images/g/dQkAAeSwWWtq425v/s-l225.jpg"
-  },
-  {
-   "wantId": "kg-149127",
-   "want": "Gyarados GX (Secret) 112/111 (SM - Crimson Invasion) \u00b7 Holofoil",
-   "market": 84.42,
-   "target": 75.98,
-   "title": "Gyarados GX 112/111 Rainbow Secret Rare Crimson Invasion Holo 2017 NM",
-   "url": "https://www.ebay.com/itm/267832627481?_skw=Gyarados+GX+112%2F111&hash=item3e5c119119:g:qMQAAeSw14tq6oT4",
-   "price": 79.99,
-   "shipping": 5.62,
-   "shipUnknown": false,
-   "allIn": 85.61,
-   "underTarget": false,
-   "buyingOptions": [
-    "FIXED_PRICE",
-    "BEST_OFFER"
-   ],
-   "bids": null,
-   "itemEndDate": null,
-   "condition": "Ungraded",
-   "nmVerified": true,
-   "itemLocation": "US",
-   "seller": "chunkymeowpokeshop",
-   "feedbackPct": "100.0",
-   "feedbackScore": 242,
-   "image": "https://i.ebayimg.com/images/g/qMQAAeSw14tq6oT4/s-l225.jpg"
   },
   {
    "wantId": "kg-246732",
@@ -1385,33 +1409,8 @@
   {
    "wantId": "kg-490083",
    "want": "Gyarados ex 225/198 (SV01: Scarlet & Violet Base Set) \u00b7 Holofoil",
-   "market": 9.84,
-   "target": 9.84,
-   "title": "Gyarados ex 225/198 Scarlet Violet Base Set Full Art Ultra Rare Tera Pokemon NM",
-   "url": "https://www.ebay.com/itm/860114943856?_skw=Gyarados+ex+225%2F198&hash=itemc842d87f70:g:1H8AAeSwfotq7DQP",
-   "price": 10.0,
-   "shipping": 0.0,
-   "shipUnknown": false,
-   "allIn": 10.0,
-   "underTarget": false,
-   "buyingOptions": [
-    "FIXED_PRICE"
-   ],
-   "bids": null,
-   "itemEndDate": null,
-   "condition": "Ungraded",
-   "nmVerified": true,
-   "itemLocation": "US",
-   "seller": "24kpokecards",
-   "feedbackPct": "100.0",
-   "feedbackScore": 98,
-   "image": "https://i.ebayimg.com/images/g/1H8AAeSwfotq7DQP/s-l225.jpg"
-  },
-  {
-   "wantId": "kg-490083",
-   "want": "Gyarados ex 225/198 (SV01: Scarlet & Violet Base Set) \u00b7 Holofoil",
-   "market": 9.84,
-   "target": 9.84,
+   "market": 9.71,
+   "target": 9.71,
    "title": "Holofoil - Gyarados ex - 225/198 - Scarlet & Violet Base Set - NM",
    "url": "https://www.ebay.com/itm/318922019355?_skw=Gyarados+ex+225%2F198&hash=item4a413bd21b:g:dz4AAeSwGPlqwSxX",
    "price": 10.0,
@@ -1429,8 +1428,34 @@
    "itemLocation": "US",
    "seller": "thehubtcg",
    "feedbackPct": "99.8",
-   "feedbackScore": 2294,
+   "feedbackScore": 2313,
    "image": "https://i.ebayimg.com/images/g/dz4AAeSwGPlqwSxX/s-l225.jpg"
+  },
+  {
+   "wantId": "kg-490083",
+   "want": "Gyarados ex 225/198 (SV01: Scarlet & Violet Base Set) \u00b7 Holofoil",
+   "market": 9.71,
+   "target": 9.71,
+   "title": "Gyarados ex 225/198 SV01: Scarlet & Violet Base Set Holo",
+   "url": "https://www.ebay.com/itm/147626441135?_skw=Gyarados+ex+225%2F198&hash=item225f38b9af:g:QesAAeSwYn9qx~os",
+   "price": 10.9,
+   "shipping": null,
+   "shipUnknown": true,
+   "allIn": 10.9,
+   "underTarget": false,
+   "buyingOptions": [
+    "FIXED_PRICE",
+    "BEST_OFFER"
+   ],
+   "bids": null,
+   "itemEndDate": null,
+   "condition": "Ungraded",
+   "nmVerified": true,
+   "itemLocation": "US",
+   "seller": "pwoprotego",
+   "feedbackPct": "100.0",
+   "feedbackScore": 67,
+   "image": "https://i.ebayimg.com/images/g/QesAAeSwYn9qx~os/s-l225.jpg"
   },
   {
    "wantId": "gy-destined-rivals-misty-s-49-182",
@@ -1465,10 +1490,10 @@
    "target": 14.47,
    "title": "Misty's Gyarados  49/182 Deck Exclusives  REV HOLO NM",
    "url": "https://www.ebay.com/itm/800665735654?_skw=Gyarados+49%2F182&hash=itemba6b6591e6:g:0j4AAeSwxfNqqUVY",
-   "price": 10.1,
+   "price": 9.08,
    "shipping": null,
    "shipUnknown": true,
-   "allIn": 10.1,
+   "allIn": 9.08,
    "underTarget": true,
    "buyingOptions": [
     "FIXED_PRICE",
@@ -1542,10 +1567,10 @@
    "target": 63.05,
    "title": "Gyarados | HG & SS [4/123] | Rare Reverse Holo | EN | Pokemon TCG",
    "url": "https://www.ebay.com/itm/940057748092?_skw=Gyarados+4%2F123&hash=itemdadfcee27c:g:cWIAAeSwqUFovD46",
-   "price": 52.46,
+   "price": 52.42,
    "shipping": 1.4,
    "shipUnknown": false,
-   "allIn": 53.86,
+   "allIn": 53.82,
    "underTarget": true,
    "buyingOptions": [
     "AUCTION",
@@ -1558,7 +1583,7 @@
    "itemLocation": "DE",
    "seller": "l.steingen",
    "feedbackPct": "99.1",
-   "feedbackScore": 215,
+   "feedbackScore": 216,
    "image": "https://i.ebayimg.com/images/g/cWIAAeSwqUFovD46/s-l225.jpg"
   },
   {
@@ -1583,7 +1608,7 @@
    "itemLocation": "US",
    "seller": "bestseller20_7",
    "feedbackPct": "99.7",
-   "feedbackScore": 9581,
+   "feedbackScore": 9591,
    "image": "https://i.ebayimg.com/images/g/vqIAAeSwhftq6HnZ/s-l225.jpg"
   },
   {
@@ -1608,8 +1633,34 @@
    "itemLocation": "US",
    "seller": "nutmeggamesllc",
    "feedbackPct": "99.3",
-   "feedbackScore": 3968,
+   "feedbackScore": 3979,
    "image": "https://i.ebayimg.com/images/g/DTwAAeSwehVq7Etg/s-l225.jpg"
+  },
+  {
+   "wantId": "kg-183963",
+   "want": "Magikarp & Wailord GX (Full Art) 160/181 (SM - Team Up) \u00b7 Holofoil",
+   "market": 140.38,
+   "target": 119.32,
+   "title": "Pokemon Magikarp & Wailord GX 160/181 Full Art Team Up Tag Team Ultra Rare NM",
+   "url": "https://www.ebay.com/itm/147668155507?_skw=Magikarp+%26+Wailord+GX+160%2F181&hash=item2261b53c73:g:V9EAAeSwfTBq3oqk",
+   "price": 110.0,
+   "shipping": null,
+   "shipUnknown": true,
+   "allIn": 110.0,
+   "underTarget": true,
+   "buyingOptions": [
+    "FIXED_PRICE",
+    "BEST_OFFER"
+   ],
+   "bids": null,
+   "itemEndDate": null,
+   "condition": "Ungraded",
+   "nmVerified": true,
+   "itemLocation": "US",
+   "seller": "satsij87",
+   "feedbackPct": "100.0",
+   "feedbackScore": 170,
+   "image": "https://i.ebayimg.com/images/g/V9EAAeSwfTBq3oqk/s-l225.jpg"
   },
   {
    "wantId": "kg-131314",
@@ -1658,7 +1709,7 @@
    "itemLocation": "US",
    "seller": "martcobraatx",
    "feedbackPct": "99.7",
-   "feedbackScore": 17649,
+   "feedbackScore": 17654,
    "image": "https://i.ebayimg.com/images/g/b3sAAeSwY5FqPD9T/s-l225.jpg"
   },
   {
@@ -1694,10 +1745,10 @@
    "target": 28.31,
    "title": "Magikarp 30/113 Reverse Holo Legendary Treasures Pokemon Card",
    "url": "https://www.ebay.com/itm/820180189040?_skw=Magikarp+30%2F113&hash=itembef68c7f70:g:Ln8AAeSwqchqucbl",
-   "price": 28.25,
+   "price": 28.17,
    "shipping": null,
    "shipUnknown": true,
-   "allIn": 28.25,
+   "allIn": 28.17,
    "underTarget": true,
    "buyingOptions": [
     "FIXED_PRICE",
@@ -1710,14 +1761,14 @@
    "itemLocation": "CA",
    "seller": "rocketrippers",
    "feedbackPct": "100.0",
-   "feedbackScore": 183,
+   "feedbackScore": 191,
    "image": "https://i.ebayimg.com/images/g/Ln8AAeSwqchqucbl/s-l225.jpg"
   },
   {
    "wantId": "kg-149039",
    "want": "Gyarados GX 18/111 (SM - Crimson Invasion) \u00b7 Holofoil",
-   "market": 21.17,
-   "target": 19.05,
+   "market": 21.19,
+   "target": 19.07,
    "title": "Gyarados GX 18/111 Holo Rare SM - Crimson Invasion Pokemon Card - NM",
    "url": "https://www.ebay.com/itm/227590295273?_skw=Gyarados+GX+18%2F111&hash=item34fd704ee9:g:avcAAeSw8Glq5M-h",
    "price": 19.99,
@@ -1735,33 +1786,34 @@
    "itemLocation": "US",
    "seller": "holounlimited",
    "feedbackPct": "100.0",
-   "feedbackScore": 1608,
+   "feedbackScore": 1613,
    "image": "https://i.ebayimg.com/images/g/avcAAeSw8Glq5M-h/s-l225.jpg"
   },
   {
    "wantId": "kg-149039",
    "want": "Gyarados GX 18/111 (SM - Crimson Invasion) \u00b7 Holofoil",
-   "market": 21.17,
-   "target": 19.05,
-   "title": "Gyarados GX 18/111 Sm-Crimson Invasion Holo",
-   "url": "https://www.ebay.com/itm/407331592660?_skw=Gyarados+GX+18%2F111&hash=item5ed6dad9d4:g:78sAAeSwpVdq53bn",
+   "market": 21.19,
+   "target": 19.07,
+   "title": "GYARADOS GX 18/111 HOLO ULTRA RARE CRIMSON INVASION POKEMON NEAR MINT",
+   "url": "https://www.ebay.com/itm/307269382179?_skw=Gyarados+GX+18%2F111&hash=item478aaeb023:g:o1YAAeSwX3Fq7ZWX",
    "price": 19.99,
-   "shipping": null,
-   "shipUnknown": true,
+   "shipping": 0.0,
+   "shipUnknown": false,
    "allIn": 19.99,
    "underTarget": false,
    "buyingOptions": [
-    "FIXED_PRICE"
+    "FIXED_PRICE",
+    "BEST_OFFER"
    ],
    "bids": null,
    "itemEndDate": null,
    "condition": "Ungraded",
    "nmVerified": true,
    "itemLocation": "US",
-   "seller": "enr-1916",
-   "feedbackPct": "98.9",
-   "feedbackScore": 223,
-   "image": "https://i.ebayimg.com/images/g/78sAAeSwpVdq53bn/s-l225.jpg"
+   "seller": "scythetcg",
+   "feedbackPct": "99.8",
+   "feedbackScore": 552,
+   "image": "https://i.ebayimg.com/images/g/o1YAAeSwX3Fq7ZWX/s-l225.jpg"
   },
   {
    "wantId": "k-144",
@@ -1786,7 +1838,7 @@
    "itemLocation": "US",
    "seller": "trh_collectibles",
    "feedbackPct": "99.4",
-   "feedbackScore": 174,
+   "feedbackScore": 175,
    "image": "https://i.ebayimg.com/images/g/MicAAeSwmc1p~heC/s-l225.jpg"
   },
   {
@@ -1812,14 +1864,39 @@
    "itemLocation": "US",
    "seller": "1upgamesga",
    "feedbackPct": "99.6",
-   "feedbackScore": 3096,
+   "feedbackScore": 3107,
    "image": "https://i.ebayimg.com/images/g/azUAAeSwiiZqy9Qn/s-l225.jpg"
+  },
+  {
+   "wantId": "gy-gym-challenge-misty-s-13-132",
+   "want": "Gyarados 13/132 (Holo Rare)",
+   "market": 164.85,
+   "target": 140.12,
+   "title": "Misty's Gyarados 13/132 Gym Challenge 2000 Holo Rare WOTC Unlimited",
+   "url": "https://www.ebay.com/itm/407343412420?_skw=Gyarados+13%2F132&hash=item5ed78f34c4:g:XDwAAeSwejxq7TFl",
+   "price": 122.22,
+   "shipping": 0.0,
+   "shipUnknown": false,
+   "allIn": 122.22,
+   "underTarget": true,
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "bids": null,
+   "itemEndDate": null,
+   "condition": "Ungraded",
+   "nmVerified": true,
+   "itemLocation": "US",
+   "seller": "besusworldwide",
+   "feedbackPct": "100.0",
+   "feedbackScore": 77,
+   "image": "https://i.ebayimg.com/images/g/XDwAAeSwejxq7TFl/s-l225.jpg"
   },
   {
    "wantId": "kg-141249",
    "want": "Gyarados - 20/98 (Cosmos Holo) 020/098 (Miscellaneous Cards & Products) \u00b7 Holofoil",
-   "market": 21.79,
-   "target": 19.61,
+   "market": 22.1,
+   "target": 19.89,
    "title": "Gyarados 20/98 Miscellaneous Cards & Products Cosmos Holo HP130 Stage 1 EN",
    "url": "https://www.ebay.com/itm/168692994492?_skw=Gyarados+20%2F98&hash=item2746e2d1bc:g:ZlEAAeSwyXtqqofJ",
    "price": 15.0,
@@ -1840,32 +1917,6 @@
    "feedbackPct": "97.9",
    "feedbackScore": 1034,
    "image": "https://i.ebayimg.com/images/g/ZlEAAeSwyXtqqofJ/s-l225.jpg"
-  },
-  {
-   "wantId": "k-034",
-   "want": "Nidoking 11/102 (holo)",
-   "market": 41.54,
-   "target": 37.39,
-   "title": "Pok\u00e9mon TCG Nidoking Base Set 11/102 Holo Unlimited Holo Rare NM Excellent ",
-   "url": "https://www.ebay.com/itm/126052734426?_skw=Nidoking+11%2F102&hash=item1d595415da:g:6f8AAOSwCjBk2tPS",
-   "price": 24.99,
-   "shipping": 4.99,
-   "shipUnknown": false,
-   "allIn": 29.98,
-   "underTarget": true,
-   "buyingOptions": [
-    "FIXED_PRICE",
-    "BEST_OFFER"
-   ],
-   "bids": null,
-   "itemEndDate": null,
-   "condition": "Ungraded",
-   "nmVerified": true,
-   "itemLocation": "US",
-   "seller": "prestigeworldwideaquatics",
-   "feedbackPct": "100.0",
-   "feedbackScore": 750,
-   "image": "https://i.ebayimg.com/images/g/6f8AAOSwCjBk2tPS/s-l225.jpg"
   },
   {
    "wantId": "mk-ex-team-rocket-returns-65-109",
@@ -1926,10 +1977,10 @@
    "target": 399.99,
    "title": "Gyarados - 123/123 - Pokemon HeartGold SoulSilver Reverse Holo Card! NM",
    "url": "https://www.ebay.com/itm/198766351711?_skw=Gyarados+123%2F123&hash=item2e4765d55f:g:GbAAAeSwm0Jq6Px6",
-   "price": 446.59,
-   "shipping": 7.14,
+   "price": 445.29,
+   "shipping": 7.12,
    "shipUnknown": false,
-   "allIn": 453.73,
+   "allIn": 452.41,
    "underTarget": false,
    "buyingOptions": [
     "FIXED_PRICE"
@@ -1941,7 +1992,7 @@
    "itemLocation": "CA",
    "seller": "poke_canada",
    "feedbackPct": "99.4",
-   "feedbackScore": 47045,
+   "feedbackScore": 47077,
    "image": "https://i.ebayimg.com/images/g/GbAAAeSwm0Jq6Px6/s-l225.jpg"
   },
   {
@@ -1951,10 +2002,10 @@
    "target": 399.99,
    "title": "Gyarados - 123/123 - Pokemon HeartGold SoulSilver Reverse Holo Card! NM",
    "url": "https://www.ebay.com/itm/198766351713?_skw=Gyarados+123%2F123&hash=item2e4765d561:g:nFcAAeSwdCNq6Px5",
-   "price": 446.59,
-   "shipping": 7.14,
+   "price": 445.29,
+   "shipping": 7.12,
    "shipUnknown": false,
-   "allIn": 453.73,
+   "allIn": 452.41,
    "underTarget": false,
    "buyingOptions": [
     "FIXED_PRICE"
@@ -1966,7 +2017,7 @@
    "itemLocation": "CA",
    "seller": "poke_canada",
    "feedbackPct": "99.4",
-   "feedbackScore": 47045,
+   "feedbackScore": 47077,
    "image": "https://i.ebayimg.com/images/g/nFcAAeSwdCNq6Px5/s-l225.jpg"
   },
   {
@@ -2022,14 +2073,14 @@
   {
    "wantId": "kg-246724",
    "want": "Gyarados VMAX 029/203 (SWSH07: Evolving Skies) \u00b7 Holofoil",
-   "market": 8.66,
-   "target": 8.66,
-   "title": "Gyarados VMAX 029/203 SWSH07: Evolving Skies Holo",
-   "url": "https://www.ebay.com/itm/128173896134?_skw=Gyarados+VMAX+029%2F203&hash=item1dd7c271c6:g:gTYAAeSwyHhq6quY",
-   "price": 8.0,
-   "shipping": 0.0,
-   "shipUnknown": false,
-   "allIn": 8.0,
+   "market": 8.74,
+   "target": 8.74,
+   "title": "SWSH07: Evolving Skies #029/203 Gyarados VMAX",
+   "url": "https://www.ebay.com/itm/128177406263?_skw=Gyarados+VMAX+029%2F203&hash=item1dd7f80137:g:mrEAAeSwxYJq7Maq",
+   "price": 7.99,
+   "shipping": null,
+   "shipUnknown": true,
+   "allIn": 7.99,
    "underTarget": true,
    "buyingOptions": [
     "FIXED_PRICE"
@@ -2039,23 +2090,23 @@
    "condition": "Ungraded",
    "nmVerified": true,
    "itemLocation": "US",
-   "seller": "dj1789us",
+   "seller": "valhalla_cards",
    "feedbackPct": "100.0",
-   "feedbackScore": 271,
-   "image": "https://i.ebayimg.com/images/g/gTYAAeSwyHhq6quY/s-l225.jpg"
+   "feedbackScore": 50,
+   "image": "https://i.ebayimg.com/images/g/mrEAAeSwxYJq7Maq/s-l225.jpg"
   },
   {
    "wantId": "kg-246724",
    "want": "Gyarados VMAX 029/203 (SWSH07: Evolving Skies) \u00b7 Holofoil",
-   "market": 8.66,
-   "target": 8.66,
-   "title": "Gyarados VMAX Holofoil [SWSH07 - 029/203]",
-   "url": "https://www.ebay.com/itm/327440033998?_skw=Gyarados+VMAX+029%2F203&hash=item4c3cf268ce:g:XsUAAeSwJltq68NP",
-   "price": 8.66,
-   "shipping": 0.0,
-   "shipUnknown": false,
-   "allIn": 8.66,
-   "underTarget": true,
+   "market": 8.74,
+   "target": 8.74,
+   "title": "Pokemon Sword & Shield Evolving Skies 029/203 Gyarados VMAX Ultra Rare NEW!",
+   "url": "https://www.ebay.com/itm/397557080444?_skw=Gyarados+VMAX+029%2F203&hash=item5c903fa17c:g:PbMAAOSw4Cdlc8SE",
+   "price": 8.99,
+   "shipping": null,
+   "shipUnknown": true,
+   "allIn": 8.99,
+   "underTarget": false,
    "buyingOptions": [
     "FIXED_PRICE",
     "BEST_OFFER"
@@ -2065,10 +2116,10 @@
    "condition": "Ungraded",
    "nmVerified": true,
    "itemLocation": "US",
-   "seller": "cardblasters580",
+   "seller": "jeffb500el",
    "feedbackPct": "100.0",
-   "feedbackScore": 195,
-   "image": "https://i.ebayimg.com/images/g/XsUAAeSwJltq68NP/s-l225.jpg"
+   "feedbackScore": 4553,
+   "image": "https://i.ebayimg.com/images/g/PbMAAOSw4Cdlc8SE/s-l225.jpg"
   },
   {
    "wantId": "kg-480085",
@@ -2093,7 +2144,7 @@
    "itemLocation": "US",
    "seller": "ezvj0dv",
    "feedbackPct": "99.9",
-   "feedbackScore": 14535,
+   "feedbackScore": 14545,
    "image": "https://i.ebayimg.com/images/g/O20AAeSwD-lqUWJR/s-l225.jpg"
   },
   {
@@ -2143,8 +2194,34 @@
    "itemLocation": "US",
    "seller": "slabsrfun",
    "feedbackPct": "100.0",
-   "feedbackScore": 173,
+   "feedbackScore": 174,
    "image": "https://i.ebayimg.com/images/g/dmsAAeSwxE9qxaen/s-l225.jpg"
+  },
+  {
+   "wantId": "k-127",
+   "want": "Pinsir 9/64 (holo)",
+   "market": 42.06,
+   "target": 37.85,
+   "title": "Pokemon Pinsir #9/64 English Jungle Holo Rare Vintage WOTC 1999",
+   "url": "https://www.ebay.com/itm/117506978559?_skw=Pinsir+9%2F64&hash=item1b5bf632ff:g:CHAAAeSwH8lq7Q9T",
+   "price": 27.5,
+   "shipping": 0.0,
+   "shipUnknown": false,
+   "allIn": 27.5,
+   "underTarget": true,
+   "buyingOptions": [
+    "FIXED_PRICE",
+    "BEST_OFFER"
+   ],
+   "bids": null,
+   "itemEndDate": null,
+   "condition": "Ungraded",
+   "nmVerified": true,
+   "itemLocation": "US",
+   "seller": "jemporium11",
+   "feedbackPct": "100.0",
+   "feedbackScore": 295,
+   "image": "https://i.ebayimg.com/images/g/CHAAAeSwH8lq7Q9T/s-l225.jpg"
   },
   {
    "wantId": "kg-86005-reverseholofoil",
@@ -2153,10 +2230,10 @@
    "target": 57.74,
    "title": "Pokemon TCG - Gyarados G - 30/127 Reverse Holo - Platinum NM",
    "url": "https://www.ebay.com/itm/128144927290?_skw=Gyarados+G+30%2F127&hash=item1dd6086a3a:g:jHQAAeSwcaRq1ltV",
-   "price": 65.09,
+   "price": 64.99,
    "shipping": null,
    "shipUnknown": true,
-   "allIn": 65.09,
+   "allIn": 64.99,
    "underTarget": false,
    "buyingOptions": [
     "FIXED_PRICE",
@@ -2169,14 +2246,14 @@
    "itemLocation": "GB",
    "seller": "adgejo-tcg",
    "feedbackPct": "99.8",
-   "feedbackScore": 924,
+   "feedbackScore": 930,
    "image": "https://i.ebayimg.com/images/g/jHQAAeSwcaRq1ltV/s-l225.jpg"
   },
   {
    "wantId": "kg-111531",
    "want": "Gyarados EX (Secret) 123/122 (XY - BREAKpoint) \u00b7 Holofoil",
-   "market": 212.44,
-   "target": 180.57,
+   "market": 212.15,
+   "target": 180.33,
    "title": "Gyarados EX (Secret) 123/122 Breakpoint Holo",
    "url": "https://www.ebay.com/itm/298524091049?_skw=Gyarados+EX+123%2F122&hash=item45816c22a9:g:op0AAeSw8fBqYDuP",
    "price": 139.99,
@@ -2201,8 +2278,8 @@
   {
    "wantId": "kg-111531",
    "want": "Gyarados EX (Secret) 123/122 (XY - BREAKpoint) \u00b7 Holofoil",
-   "market": 212.44,
-   "target": 180.57,
+   "market": 212.15,
+   "target": 180.33,
    "title": "Gyarados EX (Secret) 123/122 Breakpoint Holo",
    "url": "https://www.ebay.com/itm/257810580178?_skw=Gyarados+EX+123%2F122&hash=item3c06b542d2:g:fT0AAeSwIrlq2Uiv",
    "price": 150.0,
@@ -2246,8 +2323,33 @@
    "itemLocation": "US",
    "seller": "trabz_tcg",
    "feedbackPct": "99.9",
-   "feedbackScore": 1577,
+   "feedbackScore": 1578,
    "image": "https://i.ebayimg.com/images/g/bMkAAeSw28NqvLF2/s-l225.jpg"
+  },
+  {
+   "wantId": "kg-85997",
+   "want": "Gyarados (#20 Non-Holo) 20/30 (HGSS Trainer Kit: Gyarados & Raichu) \u00b7 Normal",
+   "market": 8.99,
+   "target": 8.99,
+   "title": "HGSS Trainer Kit: Gyarados & Raichu 20/30 Mareep (#20) C NM",
+   "url": "https://www.ebay.com/itm/940070649910?_skw=Gyarados+20%2F30&hash=itemdae093c036:g:oYQAAeSwsJJq7ejY",
+   "price": 6.0,
+   "shipping": 0.0,
+   "shipUnknown": false,
+   "allIn": 6.0,
+   "underTarget": true,
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "bids": null,
+   "itemEndDate": null,
+   "condition": "Ungraded",
+   "nmVerified": true,
+   "itemLocation": "US",
+   "seller": "wangit_tcg",
+   "feedbackPct": "99.8",
+   "feedbackScore": 828,
+   "image": "https://i.ebayimg.com/images/g/oYQAAeSwsJJq7ejY/s-l225.jpg"
   },
   {
    "wantId": "gy-heartgold-soulsilver-4-123",
@@ -2296,8 +2398,33 @@
    "itemLocation": "US",
    "seller": "nutmeggamesllc",
    "feedbackPct": "99.3",
-   "feedbackScore": 3968,
+   "feedbackScore": 3979,
    "image": "https://i.ebayimg.com/images/g/DqAAAeSwsJJq7DUt/s-l225.jpg"
+  },
+  {
+   "wantId": "kg-85998",
+   "want": "Gyarados (#30 Holo) 30/30 (HGSS Trainer Kit: Gyarados & Raichu) \u00b7 Holofoil",
+   "market": 45.26,
+   "target": 40.73,
+   "title": "Gyarados (30/30) [HeartGold & SoulSilver: Trainer Kit - Gyarados]",
+   "url": "https://www.ebay.com/itm/128048866198?_skw=Gyarados+30%2F30&hash=item1dd04ea396:g:ITAAAeSwGNdq7WDC",
+   "price": 37.95,
+   "shipping": 4.99,
+   "shipUnknown": false,
+   "allIn": 42.94,
+   "underTarget": false,
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "bids": null,
+   "itemEndDate": null,
+   "condition": "Ungraded",
+   "nmVerified": true,
+   "itemLocation": "US",
+   "seller": "nutmeggamesllc",
+   "feedbackPct": "99.3",
+   "feedbackScore": 3979,
+   "image": "https://i.ebayimg.com/images/g/ITAAAeSwGNdq7WDC/s-l225.jpg"
   },
   {
    "wantId": "kg-85998",
@@ -2322,33 +2449,8 @@
    "itemLocation": "US",
    "seller": "gearscape",
    "feedbackPct": "99.8",
-   "feedbackScore": 2172,
+   "feedbackScore": 2178,
    "image": "https://i.ebayimg.com/images/g/C1wAAeSwWbdqTFvJ/s-l225.jpg"
-  },
-  {
-   "wantId": "kg-85998",
-   "want": "Gyarados (#30 Holo) 30/30 (HGSS Trainer Kit: Gyarados & Raichu) \u00b7 Holofoil",
-   "market": 45.26,
-   "target": 40.73,
-   "title": "Gyarados (30/30) [HeartGold & SoulSilver: Trainer Kit - Gyarados]",
-   "url": "https://www.ebay.com/itm/128048866198?_skw=Gyarados+30%2F30&hash=item1dd04ea396:g:4iMAAeSwz-Nq7DUN",
-   "price": 38.12,
-   "shipping": 4.99,
-   "shipUnknown": false,
-   "allIn": 43.11,
-   "underTarget": false,
-   "buyingOptions": [
-    "FIXED_PRICE"
-   ],
-   "bids": null,
-   "itemEndDate": null,
-   "condition": "Ungraded",
-   "nmVerified": true,
-   "itemLocation": "US",
-   "seller": "nutmeggamesllc",
-   "feedbackPct": "99.3",
-   "feedbackScore": 3968,
-   "image": "https://i.ebayimg.com/images/g/4iMAAeSwz-Nq7DUN/s-l225.jpg"
   },
   {
    "wantId": "kg-144669",
@@ -2357,10 +2459,10 @@
    "target": 43.94,
    "title": "Magikarp 22/83 Generations 2016 English Pok\u00e9mon TCG SEALED",
    "url": "https://www.ebay.com/itm/237160745975?_skw=Magikarp+22%2F83&hash=item3737e1cbf7:g:-tUAAeSwvnlq6e1f",
-   "price": 47.15,
+   "price": 47.08,
    "shipping": null,
    "shipUnknown": true,
-   "allIn": 47.15,
+   "allIn": 47.08,
    "underTarget": false,
    "buyingOptions": [
     "FIXED_PRICE",
@@ -2425,7 +2527,7 @@
    "itemLocation": "US",
    "seller": "bp4b799",
    "feedbackPct": "100.0",
-   "feedbackScore": 52,
+   "feedbackScore": 53,
    "image": "https://i.ebayimg.com/images/g/U7sAAeSwWotq2op0/s-l225.jpg"
   },
   {
@@ -2482,52 +2584,52 @@
   {
    "wantId": "kg-716210",
    "want": "Magikarp 203/193 (ME: 30th Celebration Classic Collection) \u00b7 Holofoil",
-   "market": 70.78,
-   "target": 63.7,
-   "title": "Pokemon Magikarp 203/193 30th Anniversary Celebration Illustration Rare Holo NM",
-   "url": "https://www.ebay.com/itm/407342750333?_skw=Magikarp+203%2F193&hash=item5ed7851a7d:g:xScAAeSwLOpq7L40",
-   "price": 40.0,
-   "shipping": 0.0,
+   "market": 70.4,
+   "target": 63.36,
+   "title": "Pok\u00e9mon TCG Magikarp 203/193 30th Anniversary Celebration Holo NM MINT SSR TCG",
+   "url": "https://www.ebay.com/itm/366773800880?_skw=Magikarp+203%2F193&hash=item55656c0fb0:g:G7oAAeSwuDJq5fQ0",
+   "price": 36.0,
+   "shipping": 3.95,
    "shipUnknown": false,
-   "allIn": 40.0,
+   "allIn": 39.95,
    "underTarget": true,
    "buyingOptions": [
     "AUCTION"
    ],
-   "bids": 24,
-   "itemEndDate": "2026-11-06T17:54:51.000Z",
+   "bids": 10,
+   "itemEndDate": "2026-11-08T04:00:01.000Z",
    "condition": "Ungraded",
    "nmVerified": true,
    "itemLocation": "US",
-   "seller": "0collectorsmarket0",
-   "feedbackPct": "100.0",
-   "feedbackScore": 119,
-   "image": "https://i.ebayimg.com/images/g/xScAAeSwLOpq7L40/s-l225.jpg"
+   "seller": "themeccaofsc",
+   "feedbackPct": "99.9",
+   "feedbackScore": 3100,
+   "image": "https://i.ebayimg.com/images/g/G7oAAeSwuDJq5fQ0/s-l225.jpg"
   },
   {
    "wantId": "kg-716210",
    "want": "Magikarp 203/193 (ME: 30th Celebration Classic Collection) \u00b7 Holofoil",
-   "market": 70.78,
-   "target": 63.7,
-   "title": "Pokemon 30th Anniversary Magikarp 203/193 Illustration Rare Gold Near Mint",
-   "url": "https://www.ebay.com/itm/960150885877?_skw=Magikarp+203%2F193&hash=itemdf8d73d5f5:g:el4AAeSw0KJq6m5r",
-   "price": 37.0,
-   "shipping": 9.99,
+   "market": 70.4,
+   "target": 63.36,
+   "title": "Pok\u00e9mon TCG Magikarp 203/193 30th Anniversary Celebration Holo NM",
+   "url": "https://www.ebay.com/itm/860111263343?_skw=Magikarp+203%2F193&hash=itemc842a0566f:g:qX4AAeSwiv1q3lfJ",
+   "price": 46.0,
+   "shipping": 4.99,
    "shipUnknown": false,
-   "allIn": 46.99,
+   "allIn": 50.99,
    "underTarget": true,
    "buyingOptions": [
     "AUCTION"
    ],
-   "bids": 9,
-   "itemEndDate": "2026-11-06T23:30:09.000Z",
+   "bids": 14,
+   "itemEndDate": "2026-11-07T03:18:40.000Z",
    "condition": "Ungraded",
    "nmVerified": true,
    "itemLocation": "US",
-   "seller": "tahoemac",
+   "seller": "nashbuysthings",
    "feedbackPct": "100.0",
-   "feedbackScore": 958,
-   "image": "https://i.ebayimg.com/images/g/el4AAeSw0KJq6m5r/s-l225.jpg"
+   "feedbackScore": 424,
+   "image": "https://i.ebayimg.com/images/g/qX4AAeSwiv1q3lfJ/s-l225.jpg"
   },
   {
    "wantId": "k-040",
@@ -2558,8 +2660,8 @@
   {
    "wantId": "mk-paldea-evolved-203-193",
    "want": "Magikarp 203/193 (Illustration Rare)",
-   "market": 289.68,
-   "target": 246.23,
+   "market": 291.6,
+   "target": 247.86,
    "title": "Rare 2023 Pokemon Paldea Evolved Magikarp Illustration Card 203/193 Holo Card",
    "url": "https://www.ebay.com/itm/137819636319?_skw=Magikarp+203%2F193&hash=item2016b0c25f:g:i3kAAeSwOJ1qxU2-",
    "price": 255.0,
@@ -2596,7 +2698,7 @@
    ],
    "itemEndDate": "2026-11-12T01:40:33.000Z",
    "seller": "ethanepstein20",
-   "feedbackScore": 265,
+   "feedbackScore": 267,
    "feedbackPct": "100.0",
    "returnsAccepted": false,
    "condition": "Used",
@@ -2624,35 +2726,6 @@
     "https://i.ebayimg.com/images/g/sO4AAeSwakhq69rz/s-l1600.jpg"
    ],
    "desc": "24/124 Dragons Exaulted Regular 34/108 XY Evolutions Reverse SM212 GX 33/147 Burning Shadow Reverse 8/82 Dark 25th Celebrations Holo 028/203 V Evolving Skies 130/165 151 Holo 043/193 Paldea Evolved Reverse 043/193 Paldea Evolved Holo"
-  },
-  {
-   "itemId": "v1|820184845878|0",
-   "title": "Pokemon 4 Card Lot 2016 Basic & Stage 1(23,24,28,33/108) Seel Poliwhirl Magikarp",
-   "url": "https://www.ebay.com/itm/820184845878?_skw=magikarp+lot+pokemon+cards&hash=itembef6d38e36:g:jKIAAOSwFA1ihtcc",
-   "price": 5.0,
-   "shipping": 1.2,
-   "shipUnknown": false,
-   "buyingOptions": [
-    "FIXED_PRICE"
-   ],
-   "itemEndDate": null,
-   "seller": "beautyinterrupted",
-   "feedbackScore": 5927,
-   "feedbackPct": "100.0",
-   "returnsAccepted": false,
-   "condition": "Used",
-   "matchedIds": [
-    "mk-evolutions-33-108-rev"
-   ],
-   "photos": [
-    "https://i.ebayimg.com/images/g/jKIAAOSwFA1ihtcc/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/iG0AAOSwQB1ihtcc/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/etsAAOSwbn9ihtcc/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/j8UAAOSwd5xihtcc/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/KIcAAOSw8Udihtcc/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/Zs4AAOSwMp9ihtcc/s-l1600.jpg"
-   ],
-   "desc": " These four cards are from 2016. See all photos for assessment. Pre-owned and played with. May show light wear. I am not a collector so what may seem fine to me may not be fine to you. See all photos for assessment as they are the cards you will get. They will be shipped in a clear postcard sleeve. These did not come with individual sleeves. I do combine shipping upon request for USPS First Class orders. "
   },
   {
    "itemId": "v1|820245161207|0",
@@ -2718,7 +2791,7 @@
    ],
    "itemEndDate": null,
    "seller": "pokemoncfe",
-   "feedbackScore": 55,
+   "feedbackScore": 59,
    "feedbackPct": "100.0",
    "returnsAccepted": true,
    "condition": "Used",
@@ -2744,7 +2817,7 @@
    ],
    "itemEndDate": null,
    "seller": "buildmybinder",
-   "feedbackScore": 97,
+   "feedbackScore": 98,
    "feedbackPct": "100.0",
    "returnsAccepted": false,
    "condition": "Used",
@@ -2759,7 +2832,7 @@
    "itemId": "v1|206667956102|0",
    "title": "Pokemon Tcg Gyarados 31/113 Legendary Treasures Regular Non Holo Card LOT2",
    "url": "https://www.ebay.com/itm/206667956102?_skw=gyarados+lot+pokemon+cards&hash=item301e5ebf86:g:IAIAAeSw381q4I7g",
-   "price": 6.06,
+   "price": 6.05,
    "shipping": null,
    "shipUnknown": true,
    "buyingOptions": [
@@ -2768,7 +2841,7 @@
    ],
    "itemEndDate": null,
    "seller": "books.by.pringles",
-   "feedbackScore": 224,
+   "feedbackScore": 226,
    "feedbackPct": "99.1",
    "returnsAccepted": true,
    "condition": "Ungraded",
@@ -2794,7 +2867,7 @@
    ],
    "itemEndDate": null,
    "seller": "seubertfamily",
-   "feedbackScore": 371,
+   "feedbackScore": 376,
    "feedbackPct": "100.0",
    "returnsAccepted": true,
    "condition": "Used",
@@ -2812,7 +2885,7 @@
    "itemId": "v1|960144522379|0",
    "title": "Pokemon Water Card Lot - Gyarados Holo Rare Pokemon GO + Vintage 1999 Base Set",
    "url": "https://www.ebay.com/itm/960144522379?_skw=gyarados+lot+pokemon+cards&hash=itemdf8d12bc8b:g:j9QAAeSwz9Rq6Hyy",
-   "price": 6.72,
+   "price": 6.71,
    "shipping": null,
    "shipUnknown": true,
    "buyingOptions": [
@@ -2821,7 +2894,7 @@
    ],
    "itemEndDate": null,
    "seller": "asaig2",
-   "feedbackScore": 4136,
+   "feedbackScore": 4145,
    "feedbackPct": "99.9",
    "returnsAccepted": false,
    "condition": "Ungraded",
@@ -2843,7 +2916,7 @@
    ],
    "itemEndDate": null,
    "seller": "cardcachemn",
-   "feedbackScore": 25440,
+   "feedbackScore": 25466,
    "feedbackPct": "100.0",
    "returnsAccepted": false,
    "condition": "Used",
@@ -2876,7 +2949,7 @@
    ],
    "itemEndDate": null,
    "seller": "cardcachemn",
-   "feedbackScore": 25440,
+   "feedbackScore": 25466,
    "feedbackPct": "100.0",
    "returnsAccepted": false,
    "condition": "Used",
@@ -2911,7 +2984,7 @@
    ],
    "itemEndDate": null,
    "seller": "cardcachemn",
-   "feedbackScore": 25440,
+   "feedbackScore": 25466,
    "feedbackPct": "100.0",
    "returnsAccepted": false,
    "condition": "Used",
@@ -2942,7 +3015,7 @@
    ],
    "itemEndDate": null,
    "seller": "cardcachemn",
-   "feedbackScore": 25440,
+   "feedbackScore": 25466,
    "feedbackPct": "100.0",
    "returnsAccepted": false,
    "condition": "Used",
@@ -2999,8 +3072,8 @@
    ],
    "itemEndDate": null,
    "seller": "shipcycle",
-   "feedbackScore": 84877,
-   "feedbackPct": "98.0",
+   "feedbackScore": 85114,
+   "feedbackPct": "98.1",
    "returnsAccepted": false,
    "condition": "Used",
    "matchedIds": [],
@@ -3014,8 +3087,8 @@
    "itemId": "v1|377578212060|0",
    "title": "Magikarp 30/113 & Gyarados 31/113 Pok\u00e9mon Legendary Treasures card Lot x2",
    "url": "https://www.ebay.com/itm/377578212060?_skw=gyarados+magikarp+lot&hash=item57e96a4adc:g:mjUAAeSwRUxq0-Hk",
-   "price": 7.15,
-   "shipping": 16.1,
+   "price": 7.13,
+   "shipping": 16.05,
    "shipUnknown": false,
    "buyingOptions": [
     "FIXED_PRICE",
@@ -3023,7 +3096,7 @@
    ],
    "itemEndDate": null,
    "seller": "s12cards",
-   "feedbackScore": 189,
+   "feedbackScore": 190,
    "feedbackPct": "100.0",
    "returnsAccepted": false,
    "condition": "Used",
@@ -3050,8 +3123,8 @@
    ],
    "itemEndDate": null,
    "seller": "shipcycle",
-   "feedbackScore": 84877,
-   "feedbackPct": "98.0",
+   "feedbackScore": 85114,
+   "feedbackPct": "98.1",
    "returnsAccepted": false,
    "condition": "Used",
    "matchedIds": [],
@@ -3074,7 +3147,7 @@
    ],
    "itemEndDate": null,
    "seller": "mscott019",
-   "feedbackScore": 156,
+   "feedbackScore": 158,
    "feedbackPct": "100.0",
    "returnsAccepted": false,
    "condition": "Used",
@@ -3099,7 +3172,7 @@
    ],
    "itemEndDate": null,
    "seller": "thethreadedvault",
-   "feedbackScore": 8702,
+   "feedbackScore": 8705,
    "feedbackPct": "99.9",
    "returnsAccepted": false,
    "condition": "Used",
@@ -3116,7 +3189,7 @@
    "itemId": "v1|407336361564|0",
    "title": "Pokemon Gyarados Terastal Card Sleeves Lot of 26 Loose ETB Premium Art Sleeves",
    "url": "https://www.ebay.com/itm/407336361564?_skw=gyarados+lot+pokemon+cards&hash=item5ed7239e5c:g:o0AAAeSwO2dq6dvi",
-   "price": 8.58,
+   "price": 8.55,
    "shipping": null,
    "shipUnknown": true,
    "buyingOptions": [
@@ -3148,7 +3221,7 @@
    ],
    "itemEndDate": null,
    "seller": "notho_1916",
-   "feedbackScore": 2434,
+   "feedbackScore": 2446,
    "feedbackPct": "99.9",
    "returnsAccepted": false,
    "condition": "New",
@@ -3158,6 +3231,35 @@
     "https://i.ebayimg.com/images/g/6h0AAeSw~hNqGLcp/s-l1600.jpg"
    ],
    "desc": " MAGIKARP X GYARADOS EVOLUTION POKEMON FROM DKV COLLECTIONS KANTO SET These CCG Pok\u00e9mon cards would be a great addition to your collection! Check out my other listings! Reach out for combined shipping on multiple orders. "
+  },
+  {
+   "itemId": "v1|206678784471|0",
+   "title": "POKEMON Water Card Lot 9x - Magikarp REVERSE HOLO Ancient Origins, Seaking,...",
+   "url": "https://www.ebay.com/itm/206678784471?_skw=magikarp+lot+pokemon+cards&hash=item301f03f9d7:g:RKQAAeSwAGdq7S6y",
+   "price": 8.99,
+   "shipping": null,
+   "shipUnknown": true,
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "itemEndDate": null,
+   "seller": "seubertfamily",
+   "feedbackScore": 376,
+   "feedbackPct": "100.0",
+   "returnsAccepted": false,
+   "condition": "Used",
+   "matchedIds": [
+    "mk-evolutions-33-108-rev",
+    "mk-ancient-origins-19-98-rev"
+   ],
+   "photos": [
+    "https://i.ebayimg.com/images/g/RKQAAeSwAGdq7S6y/s-l225.jpg",
+    "https://i.ebayimg.com/images/g/OyIAAeSwxeZq7S6x/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/-PkAAeSwGstq7S6z/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/5IEAAeSw0KJq7S6z/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/RLgAAeSwAGdq7S60/s-l1600.jpg"
+   ],
+   "desc": " Featured Cards in this Lot: \u2022 Magikarp #19/98 (REVERSE HOLOFOIL) - XY: Ancient Origins \u2022 Magikarp #33/108 - XY: Roaring Skies \u2022 Seaking #90/160 - XY: Primal Clash \u2022 Mantine #100/149 - Sun & Moon: Base Set \u2022 Bruxish #90/149 - Sun & Moon: Base Set \u2022 Relicanth #90/108 - XY: Furious Fists \u2022 Remoraid #60/162 - XY: BREAKthrough \u2022 Remoraid #22/111 - Neo Genesis \u2022 Mantyke #30/111 - Platinum: Rising Rivals Only 1 holo in each 9 page lot. All have been collected and never played with and are in great condition. Shipped in an eBay standard envelope for cheaper shipping. "
   },
   {
    "itemId": "v1|820313061596|0",
@@ -3171,8 +3273,8 @@
    ],
    "itemEndDate": null,
    "seller": "snpcollectibles",
-   "feedbackScore": 52,
-   "feedbackPct": "97.8",
+   "feedbackScore": 54,
+   "feedbackPct": "97.9",
    "returnsAccepted": false,
    "condition": "Used",
    "matchedIds": [],
@@ -3198,7 +3300,7 @@
    ],
    "itemEndDate": null,
    "seller": "z883267",
-   "feedbackScore": 1503,
+   "feedbackScore": 1504,
    "feedbackPct": "100.0",
    "returnsAccepted": false,
    "condition": "Used",
@@ -3225,7 +3327,7 @@
    ],
    "itemEndDate": null,
    "seller": "z883267",
-   "feedbackScore": 1503,
+   "feedbackScore": 1504,
    "feedbackPct": "100.0",
    "returnsAccepted": false,
    "condition": "Used",
@@ -3253,7 +3355,7 @@
    ],
    "itemEndDate": null,
    "seller": "notho_1916",
-   "feedbackScore": 2434,
+   "feedbackScore": 2446,
    "feedbackPct": "99.9",
    "returnsAccepted": false,
    "condition": "New",
@@ -3277,7 +3379,7 @@
    ],
    "itemEndDate": null,
    "seller": "notho_1916",
-   "feedbackScore": 2434,
+   "feedbackScore": 2446,
    "feedbackPct": "99.9",
    "returnsAccepted": false,
    "condition": "New",
@@ -3301,7 +3403,7 @@
    ],
    "itemEndDate": null,
    "seller": "notho_1916",
-   "feedbackScore": 2434,
+   "feedbackScore": 2446,
    "feedbackPct": "99.9",
    "returnsAccepted": false,
    "condition": "New",
@@ -3325,7 +3427,7 @@
    ],
    "itemEndDate": null,
    "seller": "yamilicioustcg",
-   "feedbackScore": 434,
+   "feedbackScore": 435,
    "feedbackPct": "100.0",
    "returnsAccepted": false,
    "condition": "Used",
@@ -3348,7 +3450,7 @@
    ],
    "itemEndDate": null,
    "seller": "cardarenax",
-   "feedbackScore": 574,
+   "feedbackScore": 576,
    "feedbackPct": "100.0",
    "returnsAccepted": true,
    "condition": "Used",
@@ -3420,6 +3522,30 @@
    "desc": " 1999 Pok\u00e9mon Muk #13/62 \u2013 Fossil Holo Rare \u2013 Vintage WOTC Add a classic piece of Pok\u00e9mon history to your collection with this 1999 Muk Holographic Rare #13/62 from the original Pok\u00e9mon Fossil expansion! Featuring original artwork by Mitsuhiro Arita, this vintage holographic card showcases Muk, the iconic Sludge Pok\u00e9mon, with its signature Toxic Gas Pok\u00e9mon Power and Sludge attack. Originally released by Wizards of the Coast (WOTC) in 1999, this card is a nostalgic collectible from the early days of the Pok\u00e9mon Trading Card Game and a great addition to any vintage collection. Card Details: Pok\u00e9mon: Muk Set: Fossil Card Number: 13/62 Year: 1999 Rarity: Holo Rare (Star) Edition: Unlimited (Non"
   },
   {
+   "itemId": "v1|377557640283|0",
+   "title": "Fish Pokemon Card Lot x17 Finneon, Feebas, Goldeen, Seaking, Magikarp, etc",
+   "url": "https://www.ebay.com/itm/377557640283?_skw=magikarp+lot+pokemon+cards&hash=item57e830645b:g:VQcAAeSwFoVqyUm5",
+   "price": 9.98,
+   "shipping": 16.05,
+   "shipUnknown": false,
+   "buyingOptions": [
+    "FIXED_PRICE",
+    "BEST_OFFER"
+   ],
+   "itemEndDate": null,
+   "seller": "s12cards",
+   "feedbackScore": 190,
+   "feedbackPct": "100.0",
+   "returnsAccepted": false,
+   "condition": "Used",
+   "matchedIds": [],
+   "photos": [
+    "https://i.ebayimg.com/images/g/VQcAAeSwFoVqyUm5/s-l225.jpg",
+    "https://i.ebayimg.com/images/g/lQkAAeSwTvlqyUnH/s-l1600.jpg"
+   ],
+   "desc": "Fish Pok\u00e9mon Card Lot x17 Finneon, Feebas, Goldeen, Seaking, Magikarp, Remoraid, Relicanth, Alomola, Tynamo & Wishiwashi "
+  },
+  {
    "itemId": "v1|137199808120|0",
    "title": "Pok\u00e9mon TCG MEW 151 Holo Card Lot Magikarp Gyarados 129/165 130/165 x3",
    "url": "https://www.ebay.com/itm/137199808120?_skw=gyarados+magikarp+lot&hash=item1ff1beee78:g:PsQAAeSwGTpp0r0Q",
@@ -3432,7 +3558,7 @@
    ],
    "itemEndDate": null,
    "seller": "chrnunn0",
-   "feedbackScore": 349,
+   "feedbackScore": 350,
    "feedbackPct": "100.0",
    "returnsAccepted": false,
    "condition": "New",
@@ -3479,30 +3605,6 @@
    "desc": "This Pok\u00e9mon TCG Magikarp 10-Card Lot includes cards from the Neo Genesis 66/111 and Team Rocket 47/82 sets, as well as other vintage cards featuring the beloved Water-type character Magikarp. The lot consists of standard-sized cards made of durable card stock, with illustrations by Atsuko Nishida and Mitsuhiro Arita. The cards are in English and part of the Pok\u00e9mon TCG game, making them a perfect addition to any collector's deck or a great starting point for new players aged 6 and up. With a mix of regular and Holo finishes, this Magikarp card lot offers a diverse selection for fans of the game."
   },
   {
-   "itemId": "v1|327375649121|0",
-   "title": "Flareon V, Magikarp, Sylveon, Charmander, Gold Holo foil Pokemon Card Lot x13",
-   "url": "https://www.ebay.com/itm/327375649121?_skw=magikarp+lot+pokemon+cards&hash=item4c391bf961:g:IZIAAeSwZD1quATm",
-   "price": 10.0,
-   "shipping": 0.0,
-   "shipUnknown": false,
-   "buyingOptions": [
-    "FIXED_PRICE",
-    "BEST_OFFER"
-   ],
-   "itemEndDate": null,
-   "seller": "wilmot1989",
-   "feedbackScore": 500,
-   "feedbackPct": "100.0",
-   "returnsAccepted": false,
-   "condition": "Used",
-   "matchedIds": [],
-   "photos": [
-    "https://i.ebayimg.com/images/g/IZIAAeSwZD1quATm/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/9wsAAeSwuyVquATm/s-l1600.jpg"
-   ],
-   "desc": "Near mint condition *not official TCG cards"
-  },
-  {
    "itemId": "v1|840094772328|0",
    "title": "Magikarp / Gyarados Lot Reverse Holo Common NM | XY - Evolutions (EVO) 2016 NM",
    "url": "https://www.ebay.com/itm/840094772328?_skw=gyarados+magikarp+lot&hash=itemc3998cec68:g:qPUAAeSwsJpq6-8c",
@@ -3510,8 +3612,7 @@
    "shipping": 6.0,
    "shipUnknown": false,
    "buyingOptions": [
-    "AUCTION",
-    "BEST_OFFER"
+    "AUCTION"
    ],
    "itemEndDate": "2026-11-10T02:52:20.000Z",
    "seller": "thescottycollection",
@@ -3525,30 +3626,6 @@
     "https://i.ebayimg.com/images/g/m7YAAeSwcsdq6-8c/s-l1600.jpg"
    ],
    "desc": "The Magikarp / Gyarados Lot Reverse Holo Common NM from the XY - Evolutions set is a Pok\u00e9mon card featuring the Water attribute with an HP of 30. Manufactured by The Pok\u00e9mon Company in 2016, this standard-sized card is in English and illustrated by Mitsuhiro Arita. With a Stage of Basic and a LEGEND specialty, this collectible card is part of the Pok\u00e9mon TCG game franchise and is suitable for ages 6 and above. This lot includes cards of Magikarp and, which are part of the Pok\u00e9mon League event and are highly sought after by collector"
-  },
-  {
-   "itemId": "v1|377557640283|0",
-   "title": "Fish Pokemon Card Lot x17 Finneon, Feebas, Goldeen, Seaking, Magikarp, etc",
-   "url": "https://www.ebay.com/itm/377557640283?_skw=magikarp+lot+pokemon+cards&hash=item57e830645b:g:VQcAAeSwFoVqyUm5",
-   "price": 10.01,
-   "shipping": 16.1,
-   "shipUnknown": false,
-   "buyingOptions": [
-    "FIXED_PRICE",
-    "BEST_OFFER"
-   ],
-   "itemEndDate": null,
-   "seller": "s12cards",
-   "feedbackScore": 189,
-   "feedbackPct": "100.0",
-   "returnsAccepted": false,
-   "condition": "Used",
-   "matchedIds": [],
-   "photos": [
-    "https://i.ebayimg.com/images/g/VQcAAeSwFoVqyUm5/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/lQkAAeSwTvlqyUnH/s-l1600.jpg"
-   ],
-   "desc": "Fish Pok\u00e9mon Card Lot x17 Finneon, Feebas, Goldeen, Seaking, Magikarp, Remoraid, Relicanth, Alomola, Tynamo & Wishiwashi "
   },
   {
    "itemId": "v1|257828841665|0",
@@ -3618,7 +3695,7 @@
    ],
    "itemEndDate": null,
    "seller": "blue_shop_toys",
-   "feedbackScore": 1899,
+   "feedbackScore": 1900,
    "feedbackPct": "100.0",
    "returnsAccepted": true,
    "condition": "Used",
@@ -3641,7 +3718,7 @@
    ],
    "itemEndDate": null,
    "seller": "z883267",
-   "feedbackScore": 1503,
+   "feedbackScore": 1504,
    "feedbackPct": "100.0",
    "returnsAccepted": false,
    "condition": "New",
@@ -3694,7 +3771,7 @@
    ],
    "itemEndDate": null,
    "seller": "jamesdrainey",
-   "feedbackScore": 243,
+   "feedbackScore": 244,
    "feedbackPct": "100.0",
    "returnsAccepted": false,
    "condition": "Used",
@@ -3718,7 +3795,7 @@
    ],
    "itemEndDate": null,
    "seller": "dbomber998",
-   "feedbackScore": 263,
+   "feedbackScore": 270,
    "feedbackPct": "100.0",
    "returnsAccepted": false,
    "condition": "Used",
@@ -3745,7 +3822,7 @@
    ],
    "itemEndDate": null,
    "seller": "esofine20",
-   "feedbackScore": 95,
+   "feedbackScore": 98,
    "feedbackPct": "100.0",
    "returnsAccepted": false,
    "condition": "Used",
@@ -3767,7 +3844,7 @@
    "itemId": "v1|307167757935|0",
    "title": "Magikarp 89/123 & Gyarados 26/123 VLP/NM Lot Mysterious Treasures",
    "url": "https://www.ebay.com/itm/307167757935?_skw=gyarados+magikarp+lot&hash=item4784a0066f:g:DZIAAeSwdINqnwWV",
-   "price": 12.88,
+   "price": 12.84,
    "shipping": null,
    "shipUnknown": true,
    "buyingOptions": [
@@ -3776,7 +3853,7 @@
    ],
    "itemEndDate": null,
    "seller": "yuykoko.1csw4u5u",
-   "feedbackScore": 4534,
+   "feedbackScore": 4538,
    "feedbackPct": "99.7",
    "returnsAccepted": false,
    "condition": "Ungraded",
@@ -3797,38 +3874,10 @@
    "desc": " Magikarp 89/123 & Gyarados 26/123 VLP/NM Lot Mysterious Treasures. See photos, gyarados has a pin prick dent. "
   },
   {
-   "itemId": "v1|800863998295|0",
-   "title": "Pokemon 9 Card Lot Pikachu/galceon Vmax/alolan/butter Freev/donphan/gyarados",
-   "url": "https://www.ebay.com/itm/800863998295?_skw=gyarados+lot+pokemon+cards&hash=itemba7736d157:g:iWoAAeSwQfRq54Y~",
-   "price": 12.99,
-   "shipping": null,
-   "shipUnknown": true,
-   "buyingOptions": [
-    "AUCTION",
-    "BEST_OFFER"
-   ],
-   "itemEndDate": "2026-11-06T18:38:04.000Z",
-   "seller": "kpearl17",
-   "feedbackScore": 76,
-   "feedbackPct": "100.0",
-   "returnsAccepted": false,
-   "condition": "Used",
-   "matchedIds": [],
-   "photos": [
-    "https://i.ebayimg.com/images/g/iWoAAeSwQfRq54Y~/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/UxAAAeSwk3xq54ZA/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/mGQAAeSwiB1q54ZA/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/Qm4AAeSwjW5q54ZA/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/cSAAAeSwZypq54ZA/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/cT4AAeSwZypq54ZD/s-l1600.jpg"
-   ],
-   "desc": "Pokemon 9 Card Lot Pikachu/galceon Vmax/alolan/butter Freev/donphan/gyarados"
-  },
-  {
    "itemId": "v1|287702475566|0",
    "title": "Pokemon Card Reverse Holo Water Lot (8 Cards) - Slowbro Articuno Magikarp +",
    "url": "https://www.ebay.com/itm/287702475566?_skw=magikarp+lot+pokemon+cards&hash=item42fc67632e:g:XzMAAeSwH7xq6igK",
-   "price": 13.0,
+   "price": 12.98,
    "shipping": null,
    "shipUnknown": true,
    "buyingOptions": [
@@ -3837,20 +3886,20 @@
    ],
    "itemEndDate": null,
    "seller": "wargamingwales",
-   "feedbackScore": 2358,
+   "feedbackScore": 2360,
    "feedbackPct": "100.0",
-   "returnsAccepted": null,
+   "returnsAccepted": false,
    "condition": "Ungraded",
    "matchedIds": [],
    "photos": [
     "https://i.ebayimg.com/images/g/XzMAAeSwH7xq6igK/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/OvsAAeSwJy1q6igK/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/S5oAAeSwn7xq6igK/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/J9AAAeSwZgpq6igL/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/NfcAAeSwcI9q6igL/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/Wc4AAeSwz~Nq6igL/s-l225.jpg"
+    "https://i.ebayimg.com/images/g/OvsAAeSwJy1q6igK/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/S5oAAeSwn7xq6igK/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/J9AAAeSwZgpq6igL/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/NfcAAeSwcI9q6igL/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/Wc4AAeSwz~Nq6igL/s-l1600.jpg"
    ],
-   "desc": ""
+   "desc": " \ud83c\udf1fPlease make sure to inspect the items photos carefully. Every model will be sent as seen \ud83c\udf1f If there is an individual model out of the squad that you are interested in, message me and we can work something out \u231a Looking for a project or replacement watch? Check out our range of vintage and pre-owned watches, including classic quartz and mechanical models sold for spares or repairs \ud83d\udce6 Shipping & Handling: What you see is exactly what you\u2019ll receive \u2014 securely packed and shipped from Swansea with tracked postage. I use a blend of recycled and non-recycled materials to ensure safe arrival. Bundle discounts and combined shipping available \u2014 just ask. \ud83d\udce6 Every item is inspected, stored safely, and"
   },
   {
    "itemId": "v1|960137524179|0",
@@ -3865,16 +3914,41 @@
    ],
    "itemEndDate": "2026-11-07T18:21:46.000Z",
    "seller": "blue_shop_toys",
-   "feedbackScore": 1899,
+   "feedbackScore": 1900,
    "feedbackPct": "100.0",
-   "returnsAccepted": null,
+   "returnsAccepted": true,
    "condition": "Used",
    "matchedIds": [],
    "photos": [
     "https://i.ebayimg.com/images/g/za0AAeSwxE5qR-hG/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/OgcAAeSwEBRqR-g~/s-l225.jpg"
+    "https://i.ebayimg.com/images/g/OgcAAeSwEBRqR-g~/s-l1600.jpg"
    ],
-   "desc": ""
+   "desc": " To U.S. Buyers, All items in my store are listed with customs duties included in the price, so you do not need to pay any additional duties later. Payment is required only once. I will take care of all customs procedures and shipping on my side. Thanks for looking! I will ship the item pictured to you! I will be responsible for packing and shipping this item with care! Please make sure your address is correct. Also, if you have any questions, please feel free to contact me!\" "
+  },
+  {
+   "itemId": "v1|198753792489|0",
+   "title": "Pokemon TCG Magikarp & Psyduck 4 Card Lot 2011-2016 Black & White XY",
+   "url": "https://www.ebay.com/itm/198753792489?_skw=magikarp+lot+pokemon+cards&hash=item2e46a631e9:g:zhcAAeSw9tNq4s83",
+   "price": 14.25,
+   "shipping": null,
+   "shipUnknown": true,
+   "buyingOptions": [
+    "FIXED_PRICE",
+    "BEST_OFFER"
+   ],
+   "itemEndDate": null,
+   "seller": "audreyana1",
+   "feedbackScore": 400,
+   "feedbackPct": "100.0",
+   "returnsAccepted": false,
+   "condition": "Used",
+   "matchedIds": [],
+   "photos": [
+    "https://i.ebayimg.com/images/g/zhcAAeSw9tNq4s83/s-l225.jpg",
+    "https://i.ebayimg.com/images/g/aTEAAeSwy-tq4s83/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/Ch8AAeSw-CVq4s83/s-l1600.jpg"
+   ],
+   "desc": "Lot of 4 Pok\u00e9mon TCG cards featuring 2 Magikarp and 2 Psyduck from 2011\u20132016. All cards are authentic and show some signs of wear. Please review photos for exact condition. Prices from TCGplayer."
   }
  ],
  "booklets": {
