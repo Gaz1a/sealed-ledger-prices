@@ -1,12 +1,68 @@
 {
- "generated": "2026-11-05",
+ "generated": "2026-11-06",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (27 entries, 3 new matches)",
+  "googlenews-reprint": "ok (31 entries, 4 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
+  {
+   "id": "5e932e8efd49",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon TCG 30th Celebration Ultra-Premium Collection: Where to Buy the Day and Night Boxes - IGN",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZUViMnE1Qjc1YXFYYThGSmNFVGx5SzRaS19ZQ0RRRnd0d2JJYk5Ed0RsYUtLX0h6UDVHSjh6SERiSUdQZVBieFpzX285YjRTQ3g0cEJHV3lFbExaZlpjcWx6WHBzc0sybGJncmNQU3Q1eEFJREJkNHByMG1uVE95YkV6cTdXLWRjYWF5N040ME8zbWo4UXd1V0Ftbw?oc=5",
+   "published": "2026-11-06",
+   "firstSeen": "2026-11-06",
+   "classes": [],
+   "matched": [
+    "30th celebration"
+   ]
+  },
+  {
+   "id": "4b946d4131c1",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon TCG 30th Celebration Ultra-Premium Collections are live at Amazon: Preorder now - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSk5xTkMtODRTbFFZbEJtajVlUTNNVlhaTzZ2cmYyUXFyb1Zfb01yLUE2TkdtNkt4aGdZV1paYkxIcV9YLU5VVk5JQkQ0YU1YQ1dMVEV5SXhFdURjcjhEVF9TZFNiWTlnazlENEZTQTdVU2QyZ2xmOXl4M3BLamxDUDEycl9vZDFrUUd3dUpIUnB6ZUhMZHBwbGtFb05MRWJyUEE?oc=5",
+   "published": "2026-11-06",
+   "firstSeen": "2026-11-06",
+   "classes": [
+    "preorder"
+   ],
+   "matched": [
+    "preorder",
+    "30th celebration"
+   ]
+  },
+  {
+   "id": "3f448d7df542",
+   "feed": "googlenews-reprint",
+   "title": "Shoppers line up en masse for Pokemon UPCs, Delta Reign launch - Reno Gazette Journal",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUXc2RjNJeXRBMHdWSGV6RlRoSkJyM3ExdDJaMEZTajVZQndQWmdOWDZPd0NLZ0p5WC1oR2dVbWJTZWlFMEVtbHlOUEFLTllrSTB4WC01OG9uVkIzeEFnRTF4bTB2Vm1XZmdxektzQjhyZDFpZlZBYnN4TUNfZDNueFJQbEdoU3FwTDktcURjWHBtMjR2R05BV0t5UEVjeG1FWEtiTTFJeFE5Nm9Dc2ZTX01yQ01NZw?oc=5",
+   "published": "2026-11-06",
+   "firstSeen": "2026-11-06",
+   "classes": [
+    "release"
+   ],
+   "matched": [
+    "delta reign"
+   ]
+  },
+  {
+   "id": "d258f8eec221",
+   "feed": "googlenews-reprint",
+   "title": "Pokemon Winds and Waves Were Reportedly Delayed Right Before Reveal - ComicBook.com",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbGNrOE5XSGNpSnQ1S21xaXVhM0xqZlVfQWVISFFfWElOTWtqZHpwMHRoN0lZRVhHT0FGUnhlRnFtVlRSbjYwRm1RSEE4TU1tM25ySzY3YWZWNUpuMlhqNVhWVHVqSmxaYWVUbzJTTG5lZXA3QlI3TFMyMS1tMVVvaDJ5NktiVXM?oc=5",
+   "published": "2026-11-06",
+   "firstSeen": "2026-11-06",
+   "classes": [
+    "delay"
+   ],
+   "matched": [
+    "delay",
+    "delayed"
+   ]
+  },
   {
    "id": "1ab53e3e8740",
    "feed": "googlenews-reprint",
