@@ -175,10 +175,10 @@
      "url": "https://www.ebay.it/itm/287699831000"
     },
     "396842554717": {
-     "firstSeen": "2026-11-06",
+     "firstSeen": "2026-11-07",
      "title": "Carta Lugia 29/115 W Collezione Portoghese Ex Forze Ocultas (SOLO UNA SU EBAY)",
      "sealed": false,
-     "itemUSD": 168.19,
+     "itemUSD": 169.33,
      "url": "https://www.ebay.it/itm/396842554717"
     }
    }
@@ -259,11 +259,11 @@
   "bk-ralts": {
    "name": "Ralts",
    "reference": {
-    "allInUSD": 55.9,
-    "itemUSD": 31.94,
-    "date": "2026-10-21",
-    "url": "https://www.ebay.it/itm/336808252486",
-    "title": "Pokémon TCG Portoghese Scatola Illustrazione Vintage Mezzo Deck - Ralts - SIGILLATO"
+    "allInUSD": 53.77,
+    "itemUSD": 33.5,
+    "date": "2026-11-07",
+    "url": "https://www.ebay.it/itm/800886705010",
+    "title": "Pokémon Ralts EX Ruby & Sapphire Illustrated Book - Devir (Sealed)"
    },
    "seen": {
     "307154261661": {
@@ -314,12 +314,25 @@
      "sealed": false,
      "itemUSD": 40.4,
      "url": "https://www.ebay.it/itm/800814013282"
+    },
+    "800886705010": {
+     "firstSeen": "2026-11-07",
+     "title": "Pokémon Ralts EX Ruby & Sapphire Illustrated Book - Devir (Sealed)",
+     "sealed": true,
+     "itemUSD": 33.5,
+     "url": "https://www.ebay.it/itm/800886705010"
     }
    }
   },
   "bk-treecko": {
    "name": "Treecko",
-   "reference": null,
+   "reference": {
+    "allInUSD": 53.77,
+    "itemUSD": 33.5,
+    "date": "2026-11-07",
+    "url": "https://www.ebay.it/itm/800886710769",
+    "title": "Pokémon Treecko EX Ruby & Sapphire Illustrated Book - Devir (Sealed)"
+   },
    "seen": {
     "278336139761": {
      "firstSeen": "2026-10-17",
@@ -355,6 +368,13 @@
      "sealed": true,
      "itemUSD": 60.0,
      "url": "https://www.ebay.com/itm/820282288580"
+    },
+    "800886710769": {
+     "firstSeen": "2026-11-07",
+     "title": "Pokémon Treecko EX Ruby & Sapphire Illustrated Book - Devir (Sealed)",
+     "sealed": true,
+     "itemUSD": 33.5,
+     "url": "https://www.ebay.it/itm/800886710769"
     }
    }
   },
@@ -483,5 +503,5 @@
    }
   }
  },
- "generated": "2026-11-06"
+ "generated": "2026-11-07"
 }
