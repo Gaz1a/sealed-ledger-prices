@@ -2,8 +2,70 @@
  "row": "s-rayq-sir",
  "searchKey": "138/103",
  "keyStatus": "provisional (no English scan seen)",
- "checked": "2026-11-06",
+ "checked": "2026-11-07",
  "startsOn": "2026-11-07",
- "matches": [],
- "status": "waiting: checks start 2026-11-07"
+ "matches": [
+  {
+   "productId": 726543,
+   "name": "Mega Rayquaza ex",
+   "number": "084/103",
+   "matchedBy": [
+    "name"
+   ],
+   "prices": [
+    {
+     "sub": "Holofoil",
+     "market": 7.66
+    }
+   ]
+  },
+  {
+   "productId": 726553,
+   "name": "Mega Rayquaza Cap",
+   "number": "100/103",
+   "matchedBy": [
+    "name"
+   ],
+   "prices": [
+    {
+     "sub": "Normal",
+     "market": 0.13
+    },
+    {
+     "sub": "Reverse Holofoil",
+     "market": 0.28
+    }
+   ]
+  },
+  {
+   "productId": 728061,
+   "name": "Mega Rayquaza ex - 138/103",
+   "number": "138/103",
+   "matchedBy": [
+    "number",
+    "name"
+   ],
+   "prices": [
+    {
+     "sub": "Holofoil",
+     "market": 319.52
+    }
+   ]
+  },
+  {
+   "productId": 728062,
+   "name": "Mega Rayquaza ex - 141/103",
+   "number": "141/103",
+   "matchedBy": [
+    "name"
+   ],
+   "prices": [
+    {
+     "sub": "Holofoil",
+     "market": 284.88
+    }
+   ]
+  }
+ ],
+ "status": "4 candidate(s) - tell Gaz the id to lock"
 }
