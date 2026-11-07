@@ -1,14 +1,16 @@
 {
  "ok": true,
  "added": [],
- "removed": [],
+ "removed": [
+  "k-089"
+ ],
  "changed": 0,
  "newTracked": [
   "rp-668541"
  ],
- "batch": "20261106-0859",
+ "batch": "20261107-0851",
  "parts": 1,
- "payloadDate": "2026-11-06",
- "wants": 316,
- "ran": "2026-11-06T19:26Z"
+ "payloadDate": "2026-11-07",
+ "wants": 315,
+ "ran": "2026-11-07T17:45Z"
 }

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06",
+ "generated": "2026-11-07",
  "source": "Pokémon TCG Ledger, synced daily by the Tracker task via the Ledger sync form",
  "items": {
   "bs-maintenance": {
@@ -3012,16 +3012,6 @@
    "cond": "nm",
    "status": "watch"
   },
-  "k-089": {
-   "title": "Muk 13/62 (holo)",
-   "kind": "kanto",
-   "set": "Fossil",
-   "tcgProductId": "44422",
-   "market": 10.98,
-   "target": 10.44,
-   "cond": "nm",
-   "status": "want"
-  },
   "kg-86003": {
    "title": "Gyarados Star (Delta Species) 102/110 (EX Holon Phantoms) · Holofoil",
    "kind": "singles",
@@ -3159,6 +3149,6 @@
    "target": 190.0
   }
  },
- "payloadDate": "2026-11-06",
- "batch": "20261106-0859"
+ "payloadDate": "2026-11-07",
+ "batch": "20261107-0851"
 }
