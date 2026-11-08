@@ -1,41 +1,16 @@
 {
- "generated": "2026-11-08T02:41:04Z",
+ "generated": "2026-11-08T05:34:21Z",
  "source": "Fanatics Collect public search; values TCGplayer (tcgcsv) and PriceCharting",
  "rules": "Same rules as goldin.json.",
  "lotsScanned": 3420,
  "wants": [
-  {
-   "lot": "WA251 Lot: 19394F3",
-   "title": "2023 Pokemon Scarlet & Violet Paldea Evolved IR Magikarp #203 CGC 8 NM-MT",
-   "url": "https://www.fanaticscollect.com/weekly/e9499dd4-d618-11f1-98b3-02ffee29789b/2023-pokemon-scarlet-violet-paldea-evolved-ir-magikarp-203-cgc-8-nm-mt",
-   "source": "fanatics",
-   "lotId": "WEEKLY6814546",
-   "ends": "2026-11-09T03:00:00Z",
-   "endsPT": "Sun Nov 8, 7:00PM PT",
-   "auctionType": "WEEKLY",
-   "status": "Live",
-   "kind": "graded",
-   "wantId": "mk-paldea-evolved-203-193",
-   "grade": "CGC 8",
-   "rawMarket": 313.31,
-   "currentBid": 36.0,
-   "bids": 7,
-   "buyerPremiumPct": 20.0,
-   "shipEst": 15.0,
-   "allInNow": 58.2,
-   "value": 266.94,
-   "maxBid": 176,
-   "pctOfValueNow": 0.22,
-   "valueSource": "PriceCharting new-price (PSA 8 price used for CGC 8, unverified)",
-   "fanaticsGuide": 339.0,
-   "top": true
-  },
   {
    "lot": "WA251 Lot: 14835F1",
    "title": "1999 Pokemon Fossil Holo Aerodactyl #1 PSA 9 MINT",
    "url": "https://www.fanaticscollect.com/weekly/c51bcec6-d3e5-11f1-952b-0a58a9feac02/1999-pokemon-fossil-holo-aerodactyl-1-psa-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6806256",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Ikppbk9XWjFnV2ZQTjJrOEVsREFhWnc9PSIsInZhbHVlIjoiTUVqNWNYYkY5ZjdWTUVETi9MTTZNbDhwaDRtSm5vdFE1QVdOT1ZDU1N5dktTVm85YVZKMzZjSUcyUEdKdFRPVE5yTmxGUzFqL3E1SnVNMWUreXRlWEE9PSIsIm1hYyI6ImU2MGQ2MDc4ZTU3MWIzYTNjYTQ2MzZkMDliNzVhOGQ1Y2E0M2FmMTkxMTRkMDNlN2UyODZmNGRkODdiMDA4NTciLCJ0YWciOiIifQ==",
    "ends": "2026-11-09T03:00:00Z",
    "endsPT": "Sun Nov 8, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -62,6 +37,7 @@
    "url": "https://www.fanaticscollect.com/weekly/33e0ce3a-d2f9-11f1-95ff-02ffd7a4a6ab/2001-pokemon-neo-revelation-holo-shining-magikarp-66-psa-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6798836",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkxSSVZGWitpVlQ2U3V2YUVqa2h4K3c9PSIsInZhbHVlIjoiWGZqU2s5WEZuRGJnem9kczRiVUl6aFVING5LaTFPUXlGaHd6aWlOMmFOWFFxbnQvRDErOGZ4M2lrdGNSa250R3Rrekd3QlJna1h5SkJneFkyMXdPSXc9PSIsIm1hYyI6ImRhN2U3M2RlYTdhNTQ3MjkwNGU5ZDIyMjliMjlhZTczZjJjYWMzYWJmNWRjYzg2MzcwZThlMjAzNTE0M2Q1NWUiLCJ0YWciOiIifQ==",
    "ends": "2026-11-09T03:00:00Z",
    "endsPT": "Sun Nov 8, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -88,6 +64,7 @@
    "url": "https://www.fanaticscollect.com/weekly/c1eb2b2a-d1bf-11f1-8adf-0afff2205d79/1999-pokemon-jungle-holo-jolteon-4-cgc-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6788529",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkYyWlI1eXlJTXNMZ3Y2K2drQTlsSkE9PSIsInZhbHVlIjoiTlYrY1oxMmhmVjQrbmJ4ZXFteUxlbjFTd1JaWTVtRG14VGMrK3dFaEM4WXFhZG9lWDFNYmVsclgzeUpNWlkxSENrVTVMQzNBQUduY2NrUU1XYUhSM0E9PSIsIm1hYyI6ImNmZDYyYTY1Y2M2MWVkZjJjYWQ1MDdiMjE3ODkzNzllODZkMmY0NGZlNmVmMGE0NDg5NmFiODA2ZDcyOWQ2YTEiLCJ0YWciOiIifQ==",
    "ends": "2026-11-09T03:00:00Z",
    "endsPT": "Sun Nov 8, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -114,6 +91,7 @@
    "url": "https://www.fanaticscollect.com/weekly/8b8cc72a-d258-11f1-82d9-0a58a9feac02/1999-pokemon-fossil-holo-dragonite-4-cgc-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6793840",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImplK0hXM0crQVdPRkVaWmdHalNWaWc9PSIsInZhbHVlIjoiZElUbktuNlRINnFsc1NzSU1GNStuU3BqRG9jcWVWdVhzalVOdlZiWWpaaDJRak0wWGNBWElmbEh1V2t1RnpvdklDUjBoN3R0NkFlUExVUGJXbjlmQWc9PSIsIm1hYyI6IjgyZjZhM2M0ZDdlZWY3MzM4OGZjZWI3ZTM0NGMzZjRhNzM3NzI4OGJhM2YyYzRhMWI3NzE1ODU4Mzc5NjBkNTgiLCJ0YWciOiIifQ==",
    "ends": "2026-11-09T03:00:00Z",
    "endsPT": "Sun Nov 8, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -140,6 +118,7 @@
    "url": "https://www.fanaticscollect.com/weekly/864ce290-cc22-11f1-a2ba-0a58a9feac02/1999-pokemon-jungle-holo-nidoqueen-7-psa-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6749467",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImM3MTRkbC9SK01JRS81N2RCTkhQdEE9PSIsInZhbHVlIjoiM21pMGlTSnB4THAyQVBEZDJWOFJ6R0FWYzhCa3RPZHhsUDhwd1RlajFHeTdBVmhCSnN0Q1dyWVNuS2xpUWdDZ0ViNHA1RVNTMjFyekRVMG9GZHl6SWc9PSIsIm1hYyI6ImMyNTY0YTU4ZDFhNTMyNjdmNTQ0MTUyYjhhYWNlODQwODU0YTRkNTliMzk4ZGRhZmVkZjFiOWI3ZDI3MWUxNzciLCJ0YWciOiIifQ==",
    "ends": "2026-11-09T03:00:00Z",
    "endsPT": "Sun Nov 8, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -166,6 +145,7 @@
    "url": "https://www.fanaticscollect.com/weekly/2840f7c6-d349-11f1-a885-0afff3344faf/1999-pokemon-jungle-holo-scyther-10-cgc-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6803134",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6InFMQ1h6dk9Uam9HcXB5NlNsVVRvM2c9PSIsInZhbHVlIjoibmtUM1B6by9nRkxnUlJUQklzcWh5ajk1NUExNFhxRTU2R1F2SWZCTktBLzc0TlEvcXlnVzR1T3hJMGVMakZXUW9XdDNwLzBpeENYalhBa2UxY2d5d0E9PSIsIm1hYyI6ImEyZWYwNzUxMGZhNTUzMGJjNGU4YjYxNWFhY2I5MDNmODJjNDZiNGY0OGY3NDhlODM3NTgzYjQ0NmEwYzZkMjciLCJ0YWciOiIifQ==",
    "ends": "2026-11-09T03:00:00Z",
    "endsPT": "Sun Nov 8, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -192,6 +172,7 @@
    "url": "https://www.fanaticscollect.com/weekly/6949a270-d6cf-11f1-a318-02ffced3ac55/1999-pokemon-base-set-holo-charizard-4-bgs-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6817733",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Imh2RkJqbnBkeXVqYzdOb3k1TmNNWmc9PSIsInZhbHVlIjoiVWhGSCsvNWdwMHBiMlo3emNqYXpXaVRpeUMwMnBUT01TZ0E1alljY3V2OXJJcG80L2dSSXZvaFhXajkrZWlJNkxjUFRZTGpKMXp3QkVHMVRyaHc2ZXc9PSIsIm1hYyI6IjcwODRkZmY1OTg1YTU4YjA3MjAxOWYyZTc2ZWMxYTVmNDQ5Njc4MWFmNGFiMTM3NTFhNmFkOGRkNGZkZDFjOTkiLCJ0YWciOiIifQ==",
    "ends": "2026-11-09T03:00:00Z",
    "endsPT": "Sun Nov 8, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -213,37 +194,12 @@
    "top": true
   },
   {
-   "lot": "WA251 Lot: 14653F3",
-   "title": "1999 Pokemon Base Set Holo Nidoking #11 PSA 8 NM-MT",
-   "url": "https://www.fanaticscollect.com/weekly/2c7a4380-d662-11f1-a2aa-0a58a9feac02/1999-pokemon-base-set-holo-nidoking-11-psa-8-nm-mt",
-   "source": "fanatics",
-   "lotId": "WEEKLY6815738",
-   "ends": "2026-11-09T03:00:00Z",
-   "endsPT": "Sun Nov 8, 7:00PM PT",
-   "auctionType": "WEEKLY",
-   "status": "Live",
-   "kind": "graded",
-   "wantId": "k-034",
-   "grade": "PSA 8",
-   "rawMarket": 41.26,
-   "currentBid": 31.0,
-   "bids": 5,
-   "buyerPremiumPct": 20.0,
-   "shipEst": 15.0,
-   "allInNow": 52.2,
-   "value": 99.99,
-   "maxBid": 58,
-   "pctOfValueNow": 0.52,
-   "valueSource": "PriceCharting new-price",
-   "fanaticsGuide": 89.0,
-   "top": true
-  },
-  {
    "lot": "WA251 Lot: 14634",
    "title": "1999 Pokemon Base Set Holo Blastoise #2 PSA 8 NM-MT",
    "url": "https://www.fanaticscollect.com/weekly/5d56a76a-d0bc-11f1-a8cd-06fffd1d7e57/1999-pokemon-base-set-holo-blastoise-2-psa-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6778536",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Iko4cHpjRnlHZlc4TFpsWVp3dURTQ1E9PSIsInZhbHVlIjoiSlNVd2MyVFJvRTN3NHdKUWtsR1lJai9pS0wzRnpPeGdrNDBrK1RvQlV4dHYxYTBxcHUvVUgyRHFZcy9Mbk9zQUpHZEUvc2g2TVA4a1BMSnpoRWdnRFE9PSIsIm1hYyI6IjYyNzg2NmUzODgxNGQ5NDI5ODVlYzEyZTBhNDFmZWJmYWQ5NDlmNjYyNjc1ZmZmZTI0OTliZDdmOTkwNDgyYTkiLCJ0YWciOiIifQ==",
    "ends": "2026-11-09T03:00:00Z",
    "endsPT": "Sun Nov 8, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -270,6 +226,7 @@
    "url": "https://www.fanaticscollect.com/weekly/bb2bba3a-d33f-11f1-bc2d-0a58a9feac02/1999-pokemon-base-set-holo-blastoise-2-psa-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6803046",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Ijc0VmloNnpZU0FaakE5R2REUXE2RlE9PSIsInZhbHVlIjoiQ3hlb0hiVWtLQ29mWkFFZ0h4OUNKVER0NWtOQmNXY1Q1RHhEdUgwNFJBUDhIZWpwOTU1OFZ1alFPaVhBOUd2QkZaQWt5dzA4V1B1ayt2RVNLdWxVMnc9PSIsIm1hYyI6Ijg5ZDJkNGRjOTYyNDcyMGI5OGY3NjczZjc3MDMyYmJjZDI4NWE5NTE4OTZhNmQyY2U1ZWEzNmEzMDA2MGE2MTIiLCJ0YWciOiIifQ==",
    "ends": "2026-11-09T03:00:00Z",
    "endsPT": "Sun Nov 8, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -291,11 +248,39 @@
    "top": true
   },
   {
+   "lot": "WA251 Lot: 19394F3",
+   "title": "2023 Pokemon Scarlet & Violet Paldea Evolved IR Magikarp #203 CGC 8 NM-MT",
+   "url": "https://www.fanaticscollect.com/weekly/e9499dd4-d618-11f1-98b3-02ffee29789b/2023-pokemon-scarlet-violet-paldea-evolved-ir-magikarp-203-cgc-8-nm-mt",
+   "source": "fanatics",
+   "lotId": "WEEKLY6814546",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6InBTYjl0c2dRejAyems5T2xXYmRNVGc9PSIsInZhbHVlIjoieFJRVWl5YXdrNGJvVXp6NnB3NEdYMEM0aG9wZHhBb2dpbzJnNUJBQXNVVmtXOUtIdnZsUVFZVmJldU5DcWswVllxM2czZnVFN2pjUk1BblRmakFWL0E9PSIsIm1hYyI6IjJiYmQ3OWE0NTdjYjRkYWIyYmYyOWZjZDFjYjgyOTAyMzNhNzk1MTg0OTk3NTdlZjUzNTQ4NDk5NThjMGJjZmQiLCJ0YWciOiIifQ==",
+   "ends": "2026-11-09T03:00:00Z",
+   "endsPT": "Sun Nov 8, 7:00PM PT",
+   "auctionType": "WEEKLY",
+   "status": "Live",
+   "kind": "graded",
+   "wantId": "mk-paldea-evolved-203-193",
+   "grade": "CGC 8",
+   "rawMarket": 313.31,
+   "currentBid": 120.0,
+   "bids": 10,
+   "buyerPremiumPct": 20.0,
+   "shipEst": 15.0,
+   "allInNow": 159.0,
+   "value": 266.94,
+   "maxBid": 176,
+   "pctOfValueNow": 0.6,
+   "valueSource": "PriceCharting new-price (PSA 8 price used for CGC 8, unverified)",
+   "fanaticsGuide": 339.0,
+   "top": true
+  },
+  {
    "lot": "WA251 Lot: 14635F1",
    "title": "1999 Pokemon Base Set Holo Blastoise #2 PSA 8 NM-MT",
    "url": "https://www.fanaticscollect.com/weekly/726d670a-d4af-11f1-9d76-06ffd243496f/1999-pokemon-base-set-holo-blastoise-2-psa-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6810163",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IlBsQVE0WDB5NWRzYXQ2bzgxbUIzbVE9PSIsInZhbHVlIjoiQTBlNnRhejVSQVhTNHZzQmJCM1prL3dhY1oxRGhEN2JOWHFqL005VVd2czJIM3BVVUJGaTJVcWhJUlFoOGV5RU9NYlY2QTlUb2FWYWxwT3RGUE5sZUE9PSIsIm1hYyI6IjMxMmFjNTA2N2Y4NDFmZDU5MGU0MWUyZTcxZTZkNzlhNTYyMzA4OGE5NmJjNzc2OTZlMzE1ZDY5NDI2YzJkYzciLCJ0YWciOiIifQ==",
    "ends": "2026-11-09T03:00:00Z",
    "endsPT": "Sun Nov 8, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -322,6 +307,7 @@
    "url": "https://www.fanaticscollect.com/weekly/c828bac0-d147-11f1-8112-02ffe91fea4d/1999-pokemon-base-set-holo-zapdos-16-psa-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6781040",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IlBYazNLNDlrbnVWSDRpam1BQTV6NFE9PSIsInZhbHVlIjoiVFgxTUl5T1FvM1hCczZnbzRqK280c0tnZTkrUUhyb1NiSGIwN2tSZWpvUDFQbDc5M2RHODVvTGF5aFQzOE1kc2ZqdFd3RGtuSjJtS281MytGMEF5S0E9PSIsIm1hYyI6IjA4Yjk5NjQ0ZjQ5ZjVjZjE0MzY0MzA0NDNhZDkxYjZkNzc2ZGJhNDlkMWVlYmYzMTcxMDNlNjZmOGMwZjBjMjUiLCJ0YWciOiIifQ==",
    "ends": "2026-11-09T03:00:00Z",
    "endsPT": "Sun Nov 8, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -348,6 +334,7 @@
    "url": "https://www.fanaticscollect.com/weekly/7276203e-d4af-11f1-bb63-02ffcab3b10d/1999-pokemon-base-set-holo-venusaur-15-psa-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6810167",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImllOUU5d3FieVhBaGJWMC81d3lYVXc9PSIsInZhbHVlIjoiekU2ZjRWT3N6Q0RvdXY3bHhOQ093aXpNeWxFclBsRFZ5QS83Z2tTMVJCby8zcXFLcURXaVA3WFp4N1pQZjErUjhHM25iU0VnZUYvdndwYitnRUUraEE9PSIsIm1hYyI6IjJiNTRhNDE2ODQ3MmEwMjk1OGYwMWY0NjE2MGIzNmMzNTA2MWEyNjgxYWFmNjgzZjJiNDE2MzRiNWMwY2U4NzciLCJ0YWciOiIifQ==",
    "ends": "2026-11-09T03:00:00Z",
    "endsPT": "Sun Nov 8, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -374,6 +361,7 @@
    "url": "https://www.fanaticscollect.com/weekly/8c16d442-d258-11f1-beb7-0a58a9feac02/1999-pokemon-fossil-holo-kabutops-9-psa-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6793884",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Im5yNzh2NERWU3BxNzFiR2pCYy9jb2c9PSIsInZhbHVlIjoiNDE0SUdsaEZmWGFJQWVycWQ4OEY5MGxVNlNxbm44SVEyejhqb1BQeGU2NS94dFZhOXk1a3pZNllaTFY1MURLZWpPVjJ3ZnJNbTM5QUYwZWYxTEpZWVE9PSIsIm1hYyI6IjE4MTUwZTYwYWZjYTQyYjEwMTNmNmU5ZjdlZDRiNTYzYjNmZjdiNTI1MDkwNmMxNGM5ZWE4NzJjYzJmZDE4YTIiLCJ0YWciOiIifQ==",
    "ends": "2026-11-09T03:00:00Z",
    "endsPT": "Sun Nov 8, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -400,6 +388,7 @@
    "url": "https://www.fanaticscollect.com/weekly/3ae8bc4a-d152-11f1-9dff-06fffd1d7e57/1999-pokemon-base-set-holo-blastoise-2-psa-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6782403",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Iitxbk5BczR0azMyOE9JUndMRG5YM2c9PSIsInZhbHVlIjoiUHlrcTN0b3Jkb3FHRU9UcnY4aWs3N2dicVFlY2RVdUYrR2VWdGdjc29nbnNjbkxiNjB4RElMT3hPUTZSWlVQMjkzMWpKUHdsQzhaamZ4MjR4czJPNFE9PSIsIm1hYyI6ImNlNGQxMGE5YmI0ZDE3ZmNiMjVhMmJhN2M3ZTAwNTEzODZmOTk1NmQxNGEwYzZiOWY4NDE0OGRkZGI2YmNlMjEiLCJ0YWciOiIifQ==",
    "ends": "2026-11-09T03:00:00Z",
    "endsPT": "Sun Nov 8, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -426,6 +415,7 @@
    "url": "https://www.fanaticscollect.com/weekly/72774f36-d4af-11f1-b0f0-0afffa2d8429/1999-pokemon-base-set-holo-charizard-4-psa-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6810168",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkRiYTBQd216K2Y3MmRGbHAyYllQeGc9PSIsInZhbHVlIjoibXZoQjIwSk5BK2ZSWUNzdXdmUTZ2L2ExamtNYTk5dnlOTlh6d2dHRUZibCtoc25xOEdTWkE0bWZRU1FJNDZyeXBGL1pwYTNvaDQwM1NGQjYwUDB1SGc9PSIsIm1hYyI6IjEyODhkNTViN2FlZjdmMjM5N2UxNjk2MjE3ZGQzZTZkM2IxNzhjYWQ5ZTA4ZGZiNDRiNGMxMDRiZDZhMTY0MTQiLCJ0YWciOiIifQ==",
    "ends": "2026-11-09T03:00:00Z",
    "endsPT": "Sun Nov 8, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -452,6 +442,7 @@
    "url": "https://www.fanaticscollect.com/weekly/69c77190-d4eb-11f1-93ae-0a58a9feac02/2021-pokemon-swsh-celebrations-classic-collection-holo-shining-magikarp-66-psa-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6812053",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Impta0ZiVUg4ZmJmNGJ2ejVUdWp2bkE9PSIsInZhbHVlIjoiaUlNYnQ2UWxSSXVNWDltSWVNeWdGRVhWWERRS3ZiNGdDNlZuVmlQYWFJajVJZTBWQ0NnM0k5VU9oNnJWVGhndTNQNUMyejNIaWlCdlFTYkhJbVFPa2c9PSIsIm1hYyI6IjVmYTRhYjIyZjMwYWQ3NmFiZGM2NjA5ZjdkMTAxZjY4OTU5MjFiMjY4MDg1MjhkNTkzMGY5YzFlZmVlZmY5ZDQiLCJ0YWciOiIifQ==",
    "ends": "2026-11-09T03:00:00Z",
    "endsPT": "Sun Nov 8, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -469,7 +460,7 @@
    "maxBid": 25,
    "pctOfValueNow": 0.83,
    "valueSource": "PriceCharting graded-price",
-   "fanaticsGuide": 48.0,
+   "fanaticsGuide": 56.64,
    "top": true
   },
   {
@@ -478,6 +469,7 @@
    "url": "https://www.fanaticscollect.com/weekly/4040712a-d3ae-11f1-9758-0a58a9feac02/1999-pokemon-base-set-holo-charizard-4-psa-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6804569",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkM5ZGl2djRoUlVaUTNtR3VwMjlORHc9PSIsInZhbHVlIjoiU1c2MjFUdGhqWlFVMXloOUN2dFU4aDVPZ2MzQ2VzUVVlUnhWTnRtVWxaVVRpRTB4UzAzRWZZL0ZwNFg0REN4UEY2RXpkQjF3b1VOWnRLTXNDbmVmckE9PSIsIm1hYyI6IjlmM2U1MTU1NDZlYmFmMDY3ZTdhNDdiMTYxMzFhNTBmMmVlMjNiNWZiZmQ5M2EzMjY2YzI4OGU3Y2E5ZDhkMjQiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -496,7 +488,7 @@
    "pctOfValueNow": 0.02,
    "valueSource": "PriceCharting new-price",
    "fanaticsGuide": 1226.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 99277",
@@ -504,6 +496,7 @@
    "url": "https://www.fanaticscollect.com/weekly/4cf9ea4a-d7f0-11f1-b64d-02ffced3ac55/1999-pokemon-base-set-holo-charizard-4-psa-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6832801",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImkzUnpiSXY4VnFqMEt3eE4rMU1lZVE9PSIsInZhbHVlIjoiNzE0em5uNkg5aTJYTXJLSXd1eTFSeU5BTjFwOGZmTWlTSit5OWRHM0hGRGR3TXNDRU9aaGdmWVk2YmNCZTZxN1dva0cxN0oyNHJzMGdVVFc2MDFFTnc9PSIsIm1hYyI6IjM0ZjU2YjAzZjk2MTgzZGYyYmRhNzZmM2Y5NjYzMmJhZjZhNTU3OTJhNTRkYjIxMWExZmQwZjlmZDZiYjlkMjUiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -522,7 +515,7 @@
    "pctOfValueNow": 0.02,
    "valueSource": "PriceCharting new-price",
    "fanaticsGuide": 1226.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 98231",
@@ -530,6 +523,7 @@
    "url": "https://www.fanaticscollect.com/weekly/0b1538fa-d49e-11f1-9b51-0a58a9feac02/1999-pokemon-base-set-holo-charizard-4-psa-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6809491",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjRqbXhVbWRkWFJNbzhKTXZOeHJYYkE9PSIsInZhbHVlIjoiMXlHdVRzUEp5TDFQc2x4TVkrQUlYcWp6T2FncmZKQVVPTmhpcFVZeEw4OEltYy84WVR2ajY0WnVOdjlrOWNaZTFaaDVISHhXZmFXVFBidkxjM1N4S3c9PSIsIm1hYyI6IjliZmJmNmM5NmYwNjUzNGNlMTc3NmJiNWIxMmI5M2Q1YTIzZGQ4NTI2YTA3YzZhYjUxNzc0N2JhMjg0ZDZlZDAiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -548,7 +542,7 @@
    "pctOfValueNow": 0.02,
    "valueSource": "PriceCharting new-price",
    "fanaticsGuide": 1502.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 104009",
@@ -556,6 +550,7 @@
    "url": "https://www.fanaticscollect.com/weekly/e203a754-d7df-11f1-9554-02ffced3ac55/1999-pokemon-fossil-holo-dragonite-4-psa-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6832255",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Im4vdmExNWJvRU04VElma0NlMis1RWc9PSIsInZhbHVlIjoiK3lQL3BEN21RQ0piMEdtRXZnN1JYQU1qazZZQ0t3WFFtOXNtNEtQYU45QnVPZ201L3I4VXhGclFUVEdzRzl0d01VUldMVFYrSjFMcnBaTkRRMGQyenc9PSIsIm1hYyI6ImFmMTc5NWM2N2MzNjg1MzAyNDAyYTgyNjQwOWEyYTc3NTNkYjA4NWU0ZGU1MDc0NzNmYzE2ZjIxYmVkODRkZDciLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -574,7 +569,7 @@
    "pctOfValueNow": 0.04,
    "valueSource": "PriceCharting graded-price",
    "fanaticsGuide": 850.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 9059",
@@ -582,6 +577,7 @@
    "url": "https://www.fanaticscollect.com/weekly/053c77ae-c765-11f1-863c-0a58a9feac02/1999-pokemon-base-set-holo-blastoise-2-psa-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6716305",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Ikg3azBnZjV4dDVOazYyNXhGV2FGaGc9PSIsInZhbHVlIjoiUld5eVlEa2xkS0xseCs2RlpSRTAxdlhheW9mSjhGSjcyQVdEUzVKWjlIWnRlWjJVSG5lWlhURFE4Zm5xTjZXOUVrNTZpb1N4ZlJuQnlFckJIQy9KalE9PSIsIm1hYyI6ImQ5YjM0Zjk1OGJmYWYwNTEwYmRkNzkwYjgzZGE1MjE1NzMyNzE0NDBlYjJiZDA2M2QwZjUwOTU5NmYzNjliOWYiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -600,7 +596,7 @@
    "pctOfValueNow": 0.06,
    "valueSource": "PriceCharting new-price",
    "fanaticsGuide": 351.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 13930",
@@ -608,6 +604,7 @@
    "url": "https://www.fanaticscollect.com/weekly/98d70690-d72e-11f1-99ce-0affc483929d/1999-pokemon-fossil-holo-gengar-5-cgc-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6821973",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImZGdUpwZTJ4N0JEK3JRV21ydzd2Y2c9PSIsInZhbHVlIjoiSFVUbDA1Ri9pS2lCUCs2UkMvaVNrcklobDhyS3FiTHd4QXJBYlAwSWtYcTMvMHJIWVZMZm1Td2dLNDNTblVmeEE1YnRZK0JybDlub2xRYll4ZmhNclE9PSIsIm1hYyI6ImI0YTUwYmNkYmNhMzgxYWI3Y2Q3MjRjOWIxZjgyN2NmNjAyYjRhYWEwYzJjYjVlYTI5NmM3NjRmOTdkMWRjMTQiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -626,7 +623,7 @@
    "pctOfValueNow": 0.06,
    "valueSource": "PriceCharting new-price (PSA 8 price used for CGC 8, unverified)",
    "fanaticsGuide": 213.01,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 14420F1",
@@ -634,6 +631,7 @@
    "url": "https://www.fanaticscollect.com/weekly/4bb3193c-d93e-11f1-9f8d-0a58a9feac02/2023-pokemon-scarlet-violet-paldea-evolved-ir-magikarp-203-cgc-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6844826",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IlpLTlpYUEpVWDk1MVRtdktPWGRwMFE9PSIsInZhbHVlIjoidHY1VXBpL29HcXYxMWZBZWpJVzRpUFhiQzBDQVg0VDcxRlpTdGJZOUJpTmdRekczNWNydUNKNU42YkMrcTFHZHN0SndkdEZ5K3dIa0RuaWtEV0pHM3c9PSIsIm1hYyI6Ijc1MDI0NDhlYTM5OTBlZTdjZGEyYTIzYzE2MTVjYmNhNDVkNTA0MWEzZDg5NGI3NzI0M2YxMWQ1MzYxZWM4ZWIiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -652,7 +650,7 @@
    "pctOfValueNow": 0.06,
    "valueSource": "PriceCharting graded-price (PSA 9 price used for CGC 9, unverified)",
    "fanaticsGuide": 260.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 9071F1",
@@ -660,6 +658,7 @@
    "url": "https://www.fanaticscollect.com/weekly/acbcf22c-d7b1-11f1-b5c8-06ffcf62622d/1999-pokemon-base-set-holo-venusaur-15-psa-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6827160",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IlhjM3FoNEFQSnQ4OHFscDBScG0vV1E9PSIsInZhbHVlIjoiVHBObmlTLzQ0MGhWRGdrQnM5YXFQK1RtS0lMdkVaOVRrdjNLVUdYVm5YVlEwdk5KTlZ6ZXdUR2lZUDRzYlRMcjlpT0NaR0F0U3JGL0k4eE9oTlRhZnc9PSIsIm1hYyI6IjRkZjUwMGZhYjJiZTJjZTM1MGVlMjljZTkzNTQ4OTVkMWVmODk2NWI4NDdiODkyOGNjOTY1NTg5YjAyYzU0YjEiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -678,7 +677,7 @@
    "pctOfValueNow": 0.08,
    "valueSource": "PriceCharting new-price",
    "fanaticsGuide": 294.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 103362",
@@ -686,6 +685,7 @@
    "url": "https://www.fanaticscollect.com/weekly/3dfe75da-d893-11f1-9af1-06fffa0a9b3f/2023-pokemon-scarlet-violet-paldea-evolved-ir-magikarp-203-psa-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6839621",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Iit3R0RUNWVXdXhIQU5tTTlKbUZrYlE9PSIsInZhbHVlIjoiMlRLRHJOY2hHV2g4Z3VwcjNmY3QyZlV1b0c1Qzl1VE43NkdlbjRhTGI2Wk5pN1FzbVdRTVB3RUZsNjlwanhtMzkxRE83MzEwN1kwZVFtbEM5L3ZXcEE9PSIsIm1hYyI6ImNlNmU5MjJlMzdhZDI3MGUxODM1MGRmOWFkMDcyMjhkMDA4ZjMyMjViZGZlZGFiZDQ3YjY5NjNkYTdmYmNkM2YiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -695,7 +695,7 @@
    "grade": "PSA 8",
    "rawMarket": 313.31,
    "currentBid": 5.0,
-   "bids": 0,
+   "bids": 1,
    "buyerPremiumPct": 20.0,
    "shipEst": 15.0,
    "allInNow": 21.0,
@@ -704,7 +704,7 @@
    "pctOfValueNow": 0.08,
    "valueSource": "PriceCharting new-price",
    "fanaticsGuide": 225.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 98816",
@@ -712,6 +712,7 @@
    "url": "https://www.fanaticscollect.com/weekly/5f38fea6-d7f2-11f1-9e0e-0affc6c2dfe9/1999-pokemon-fossil-holo-kabutops-9-cgc-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6832906",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImhKMVJtOHdsMWo4dWNoTWFRaGYyUEE9PSIsInZhbHVlIjoiZ2NJVWorMzFtaHlPNThsZFl0cGVDN1RVVlJxZkRiSU5CcTljOXcvZDRHYnhnR0IwOS9QRFQ3UG11OU1XM2tEeUYzSGRweUJTOXJOVlVyaWp3RVJVdGc9PSIsIm1hYyI6IjcyZTJiMGU2MjYwZjM4NDJiNTIyMGNmMTY3MTRmYWU2YWNlMDIyMzRjYzIzZjEzY2YwODA5MGUzMTNlMjAwMTgiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -730,7 +731,7 @@
    "pctOfValueNow": 0.13,
    "valueSource": "PriceCharting graded-price (PSA 9 price used for CGC 9, unverified)",
    "fanaticsGuide": 105.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 100075",
@@ -738,6 +739,7 @@
    "url": "https://www.fanaticscollect.com/weekly/60ec0cbe-d808-11f1-9c30-0affe98aa285/1999-pokemon-base-set-holo-poliwrath-13-psa-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6834320",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IndjcnpDUHhkNm9PamtQUFlCQ1BmeUE9PSIsInZhbHVlIjoic1o5cElKZ1c4RTNZRHhkUnMyUWlmYlJxWXpnVTFheHBWK3N3RGI0MGZHWnBCL0ZYZlJoS3ZBTG96dHgrWDl6N2dwNUZxMWxnTVBtVXFYcTRYSGtnTXc9PSIsIm1hYyI6IjFiY2NlYjc5ZWUyYjRlYTZiODQ4MTk4NmExMGMxMzZmYjc5YzA3ZDVlNGJkNDBhOGM3MTU5Mjg2YzBiYTQyYTIiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -756,7 +758,7 @@
    "pctOfValueNow": 0.14,
    "valueSource": "PriceCharting graded-price",
    "fanaticsGuide": 200.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 99045",
@@ -764,6 +766,7 @@
    "url": "https://www.fanaticscollect.com/weekly/3756b30e-d7f4-11f1-a6e3-0afff8f29f3b/1999-pokemon-base-set-holo-poliwrath-13-psa-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6833190",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IngzTVlVZnR0cDBuVTBtVVZ5VjZ5enc9PSIsInZhbHVlIjoiSEp4SnhydmZQUFQ4RW8zOWZCck1tV2sxclVEZ0VROStWR1lFSlBhNnNXTmpWZnh5MnV4aVdCVTd1THNzU2s0NjFpWmxsM0ZSd05LM0RsNWE2MU53N0E9PSIsIm1hYyI6IjM3OWFjODdlNzliOTA1OTFjMGQ2NGY1MzJkZDA5YzM2MWFiYzgwYzM2MjgwYjI5ZWM3MTc4NmZlYWEzNWU2MzEiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -782,7 +785,7 @@
    "pctOfValueNow": 0.14,
    "valueSource": "PriceCharting graded-price",
    "fanaticsGuide": 200.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 99185",
@@ -790,6 +793,7 @@
    "url": "https://www.fanaticscollect.com/weekly/0a3ead12-d7fa-11f1-81c1-0a58a9feac02/1999-pokemon-base-set-holo-poliwrath-13-cgc-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6833388",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IitYcUttYWxVTkd2RXNINjVpKzNYY3c9PSIsInZhbHVlIjoiVW9rdEw5dDZJMVlvUWo0RVJ2QzE5UUZjRlhOTXlXQVRRM0ZuZ2VkbFRtQjhWcjJCaDRZdmJXUHluN0lGazBxOWI0cmxzZEEvMTk1MUY1NDdzbkxRSVE9PSIsIm1hYyI6IjAzMTJmMWEwZGY4NjkwOTRlMDEyOWRmZTQ3MTNlMjJiNTFkMzc3MDZmOTI4M2IxYWMzYWNjZjE4OTdmMzdkMjAiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -808,7 +812,7 @@
    "pctOfValueNow": 0.14,
    "valueSource": "PriceCharting graded-price (PSA 9 price used for CGC 9, unverified)",
    "fanaticsGuide": 93.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 9070",
@@ -816,6 +820,7 @@
    "url": "https://www.fanaticscollect.com/weekly/79bdb9a6-cb31-11f1-9e3b-0a58a9feac02/1999-pokemon-base-set-holo-poliwrath-13-cgc-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6741219",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkdPSDltNXJUank3WUh1K3hrZFFiWUE9PSIsInZhbHVlIjoiQ2RyZUxiajV4L3ZHMkE0VWYvdHJlUWdIdVJ4WEQrZlJhQ3VIbit0NC9SUnBIbktoRWZveFF6YkxadlRYbGhyMmFoa1ZyM3NTWHlJUWNiWkpVQzNYZHc9PSIsIm1hYyI6ImQ2NzE2MWE1ZTRmYmE4ZjBmNGEwMzQ5ZGYxYWVmMzQ1MDNmNDgwNGRkMzMzOGQyOGVjYzgyZjU4NWJiNDVmY2IiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -834,7 +839,7 @@
    "pctOfValueNow": 0.14,
    "valueSource": "PriceCharting graded-price (PSA 9 price used for CGC 9, unverified)",
    "fanaticsGuide": 93.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 9244",
@@ -842,6 +847,7 @@
    "url": "https://www.fanaticscollect.com/weekly/7ecec982-c98b-11f1-b1b6-06fffcafe865/1999-pokemon-jungle-holo-jolteon-4-cgc-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6735315",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImFTT2VBUEhvTEdIR1FNcG9IejhOUXc9PSIsInZhbHVlIjoic1JGMWF4aXY0VzlDV1dibzE5SEJob200NWNrS2Zxb2w0NGo1ZVVOL1lPMEJoRW1sczhJVE5LSWx2a3pKdkU4WUdJWVU5TXg4a0xrTVdrOVFKMWVxVXc9PSIsIm1hYyI6ImRkODdjMjlhYzJjOGQ0YmVlNmIwZGUzMTM3YzM1MjNkM2Y2ZjY4NjNiZjBlNzJhMDJhOGY4YTExN2I5ZjdkOTgiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -851,7 +857,7 @@
    "grade": "CGC 8",
    "rawMarket": 103.75,
    "currentBid": 5.0,
-   "bids": 0,
+   "bids": 1,
    "buyerPremiumPct": 20.0,
    "shipEst": 15.0,
    "allInNow": 21.0,
@@ -859,8 +865,8 @@
    "maxBid": 84,
    "pctOfValueNow": 0.15,
    "valueSource": "PriceCharting new-price (PSA 8 price used for CGC 8, unverified)",
-   "fanaticsGuide": 125.0,
-   "top": false
+   "fanaticsGuide": 89.0,
+   "top": true
   },
   {
    "lot": "WA252 Lot: 13900",
@@ -868,6 +874,7 @@
    "url": "https://www.fanaticscollect.com/weekly/98561314-d72e-11f1-a1cc-0a58a9feac02/1999-pokemon-jungle-no-set-symbol-holo-nidoqueen-7-cgc-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6821953",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImJBb1lmUDhKSnNSeHlWNUhoZHdHTFE9PSIsInZhbHVlIjoieGdyMkdRYjBtdHBuWTB2VjRXU1p5WndzZ3dPY0VlOElRYUF4a2x5VVh5bFJZV1NwaXN6SlFFakNBd0hQeUJTUlcvaTV6eGdCdlJ5WnlaaXV0OE1uSUE9PSIsIm1hYyI6IjA5MWI2NDNmNGFjMmM4YzNjYmMzZTFkZWNlY2U1NGExZTcxZmQzYWNjMjhlYzE4Y2MxOTYwYTM4NDQ4NTdlN2QiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -886,7 +893,7 @@
    "pctOfValueNow": 0.16,
    "valueSource": "PriceCharting graded-price (PSA 9 price used for CGC 9, unverified)",
    "fanaticsGuide": 162.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 99088",
@@ -894,6 +901,7 @@
    "url": "https://www.fanaticscollect.com/weekly/87ddc7d6-d7f4-11f1-be30-0afff8f29f3b/2021-pokemon-swsh-celebrations-classic-collection-holo-shining-magikarp-66-psa-10-gem-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6833239",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IldEbzVFcHhiYTBTY2wzVVgzWXFxNlE9PSIsInZhbHVlIjoiRS9raW9xOGxzQzU3VDVpSnNuN0RUdEJLNGJjeWQzUG5weWIycGRIeWE1d1VXZWVHWktmbWdsSVYxbjRHYTBKYWpWMUdla1hGVGtUcXAva2lSbHFhOGc9PSIsIm1hYyI6IjY4OTc2M2Q5ZDUwNmI5ODI3YzU5ZmEwY2UwNWMzMWViNWYwNWJjZDdhZTM1ODgzMTJmODVlODk3NzJkMmU1YTgiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -912,7 +920,7 @@
    "pctOfValueNow": 0.16,
    "valueSource": "PriceCharting manual-only-price",
    "fanaticsGuide": 151.99,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 104177",
@@ -920,6 +928,7 @@
    "url": "https://www.fanaticscollect.com/weekly/dbfe0728-d898-11f1-b83e-02ffdaba98d7/2021-pokemon-sword-shield-celebrations-classic-holo-shining-magikarp-66-cgc-10-gem-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6840534",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjB5QWlXRWNEUGdha0h2a09PaklTRnc9PSIsInZhbHVlIjoiQk9aTHRjZGRYMlJHei9IaFBPOU15WFZaMmdkLzBaVmN5a1FFckR4eUg0L0ZXWmdPVmRWSHFWcjhlUXlzVEdFSmM4WkV0Y0JuMkRhNlUrVmd5OWJad2c9PSIsIm1hYyI6ImNmOGIyNGIxOGIxNDdiZjk0ZmNmZTM1ZjczNTY5MTk4OTNiMjJjOGU5OGRkZDQ3NzM5MzI2ZDdhMjI5NWMyYWUiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -938,7 +947,7 @@
    "pctOfValueNow": 0.16,
    "valueSource": "PriceCharting manual-only-price (PSA 10 price used for CGC 10, unverified)",
    "fanaticsGuide": 45.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 13917",
@@ -946,6 +955,7 @@
    "url": "https://www.fanaticscollect.com/weekly/98e73ff6-d72e-11f1-8ae6-0a58a9feac02/1999-pokemon-jungle-holo-scyther-10-cgc-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6821975",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6InlpNjhwbTFQNjZ0OHpsaG0xYnU2Zmc9PSIsInZhbHVlIjoiVjVlK21VM3AwWUVZWFowQmtMVUl4UDIxNmdkbWgxUzlENFJ2TGhFWG1kU3lHa0lGclgxeVlUM1A1VGcybU4xc2Nwc2ZmR1N5aVZQZTR5b1NhdjYwM1E9PSIsIm1hYyI6ImM3MzlkMmUzNmMzMzI5YTY2ZjVhOWIxYzhjMmU3OWEzZjQ2YThiNmU3YWE1NGIwZTUzM2U0YWM5OTQ5OTEyM2QiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -964,7 +974,7 @@
    "pctOfValueNow": 0.23,
    "valueSource": "PriceCharting new-price (PSA 8 price used for CGC 8, unverified)",
    "fanaticsGuide": 133.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 96171",
@@ -972,6 +982,7 @@
    "url": "https://www.fanaticscollect.com/weekly/d631d6f2-d7a9-11f1-b796-06ffcf62622d/1999-pokemon-fossil-holo-aerodactyl-1-cgc-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6826463",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Iml1SUYwYlRGcUxuejJuRlNFS2RvS2c9PSIsInZhbHVlIjoiQzVQRVd6cG41VGo3Z2lTbTEvbFJsN2hRUjZZL1QwSTR5ZEFCajEzY2pTMnlndkpVVWp3UktXb2N5UWFtU3ordGhiNWhHWnJJU080TG9DT0VrQU00Y3c9PSIsIm1hYyI6ImZmZjgxZjY1YjAwZDg2NTQxNDBlYWMzOGQyMjJlMDhhZDlmYTJlOWQzODA0NjA1Y2VhNDM4MmNjMzFlM2U3YTQiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -990,7 +1001,7 @@
    "pctOfValueNow": 0.23,
    "valueSource": "PriceCharting new-price (PSA 8 price used for CGC 8, unverified)",
    "fanaticsGuide": 67.99,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 96163",
@@ -998,6 +1009,7 @@
    "url": "https://www.fanaticscollect.com/weekly/d613e412-d7a9-11f1-8aec-06ffcf62622d/1999-pokemon-fossil-holo-aerodactyl-1-cgc-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6826455",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IndxM3B6S2hCTnJEVUs1TWVnZnJORmc9PSIsInZhbHVlIjoiRGdqWjRWaVFOTWU5akFzcy9QTCt0MllRdnh0SUlXTy9Na0J1VXZldEQ0N3ZLSW5FL1piUStXSnVmajNJYzVLdjRjZkhESmFOajZpT2hzd2VXMDVFQ3c9PSIsIm1hYyI6IjgzYzM4YWViYjNkYzA5NWRlZWYxNmQyZWUxMzdjMTA2MWFkZTBjZGEyODU4YjBjMjBlMDNiMzI4NjA3YzAzOTgiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -1016,7 +1028,7 @@
    "pctOfValueNow": 0.23,
    "valueSource": "PriceCharting new-price (PSA 8 price used for CGC 8, unverified)",
    "fanaticsGuide": 67.99,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 9248",
@@ -1024,6 +1036,7 @@
    "url": "https://www.fanaticscollect.com/weekly/4d97640a-c990-11f1-9319-06ffc11d90bb/1999-pokemon-jungle-holo-wigglytuff-16-psa-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6735458",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkI4THpHVE1WNjhDUEZzbldYWTdXVUE9PSIsInZhbHVlIjoiZlFtdW5RVnhDbWJLcVJJM0FLT1p4aE5GSGJrQndkQWExZm03cm9YTnpPc1p2ejRndUJFbThxdDFMQ2J3enVBeUZlZGNlaWRkV0RrdEVkL1ZtaW93bVE9PSIsIm1hYyI6IjgxNmEwODc5MmE5ZjIwNWJkNTNjYjYwMzU5Y2JlZDMwYTg1MWViZWFlYWEyYzQ0Y2JkOGZjNDhhZjcyZjRiOGMiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -1042,7 +1055,7 @@
    "pctOfValueNow": 0.25,
    "valueSource": "PriceCharting new-price",
    "fanaticsGuide": 68.9,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 13909",
@@ -1050,6 +1063,7 @@
    "url": "https://www.fanaticscollect.com/weekly/98becf58-d72e-11f1-90f8-0a58a9feac02/1999-pokemon-jungle-holo-pinsir-9-cgc-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6821967",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Imxqa2RLQ2FmZmZ5eEZDVlE1SnBNdkE9PSIsInZhbHVlIjoiS21YOElycktoZE9CODgrR2JxNGxwdXpleHFwV0ZoWEx4ODlBcXhJV200MVAzbVZsMkhGakFwalY5ejRPTktjZkVxNGZFYWVNMU9sOG1LZW1sbTBjREE9PSIsIm1hYyI6IjEzYmRlNmVmOGU0Njk2ZGY2MzYyOTI4ZGEwMTg5MjZiMjFmMDY5NDkyMjNlYzc5MzA2NDg4ZmNhN2I1M2FiNGMiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -1068,7 +1082,7 @@
    "pctOfValueNow": 0.28,
    "valueSource": "PriceCharting new-price (PSA 8 price used for CGC 8, unverified)",
    "fanaticsGuide": 59.95,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 9064",
@@ -1076,6 +1090,7 @@
    "url": "https://www.fanaticscollect.com/weekly/a34019d8-c990-11f1-abcc-0a58a9feac02/1999-pokemon-base-set-holo-clefairy-5-psa-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6735493",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IlFBVjhVcEYzeC81TkplbTdBWTFweXc9PSIsInZhbHVlIjoicERPTWRKck16anhpU0drZklXcSt3V05RbC9HTEoyQXpiZkpzTzZnanNPbGY0SmduMU5NYm1jVUowZlU0c2NKSDFCYVd5bVFTQVVHQzVWL3RNaHg0bXc9PSIsIm1hYyI6ImMwYmM0M2JkYzdhZTkxOWZiMGNlZDFlNjIyOWY2YTlmNjZmZjI4NzYwYzZkOWQ3NjA4YTc1ZTA3MzIxZjYwODIiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -1085,7 +1100,7 @@
    "grade": "PSA 8",
    "rawMarket": 46.26,
    "currentBid": 5.0,
-   "bids": 0,
+   "bids": 1,
    "buyerPremiumPct": 20.0,
    "shipEst": 15.0,
    "allInNow": 21.0,
@@ -1093,8 +1108,8 @@
    "maxBid": 37,
    "pctOfValueNow": 0.3,
    "valueSource": "PriceCharting new-price",
-   "fanaticsGuide": 71.0,
-   "top": false
+   "fanaticsGuide": 90.0,
+   "top": true
   },
   {
    "lot": "WA252 Lot: 13833",
@@ -1102,6 +1117,7 @@
    "url": "https://www.fanaticscollect.com/weekly/96dca534-d72e-11f1-916e-0a58a9feac02/1999-pokemon-base-set-holo-clefairy-5-cgc-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6821889",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6InBuVmFEaUtQaVpvNEhTNlNkN0pxNWc9PSIsInZhbHVlIjoic1owMzVmcTJWNTJaendtS3I1ODdCUnFyY0YxeE9UYkVhMFc2TUc3Z2hWNzV6djVqdUlRcDIzblhaSU9sWmNKNDJkT05kL0lJOGNTemt2dVNWM09LS3c9PSIsIm1hYyI6IjJkNzBiYjM0ZDM5ZGM3Y2RmNmZhYzFhOTIyMDljM2ZhMTcyYzY1ZWQyYzI4ZTY0N2VjMGY4N2I1YmE2ZTk1NmYiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -1120,7 +1136,7 @@
    "pctOfValueNow": 0.3,
    "valueSource": "PriceCharting new-price (PSA 8 price used for CGC 8, unverified)",
    "fanaticsGuide": 66.99,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 9063",
@@ -1128,6 +1144,7 @@
    "url": "https://www.fanaticscollect.com/weekly/df10619c-c478-11f1-ae07-02fffb96cfc9/1999-pokemon-base-set-holo-clefairy-5-cgc-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6695268",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IlZtTzQ1Uk4wSDUxc0l6eHQrb1ZHRWc9PSIsInZhbHVlIjoiTUVTZE5FZkFNeFExZFd5QUFuNktoS0FaK1IwdEtxa05sNlIzSUVqQ2RvUzE5QUpYZjEvUW9XZ0hGWWQ5Wi9wVG5kS3ZpdkZzMVE3aHRMSHIyMTRVeHc9PSIsIm1hYyI6IjZkOTgxOTIxYmFiNzQ0MTRkNmZlZTQzOGUzZDhhMjgxYjYzYTE3ODM0YTcyMDMwMWI5OGI5ZTcwOWRhZmJjM2EiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -1146,7 +1163,7 @@
    "pctOfValueNow": 0.3,
    "valueSource": "PriceCharting new-price (PSA 8 price used for CGC 8, unverified)",
    "fanaticsGuide": 66.99,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 13914",
@@ -1154,6 +1171,7 @@
    "url": "https://www.fanaticscollect.com/weekly/98ccbfc8-d72e-11f1-a7c8-0a58a9feac02/1999-pokemon-jungle-holo-venomoth-13-cgc-8-nm-mt",
    "source": "fanatics",
    "lotId": "WEEKLY6821970",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IlIxb0hlRzl2Y2p1dEpWd08wL2RNMEE9PSIsInZhbHVlIjoicTRCRTJUWEhReU1Fa0k4dnB2Y0RFNncwREpDQVVoQmk2UVRrRzNQU1pMTDRxZU9EOXMyS3d5bGJ0bER5djJFSnpERWpNa3IrdzJTd3UxZnllaVpWaFE9PSIsIm1hYyI6IjQ5NzI5YTQ2OWZhMmQyNmQyOThiNzg3NGYwZTIzOWZiZDViNTQxMmQ5N2Q2MWNkZWYxMzE4ZDQyMDQ4YTYyNTciLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -1172,7 +1190,7 @@
    "pctOfValueNow": 0.31,
    "valueSource": "PriceCharting new-price (PSA 8 price used for CGC 8, unverified)",
    "fanaticsGuide": 51.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 104867",
@@ -1180,6 +1198,7 @@
    "url": "https://www.fanaticscollect.com/weekly/1473d6fe-d8a9-11f1-8188-02ffdaba98d7/2000-pokemon-gym-challenge-giovanni-s-magikarp-73-cgc-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6840985",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Ik41S3A4TURLRDBzb3gzZmlIcTR6Wmc9PSIsInZhbHVlIjoid1o1Yi9saEV5OUdhdFc5Z3ZPaDduWFJuNzZoRFJ6M2hTSllHUEpwaldVcThNSlk5RFhlQTlxdUFaTHBjOVB2VFlpTGd2b0xrRXY5R0xwWTJiclovc1E9PSIsIm1hYyI6IjFhZmU5Y2E3NDUwNmQ3ZDVhZTdiMjg0ZDBiNWM3MTFhYzVkZGVlMzlhODEwN2UyNDY4MGJiMGM2NmNjZTJlZmEiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -1198,7 +1217,7 @@
    "pctOfValueNow": 0.32,
    "valueSource": "PriceCharting graded-price (PSA 9 price used for CGC 9, unverified)",
    "fanaticsGuide": 30.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 9784",
@@ -1206,6 +1225,7 @@
    "url": "https://www.fanaticscollect.com/weekly/24f51d36-cd6d-11f1-84d1-0a58a9feac02/2006-pokemon-ex-holon-phantoms-magikarp-69-psa-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6761374",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Ik5ZbjFvalpSdEtPMlBZcXJxQkY1UVE9PSIsInZhbHVlIjoid0VPQ0dTQ0M0K1MwY3lSVjR3SU40VDdqRlFTS2t5aWRXUm9uZnUyMkdXVGRSVktjTHQ4WjhVcXdNUzU5TmsrdlJyK0MxZ1hKS2ErUkxNa3JHbFFGa2c9PSIsIm1hYyI6ImJiM2U4NGRjNzcyNmRjZDZjNDVjYTYwMDM0MjYzOTgzNzRjOGFkZjc2MmJkM2Q3M2YyYzA2MTdhMzhlMDExYWUiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -1224,7 +1244,7 @@
    "pctOfValueNow": 0.34,
    "valueSource": "PriceCharting graded-price",
    "fanaticsGuide": 78.0,
-   "top": false
+   "top": true
   },
   {
    "lot": "WA252 Lot: 9785",
@@ -1232,6 +1252,7 @@
    "url": "https://www.fanaticscollect.com/weekly/d43943ae-cd53-11f1-a22f-06ffd566e9d9/2006-pokemon-ex-holon-phantoms-magikarp-69-psa-9-mint",
    "source": "fanatics",
    "lotId": "WEEKLY6759853",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IitLNHQ1d0E4eEZSMmdLdXVLOGRLb1E9PSIsInZhbHVlIjoiN09SM092NVdsWHNIK0VVTVJyWG9hYStYdU5IMGJWbyt5ZE4vV3ROYnQ3WjdCOGVLeStpdFcvOThxcFYwK1hYeVowNTFOVk81emJzQnhZR1dZemViM1E9PSIsIm1hYyI6IjBlZmViZTI0ZWIzZTZiZjJkNjM0ZjA0NjM1OTNkYzQ5NmVkMDk5MzQyY2E1NWZiZjZiOWE1YzU5ZWVjZDJkN2IiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -1250,7 +1271,7 @@
    "pctOfValueNow": 0.34,
    "valueSource": "PriceCharting graded-price",
    "fanaticsGuide": 78.0,
-   "top": false
+   "top": true
   }
  ],
  "sealed": [
@@ -1260,6 +1281,7 @@
    "url": "https://www.fanaticscollect.com/weekly/d1c9aeb2-d7ce-11f1-93ee-06ffc6de6e85/2022-pokemon-japanese-sword-shield-pokemon-go-booster-box-sealed",
    "source": "fanatics",
    "lotId": "WEEKLY6830283",
+   "img": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImVCSi9mb0huV2pHd2tldklHeDVPTEE9PSIsInZhbHVlIjoiZFBoSUphRWYrQVoxYkJkTmw0TFZBcGhUVXQ5Q1VuVmVXWEJPMElqY0hySXRYN0pUc2tkS3k1ZFJJS0t3MkNNS1Z1eUJZZ3ZrNTdTWUVkcDVQdWRRa1E9PSIsIm1hYyI6ImU3YmMzYjBiYzY5Y2Q0ZTg0MTBiNzMwNDQzODlhOTUwMWIwMjBhYjY5M2U1MDkwNTRhZjAyNDQxZjg3NGY3MzQiLCJ0YWciOiIifQ==",
    "ends": "2026-11-16T03:00:00Z",
    "endsPT": "Sun Nov 15, 7:00PM PT",
    "auctionType": "WEEKLY",
@@ -1281,7 +1303,8 @@
    "pctOfValueNow": 0.21,
    "tcgUrl": "https://www.tcgplayer.com/product/575040",
    "flag": "overlooked",
-   "fanaticsGuide": 80.0
+   "fanaticsGuide": 80.0,
+   "top": true
   }
  ]
 }
