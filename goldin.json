@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T00:57:09Z",
+ "generated": "2026-11-08T00:59:15Z",
  "source": "Goldin public lot search; values TCGplayer (tcgcsv) and PriceCharting",
  "rules": "maxBid = highest hammer bid so that bid x (1 + buyer premium) + est. shipping <= 85% of value. Raw single cards never listed. Sealed values are TCGplayer market x units; graded values PriceCharting.",
  "lotsScanned": 1869,
@@ -51,7 +51,8 @@
    "value": 277.5,
    "maxBid": 181,
    "pctOfValueNow": 0.18,
-   "valueSource": "PriceCharting new-price (PSA 8 price used for BGS 8, unverified)"
+   "valueSource": "PriceCharting new-price (PSA 8 price used for BGS 8, unverified)",
+   "top": true
   },
   {
    "lot": 1142,
@@ -73,7 +74,8 @@
    "value": 545.2,
    "maxBid": 367,
    "pctOfValueNow": 0.32,
-   "valueSource": "PriceCharting graded-price (PSA 9 price used for BGS 9, unverified)"
+   "valueSource": "PriceCharting graded-price (PSA 9 price used for BGS 9, unverified)",
+   "top": true
   },
   {
    "lot": 1128,
@@ -95,7 +97,8 @@
    "value": 364.45,
    "maxBid": 241,
    "pctOfValueNow": 0.68,
-   "valueSource": "PriceCharting new-price (PSA 8 price used for BGS 8, unverified)"
+   "valueSource": "PriceCharting new-price (PSA 8 price used for BGS 8, unverified)",
+   "top": true
   },
   {
    "lot": 1273,
@@ -117,7 +120,8 @@
    "value": 131.25,
    "maxBid": 79,
    "pctOfValueNow": 0.72,
-   "valueSource": "PriceCharting manual-only-price"
+   "valueSource": "PriceCharting manual-only-price",
+   "top": true
   },
   {
    "lot": 1154,
@@ -139,7 +143,8 @@
    "value": 137.43,
    "maxBid": 83,
    "pctOfValueNow": 0.75,
-   "valueSource": "PriceCharting new-price"
+   "valueSource": "PriceCharting new-price",
+   "top": true
   },
   {
    "lot": 1142,
@@ -161,7 +166,8 @@
    "value": 99.99,
    "maxBid": 57,
    "pctOfValueNow": 0.27,
-   "valueSource": "PriceCharting new-price"
+   "valueSource": "PriceCharting new-price",
+   "top": true
   }
  ],
  "sealed": [
@@ -192,32 +198,6 @@
    "flag": "undervalued"
   },
   {
-   "lot": 1495,
-   "title": "2023 Pokemon Scarlet & Violet 151 Factory-Sealed Booster Bundle Display Case (10 Boxes) - Possible Full Art Charizard ex, Blastoise ex, Venusaur ex Cards",
-   "url": "https://goldin.co/item/2023-pokemon-scarlet-violet-151-factory-sealed-booster-bundle-displayhunk3",
-   "ends": "2026-11-09T03:00:00Z",
-   "endsPT": "Sun Nov 8, 7:00PM PT",
-   "auctionType": "Weekly",
-   "status": "Live",
-   "kind": "sealed",
-   "units": 10,
-   "product": "151 Booster Bundle Display",
-   "set": "SV: Scarlet & Violet 151",
-   "tcgProductId": 513405,
-   "unitValue": 1732.99,
-   "valueSource": "TCGplayer min(market, lowest listing) x 10 (tcgcsv)",
-   "currentBid": 1050.0,
-   "bids": 45,
-   "buyerPremiumPct": 22.0,
-   "shipEst": 45.0,
-   "allInNow": 1326.0,
-   "value": 17329.9,
-   "maxBid": 12037,
-   "pctOfValueNow": 0.08,
-   "tcgUrl": "https://www.tcgplayer.com/product/513405",
-   "flag": "undervalued"
-  },
-  {
    "lot": 1423,
    "title": "2018 Pokemon Sun & Moon Factory-Sealed Forbidden Light Booster Box Case (6 Boxes) - Possible Secret Full Art Lucario GX, Greninja GX Cards",
    "url": "https://goldin.co/item/2018-pokemon-sun-moon-factory-sealed-forbidden-light-booster-box-caseorv6b",
@@ -241,136 +221,6 @@
    "maxBid": 6860,
    "pctOfValueNow": 0.16,
    "tcgUrl": "https://www.tcgplayer.com/product/164296",
-   "flag": "undervalued"
-  },
-  {
-   "lot": 1488,
-   "title": "2022 Pokemon Sword & Shield Unopened Leafeon & Glaceon VSTAR Special Collection Pair (2 Boxes)",
-   "url": "https://goldin.co/item/2022-pokemon-sword-shield-unopened-leafeon-glaceon-vstar-special-colle5130g",
-   "ends": "2026-11-09T03:00:00Z",
-   "endsPT": "Sun Nov 8, 7:00PM PT",
-   "auctionType": "Weekly",
-   "status": "Live",
-   "kind": "sealed",
-   "units": 2,
-   "product": "Glaceon / Leafeon VSTAR Special Collection [Set of 2]",
-   "set": "SWSH09: Brilliant Stars",
-   "tcgProductId": 257375,
-   "unitValue": 253.68,
-   "valueSource": "TCGplayer min(market, lowest listing) x 2 (tcgcsv)",
-   "currentBid": 58.0,
-   "bids": 6,
-   "buyerPremiumPct": 22.0,
-   "shipEst": 45.0,
-   "allInNow": 115.76,
-   "value": 507.36,
-   "maxBid": 316,
-   "pctOfValueNow": 0.23,
-   "tcgUrl": "https://www.tcgplayer.com/product/257375",
-   "flag": "undervalued"
-  },
-  {
-   "lot": 1073,
-   "title": "2025 Pokemon Scarlet & Violet Factory-Sealed Prismatic Evolutions Booster Bundle Display Case (6 Boxes/10 Bundles Each) - Possible Full Art Umbreon ex, Sylveon ex, Leafeon ex Cards",
-   "url": "https://goldin.co/item/2025-pokemon-scarlet-violet-factory-sealed-prismatic-evolutions-boostemra97",
-   "ends": "2026-11-09T03:00:00Z",
-   "endsPT": "Sun Nov 8, 7:00PM PT",
-   "auctionType": "Weekly",
-   "status": "Live",
-   "kind": "sealed",
-   "units": 6,
-   "product": "Prismatic Evolutions Booster Bundle Display",
-   "set": "SV: Prismatic Evolutions",
-   "tcgProductId": 610317,
-   "unitValue": 1650.0,
-   "valueSource": "TCGplayer min(market, lowest listing) x 6 (tcgcsv)",
-   "currentBid": 2100.0,
-   "bids": 30,
-   "buyerPremiumPct": 22.0,
-   "shipEst": 45.0,
-   "allInNow": 2607.0,
-   "value": 9900.0,
-   "maxBid": 6860,
-   "pctOfValueNow": 0.26,
-   "tcgUrl": "https://www.tcgplayer.com/product/610317",
-   "flag": "undervalued"
-  },
-  {
-   "lot": 1075,
-   "title": "2025 Pokemon Scarlet & Violet Factory-Sealed Prismatic Evolutions Booster Bundle Display Case (6 Boxes/10 Bundles Each) - Possible Full Art Umbreon ex, Sylveon ex, Leafeon ex Cards",
-   "url": "https://goldin.co/item/2025-pokemon-scarlet-violet-factory-sealed-prismatic-evolutions-boostevqn5n",
-   "ends": "2026-11-09T03:00:00Z",
-   "endsPT": "Sun Nov 8, 7:00PM PT",
-   "auctionType": "Weekly",
-   "status": "Live",
-   "kind": "sealed",
-   "units": 6,
-   "product": "Prismatic Evolutions Booster Bundle Display",
-   "set": "SV: Prismatic Evolutions",
-   "tcgProductId": 610317,
-   "unitValue": 1650.0,
-   "valueSource": "TCGplayer min(market, lowest listing) x 6 (tcgcsv)",
-   "currentBid": 2100.0,
-   "bids": 26,
-   "buyerPremiumPct": 22.0,
-   "shipEst": 45.0,
-   "allInNow": 2607.0,
-   "value": 9900.0,
-   "maxBid": 6860,
-   "pctOfValueNow": 0.26,
-   "tcgUrl": "https://www.tcgplayer.com/product/610317",
-   "flag": "undervalued"
-  },
-  {
-   "lot": 1453,
-   "title": "2021 Pokemon Sword & Shield Factory-Sealed Evolving Skies Elite Trainer Box Pair (2 Boxes) - Possible Umbreon VMAX, Rayquaza VMAX, Dragonite V Cards",
-   "url": "https://goldin.co/item/2021-pokemon-sword-shield-factory-sealed-evolving-skies-elite-trainero325s",
-   "ends": "2026-11-09T03:00:00Z",
-   "endsPT": "Sun Nov 8, 7:00PM PT",
-   "auctionType": "Weekly",
-   "status": "Live",
-   "kind": "sealed",
-   "units": 2,
-   "product": "Evolving Skies Elite Trainer Box [Set of 2]",
-   "set": "SWSH07: Evolving Skies",
-   "tcgProductId": 243721,
-   "unitValue": 1030.0,
-   "valueSource": "TCGplayer min(market, lowest listing) x 2 (tcgcsv)",
-   "currentBid": 425.0,
-   "bids": 17,
-   "buyerPremiumPct": 22.0,
-   "shipEst": 45.0,
-   "allInNow": 563.5,
-   "value": 2060.0,
-   "maxBid": 1398,
-   "pctOfValueNow": 0.27,
-   "tcgUrl": "https://www.tcgplayer.com/product/243721",
-   "flag": "undervalued"
-  },
-  {
-   "lot": 1074,
-   "title": "2025 Pokemon Scarlet & Violet Factory-Sealed Prismatic Evolutions Booster Bundle Display Case (6 Boxes/10 Bundles Each) - Possible Full Art Umbreon ex, Sylveon ex, Leafeon ex Cards",
-   "url": "https://goldin.co/item/2025-pokemon-scarlet-violet-factory-sealed-prismatic-evolutions-boostencyye",
-   "ends": "2026-11-09T03:00:00Z",
-   "endsPT": "Sun Nov 8, 7:00PM PT",
-   "auctionType": "Weekly",
-   "status": "Live",
-   "kind": "sealed",
-   "units": 6,
-   "product": "Prismatic Evolutions Booster Bundle Display",
-   "set": "SV: Prismatic Evolutions",
-   "tcgProductId": 610317,
-   "unitValue": 1650.0,
-   "valueSource": "TCGplayer min(market, lowest listing) x 6 (tcgcsv)",
-   "currentBid": 2500.0,
-   "bids": 40,
-   "buyerPremiumPct": 22.0,
-   "shipEst": 45.0,
-   "allInNow": 3095.0,
-   "value": 9900.0,
-   "maxBid": 6860,
-   "pctOfValueNow": 0.31,
-   "tcgUrl": "https://www.tcgplayer.com/product/610317",
    "flag": "undervalued"
   },
   {
@@ -423,6 +273,32 @@
    "maxBid": 1572,
    "pctOfValueNow": 0.39,
    "tcgUrl": "https://www.tcgplayer.com/product/543846",
+   "flag": "undervalued"
+  },
+  {
+   "lot": 1452,
+   "title": "2021 Pokemon Sword & Shield Factory-Sealed Evolving Skies Elite Trainer Box Collection (3 Boxes) - Possible Umbreon VMAX, Rayquaza VMAX, Dragonite V Cards",
+   "url": "https://goldin.co/item/2021-pokemon-sword-shield-factory-sealed-evolving-skies-elite-trainerfqskt",
+   "ends": "2026-11-09T03:00:00Z",
+   "endsPT": "Sun Nov 8, 7:00PM PT",
+   "auctionType": "Weekly",
+   "status": "Live",
+   "kind": "sealed",
+   "units": 3,
+   "product": "Evolving Skies Elite Trainer Box (cheapest variant)",
+   "set": "SWSH07: Evolving Skies",
+   "tcgProductId": 242443,
+   "unitValue": 456.06,
+   "valueSource": "TCGplayer min(market, lowest listing) x 3 (tcgcsv)",
+   "currentBid": 475.0,
+   "bids": 22,
+   "buyerPremiumPct": 22.0,
+   "shipEst": 45.0,
+   "allInNow": 624.5,
+   "value": 1368.18,
+   "maxBid": 916,
+   "pctOfValueNow": 0.46,
+   "tcgUrl": "https://www.tcgplayer.com/product/242443",
    "flag": "undervalued"
   },
   {
@@ -608,32 +484,6 @@
    "flag": "undervalued"
   },
   {
-   "lot": 1508,
-   "title": "2023 Pokemon Scarlet & Violet Factory-Sealed Elite Trainer Box Pair (2 Boxes)",
-   "url": "https://goldin.co/item/2023-pokemon-scarlet-violet-factory-sealed-elite-trainer-box-pair-2-bo69oco",
-   "ends": "2026-11-09T03:00:00Z",
-   "endsPT": "Sun Nov 8, 7:00PM PT",
-   "auctionType": "Weekly",
-   "status": "Live",
-   "kind": "sealed",
-   "units": 2,
-   "product": "Scarlet & Violet Elite Trainer Boxes [Set of 2]",
-   "set": "SV01: Scarlet & Violet Base Set",
-   "tcgProductId": 489369,
-   "unitValue": 288.79,
-   "valueSource": "TCGplayer min(market, lowest listing) x 2 (tcgcsv)",
-   "currentBid": 230.0,
-   "bids": 14,
-   "buyerPremiumPct": 22.0,
-   "shipEst": 45.0,
-   "allInNow": 325.6,
-   "value": 577.58,
-   "maxBid": 365,
-   "pctOfValueNow": 0.56,
-   "tcgUrl": "https://www.tcgplayer.com/product/489369",
-   "flag": "undervalued"
-  },
-  {
    "lot": 1445,
    "title": "2021 Pokemon Sword & Shield Factory-Sealed Battle Styles Booster Box Collection (4 Boxes) - Possible Full Art Tyranitar V Cards",
    "url": "https://goldin.co/item/2021-pokemon-sword-shield-factory-sealed-battle-styles-booster-box-colz7uhc",
@@ -709,6 +559,32 @@
    "maxBid": 1271,
    "pctOfValueNow": 0.61,
    "tcgUrl": "https://www.tcgplayer.com/product/536225",
+   "flag": "undervalued"
+  },
+  {
+   "lot": 1453,
+   "title": "2021 Pokemon Sword & Shield Factory-Sealed Evolving Skies Elite Trainer Box Pair (2 Boxes) - Possible Umbreon VMAX, Rayquaza VMAX, Dragonite V Cards",
+   "url": "https://goldin.co/item/2021-pokemon-sword-shield-factory-sealed-evolving-skies-elite-trainero325s",
+   "ends": "2026-11-09T03:00:00Z",
+   "endsPT": "Sun Nov 8, 7:00PM PT",
+   "auctionType": "Weekly",
+   "status": "Live",
+   "kind": "sealed",
+   "units": 2,
+   "product": "Evolving Skies Elite Trainer Box (cheapest variant)",
+   "set": "SWSH07: Evolving Skies",
+   "tcgProductId": 242443,
+   "unitValue": 456.06,
+   "valueSource": "TCGplayer min(market, lowest listing) x 2 (tcgcsv)",
+   "currentBid": 425.0,
+   "bids": 17,
+   "buyerPremiumPct": 22.0,
+   "shipEst": 45.0,
+   "allInNow": 563.5,
+   "value": 912.12,
+   "maxBid": 598,
+   "pctOfValueNow": 0.62,
+   "tcgUrl": "https://www.tcgplayer.com/product/242443",
    "flag": "undervalued"
   },
   {
@@ -894,6 +770,58 @@
    "flag": "undervalued"
   },
   {
+   "lot": 1073,
+   "title": "2025 Pokemon Scarlet & Violet Factory-Sealed Prismatic Evolutions Booster Bundle Display Case (6 Boxes/10 Bundles Each) - Possible Full Art Umbreon ex, Sylveon ex, Leafeon ex Cards",
+   "url": "https://goldin.co/item/2025-pokemon-scarlet-violet-factory-sealed-prismatic-evolutions-boostemra97",
+   "ends": "2026-11-09T03:00:00Z",
+   "endsPT": "Sun Nov 8, 7:00PM PT",
+   "auctionType": "Weekly",
+   "status": "Live",
+   "kind": "sealed",
+   "units": 60,
+   "product": "Prismatic Evolutions Booster Bundle",
+   "set": "SV: Prismatic Evolutions",
+   "tcgProductId": 600518,
+   "unitValue": 55.01,
+   "valueSource": "TCGplayer min(market, lowest listing) x 60 (tcgcsv)",
+   "currentBid": 2100.0,
+   "bids": 30,
+   "buyerPremiumPct": 22.0,
+   "shipEst": 45.0,
+   "allInNow": 2607.0,
+   "value": 3300.6,
+   "maxBid": 2262,
+   "pctOfValueNow": 0.79,
+   "tcgUrl": "https://www.tcgplayer.com/product/600518",
+   "flag": "undervalued"
+  },
+  {
+   "lot": 1075,
+   "title": "2025 Pokemon Scarlet & Violet Factory-Sealed Prismatic Evolutions Booster Bundle Display Case (6 Boxes/10 Bundles Each) - Possible Full Art Umbreon ex, Sylveon ex, Leafeon ex Cards",
+   "url": "https://goldin.co/item/2025-pokemon-scarlet-violet-factory-sealed-prismatic-evolutions-boostevqn5n",
+   "ends": "2026-11-09T03:00:00Z",
+   "endsPT": "Sun Nov 8, 7:00PM PT",
+   "auctionType": "Weekly",
+   "status": "Live",
+   "kind": "sealed",
+   "units": 60,
+   "product": "Prismatic Evolutions Booster Bundle",
+   "set": "SV: Prismatic Evolutions",
+   "tcgProductId": 600518,
+   "unitValue": 55.01,
+   "valueSource": "TCGplayer min(market, lowest listing) x 60 (tcgcsv)",
+   "currentBid": 2100.0,
+   "bids": 26,
+   "buyerPremiumPct": 22.0,
+   "shipEst": 45.0,
+   "allInNow": 2607.0,
+   "value": 3300.6,
+   "maxBid": 2262,
+   "pctOfValueNow": 0.79,
+   "tcgUrl": "https://www.tcgplayer.com/product/600518",
+   "flag": "undervalued"
+  },
+  {
    "lot": 1456,
    "title": "2021 Pokemon Sword & Shield Factory-Sealed Fusion Strike Booster Box Case (6 Boxes) - Possible Gengar VMAX, Espeon VMAX, Mew VMAX Cards",
    "url": "https://goldin.co/item/2021-pokemon-sword-shield-factory-sealed-fusion-strike-booster-box-casuk2fc",
@@ -995,33 +923,8 @@
    "maxBid": 2843,
    "pctOfValueNow": 0.01,
    "tcgUrl": "https://www.tcgplayer.com/product/206027",
-   "flag": "overlooked"
-  },
-  {
-   "lot": 1104,
-   "title": "2025 Pokemon Scarlet & Violet Factory-Sealed Prismatic Evolutions Booster Bundle Display Case (6 Boxes/10 Bundles Each) - Possible Full Art Umbreon ex, Sylveon ex, Leafeon ex Cards",
-   "url": "https://goldin.co/item/2025-pokemon-scarlet-violet-factory-sealed-prismatic-evolutions-boostewmnnn",
-   "ends": "2026-11-15T03:00:00Z",
-   "endsPT": "Sat Nov 14, 7:00PM PT",
-   "auctionType": "Weekly",
-   "status": "Live",
-   "kind": "sealed",
-   "units": 6,
-   "product": "Prismatic Evolutions Booster Bundle Display",
-   "set": "SV: Prismatic Evolutions",
-   "tcgProductId": 610317,
-   "unitValue": 1650.0,
-   "valueSource": "TCGplayer min(market, lowest listing) x 6 (tcgcsv)",
-   "currentBid": 14.0,
-   "bids": 2,
-   "buyerPremiumPct": 22.0,
-   "shipEst": 45.0,
-   "allInNow": 62.08,
-   "value": 9900.0,
-   "maxBid": 6860,
-   "pctOfValueNow": 0.01,
-   "tcgUrl": "https://www.tcgplayer.com/product/610317",
-   "flag": "overlooked"
+   "flag": "overlooked",
+   "top": true
   },
   {
    "lot": 1407,
@@ -1047,7 +950,8 @@
    "maxBid": 1844,
    "pctOfValueNow": 0.01,
    "tcgUrl": "https://www.tcgplayer.com/product/170273",
-   "flag": "overlooked"
+   "flag": "overlooked",
+   "top": true
   },
   {
    "lot": 1513,
@@ -1076,6 +980,33 @@
    "flag": "undervalued"
   },
   {
+   "lot": 1104,
+   "title": "2025 Pokemon Scarlet & Violet Factory-Sealed Prismatic Evolutions Booster Bundle Display Case (6 Boxes/10 Bundles Each) - Possible Full Art Umbreon ex, Sylveon ex, Leafeon ex Cards",
+   "url": "https://goldin.co/item/2025-pokemon-scarlet-violet-factory-sealed-prismatic-evolutions-boostewmnnn",
+   "ends": "2026-11-15T03:00:00Z",
+   "endsPT": "Sat Nov 14, 7:00PM PT",
+   "auctionType": "Weekly",
+   "status": "Live",
+   "kind": "sealed",
+   "units": 60,
+   "product": "Prismatic Evolutions Booster Bundle",
+   "set": "SV: Prismatic Evolutions",
+   "tcgProductId": 600518,
+   "unitValue": 55.01,
+   "valueSource": "TCGplayer min(market, lowest listing) x 60 (tcgcsv)",
+   "currentBid": 14.0,
+   "bids": 2,
+   "buyerPremiumPct": 22.0,
+   "shipEst": 45.0,
+   "allInNow": 62.08,
+   "value": 3300.6,
+   "maxBid": 2262,
+   "pctOfValueNow": 0.02,
+   "tcgUrl": "https://www.tcgplayer.com/product/600518",
+   "flag": "overlooked",
+   "top": true
+  },
+  {
    "lot": 1533,
    "title": "2024 Pokemon Scarlet & Violet Factory-Sealed Paldean Fates Tin Collection (12 Tins) - Possible Mew ex, Charizard ex, Gardevoir ex",
    "url": "https://goldin.co/item/2024-pokemon-scarlet-violet-factory-sealed-paldean-fates-tin-collectiojusrk",
@@ -1099,7 +1030,8 @@
    "maxBid": 1626,
    "pctOfValueNow": 0.02,
    "tcgUrl": "https://www.tcgplayer.com/product/528056",
-   "flag": "overlooked"
+   "flag": "overlooked",
+   "top": true
   },
   {
    "lot": 1482,
@@ -1125,7 +1057,8 @@
    "maxBid": 1154,
    "pctOfValueNow": 0.03,
    "tcgUrl": "https://www.tcgplayer.com/product/282401",
-   "flag": "overlooked"
+   "flag": "overlooked",
+   "top": true
   },
   {
    "lot": 1538,
@@ -1151,7 +1084,8 @@
    "maxBid": 1196,
    "pctOfValueNow": 0.03,
    "tcgUrl": "https://www.tcgplayer.com/product/565606",
-   "flag": "overlooked"
+   "flag": "overlooked",
+   "top": true
   },
   {
    "lot": 1540,
@@ -1177,7 +1111,8 @@
    "maxBid": 1271,
    "pctOfValueNow": 0.03,
    "tcgUrl": "https://www.tcgplayer.com/product/536225",
-   "flag": "overlooked"
+   "flag": "overlooked",
+   "top": true
   },
   {
    "lot": 1544,
@@ -1203,7 +1138,8 @@
    "maxBid": 1342,
    "pctOfValueNow": 0.03,
    "tcgUrl": "https://www.tcgplayer.com/product/543846",
-   "flag": "overlooked"
+   "flag": "overlooked",
+   "top": true
   },
   {
    "lot": 1056,
@@ -1229,7 +1165,8 @@
    "maxBid": 1091,
    "pctOfValueNow": 0.04,
    "tcgUrl": "https://www.tcgplayer.com/product/229277",
-   "flag": "overlooked"
+   "flag": "overlooked",
+   "top": true
   },
   {
    "lot": 1045,
@@ -1255,7 +1192,8 @@
    "maxBid": 857,
    "pctOfValueNow": 0.05,
    "tcgUrl": "https://www.tcgplayer.com/product/623628",
-   "flag": "overlooked"
+   "flag": "overlooked",
+   "top": true
   },
   {
    "lot": 1448,
@@ -1437,7 +1375,8 @@
    "maxBid": 771,
    "pctOfValueNow": 0.05,
    "tcgUrl": "https://www.tcgplayer.com/product/476452",
-   "flag": "overlooked"
+   "flag": "overlooked",
+   "top": true
   },
   {
    "lot": 1527,
@@ -1489,7 +1428,8 @@
    "maxBid": 835,
    "pctOfValueNow": 0.05,
    "tcgUrl": "https://www.tcgplayer.com/product/536225",
-   "flag": "overlooked"
+   "flag": "overlooked",
+   "top": true
   },
   {
    "lot": 1044,
