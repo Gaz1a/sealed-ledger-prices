@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07",
+ "generated": "2026-11-08",
  "source": "Pokémon TCG Ledger, synced daily by the Tracker task via the Ledger sync form",
  "items": {
   "bs-maintenance": {
@@ -751,16 +751,6 @@
    "target": 1.38,
    "cond": "nm",
    "status": "want"
-  },
-  "pe-etb": {
-   "title": "Elite Trainer Box",
-   "kind": "items",
-   "set": "Prismatic Evolutions",
-   "tcgProductId": 593355,
-   "market": 125.39,
-   "target": 114.92,
-   "cond": "sealed",
-   "status": "ready"
   },
   "k-146": {
    "title": "Moltres 12/62 (holo)",
@@ -3149,6 +3139,6 @@
    "target": 190.0
   }
  },
- "payloadDate": "2026-11-07",
- "batch": "20261107-0851"
+ "payloadDate": "2026-11-08",
+ "batch": "20261108-0850"
 }
