@@ -1,9 +1,31 @@
 {
- "rp-712097": {"pid": 712097},
- "s-asc-togekiss-082": {"pid": 675894},
- "s-jp-m1l-grafaiai-044": {"jp": "M1L", "number": "044/063"},
- "s-jp-m1l-nacli-034": {"jp": "M1L", "number": "034/063"},
- "s-jp-m1l-tinkatuff-049": {"jp": "M1L", "number": "049/063"},
- "h-sv151": {"en_group": "151", "name": "Binder Collection", "fallback_name": "Booster Bundle"},
- "w-kr-magikarp-special-set": {"url": "https://i.ebayimg.com/images/g/xycAAeSw0yNqhAuy/s-l500.jpg", "ref": "https://www.ebay.com/itm/188804692230"}
+ "rp-712097": {
+  "pid": 712097
+ },
+ "s-asc-togekiss-082": {
+  "pid": 675894
+ },
+ "s-jp-m1l-grafaiai-044": {
+  "jp": "M1L",
+  "number": "044/063"
+ },
+ "s-jp-m1l-nacli-034": {
+  "jp": "M1L",
+  "number": "034/063"
+ },
+ "s-jp-m1l-tinkatuff-049": {
+  "jp": "M1L",
+  "number": "049/063"
+ },
+ "h-sv151": {
+  "en_group": "151",
+  "name": "Binder Collection",
+  "fallback_name": "Booster Bundle",
+  "exclude": "case",
+  "redo": true
+ },
+ "w-kr-magikarp-special-set": {
+  "url": "https://i.ebayimg.com/images/g/xycAAeSw0yNqhAuy/s-l500.jpg",
+  "ref": "https://www.ebay.com/itm/188804692230"
+ }
 }

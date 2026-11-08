@@ -15,7 +15,7 @@ spec = json.load(open(os.path.join(ROOT, "data/extra_images.json")))
 idxp = os.path.join(IMG, "index.json"); idx = json.load(open(idxp))
 report = {}
 for lid, s in spec.items():
-    if idx.get(lid, {}).get("matched"): report[lid] = "already has a picture"; continue
+    if idx.get(lid, {}).get("matched") and not s.get("redo"): report[lid] = "already has a picture"; continue
     url, ref, src = None, None, None
     try:
         if "pid" in s:
@@ -27,7 +27,7 @@ for lid, s in spec.items():
         elif "en_group" in s:
             for g, ps in group_products(3, lambda n: n.endswith(s["en_group"]) or n.split(": ", 1)[-1] == s["en_group"]):
                 for nm in (s["name"], s.get("fallback_name")):
-                    p = next((p for p in ps if nm and nm.lower() in p["name"].lower()), None)
+                    p = next((p for p in ps if nm and nm.lower() in p["name"].lower() and not (s.get("exclude") and s["exclude"].lower() in p["name"].lower())), None)
                     if p: url, src = p.get("imageUrl", "").replace("_200w", "_in_400x400"), f"tcgplayer {p['productId']} {p['name']}"; break
                 if url: break
         else:
