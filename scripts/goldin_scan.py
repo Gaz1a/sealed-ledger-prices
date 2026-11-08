@@ -91,6 +91,9 @@ def quantity(title):
     t = title.lower()
     for w, n in NUMWORD.items(): t = re.sub(rf"\b{w}\b", str(n), t)
     case = bool(re.search(r"\bcase\b", t))
+    m = re.search(r"(\d+)\s*(?:boxes|displays)\s*/\s*(\d+)\s*(?:bundles|booster bundles|tins|packs|boxes)\s*each", t)
+    if m: return (int(m.group(1)) * int(m.group(2)), case)
+    if "display" in t: return (None, case)          # a display without its contents spelled out: value unknown
     m = re.search(r"\((\d+)\s*(?:cases?\s*/\s*)?(\d+)?\s*(boxes|booster boxes|elite trainer boxes|etbs|bundles|booster bundles|tins|collections|displays)\)", t)
     if m: return (int(m.group(2) or m.group(1)), case)
     m = re.search(r"\b(\d+)\s*(?:x\s*)?(?:factory[- ]sealed\s+)?(?:booster boxes|boxes|elite trainer boxes|etbs|booster bundles|bundles|tins|collections)\b", t)
@@ -111,6 +114,7 @@ def catalog():
     rows = []
     with ThreadPoolExecutor(max_workers=6) as ex:
         for res in ex.map(sm.fetch_group, jobs): rows += res
+    rows = [r for r in rows if not re.search(r"display|\[set of|\bset of \d", r["name"], re.I)]
     for r in rows:
         r["typ"] = next((k for k, _, p in TYPES if re.search(p, r["name"], re.I)), None)
         r["case"] = bool(re.search(r"\bcase\b", r["name"], re.I))
@@ -143,12 +147,10 @@ def match_sealed(title, cat_rows):
     if not want: return None, "no set name in title"
     ym = re.match(r"\s*\(?\d*\)?\s*((?:19|20)\d\d)", h)
     year = int(ym.group(1)) if ym else None
-    disp = bool(re.search(r"display", title, re.I))
     def cands(w):
         out = []
         for r in cat_rows:
             if r["cat"] != cat or r["case"] or r["typ"] != typ: continue
-            if bool(re.search(r"display", r["name"], re.I)) != disp: continue
             if year and r["year"] and abs(r["year"] - year) > 1: continue
             if not w <= r["tk"]: continue
             extra = r["ptk"] - w - bracket_toks(r["name"])
@@ -315,6 +317,12 @@ def main():
         if b: out[b].append(p)
     for k in ("wants", "sealed"):
         out[k].sort(key=lambda p: (p.get("ends") or "", p.get("pctOfValueNow") or 9))
+    # top picks for the email: closing within 8 days; overlooked first, then the biggest value gap
+    soon = (NOW + datetime.timedelta(days=8)).strftime("%Y-%m-%dT%H:%M")
+    pool = [p for p in out["sealed"] if (p.get("ends") or "") <= soon and p.get("value", 0) >= 100]
+    pool.sort(key=lambda p: (p.get("flag") != "overlooked", -(p["value"] - p["allInNow"])))
+    for p in pool[:12]: p["top"] = True
+    for p in out["wants"]: p["top"] = (p.get("ends") or "") <= soon
     json.dump(out, open(os.path.join(ROOT, "goldin.json"), "w"), indent=1, ensure_ascii=False)
     print(f"wants {len(out['wants'])}, sealed {len(out['sealed'])}", file=sys.stderr)
     if days_sold:
@@ -334,7 +342,10 @@ def main():
                 r.update(product=prod["name"], units=units, value=round(v, 2), pctOfValue=round(r["allIn"] / v, 2) if v else None)
             rows.append(r)
         rows.sort(key=lambda r: r.get("pctOfValue") or 9)
-        json.dump({"generated": out["generated"], "days": days_sold, "soldScanned": len(sold), "recent": len(recent), "lots": rows},
+        vals = sorted(r["pctOfValue"] for r in rows if r.get("pctOfValue"))
+        med = vals[len(vals) // 2] if vals else None
+        json.dump({"generated": out["generated"], "days": days_sold, "soldScanned": len(sold), "recent": len(recent), "valued": len(vals),
+                   "medianPctOfValue": med, "cheap": [r for r in rows if r.get("pctOfValue") and r["pctOfValue"] <= 0.75], "lots": rows},
                   open(os.path.join(ROOT, "goldin_sold.json"), "w"), indent=1, ensure_ascii=False)
         print(f"sold: {len(sold)} scanned, {len(recent)} in last {days_sold} days", file=sys.stderr)
 
