@@ -2,7 +2,9 @@
 """Build auction_sheet.json for the ledger's Buy tab from goldin.json + fanatics.json.
 Budget (data/auction_budget.json): a pick is kept only if its max bid lands at or under perLotAllIn all-in
 (hammer + buyer's premium + est. shipping). The page applies the monthly budget against what Gaz has spent."""
-import json, os, datetime, re, io, base64, urllib.request
+import json, os, sys, datetime, re, io, base64, urllib.request
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from auction_keys import comp_key
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def load(f, d=None):
     try: return json.load(open(os.path.join(ROOT, f)))
@@ -22,6 +24,7 @@ for house, f, sf in (("Goldin", "goldin.json", "goldin_sold.json"), ("Fanatics",
                           "value": p["value"], "currentBid": p["currentBid"], "bids": p["bids"], "allInNow": p["allInNow"],
                           "maxBid": p["maxBid"], "allInAtMax": at_max, "premiumPct": p["buyerPremiumPct"], "shipEst": p["shipEst"],
                           "ends": p["ends"], "flag": p.get("flag"), "rawMarket": p.get("rawMarket"), "img": p.get("img"),
+                          "comp": comp_key(p, k),
                           "thumb": "a-" + re.sub(r"[^A-Za-z0-9_-]", "_", str(p.get("lotId") or p["url"].rstrip("/").rsplit("/", 1)[-1]))[:60], "overCap": at_max > bud["perLotAllIn"],
                           "pctAtMax": round(at_max / p["value"], 2) if p.get("value") else None}
             allp.append(row)
@@ -41,7 +44,6 @@ out = {"generated": now, "budget": bud, "picks": picks, "all": allp, "droppedOve
        "scans": {"Goldin": load("goldin.json").get("generated"), "Fanatics": load("fanatics.json").get("generated")},
        "medianPctOfValue": med,
        "rule": "Max bid = highest hammer bid keeping hammer + premium + est. shipping at or under 85% of value; only lots whose max bid stays within the per-lot budget all-in."}
-json.dump(out, open(os.path.join(ROOT, "auction_sheet.json"), "w"), indent=1, ensure_ascii=False)
 print(f"{len(picks)} picks kept, {dropped} over the ${bud['perLotAllIn']} per-lot cap")
 
 # small pictures of every lot for the ledger (collection thumbsa): files auction_thumbs/a<N>.json, each under ~200 KB
@@ -80,3 +82,17 @@ if cur: docs.append(cur)
 for i, d in enumerate(docs):
     json.dump({"imgs": d, "n": len(d), "generated": now, "v": 3}, open(os.path.join(ROOT, "auction_thumbs", f"a{i}.json"), "w"))
 print(f"auction pictures: {len(imgs)} ({got} new) in {len(docs)} docs")
+
+# auction finishes we have tracked, per product: for the lots on the sheet and for every ledger row (sealed by TCGplayer id, graded wants by grade)
+comps = load("data/auction_comps.json", {})
+tracked = load("tracked.json", {})
+want = {p.get("comp") for p in out["all"]} | {f"p{v['productId']}" for v in tracked.values() if isinstance(v, dict) and v.get("productId")}
+want |= {k for k in comps if k.split("|")[0] in tracked}
+cut = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=365)).strftime("%Y-%m-%d")
+out["comps"] = {k: [[c["d"], c["h"], c["a"], c.get("u") or 1, c.get("b"), c["url"]] for c in v if c["d"] >= cut][:5]
+                for k, v in comps.items() if k in want}
+out["comps"] = {k: v for k, v in out["comps"].items() if v}
+out["compsNote"] = "Each: [date, house G=Goldin F=Fanatics, all-in incl. buyer premium (no shipping), boxes in the lot, bids, url]"
+for p in out["all"] + out["picks"]: p.pop("img", None)
+json.dump(out, open(os.path.join(ROOT, "auction_sheet.json"), "w"), indent=1, ensure_ascii=False)
+print(f"comps: {len(out['comps'])} products with auction finishes; sheet {len(json.dumps(out))//1024} KB")

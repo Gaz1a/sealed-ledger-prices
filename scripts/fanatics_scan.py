@@ -98,7 +98,7 @@ def fetch(S, status, terms=SEALED_TERMS, per=1000):
 def main():
     cat_rows = g.catalog()
     if len(cat_rows) < 300: sys.exit("tcgcsv catalog too small")
-    ws = g.wants()
+    ws = g.wants(); ws_all = g.wants(every=True)
     S = Search()
     live = fetch(S, "Live")
     singles = [w for w in ws if w["kind"] in ("singles", "kanto") and w["num"]]
@@ -108,12 +108,15 @@ def main():
         if h.get("objectID") in seen: continue
         seen.add(h.get("objectID")); lots.append(to_lot(h))
     out = {"generated": g.NOW.strftime("%Y-%m-%dT%H:%M:%SZ"), "source": "Fanatics Collect public search; values TCGplayer (tcgcsv) and PriceCharting",
-           "rules": "Same rules as goldin.json.", "lotsScanned": len(lots), "wants": [], "sealed": []}
+           "rules": "Same rules as goldin.json.", "lotsScanned": len(lots), "wants": [], "sealed": [], "tracked": []}
     for l in lots:
         b, p = g.evaluate(l, cat_rows, ws)
         if b:
             if l.get("fanaticsValue"): p["fanaticsGuide"] = l["fanaticsValue"]
             out[b].append(p)
+        t = g.identify(l["title"], cat_rows, ws_all)
+        if t: out["tracked"].append(dict(t, url=l["url"], title=l["title"], lotId=l.get("lot_id"), ends=l.get("end_timestamp"),
+                                         source="fanatics", buyerPremiumPct=float(l.get("buyer_premium") or 20)))
     soon = (g.NOW + datetime.timedelta(days=8)).strftime("%Y-%m-%dT%H:%M")
     pool = [p for p in out["sealed"] if (p.get("ends") or "") <= soon and p.get("value", 0) >= 100]
     pool.sort(key=lambda p: (p.get("flag") != "overlooked", -(p["value"] - p["allInNow"])))
@@ -130,6 +133,8 @@ def main():
         prod, why = g.match_sealed(title, cat_rows); units, case = g.quantity(title)
         r = {"title": title, "url": l["url"], "ended": l["end_timestamp"], "hammer": l["current_price"], "bids": l["number_of_bids"],
              "allIn": round(l["current_price"] * (1 + l["buyer_premium"] / 100), 2)}
+        t = g.identify(title, cat_rows, ws_all)
+        if t: r.update(key=t["key"], units=t["units"], product=t["product"], kind=t["kind"])
         if prod and units and not g.GRADE.search(title):
             v = prod["value"] * units
             r.update(product=prod["name"], units=units, value=round(v, 2), pctOfValue=round(r["allIn"] / v, 2) if v else None)

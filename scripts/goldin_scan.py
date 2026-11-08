@@ -209,12 +209,13 @@ def match_sealed(title, cat_rows):
     return r, None
 
 # ---------- wants ----------
-def wants():
+def wants(every=False):
+    """Ledger want rows; every=True also takes watch/ready/dip rows (used only to recognise lots for market tracking)."""
     try: items = json.load(open(os.path.join(ROOT, "wants_auto.json"))).get("items", {})
     except Exception: return []
     out = []
     for wid, w in items.items():
-        if (w.get("status") or "want") not in ("want",): continue
+        if not every and (w.get("status") or "want") not in ("want",): continue
         t = w.get("title") or ""
         m = re.search(r"(\d+)\s*/\s*(\d+)", t)
         name = re.split(r"\s+\d+\s*/|\s*\(|\s+—|\s+-\s", re.sub(r"^\[JP\]\s*", "", t))[0].strip()
@@ -281,6 +282,24 @@ def end_pt(ts):
     except Exception:
         return ts
 
+def identify(title, cat_rows, ws):
+    """What product a lot is, for market tracking (every lot, deal or not): {key, units, product, kind} or None.
+    Sealed: 'p<TCGplayer id>' with the number of boxes (prices are compared per box). Graded wants: '<ledger id>|<grade>'."""
+    if "pokemon" not in title.lower() and "pokémon" not in title.lower(): return None
+    gm = GRADE.search(title)
+    if gm:
+        if SPECIAL_LOT.search(title): return None
+        w = match_single_want(title, ws)
+        if not w: return None
+        g = f"{gm.group(1).upper().replace('BECKETT', 'BGS')} {gm.group(2)}"
+        return {"key": f"{w['id']}|{g}", "units": 1, "product": f"{w.get('name') or w['id']} {g}", "kind": "graded", "wantId": w["id"]}
+    if lot_type(title) and re.search(r"sealed|unopened|booster|elite trainer|collection|\btin\b|blister", title, re.I) and not re.search(r"#\s?\d", title):
+        prod, why = match_sealed(title, cat_rows)
+        units, case = quantity(title)
+        if not prod or not units: return None
+        return {"key": f"p{prod['pid']}", "units": units, "product": prod["name"], "kind": "sealed", "unitValue": prod["value"]}
+    return None
+
 def evaluate(lot, cat_rows, ws):
     """Return (bucket, pick) or (None, None)."""
     title = lot.get("title") or ""
@@ -333,17 +352,21 @@ def main():
     days_sold = int(sys.argv[sys.argv.index("--sold") + 1]) if "--sold" in sys.argv else 0
     cat_rows = catalog()
     if len(cat_rows) < 300: sys.exit("tcgcsv catalog too small; keeping previous goldin.json")
-    ws = wants()
+    ws = wants(); ws_all = wants(every=True)
     live = all_lots({})
     print(f"{len(live)} live Goldin Pokemon lots, {len(ws)} wants", file=sys.stderr)
     out = {"generated": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"), "source": "Goldin public lot search; values TCGplayer (tcgcsv) and PriceCharting",
            "rules": f"maxBid = highest hammer bid so that bid x (1 + buyer premium) + est. shipping <= {int(DEAL*100)}% of value. "
                     "Raw single cards never listed. Sealed values are TCGplayer market x units; graded values PriceCharting.",
-           "lotsScanned": len(live), "auctions": {}, "wants": [], "sealed": []}
+           "lotsScanned": len(live), "auctions": {}, "wants": [], "sealed": [], "tracked": []}
     for l in live:
         out["auctions"].setdefault(l.get("auction_id", "")[:60], {"type": l.get("auction_type"), "ends": l.get("end_timestamp"), "lots": 0})["lots"] += 1
         b, p = evaluate(l, cat_rows, ws)
         if b: out[b].append(p)
+        t = identify(l.get("title") or "", cat_rows, ws_all)
+        if t: out["tracked"].append(dict(t, url=f"https://goldin.co/item/{l.get('meta_slug')}", title=(l.get("title") or "").strip(),
+                                         lotId=l.get("lot_id"), ends=l.get("end_timestamp"), source="goldin",
+                                         buyerPremiumPct=float(l.get("buyer_premium") or 22)))
     for k in ("wants", "sealed"):
         out[k].sort(key=lambda p: (p.get("ends") or "", p.get("pctOfValueNow") or 9))
     # top picks for the email: closing within 8 days; overlooked first, then the biggest value gap
@@ -356,6 +379,8 @@ def main():
     print(f"wants {len(out['wants'])}, sealed {len(out['sealed'])}", file=sys.stderr)
     if days_sold:
         sold = all_lots({"show_only": "Sold", "item_type": ["Cases/Boxes/Packs"]}, cap=4000)
+        ids = {l.get("lot_id") for l in sold}
+        sold += [l for l in all_lots({"show_only": "Sold"}, cap=4000) if l.get("lot_id") not in ids]
         cut = (NOW - datetime.timedelta(days=days_sold)).isoformat()
         recent = [l for l in sold if (l.get("end_timestamp") or "") >= cut[:19]]
         rows = []
@@ -366,7 +391,9 @@ def main():
             bp = (l.get("buyer_premium") or 22.0) / 100
             r = {"title": title.strip(), "url": f"https://goldin.co/item/{l.get('meta_slug')}", "ended": l.get("end_timestamp"),
                  "hammer": l.get("current_price"), "bids": l.get("number_of_bids"), "allIn": round(float(l.get("current_price") or 0) * (1 + bp), 2)}
-            if prod and units:
+            t = identify(title, cat_rows, ws_all)
+            if t: r.update(key=t["key"], units=t["units"], product=t["product"], kind=t["kind"])
+            if prod and units and not GRADE.search(title):
                 v = prod["value"] * units
                 r.update(product=prod["name"], units=units, value=round(v, 2), pctOfValue=round(r["allIn"] / v, 2) if v else None)
             rows.append(r)
