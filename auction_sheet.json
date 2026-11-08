@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T05:55:36Z",
+ "generated": "2026-11-08T05:59:28Z",
  "budget": {
   "perLotAllIn": 500,
   "monthly": 500,
@@ -5136,11 +5136,11 @@
  ],
  "droppedOverCap": 82,
  "scans": {
-  "Goldin": "2026-11-08T05:53:36Z",
-  "Fanatics": "2026-11-08T05:54:26Z"
+  "Goldin": "2026-11-08T05:57:28Z",
+  "Fanatics": "2026-11-08T05:58:17Z"
  },
  "medianPctOfValue": {
-  "Goldin": 0.94,
+  "Goldin": 0.98,
   "Fanatics": null
  },
  "rule": "Max bid = highest hammer bid keeping hammer + premium + est. shipping at or under 85% of value; only lots whose max bid stays within the per-lot budget all-in."
