@@ -15,8 +15,9 @@ os.makedirs(SHEETS, exist_ok=True)
 res = json.load(open(OUTP)) if os.path.exists(OUTP) else {}
 G = pc.load_grader()
 redo = "--redo" in sys.argv
+changed = False
 for d in sorted(glob.glob(os.path.join(SUB, "*", "*"))):
-    if not os.path.isdir(d): continue
+    if not os.path.isdir(d) or os.path.basename(os.path.dirname(d)).startswith('_'): continue
     lid, date = d.split(os.sep)[-2:]
     key = f"{lid}/{date}"
     files = sorted(f for f in glob.glob(os.path.join(d, "*")) if re.search(r"\.(jpe?g|png|webp)$", f, re.I))
@@ -61,6 +62,6 @@ for d in sorted(glob.glob(os.path.join(SUB, "*", "*"))):
         cv2.imwrite(os.path.join(SHEETS, fn), np.vstack(rows), [cv2.IMWRITE_JPEG_QUALITY, 82]); info["sheet"] = "grading/sheets/" + fn
     info["checked"] = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="minutes")
     info["graderError"] = pc.GRADER_ERR
-    res[key] = info
+    res[key] = info; changed = True
     print(key, info.get("graderP8"), info.get("graderGrade"), info["flags"])
-json.dump(res, open(OUTP, "w"), indent=1)
+if changed or not os.path.exists(OUTP): json.dump(res, open(OUTP, "w"), indent=1)

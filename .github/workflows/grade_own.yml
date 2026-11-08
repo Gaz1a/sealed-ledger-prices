@@ -25,4 +25,4 @@ jobs:
           git config user.name ledger-bot; git config user.email bot@users.noreply.github.com
           git add grading/results.json grading/sheets
           git commit -m "grade own cards" || exit 0
-          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && break; git rebase --abort 2>/dev/null; sleep 5; done
