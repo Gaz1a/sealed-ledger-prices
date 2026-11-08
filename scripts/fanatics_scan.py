@@ -59,9 +59,10 @@ def to_lot(h):
             "lot_id": h.get("objectID"), "auction_type": h.get("marketplace"), "status": h.get("status"), "source": "fanatics",
             "fanaticsValue": h.get("value")}
 
-def fetch(S, status, extra_filter="", terms=SEALED_TERMS, per=1000):
-    base = f'category:"Pokémon" AND status:"{status}" AND (marketplace:"WEEKLY" OR marketplace:"PREMIER")' + extra_filter
-    res = S.multi([{"query": t, "hitsPerPage": per, "filters": base, "attributesToHighlight": "[]"} for t in terms])
+def fetch(S, status, numeric=None, terms=SEALED_TERMS, per=1000):
+    base = f'category:"Pokémon" AND status:"{status}" AND (marketplace:"WEEKLY" OR marketplace:"PREMIER")'
+    extra = {"numericFilters": numeric} if numeric else {}
+    res = S.multi([dict({"query": t, "hitsPerPage": per, "filters": base, "attributesToHighlight": "[]"}, **extra) for t in terms])
     seen, out = set(), []
     for r in res:
         for h in r.get("hits", []):
@@ -99,7 +100,7 @@ def main():
     # recent results for calibration
     cut = int((g.NOW - datetime.timedelta(days=10)).timestamp())
     rows = []
-    for h in fetch(S, "Sold", f" AND auctionEndDatetime > {cut}"):
+    for h in fetch(S, "Sold", numeric=f"auctionEndDatetime>{cut}"):
         l = to_lot(h); title = l["title"]
         prod, why = g.match_sealed(title, cat_rows); units, case = g.quantity(title)
         r = {"title": title, "url": l["url"], "ended": l["end_timestamp"], "hammer": l["current_price"], "bids": l["number_of_bids"],

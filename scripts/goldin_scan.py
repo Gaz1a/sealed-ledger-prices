@@ -289,10 +289,10 @@ def evaluate(lot, cat_rows, ws):
                     unitValue=prod["value"], valueSource=f"TCGplayer min(market, lowest listing) x {units} (tcgcsv)", **m,
                     tcgUrl=f"https://www.tcgplayer.com/product/{prod['pid']}")
         if want:
-            return ("wants", dict(pick, wantId=want["id"])) if (m["pctOfValueNow"] or 9) <= DEAL else (None, None)
+            return ("wants", dict(pick, wantId=want["id"])) if (m["pctOfValueNow"] or 9) <= DEAL and m["currentBid"] <= m["maxBid"] else (None, None)
         if m["pctOfValueNow"] is None or m["pctOfValueNow"] > 1.0: return None, None
         over = m["bids"] <= 2 and m["pctOfValueNow"] <= 0.5
-        under = m["pctOfValueNow"] <= DEAL
+        under = m["pctOfValueNow"] <= DEAL and m["currentBid"] <= m["maxBid"]
         if units > 1 and (over or under):
             return "sealed", dict(pick, flag="overlooked" if over else "undervalued")
         if units == 1 and over and value >= 75:
@@ -310,7 +310,7 @@ def evaluate(lot, cat_rows, ws):
         if raw and value > max(3 * raw, raw + 150): return None, None     # gem-tier slab, not what the want is for
         pick = dict(base, kind="graded", wantId=w["id"], grade=f"{co.upper()} {gr}", rawMarket=raw or None)
         pick.update(money(lot, value, "card"), valueSource=src)
-        if pick["pctOfValueNow"] and pick["pctOfValueNow"] > DEAL: return None, None     # already bid past a good price
+        if (pick["pctOfValueNow"] and pick["pctOfValueNow"] > DEAL) or pick["currentBid"] > pick["maxBid"]: return None, None     # already bid past a good price
         return "wants", pick
     return None, None
 
