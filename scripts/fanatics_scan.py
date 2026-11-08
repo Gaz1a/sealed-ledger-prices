@@ -48,6 +48,17 @@ class Search:
             time.sleep(0.5)
         return out
 
+def best_img(h):
+    """Largest picture Fanatics gives for a lot (the first 'image' field is often a small thumbnail)."""
+    if os.environ.get("FAN_DEBUG") and not getattr(best_img, "done", False):
+        best_img.done = True
+        print("IMGKEYS", json.dumps({k: str(v)[:300] for k, v in h.items() if re.search(r"image|photo|thumb|media", k, re.I)}), file=sys.stderr)
+    for k in ("largeImage", "fullImage", "imageLarge", "originalImage", "images", "image", "imageUrl", "thumbnail"):
+        if h.get(k):
+            u = g.find_img(h[k])
+            if u: return u
+    return g.find_img({k: v for k, v in h.items() if re.search(r"image|photo|thumb", k, re.I)})
+
 def lot_url(h):
     """The site's canonical lot page (og:url): /weekly/<uuid>/<slug> (premier lots: /premier/...)."""
     slug = re.sub(r"[^a-z0-9]+", "-", (h.get("title") or "").lower()).strip("-")
@@ -64,7 +75,7 @@ def to_lot(h):
             "number_of_bids": h.get("bidCount") or 0, "end_timestamp": end, "buyer_premium": bp,
             "url": lot_url(h), "lot_number": h.get("lotNumber"),
             "lot_id": h.get("objectID"), "auction_type": h.get("marketplace"), "status": h.get("status"), "source": "fanatics",
-            "fanaticsValue": h.get("value"), "img": g.find_img({k: v for k, v in h.items() if re.search(r"image|photo|thumb", k, re.I)})}
+            "fanaticsValue": h.get("value"), "img": best_img(h)}
 
 def fetch(S, status, terms=SEALED_TERMS, per=1000):
     """The public key cannot filter on numbers, so sold lots come from the most-recent-first index and are cut by date in Python."""
