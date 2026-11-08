@@ -48,6 +48,8 @@ def all_lots(extra, cap=6000):
         total = s.get("total") or 0
         if not lots: break
         out += lots; frm += len(lots); time.sleep(1)
+    if out and os.environ.get("GOLDIN_DEBUG"):
+        print("LOTKEYS", json.dumps({k: (str(v)[:160]) for k, v in out[0].items()}), file=sys.stderr)
     seen, uniq = set(), []
     for l in out:
         if l.get("lot_id") in seen: continue
