@@ -4,11 +4,18 @@ def get(u):
     try:
         r=urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=40); return r.status, r.read().decode("utf-8","replace")
     except urllib.error.HTTPError as e: return e.code, ""
+    except Exception as e: return str(e), ""
 out=[]
-for u in ["https://www.fanaticscollect.com/weekly-auction?q=pokemon%20booster%20box","https://www.fanaticscollect.com/weekly-auction?category=Trading+Card+Games+%3E+Pok%C3%A9mon+(English)"]:
-    st,b=get(u)
-    out.append(f"== {u} {st} {len(b)}")
-    for k in ["Booster Box","currentBid","current_bid","highBid","bidCount","endsAt","listingId","slug","graphql","algolia","x-algolia","typesense","apiKey"]:
-        ms=[m.start() for m in re.finditer(re.escape(k),b)][:2]
-        for i in ms: out.append(f"  [{k}] "+b[max(0,i-250):i+350].replace("\n"," "))
-open("auction_probe.txt","w").write("\n".join(out))
+st,b=get("https://www.fanaticscollect.com/weekly-auction?q=pokemon")
+srcs=sorted(set(re.findall(r'(/_next/static/chunks/[^"\' ]+\.js)',b)))
+out.append(f"{len(srcs)} chunks")
+seen=set()
+for s in srcs:
+    _,js=get("https://www.fanaticscollect.com"+s)
+    for m in re.findall(r'https?://[a-zA-Z0-9.-]+(?:/[a-zA-Z0-9._/-]*)?',js):
+        h=m.split('/')[2]
+        if any(x in m for x in ("api","graphql","search","algolia","typesense","gql")) and m not in seen:
+            seen.add(m); out.append(f"{s[-25:]}: {m}")
+    for m in re.findall(r'(query [A-Za-z]+\([^)]{0,200}\)\s*\{[^}]{0,300})',js)[:3]:
+        out.append(f"{s[-25:]} GQL: {m[:400]}")
+open("auction_probe.txt","w").write("\n".join(out[:200]))
