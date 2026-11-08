@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T16:04:16Z",
+ "generated": "2026-11-08T16:15:12Z",
  "source": "Goldin public lot search; values TCGplayer (tcgcsv) and PriceCharting",
  "rules": "maxBid = highest hammer bid so that bid x (1 + buyer premium) + est. shipping <= 85% of value. Raw single cards never listed. Sealed values are TCGplayer market x units; graded values PriceCharting.",
  "lotsScanned": 1869,

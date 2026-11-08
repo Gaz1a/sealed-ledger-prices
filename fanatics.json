@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T16:05:23Z",
+ "generated": "2026-11-08T16:16:21Z",
  "source": "Fanatics Collect public search; values TCGplayer (tcgcsv) and PriceCharting",
  "rules": "Same rules as goldin.json.",
  "lotsScanned": 3420,
@@ -1542,19 +1542,6 @@
    "buyerPremiumPct": 20.0
   },
   {
-   "key": "k-006|PSA 7",
-   "units": 1,
-   "product": "Charizard PSA 7",
-   "kind": "graded",
-   "wantId": "k-006",
-   "url": "https://www.fanaticscollect.com/weekly/c85631bc-d147-11f1-86c2-02ffe91fea4d/1999-pokemon-base-set-holo-charizard-4-psa-7-nrmt",
-   "title": "1999 Pokemon Base Set Holo Charizard #4 PSA 7 NRMT",
-   "lotId": "WEEKLY6781048",
-   "ends": "2026-11-09T03:00:00Z",
-   "source": "fanatics",
-   "buyerPremiumPct": 20.0
-  },
-  {
    "key": "kg-107000-1steditionholofoil|CGC 7.5",
    "units": 1,
    "product": "Gyarados CGC 7.5",
@@ -1563,6 +1550,19 @@
    "url": "https://www.fanaticscollect.com/weekly/7c6f218c-d2e1-11f1-ae14-0a58a9feac02/1999-pokemon-base-set-shadowless-1st-edition-holo-gyarados-6-cgc-7-5-nrmt",
    "title": "1999 Pokemon Base Set Shadowless 1st Edition Holo Gyarados #6 CGC 7.5 NRMT+",
    "lotId": "WEEKLY6797139",
+   "ends": "2026-11-09T03:00:00Z",
+   "source": "fanatics",
+   "buyerPremiumPct": 20.0
+  },
+  {
+   "key": "k-006|PSA 7",
+   "units": 1,
+   "product": "Charizard PSA 7",
+   "kind": "graded",
+   "wantId": "k-006",
+   "url": "https://www.fanaticscollect.com/weekly/c85631bc-d147-11f1-86c2-02ffe91fea4d/1999-pokemon-base-set-holo-charizard-4-psa-7-nrmt",
+   "title": "1999 Pokemon Base Set Holo Charizard #4 PSA 7 NRMT",
+   "lotId": "WEEKLY6781048",
    "ends": "2026-11-09T03:00:00Z",
    "source": "fanatics",
    "buyerPremiumPct": 20.0
