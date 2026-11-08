@@ -1,23 +1,20 @@
 import re, urllib.request, json
-UA={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36","Origin":"https://goldin.co","Referer":"https://goldin.co/"}
-def get(u,data=None,h=None):
-    hd=dict(UA); hd.update(h or {})
-    try:
-        r=urllib.request.urlopen(urllib.request.Request(u,data=data,headers=hd),timeout=60); return r.status, r.read().decode("utf-8","replace")
-    except urllib.error.HTTPError as e: return e.code, e.read().decode("utf-8","replace")[:800]
-    except Exception as e: return str(e), ""
-out=[]
-s,h=get("https://goldin.co/buy?search=pokemon")
-src=[x for x in re.findall(r'src="([^"]+\.js[^"]*)"',h) if "index-" in x][0]
-_,js=get("https://goldin.co"+src)
-for key in ["mapFacetsToAlgoliaSearchParams=","mapFacetsToAlgoliaSearchParams=function","header:{"]:
-    for m in list(re.finditer(re.escape(key),js))[:2]:
-        out.append(f"== {key} @{m.start()}: "+js[max(0,m.start()-300):m.start()+3500].replace("\n"," "))
-m=re.search(r'const \w+=\(\w+,\w+\)=>\{[^}]{0,200}queryType',js)
+UA={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36","Origin":"https://goldin.co","Referer":"https://goldin.co/","Content-Type":"application/json"}
 U="https://d1wu47wucybvr3.cloudfront.net/api/lots_v2"
-for p in [{"search":{"queryType":"Featured","keyword":"pokemon","from":0,"size":5}},
-          {"queryType":"Featured","keyword":"pokemon","from":0,"size":5},
-          {"search":{"query":"pokemon","size":5,"from":0,"queryType":"Ending_Soonest"}}]:
-    st,b=get(U,json.dumps(p).encode(),{"Content-Type":"application/json"})
-    out.append(f"POST {json.dumps(p)} -> {st} {b[:1500]}")
+def post(p):
+    try:
+        r=urllib.request.urlopen(urllib.request.Request(U,data=json.dumps({"search":p}).encode(),headers=UA),timeout=60); d=json.load(r)
+    except urllib.error.HTTPError as e: return f"ERR {e.code} {e.read()[:200]}"
+    s=d.get("searchalgolia") or {}
+    return {"total":s.get("total"),"n":len(s.get("lots") or []),"keys":list(d)[:8],"first":[(l.get("title")[:70],l.get("status"),l.get("current_price"),l.get("end_timestamp")) for l in (s.get("lots") or [])[:3]],"facets":[(f.get("title"),[ (b.get("key"),b.get("doc_count")) for b in (f.get("buckets") or [])[:12]]) for f in (s.get("facets") or [])][:12],"lotkeys":sorted((s.get("lots") or [{}])[0].keys())}
+out=[]
+tests={"size100":{"queryType":"Featured","keyword":"pokemon","from":0,"size":100},
+"from100":{"queryType":"Featured","keyword":"pokemon","from":100,"size":100},
+"size500":{"queryType":"Featured","keyword":"pokemon","from":0,"size":500},
+"soldSold":{"queryType":"Featured","keyword":"pokemon booster box","from":0,"size":5,"show_only":"Sold"},
+"soldsold":{"queryType":"Featured","keyword":"pokemon booster box","from":0,"size":5,"show_only":"sold"},
+"itemtype":{"queryType":"Featured","keyword":"pokemon","from":0,"size":5,"item_type":["Cases/Boxes/Packs"]},
+"itemtype2":{"queryType":"Featured","keyword":"pokemon","from":0,"size":5,"Item_Type":["Cases/Boxes/Packs"]},
+"box":{"queryType":"Ending_Soonest","keyword":"pokemon booster box","from":0,"size":20}}
+for k,p in tests.items(): out.append(k+" "+json.dumps(post(p))[:2500])
 open("goldin_probe.txt","w").write("\n".join(out))
