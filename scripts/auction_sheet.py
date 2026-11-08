@@ -50,17 +50,19 @@ def small_webp(url):
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "Referer": "https://goldin.co/" if "goldin" in url or "cloudfront" in url else "https://www.fanaticscollect.com/"})
         raw = urllib.request.urlopen(req, timeout=30).read()
         from PIL import Image
-        im = Image.open(io.BytesIO(raw)).convert("RGB"); w, h = im.size; th = 120; im = im.resize((max(1, round(w * th / h)), th))
-        for q in (60, 50, 40, 30):
+        im = Image.open(io.BytesIO(raw)).convert("RGB"); im.thumbnail((400, 400), Image.LANCZOS)   # sharp on phones and in the tap-to-enlarge view
+        for q in (78, 70, 60, 50):
             b = io.BytesIO(); im.save(b, "WEBP", quality=q, method=6)
-            if b.tell() <= 4500: break
+            if b.tell() <= 26000: break
         return base64.b64encode(b.getvalue()).decode()
     except Exception as e:
         return None
 os.makedirs(os.path.join(ROOT, "auction_thumbs"), exist_ok=True)
 old = {}
 for f in os.listdir(os.path.join(ROOT, "auction_thumbs")):
-    try: old.update(json.load(open(os.path.join(ROOT, "auction_thumbs", f))).get("imgs", {}))
+    try:
+        d = json.load(open(os.path.join(ROOT, "auction_thumbs", f)))
+        if d.get("v") == 2: old.update(d.get("imgs", {}))
     except Exception: pass
     os.remove(os.path.join(ROOT, "auction_thumbs", f))
 imgs, got = {}, 0
@@ -76,5 +78,5 @@ for k, v in imgs.items():
     cur[k] = v; size += len(v) + len(k) + 6
 if cur: docs.append(cur)
 for i, d in enumerate(docs):
-    json.dump({"imgs": d, "n": len(d), "generated": now}, open(os.path.join(ROOT, "auction_thumbs", f"a{i}.json"), "w"))
+    json.dump({"imgs": d, "n": len(d), "generated": now, "v": 2}, open(os.path.join(ROOT, "auction_thumbs", f"a{i}.json"), "w"))
 print(f"auction pictures: {len(imgs)} ({got} new) in {len(docs)} docs")
