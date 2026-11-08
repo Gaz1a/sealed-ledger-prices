@@ -9,21 +9,24 @@ def load(f, d=None):
     except Exception: return d if d is not None else {}
 bud = load("data/auction_budget.json", {"perLotAllIn": 500, "monthly": 500})
 now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-picks, dropped = [], 0
+picks, dropped, allp = [], 0, []
 for house, f, sf in (("Goldin", "goldin.json", "goldin_sold.json"), ("Fanatics", "fanatics.json", "fanatics_sold.json")):
     d = load(f)
     for k in ("wants", "sealed"):
         for p in d.get(k, []):
             if p.get("maxBid") is None: continue
-            if k == "wants" and not p.get("top"): continue
             if (p.get("ends") or "") < now: continue
             at_max = round(p["maxBid"] * (1 + p["buyerPremiumPct"] / 100) + p["shipEst"], 2)
-            if at_max > bud["perLotAllIn"]: dropped += 1; continue
-            picks.append({"house": house, "bucket": k, "title": p["title"], "url": p["url"], "tcgUrl": p.get("tcgUrl"),
+            row = {"house": house, "bucket": k, "title": p["title"], "url": p["url"], "tcgUrl": p.get("tcgUrl"),
                           "wantId": p.get("wantId"), "what": p.get("product") or p.get("grade"), "units": p.get("units"),
                           "value": p["value"], "currentBid": p["currentBid"], "bids": p["bids"], "allInNow": p["allInNow"],
                           "maxBid": p["maxBid"], "allInAtMax": at_max, "premiumPct": p["buyerPremiumPct"], "shipEst": p["shipEst"],
-                          "ends": p["ends"], "flag": p.get("flag")})
+                          "ends": p["ends"], "flag": p.get("flag"), "overCap": at_max > bud["perLotAllIn"],
+                          "pctAtMax": round(at_max / p["value"], 2) if p.get("value") else None}
+            allp.append(row)
+            if row["overCap"]: dropped += 1; continue
+            if k == "wants" and not p.get("top"): continue
+            picks.append(row)
 # one lot per want (the cheapest right now), and the 12 best sealed lots within the cap
 best = {}
 for p in [p for p in picks if p["bucket"] == "wants"]:
@@ -32,7 +35,8 @@ for p in [p for p in picks if p["bucket"] == "wants"]:
 sealed = sorted([p for p in picks if p["bucket"] == "sealed"], key=lambda p: (p.get("flag") != "overlooked", -(p["value"] - p["allInAtMax"])))[:12]
 picks = sorted(best.values(), key=lambda p: -(p["value"] - p["allInAtMax"])) + sealed
 med = {h: (load(sf).get("medianPctOfValue")) for h, sf in (("Goldin", "goldin_sold.json"), ("Fanatics", "fanatics_sold.json"))}
-out = {"generated": now, "budget": bud, "picks": picks, "droppedOverCap": dropped,
+allp.sort(key=lambda p: (p["bucket"] != "wants", p["overCap"], p.get("ends") or "", -(p["value"] - p["allInAtMax"])))
+out = {"generated": now, "budget": bud, "picks": picks, "all": allp, "droppedOverCap": dropped,
        "scans": {"Goldin": load("goldin.json").get("generated"), "Fanatics": load("fanatics.json").get("generated")},
        "medianPctOfValue": med,
        "rule": "Max bid = highest hammer bid keeping hammer + premium + est. shipping at or under 85% of value; only lots whose max bid stays within the per-lot budget all-in."}

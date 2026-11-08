@@ -48,6 +48,12 @@ class Search:
             time.sleep(0.5)
         return out
 
+def lot_url(h):
+    """The site's canonical lot page (og:url): /weekly/<uuid>/<slug> (premier lots: /premier/...)."""
+    slug = re.sub(r"[^a-z0-9]+", "-", (h.get("title") or "").lower()).strip("-")
+    kind = "premier" if h.get("marketplace") == "PREMIER" else "weekly"
+    return f"https://www.fanaticscollect.com/{kind}/{h.get('listingUuid')}/{slug}"
+
 def to_lot(h):
     cur = float(h.get("currentBid") or h.get("currentPrice") or 0)
     bp = BP_DEFAULT
@@ -56,7 +62,7 @@ def to_lot(h):
     end = datetime.datetime.fromtimestamp(h.get("auctionEndDatetime") or 0, datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     return {"title": h.get("title") or "", "current_price": cur, "min_bid_price": float(h.get("startingBid") or 0),
             "number_of_bids": h.get("bidCount") or 0, "end_timestamp": end, "buyer_premium": bp,
-            "url": f"https://www.fanaticscollect.com/items/{h.get('listingUuid')}", "lot_number": h.get("lotNumber"),
+            "url": lot_url(h), "lot_number": h.get("lotNumber"),
             "lot_id": h.get("objectID"), "auction_type": h.get("marketplace"), "status": h.get("status"), "source": "fanatics",
             "fanaticsValue": h.get("value")}
 
