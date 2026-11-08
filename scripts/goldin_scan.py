@@ -51,6 +51,8 @@ def all_lots(extra, cap=6000):
     return out
 
 # ---------- titles ----------
+SPECIAL_LOT = re.compile(r"signed|autograph|sketch|error|test print|misprint|off-center|miscut|proof|stamp|prerelease|staff", re.I)
+PC_CACHE = {}
 GRADE = re.compile(r"\b(PSA|CGC|BGS|Beckett|TAG|SGC)\b[^0-9]{0,30}?(\d{1,2}(?:\.5)?)\b", re.I)
 JP = re.compile(r"japanese", re.I)
 OTHER_LANG = re.compile(r"korean|chinese|french|german|italian|spanish|portuguese|thai|indonesian", re.I)
@@ -118,28 +120,63 @@ def catalog():
     print(f"catalog {len(rows)} sealed products", file=sys.stderr)
     return rows
 
+ERA = {"sword", "shield", "scarlet", "violet", "sun", "moon", "xy", "mega", "evolution", "black", "white", "sv", "swsh", "sm"}
+
+def base_name(n):
+    return re.sub(r"\s*\[.*?\]", "", n).strip().lower()
+
+def bracket_toks(n):
+    m = re.search(r"\[(.*?)\]", n)
+    return set(toks(m.group(1))) if m else set()
+
 def match_sealed(title, cat_rows):
-    """Best TCGplayer sealed product for a Goldin sealed title, or (None, reason)."""
+    """Best TCGplayer sealed product for a Goldin sealed title -> (row with conservative 'value', None) or (None, reason).
+    Conservative value = min(market, lowest listing) per unit. Variant products ([Koraidon], [Mew]...) must be named in
+    the title, or all variants must price within 1.5x of each other (then the cheapest is used)."""
     if OTHER_LANG.search(title): return None, "non-English/Japanese language (no price feed)"
     typ = lot_type(title)
     if not typ: return None, "product type not recognised"
     cat = 85 if JP.search(title) else 3
     h = head(title)
-    want = set(toks(re.sub(r"\(.*?\)", " ", h)))
-    want -= {"japanese"}
+    tl = set(toks(title))
+    want = set(toks(re.sub(r"\(.*?\)", " ", h))) - {"japanese"}
     if not want: return None, "no set name in title"
     ym = re.match(r"\s*\(?\d*\)?\s*((?:19|20)\d\d)", h)
     year = int(ym.group(1)) if ym else None
-    best, bs = None, 0
-    for r in cat_rows:
-        if r["cat"] != cat or r["case"] or r["typ"] != typ: continue
-        if year and r["year"] and abs(r["year"] - year) > 1: continue
-        if not want <= r["tk"]: continue
-        extra = len(r["ptk"] - want)
-        s = 10 - 2 * extra + (2 if year and r["year"] == year else 0)
-        if s > bs: best, bs = r, s
-    if not best or bs < 6: return None, "no confident TCGplayer match"
-    return best, None
+    disp = bool(re.search(r"display", title, re.I))
+    def cands(w):
+        out = []
+        for r in cat_rows:
+            if r["cat"] != cat or r["case"] or r["typ"] != typ: continue
+            if bool(re.search(r"display", r["name"], re.I)) != disp: continue
+            if year and r["year"] and abs(r["year"] - year) > 1: continue
+            if not w <= r["tk"]: continue
+            extra = r["ptk"] - w - bracket_toks(r["name"])
+            if extra: continue                      # product names something the title does not (e.g. 151)
+            out.append(r)
+        return out
+    c = cands(want)
+    if not c and want & ERA and want - ERA:
+        c = cands(want - ERA)
+    if not c: return None, "no confident TCGplayer match"
+    named = [r for r in c if bracket_toks(r["name"]) and bracket_toks(r["name"]) <= tl]
+    if named: c = named
+    elif re.search(r"\([A-Za-z][A-Za-z '&-]*\)", h):     # title names a variant, e.g. "(Arceus)", that no product carries
+        c = [r for r in c if not bracket_toks(r["name"])]
+        if not c: return None, "named variant not on TCGplayer"
+    groups = {}
+    for r in c: groups.setdefault((r["gid"], base_name(r["name"])), []).append(r)
+    if len(groups) > 1:
+        if year:
+            same = {k: v for k, v in groups.items() if v[0]["year"] == year}
+            if len(same) == 1: groups = same
+        if len(groups) > 1: return None, "ambiguous TCGplayer match"
+    vs = list(groups.values())[0]
+    vals = [min(r["market"], r["low"]) if r.get("low") else r["market"] for r in vs]
+    if max(vals) > 1.5 * min(vals): return None, "variant not named and variants price differently"
+    r = dict(vs[vals.index(min(vals))]); r["value"] = min(vals)
+    if len(vs) > 1: r["name"] = base_name(r["name"]).title() + " (cheapest variant)"
+    return r, None
 
 # ---------- wants ----------
 def wants():
@@ -171,12 +208,19 @@ def pc_graded(w, title, grade_co, grade):
     """PriceCharting price for this card at this grade, matched by TCGplayer id. (value, field) or (None, reason)."""
     if not PCT: return None, "no PriceCharting token"
     q = f"pokemon {w['name']} {w['set']} {w['num']}"
-    try:
-        u = "https://www.pricecharting.com/api/products?" + urllib.parse.urlencode({"t": PCT, "q": q})
-        with urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "sealed-ledger/1.0"}), timeout=30) as r:
-            prods = json.load(r).get("products") or []
-    except Exception as e:
-        return None, f"PriceCharting error {type(e).__name__}"
+    if q not in PC_CACHE:
+        prods = None
+        for i in range(3):
+            try:
+                time.sleep(1.2)
+                u = "https://www.pricecharting.com/api/products?" + urllib.parse.urlencode({"t": PCT, "q": q})
+                with urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "sealed-ledger/1.0"}), timeout=30) as r:
+                    prods = json.load(r).get("products") or []; break
+            except Exception as e:
+                time.sleep(5 * (i + 1))
+        PC_CACHE[q] = prods
+    prods = PC_CACHE[q]
+    if prods is None: return None, "PriceCharting unavailable"
     p = next((x for x in prods if str(x.get("tcg-id") or "") == w["pid"]), None)
     if not p: return None, "PriceCharting product not matched by TCGplayer id"
     g = float(grade)
@@ -221,13 +265,13 @@ def evaluate(lot, cat_rows, ws):
         prod, why = match_sealed(title, cat_rows)
         if not prod: return None, None
         if units is None: return None, None       # a case that does not say how many boxes: value unknown
-        value = prod["market"] * units
+        value = prod["value"] * units
         if value < 40: return None, None
         kind = "multi" if units > 1 else "box"
         m = money(lot, value, kind)
         want = next((w for w in ws if w["kind"] not in ("singles", "kanto") and w["pid"] == str(prod["pid"])), None)
         pick = dict(base, kind="sealed", units=units, product=prod["name"], set=prod["set"], tcgProductId=prod["pid"],
-                    unitMarket=prod["market"], valueSource=f"TCGplayer market x {units} (tcgcsv)", **m,
+                    unitValue=prod["value"], valueSource=f"TCGplayer min(market, lowest listing) x {units} (tcgcsv)", **m,
                     tcgUrl=f"https://www.tcgplayer.com/product/{prod['pid']}")
         if want: return "wants", dict(pick, wantId=want["id"])
         if m["pctOfValueNow"] is None or m["pctOfValueNow"] > 1.0: return None, None
@@ -239,14 +283,18 @@ def evaluate(lot, cat_rows, ws):
             return "sealed", dict(pick, flag="overlooked")
         return None, None
     if gm:
+        if SPECIAL_LOT.search(title): return None, None
+        co, gr = gm.group(1), gm.group(2)
+        if float(gr) < 8: return None, None
         w = match_single_want(title, ws)
         if not w: return None, None
-        co, gr = gm.group(1), gm.group(2)
         value, src = pc_graded(w, title, co, gr)
-        pick = dict(base, kind="graded", wantId=w["id"], grade=f"{co.upper()} {gr}")
-        if value: pick.update(money(lot, value, "card"), valueSource=src)
-        else: pick.update({"currentBid": float(lot.get("current_price") or 0), "bids": lot.get("number_of_bids") or 0,
-                           "value": None, "valueNote": src, "maxBid": None})
+        if not value: return None, None
+        raw = float(w.get("market") or 0)
+        if raw and value > max(3 * raw, raw + 150): return None, None     # gem-tier slab, not what the want is for
+        pick = dict(base, kind="graded", wantId=w["id"], grade=f"{co.upper()} {gr}", rawMarket=raw or None)
+        pick.update(money(lot, value, "card"), valueSource=src)
+        if pick["pctOfValueNow"] and pick["pctOfValueNow"] > 1.0: return None, None
         return "wants", pick
     return None, None
 
@@ -282,7 +330,7 @@ def main():
             r = {"title": title.strip(), "url": f"https://goldin.co/item/{l.get('meta_slug')}", "ended": l.get("end_timestamp"),
                  "hammer": l.get("current_price"), "bids": l.get("number_of_bids"), "allIn": round(float(l.get("current_price") or 0) * (1 + bp), 2)}
             if prod and units:
-                v = prod["market"] * units
+                v = prod["value"] * units
                 r.update(product=prod["name"], units=units, value=round(v, 2), pctOfValue=round(r["allIn"] / v, 2) if v else None)
             rows.append(r)
         rows.sort(key=lambda r: r.get("pctOfValue") or 9)
