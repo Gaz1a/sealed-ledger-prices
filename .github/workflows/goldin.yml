@@ -2,12 +2,9 @@ name: Auction scan (Goldin + Fanatics Collect)
 on:
   schedule:
     - cron: "15 13 * * 3"     # Wednesday ~5am PT: full bid sheet for the week
-    - cron: "15 18 * * 0"     # Sunday ~10am PT: last call (weekly auctions close Sunday 7pm PT)
+    - cron: "15 15 * * 0"     # Sunday ~7am PT: refresh before the Sunday 7pm PT close
   workflow_dispatch:
-    inputs:
-      lastcall: {description: "Last-call sheet only", type: boolean, default: false}
-      notify: {description: "Post the bid sheet", type: boolean, default: true}
-permissions: {contents: write, issues: write}
+permissions: {contents: write}
 concurrency: {group: goldin, cancel-in-progress: false}
 jobs:
   scan:
@@ -27,18 +24,11 @@ jobs:
       - name: Record how earlier picks closed
         continue-on-error: true
         run: python3 scripts/auction_results.py
-      - name: Bid sheet (GitHub emails it)
-        if: github.event_name == 'schedule' || inputs.notify
-        env: {GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
-        run: |
-          if [ "${{ github.event.schedule }}" = "15 18 * * 0" ] || [ "${{ inputs.lastcall }}" = "true" ]; then
-            python3 scripts/goldin_notify.py --lastcall
-          else
-            python3 scripts/goldin_notify.py
-          fi
+      - name: Budget-capped sheet for the ledger's Buy tab
+        run: python3 scripts/auction_sheet.py
       - name: Commit
         run: |
           git config user.name ledger-bot; git config user.email bot@users.noreply.github.com
-          for f in goldin.json goldin_sold.json fanatics.json fanatics_sold.json auction_results.json data/auction_picks.json; do [ -e "$f" ] && git add "$f"; done
+          for f in auction_sheet.json goldin.json goldin_sold.json fanatics.json fanatics_sold.json auction_results.json data/auction_picks.json; do [ -e "$f" ] && git add "$f"; done
           git commit -m "auction scan $(date -u +%FT%H:%M)" || exit 0
           for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep 10; done
