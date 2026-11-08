@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T16:17:42Z",
+ "generated": "2026-11-08T19:43:53Z",
  "budget": {
   "perLotAllIn": 500,
   "monthly": 500,
@@ -98,7 +98,7 @@
    "units": null,
    "value": 365.0,
    "currentBid": 5.0,
-   "bids": 0,
+   "bids": 1,
    "allInNow": 21.0,
    "maxBid": 246,
    "allInAtMax": 310.2,
@@ -151,9 +151,9 @@
    "what": "PSA 9",
    "units": null,
    "value": 187.5,
-   "currentBid": 84.0,
-   "bids": 6,
-   "allInNow": 115.8,
+   "currentBid": 86.0,
+   "bids": 7,
+   "allInNow": 118.2,
    "maxBid": 120,
    "allInAtMax": 159.0,
    "premiumPct": 20.0,
@@ -688,34 +688,6 @@
   {
    "house": "Goldin",
    "bucket": "sealed",
-   "title": "2020 Pokemon Sword & Shield Factory-Sealed Rebel Clash Booster Box (36 Packs)",
-   "url": "https://goldin.co/item/2020-pokemon-sword-shield-factory-sealed-rebel-clash-booster-box-36-paeae3e",
-   "tcgUrl": "https://www.tcgplayer.com/product/210561",
-   "wantId": null,
-   "what": "Rebel Clash Booster Box",
-   "units": 1,
-   "value": 483.32,
-   "currentBid": 10.0,
-   "bids": 1,
-   "allInNow": 37.2,
-   "maxBid": 316,
-   "allInAtMax": 410.52,
-   "premiumPct": 22.0,
-   "shipEst": 25.0,
-   "ends": "2026-11-15T03:00:00Z",
-   "flag": "overlooked",
-   "rawMarket": null,
-   "comp": "p210561",
-   "thumb": "a-202609-1613-5443-07daedaf-5610-4bce-94b8-af509e6eb3d0",
-   "overCap": false,
-   "pctAtMax": 0.85,
-   "likely": 482.5,
-   "winPct": 0.0,
-   "nComps": 3
-  },
-  {
-   "house": "Goldin",
-   "bucket": "sealed",
    "title": "2023 Pokemon Scarlet & Violet Factory-Sealed Paldea Evolved Booster Box (36 Packs) - Possible Magikarp, Raichu, Tyranitar Illustration Rare Cards",
    "url": "https://goldin.co/item/2023-pokemon-scarlet-violet-factory-sealed-paldea-evolved-booster-box3wi24",
    "tcgUrl": "https://www.tcgplayer.com/product/493975",
@@ -851,6 +823,34 @@
    "pctAtMax": 0.85,
    "likely": null,
    "winPct": null
+  },
+  {
+   "house": "Goldin",
+   "bucket": "sealed",
+   "title": "2024 Pokemon Scarlet & Violet Factory-Sealed Twilight Masquerade Booster Box (36 Packs) - Possible Full Art Greninja ex, Perrin, Eevee Cards",
+   "url": "https://goldin.co/item/2024-pokemon-scarlet-violet-factory-sealed-twilight-masquerade-boosterzx0k4",
+   "tcgUrl": "https://www.tcgplayer.com/product/543846",
+   "wantId": null,
+   "what": "Twilight Masquerade Booster Box",
+   "units": 1,
+   "value": 330.0,
+   "currentBid": 0.0,
+   "bids": 0,
+   "allInNow": 37.2,
+   "maxBid": 209,
+   "allInAtMax": 279.98,
+   "premiumPct": 22.0,
+   "shipEst": 25.0,
+   "ends": "2026-11-15T03:00:00Z",
+   "flag": "overlooked",
+   "rawMarket": null,
+   "comp": "p543846",
+   "thumb": "a-202610-2914-4841-2aa4823a-5b66-4606-a71e-8dd67970c44e",
+   "overCap": false,
+   "pctAtMax": 0.85,
+   "likely": 370.87,
+   "winPct": 0.0,
+   "nComps": 6
   }
  ],
  "all": [
@@ -891,9 +891,9 @@
    "what": "BGS 9",
    "units": null,
    "value": 545.2,
-   "currentBid": 170.0,
-   "bids": 8,
-   "allInNow": 222.4,
+   "currentBid": 190.0,
+   "bids": 10,
+   "allInNow": 246.8,
    "maxBid": 367,
    "allInAtMax": 462.74,
    "premiumPct": 22.0,
@@ -918,9 +918,9 @@
    "what": "PSA 8",
    "units": null,
    "value": 364.45,
-   "currentBid": 170.0,
-   "bids": 7,
-   "allInNow": 219.0,
+   "currentBid": 210.0,
+   "bids": 8,
+   "allInNow": 267.0,
    "maxBid": 245,
    "allInAtMax": 309.0,
    "premiumPct": 20.0,
@@ -930,33 +930,6 @@
    "rawMarket": 227.27,
    "comp": "k-009|PSA 8",
    "thumb": "a-WEEKLY6778536",
-   "overCap": false,
-   "pctAtMax": 0.85,
-   "likely": null,
-   "winPct": null
-  },
-  {
-   "house": "Fanatics",
-   "bucket": "wants",
-   "title": "1999 Pokemon Base Set Holo Blastoise #2 PSA 8 NM-MT",
-   "url": "https://www.fanaticscollect.com/weekly/726d670a-d4af-11f1-9d76-06ffd243496f/1999-pokemon-base-set-holo-blastoise-2-psa-8-nm-mt",
-   "tcgUrl": null,
-   "wantId": "k-009",
-   "what": "PSA 8",
-   "units": null,
-   "value": 364.45,
-   "currentBid": 195.0,
-   "bids": 6,
-   "allInNow": 249.0,
-   "maxBid": 245,
-   "allInAtMax": 309.0,
-   "premiumPct": 20.0,
-   "shipEst": 15.0,
-   "ends": "2026-11-09T03:00:00Z",
-   "flag": null,
-   "rawMarket": 227.27,
-   "comp": "k-009|PSA 8",
-   "thumb": "a-WEEKLY6810163",
    "overCap": false,
    "pctAtMax": 0.85,
    "likely": null,
@@ -984,6 +957,33 @@
    "rawMarket": 227.27,
    "comp": "k-009|PSA 8",
    "thumb": "a-WEEKLY6803046",
+   "overCap": false,
+   "pctAtMax": 0.85,
+   "likely": null,
+   "winPct": null
+  },
+  {
+   "house": "Fanatics",
+   "bucket": "wants",
+   "title": "1999 Pokemon Base Set Holo Blastoise #2 PSA 8 NM-MT",
+   "url": "https://www.fanaticscollect.com/weekly/726d670a-d4af-11f1-9d76-06ffd243496f/1999-pokemon-base-set-holo-blastoise-2-psa-8-nm-mt",
+   "tcgUrl": null,
+   "wantId": "k-009",
+   "what": "PSA 8",
+   "units": null,
+   "value": 364.45,
+   "currentBid": 210.0,
+   "bids": 7,
+   "allInNow": 267.0,
+   "maxBid": 245,
+   "allInAtMax": 309.0,
+   "premiumPct": 20.0,
+   "shipEst": 15.0,
+   "ends": "2026-11-09T03:00:00Z",
+   "flag": null,
+   "rawMarket": 227.27,
+   "comp": "k-009|PSA 8",
+   "thumb": "a-WEEKLY6810163",
    "overCap": false,
    "pctAtMax": 0.85,
    "likely": null,
@@ -1053,9 +1053,9 @@
    "what": "PSA 8",
    "units": null,
    "value": 277.5,
-   "currentBid": 145.0,
-   "bids": 9,
-   "allInNow": 189.0,
+   "currentBid": 180.0,
+   "bids": 10,
+   "allInNow": 231.0,
    "maxBid": 184,
    "allInAtMax": 235.8,
    "premiumPct": 20.0,
@@ -1080,9 +1080,9 @@
    "what": "BGS 8",
    "units": null,
    "value": 277.5,
-   "currentBid": 38.0,
-   "bids": 12,
-   "allInNow": 61.36,
+   "currentBid": 174.0,
+   "bids": 30,
+   "allInNow": 227.28,
    "maxBid": 181,
    "allInAtMax": 235.82,
    "premiumPct": 22.0,
@@ -1107,9 +1107,9 @@
    "what": "CGC 8",
    "units": null,
    "value": 266.94,
-   "currentBid": 120.0,
-   "bids": 10,
-   "allInNow": 159.0,
+   "currentBid": 140.0,
+   "bids": 11,
+   "allInNow": 183.0,
    "maxBid": 176,
    "allInAtMax": 226.2,
    "premiumPct": 20.0,
@@ -1134,9 +1134,9 @@
    "what": "PSA 9",
    "units": null,
    "value": 187.5,
-   "currentBid": 84.0,
-   "bids": 6,
-   "allInNow": 115.8,
+   "currentBid": 86.0,
+   "bids": 7,
+   "allInNow": 118.2,
    "maxBid": 120,
    "allInAtMax": 159.0,
    "premiumPct": 20.0,
@@ -1161,9 +1161,9 @@
    "what": "PSA 9",
    "units": null,
    "value": 160.38,
-   "currentBid": 80.0,
-   "bids": 4,
-   "allInNow": 111.0,
+   "currentBid": 82.0,
+   "bids": 5,
+   "allInNow": 113.4,
    "maxBid": 101,
    "allInAtMax": 136.2,
    "premiumPct": 20.0,
@@ -1405,7 +1405,7 @@
    "units": null,
    "value": 365.0,
    "currentBid": 5.0,
-   "bids": 0,
+   "bids": 1,
    "allInNow": 21.0,
    "maxBid": 246,
    "allInAtMax": 310.2,
@@ -1458,9 +1458,9 @@
    "what": "PSA 8",
    "units": null,
    "value": 266.94,
-   "currentBid": 5.0,
-   "bids": 1,
-   "allInNow": 21.0,
+   "currentBid": 7.0,
+   "bids": 2,
+   "allInNow": 23.4,
    "maxBid": 176,
    "allInAtMax": 226.2,
    "premiumPct": 20.0,
@@ -2236,34 +2236,6 @@
    "house": "Goldin",
    "bucket": "sealed",
    "title": "2025 Pokemon Scarlet & Violet Factory-Sealed Destined Rivals Booster Bundle Pair (2 Boxes) - Possible Full Art Team Rocket's Mewtwo ex, Cynthia's Garchomp ex, Ethan's Ho-Oh ex Cards",
-   "url": "https://goldin.co/item/2025-pokemon-scarlet-violet-factory-sealed-destined-rivals-booster-buniuv5j",
-   "tcgUrl": "https://www.tcgplayer.com/product/625670",
-   "wantId": null,
-   "what": "Destined Rivals Booster Bundle",
-   "units": 2,
-   "value": 116.0,
-   "currentBid": 42.0,
-   "bids": 16,
-   "allInNow": 96.24,
-   "maxBid": 43,
-   "allInAtMax": 97.46,
-   "premiumPct": 22.0,
-   "shipEst": 45.0,
-   "ends": "2026-11-09T03:00:00Z",
-   "flag": "undervalued",
-   "rawMarket": null,
-   "comp": "p625670",
-   "thumb": "a-202610-2620-0233-fd3675e5-4307-4808-a3bc-78f0dc9f5606",
-   "overCap": false,
-   "pctAtMax": 0.84,
-   "likely": 173.1,
-   "winPct": 0.0,
-   "nComps": 9
-  },
-  {
-   "house": "Goldin",
-   "bucket": "sealed",
-   "title": "2025 Pokemon Scarlet & Violet Factory-Sealed Destined Rivals Booster Bundle Pair (2 Boxes) - Possible Full Art Team Rocket's Mewtwo ex, Cynthia's Garchomp ex, Ethan's Ho-Oh ex Cards",
    "url": "https://goldin.co/item/2025-pokemon-scarlet-violet-factory-sealed-destined-rivals-booster-bun0okfl",
    "tcgUrl": "https://www.tcgplayer.com/product/625670",
    "wantId": null,
@@ -2397,34 +2369,6 @@
    "pctAtMax": 0.85,
    "likely": 496.4,
    "winPct": 0.33,
-   "nComps": 3
-  },
-  {
-   "house": "Goldin",
-   "bucket": "sealed",
-   "title": "2020 Pokemon Sword & Shield Factory-Sealed Rebel Clash Booster Box (36 Packs)",
-   "url": "https://goldin.co/item/2020-pokemon-sword-shield-factory-sealed-rebel-clash-booster-box-36-paeae3e",
-   "tcgUrl": "https://www.tcgplayer.com/product/210561",
-   "wantId": null,
-   "what": "Rebel Clash Booster Box",
-   "units": 1,
-   "value": 483.32,
-   "currentBid": 10.0,
-   "bids": 1,
-   "allInNow": 37.2,
-   "maxBid": 316,
-   "allInAtMax": 410.52,
-   "premiumPct": 22.0,
-   "shipEst": 25.0,
-   "ends": "2026-11-15T03:00:00Z",
-   "flag": "overlooked",
-   "rawMarket": null,
-   "comp": "p210561",
-   "thumb": "a-202609-1613-5443-07daedaf-5610-4bce-94b8-af509e6eb3d0",
-   "overCap": false,
-   "pctAtMax": 0.85,
-   "likely": 482.5,
-   "winPct": 0.0,
    "nComps": 3
   },
   {
@@ -2812,9 +2756,9 @@
    "thumb": "a-202610-2918-1343-aac52505-8cf9-438b-9ffa-9aa7c7689e54",
    "overCap": false,
    "pctAtMax": 0.85,
-   "likely": 299.5,
+   "likely": 283.64,
    "winPct": 0.0,
-   "nComps": 7
+   "nComps": 9
   },
   {
    "house": "Goldin",
@@ -3266,8 +3210,8 @@
    "what": "Shrouded Fable Elite Trainer Box",
    "units": 1,
    "value": 103.99,
-   "currentBid": 0.0,
-   "bids": 0,
+   "currentBid": 10.0,
+   "bids": 1,
    "allInNow": 37.2,
    "maxBid": 51,
    "allInAtMax": 87.22,
@@ -3505,34 +3449,6 @@
   {
    "house": "Goldin",
    "bucket": "sealed",
-   "title": "2018 Pokemon Sun & Moon Factory-Sealed Forbidden Light Booster Box Case (6 Boxes) - Possible Secret Full Art Lucario GX, Greninja GX Cards",
-   "url": "https://goldin.co/item/2018-pokemon-sun-moon-factory-sealed-forbidden-light-booster-box-caseorv6b",
-   "tcgUrl": "https://www.tcgplayer.com/product/164296",
-   "wantId": null,
-   "what": "Forbidden Light Booster Box",
-   "units": 6,
-   "value": 9899.88,
-   "currentBid": 1250.0,
-   "bids": 26,
-   "allInNow": 1570.0,
-   "maxBid": 6860,
-   "allInAtMax": 8414.2,
-   "premiumPct": 22.0,
-   "shipEst": 45.0,
-   "ends": "2026-11-09T03:00:00Z",
-   "flag": "undervalued",
-   "rawMarket": null,
-   "comp": "p164296",
-   "thumb": "a-202610-2814-5421-d46e8316-32be-494d-9fb2-1bc41b18c161",
-   "overCap": true,
-   "pctAtMax": 0.85,
-   "likely": 9026.64,
-   "winPct": 0.33,
-   "nComps": 3
-  },
-  {
-   "house": "Goldin",
-   "bucket": "sealed",
    "title": "2021 Pokemon Sword & Shield Factory-Sealed Fusion Strike Booster Box Case (6 Boxes) - Possible Gengar VMAX, Espeon VMAX, Mew VMAX Cards",
    "url": "https://goldin.co/item/2021-pokemon-sword-shield-factory-sealed-fusion-strike-booster-box-casuk2fc",
    "tcgUrl": "https://www.tcgplayer.com/product/247654",
@@ -3540,9 +3456,9 @@
    "what": "Fusion Strike Booster Box",
    "units": 6,
    "value": 5820.0,
-   "currentBid": 3750.0,
-   "bids": 48,
-   "allInNow": 4620.0,
+   "currentBid": 4000.0,
+   "bids": 49,
+   "allInNow": 4925.0,
    "maxBid": 4018,
    "allInAtMax": 4946.96,
    "premiumPct": 22.0,
@@ -3568,9 +3484,9 @@
    "what": "Hidden Fates Elite Trainer Box",
    "units": 10,
    "value": 5487.8,
-   "currentBid": 225.0,
-   "bids": 35,
-   "allInNow": 319.5,
+   "currentBid": 250.0,
+   "bids": 36,
+   "allInNow": 350.0,
    "maxBid": 3786,
    "allInAtMax": 4663.92,
    "premiumPct": 22.0,
@@ -3596,9 +3512,9 @@
    "what": "Lost Origin Booster Box",
    "units": 6,
    "value": 4364.94,
-   "currentBid": 2401.0,
-   "bids": 36,
-   "allInNow": 2974.22,
+   "currentBid": 2601.0,
+   "bids": 38,
+   "allInNow": 3218.22,
    "maxBid": 3004,
    "allInAtMax": 3709.88,
    "premiumPct": 22.0,
@@ -3624,9 +3540,9 @@
    "what": "Astral Radiance Booster Box",
    "units": 11,
    "value": 4290.0,
-   "currentBid": 1625.0,
-   "bids": 31,
-   "allInNow": 2027.5,
+   "currentBid": 2351.0,
+   "bids": 36,
+   "allInNow": 2913.22,
    "maxBid": 2952,
    "allInAtMax": 3646.44,
    "premiumPct": 22.0,
@@ -3645,34 +3561,6 @@
   {
    "house": "Goldin",
    "bucket": "sealed",
-   "title": "2025 Pokemon Scarlet & Violet Factory-Sealed Prismatic Evolutions Booster Bundle Display Case (6 Boxes/10 Bundles Each) - Possible Full Art Umbreon ex, Sylveon ex, Leafeon ex Cards",
-   "url": "https://goldin.co/item/2025-pokemon-scarlet-violet-factory-sealed-prismatic-evolutions-boostevqn5n",
-   "tcgUrl": "https://www.tcgplayer.com/product/600518",
-   "wantId": null,
-   "what": "Prismatic Evolutions Booster Bundle",
-   "units": 60,
-   "value": 3300.6,
-   "currentBid": 2100.0,
-   "bids": 26,
-   "allInNow": 2607.0,
-   "maxBid": 2262,
-   "allInAtMax": 2804.64,
-   "premiumPct": 22.0,
-   "shipEst": 45.0,
-   "ends": "2026-11-09T03:00:00Z",
-   "flag": "undervalued",
-   "rawMarket": null,
-   "comp": "p600518",
-   "thumb": "a-202610-1415-4436-bd87a0ca-6a80-459e-8fea-e96373fc948a",
-   "overCap": true,
-   "pctAtMax": 0.85,
-   "likely": 5809.5,
-   "winPct": 0.0,
-   "nComps": 8
-  },
-  {
-   "house": "Goldin",
-   "bucket": "sealed",
    "title": "2022 Pokemon Sword & Shield Factory-Sealed Lost Origin Booster Box Collection (4 Boxes) - Possible Full Art Giratina V, Aerodactyl V, Pikachu VMAX Cards",
    "url": "https://goldin.co/item/2022-pokemon-sword-shield-factory-sealed-lost-origin-booster-box-colleoz3uf",
    "tcgUrl": "https://www.tcgplayer.com/product/277324",
@@ -3680,9 +3568,9 @@
    "what": "Lost Origin Booster Box",
    "units": 4,
    "value": 2909.96,
-   "currentBid": 1351.0,
-   "bids": 29,
-   "allInNow": 1693.22,
+   "currentBid": 1551.0,
+   "bids": 31,
+   "allInNow": 1937.22,
    "maxBid": 1990,
    "allInAtMax": 2472.8,
    "premiumPct": 22.0,
@@ -3722,9 +3610,9 @@
    "thumb": "a-202610-2814-5420-2bb85ce5-247c-425c-86a7-5905eaf1c92c",
    "overCap": true,
    "pctAtMax": 0.85,
-   "likely": 2918.1,
+   "likely": 2561.25,
    "winPct": 0.0,
-   "nComps": 12
+   "nComps": 2
   },
   {
    "house": "Goldin",
@@ -3764,9 +3652,9 @@
    "what": "Twilight Masquerade Booster Box",
    "units": 7,
    "value": 2310.0,
-   "currentBid": 700.0,
-   "bids": 15,
-   "allInNow": 899.0,
+   "currentBid": 800.0,
+   "bids": 17,
+   "allInNow": 1021.0,
    "maxBid": 1572,
    "allInAtMax": 1962.84,
    "premiumPct": 22.0,
@@ -3792,9 +3680,9 @@
    "what": "Temporal Forces Booster Box",
    "units": 6,
    "value": 1877.64,
-   "currentBid": 901.0,
-   "bids": 46,
-   "allInNow": 1144.22,
+   "currentBid": 951.0,
+   "bids": 47,
+   "allInNow": 1205.22,
    "maxBid": 1271,
    "allInAtMax": 1595.62,
    "premiumPct": 22.0,
@@ -3820,9 +3708,9 @@
    "what": "Mega Evolution Booster Box",
    "units": 6,
    "value": 1798.62,
-   "currentBid": 825.0,
-   "bids": 15,
-   "allInNow": 1051.5,
+   "currentBid": 875.0,
+   "bids": 16,
+   "allInNow": 1112.5,
    "maxBid": 1216,
    "allInAtMax": 1528.52,
    "premiumPct": 22.0,
@@ -3904,9 +3792,9 @@
    "what": "Battle Styles Booster Box",
    "units": 6,
    "value": 1620.0,
-   "currentBid": 525.0,
-   "bids": 11,
-   "allInNow": 685.5,
+   "currentBid": 700.0,
+   "bids": 15,
+   "allInNow": 899.0,
    "maxBid": 1091,
    "allInAtMax": 1376.02,
    "premiumPct": 22.0,
@@ -3932,9 +3820,9 @@
    "what": "Destined Rivals Booster Bundle",
    "units": 25,
    "value": 1450.0,
-   "currentBid": 701.0,
-   "bids": 28,
-   "allInNow": 900.22,
+   "currentBid": 751.0,
+   "bids": 29,
+   "allInNow": 961.22,
    "maxBid": 973,
    "allInAtMax": 1232.06,
    "premiumPct": 22.0,
@@ -3981,34 +3869,6 @@
   {
    "house": "Goldin",
    "bucket": "sealed",
-   "title": "2022 Pokemon Sword & Shield Factory-Sealed Brilliant Stars Booster Box Pair (2 Boxes) - Possible Charizard V Full Art Card",
-   "url": "https://goldin.co/item/2022-pokemon-sword-shield-factory-sealed-brilliant-stars-booster-box-pk1rcx",
-   "tcgUrl": "https://www.tcgplayer.com/product/256141",
-   "wantId": null,
-   "what": "Brilliant Stars Booster Box",
-   "units": 2,
-   "value": 1090.0,
-   "currentBid": 700.0,
-   "bids": 12,
-   "allInNow": 899.0,
-   "maxBid": 722,
-   "allInAtMax": 925.84,
-   "premiumPct": 22.0,
-   "shipEst": 45.0,
-   "ends": "2026-11-09T03:00:00Z",
-   "flag": "undervalued",
-   "rawMarket": null,
-   "comp": "p256141",
-   "thumb": "a-202610-2816-2128-6d5c7e0c-c6f4-41d7-a849-4c347df16cf4",
-   "overCap": true,
-   "pctAtMax": 0.85,
-   "likely": 1183.67,
-   "winPct": 0.0,
-   "nComps": 12
-  },
-  {
-   "house": "Goldin",
-   "bucket": "sealed",
    "title": "2021 Pokemon Sword & Shield Factory-Sealed Battle Styles Booster Box Collection (4 Boxes) - Possible Full Art Tyranitar V Cards",
    "url": "https://goldin.co/item/2021-pokemon-sword-shield-factory-sealed-battle-styles-booster-box-colz7uhc",
    "tcgUrl": "https://www.tcgplayer.com/product/229277",
@@ -4016,9 +3876,9 @@
    "what": "Battle Styles Booster Box",
    "units": 4,
    "value": 1080.0,
-   "currentBid": 476.0,
-   "bids": 13,
-   "allInNow": 625.72,
+   "currentBid": 551.0,
+   "bids": 15,
+   "allInNow": 717.22,
    "maxBid": 715,
    "allInAtMax": 917.3,
    "premiumPct": 22.0,
@@ -4100,9 +3960,9 @@
    "what": "Paldean Fates Premium Collection (cheapest variant)",
    "units": 3,
    "value": 690.18,
-   "currentBid": 300.0,
-   "bids": 34,
-   "allInNow": 411.0,
+   "currentBid": 425.0,
+   "bids": 38,
+   "allInNow": 563.5,
    "maxBid": 443,
    "allInAtMax": 585.46,
    "premiumPct": 22.0,
@@ -4199,34 +4059,6 @@
    "likely": 5809.5,
    "winPct": 0.0,
    "nComps": 8
-  },
-  {
-   "house": "Goldin",
-   "bucket": "sealed",
-   "title": "2018 Pokemon Sun & Moon Factory-Sealed Celestial Storm Booster Box (36 Packs) - Possible Full Art Rayquaza GX, Lisia Cards",
-   "url": "https://goldin.co/item/2018-pokemon-sun-moon-factory-sealed-celestial-storm-booster-box-36-pabg4m3",
-   "tcgUrl": "https://www.tcgplayer.com/product/170273",
-   "wantId": null,
-   "what": "Celestial Storm Booster Box",
-   "units": 1,
-   "value": 2676.74,
-   "currentBid": 10.0,
-   "bids": 1,
-   "allInNow": 37.2,
-   "maxBid": 1844,
-   "allInAtMax": 2274.68,
-   "premiumPct": 22.0,
-   "shipEst": 25.0,
-   "ends": "2026-11-15T03:00:00Z",
-   "flag": "overlooked",
-   "rawMarket": null,
-   "comp": "p170273",
-   "thumb": "a-202610-1311-5932-33ebac12-d660-4d5f-8142-500b386f6ac2",
-   "overCap": true,
-   "pctAtMax": 0.85,
-   "likely": 2587.0,
-   "winPct": 0.0,
-   "nComps": 4
   },
   {
    "house": "Goldin",
@@ -4447,9 +4279,9 @@
    "thumb": "a-202611-0314-3212-38617fca-995b-4005-a3f8-ecfbbac590b1",
    "overCap": true,
    "pctAtMax": 0.85,
-   "likely": 1783.5,
+   "likely": 1644.42,
    "winPct": 0.0,
-   "nComps": 8
+   "nComps": 10
   },
   {
    "house": "Goldin",
@@ -4475,9 +4307,9 @@
    "thumb": "a-202610-3014-0526-1011a84b-a813-4af1-96a4-916dae4fb1d1",
    "overCap": true,
    "pctAtMax": 0.85,
-   "likely": 1481.55,
+   "likely": 1303.12,
    "winPct": 0.0,
-   "nComps": 12
+   "nComps": 2
   },
   {
    "house": "Goldin",
@@ -4621,34 +4453,6 @@
    "house": "Goldin",
    "bucket": "sealed",
    "title": "2023 Pokemon Sword & Shield Crown Zenith Factory-Sealed Pokemon Center Elite Trainer Box Plus Pair (2 Boxes) - Possible Giratina VSTAR, Mewtwo VSTAR, Arceus VSTAR, cards",
-   "url": "https://goldin.co/item/2023-pokemon-sword-shield-crown-zenith-factory-sealed-pokemon-center-ehb70c",
-   "tcgUrl": "https://www.tcgplayer.com/product/454246",
-   "wantId": null,
-   "what": "Crown Zenith Pokemon Center Elite Trainer Box Plus",
-   "units": 2,
-   "value": 1073.96,
-   "currentBid": 10.0,
-   "bids": 1,
-   "allInNow": 57.2,
-   "maxBid": 711,
-   "allInAtMax": 912.42,
-   "premiumPct": 22.0,
-   "shipEst": 45.0,
-   "ends": "2026-11-15T03:00:00Z",
-   "flag": "overlooked",
-   "rawMarket": null,
-   "comp": "p454246",
-   "thumb": "a-202611-0314-3211-df882d46-2bef-4baf-8ff7-8c4f0c141b34",
-   "overCap": true,
-   "pctAtMax": 0.85,
-   "likely": 1085.05,
-   "winPct": 0.0,
-   "nComps": 3
-  },
-  {
-   "house": "Goldin",
-   "bucket": "sealed",
-   "title": "2023 Pokemon Sword & Shield Crown Zenith Factory-Sealed Pokemon Center Elite Trainer Box Plus Pair (2 Boxes) - Possible Giratina VSTAR, Mewtwo VSTAR, Arceus VSTAR, cards",
    "url": "https://goldin.co/item/2023-pokemon-sword-shield-crown-zenith-factory-sealed-pokemon-center-ezy8px",
    "tcgUrl": "https://www.tcgplayer.com/product/454246",
    "wantId": null,
@@ -4667,6 +4471,34 @@
    "rawMarket": null,
    "comp": "p454246",
    "thumb": "a-202611-0316-5228-093535a6-fe11-47a8-97fb-e476d1f1a895",
+   "overCap": true,
+   "pctAtMax": 0.85,
+   "likely": 1085.05,
+   "winPct": 0.0,
+   "nComps": 3
+  },
+  {
+   "house": "Goldin",
+   "bucket": "sealed",
+   "title": "2023 Pokemon Sword & Shield Crown Zenith Factory-Sealed Pokemon Center Elite Trainer Box Plus Pair (2 Boxes) - Possible Giratina VSTAR, Mewtwo VSTAR, Arceus VSTAR, cards",
+   "url": "https://goldin.co/item/2023-pokemon-sword-shield-crown-zenith-factory-sealed-pokemon-center-ehb70c",
+   "tcgUrl": "https://www.tcgplayer.com/product/454246",
+   "wantId": null,
+   "what": "Crown Zenith Pokemon Center Elite Trainer Box Plus",
+   "units": 2,
+   "value": 1073.96,
+   "currentBid": 110.0,
+   "bids": 3,
+   "allInNow": 179.2,
+   "maxBid": 711,
+   "allInAtMax": 912.42,
+   "premiumPct": 22.0,
+   "shipEst": 45.0,
+   "ends": "2026-11-15T03:00:00Z",
+   "flag": "undervalued",
+   "rawMarket": null,
+   "comp": "p454246",
+   "thumb": "a-202611-0314-3211-df882d46-2bef-4baf-8ff7-8c4f0c141b34",
    "overCap": true,
    "pctAtMax": 0.85,
    "likely": 1085.05,
@@ -4780,9 +4612,9 @@
    "thumb": "a-202610-2914-4843-38719c76-3b04-4caf-b102-005c7cc930e0",
    "overCap": true,
    "pctAtMax": 0.85,
-   "likely": 1002.7,
+   "likely": 883.75,
    "winPct": 0.0,
-   "nComps": 12
+   "nComps": 2
   },
   {
    "house": "Goldin",
@@ -5558,13 +5390,13 @@
    "winPct": null
   }
  ],
- "droppedOverCap": 80,
+ "droppedOverCap": 76,
  "scans": {
-  "Goldin": "2026-11-08T16:15:12Z",
-  "Fanatics": "2026-11-08T16:16:21Z"
+  "Goldin": "2026-11-08T19:41:21Z",
+  "Fanatics": "2026-11-08T19:42:29Z"
  },
  "medianPctOfValue": {
-  "Goldin": 0.97,
+  "Goldin": 1.02,
   "Fanatics": null
  },
  "rule": "Max bid = highest hammer bid keeping hammer + premium + est. shipping at or under 85% of value; only lots whose max bid stays within the per-lot budget all-in.",
@@ -5609,32 +5441,6 @@
     1,
     41,
     "https://goldin.co/item/2022-pokemon-sword-shield-factory-sealed-charizard-ultra-premium-colle6z8vs"
-   ]
-  ],
-  "p164296": [
-   [
-    "2026-11-02",
-    "G",
-    1191.94,
-    1,
-    46,
-    "https://goldin.co/item/2018-pokemon-sun-moon-factory-sealed-forbidden-light-booster-box-36-pawjche"
-   ],
-   [
-    "2026-10-26",
-    "G",
-    1526.22,
-    1,
-    34,
-    "https://goldin.co/item/2018-pokemon-sun-moon-factory-sealed-forbidden-light-booster-box-36-paqnmfa"
-   ],
-   [
-    "2026-05-04",
-    "G",
-    1496.94,
-    1,
-    14,
-    "https://goldin.co/item/2018-pokemon-sun-moon-factory-sealed-forbidden-light-booster-box-36-panujlv"
    ]
   ],
   "p673436": [
@@ -6513,6 +6319,22 @@
   ],
   "p123448": [
    [
+    "2026-11-02",
+    "G",
+    732.0,
+    1,
+    28,
+    "https://goldin.co/item/2016-pokemon-xy-evolutions-factory-sealed-elite-trainer-box-8-packs-po9hs8i"
+   ],
+   [
+    "2026-11-02",
+    "G",
+    794.22,
+    1,
+    24,
+    "https://goldin.co/item/2016-pokemon-xy-evolutions-factory-sealed-elite-trainer-box-8-packs-poi7843"
+   ],
+   [
     "2026-10-26",
     "G",
     988.2,
@@ -6535,22 +6357,6 @@
     10,
     53,
     "https://goldin.co/item/2016-pokemon-xy-evolutions-factory-sealed-elite-trainer-box-case-10-bo8xtgd"
-   ],
-   [
-    "2026-06-22",
-    "G",
-    727.12,
-    1,
-    32,
-    "https://goldin.co/item/2016-pokemon-xy-evolutions-factory-sealed-elite-trainer-box-8-packs-po67kwg"
-   ],
-   [
-    "2026-05-11",
-    "G",
-    854.0,
-    1,
-    38,
-    "https://goldin.co/item/2016-pokemon-xy-evolutions-factory-sealed-elite-trainer-box-8-packs-po6pz3m"
    ]
   ],
   "p236258": [
@@ -6681,6 +6487,14 @@
   ],
   "p283389": [
    [
+    "2026-11-02",
+    "G",
+    5185.0,
+    12,
+    22,
+    "https://goldin.co/item/2022-pokemon-sword-shield-factory-sealed-silver-tempest-booster-box-covndvy"
+   ],
+   [
     "2026-10-12",
     "G",
     610.0,
@@ -6711,14 +6525,6 @@
     1,
     35,
     "https://goldin.co/item/2022-pokemon-sword-shield-factory-sealed-silver-tempest-booster-box-366x3qu"
-   ],
-   [
-    "2026-07-20",
-    "G",
-    427.0,
-    1,
-    20,
-    "https://goldin.co/item/2022-pokemon-sword-shield-silver-tempest-factory-sealed-booster-box-36zkmo5"
    ]
   ],
   "p644298": [
@@ -6761,48 +6567,6 @@
     1,
     14,
     "https://goldin.co/item/2025-pokemon-mega-evolution-factory-sealed-booster-box-36-packs-possibsdlu5"
-   ]
-  ],
-  "p170273": [
-   [
-    "2026-10-26",
-    "G",
-    2818.2,
-    1,
-    46,
-    "https://goldin.co/item/2018-pokemon-sun-moon-factory-sealed-celestial-storm-booster-box-36-paqycg1"
-   ],
-   [
-    "2026-09-21",
-    "G",
-    9924.7,
-    2,
-    79,
-    "https://goldin.co/item/2018-pokemon-sun-moon-factory-sealed-celestial-storm-booster-box-pairszxyw"
-   ],
-   [
-    "2026-05-04",
-    "G",
-    2684.0,
-    1,
-    33,
-    "https://goldin.co/item/2018-pokemon-sun-moon-factory-sealed-celestial-storm-booster-box-36-pafdbsp"
-   ],
-   [
-    "2026-03-02",
-    "G",
-    2440.0,
-    1,
-    60,
-    "https://goldin.co/item/2018-pokemon-sun-moon-celestial-storm-factory-sealed-booster-box-36-paakm8e"
-   ],
-   [
-    "2026-01-12",
-    "G",
-    2318.0,
-    1,
-    45,
-    "https://goldin.co/item/2018-pokemon-sun-moon-celestial-storm-factory-sealed-booster-box-36-paedxbi"
    ]
   ],
   "p194729": [
@@ -7321,6 +7085,14 @@
   ],
   "p684450": [
    [
+    "2026-11-02",
+    "G",
+    52.46,
+    1,
+    17,
+    "https://goldin.co/item/2026-pokemon-mega-evolution-chaos-rising-factory-sealed-elite-trainertk78d"
+   ],
+   [
     "2026-10-26",
     "G",
     109.8,
@@ -7351,17 +7123,25 @@
     1,
     9,
     "https://goldin.co/item/2026-pokemon-mega-evolution-chaos-rising-factory-sealed-elite-trainerll8uw"
-   ],
-   [
-    "2026-09-21",
-    "G",
-    91.5,
-    1,
-    9,
-    "https://goldin.co/item/2026-pokemon-mega-evolution-chaos-rising-factory-sealed-elite-trainerqhxdf"
    ]
   ],
   "p126091": [
+   [
+    "2026-11-02",
+    "G",
+    231.8,
+    1,
+    19,
+    "https://goldin.co/item/2017-pokemon-sun-moon-factory-sealed-elite-trainer-box-8-packs-possiblx7fdi"
+   ],
+   [
+    "2026-11-02",
+    "G",
+    234.24,
+    1,
+    17,
+    "https://goldin.co/item/2017-pokemon-sun-moon-factory-sealed-elite-trainer-box-8-packs-possibl554iv"
+   ],
    [
     "2026-10-05",
     "G",
@@ -7385,48 +7165,6 @@
     1,
     29,
     "https://goldin.co/item/2017-pokemon-sun-moon-factory-sealed-elite-trainer-box-8-packs-possibligz2e"
-   ],
-   [
-    "2026-08-04",
-    "G",
-    244.0,
-    1,
-    11,
-    "https://goldin.co/item/2017-pokemon-sun-moon-factory-sealed-elite-trainer-box-8-packs-possiblhbmd2"
-   ],
-   [
-    "2026-05-11",
-    "G",
-    305.0,
-    1,
-    18,
-    "https://goldin.co/item/2017-pokemon-sun-moon-factory-sealed-elite-trainer-box-8-packs-possiblpcamp"
-   ]
-  ],
-  "p210561": [
-   [
-    "2026-08-31",
-    "G",
-    457.5,
-    1,
-    29,
-    "https://goldin.co/item/2020-pokemon-sword-shield-factory-sealed-rebel-clash-booster-box-36-paop0ox"
-   ],
-   [
-    "2026-06-15",
-    "G",
-    457.5,
-    1,
-    40,
-    "https://goldin.co/item/2020-pokemon-sword-shield-factory-sealed-rebel-clash-booster-box-36-panfroh"
-   ],
-   [
-    "2026-05-04",
-    "G",
-    538.02,
-    1,
-    27,
-    "https://goldin.co/item/2020-pokemon-sword-shield-factory-sealed-rebel-clash-booster-box-36-pa2gj1d"
    ]
   ],
   "p242443": [
@@ -7553,48 +7291,6 @@
     1,
     20,
     "https://goldin.co/item/2021-pokemon-sword-shield-factory-sealed-battle-styles-booster-box-367vix1"
-   ]
-  ],
-  "p256141": [
-   [
-    "2026-10-05",
-    "G",
-    3355.0,
-    6,
-    21,
-    "https://goldin.co/item/2022-pokemon-sword-shield-brilliant-stars-factory-sealed-booster-box-cdtsyj"
-   ],
-   [
-    "2026-09-07",
-    "G",
-    579.5,
-    1,
-    14,
-    "https://goldin.co/item/2022-pokemon-sword-and-shield-brilliant-stars-factory-sealed-booster-blah9s"
-   ],
-   [
-    "2026-08-10",
-    "G",
-    1220.0,
-    1,
-    1,
-    "https://goldin.co/item/2022-pokemon-sword-and-shield-brilliant-stars-factory-sealed-booster-b5732c"
-   ],
-   [
-    "2026-07-27",
-    "G",
-    506.3,
-    1,
-    18,
-    "https://goldin.co/item/2022-pokemon-sword-shield-brilliant-stars-factory-sealed-booster-box-3r6lc6"
-   ],
-   [
-    "2026-07-20",
-    "G",
-    506.3,
-    1,
-    37,
-    "https://goldin.co/item/2022-pokemon-sword-shield-factory-sealed-brilliant-stars-booster-box-3w727p"
    ]
   ],
   "p654137": [
@@ -7885,6 +7581,406 @@
     1,
     26,
     "https://goldin.co/item/2022-pokemon-sword-shield-unopened-origin-forme-palkia-vstar-premium-cuxm68"
+   ]
+  ],
+  "k-006|CGC 10": [
+   [
+    "2026-08-10",
+    "G",
+    5615.66,
+    1,
+    20,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-4-charizard-cgc-gem-mint-10nbqyk"
+   ]
+  ],
+  "mk-neo-revelation-shining-66-64|PSA 10": [
+   [
+    "2025-11-30",
+    "G",
+    4417.62,
+    1,
+    16,
+    "https://goldin.co/item/2001-pokemon-neo-revelation-rare-holofoil-66-shining-magikarp-psa-gem2c3n8"
+   ]
+  ],
+  "k-009|PSA 6": [
+   [
+    "2025-12-05",
+    "G",
+    53.68,
+    1,
+    14,
+    "https://goldin.co/item/1999-pokemon-base-set-rare-holofoil-2-blastoisewdrn1"
+   ]
+  ],
+  "mk-generations-22-83|PSA 10": [
+   [
+    "2026-01-05",
+    "G",
+    579.5,
+    1,
+    36,
+    "https://goldin.co/item/2016-pokemon-xy-generations-toys-r-us-holo-22-magikarp-psa-gem-mt-103el26"
+   ]
+  ],
+  "k-115|CGC 5": [
+   [
+    "2026-01-19",
+    "G",
+    39.04,
+    1,
+    12,
+    "https://goldin.co/item/1999-pokemon-jungle-holo-5-kangaskhan-cgc-ex-5d52p9"
+   ]
+  ],
+  "k-065|PSA 10": [
+   [
+    "2026-02-16",
+    "G",
+    1675.24,
+    1,
+    27,
+    "https://goldin.co/item/2000-pokemon-base-set-ii-holo-1-alakazam-psa-gem-mt-10hxmi3"
+   ]
+  ],
+  "k-006|PSA 8": [
+   [
+    "2026-03-30",
+    "G",
+    1006.5,
+    1,
+    27,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-4-charizard-psa-nm-mt-8yt2lk"
+   ]
+  ],
+  "k-006|BGS 8.5": [
+   [
+    "2026-04-13",
+    "G",
+    1067.5,
+    1,
+    46,
+    "https://goldin.co/item/1999-pokemon-base-set-unlimited-holo-4-charizard-bgs-nm-mt-8-5kaz6s"
+   ]
+  ],
+  "kg-86003|PSA 10": [
+   [
+    "2026-04-20",
+    "G",
+    80520.0,
+    1,
+    34,
+    "https://goldin.co/item/2006-pokemon-ex-holon-phantoms-gold-star-holo-102-gyarados-psa-gem-mtkzbpy"
+   ]
+  ],
+  "k-006|BGS 6": [
+   [
+    "2026-05-11",
+    "G",
+    457.5,
+    1,
+    38,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-4-charizard-bgs-ex-mt-6wpg44"
+   ]
+  ],
+  "s-mew-paf|BGS 10": [
+   [
+    "2026-05-18",
+    "G",
+    236543.36,
+    1,
+    59,
+    "https://goldin.co/item/2024-pokemon-scarlet-violet-paldean-fates-232-mew-ex-bgs-pristine-blac0me02"
+   ]
+  ],
+  "s-mew-paf|CGC 10": [
+   [
+    "2026-06-18",
+    "G",
+    3660.0,
+    1,
+    27,
+    "https://goldin.co/item/2024-pokemon-paldean-fates-special-illustration-rare-232-mew-ex-cgc-prv9c03"
+   ]
+  ],
+  "k-149|PSA 7": [
+   [
+    "2026-06-29",
+    "G",
+    183.0,
+    1,
+    28,
+    "https://goldin.co/item/1999-pokemon-fossil-holo-4-dragonite-psa-nm-727yy5"
+   ]
+  ],
+  "k-026|PSA 9": [
+   [
+    "2026-07-27",
+    "G",
+    396.5,
+    1,
+    11,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-14-raichu-psa-mint-9stlml"
+   ]
+  ],
+  "k-006|PSA 5": [
+   [
+    "2026-07-27",
+    "G",
+    671.0,
+    1,
+    30,
+    "https://goldin.co/item/charizard-base-set-cardxhi0u"
+   ]
+  ],
+  "kg-107000-unlimitedholofoil|CGC 8.5": [
+   [
+    "2026-08-04",
+    "G",
+    231.8,
+    1,
+    12,
+    "https://goldin.co/item/1999-pokemon-base-set-shadowless-holo-6-gyarados-cgc-nm-mint-8-5wht8f"
+   ]
+  ],
+  "kg-250327|PSA 10": [
+   [
+    "2026-08-04",
+    "G",
+    231.8,
+    1,
+    34,
+    "https://goldin.co/item/2021-pokemon-celebrations-classic-collection-neo-revelation-holo-66-shopidv"
+   ]
+  ],
+  "kg-107000-1steditionholofoil|PSA 10": [
+   [
+    "2026-08-10",
+    "G",
+    29892.44,
+    1,
+    28,
+    "https://goldin.co/item/1999-pokemon-base-set-1st-edition-shadowless-holo-6-gyarados-psa-gem-mzo4x5"
+   ]
+  ],
+  "gy-gym-challenge-giovanni-s-5-132|PSA 10": [
+   [
+    "2026-08-10",
+    "G",
+    2562.0,
+    1,
+    17,
+    "https://goldin.co/item/2000-pokemon-gym-challenge-holo-5-giovanni-s-gyarados-psa-gem-mt-10cl78g"
+   ]
+  ],
+  "kg-84608-reverseholofoil|PSA 10": [
+   [
+    "2026-08-10",
+    "G",
+    10980.0,
+    1,
+    14,
+    "https://goldin.co/item/2004-pokemon-ex-team-rocket-returns-reverse-holo-36-dark-gyarados-psa279jd"
+   ]
+  ],
+  "s-mew-paf|PSA 10": [
+   [
+    "2026-08-31",
+    "G",
+    2806.0,
+    1,
+    62,
+    "https://goldin.co/item/2024-pokemon-paldean-fates-special-illustration-rare-232-mew-ex-psa-ge52zie"
+   ],
+   [
+    "2026-08-10",
+    "G",
+    2806.0,
+    1,
+    19,
+    "https://goldin.co/item/2024-pokemon-paldean-fates-special-illustration-rare-232-mew-ex-psa-gea1fd2"
+   ]
+  ],
+  "kg-86002-reverseholofoil|CGC 10": [
+   [
+    "2026-08-10",
+    "G",
+    13420.0,
+    1,
+    49,
+    "https://goldin.co/item/2006-pokemon-ex-holon-phantoms-reverse-holo-8-gyarados-cgc-pristine-10k4n2t"
+   ]
+  ],
+  "k-006|PSA 9": [
+   [
+    "2026-08-24",
+    "G",
+    5795.0,
+    1,
+    68,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-4-charizard-psa-mint-978uwl"
+   ],
+   [
+    "2026-08-17",
+    "G",
+    3385.5,
+    1,
+    38,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-4-charizard-psa-mint-95rma7"
+   ]
+  ],
+  "k-003|PSA 4": [
+   [
+    "2026-08-17",
+    "G",
+    48.8,
+    1,
+    11,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-15-venusaur-psa-vg-ex-4jp07z"
+   ]
+  ],
+  "k-009|PSA 9": [
+   [
+    "2026-08-24",
+    "G",
+    793.0,
+    1,
+    12,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-2-blastoise-psa-mint-9lg6lw"
+   ],
+   [
+    "2026-08-17",
+    "G",
+    1183.4,
+    1,
+    34,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-2-blastoise-psa-mint-9173tw"
+   ],
+   [
+    "2026-08-17",
+    "G",
+    930.86,
+    1,
+    28,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-2-blastoise-psa-mint-9qzh47"
+   ]
+  ],
+  "k-009|PSA 8": [
+   [
+    "2026-08-17",
+    "G",
+    287.92,
+    1,
+    32,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-2-blastoise-psa-nm-mt-8fgruz"
+   ]
+  ],
+  "k-006|CGC 8.5": [
+   [
+    "2026-08-17",
+    "G",
+    807.64,
+    1,
+    20,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-4-charizard-cgc-nm-mint-8-5xhzps"
+   ]
+  ],
+  "k-115|PSA 6": [
+   [
+    "2026-08-17",
+    "G",
+    12.2,
+    1,
+    1,
+    "https://goldin.co/item/1999-pokemon-jungle-holo-5-kangaskhan-psa-ex-mt-6evbjr"
+   ]
+  ],
+  "k-031|PSA 7": [
+   [
+    "2026-08-17",
+    "G",
+    14.64,
+    1,
+    2,
+    "https://goldin.co/item/1999-pokemon-jungle-holo-7-nidoqueen-psa-nm-74dh2a"
+   ]
+  ],
+  "mk-neo-revelation-shining-66-64|PSA 6": [
+   [
+    "2026-08-17",
+    "G",
+    431.88,
+    1,
+    14,
+    "https://goldin.co/item/2000-pokemon-neo-revelation-holo-66-shining-magikarpnpzxs"
+   ]
+  ],
+  "k-003|PSA 9": [
+   [
+    "2026-08-24",
+    "G",
+    461.16,
+    1,
+    33,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-15-venusaur-psa-mint-9x85ks"
+   ]
+  ],
+  "k-003|PSA 8": [
+   [
+    "2026-08-31",
+    "G",
+    274.5,
+    1,
+    31,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-15-venusaur-psa-nm-mt-8qckrs"
+   ],
+   [
+    "2026-08-24",
+    "G",
+    254.98,
+    1,
+    13,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-15-venusaur-psa-nm-mt-8xrlwj"
+   ]
+  ],
+  "k-006|BGS 8": [
+   [
+    "2026-08-31",
+    "G",
+    1160.22,
+    1,
+    52,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-4-charizard-bgs-nm-mt-83momv"
+   ]
+  ],
+  "k-006|CGC 7.5": [
+   [
+    "2026-08-31",
+    "G",
+    732.0,
+    1,
+    45,
+    "https://goldin.co/item/1999-pokemon-base-set-holo-4-charizard-cgc-near-mint-7-5giznv"
+   ]
+  ],
+  "k-026|BGS 8": [
+   [
+    "2026-08-31",
+    "G",
+    98.82,
+    1,
+    28,
+    "https://goldin.co/item/1999-pokemon-base-set-unlimited-holo-14-raichu-bgs-nm-mt-8p3d3k"
+   ]
+  ],
+  "kg-250327|CGC 10": [
+   [
+    "2026-11-02",
+    "F",
+    138.0,
+    1,
+    11,
+    "https://www.fanaticscollect.com/weekly/56653cda-cd62-11f1-a65c-06ffee006a8d/2021-pokemon-swsh-celebrations-classic-collection-holo-shining-magikarp-66-cgc-10-pristine"
    ]
   ]
  },
@@ -8278,12 +8374,13 @@
   },
   "p218791": {
    "n": 12,
-   "med": 259.25,
-   "lo": 219.6,
-   "hi": 305.0,
-   "last": "2026-09-07",
+   "med": 237.9,
+   "lo": 215.03,
+   "hi": 286.7,
+   "last": "2026-11-02",
    "ref": 194.87,
-   "ratio": 1.33
+   "ratio": 1.22,
+   "bulkPct": -0.405
   },
   "p193438": {
    "n": 1,
@@ -8367,14 +8464,14 @@
    "bulkPct": -0.269
   },
   "p123448": {
-   "n": 9,
-   "med": 915.0,
-   "lo": 854.0,
-   "hi": 988.2,
-   "last": "2026-10-26",
+   "n": 11,
+   "med": 884.5,
+   "lo": 763.11,
+   "hi": 982.1,
+   "last": "2026-11-02",
    "ref": 750.0,
-   "ratio": 1.22,
-   "bulkPct": 0.237
+   "ratio": 1.18,
+   "bulkPct": 0.281
   },
   "p123447": {
    "n": 1,
@@ -8435,13 +8532,13 @@
    "last": "2026-10-26"
   },
   "p185717": {
-   "n": 6,
-   "med": 2485.75,
-   "lo": 2387.54,
-   "hi": 2612.32,
-   "last": "2026-08-31",
+   "n": 7,
+   "med": 2562.0,
+   "lo": 2394.86,
+   "hi": 2702.3,
+   "last": "2026-11-02",
    "ref": 2724.4,
-   "ratio": 0.91
+   "ratio": 0.94
   },
   "p191882": {
    "n": 6,
@@ -8469,12 +8566,13 @@
   },
   "p283389": {
    "n": 12,
-   "med": 478.85,
+   "med": 456.89,
    "lo": 427.0,
    "hi": 552.05,
-   "last": "2026-10-12",
+   "last": "2026-11-02",
    "ref": 481.89,
-   "ratio": 0.99
+   "ratio": 0.95,
+   "bulkPct": -0.124
   },
   "p644298": {
    "n": 12,
@@ -8764,7 +8862,8 @@
    "ratio": 1.23,
    "bulkPct": 0.076,
    "ledger": [
-    "ah-bundle"
+    "ah-bundle",
+    "rp-668541"
    ]
   },
   "p672391": {
@@ -8809,9 +8908,9 @@
   "p684450": {
    "n": 12,
    "med": 89.97,
-   "lo": 70.0,
+   "lo": 68.93,
    "hi": 96.38,
-   "last": "2026-10-26",
+   "last": "2026-11-02",
    "ref": 68.77,
    "ratio": 1.31,
    "bulkPct": -0.133,
@@ -8853,13 +8952,13 @@
    "ratio": 0.98
   },
   "p126091": {
-   "n": 8,
-   "med": 289.75,
-   "lo": 254.98,
-   "hi": 314.45,
-   "last": "2026-10-05",
+   "n": 10,
+   "med": 266.57,
+   "lo": 236.68,
+   "hi": 305.0,
+   "last": "2026-11-02",
    "ref": 246.84,
-   "ratio": 1.17
+   "ratio": 1.08
   },
   "p210561": {
    "n": 3,
@@ -9818,6 +9917,270 @@
    "last": "2026-09-07",
    "ref": 137.1,
    "ratio": 0.67
+  },
+  "k-006|CGC 10": {
+   "n": 1,
+   "med": 5615.66,
+   "lo": 5615.66,
+   "hi": 5615.66,
+   "last": "2026-08-10"
+  },
+  "mk-neo-revelation-shining-66-64|PSA 10": {
+   "n": 1,
+   "med": 4417.62,
+   "lo": 4417.62,
+   "hi": 4417.62,
+   "last": "2025-11-30"
+  },
+  "k-009|PSA 6": {
+   "n": 1,
+   "med": 53.68,
+   "lo": 53.68,
+   "hi": 53.68,
+   "last": "2025-12-05"
+  },
+  "mk-generations-22-83|PSA 10": {
+   "n": 1,
+   "med": 579.5,
+   "lo": 579.5,
+   "hi": 579.5,
+   "last": "2026-01-05"
+  },
+  "k-115|CGC 5": {
+   "n": 1,
+   "med": 39.04,
+   "lo": 39.04,
+   "hi": 39.04,
+   "last": "2026-01-19"
+  },
+  "k-065|PSA 10": {
+   "n": 1,
+   "med": 1675.24,
+   "lo": 1675.24,
+   "hi": 1675.24,
+   "last": "2026-02-16"
+  },
+  "k-006|PSA 8": {
+   "n": 1,
+   "med": 1006.5,
+   "lo": 1006.5,
+   "hi": 1006.5,
+   "last": "2026-03-30",
+   "ref": 1249.5,
+   "ratio": 0.81
+  },
+  "k-006|BGS 8.5": {
+   "n": 1,
+   "med": 1067.5,
+   "lo": 1067.5,
+   "hi": 1067.5,
+   "last": "2026-04-13"
+  },
+  "kg-86003|PSA 10": {
+   "n": 1,
+   "med": 80520.0,
+   "lo": 80520.0,
+   "hi": 80520.0,
+   "last": "2026-04-20"
+  },
+  "k-006|BGS 6": {
+   "n": 1,
+   "med": 457.5,
+   "lo": 457.5,
+   "hi": 457.5,
+   "last": "2026-05-11"
+  },
+  "s-mew-paf|BGS 10": {
+   "n": 1,
+   "med": 236543.36,
+   "lo": 236543.36,
+   "hi": 236543.36,
+   "last": "2026-05-18"
+  },
+  "s-mew-paf|CGC 10": {
+   "n": 1,
+   "med": 3660.0,
+   "lo": 3660.0,
+   "hi": 3660.0,
+   "last": "2026-06-18"
+  },
+  "k-149|PSA 7": {
+   "n": 1,
+   "med": 183.0,
+   "lo": 183.0,
+   "hi": 183.0,
+   "last": "2026-06-29"
+  },
+  "k-026|PSA 9": {
+   "n": 1,
+   "med": 396.5,
+   "lo": 396.5,
+   "hi": 396.5,
+   "last": "2026-07-27"
+  },
+  "k-006|PSA 5": {
+   "n": 1,
+   "med": 671.0,
+   "lo": 671.0,
+   "hi": 671.0,
+   "last": "2026-07-27"
+  },
+  "kg-107000-unlimitedholofoil|CGC 8.5": {
+   "n": 1,
+   "med": 231.8,
+   "lo": 231.8,
+   "hi": 231.8,
+   "last": "2026-08-04"
+  },
+  "kg-250327|PSA 10": {
+   "n": 1,
+   "med": 231.8,
+   "lo": 231.8,
+   "hi": 231.8,
+   "last": "2026-08-04",
+   "ref": 131.25,
+   "ratio": 1.77
+  },
+  "kg-107000-1steditionholofoil|PSA 10": {
+   "n": 1,
+   "med": 29892.44,
+   "lo": 29892.44,
+   "hi": 29892.44,
+   "last": "2026-08-10"
+  },
+  "gy-gym-challenge-giovanni-s-5-132|PSA 10": {
+   "n": 1,
+   "med": 2562.0,
+   "lo": 2562.0,
+   "hi": 2562.0,
+   "last": "2026-08-10"
+  },
+  "kg-84608-reverseholofoil|PSA 10": {
+   "n": 1,
+   "med": 10980.0,
+   "lo": 10980.0,
+   "hi": 10980.0,
+   "last": "2026-08-10"
+  },
+  "s-mew-paf|PSA 10": {
+   "n": 2,
+   "med": 2806.0,
+   "lo": 2806.0,
+   "hi": 2806.0,
+   "last": "2026-08-31"
+  },
+  "kg-86002-reverseholofoil|CGC 10": {
+   "n": 1,
+   "med": 13420.0,
+   "lo": 13420.0,
+   "hi": 13420.0,
+   "last": "2026-08-10"
+  },
+  "k-006|PSA 9": {
+   "n": 2,
+   "med": 4590.25,
+   "lo": 3987.88,
+   "hi": 5192.62,
+   "last": "2026-08-24"
+  },
+  "k-003|PSA 4": {
+   "n": 1,
+   "med": 48.8,
+   "lo": 48.8,
+   "hi": 48.8,
+   "last": "2026-08-17"
+  },
+  "k-009|PSA 9": {
+   "n": 3,
+   "med": 930.86,
+   "lo": 861.93,
+   "hi": 1057.13,
+   "last": "2026-08-24"
+  },
+  "k-009|PSA 8": {
+   "n": 1,
+   "med": 287.92,
+   "lo": 287.92,
+   "hi": 287.92,
+   "last": "2026-08-17",
+   "ref": 364.45,
+   "ratio": 0.79
+  },
+  "k-006|CGC 8.5": {
+   "n": 1,
+   "med": 807.64,
+   "lo": 807.64,
+   "hi": 807.64,
+   "last": "2026-08-17"
+  },
+  "k-115|PSA 6": {
+   "n": 1,
+   "med": 12.2,
+   "lo": 12.2,
+   "hi": 12.2,
+   "last": "2026-08-17"
+  },
+  "k-031|PSA 7": {
+   "n": 1,
+   "med": 14.64,
+   "lo": 14.64,
+   "hi": 14.64,
+   "last": "2026-08-17"
+  },
+  "mk-neo-revelation-shining-66-64|PSA 6": {
+   "n": 1,
+   "med": 431.88,
+   "lo": 431.88,
+   "hi": 431.88,
+   "last": "2026-08-17"
+  },
+  "k-003|PSA 9": {
+   "n": 1,
+   "med": 461.16,
+   "lo": 461.16,
+   "hi": 461.16,
+   "last": "2026-08-24"
+  },
+  "k-003|PSA 8": {
+   "n": 2,
+   "med": 264.74,
+   "lo": 259.86,
+   "hi": 269.62,
+   "last": "2026-08-31",
+   "ref": 277.5,
+   "ratio": 0.95
+  },
+  "k-006|BGS 8": {
+   "n": 1,
+   "med": 1160.22,
+   "lo": 1160.22,
+   "hi": 1160.22,
+   "last": "2026-08-31",
+   "ref": 1249.5,
+   "ratio": 0.93
+  },
+  "k-006|CGC 7.5": {
+   "n": 1,
+   "med": 732.0,
+   "lo": 732.0,
+   "hi": 732.0,
+   "last": "2026-08-31"
+  },
+  "k-026|BGS 8": {
+   "n": 1,
+   "med": 98.82,
+   "lo": 98.82,
+   "hi": 98.82,
+   "last": "2026-08-31"
+  },
+  "kg-250327|CGC 10": {
+   "n": 1,
+   "med": 138.0,
+   "lo": 138.0,
+   "hi": 138.0,
+   "last": "2026-11-02",
+   "ref": 131.25,
+   "ratio": 1.05
   }
  },
  "mismatch": [
@@ -9868,7 +10231,7 @@
   }
  ],
  "bulk": {
-  "products": 38,
+  "products": 40,
   "medianPct": -0.145,
   "note": "Per-box price inside a multi-box lot vs a single box of the same product, auction finishes in the last year."
  }
