@@ -64,7 +64,7 @@ def to_lot(h):
             "number_of_bids": h.get("bidCount") or 0, "end_timestamp": end, "buyer_premium": bp,
             "url": lot_url(h), "lot_number": h.get("lotNumber"),
             "lot_id": h.get("objectID"), "auction_type": h.get("marketplace"), "status": h.get("status"), "source": "fanatics",
-            "fanaticsValue": h.get("value")}
+            "fanaticsValue": h.get("value"), "img": g.find_img({k: v for k, v in h.items() if re.search(r"image|photo|thumb", k, re.I)})}
 
 def fetch(S, status, terms=SEALED_TERMS, per=1000):
     """The public key cannot filter on numbers, so sold lots come from the most-recent-first index and are cut by date in Python."""

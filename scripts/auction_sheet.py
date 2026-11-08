@@ -2,7 +2,7 @@
 """Build auction_sheet.json for the ledger's Buy tab from goldin.json + fanatics.json.
 Budget (data/auction_budget.json): a pick is kept only if its max bid lands at or under perLotAllIn all-in
 (hammer + buyer's premium + est. shipping). The page applies the monthly budget against what Gaz has spent."""
-import json, os, datetime
+import json, os, datetime, re, io, base64, urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def load(f, d=None):
     try: return json.load(open(os.path.join(ROOT, f)))
@@ -21,7 +21,8 @@ for house, f, sf in (("Goldin", "goldin.json", "goldin_sold.json"), ("Fanatics",
                           "wantId": p.get("wantId"), "what": p.get("product") or p.get("grade"), "units": p.get("units"),
                           "value": p["value"], "currentBid": p["currentBid"], "bids": p["bids"], "allInNow": p["allInNow"],
                           "maxBid": p["maxBid"], "allInAtMax": at_max, "premiumPct": p["buyerPremiumPct"], "shipEst": p["shipEst"],
-                          "ends": p["ends"], "flag": p.get("flag"), "rawMarket": p.get("rawMarket"), "overCap": at_max > bud["perLotAllIn"],
+                          "ends": p["ends"], "flag": p.get("flag"), "rawMarket": p.get("rawMarket"), "img": p.get("img"),
+                          "thumb": "a-" + re.sub(r"[^A-Za-z0-9_-]", "_", str(p.get("lotId") or p["url"].rstrip("/").rsplit("/", 1)[-1]))[:60], "overCap": at_max > bud["perLotAllIn"],
                           "pctAtMax": round(at_max / p["value"], 2) if p.get("value") else None}
             allp.append(row)
             if row["overCap"]: dropped += 1; continue
@@ -42,3 +43,38 @@ out = {"generated": now, "budget": bud, "picks": picks, "all": allp, "droppedOve
        "rule": "Max bid = highest hammer bid keeping hammer + premium + est. shipping at or under 85% of value; only lots whose max bid stays within the per-lot budget all-in."}
 json.dump(out, open(os.path.join(ROOT, "auction_sheet.json"), "w"), indent=1, ensure_ascii=False)
 print(f"{len(picks)} picks kept, {dropped} over the ${bud['perLotAllIn']} per-lot cap")
+
+# small pictures of every lot for the ledger (collection thumbsa): files auction_thumbs/a<N>.json, each under ~200 KB
+def small_webp(url):
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "Referer": "https://goldin.co/" if "goldin" in url or "cloudfront" in url else "https://www.fanaticscollect.com/"})
+        raw = urllib.request.urlopen(req, timeout=30).read()
+        from PIL import Image
+        im = Image.open(io.BytesIO(raw)).convert("RGB"); w, h = im.size; th = 120; im = im.resize((max(1, round(w * th / h)), th))
+        for q in (60, 50, 40, 30):
+            b = io.BytesIO(); im.save(b, "WEBP", quality=q, method=6)
+            if b.tell() <= 4500: break
+        return base64.b64encode(b.getvalue()).decode()
+    except Exception as e:
+        return None
+os.makedirs(os.path.join(ROOT, "auction_thumbs"), exist_ok=True)
+old = {}
+for f in os.listdir(os.path.join(ROOT, "auction_thumbs")):
+    try: old.update(json.load(open(os.path.join(ROOT, "auction_thumbs", f))).get("imgs", {}))
+    except Exception: pass
+    os.remove(os.path.join(ROOT, "auction_thumbs", f))
+imgs, got = {}, 0
+for p in out["all"]:
+    k = p["thumb"]
+    if k in old: imgs[k] = old[k]; continue
+    if p.get("img"):
+        b = small_webp(p["img"])
+        if b: imgs[k] = b; got += 1
+docs, cur, size = [], {}, 0
+for k, v in imgs.items():
+    if size + len(v) > 200000: docs.append(cur); cur, size = {}, 0
+    cur[k] = v; size += len(v) + len(k) + 6
+if cur: docs.append(cur)
+for i, d in enumerate(docs):
+    json.dump({"imgs": d, "n": len(d), "generated": now}, open(os.path.join(ROOT, "auction_thumbs", f"a{i}.json"), "w"))
+print(f"auction pictures: {len(imgs)} ({got} new) in {len(docs)} docs")

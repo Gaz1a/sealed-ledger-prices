@@ -25,10 +25,10 @@ jobs:
         continue-on-error: true
         run: python3 scripts/auction_results.py
       - name: Budget-capped sheet for the ledger's Buy tab
-        run: python3 scripts/auction_sheet.py
+        run: pip install --quiet pillow && python3 scripts/auction_sheet.py
       - name: Commit
         run: |
           git config user.name ledger-bot; git config user.email bot@users.noreply.github.com
-          for f in auction_sheet.json goldin.json goldin_sold.json fanatics.json fanatics_sold.json auction_results.json data/auction_picks.json; do [ -e "$f" ] && git add "$f"; done
+          git add -A auction_thumbs; for f in auction_sheet.json goldin.json goldin_sold.json fanatics.json fanatics_sold.json auction_results.json data/auction_picks.json; do [ -e "$f" ] && git add "$f"; done
           git commit -m "auction scan $(date -u +%FT%H:%M)" || exit 0
           for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep 10; done

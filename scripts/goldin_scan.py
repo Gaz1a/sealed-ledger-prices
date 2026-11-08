@@ -85,6 +85,21 @@ def head(title):
     t = re.split(r"\s+-\s+(?:possible|pop|includes|featuring|with)\b|\s+-\s+", title, 1, flags=re.I)[0]
     return t
 
+def find_img(o, depth=0):
+    """First image URL anywhere in a lot record (Goldin: cloudfront /Lots/, Fanatics: images list)."""
+    if depth > 4: return None
+    if isinstance(o, str):
+        return o if o.startswith("http") and re.search(r"\.(jpe?g|png|webp)(\?|$)|/Lots/|cloudfront|images", o, re.I) and not o.endswith(".svg") else None
+    if isinstance(o, dict):
+        for k in sorted(o, key=lambda k: (0 if re.search(r"image|photo|thumb|primary", k, re.I) else 1)):
+            r = find_img(o[k], depth + 1)
+            if r: return r
+    if isinstance(o, list):
+        for x in o[:3]:
+            r = find_img(x, depth + 1)
+            if r: return r
+    return None
+
 def lot_type(title):
     for k, g, _ in TYPES:
         if re.search(g, title, re.I): return k
@@ -271,7 +286,7 @@ def evaluate(lot, cat_rows, ws):
     title = lot.get("title") or ""
     if "pokemon" not in title.lower() and "pokémon" not in title.lower(): return None, None
     base = {"lot": lot.get("lot_number"), "title": title.strip(), "url": lot.get("url") or f"https://goldin.co/item/{lot.get('meta_slug')}",
-            "source": lot.get("source", "goldin"), "lotId": lot.get("lot_id"), "ends": lot.get("end_timestamp"), "endsPT": end_pt(lot.get("end_timestamp") or ""), "auctionType": lot.get("auction_type"),
+            "source": lot.get("source", "goldin"), "lotId": lot.get("lot_id"), "img": lot.get("img") or find_img({k: v for k, v in lot.items() if re.search(r"image|photo|thumb|primary", k, re.I)}), "ends": lot.get("end_timestamp"), "endsPT": end_pt(lot.get("end_timestamp") or ""), "auctionType": lot.get("auction_type"),
             "status": lot.get("status")}
     gm = GRADE.search(title)
     sealed_t = lot_type(title) and re.search(r"sealed|unopened|booster|elite trainer|collection|\btin\b|blister", title, re.I) and not re.search(r"#\s?\d", title)

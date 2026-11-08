@@ -12,6 +12,10 @@ def group_products(cat, test):
         if test(g["name"]): yield g, tj(f"https://tcgcsv.com/tcgplayer/{cat}/{g['groupId']}/products")["results"]
 def num(p): return next((e.get("value") for e in p.get("extendedData", []) if e.get("name") == "Number"), "")
 spec = json.load(open(os.path.join(ROOT, "data/extra_images.json")))
+try:   # every product the radar shows gets a picture too (key p<pid>)
+    for c in json.load(open(os.path.join(ROOT, "radar.json"))).get("candidates", []):
+        if c.get("pid"): spec.setdefault(f"p{c['pid']}", {"pid": c["pid"]})
+except Exception: pass
 idxp = os.path.join(IMG, "index.json"); idx = json.load(open(idxp))
 report = {}
 for lid, s in spec.items():
