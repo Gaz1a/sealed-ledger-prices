@@ -93,6 +93,79 @@ out["comps"] = {k: [[c["d"], c["h"], c["a"], c.get("u") or 1, c.get("b"), c["url
                 for k, v in comps.items() if k in want}
 out["comps"] = {k: v for k, v in out["comps"].items() if v}
 out["compsNote"] = "Each: [date, house G=Goldin F=Fanatics, all-in incl. buyer premium (no shipping), boxes in the lot, bids, url]"
+# ---------- what the finishes tell us ----------
+def q(v, f):
+    v = sorted(v); i = (len(v) - 1) * f; lo = int(i); hi = min(lo + 1, len(v) - 1)
+    return v[lo] + (v[hi] - v[lo]) * (i - lo)
+cut180 = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=365)).strftime("%Y-%m-%d")
+prices = load("prices.json", {}).get("prices", {})
+tcg_by_pid = {}
+for lid, v in prices.items():
+    if v.get("productId") and v.get("market"): tcg_by_pid.setdefault(str(v["productId"]), v["market"])
+for d in (load("goldin.json"), load("fanatics.json")):
+    for t in d.get("tracked", []):
+        if t["key"].startswith("p") and t.get("unitValue"): tcg_by_pid.setdefault(t["key"][1:], t["unitValue"])
+graded_val = {p.get("comp"): p["value"] for p in out["all"] if p.get("comp") and "|" in (p.get("comp") or "")}
+ledger_by_key = {}
+for lid, v in tracked.items():
+    if isinstance(v, dict) and v.get("productId"): ledger_by_key.setdefault(f"p{v['productId']}", []).append(lid)
+ledger_mkt = {f"p{v['productId']}": v["market"] for v in prices.values() if v.get("productId") and v.get("market")}
+def clean(k, lst):
+    """Drop finishes that cannot be the same product at the same count (a misread box count, a store-exclusive variant):
+    per box more than 2.5x or under 0.4x the TCGplayer price, or, with no TCGplayer price, the median of the others."""
+    rec = [c for c in lst if c.get("a")]
+    if not rec: return []
+    ref = tcg_by_pid.get(k[1:]) if k.startswith("p") else graded_val.get(k)
+    if not ref:
+        per = [c["a"] / (c.get("u") or 1) for c in rec]
+        ref = q(per, .5) if len(per) >= 3 else None
+    if not ref: return rec
+    return [c for c in rec if 0.4 <= (c["a"] / (c.get("u") or 1)) / ref <= 2.5]
+comps = {k: clean(k, v) for k, v in comps.items()}
+market, mismatch, bulk = {}, [], {}
+for k, lst in comps.items():
+    rec = [c for c in lst if c["d"] >= cut180 and c.get("a")]
+    if not rec: continue
+    per = [c["a"] / (c.get("u") or 1) for c in rec]
+    single = [c["a"] for c in rec if (c.get("u") or 1) == 1]
+    multi = [c["a"] / c["u"] for c in rec if (c.get("u") or 1) > 1]
+    tcg = (ledger_mkt.get(k) or tcg_by_pid.get(k[1:])) if k.startswith("p") else graded_val.get(k)
+    m = {"n": len(per), "med": round(q(per, .5), 2), "lo": round(q(per, .25), 2), "hi": round(q(per, .75), 2), "last": rec[0]["d"]}
+    if tcg: m["ref"] = round(tcg, 2); m["ratio"] = round(m["med"] / tcg, 2)
+    if len(single) >= 2 and len(multi) >= 2:
+        bulk[k] = {"single": round(q(single, .5), 2), "inCase": round(q(multi, .5), 2), "pct": round(q(multi, .5) / q(single, .5) - 1, 3)}
+        m["bulkPct"] = bulk[k]["pct"]
+    if ledger_by_key.get(k): m["ledger"] = ledger_by_key[k]
+    market[k] = m
+    if ledger_mkt.get(k) and len(per) >= 3 and abs(m["ratio"] - 1) > 0.25:
+        mismatch.append({"key": k, "ledger": ledger_by_key.get(k, []), "tcg": round(tcg, 2), "auction": m["med"], "n": len(per),
+                         "diffPct": round((m["ratio"] - 1) * 100), "title": rec[0]["t"]})
+mismatch.sort(key=lambda x: -abs(x["diffPct"]))
+bp = [b["pct"] for b in bulk.values()]
+out["comps"] = {k: [[c["d"], c["h"], c["a"], c.get("u") or 1, c.get("b"), c["url"]] for c in comps.get(k, []) if c["d"] >= cut][:5] for k in out["comps"]}
+out["comps"] = {k: v for k, v in out["comps"].items() if v}
+out["market"] = market
+out["mismatch"] = mismatch[:30]
+out["bulk"] = {"products": len(bulk), "medianPct": round(q(bp, .5), 3) if bp else None,
+               "note": "Per-box price inside a multi-box lot vs a single box of the same product, auction finishes in the last year."}
+# likely finish and the chance the max bid wins, from that product's own finishes (3+ needed)
+for p in out["all"]:
+    m = market.get(p.get("comp"))
+    u = p.get("units") or 1
+    if not m or m["n"] < 3: p["likely"] = None; p["winPct"] = None; continue
+    per = sorted(c["a"] / (c.get("u") or 1) for c in comps[p["comp"]] if c["d"] >= cut180 and c.get("a"))
+    adj = 1 + (m.get("bulkPct") or 0) if u > 1 else 1      # cases finish at the case price per box when we know it
+    if u > 1 and m.get("bulkPct") is not None:
+        per_u = [c["a"] / c["u"] for c in comps[p["comp"]] if c["d"] >= cut180 and (c.get("u") or 1) > 1] or per
+    elif u == 1:
+        per_u = [c["a"] for c in comps[p["comp"]] if c["d"] >= cut180 and (c.get("u") or 1) == 1] or per
+    else:
+        per_u = per
+    at_max = (p["maxBid"] * (1 + p["premiumPct"] / 100)) / u      # what the max bid costs per box, same basis as finishes (no shipping)
+    p["likely"] = round(q(per_u, .5) * u + (p.get("shipEst") or 0), 2)
+    p["winPct"] = round(sum(1 for x in per_u if x <= at_max) / len(per_u), 2)
+    p["nComps"] = len(per_u)
+print(f"market stats {len(market)}, mismatches {len(mismatch)}, bulk {out['bulk']}, lots with a likely finish {sum(1 for p in out['all'] if p.get('likely'))}")
 for p in out["all"] + out["picks"]: p.pop("img", None)
 json.dump(out, open(os.path.join(ROOT, "auction_sheet.json"), "w"), indent=1, ensure_ascii=False)
 print(f"comps: {len(out['comps'])} products with auction finishes; sheet {len(json.dumps(out))//1024} KB")
