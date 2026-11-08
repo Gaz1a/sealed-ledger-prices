@@ -21,7 +21,7 @@ for house, f, sf in (("Goldin", "goldin.json", "goldin_sold.json"), ("Fanatics",
                           "wantId": p.get("wantId"), "what": p.get("product") or p.get("grade"), "units": p.get("units"),
                           "value": p["value"], "currentBid": p["currentBid"], "bids": p["bids"], "allInNow": p["allInNow"],
                           "maxBid": p["maxBid"], "allInAtMax": at_max, "premiumPct": p["buyerPremiumPct"], "shipEst": p["shipEst"],
-                          "ends": p["ends"], "flag": p.get("flag"), "overCap": at_max > bud["perLotAllIn"],
+                          "ends": p["ends"], "flag": p.get("flag"), "rawMarket": p.get("rawMarket"), "overCap": at_max > bud["perLotAllIn"],
                           "pctAtMax": round(at_max / p["value"], 2) if p.get("value") else None}
             allp.append(row)
             if row["overCap"]: dropped += 1; continue
