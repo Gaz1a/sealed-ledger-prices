@@ -50,9 +50,14 @@ class Search:
 
 def best_img(h):
     """Largest picture Fanatics gives for a lot (the first 'image' field is often a small thumbnail)."""
-    if os.environ.get("FAN_DEBUG") and not getattr(best_img, "done", False):
-        best_img.done = True
-        print("IMGKEYS", json.dumps({k: str(v)[:300] for k, v in h.items() if re.search(r"image|photo|thumb|media", k, re.I)}), file=sys.stderr)
+    im = h.get("images")
+    if isinstance(im, dict):
+        for slot in ["primary", "front", "main"] + [k for k in im if k not in ("primary", "front", "main")]:
+            v = im.get(slot)
+            if isinstance(v, dict):
+                for size in ("original", "xlarge", "large", "medium"):
+                    if isinstance(v.get(size), str) and v[size].startswith("http"): return v[size]
+            elif isinstance(v, str) and v.startswith("http"): return v
     for k in ("largeImage", "fullImage", "imageLarge", "originalImage", "images", "image", "imageUrl", "thumbnail"):
         if h.get(k):
             u = g.find_img(h[k])

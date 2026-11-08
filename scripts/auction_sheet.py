@@ -62,7 +62,7 @@ old = {}
 for f in os.listdir(os.path.join(ROOT, "auction_thumbs")):
     try:
         d = json.load(open(os.path.join(ROOT, "auction_thumbs", f)))
-        if d.get("v") == 2: old.update(d.get("imgs", {}))
+        if d.get("v") == 3: old.update(d.get("imgs", {}))
     except Exception: pass
     os.remove(os.path.join(ROOT, "auction_thumbs", f))
 imgs, got = {}, 0
@@ -78,5 +78,5 @@ for k, v in imgs.items():
     cur[k] = v; size += len(v) + len(k) + 6
 if cur: docs.append(cur)
 for i, d in enumerate(docs):
-    json.dump({"imgs": d, "n": len(d), "generated": now, "v": 2}, open(os.path.join(ROOT, "auction_thumbs", f"a{i}.json"), "w"))
+    json.dump({"imgs": d, "n": len(d), "generated": now, "v": 3}, open(os.path.join(ROOT, "auction_thumbs", f"a{i}.json"), "w"))
 print(f"auction pictures: {len(imgs)} ({got} new) in {len(docs)} docs")

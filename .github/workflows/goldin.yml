@@ -20,7 +20,7 @@ jobs:
         continue-on-error: true
         env:
           PRICECHARTING_TOKEN: ${{ secrets.PRICECHARTING_TOKEN }}
-        run: FAN_DEBUG=1 python3 scripts/fanatics_scan.py
+        run: python3 scripts/fanatics_scan.py
       - name: Record how earlier picks closed
         continue-on-error: true
         run: python3 scripts/auction_results.py
