@@ -48,7 +48,11 @@ def all_lots(extra, cap=6000):
         total = s.get("total") or 0
         if not lots: break
         out += lots; frm += len(lots); time.sleep(1)
-    return out
+    seen, uniq = set(), []
+    for l in out:
+        if l.get("lot_id") in seen: continue
+        seen.add(l.get("lot_id")); uniq.append(l)
+    return uniq
 
 # ---------- titles ----------
 SPECIAL_LOT = re.compile(r"signed|autograph|sketch|error|test print|misprint|off-center|miscut|proof|stamp|prerelease|staff", re.I)
@@ -140,6 +144,9 @@ def match_sealed(title, cat_rows):
     if OTHER_LANG.search(title): return None, "non-English/Japanese language (no price feed)"
     typ = lot_type(title)
     if not typ: return None, "product type not recognised"
+    pk = re.search(r"\((\d+)\s*packs?\)", title, re.I)
+    if typ == "box" and pk and int(pk.group(1)) < (10 if JP.search(title) else 18):
+        return None, "pack count does not fit a booster box"
     cat = 85 if JP.search(title) else 3
     h = head(title)
     tl = set(toks(title))
@@ -275,7 +282,8 @@ def evaluate(lot, cat_rows, ws):
         pick = dict(base, kind="sealed", units=units, product=prod["name"], set=prod["set"], tcgProductId=prod["pid"],
                     unitValue=prod["value"], valueSource=f"TCGplayer min(market, lowest listing) x {units} (tcgcsv)", **m,
                     tcgUrl=f"https://www.tcgplayer.com/product/{prod['pid']}")
-        if want: return "wants", dict(pick, wantId=want["id"])
+        if want:
+            return ("wants", dict(pick, wantId=want["id"])) if (m["pctOfValueNow"] or 9) <= DEAL else (None, None)
         if m["pctOfValueNow"] is None or m["pctOfValueNow"] > 1.0: return None, None
         over = m["bids"] <= 2 and m["pctOfValueNow"] <= 0.5
         under = m["pctOfValueNow"] <= DEAL
@@ -296,7 +304,7 @@ def evaluate(lot, cat_rows, ws):
         if raw and value > max(3 * raw, raw + 150): return None, None     # gem-tier slab, not what the want is for
         pick = dict(base, kind="graded", wantId=w["id"], grade=f"{co.upper()} {gr}", rawMarket=raw or None)
         pick.update(money(lot, value, "card"), valueSource=src)
-        if pick["pctOfValueNow"] and pick["pctOfValueNow"] > 1.0: return None, None
+        if pick["pctOfValueNow"] and pick["pctOfValueNow"] > DEAL: return None, None     # already bid past a good price
         return "wants", pick
     return None, None
 
