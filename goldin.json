@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-08T05:33:31Z",
+ "generated": "2026-11-08T05:39:03Z",
  "source": "Goldin public lot search; values TCGplayer (tcgcsv) and PriceCharting",
  "rules": "maxBid = highest hammer bid so that bid x (1 + buyer premium) + est. shipping <= 85% of value. Raw single cards never listed. Sealed values are TCGplayer market x units; graded values PriceCharting.",
- "lotsScanned": 1813,
+ "lotsScanned": 1869,
  "auctions": {
   "202610-0719-1832-70e8343a-8d52-4a9f-86a2-83333a40c35f": {
    "type": "Weekly",
    "ends": "2026-11-09T03:00:00Z",
-   "lots": 527
+   "lots": 531
   },
   "202610-1513-3026-61e6ef1a-62c9-4e76-8cfa-281b2cc1f6fd": {
    "type": "Weekly",
    "ends": "2026-11-15T03:00:00Z",
-   "lots": 544
+   "lots": 547
   },
   "202610-3017-4307-582ceee6-4951-41c8-8b84-c5decc1e97d3": {
    "type": "Elite",
    "ends": "2026-11-30T03:00:00Z",
-   "lots": 727
+   "lots": 776
   },
   "202610-1516-5225-30346343-71cc-4279-a152-b3a657d1e0cd": {
    "type": "Thematic",
@@ -2644,35 +2644,6 @@
    "flag": "undervalued"
   },
   {
-   "lot": 1578,
-   "title": "2025 Pokemon Scarlet & Violet Unopened Unova Heavy Hitters Premium Collection (12 Packs)",
-   "url": "https://goldin.co/item/2025-pokemon-scarlet-violet-unopened-unova-heavy-hitters-premium-colley3rkx",
-   "source": "goldin",
-   "lotId": "202609-1019-5922-e2f87f8c-7966-4094-9dc4-ddaacf5cedbf",
-   "img": null,
-   "ends": "2026-11-15T03:00:00Z",
-   "endsPT": "Sat Nov 14, 7:00PM PT",
-   "auctionType": "Weekly",
-   "status": "Live",
-   "kind": "sealed",
-   "units": 1,
-   "product": "Unova Heavy Hitters Premium Collection",
-   "set": "SV: Black Bolt",
-   "tcgProductId": 668632,
-   "unitValue": 149.0,
-   "valueSource": "TCGplayer min(market, lowest listing) x 1 (tcgcsv)",
-   "currentBid": 10.0,
-   "bids": 1,
-   "buyerPremiumPct": 22.0,
-   "shipEst": 25.0,
-   "allInNow": 37.2,
-   "value": 149.0,
-   "maxBid": 83,
-   "pctOfValueNow": 0.25,
-   "tcgUrl": "https://www.tcgplayer.com/product/668632",
-   "flag": "overlooked"
-  },
-  {
    "lot": 1580,
    "title": "2026 Pokemon Mega Evolution Factory-Sealed Chaos Rising Elite Trainer Box Collection (5 Boxes) - Possible Full Art Mega Greninja ex Cards",
    "url": "https://goldin.co/item/2026-pokemon-mega-evolution-factory-sealed-chaos-rising-elite-traineriagu1",
@@ -2700,6 +2671,35 @@
    "pctOfValueNow": 0.25,
    "tcgUrl": "https://www.tcgplayer.com/product/684450",
    "flag": "undervalued"
+  },
+  {
+   "lot": 1578,
+   "title": "2025 Pokemon Scarlet & Violet Unopened Unova Heavy Hitters Premium Collection (12 Packs)",
+   "url": "https://goldin.co/item/2025-pokemon-scarlet-violet-unopened-unova-heavy-hitters-premium-colley3rkx",
+   "source": "goldin",
+   "lotId": "202609-1019-5922-e2f87f8c-7966-4094-9dc4-ddaacf5cedbf",
+   "img": null,
+   "ends": "2026-11-15T03:00:00Z",
+   "endsPT": "Sat Nov 14, 7:00PM PT",
+   "auctionType": "Weekly",
+   "status": "Live",
+   "kind": "sealed",
+   "units": 1,
+   "product": "Unova Heavy Hitters Premium Collection",
+   "set": "SV: Black Bolt",
+   "tcgProductId": 668632,
+   "unitValue": 149.0,
+   "valueSource": "TCGplayer min(market, lowest listing) x 1 (tcgcsv)",
+   "currentBid": 10.0,
+   "bids": 1,
+   "buyerPremiumPct": 22.0,
+   "shipEst": 25.0,
+   "allInNow": 37.2,
+   "value": 149.0,
+   "maxBid": 83,
+   "pctOfValueNow": 0.25,
+   "tcgUrl": "https://www.tcgplayer.com/product/668632",
+   "flag": "overlooked"
   },
   {
    "lot": 1492,
