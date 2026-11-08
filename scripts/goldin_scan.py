@@ -48,8 +48,6 @@ def all_lots(extra, cap=6000):
         total = s.get("total") or 0
         if not lots: break
         out += lots; frm += len(lots); time.sleep(1)
-    if out and os.environ.get("GOLDIN_DEBUG"):
-        print("LOTKEYS", json.dumps({k: (str(v)[:160]) for k, v in out[0].items()}), file=sys.stderr)
     seen, uniq = set(), []
     for l in out:
         if l.get("lot_id") in seen: continue
@@ -288,7 +286,7 @@ def evaluate(lot, cat_rows, ws):
     title = lot.get("title") or ""
     if "pokemon" not in title.lower() and "pokémon" not in title.lower(): return None, None
     base = {"lot": lot.get("lot_number"), "title": title.strip(), "url": lot.get("url") or f"https://goldin.co/item/{lot.get('meta_slug')}",
-            "source": lot.get("source", "goldin"), "lotId": lot.get("lot_id"), "img": lot.get("img") or find_img({k: v for k, v in lot.items() if re.search(r"image|photo|thumb|primary", k, re.I)}), "ends": lot.get("end_timestamp"), "endsPT": end_pt(lot.get("end_timestamp") or ""), "auctionType": lot.get("auction_type"),
+            "source": lot.get("source", "goldin"), "lotId": lot.get("lot_id"), "img": lot.get("img") or (f"https://d2tt46f3mh26nl.cloudfront.net/public/Lots/{lot.get('lot_id')}/{lot.get('primary_image_name')}@1x" if lot.get("primary_image_name") and lot.get("lot_id") else None) or find_img({k: v for k, v in lot.items() if re.search(r"image|photo|thumb|primary", k, re.I)}), "ends": lot.get("end_timestamp"), "endsPT": end_pt(lot.get("end_timestamp") or ""), "auctionType": lot.get("auction_type"),
             "status": lot.get("status")}
     gm = GRADE.search(title)
     sealed_t = lot_type(title) and re.search(r"sealed|unopened|booster|elite trainer|collection|\btin\b|blister", title, re.I) and not re.search(r"#\s?\d", title)

@@ -15,7 +15,6 @@ jobs:
       - name: Scan Goldin
         env:
           PRICECHARTING_TOKEN: ${{ secrets.PRICECHARTING_TOKEN }}
-          GOLDIN_DEBUG: "1"
         run: python3 scripts/goldin_scan.py --sold 10
       - name: Scan Fanatics Collect
         continue-on-error: true
