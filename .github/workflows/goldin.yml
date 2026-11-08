@@ -1,26 +1,42 @@
-name: Goldin scan (Wed + Sun)
+name: Auction scan (Goldin + Fanatics Collect)
 on:
   schedule:
-    - cron: "15 13 * * 0,3"
+    - cron: "15 13 * * 3"     # Wednesday ~5am PT: full bid sheet for the week
+    - cron: "15 18 * * 0"     # Sunday ~10am PT: last call (weekly auctions close Sunday 7pm PT)
   workflow_dispatch:
+    inputs:
+      lastcall: {description: "Last-call sheet only", type: boolean, default: false}
 permissions: {contents: write, issues: write}
 concurrency: {group: goldin, cancel-in-progress: false}
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - name: Scan Goldin
         env:
           PRICECHARTING_TOKEN: ${{ secrets.PRICECHARTING_TOKEN }}
         run: python3 scripts/goldin_scan.py --sold 10
+      - name: Scan Fanatics Collect
+        continue-on-error: true
+        env:
+          PRICECHARTING_TOKEN: ${{ secrets.PRICECHARTING_TOKEN }}
+        run: python3 scripts/fanatics_scan.py
+      - name: Record how earlier picks closed
+        continue-on-error: true
+        run: python3 scripts/auction_results.py
       - name: Bid sheet (GitHub emails it)
         env: {GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
-        run: python3 scripts/goldin_notify.py
+        run: |
+          if [ "${{ github.event.schedule }}" = "15 18 * * 0" ] || [ "${{ inputs.lastcall }}" = "true" ]; then
+            python3 scripts/goldin_notify.py --lastcall
+          else
+            python3 scripts/goldin_notify.py
+          fi
       - name: Commit
         run: |
           git config user.name ledger-bot; git config user.email bot@users.noreply.github.com
-          git add goldin.json goldin_sold.json
-          git commit -m "goldin scan $(date -u +%FT%H:%M)" || exit 0
+          for f in goldin.json goldin_sold.json fanatics.json fanatics_sold.json auction_results.json data/auction_picks.json; do [ -e "$f" ] && git add "$f"; done
+          git commit -m "auction scan $(date -u +%FT%H:%M)" || exit 0
           for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep 10; done

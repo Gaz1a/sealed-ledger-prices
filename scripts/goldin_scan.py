@@ -111,6 +111,11 @@ def quantity(title):
 
 # ---------- catalog ----------
 def catalog():
+    cache = "/tmp/tcg_sealed_catalog.json"          # shared by the Goldin and Fanatics scans in one workflow run
+    if os.path.exists(cache) and time.time() - os.path.getmtime(cache) < 3 * 3600:
+        rows = json.load(open(cache))
+        for r in rows: r["tk"], r["ptk"] = set(r["tk"]), set(r["ptk"])
+        return rows
     jobs = []
     for cat in (3, 85):
         d = sm.get(f"{sm.BASE}/{cat}/groups")
@@ -126,6 +131,7 @@ def catalog():
         r["ptk"] = set(toks(r["name"]))
         r["year"] = int((r.get("pub") or "0")[:4] or 0)
     print(f"catalog {len(rows)} sealed products", file=sys.stderr)
+    json.dump([dict(r, tk=sorted(r["tk"]), ptk=sorted(r["ptk"])) for r in rows], open(cache, "w"))
     return rows
 
 ERA = {"sword", "shield", "scarlet", "violet", "sun", "moon", "xy", "mega", "evolution", "black", "white", "sv", "swsh", "sm"}
@@ -264,8 +270,8 @@ def evaluate(lot, cat_rows, ws):
     """Return (bucket, pick) or (None, None)."""
     title = lot.get("title") or ""
     if "pokemon" not in title.lower() and "pokémon" not in title.lower(): return None, None
-    base = {"lot": lot.get("lot_number"), "title": title.strip(), "url": f"https://goldin.co/item/{lot.get('meta_slug')}",
-            "ends": lot.get("end_timestamp"), "endsPT": end_pt(lot.get("end_timestamp") or ""), "auctionType": lot.get("auction_type"),
+    base = {"lot": lot.get("lot_number"), "title": title.strip(), "url": lot.get("url") or f"https://goldin.co/item/{lot.get('meta_slug')}",
+            "source": lot.get("source", "goldin"), "lotId": lot.get("lot_id"), "ends": lot.get("end_timestamp"), "endsPT": end_pt(lot.get("end_timestamp") or ""), "auctionType": lot.get("auction_type"),
             "status": lot.get("status")}
     gm = GRADE.search(title)
     sealed_t = lot_type(title) and re.search(r"sealed|unopened|booster|elite trainer|collection|\btin\b|blister", title, re.I) and not re.search(r"#\s?\d", title)
