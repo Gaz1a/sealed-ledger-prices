@@ -400,8 +400,20 @@ def main():
         rows.sort(key=lambda r: r.get("pctOfValue") or 9)
         vals = sorted(r["pctOfValue"] for r in rows if r.get("pctOfValue"))
         med = vals[len(vals) // 2] if vals else None
+        # older finishes (up to 2 years) of products we track: market history for the ledger
+        hcut = (NOW - datetime.timedelta(days=730)).isoformat()[:19]
+        hist = []
+        for l in sold:
+            if (l.get("end_timestamp") or "") < hcut or (l.get("end_timestamp") or "") >= cut[:19]: continue
+            t = identify(l.get("title") or "", cat_rows, ws_all)
+            if not t or not l.get("current_price"): continue
+            bp = (l.get("buyer_premium") or 22.0) / 100
+            hist.append({"title": (l.get("title") or "").strip(), "url": f"https://goldin.co/item/{l.get('meta_slug')}", "ended": l.get("end_timestamp"),
+                         "hammer": l.get("current_price"), "bids": l.get("number_of_bids"), "allIn": round(float(l["current_price"]) * (1 + bp), 2),
+                         "key": t["key"], "units": t["units"], "product": t["product"], "kind": t["kind"]})
         json.dump({"generated": out["generated"], "days": days_sold, "soldScanned": len(sold), "recent": len(recent), "valued": len(vals),
-                   "medianPctOfValue": med, "cheap": [r for r in rows if r.get("pctOfValue") and r["pctOfValue"] <= 0.75], "lots": rows},
+                   "medianPctOfValue": med, "cheap": [r for r in rows if r.get("pctOfValue") and r["pctOfValue"] <= 0.75], "lots": rows,
+                   "history": hist},
                   open(os.path.join(ROOT, "goldin_sold.json"), "w"), indent=1, ensure_ascii=False)
         print(f"sold: {len(sold)} scanned, {len(recent)} in last {days_sold} days", file=sys.stderr)
 

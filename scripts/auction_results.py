@@ -74,7 +74,8 @@ def add_comp(key, url, d, house, allin, hammer, units, bids, title):
     lst.sort(key=lambda c: c["d"], reverse=True); del lst[12:]
 # lots that sold in the last 10 days, including ones listed and closed between our scans (no shipping included: hammer + premium)
 for f, house in (("goldin_sold.json", "G"), ("fanatics_sold.json", "F")):
-    for r in load(os.path.join(ROOT, f), {}).get("lots", []):
+    sd = load(os.path.join(ROOT, f), {})
+    for r in sd.get("lots", []) + sd.get("history", []):
         if r.get("key") and r.get("allIn") and r.get("hammer"):
             add_comp(r["key"], r["url"], r.get("ended"), house, r["allIn"], r["hammer"], r.get("units"), r.get("bids"), r["title"])
 for url, r in res["results"].items():
