@@ -1,7 +1,7 @@
-name: Goldin scan (Wed + Sat)
+name: Goldin scan (Wed + Sun)
 on:
   schedule:
-    - cron: "15 13 * * 3,6"
+    - cron: "15 13 * * 0,3"
   workflow_dispatch:
 permissions: {contents: write, issues: write}
 concurrency: {group: goldin, cancel-in-progress: false}
