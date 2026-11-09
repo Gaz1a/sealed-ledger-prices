@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T04:42:12Z",
+ "generated": "2026-11-09T20:27:23Z",
  "currency": {
   "cm": "USD (converted from Cardmarket EUR)",
   "cnx": "as listed"
@@ -10,14 +10,14 @@
    "cnId": 223587,
    "finish": "Standard",
    "cm": {
-    "marketValue": 78.4,
-    "low": 48.0,
+    "marketValue": 78.6,
+    "low": 48.12,
     "avg7": null,
     "avg30": null,
     "trendEUR": 70.22,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -37,14 +37,14 @@
    "cnId": 251565,
    "finish": "Standard",
    "cm": {
-    "marketValue": 133.6,
-    "low": 100.48,
+    "marketValue": 133.94,
+    "low": 100.74,
     "avg7": null,
     "avg30": null,
     "trendEUR": 119.66,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -64,14 +64,14 @@
    "cnId": 251573,
    "finish": "Standard",
    "cm": {
-    "marketValue": 33.76,
-    "low": 24.34,
+    "marketValue": 33.85,
+    "low": 24.4,
     "avg7": null,
     "avg30": null,
     "trendEUR": 30.24,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -86,14 +86,14 @@
    "cnId": 223268,
    "finish": "Standard",
    "cm": {
-    "marketValue": 69.28,
-    "low": 44.66,
+    "marketValue": 69.45,
+    "low": 44.77,
     "avg7": null,
     "avg30": null,
     "trendEUR": 62.05,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -108,14 +108,14 @@
    "cnId": 223388,
    "finish": "Standard",
    "cm": {
-    "marketValue": 42.06,
-    "low": 30.15,
+    "marketValue": 42.16,
+    "low": 30.22,
     "avg7": null,
     "avg30": null,
     "trendEUR": 37.67,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -151,12 +151,12 @@
     "trendEUR": 0.24,
     "change7d": -0.12,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 1.34,
+     "low": 1.41,
      "cur": "USD",
      "n": 14
     }
@@ -169,11 +169,11 @@
     "marketValue": 1.03,
     "low": 0.17,
     "avg7": 1.52,
-    "avg30": 1.65,
+    "avg30": 1.66,
     "trendEUR": 0.92,
     "change7d": -0.0811,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -188,14 +188,14 @@
    "cnId": 24664,
    "finish": "Foil",
    "cm": {
-    "marketValue": 55.07,
-    "low": 4.24,
-    "avg7": 56.83,
-    "avg30": 51.39,
+    "marketValue": 55.2,
+    "low": 4.25,
+    "avg7": 56.97,
+    "avg30": 51.52,
     "trendEUR": 49.32,
     "change7d": 0.1058,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -210,14 +210,14 @@
    "cnId": 18724,
    "finish": "Foil",
    "cm": {
-    "marketValue": 36.07,
-    "low": 6.7,
-    "avg7": 52.11,
-    "avg30": 43.06,
+    "marketValue": 36.16,
+    "low": 6.72,
+    "avg7": 52.24,
+    "avg30": 43.17,
     "trendEUR": 32.31,
     "change7d": 0.21,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -234,12 +234,12 @@
    "cm": {
     "marketValue": 2.27,
     "low": 0.28,
-    "avg7": 2.03,
+    "avg7": 2.04,
     "avg30": 1.9,
     "trendEUR": 2.03,
     "change7d": 0.0706,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -254,14 +254,14 @@
    "cnId": 23134,
    "finish": "Foil",
    "cm": {
-    "marketValue": 35.02,
-    "low": 3.9,
-    "avg7": 37.37,
-    "avg30": 37.66,
+    "marketValue": 35.11,
+    "low": 3.91,
+    "avg7": 37.46,
+    "avg30": 37.75,
     "trendEUR": 31.37,
     "change7d": -0.0077,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -270,14 +270,14 @@
    "cnId": 19706,
    "finish": "Foil",
    "cm": {
-    "marketValue": 6.29,
-    "low": 2.79,
-    "avg7": 6.32,
-    "avg30": 6.83,
+    "marketValue": 6.3,
+    "low": 2.8,
+    "avg7": 6.34,
+    "avg30": 6.85,
     "trendEUR": 5.63,
     "change7d": -0.0752,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -297,14 +297,14 @@
    "cnId": 209018,
    "finish": "Foil",
    "cm": {
-    "marketValue": 20.01,
-    "low": 4.45,
-    "avg7": 19.71,
-    "avg30": 24.99,
+    "marketValue": 20.06,
+    "low": 4.47,
+    "avg7": 19.76,
+    "avg30": 25.05,
     "trendEUR": 17.92,
     "change7d": -0.2113,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -326,12 +326,12 @@
    "cm": {
     "marketValue": 2.93,
     "low": 0.67,
-    "avg7": 3.09,
-    "avg30": 2.97,
+    "avg7": 3.1,
+    "avg30": 2.98,
     "trendEUR": 2.62,
     "change7d": 0.0414,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -340,14 +340,14 @@
    "cnId": 25448,
    "finish": "Standard",
    "cm": {
-    "marketValue": 9.17,
+    "marketValue": 9.19,
     "low": 0.17,
-    "avg7": 9.74,
-    "avg30": 6.62,
+    "avg7": 9.76,
+    "avg30": 6.64,
     "trendEUR": 8.21,
     "change7d": 0.4705,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -363,13 +363,13 @@
    "finish": "Foil",
    "cm": {
     "marketValue": 0.02,
-    "low": 2.11,
-    "avg7": 14.03,
-    "avg30": 43.51,
+    "low": 2.12,
+    "avg7": 14.07,
+    "avg30": 43.62,
     "trendEUR": 0.02,
     "change7d": -0.6774,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -378,14 +378,14 @@
    "cnId": 19507,
    "finish": null,
    "cm": {
-    "marketValue": 101.33,
-    "low": 8.93,
-    "avg7": 41.61,
-    "avg30": 109.39,
+    "marketValue": 101.59,
+    "low": 8.95,
+    "avg7": 41.72,
+    "avg30": 109.67,
     "trendEUR": 90.76,
     "change7d": -0.6196,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -394,14 +394,14 @@
    "cnId": 18004,
    "finish": "Standard",
    "cm": {
-    "marketValue": 11.69,
+    "marketValue": 11.72,
     "low": 0.78,
-    "avg7": 7.37,
-    "avg30": 20.18,
+    "avg7": 7.39,
+    "avg30": 20.23,
     "trendEUR": 10.47,
     "change7d": -0.6348,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -410,14 +410,14 @@
    "cnId": 17449,
    "finish": "Standard",
    "cm": {
-    "marketValue": 237.73,
-    "low": 33.42,
-    "avg7": 244.75,
-    "avg30": 291.83,
+    "marketValue": 238.32,
+    "low": 33.5,
+    "avg7": 245.36,
+    "avg30": 292.56,
     "trendEUR": 212.92,
     "change7d": -0.1613,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -429,11 +429,11 @@
     "marketValue": 2.07,
     "low": 0.11,
     "avg7": 2.18,
-    "avg30": 1.95,
+    "avg30": 1.96,
     "trendEUR": 1.85,
     "change7d": 0.1143,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -442,14 +442,14 @@
    "cnId": 17198,
    "finish": null,
    "cm": {
-    "marketValue": 184.77,
-    "low": 50.13,
-    "avg7": 164.54,
-    "avg30": 159.97,
+    "marketValue": 185.23,
+    "low": 50.26,
+    "avg7": 164.95,
+    "avg30": 160.37,
     "trendEUR": 165.49,
     "change7d": 0.0285,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -458,14 +458,14 @@
    "cnId": 17306,
    "finish": null,
    "cm": {
-    "marketValue": 246.53,
-    "low": 33.38,
-    "avg7": 198.85,
-    "avg30": 178.96,
+    "marketValue": 247.15,
+    "low": 33.47,
+    "avg7": 199.35,
+    "avg30": 179.41,
     "trendEUR": 220.81,
     "change7d": 0.1111,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -474,14 +474,14 @@
    "cnId": 23132,
    "finish": "Foil",
    "cm": {
-    "marketValue": 51.79,
+    "marketValue": 51.92,
     "low": 0.56,
-    "avg7": 16.46,
-    "avg30": 38.2,
+    "avg7": 16.5,
+    "avg30": 38.29,
     "trendEUR": 46.39,
     "change7d": -0.5691,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -490,14 +490,14 @@
    "cnId": 18725,
    "finish": "Foil",
    "cm": {
-    "marketValue": 54.64,
-    "low": 5.47,
-    "avg7": 65.27,
-    "avg30": 38.62,
+    "marketValue": 54.78,
+    "low": 5.48,
+    "avg7": 65.43,
+    "avg30": 38.72,
     "trendEUR": 48.94,
     "change7d": 0.6901,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -519,7 +519,7 @@
     "trendEUR": 1.95,
     "change7d": 0.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -528,14 +528,14 @@
    "cnId": 20720,
    "finish": null,
    "cm": {
-    "marketValue": 3.52,
+    "marketValue": 3.53,
     "low": 0.67,
     "avg7": 1.89,
     "avg30": 2.76,
     "trendEUR": 3.15,
     "change7d": -0.3158,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -544,14 +544,14 @@
    "cnId": 17160,
    "finish": null,
    "cm": {
-    "marketValue": 1153.01,
-    "low": 167.47,
-    "avg7": 1398.67,
-    "avg30": 1165.85,
+    "marketValue": 1155.9,
+    "low": 167.89,
+    "avg7": 1402.18,
+    "avg30": 1168.77,
     "trendEUR": 1032.7,
     "change7d": 0.1997,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -567,7 +567,7 @@
     "trendEUR": 0.19,
     "change7d": 0.0625,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -594,7 +594,7 @@
     "trendEUR": 0.39,
     "change7d": 0.1154,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -604,7 +604,7 @@
      "n": 2
     },
     "na": {
-     "low": 0.68,
+     "low": 0.67,
      "cur": "USD",
      "n": 4
     }
@@ -614,14 +614,14 @@
    "cnId": 33776,
    "finish": "Reverse Holo",
    "cm": {
-    "marketValue": 1.86,
+    "marketValue": 1.87,
     "low": 0.56,
-    "avg7": 1.92,
-    "avg30": 1.84,
+    "avg7": 1.93,
+    "avg30": 1.85,
     "trendEUR": 1.67,
     "change7d": 0.0424,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -636,14 +636,14 @@
    "cnId": 18006,
    "finish": "Standard",
    "cm": {
-    "marketValue": 56.25,
-    "low": 12.28,
-    "avg7": 59.87,
-    "avg30": 55.76,
+    "marketValue": 56.39,
+    "low": 12.31,
+    "avg7": 60.02,
+    "avg30": 55.9,
     "trendEUR": 50.38,
     "change7d": 0.0737,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -652,14 +652,14 @@
    "cnId": 18067,
    "finish": null,
    "cm": {
-    "marketValue": 1011.86,
-    "low": 223.3,
-    "avg7": 775.8,
-    "avg30": 1022.14,
+    "marketValue": 1014.4,
+    "low": 223.86,
+    "avg7": 777.75,
+    "avg30": 1024.71,
     "trendEUR": 906.28,
     "change7d": -0.241,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -668,14 +668,14 @@
    "cnId": 21462,
    "finish": "Standard",
    "cm": {
-    "marketValue": 5.17,
+    "marketValue": 5.18,
     "low": 0.5,
-    "avg7": 4.45,
-    "avg30": 4.11,
+    "avg7": 4.47,
+    "avg30": 4.12,
     "trendEUR": 4.63,
     "change7d": 0.0842,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -684,14 +684,14 @@
    "cnId": 128559,
    "finish": null,
    "cm": {
-    "marketValue": 14.12,
-    "low": 3.35,
-    "avg7": 13.87,
-    "avg30": 18.59,
+    "marketValue": 14.16,
+    "low": 3.36,
+    "avg7": 13.9,
+    "avg30": 18.64,
     "trendEUR": 12.65,
     "change7d": -0.2541,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -700,14 +700,14 @@
    "cnId": 128547,
    "finish": null,
    "cm": {
-    "marketValue": 255.82,
-    "low": 11.17,
-    "avg7": 66.13,
-    "avg30": 161.89,
+    "marketValue": 256.47,
+    "low": 11.19,
+    "avg7": 66.3,
+    "avg30": 162.3,
     "trendEUR": 229.13,
     "change7d": -0.5915,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -716,14 +716,14 @@
    "cnId": 28787,
    "finish": null,
    "cm": {
-    "marketValue": 6.98,
+    "marketValue": 7.0,
     "low": 0.56,
-    "avg7": 5.84,
-    "avg30": 6.25,
+    "avg7": 5.85,
+    "avg30": 6.27,
     "trendEUR": 6.25,
     "change7d": -0.0661,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -732,14 +732,14 @@
    "cnId": 251625,
    "finish": "Standard",
    "cm": {
-    "marketValue": 32.79,
-    "low": 18.2,
+    "marketValue": 32.87,
+    "low": 18.24,
     "avg7": null,
     "avg30": null,
     "trendEUR": 29.37,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -754,19 +754,19 @@
    "cnId": 15959,
    "finish": "Standard",
    "cm": {
-    "marketValue": 7.25,
+    "marketValue": 7.26,
     "low": 0.04,
-    "avg7": 4.88,
-    "avg30": 7.45,
+    "avg7": 4.89,
+    "avg30": 7.47,
     "trendEUR": 6.49,
     "change7d": -0.3448,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 3.89,
+     "low": 4.54,
      "cur": "USD",
      "n": 3
     }
@@ -776,19 +776,19 @@
    "cnId": 15938,
    "finish": "Standard",
    "cm": {
-    "marketValue": 10.46,
+    "marketValue": 10.49,
     "low": 0.02,
-    "avg7": 13.16,
-    "avg30": 7.79,
+    "avg7": 13.2,
+    "avg30": 7.81,
     "trendEUR": 9.37,
     "change7d": 0.6891,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 4.18,
+     "low": 5.34,
      "cur": "USD",
      "n": 4
     }
@@ -798,14 +798,14 @@
    "cnId": 16157,
    "finish": "Foil",
    "cm": {
-    "marketValue": 113.47,
-    "low": 22.33,
-    "avg7": 120.88,
-    "avg30": 107.55,
+    "marketValue": 113.75,
+    "low": 22.39,
+    "avg7": 121.19,
+    "avg30": 107.82,
     "trendEUR": 101.63,
     "change7d": 0.1239,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -820,14 +820,14 @@
    "cnId": 15965,
    "finish": "Standard",
    "cm": {
-    "marketValue": 0.42,
+    "marketValue": 0.43,
     "low": 0.02,
-    "avg7": 3.33,
-    "avg30": 9.59,
+    "avg7": 3.34,
+    "avg30": 9.61,
     "trendEUR": 0.38,
     "change7d": -0.6531,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -837,7 +837,7 @@
      "n": 1
     },
     "na": {
-     "low": 2.95,
+     "low": 2.92,
      "cur": "USD",
      "n": 7
     }
@@ -847,21 +847,21 @@
    "cnId": 17486,
    "finish": "Standard",
    "cm": {
-    "marketValue": 5.48,
+    "marketValue": 5.5,
     "low": 0.02,
-    "avg7": 6.45,
-    "avg30": 4.34,
+    "avg7": 6.47,
+    "avg30": 4.35,
     "trendEUR": 4.91,
     "change7d": 0.4859,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 3.5,
+     "low": 3.15,
      "cur": "USD",
-     "n": 4
+     "n": 5
     }
    }
   },
@@ -869,14 +869,14 @@
    "cnId": 16010,
    "finish": "Standard",
    "cm": {
-    "marketValue": 5.46,
+    "marketValue": 5.47,
     "low": 0.02,
-    "avg7": 6.53,
-    "avg30": 6.64,
+    "avg7": 6.55,
+    "avg30": 6.66,
     "trendEUR": 4.89,
     "change7d": -0.0168,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -886,7 +886,7 @@
      "n": 1
     },
     "na": {
-     "low": 6.89,
+     "low": 6.81,
      "cur": "USD",
      "n": 2
     }
@@ -896,14 +896,14 @@
    "cnId": 15956,
    "finish": "Standard",
    "cm": {
-    "marketValue": 6.5,
+    "marketValue": 6.51,
     "low": 0.06,
-    "avg7": 7.09,
-    "avg30": 7.88,
+    "avg7": 7.11,
+    "avg30": 7.9,
     "trendEUR": 5.82,
     "change7d": -0.1006,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -915,7 +915,7 @@
     "na": {
      "low": 5.02,
      "cur": "USD",
-     "n": 7
+     "n": 8
     }
    }
   },
@@ -923,14 +923,14 @@
    "cnId": 16145,
    "finish": "Foil",
    "cm": {
-    "marketValue": 162.64,
-    "low": 25.68,
-    "avg7": 135.8,
-    "avg30": 148.51,
+    "marketValue": 163.05,
+    "low": 25.74,
+    "avg7": 136.14,
+    "avg30": 148.88,
     "trendEUR": 145.67,
     "change7d": -0.0856,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -939,19 +939,19 @@
    "cnId": 15962,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.4,
+    "marketValue": 2.41,
     "low": 0.02,
-    "avg7": 2.8,
-    "avg30": 2.13,
+    "avg7": 2.81,
+    "avg30": 2.14,
     "trendEUR": 2.15,
     "change7d": 0.3141,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 1.38,
+     "low": 1.35,
      "cur": "USD",
      "n": 10
     }
@@ -961,19 +961,19 @@
    "cnId": 15986,
    "finish": "Standard",
    "cm": {
-    "marketValue": 3.33,
+    "marketValue": 3.34,
     "low": 0.02,
-    "avg7": 3.2,
-    "avg30": 2.34,
+    "avg7": 3.21,
+    "avg30": 2.35,
     "trendEUR": 2.98,
     "change7d": 0.3667,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 1.19,
+     "low": 1.18,
      "cur": "USD",
      "n": 6
     }
@@ -983,14 +983,14 @@
    "cnId": 17983,
    "finish": "Standard",
    "cm": {
-    "marketValue": 3.65,
+    "marketValue": 3.66,
     "low": 0.06,
-    "avg7": 3.99,
-    "avg30": 2.81,
+    "avg7": 4.0,
+    "avg30": 2.82,
     "trendEUR": 3.27,
     "change7d": 0.4167,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -999,19 +999,19 @@
    "cnId": 16025,
    "finish": "Standard",
    "cm": {
-    "marketValue": 0.61,
+    "marketValue": 0.62,
     "low": 0.02,
     "avg7": 1.12,
-    "avg30": 1.0,
+    "avg30": 1.01,
     "trendEUR": 0.55,
     "change7d": 0.1111,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 0.47,
+     "low": 0.51,
      "cur": "USD",
      "n": 7
     }
@@ -1021,19 +1021,19 @@
    "cnId": 15943,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.97,
+    "marketValue": 2.98,
     "low": 0.02,
-    "avg7": 3.55,
+    "avg7": 3.56,
     "avg30": 2.55,
     "trendEUR": 2.66,
     "change7d": 0.3947,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 0.9,
+     "low": 0.89,
      "cur": "EUR",
      "n": 2
     },
@@ -1048,21 +1048,21 @@
    "cnId": 16234,
    "finish": "Standard",
    "cm": {
-    "marketValue": 7.25,
+    "marketValue": 7.26,
     "low": 0.1,
-    "avg7": 7.45,
-    "avg30": 6.82,
+    "avg7": 7.47,
+    "avg30": 6.84,
     "trendEUR": 6.49,
     "change7d": 0.0917,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 5.5,
+     "low": 5.02,
      "cur": "USD",
-     "n": 4
+     "n": 5
     }
    }
   },
@@ -1070,19 +1070,19 @@
    "cnId": 15993,
    "finish": "Standard",
    "cm": {
-    "marketValue": 3.01,
+    "marketValue": 3.02,
     "low": 0.02,
     "avg7": 2.18,
     "avg30": 2.75,
     "trendEUR": 2.7,
     "change7d": -0.2073,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 1.3,
+     "low": 1.36,
      "cur": "USD",
      "n": 12
     }
@@ -1092,14 +1092,14 @@
    "cnId": 16808,
    "finish": "Standard",
    "cm": {
-    "marketValue": 13.14,
-    "low": 0.99,
-    "avg7": 12.4,
-    "avg30": 12.83,
+    "marketValue": 13.17,
+    "low": 1.0,
+    "avg7": 12.44,
+    "avg30": 12.86,
     "trendEUR": 11.77,
     "change7d": -0.0331,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1109,7 +1109,7 @@
      "n": 1
     },
     "na": {
-     "low": 8.46,
+     "low": 8.36,
      "cur": "USD",
      "n": 2
     }
@@ -1119,14 +1119,14 @@
    "cnId": 17942,
    "finish": "Foil",
    "cm": {
-    "marketValue": 25.55,
-    "low": 5.47,
-    "avg7": 28.44,
-    "avg30": 27.02,
+    "marketValue": 25.61,
+    "low": 5.48,
+    "avg7": 28.51,
+    "avg30": 27.09,
     "trendEUR": 22.88,
     "change7d": 0.0525,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1143,12 +1143,12 @@
    "cm": {
     "marketValue": 2.18,
     "low": 0.02,
-    "avg7": 1.37,
+    "avg7": 1.38,
     "avg30": 1.3,
     "trendEUR": 1.95,
     "change7d": 0.0603,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1158,7 +1158,7 @@
      "n": 1
     },
     "na": {
-     "low": 0.66,
+     "low": 0.64,
      "cur": "USD",
      "n": 6
     }
@@ -1168,14 +1168,14 @@
    "cnId": 15952,
    "finish": "Standard",
    "cm": {
-    "marketValue": 3.47,
+    "marketValue": 3.48,
     "low": 0.02,
-    "avg7": 4.23,
-    "avg30": 3.67,
+    "avg7": 4.24,
+    "avg30": 3.68,
     "trendEUR": 3.11,
     "change7d": 0.152,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1185,7 +1185,7 @@
      "n": 1
     },
     "na": {
-     "low": 2.39,
+     "low": 2.59,
      "cur": "USD",
      "n": 4
     }
@@ -1195,14 +1195,14 @@
    "cnId": 16561,
    "finish": "Standard",
    "cm": {
-    "marketValue": 0.42,
+    "marketValue": 0.43,
     "low": 0.02,
     "avg7": 0.48,
     "avg30": 0.75,
     "trendEUR": 0.38,
     "change7d": -0.3582,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1222,14 +1222,14 @@
    "cnId": 18697,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.66,
+    "marketValue": 1.67,
     "low": 0.02,
     "avg7": 1.34,
     "avg30": 1.23,
     "trendEUR": 1.49,
     "change7d": 0.0909,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1246,12 +1246,12 @@
    "cm": {
     "marketValue": 1.21,
     "low": 0.02,
-    "avg7": 0.8,
+    "avg7": 0.81,
     "avg30": 0.98,
     "trendEUR": 1.08,
     "change7d": -0.1818,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1266,14 +1266,14 @@
    "cnId": 18026,
    "finish": null,
    "cm": {
-    "marketValue": 2.04,
+    "marketValue": 2.05,
     "low": 0.02,
     "avg7": 2.26,
-    "avg30": 2.15,
+    "avg30": 2.16,
     "trendEUR": 1.83,
     "change7d": 0.0466,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -1282,21 +1282,21 @@
    "cnId": 15995,
    "finish": "Standard",
    "cm": {
-    "marketValue": 6.39,
+    "marketValue": 6.4,
     "low": 0.1,
-    "avg7": 6.97,
-    "avg30": 10.32,
+    "avg7": 6.98,
+    "avg30": 10.34,
     "trendEUR": 5.72,
     "change7d": -0.3247,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 13.84,
+     "low": 13.82,
      "cur": "EUR",
-     "n": 1
+     "n": 2
     },
     "na": {
      "low": 10.83,
@@ -1309,14 +1309,14 @@
    "cnId": 16140,
    "finish": "Foil",
    "cm": {
-    "marketValue": 62.47,
-    "low": 3.57,
-    "avg7": 48.42,
-    "avg30": 53.9,
+    "marketValue": 62.62,
+    "low": 3.58,
+    "avg7": 48.54,
+    "avg30": 54.04,
     "trendEUR": 55.95,
     "change7d": -0.1017,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -1332,7 +1332,7 @@
     "trendEUR": 0.52,
     "change7d": -0.1633,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1347,14 +1347,14 @@
    "cnId": 18151,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.67,
+    "marketValue": 1.68,
     "low": 0.06,
     "avg7": 2.1,
     "avg30": 1.98,
     "trendEUR": 1.5,
     "change7d": 0.0621,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -1363,14 +1363,14 @@
    "cnId": 19367,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.42,
+    "marketValue": 2.43,
     "low": 0.02,
     "avg7": 2.17,
-    "avg30": 1.84,
+    "avg30": 1.85,
     "trendEUR": 2.17,
     "change7d": 0.1758,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -1382,11 +1382,11 @@
     "marketValue": 0.49,
     "low": 0.02,
     "avg7": 0.44,
-    "avg30": 1.17,
+    "avg30": 1.18,
     "trendEUR": 0.44,
     "change7d": -0.6286,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1401,14 +1401,14 @@
    "cnId": 17893,
    "finish": "Foil",
    "cm": {
-    "marketValue": 28.79,
-    "low": 5.02,
-    "avg7": 29.34,
-    "avg30": 34.37,
+    "marketValue": 28.87,
+    "low": 5.04,
+    "avg7": 29.42,
+    "avg30": 34.45,
     "trendEUR": 25.79,
     "change7d": -0.1462,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -1417,14 +1417,14 @@
    "cnId": 15945,
    "finish": "Standard",
    "cm": {
-    "marketValue": 7.66,
+    "marketValue": 7.68,
     "low": 0.04,
-    "avg7": 12.4,
-    "avg30": 5.72,
+    "avg7": 12.44,
+    "avg30": 5.73,
     "trendEUR": 6.86,
     "change7d": 1.1699,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1444,14 +1444,14 @@
    "cnId": 15948,
    "finish": "Standard",
    "cm": {
-    "marketValue": 3.87,
+    "marketValue": 3.88,
     "low": 0.02,
-    "avg7": 3.67,
-    "avg30": 4.71,
+    "avg7": 3.68,
+    "avg30": 4.72,
     "trendEUR": 3.47,
     "change7d": -0.2204,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1466,19 +1466,19 @@
    "cnId": 16095,
    "finish": "Foil",
    "cm": {
-    "marketValue": 39.27,
-    "low": 4.47,
-    "avg7": 35.96,
-    "avg30": 35.36,
+    "marketValue": 39.37,
+    "low": 4.48,
+    "avg7": 36.05,
+    "avg30": 35.45,
     "trendEUR": 35.17,
     "change7d": 0.0171,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 48.77,
+     "low": 48.75,
      "cur": "EUR",
      "n": 1
     }
@@ -1488,14 +1488,14 @@
    "cnId": 15974,
    "finish": "Foil",
    "cm": {
-    "marketValue": 66.71,
-    "low": 7.8,
-    "avg7": 56.09,
-    "avg30": 53.21,
+    "marketValue": 66.88,
+    "low": 7.82,
+    "avg7": 56.23,
+    "avg30": 53.35,
     "trendEUR": 59.75,
     "change7d": 0.0541,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1510,14 +1510,14 @@
    "cnId": 17713,
    "finish": null,
    "cm": {
-    "marketValue": 33.42,
-    "low": 4.45,
-    "avg7": 37.85,
-    "avg30": 35.54,
+    "marketValue": 33.5,
+    "low": 4.47,
+    "avg7": 37.94,
+    "avg30": 35.63,
     "trendEUR": 29.93,
     "change7d": 0.065,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -1533,7 +1533,7 @@
     "trendEUR": 1.6,
     "change7d": -0.0072,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1553,14 +1553,14 @@
    "cnId": 16100,
    "finish": "Foil",
    "cm": {
-    "marketValue": 20.86,
+    "marketValue": 20.91,
     "low": 1.12,
-    "avg7": 21.75,
-    "avg30": 20.35,
+    "avg7": 21.8,
+    "avg30": 20.4,
     "trendEUR": 18.68,
     "change7d": 0.0686,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1575,14 +1575,14 @@
    "cnId": 16316,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.98,
+    "marketValue": 2.99,
     "low": 0.02,
-    "avg7": 4.69,
-    "avg30": 1.94,
+    "avg7": 4.7,
+    "avg30": 1.95,
     "trendEUR": 2.67,
     "change7d": 1.4138,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1597,14 +1597,14 @@
    "cnId": 17706,
    "finish": "Foil",
    "cm": {
-    "marketValue": 32.53,
-    "low": 4.47,
-    "avg7": 28.97,
-    "avg30": 39.23,
+    "marketValue": 32.62,
+    "low": 4.48,
+    "avg7": 29.05,
+    "avg30": 39.33,
     "trendEUR": 29.14,
     "change7d": -0.2615,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -1620,7 +1620,7 @@
     "trendEUR": 0.46,
     "change7d": 0.087,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1635,14 +1635,14 @@
    "cnId": 18034,
    "finish": "Standard",
    "cm": {
-    "marketValue": 0.89,
+    "marketValue": 0.9,
     "low": 0.02,
     "avg7": 1.07,
-    "avg30": 1.27,
+    "avg30": 1.28,
     "trendEUR": 0.8,
     "change7d": -0.1579,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -1658,7 +1658,7 @@
     "trendEUR": 0.35,
     "change7d": -0.2069,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1675,12 +1675,12 @@
    "cm": {
     "marketValue": 1.23,
     "low": 0.02,
-    "avg7": 1.27,
+    "avg7": 1.28,
     "avg30": 1.13,
     "trendEUR": 1.1,
     "change7d": 0.1287,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1695,14 +1695,14 @@
    "cnId": 17476,
    "finish": "Foil",
    "cm": {
-    "marketValue": 12.06,
-    "low": 5.02,
-    "avg7": 19.59,
-    "avg30": 24.7,
+    "marketValue": 12.09,
+    "low": 5.04,
+    "avg7": 19.64,
+    "avg30": 24.76,
     "trendEUR": 10.8,
     "change7d": -0.2066,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1724,7 +1724,7 @@
     "trendEUR": 0.36,
     "change7d": -0.26,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1746,12 +1746,12 @@
    "cm": {
     "marketValue": 1.42,
     "low": 0.02,
-    "avg7": 0.8,
-    "avg30": 1.38,
+    "avg7": 0.81,
+    "avg30": 1.39,
     "trendEUR": 1.27,
     "change7d": -0.4194,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1773,7 +1773,7 @@
     "trendEUR": 1.2,
     "change7d": -0.1194,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1788,14 +1788,14 @@
    "cnId": 16987,
    "finish": null,
    "cm": {
-    "marketValue": 17.42,
-    "low": 4.47,
-    "avg7": 17.25,
-    "avg30": 29.45,
+    "marketValue": 17.46,
+    "low": 4.48,
+    "avg7": 17.29,
+    "avg30": 29.53,
     "trendEUR": 15.6,
     "change7d": -0.4143,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -1804,14 +1804,14 @@
    "cnId": 15969,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.72,
+    "marketValue": 2.73,
     "low": 0.02,
-    "avg7": 0.8,
+    "avg7": 0.81,
     "avg30": 1.8,
     "trendEUR": 2.44,
     "change7d": -0.5528,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1831,14 +1831,14 @@
    "cnId": 16308,
    "finish": "Standard",
    "cm": {
-    "marketValue": 9.53,
+    "marketValue": 9.56,
     "low": 0.56,
-    "avg7": 11.48,
-    "avg30": 9.99,
+    "avg7": 11.51,
+    "avg30": 10.02,
     "trendEUR": 8.54,
     "change7d": 0.1486,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1860,12 +1860,12 @@
    "cm": {
     "marketValue": 0.75,
     "low": 0.02,
-    "avg7": 0.99,
+    "avg7": 1.0,
     "avg30": 0.79,
     "trendEUR": 0.67,
     "change7d": 0.2535,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1887,12 +1887,12 @@
     "trendEUR": 1.63,
     "change7d": -0.2238,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 0.97,
+     "low": 0.99,
      "cur": "USD",
      "n": 5
     }
@@ -1904,12 +1904,12 @@
    "cm": {
     "marketValue": 2.85,
     "low": 0.02,
-    "avg7": 3.74,
+    "avg7": 3.75,
     "avg30": 3.32,
     "trendEUR": 2.55,
     "change7d": 0.1279,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1924,14 +1924,14 @@
    "cnId": 18036,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.77,
+    "marketValue": 2.78,
     "low": 0.06,
-    "avg7": 2.77,
-    "avg30": 2.34,
+    "avg7": 2.78,
+    "avg30": 2.35,
     "trendEUR": 2.48,
     "change7d": 0.181,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1946,14 +1946,14 @@
    "cnId": 16323,
    "finish": "Standard",
    "cm": {
-    "marketValue": 0.7,
+    "marketValue": 0.71,
     "low": 0.02,
     "avg7": 0.69,
-    "avg30": 0.61,
+    "avg30": 0.62,
     "trendEUR": 0.63,
     "change7d": 0.1273,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1975,7 +1975,7 @@
     "trendEUR": 1.37,
     "change7d": 0.1167,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -1990,14 +1990,14 @@
    "cnId": 15932,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.41,
+    "marketValue": 2.42,
     "low": 0.02,
-    "avg7": 1.83,
-    "avg30": 1.92,
+    "avg7": 1.84,
+    "avg30": 1.93,
     "trendEUR": 2.16,
     "change7d": -0.0465,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2012,21 +2012,21 @@
    "cnId": 17089,
    "finish": "Standard",
    "cm": {
-    "marketValue": 5.81,
+    "marketValue": 5.82,
     "low": 0.06,
-    "avg7": 5.62,
-    "avg30": 6.21,
+    "avg7": 5.63,
+    "avg30": 6.22,
     "trendEUR": 5.2,
     "change7d": -0.0953,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 4.2,
+     "low": 3.64,
      "cur": "USD",
-     "n": 1
+     "n": 2
     }
    }
   },
@@ -2036,12 +2036,12 @@
    "cm": {
     "marketValue": 1.71,
     "low": 0.02,
-    "avg7": 0.89,
+    "avg7": 0.9,
     "avg30": 1.7,
     "trendEUR": 1.53,
     "change7d": -0.4737,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2058,12 +2058,12 @@
    "cm": {
     "marketValue": 1.12,
     "low": 0.02,
-    "avg7": 2.31,
+    "avg7": 2.32,
     "avg30": 2.75,
     "trendEUR": 1,
     "change7d": -0.1585,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2078,14 +2078,14 @@
    "cnId": 16134,
    "finish": "Foil",
    "cm": {
-    "marketValue": 25.93,
-    "low": 3.35,
-    "avg7": 34.48,
-    "avg30": 32.59,
+    "marketValue": 25.99,
+    "low": 3.36,
+    "avg7": 34.56,
+    "avg30": 32.67,
     "trendEUR": 23.22,
     "change7d": 0.0579,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -2101,17 +2101,17 @@
     "trendEUR": 1.38,
     "change7d": -0.1406,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 1.12,
+     "low": 1.1,
      "cur": "EUR",
      "n": 2
     },
     "na": {
-     "low": 1.45,
+     "low": 1.5,
      "cur": "USD",
      "n": 7
     }
@@ -2121,21 +2121,21 @@
    "cnId": 15940,
    "finish": "Standard",
    "cm": {
-    "marketValue": 3.75,
+    "marketValue": 3.76,
     "low": 0.02,
-    "avg7": 4.18,
+    "avg7": 4.19,
     "avg30": 2.85,
     "trendEUR": 3.36,
     "change7d": 0.4667,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 3.6,
+     "low": 3.49,
      "cur": "USD",
-     "n": 7
+     "n": 8
     }
    }
   },
@@ -2143,14 +2143,14 @@
    "cnId": 15924,
    "finish": "Foil",
    "cm": {
-    "marketValue": 90.91,
-    "low": 11.15,
-    "avg7": 76.75,
-    "avg30": 61.68,
+    "marketValue": 91.13,
+    "low": 11.18,
+    "avg7": 76.94,
+    "avg30": 61.83,
     "trendEUR": 81.42,
     "change7d": 0.2444,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -2166,7 +2166,7 @@
     "trendEUR": 0.52,
     "change7d": -0.0923,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2176,7 +2176,7 @@
      "n": 1
     },
     "na": {
-     "low": 0.61,
+     "low": 0.6,
      "cur": "USD",
      "n": 11
     }
@@ -2188,12 +2188,12 @@
    "cm": {
     "marketValue": 1.02,
     "low": 0.02,
-    "avg7": 2.34,
-    "avg30": 1.93,
+    "avg7": 2.35,
+    "avg30": 1.94,
     "trendEUR": 0.91,
     "change7d": 0.2139,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2213,19 +2213,19 @@
    "cnId": 209280,
    "finish": "Foil",
    "cm": {
-    "marketValue": 15.36,
-    "low": 1.0,
-    "avg7": 13.91,
-    "avg30": 16.0,
+    "marketValue": 15.4,
+    "low": 1.01,
+    "avg7": 13.95,
+    "avg30": 16.04,
     "trendEUR": 13.76,
     "change7d": -0.1305,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 28.99,
+     "low": 29.99,
      "cur": "USD",
      "n": 1
     }
@@ -2237,12 +2237,12 @@
    "cm": {
     "marketValue": 0.55,
     "low": 0.02,
-    "avg7": 0.42,
+    "avg7": 0.43,
     "avg30": 0.47,
     "trendEUR": 0.49,
     "change7d": -0.0952,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2264,7 +2264,7 @@
     "trendEUR": 0.79,
     "change7d": -0.1705,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -2273,14 +2273,14 @@
    "cnId": 17176,
    "finish": "Foil",
    "cm": {
-    "marketValue": 32.52,
-    "low": 5.58,
-    "avg7": 36.24,
-    "avg30": 32.78,
+    "marketValue": 32.61,
+    "low": 5.6,
+    "avg7": 36.33,
+    "avg30": 32.86,
     "trendEUR": 29.13,
     "change7d": 0.1056,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -2296,7 +2296,7 @@
     "trendEUR": 1.27,
     "change7d": -0.3333,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2311,14 +2311,14 @@
    "cnId": 18198,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.84,
+    "marketValue": 1.85,
     "low": 0.02,
-    "avg7": 2.23,
-    "avg30": 2.62,
+    "avg7": 2.24,
+    "avg30": 2.63,
     "trendEUR": 1.65,
     "change7d": -0.1489,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2340,7 +2340,7 @@
     "trendEUR": 0.61,
     "change7d": 0.0833,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2357,12 +2357,12 @@
    "cm": {
     "marketValue": 1.35,
     "low": 0.02,
-    "avg7": 1.19,
+    "avg7": 1.2,
     "avg30": 1.32,
     "trendEUR": 1.21,
     "change7d": -0.0932,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2377,14 +2377,14 @@
    "cnId": 18076,
    "finish": "Standard",
    "cm": {
-    "marketValue": 4.08,
+    "marketValue": 4.09,
     "low": 0.08,
-    "avg7": 3.24,
-    "avg30": 3.97,
+    "avg7": 3.25,
+    "avg30": 3.98,
     "trendEUR": 3.65,
     "change7d": -0.1854,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2406,7 +2406,7 @@
     "trendEUR": 0.88,
     "change7d": 0.2985,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2429,11 +2429,11 @@
     "marketValue": 1.8,
     "low": 0.02,
     "avg7": 1.3,
-    "avg30": 1.92,
+    "avg30": 1.93,
     "trendEUR": 1.61,
     "change7d": -0.3256,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2450,12 +2450,12 @@
    "cm": {
     "marketValue": 0.98,
     "low": 0.02,
-    "avg7": 1.95,
-    "avg30": 2.41,
+    "avg7": 1.96,
+    "avg30": 2.42,
     "trendEUR": 0.88,
     "change7d": -0.1898,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2470,14 +2470,14 @@
    "cnId": 18191,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.91,
+    "marketValue": 2.92,
     "low": 0.09,
-    "avg7": 3.43,
-    "avg30": 3.47,
+    "avg7": 3.44,
+    "avg30": 3.48,
     "trendEUR": 2.61,
     "change7d": -0.0129,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2494,12 +2494,12 @@
    "cm": {
     "marketValue": 1.21,
     "low": 0.02,
-    "avg7": 0.99,
-    "avg30": 0.89,
+    "avg7": 1.0,
+    "avg30": 0.9,
     "trendEUR": 1.08,
     "change7d": 0.1125,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2509,7 +2509,7 @@
      "n": 1
     },
     "na": {
-     "low": 0.6,
+     "low": 0.58,
      "cur": "USD",
      "n": 6
     }
@@ -2519,14 +2519,14 @@
    "cnId": 16068,
    "finish": "Foil",
    "cm": {
-    "marketValue": 32.45,
-    "low": 4.47,
-    "avg7": 33.2,
-    "avg30": 28.28,
+    "marketValue": 32.53,
+    "low": 4.48,
+    "avg7": 33.29,
+    "avg30": 28.35,
     "trendEUR": 29.06,
     "change7d": 0.1741,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2546,19 +2546,19 @@
    "cnId": 15931,
    "finish": "Standard",
    "cm": {
-    "marketValue": 3.08,
+    "marketValue": 3.09,
     "low": 0.02,
-    "avg7": 3.78,
-    "avg30": 2.43,
+    "avg7": 3.79,
+    "avg30": 2.44,
     "trendEUR": 2.76,
     "change7d": 0.555,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 2.62,
+     "low": 2.6,
      "cur": "EUR",
      "n": 1
     },
@@ -2573,14 +2573,14 @@
    "cnId": 15971,
    "finish": "Standard",
    "cm": {
-    "marketValue": 3.2,
+    "marketValue": 3.21,
     "low": 0.02,
-    "avg7": 4.18,
-    "avg30": 2.22,
+    "avg7": 4.19,
+    "avg30": 2.23,
     "trendEUR": 2.87,
     "change7d": 0.8794,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2602,12 +2602,12 @@
    "cm": {
     "marketValue": 1.11,
     "low": 0.02,
-    "avg7": 1.19,
-    "avg30": 2.03,
+    "avg7": 1.2,
+    "avg30": 2.04,
     "trendEUR": 0.99,
     "change7d": -0.4121,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2622,19 +2622,19 @@
    "cnId": 15953,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.95,
+    "marketValue": 1.96,
     "low": 0.02,
     "avg7": 2.76,
-    "avg30": 2.33,
+    "avg30": 2.34,
     "trendEUR": 1.75,
     "change7d": 0.1818,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 1.1,
+     "low": 1.17,
      "cur": "USD",
      "n": 4
     }
@@ -2644,14 +2644,14 @@
    "cnId": 17812,
    "finish": "Standard",
    "cm": {
-    "marketValue": 4.72,
+    "marketValue": 4.73,
     "low": 0.11,
-    "avg7": 4.37,
-    "avg30": 4.44,
+    "avg7": 4.38,
+    "avg30": 4.45,
     "trendEUR": 4.23,
     "change7d": -0.0176,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2661,7 +2661,7 @@
      "n": 1
     },
     "na": {
-     "low": 4.19,
+     "low": 4.15,
      "cur": "USD",
      "n": 4
     }
@@ -2678,7 +2678,7 @@
     "trendEUR": 0.65,
     "change7d": 0.0408,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2693,14 +2693,14 @@
    "cnId": 17965,
    "finish": "Foil",
    "cm": {
-    "marketValue": 13.05,
+    "marketValue": 13.08,
     "low": 0.56,
-    "avg7": 8.84,
-    "avg30": 12.74,
+    "avg7": 8.86,
+    "avg30": 12.77,
     "trendEUR": 11.69,
     "change7d": -0.3059,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2722,7 +2722,7 @@
     "trendEUR": 0.44,
     "change7d": -0.2353,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2744,12 +2744,12 @@
     "trendEUR": 1.96,
     "change7d": 0.0051,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 1.39,
+     "low": 1.18,
      "cur": "USD",
      "n": 5
     }
@@ -2759,14 +2759,14 @@
    "cnId": 15975,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.76,
+    "marketValue": 1.77,
     "low": 0.02,
-    "avg7": 2.11,
-    "avg30": 1.57,
+    "avg7": 2.12,
+    "avg30": 1.58,
     "trendEUR": 1.58,
     "change7d": 0.3404,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2776,7 +2776,7 @@
      "n": 1
     },
     "na": {
-     "low": 0.72,
+     "low": 0.79,
      "cur": "USD",
      "n": 11
     }
@@ -2786,19 +2786,19 @@
    "cnId": 15937,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.69,
+    "marketValue": 2.7,
     "low": 0.02,
     "avg7": 2.28,
     "avg30": 2.93,
     "trendEUR": 2.41,
     "change7d": -0.2214,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 2.15,
+     "low": 2.25,
      "cur": "USD",
      "n": 8
     }
@@ -2808,14 +2808,14 @@
    "cnId": 17660,
    "finish": "Foil",
    "cm": {
-    "marketValue": 180.73,
-    "low": 31.25,
-    "avg7": 198.55,
-    "avg30": 165.41,
+    "marketValue": 181.18,
+    "low": 31.33,
+    "avg7": 199.05,
+    "avg30": 165.82,
     "trendEUR": 161.87,
     "change7d": 0.2003,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2832,12 +2832,12 @@
    "cm": {
     "marketValue": 1.16,
     "low": 0.02,
-    "avg7": 1.36,
-    "avg30": 1.28,
+    "avg7": 1.37,
+    "avg30": 1.29,
     "trendEUR": 1.04,
     "change7d": 0.0609,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2859,17 +2859,17 @@
    "cm": {
     "marketValue": 2.93,
     "low": 0.02,
-    "avg7": 3.16,
-    "avg30": 1.85,
+    "avg7": 3.17,
+    "avg30": 1.86,
     "trendEUR": 2.62,
     "change7d": 0.7048,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 0.5,
+     "low": 0.48,
      "cur": "EUR",
      "n": 2
     },
@@ -2884,14 +2884,14 @@
    "cnId": 17758,
    "finish": "Foil",
    "cm": {
-    "marketValue": 35.27,
-    "low": 6.7,
-    "avg7": 39.61,
-    "avg30": 40.02,
+    "marketValue": 35.36,
+    "low": 6.72,
+    "avg7": 39.71,
+    "avg30": 40.12,
     "trendEUR": 31.59,
     "change7d": -0.01,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2908,12 +2908,12 @@
    "cm": {
     "marketValue": 1.73,
     "low": 0.02,
-    "avg7": 0.42,
+    "avg7": 0.43,
     "avg30": 0.83,
     "trendEUR": 1.55,
     "change7d": -0.4865,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2930,12 +2930,12 @@
    "cm": {
     "marketValue": 1.13,
     "low": 0.02,
-    "avg7": 1.08,
+    "avg7": 1.09,
     "avg30": 1.3,
     "trendEUR": 1.01,
     "change7d": -0.1638,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -2944,14 +2944,14 @@
    "cnId": 16019,
    "finish": "Standard",
    "cm": {
-    "marketValue": 3.39,
+    "marketValue": 3.4,
     "low": 0.02,
-    "avg7": 3.96,
-    "avg30": 4.3,
+    "avg7": 3.97,
+    "avg30": 4.31,
     "trendEUR": 3.04,
     "change7d": -0.0779,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -2961,9 +2961,9 @@
      "n": 1
     },
     "na": {
-     "low": 2.93,
+     "low": 2.63,
      "cur": "USD",
-     "n": 6
+     "n": 7
     }
    }
   },
@@ -2971,21 +2971,21 @@
    "cnId": 16609,
    "finish": "Standard",
    "cm": {
-    "marketValue": 6.46,
+    "marketValue": 6.48,
     "low": 0.11,
-    "avg7": 6.83,
-    "avg30": 8.28,
+    "avg7": 6.85,
+    "avg30": 8.31,
     "trendEUR": 5.79,
     "change7d": -0.1752,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 8.85,
+     "low": 8.84,
      "cur": "USD",
-     "n": 2
+     "n": 3
     }
    }
   },
@@ -3000,7 +3000,7 @@
     "trendEUR": 1.51,
     "change7d": -0.4615,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3018,11 +3018,11 @@
     "marketValue": 1.6,
     "low": 0.02,
     "avg7": 1.11,
-    "avg30": 1.57,
+    "avg30": 1.58,
     "trendEUR": 1.43,
     "change7d": -0.2979,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -3034,11 +3034,11 @@
     "marketValue": 0.12,
     "low": 0.02,
     "avg7": 1.22,
-    "avg30": 2.98,
+    "avg30": 2.99,
     "trendEUR": 0.11,
     "change7d": -0.5918,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3053,14 +3053,14 @@
    "cnId": 19367,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.42,
+    "marketValue": 2.43,
     "low": 0.02,
     "avg7": 2.17,
-    "avg30": 1.84,
+    "avg30": 1.85,
     "trendEUR": 2.17,
     "change7d": 0.1758,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -3069,14 +3069,14 @@
    "cnId": 17741,
    "finish": "Foil",
    "cm": {
-    "marketValue": 55.4,
-    "low": 4.19,
-    "avg7": 54.35,
-    "avg30": 43.82,
+    "marketValue": 55.54,
+    "low": 4.2,
+    "avg7": 54.49,
+    "avg30": 43.93,
     "trendEUR": 49.62,
     "change7d": 0.2403,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3091,14 +3091,14 @@
    "cnId": 19144,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.32,
+    "marketValue": 2.33,
     "low": 0.02,
     "avg7": 2.36,
     "avg30": 1.8,
     "trendEUR": 2.08,
     "change7d": 0.3106,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3116,11 +3116,11 @@
     "marketValue": 0.55,
     "low": 0.02,
     "avg7": 0.94,
-    "avg30": 2.13,
+    "avg30": 2.14,
     "trendEUR": 0.49,
     "change7d": -0.5602,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3130,7 +3130,7 @@
      "n": 1
     },
     "na": {
-     "low": 0.79,
+     "low": 0.82,
      "cur": "USD",
      "n": 6
     }
@@ -3140,14 +3140,14 @@
    "cnId": 18203,
    "finish": "Standard",
    "cm": {
-    "marketValue": 4.9,
+    "marketValue": 4.91,
     "low": 0.06,
-    "avg7": 5.31,
-    "avg30": 3.37,
+    "avg7": 5.33,
+    "avg30": 3.38,
     "trendEUR": 4.39,
     "change7d": 0.5762,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3169,7 +3169,7 @@
     "trendEUR": 0.68,
     "change7d": -0.4138,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3184,14 +3184,14 @@
    "cnId": 20233,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.37,
+    "marketValue": 1.38,
     "low": 0.02,
     "avg7": 1.33,
-    "avg30": 1.36,
+    "avg30": 1.37,
     "trendEUR": 1.23,
     "change7d": -0.0246,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -3200,19 +3200,19 @@
    "cnId": 16190,
    "finish": "Foil",
    "cm": {
-    "marketValue": 34.97,
-    "low": 4.35,
-    "avg7": 37.13,
-    "avg30": 37.15,
+    "marketValue": 35.06,
+    "low": 4.37,
+    "avg7": 37.23,
+    "avg30": 37.24,
     "trendEUR": 31.32,
     "change7d": -0.0003,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 53.54,
+     "low": 54.13,
      "cur": "USD",
      "n": 1
     }
@@ -3229,7 +3229,7 @@
     "trendEUR": 0.69,
     "change7d": -0.1789,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3239,7 +3239,7 @@
      "n": 1
     },
     "na": {
-     "low": 0.79,
+     "low": 0.81,
      "cur": "USD",
      "n": 8
     }
@@ -3249,14 +3249,14 @@
    "cnId": 17807,
    "finish": "Foil",
    "cm": {
-    "marketValue": 8.88,
+    "marketValue": 8.9,
     "low": 0.56,
-    "avg7": 8.17,
-    "avg30": 12.39,
+    "avg7": 8.19,
+    "avg30": 12.42,
     "trendEUR": 7.95,
     "change7d": -0.3405,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -3272,7 +3272,7 @@
     "trendEUR": 0.92,
     "change7d": -0.3784,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3294,7 +3294,7 @@
     "trendEUR": 1.08,
     "change7d": 0.0631,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -3310,7 +3310,7 @@
     "trendEUR": 0.87,
     "change7d": 0.2885,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3325,14 +3325,14 @@
    "cnId": 20448,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.18,
+    "marketValue": 1.19,
     "low": 0.02,
-    "avg7": 1.18,
+    "avg7": 1.19,
     "avg30": 1.43,
     "trendEUR": 1.06,
     "change7d": -0.1719,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -3343,12 +3343,12 @@
    "cm": {
     "marketValue": 0.78,
     "low": 0.02,
-    "avg7": 0.8,
-    "avg30": 0.99,
+    "avg7": 0.81,
+    "avg30": 1.0,
     "trendEUR": 0.7,
     "change7d": -0.191,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3365,17 +3365,17 @@
    "cm": {
     "marketValue": 1.99,
     "low": 0.02,
-    "avg7": 2.59,
+    "avg7": 2.6,
     "avg30": 1.3,
     "trendEUR": 1.78,
     "change7d": 1.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 0.74,
+     "low": 0.75,
      "cur": "USD",
      "n": 7
     }
@@ -3385,14 +3385,14 @@
    "cnId": 17865,
    "finish": null,
    "cm": {
-    "marketValue": 38.22,
-    "low": 6.64,
-    "avg7": 32.96,
-    "avg30": 33.93,
+    "marketValue": 38.31,
+    "low": 6.66,
+    "avg7": 33.04,
+    "avg30": 34.02,
     "trendEUR": 34.23,
     "change7d": -0.0286,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -3401,14 +3401,14 @@
    "cnId": 18314,
    "finish": null,
    "cm": {
-    "marketValue": 49.91,
-    "low": 5.58,
-    "avg7": 45.15,
-    "avg30": 47.63,
+    "marketValue": 50.03,
+    "low": 5.6,
+    "avg7": 45.26,
+    "avg30": 47.75,
     "trendEUR": 44.7,
     "change7d": -0.052,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -3417,19 +3417,19 @@
    "cnId": 15939,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.56,
+    "marketValue": 1.57,
     "low": 0.02,
     "avg7": 1.54,
-    "avg30": 1.95,
+    "avg30": 1.96,
     "trendEUR": 1.4,
     "change7d": -0.2114,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 0.81,
+     "low": 0.87,
      "cur": "USD",
      "n": 8
     }
@@ -3439,14 +3439,14 @@
    "cnId": 16571,
    "finish": "Standard",
    "cm": {
-    "marketValue": 9.52,
+    "marketValue": 9.55,
     "low": 0.02,
-    "avg7": 10.27,
-    "avg30": 11.59,
+    "avg7": 10.3,
+    "avg30": 11.62,
     "trendEUR": 8.53,
     "change7d": -0.1137,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3461,24 +3461,24 @@
    "cnId": 15946,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.77,
+    "marketValue": 2.78,
     "low": 0.02,
-    "avg7": 5.34,
-    "avg30": 5.88,
+    "avg7": 5.35,
+    "avg30": 5.9,
     "trendEUR": 2.48,
     "change7d": -0.093,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 4.61,
+     "low": 4.59,
      "cur": "EUR",
      "n": 1
     },
     "na": {
-     "low": 3.56,
+     "low": 3.14,
      "cur": "USD",
      "n": 5
     }
@@ -3488,14 +3488,14 @@
    "cnId": 18016,
    "finish": "Foil",
    "cm": {
-    "marketValue": 32.53,
-    "low": 3.35,
-    "avg7": 47.04,
-    "avg30": 39.66,
+    "marketValue": 32.62,
+    "low": 3.36,
+    "avg7": 47.16,
+    "avg30": 39.76,
     "trendEUR": 29.14,
     "change7d": 0.1861,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -3504,14 +3504,14 @@
    "cnId": 16240,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.46,
+    "marketValue": 1.47,
     "low": 0.02,
     "avg7": 1.32,
     "avg30": 1.63,
     "trendEUR": 1.31,
     "change7d": -0.1918,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3526,14 +3526,14 @@
    "cnId": 15945,
    "finish": "Standard",
    "cm": {
-    "marketValue": 7.66,
+    "marketValue": 7.68,
     "low": 0.04,
-    "avg7": 12.4,
-    "avg30": 5.72,
+    "avg7": 12.44,
+    "avg30": 5.73,
     "trendEUR": 6.86,
     "change7d": 1.1699,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3553,14 +3553,14 @@
    "cnId": 17825,
    "finish": "Foil",
    "cm": {
-    "marketValue": 42.19,
-    "low": 2.23,
-    "avg7": 25.71,
-    "avg30": 20.66,
+    "marketValue": 42.3,
+    "low": 2.24,
+    "avg7": 25.78,
+    "avg30": 20.71,
     "trendEUR": 37.79,
     "change7d": 0.2449,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3575,14 +3575,14 @@
    "cnId": 17582,
    "finish": "Foil",
    "cm": {
-    "marketValue": 67.81,
-    "low": 8.49,
-    "avg7": 54.26,
-    "avg30": 72.76,
+    "marketValue": 67.98,
+    "low": 8.51,
+    "avg7": 54.4,
+    "avg30": 72.94,
     "trendEUR": 60.73,
     "change7d": -0.2543,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3602,14 +3602,14 @@
    "cnId": 16288,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.13,
+    "marketValue": 2.14,
     "low": 0.02,
-    "avg7": 2.43,
+    "avg7": 2.44,
     "avg30": 1.98,
     "trendEUR": 1.91,
     "change7d": 0.2316,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3629,14 +3629,14 @@
    "cnId": 16784,
    "finish": "Foil",
    "cm": {
-    "marketValue": 19.56,
-    "low": 2.22,
-    "avg7": 19.07,
-    "avg30": 27.93,
+    "marketValue": 19.61,
+    "low": 2.23,
+    "avg7": 19.12,
+    "avg30": 28.0,
     "trendEUR": 17.52,
     "change7d": -0.3173,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3651,14 +3651,14 @@
    "cnId": 17802,
    "finish": "Foil",
    "cm": {
-    "marketValue": 56.37,
-    "low": 7.79,
-    "avg7": 42.53,
-    "avg30": 69.02,
+    "marketValue": 56.51,
+    "low": 7.81,
+    "avg7": 42.63,
+    "avg30": 69.2,
     "trendEUR": 50.49,
     "change7d": -0.3839,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3673,14 +3673,14 @@
    "cnId": 17775,
    "finish": "Foil",
    "cm": {
-    "marketValue": 53.01,
-    "low": 11.15,
-    "avg7": 54.5,
-    "avg30": 66.15,
+    "marketValue": 53.14,
+    "low": 11.18,
+    "avg7": 54.63,
+    "avg30": 66.32,
     "trendEUR": 47.48,
     "change7d": -0.1762,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3695,26 +3695,26 @@
    "cnId": 15951,
    "finish": "Standard",
    "cm": {
-    "marketValue": 4.48,
+    "marketValue": 4.49,
     "low": 0.02,
-    "avg7": 3.58,
-    "avg30": 3.97,
+    "avg7": 3.59,
+    "avg30": 3.98,
     "trendEUR": 4.01,
     "change7d": -0.0983,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 4.61,
+     "low": 4.59,
      "cur": "EUR",
      "n": 1
     },
     "na": {
-     "low": 3.15,
+     "low": 3.21,
      "cur": "USD",
-     "n": 5
+     "n": 6
     }
    }
   },
@@ -3725,11 +3725,11 @@
     "marketValue": 0.85,
     "low": 0.02,
     "avg7": 0.92,
-    "avg30": 0.89,
+    "avg30": 0.9,
     "trendEUR": 0.76,
     "change7d": 0.025,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3744,14 +3744,14 @@
    "cnId": 18148,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.36,
+    "marketValue": 1.37,
     "low": 0.02,
-    "avg7": 1.83,
+    "avg7": 1.84,
     "avg30": 2.1,
     "trendEUR": 1.22,
     "change7d": -0.1277,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -3760,14 +3760,14 @@
    "cnId": 18288,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.85,
+    "marketValue": 1.86,
     "low": 0.02,
-    "avg7": 1.28,
+    "avg7": 1.29,
     "avg30": 2.09,
     "trendEUR": 1.66,
     "change7d": -0.385,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3782,14 +3782,14 @@
    "cnId": 17808,
    "finish": "Foil",
    "cm": {
-    "marketValue": 45.24,
-    "low": 7.82,
-    "avg7": 64.06,
-    "avg30": 53.75,
+    "marketValue": 45.35,
+    "low": 7.84,
+    "avg7": 64.23,
+    "avg30": 53.88,
     "trendEUR": 40.52,
     "change7d": 0.1919,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -3798,14 +3798,14 @@
    "cnId": 17491,
    "finish": "Foil",
    "cm": {
-    "marketValue": 43.86,
-    "low": 7.8,
-    "avg7": 33.13,
-    "avg30": 45.54,
+    "marketValue": 43.97,
+    "low": 7.82,
+    "avg7": 33.21,
+    "avg30": 45.66,
     "trendEUR": 39.28,
     "change7d": -0.2726,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3820,14 +3820,14 @@
    "cnId": 17499,
    "finish": "Foil",
    "cm": {
-    "marketValue": 80.22,
-    "low": 11.14,
-    "avg7": 58.28,
-    "avg30": 84.15,
+    "marketValue": 80.42,
+    "low": 11.17,
+    "avg7": 58.43,
+    "avg30": 84.36,
     "trendEUR": 71.85,
     "change7d": -0.3074,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3842,14 +3842,14 @@
    "cnId": 16203,
    "finish": "Foil",
    "cm": {
-    "marketValue": 37.56,
-    "low": 4.47,
-    "avg7": 30.49,
-    "avg30": 42.86,
+    "marketValue": 37.65,
+    "low": 4.48,
+    "avg7": 30.57,
+    "avg30": 42.97,
     "trendEUR": 33.64,
     "change7d": -0.2886,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3864,14 +3864,14 @@
    "cnId": 17958,
    "finish": "Foil",
    "cm": {
-    "marketValue": 53.48,
-    "low": 11.17,
-    "avg7": 54.4,
-    "avg30": 82.72,
+    "marketValue": 53.61,
+    "low": 11.19,
+    "avg7": 54.53,
+    "avg30": 82.93,
     "trendEUR": 47.9,
     "change7d": -0.3424,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3886,14 +3886,14 @@
    "cnId": 15927,
    "finish": "Standard",
    "cm": {
-    "marketValue": 3.16,
+    "marketValue": 3.17,
     "low": 0.02,
-    "avg7": 3.73,
-    "avg30": 3.09,
+    "avg7": 3.74,
+    "avg30": 3.1,
     "trendEUR": 2.83,
     "change7d": 0.2058,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3908,21 +3908,21 @@
    "cnId": 16254,
    "finish": "Standard",
    "cm": {
-    "marketValue": 33.34,
+    "marketValue": 33.42,
     "low": 1.12,
-    "avg7": 38.31,
-    "avg30": 27.34,
+    "avg7": 38.4,
+    "avg30": 27.41,
     "trendEUR": 29.86,
     "change7d": 0.401,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
      "low": 16.25,
      "cur": "USD",
-     "n": 1
+     "n": 2
     }
    }
   },
@@ -3930,14 +3930,14 @@
    "cnId": 17655,
    "finish": "Foil",
    "cm": {
-    "marketValue": 141.17,
-    "low": 22.33,
-    "avg7": 160.53,
-    "avg30": 175.06,
+    "marketValue": 141.52,
+    "low": 22.39,
+    "avg7": 160.93,
+    "avg30": 175.5,
     "trendEUR": 126.44,
     "change7d": -0.083,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3952,14 +3952,14 @@
    "cnId": 16089,
    "finish": "Foil",
    "cm": {
-    "marketValue": 86.33,
-    "low": 4.47,
-    "avg7": 70.67,
-    "avg30": 43.45,
+    "marketValue": 86.54,
+    "low": 4.48,
+    "avg7": 70.85,
+    "avg30": 43.56,
     "trendEUR": 77.32,
     "change7d": 0.6264,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -3974,14 +3974,14 @@
    "cnId": 165323,
    "finish": "Standard",
    "cm": {
-    "marketValue": 9.86,
+    "marketValue": 9.88,
     "low": 1.34,
-    "avg7": 16.93,
-    "avg30": 17.95,
+    "avg7": 16.97,
+    "avg30": 18.0,
     "trendEUR": 8.83,
     "change7d": -0.0572,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4023,12 +4023,12 @@
     "trendEUR": 0.09,
     "change7d": 0.125,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 0.39,
+     "low": 0.37,
      "cur": "EUR",
      "n": 2
     },
@@ -4050,7 +4050,7 @@
     "trendEUR": 1.26,
     "change7d": -0.5366,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4070,14 +4070,14 @@
    "cnId": 19120,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.2,
+    "marketValue": 2.21,
     "low": 0.22,
-    "avg7": 2.3,
-    "avg30": 1.95,
+    "avg7": 2.31,
+    "avg30": 1.96,
     "trendEUR": 1.97,
     "change7d": 0.1771,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4104,7 +4104,7 @@
     "trendEUR": 0.16,
     "change7d": 0.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4127,11 +4127,11 @@
     "marketValue": 2.17,
     "low": 0.02,
     "avg7": 2.19,
-    "avg30": 2.03,
+    "avg30": 2.04,
     "trendEUR": 1.94,
     "change7d": 0.0769,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4153,7 +4153,7 @@
     "trendEUR": 0.18,
     "change7d": 0.3077,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4175,17 +4175,17 @@
     "trendEUR": 0.06,
     "change7d": 0.2,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 0.39,
+     "low": 0.37,
      "cur": "EUR",
      "n": 2
     },
     "na": {
-     "low": 0.4,
+     "low": 0.38,
      "cur": "USD",
      "n": 22
     }
@@ -4202,7 +4202,7 @@
     "trendEUR": 0.46,
     "change7d": -0.3836,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4225,11 +4225,11 @@
     "marketValue": 0.64,
     "low": 0.02,
     "avg7": 0.73,
-    "avg30": 0.52,
+    "avg30": 0.53,
     "trendEUR": 0.57,
     "change7d": 0.383,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -4238,14 +4238,14 @@
    "cnId": 25447,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.09,
+    "marketValue": 1.1,
     "low": 0.02,
     "avg7": 0.83,
     "avg30": 0.74,
     "trendEUR": 0.98,
     "change7d": 0.1212,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4272,7 +4272,7 @@
     "trendEUR": 0.23,
     "change7d": -0.125,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4292,14 +4292,14 @@
    "cnId": 20137,
    "finish": "Standard",
    "cm": {
-    "marketValue": 3.8,
+    "marketValue": 3.81,
     "low": 0.2,
-    "avg7": 2.79,
-    "avg30": 2.82,
+    "avg7": 2.8,
+    "avg30": 2.83,
     "trendEUR": 3.4,
     "change7d": -0.0119,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4314,14 +4314,14 @@
    "cnId": 18401,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.81,
+    "marketValue": 2.82,
     "low": 0.11,
     "avg7": 2.07,
     "avg30": 1.62,
     "trendEUR": 2.52,
     "change7d": 0.2759,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -4330,14 +4330,14 @@
    "cnId": 17053,
    "finish": "Standard",
    "cm": {
-    "marketValue": 3.05,
+    "marketValue": 3.06,
     "low": 0.06,
-    "avg7": 2.87,
-    "avg30": 3.84,
+    "avg7": 2.88,
+    "avg30": 3.85,
     "trendEUR": 2.73,
     "change7d": -0.2529,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -4346,14 +4346,14 @@
    "cnId": 20440,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.81,
+    "marketValue": 2.82,
     "low": 0.09,
-    "avg7": 2.67,
+    "avg7": 2.68,
     "avg30": 1.89,
     "trendEUR": 2.52,
     "change7d": 0.4142,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -4364,12 +4364,12 @@
    "cm": {
     "marketValue": 2.37,
     "low": 0.56,
-    "avg7": 2.67,
-    "avg30": 3.16,
+    "avg7": 2.68,
+    "avg30": 3.17,
     "trendEUR": 2.12,
     "change7d": -0.1555,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4384,14 +4384,14 @@
    "cnId": 19807,
    "finish": "Standard",
    "cm": {
-    "marketValue": 85.31,
-    "low": 2.23,
-    "avg7": 13.7,
-    "avg30": 34.39,
+    "marketValue": 85.53,
+    "low": 2.24,
+    "avg7": 13.73,
+    "avg30": 34.47,
     "trendEUR": 76.41,
     "change7d": -0.6016,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -4407,7 +4407,7 @@
     "trendEUR": 0.33,
     "change7d": -0.6957,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4417,7 +4417,7 @@
      "n": 1
     },
     "na": {
-     "low": 0.7,
+     "low": 0.72,
      "cur": "USD",
      "n": 1
     }
@@ -4427,14 +4427,14 @@
    "cnId": 18171,
    "finish": null,
    "cm": {
-    "marketValue": 9.07,
-    "low": 0.52,
-    "avg7": 5.67,
-    "avg30": 13.84,
+    "marketValue": 9.09,
+    "low": 0.53,
+    "avg7": 5.69,
+    "avg30": 13.88,
     "trendEUR": 8.12,
     "change7d": -0.5903,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -4443,14 +4443,14 @@
    "cnId": 18323,
    "finish": null,
    "cm": {
-    "marketValue": 3.99,
+    "marketValue": 4.0,
     "low": 0.32,
-    "avg7": 4.38,
-    "avg30": 4.03,
+    "avg7": 4.39,
+    "avg30": 4.04,
     "trendEUR": 3.57,
     "change7d": 0.0859,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -4459,14 +4459,14 @@
    "cnId": 23916,
    "finish": "Standard",
    "cm": {
-    "marketValue": 0.9,
+    "marketValue": 0.91,
     "low": 0.02,
     "avg7": 0.77,
     "avg30": 0.83,
     "trendEUR": 0.81,
     "change7d": -0.0676,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4488,12 +4488,12 @@
     "trendEUR": 0.1,
     "change7d": 0.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 0.28,
+     "low": 0.3,
      "cur": "USD",
      "n": 20
     }
@@ -4503,14 +4503,14 @@
    "cnId": 19123,
    "finish": "Standard",
    "cm": {
-    "marketValue": 31.94,
+    "marketValue": 32.02,
     "low": 0.45,
-    "avg7": 31.42,
-    "avg30": 11.78,
+    "avg7": 31.5,
+    "avg30": 11.81,
     "trendEUR": 28.61,
     "change7d": 1.6673,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -4519,14 +4519,14 @@
    "cnId": 25334,
    "finish": "Standard",
    "cm": {
-    "marketValue": 4.97,
-    "low": 2.22,
-    "avg7": 3.49,
-    "avg30": 4.41,
+    "marketValue": 4.98,
+    "low": 2.23,
+    "avg7": 3.5,
+    "avg30": 4.42,
     "trendEUR": 4.45,
     "change7d": -0.2076,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -4542,7 +4542,7 @@
     "trendEUR": 0.59,
     "change7d": 0.3514,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4557,14 +4557,14 @@
    "cnId": 17163,
    "finish": "Foil",
    "cm": {
-    "marketValue": 694.04,
-    "low": 117.23,
-    "avg7": 668.78,
-    "avg30": 476.2,
+    "marketValue": 695.78,
+    "low": 117.53,
+    "avg7": 670.46,
+    "avg30": 477.39,
     "trendEUR": 621.62,
     "change7d": 0.4044,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4579,14 +4579,14 @@
    "cnId": 32845,
    "finish": "Foil",
    "cm": {
-    "marketValue": 187.65,
-    "low": 111.54,
-    "avg7": 192.55,
-    "avg30": 290.39,
+    "marketValue": 188.12,
+    "low": 111.82,
+    "avg7": 193.03,
+    "avg30": 291.12,
     "trendEUR": 168.07,
     "change7d": -0.3369,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4608,12 +4608,12 @@
     "trendEUR": 0.05,
     "change7d": 0.2,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 0.25,
+     "low": 0.24,
      "cur": "EUR",
      "n": 2
     },
@@ -4635,7 +4635,7 @@
     "trendEUR": 0.08,
     "change7d": 0.8889,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4645,7 +4645,7 @@
      "n": 1
     },
     "na": {
-     "low": 0.59,
+     "low": 0.61,
      "cur": "USD",
      "n": 5
     }
@@ -4655,21 +4655,21 @@
    "cnId": 33774,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.13,
+    "marketValue": 2.14,
     "low": 0.02,
     "avg7": 2.47,
-    "avg30": 1.74,
+    "avg30": 1.75,
     "trendEUR": 1.91,
     "change7d": 0.4167,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 2.12,
+     "low": 2.13,
      "cur": "USD",
-     "n": 6
+     "n": 5
     }
    }
   },
@@ -4684,12 +4684,12 @@
     "trendEUR": 0.06,
     "change7d": 0.3333,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 0.14,
+     "low": 0.12,
      "cur": "EUR",
      "n": 3
     },
@@ -4704,19 +4704,19 @@
    "cnId": 18989,
    "finish": "Standard",
    "cm": {
-    "marketValue": 93.93,
-    "low": 13.96,
-    "avg7": 39.56,
-    "avg30": 44.09,
+    "marketValue": 94.17,
+    "low": 13.99,
+    "avg7": 39.66,
+    "avg30": 44.2,
     "trendEUR": 84.13,
     "change7d": -0.1028,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 119.97,
+     "low": 119.93,
      "cur": "EUR",
      "n": 1
     }
@@ -4728,12 +4728,12 @@
    "cm": {
     "marketValue": 2.28,
     "low": 0.02,
-    "avg7": 1.45,
-    "avg30": 2.22,
+    "avg7": 1.46,
+    "avg30": 2.23,
     "trendEUR": 2.04,
     "change7d": -0.3467,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -4742,14 +4742,14 @@
    "cnId": 21373,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.18,
+    "marketValue": 1.19,
     "low": 0.07,
-    "avg7": 0.9,
+    "avg7": 0.91,
     "avg30": 0.92,
     "trendEUR": 1.06,
     "change7d": -0.0122,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4764,14 +4764,14 @@
    "cnId": 128373,
    "finish": "Standard",
    "cm": {
-    "marketValue": 6.45,
+    "marketValue": 6.47,
     "low": 0.06,
-    "avg7": 4.41,
-    "avg30": 4.5,
+    "avg7": 4.42,
+    "avg30": 4.51,
     "trendEUR": 5.78,
     "change7d": -0.0199,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -4787,7 +4787,7 @@
     "trendEUR": 0.15,
     "change7d": -0.0556,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4797,7 +4797,7 @@
      "n": 1
     },
     "na": {
-     "low": 0.5,
+     "low": 1,
      "cur": "USD",
      "n": 1
     }
@@ -4827,14 +4827,14 @@
    "cnId": 223738,
    "finish": "Standard",
    "cm": {
-    "marketValue": 233.3,
-    "low": 130.51,
+    "marketValue": 233.89,
+    "low": 130.83,
     "avg7": null,
     "avg30": null,
     "trendEUR": 208.96,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4854,19 +4854,19 @@
    "cnId": 251510,
    "finish": "Foil",
    "cm": {
-    "marketValue": 170.86,
-    "low": 133.98,
-    "avg7": 180.65,
-    "avg30": 180.29,
+    "marketValue": 171.29,
+    "low": 134.32,
+    "avg7": 181.1,
+    "avg30": 180.74,
     "trendEUR": 153.03,
     "change7d": 0.002,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 116.78,
+     "low": 121.26,
      "cur": "USD",
      "n": 3
     }
@@ -4876,14 +4876,14 @@
    "cnId": 243955,
    "finish": "Foil",
    "cm": {
-    "marketValue": 187.95,
-    "low": 133.98,
-    "avg7": 192.37,
-    "avg30": 200.47,
+    "marketValue": 188.42,
+    "low": 134.32,
+    "avg7": 192.86,
+    "avg30": 200.97,
     "trendEUR": 168.34,
     "change7d": -0.0404,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4898,19 +4898,19 @@
    "cnId": 165071,
    "finish": "Foil",
    "cm": {
-    "marketValue": 355.04,
-    "low": 178.63,
-    "avg7": 328.31,
-    "avg30": 432.89,
+    "marketValue": 355.93,
+    "low": 179.08,
+    "avg7": 329.13,
+    "avg30": 433.97,
     "trendEUR": 317.99,
     "change7d": -0.2416,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 449.11,
+     "low": 447.02,
      "cur": "USD",
      "n": 1
     }
@@ -4920,19 +4920,19 @@
    "cnId": 245218,
    "finish": "Foil",
    "cm": {
-    "marketValue": 45.87,
-    "low": 33.38,
-    "avg7": 47.07,
-    "avg30": 48.75,
+    "marketValue": 45.98,
+    "low": 33.47,
+    "avg7": 47.19,
+    "avg30": 48.87,
     "trendEUR": 41.08,
     "change7d": -0.0344,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 41.53,
+     "low": 41.51,
      "cur": "EUR",
      "n": 1
     },
@@ -4947,21 +4947,21 @@
    "cnId": 245219,
    "finish": "Foil",
    "cm": {
-    "marketValue": 38.06,
-    "low": 27.91,
-    "avg7": 40.36,
-    "avg30": 40.21,
+    "marketValue": 38.16,
+    "low": 27.98,
+    "avg7": 40.46,
+    "avg30": 40.31,
     "trendEUR": 34.09,
     "change7d": 0.0039,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
      "low": 27.44,
      "cur": "USD",
-     "n": 6
+     "n": 5
     }
    }
   },
@@ -4969,14 +4969,14 @@
    "cnId": 212393,
    "finish": "Foil",
    "cm": {
-    "marketValue": 113.63,
-    "low": 99.37,
-    "avg7": 120.74,
-    "avg30": 136.03,
+    "marketValue": 113.91,
+    "low": 99.62,
+    "avg7": 121.04,
+    "avg30": 136.38,
     "trendEUR": 101.77,
     "change7d": -0.1124,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -4991,14 +4991,14 @@
    "cnId": 29674,
    "finish": "Foil",
    "cm": {
-    "marketValue": 577.22,
-    "low": 167.46,
-    "avg7": 607.77,
-    "avg30": 669.74,
+    "marketValue": 578.67,
+    "low": 167.88,
+    "avg7": 609.29,
+    "avg30": 671.42,
     "trendEUR": 516.99,
     "change7d": -0.0925,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5018,14 +5018,14 @@
    "cnId": 223452,
    "finish": "Standard",
    "cm": {
-    "marketValue": 146.48,
-    "low": 122.8,
+    "marketValue": 146.85,
+    "low": 123.11,
     "avg7": null,
     "avg30": null,
     "trendEUR": 131.2,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5040,14 +5040,14 @@
    "cnId": 225120,
    "finish": null,
    "cm": {
-    "marketValue": 255.54,
-    "low": 178.64,
+    "marketValue": 256.19,
+    "low": 179.09,
     "avg7": null,
     "avg30": null,
     "trendEUR": 228.88,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -5056,14 +5056,14 @@
    "cnId": 225171,
    "finish": null,
    "cm": {
-    "marketValue": 106.34,
-    "low": 94.9,
+    "marketValue": 106.6,
+    "low": 95.14,
     "avg7": null,
     "avg30": null,
     "trendEUR": 95.24,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -5072,14 +5072,14 @@
    "cnId": 223011,
    "finish": null,
    "cm": {
-    "marketValue": 359.4,
-    "low": 240.05,
+    "marketValue": 360.3,
+    "low": 240.65,
     "avg7": null,
     "avg30": null,
     "trendEUR": 321.9,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -5101,14 +5101,14 @@
    "cnId": 16028,
    "finish": "Standard",
    "cm": {
-    "marketValue": 10.36,
+    "marketValue": 10.39,
     "low": 1.12,
-    "avg7": 10.98,
-    "avg30": 10.08,
+    "avg7": 11.0,
+    "avg30": 10.11,
     "trendEUR": 9.28,
     "change7d": 0.0886,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5125,22 +5125,22 @@
    "cm": {
     "marketValue": 3.7,
     "low": 0.28,
-    "avg7": 5.3,
-    "avg30": 4.38,
+    "avg7": 5.32,
+    "avg30": 4.39,
     "trendEUR": 3.31,
     "change7d": 0.2117,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 4.61,
+     "low": 4.59,
      "cur": "EUR",
      "n": 1
     },
     "na": {
-     "low": 3.3,
+     "low": 3.59,
      "cur": "USD",
      "n": 4
     }
@@ -5150,14 +5150,14 @@
    "cnId": 16031,
    "finish": "Standard",
    "cm": {
-    "marketValue": 10.31,
+    "marketValue": 10.33,
     "low": 0.95,
-    "avg7": 9.43,
-    "avg30": 8.28,
+    "avg7": 9.46,
+    "avg30": 8.31,
     "trendEUR": 9.23,
     "change7d": 0.1388,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -5166,14 +5166,14 @@
    "cnId": 16034,
    "finish": "Standard",
    "cm": {
-    "marketValue": 10.16,
-    "low": 3.35,
-    "avg7": 9.9,
-    "avg30": 10.22,
+    "marketValue": 10.19,
+    "low": 3.36,
+    "avg7": 9.93,
+    "avg30": 10.24,
     "trendEUR": 9.1,
     "change7d": -0.0306,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5183,7 +5183,7 @@
      "n": 1
     },
     "na": {
-     "low": 7.32,
+     "low": 7.49,
      "cur": "USD",
      "n": 2
     }
@@ -5193,19 +5193,19 @@
    "cnId": 16036,
    "finish": "Standard",
    "cm": {
-    "marketValue": 3.52,
+    "marketValue": 3.53,
     "low": 0.13,
     "avg7": 3.12,
-    "avg30": 4.42,
+    "avg30": 4.43,
     "trendEUR": 3.15,
     "change7d": -0.2955,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 3.38,
+     "low": 3.37,
      "cur": "USD",
      "n": 3
     }
@@ -5215,19 +5215,19 @@
    "cnId": 16039,
    "finish": "Standard",
    "cm": {
-    "marketValue": 9.86,
+    "marketValue": 9.88,
     "low": 2.18,
-    "avg7": 9.97,
-    "avg30": 9.09,
+    "avg7": 10.0,
+    "avg30": 9.11,
     "trendEUR": 8.83,
     "change7d": 0.0971,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 7.82,
+     "low": 8.07,
      "cur": "USD",
      "n": 1
     }
@@ -5237,19 +5237,19 @@
    "cnId": 16043,
    "finish": "Standard",
    "cm": {
-    "marketValue": 14.27,
-    "low": 3.48,
-    "avg7": 16.85,
-    "avg30": 13.42,
+    "marketValue": 14.3,
+    "low": 3.49,
+    "avg7": 16.89,
+    "avg30": 13.45,
     "trendEUR": 12.78,
     "change7d": 0.2554,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 9.08,
+     "low": 9.05,
      "cur": "USD",
      "n": 2
     }
@@ -5259,14 +5259,14 @@
    "cnId": 16046,
    "finish": "Standard",
    "cm": {
-    "marketValue": 3.08,
+    "marketValue": 3.09,
     "low": 0.02,
-    "avg7": 3.08,
-    "avg30": 3.42,
+    "avg7": 3.09,
+    "avg30": 3.43,
     "trendEUR": 2.76,
     "change7d": -0.098,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5281,14 +5281,14 @@
    "cnId": 16042,
    "finish": "Standard",
    "cm": {
-    "marketValue": 8.12,
+    "marketValue": 8.14,
     "low": 0.45,
-    "avg7": 9.12,
-    "avg30": 9.28,
+    "avg7": 9.14,
+    "avg30": 9.3,
     "trendEUR": 7.27,
     "change7d": -0.0168,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5303,14 +5303,14 @@
    "cnId": 16032,
    "finish": "Standard",
    "cm": {
-    "marketValue": 11.53,
+    "marketValue": 11.56,
     "low": 1.11,
-    "avg7": 10.57,
-    "avg30": 10.92,
+    "avg7": 10.6,
+    "avg30": 10.95,
     "trendEUR": 10.33,
     "change7d": -0.0317,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5325,14 +5325,14 @@
    "cnId": 223738,
    "finish": "Standard",
    "cm": {
-    "marketValue": 233.3,
-    "low": 130.51,
+    "marketValue": 233.89,
+    "low": 130.83,
     "avg7": null,
     "avg30": null,
     "trendEUR": 208.96,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5352,14 +5352,14 @@
    "cnId": 223272,
    "finish": "Standard",
    "cm": {
-    "marketValue": 199.98,
-    "low": 156.31,
+    "marketValue": 200.48,
+    "low": 156.7,
     "avg7": null,
     "avg30": null,
     "trendEUR": 179.11,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5387,14 +5387,14 @@
    "cnId": 223565,
    "finish": "Standard",
    "cm": {
-    "marketValue": 196.29,
-    "low": 142.8,
+    "marketValue": 196.78,
+    "low": 143.16,
     "avg7": null,
     "avg30": null,
     "trendEUR": 175.81,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5409,14 +5409,14 @@
    "cnId": 223568,
    "finish": "Standard",
    "cm": {
-    "marketValue": 139.63,
-    "low": 76.98,
+    "marketValue": 139.98,
+    "low": 77.18,
     "avg7": null,
     "avg30": null,
     "trendEUR": 125.06,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5431,14 +5431,14 @@
    "cnId": 223392,
    "finish": null,
    "cm": {
-    "marketValue": 32.8,
-    "low": 19.43,
+    "marketValue": 32.89,
+    "low": 19.48,
     "avg7": null,
     "avg30": null,
     "trendEUR": 29.38,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -5447,14 +5447,14 @@
    "cnId": 245491,
    "finish": "Standard",
    "cm": {
-    "marketValue": 47.52,
-    "low": 32.26,
+    "marketValue": 47.64,
+    "low": 32.34,
     "avg7": null,
     "avg30": null,
     "trendEUR": 42.56,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5469,14 +5469,14 @@
    "cnId": 225017,
    "finish": null,
    "cm": {
-    "marketValue": 160.71,
-    "low": 106.06,
+    "marketValue": 161.11,
+    "low": 106.32,
     "avg7": null,
     "avg30": null,
     "trendEUR": 143.94,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -5485,14 +5485,14 @@
    "cnId": 29042,
    "finish": "Foil",
    "cm": {
-    "marketValue": 47.54,
-    "low": 16.75,
-    "avg7": 46.97,
-    "avg30": 39.65,
+    "marketValue": 47.66,
+    "low": 16.79,
+    "avg7": 47.09,
+    "avg30": 39.75,
     "trendEUR": 42.58,
     "change7d": 0.1847,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5502,7 +5502,7 @@
      "n": 2
     },
     "na": {
-     "low": 69.55,
+     "low": 68.05,
      "cur": "USD",
      "n": 1
     }
@@ -5512,21 +5512,21 @@
    "cnId": 26249,
    "finish": "Foil",
    "cm": {
-    "marketValue": 28.79,
-    "low": 16.75,
-    "avg7": 26.51,
-    "avg30": 29.24,
+    "marketValue": 28.87,
+    "low": 16.79,
+    "avg7": 26.57,
+    "avg30": 29.31,
     "trendEUR": 25.79,
     "change7d": -0.0935,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 27.03,
+     "low": 27.49,
      "cur": "USD",
-     "n": 6
+     "n": 4
     }
    }
   },
@@ -5574,14 +5574,14 @@
    "cnId": 223602,
    "finish": "Standard",
    "cm": {
-    "marketValue": 45.77,
-    "low": 29.02,
+    "marketValue": 45.88,
+    "low": 29.09,
     "avg7": null,
     "avg30": null,
     "trendEUR": 40.99,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5596,14 +5596,14 @@
    "cnId": 16004,
    "finish": "Foil",
    "cm": {
-    "marketValue": 19.06,
+    "marketValue": 19.11,
     "low": 1.11,
-    "avg7": 15.13,
-    "avg30": 14.93,
+    "avg7": 15.17,
+    "avg30": 14.97,
     "trendEUR": 17.07,
     "change7d": 0.0135,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5618,14 +5618,14 @@
    "cnId": 15997,
    "finish": "Foil",
    "cm": {
-    "marketValue": 25.86,
+    "marketValue": 25.92,
     "low": 0.56,
-    "avg7": 24.75,
-    "avg30": 25.34,
+    "avg7": 24.81,
+    "avg30": 25.41,
     "trendEUR": 23.16,
     "change7d": -0.0233,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5640,14 +5640,14 @@
    "cnId": 223652,
    "finish": "Standard",
    "cm": {
-    "marketValue": 166.72,
-    "low": 93.67,
+    "marketValue": 167.13,
+    "low": 93.91,
     "avg7": null,
     "avg30": null,
     "trendEUR": 149.32,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5662,19 +5662,19 @@
    "cnId": 33750,
    "finish": "Reverse Holo",
    "cm": {
-    "marketValue": 2.33,
+    "marketValue": 2.34,
     "low": 0.22,
-    "avg7": 2.3,
-    "avg30": 1.86,
+    "avg7": 2.31,
+    "avg30": 1.87,
     "trendEUR": 2.09,
     "change7d": 0.2335,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 1.34,
+     "low": 1.41,
      "cur": "USD",
      "n": 14
     }
@@ -5684,14 +5684,14 @@
    "cnId": 22036,
    "finish": "Standard",
    "cm": {
-    "marketValue": 4.48,
+    "marketValue": 4.49,
     "low": 1.11,
-    "avg7": 4.63,
-    "avg30": 5.01,
+    "avg7": 4.65,
+    "avg30": 5.03,
     "trendEUR": 4.01,
     "change7d": -0.0757,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5706,14 +5706,14 @@
    "cnId": 24664,
    "finish": "Foil",
    "cm": {
-    "marketValue": 84.95,
-    "low": 7.82,
-    "avg7": 60.29,
-    "avg30": 69.3,
+    "marketValue": 85.17,
+    "low": 7.84,
+    "avg7": 60.44,
+    "avg30": 69.47,
     "trendEUR": 76.09,
     "change7d": -0.13,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5728,14 +5728,14 @@
    "cnId": 28761,
    "finish": "Foil",
    "cm": {
-    "marketValue": 2.98,
+    "marketValue": 2.99,
     "low": 0.28,
-    "avg7": 2.63,
-    "avg30": 2.51,
+    "avg7": 2.64,
+    "avg30": 2.52,
     "trendEUR": 2.67,
     "change7d": 0.0489,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5750,14 +5750,14 @@
    "cnId": 23134,
    "finish": "Foil",
    "cm": {
-    "marketValue": 71.05,
-    "low": 4.41,
-    "avg7": 51.73,
-    "avg30": 61.32,
+    "marketValue": 71.23,
+    "low": 4.42,
+    "avg7": 51.86,
+    "avg30": 61.47,
     "trendEUR": 63.64,
     "change7d": -0.1564,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -5766,14 +5766,14 @@
    "cnId": 26498,
    "finish": "Foil",
    "cm": {
-    "marketValue": 6.96,
-    "low": 5.47,
-    "avg7": 9.43,
-    "avg30": 7.38,
+    "marketValue": 6.97,
+    "low": 5.48,
+    "avg7": 9.46,
+    "avg30": 7.4,
     "trendEUR": 6.23,
     "change7d": 0.2784,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -5782,14 +5782,14 @@
    "cnId": 25448,
    "finish": "Standard",
    "cm": {
-    "marketValue": 15.87,
+    "marketValue": 15.91,
     "low": 1.11,
-    "avg7": 14.96,
-    "avg30": 9.84,
+    "avg7": 15.0,
+    "avg30": 9.86,
     "trendEUR": 14.21,
     "change7d": 0.521,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5804,14 +5804,14 @@
    "cnId": 27115,
    "finish": "Foil",
    "cm": {
-    "marketValue": 22.03,
-    "low": 2.23,
-    "avg7": 22.25,
-    "avg30": 15.7,
+    "marketValue": 22.08,
+    "low": 2.24,
+    "avg7": 22.31,
+    "avg30": 15.74,
     "trendEUR": 19.73,
     "change7d": 0.4175,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -5820,14 +5820,14 @@
    "cnId": 19507,
    "finish": null,
    "cm": {
-    "marketValue": 266.89,
-    "low": 11.05,
-    "avg7": 202.35,
-    "avg30": 218.22,
+    "marketValue": 267.56,
+    "low": 11.08,
+    "avg7": 202.86,
+    "avg30": 218.77,
     "trendEUR": 239.04,
     "change7d": -0.0727,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -5836,14 +5836,14 @@
    "cnId": 18004,
    "finish": "Standard",
    "cm": {
-    "marketValue": 75.32,
-    "low": 8.82,
-    "avg7": 96.12,
-    "avg30": 53.96,
+    "marketValue": 75.51,
+    "low": 8.84,
+    "avg7": 96.36,
+    "avg30": 54.1,
     "trendEUR": 67.46,
     "change7d": 0.7813,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -5852,14 +5852,14 @@
    "cnId": 22040,
    "finish": "Standard",
    "cm": {
-    "marketValue": 11.13,
-    "low": 1.67,
-    "avg7": 9.71,
-    "avg30": 7.45,
+    "marketValue": 11.16,
+    "low": 1.68,
+    "avg7": 9.74,
+    "avg30": 7.47,
     "trendEUR": 9.97,
     "change7d": 0.3043,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -5868,14 +5868,14 @@
    "cnId": 23132,
    "finish": "Foil",
    "cm": {
-    "marketValue": 19.61,
-    "low": 3.35,
-    "avg7": 18.38,
-    "avg30": 16.66,
+    "marketValue": 19.65,
+    "low": 3.36,
+    "avg7": 18.42,
+    "avg30": 16.7,
     "trendEUR": 17.56,
     "change7d": 0.1032,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -5884,14 +5884,14 @@
    "cnId": 18725,
    "finish": "Foil",
    "cm": {
-    "marketValue": 866.09,
-    "low": 256.8,
-    "avg7": 442.33,
-    "avg30": 443.81,
+    "marketValue": 868.26,
+    "low": 257.44,
+    "avg7": 443.44,
+    "avg30": 444.92,
     "trendEUR": 775.72,
     "change7d": -0.0033,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5906,14 +5906,14 @@
    "cnId": 25350,
    "finish": null,
    "cm": {
-    "marketValue": 25.99,
-    "low": 5.57,
-    "avg7": 20.76,
-    "avg30": 16.11,
+    "marketValue": 26.06,
+    "low": 5.59,
+    "avg7": 20.81,
+    "avg30": 16.15,
     "trendEUR": 23.28,
     "change7d": 0.2883,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -5922,14 +5922,14 @@
    "cnId": 20720,
    "finish": null,
    "cm": {
-    "marketValue": 24.69,
-    "low": 2.23,
-    "avg7": 24.42,
-    "avg30": 14.47,
+    "marketValue": 24.75,
+    "low": 2.24,
+    "avg7": 24.48,
+    "avg30": 14.51,
     "trendEUR": 22.11,
     "change7d": 0.6875,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -5945,7 +5945,7 @@
     "trendEUR": 0.28,
     "change7d": -0.1935,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5972,7 +5972,7 @@
     "trendEUR": 0.54,
     "change7d": -0.0612,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -5982,7 +5982,7 @@
      "n": 2
     },
     "na": {
-     "low": 0.68,
+     "low": 0.67,
      "cur": "USD",
      "n": 4
     }
@@ -5992,14 +5992,14 @@
    "cnId": 33776,
    "finish": "Reverse Holo",
    "cm": {
-    "marketValue": 2.67,
+    "marketValue": 2.68,
     "low": 0.84,
-    "avg7": 2.77,
+    "avg7": 2.78,
     "avg30": 2.84,
     "trendEUR": 2.39,
     "change7d": -0.0236,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6014,14 +6014,14 @@
    "cnId": 21462,
    "finish": "Standard",
    "cm": {
-    "marketValue": 10.61,
-    "low": 1.66,
-    "avg7": 7.82,
-    "avg30": 8.07,
+    "marketValue": 10.63,
+    "low": 1.67,
+    "avg7": 7.84,
+    "avg30": 8.09,
     "trendEUR": 9.5,
     "change7d": -0.0318,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6030,14 +6030,14 @@
    "cnId": 28787,
    "finish": null,
    "cm": {
-    "marketValue": 8.81,
-    "low": 2.63,
-    "avg7": 9.01,
-    "avg30": 7.85,
+    "marketValue": 8.83,
+    "low": 2.64,
+    "avg7": 9.03,
+    "avg30": 7.87,
     "trendEUR": 7.89,
     "change7d": 0.1479,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6053,12 +6053,12 @@
     "trendEUR": 0.26,
     "change7d": -0.12,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 0.39,
+     "low": 0.37,
      "cur": "EUR",
      "n": 2
     },
@@ -6073,14 +6073,14 @@
    "cnId": 23004,
    "finish": "Standard",
    "cm": {
-    "marketValue": 8.51,
+    "marketValue": 8.53,
     "low": 0.02,
-    "avg7": 8.61,
-    "avg30": 4.8,
+    "avg7": 8.63,
+    "avg30": 4.81,
     "trendEUR": 7.62,
     "change7d": 0.793,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6107,7 +6107,7 @@
     "trendEUR": 0.53,
     "change7d": -0.2121,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6127,14 +6127,14 @@
    "cnId": 23935,
    "finish": "Standard",
    "cm": {
-    "marketValue": 12.3,
+    "marketValue": 12.33,
     "low": 0.77,
-    "avg7": 14.22,
-    "avg30": 12.08,
+    "avg7": 14.26,
+    "avg30": 12.11,
     "trendEUR": 11.02,
     "change7d": 0.1774,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6149,14 +6149,14 @@
    "cnId": 27247,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.56,
+    "marketValue": 1.57,
     "low": 0.03,
     "avg7": 0.95,
     "avg30": 1.04,
     "trendEUR": 1.4,
     "change7d": -0.086,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6178,17 +6178,17 @@
     "trendEUR": 0.19,
     "change7d": -0.3448,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 0.39,
+     "low": 0.37,
      "cur": "EUR",
      "n": 2
     },
     "na": {
-     "low": 0.4,
+     "low": 0.38,
      "cur": "USD",
      "n": 22
     }
@@ -6198,14 +6198,14 @@
    "cnId": 26464,
    "finish": "Standard",
    "cm": {
-    "marketValue": 9.5,
+    "marketValue": 9.53,
     "low": 0.78,
-    "avg7": 7.59,
-    "avg30": 4.88,
+    "avg7": 7.61,
+    "avg30": 4.89,
     "trendEUR": 8.51,
     "change7d": 0.5561,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6214,14 +6214,14 @@
    "cnId": 25447,
    "finish": "Standard",
    "cm": {
-    "marketValue": 12.69,
+    "marketValue": 12.73,
     "low": 0.22,
-    "avg7": 12.09,
-    "avg30": 7.0,
+    "avg7": 12.12,
+    "avg30": 7.02,
     "trendEUR": 11.37,
     "change7d": 0.7273,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6244,11 +6244,11 @@
     "marketValue": 2.37,
     "low": 0.1,
     "avg7": 2.76,
-    "avg30": 2.02,
+    "avg30": 2.03,
     "trendEUR": 2.12,
     "change7d": 0.3646,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6268,14 +6268,14 @@
    "cnId": 20137,
    "finish": "Standard",
    "cm": {
-    "marketValue": 205.9,
-    "low": 8.87,
-    "avg7": 82.4,
-    "avg30": 129.93,
+    "marketValue": 206.42,
+    "low": 8.89,
+    "avg7": 82.6,
+    "avg30": 130.25,
     "trendEUR": 184.42,
     "change7d": -0.3658,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6290,14 +6290,14 @@
    "cnId": 18401,
    "finish": "Standard",
    "cm": {
-    "marketValue": 59.31,
+    "marketValue": 59.46,
     "low": 0.56,
-    "avg7": 67.75,
-    "avg30": 31.79,
+    "avg7": 67.92,
+    "avg30": 31.87,
     "trendEUR": 53.12,
     "change7d": 1.1314,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6306,14 +6306,14 @@
    "cnId": 17053,
    "finish": "Standard",
    "cm": {
-    "marketValue": 140.11,
-    "low": 11.17,
-    "avg7": 129.99,
-    "avg30": 69.83,
+    "marketValue": 140.46,
+    "low": 11.19,
+    "avg7": 130.32,
+    "avg30": 70.0,
     "trendEUR": 125.49,
     "change7d": 0.8617,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6322,14 +6322,14 @@
    "cnId": 20440,
    "finish": "Standard",
    "cm": {
-    "marketValue": 99.26,
-    "low": 13.93,
-    "avg7": 127.28,
-    "avg30": 86.09,
+    "marketValue": 99.51,
+    "low": 13.97,
+    "avg7": 127.6,
+    "avg30": 86.31,
     "trendEUR": 88.9,
     "change7d": 0.4784,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6338,14 +6338,14 @@
    "cnId": 18700,
    "finish": "Standard",
    "cm": {
-    "marketValue": 196.77,
-    "low": 39.08,
-    "avg7": 94.89,
-    "avg30": 136.67,
+    "marketValue": 197.27,
+    "low": 39.18,
+    "avg7": 95.13,
+    "avg30": 137.01,
     "trendEUR": 176.24,
     "change7d": -0.3057,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6360,14 +6360,14 @@
    "cnId": 19807,
    "finish": "Standard",
    "cm": {
-    "marketValue": 152.08,
-    "low": 22.33,
-    "avg7": 203.33,
-    "avg30": 98.31,
+    "marketValue": 152.46,
+    "low": 22.39,
+    "avg7": 203.84,
+    "avg30": 98.55,
     "trendEUR": 136.21,
     "change7d": 1.0683,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6376,14 +6376,14 @@
    "cnId": 23005,
    "finish": "Standard",
    "cm": {
-    "marketValue": 7.66,
+    "marketValue": 7.68,
     "low": 1.12,
-    "avg7": 7.69,
-    "avg30": 5.98,
+    "avg7": 7.71,
+    "avg30": 6.0,
     "trendEUR": 6.86,
     "change7d": 0.2854,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6393,7 +6393,7 @@
      "n": 1
     },
     "na": {
-     "low": 0.7,
+     "low": 0.72,
      "cur": "USD",
      "n": 1
     }
@@ -6403,14 +6403,14 @@
    "cnId": 23916,
    "finish": "Standard",
    "cm": {
-    "marketValue": 20.01,
+    "marketValue": 20.06,
     "low": 1.11,
-    "avg7": 18.11,
-    "avg30": 11.76,
+    "avg7": 18.16,
+    "avg30": 11.79,
     "trendEUR": 17.92,
     "change7d": 0.5404,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6425,19 +6425,19 @@
    "cnId": 23936,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.28,
-    "low": 0.33,
-    "avg7": 1.19,
-    "avg30": 1.08,
+    "marketValue": 1.29,
+    "low": 0.34,
+    "avg7": 1.2,
+    "avg30": 1.09,
     "trendEUR": 1.15,
     "change7d": 0.1031,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 0.28,
+     "low": 0.3,
      "cur": "USD",
      "n": 20
     }
@@ -6447,14 +6447,14 @@
    "cnId": 19123,
    "finish": "Standard",
    "cm": {
-    "marketValue": 583.82,
-    "low": 389.66,
-    "avg7": 428.65,
-    "avg30": 354.41,
+    "marketValue": 585.28,
+    "low": 390.64,
+    "avg7": 429.72,
+    "avg30": 355.3,
     "trendEUR": 522.9,
     "change7d": 0.2095,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6463,14 +6463,14 @@
    "cnId": 25334,
    "finish": "Standard",
    "cm": {
-    "marketValue": 30.66,
-    "low": 27.91,
-    "avg7": 28.19,
-    "avg30": 17.79,
+    "marketValue": 30.74,
+    "low": 27.98,
+    "avg7": 28.26,
+    "avg30": 17.83,
     "trendEUR": 27.46,
     "change7d": 0.5851,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6479,14 +6479,14 @@
    "cnId": 20592,
    "finish": "Standard",
    "cm": {
-    "marketValue": 12.25,
-    "low": 1.67,
-    "avg7": 7.59,
-    "avg30": 8.68,
+    "marketValue": 12.28,
+    "low": 1.68,
+    "avg7": 7.61,
+    "avg30": 8.7,
     "trendEUR": 10.97,
     "change7d": -0.1248,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6508,12 +6508,12 @@
     "trendEUR": 0.25,
     "change7d": 0.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 0.25,
+     "low": 0.24,
      "cur": "EUR",
      "n": 2
     },
@@ -6535,7 +6535,7 @@
     "trendEUR": 0.23,
     "change7d": 0.2609,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6545,7 +6545,7 @@
      "n": 1
     },
     "na": {
-     "low": 0.59,
+     "low": 0.61,
      "cur": "USD",
      "n": 5
     }
@@ -6555,21 +6555,21 @@
    "cnId": 33774,
    "finish": "Standard",
    "cm": {
-    "marketValue": 36.49,
-    "low": 10.72,
-    "avg7": 28.75,
-    "avg30": 31.82,
+    "marketValue": 36.58,
+    "low": 10.75,
+    "avg7": 28.82,
+    "avg30": 31.9,
     "trendEUR": 32.68,
     "change7d": -0.0965,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 2.12,
+     "low": 2.13,
      "cur": "USD",
-     "n": 6
+     "n": 5
     }
    }
   },
@@ -6584,12 +6584,12 @@
     "trendEUR": 0.22,
     "change7d": -0.05,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 0.14,
+     "low": 0.12,
      "cur": "EUR",
      "n": 3
     },
@@ -6604,14 +6604,14 @@
    "cnId": 22088,
    "finish": "Standard",
    "cm": {
-    "marketValue": 20.11,
+    "marketValue": 20.16,
     "low": 0.56,
-    "avg7": 22.65,
-    "avg30": 16.41,
+    "avg7": 22.71,
+    "avg30": 16.45,
     "trendEUR": 18.01,
     "change7d": 0.3803,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6620,14 +6620,14 @@
    "cnId": 21373,
    "finish": "Standard",
    "cm": {
-    "marketValue": 29.9,
-    "low": 5.58,
-    "avg7": 33.07,
-    "avg30": 19.44,
+    "marketValue": 29.97,
+    "low": 5.6,
+    "avg7": 33.15,
+    "avg30": 19.49,
     "trendEUR": 26.78,
     "change7d": 0.7013,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6642,14 +6642,14 @@
    "cnId": 28785,
    "finish": "Standard",
    "cm": {
-    "marketValue": 8.23,
+    "marketValue": 8.25,
     "low": 0.16,
-    "avg7": 4.2,
-    "avg30": 4.16,
+    "avg7": 4.21,
+    "avg30": 4.17,
     "trendEUR": 7.37,
     "change7d": 0.008,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6659,7 +6659,7 @@
      "n": 1
     },
     "na": {
-     "low": 0.5,
+     "low": 1,
      "cur": "USD",
      "n": 1
     }
@@ -6669,14 +6669,14 @@
    "cnId": 210527,
    "finish": null,
    "cm": {
-    "marketValue": 748.6,
-    "low": 445.48,
-    "avg7": 657.14,
-    "avg30": 344.93,
+    "marketValue": 750.48,
+    "low": 446.6,
+    "avg7": 658.79,
+    "avg30": 345.8,
     "trendEUR": 670.49,
     "change7d": 0.9051,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6685,14 +6685,14 @@
    "cnId": 24663,
    "finish": null,
    "cm": {
-    "marketValue": 748.6,
-    "low": 445.48,
-    "avg7": 657.14,
-    "avg30": 344.93,
+    "marketValue": 750.48,
+    "low": 446.6,
+    "avg7": 658.79,
+    "avg30": 345.8,
     "trendEUR": 670.49,
     "change7d": 0.9051,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6701,14 +6701,14 @@
    "cnId": 159335,
    "finish": null,
    "cm": {
-    "marketValue": 332.74,
-    "low": 55.83,
-    "avg7": 556.01,
-    "avg30": 334.68,
+    "marketValue": 333.57,
+    "low": 55.96,
+    "avg7": 557.4,
+    "avg30": 335.52,
     "trendEUR": 298.02,
     "change7d": 0.6613,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6717,14 +6717,14 @@
    "cnId": 159335,
    "finish": null,
    "cm": {
-    "marketValue": 332.74,
-    "low": 55.83,
-    "avg7": 556.01,
-    "avg30": 334.68,
+    "marketValue": 333.57,
+    "low": 55.96,
+    "avg7": 557.4,
+    "avg30": 335.52,
     "trendEUR": 298.02,
     "change7d": 0.6613,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6733,14 +6733,14 @@
    "cnId": 158951,
    "finish": "Standard",
    "cm": {
-    "marketValue": 40.56,
-    "low": 15.63,
-    "avg7": 51.78,
-    "avg30": 47.64,
+    "marketValue": 40.66,
+    "low": 15.67,
+    "avg7": 51.91,
+    "avg30": 47.76,
     "trendEUR": 36.33,
     "change7d": 0.0869,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6755,14 +6755,14 @@
    "cnId": 158951,
    "finish": "Standard",
    "cm": {
-    "marketValue": 40.56,
-    "low": 15.63,
-    "avg7": 51.78,
-    "avg30": 47.64,
+    "marketValue": 40.66,
+    "low": 15.67,
+    "avg7": 51.91,
+    "avg30": 47.76,
     "trendEUR": 36.33,
     "change7d": 0.0869,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6777,14 +6777,14 @@
    "cnId": 24203,
    "finish": "Foil",
    "cm": {
-    "marketValue": 19.1,
-    "low": 2.23,
-    "avg7": 17.53,
-    "avg30": 16.65,
+    "marketValue": 19.15,
+    "low": 2.24,
+    "avg7": 17.57,
+    "avg30": 16.69,
     "trendEUR": 17.11,
     "change7d": 0.053,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6793,14 +6793,14 @@
    "cnId": 24208,
    "finish": "Foil",
    "cm": {
-    "marketValue": 106.5,
-    "low": 15.63,
-    "avg7": 116.91,
-    "avg30": 79.03,
+    "marketValue": 106.77,
+    "low": 15.67,
+    "avg7": 117.2,
+    "avg30": 79.22,
     "trendEUR": 95.39,
     "change7d": 0.4794,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6809,14 +6809,14 @@
    "cnId": 24209,
    "finish": "Foil",
    "cm": {
-    "marketValue": 527.84,
-    "low": 22.33,
-    "avg7": 387.41,
-    "avg30": 335.89,
+    "marketValue": 529.16,
+    "low": 22.39,
+    "avg7": 388.39,
+    "avg30": 336.73,
     "trendEUR": 472.76,
     "change7d": 0.1534,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6831,14 +6831,14 @@
    "cnId": 24210,
    "finish": "Foil",
    "cm": {
-    "marketValue": 46.55,
-    "low": 11.17,
-    "avg7": 33.18,
-    "avg30": 39.28,
+    "marketValue": 46.66,
+    "low": 11.19,
+    "avg7": 33.27,
+    "avg30": 39.38,
     "trendEUR": 41.69,
     "change7d": -0.1552,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6853,14 +6853,14 @@
    "cnId": 24211,
    "finish": "Foil",
    "cm": {
-    "marketValue": 295.92,
-    "low": 26.8,
-    "avg7": 471.16,
-    "avg30": 247.96,
+    "marketValue": 296.66,
+    "low": 26.86,
+    "avg7": 472.34,
+    "avg30": 248.59,
     "trendEUR": 265.04,
     "change7d": 0.9001,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6876,7 +6876,7 @@
     "trendEUR": 0.27,
     "change7d": -0.1034,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6903,7 +6903,7 @@
     "trendEUR": 0.27,
     "change7d": -0.1034,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -6923,14 +6923,14 @@
    "cnId": 23003,
    "finish": "Foil",
    "cm": {
-    "marketValue": 58.07,
-    "low": 34.6,
-    "avg7": 70.33,
-    "avg30": 92.84,
+    "marketValue": 58.21,
+    "low": 34.69,
+    "avg7": 70.5,
+    "avg30": 93.07,
     "trendEUR": 52.01,
     "change7d": -0.2425,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -6946,14 +6946,14 @@
    "cnId": 21910,
    "finish": "Foil",
    "cm": {
-    "marketValue": 29.78,
-    "low": 3.35,
-    "avg7": 22.22,
-    "avg30": 25.26,
+    "marketValue": 29.85,
+    "low": 3.36,
+    "avg7": 22.27,
+    "avg30": 25.32,
     "trendEUR": 26.67,
     "change7d": -0.1202,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -7023,14 +7023,14 @@
    "cnId": 155862,
    "finish": null,
    "cm": {
-    "marketValue": 123.46,
-    "low": 89.32,
-    "avg7": 122.22,
-    "avg30": 117.55,
+    "marketValue": 123.77,
+    "low": 89.54,
+    "avg7": 122.53,
+    "avg30": 117.84,
     "trendEUR": 110.58,
     "change7d": 0.0398,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7039,14 +7039,14 @@
    "cnId": 27255,
    "finish": "Foil",
    "cm": {
-    "marketValue": 16.98,
+    "marketValue": 17.02,
     "low": 1.12,
-    "avg7": 16.67,
-    "avg30": 16.29,
+    "avg7": 16.71,
+    "avg30": 16.33,
     "trendEUR": 15.21,
     "change7d": 0.0233,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -7061,14 +7061,14 @@
    "cnId": 27281,
    "finish": "Foil",
    "cm": {
-    "marketValue": 15.25,
-    "low": 5.57,
-    "avg7": 18.09,
-    "avg30": 17.47,
+    "marketValue": 15.29,
+    "low": 5.59,
+    "avg7": 18.13,
+    "avg30": 17.52,
     "trendEUR": 13.66,
     "change7d": 0.0351,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -7083,14 +7083,14 @@
    "cnId": 27286,
    "finish": "Foil",
    "cm": {
-    "marketValue": 106.09,
-    "low": 20.09,
-    "avg7": 123.3,
-    "avg30": 69.0,
+    "marketValue": 106.36,
+    "low": 20.14,
+    "avg7": 123.6,
+    "avg30": 69.17,
     "trendEUR": 95.02,
     "change7d": 0.7869,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -7105,14 +7105,14 @@
    "cnId": 22002,
    "finish": null,
    "cm": {
-    "marketValue": 57.7,
-    "low": 11.05,
-    "avg7": 62.55,
-    "avg30": 48.71,
+    "marketValue": 57.85,
+    "low": 11.08,
+    "avg7": 62.7,
+    "avg30": 48.84,
     "trendEUR": 51.68,
     "change7d": 0.284,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7121,14 +7121,14 @@
    "cnId": 224134,
    "finish": null,
    "cm": {
-    "marketValue": 759.06,
+    "marketValue": 760.97,
     "low": null,
     "avg7": null,
     "avg30": null,
     "trendEUR": 679.86,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7144,14 +7144,14 @@
    "cnId": 27193,
    "finish": "Foil",
    "cm": {
-    "marketValue": 76.41,
-    "low": 5.58,
-    "avg7": 59.72,
-    "avg30": 69.56,
+    "marketValue": 76.6,
+    "low": 5.6,
+    "avg7": 59.87,
+    "avg30": 69.73,
     "trendEUR": 68.44,
     "change7d": -0.1414,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -7166,14 +7166,14 @@
    "cnId": 155545,
    "finish": null,
    "cm": {
-    "marketValue": 9.07,
-    "low": 3.53,
-    "avg7": 10.54,
-    "avg30": 8.09,
+    "marketValue": 9.09,
+    "low": 3.54,
+    "avg7": 10.57,
+    "avg30": 8.11,
     "trendEUR": 8.12,
     "change7d": 0.3021,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7182,14 +7182,14 @@
    "cnId": 26868,
    "finish": "Foil",
    "cm": {
-    "marketValue": 180.49,
-    "low": 16.69,
-    "avg7": 101.32,
-    "avg30": 96.66,
+    "marketValue": 180.95,
+    "low": 16.73,
+    "avg7": 101.58,
+    "avg30": 96.9,
     "trendEUR": 161.66,
     "change7d": 0.0483,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -7204,14 +7204,14 @@
    "cnId": 26885,
    "finish": "Foil",
    "cm": {
-    "marketValue": 759.99,
-    "low": 133.98,
-    "avg7": 434.31,
-    "avg30": 885.66,
+    "marketValue": 761.9,
+    "low": 134.32,
+    "avg7": 435.4,
+    "avg30": 887.88,
     "trendEUR": 680.69,
     "change7d": -0.5096,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -7226,14 +7226,14 @@
    "cnId": 26891,
    "finish": "Foil",
    "cm": {
-    "marketValue": 62.58,
-    "low": 16.75,
-    "avg7": 47.57,
-    "avg30": 87.58,
+    "marketValue": 62.74,
+    "low": 16.79,
+    "avg7": 47.69,
+    "avg30": 87.8,
     "trendEUR": 56.05,
     "change7d": -0.4568,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -7248,14 +7248,14 @@
    "cnId": 223959,
    "finish": null,
    "cm": {
-    "marketValue": 134.61,
-    "low": 111.65,
+    "marketValue": 134.94,
+    "low": 111.93,
     "avg7": null,
     "avg30": null,
     "trendEUR": 120.56,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7264,21 +7264,21 @@
    "cnId": 28076,
    "finish": "Foil",
    "cm": {
-    "marketValue": 4.7,
+    "marketValue": 4.71,
     "low": 0.56,
-    "avg7": 4.96,
-    "avg30": 4.69,
+    "avg7": 4.97,
+    "avg30": 4.7,
     "trendEUR": 4.21,
     "change7d": 0.0571,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
      "low": 6.52,
      "cur": "USD",
-     "n": 2
+     "n": 1
     }
    }
   },
@@ -7286,14 +7286,14 @@
    "cnId": 28075,
    "finish": "Foil",
    "cm": {
-    "marketValue": 3.01,
+    "marketValue": 3.02,
     "low": 0.39,
-    "avg7": 3.15,
-    "avg30": 3.63,
+    "avg7": 3.16,
+    "avg30": 3.64,
     "trendEUR": 2.7,
     "change7d": -0.1323,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -7308,14 +7308,14 @@
    "cnId": 223956,
    "finish": null,
    "cm": {
-    "marketValue": 125.17,
-    "low": 390.72,
+    "marketValue": 125.48,
+    "low": 391.7,
     "avg7": null,
     "avg30": null,
     "trendEUR": 112.11,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7338,14 +7338,14 @@
    "cnId": 158628,
    "finish": null,
    "cm": {
-    "marketValue": 279.16,
-    "low": 279.11,
-    "avg7": 321.91,
-    "avg30": 321.91,
+    "marketValue": 279.86,
+    "low": 279.81,
+    "avg7": 322.72,
+    "avg30": 322.72,
     "trendEUR": 250.03,
     "change7d": 0.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7354,24 +7354,24 @@
    "cnId": 31309,
    "finish": "Foil",
    "cm": {
-    "marketValue": 11.21,
-    "low": 3.24,
-    "avg7": 6.64,
-    "avg30": 7.6,
+    "marketValue": 11.24,
+    "low": 3.25,
+    "avg7": 6.66,
+    "avg30": 7.62,
     "trendEUR": 10.04,
     "change7d": -0.1263,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 5.82,
+     "low": 5.8,
      "cur": "EUR",
      "n": 2
     },
     "na": {
-     "low": 7.86,
+     "low": 7.85,
      "cur": "USD",
      "n": 7
     }
@@ -7381,14 +7381,14 @@
    "cnId": 128517,
    "finish": "Foil",
    "cm": {
-    "marketValue": 31.04,
-    "low": 7.82,
-    "avg7": 32.86,
-    "avg30": 30.74,
+    "marketValue": 31.12,
+    "low": 7.84,
+    "avg7": 32.94,
+    "avg30": 30.81,
     "trendEUR": 27.8,
     "change7d": 0.069,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -7403,14 +7403,14 @@
    "cnId": 31266,
    "finish": "Foil",
    "cm": {
-    "marketValue": 2.61,
+    "marketValue": 2.62,
     "low": 0.56,
-    "avg7": 2.77,
-    "avg30": 2.98,
+    "avg7": 2.78,
+    "avg30": 2.99,
     "trendEUR": 2.34,
     "change7d": -0.0712,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -7425,14 +7425,14 @@
    "cnId": 31291,
    "finish": "Foil",
    "cm": {
-    "marketValue": 25.36,
-    "low": 5.58,
-    "avg7": 46.51,
-    "avg30": 22.88,
+    "marketValue": 25.42,
+    "low": 5.6,
+    "avg7": 46.63,
+    "avg30": 22.93,
     "trendEUR": 22.71,
     "change7d": 1.0332,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -7447,14 +7447,14 @@
    "cnId": 158080,
    "finish": "Foil",
    "cm": {
-    "marketValue": 46.51,
-    "low": 27.35,
-    "avg7": 57.96,
-    "avg30": 63.7,
+    "marketValue": 46.63,
+    "low": 27.42,
+    "avg7": 58.1,
+    "avg30": 63.86,
     "trendEUR": 41.66,
     "change7d": -0.0901,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -7488,14 +7488,14 @@
    "cnId": 221899,
    "finish": null,
    "cm": {
-    "marketValue": 21.34,
-    "low": 15.63,
+    "marketValue": 21.39,
+    "low": 15.67,
     "avg7": null,
     "avg30": null,
     "trendEUR": 19.11,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7504,14 +7504,14 @@
    "cnId": 158517,
    "finish": "Foil",
    "cm": {
-    "marketValue": 18.73,
+    "marketValue": 18.78,
     "low": 0.21,
-    "avg7": 15.87,
-    "avg30": 15.35,
+    "avg7": 15.91,
+    "avg30": 15.39,
     "trendEUR": 16.78,
     "change7d": 0.0335,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7520,14 +7520,14 @@
    "cnId": 159385,
    "finish": null,
    "cm": {
-    "marketValue": 41.47,
-    "low": 33.5,
-    "avg7": 35.91,
-    "avg30": 35.91,
+    "marketValue": 41.57,
+    "low": 33.58,
+    "avg7": 36.0,
+    "avg30": 36.0,
     "trendEUR": 37.14,
     "change7d": 0.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7536,14 +7536,14 @@
    "cnId": 159465,
    "finish": null,
    "cm": {
-    "marketValue": 44.77,
-    "low": 39.08,
-    "avg7": 48.63,
-    "avg30": 48.63,
+    "marketValue": 44.88,
+    "low": 39.18,
+    "avg7": 48.76,
+    "avg30": 48.76,
     "trendEUR": 40.1,
     "change7d": 0.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7552,14 +7552,14 @@
    "cnId": 32066,
    "finish": "Foil",
    "cm": {
-    "marketValue": 1.66,
+    "marketValue": 1.67,
     "low": 0.28,
-    "avg7": 1.67,
-    "avg30": 1.67,
+    "avg7": 1.68,
+    "avg30": 1.68,
     "trendEUR": 1.49,
     "change7d": 0.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -7579,19 +7579,19 @@
    "cnId": 32067,
    "finish": "Foil",
    "cm": {
-    "marketValue": 7.9,
-    "low": 2.79,
-    "avg7": 7.94,
-    "avg30": 7.57,
+    "marketValue": 7.92,
+    "low": 2.8,
+    "avg7": 7.96,
+    "avg30": 7.59,
     "trendEUR": 7.08,
     "change7d": 0.0487,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 11.85,
+     "low": 11.83,
      "cur": "EUR",
      "n": 1
     },
@@ -7606,14 +7606,14 @@
    "cnId": 223035,
    "finish": null,
    "cm": {
-    "marketValue": 246.77,
-    "low": 837.38,
+    "marketValue": 247.39,
+    "low": 839.48,
     "avg7": null,
     "avg30": null,
     "trendEUR": 221.02,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7622,14 +7622,14 @@
    "cnId": 156206,
    "finish": "Foil",
    "cm": {
-    "marketValue": 8.41,
-    "low": 6.7,
-    "avg7": 7.87,
-    "avg30": 8.43,
+    "marketValue": 8.43,
+    "low": 6.72,
+    "avg7": 7.89,
+    "avg30": 8.45,
     "trendEUR": 7.53,
     "change7d": -0.0662,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -7644,14 +7644,14 @@
    "cnId": 156226,
    "finish": "Foil",
    "cm": {
-    "marketValue": 23.81,
-    "low": 9.27,
-    "avg7": 12.91,
-    "avg30": 13.04,
+    "marketValue": 23.87,
+    "low": 9.29,
+    "avg7": 12.94,
+    "avg30": 13.07,
     "trendEUR": 21.33,
     "change7d": -0.0103,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -7666,14 +7666,14 @@
    "cnId": 157019,
    "finish": null,
    "cm": {
-    "marketValue": 24.76,
-    "low": 22.22,
-    "avg7": 24.74,
-    "avg30": 19.82,
+    "marketValue": 24.83,
+    "low": 22.27,
+    "avg7": 24.8,
+    "avg30": 19.87,
     "trendEUR": 22.18,
     "change7d": 0.2485,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7689,7 +7689,7 @@
     "trendEUR": 0.02,
     "change7d": -0.8611,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7705,7 +7705,7 @@
     "trendEUR": 0.45,
     "change7d": 0.5882,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7716,12 +7716,12 @@
    "cm": {
     "marketValue": 0.32,
     "low": 0.2,
-    "avg7": 0.33,
-    "avg30": 0.33,
+    "avg7": 0.34,
+    "avg30": 0.34,
     "trendEUR": 0.29,
     "change7d": 0.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7730,14 +7730,14 @@
    "cnId": 181895,
    "finish": "Foil",
    "cm": {
-    "marketValue": 1.66,
+    "marketValue": 1.67,
     "low": 0.39,
-    "avg7": 1.66,
-    "avg30": 1.66,
+    "avg7": 1.67,
+    "avg30": 1.67,
     "trendEUR": 1.49,
     "change7d": 0.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7767,7 +7767,7 @@
     "trendEUR": 0.05,
     "change7d": 0.2,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7783,7 +7783,7 @@
     "trendEUR": 0.91,
     "change7d": 0.2179,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7792,14 +7792,14 @@
    "cnId": 191589,
    "finish": "Foil",
    "cm": {
-    "marketValue": 10.36,
-    "low": 6.59,
-    "avg7": 10.64,
-    "avg30": 10.16,
+    "marketValue": 10.39,
+    "low": 6.6,
+    "avg7": 10.67,
+    "avg30": 10.19,
     "trendEUR": 9.28,
     "change7d": 0.0473,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7815,7 +7815,7 @@
     "trendEUR": 0.06,
     "change7d": 0.5,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7826,12 +7826,12 @@
    "cm": {
     "marketValue": 1.32,
     "low": 0.02,
-    "avg7": 3.97,
+    "avg7": 3.98,
     "avg30": 0.98,
     "trendEUR": 1.18,
     "change7d": 3.0455,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7840,14 +7840,14 @@
    "cnId": 186851,
    "finish": null,
    "cm": {
-    "marketValue": 154.2,
-    "low": 66.98,
-    "avg7": 138.59,
-    "avg30": 143.88,
+    "marketValue": 154.59,
+    "low": 67.15,
+    "avg7": 138.94,
+    "avg30": 144.24,
     "trendEUR": 138.11,
     "change7d": -0.0368,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7863,7 +7863,7 @@
     "trendEUR": 0.37,
     "change7d": -0.2436,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7872,14 +7872,14 @@
    "cnId": 202794,
    "finish": "Foil",
    "cm": {
-    "marketValue": 4.66,
-    "low": 0.33,
-    "avg7": 2.82,
-    "avg30": 2.04,
+    "marketValue": 4.67,
+    "low": 0.34,
+    "avg7": 2.83,
+    "avg30": 2.05,
     "trendEUR": 4.17,
     "change7d": 0.3825,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7888,14 +7888,14 @@
    "cnId": 202828,
    "finish": null,
    "cm": {
-    "marketValue": 9.76,
-    "low": 4.24,
-    "avg7": 7.56,
-    "avg30": 8.47,
+    "marketValue": 9.78,
+    "low": 4.25,
+    "avg7": 7.58,
+    "avg30": 8.5,
     "trendEUR": 8.74,
     "change7d": -0.108,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7904,14 +7904,14 @@
    "cnId": 202865,
    "finish": null,
    "cm": {
-    "marketValue": 23.4,
-    "low": 11.17,
-    "avg7": 22.54,
-    "avg30": 18.31,
+    "marketValue": 23.46,
+    "low": 11.19,
+    "avg7": 22.6,
+    "avg30": 18.36,
     "trendEUR": 20.96,
     "change7d": 0.2311,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7920,14 +7920,14 @@
    "cnId": 199060,
    "finish": null,
    "cm": {
-    "marketValue": 12.76,
-    "low": 5.58,
-    "avg7": 7.5,
-    "avg30": 10.71,
+    "marketValue": 12.79,
+    "low": 5.6,
+    "avg7": 7.52,
+    "avg30": 10.73,
     "trendEUR": 11.43,
     "change7d": -0.2993,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7936,14 +7936,14 @@
    "cnId": 199055,
    "finish": null,
    "cm": {
-    "marketValue": 2.87,
-    "low": 1.65,
+    "marketValue": 2.88,
+    "low": 1.66,
     "avg7": 2.74,
     "avg30": 2.29,
     "trendEUR": 2.57,
     "change7d": 0.1951,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7952,14 +7952,14 @@
    "cnId": 208659,
    "finish": null,
    "cm": {
-    "marketValue": 2.11,
+    "marketValue": 2.12,
     "low": 2.18,
-    "avg7": 2.11,
+    "avg7": 2.12,
     "avg30": 2.17,
     "trendEUR": 1.89,
     "change7d": -0.0258,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7968,14 +7968,14 @@
    "cnId": 208646,
    "finish": "Foil",
    "cm": {
-    "marketValue": 12.83,
-    "low": 5.57,
-    "avg7": 11.4,
-    "avg30": 10.83,
+    "marketValue": 12.86,
+    "low": 5.59,
+    "avg7": 11.43,
+    "avg30": 10.86,
     "trendEUR": 11.49,
     "change7d": 0.0526,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -7998,7 +7998,7 @@
     "trendEUR": 0.11,
     "change7d": -0.3529,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8007,14 +8007,14 @@
    "cnId": 195619,
    "finish": null,
    "cm": {
-    "marketValue": 1.64,
-    "low": 1.0,
-    "avg7": 1.36,
+    "marketValue": 1.65,
+    "low": 1.01,
+    "avg7": 1.37,
     "avg30": 1.59,
     "trendEUR": 1.47,
     "change7d": -0.1408,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8040,11 +8040,11 @@
     "marketValue": 1.44,
     "low": 0.67,
     "avg7": 1.81,
-    "avg30": 1.28,
+    "avg30": 1.29,
     "trendEUR": 1.29,
     "change7d": 0.4087,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8053,14 +8053,14 @@
    "cnId": 203543,
    "finish": "Foil",
    "cm": {
-    "marketValue": 4.25,
-    "low": 2.23,
-    "avg7": 3.39,
-    "avg30": 4.12,
+    "marketValue": 4.26,
+    "low": 2.24,
+    "avg7": 3.4,
+    "avg30": 4.13,
     "trendEUR": 3.81,
     "change7d": -0.1762,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8071,12 +8071,12 @@
    "cm": {
     "marketValue": 0.25,
     "low": 0.11,
-    "avg7": 0.23,
-    "avg30": 0.33,
+    "avg7": 0.24,
+    "avg30": 0.34,
     "trendEUR": 0.22,
     "change7d": -0.3,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8085,14 +8085,14 @@
    "cnId": 203619,
    "finish": null,
    "cm": {
-    "marketValue": 1.67,
+    "marketValue": 1.68,
     "low": 0.73,
-    "avg7": 1.65,
+    "avg7": 1.66,
     "avg30": 1.71,
     "trendEUR": 1.5,
     "change7d": -0.0327,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8101,14 +8101,14 @@
    "cnId": 188119,
    "finish": null,
    "cm": {
-    "marketValue": 4.68,
+    "marketValue": 4.69,
     "low": 0.22,
-    "avg7": 7.87,
-    "avg30": 8.07,
+    "avg7": 7.89,
+    "avg30": 8.09,
     "trendEUR": 4.19,
     "change7d": -0.0249,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8117,14 +8117,14 @@
    "cnId": 188114,
    "finish": null,
    "cm": {
-    "marketValue": 102.58,
-    "low": 41.31,
-    "avg7": 92.74,
-    "avg30": 104.09,
+    "marketValue": 102.84,
+    "low": 41.41,
+    "avg7": 92.97,
+    "avg30": 104.35,
     "trendEUR": 91.88,
     "change7d": -0.1091,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8133,14 +8133,14 @@
    "cnId": 192996,
    "finish": "Foil",
    "cm": {
-    "marketValue": 50.05,
-    "low": 8.92,
-    "avg7": 33.93,
-    "avg30": 45.41,
+    "marketValue": 50.18,
+    "low": 8.94,
+    "avg7": 34.02,
+    "avg30": 45.52,
     "trendEUR": 44.83,
     "change7d": -0.2528,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8149,14 +8149,14 @@
    "cnId": 193011,
    "finish": "Standard",
    "cm": {
-    "marketValue": 5.25,
-    "low": 2.12,
-    "avg7": 4.18,
-    "avg30": 5.66,
+    "marketValue": 5.26,
+    "low": 2.13,
+    "avg7": 4.19,
+    "avg30": 5.67,
     "trendEUR": 4.7,
     "change7d": -0.2623,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8165,14 +8165,14 @@
    "cnId": 189828,
    "finish": "Standard",
    "cm": {
-    "marketValue": 5.43,
+    "marketValue": 5.44,
     "low": 0.54,
-    "avg7": 5.9,
-    "avg30": 4.59,
+    "avg7": 5.91,
+    "avg30": 4.6,
     "trendEUR": 4.86,
     "change7d": 0.2847,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8181,14 +8181,14 @@
    "cnId": 189844,
    "finish": null,
    "cm": {
-    "marketValue": 30.9,
-    "low": 10.61,
-    "avg7": 26.47,
-    "avg30": 34.44,
+    "marketValue": 30.98,
+    "low": 10.63,
+    "avg7": 26.54,
+    "avg30": 34.53,
     "trendEUR": 27.68,
     "change7d": -0.2314,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8197,14 +8197,14 @@
    "cnId": 208538,
    "finish": "Standard",
    "cm": {
-    "marketValue": 66.55,
-    "low": 16.75,
-    "avg7": 60.15,
-    "avg30": 36.21,
+    "marketValue": 66.72,
+    "low": 16.79,
+    "avg7": 60.3,
+    "avg30": 36.3,
     "trendEUR": 59.61,
     "change7d": 0.6611,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8215,12 +8215,12 @@
    "cm": {
     "marketValue": 0.25,
     "low": 0.03,
-    "avg7": 0.23,
+    "avg7": 0.24,
     "avg30": 0.26,
     "trendEUR": 0.22,
     "change7d": -0.087,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8236,7 +8236,7 @@
     "trendEUR": 0.06,
     "change7d": 0.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8245,14 +8245,14 @@
    "cnId": 189047,
    "finish": null,
    "cm": {
-    "marketValue": 72.56,
-    "low": 27.86,
-    "avg7": 67.85,
-    "avg30": 72.56,
+    "marketValue": 72.74,
+    "low": 27.93,
+    "avg7": 68.02,
+    "avg30": 72.74,
     "trendEUR": 64.99,
     "change7d": -0.0649,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8261,14 +8261,14 @@
    "cnId": 189050,
    "finish": "Standard",
    "cm": {
-    "marketValue": 4.49,
-    "low": 1.09,
-    "avg7": 5.42,
-    "avg30": 4.63,
+    "marketValue": 4.5,
+    "low": 1.1,
+    "avg7": 5.43,
+    "avg30": 4.65,
     "trendEUR": 4.02,
     "change7d": 0.1687,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8291,14 +8291,14 @@
    "cnId": 206737,
    "finish": null,
    "cm": {
-    "marketValue": 41.28,
-    "low": 15.62,
-    "avg7": 42.52,
-    "avg30": 37.96,
+    "marketValue": 41.38,
+    "low": 15.66,
+    "avg7": 42.62,
+    "avg30": 38.06,
     "trendEUR": 36.97,
     "change7d": 0.12,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8307,14 +8307,14 @@
    "cnId": 206751,
    "finish": "Foil",
    "cm": {
-    "marketValue": 94.65,
-    "low": 41.87,
-    "avg7": 97.21,
-    "avg30": 108.64,
+    "marketValue": 94.88,
+    "low": 41.97,
+    "avg7": 97.46,
+    "avg30": 108.91,
     "trendEUR": 84.77,
     "change7d": -0.1051,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8330,7 +8330,7 @@
     "trendEUR": 0.87,
     "change7d": -0.0862,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8339,14 +8339,14 @@
    "cnId": 191201,
    "finish": null,
    "cm": {
-    "marketValue": 13.89,
-    "low": 5.3,
-    "avg7": 11.56,
-    "avg30": 5.97,
+    "marketValue": 13.92,
+    "low": 5.32,
+    "avg7": 11.58,
+    "avg30": 5.99,
     "trendEUR": 12.44,
     "change7d": 0.9346,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8355,14 +8355,14 @@
    "cnId": 191209,
    "finish": null,
    "cm": {
-    "marketValue": 10.32,
-    "low": 3.35,
-    "avg7": 12.0,
-    "avg30": 6.78,
+    "marketValue": 10.34,
+    "low": 3.36,
+    "avg7": 12.03,
+    "avg30": 6.79,
     "trendEUR": 9.24,
     "change7d": 0.771,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8371,14 +8371,14 @@
    "cnId": 195937,
    "finish": null,
    "cm": {
-    "marketValue": 4.73,
+    "marketValue": 4.75,
     "low": null,
     "avg7": 2.95,
     "avg30": 2.95,
     "trendEUR": 4.24,
     "change7d": 0.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8387,14 +8387,14 @@
    "cnId": 195932,
    "finish": null,
    "cm": {
-    "marketValue": 5.4,
-    "low": 5.57,
-    "avg7": 6.01,
-    "avg30": 6.01,
+    "marketValue": 5.42,
+    "low": 5.59,
+    "avg7": 6.02,
+    "avg30": 6.02,
     "trendEUR": 4.84,
     "change7d": 0.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8404,13 +8404,13 @@
    "finish": null,
    "cm": {
     "marketValue": 2.36,
-    "low": 0.89,
+    "low": 0.9,
     "avg7": 2.38,
     "avg30": 1.99,
     "trendEUR": 2.11,
     "change7d": 0.1966,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8420,13 +8420,13 @@
    "finish": null,
    "cm": {
     "marketValue": 2.36,
-    "low": 0.89,
+    "low": 0.9,
     "avg7": 2.38,
     "avg30": 1.99,
     "trendEUR": 2.11,
     "change7d": 0.1966,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8435,14 +8435,14 @@
    "cnId": 208285,
    "finish": null,
    "cm": {
-    "marketValue": 162.0,
-    "low": 39.08,
-    "avg7": 149.8,
-    "avg30": 141.78,
+    "marketValue": 162.41,
+    "low": 39.18,
+    "avg7": 150.18,
+    "avg30": 142.14,
     "trendEUR": 145.1,
     "change7d": 0.0565,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8454,11 +8454,11 @@
     "marketValue": 2.01,
     "low": 0.5,
     "avg7": 1.72,
-    "avg30": 1.38,
+    "avg30": 1.39,
     "trendEUR": 1.8,
     "change7d": 0.2419,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8467,14 +8467,14 @@
    "cnId": 205295,
    "finish": null,
    "cm": {
-    "marketValue": 66.35,
-    "low": 27.86,
-    "avg7": 48.47,
-    "avg30": 54.69,
+    "marketValue": 66.52,
+    "low": 27.93,
+    "avg7": 48.59,
+    "avg30": 54.82,
     "trendEUR": 59.43,
     "change7d": -0.1137,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8483,14 +8483,14 @@
    "cnId": 205279,
    "finish": null,
    "cm": {
-    "marketValue": 43.31,
-    "low": 8.68,
-    "avg7": 39.22,
-    "avg30": 22.27,
+    "marketValue": 43.42,
+    "low": 8.7,
+    "avg7": 39.32,
+    "avg30": 22.33,
     "trendEUR": 38.79,
     "change7d": 0.7609,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8499,14 +8499,14 @@
    "cnId": 193282,
    "finish": null,
    "cm": {
-    "marketValue": 4.49,
-    "low": 4.41,
-    "avg7": 5.21,
-    "avg30": 3.44,
+    "marketValue": 4.5,
+    "low": 4.42,
+    "avg7": 5.23,
+    "avg30": 3.45,
     "trendEUR": 4.02,
     "change7d": 0.5162,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8515,14 +8515,14 @@
    "cnId": 193281,
    "finish": null,
    "cm": {
-    "marketValue": 19.23,
-    "low": 3.34,
-    "avg7": 16.95,
-    "avg30": 12.17,
+    "marketValue": 19.27,
+    "low": 3.35,
+    "avg7": 16.99,
+    "avg30": 12.2,
     "trendEUR": 17.22,
     "change7d": 0.3927,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8532,13 +8532,13 @@
    "finish": null,
    "cm": {
     "marketValue": 2.65,
-    "low": 0.33,
+    "low": 0.34,
     "avg7": 0.93,
-    "avg30": 3.1,
+    "avg30": 3.11,
     "trendEUR": 2.37,
     "change7d": -0.7014,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8548,13 +8548,13 @@
    "finish": null,
    "cm": {
     "marketValue": 2.65,
-    "low": 0.33,
+    "low": 0.34,
     "avg7": 0.93,
-    "avg30": 3.1,
+    "avg30": 3.11,
     "trendEUR": 2.37,
     "change7d": -0.7014,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8563,14 +8563,14 @@
    "cnId": 197594,
    "finish": null,
    "cm": {
-    "marketValue": 36.06,
-    "low": 7.26,
-    "avg7": 32.18,
-    "avg30": 28.74,
+    "marketValue": 36.15,
+    "low": 7.28,
+    "avg7": 32.26,
+    "avg30": 28.81,
     "trendEUR": 32.3,
     "change7d": 0.1197,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8579,14 +8579,14 @@
    "cnId": 197612,
    "finish": "Standard",
    "cm": {
-    "marketValue": 2.14,
+    "marketValue": 2.15,
     "low": 0.17,
     "avg7": 1.71,
-    "avg30": 0.9,
+    "avg30": 0.91,
     "trendEUR": 1.92,
     "change7d": 0.8889,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8602,14 +8602,14 @@
    "cnId": 188858,
    "finish": "Standard",
    "cm": {
-    "marketValue": 11.22,
+    "marketValue": 11.25,
     "low": 2.45,
-    "avg7": 9.14,
-    "avg30": 8.18,
+    "avg7": 9.17,
+    "avg30": 8.2,
     "trendEUR": 10.05,
     "change7d": 0.1173,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8618,14 +8618,14 @@
    "cnId": 188858,
    "finish": "Standard",
    "cm": {
-    "marketValue": 11.22,
+    "marketValue": 11.25,
     "low": 2.45,
-    "avg7": 9.14,
-    "avg30": 8.18,
+    "avg7": 9.17,
+    "avg30": 8.2,
     "trendEUR": 10.05,
     "change7d": 0.1173,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8634,14 +8634,14 @@
    "cnId": 188876,
    "finish": null,
    "cm": {
-    "marketValue": 16.59,
-    "low": 5.58,
-    "avg7": 17.43,
-    "avg30": 14.34,
+    "marketValue": 16.63,
+    "low": 5.6,
+    "avg7": 17.47,
+    "avg30": 14.37,
     "trendEUR": 14.86,
     "change7d": 0.2157,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8650,14 +8650,14 @@
    "cnId": 188876,
    "finish": null,
    "cm": {
-    "marketValue": 16.59,
-    "low": 5.58,
-    "avg7": 17.43,
-    "avg30": 14.34,
+    "marketValue": 16.63,
+    "low": 5.6,
+    "avg7": 17.47,
+    "avg30": 14.37,
     "trendEUR": 14.86,
     "change7d": 0.2157,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8666,14 +8666,14 @@
    "cnId": 183207,
    "finish": null,
    "cm": {
-    "marketValue": 3.76,
+    "marketValue": 3.77,
     "low": 0.56,
-    "avg7": 3.86,
-    "avg30": 3.27,
+    "avg7": 3.87,
+    "avg30": 3.28,
     "trendEUR": 3.37,
     "change7d": 0.1809,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8682,14 +8682,14 @@
    "cnId": 183192,
    "finish": null,
    "cm": {
-    "marketValue": 69.89,
-    "low": 12.84,
-    "avg7": 65.71,
-    "avg30": 60.28,
+    "marketValue": 70.07,
+    "low": 12.87,
+    "avg7": 65.87,
+    "avg30": 60.43,
     "trendEUR": 62.6,
     "change7d": 0.09,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8698,14 +8698,14 @@
    "cnId": 188427,
    "finish": null,
    "cm": {
-    "marketValue": 12.63,
-    "low": 47.4,
-    "avg7": 11.47,
-    "avg30": 8.83,
+    "marketValue": 12.66,
+    "low": 47.51,
+    "avg7": 11.5,
+    "avg30": 8.85,
     "trendEUR": 11.31,
     "change7d": 0.2984,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8714,14 +8714,14 @@
    "cnId": 188769,
    "finish": null,
    "cm": {
-    "marketValue": 9.98,
-    "low": 4.45,
-    "avg7": 14.09,
-    "avg30": 16.16,
+    "marketValue": 10.01,
+    "low": 4.47,
+    "avg7": 14.13,
+    "avg30": 16.2,
     "trendEUR": 8.94,
     "change7d": -0.1279,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8730,14 +8730,14 @@
    "cnId": 190443,
    "finish": null,
    "cm": {
-    "marketValue": 17.35,
-    "low": 4.47,
-    "avg7": 16.91,
-    "avg30": 11.03,
+    "marketValue": 17.39,
+    "low": 4.48,
+    "avg7": 16.96,
+    "avg30": 11.06,
     "trendEUR": 15.54,
     "change7d": 0.5334,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8746,14 +8746,14 @@
    "cnId": 190438,
    "finish": null,
    "cm": {
-    "marketValue": 12.61,
-    "low": 10.05,
-    "avg7": 35.21,
-    "avg30": 41.33,
+    "marketValue": 12.64,
+    "low": 10.07,
+    "avg7": 35.3,
+    "avg30": 41.44,
     "trendEUR": 11.29,
     "change7d": -0.148,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8762,14 +8762,14 @@
    "cnId": 188359,
    "finish": null,
    "cm": {
-    "marketValue": 6.63,
+    "marketValue": 6.65,
     "low": 1.12,
-    "avg7": 6.86,
-    "avg30": 4.89,
+    "avg7": 6.87,
+    "avg30": 4.9,
     "trendEUR": 5.94,
     "change7d": 0.4018,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8778,14 +8778,14 @@
    "cnId": 188359,
    "finish": null,
    "cm": {
-    "marketValue": 6.63,
+    "marketValue": 6.65,
     "low": 1.12,
-    "avg7": 6.86,
-    "avg30": 4.89,
+    "avg7": 6.87,
+    "avg30": 4.9,
     "trendEUR": 5.94,
     "change7d": 0.4018,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8794,14 +8794,14 @@
    "cnId": 193207,
    "finish": null,
    "cm": {
-    "marketValue": 2.51,
+    "marketValue": 2.52,
     "low": 0.84,
     "avg7": 2.66,
-    "avg30": 2.91,
+    "avg30": 2.92,
     "trendEUR": 2.25,
     "change7d": -0.0881,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8817,7 +8817,7 @@
     "trendEUR": 1.6,
     "change7d": -0.187,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8833,7 +8833,7 @@
     "trendEUR": 1.6,
     "change7d": -0.187,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8849,7 +8849,7 @@
     "trendEUR": 0.05,
     "change7d": 0.25,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8858,14 +8858,14 @@
    "cnId": 204896,
    "finish": "Foil",
    "cm": {
-    "marketValue": 0.23,
+    "marketValue": 0.24,
     "low": 0.02,
     "avg7": 0.18,
     "avg30": 0.13,
     "trendEUR": 0.21,
     "change7d": 0.3333,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8881,17 +8881,17 @@
     "trendEUR": 0.11,
     "change7d": -0.0769,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 0.39,
+     "low": 0.37,
      "cur": "EUR",
      "n": 2
     },
     "na": {
-     "low": 0.34,
+     "low": 0.37,
      "cur": "USD",
      "n": 19
     }
@@ -8908,17 +8908,17 @@
     "trendEUR": 0.11,
     "change7d": -0.0769,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 0.39,
+     "low": 0.37,
      "cur": "EUR",
      "n": 2
     },
     "na": {
-     "low": 0.34,
+     "low": 0.37,
      "cur": "USD",
      "n": 19
     }
@@ -8928,14 +8928,14 @@
    "cnId": 184588,
    "finish": null,
    "cm": {
-    "marketValue": 307.74,
-    "low": 189.81,
-    "avg7": 338.44,
-    "avg30": 366.12,
+    "marketValue": 308.51,
+    "low": 190.28,
+    "avg7": 339.29,
+    "avg30": 367.04,
     "trendEUR": 275.63,
     "change7d": -0.0756,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8964,14 +8964,14 @@
    "cnId": 179390,
    "finish": null,
    "cm": {
-    "marketValue": 10.04,
-    "low": 8.26,
-    "avg7": 4.53,
-    "avg30": 4.53,
+    "marketValue": 10.06,
+    "low": 8.28,
+    "avg7": 4.54,
+    "avg30": 4.54,
     "trendEUR": 8.99,
     "change7d": 0.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -8980,19 +8980,19 @@
    "cnId": 255612,
    "finish": "Foil",
    "cm": {
-    "marketValue": 85.03,
-    "low": 64.76,
-    "avg7": 86.05,
-    "avg30": 87.2,
+    "marketValue": 85.25,
+    "low": 64.92,
+    "avg7": 86.26,
+    "avg30": 87.42,
     "trendEUR": 76.16,
     "change7d": -0.0132,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
-     "low": 68.32,
+     "low": 67.2,
      "cur": "USD",
      "n": 4
     }
@@ -9002,14 +9002,14 @@
    "cnId": 259873,
    "finish": null,
    "cm": {
-    "marketValue": 44.94,
-    "low": 48.01,
-    "avg7": 47.84,
-    "avg30": 54.38,
+    "marketValue": 45.05,
+    "low": 48.13,
+    "avg7": 47.96,
+    "avg30": 54.52,
     "trendEUR": 40.25,
     "change7d": -0.1203,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9018,14 +9018,14 @@
    "cnId": 18123,
    "finish": "Standard",
    "cm": {
-    "marketValue": 12.44,
-    "low": 5.02,
-    "avg7": 19.35,
-    "avg30": 26.67,
+    "marketValue": 12.47,
+    "low": 5.04,
+    "avg7": 19.4,
+    "avg30": 26.74,
     "trendEUR": 11.14,
     "change7d": -0.2746,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9034,14 +9034,14 @@
    "cnId": 18123,
    "finish": "Standard",
    "cm": {
-    "marketValue": 12.44,
-    "low": 5.02,
-    "avg7": 19.35,
-    "avg30": 26.67,
+    "marketValue": 12.47,
+    "low": 5.04,
+    "avg7": 19.4,
+    "avg30": 26.74,
     "trendEUR": 11.14,
     "change7d": -0.2746,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9050,14 +9050,14 @@
    "cnId": 154725,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.56,
+    "marketValue": 1.57,
     "low": 0.02,
-    "avg7": 1.76,
-    "avg30": 1.09,
+    "avg7": 1.77,
+    "avg30": 1.1,
     "trendEUR": 1.4,
     "change7d": 0.6122,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -9072,14 +9072,14 @@
    "cnId": 24392,
    "finish": "Reverse Holo",
    "cm": {
-    "marketValue": 152.45,
-    "low": 11.17,
-    "avg7": 145.87,
-    "avg30": 102.6,
+    "marketValue": 152.83,
+    "low": 11.19,
+    "avg7": 146.24,
+    "avg30": 102.85,
     "trendEUR": 136.54,
     "change7d": 0.4218,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9088,14 +9088,14 @@
    "cnId": 24392,
    "finish": "Reverse Holo",
    "cm": {
-    "marketValue": 152.45,
-    "low": 11.17,
-    "avg7": 145.87,
-    "avg30": 102.6,
+    "marketValue": 152.83,
+    "low": 11.19,
+    "avg7": 146.24,
+    "avg30": 102.85,
     "trendEUR": 136.54,
     "change7d": 0.4218,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9104,14 +9104,14 @@
    "cnId": 22925,
    "finish": null,
    "cm": {
-    "marketValue": 386.77,
-    "low": 117.23,
-    "avg7": 354.38,
-    "avg30": 213.36,
+    "marketValue": 387.74,
+    "low": 117.53,
+    "avg7": 355.27,
+    "avg30": 213.9,
     "trendEUR": 346.41,
     "change7d": 0.6609,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9120,14 +9120,14 @@
    "cnId": 24684,
    "finish": "Standard",
    "cm": {
-    "marketValue": 13.51,
+    "marketValue": 13.54,
     "low": 0.15,
-    "avg7": 15.43,
-    "avg30": 9.17,
+    "avg7": 15.47,
+    "avg30": 9.19,
     "trendEUR": 12.1,
     "change7d": 0.6833,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9136,14 +9136,14 @@
    "cnId": 155532,
    "finish": "Foil",
    "cm": {
-    "marketValue": 19.11,
+    "marketValue": 19.16,
     "low": 0.21,
-    "avg7": 23.07,
-    "avg30": 12.9,
+    "avg7": 23.12,
+    "avg30": 12.93,
     "trendEUR": 17.12,
     "change7d": 0.7887,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9152,14 +9152,14 @@
    "cnId": 157273,
    "finish": "Foil",
    "cm": {
-    "marketValue": 112.13,
-    "low": 18.98,
-    "avg7": 144.83,
-    "avg30": 117.03,
+    "marketValue": 112.41,
+    "low": 19.03,
+    "avg7": 145.2,
+    "avg30": 117.33,
     "trendEUR": 100.43,
     "change7d": 0.2376,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9168,14 +9168,14 @@
    "cnId": 157273,
    "finish": "Foil",
    "cm": {
-    "marketValue": 112.13,
-    "low": 18.98,
-    "avg7": 144.83,
-    "avg30": 117.03,
+    "marketValue": 112.41,
+    "low": 19.03,
+    "avg7": 145.2,
+    "avg30": 117.33,
     "trendEUR": 100.43,
     "change7d": 0.2376,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9184,14 +9184,14 @@
    "cnId": 157291,
    "finish": null,
    "cm": {
-    "marketValue": 1979.55,
-    "low": 893.2,
-    "avg7": 2355.68,
-    "avg30": 1971.01,
+    "marketValue": 1984.52,
+    "low": 895.44,
+    "avg7": 2361.59,
+    "avg30": 1975.96,
     "trendEUR": 1773,
     "change7d": 0.1952,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9200,14 +9200,14 @@
    "cnId": 22804,
    "finish": "Standard",
    "cm": {
-    "marketValue": 4.76,
+    "marketValue": 4.77,
     "low": 0.28,
-    "avg7": 5.0,
-    "avg30": 4.01,
+    "avg7": 5.01,
+    "avg30": 4.02,
     "trendEUR": 4.26,
     "change7d": 0.2479,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9216,14 +9216,14 @@
    "cnId": 22804,
    "finish": "Standard",
    "cm": {
-    "marketValue": 4.76,
+    "marketValue": 4.77,
     "low": 0.28,
-    "avg7": 5.0,
-    "avg30": 4.01,
+    "avg7": 5.01,
+    "avg30": 4.02,
     "trendEUR": 4.26,
     "change7d": 0.2479,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9232,14 +9232,14 @@
    "cnId": 156219,
    "finish": null,
    "cm": {
-    "marketValue": 2.87,
+    "marketValue": 2.88,
     "low": 0.16,
     "avg7": 2.36,
     "avg30": 2.37,
     "trendEUR": 2.57,
     "change7d": -0.0047,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9248,14 +9248,14 @@
    "cnId": 156224,
    "finish": "Standard",
    "cm": {
-    "marketValue": 5.26,
+    "marketValue": 5.27,
     "low": 0.5,
-    "avg7": 4.35,
-    "avg30": 3.55,
+    "avg7": 4.37,
+    "avg30": 3.56,
     "trendEUR": 4.71,
     "change7d": 0.2264,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9271,7 +9271,7 @@
     "trendEUR": 0.68,
     "change7d": 0.8444,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -9286,14 +9286,14 @@
    "cnId": 155806,
    "finish": "Standard",
    "cm": {
-    "marketValue": 1.84,
+    "marketValue": 1.85,
     "low": 0.02,
     "avg7": 2.17,
     "avg30": 1.06,
     "trendEUR": 1.65,
     "change7d": 1.0421,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -9309,25 +9309,25 @@
    "finish": "Foil",
    "cm": {
     "marketValue": 1.89,
-    "low": 1.0,
+    "low": 1.01,
     "avg7": 1.89,
     "avg30": 2.08,
     "trendEUR": 1.69,
     "change7d": -0.0914,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 4.61,
+     "low": 4.59,
      "cur": "EUR",
      "n": 1
     },
     "na": {
      "low": 1.42,
      "cur": "USD",
-     "n": 15
+     "n": 14
     }
    }
   },
@@ -9335,19 +9335,19 @@
    "cnId": 212377,
    "finish": "Foil",
    "cm": {
-    "marketValue": 2.68,
-    "low": 1.45,
-    "avg7": 2.62,
-    "avg30": 2.53,
+    "marketValue": 2.69,
+    "low": 1.46,
+    "avg7": 2.63,
+    "avg30": 2.54,
     "trendEUR": 2.4,
     "change7d": 0.0352,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 2.26,
+     "low": 2.24,
      "cur": "EUR",
      "n": 3
     },
@@ -9369,19 +9369,19 @@
     "trendEUR": 0.48,
     "change7d": -0.0217,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 0.62,
+     "low": 0.6,
      "cur": "EUR",
      "n": 3
     },
     "na": {
-     "low": 0.41,
+     "low": 0.4,
      "cur": "USD",
-     "n": 35
+     "n": 34
     }
    }
   },
@@ -9396,7 +9396,7 @@
     "trendEUR": 0.05,
     "change7d": 0.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -9423,7 +9423,7 @@
     "trendEUR": 0.05,
     "change7d": -0.2,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -9450,12 +9450,12 @@
     "trendEUR": 0.08,
     "change7d": -0.1429,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 0.29,
+     "low": 0.28,
      "cur": "EUR",
      "n": 4
     },
@@ -9477,12 +9477,12 @@
     "trendEUR": 0.06,
     "change7d": -0.1429,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 0.29,
+     "low": 0.28,
      "cur": "EUR",
      "n": 4
     },
@@ -9499,12 +9499,12 @@
    "cm": {
     "marketValue": 2.74,
     "low": 0.56,
-    "avg7": 2.72,
-    "avg30": 2.99,
+    "avg7": 2.73,
+    "avg30": 3.0,
     "trendEUR": 2.45,
     "change7d": -0.0896,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -9516,7 +9516,7 @@
     "na": {
      "low": 1.42,
      "cur": "USD",
-     "n": 14
+     "n": 13
     }
    }
   },
@@ -9524,14 +9524,14 @@
    "cnId": 212365,
    "finish": "Foil",
    "cm": {
-    "marketValue": 5.55,
-    "low": 3.34,
-    "avg7": 5.53,
-    "avg30": 6.19,
+    "marketValue": 5.56,
+    "low": 3.35,
+    "avg7": 5.54,
+    "avg30": 6.2,
     "trendEUR": 4.97,
     "change7d": -0.1065,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -9543,7 +9543,7 @@
     "na": {
      "low": 3.91,
      "cur": "USD",
-     "n": 12
+     "n": 10
     }
    }
   },
@@ -9551,14 +9551,14 @@
    "cnId": 212322,
    "finish": "Foil",
    "cm": {
-    "marketValue": 5.44,
-    "low": 2.79,
-    "avg7": 5.75,
-    "avg30": 5.96,
+    "marketValue": 5.45,
+    "low": 2.8,
+    "avg7": 5.76,
+    "avg30": 5.98,
     "trendEUR": 4.87,
     "change7d": -0.0356,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -9568,7 +9568,7 @@
      "n": 1
     },
     "na": {
-     "low": 3.32,
+     "low": 3.31,
      "cur": "USD",
      "n": 16
     }
@@ -9578,14 +9578,14 @@
    "cnId": 212347,
    "finish": "Foil",
    "cm": {
-    "marketValue": 2.79,
+    "marketValue": 2.8,
     "low": 1.12,
-    "avg7": 2.82,
-    "avg30": 2.89,
+    "avg7": 2.83,
+    "avg30": 2.9,
     "trendEUR": 2.5,
     "change7d": -0.0232,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -9600,26 +9600,26 @@
    "cnId": 212436,
    "finish": "Foil",
    "cm": {
-    "marketValue": 1.74,
-    "low": 0.89,
+    "marketValue": 1.75,
+    "low": 0.9,
     "avg7": 1.69,
     "avg30": 1.8,
     "trendEUR": 1.56,
     "change7d": -0.0621,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 4.61,
+     "low": 4.59,
      "cur": "EUR",
      "n": 1
     },
     "na": {
      "low": 1.05,
      "cur": "USD",
-     "n": 14
+     "n": 13
     }
    }
   },
@@ -9627,14 +9627,14 @@
    "cnId": 212385,
    "finish": "Foil",
    "cm": {
-    "marketValue": 3.05,
-    "low": 1.45,
-    "avg7": 3.18,
-    "avg30": 3.18,
+    "marketValue": 3.06,
+    "low": 1.46,
+    "avg7": 3.19,
+    "avg30": 3.19,
     "trendEUR": 2.73,
     "change7d": 0.0,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -9649,14 +9649,14 @@
    "cnId": 212340,
    "finish": "Foil",
    "cm": {
-    "marketValue": 3.29,
+    "marketValue": 3.3,
     "low": 1.06,
-    "avg7": 3.36,
-    "avg30": 3.25,
+    "avg7": 3.37,
+    "avg30": 3.26,
     "trendEUR": 2.95,
     "change7d": 0.0344,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -9676,14 +9676,14 @@
    "cnId": 212358,
    "finish": "Foil",
    "cm": {
-    "marketValue": 2.15,
+    "marketValue": 2.16,
     "low": 1.11,
     "avg7": 2.27,
     "avg30": 2.1,
     "trendEUR": 1.93,
     "change7d": 0.0798,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -9698,14 +9698,14 @@
    "cnId": 225207,
    "finish": null,
    "cm": {
-    "marketValue": 95.49,
-    "low": 75.91,
+    "marketValue": 95.73,
+    "low": 76.1,
     "avg7": null,
     "avg30": null,
     "trendEUR": 85.53,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9714,14 +9714,14 @@
    "cnId": 224999,
    "finish": null,
    "cm": {
-    "marketValue": 106.39,
-    "low": 77.04,
+    "marketValue": 106.66,
+    "low": 77.23,
     "avg7": null,
     "avg30": null,
     "trendEUR": 95.29,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9730,14 +9730,14 @@
    "cnId": 225125,
    "finish": null,
    "cm": {
-    "marketValue": 93.95,
-    "low": 63.53,
+    "marketValue": 94.19,
+    "low": 63.69,
     "avg7": null,
     "avg30": null,
     "trendEUR": 84.15,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9746,14 +9746,14 @@
    "cnId": 225174,
    "finish": null,
    "cm": {
-    "marketValue": 98.02,
-    "low": 70.28,
+    "marketValue": 98.26,
+    "low": 70.46,
     "avg7": null,
     "avg30": null,
     "trendEUR": 87.79,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9762,14 +9762,14 @@
    "cnId": 223353,
    "finish": "Standard",
    "cm": {
-    "marketValue": 511.06,
-    "low": 413.11,
+    "marketValue": 512.34,
+    "low": 414.14,
     "avg7": null,
     "avg30": null,
     "trendEUR": 457.73,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -9784,14 +9784,14 @@
    "cnId": 225177,
    "finish": null,
    "cm": {
-    "marketValue": 75.44,
-    "low": 55.71,
+    "marketValue": 75.63,
+    "low": 55.85,
     "avg7": null,
     "avg30": null,
     "trendEUR": 67.57,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9800,14 +9800,14 @@
    "cnId": 225006,
    "finish": null,
    "cm": {
-    "marketValue": 114.43,
-    "low": 78.14,
+    "marketValue": 114.72,
+    "low": 78.34,
     "avg7": null,
     "avg30": null,
     "trendEUR": 102.49,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9816,14 +9816,14 @@
    "cnId": 225148,
    "finish": null,
    "cm": {
-    "marketValue": 85.85,
-    "low": 61.41,
+    "marketValue": 86.06,
+    "low": 61.56,
     "avg7": null,
     "avg30": null,
     "trendEUR": 76.89,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -9835,23 +9835,23 @@
     "marketValue": 0.77,
     "low": 0.04,
     "avg7": 0.76,
-    "avg30": 0.7,
+    "avg30": 0.71,
     "trendEUR": 0.69,
     "change7d": 0.0794,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 0.62,
+     "low": 0.6,
      "cur": "EUR",
      "n": 4
     },
     "na": {
-     "low": 0.47,
+     "low": 0.46,
      "cur": "USD",
-     "n": 29
+     "n": 30
     }
    }
   },
@@ -9859,14 +9859,14 @@
    "cnId": 251566,
    "finish": "Standard",
    "cm": {
-    "marketValue": 462.04,
-    "low": 400.82,
+    "marketValue": 463.2,
+    "low": 401.83,
     "avg7": null,
     "avg30": null,
     "trendEUR": 413.83,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -9881,21 +9881,21 @@
    "cnId": 255535,
    "finish": "Foil",
    "cm": {
-    "marketValue": 34.87,
-    "low": 25.68,
-    "avg7": 37.16,
-    "avg30": 37.95,
+    "marketValue": 34.96,
+    "low": 25.74,
+    "avg7": 37.25,
+    "avg30": 38.05,
     "trendEUR": 31.23,
     "change7d": -0.0209,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
      "low": 37.3,
      "cur": "USD",
-     "n": 4
+     "n": 5
     }
    }
   },
@@ -9903,26 +9903,26 @@
    "cnId": 255497,
    "finish": "Foil",
    "cm": {
-    "marketValue": 35.77,
-    "low": 27.91,
-    "avg7": 37.54,
-    "avg30": 37.74,
+    "marketValue": 35.86,
+    "low": 27.98,
+    "avg7": 37.63,
+    "avg30": 37.83,
     "trendEUR": 32.04,
     "change7d": -0.0053,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 37.22,
+     "low": 37.2,
      "cur": "EUR",
      "n": 1
     },
     "na": {
      "low": 41.49,
      "cur": "USD",
-     "n": 1
+     "n": 2
     }
    }
   },
@@ -9930,14 +9930,14 @@
    "cnId": 251592,
    "finish": "Standard",
    "cm": {
-    "marketValue": 466.41,
-    "low": 334.95,
+    "marketValue": 467.58,
+    "low": 335.79,
     "avg7": null,
     "avg30": null,
     "trendEUR": 417.74,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -9952,14 +9952,14 @@
    "cnId": 251593,
    "finish": "Standard",
    "cm": {
-    "marketValue": 513.2,
-    "low": 368.44,
+    "marketValue": 514.49,
+    "low": 369.37,
     "avg7": null,
     "avg30": null,
     "trendEUR": 459.65,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -10007,14 +10007,14 @@
    "cnId": 26207,
    "finish": "Foil",
    "cm": {
-    "marketValue": 20.1,
-    "low": 10.61,
-    "avg7": 24.15,
-    "avg30": 19.29,
+    "marketValue": 20.15,
+    "low": 10.63,
+    "avg7": 24.21,
+    "avg30": 19.34,
     "trendEUR": 18,
     "change7d": 0.2517,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -10024,7 +10024,7 @@
      "n": 1
     },
     "na": {
-     "low": 21.63,
+     "low": 21.6,
      "cur": "USD",
      "n": 2
     }
@@ -10034,14 +10034,14 @@
    "cnId": 224144,
    "finish": "Standard",
    "cm": {
-    "marketValue": 206.13,
-    "low": 149.59,
+    "marketValue": 206.65,
+    "low": 149.96,
     "avg7": null,
     "avg30": null,
     "trendEUR": 184.62,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
@@ -10056,21 +10056,21 @@
    "cnId": 255535,
    "finish": "Foil",
    "cm": {
-    "marketValue": 34.87,
-    "low": 25.68,
-    "avg7": 37.16,
-    "avg30": 37.95,
+    "marketValue": 34.96,
+    "low": 25.74,
+    "avg7": 37.25,
+    "avg30": 38.05,
     "trendEUR": 31.23,
     "change7d": -0.0209,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "na": {
      "low": 37.3,
      "cur": "USD",
-     "n": 4
+     "n": 5
     }
    }
   },
@@ -10078,26 +10078,26 @@
    "cnId": 255497,
    "finish": "Foil",
    "cm": {
-    "marketValue": 35.77,
-    "low": 27.91,
-    "avg7": 37.54,
-    "avg30": 37.74,
+    "marketValue": 35.86,
+    "low": 27.98,
+    "avg7": 37.63,
+    "avg30": 37.83,
     "trendEUR": 32.04,
     "change7d": -0.0053,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
     "eu": {
-     "low": 37.22,
+     "low": 37.2,
      "cur": "EUR",
      "n": 1
     },
     "na": {
      "low": 41.49,
      "cur": "USD",
-     "n": 1
+     "n": 2
     }
    }
   },
@@ -10105,14 +10105,14 @@
    "cnId": 223011,
    "finish": null,
    "cm": {
-    "marketValue": 359.4,
-    "low": 240.05,
+    "marketValue": 360.3,
+    "low": 240.65,
     "avg7": null,
     "avg30": null,
     "trendEUR": 321.9,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {}
@@ -10121,14 +10121,14 @@
    "cnId": 362501,
    "finish": "Standard",
    "cm": {
-    "marketValue": 45.78,
-    "low": 33.5,
+    "marketValue": 45.89,
+    "low": 33.58,
     "avg7": null,
     "avg30": null,
     "trendEUR": 41,
     "change7d": null,
     "src": "Cardmarket price guide",
-    "fx": 1.1165
+    "fx": 1.1193
    },
    "tcg": {},
    "cnx": {
