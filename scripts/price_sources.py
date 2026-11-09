@@ -41,6 +41,10 @@ for i in sorted(ids):
     for g, v in ((gr.get(i) or {}).get("grades") or {}).items():
         if g in ("psa8", "psa9", "psa10", "cgc9", "cgc10", "bgs9", "bgs95") and v.get("n", 0) >= 3 and v.get("median"):
             r["eb_" + g] = [round(v["median"], 2), v["n"]]   # eBay sold median and count for that grader + grade
+    for c in (pcs.get(i) or {}, pcc.get(i) or {}):
+        try:
+            if c.get("matched") and int(float(c.get("salesVolumeYearly") or 0)): r["salesYr"] = int(float(c["salesVolumeYearly"])); break
+        except ValueError: pass
     o = po.get(i) or {}
     if o.get("live"): r["pcmLive"] = [o["live"][0]["price"], o["live"][0].get("cond"), o["live"][0].get("url")]
     if o.get("sold"): r["pcmSold"] = [o["sold"][0]["price"], o["sold"][0].get("cond"), o["sold"][0].get("date")]
@@ -62,8 +66,8 @@ for i in sorted(ids):
     out[i] = r
 disagree.sort(key=lambda x: -x[1])
 doc = {"generated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
-       "note": "tcg=TCGplayer market, pc=PriceCharting sealed, pcRaw=PriceCharting ungraded any condition (not in consensus), pc8/pc9/pc10=PriceCharting graded, cnCm=Cardmarket price guide trend in USD, cnxLow=lowest CardNexus US listing (asking, not in consensus), auction=Goldin/Fanatics median finish per unit incl. premium; consensus=median of tcg, pc, cnTcg, auction",
-       "coverage": {k: sum(1 for r in out.values() if k in r) for k in ("tcg", "pc", "pcRaw", "pc9", "cnCm", "cnxLow", "auction")},
+       "note": "tcg=TCGplayer market, pc=PriceCharting sealed, pcRaw=PriceCharting ungraded any condition (not in consensus), pc8/pc9/pc10=PriceCharting graded, cnCm=Cardmarket price guide trend in USD, cnxLow=lowest CardNexus US listing (asking, not in consensus), auction=Goldin/Fanatics median finish per unit incl. premium; consensus=median of tcg, pc, cnTcg, auction; salesYr=PriceCharting units sold per year",
+       "coverage": {k: sum(1 for r in out.values() if k in r) for k in ("salesYr", "tcg", "pc", "pcRaw", "pc9", "cnCm", "cnxLow", "auction")},
        "disagree": disagree[:40], "rows": out}
 json.dump(doc, open(os.path.join(ROOT, "price_sources.json"), "w"), separators=(",", ":"), ensure_ascii=False)
 print(len(out), "rows", doc["coverage"], "disagree", len(disagree), f"{len(json.dumps(doc))//1024} KB")

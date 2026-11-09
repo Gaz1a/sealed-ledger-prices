@@ -165,6 +165,19 @@ for p in out["all"]:
     p["likely"] = round(q(per_u, .5) * u + (p.get("shipEst") or 0), 2)
     p["winPct"] = round(sum(1 for x in per_u if x <= at_max) / len(per_u), 2)
     p["nComps"] = len(per_u)
+# Nov 8 (Gaz: how easy and quick is it to sell?): sales per year = PriceCharting units sold (CSV, by TCGplayer id; for a slab, all
+# grades of that card) + our tracked Goldin/Fanatics finishes. The page turns this into weeks to sell and a sell-speed score.
+vol = load("data/pc_volume.json", {}).get("v", {})
+pcc = load("pricecharting.json", {}).get("cards", {})
+for p in out["all"] + out["picks"]:
+    k = p.get("comp") or ""
+    if k.startswith("p"): base = vol.get(k[1:])
+    else:
+        c = pcc.get(p.get("wantId") or "") or {}
+        try: base = int(float(c.get("salesVolumeYearly") or 0)) or None
+        except ValueError: base = None
+    au = (market.get(k) or {}).get("n", 0)
+    if base or au: p["salesYr"] = (base or 0) + au; p["salesSrc"] = ("PriceCharting" if base else "") + (" + auctions" if au else "")
 print(f"market stats {len(market)}, mismatches {len(mismatch)}, bulk {out['bulk']}, lots with a likely finish {sum(1 for p in out['all'] if p.get('likely'))}")
 for p in out["all"] + out["picks"]: p.pop("img", None)
 json.dump(out, open(os.path.join(ROOT, "auction_sheet.json"), "w"), indent=1, ensure_ascii=False)

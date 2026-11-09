@@ -46,6 +46,14 @@ def load_guide():
         if d["id"]: GUIDE_ID[str(d["id"])] = d
         if d["tcg-id"]: GUIDE_TCG.setdefault(str(d["tcg-id"]), d)
     print(f"CSV guide: {len(GUIDE_ID)} products, {len(GUIDE_TCG)} with a TCGplayer id")
+    # Nov 8 (Gaz: how quickly does it sell?): units sold per year for every product with a TCGplayer id, for sell speed
+    vol = {}
+    for t, d in GUIDE_TCG.items():
+        try: v = int(float(d.get("sales-volume") or 0))
+        except ValueError: v = 0
+        if v > 0: vol[t] = v
+    json.dump({"asOf": TODAY, "note": "PriceCharting units sold per year by TCGplayer product id", "v": vol},
+              open(os.path.join(ROOT, "data", "pc_volume.json"), "w"), separators=(",", ":"))
 
 def api(path, **q):
     global calls
