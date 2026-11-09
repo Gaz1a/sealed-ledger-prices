@@ -14,6 +14,6 @@ jobs:
           PRICECHARTING_TOKEN: ${{ secrets.PRICECHARTING_TOKEN }}
       - run: |
           git config user.name price-bot; git config user.email price-bot@users.noreply.github.com
-          git add pc_offers_probe.json pc_offers.json 2>/dev/null || true
+          for f in pc_offers_probe.json pc_offers.json pc_csv_meta.json; do [ -e "$f" ] && git add "$f"; done
           git diff --cached --quiet || git commit -m "pricecharting marketplace"
           git pull --rebase -q && git push -q
