@@ -1,0 +1,19 @@
+name: PriceCharting marketplace
+on:
+  workflow_dispatch:
+    inputs:
+      mode: {description: "probe or run", default: "probe"}
+permissions: {contents: write}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/pc_offers.py --${{ inputs.mode }}
+        env:
+          PRICECHARTING_TOKEN: ${{ secrets.PRICECHARTING_TOKEN }}
+      - run: |
+          git config user.name price-bot; git config user.email price-bot@users.noreply.github.com
+          git add pc_offers_probe.json pc_offers.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "pricecharting marketplace"
+          git pull --rebase -q && git push -q
