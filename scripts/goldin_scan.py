@@ -267,9 +267,10 @@ def money(lot, value, kind):
     ship = SHIP[kind]
     cur = float(lot.get("current_price") or 0)
     nxt = max(cur, float(lot.get("min_bid_price") or 0))
-    allin = round(nxt * (1 + bp) + ship, 2)
-    maxbid = int(max(0, (value * DEAL - ship) / (1 + bp)))
-    return {"currentBid": cur, "bids": lot.get("number_of_bids") or 0, "buyerPremiumPct": round(bp * 100, 1),
+    fee = (lot.get("card_fee") or 0) / 100.0      # Fanatics adds 2.9% for card payments on the whole invoice (Gaz's Nov 8 invoice)
+    allin = round((nxt * (1 + bp) + ship) * (1 + fee), 2)
+    maxbid = int(max(0, (value * DEAL / (1 + fee) - ship) / (1 + bp)))
+    return {"currentBid": cur, "bids": lot.get("number_of_bids") or 0, "buyerPremiumPct": round(bp * 100, 1), "cardFeePct": round(fee * 100, 1),
             "shipEst": ship, "allInNow": allin, "value": round(value, 2), "maxBid": maxbid,
             "pctOfValueNow": round(allin / value, 2) if value else None}
 

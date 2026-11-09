@@ -18,11 +18,11 @@ for house, f, sf in (("Goldin", "goldin.json", "goldin_sold.json"), ("Fanatics",
         for p in d.get(k, []):
             if p.get("maxBid") is None: continue
             if (p.get("ends") or "") < now: continue
-            at_max = round(p["maxBid"] * (1 + p["buyerPremiumPct"] / 100) + p["shipEst"], 2)
+            at_max = round((p["maxBid"] * (1 + p["buyerPremiumPct"] / 100) + p["shipEst"]) * (1 + (p.get("cardFeePct") or 0) / 100), 2)
             row = {"house": house, "bucket": k, "title": p["title"], "url": p["url"], "tcgUrl": p.get("tcgUrl"),
                           "wantId": p.get("wantId"), "what": p.get("product") or p.get("grade"), "units": p.get("units"),
                           "value": p["value"], "currentBid": p["currentBid"], "bids": p["bids"], "allInNow": p["allInNow"],
-                          "maxBid": p["maxBid"], "allInAtMax": at_max, "premiumPct": p["buyerPremiumPct"], "shipEst": p["shipEst"],
+                          "maxBid": p["maxBid"], "allInAtMax": at_max, "premiumPct": p["buyerPremiumPct"], "shipEst": p["shipEst"], "cardFeePct": p.get("cardFeePct") or 0,
                           "ends": p["ends"], "flag": p.get("flag"), "rawMarket": p.get("rawMarket"), "img": p.get("img"),
                           "comp": comp_key(p, k),
                           "thumb": "a-" + re.sub(r"[^A-Za-z0-9_-]", "_", str(p.get("lotId") or p["url"].rstrip("/").rsplit("/", 1)[-1]))[:60], "overCap": at_max > bud["perLotAllIn"],
