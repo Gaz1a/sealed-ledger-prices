@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08",
+ "generated": "2026-11-09",
  "source": "Pokémon TCG Ledger, synced daily by the Tracker task via the Ledger sync form",
  "items": {
   "bs-maintenance": {
@@ -504,12 +504,12 @@
   },
   "k-151": {
    "title": "Mew Black Star Promo #8 (holo)",
-   "kind": "kanto",
+   "cond": "nm",
    "set": "Wizards Black Star Promos",
+   "target": 10.43,
+   "kind": "kanto",
    "tcgProductId": "87394",
    "market": 10.49,
-   "target": 9.4,
-   "cond": "nm",
    "status": "want"
   },
   "mk-expedition-base-set-118-165": {
@@ -2244,12 +2244,12 @@
   },
   "k-145": {
    "title": "Zapdos 16/102 (holo)",
-   "kind": "kanto",
+   "cond": "nm",
    "set": "Base Set",
+   "target": 51.05,
+   "kind": "kanto",
    "tcgProductId": "42356",
    "market": 50.27,
-   "target": 43.15,
-   "cond": "nm",
    "status": "want"
   },
   "gy-burning-shadows-33-147-rev": {
@@ -3064,12 +3064,12 @@
   },
   "k-143": {
    "title": "Snorlax 11/64 (holo)",
-   "kind": "kanto",
+   "cond": "nm",
    "set": "Jungle",
+   "target": 147.65,
+   "kind": "kanto",
    "tcgProductId": "45122",
    "market": 164.03,
-   "target": 133.08,
-   "cond": "nm",
    "status": "want"
   },
   "w-610931": {
@@ -3139,6 +3139,6 @@
    "target": 190.0
   }
  },
- "payloadDate": "2026-11-08",
- "batch": "20261108-0850"
+ "payloadDate": "2026-11-09",
+ "batch": "20261109-0904"
 }
