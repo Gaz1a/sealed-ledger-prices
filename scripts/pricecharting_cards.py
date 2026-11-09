@@ -12,7 +12,11 @@ ROOT, TODAY = sm.ROOT, datetime.date.today().isoformat()
 SLEEP, CALL_CAP = 1.1, 1500
 FIELDS = {  # PriceCharting trading-card field -> meaning (docs); verified by mappingCheck below
     "loose-price": "ungraded", "cib-price": "psa7", "new-price": "psa8", "graded-price": "psa9",
-    "box-only-price": "psa9_5", "manual-only-price": "psa10"}
+    "box-only-price": "psa9_5", "manual-only-price": "psa10",
+    # Nov 8 (Gaz: use everything the paid API returns): grader-specific 10s and the low grades
+    "bgs-10-price": "bgs10", "condition-17-price": "cgc10", "condition-18-price": "sgc10", "condition-19-price": "cgc10pristine",
+    "condition-20-price": "bgs10black", "condition-21-price": "tag10", "condition-16-price": "g6", "condition-15-price": "g5",
+    "condition-14-price": "g4", "condition-13-price": "g3", "condition-10-price": "g2", "condition-9-price": "g1"}
 calls = 0
 
 class Stop(Exception): pass
@@ -201,6 +205,17 @@ def main():
     _pj = load("pricecharting.json", {}).get("jumbo")      # written by scripts/pc_jumbo.py; preserve it
     if _pj: out["jumbo"] = _pj
     json.dump(out, open(os.path.join(ROOT, "pricecharting.json"), "w"), indent=1, ensure_ascii=False)
+    # PriceCharting's API has no history, so keep our own: one point a day per card (ungraded, 7, 8, 9, 9.5, 10), last 400 days
+    hp = os.path.join(ROOT, "data", "pc_history.json")
+    hist = load("data/pc_history.json", {})
+    for cid, r in out["cards"].items():
+        if not r.get("matched") or r.get("asOf", TODAY) != TODAY and r.get("ungraded") is None: continue
+        pt = [TODAY] + [r.get(k) for k in ("ungraded", "psa7", "psa8", "psa9", "psa9_5", "psa10")]
+        h = [x for x in hist.get(cid, []) if x[0] != TODAY] + [pt]
+        hist[cid] = h[-400:]
+    os.makedirs(os.path.dirname(hp), exist_ok=True)
+    json.dump({"_fields": ["date", "ungraded", "g7", "g8", "g9", "g9_5", "psa10"], **{k: v for k, v in hist.items() if k != "_fields"}},
+              open(hp, "w"), separators=(",", ":"))
     print(json.dumps(out["stats"]), "| stopped:", notes["stopped"], "| mappingConfirmed:", check.get("mappingConfirmed"))
 
 if __name__ == "__main__":
