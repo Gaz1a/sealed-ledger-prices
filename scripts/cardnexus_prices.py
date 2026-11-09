@@ -117,8 +117,28 @@ def main():
         unmatched += sorted(exclude)
         json.dump(ids, open(os.path.join(ROOT, "cardnexus_ids.json"), "w"), indent=1, sort_keys=True)
 
-        # 2. prices for each matched id
+        # 2. CardNexus stopped returning Cardmarket/TCGplayer prices on 2026-10-29; its /prices now gives only its own
+        #    marketplace listings. So: (a) keep those as 'cnx' (lowest asking, NM English, by region: a buy source, never a value);
+        #    (b) take Cardmarket's own free daily price guide for real Cardmarket prices, matched through the
+        #    Cardmarket id CardNexus lists for each product (cached in cardnexus_ids.json under _cm).
+        cmids = ids.setdefault("_cm", {})
         matched = [lid for lid in tracked if lid in ids]
+        for lid in [l for l in matched if l not in cmids][:600]:
+            st, j = call("GET", f"/products/{ids[lid]}")
+            time.sleep(SLEEP)
+            if st != 200 or not isinstance(j, dict): errors += 1; continue
+            cms = (j.get("externalIds") or {}).get("cardmarket") or []
+            fin = finish_of.get(lid)
+            hit = next((c for c in cms if c.get("finish") == fin), cms[0] if cms else None)
+            cmids[lid] = [hit["id"], hit.get("finish")] if hit else None
+        guide = {}
+        try:
+            with urllib.request.urlopen("https://downloads.s3.cardmarket.com/productCatalog/priceGuide/price_guide_6.json", timeout=120) as r:
+                guide = {g["idProduct"]: g for g in json.loads(r.read())["priceGuides"]}
+        except Exception as e:
+            print("Cardmarket price guide unavailable:", repr(e)[:120])
+        fx = (load("cardmarket_jumbo.json", {}) or {}).get("fx") or 1.10   # USD per EUR, from the jumbo Cardmarket feed
+        def eur(v): return round(v * fx, 2) if isinstance(v, (int, float)) and v else None
         for lid in matched:
             cn = ids[lid]
             st, j = call("GET", f"/products/{cn}/prices")
@@ -130,20 +150,35 @@ def main():
             fin = finish_of.get(lid)
             if fin not in pbf:
                 fin = "Standard" if "Standard" in pbf else next(iter(pbf), None)
-            block = pbf.get(fin) or {}
-            items[lid] = {"cnId": cn, "finish": fin,
-                          "cm": pick(block.get("cardmarket"), CM_KEYS),
-                          "tcg": pick(block.get("tcgplayer"), TCG_KEYS)}
+            blk = (pbf.get(fin) or {}).get("cardnexus") or {}
+            cnx = {}
+            for reg, r in (blk.get("regions") or {}).items():
+                nm = ((r.get("byCondition") or {}).get("NM") or {})
+                en = (nm.get("byLanguage") or {}).get("en") or {}
+                if en.get("low"): cnx[reg] = {"low": en["low"], "cur": r.get("currency"), "n": en.get("listingCount")}
+            cm = {}
+            c = cmids.get(lid)
+            g = guide.get(c[0]) if c else None
+            if g:
+                rev = lid.endswith("-rev")
+                k = (lambda n: n + "-holo") if rev else (lambda n: n)
+                t, a7, a30, lo = g.get(k("trend")), g.get(k("avg7")), g.get(k("avg30")), g.get(k("low"))
+                if t:
+                    cm = {"marketValue": eur(t), "low": eur(lo), "avg7": eur(a7), "avg30": eur(a30), "trendEUR": t,
+                          "change7d": round(a7 / a30 - 1, 4) if a7 and a30 else None, "src": "Cardmarket price guide", "fx": fx}
+            items[lid] = {"cnId": cn, "finish": fin, "cm": cm, "tcg": {}, "cnx": cnx}
     except RateLimited:
         limited = True
         unmatched = unmatched or prev.get("unmatched", [])
 
     out = {"generated": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
-           "currency": {"cm": "EUR", "tcg": "USD"},
+           "currency": {"cm": "USD (converted from Cardmarket EUR)", "cnx": "as listed"},
+           "note": "cm = Cardmarket daily price guide (trend, avg7, avg30, low), converted to USD; tcg is empty since CardNexus dropped it on 2026-10-29; cnx = lowest CardNexus marketplace listing (NM, English) by region, an asking price",
            "items": items, "unmatched": sorted(unmatched)}
     if limited:
         out["partial"] = True
     json.dump(out, open(os.path.join(ROOT, "cardnexus.json"), "w"), indent=1)
+    print(f"cardmarket priced: {sum(1 for v in items.values() if v.get('cm'))}, cnx listings: {sum(1 for v in items.values() if v.get('cnx'))}")
     print(f"cardnexus: {len([l for l in tracked if l in items])} priced / {len(tracked)} tracked, "
           f"{len(unmatched)} unmatched, {errors} errors" + (", stopped on 429" if limited else ""))
 

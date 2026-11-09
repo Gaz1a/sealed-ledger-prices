@@ -43,6 +43,8 @@ for i in sorted(ids):
     n = cn.get(i) or {}
     if (n.get("tcg") or {}).get("marketValue"): r["cnTcg"] = round(n["tcg"]["marketValue"], 2)
     if (n.get("cm") or {}).get("marketValue"): r["cnCm"] = round(n["cm"]["marketValue"], 2)
+    na = (n.get("cnx") or {}).get("na") or {}
+    if na.get("low") and na.get("cur") == "USD": r["cnxLow"] = [round(na["low"], 2), na.get("n")]   # CardNexus lowest US listing (asking)
     pid = p.get("productId") or (tracked.get(i) or {}).get("productId") if isinstance(tracked.get(i), dict) else p.get("productId")
     m = au.get(f"p{pid}") if pid else None
     if m and m.get("n", 0) >= 3: r["auction"], r["auctionN"] = m["med"], m["n"]
@@ -56,8 +58,8 @@ for i in sorted(ids):
     out[i] = r
 disagree.sort(key=lambda x: -x[1])
 doc = {"generated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
-       "note": "tcg=TCGplayer market, pc=PriceCharting sealed, pcRaw=PriceCharting ungraded any condition (not in consensus), pc8/pc9/pc10=PriceCharting graded, cnTcg/cnCm=CardNexus TCGplayer/Cardmarket, auction=Goldin/Fanatics median finish per unit incl. premium; consensus=median of tcg, pc, cnTcg, auction",
-       "coverage": {k: sum(1 for r in out.values() if k in r) for k in ("tcg", "pc", "pcRaw", "pc9", "cnTcg", "cnCm", "auction")},
+       "note": "tcg=TCGplayer market, pc=PriceCharting sealed, pcRaw=PriceCharting ungraded any condition (not in consensus), pc8/pc9/pc10=PriceCharting graded, cnCm=Cardmarket price guide trend in USD, cnxLow=lowest CardNexus US listing (asking, not in consensus), auction=Goldin/Fanatics median finish per unit incl. premium; consensus=median of tcg, pc, cnTcg, auction",
+       "coverage": {k: sum(1 for r in out.values() if k in r) for k in ("tcg", "pc", "pcRaw", "pc9", "cnCm", "cnxLow", "auction")},
        "disagree": disagree[:40], "rows": out}
 json.dump(doc, open(os.path.join(ROOT, "price_sources.json"), "w"), separators=(",", ":"), ensure_ascii=False)
 print(len(out), "rows", doc["coverage"], "disagree", len(disagree), f"{len(json.dumps(doc))//1024} KB")
