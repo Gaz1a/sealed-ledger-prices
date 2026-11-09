@@ -1,287 +1,170 @@
 {
- "games_pokemon": [
-  {
-   "id": "pokemon",
-   "name": "Pokemon",
-   "releaseDate": "1996-10-20T00:00:00.000Z",
-   "cardCount": 28897,
-   "sealedProductCount": 2615,
-   "logoUrl": "https://cardnexus.com/images/game-logos/pokemon.png"
-  },
-  {
-   "id": "pokemon-japan",
-   "name": "Pokemon Japan",
-   "releaseDate": "1996-10-20T00:00:00.000Z",
-   "cardCount": 31852,
-   "sealedProductCount": 308,
-   "logoUrl": "https://cardnexus.com/images/game-logos/pokemon-japan.png"
+ "pe-etb": {
+  "cn": 223652,
+  "status": 200,
+  "body": {
+   "productId": 223652,
+   "pricesByFinish": {
+    "Standard": {
+     "cardnexus": {
+      "low": {
+       "amount": 160,
+       "currency": "EUR"
+      },
+      "listingCount": 3,
+      "availableQuantity": 7,
+      "regions": {
+       "eu": {
+        "currency": "EUR",
+        "low": 160,
+        "listingCount": 3,
+        "availableQuantity": 7,
+        "byCondition": {
+         "NM": {
+          "low": 160,
+          "listingCount": 3,
+          "availableQuantity": 7,
+          "byLanguage": {
+           "en": {
+            "low": 160,
+            "listingCount": 2,
+            "availableQuantity": 6
+           },
+           "fr": {
+            "low": 250,
+            "listingCount": 1,
+            "availableQuantity": 1
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
   }
- ],
- "name: Super Electric Breaker": {
+ },
+ "k-149": {
+  "cn": 17655,
   "status": 200,
   "body": {
-   "name": "Super Electric Breaker",
-   "productType": {
-    "op": "or",
-    "values": [
-     "sealed"
-    ]
+   "productId": 17655,
+   "pricesByFinish": {
+    "Foil": {
+     "cardnexus": {
+      "low": {
+       "amount": 522.62,
+       "currency": "EUR"
+      },
+      "listingCount": 1,
+      "availableQuantity": 1,
+      "regions": {
+       "na": {
+        "currency": "USD",
+        "low": 582.67,
+        "listingCount": 1,
+        "availableQuantity": 1,
+        "byCondition": {
+         "NM": {
+          "low": 582.67,
+          "listingCount": 1,
+          "availableQuantity": 1,
+          "byLanguage": {
+           "en": {
+            "low": 582.67,
+            "listingCount": 1,
+            "availableQuantity": 1
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
    }
-  },
-  "count": 5,
-  "matches": 2,
-  "first10": [
-   [
-    225188,
-    "Super Electric Breaker Booster Pack",
-    "pokemon-japan",
-    "SV8: Super Electric Breaker",
-    "sealed"
-   ],
-   [
-    225177,
-    "Super Electric Breaker Booster Box",
-    "pokemon-japan",
-    "SV8: Super Electric Breaker",
-    "sealed"
-   ],
-   [
-    222843,
-    "Pokemon Stacking Tin: Electric",
-    "pokemon",
-    "Miscellaneous Cards & Products",
-    "sealed"
-   ],
-   [
-    222660,
-    "Expedition Theme Deck - \"Electric Garden\"",
-    "pokemon",
-    "Expedition",
-    "sealed"
-   ],
-   [
-    152147,
-    "Super Slam Booster",
-    "fab",
-    "Super Slam",
-    "sealed"
-   ]
-  ],
-  "raw": "{\"data\":[{\"id\":225188,\"gameId\":\"pokemon-japan\",\"expansionId\":1668,\"game\":{\"id\":\"pokemon-japan\",\"name\":\"Pokemon Japan\"},\"expansion\":{\"id\":1668,\"name\":\"SV8: Super Electric Breaker\",\"code\":\"sv8-super-electric-breaker\"},\"name\":\"Super Electric Breaker Booster Pack\",\"nameSlug\":\"super-electric-breaker-booster-pack\",\"languages\":[\"ja\"],\"imageUrl\":\"https://ik.imagekit.io/cardnexus/production/pokemon-japan/587727.png\",\"productType\":\"sealed\",\"productCategory\":\"booster\",\"prices\":{\"cardmarket\":{\"currency\":\"EUR\",\"low\":1.15,\"mid\":null,\"high\":null,\"marketValue\":2.43,\"change24h\":0.0705,\"change7d\":0.034,\"change30d\":-0.1474},\"tcgplayer\":{\"currency\":\"USD\",\"low\":3.99,\"mid\":5.48,\"high\":9.99,\"marketValue\":5.1,\"change24h\":0,\"change7d\":0.0119,\"change30d\":-0.0097}},\"externalIds\":{\"cardmarket\":[{\"id\":789975,\"finish\":\"Standard\"}],\"tcgplayer\":[{\"id\":587727,\"finish\":\"Standard\"}]}},{\"id\":225177,\"gameId\":\"pokemon-japan\",\"expansionId\":1668,\"game\":{\"id\":\"pokemon-japan\",\"name\":\"Pokemon Japan\"},\"expansion\":{\"id\":1668,\"name\":\"SV8: Super Electric Breaker\",\"code\":\"sv8-super-electric-breaker\"},\"name\":\"Super Electric Breaker Booster Box\",\"nameSlug\":\"super-electric-breaker-booster-box\",\"languages\":[\"ja\"],\"imageUrl\":\"https://ik.imagekit.io/cardnexus/production/pokemon-japan/587728.png\",\"productType\":\"sealed\",\"productCategory\":\"booster_box\",\"prices\":{\"cardmarket\":{\"currency\":\"EUR\",\"low\":49.9,\"mid\":null,\"high\":null,\"marketValue\":66.09,\"change24h\":-0.0398,\"change7d\":0.0461,\"change30d\":-0.0495},\"tcgplayer\":{\"currency\":\"USD\",\"low\":137.99,\"mid\":148.89,\"high\":430,\"marketValue\":144.72,\"change24h\":-0.01,\"change7d\":-0.0014,\"change30d\":0.0478}},\"externalIds\":{\"cardmarket\":[{\"id\":789976,\"finish\":\"Standard\"}],\"tcgplayer\":[{\"id\":587728,\"finish\":\"Standard\"}]}},{\"id\":222843,\"gameId\":\"pokemon\",\"expansionId\":1156,\"game\":{\"id\":\"pokemon\",\"name\":\"Pokemon\"},\"expansion\":{\"id\":1156,\"name\":\"Miscellaneous Cards & Products\",\"code\":\"miscellaneous-cards-and-products\"},\"name\":\"Pokemon Stacking Tin: Electric\",\"nameSlug\":\"pokemon-stacking-tin-electric\",\"languages\":[\"de\",\"en\",\"es\",\"fr\",\"it\",\"nl\",\"pt-BR\"],\"imageUrl\":\"https://ik.imagekit.io/cardnexus/production/pokemon/260867.png\",\"productType\":\"sealed\",\"productCategory\":\"tin\",\"prices\":{\"cardmarket\":{\"currency\":\"EUR\",\"change24h\":null,\"change7d\":null,\"change30d\":null},\"tcgplayer\":{\"currency\":\"USD\",\"low\":59.9,\"mid\":60.95,\"high\":62,\"marketValue\":52.98,\"change24h\":0,\"change7d\":0,\"change30d\":0}},\"externalIds\":{\"tcgplayer\":[{\"id\":260867,\"finish\":\"Standard\"}]}},{\"id\":222660,\"gameId\":\"pokemon\",\"expansionId\":128,\"game\":{\"id\":\"pokemon\",\"name\":\"Pokemon\"},\"expansion\":{\"id\":128,\"name\":\"Expedition\",\"code\":\"expedition\",\"symbolUrl\":\"https://images.pokemontcg.io/ecard1/symbol.png\"},\"name\":\"Expedition Theme Deck - \\\"Electric Garden\\\"\",\"nameSlug\":\"expedition-theme-deck-electric-garden\",\"languages\":[\"de\",\"en\",\"es\",\"fr\",\"it\",\"nl\",\"pt-BR\"],\"imageUrl\":\"https://ik.imagekit.io/cardnexus/production/pokemon/234504.png\",\"productType\":\"sealed\",\"productCategory\":\"theme_deck\",\"prices\":{\"cardmarket\":{\"currency\":\"EUR\",\"low\":20,\"mid\":null,\"high\":null,\"marketValue\":294.78,\"change24h\":0,\"change7d\":0,\"change30d\":0},\"tcgplayer\":{\"currency\":\"USD\",\"change24h\":null,\"change7d\":null,\"change30d\":null}},\"externalIds\":{\"cardmarket\":[{\"id\":286573,\"finish\":\"Standard\"}],\"tcgplayer\":[{\"id\":234504,\"finish\":\"Standard\"}]}},{\"id\":152147,\"gameId\":\"fab\",\"expansionId\":1059,\"game\":{\"id\":\"fab\",\"name\":\"Flesh and Blood\"},\"expansion\":{\"id\":1059,\"name\":\"Super Slam\",\"code\":\"super-slam\"},\"name\":\"Super Slam Booster\",\"nameSlug\":\"super-slam-booster\",\"languages\":[\"en\",\"fr\",\"ja\"],\"imageUrl\":\"https://ik.imagekit.io/cardnexus/production/fab/super-slam-booster-pack.png\",\"productType\":\"sealed\",\"productCategory\":\"booster\",\"prices\":{\"cardmarket\":{\"currency\":\"EUR\",\"low\":2.45,\"mid\":null,\"high\":null,\"marketValue\":3.64,\"change24h\":0,\"change7d\":0,\"change30d\":0},\"tcgplayer\":{\"currency\":\"USD\",\"low\":3.99,\"mid\":5,\"high\":5.94,\"marketValue\":5.16,\"change24h\":0,\"change7d\":0,\"change30d\":0.0258},\"cardnexus\":{\"low\":{\"amount\":2.45,\"currency\":\"EUR\"},\"listingCount\":1,\"availableQuantity\":15,\"regions\":{\"eu\":{\"currency\":\"EUR\",\"low\":2.45,\"listingCount\":1,\"availableQuantity\":15,\"byCondition\":{\"NM\":{\"low\":2.45,\"listingCount\":1,\"availableQuantity\":15,\"byLanguage\":{\"fr\":{\"low\":2.45,\"listingCount\":1,\"availableQuantity\":15}}}}}}}},\"externalIds\":{\"cardmarket\":[{\"id\":849979,\"finish\":\"Standard\"}],\"tcgplayer\":[{\"id\":651133,\"finish\":\"Standard\"}]}}],\"pagination\":{\"offset\":0,\"limit\":50,\"total\":5,\"hasMore\":false}}"
+  }
  },
- "tcgplayerId 587728": {
+ "s-darkrai-sir": {
+  "cn": 243955,
   "status": 200,
   "body": {
-   "tcgplayerId": [
-    587728
-   ]
-  },
-  "count": 1,
-  "matches": 0,
-  "first10": [
-   [
-    225177,
-    "Super Electric Breaker Booster Box",
-    "pokemon-japan",
-    "SV8: Super Electric Breaker",
-    "sealed"
-   ]
-  ],
-  "raw": "{\"data\":[{\"id\":225177,\"gameId\":\"pokemon-japan\",\"expansionId\":1668,\"game\":{\"id\":\"pokemon-japan\",\"name\":\"Pokemon Japan\"},\"expansion\":{\"id\":1668,\"name\":\"SV8: Super Electric Breaker\",\"code\":\"sv8-super-electric-breaker\"},\"name\":\"Super Electric Breaker Booster Box\",\"nameSlug\":\"super-electric-breaker-booster-box\",\"languages\":[\"ja\"],\"imageUrl\":\"https://ik.imagekit.io/cardnexus/production/pokemon-japan/587728.png\",\"productType\":\"sealed\",\"productCategory\":\"booster_box\",\"prices\":{\"cardmarket\":{\"currency\":\"EUR\",\"low\":49.9,\"mid\":null,\"high\":null,\"marketValue\":66.09,\"change24h\":-0.0398,\"change7d\":0.0461,\"change30d\":-0.0495},\"tcgplayer\":{\"currency\":\"USD\",\"low\":137.99,\"mid\":148.89,\"high\":430,\"marketValue\":144.72,\"change24h\":-0.01,\"change7d\":-0.0014,\"change30d\":0.0478}},\"externalIds\":{\"cardmarket\":[{\"id\":789976,\"finish\":\"Standard\"}],\"tcgplayer\":[{\"id\":587728,\"finish\":\"Standard\"}]}}],\"pagination\":{\"offset\":0,\"limit\":50,\"total\":1,\"hasMore\":false}}"
- },
- "name: Illustrated Booklet": {
-  "status": 200,
-  "body": {
-   "name": "Illustrated Booklet",
-   "productType": {
-    "op": "or",
-    "values": [
-     "sealed"
-    ]
+   "productId": 243955,
+   "pricesByFinish": {
+    "Foil": {
+     "cardnexus": {
+      "low": {
+       "amount": 170,
+       "currency": "EUR"
+      },
+      "listingCount": 4,
+      "availableQuantity": 5,
+      "regions": {
+       "eu": {
+        "currency": "EUR",
+        "low": 170,
+        "listingCount": 3,
+        "availableQuantity": 4,
+        "byCondition": {
+         "NM": {
+          "low": 170,
+          "listingCount": 2,
+          "availableQuantity": 3,
+          "byLanguage": {
+           "fr": {
+            "low": 170,
+            "listingCount": 2,
+            "availableQuantity": 3
+           }
+          }
+         }
+        }
+       },
+       "na": {
+        "currency": "USD",
+        "low": 210,
+        "listingCount": 1,
+        "availableQuantity": 1,
+        "byCondition": {
+         "NM": {
+          "low": 210,
+          "listingCount": 1,
+          "availableQuantity": 1,
+          "byLanguage": {
+           "en": {
+            "low": 210,
+            "listingCount": 1,
+            "availableQuantity": 1
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
    }
-  },
-  "count": 0,
-  "matches": 0,
-  "first10": [],
-  "raw": "{\"data\":[],\"pagination\":{\"offset\":0,\"limit\":50,\"total\":0,\"hasMore\":false}}"
+  }
  },
- "first10 Illustrated Booklet": [],
- "name: Half Deck": {
+ "product": {
   "status": 200,
-  "body": {
-   "name": "Half Deck",
-   "productType": {
-    "op": "or",
-    "values": [
-     "sealed"
-    ]
-   }
-  },
-  "count": 50,
-  "matches": 0,
-  "first10": [
-   [
-    223286,
-    "Mega Evolution Half Booster Box",
-    "pokemon",
-    "ME01: Mega Evolution",
-    "sealed"
-   ],
-   [
-    245461,
-    "Pitch Black Half Booster Boxes",
-    "pokemon",
-    "ME05: Pitch Black",
-    "sealed"
-   ],
-   [
-    223661,
-    "Destined Rivals Half Booster Box",
-    "pokemon",
-    "SV10: Destined Rivals",
-    "sealed"
-   ],
-   [
-    223935,
-    "Evolving Skies Half Booster Box",
-    "pokemon",
-    "SWSH07: Evolving Skies",
-    "sealed"
-   ],
-   [
-    223833,
-    "Paradox Rift Half Booster Box",
-    "pokemon",
-    "SV04: Paradox Rift",
-    "sealed"
-   ],
-   [
-    223728,
-    "Surging Sparks Half Booster Box",
-    "pokemon",
-    "SV08: Surging Sparks",
-    "sealed"
-   ],
-   [
-    223585,
-    "Perfect Order Half Booster Boxes",
-    "pokemon",
-    "ME03: Perfect Order",
-    "sealed"
-   ],
-   [
-    221811,
-    "Scarlet & Violet Half Booster Box",
-    "pokemon",
-    "SV01: Scarlet & Violet Base Set",
-    "sealed"
-   ],
-   [
-    221736,
-    "Paldea Evolved Half Booster Box",
-    "pokemon",
-    "SV02: Paldea Evolved",
-    "sealed"
-   ],
-   [
-    224237,
-    "Temporal Forces Half Booster Box",
-    "pokemon",
-    "SV05: Temporal Forces",
-    "sealed"
-   ]
+  "keys": [
+   "id",
+   "gameId",
+   "expansionId",
+   "game",
+   "expansion",
+   "name",
+   "nameSlug",
+   "languages",
+   "imageUrl",
+   "imageCensored",
+   "productType",
+   "productCategory",
+   "prices",
+   "externalIds"
   ],
-  "raw": "{\"data\":[{\"id\":223286,\"gameId\":\"pokemon\",\"expansionId\":1170,\"game\":{\"id\":\"pokemon\",\"name\":\"Pokemon\"},\"expansion\":{\"id\":1170,\"name\":\"ME01: Mega Evolution\",\"code\":\"me01-mega-evolution\",\"symbolUrl\":\"https://images.pokemontcg.io/me1/symbol.png\"},\"name\":\"Mega Evolution Half Booster Box\",\"nameSlug\":\"mega-evolution-half-booster-box\",\"languages\":[\"de\",\"en\",\"es\",\"fr\",\"it\",\"nl\",\"pt-BR\"],\"imageUrl\":\"https://ik.imagekit.io/cardnexus/production/pokemon/644351.png\",\"productType\":\"sealed\",\"productCategory\":\"booster_box\",\"prices\":{\"cardmarket\":{\"currency\":\"EUR\",\"low\":159,\"mid\":null,\"high\":null,\"marketValue\":231.4,\"change24h\":-0.0167,\"change7d\":-0.0989,\"change30d\":-0.0924},\"tcgplayer\":{\"currency\":\"USD\",\"change24h\":null,\"change7d\":null,\"change30d\":null}},\"externalIds\":{\"cardmarket\":[{\"id\":834832,\"finish\":\"Standard\"}],\"tcgplayer\":[{\"id\":644351,\"finish\":\"Standard\"}]}},{\"id\":245461,\"gameId\":\"pokemon\",\"expansionId\":1813,\"game\":{\"id\":\"pokemon\",\"name\":\"Pokemon\"},\"expansion\":{\"id\":1813,\"name\":\"ME05: Pitch Black\",\"code\":\"me05-pitch-black\",\"symbolUrl\":\"https://images.scrydex.com/pokemon/me5-symbol/symbol\"},\"name\":\"Pitch Black Half Booster Boxes\",\"nameSlug\":\"pitch-black-half-booster-boxes\",\"languages\":[\"de\",\"en\",\"es\",\"fr\",\"it\",\"nl\",\"pt-BR\"],\"imageUrl\":\"https://ik.imagekit.io/cardnexus/production/pokemon/692940.png\",\"productType\":\"sealed\",\"productCategory\":\"booster_box\",\"prices\":{\"cardmarket\":{\"currency\":\"EUR\",\"change24h\":null,\"change7d\":null,\"change30d\":null},\"tcgplayer\":{\"currency\":\"USD\",\"change24h\":null,\"change7d\":null,\"change30d\":null}},\"externalIds\":{\"tcgplayer\":[{\"id\":692940,\"finish\":\"Standard\"}]}},{\"id\":223661,\"gameId\":\"pokemon\",\"expansionId\":138,\"game\":{\"id\":\"pokemon\",\"name\":\"Pokemon\"},\"expansion\":{\"id\":138,\"name\":\"SV10: Destined Rivals\",\"code\":\"sv10-destined-rivals\",\"symbolUrl\":\"https://images.pokemontcg.io/sv10/symbol.png\"},\"name\":\"Destined Rivals Half Booster Box\",\"nameSlug\":\"destined-rivals-half-booster-box\",\"languages\":[\"de\",\"en\",\"es\",\"fr\",\"it\",\"nl\",\"pt-BR\"],\"imageUrl\":\"https://ik.imagekit.io/cardnexus/production/pokemon/624681.png\",\"productType\":\"sealed\",\"productCategory\":\"booster_box\",\"prices\":{\"cardmarket\":{\"currency\":\"EUR\",\"low\":165,\"mid\":null,\"high\":null,\"marketValue\":283.03,\"change24h\":-0.0056,\"change7d\":-0.0406,\"change30d\":-0.108},\"tcgplayer\":{\"currency\":\"USD\",\"low\":400,\"mid\":400,\"high\":400,\"marketValue\":316.15,\"change24h\":0,\"change7d\":0,\"change30d\":0.0609}},\"externalIds\":{\"cardmarket\":[{\"id\":818574,\"finish\":\"Standard\"}],\"tcgplayer\":[{\"id\":624681,\"finish\":\"Standard\"}]}},{\"id\":223935,\"gameId\":\"pokemon\",\"expansionId\":113,\"game\":{\"id\":\"pokemon\",\"name\":\"Pokemon\"},\"expansion\":{\"id\":113,\"name\":\"SWSH07: Evolving Skies\",\"code\":\"swsh07-evolving-skies\",\"symbolUrl\":\"https://images.pokemontcg.io/swsh7/symbol.png\"},\"name\":\"Evolving Skies Half Booster Box\",\"nameSlug\":\"evolving-skies-half-booster-box\",\"languages\":[\"de\",\"en\",\"es\",\"fr\",\"it\",\"nl\",\"pt-BR\"],\"imageUrl\":\"https://ik.imagekit.io/cardnexus/production/pokemon/641794.png\",\"productType\":\"sealed\",\"productCategory\":\"booster_box\",\"prices\":{\"cardmarket\":{\"currency\":\"EUR\",\"low\":735,\"mid\":null,\"high\":null,\"marketValue\":963.96,\"change24h\":0,\"change7d\":0,\"change30d\":-0.015},\"tcgplayer\":{\"currency\":\"USD\",\"low\":2800,\"mid\":2800,\"high\":2800,\"marketValue\":1595,\"change24h\":0,\"change7d\":0,\"change30d\":0}},\"externalIds\":{\"cardmarket\":[{\"id\":574435,\"finish\":\"Standard\"}],\"tcgplayer\":[{\"id\":641794,\"finish\":\"Standard\"}]}},{\"id\":223833,\"gameId\":\"pokemon\",\"expansionId\":129,\"game\":{\"id\":\"pokemon\",\"name\":\"Pokemon\"},\"expansion\":{\"id\":129,\"name\":\"SV04: Paradox Rift\",\"code\":\"sv04-paradox-rift\",\"symbolUrl\":\"https://images.pokemontcg.io/sv4/symbol.png\"},\"name\":\"Paradox Rift Half Booster Box\",\"nameSlug\":\"paradox-rift-half-booster-box\",\"languages\":[\"de\",\"en\",\"es\",\"fr\",\"it\",\"nl\",\"pt-BR\"],\"productType\":\"sealed\",\"productCategory\":\"booster_box\",\"prices\":{\"cardmarket\":{\"currency\":\"EUR\",\"low\":130,\"mid\":null,\"high\":null,\"marketValue\":116.87,\"change24h\":0,\"change7d\":0.0046,\"change30d\":0.0473},\"tcgplayer\":{\"currency\":\"USD\",\"change24h\":null,\"change7d\":null,\"change30d\":null}},\"externalIds\":{\"cardmarket\":[{\"id\":729187,\"finish\":\"Standard\"}],\"tcgplayer\":[{\"id\":649417,\"finish\":\"Standard\"}]}},{\"id\":223728,\"gameId\":\"pokemon\",\"expansionId\":135,\"game\":{\"id\":\"pokemon\",\"name\":\"Pokemon\"},\"expansion\":{\"id\":135,\"name\":\"SV08: Surging Sparks\",\"code\":\"sv08-surging-sparks\",\"symbolUrl\":\"https://images.pokemontcg.io/sv8/symbol.png\"},\"name\":\"Surging Sparks Half Booster Box\",\"nameSlug\":\"surging-sparks-half-booster-box\",\"languages\":[\"de\",\"en\",\"es\",\"fr\",\"it\",\"nl\",\"pt-BR\"],\"productType\":\"sealed\",\"productCategory\":\"booster_box\",\"prices\":{\"cardmarket\":{\"currency\":\"EUR\",\"low\":105,\"mid\":null,\"high\":null,\"marketValue\":147.26,\"change24h\":0,\"change7d\":0.0684,\"change30d\":0.1714},\"tcgplayer\":{\"currency\":\"USD\",\"low\":186.99,\"mid\":194,\"high\":206.13,\"marketValue\":196.13,\"change24h\":0,\"change7d\":0,\"change30d\":0.0333}},\"externalIds\":{\"cardmarket\":[{\"id\":784951,\"finish\":\"Standard\"}],\"tcgplayer\":[{\"id\":646039,\"finish\":\"Standard\"}]}},{\"id\":223585,\"gameId\":\"pokemon\",\"expansionId\":1199,\"game\":{\"id\":\"pokemon\",\"name\":\"Pokemon\"},\"expansion\":{\"id\":1199,\"name\":\"ME03: Perfect Order\",\"code\":\"me03-perfect-order\",\"symbolUrl\":\"https://images.scrydex.com/pokemon/me3-symbol/symbol\"},\"name\":\"Perfect Order Half Booster Boxes\",\"nameSlug\":\"perfect-order-half-booster-boxes\",\"languages\":[\"de\",\"en\",\"es\",\"fr\",\"it\",\"nl\",\"pt-BR\"],\"imageUrl\":\"https://ik.imagekit.io/cardnexus/production/pokemon/672403.png\",\"productType\":\"sealed\",\"productCategory\":\"booster_box\",\"prices\":{\"cardmarket\":{\"currency\":\"EUR\",\"low\":3,\"mid\":null,\"high\":null,\"marketValue\":5.04,\"change24h\":0.0161,\"change7d\":0.0413,\"change30d\":-0.004},\"tcgplayer\":{\"currency\":\"USD\",\"change24h\":null,\"change7d\":null,\"change30d\":null}},\"externalIds\":{\"cardmarket\":[{\"id\":865410,\"finish\":\"Standard\"}],\"tcgplayer\":[{\"id\":672403,\"finish\":\"Standard\"}]}},{\"id\":221811,\"gameId\":\"pokemon\",\"expansionId\":123,\"game\":{\"id\":\"pokemon\",\"name\":\"Pokemon\"},\"expansion\":{\"id\":123,\"name\":\"SV01: Scarlet & Violet Base Set\",\"code\":\"sv01-scar"
- },
- "first10 Half Deck": [
-  [
-   223286,
-   "Mega Evolution Half Booster Box",
-   "pokemon",
-   "ME01: Mega Evolution",
-   "sealed"
-  ],
-  [
-   245461,
-   "Pitch Black Half Booster Boxes",
-   "pokemon",
-   "ME05: Pitch Black",
-   "sealed"
-  ],
-  [
-   223661,
-   "Destined Rivals Half Booster Box",
-   "pokemon",
-   "SV10: Destined Rivals",
-   "sealed"
-  ],
-  [
-   223935,
-   "Evolving Skies Half Booster Box",
-   "pokemon",
-   "SWSH07: Evolving Skies",
-   "sealed"
-  ],
-  [
-   223833,
-   "Paradox Rift Half Booster Box",
-   "pokemon",
-   "SV04: Paradox Rift",
-   "sealed"
-  ],
-  [
-   223728,
-   "Surging Sparks Half Booster Box",
-   "pokemon",
-   "SV08: Surging Sparks",
-   "sealed"
-  ],
-  [
-   223585,
-   "Perfect Order Half Booster Boxes",
-   "pokemon",
-   "ME03: Perfect Order",
-   "sealed"
-  ],
-  [
-   221811,
-   "Scarlet & Violet Half Booster Box",
-   "pokemon",
-   "SV01: Scarlet & Violet Base Set",
-   "sealed"
-  ],
-  [
-   221736,
-   "Paldea Evolved Half Booster Box",
-   "pokemon",
-   "SV02: Paldea Evolved",
-   "sealed"
-  ],
-  [
-   224237,
-   "Temporal Forces Half Booster Box",
-   "pokemon",
-   "SV05: Temporal Forces",
-   "sealed"
-  ]
- ],
- "prices 225188 Super Electric Breaker Booster Pack": {
-  "status": 200,
-  "body": "{\"productId\":225188,\"pricesByFinish\":{\"Standard\":{\"cardmarket\":{\"currency\":\"EUR\",\"low\":1.15,\"marketValue\":2.43,\"change24h\":0.0705,\"change7d\":0.034,\"change30d\":-0.1474},\"tcgplayer\":{\"currency\":\"USD\",\"low\":3.99,\"mid\":5.48,\"high\":9.99,\"marketValue\":5.1,\"change24h\":0,\"change7d\":0.0119,\"change30d\":-0.0097}}}}"
- },
- "prices 225177 Super Electric Breaker Booster Box": {
-  "status": 200,
-  "body": "{\"productId\":225177,\"pricesByFinish\":{\"Standard\":{\"cardmarket\":{\"currency\":\"EUR\",\"low\":49.9,\"marketValue\":66.09,\"change24h\":-0.0398,\"change7d\":0.0461,\"change30d\":-0.0495},\"tcgplayer\":{\"currency\":\"USD\",\"low\":137.99,\"mid\":148.89,\"high\":430,\"marketValue\":144.72,\"change24h\":-0.01,\"change7d\":-0.0014,\"change30d\":0.0478}}}}"
- },
- "feeds/pokemon/prices (metadata)": {
-  "status": 200,
-  "body": "{\"feedType\":\"prices\",\"url\":\"<redacted>\",\"urlExpiresAt\":\"2026-10-07T19:42:16.326Z\",\"checksum\":\"499f7077076f424d519967e54aef1688cff801dad216091249297b3aa0862b56\",\"sizeBytes\":2097386,\"recordCount\":31278,\"format\":\"ndjson\",\"encoding\":\"gzip\",\"lastRefreshedAt\":\"2026-10-06T02:45:55.983Z\",\"generatedAt\":\"2026-10-06T02:45:55.983Z\"}"
- },
- "feed": {
-  "status": 200,
-  "gzip_bytes": 2097386,
-  "chars": 23215937,
-  "lines": 31278,
-  "first1000": "{\"productId\":23335,\"pricesByFinish\":{\"Standard\":{\"cardmarket\":{\"currency\":\"EUR\",\"low\":0.99,\"mid\":5.55,\"marketValue\":4.74,\"change24h\":0,\"change7d\":0,\"change30d\":0.4024,\"date\":\"2025-12-22\"},\"tcgplayer\":{\"currency\":\"USD\",\"low\":11,\"mid\":13,\"high\":26,\"marketValue\":15,\"change24h\":0,\"change7d\":0.5806,\"change30d\":0.5806,\"date\":\"2026-10-05\"}},\"Foil\":{\"tcgplayer\":{\"currency\":\"USD\",\"low\":2.49,\"mid\":4.13,\"high\":104,\"marketValue\":5.57,\"change24h\":0,\"change7d\":0,\"change30d\":-0.0479,\"date\":\"2026-04-06\"}}}}\n{\"productId\":23170,\"pricesByFinish\":{\"Standard\":{\"cardmarket\":{\"currency\":\"EUR\",\"low\":8.94,\"mid\":14,\"marketValue\":19.93,\"change24h\":0,\"change7d\":-0.0311,\"change30d\":-0.0177,\"date\":\"2025-12-22\"},\"tcgplayer\":{\"currency\":\"USD\",\"low\":196.99,\"mid\":196.99,\"high\":196.99,\"marketValue\":99.99,\"change24h\":0,\"change7d\":0,\"change30d\":null,\"date\":\"2026-02-08\"}},\"Foil\":{\"tcgplayer\":{\"currency\":\"USD\",\"low\":324.99,\"mid\":324.99,\"high\":324.99,\"marketValue\":350,\"change24h\":0,\"change7d\":0,\"change30d\":0,\"date\":\"2026-07-"
+  "sample": "{'id': 223652, 'gameId': 'pokemon', 'expansionId': 136, 'game': {'id': 'pokemon', 'name': 'Pokemon'}, 'expansion': {'id': 136, 'name': 'SV: Prismatic Evolutions', 'code': 'sv-prismatic-evolutions', 'symbolUrl': 'https://images.pokemontcg.io/sv8pt5/symbol.png'}, 'name': 'Prismatic Evolutions Elite Trainer Box', 'nameSlug': 'prismatic-evolutions-elite-trainer-box', 'languages': ['de', 'en', 'es', 'fr', 'it', 'nl', 'pt-BR'], 'imageUrl': 'https://img.cardnexus.com/pokemon/593355.png/p1200.png', 'imageCensored': False, 'productType': 'sealed', 'productCategory': 'elite_trainer_box', 'prices': {'cardnexus': {'low': {'amount': 160, 'currency': 'EUR'}, 'listingCount': 3, 'availableQuantity': 7, 'regions': {'eu': {'currency': 'EUR', 'low': 160, 'listingCount': 3, 'availableQuantity': 7, 'byCondition': {'NM': {'low': 160, 'listingCount': 3, 'availableQuantity': 7, 'byLanguage': {'en': {'low': 160, 'listingCount': 2, 'availableQuantity': 6}, 'fr': {'low': 250, 'listingCount': 1, 'availableQuantity': 1}}}}}}}}, 'externalIds': {'cardmarket': [{'id': 798930, 'finish': 'Standard'}], 'tcgplayer': [{'id': 593355, 'finish': 'Standard'}]}}"
  }
 }
