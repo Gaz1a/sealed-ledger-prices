@@ -1,5 +1,7 @@
 name: PriceCharting marketplace
 on:
+  schedule:
+    - cron: "40 12 * * *"   # daily, after the 11:15 PriceCharting job
   workflow_dispatch:
     inputs:
       mode: {description: "probe or run", default: "probe"}
@@ -9,11 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 scripts/pc_offers.py --${{ inputs.mode }}
+      - run: python3 scripts/pc_offers.py --${{ inputs.mode || 'run' }}
         env:
           PRICECHARTING_TOKEN: ${{ secrets.PRICECHARTING_TOKEN }}
+      - run: python3 scripts/price_sources.py
       - run: |
           git config user.name price-bot; git config user.email price-bot@users.noreply.github.com
-          for f in pc_offers_probe.json pc_offers.json pc_csv_meta.json; do [ -e "$f" ] && git add "$f"; done
+          for f in pc_offers_probe.json pc_offers.json price_sources.json; do [ -e "$f" ] && git add "$f"; done
           git diff --cached --quiet || git commit -m "pricecharting marketplace"
           git pull --rebase -q && git push -q

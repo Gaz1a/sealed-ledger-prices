@@ -25,8 +25,31 @@ def load(p, d):
     try: return json.load(open(os.path.join(ROOT, p)))
     except Exception: return d
 
+# Nov 8: Gaz's plan includes the daily CSV price guide (every Pokémon product, ~96k rows, tcg-id included).
+# One download replaces ~700 per-card API calls; the API is now only used to resolve cards the CSV cannot match.
+GUIDE_ID, GUIDE_TCG = {}, {}
+def load_guide():
+    import csv, io
+    url = "https://www.pricecharting.com/price-guide/download-custom?" + urllib.parse.urlencode({"t": TOKEN, "category": "pokemon-cards"})
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "sealed-ledger/1.0"}), timeout=180) as r:
+            txt = r.read().decode("utf-8", "replace")
+    except Exception as e:
+        print("CSV guide unavailable, falling back to the API:", type(e).__name__); return
+    for row in csv.DictReader(io.StringIO(txt)):
+        d = {"id": row.get("id"), "product-name": row.get("product-name"), "console-name": row.get("console-name"),
+             "tcg-id": row.get("tcg-id") or None, "sales-volume": row.get("sales-volume"), "status": "success"}
+        for k, v in row.items():
+            if k and k.endswith("-price") and v and v.startswith("$"):
+                try: d[k] = int(round(float(v[1:].replace(",", "")) * 100))
+                except ValueError: pass
+        if d["id"]: GUIDE_ID[str(d["id"])] = d
+        if d["tcg-id"]: GUIDE_TCG.setdefault(str(d["tcg-id"]), d)
+    print(f"CSV guide: {len(GUIDE_ID)} products, {len(GUIDE_TCG)} with a TCGplayer id")
+
 def api(path, **q):
     global calls
+    if path == "product" and str(q.get("id")) in GUIDE_ID: return GUIDE_ID[str(q["id"])]
     if calls >= CALL_CAP: raise Stop("call cap")
     q["t"] = TOKEN
     url = f"{API}/{path}?" + urllib.parse.urlencode(q)
@@ -57,6 +80,7 @@ def toks(s): return set(re.findall(r"[a-z0-9]+", (s or "").lower())) - {"pokemon
 
 def resolve(q, pid, number=None, want_ed=None, require_tokens=None, jp=False):
     """Return (product, how) or (None, reason). A match is accepted only on an exact tcg-id, or on number + name tokens."""
+    if pid is not None and str(pid) in GUIDE_TCG: return GUIDE_TCG[str(pid)], "tcg-id"
     j = api("products", q=q)
     prods = (j or {}).get("products") or []
     for p in prods:
@@ -76,6 +100,7 @@ def resolve(q, pid, number=None, want_ed=None, require_tokens=None, jp=False):
 
 def main():
     if not TOKEN: sys.exit("PRICECHARTING_TOKEN is not set")
+    load_guide()
     tracked, prices = load("tracked.json", {}), load("prices.json", {}).get("prices", {})
     graded = load("graded.json", {}).get("cards", {})
     idc = load("pricecharting_ids.json", {})
@@ -216,6 +241,7 @@ def main():
     os.makedirs(os.path.dirname(hp), exist_ok=True)
     json.dump({"_fields": ["date", "ungraded", "g7", "g8", "g9", "g9_5", "psa10"], **{k: v for k, v in hist.items() if k != "_fields"}},
               open(hp, "w"), separators=(",", ":"))
+    print("API calls used:", calls)
     print(json.dumps(out["stats"]), "| stopped:", notes["stopped"], "| mappingConfirmed:", check.get("mappingConfirmed"))
 
 if __name__ == "__main__":

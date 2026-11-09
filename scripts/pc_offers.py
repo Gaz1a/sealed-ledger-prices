@@ -32,3 +32,39 @@ if "--probe" in sys.argv:
             out[f"{lid}:{status}"] = {"status": st, "body": b[:2500].decode("utf-8", "replace").replace(T, "<t>")}
     json.dump(out, open(os.path.join(ROOT, "pc_offers_probe.json"), "w"), indent=1)
     print(json.dumps({k: v["status"] for k, v in out.items()}))
+
+if "--run" in sys.argv:
+    # every ledger want (and graded slab) with a PriceCharting id: cheapest live offers and the latest marketplace sales
+    wants = load("wants_auto.json", {}).get("items", {})
+    pcj = load("pricecharting.json", {})
+    pcid = {k: v.get("pcId") for sec in ("cards", "sealed") for k, v in (pcj.get(sec) or {}).items() if v.get("matched") and v.get("pcId")}
+    for k, v in idc.items():
+        if v.get("pcId"): pcid.setdefault(k, v["pcId"])
+    prev = load("pc_offers.json", {}).get("items", {})
+    out, calls = {}, 0
+    def offers(status, pid):
+        global calls
+        st, b = get("/api/offers", status=status, id=pid, sort="lowest-price" if status == "available" else "starts"); time.sleep(1.2)
+        calls += 1
+        if st != 200: return None
+        try: return json.loads(b).get("offers") or []
+        except Exception: return None
+    def slim(o):
+        return {"price": round(o.get("price", 0) / 100, 2), "cond": o.get("condition-string") or o.get("include-string"),
+                "graded": bool(o.get("grade-co-id")), "cert": o.get("cert-id") or None, "desc": (o.get("description") or "")[:120],
+                "url": "https://www.pricecharting.com" + (o.get("offer-url") or ""), "img": o.get("image-url"),
+                "date": (o.get("date-sold") or o.get("date-listed") or o.get("starts") or "")[:10] or None}
+    for lid in sorted(wants):
+        pid = pcid.get(lid)
+        if not pid: continue
+        a = offers("available", pid)
+        s = offers("sold", pid)
+        if a is None and s is None:
+            if lid in prev: out[lid] = prev[lid]
+            continue
+        out[lid] = {"pcId": pid, "live": [slim(o) for o in (a or [])[:3]], "sold": [slim(o) for o in (s or [])[:5]]}
+    doc = {"generated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
+           "note": "PriceCharting marketplace: cheapest live offers (asking, any condition unless graded) and latest sales, per ledger want",
+           "calls": calls, "items": out}
+    json.dump(doc, open(os.path.join(ROOT, "pc_offers.json"), "w"), separators=(",", ":"), ensure_ascii=False)
+    print(len(out), "wants with marketplace data,", sum(1 for v in out.values() if v["live"]), "with live offers,", calls, "calls")

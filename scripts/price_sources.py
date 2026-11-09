@@ -21,7 +21,8 @@ pc = load("pricecharting.json")
 pcc, pcs = pc.get("cards", {}), pc.get("sealed", {})
 cn = load("cardnexus.json").get("items", {})
 au = load("auction_sheet.json").get("market", {})
-gr = load("graded.json").get("cards", {})   # eBay sold by grade (PokemonPriceTracker API)
+gr = load("graded.json").get("cards", {})
+po = load("pc_offers.json").get("items", {})   # PriceCharting marketplace   # eBay sold by grade (PokemonPriceTracker API)
 tracked = load("tracked.json")
 ids = set(prices) | set(pcc) | set(pcs) | set(k for k in tracked if isinstance(tracked.get(k), dict))
 out, disagree = {}, []
@@ -40,6 +41,9 @@ for i in sorted(ids):
     for g, v in ((gr.get(i) or {}).get("grades") or {}).items():
         if g in ("psa8", "psa9", "psa10", "cgc9", "cgc10", "bgs9", "bgs95") and v.get("n", 0) >= 3 and v.get("median"):
             r["eb_" + g] = [round(v["median"], 2), v["n"]]   # eBay sold median and count for that grader + grade
+    o = po.get(i) or {}
+    if o.get("live"): r["pcmLive"] = [o["live"][0]["price"], o["live"][0].get("cond"), o["live"][0].get("url")]
+    if o.get("sold"): r["pcmSold"] = [o["sold"][0]["price"], o["sold"][0].get("cond"), o["sold"][0].get("date")]
     n = cn.get(i) or {}
     if (n.get("tcg") or {}).get("marketValue"): r["cnTcg"] = round(n["tcg"]["marketValue"], 2)
     if (n.get("cm") or {}).get("marketValue"): r["cnCm"] = round(n["cm"]["marketValue"], 2)
