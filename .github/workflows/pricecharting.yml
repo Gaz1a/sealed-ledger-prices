@@ -17,10 +17,11 @@ jobs:
         env:
           PRICECHARTING_TOKEN: ${{ secrets.PRICECHARTING_TOKEN }}
       - run: python scripts/graded_premium.py
+      - run: python scripts/price_sources.py
       - run: |
           git config user.name "price-bot"
           git config user.email "price-bot@users.noreply.github.com"
-          git add pricecharting.json pricecharting_ids.json graded.json data/pc_history.json
+          git add pricecharting.json pricecharting_ids.json graded.json data/pc_history.json price_sources.json
           git diff --cached --quiet || git commit -m "pricecharting $(date -u +%F)"
           git pull --rebase
           git push
