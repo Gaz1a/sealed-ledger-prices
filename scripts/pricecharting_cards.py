@@ -209,7 +209,7 @@ def main():
     hp = os.path.join(ROOT, "data", "pc_history.json")
     hist = load("data/pc_history.json", {})
     for cid, r in out["cards"].items():
-        if not r.get("matched") or r.get("asOf", TODAY) != TODAY and r.get("ungraded") is None: continue
+        if not r.get("matched") or r.get("asOf") != TODAY: continue   # only cards actually re-read today; never invent a point
         pt = [TODAY] + [r.get(k) for k in ("ungraded", "psa7", "psa8", "psa9", "psa9_5", "psa10")]
         h = [x for x in hist.get(cid, []) if x[0] != TODAY] + [pt]
         hist[cid] = h[-400:]
