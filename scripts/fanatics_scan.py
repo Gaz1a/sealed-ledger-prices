@@ -77,7 +77,7 @@ def to_lot(h):
         bp = round((float(h["purchasePrice"]) / cur - 1) * 100, 1)
     end = datetime.datetime.fromtimestamp(h.get("auctionEndDatetime") or 0, datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     return {"title": h.get("title") or "", "current_price": cur, "min_bid_price": float(h.get("startingBid") or 0),
-            "number_of_bids": h.get("bidCount") or 0, "end_timestamp": end, "buyer_premium": bp, "card_fee": 2.9,
+            "number_of_bids": h.get("bidCount") or 0, "end_timestamp": end, "buyer_premium": bp, "card_fee": 2.9, "ship_card": 5.0,
             "url": lot_url(h), "lot_number": h.get("lotNumber"),
             "lot_id": h.get("objectID"), "auction_type": h.get("marketplace"), "status": h.get("status"), "source": "fanatics",
             "fanaticsValue": h.get("value"), "img": best_img(h)}

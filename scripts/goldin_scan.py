@@ -264,7 +264,7 @@ def pc_graded(w, title, grade_co, grade):
 # ---------- pricing ----------
 def money(lot, value, kind):
     bp = (lot.get("buyer_premium") or 22.0) / 100.0
-    ship = SHIP[kind]
+    ship = lot.get("ship_" + kind) or SHIP[kind]    # house-specific shipping when known (Fanatics single card: $5 on Gaz's Nov 8 invoice)
     cur = float(lot.get("current_price") or 0)
     nxt = max(cur, float(lot.get("min_bid_price") or 0))
     fee = (lot.get("card_fee") or 0) / 100.0      # Fanatics adds 2.9% for card payments on the whole invoice (Gaz's Nov 8 invoice)
