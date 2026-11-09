@@ -21,7 +21,11 @@ if "--probe" in sys.argv:
     out = {}
     st, b = get("/price-guide/download-custom", category="pokemon-cards")
     out["csv"] = {"status": st, "head": b[:300].decode("utf-8", "replace").replace(T, "<t>")}
-    for lid in ["k-149", "pe-etb"]:
+    st, b = get("/price-guide/download-custom", category="pokemon-cards")
+    txt = b.decode("utf-8", "replace"); lines = txt.splitlines()
+    out["csvFull"] = {"status": st, "bytes": len(b), "rows": len(lines), "header": lines[0] if lines else "", "row1": lines[1] if len(lines) > 1 else "",
+                      "k149": next((l for l in lines if l.startswith("643401,")), None)}
+    for lid in []:
         pid = (idc.get(lid) or {}).get("pcId")
         for status in ("available", "sold"):
             st, b = get("/api/offers", status=status, id=pid); time.sleep(1.2)
