@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-10",
  "source": "Pokémon TCG Ledger, synced daily by the Tracker task via the Ledger sync form",
  "items": {
   "bs-maintenance": {
@@ -1242,16 +1242,6 @@
    "cond": "nm",
    "status": "watch"
   },
-  "k-049": {
-   "title": "Venomoth 13/64 (holo)",
-   "kind": "kanto",
-   "set": "Jungle",
-   "tcgProductId": "45124",
-   "market": 37.4,
-   "target": 33.73,
-   "cond": "nm",
-   "status": "want"
-  },
   "kg-86002-reverseholofoil": {
    "title": "Gyarados (Delta Species) 8/110 (EX Holon Phantoms) · Reverse Holofoil",
    "kind": "singles",
@@ -1299,16 +1289,6 @@
    "tcgProductId": "205160",
    "market": 182.54,
    "target": 0,
-   "cond": "nm",
-   "status": "watch"
-  },
-  "w-716232": {
-   "title": "Jirachi ex 155/128 (SIR)",
-   "kind": "singles",
-   "set": "30th Celebration",
-   "tcgProductId": 716232,
-   "market": 43.46,
-   "target": 39.11,
    "cond": "nm",
    "status": "watch"
   },
@@ -1371,16 +1351,6 @@
    "target": 105.36,
    "cond": "nm",
    "status": "want"
-  },
-  "w-716231": {
-   "title": "Sylveon ex 153/128 (SIR)",
-   "kind": "singles",
-   "set": "30th Celebration",
-   "tcgProductId": 716231,
-   "market": 42.79,
-   "target": 38.51,
-   "cond": "nm",
-   "status": "watch"
   },
   "kg-567131": {
    "title": "[JP] Gyarados ex 014/078 (SV1S: Scarlet ex) · Holofoil",
@@ -1712,16 +1682,6 @@
    "cond": "nm",
    "status": "watch"
   },
-  "k-107": {
-   "title": "Hitmonchan 7/102 (holo)",
-   "kind": "kanto",
-   "set": "Base Set",
-   "tcgProductId": "42415",
-   "market": 18.48,
-   "target": 16.61,
-   "cond": "nm",
-   "status": "want"
-  },
   "s-cc-zard": {
    "title": "Charizard — Classic Collection (Base Set reprint, 30 stamp)",
    "kind": "singles",
@@ -1879,16 +1839,6 @@
    "tcgProductId": "85992",
    "market": 70.06,
    "target": 62.99,
-   "cond": "nm",
-   "status": "want"
-  },
-  "kg-250327": {
-   "title": "Shining Magikarp 66/64 (Celebrations: Classic Collection) · Holofoil",
-   "kind": "singles",
-   "set": "Celebrations: Classic Collection",
-   "tcgProductId": "250327",
-   "market": 29.73,
-   "target": 29.24,
    "cond": "nm",
    "status": "want"
   },
@@ -3139,6 +3089,6 @@
    "target": 190.0
   }
  },
- "payloadDate": "2026-11-09",
- "batch": "20261109-0904"
+ "payloadDate": "2026-11-10",
+ "batch": "20261110-0853"
 }
