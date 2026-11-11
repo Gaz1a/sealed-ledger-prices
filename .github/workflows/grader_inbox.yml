@@ -1,0 +1,54 @@
+name: Card Grader inbox
+# Every 10 minutes: new 'Card Grader' Jotform submissions (eBay link and/or photos, from the ledger's Grader tab)
+# are graded with the PSA-trained model; the result is written back to Jotform (the tab shows it) and every photo,
+# score and sheet is kept in the repo for the record and for retraining.
+on:
+  schedule: [{ cron: "*/10 * * * *" }]
+  workflow_dispatch:
+permissions: { contents: write }
+concurrency: { group: grade-own, cancel-in-progress: false }
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    env:
+      JOTFORM_API_KEY: ${{ secrets.JOTFORM_API_KEY }}
+      OUT: ${{ github.workspace }}/../inbox
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - id: poll
+        run: echo "n=$(python scripts/grader_inbox.py poll | tail -1)" >> "$GITHUB_OUTPUT"
+      - if: steps.poll.outputs.n != '0'
+        uses: actions/cache@v4
+        with: { path: ~/.cache/huggingface, key: dinov2-small-v1 }
+      - if: steps.poll.outputs.n != '0'
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+        run: |
+          pip install --quiet torch torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install --quiet timm opencv-python-headless numpy
+          python scripts/grade_own.py
+          git fetch -q origin checks && git worktree add -q "$RUNNER_TEMP/cb" origin/checks
+          python - <<'PY'
+          import json, os, subprocess
+          out = os.environ["OUT"]; jobs = json.load(open(os.path.join(out, "jobs.json")))
+          for j in jobs:
+              f = os.path.join(out, f"result_{j['sub']}_{j['kind']}.txt")
+              if j["kind"] == "photos":
+                  r = subprocess.run(["python", "scripts/issue_grade_comment.py", j["key"]], capture_output=True, text=True).stdout
+              else:
+                  d = os.path.join(out, "one_" + j["sub"])
+                  subprocess.run(["python", "scripts/photo_check.py", d], env={**os.environ, "CHECK_URL": j["url"]})
+                  r = subprocess.run(["python", "scripts/check_comment.py", d, os.environ["RUNNER_TEMP"] + "/cb", "jf" + j["sub"]], capture_output=True, text=True).stdout
+              open(f, "w").write(r or "Could not grade this one.")
+          PY
+          cd "$RUNNER_TEMP/cb" && git config user.name ledger-bot && git config user.email bot@users.noreply.github.com && git add -A && (git commit -qm "grader inbox checks" && git push -q origin HEAD:checks || true)
+      - if: steps.poll.outputs.n != '0'
+        run: python scripts/grader_inbox.py post
+      - run: |
+          git config user.name ledger-bot; git config user.email bot@users.noreply.github.com
+          git add grading/inbox_state.json grading/submissions grading/results.json grading/sheets 2>/dev/null || true
+          git commit -qm "grader inbox" || exit 0
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && break; git rebase --abort 2>/dev/null; sleep 5; done
