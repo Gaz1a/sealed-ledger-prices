@@ -6,7 +6,7 @@ Gaz submits the Jotform 'Card Grader' form (link from the ledger's Grader tab): 
   post  -> writes each job's result back to Jotform (edits the submission's 'Grader result' answer; if the API key is
            read-only, posts a result-only submission through the public form instead) and records the sub as done.
 State: grading/inbox_state.json {done: [submission ids]}. Stdlib only. Secrets: JOTFORM_API_KEY."""
-import json, os, re, sys, datetime, urllib.request, urllib.parse
+import json, os, re, sys, time, datetime, urllib.request, urllib.parse
 FORM = os.environ.get("GRADER_FORM_ID", "263147084103046")
 KEY = os.environ.get("JOTFORM_API_KEY", "")
 API = "https://api.jotform.com"
@@ -33,14 +33,12 @@ def ans(sub, qid):
 def poll():
     os.makedirs(OUT, exist_ok=True)
     Q, st = questions(), state()
-    try: print("notifications:", [(e.get("type"), e.get("subject")) for e in (api(f"/form/{FORM}/properties/emails") or [])], file=sys.stderr)
-    except Exception as e: print("emails?", e, file=sys.stderr)
     subs = api(f"/form/{FORM}/submissions", limit=30, orderby="created_at", direction="DESC")
     jobs = []
     for s in subs:
         sid = s["id"]
         if sid in st["done"] or s.get("status") == "DELETED": continue
-        if st.get("tries", {}).get(sid, 0) >= 4: continue
+        if st.get("tries", {}).get(sid, 0) >= 30 or st.get("next", {}).get(sid, 0) > time.time(): continue
         if (ans(s, Q["result"][0]) or "").strip(): st["done"].append(sid); continue   # a result-only row
         link = (ans(s, Q["link"][0]) or "").strip()
         card = (ans(s, Q["card"][0]) or "").strip()
@@ -74,9 +72,10 @@ def post():
         txt = open(os.path.join(OUT, f"result_{j['sub']}_{j['kind']}.txt")).read().strip() if os.path.exists(os.path.join(OUT, f"result_{j['sub']}_{j['kind']}.txt")) else "Could not grade this one."
         txt = re.sub(r"!\[[^\]]*\]\(([^)]+)\)", r"Photo sheet: \1", txt)[:3500]
         tries = st.setdefault("tries", {}); tries[j["sub"]] = tries.get(j["sub"], 0) + 1
-        if txt.startswith("Could not") and tries[j["sub"]] < 4:
+        if txt.startswith("Could not") and tries[j["sub"]] < 30:
             if j["sub"] in st["done"]: st["done"].remove(j["sub"])
-            print("will retry", j["sub"]); continue          # eBay throttling etc: try again next run
+            st.setdefault("next", {})[j["sub"]] = time.time() + 3600   # eBay daily limit hit etc: try hourly for ~a day
+            print("will retry", j["sub"]); continue
         try:   # keep the answer on Gaz's own row too
             body = urllib.parse.urlencode({f"submission[{rq}]": txt}).encode()
             urllib.request.urlopen(urllib.request.Request(f"{API}/submission/{j['sub']}?apiKey={KEY}", data=body), timeout=40).read()
