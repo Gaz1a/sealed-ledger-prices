@@ -1,0 +1,59 @@
+name: Card Grader listener
+# Always-on: keeps the grader loaded and checks the 'Card Grader' Jotform (fed by the ledger's Grader tab) every 90 s
+# from 7am to 1am LA time (every 10 min overnight), so answers come back in ~1-3 minutes. A run lasts ~5h45m;
+# the schedule starts the next one (only one runs at a time; a queued start just waits).
+on:
+  schedule: [{ cron: "*/20 * * * *" }]
+  workflow_dispatch:
+permissions: { contents: write }
+concurrency: { group: grader-listener, cancel-in-progress: false }
+jobs:
+  listen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    env:
+      JOTFORM_API_KEY: ${{ secrets.JOTFORM_API_KEY }}
+      EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+      EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+      OUT: ${{ github.workspace }}/../inbox
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/cache@v4
+        with: { path: ~/.cache/huggingface, key: dinov2-small-v1 }
+      - run: |
+          pip install --quiet torch torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install --quiet timm opencv-python-headless numpy
+      - name: Listen
+        run: |
+          git config user.name ledger-bot; git config user.email bot@users.noreply.github.com
+          end=$((SECONDS + 20400))
+          while [ $SECONDS -lt $end ]; do
+            git pull -q --rebase -X theirs || true
+            n=$(python scripts/grader_inbox.py poll 2>/tmp/poll.err | tail -1); cat /tmp/poll.err >&2
+            if [ -n "$n" ] && [ "$n" != "0" ]; then
+              python scripts/grade_own.py || true
+              [ -d "$RUNNER_TEMP/cb" ] || { git fetch -q origin checks && git worktree add -q "$RUNNER_TEMP/cb" origin/checks; }
+              (cd "$RUNNER_TEMP/cb" && git fetch -q origin checks && git reset -q --hard origin/checks)
+              python - <<'PY'
+          import json, os, subprocess, shutil
+          out = os.environ["OUT"]; jobs = json.load(open(os.path.join(out, "jobs.json")))
+          for j in jobs:
+              f = os.path.join(out, f"result_{j['sub']}_{j['kind']}.txt")
+              if j["kind"] == "photos":
+                  r = subprocess.run(["python", "scripts/issue_grade_comment.py", j["key"]], capture_output=True, text=True).stdout
+              else:
+                  d = os.path.join(out, "one_" + j["sub"]); shutil.rmtree(d, ignore_errors=True)
+                  subprocess.run(["python", "scripts/photo_check.py", d], env={**os.environ, "CHECK_URL": j["url"]})
+                  r = subprocess.run(["python", "scripts/check_comment.py", d, os.environ["RUNNER_TEMP"] + "/cb", "jf" + j["sub"]], capture_output=True, text=True).stdout
+              open(f, "w").write(r or "Could not grade this one.")
+          PY
+              (cd "$RUNNER_TEMP/cb" && git add -A && git commit -qm "grader listener checks" && git push -q origin HEAD:checks) || true
+              python scripts/grader_inbox.py post || true
+            fi
+            git add grading/inbox_state.json grading/submissions grading/results.json grading/sheets 2>/dev/null || true
+            if ! git diff --cached --quiet; then git commit -qm "grader listener" && { git push -q || { git pull -q --rebase -X theirs && git push -q; } || true; }; fi
+            h=$(TZ=America/Los_Angeles date +%-H)
+            if [ "$h" -ge 1 ] && [ "$h" -lt 7 ]; then sleep 600; else sleep 90; fi
+          done

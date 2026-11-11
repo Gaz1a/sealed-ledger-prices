@@ -3,7 +3,6 @@ name: Card Grader inbox
 # are graded with the PSA-trained model; the result is written back to Jotform (the tab shows it) and every photo,
 # score and sheet is kept in the repo for the record and for retraining.
 on:
-  schedule: [{ cron: "*/10 * * * *" }]
   workflow_dispatch:
 permissions: { contents: write }
 concurrency: { group: grade-own, cancel-in-progress: false }

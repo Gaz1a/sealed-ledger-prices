@@ -16,7 +16,10 @@ def api(path, **q):
     q["apiKey"] = KEY
     with urllib.request.urlopen(f"{API}{path}?{urllib.parse.urlencode(q)}", timeout=40) as r: return json.load(r)["content"]
 def questions():
-    qs = api(f"/form/{FORM}/questions")
+    cache = os.path.join(OUT, "questions.json")
+    try: qs = json.load(open(cache))
+    except Exception:
+        qs = api(f"/form/{FORM}/questions"); os.makedirs(OUT, exist_ok=True); json.dump(qs, open(cache, "w"))
     def find(*words, typ=None):
         for qid, q in qs.items():
             t = (q.get("text") or "").lower()
@@ -76,6 +79,7 @@ def post():
             if j["sub"] in st["done"]: st["done"].remove(j["sub"])
             st.setdefault("next", {})[j["sub"]] = time.time() + 3600   # eBay daily limit hit etc: try hourly for ~a day
             print("will retry", j["sub"]); continue
+        txt = f"[#{j['sub']}] " + txt
         try:   # keep the answer on Gaz's own row too
             body = urllib.parse.urlencode({f"submission[{rq}]": txt}).encode()
             urllib.request.urlopen(urllib.request.Request(f"{API}/submission/{j['sub']}?apiKey={KEY}", data=body), timeout=40).read()
