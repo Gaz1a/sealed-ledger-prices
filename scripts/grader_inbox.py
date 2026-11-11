@@ -33,6 +33,8 @@ def ans(sub, qid):
 def poll():
     os.makedirs(OUT, exist_ok=True)
     Q, st = questions(), state()
+    try: print("notifications:", [(e.get("type"), e.get("subject")) for e in (api(f"/form/{FORM}/properties/emails") or [])], file=sys.stderr)
+    except Exception as e: print("emails?", e, file=sys.stderr)
     subs = api(f"/form/{FORM}/submissions", limit=30, orderby="created_at", direction="DESC")
     jobs = []
     for s in subs:
