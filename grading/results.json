@@ -1,1 +1,36 @@
-{}
+{
+ "listing-k-141/2026-11-11": {
+  "ledgerId": "listing-k-141",
+  "date": "2026-11-11",
+  "files": [
+   "back.png",
+   "front.png"
+  ],
+  "backs": [],
+  "fronts": [],
+  "flags": [
+   "no measurable back photo"
+  ],
+  "grader": [
+   {
+    "p8": 0.488,
+    "grade": 7.0,
+    "side": "back",
+    "px": 1939,
+    "photo": 1
+   },
+   {
+    "p8": 0.348,
+    "grade": 6.8,
+    "side": "front",
+    "px": 2194,
+    "photo": 2
+   }
+  ],
+  "graderP8": 0.348,
+  "graderGrade": 6.8,
+  "sheet": "grading/sheets/listing-k-141_2026-11-11.jpg",
+  "checked": "2026-11-11T21:22+00:00",
+  "graderError": null
+ }
+}
