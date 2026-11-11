@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10",
+ "generated": "2026-11-11",
  "source": "Pokémon TCG Ledger, synced daily by the Tracker task via the Ledger sync form",
  "items": {
   "bs-maintenance": {
@@ -1099,16 +1099,6 @@
    "tcgProductId": "42354",
    "market": 62.71,
    "target": 57.19,
-   "cond": "nm",
-   "status": "want"
-  },
-  "k-123": {
-   "title": "Scyther 10/64 (holo)",
-   "kind": "kanto",
-   "set": "Jungle",
-   "tcgProductId": "45121",
-   "market": 56.91,
-   "target": 51.84,
    "cond": "nm",
    "status": "want"
   },
@@ -3089,6 +3079,6 @@
    "target": 190.0
   }
  },
- "payloadDate": "2026-11-10",
- "batch": "20261110-0853"
+ "payloadDate": "2026-11-11",
+ "batch": "20261111-0854"
 }
