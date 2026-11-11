@@ -38,6 +38,7 @@ def poll():
     for s in subs:
         sid = s["id"]
         if sid in st["done"] or s.get("status") == "DELETED": continue
+        if st.get("tries", {}).get(sid, 0) >= 4: continue
         if (ans(s, Q["result"][0]) or "").strip(): st["done"].append(sid); continue   # a result-only row
         link = (ans(s, Q["link"][0]) or "").strip()
         card = (ans(s, Q["card"][0]) or "").strip()
@@ -70,16 +71,20 @@ def post():
     for j in jobs:
         txt = open(os.path.join(OUT, f"result_{j['sub']}_{j['kind']}.txt")).read().strip() if os.path.exists(os.path.join(OUT, f"result_{j['sub']}_{j['kind']}.txt")) else "Could not grade this one."
         txt = re.sub(r"!\[[^\]]*\]\(([^)]+)\)", r"Photo sheet: \1", txt)[:3500]
-        ok = False
-        try:
+        tries = st.setdefault("tries", {}); tries[j["sub"]] = tries.get(j["sub"], 0) + 1
+        if txt.startswith("Could not") and tries[j["sub"]] < 4:
+            if j["sub"] in st["done"]: st["done"].remove(j["sub"])
+            print("will retry", j["sub"]); continue          # eBay throttling etc: try again next run
+        try:   # keep the answer on Gaz's own row too
             body = urllib.parse.urlencode({f"submission[{rq}]": txt}).encode()
-            with urllib.request.urlopen(urllib.request.Request(f"{API}/submission/{j['sub']}?apiKey={KEY}", data=body), timeout=40) as r:
-                ok = json.load(r).get("responseCode") == 200
-        except Exception as e: print("edit failed, using public submit:", e, file=sys.stderr)
-        if not ok:
-            lq, lname = Q["card"][0], (Q["card"][1] or {}).get("name", "card")
-            body = urllib.parse.urlencode({f"q{rq}_{rname}": txt, f"q{lq}_{lname}": f"RESULT for #{j['sub']}: {j['title']}"[:200]}).encode()
-            urllib.request.urlopen(urllib.request.Request(f"https://submit.jotform.com/submit/{FORM}/", data=body, headers={"User-Agent": "ledger-grader"}), timeout=40).read()
+            urllib.request.urlopen(urllib.request.Request(f"{API}/submission/{j['sub']}?apiKey={KEY}", data=body), timeout=40).read()
+        except Exception as e: print("edit failed:", e, file=sys.stderr)
+        # a result row (fires the 'Grader result' email to Gaz)
+        lq, lname = Q["card"][0], (Q["card"][1] or {}).get("name", "card")
+        ukq, ukname = Q["link"][0], (Q["link"][1] or {}).get("name", "link")
+        body = urllib.parse.urlencode({f"q{rq}_{rname}": txt, f"q{lq}_{lname}": f"{j['title']}"[:200],
+                                       f"q{ukq}_{ukname}": j.get("url", "")}).encode()
+        urllib.request.urlopen(urllib.request.Request(f"https://submit.jotform.com/submit/{FORM}/", data=body, headers={"User-Agent": "ledger-grader"}), timeout=40).read()
         if j["sub"] not in st["done"]: st["done"].append(j["sub"])
     st["done"] = st["done"][-500:]
     json.dump(st, open(STATE, "w"), indent=1)
