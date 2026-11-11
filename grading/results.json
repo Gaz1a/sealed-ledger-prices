@@ -68,5 +68,39 @@
   "sheet": "grading/sheets/listing-s-drago-sir_2026-11-11.jpg",
   "checked": "2026-11-11T21:41+00:00",
   "graderError": null
+ },
+ "issue-7-test-pipeline-dragonite/2026-11-11": {
+  "ledgerId": "issue-7-test-pipeline-dragonite",
+  "date": "2026-11-11",
+  "files": [
+   "photo1.png",
+   "photo2.png"
+  ],
+  "backs": [],
+  "fronts": [],
+  "flags": [
+   "no measurable back photo"
+  ],
+  "grader": [
+   {
+    "p8": 0.904,
+    "grade": 9.3,
+    "side": "front",
+    "px": 1085,
+    "photo": 1
+   },
+   {
+    "p8": 0.95,
+    "grade": 9.4,
+    "side": "back",
+    "px": 1106,
+    "photo": 2
+   }
+  ],
+  "graderP8": 0.904,
+  "graderGrade": 9.3,
+  "sheet": "grading/sheets/issue-7-test-pipeline-dragonite_2026-11-11.jpg",
+  "checked": "2026-11-11T22:00+00:00",
+  "graderError": null
  }
 }
