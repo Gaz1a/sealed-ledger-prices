@@ -1,0 +1,18 @@
+name: Export grader for the ledger page
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/cache@v4
+        with: { path: ~/.cache/huggingface, key: dinov2-small-v1 }
+      - run: |
+          pip install --quiet torch torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install --quiet timm opencv-python-headless numpy onnx onnxruntime onnxscript
+          python scripts/grader/export_web.py
+          git config user.name ledger-bot; git config user.email bot@users.noreply.github.com
+          git add models/web && git commit -qm "web grader export" && git pull -q --rebase -X theirs && git push -q
