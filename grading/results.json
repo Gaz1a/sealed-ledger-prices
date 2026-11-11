@@ -32,5 +32,41 @@
   "sheet": "grading/sheets/listing-k-141_2026-11-11.jpg",
   "checked": "2026-11-11T21:22+00:00",
   "graderError": null
+ },
+ "listing-s-drago-sir/2026-11-11": {
+  "ledgerId": "listing-s-drago-sir",
+  "date": "2026-11-11",
+  "files": [
+   "back.png",
+   "back_bottom.png",
+   "back_top.png",
+   "front.png"
+  ],
+  "backs": [],
+  "fronts": [],
+  "flags": [
+   "no measurable back photo"
+  ],
+  "grader": [
+   {
+    "p8": 0.95,
+    "grade": 9.4,
+    "side": "back",
+    "px": 1106,
+    "photo": 1
+   },
+   {
+    "p8": 0.904,
+    "grade": 9.3,
+    "side": "front",
+    "px": 1085,
+    "photo": 4
+   }
+  ],
+  "graderP8": 0.904,
+  "graderGrade": 9.3,
+  "sheet": "grading/sheets/listing-s-drago-sir_2026-11-11.jpg",
+  "checked": "2026-11-11T21:41+00:00",
+  "graderError": null
  }
 }
