@@ -1,0 +1,73 @@
+{
+ "res": 280,
+ "rows": [
+  {
+   "file": "grading/submissions/listing-k-141/2026-11-11/back.png",
+   "torch": {
+    "p8": 0.541,
+    "grade": 7.2,
+    "side": "back",
+    "px": 2606
+   },
+   "fp32": [
+    0.541,
+    7.16
+   ],
+   "int8": [
+    0.448,
+    6.78
+   ]
+  },
+  {
+   "file": "grading/submissions/listing-k-141/2026-11-11/front.png",
+   "torch": {
+    "p8": 0.377,
+    "grade": 6.9,
+    "side": "front",
+    "px": 2950
+   },
+   "fp32": [
+    0.377,
+    6.9
+   ],
+   "int8": [
+    0.319,
+    6.7
+   ]
+  },
+  {
+   "file": "grading/submissions/listing-s-drago-sir/2026-11-11/back.png",
+   "torch": {
+    "p8": 0.95,
+    "grade": 9.4,
+    "side": "back",
+    "px": 1106
+   },
+   "fp32": [
+    0.95,
+    9.41
+   ],
+   "int8": [
+    0.932,
+    9.14
+   ]
+  },
+  {
+   "file": "grading/submissions/listing-s-drago-sir/2026-11-11/front.png",
+   "torch": {
+    "p8": 0.904,
+    "grade": 9.3,
+    "side": "front",
+    "px": 1085
+   },
+   "fp32": [
+    0.904,
+    9.31
+   ],
+   "int8": [
+    0.877,
+    9.16
+   ]
+  }
+ ]
+}
