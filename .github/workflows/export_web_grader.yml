@@ -16,3 +16,5 @@ jobs:
           python scripts/grader/export_web.py
           git config user.name ledger-bot; git config user.email bot@users.noreply.github.com
           git add models/web && git commit -qm "web grader export" && git pull -q --rebase -X theirs && git push -q
+      - uses: actions/upload-artifact@v4
+        with: { name: check-input, path: models/web/check_input.npy }

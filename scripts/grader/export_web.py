@@ -27,7 +27,7 @@ fp = os.path.join(OUT, "grader.fp32.onnx")
 torch.onnx.export(m, (x, sd), fp, input_names=["crops", "side"], output_names=["p8", "grade"], opset_version=17, dynamo=False)
 from onnxruntime.quantization import quantize_dynamic, QuantType
 q = os.path.join(OUT, "grader.int8.onnx")
-quantize_dynamic(fp, q, weight_type=QuantType.QUInt8)
+quantize_dynamic(fp, q, weight_type=QuantType.QInt8, per_channel=True)
 import onnxruntime as ort
 sf, sq = ort.InferenceSession(fp), ort.InferenceSession(q)
 rows = []
@@ -43,9 +43,12 @@ for f in sorted(glob.glob(os.path.join(HERE, "..", "..", "grading", "submissions
     rows.append({"file": os.path.relpath(f, os.path.join(HERE, "..", "..")), "torch": t, "fp32": [round(float(a[0][0]), 3), round(float(a[1][0]), 2)], "int8": [round(float(b[0][0]), 3), round(float(b[1][0]), 2)]})
     if len(rows) == 1: np.save(os.path.join(OUT, "check_input.npy"), xx)
 json.dump({"res": RES, "rows": rows}, open(os.path.join(OUT, "check.json"), "w"), indent=1)
-data = open(q, "rb").read(); n = 0
+drift = max([abs(r["int8"][0] - r["fp32"][0]) for r in rows] or [1])
+pick = q if drift <= 0.03 else fp          # int8 only if it agrees with the full model to within 0.03
+for f in glob.glob(os.path.join(OUT, "grader.int8.part*")): os.remove(f)
+data = open(pick, "rb").read(); n = 0
 for i in range(0, len(data), 12 * 1024 * 1024):
     open(os.path.join(OUT, f"grader.int8.part{n}"), "wb").write(data[i:i + 12 * 1024 * 1024]); n += 1
-json.dump({"parts": n, "bytes": len(data)}, open(os.path.join(OUT, "parts.json"), "w"))
+json.dump({"parts": n, "bytes": len(data), "kind": "int8" if pick == q else "fp32", "int8Drift": round(drift, 3)}, open(os.path.join(OUT, "parts.json"), "w"))
 os.remove(fp); os.remove(q)
 print(json.dumps(rows, indent=1))
