@@ -1,0 +1,50 @@
+name: Grade card photos
+# Open an issue titled "Grade: <card>" (the ledger's Grader tab has the button) and attach front and back photos.
+# Downloads the photos into grading/submissions (kept for good), runs the PSA-trained grader, replies, closes the issue.
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: write
+  issues: write
+concurrency: { group: grade-own, cancel-in-progress: false }
+jobs:
+  grade:
+    if: startsWith(github.event.issue.title, 'Grade') || contains(github.event.issue.labels.*.name, 'grade')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - id: get
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TITLE: ${{ github.event.issue.title }}
+          BODY: ${{ github.event.issue.body }}
+        run: |
+          printf '%s' "$BODY" > "$RUNNER_TEMP/body.md"
+          k=$(python scripts/issue_photos.py "${{ github.event.issue.number }}" "$TITLE" "$RUNNER_TEMP/body.md")
+          echo "key=$k" >> "$GITHUB_OUTPUT"
+      - if: steps.get.outputs.key == ''
+        env: { GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+        run: |
+          gh issue comment ${{ github.event.issue.number }} --body "No photos found. Attach a front and a back photo to a new issue titled Grade, then the card name."
+          gh issue close ${{ github.event.issue.number }}
+      - if: steps.get.outputs.key != ''
+        uses: actions/cache@v4
+        with: { path: ~/.cache/huggingface, key: dinov2-small-v1 }
+      - if: steps.get.outputs.key != ''
+        run: |
+          pip install --quiet torch torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install --quiet timm opencv-python-headless numpy
+          python scripts/grade_own.py
+      - if: steps.get.outputs.key != ''
+        env: { GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+        run: |
+          git config user.name ledger-bot; git config user.email bot@users.noreply.github.com
+          git add grading/submissions grading/results.json grading/sheets
+          git commit -qm "grade photos #${{ github.event.issue.number }}" || true
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && break; git rebase --abort 2>/dev/null; sleep 5; done
+          python scripts/issue_grade_comment.py "${{ steps.get.outputs.key }}" > "$RUNNER_TEMP/c.md"
+          gh issue comment ${{ github.event.issue.number }} --body-file "$RUNNER_TEMP/c.md"
+          gh issue close ${{ github.event.issue.number }}
