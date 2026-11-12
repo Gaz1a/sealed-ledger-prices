@@ -14,7 +14,7 @@
    if(!window.ort)await loadScript('grader/ort.wasm.min.js');
    ort.env.wasm.numThreads=1;ort.env.wasm.wasmPaths=new URL('grader/',location.href).href;
    const meta=await (await fetch('grader/parts.json')).json();const bufs=[];
-   let C=null;try{C=await caches.open('ledger-grader-'+meta.bytes)}catch(e){}
+   let C=null;try{C=await caches.open('ledger-grader-'+(meta.v||0)+'-'+meta.bytes)}catch(e){}
    for(let i=0;i<meta.parts;i++){const u=new URL('grader/model'+i+'.wasm',location.href).href;let r=null;try{r=C&&await C.match(u)}catch(e){}
     if(!r){r=await fetch(u);if(!r.ok)throw new Error('grader file '+i+' missing');try{C&&await C.put(u,r.clone())}catch(e){}}
     bufs.push(new Uint8Array(await r.arrayBuffer()));step&&step(`Loading the grader… ${i+1}/${meta.parts}`)}
@@ -52,17 +52,22 @@
    if(y>=10&&y<52&&x>=15&&x<111){yn++;if(H>=15&&H<=40&&S>90)yl++}if(y>=63&&y<92&&x>=38&&x<88){rn++;if((H<=8||H>=170)&&S>90)rd++}}
   m.delete();rgb.delete();hsv.delete();return blue/(126*176)>0.35&&yl/yn>0.10&&rd/rn>0.03?'back':'front'}
  function crops(card){const hh=card.rows,ww=card.cols,c=Math.floor(0.12*ww),cx=Math.floor((ww-c)/2),cy=Math.floor((hh-c)/2);
-  const pts=[[0,0],[ww-c,0],[0,hh-c],[ww-c,hh-c],[cx,0],[cx,hh-c],[0,cy],[ww-c,cy]];const X=new Float32Array(8*3*RES*RES);
+  const pts=[[0,0],[ww-c,0],[0,hh-c],[ww-c,hh-c],[cx,0],[cx,hh-c],[0,cy],[ww-c,cy]];const X=new Float32Array(9*3*RES*RES);
   pts.forEach(([x,y],i)=>{const r=card.roi(new cv.Rect(x,y,c,c)),a=new cv.Mat(),b=new cv.Mat();cv.resize(r,a,new cv.Size(320,320),0,0,cv.INTER_CUBIC);cv.resize(a,b,new cv.Size(RES,RES),0,0,cv.INTER_LINEAR);
-   const D=b.data,N=RES*RES;for(let p=0;p<N;p++)for(let ch=0;ch<3;ch++)X[i*3*N+ch*N+p]=(D[p*4+ch]/255-MEAN[ch])/STD[ch];r.delete();a.delete();b.delete()});return X}
+   const D=b.data,N=RES*RES;for(let p=0;p<N;p++)for(let ch=0;ch<3;ch++)X[i*3*N+ch*N+p]=(D[p*4+ch]/255-MEAN[ch])/STD[ch];r.delete();a.delete();b.delete()});
+  {const b=new cv.Mat();cv.resize(card,b,new cv.Size(RES,RES),0,0,cv.INTER_AREA);const D=b.data,N=RES*RES;for(let p=0;p<N;p++)for(let ch=0;ch<3;ch++)X[8*3*N+ch*N+p]=(D[p*4+ch]/255-MEAN[ch])/STD[ch];b.delete()}
+  return X}
  async function toMat(file){const bm=await createImageBitmap(file,{imageOrientation:'from-image'});let w=bm.width,h=bm.height;const s=Math.min(1,3000/Math.max(w,h));if(s<1){w=Math.floor(w*s);h=Math.floor(h*s)}
   const cvs=document.createElement('canvas');cvs.width=w;cvs.height=h;cvs.getContext('2d').drawImage(bm,0,0,w,h);bm.close&&bm.close();return cv.imread(cvs)}
  async function scoreMat(sess,img){const [card,px]=findCard(img);if(!card||px<450){card&&card.delete();return null}
   const sd=side(card),X=crops(card);card.delete();
-  const out=await sess.run({crops:new ort.Tensor('float32',X,[8,3,RES,RES]),side:new ort.Tensor('int64',BigInt64Array.from([sd==='back'?1n:0n]),[1])});
-  return {p8:Math.round(out.p8.data[0]*1000)/1000,grade:Math.round(out.grade.data[0]*10)/10,side:sd,px}}
+  const out=await sess.run({crops:new ort.Tensor('float32',X,[9,3,RES,RES]),side:new ort.Tensor('int64',BigInt64Array.from([sd==='back'?1n:0n]),[1])});
+  return {p8:Math.round(out.p8.data[0]*1000)/1000,grade:Math.round(out.grade.data[0]*10)/10,side:sd,px,emb:out.emb?Array.from(out.emb.data):null}}
  async function grade(files,step){const sess=await init(step);const photos=[];let i=0;
   for(const f of files){i++;step&&step(`Grading photo ${i} of ${files.length}…`);await new Promise(r=>setTimeout(r,30));const m=await toMat(f);try{photos.push(await scoreMat(sess,m))}finally{m.delete()}}
   const ok=photos.filter(Boolean);return {photos,p8:ok.length?Math.min(...ok.map(x=>x.p8)):null,grade:ok.length?Math.min(...ok.map(x=>x.grade)):null}}
- window.LedgerGrader={grade,init,_q:async f=>{await init();const m=await toMat(f);const r=[m.rows,m.cols,quads(m,0.66,0.77,0.10)];m.delete();return r},_score:async(arr,sd=1)=>{const s=await init();const o=await s.run({crops:new ort.Tensor('float32',arr,[8,3,RES,RES]),side:new ort.Tensor('int64',BigInt64Array.from([BigInt(sd)]),[1])});return [o.p8.data[0],o.grade.data[0]]}};
+ async function embedImg(src){const sess=await init();const img=new Image();img.src=src;await img.decode();const c=document.createElement('canvas');c.width=img.naturalWidth;c.height=img.naturalHeight;c.getContext('2d').drawImage(img,0,0);
+  const m=cv.imread(c),b=new cv.Mat();cv.resize(m,b,new cv.Size(RES,RES),0,0,cv.INTER_AREA);const X=new Float32Array(9*3*RES*RES),D=b.data,N=RES*RES;for(let p=0;p<N;p++)for(let ch=0;ch<3;ch++)X[8*3*N+ch*N+p]=(D[p*4+ch]/255-MEAN[ch])/STD[ch];m.delete();b.delete();
+  const o=await sess.run({crops:new ort.Tensor('float32',X,[9,3,RES,RES]),side:new ort.Tensor('int64',BigInt64Array.from([0n]),[1])});return Array.from(o.emb.data)}
+ window.LedgerGrader={grade,init,embedImg,_q:async f=>{await init();const m=await toMat(f);const r=[m.rows,m.cols,quads(m,0.66,0.77,0.10)];m.delete();return r},_score:async(arr,sd=1)=>{const s=await init();const o=await s.run({crops:new ort.Tensor('float32',arr,[arr.length/(3*RES*RES),3,RES,RES]),side:new ort.Tensor('int64',BigInt64Array.from([BigInt(sd)]),[1])});return [o.p8.data[0],o.grade.data[0]]}};
 })();
