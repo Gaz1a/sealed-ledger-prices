@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11",
+ "generated": "2026-11-12",
  "source": "Pokémon TCG Ledger, synced daily by the Tracker task via the Ledger sync form",
  "items": {
   "bs-maintenance": {
@@ -2182,16 +2182,6 @@
    "cond": "nm",
    "status": "watch"
   },
-  "k-145": {
-   "title": "Zapdos 16/102 (holo)",
-   "cond": "nm",
-   "set": "Base Set",
-   "target": 51.05,
-   "kind": "kanto",
-   "tcgProductId": "42356",
-   "market": 50.27,
-   "status": "want"
-  },
   "gy-burning-shadows-33-147-rev": {
    "title": "Gyarados 33/147 Reverse Holo (Holo Rare)",
    "kind": "singles",
@@ -3079,6 +3069,6 @@
    "target": 190.0
   }
  },
- "payloadDate": "2026-11-11",
- "batch": "20261111-0854"
+ "payloadDate": "2026-11-12",
+ "batch": "20261112-0855"
 }
