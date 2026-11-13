@@ -1,12 +1,56 @@
 {
- "generated": "2026-11-11",
+ "generated": "2026-11-13",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (33 entries, 2 new matches)",
+  "googlenews-reprint": "ok (33 entries, 3 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
+  {
+   "id": "6005f0f41170",
+   "feed": "googlenews-reprint",
+   "title": "The best Black Friday Pokémon Advent calendar deals — Jazwares, Funko and MEGA haven’t sold out yet - Yahoo",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOb3I4VW9iWElReURVdkVScThIbEEyUGpZS0lydENpTXNoVE9PdEEySUZPNFQ5c0dieFBPMkpueXZWSU0zUnlWQlNLUkZOMlIzNkJqRXNSVG9mcmRreC1faWZYUHVwLTZEa2ZyQWdZZWtUZ2NJd2dUNTVuY0VDQ05QbTFXeUlnamJabG0yWllOYnh1b0VfZk5HYk9OMHVUazh3VkgyWHRXZnNRLVpQX2EyR0JCWTVucjRvdU5JTE1NZjlrc29fcnNRYkkxTW80UTdHd25vUEVzMXQ4QTVZQ2o0?oc=5",
+   "published": "2026-11-13",
+   "firstSeen": "2026-11-13",
+   "classes": [
+    "restock"
+   ],
+   "matched": [
+    "sold out"
+   ]
+  },
+  {
+   "id": "95bb0193a63a",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon TCG 30th Celebration Ultra-Premium Collections restock retailers: Where to buy - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN095TzJyR2FUY3M3VlRCSEpLSEczNjlpV1VXenp0eWJCa3lrX0swQVYtVEp2UndzNVdWa2JmWFktSEJ6bXdUUi10c1IwNVpYOUhSSTExcWt1WjBlUmh0TVRnelJxWFhlaXM3ZWNoNHpYX083dGJQdHRCcmoyUDFpd0JBNUhXV3hiUThuV0VFLXctWXFrY1EwRjFhM1o?oc=5",
+   "published": "2026-11-13",
+   "firstSeen": "2026-11-13",
+   "classes": [
+    "restock"
+   ],
+   "matched": [
+    "restock",
+    "30th celebration"
+   ]
+  },
+  {
+   "id": "640bf695a947",
+   "feed": "googlenews-reprint",
+   "title": "Retailers enforce tough new restrictions as delayed Pokémon set drops today - Nine.com.au",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUmk0dldqWmNtanVNU2gtMnM2OUlDYmFVMmNQOWFES01lSG9Pbi03RWR1UnI4YnlrXzlRTk52NGx0X2REOWI3UWFlYllpY3JhM0lOelRZeGJKSDQ3ODY0dVlQNjREZ1k2V0k0S2tRLXdzc0o1Wlh5dWl3dXRwNEtjSWQ5NlBZb1Y2U0FNdTBVdXBLV1dOblA3ZWhOZThQQnZxQmlOYzRmT2dFdVk4SWV4aDcxOHZGZnluZnctTGpTQ1BLT1AyQ2tpdmV0dDBGUjJk?oc=5",
+   "published": "2026-11-12",
+   "firstSeen": "2026-11-13",
+   "classes": [
+    "delay"
+   ],
+   "matched": [
+    "delay",
+    "delayed"
+   ]
+  },
   {
    "id": "bbdebc7f5fd2",
    "feed": "googlenews-reprint",
