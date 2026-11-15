@@ -135,7 +135,7 @@
  },
  "retailerInStock": [],
  "retailerCheck": {
-  "generated": "2026-11-14",
+  "generated": "2026-11-15",
   "sites": {
    "devir.pt": {
     "robots": "DISALLOWED (skipped)",
@@ -178,7 +178,7 @@
   "productsChecked": 11,
   "note": "in-stock retail copies under EUR 30 are listed here first; sites marked DISALLOWED/JS-only are skipped, not worked around"
  },
- "generated": "2026-11-14",
+ "generated": "2026-11-15",
  "label": "unverified: asking prices, not sold; import cost is an ESTIMATE",
  "assumptions": {
   "importEstimatePct": 0.12,
@@ -228,7 +228,7 @@
    "title": "HO-OH HOLO UNSEEN FORCES Theme Deck Sealed ex forcas ocultas PORTUGESE POKEMON",
    "seller": "cornercollect",
    "feedbackPct": "100.0",
-   "feedbackScore": 4392,
+   "feedbackScore": 4393,
    "itemLocation": "US",
    "sealedBasis": "title says sealed/new",
    "url": "https://www.ebay.com/itm/336756608947",
@@ -270,7 +270,7 @@
    "title": "Mazzo Mezzo Tema Pokémon Portoghese EX Forze Invisibili 2006 HOOH - Sigillato in fabbrica",
    "seller": "teamrocketgiovanni",
    "feedbackPct": "100.0",
-   "feedbackScore": 24830,
+   "feedbackScore": 24872,
    "itemLocation": "US",
    "sealedBasis": "title says sealed/new",
    "url": "https://www.ebay.it/itm/287654058533",
@@ -772,53 +772,11 @@
    "title": "2004 Pokémon Portuguese EX Ruby & Sapphire Ralts Half Theme Deck- Factory Sealed",
    "seller": "teamrocketgiovanni",
    "feedbackPct": "100.0",
-   "feedbackScore": 24830,
+   "feedbackScore": 24872,
    "itemLocation": "US",
    "url": "https://www.ebay.com/itm/287714974073",
    "readyToBuy": false,
    "readyNote": "auction: place a bid at or below maxWinningBidUSD; not a buy-now",
-   "sellerNote": null
-  },
-  {
-   "id": "bk-ralts",
-   "name": "Ralts",
-   "kind": "buy-it-now",
-   "noCap": true,
-   "usBased": true,
-   "bidCount": 0,
-   "itemEndDate": null,
-   "originCountry": "US",
-   "marketplace": "EBAY_US",
-   "capUSD": null,
-   "capBasis": null,
-   "capLabel": "no cap: market tracking, every live sealed listing flagged",
-   "reasons": [
-    "no cap: live sealed Portuguese listing"
-   ],
-   "new": false,
-   "allInUSD": 115.0,
-   "allInStatus": "known",
-   "itemOnlyLowerBoundUSD": 100.0,
-   "maxShippingForCapUSD": null,
-   "itemUSD": 100.0,
-   "shippingUSD": 15.0,
-   "importEstUSD": 0.0,
-   "title": "2004 Pokémon Portuguese EX Ruby & Sapphire Ralts Half Theme Deck- Factory Sealed",
-   "seller": "teamrocketgiovanni",
-   "feedbackPct": "100.0",
-   "feedbackScore": 24830,
-   "itemLocation": "US",
-   "sealedBasis": "title says sealed/new",
-   "url": "https://www.ebay.com/itm/287654063952",
-   "reference": {
-    "allInUSD": 53.23,
-    "itemUSD": 33.16,
-    "date": "2026-11-13",
-    "url": "https://www.ebay.it/itm/800886705010",
-    "title": "Pokémon Ralts EX Ruby & Sapphire Illustrated Book - Devir (Sealed)"
-   },
-   "readyToBuy": true,
-   "readyNote": "ships to US (eBay deliveryCountry:US filter) with known shipping",
    "sellerNote": null
   },
   {
@@ -959,9 +917,9 @@
    "capBasis": null,
    "capLabel": "no cap: market tracking, every live sealed listing flagged",
    "reasons": [
-    "no cap: live sealed Portuguese auction, current bid $0.99 (0 bids) + shipping $15.0"
+    "no cap: live sealed Portuguese auction, current bid $0.99 (1 bids) + shipping $15.0"
    ],
-   "bidCount": 0,
+   "bidCount": 1,
    "currentBidUSD": 0.99,
    "maxWinningBidUSD": null,
    "allInAtCurrentBidUSD": 15.99,
@@ -972,7 +930,7 @@
    "title": "2005 Pokémon Portuguese EX Ruby & Sapphire Treecko Theme Deck Factory Sealed",
    "seller": "teamrocketgiovanni",
    "feedbackPct": "100.0",
-   "feedbackScore": 24830,
+   "feedbackScore": 24872,
    "itemLocation": "US",
    "url": "https://www.ebay.com/itm/287714972799",
    "readyToBuy": false,
@@ -1451,8 +1409,8 @@
     "title": "HO-OH HOLO UNSEEN FORCES Theme Deck Sealed ex forcas ocultas PORTUGESE POKEMON"
    },
    "max": null,
-   "cardmarketTrendUSD": 25.34,
-   "cardmarketTarget85": 21.54,
+   "cardmarketTrendUSD": 26.22,
+   "cardmarketTarget85": 22.29,
    "cardmarketId": 755664,
    "cardmarketProduct": "EX Unseen Forces: Illustrated Booklet - Ho-Oh",
    "liveSealedUS": 2,
@@ -1479,8 +1437,8 @@
     "title": "Pokemon Lugia 30 Carte Mini Deck Portoghese Sigillato EX Epoca Vintage Raro"
    },
    "max": null,
-   "cardmarketTrendUSD": 47.27,
-   "cardmarketTarget85": 40.18,
+   "cardmarketTrendUSD": 49.72,
+   "cardmarketTarget85": 42.26,
    "cardmarketId": 698569,
    "cardmarketProduct": "EX Unseen Forces: Illustrated Booklet - Lugia",
    "liveSealedUS": 0,
@@ -1544,8 +1502,8 @@
    "capBasis": null,
    "capLabel": "no cap: market tracking, every live sealed listing flagged",
    "auctionsToday": 1,
-   "foundToday": 9,
-   "sealedToday": 4,
+   "foundToday": 8,
+   "sealedToday": 3,
    "notSealedToday": 5,
    "distinctEverSeen": 10,
    "sealedEverSeen": 4,
@@ -1561,7 +1519,7 @@
    "cardmarketTarget85": 20.54,
    "cardmarketId": 755666,
    "cardmarketProduct": "EX Ruby & Sapphire: Illustrated Booklet - Ralts",
-   "liveSealedUS": 3,
+   "liveSealedUS": 2,
    "liveSealedInternational": 2,
    "noCap": true
   },
@@ -1695,8 +1653,8 @@
    "sealedEverSeen": 11,
    "reference": null,
    "max": 63.86,
-   "cardmarketTrendUSD": 48.45,
-   "cardmarketTarget85": 41.18,
+   "cardmarketTrendUSD": 49.44,
+   "cardmarketTarget85": 42.02,
    "cardmarketId": 695809,
    "cardmarketProduct": "EX Legend Maker: Illustrated Booklet - Gengar",
    "liveSealedUS": 0,
@@ -1835,7 +1793,7 @@
      "sealedBasis": "title says sealed/new",
      "seller": "cornercollect",
      "feedbackPct": "100.0",
-     "feedbackScore": 4392
+     "feedbackScore": 4393
     },
     {
      "title": "Pokemon Portuguese EX Unseen Forces Ho-Oh! Picture Book Half Deck Rare Sealed",
@@ -1898,7 +1856,7 @@
      "sealedBasis": "title says sealed/new",
      "seller": "teamrocketgiovanni",
      "feedbackPct": "100.0",
-     "feedbackScore": 24830
+     "feedbackScore": 24872
     },
     {
      "title": "2006 Portuguese EX Unseen Forces Ho-Oh Half Deck - Factory Sealed - Small Dent",
@@ -2029,7 +1987,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "lcmgtradingcards",
      "feedbackPct": "100.0",
-     "feedbackScore": 15990
+     "feedbackScore": 16035
     },
     {
      "title": "Pokémon EX Forze Invisibili Deck Box Lugia Opera Rara Variante Portoghese 2006",
@@ -2318,27 +2276,6 @@
      "feedbackScore": 230
     },
     {
-     "title": "2004 Pokémon Portuguese EX Ruby & Sapphire Ralts Half Theme Deck- Factory Sealed",
-     "url": "https://www.ebay.com/itm/287654063952",
-     "marketplace": "EBAY_US",
-     "itemUSD": 100.0,
-     "shippingUSD": 15.0,
-     "shipUnknown": false,
-     "importEstUSD": 0.0,
-     "allInUSD": 115.0,
-     "originCountry": "US",
-     "condition": "New/Factory Sealed",
-     "itemEndDate": null,
-     "sealed": true,
-     "auction": false,
-     "bidCount": 0,
-     "matchedBy": "broad",
-     "sealedBasis": "title says sealed/new",
-     "seller": "teamrocketgiovanni",
-     "feedbackPct": "100.0",
-     "feedbackScore": 24830
-    },
-    {
      "title": "2006 POKEMON RALTS EX Rubino e Zaffiro Half Deck Libro Portoghese Portogallo SIGILLATO",
      "url": "https://www.ebay.it/itm/178493491737",
      "marketplace": "EBAY_IT",
@@ -2380,7 +2317,7 @@
      "sealedBasis": "title says sealed/new",
      "seller": "teamrocketgiovanni",
      "feedbackPct": "100.0",
-     "feedbackScore": 24830
+     "feedbackScore": 24872
     }
    ]
   },
@@ -2528,12 +2465,12 @@
      "itemEndDate": "2026-11-16T00:35:10.000Z",
      "sealed": true,
      "auction": true,
-     "bidCount": 0,
+     "bidCount": 1,
      "matchedBy": "broad",
      "sealedBasis": "title says sealed/new",
      "seller": "teamrocketgiovanni",
      "feedbackPct": "100.0",
-     "feedbackScore": 24830
+     "feedbackScore": 24872
     }
    ]
   },
@@ -2616,7 +2553,7 @@
      "sealedBasis": "unconfirmed",
      "seller": "lcmgtradingcards",
      "feedbackPct": "100.0",
-     "feedbackScore": 15990
+     "feedbackScore": 16035
     },
     {
      "title": "Devir Livraria Pokémon JCC Origens das Lendas Gengar Deck scellé 30 cartes",
@@ -2679,7 +2616,7 @@
      "sealedBasis": "title says sealed/new",
      "seller": "teamrocketgiovanni",
      "feedbackPct": "100.0",
-     "feedbackScore": 24830
+     "feedbackScore": 24872
     },
     {
      "title": "PORTUGUESE GENGAR ILLUSTRATED BOOKLET/HALF DECK EX LEGEND MAKER FOREIGN POKEMON",
@@ -2721,7 +2658,7 @@
      "sealedBasis": "condition New",
      "seller": "cornercollect",
      "feedbackPct": "100.0",
-     "feedbackScore": 4392
+     "feedbackScore": 4393
     },
     {
      "title": "Pokémon EX Unseen Forces Deck Box GENGAR Rare Art Portuguese Variant 2026 Sealed",
@@ -2784,7 +2721,7 @@
      "sealedBasis": "title says sealed/new",
      "seller": "goobytcg",
      "feedbackPct": "100.0",
-     "feedbackScore": 2150
+     "feedbackScore": 2152
     },
     {
      "title": "GENGAR HOLO EX Legend Maker Pokemon TCG Portuguese Sealed Half Theme Deck RARE",
@@ -2844,8 +2781,8 @@
     },
     "cardmarketId": 755664,
     "cardmarketProduct": "EX Unseen Forces: Illustrated Booklet - Ho-Oh",
-    "cardmarketTrendUSD": 25.34,
-    "target85OfTrend": 21.54,
+    "cardmarketTrendUSD": 26.22,
+    "target85OfTrend": 22.29,
     "targetNote": null,
     "impliedSales": 1,
     "impliedSaleMedianUSD": 95.11,
@@ -2862,8 +2799,8 @@
     },
     "cardmarketId": 698569,
     "cardmarketProduct": "EX Unseen Forces: Illustrated Booklet - Lugia",
-    "cardmarketTrendUSD": 47.27,
-    "target85OfTrend": 40.18,
+    "cardmarketTrendUSD": 49.72,
+    "target85OfTrend": 42.26,
     "targetNote": null,
     "impliedSales": 3,
     "impliedSaleMedianUSD": 225.16,
@@ -3024,8 +2961,8 @@
     },
     "cardmarketId": 695809,
     "cardmarketProduct": "EX Legend Maker: Illustrated Booklet - Gengar",
-    "cardmarketTrendUSD": 48.45,
-    "target85OfTrend": 41.18,
+    "cardmarketTrendUSD": 49.44,
+    "target85OfTrend": 42.02,
     "targetNote": null,
     "impliedSales": 3,
     "impliedSaleMedianUSD": 249.99,
@@ -3034,8 +2971,8 @@
   }
  },
  "totals": {
-  "foundToday": 48,
-  "sealedToday": 28,
+  "foundToday": 47,
+  "sealedToday": 27,
   "distinctEverSeen": 65,
   "unownedRowsWithAnyListing": 4
  }
