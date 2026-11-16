@@ -1,12 +1,24 @@
 {
- "generated": "2026-11-15",
+ "generated": "2026-11-16",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (32 entries, 0 new matches)",
+  "googlenews-reprint": "ok (32 entries, 2 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
+  {
+   "id": "7826b8af7685",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon TCG: Delta Reign Booster Bundles Are Checking Out for Just $32 at Amazon - IGN",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNanYxZ2pfc3ZRZnZIV01aemU0elc5djdpWUIwWGdiZzRoYjZoZkgtS3hZSlJHSk8tcWQzMjFuMEhQX3FhSGxmSzJZMWsyQjhlOWsxZ3h3a0xPNFFUR0JWSkRtdkxQN2xIdGtkWjlNdncwYmhHMlBLeDF4UktUeFN6V0RHeEJibUhvdHBmbXE5N05jcUhnME1LdHozUnI0UQ?oc=5",
+   "published": "2026-11-16",
+   "firstSeen": "2026-11-16",
+   "classes": [],
+   "matched": [
+    "delta reign"
+   ]
+  },
   {
    "id": "6005f0f41170",
    "feed": "googlenews-reprint",
@@ -88,6 +100,18 @@
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1DQUZ2aWd5MGNwR1R2RFkyT3BDTkg3LThlM2ZGLWNnYVRmdHp0TktpZUdSZmlUUV90b01vbmFnUHJ3MEFQQ0VLQVpXUmU0Q0UtbDl3Q2o2dmdPVWF5WjU4ZnlxQzBPVkdjTTRUbzR1VER0dG1RYmwxSTNXSlB2UQ?oc=5",
    "published": "2026-11-11",
    "firstSeen": "2026-11-11",
+   "classes": [],
+   "matched": [
+    "30th celebration"
+   ]
+  },
+  {
+   "id": "7a9e774e7c11",
+   "feed": "googlenews-reprint",
+   "title": "The 5 Biggest Sales from Pokémon 30th Celebration So Far - Sports Illustrated",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWFNWMF9EVmhXRjNGXy1XS3ZEbmFDQ3Flbjd4T0pKUnphbllPZVZ4ZXdEN1J2VGxEWHlKVHRfeVVaN0tBSXU5WC1TcXdQanBCWE5xMFBWNlFBWGFvSUl2bDM3SnBuS3dNWTRnWkVVUGhUWVliVlN4c0U4eTdjdVA2azlQN29BVlFrb0IxVUVSaV9nQQ?oc=5",
+   "published": "2026-11-11",
+   "firstSeen": "2026-11-16",
    "classes": [],
    "matched": [
     "30th celebration"
