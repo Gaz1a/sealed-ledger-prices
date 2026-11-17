@@ -3,8 +3,9 @@
 Writes releases.json {generated, sources {name: status}, items [{date, name, lang, kind, source, url, confirmed}]}.
 The Tracker copies upcoming items into the ledger's calendar (auto entries). Sources:
   tcgplayer-en / tcgplayer-jp : TCGplayer catalog via tcgcsv (sets with a publishedOn date from 30 days ago to 9 months ahead)
-  pokemon-news               : official Pokémon news / press RSS (TCG headlines with a date in them)
-  pokebeach                  : PokeBeach RSS (English release dates and leaks)
+  serebii-en / serebii-jp    : Serebii set lists (English and Japanese release dates)
+  pokemon-news               : official pokemon.com news page (TCG headlines naming a future date)
+  (PokeBeach and the official RSS feeds block or 404 from GitHub; probed Nov 17)
   pokemon-card-jp            : Pokémon Japan's card site product list (Japanese release dates, 2-3 months ahead of English)
 Each source fails independently; the status says which worked."""
 import json, os, re, datetime, html, urllib.request, xml.etree.ElementTree as ET
@@ -29,37 +30,45 @@ def add(date, name, lang, kind, source, url, confirmed):
 for cat, lang in ((3, "EN"), (85, "JP")):
     try:
         g = json.loads(fetch(f"https://tcgcsv.com/tcgplayer/{cat}/groups"))["results"]; n0 = len(items)
+        g = sorted(g, key=lambda x: x["groupId"], reverse=True)[:40]   # newest groups only: old ones carry today's date
         for x in g:
             try: d = datetime.date.fromisoformat(x["publishedOn"][:10])
             except Exception: continue
             add(d, x["name"], lang, "set", "TCGplayer catalog", f"https://www.tcgplayer.com/search/pokemon{'-japan' if cat == 85 else ''}/{x.get('abbreviation') or ''}".rstrip('/'), True)
         status[f"tcgplayer-{lang.lower()}"] = f"ok ({len(items) - n0} in window)"
     except Exception as e: status[f"tcgplayer-{lang.lower()}"] = f"failed: {e}"[:120]
-# 2-3. RSS: official Pokémon news / press, PokeBeach
-TCG = re.compile(r"\b(TCG|Trading Card|expansion|Elite Trainer|Booster|Collection|Premium|set)\b", re.I)
-for name, url in (("pokemon-news", "https://press.pokemon.com/en/rss"), ("pokemon-news-alt", "https://www.pokemon.com/us/pokemon-news/rss"),
-                  ("pokebeach", "https://www.pokebeach.com/feed"), ("pokebeach-alt", "https://www.pokebeach.com/forums/forums/-/index.rss")):
+def text_of(h): return re.sub(r"\s+", " ", html.unescape(re.sub(r"<script.*?</script>|<style.*?</style>|<[^>]+>", " ", h, flags=re.S)))
+DATE = r"(" + "|".join(m.capitalize() for m in MONTHS) + r")\.?\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(20\d\d)"
+# 2. Serebii set lists (English and Japanese): 'Delta Reign - November 6th 2026'
+for name, url, lang in (("serebii-en", "https://www.serebii.net/card/english.shtml", "EN"), ("serebii-jp", "https://www.serebii.net/card/japanese.shtml", "JP")):
     try:
-        root = ET.fromstring(fetch(url, "application/rss+xml, application/xml, text/xml")); n0 = len(items)
-        for it in root.iter():
-            if it.tag.split("}")[-1] not in ("item", "entry"): continue
-            get = lambda k: next((c.text or "" for c in it if c.tag.split("}")[-1] == k), "")
-            title, link = html.unescape(get("title")), get("link") or next((c.get("href") for c in it if c.tag.split("}")[-1] == "link"), "")
-            body = re.sub(r"<[^>]+>", " ", html.unescape(get("description") or get("summary") or get("encoded")))
-            if not TCG.search(title): continue
-            for d in en_dates(title + " " + body)[:2]:
-                add(d, title, "EN", "news", name.replace("-alt", ""), link, name.startswith("pokemon-news"))
-        status[name] = f"ok ({len(items) - n0} dated)"
+        t = text_of(fetch(url).decode("latin-1", "ignore")); n0 = len(items)
+        for m in re.finditer(r"([A-Z][^\-\u2013|]{2,70}?)\s*[-\u2013]\s*" + DATE, t):
+            try: d = datetime.date(int(m.group(4)), MONTHS[m.group(2).lower()], int(m.group(3)))
+            except ValueError: continue
+            add(d, m.group(1).strip(), lang, "set", "Serebii", url, False)
+        status[name] = f"ok ({len(items) - n0} in window)"
     except Exception as e: status[name] = f"failed: {e}"[:120]
+# 3. Official Pokemon news page: TCG headlines that name a date
+try:
+    t = text_of(fetch("https://www.pokemon.com/us/pokemon-news").decode("utf-8", "ignore")); n0 = len(items)
+    for m in re.finditer(r"([^.!?]{0,160}\b(?:TCG|Trading Card Game|Elite Trainer|Booster|Collection|expansion)\b[^.!?]{0,160}?)" + DATE, t):
+        try: d = datetime.date(int(m.group(4)), MONTHS[m.group(2).lower()], int(m.group(3)))
+        except ValueError: continue
+        if d > TODAY: add(d, m.group(1).strip()[-140:], "EN", "news", "pokemon.com news", "https://www.pokemon.com/us/pokemon-news", True)
+    status["pokemon-news"] = f"ok ({len(items) - n0} dated)"
+except Exception as e: status["pokemon-news"] = f"failed: {e}"[:120]
 # 4. Pokémon Japan card site: product list with 発売日 (release date)
 try:
-    t = fetch("https://www.pokemon-card.com/products/").decode("utf-8", "ignore"); n0 = len(items)
-    for m in re.finditer(r"(20\d\d)年\s*(\d{1,2})月\s*(\d{1,2})日[^<]{0,40}?発売.{0,400}?", t, re.S):
+    t = fetch("https://www.pokemon-card.com/info/").decode("utf-8", "ignore") + fetch("https://www.pokemon-card.com/products/").decode("utf-8", "ignore"); n0 = len(items)
+    for m in re.finditer(r"(20\d\d)年\s*(\d{1,2})月\s*(\d{1,2})日", t):
         try: d = datetime.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
         except ValueError: continue
-        near = t[max(0, m.start() - 600): m.end() + 200]
-        nm = re.findall(r"(?:alt|title)=\"([^\"]{4,80})\"|>([^<>]{6,80}(?:パック|デッキ|ボックス|セット|コレクション)[^<>]{0,40})<", near)
-        name = next((a or b for a, b in nm if (a or b).strip()), "Japanese product")
+        near = text_of(t[max(0, m.start() - 500): m.end() + 500])
+        if "発売" not in near: continue
+        nm = [x.group(0).strip("「」") for x in re.finditer(r"「[^」]{3,60}」|[^\s「」]{0,30}(?:拡張パック|強化拡張パック|ハイクラスパック|スペシャルデッキ|スターターデッキ|ボックス|コレクション|セット)[^\s「」]{0,30}", near)]
+        name = next((x for x in nm if len(x) > 3), "")
+        if not name: continue
         add(d, html.unescape(name), "JP", "product", "pokemon-card.com", "https://www.pokemon-card.com/products/", True)
     status["pokemon-card-jp"] = f"ok ({len(items) - n0} dated)"
 except Exception as e: status["pokemon-card-jp"] = f"failed: {e}"[:120]
