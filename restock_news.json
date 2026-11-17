@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16",
+ "generated": "2026-11-17",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
@@ -17,6 +17,36 @@
    "classes": [],
    "matched": [
     "delta reign"
+   ]
+  },
+  {
+   "id": "7d81d7de7a31",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon TCG: 30th Celebration Ultra-Premium Collection Back in Stock at Amazon, But There's a Catch - IGN",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUXBXTEV0LXBBTF94M2FvWU1YZ190OTFXWERPUnluSVJsQUZxb2NuY3FicXF2UV9zTWRjX1VScC1LZHlRdVZSMG9mdW9KaFp0SEZBQTVNYXltd0VmWmN0aWxzaU00MXpvYmRwTk83MmJyRjdDNjlfSEtSaFY4NG9uV2FFYzBqOHJOVnBHTVZhek1HR2FrZjNraHJCQm00aVNiblFQMU5TQQ?oc=5",
+   "published": "2026-11-16",
+   "firstSeen": "2026-11-17",
+   "classes": [
+    "restock"
+   ],
+   "matched": [
+    "back in stock",
+    "30th celebration"
+   ]
+  },
+  {
+   "id": "7bcc2675d725",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon Winds and Waves delayed from November 2026? The leak - Pokemon-France.com",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNOTVDUl9UQVM2RzkwcEwwRUhrZXBsNnhBNFl3MmlJUGpnRDU1WVBXQkx1TE5BOGFaOEtKWWMtSDZKbVJtVWh2TWZGd3hrczR5WXV1UWFmSTRhTjFiUkNsMWZsY1V2WmYtdFhxdW1Lc0lTUkxiTHRadTJXZGtUaWVRcy1zS1BmOGVrVHlKNlFSeHZ6Uk9Lc0JlS3lyS093THd6UmtyUjBGdDhOVmd3LXc5cFluakp2enFfaFFpNVY0T2p5dFB3SkhhYUpBSFo2MU1hbU1IV19Qaw?oc=5",
+   "published": "2026-11-14",
+   "firstSeen": "2026-11-17",
+   "classes": [
+    "delay"
+   ],
+   "matched": [
+    "delay",
+    "delayed"
    ]
   },
   {
