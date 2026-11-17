@@ -208,7 +208,7 @@ def main():
             "shipping": ship_of(h), "shipUnknown": ship_of(h) is None, "buyingOptions": h.get("buyingOptions"), "itemEndDate": h.get("itemEndDate"),
             "seller": h.get("seller", {}).get("username"), "feedbackScore": h.get("seller", {}).get("feedbackScore"),
             "feedbackPct": h.get("seller", {}).get("feedbackPercentage"), "returnsAccepted": (d.get("returnTerms") or {}).get("returnsAccepted"),
-            "condition": h.get("condition"), "matchedIds": matched, "photos": [p for p in photos if p][:6], "desc": re.sub(r"\s+", " ", desc)[:700]})
+            "condition": h.get("condition"), "matchedIds": matched, "photos": [p for p in photos if p][:12], "desc": re.sub(r"\s+", " ", desc)[:700]})
         time.sleep(0.3)
     keep = load("ebay_wants.json", {}).get("booklets")   # written daily by scripts/bk_booklets.py; preserve it
     out = {"generated": datetime.date.today().isoformat(), "wantsSource": wsrc, "wants": len(W), "queries": nq, "singles": singles, "lots": lots}
