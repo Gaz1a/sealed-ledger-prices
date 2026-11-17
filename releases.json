@@ -1,0 +1,348 @@
+{
+ "generated": "2026-11-17T20:18:10+00:00",
+ "note": "Upcoming and recent (last 30 days) Pokemon TCG releases. confirmed = official or TCGplayer catalog; news items are reported dates, verify.",
+ "sources": {
+  "tcgplayer-en": "ok (21 in window)",
+  "tcgplayer-jp": "ok (18 in window)",
+  "pokemon-news": "failed: HTTP Error 404: Not Found",
+  "pokemon-news-alt": "failed: HTTP Error 404: Not Found",
+  "pokebeach": "failed: HTTP Error 500: Internal Server Error",
+  "pokebeach-alt": "ok (0 dated)",
+  "pokemon-card-jp": "ok (0 dated)"
+ },
+ "items": [
+  {
+   "date": "2026-11-06",
+   "name": "ME06: Delta Reign",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/DLR",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-06",
+   "name": "McDonald's Promos 2026",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/M26",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-13",
+   "name": "mG: Mega Feraligatr ex, Mega Dragonite ex, and Mega Gengar ex Special Deck Set",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan/mG",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "EX Trainer Kit 1: Latias & Latios",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/PR",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "EX Trainer Kit 2: Plusle & Minun",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/PR",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Nintendo Promos",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/PR",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "POP Series 1",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/POP",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "POP Series 2",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/POP",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "POP Series 3",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/POP",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "POP Series 4",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/POP",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "POP Series 5",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/POP",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "POP Series 6",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/POP",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "POP Series 7",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/POP",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "POP Series 8",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/POP",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "POP Series 9",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/POP",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Alternate Art Promos",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/PR",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Blister Exclusives",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/BLE",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Burger King Promos",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/BKP",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "First Partner Pack",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/FPP",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Miscellaneous Cards & Products",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/MCAP",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Pikachu World Collection Promos",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/PWCP",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Professor Program Promos",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/PPP",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "64 Mario Stadium Best Photo Contest",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Battle Road",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Champion Road",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "CoroCoro Promotional Cards",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Elementary School Competition",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Gym Challenge",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "How I Became a Pokemon Card",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Limited Collection Master Battle Set",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Pokemon Card Design Contest",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Pokemon Card Fan Club",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Pokemon Card Information Promotional cards",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Unnumbered Promotional cards",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Unnumbered World Championships",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Vending Machine cards Series 1 (Blue)",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-17",
+   "name": "World Hobby Fair",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan",
+   "confirmed": true
+  }
+ ]
+}
