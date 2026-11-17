@@ -387,10 +387,10 @@ def main():
         want, wtitle = want_number(c.get("wantId"))
         nums = sorted(set(info.pop("_nums", []))); kana = info.pop("_kana", 0)
         jp_ok = bool(re.search(r"japan|jpn|\bjp\b|[\u3041-\u30fa]", (wtitle or "") + " " + (c.get("wantId") or ""), re.I))
-        pc = {"numbersRead": [f"{a:03d}/{b:03d}" for a, b in nums][:6], "japaneseText": kana >= 8, "want": (f"{want[0]}/{want[1]}" if want else None)}
+        pc = {"numbersRead": [f"{a:03d}/{b:03d}" for a, b in nums][:6], "japaneseText": kana >= 150, "want": (f"{want[0]}/{want[1]}" if want else None)}
         if pytesseract is None:
             pc["status"] = "not run"
-        elif kana >= 8 and not jp_ok and (c.get("wantId") or "").strip():
+        elif kana >= 150 and not jp_ok and (c.get("wantId") or "").strip():
             pc["status"] = "fail"; info["flags"].insert(0, f"WRONG PRINT: Japanese text on the card ({kana} kana read) but the want is English")
         elif want and nums and want not in nums and not any(a == want[0] for a, b in nums):
             pc["status"] = "fail"; info["flags"].insert(0, f"WRONG PRINT: card number reads {', '.join(pc['numbersRead'][:3])}, want {want[0]}/{want[1]}")
@@ -398,7 +398,7 @@ def main():
             pc["status"] = "pass"
         else:
             pc["status"] = "unread" if not nums else "no want number"
-            if kana >= 8: info["flags"].append(f"Japanese text on the card ({kana} kana read)")
+            if kana >= 150: info["flags"].append(f"Japanese text on the card ({kana} kana read)")
         info["printCheck"] = pc
         if not info["backs"]:
             info["flags"].append("no measurable back photo (check by eye; none at all = fail)")
