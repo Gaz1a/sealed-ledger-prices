@@ -5,6 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 scripts/tmp/probe.py
       - run: python3 scripts/tmp/probe2.py
         env: { JOTFORM_API_KEY: "${{ secrets.JOTFORM_API_KEY }}" }

@@ -44,6 +44,10 @@ def poll():
         if st.get("tries", {}).get(sid, 0) >= 30 or st.get("next", {}).get(sid, 0) > time.time(): continue
         if (ans(s, Q["result"][0]) or "").strip(): st["done"].append(sid); continue   # a result-only row
         link = (ans(s, Q["link"][0]) or "").strip()
+        if not link:   # the ledger's Jotform connector can drop the answer into another field: take any eBay link on the row
+            for a in (s.get("answers") or {}).values():
+                m = re.search(r"https?://(?:www\.)?(?:ebay\.[a-z.]+/itm/\S+|ebay\.us/\S+)|\b\d{12}\b", str(a.get("answer") or ""))
+                if m and "[#" not in str(a.get("answer") or ""): link = m.group(0); break
         card = (ans(s, Q["card"][0]) or "").strip()
         photos = ans(s, Q["photos"][0]) or []
         if isinstance(photos, str): photos = [p for p in re.split(r"[\s,]+", photos) if p.startswith("http")]
