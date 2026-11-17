@@ -24,13 +24,15 @@ def sheet_of(t):
 def main():
     H = {"Authorization": "Bearer " + token(), "X-EBAY-C-MARKETPLACE-ID": "EBAY_US"}
     now = datetime.datetime.now(datetime.timezone.utc)
-    seen, items = set(), []
+    seen, items, ok = set(), [], 0
     for q in ("pokemon vending series 2 unpeeled sheet", "pokemon vending sheet red unpeeled", "pokemon vending series 1 unpeeled sheet",
               "pokemon vending series 3 unpeeled sheet", "pokemon vending sheet unpeeled", "pokemon vending special preview sheet 00"):
         for buying in ("FIXED_PRICE", "AUCTION"):
             url = ("https://api.ebay.com/buy/browse/v1/item_summary/search?q=" + urllib.parse.quote(q) +
                    "&filter=" + urllib.parse.quote(f"buyingOptions:{{{buying}}},deliveryCountry:US") + "&limit=100")
-            for it in (get(url, H) or {}).get("itemSummaries", []):
+            res = get(url, H)
+            if res is not None: ok += 1
+            for it in (res or {}).get("itemSummaries", []):
                 if it["itemId"] in seen: continue
                 seen.add(it["itemId"]); t = it.get("title", "")
                 if "unpeel" not in t.lower() and "un-peel" not in t.lower(): continue
@@ -48,6 +50,7 @@ def main():
                 items.append({"sheet": sid, "title": t, "url": it.get("itemWebUrl", "").split("?")[0], "auction": auc, "price": price,
                               "shipping": ship, "landed": round(price + (ship or 0), 2) if ship is not None else None,
                               "bids": it.get("bidCount"), "ends": ends, "seller": (it.get("seller") or {}).get("username")})
+    if not ok: sys.exit("every eBay search failed (rate limit?); keeping the previous vending_sheets.json")
     deals = []
     for x in items:
         ser = int(x["sheet"][2]) if x["sheet"].startswith("vs") and x["sheet"][2].isdigit() else None
