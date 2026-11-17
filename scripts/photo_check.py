@@ -304,6 +304,7 @@ try:
 except Exception:
     pytesseract = None
 _WANTS = None
+READ_SCRIPTS = {}
 def want_number(want_id):
     global _WANTS
     if not want_id: return None, None
@@ -324,8 +325,10 @@ def read_print(img):
         for th in (g, cv2.threshold(g, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]):
             t = pytesseract.image_to_string(th, lang="eng", config="--psm 11")
             nums += [(int(a), int(b)) for a, b in re.findall(r"(?<![\d/])(\d{1,3})\s*/\s*(\d{2,3})(?![\d/])", t) if 0 < int(a) <= 400 and 20 <= int(b) <= 400]
-        tj = pytesseract.image_to_string(g, lang="jpn", config="--psm 11")
+        tj = pytesseract.image_to_string(g, lang="jpn+kor+chi_sim+chi_tra", config="--psm 11")
         kana = len(re.findall(r"[\u3041-\u3096\u30a1-\u30fa]", tj))
+        READ_SCRIPTS["hangul"] = READ_SCRIPTS.get("hangul", 0) + len(re.findall(r"[\uac00-\ud7a3]", tj))
+        READ_SCRIPTS["han"] = READ_SCRIPTS.get("han", 0) + len(re.findall(r"[\u4e00-\u9fff]", tj))
     except Exception:
         pass
     return nums, kana
@@ -386,12 +389,17 @@ def main():
             rows.append(sheet_row(img, card, lab))
         want, wtitle = want_number(c.get("wantId"))
         nums = sorted(set(info.pop("_nums", []))); kana = info.pop("_kana", 0)
+        hangul, han = READ_SCRIPTS.pop("hangul", 0), READ_SCRIPTS.pop("han", 0)
+        lang = "Japanese" if kana >= 150 else "Korean" if hangul >= 150 else "Chinese" if han >= 150 and kana < 40 else None
+        if lang and lang != "Japanese":
+            info["flags"].insert(0, f"{lang.upper()} VERSION: {lang} text on the card ({hangul if lang == 'Korean' else han} characters read); price it against the {lang} version, not the English want")
+            kana = 0
         jp_ok = bool(re.search(r"japan|jpn|\bjp\b|[\u3041-\u30fa]", (wtitle or "") + " " + (c.get("wantId") or ""), re.I))
-        pc = {"numbersRead": [f"{a:03d}/{b:03d}" for a, b in nums][:6], "japaneseText": kana >= 150, "want": (f"{want[0]}/{want[1]}" if want else None)}
+        pc = {"numbersRead": [f"{a:03d}/{b:03d}" for a, b in nums][:6], "japaneseText": kana >= 150, "language": lang or "English (no foreign text read)", "want": (f"{want[0]}/{want[1]}" if want else None)}
         if pytesseract is None:
             pc["status"] = "not run"
         elif kana >= 150 and not jp_ok and (c.get("wantId") or "").strip():
-            pc["status"] = "fail"; info["flags"].insert(0, f"WRONG PRINT: Japanese text on the card ({kana} kana read) but the want is English")
+            pc["status"] = "fail"; info["flags"].insert(0, f"JAPANESE VERSION: Japanese text on the card ({kana} kana read); the want is English, so price it against the Japanese version")
         elif want and nums and want not in nums and not any(a == want[0] for a, b in nums):
             pc["status"] = "fail"; info["flags"].insert(0, f"WRONG PRINT: card number reads {', '.join(pc['numbersRead'][:3])}, want {want[0]}/{want[1]}")
         elif want and want in nums:
