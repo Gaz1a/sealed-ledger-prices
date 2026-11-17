@@ -1633,7 +1633,7 @@
     "productId": 618764,
     "name": "Blastoise ex - 009/165",
     "number": "009/165",
-    "market": 2.63
+    "market": 2.62
    }
   ],
   "researchSrc": "https://tcgbox.co.kr/product/%EC%8A%A4%ED%8E%98%EC%85%9C-%EC%A0%90%EB%B3%B4%EC%B9%B4%EB%93%9C%EC%84%B8%ED%8A%B8-%EA%B1%B0%EB%B6%81%EC%99%95ex/3261/",
@@ -1700,7 +1700,7 @@
     "productId": 91614,
     "name": "Charizard EX - XY17 (XY Black Star Promos)",
     "number": "XY17",
-    "market": 16.01
+    "market": 15.96
    },
    {
     "productId": 152944,
@@ -2641,11 +2641,17 @@
  "j-2018-zeraora-special-jumbo-card-pack-ja": {
   "title": "Zeraora Special Jumbo Card Pack",
   "lang": "Japanese",
-  "sealedId": null,
-  "sealedBasis": null,
+  "sealedId": 733562,
+  "sealedBasis": "exact-name",
   "cardId": null,
   "cardBasis": null,
-  "sealedCandidates": [],
+  "sealedCandidates": [
+   {
+    "productId": 733562,
+    "name": "Zeraora Special Jumbo Card Pack",
+    "group": "SM7a: Thunderclap Spark"
+   }
+  ],
   "cardNote": "multiple/unspecified jumbo cards in sheet",
   "researchSrc": "https://www.pokecardex.com/carte/jp/13876",
   "refs": {
@@ -6597,7 +6603,7 @@
     "productId": 91614,
     "name": "Charizard EX - XY17 (XY Black Star Promos)",
     "number": "XY17",
-    "market": 16.01
+    "market": 15.96
    },
    {
     "productId": 152944,
@@ -7217,7 +7223,7 @@
     "productId": 91614,
     "name": "Charizard EX - XY17 (XY Black Star Promos)",
     "number": "XY17",
-    "market": 16.01
+    "market": 15.96
    },
    {
     "productId": 152944,
