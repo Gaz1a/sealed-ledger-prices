@@ -293,6 +293,43 @@ def load_grader():
 GRADER_ERR = None
 
 
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# PRINT CHECK (Nov 17, Gaz approved): a 'Paldea Evolved Magikarp 203/193' flash hit was really the Japanese
+# sv1a 080/073 art rare. Read the card number and look for Japanese text on the photos with Tesseract OCR
+# (eng + jpn); compare with the want's number. Skipped quietly if Tesseract is not installed.
+try:
+    import pytesseract
+    pytesseract.get_tesseract_version()
+except Exception:
+    pytesseract = None
+_WANTS = None
+def want_number(want_id):
+    global _WANTS
+    if not want_id: return None, None
+    if _WANTS is None:
+        try: _WANTS = (json.load(open(os.path.join(ROOT_DIR, "wants_auto.json"))).get("items") or {})
+        except Exception: _WANTS = {}
+    v = _WANTS.get(want_id.split(",")[0])
+    t = (v[1] if isinstance(v, list) and len(v) > 1 else (v or {}).get("title") if isinstance(v, dict) else "") or ""
+    m = re.search(r"(\d{1,3})\s*/\s*(\d{2,3})", t)
+    return ((int(m.group(1)), int(m.group(2))) if m else None), t
+def read_print(img):
+    """-> (numbers [(n, total)], kana count) from one photo."""
+    if pytesseract is None or img is None: return [], 0
+    h, w = img.shape[:2]; k = 1600 / max(h, w)
+    g = cv2.cvtColor(cv2.resize(img, (int(w * k), int(h * k))) if k < 1 else img, cv2.COLOR_BGR2GRAY)
+    nums, kana = [], 0
+    try:
+        for th in (g, cv2.threshold(g, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]):
+            t = pytesseract.image_to_string(th, lang="eng", config="--psm 11")
+            nums += [(int(a), int(b)) for a, b in re.findall(r"(?<![\d/])(\d{1,3})\s*/\s*(\d{2,3})(?![\d/])", t) if 0 < int(a) <= 400 and 20 <= int(b) <= 400]
+        tj = pytesseract.image_to_string(g, lang="jpn", config="--psm 11")
+        kana = len(re.findall(r"[\u3041-\u3096\u30a1-\u30fa]", tj))
+    except Exception:
+        pass
+    return nums, kana
+
 def main():
     os.makedirs(os.path.join(OUT, "sheets"), exist_ok=True)
     G = load_grader()
@@ -324,6 +361,9 @@ def main():
                 if gs:
                     gs["photo"] = n + 1
                     info.setdefault("grader", []).append(gs)
+            if n < 8:
+                pn, pk = read_print(img)
+                info.setdefault("_nums", []).extend(pn); info["_kana"] = info.get("_kana", 0) + pk
             card, px = find_card(img)
             kind = band_kind(card) if card is not None else None
             if kind is None:
@@ -344,6 +384,22 @@ def main():
                 info["fronts"].append({"photo": n + 1, "cardPx": px, "centering": ce})
                 lab = f"photo {n + 1} FRONT {px}px  centering " + (f"L/R {ce['lr']}  T/B {ce['tb']}" if ce else "n/a (full art or no border found)")
             rows.append(sheet_row(img, card, lab))
+        want, wtitle = want_number(c.get("wantId"))
+        nums = sorted(set(info.pop("_nums", []))); kana = info.pop("_kana", 0)
+        jp_ok = bool(re.search(r"japan|jpn|\bjp\b|[\u3041-\u30fa]", (wtitle or "") + " " + (c.get("wantId") or ""), re.I))
+        pc = {"numbersRead": [f"{a:03d}/{b:03d}" for a, b in nums][:6], "japaneseText": kana >= 8, "want": (f"{want[0]}/{want[1]}" if want else None)}
+        if pytesseract is None:
+            pc["status"] = "not run"
+        elif kana >= 8 and not jp_ok and (c.get("wantId") or "").strip():
+            pc["status"] = "fail"; info["flags"].insert(0, f"WRONG PRINT: Japanese text on the card ({kana} kana read) but the want is English")
+        elif want and nums and want not in nums and not any(a == want[0] for a, b in nums):
+            pc["status"] = "fail"; info["flags"].insert(0, f"WRONG PRINT: card number reads {', '.join(pc['numbersRead'][:3])}, want {want[0]}/{want[1]}")
+        elif want and want in nums:
+            pc["status"] = "pass"
+        else:
+            pc["status"] = "unread" if not nums else "no want number"
+            if kana >= 8: info["flags"].append(f"Japanese text on the card ({kana} kana read)")
+        info["printCheck"] = pc
         if not info["backs"]:
             info["flags"].append("no measurable back photo (check by eye; none at all = fail)")
         gr = info.get("grader") or []

@@ -20,7 +20,8 @@ jobs:
         with: { path: ~/.cache/huggingface, key: dinov2-small-v1 }
       - run: |
           pip install --quiet torch torchvision --index-url https://download.pytorch.org/whl/cpu
-          pip install --quiet timm opencv-python-headless numpy
+          pip install --quiet timm opencv-python-headless numpy pytesseract
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-jpn > /dev/null
       - run: python scripts/photo_check.py "$RUNNER_TEMP/photos"
         env:
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}

@@ -27,7 +27,8 @@ jobs:
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
         run: |
           pip install --quiet torch torchvision --index-url https://download.pytorch.org/whl/cpu
-          pip install --quiet timm opencv-python-headless numpy
+          pip install --quiet timm opencv-python-headless numpy pytesseract
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-jpn > /dev/null
           python scripts/grade_own.py
           git fetch -q origin checks && git worktree add -q "$RUNNER_TEMP/cb" origin/checks
           python - <<'PY'
