@@ -31,7 +31,7 @@ NOW = datetime.datetime.now(datetime.timezone.utc)
 UA = {"User-Agent": "sealed-ledger-photo-check/1.0"}
 W, H = 630, 880          # flattened card size (standard 63 x 88 mm)
 MAX_LISTINGS = 40
-MAX_PHOTOS = 6
+MAX_PHOTOS = 12   # Nov 17: was 6, so backs shown as photo 7-10 were never checked
 
 
 def load(n, d):
