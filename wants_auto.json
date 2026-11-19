@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18",
+ "generated": "2026-11-19",
  "source": "Pokémon TCG Ledger, synced daily by the Tracker task via the Ledger sync form",
  "items": {
   "bs-maintenance": {
@@ -549,16 +549,6 @@
    "tcgProductId": "566672",
    "market": 1.28,
    "target": 0,
-   "cond": "nm",
-   "status": "watch"
-  },
-  "s-drago-sir": {
-   "title": "Mega Dragonite ex — SIR 290/217",
-   "kind": "singles",
-   "set": "Ascended Heroes",
-   "tcgProductId": 676102,
-   "market": 445.32,
-   "target": 400,
    "cond": "nm",
    "status": "watch"
   },
@@ -3362,6 +3352,6 @@
    "set": "Japanese Vending Series 1 (1998)"
   }
  },
- "payloadDate": "2026-11-18",
- "batch": "20261118-0857"
+ "payloadDate": "2026-11-19",
+ "batch": "20261119-0900"
 }
