@@ -1,4 +1,9 @@
 {
- "idsChecked": 963,
- "missing": []
+ "idsChecked": 964,
+ "missing": [
+  {
+   "id": "rp-704188",
+   "reason": "no source configured in ledger_image_map.json"
+  }
+ ]
 }
