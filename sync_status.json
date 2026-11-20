@@ -1,14 +1,15 @@
 {
  "ok": true,
  "added": [],
- "removed": [
-  "s-drago-sir"
- ],
+ "removed": [],
  "changed": 0,
- "newTracked": [],
- "batch": "20261119-0900",
+ "newTracked": [
+  "rp-668541",
+  "w-704152"
+ ],
+ "batch": "20261120-0859",
  "parts": 1,
- "payloadDate": "2026-11-19",
+ "payloadDate": "2026-11-20",
  "wants": 361,
- "ran": "2026-11-19T20:43Z"
+ "ran": "2026-11-20T20:24Z"
 }
