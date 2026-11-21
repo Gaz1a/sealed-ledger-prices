@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T20:37:13Z",
+ "generated": "2026-11-21T20:46:45Z",
  "items": {
   "j-None-paldean-fates-great-tusk-ex-iron-treads-ex-premium-collection-en": {
    "title": "Paldean Fates Great Tusk ex & Iron Treads ex Premium Collection",
@@ -25946,12 +25946,26 @@
    "title": "Mega Aerodactyl-EX Premium Collection",
    "sealed": {
     "productId": 117277,
-    "history": [],
+    "history": [
+     [
+      "2026-11-21",
+      699.99
+     ]
+    ],
     "name": "Mega Aerodactyl EX Premium Collection",
     "source": "tcgcsv marketPrice (TCGplayer market; not sold-verified)",
     "market": null,
     "date": "2026-11-21",
-    "note": "no priced row today"
+    "note": "no priced row today",
+    "ownFrom": "9999",
+    "historySources": {
+     "ppt": {
+      "points": 1,
+      "from": "2026-11-21",
+      "to": "2026-11-21"
+     },
+     "own": "daily tcgcsv scan from 9999"
+    }
    },
    "card": {
     "productId": 147235,
