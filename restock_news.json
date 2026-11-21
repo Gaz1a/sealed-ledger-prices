@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-20",
+ "generated": "2026-11-21",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (47 entries, 4 new matches)",
+  "googlenews-reprint": "ok (28 entries, 4 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
@@ -14,6 +14,33 @@
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTkxBU1JBQmZqaExlaWtOR0JSV2cwbHBFZ2dZcUlSbmhLUHlYZFpXQUIyWm9WZERUNHFJYWFBb25kU0M1RFRXUEE0R2lFRDhQRTZ3RU5tcDZUcnBrNDNhTlVvcEJPSlJ1djc2ZjM2U1BnaG1oNVBHVHVST25qNy11aVRXcUV2Y25IdEdmZlZEN3JtNzdlX284VEJ4UnVtY1dOeFltcDlhYXI1WVJCZlR5QjZDSTNkeFk?oc=5",
    "published": "2026-11-20",
    "firstSeen": "2026-11-20",
+   "classes": [],
+   "matched": [
+    "30th celebration"
+   ]
+  },
+  {
+   "id": "ba6d2f426136",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon TCG Mega Evolution Flowing Fists: Release date, Z Mega Evolution cards, early access - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRzZyal9LeldYUG9ySlh5ZGozNms3SHVJbUJORTJPd2REaWhCSUxjTUw0UXA2RTJZLUhncDVNVmZUYzJrR09lMWhSYXFzMHM1QlFlZjA4cHRFVFAzekZCTlNMWHFZNGlYSmVMeVNkUm92NzNxT0M5dWV2NHNEWEFHNTZSbVNOcDVraTZIblFQcjJqazQ?oc=5",
+   "published": "2026-11-19",
+   "firstSeen": "2026-11-21",
+   "classes": [
+    "release"
+   ],
+   "matched": [
+    "release date",
+    "mega evolution"
+   ]
+  },
+  {
+   "id": "cbcbb8e0e9dc",
+   "feed": "googlenews-reprint",
+   "title": "Best Pokémon TCG deal: 30th Celebration Tech Sticker Collection is up to 20% off - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYU11OVZHQXFqWFdESG95MnUta1Q1MS1JOG1fZ05Jd0FBNkl1dGxESTJ5MG8tWU9hUTVoa1hVX2NTaU56Y1Bnc2lJZzdJUTNZUlc2RWJxc0JzY2lMSkJNQTNCNnp5UjVtaFp0Ni1LVGNsSkxrV3ZHMERHekx6ZDhjZEU2bC1YQ3ZiODFpNlVLWVVEdw?oc=5",
+   "published": "2026-11-19",
+   "firstSeen": "2026-11-21",
    "classes": [],
    "matched": [
     "30th celebration"
@@ -119,6 +146,19 @@
    ]
   },
   {
+   "id": "c709cf342f21",
+   "feed": "googlenews-reprint",
+   "title": "The Pokémon TCG 30th Celebration Elite Trainer Box is live at Amazon: Shop for under market price - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWU90a3FvT1daOG93TVBka0tEYlRrQW55OWRNazFGeWhFYVk5X29Gejdtc2tpU3hNc2xhNHNBd0E2NExZV3AyUFlIcmR4SGllMTFtZXBIQjM2WUl3bFpUbm84dUEzczE3bGZLREV0VzhMbGtrSXA2Q2VpQldpRUx0Uk1WTVg4SnRtU2xvbA?oc=5",
+   "published": "2026-11-13",
+   "firstSeen": "2026-11-21",
+   "classes": [],
+   "matched": [
+    "elite trainer",
+    "30th celebration"
+   ]
+  },
+  {
    "id": "640bf695a947",
    "feed": "googlenews-reprint",
    "title": "Retailers enforce tough new restrictions as delayed Pokémon set drops today - Nine.com.au",
@@ -131,6 +171,18 @@
    "matched": [
     "delay",
     "delayed"
+   ]
+  },
+  {
+   "id": "3b732485c15e",
+   "feed": "googlenews-reprint",
+   "title": "The Pokémon TCG's Delta Reign Booster Bundle is down to a new record low on Amazon — save almost $10 - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQenJoeUhRM3dXU1IwSzIzdWNYZDA0d0ZfQ1R2S0Z1YTZ1UVBILWdtWVJwelY4d2NvQzFsd19FZGsyV0NJODdGTzc2QnIyenMzRU1OZmNaM0hEX21GQ0VZakNmdWpZR3lsdWl4ZzNlZ25SVnVoWFJCRC1jRm5ZRW5reWNn?oc=5",
+   "published": "2026-11-12",
+   "firstSeen": "2026-11-21",
+   "classes": [],
+   "matched": [
+    "delta reign"
    ]
   },
   {
