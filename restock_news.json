@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-21",
+ "generated": "2026-11-22",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (28 entries, 4 new matches)",
+  "googlenews-reprint": "ok (31 entries, 3 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
@@ -43,6 +43,31 @@
    "firstSeen": "2026-11-21",
    "classes": [],
    "matched": [
+    "30th celebration"
+   ]
+  },
+  {
+   "id": "84b0bbff1eb6",
+   "feed": "googlenews-reprint",
+   "title": "Grab the Pokémon TCG Prismatic Evolutions ETB for under $140 in Amazon's Black Friday deal - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPb2lfVktqa0JuQWlxYXhBS0VvNTZtbklaR254am5oSkJVeFc3Q2VSUV9Zc3FOUUs0VFZNdlZfV3RfcG9XTGJ2ZjFVSzVtc1AyUGZaZE04UC1LN3NESzRyR183V2tZMGpOd1FSSm5HdVZ5NGpwaGJ0dkJpR2VWaDEzRDY0b1RoUy14M3c?oc=5",
+   "published": "2026-11-19",
+   "firstSeen": "2026-11-22",
+   "classes": [],
+   "matched": [
+    "prismatic"
+   ]
+  },
+  {
+   "id": "ab07bec9a4a4",
+   "feed": "googlenews-reprint",
+   "title": "The best early Black Friday Pokémon deals: Shop live deals on 30th Celebration, Delta Reign, and more - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1KZjhJVl9tMmFELWdXV2xPZ1E0a1VYLUpsTFRwMzgtS1liMHk3TjJZT1ROS280NERaZmp3WGowbFB3VEtCbmY4UzdXN2tlcUZCQ3V5TGRDUE1NRkI0Q3RBQUpKYjFfbFlEcE9fNGJ5V0ZKU1lNa08wbUhlMDNCQQ?oc=5",
+   "published": "2026-11-17",
+   "firstSeen": "2026-11-22",
+   "classes": [],
+   "matched": [
+    "delta reign",
     "30th celebration"
    ]
   },
@@ -264,6 +289,18 @@
    "matched": [
     "pre-order",
     "30th celebration"
+   ]
+  },
+  {
+   "id": "3663d4eb6758",
+   "feed": "googlenews-reprint",
+   "title": "Best Pokémon TCG deal: Delta Reign Booster Display Box now under $240 on Amazon - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPamkxa1Jfc05BcjY0R3hDQ3BLQ2RUajFLVnRYcmUwbklBWW9tMGZpWngyc1lDbUdzNTM0SnZyeTV1ZlNJcERDT3ZzZ1N5cTU1Q3pIVU8waU9UZTVjYjRQeGU1bHpMR09jMFJzNWlFNTVLNmxzMmVGNFF6RWtnQ0VWbkNxSnVaWW4tZHFqSUw2bVdtc3RSckFISG9pQjlZQUw5?oc=5",
+   "published": "2026-11-09",
+   "firstSeen": "2026-11-22",
+   "classes": [],
+   "matched": [
+    "delta reign"
    ]
   },
   {
