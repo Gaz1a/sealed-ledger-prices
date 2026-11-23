@@ -1,12 +1,17 @@
-# Release buzz — 2026-11-16
+# Release buzz — 2026-11-23
 Upcoming releases in the next 35 days, and what News is saying about getting them.
 
-## 2026-11-20 — One Piece OP-18 The Dominance of God (watch only)  (in 4d)
-- No matches this week.
+## 2026-12-04 — 30th Celebration wave 5 + Binder Collection  (in 11d)
+- News (Pokemon.com): [Check Out Every Pokémon TCG Product Release in November 2026 - Pokemon.com](https://news.google.com/rss/articles/CBMilwFBVV95cUxQN3hHOW5zZzdmSHFLLTV1X2F2bUhnX2Izakd0eGN2T0lVOFc0ejE4QTRleENYOXF5TUJhaG1KYlZ2bVVHSWpzY2pnZ1dfWnlhWXRxV2VCWER4U05ZYUptTUpsQ1VuYzN6M2RvU2VuZGdLcGVXdTBaZ1hBR1owQjFwaGdBRHV5UDZ1LWpDa1R2QjRTSTR1QzE4?oc=5)
+- News (Joseph Writer Anderson): [Every Pokémon TCG Product Releasing in November 2026 - Joseph Writer Anderson](https://news.google.com/rss/articles/CBMimAFBVV95cUxQQlc4enNQdUJUQzl6LXRiUTFYMmZDQTNNOU1yZS0zQ3pvWGZ2X3dadUxWR2l6bDNmOWpFOFI5Rk1NUlRCSkNWX0NHSVpBcDVwYmJ2VjRMTHhKbERFQk5CR2czTWg4ZjQ0ZFFCTmlpU3pPOGNjWlllRklwZ2V5NVdlME9uSE9YeEg5ZEt2NWROVUVZT0lyR2JyVg?oc=5)
+- News (Pokemon.com): [Pokémon TCG: 30th Celebration Figure Collection - Pokemon.com](https://news.google.com/rss/articles/CBMikwFBVV95cUxOd3NRSTBDQXJZLTZWSDNKVkRQenJIX3FhXzMtT21XM21QQ3pXVzB2enZSWE5ZXzcyaDZRY3FmNDVqanpvcUhzMXZKQWV0NFdqcTZOVGYyQUo0Mm93eVIzLUJuMGRoRzVhcDlXdjQ2NDdPMk1Jeno1RU1LbldNWDRjX3huSGtCck1sMHpObkR1WGlIWnc?oc=5)
+- News (Joseph Writer Anderson): [Ultimate Pokémon TCG Christmas Gift Guide 2026 - Joseph Writer Anderson](https://news.google.com/rss/articles/CBMihwFBVV95cUxOR2dhb1B3VDNldTFJdWxtWGJUU3RMT2l4b09zUm5HbjF1dGE5UUFNWmJWeW9MYmFxMXJQMGk3OGlKdTNGRElJSEt2RF8yZGNRZzJ1NWVobER6UTZfNndENEtlLUV2ZEZtQ2I3VWNOLW9pSFF4WElzVWpjdE5YOWZFNXFINGNUNlE?oc=5)
+- News (piratesandprincesses.net): [Pokemon cards drew overnight lines for a $179.99 anniversary box - piratesandprincesses.net](https://news.google.com/rss/articles/CBMingFBVV95cUxOV01FVEI3V2M0cHd1V0FJWHM3ZzhjWWswdFl3XzB6eHhrTG1lcDdyOEtuOWlvb0lMQXMtNmpVRUFoNUZ6bVFtTDFDQnJqRXdLeE5QY0s2WktoYjR6SVk1Z2RJdXQ3WklCcFIyeHZETjRHd1BFNVY0T042QTNkZGZ3T0owRUFDNGhFaFRYMjJRLThydGdWS2VoOXJ0cVkwdw?oc=5)
 
-## 2026-12-04 — 30th Celebration wave 5 + Binder Collection  (in 18d)
-- No matches this week.
-
-## 2026-12-18 — Singles trough check: Delta Reign Mega Rayquaza ex SIR / MUR  (in 32d)
-- No matches this week.
+## 2026-12-18 — Singles trough check: Delta Reign Mega Rayquaza ex SIR / MUR  (in 25d)
+- News (Pokemon.com): [Check Out Some of the Top Cards from Mega Evolution—Delta Reign - Pokemon.com](https://news.google.com/rss/articles/CBMioAFBVV95cUxNT2RBLWZjZmRIMk5HZ1NlQTVhRG81UGV0LUh3Ty1QZjNpVEhVU2p2SlJTYTl6R19reGlYRkFibEhWYklwdlVWaE83TnRPRzVGSDhOdE83MVZSTEU3d3VkN2NTN1VSZWxvWFJ1U181NEhGQk5vYklhUzR1V0xwcTBkNi10QlBDQ09NRFdfU1dhLWkyVGhCc0pPNnZNVFJwYXcz?oc=5)
+- News (TCGplayer): [Delta Reign Quick Facts - TCGplayer](https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tV283czR3RG1NaVJRQlVLaUJBaWptdG12MnU4dHNRYS0zRlJDcGpJT0dudFpuTmphVEQ3eFhQWlpMMWlWNW9Rb1hiMzVQdTVqcncwWmpfelJaQ3c4RkcxNFB0WUVBdlhl?oc=5)
+- News (Joseph Writer Anderson): [Mega Rayquaza ex Special Illustration Rare Officially Revealed for Delta Reign - Joseph Writer Anderson](https://news.google.com/rss/articles/CBMivAFBVV95cUxPRHNfcG5PTjVtbjRXWS1kcFVYM3ctZEZReEVKeUNERm9GTTBtUHZ0Mlo1OWN5ZUdCMVZZM0pPMDdtTkVDSEpyUDVNTVhmSDZScXpPMm4zbnBoUkJfX2VDY010bVhNcTRiNmVIYktiSUpqa3IzT0E4cUtUVGVPeldQUy1xbVpNYkNjemdyTkcxZlZyZHQ5MTZHX3I0SE4tRmczSmVrc2lZby1jS1hpQlNPdnYwb3NzSS1ZLXBFTQ?oc=5)
+- News (Pokemon.com): [Mega Evolution—Delta Reign - Pokemon.com](https://news.google.com/rss/articles/CBMic0FVX3lxTFBPVjVCUFA5eXljZk0teDZCMG9FY09yLWlrTXpQZWl1RTdtN1VqelBnNG5UZGRSM19fZ0twQkdXSUJxc3hRTERobURnZVlKZDdTRlgweG9FSV96RjVGYXVNemVkdkttZ2MyS25PQ2pkS3p5aU0?oc=5)
+- News (Joseph Writer Anderson): [The 10 Most Expensive Delta Reign Pokémon Cards - Joseph Writer Anderson](https://news.google.com/rss/articles/CBMikgFBVV95cUxPWVpGS1JxdVZXb1hRQ1MwNlVab1FnNmVweWhIY2l5ZnhacEJNS2R3cVlobURneGMzMldIa3ZpT25lNjI0Ukl5YnZHRzRJeXV1TEZsbkw3Szgzd3Ffbm02NVV6TlJzS2szY2JKWTdHaFFtYnc3b1I0TU1sZFlWaHN2QUt6WW9Ea0hNbmxKY21yOFZVUQ?oc=5)
 
