@@ -1,6 +1,6 @@
 {
  "count": 514,
- "generated": "2026-11-23T20:17:33Z",
+ "generated": "2026-11-24T19:32:07Z",
  "pinMismatch": [],
  "prices": {
   "ah-bundle": {
@@ -3609,12 +3609,12 @@
   "kg-608258"
  ],
  "feedStaleness": {
-  "checked": "2026-11-23T20:17:33Z",
+  "checked": "2026-11-24T19:32:07Z",
   "feeds": [
    {
     "feed": "untracked_sealed.json",
-    "generated": "2026-11-16T19:09:47Z",
-    "ageDays": 7.0,
+    "generated": "2026-11-23T20:48:04Z",
+    "ageDays": 0.9,
     "maxAgeDays": 7,
     "status": "ok"
    }
