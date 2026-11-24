@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-17T20:24:17+00:00",
+ "generated": "2026-11-24T01:40:30+00:00",
  "note": "Upcoming and recent (last 30 days) Pokemon TCG releases. confirmed = official or TCGplayer catalog; news items are reported dates, verify.",
  "sources": {
-  "tcgplayer-en": "ok (2 in window)",
-  "tcgplayer-jp": "ok (2 in window)",
-  "serebii-en": "ok (1 in window)",
-  "serebii-jp": "ok (0 in window)",
-  "pokemon-news": "ok (0 dated)",
-  "googlenews-release": "ok (0 dated)",
+  "tcgplayer-en": "ok (3 in window)",
+  "tcgplayer-jp": "ok (3 in window)",
+  "serebii-en": "ok (2 in window)",
+  "serebii-jp": "ok (1 in window)",
+  "pokemon-news": "ok (1 dated)",
+  "googlenews-release": "ok (2 dated)",
   "googlenews-preorder": "ok (0 dated)",
   "googlenews-jp": "ok (0 dated)",
   "pokemon-card-jp": "ok (0 dated)"
@@ -33,7 +33,7 @@
   },
   {
    "date": "2026-11-06",
-   "name": "Logo Icon Set Name Number of Cards Release Date Delta Reign",
+   "name": "Delta Reign",
    "lang": "EN",
    "kind": "set",
    "source": "Serebii",
@@ -50,13 +50,67 @@
    "confirmed": true
   },
   {
-   "date": "2026-11-17",
+   "date": "2026-11-23",
    "name": "Limited Collection Master Battle Set",
    "lang": "JP",
    "kind": "set",
    "source": "TCGplayer catalog",
    "url": "https://www.tcgplayer.com/search/pokemon-japan",
    "confirmed": true
+  },
+  {
+   "date": "2026-11-27",
+   "name": "M7: Aura Seeker",
+   "lang": "JP",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon-japan/m7",
+   "confirmed": true
+  },
+  {
+   "date": "2026-11-27",
+   "name": "Sets Logo Set Name Number of Cards Release Date Aura Seeker",
+   "lang": "JP",
+   "kind": "set",
+   "source": "Serebii",
+   "url": "https://www.serebii.net/card/japanese.shtml",
+   "confirmed": false
+  },
+  {
+   "date": "2027-02-06",
+   "name": "ME07: Flowing Fists",
+   "lang": "EN",
+   "kind": "set",
+   "source": "TCGplayer catalog",
+   "url": "https://www.tcgplayer.com/search/pokemon/FLO",
+   "confirmed": true
+  },
+  {
+   "date": "2027-02-06",
+   "name": "November 19, 2026 Pokémon Trading Card Game The Pokémon TCG: Mega Evolution—Flowing Fists Expansion Arrives",
+   "lang": "EN",
+   "kind": "news",
+   "source": "pokemon.com news",
+   "url": "https://www.pokemon.com/us/pokemon-news",
+   "confirmed": true
+  },
+  {
+   "date": "2027-02-06",
+   "name": "Logo Icon Set Name Number of Cards Release Date Flowing Fists",
+   "lang": "EN",
+   "kind": "set",
+   "source": "Serebii",
+   "url": "https://www.serebii.net/card/english.shtml",
+   "confirmed": false
+  },
+  {
+   "date": "2027-02-06",
+   "name": "The Pokémon TCG: Mega Evolution—Flowing Fists Expansion Arrives February 6, 2027 - Pokemon.com",
+   "lang": "EN",
+   "kind": "news",
+   "source": "news (Pokemon.com)",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbzhrSHZCelR1MUN6RkxoRHMyNXZsWXh4c2pyVHdxVjQwR2VFUmxqejJYNFZYS3NScmtmcmg3djFTN2YyZ0RRSzlNRmZfVjdBbzlhMVc3Z3RrWGZHZm1UMWY5N1FBTVlra1BXLTIzdGZTMHJJdldmOUp6VmlRMkR6M1N0dWdrdnJ5eG9HSzBlMmdBR2h6eng1MWd2STdpXzVEM01JSHNEdFZOQWFVdENj?oc=5",
+   "confirmed": false
   }
  ]
 }
