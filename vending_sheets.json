@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T20:10:41+00:00",
+ "generated": "2026-11-24T00:37:41+00:00",
  "rule": "Series 2 at $300 all-in or less (Gaz, Nov 16); unpeeled only",
  "deals": [],
  "bySheet": {
@@ -19,7 +19,7 @@
    "cheapest": null
   },
   "vs1-03": {
-   "n": 1,
+   "n": 2,
    "cheapest": {
     "title": "Pokemon Card Vending Series 1 Blue Sheet No 3 Mt Moon Unpeeled 1998 Japanese",
     "url": "https://www.ebay.com/itm/336762055346",
@@ -29,8 +29,19 @@
     "ends": null
    }
   },
-  "vs1-05": {
+  "vs1-04": {
    "n": 1,
+   "cheapest": {
+    "title": "Pokemon Vending Series 1 Blue Expansion Sheet No.4 Safari Zone Unpeeled 1998",
+    "url": "https://www.ebay.com/itm/198817675831",
+    "landed": 1040.1,
+    "auction": false,
+    "bids": null,
+    "ends": null
+   }
+  },
+  "vs1-05": {
+   "n": 2,
    "cheapest": {
     "title": "Vending Series 1 Blue Unpeeled Sheet #5 Mr. Mime Japanese Pok\u00e9mon Vintage 1998",
     "url": "https://www.ebay.com/itm/287653281241",
@@ -133,15 +144,8 @@
    }
   },
   "vs2-09": {
-   "n": 2,
-   "cheapest": {
-    "title": "Pokemon Vending Series 2 (Red) Japanese sheet #09 unpeeled",
-    "url": "https://www.ebay.com/itm/366829909819",
-    "landed": 347.68,
-    "auction": false,
-    "bids": null,
-    "ends": null
-   }
+   "n": 1,
+   "cheapest": null
   },
   "vs2-10": {
    "n": 1,
@@ -159,9 +163,9 @@
    "cheapest": {
     "title": "Pok\u00e9mon Japanese Vending Series 2 Red Sheet Unpeeled #11 Ultra Rare HTF",
     "url": "https://www.ebay.com/itm/800949696448",
-    "landed": 75.0,
+    "landed": 113.5,
     "auction": true,
-    "bids": 2,
+    "bids": 8,
     "ends": "2026-11-29T03:39:38.000Z"
    }
   },
@@ -274,7 +278,7 @@
    }
   }
  },
- "listings": 58,
+ "listings": 59,
  "lots": [
   {
    "sheet": "lot",
