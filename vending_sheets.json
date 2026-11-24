@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T00:37:41+00:00",
+ "generated": "2026-11-24T22:56:00+00:00",
  "rule": "Series 2 at $300 all-in or less (Gaz, Nov 16); unpeeled only",
  "deals": [],
  "bySheet": {
@@ -51,8 +51,12 @@
     "ends": null
    }
   },
-  "vs1-07": {
+  "vs1-06": {
    "n": 1,
+   "cheapest": null
+  },
+  "vs1-07": {
+   "n": 2,
    "cheapest": {
     "title": "Vending Series 1 Blue Unpeeled Sheet #7 Japanese Pok\u00e9mon Vintage 1998",
     "url": "https://www.ebay.com/itm/287653286249",
@@ -163,9 +167,9 @@
    "cheapest": {
     "title": "Pok\u00e9mon Japanese Vending Series 2 Red Sheet Unpeeled #11 Ultra Rare HTF",
     "url": "https://www.ebay.com/itm/800949696448",
-    "landed": 113.5,
+    "landed": 152.5,
     "auction": true,
-    "bids": 8,
+    "bids": 9,
     "ends": "2026-11-29T03:39:38.000Z"
    }
   },
@@ -200,7 +204,7 @@
    "cheapest": {
     "title": "Pokemon Vending Series 2 (Red) Japanese Sheet #17 unpeeled mint condition",
     "url": "https://www.ebay.com/itm/366829920834",
-    "landed": 458.45,
+    "landed": 455.74,
     "auction": false,
     "bids": null,
     "ends": null
@@ -211,11 +215,11 @@
    "cheapest": null
   },
   "vs3-05": {
-   "n": 1,
+   "n": 2,
    "cheapest": {
-    "title": "1998 Japanese Pok\u00e9mon Vending Cerulean Cave Unpeeled Sheet #5 Series 3 \ud83d\udd25 NM",
-    "url": "https://www.ebay.com/itm/198444017647",
-    "landed": 1519.99,
+    "title": "Pokemon Card Japanese 1998 Vending Series 3 Green Sheet 5 Unpeeled Old Back",
+    "url": "https://www.ebay.com/itm/800959980976",
+    "landed": 890.0,
     "auction": false,
     "bids": null,
     "ends": null
@@ -278,7 +282,7 @@
    }
   }
  },
- "listings": 59,
+ "listings": 62,
  "lots": [
   {
    "sheet": "lot",
