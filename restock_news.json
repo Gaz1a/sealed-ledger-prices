@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-25",
+ "generated": "2026-11-26",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (36 entries, 2 new matches)",
+  "googlenews-reprint": "ok (40 entries, 2 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
@@ -17,6 +17,30 @@
    "classes": [],
    "matched": [
     "30th celebration"
+   ]
+  },
+  {
+   "id": "08ea582af39b",
+   "feed": "googlenews-reprint",
+   "title": "The Pokémon TCG: 30th Celebration Ultra Premium Collection at market price in Walmart's Black Friday sale — save up to $130 - Yahoo",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNX0M3UW11aG1SdmV0cXRnYVdwclJ5Y0VJdEF3R2hTQVpPaWVaZHV1NFdocE9VV2FoSWg2Mm83SkF2VjhpbnoybnZNSnV2T0VYUTRUYTY3TTQwcG5kZThhSlhqR0s5SWZoUlg5NU42TXZYbmFhUHcwbkNtbWVHUXZYSmJiNFhUc245TW5kZ0k3Nk1GR0VK?oc=5",
+   "published": "2026-11-25",
+   "firstSeen": "2026-11-26",
+   "classes": [],
+   "matched": [
+    "30th celebration"
+   ]
+  },
+  {
+   "id": "318222237a25",
+   "feed": "googlenews-reprint",
+   "title": "Pokémon TCG – Every Product in the Delta Reign Collection - VICE",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdGI0YnV0OUxYdk9QVHZhUkFZWmVXTDVJa2ctZHhQZzlfVmhONVZDc3pZZG56bG5xOXBJNjdWTWFkRk8wa3BUeFFwUG9nZk5nNTZYeWVmZmVQWnJPR2pKUEM5S1BUb0FseUoxX05iMGNwWDIwbEpiTktJcVB1d2YwZ2pFaTM2VTdaeFc5aHBRRDBxdw?oc=5",
+   "published": "2026-11-23",
+   "firstSeen": "2026-11-26",
+   "classes": [],
+   "matched": [
+    "delta reign"
    ]
   },
   {
