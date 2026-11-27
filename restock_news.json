@@ -1,12 +1,26 @@
 {
- "generated": "2026-11-26",
+ "generated": "2026-11-27",
  "note": "Headlines and links from public RSS feeds. News signal only; verify at the source. No retailer pages are scraped.",
  "feedStatus": {
   "pokebeach": "failed: HTTPError 500",
-  "googlenews-reprint": "ok (40 entries, 2 new matches)",
+  "googlenews-reprint": "ok (37 entries, 1 new matches)",
   "pokemon-com-news": "disabled"
  },
  "items": [
+  {
+   "id": "932d183cf28a",
+   "feed": "googlenews-reprint",
+   "title": "Amazon Has Restocked Loads of Pokémon Cards for Black Friday - IGN",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yVnBrTDFEbFpYankybUhtVkhqSkhobDE0V005Z1FPdEhjZDJfRFF4UDltYVpkT1hjNHJ3eVNtcnJlT3Q5M0o0a3VndEg1MUwyZlB1NmtTN2d6aWo0RFdlZUlGaXJEOEs3SVlPeXA5eXJSWEJlV2VGT1BhTVo4SEE?oc=5",
+   "published": "2026-11-27",
+   "firstSeen": "2026-11-27",
+   "classes": [
+    "restock"
+   ],
+   "matched": [
+    "restock"
+   ]
+  },
   {
    "id": "beb1430d1a6f",
    "feed": "googlenews-reprint",
