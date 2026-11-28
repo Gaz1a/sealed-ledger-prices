@@ -1,0 +1,105 @@
+[
+  {
+    "antipattern": "repeating-stripes-gradient",
+    "name": "Repeating-gradient stripes",
+    "description": "Repeating-gradient stripes used as surface decoration are a recurring generated-UI signature. Reach for a deliberate texture or leave the surface plain.",
+    "severity": "advisory",
+    "category": "slop",
+    "file": "/home/runner/work/sealed-ledger-prices/sealed-ledger-prices/design_audit/pages/football.html",
+    "line": 0,
+    "snippet": "repeating-gradient decorative stripes",
+    "advisory": true
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "A bar down one side of a rounded box. Use a full border, a background tint, or a leading icon or label instead.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/runner/work/sealed-ledger-prices/sealed-ledger-prices/design_audit/pages/football.html",
+    "line": 0,
+    "snippet": ".card::before — absolute 5px pseudo-element stripe (left: 0)"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/runner/work/sealed-ledger-prices/sealed-ledger-prices/design_audit/pages/lorcana.html",
+    "line": 0,
+    "snippet": "Primary font: fraunces"
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "A bar down one side of a rounded box. Use a full border, a background tint, or a leading icon or label instead.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/runner/work/sealed-ledger-prices/sealed-ledger-prices/design_audit/pages/lorcana.html",
+    "line": 0,
+    "snippet": ".card::before — absolute 5px pseudo-element stripe (left: 0)"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/runner/work/sealed-ledger-prices/sealed-ledger-prices/design_audit/pages/pokemon.html",
+    "line": 0,
+    "snippet": "Primary font: instrument sans"
+  },
+  {
+    "antipattern": "skipped-heading",
+    "name": "Skipped heading level",
+    "description": "Heading levels should not skip (e.g. h1 then h3 with no h2). Screen readers use heading hierarchy for navigation. Skipping levels breaks the document outline.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/runner/work/sealed-ledger-prices/sealed-ledger-prices/design_audit/pages/pokemon.html",
+    "line": 0,
+    "snippet": "<h2> \"Rip / Fun\" followed by <h4> \"About rip / fun\" (missing h3)"
+  },
+  {
+    "antipattern": "dark-glow",
+    "name": "Glowing shadow accents",
+    "description": "Colored glow shadows — a zero-offset chromatic halo (box- or text-shadow) on any background, or any colored blurred shadow on a dark background — are the default \"cool\" look of AI-generated UIs. Use neutral elevation shadows and subtle, purposeful lighting instead.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/runner/work/sealed-ledger-prices/sealed-ledger-prices/design_audit/pages/pokemon.html",
+    "line": 0,
+    "snippet": "Zero-offset box-shadow glow (#ff5a36)"
+  },
+  {
+    "antipattern": "repeating-stripes-gradient",
+    "name": "Repeating-gradient stripes",
+    "description": "Repeating-gradient stripes used as surface decoration are a recurring generated-UI signature. Reach for a deliberate texture or leave the surface plain.",
+    "severity": "advisory",
+    "category": "slop",
+    "file": "/home/runner/work/sealed-ledger-prices/sealed-ledger-prices/design_audit/pages/pokemon.html",
+    "line": 0,
+    "snippet": "repeating-gradient decorative stripes",
+    "advisory": true
+  },
+  {
+    "antipattern": "repeating-stripes-gradient",
+    "name": "Repeating-gradient stripes",
+    "description": "Repeating-gradient stripes used as surface decoration are a recurring generated-UI signature. Reach for a deliberate texture or leave the surface plain.",
+    "severity": "advisory",
+    "category": "slop",
+    "file": "/home/runner/work/sealed-ledger-prices/sealed-ledger-prices/design_audit/pages/wrestling.html",
+    "line": 0,
+    "snippet": "repeating-gradient decorative stripes",
+    "advisory": true
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "A bar down one side of a rounded box. Use a full border, a background tint, or a leading icon or label instead.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/runner/work/sealed-ledger-prices/sealed-ledger-prices/design_audit/pages/wrestling.html",
+    "line": 0,
+    "snippet": ".card::before — absolute 5px pseudo-element stripe (left: 0)"
+  }
+]

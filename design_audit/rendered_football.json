@@ -1,0 +1,14 @@
+[
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "http://localhost:8765/football.html",
+    "line": 0,
+    "snippet": "4.4:1 (need 4.5:1) — text #66756b on #f2f5ee (and 3 more)",
+    "advisory": true,
+    "selector": "p.empty"
+  }
+]

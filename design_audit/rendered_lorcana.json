@@ -1,0 +1,25 @@
+[
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "http://localhost:8765/lorcana.html",
+    "line": 0,
+    "snippet": "4.4:1 (need 4.5:1) — text #716c93 on #f3f0fb (and 3 more)",
+    "advisory": true,
+    "selector": "p.empty"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "http://localhost:8765/lorcana.html",
+    "line": 0,
+    "snippet": "Primary font: fraunces (52% of text)",
+    "selector": "body"
+  }
+]
