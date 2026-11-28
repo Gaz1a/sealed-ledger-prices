@@ -1,6 +1,6 @@
 <!doctype html><html data-look="new"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Pokémon TCG Ledger</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&family=Press+Start+2P&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,800&family=DM+Mono:wght@400;500&display=swap">
 <style>
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;margin:0;padding:24px 16px 48px}
@@ -209,7 +209,7 @@ form.f .note{color:var(--mut);font-size:12.5px;flex:1}
 
 /* radar-family override: dark plum, vermilion, ticket stubs */
 :root{--bg:#14121c;--card:#1e1b2a;--fg:#f4efe6;--sub:#cbc5d8;--mut:#a39fb3;--line:#322e44;--teal:#5fd3b8;--tealbg:#16352f;--tealline:#5fd3b8;--green:#5fd3b8;--greenbg:#16352f;--amber:#f2b84b;--amberbg:#3a2d12;--grey:#a39fb3;--greybg:#2a2639;--track:#2a2639;--hi:#2a1c1c;--hot:#ff5a36;--hotink:#1a0d08;--red:#ff7a7a;
- --f-d:'Bricolage Grotesque','Arial Black',sans-serif;--f-b:'Instrument Sans',system-ui,sans-serif;--f-m:'DM Mono',ui-monospace,monospace;color-scheme:dark}
+ --f-d:'Bricolage Grotesque','Arial Black',sans-serif;--f-b:'Bricolage Grotesque',system-ui,sans-serif;--f-m:'DM Mono',ui-monospace,monospace;color-scheme:dark}
 body{background:var(--bg);color:var(--fg);font-family:var(--f-b)}
 h1{font:800 clamp(34px,7vw,46px)/.95 var(--f-d);letter-spacing:-.03em}
 h1 em{font-style:normal;color:var(--hot)}
@@ -264,7 +264,7 @@ h2{font:800 24px/1.1 var(--f-d);text-transform:none;letter-spacing:-.01em;color:
 
 .card .stub.go b,.card .stub.go span{color:var(--hot)}
 .card .stub.go{background:linear-gradient(160deg,rgba(255,90,54,.30),rgba(255,90,54,.06))}
-.card:has(.stub.go){border-color:var(--hot);box-shadow:0 0 0 1px var(--hot),0 0 22px rgba(255,90,54,.28)}
+.card:has(.stub.go){border-color:var(--hot)}
 .card .stub.near b,.card .stub.near span{color:var(--amber)}
 .card .stub.mid b,.card .stub.mid span{color:var(--sub)}
 .card .stub.far b,.card .stub.far span{color:var(--mut)}
@@ -319,7 +319,6 @@ h2{font:800 24px/1.1 var(--f-d);text-transform:none;letter-spacing:-.01em;color:
 .bkt .bm{padding:6px 7px 8px;display:flex;flex-direction:column;gap:1px;font-size:11px;color:var(--mut)}
 .bkt .bm b{font-size:12.5px;color:var(--fg);font-weight:600}.bkt .due{color:var(--amber,#f0b429)}
 .bkt:focus-visible{outline:2px solid var(--teal)}
-html[data-look="dex"] .bkt{border-radius:4px;border-width:2px}html[data-look="dex"] .csearch input{border-radius:4px;border-width:2px}
 
 .grow{display:grid;grid-template-columns:44px 1fr auto;gap:12px;align-items:center;padding:9px 2px;border-top:1px solid var(--line)}
 .grow .gimg{width:44px;aspect-ratio:5/7;border-radius:5px;background:var(--track);overflow:hidden;display:block;border:1px solid var(--line)}
@@ -691,53 +690,5 @@ html[data-look="new"] button:focus-visible,html[data-look="new"] [tabindex]:focu
 </div>
 <div class="toast" id="toast" hidden></div>
 
-<style id="dexcss">
-/* look switch (both looks) */
-.looksw{display:flex;justify-content:flex-end;align-items:center;gap:6px;margin:0 0 10px;font:500 11px var(--f-m);color:var(--mut)}
-.looksw button{font:inherit;font-size:11.5px;padding:4px 11px;border-radius:99px;border:1px solid var(--line);background:transparent;color:var(--mut);cursor:pointer}
-.looksw button.on{background:var(--fg);color:var(--bg);border-color:var(--fg)}
-.hpbar{display:none}
-/* ---------- Dex look ---------- */
-html[data-look="dex"]{--bg:#0e2620;--card:#12352c;--fg:#d6f7e1;--sub:#a5dcb9;--mut:#7fbd95;--line:#1f5a47;--teal:#58d68d;--tealbg:#0f3b2d;--tealline:#58d68d;--green:#58d68d;--greenbg:#0f3b2d;--amber:#f1c453;--amberbg:#3b3210;--grey:#7fbd95;--greybg:#0f2a22;--track:#0a1c17;--hi:#183a2f;--hot:#ff6b5e;--hotink:#2a0a07;--red:#ff8a80;--scr:#0e2620;color-scheme:dark}
-html[data-look="dex"] body{background:linear-gradient(#93201a,#650f0a) fixed;padding-top:18px}
-html[data-look="dex"] .page{background:var(--scr);border:7px solid #b3261e;border-radius:24px;padding:18px 14px 30px;box-shadow:0 0 0 3px #4d0c08,0 14px 34px rgba(0,0,0,.45),inset 0 0 0 2px rgba(0,0,0,.25)}
-html[data-look="dex"] h1{font:400 clamp(15px,4.4vw,24px)/1.45 'Press Start 2P',ui-monospace,monospace;letter-spacing:0;color:var(--fg)}
-html[data-look="dex"] h1 em{color:var(--hot)}
-html[data-look="dex"] h2{font:400 12px/1.7 'Press Start 2P',ui-monospace,monospace;letter-spacing:.02em;text-transform:uppercase;color:var(--teal)}
-html[data-look="dex"] .eyebrow,html[data-look="dex"] .sgh{color:var(--mut)}
-html[data-look="dex"] .asof{border-bottom:2px dashed var(--line)}
-html[data-look="dex"] .search,html[data-look="dex"] .tile,html[data-look="dex"] .budget,html[data-look="dex"] .rules,html[data-look="dex"] .mv-list,html[data-look="dex"] .dg-list,html[data-look="dex"] .sres,html[data-look="dex"] .cd,html[data-look="dex"] .card,html[data-look="dex"] .stile,html[data-look="dex"] .hc{border-radius:6px;border-width:2px;background:var(--card)}
-html[data-look="dex"] .search{border-radius:6px;background:var(--track)}
-html[data-look="dex"] .nav button{border-radius:4px;font:400 8px/1.2 'Press Start 2P',ui-monospace,monospace;text-transform:uppercase;padding:10px 10px;letter-spacing:0;border-width:2px}
-html[data-look="dex"] .nav button.on{background:#b3261e;border-color:#ff6b5e;color:#fff}
-html[data-look="dex"] .nav button:hover{border-color:var(--teal);color:var(--fg)}
-html[data-look="dex"] .btn,html[data-look="dex"] .act,html[data-look="dex"] .chips button{border-radius:4px}
-html[data-look="dex"] .btn.pri{background:var(--teal);border-color:var(--teal);color:#082018}
-html[data-look="dex"] .badge{border-radius:3px}
-html[data-look="dex"] .card .stub{border-right:2px dashed var(--line)}
-html[data-look="dex"] .hc h3{font:400 11px/1.6 'Press Start 2P',ui-monospace,monospace;color:var(--teal);text-transform:uppercase}
-html[data-look="dex"] .cgrid div{border-radius:3px;border-width:2px;position:relative}
-html[data-look="dex"] .cgrid div.on{background:#58d68d;border-color:#58d68d;color:#082018}
-html[data-look="dex"] .cgrid div.on::after{content:"";position:absolute;top:2px;right:2px;width:7px;height:4px;border-left:2px solid #082018;border-bottom:2px solid #082018;transform:rotate(-45deg);opacity:.8}
-html[data-look="dex"] .gt{border-radius:4px}
-html[data-look="dex"] .hb .t,html[data-look="dex"] .hp .t{border-radius:2px}
-html[data-look="dex"] .hb .t i{border-radius:0;background-image:repeating-linear-gradient(90deg,transparent 0 5px,rgba(0,0,0,.22) 5px 6px)}
-html[data-look="dex"] .hb[data-sec="Kanto 151"] .t i{background-color:#a8a878}
-html[data-look="dex"] .hb[data-sec="Sealed and collections"] .t i{background-color:#8d7cf0}
-html[data-look="dex"] .hb[data-sec="Graded"] .t i{background-color:#e0529c}
-html[data-look="dex"] .hb[data-sec="Chase singles"] .t i{background-color:#f2c230}
-html[data-look="dex"] .hb[data-sec="Gyarados chase"] .t i,html[data-look="dex"] .hb[data-sec="Magikarp chase"] .t i{background-color:#4a90e2}
-html[data-look="dex"] .hb[data-sec="Illustrated booklets"] .t i{background-color:#d6573e}
-html[data-look="dex"] .hb[data-sec="Base Set trainers"] .t i{background-color:#5cb85c}
-html[data-look="dex"] .hpbar{display:flex;align-items:center;gap:8px;margin:2px 0 8px;max-width:340px}
-html[data-look="dex"] .hpbar .hpl{font:400 8px 'Press Start 2P',monospace;color:var(--mut)}
-html[data-look="dex"] .hpbar .hpt{flex:1;height:10px;border-radius:2px;background:var(--track);border:2px solid var(--line);overflow:hidden}
-html[data-look="dex"] .hpbar .hpt i{display:block;height:100%;background-image:repeating-linear-gradient(90deg,transparent 0 5px,rgba(0,0,0,.25) 5px 6px)}
-html[data-look="dex"] .hpbar small{font:500 11px var(--f-m);color:var(--mut);white-space:nowrap}
-html[data-look="dex"] #cpop .pb{background:var(--scr);border:3px solid var(--teal);border-radius:6px;color:var(--fg)}
-html[data-look="dex"] #cpop h3{font:400 12px/1.6 'Press Start 2P',ui-monospace,monospace}
-html[data-look="dex"] #cpop .pbad.own{background:var(--teal);color:#082018}
-html[data-look="dex"] .toast{border-radius:4px}
-</style>
 
 </body></html>
