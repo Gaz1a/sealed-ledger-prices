@@ -20,10 +20,12 @@ jobs:
       - run: python scripts/best_listings.py
         env:
           BL_LIMIT: ${{ github.event.inputs.limit || '400' }}
+          BL_DEBUG: ${{ github.event.inputs.limit && '1' || '' }}
       - if: always()
         run: |
           git config user.name "price-bot"
           git config user.email "price-bot@users.noreply.github.com"
           [ -f best_listings.json ] && git add best_listings.json
+          [ -d bl_debug ] && git add bl_debug
           git diff --cached --quiet || git commit -m "best listings $(date -u +%F)"
           git pull --rebase && git push

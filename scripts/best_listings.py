@@ -68,7 +68,11 @@ def query(pid, card, rev):
             'r': float(x.get('sellerRating') or 0), 'n': sales_num(x.get('sellerSales')),
             'c': x.get('condition') or '', 'pr': pr, 'q': x.get('quantity'),
             'd': bool(x.get('directSeller') or x.get('directProduct')),
+            'lt': x.get('listingType') or '', 'ttl': ((x.get('customData') or {}).get('title') or '')[:80],
         })
+    if os.environ.get('BL_DEBUG') and res:
+        os.makedirs('bl_debug', exist_ok=True)
+        json.dump(res[:3], open(f'bl_debug/{pid}.json', 'w'), indent=1)
     return out
 
 
@@ -96,11 +100,23 @@ def main():
                 break
             time.sleep(2)
             continue
+        mkt = float(w.get('market') or 0)
+        BAD = re.compile(r'promo|no pack|cards only|empty|opened|damag|read desc|art card|code card|proxy|custom|replica|lot of|bundle of', re.I)
+        def sane(x):
+            if x['ttl'] and BAD.search(x['ttl']):
+                return False
+            # far below market: usually a partial / wrong product filed under this id, or a bait listing
+            return not (mkt >= 20 and x['a'] < 0.6 * mkt)
+        sus = [x for x in ls if not sane(x)]
+        ls = [x for x in ls if sane(x)]
         ok = [x for x in ls if x['r'] >= MIN_RATING and x['n'] >= MIN_SALES]
         best = ok[0] if ok else None
         rec = {'pid': pid, 'nl': len(ls), 'ok': len(ok)}
+        if sus:
+            rec['sus'] = len(sus)
+            rec['susLow'] = {k: sus[0][k] for k in ('a', 'sel', 'lt', 'ttl')}
         if best:
-            rec['tcg'] = {k: best[k] for k in ('p', 's', 'a', 'sel', 'r', 'n', 'c', 'pr', 'd')}
+            rec['tcg'] = {k: best[k] for k in ('p', 's', 'a', 'sel', 'r', 'n', 'c', 'pr', 'd', 'lt')}
         elif ls:
             rec['cheapest'] = {k: ls[0][k] for k in ('p', 's', 'a', 'sel', 'r', 'n')}
             rec['why'] = 'no seller with 99%+ rating and 1000+ sales'
