@@ -1,13 +1,14 @@
 [
   {
-    "antipattern": "overused-font",
-    "name": "Overused font",
-    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
-    "severity": "warning",
-    "category": "slop",
+    "antipattern": "straggler",
+    "name": "Straggler",
+    "description": "The last line of this paragraph holds one word, which leaves a hole under the block. Set text-wrap: pretty on body copy (Chrome, Safari) to pull a word down beside it. Where a browser ignores it, edit the last sentence or bind the last two words with a no-break space. Keep it if the break is intended.",
+    "severity": "advisory",
+    "category": "quality",
     "file": "http://localhost:8765/pokemon.html",
     "line": 0,
-    "snippet": "Primary font: instrument sans (59% of text)",
-    "selector": "body"
+    "snippet": "\"sooner.\" alone on the last of 2 lines (10% of the measure)",
+    "advisory": true,
+    "selector": "div.rules > p:nth-of-type(4)"
   }
 ]
