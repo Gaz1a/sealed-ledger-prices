@@ -34,6 +34,7 @@ def sales_num(v):
 
 
 def query(pid, card, rev):
+    size = SIZE if card else 50
     term = {'sellerStatus': 'Live', 'channelId': 0, 'language': ['English']}
     if card:
         term['condition'] = ['Near Mint']
@@ -41,7 +42,7 @@ def query(pid, card, rev):
             term['printing'] = ['Reverse Holofoil']
     body = {
         'filters': {'term': term, 'range': {'quantity': {'gte': 1}}, 'exclude': {'channelExclusion': 0}},
-        'from': 0, 'size': SIZE,
+        'from': 0, 'size': size,
         'sort': {'field': 'price+shipping', 'order': 'asc'},
         'context': {'shippingCountry': 'US', 'cart': {}},
         'aggregations': ['listingType'],
@@ -101,10 +102,12 @@ def main():
             time.sleep(2)
             continue
         mkt = float(w.get('market') or 0)
-        BAD = re.compile(r'promo|no pack|cards only|empty|opened|damag|read desc|art card|code card|proxy|custom|replica|lot of|bundle of', re.I)
+        BAD = re.compile(r'chinese|japanese|korean|thai|indonesian|\\bjp\\b|\\bjpn\\b|promo|no pack|cards only|empty|opened|damag|read desc|art card|code card|proxy|custom|replica|lot of|bundle of', re.I)
         def sane(x):
             if x['ttl'] and BAD.search(x['ttl']):
                 return False
+            if not card and x['lt'] and x['lt'] != 'standard':
+                return False  # sealed: custom listings are mostly partial contents (playmat only, no packs)
             # far below market: usually a partial / wrong product filed under this id, or a bait listing
             return not (mkt >= 20 and x['a'] < 0.6 * mkt)
         sus = [x for x in ls if not sane(x)]
