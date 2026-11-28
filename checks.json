@@ -1,0 +1,1823 @@
+{
+ "generated": "2026-11-28T17:39+00:00",
+ "graderError": null,
+ "rubric": "docs/nm_rubric.md on main",
+ "listings": {
+  "v1|820377623036|0": {
+   "src": "flash",
+   "wantId": "k-135",
+   "title": "Pokemon TCG WotC Jolteon 4/64 Jungle Holo - NM Excellent Condition",
+   "url": "https://www.ebay.com/itm/820377623036?_skw=Jolteon+4%2F64&hash=itembf025119fc:g:424AAeSwpEprAIdq",
+   "photos": 9,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "JAPANESE VERSION: Japanese text on the card (1313 kana read); the want is English, so price it against the Japanese version",
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.084, est. PSA 4.9, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.084,
+     "grade": 4.9,
+     "side": "front",
+     "px": 798,
+     "photo": 1
+    },
+    {
+     "p8": 0.259,
+     "grade": 6.3,
+     "side": "front",
+     "px": 1149,
+     "photo": 2
+    },
+    {
+     "p8": 0.228,
+     "grade": 6.7,
+     "side": "front",
+     "px": 1236,
+     "photo": 3
+    },
+    {
+     "p8": 0.224,
+     "grade": 5.5,
+     "side": "back",
+     "px": 1105,
+     "photo": 7
+    }
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "printCheck": {
+    "numbersRead": [
+     "004/064"
+    ],
+    "japaneseText": true,
+    "language": "Japanese",
+    "want": "4/64",
+    "status": "fail"
+   },
+   "graderP8": 0.084,
+   "graderGrade": 4.9,
+   "sheet": "sheets/v1_820377623036_0.jpg"
+  },
+  "v1|366843651300|0": {
+   "src": "flash",
+   "wantId": "s-mew-paf",
+   "title": "Mew ex SAR 232/091 SV SPANISH NM",
+   "url": "https://www.ebay.com/itm/366843651300?_skw=Mew+ex+232%2F091&hash=item556995e4e4:g:gFwAAeSw-u5q-1RA",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "WRONG PRINT: card number reads 252/091, want 232/91",
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "printCheck": {
+    "numbersRead": [
+     "252/091"
+    ],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "232/91",
+    "status": "fail"
+   },
+   "sheet": "sheets/v1_366843651300_0.jpg"
+  },
+  "v1|377193604661|0": {
+   "src": "wants",
+   "wantId": "kg-86005-normal",
+   "title": "GYARADOS G 30/127 R PLATINUM POKEMON NM/M",
+   "url": "https://www.ebay.com/itm/377193604661?_skw=Gyarados+G+30%2F127&hash=item57d27da635:g:bVIAAeSwO6VqC2i2",
+   "photos": 3,
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1016,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    },
+    {
+     "photo": 3,
+     "cardPx": 1018,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [],
+   "flags": [
+    "grader: likely PSA 7 or lower (P8+ 0.095, est. PSA 4.2, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.095,
+     "grade": 4.2,
+     "side": "front",
+     "px": 1013,
+     "photo": 1
+    },
+    {
+     "p8": 0.113,
+     "grade": 4.8,
+     "side": "back",
+     "px": 1013,
+     "photo": 2
+    },
+    {
+     "p8": 0.176,
+     "grade": 5.3,
+     "side": "back",
+     "px": 1015,
+     "photo": 3
+    }
+   ],
+   "unmeasured": [
+    1
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "30/127",
+    "status": "unread"
+   },
+   "graderP8": 0.095,
+   "graderGrade": 4.2,
+   "sheet": "sheets/v1_377193604661_0.jpg"
+  },
+  "v1|960193217174|0": {
+   "src": "wants",
+   "wantId": "gy-ancient-origins-21-98",
+   "title": "Gyarados 21/98 21/098 Non Holo Rare Deck Exclusives Pokemon Near Mint",
+   "url": "https://www.ebay.com/itm/960193217174?_skw=Gyarados+21%2F98&hash=itemdf8ff9c296:g:zewAAeSw5mRq95lT",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "grader": [
+    {
+     "p8": 0.616,
+     "grade": 7.0,
+     "side": "front",
+     "px": 1389,
+     "photo": 2
+    }
+   ],
+   "printCheck": {
+    "numbersRead": [
+     "021/098"
+    ],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "21/98",
+    "status": "pass"
+   },
+   "graderP8": 0.616,
+   "graderGrade": 7.0,
+   "sheet": "sheets/v1_960193217174_0.jpg"
+  },
+  "v1|137575023697|0": {
+   "src": "wants",
+   "wantId": "kg-118775",
+   "title": "Dark Gyarados (Prerelease) 08/82 Holo Promo WoTC Promo Pokemon Near Mint",
+   "url": "https://www.ebay.com/itm/137575023697?_skw=Dark+Gyarados+08%2F82&hash=item20081c4451:g:-BoAAeSwBFtqbiTw",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "grader": [
+    {
+     "p8": 0.579,
+     "grade": 7.0,
+     "side": "front",
+     "px": 739,
+     "photo": 2
+    }
+   ],
+   "printCheck": {
+    "numbersRead": [
+     "008/082"
+    ],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "8/82",
+    "status": "pass"
+   },
+   "graderP8": 0.579,
+   "graderGrade": 7.0,
+   "sheet": "sheets/v1_137575023697_0.jpg"
+  },
+  "v1|206658194574|0": {
+   "src": "wants",
+   "wantId": "kg-118775",
+   "title": "Dark Gyarados (Prerelease) 08/82 Wotc Promo Holo",
+   "url": "https://www.ebay.com/itm/206658194574?_skw=Dark+Gyarados+08%2F82&hash=item301dc9cc8e:g:TNQAAeSwA2Zq4QS4",
+   "photos": 4,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.076, est. PSA 4.5, photo 2)"
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "grader": [
+    {
+     "p8": 0.076,
+     "grade": 4.5,
+     "side": "front",
+     "px": 916,
+     "photo": 2
+    }
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "8/82",
+    "status": "unread"
+   },
+   "graderP8": 0.076,
+   "graderGrade": 4.5,
+   "sheet": "sheets/v1_206658194574_0.jpg"
+  },
+  "v1|198766351466|0": {
+   "src": "wants",
+   "wantId": "kg-226912",
+   "title": "Gyarados - 4/123 - Pokemon HeartGold SoulSilver Holo Card! NM",
+   "url": "https://www.ebay.com/itm/198766351466?_skw=Gyarados+4%2F123&hash=item2e4765d46a:g:EmoAAeSwapxq6Px4",
+   "photos": 1,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.385, est. PSA 6.5, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.385,
+     "grade": 6.5,
+     "side": "front",
+     "px": 471,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    1
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "4/123",
+    "status": "unread"
+   },
+   "graderP8": 0.385,
+   "graderGrade": 6.5,
+   "sheet": "sheets/v1_198766351466_0.jpg"
+  },
+  "v1|960235310982|0": {
+   "src": "wants",
+   "wantId": "kg-111530",
+   "title": "Gyarados EX 114/122 BREAKpoint Full Art Ultra Rare 2016 Pokemon Card",
+   "url": "https://www.ebay.com/itm/960235310982?_skw=Gyarados+EX+114%2F122&hash=itemdf927c0f86:g:2O0AAeSwZHxrBIUX",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "114/122",
+    "status": "unread"
+   },
+   "sheet": "sheets/v1_960235310982_0.jpg"
+  },
+  "v1|117543460480|0": {
+   "src": "wants",
+   "wantId": "gy-team-rocket-dark-gyarados-8-82",
+   "title": "1999-2000 Pokemon DARK GYARADOS PRELEASE Holo Rare 8/82 NM QTY Available",
+   "url": "https://www.ebay.com/itm/117543460480?_skw=Gyarados+8%2F82&hash=item1b5e22de80:g:1dIAAeSwe-9rCEkd",
+   "photos": 2,
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1220,
+     "sides": {
+      "top": 13.56,
+      "bottom": 0.0,
+      "left": 0.27,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 46.16,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [],
+   "flags": [
+    "grader: likely PSA 7 or lower (P8+ 0.073, est. PSA 4.8, photo 1)",
+    "back whitening (photo 2)"
+   ],
+   "grader": [
+    {
+     "p8": 0.073,
+     "grade": 4.8,
+     "side": "front",
+     "px": 1249,
+     "photo": 1
+    },
+    {
+     "p8": 0.525,
+     "grade": 7.6,
+     "side": "back",
+     "px": 1217,
+     "photo": 2
+    }
+   ],
+   "unmeasured": [
+    1
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "8/82",
+    "status": "unread"
+   },
+   "graderP8": 0.073,
+   "graderGrade": 4.8,
+   "sheet": "sheets/v1_117543460480_0.jpg"
+  },
+  "v1|158125637164|0": {
+   "src": "wants",
+   "wantId": "gy-team-rocket-dark-gyarados-8-82",
+   "title": "Dark Gyarados 8/82 - Team Rocket Pokemon Card (Near Mint) w Swirl",
+   "url": "https://www.ebay.com/itm/158125637164?_skw=Gyarados+8%2F82&hash=item24d105be2c:g:0JAAAeSwSApqZ8v-",
+   "photos": 6,
+   "backs": [],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1102,
+     "centering": {
+      "lr": "62/38",
+      "tb": "51/49",
+      "worst": 62
+     }
+    }
+   ],
+   "flags": [
+    "JAPANESE VERSION: Japanese text on the card (161 kana read); the want is English, so price it against the Japanese version",
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.107, est. PSA 5.7, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.107,
+     "grade": 5.7,
+     "side": "front",
+     "px": 1079,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": true,
+    "language": "Japanese",
+    "want": "8/82",
+    "status": "fail"
+   },
+   "graderP8": 0.107,
+   "graderGrade": 5.7,
+   "sheet": "sheets/v1_158125637164_0.jpg"
+  },
+  "v1|407377758129|0": {
+   "src": "wants",
+   "wantId": "gy-legendary-treasures-31-113-rev",
+   "title": "Gyarados 31/113 Legendary Treasures Reverse Holo",
+   "url": "https://www.ebay.com/itm/407377758129?_skw=Gyarados+31%2F113&hash=item5ed99b47b1:g:wpwAAeSw2kRrALRY",
+   "photos": 7,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.265, est. PSA 5.2, photo 2)"
+   ],
+   "grader": [
+    {
+     "p8": 0.444,
+     "grade": 6.3,
+     "side": "front",
+     "px": 1243,
+     "photo": 1
+    },
+    {
+     "p8": 0.265,
+     "grade": 5.2,
+     "side": "front",
+     "px": 1451,
+     "photo": 2
+    }
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "31/113",
+    "status": "unread"
+   },
+   "graderP8": 0.265,
+   "graderGrade": 5.2,
+   "sheet": "sheets/v1_407377758129_0.jpg"
+  },
+  "v1|117468675250|0": {
+   "src": "wants",
+   "wantId": "gy-legendary-treasures-31-113-rev",
+   "title": "Gyarados 31/113 Legendary Treasures Reverse Holo Near Mint",
+   "url": "https://www.ebay.com/itm/117468675250?_skw=Gyarados+31%2F113&hash=item1b59adbcb2:g:zzgAAeSwUdBq0auF",
+   "photos": 10,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "WRONG PRINT: card number reads 003/113, want 31/113",
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "grader": [
+    {
+     "p8": 0.608,
+     "grade": 7.4,
+     "side": "front",
+     "px": 1247,
+     "photo": 6
+    }
+   ],
+   "printCheck": {
+    "numbersRead": [
+     "003/113"
+    ],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "31/113",
+    "status": "fail"
+   },
+   "graderP8": 0.608,
+   "graderGrade": 7.4,
+   "sheet": "sheets/v1_117468675250_0.jpg"
+  },
+  "v1|840154800595|0": {
+   "src": "wants",
+   "wantId": "mk-expedition-base-set-118-165",
+   "title": "2002 Pokemon Magikarp 118/165 Common Expedition Base Set WOTC",
+   "url": "https://www.ebay.com/itm/840154800595?_skw=Magikarp+118%2F165&hash=itemc39d20e1d3:g:jUMAAeSwBhZrAtDi",
+   "photos": 4,
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1174,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.03
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1283,
+     "centering": {
+      "lr": "64/36",
+      "tb": "82/18",
+      "worst": 82
+     }
+    }
+   ],
+   "flags": [
+    "grader: likely PSA 7 or lower (P8+ 0.18, est. PSA 5.5, photo 2)",
+    "front off-centre 64/36 / 82/18 (PSA 8 needs 65/35)"
+   ],
+   "grader": [
+    {
+     "p8": 0.522,
+     "grade": 7.1,
+     "side": "back",
+     "px": 1280,
+     "photo": 1
+    },
+    {
+     "p8": 0.18,
+     "grade": 5.5,
+     "side": "back",
+     "px": 1170,
+     "photo": 2
+    }
+   ],
+   "unmeasured": [
+    3,
+    4
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "118/165",
+    "status": "unread"
+   },
+   "graderP8": 0.18,
+   "graderGrade": 5.5,
+   "sheet": "sheets/v1_840154800595_0.jpg"
+  },
+  "v1|157702944837|0": {
+   "src": "wants",
+   "wantId": "k-035",
+   "title": "Clefairy - Base Set (BS) HoloFoil Printing Pokemon Trading Card 5/102 ",
+   "url": "https://www.ebay.com/itm/157702944837?_skw=Clefairy+5%2F102&hash=item24b7d3f845:g:1TcAAeSwrilpnK2b",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "5/102",
+    "status": "unread"
+   },
+   "sheet": "sheets/v1_157702944837_0.jpg"
+  },
+  "v1|800894968273|0": {
+   "src": "wants",
+   "wantId": "gy-team-up-30-181",
+   "title": "Gyarados 30/181 Sm-Team Up Holo",
+   "url": "https://www.ebay.com/itm/800894968273?_skw=Gyarados+30%2F181&hash=itemba790f61d1:g:BZoAAeSwkElq8UA-",
+   "photos": 2,
+   "backs": [],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1279,
+     "centering": {
+      "lr": "68/32",
+      "tb": "65/35",
+      "worst": 68
+     }
+    }
+   ],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "front off-centre 68/32 / 65/35 (PSA 8 needs 65/35)"
+   ],
+   "grader": [
+    {
+     "p8": 0.88,
+     "grade": 8.6,
+     "side": "front",
+     "px": 1277,
+     "photo": 1
+    },
+    {
+     "p8": 0.415,
+     "grade": 6.2,
+     "side": "front",
+     "px": 1034,
+     "photo": 2
+    }
+   ],
+   "unmeasured": [
+    2
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "30/181",
+    "status": "unread"
+   },
+   "graderP8": 0.415,
+   "graderGrade": 6.2,
+   "sheet": "sheets/v1_800894968273_0.jpg"
+  },
+  "v1|206305679628|0": {
+   "src": "wants",
+   "wantId": "gy-team-up-30-181",
+   "title": "Gyarados 30/181 Holo Rare SM - Team Up 2019 NM",
+   "url": "https://www.ebay.com/itm/206305679628?_skw=Gyarados+30%2F181&hash=item3008c6d90c:g:ruwAAeSwolFqGLGI",
+   "photos": 3,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "grader": [
+    {
+     "p8": 0.459,
+     "grade": 6.7,
+     "side": "front",
+     "px": 1291,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "30/181",
+    "status": "unread"
+   },
+   "graderP8": 0.459,
+   "graderGrade": 6.7,
+   "sheet": "sheets/v1_206305679628_0.jpg"
+  },
+  "v1|287459552440|0": {
+   "src": "wants",
+   "wantId": "mk-dragons-exalted-23-124-rev",
+   "title": "Magikarp 23/124 Common Dragons Exalted Pokemon Reverse Holo Near Mint",
+   "url": "https://www.ebay.com/itm/287459552440?_skw=Magikarp+23%2F124&hash=item42edecacb8:g:VHUAAeSw9h1qVXgj",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "WRONG PRINT: card number reads 003/124, want 23/124",
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "grader": [
+    {
+     "p8": 0.665,
+     "grade": 6.8,
+     "side": "back",
+     "px": 946,
+     "photo": 2
+    }
+   ],
+   "printCheck": {
+    "numbersRead": [
+     "003/124"
+    ],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "23/124",
+    "status": "fail"
+   },
+   "graderP8": 0.665,
+   "graderGrade": 6.8,
+   "sheet": "sheets/v1_287459552440_0.jpg"
+  },
+  "v1|366736179845|0": {
+   "src": "wants",
+   "wantId": "kg-591880",
+   "title": "Magikarp 006/032 Pokemon TCG Classic Blastoise Holo NM",
+   "url": "https://www.ebay.com/itm/366736179845?_skw=Magikarp+006%2F032&hash=item55632e0285:g:qTUAAeSwdYBq0QsC",
+   "photos": 2,
+   "backs": [],
+   "fronts": [
+    {
+     "photo": 2,
+     "cardPx": 1481,
+     "centering": {
+      "lr": "60/40",
+      "tb": "55/45",
+      "worst": 60
+     }
+    }
+   ],
+   "flags": [
+    "WRONG PRINT: card number reads 106/032, want 6/32",
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1
+   ],
+   "grader": [
+    {
+     "p8": 0.656,
+     "grade": 7.8,
+     "side": "back",
+     "px": 1475,
+     "photo": 2
+    }
+   ],
+   "printCheck": {
+    "numbersRead": [
+     "106/032"
+    ],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "6/32",
+    "status": "fail"
+   },
+   "graderP8": 0.656,
+   "graderGrade": 7.8,
+   "sheet": "sheets/v1_366736179845_0.jpg"
+  },
+  "v1|820239616367|0": {
+   "src": "wants",
+   "wantId": "kg-107032-unlimited",
+   "title": "Base Set (Shadowless) #035/102 Magikarp",
+   "url": "https://www.ebay.com/itm/820239616367?_skw=Magikarp+035%2F102&hash=itembefa17496f:g:1NIAAeSwLthqz-ac",
+   "photos": 1,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "35/102",
+    "status": "unread"
+   },
+   "sheet": "sheets/v1_820239616367_0.jpg"
+  },
+  "v1|237200158911|0": {
+   "src": "wants",
+   "wantId": "kg-107032-unlimited",
+   "title": "Base Set (Shadowless) #035/102 Magikarp",
+   "url": "https://www.ebay.com/itm/237200158911?_skw=Magikarp+035%2F102&hash=item373a3b30bf:g:-QkAAeSwyzhrA4q0",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.018, est. PSA 3.4, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.018,
+     "grade": 3.4,
+     "side": "front",
+     "px": 1016,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "printCheck": {
+    "numbersRead": [
+     "035/102"
+    ],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "35/102",
+    "status": "pass"
+   },
+   "graderP8": 0.018,
+   "graderGrade": 3.4,
+   "sheet": "sheets/v1_237200158911_0.jpg"
+  },
+  "v1|377453287991|0": {
+   "src": "wants",
+   "wantId": "gy-mysterious-treasures-26-123",
+   "title": "Gyarados Rare Mysterious Treasures 26/123 NM",
+   "url": "https://www.ebay.com/itm/377453287991?_skw=Gyarados+26%2F123&hash=item57e1f81a37:g:jGUAAeSwWg9qkVZl",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "grader": [
+    {
+     "p8": 0.469,
+     "grade": 7.1,
+     "side": "front",
+     "px": 651,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "26/123",
+    "status": "unread"
+   },
+   "graderP8": 0.469,
+   "graderGrade": 7.1,
+   "sheet": "sheets/v1_377453287991_0.jpg"
+  },
+  "v1|227266225524|0": {
+   "src": "wants",
+   "wantId": "gy-mysterious-treasures-26-123",
+   "title": "Gyarados Rare Mysterious Treasures 26/123 Water Normal Pokemon Card",
+   "url": "https://www.ebay.com/itm/227266225524?_skw=Gyarados+26%2F123&hash=item34ea1f6574:g:dakAAeSweElpvivR",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.292, est. PSA 6.0, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.292,
+     "grade": 6.0,
+     "side": "front",
+     "px": 976,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "26/123",
+    "status": "unread"
+   },
+   "graderP8": 0.292,
+   "graderGrade": 6.0,
+   "sheet": "sheets/v1_227266225524_0.jpg"
+  },
+  "v1|257765705479|0": {
+   "src": "wants",
+   "wantId": "kg-111529",
+   "title": "Gyarados EX 26/122 Breakpoint Holo - NM",
+   "url": "https://www.ebay.com/itm/257765705479?_skw=Gyarados+EX+26%2F122&hash=item3c04088707:g:TZQAAeSwpAVqtuHh",
+   "photos": 2,
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 512,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 734,
+     "centering": {
+      "lr": "61/39",
+      "tb": "67/33",
+      "worst": 67
+     }
+    }
+   ],
+   "flags": [
+    "grader: likely PSA 7 or lower (P8+ 0.275, est. PSA 5.6, photo 1)",
+    "low resolution back (photo 2, 512px)",
+    "front off-centre 61/39 / 67/33 (PSA 8 needs 65/35)"
+   ],
+   "grader": [
+    {
+     "p8": 0.275,
+     "grade": 5.6,
+     "side": "front",
+     "px": 733,
+     "photo": 1
+    },
+    {
+     "p8": 0.52,
+     "grade": 7.2,
+     "side": "back",
+     "px": 508,
+     "photo": 2
+    }
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "26/122",
+    "status": "unread"
+   },
+   "graderP8": 0.275,
+   "graderGrade": 5.6,
+   "sheet": "sheets/v1_257765705479_0.jpg"
+  },
+  "v1|198637416274|0": {
+   "src": "wants",
+   "wantId": "kg-111529",
+   "title": "Gyarados EX 26/122 Holo Rare English 2016",
+   "url": "https://www.ebay.com/itm/198637416274?_skw=Gyarados+EX+26%2F122&hash=item2e3fb66f52:g:FDIAAeSwXYxqpdZX",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "JAPANESE VERSION: Japanese text on the card (377 kana read); the want is English, so price it against the Japanese version",
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "grader": [
+    {
+     "p8": 0.795,
+     "grade": 7.6,
+     "side": "back",
+     "px": 1116,
+     "photo": 2
+    }
+   ],
+   "printCheck": {
+    "numbersRead": [
+     "026/122"
+    ],
+    "japaneseText": true,
+    "language": "Japanese",
+    "want": "26/122",
+    "status": "fail"
+   },
+   "graderP8": 0.795,
+   "graderGrade": 7.6,
+   "sheet": "sheets/v1_198637416274_0.jpg"
+  },
+  "v1|298426718891|0": {
+   "src": "wants",
+   "wantId": "gy-dragons-exalted-24-124-rev",
+   "title": "Gyarados 24/124 Dragons Exalted Reverse Holo NM",
+   "url": "https://www.ebay.com/itm/298426718891?_skw=Gyarados+24%2F124&hash=item457b9e5aab:g:TiEAAeSwpfdqM0RR",
+   "photos": 3,
+   "backs": [],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 994,
+     "centering": {
+      "lr": "59/41",
+      "tb": "56/44",
+      "worst": 59
+     }
+    }
+   ],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.349, est. PSA 5.6, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.349,
+     "grade": 5.6,
+     "side": "front",
+     "px": 993,
+     "photo": 1
+    },
+    {
+     "p8": 0.395,
+     "grade": 6.3,
+     "side": "front",
+     "px": 1154,
+     "photo": 2
+    },
+    {
+     "p8": 0.482,
+     "grade": 6.8,
+     "side": "front",
+     "px": 911,
+     "photo": 3
+    }
+   ],
+   "unmeasured": [
+    2,
+    3
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "24/124",
+    "status": "unread"
+   },
+   "graderP8": 0.349,
+   "graderGrade": 5.6,
+   "sheet": "sheets/v1_298426718891_0.jpg"
+  },
+  "v1|287436162297|0": {
+   "src": "wants",
+   "wantId": "gy-dragons-exalted-24-124-rev",
+   "title": "2012 Dragons Exalted Reverse Holo Gyarados Rare #24/124",
+   "url": "https://www.ebay.com/itm/287436162297?_skw=Gyarados+24%2F124&hash=item42ec87c4f9:g:NmcAAeSwsyhqSAiC",
+   "photos": 2,
+   "backs": [],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1017,
+     "centering": {
+      "lr": "60/40",
+      "tb": "55/45",
+      "worst": 60
+     }
+    }
+   ],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "grader": [
+    {
+     "p8": 0.758,
+     "grade": 8.1,
+     "side": "front",
+     "px": 1015,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    2
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "24/124",
+    "status": "unread"
+   },
+   "graderP8": 0.758,
+   "graderGrade": 8.1,
+   "sheet": "sheets/v1_287436162297_0.jpg"
+  },
+  "v1|317740787019|0": {
+   "src": "wants",
+   "wantId": "kg-149126",
+   "title": "Gyarados GX 101/111",
+   "url": "https://www.ebay.com/itm/317740787019?_skw=Gyarados+GX+101%2F111&hash=item49fad3a54b:g:~70AAeSwgNJpXj8y",
+   "photos": 3,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "101/111",
+    "status": "unread"
+   },
+   "sheet": "sheets/v1_317740787019_0.jpg"
+  },
+  "v1|960200682907|0": {
+   "src": "wants",
+   "wantId": "kg-149126",
+   "title": "Gyarados GX (Full Art) 101/111 Sm-Crimson Invasion Holo",
+   "url": "https://www.ebay.com/itm/960200682907?_skw=Gyarados+GX+101%2F111&hash=itemdf906bad9b:g:wQ8AAeSwxzFq-gKp",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "grader": [
+    {
+     "p8": 0.701,
+     "grade": 8.2,
+     "side": "front",
+     "px": 970,
+     "photo": 2
+    }
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "101/111",
+    "status": "unread"
+   },
+   "graderP8": 0.701,
+   "graderGrade": 8.2,
+   "sheet": "sheets/v1_960200682907_0.jpg"
+  },
+  "v1|800697566899|0": {
+   "src": "wants",
+   "wantId": "kg-527992",
+   "title": "The Pokémon Company Gyarados 007/034 Trading Card Game Classic Holo ENG HP130",
+   "url": "https://www.ebay.com/itm/800697566899?_skw=Gyarados+007%2F034&hash=itemba6d4b46b3:g:JSoAAeSwShxqseix",
+   "photos": 6,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "grader": [
+    {
+     "p8": 0.682,
+     "grade": 8.0,
+     "side": "front",
+     "px": 927,
+     "photo": 3
+    },
+    {
+     "p8": 0.681,
+     "grade": 8.6,
+     "side": "front",
+     "px": 1241,
+     "photo": 5
+    }
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "7/34",
+    "status": "unread"
+   },
+   "graderP8": 0.681,
+   "graderGrade": 8.0,
+   "sheet": "sheets/v1_800697566899_0.jpg"
+  },
+  "v1|117531504053|0": {
+   "src": "wants",
+   "wantId": "kg-141250",
+   "title": "Gyarados 21/98 XY-Ancient Origins Full Art Cosmos Holo Rare NM-",
+   "url": "https://www.ebay.com/itm/117531504053?_skw=Gyarados+21%2F98&hash=item1b5d6c6db5:g:8wIAAeSwJapq~7Qb",
+   "photos": 6,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.22, est. PSA 5.0, photo 4)"
+   ],
+   "grader": [
+    {
+     "p8": 0.684,
+     "grade": 8.1,
+     "side": "front",
+     "px": 1144,
+     "photo": 1
+    },
+    {
+     "p8": 0.83,
+     "grade": 7.9,
+     "side": "front",
+     "px": 1429,
+     "photo": 2
+    },
+    {
+     "p8": 0.308,
+     "grade": 6.2,
+     "side": "front",
+     "px": 1126,
+     "photo": 3
+    },
+    {
+     "p8": 0.22,
+     "grade": 5.0,
+     "side": "front",
+     "px": 1529,
+     "photo": 4
+    },
+    {
+     "p8": 0.277,
+     "grade": 5.0,
+     "side": "front",
+     "px": 1485,
+     "photo": 5
+    }
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "printCheck": {
+    "numbersRead": [
+     "021/098"
+    ],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "21/98",
+    "status": "pass"
+   },
+   "graderP8": 0.22,
+   "graderGrade": 5.0,
+   "sheet": "sheets/v1_117531504053_0.jpg"
+  },
+  "v1|366736179837|0": {
+   "src": "wants",
+   "wantId": "kg-591881",
+   "title": "Gyarados 007/032 Pokemon TCG Classic Blastoise Holo NM",
+   "url": "https://www.ebay.com/itm/366736179837?_skw=Gyarados+007%2F032&hash=item55632e027d:g:Ix0AAeSwlnxq0Qs9",
+   "photos": 2,
+   "backs": [],
+   "fronts": [
+    {
+     "photo": 2,
+     "cardPx": 1474,
+     "centering": {
+      "lr": "64/36",
+      "tb": "55/45",
+      "worst": 64
+     }
+    }
+   ],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1
+   ],
+   "grader": [
+    {
+     "p8": 0.788,
+     "grade": 8.4,
+     "side": "back",
+     "px": 1471,
+     "photo": 2
+    }
+   ],
+   "printCheck": {
+    "numbersRead": [
+     "007/032"
+    ],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "7/32",
+    "status": "pass"
+   },
+   "graderP8": 0.788,
+   "graderGrade": 8.4,
+   "sheet": "sheets/v1_366736179837_0.jpg"
+  },
+  "v1|407377427396|0": {
+   "src": "wants",
+   "wantId": "mk-ex-deoxys-64-107-rev",
+   "title": "Magikarp 64/107 Deoxys Reverse Holo Pokemon",
+   "url": "https://www.ebay.com/itm/407377427396?_skw=Magikarp+64%2F107&hash=item5ed9963bc4:g:GB8AAeSwTGBpwdQ~",
+   "photos": 9,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "JAPANESE VERSION: Japanese text on the card (1502 kana read); the want is English, so price it against the Japanese version",
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "grader": [
+    {
+     "p8": 0.535,
+     "grade": 6.8,
+     "side": "front",
+     "px": 1419,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": true,
+    "language": "Japanese",
+    "want": "64/107",
+    "status": "fail"
+   },
+   "graderP8": 0.535,
+   "graderGrade": 6.8,
+   "sheet": "sheets/v1_407377427396_0.jpg"
+  },
+  "v1|800566421055|0": {
+   "src": "wants",
+   "wantId": "kg-527991",
+   "title": "Pokemon TCG Classic \"Magikarp\" CLB 006/034 / Holo Rare / Near Mint",
+   "url": "https://www.ebay.com/itm/800566421055?_skw=Magikarp+006%2F034&hash=itemba657a263f:g:8mIAAeSwSytqja36",
+   "photos": 3,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "JAPANESE VERSION: Japanese text on the card (2059 kana read); the want is English, so price it against the Japanese version",
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.329, est. PSA 5.7, photo 2)"
+   ],
+   "grader": [
+    {
+     "p8": 0.357,
+     "grade": 5.6,
+     "side": "front",
+     "px": 1596,
+     "photo": 1
+    },
+    {
+     "p8": 0.329,
+     "grade": 5.7,
+     "side": "front",
+     "px": 1598,
+     "photo": 2
+    },
+    {
+     "p8": 0.374,
+     "grade": 5.8,
+     "side": "front",
+     "px": 1597,
+     "photo": 3
+    }
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": true,
+    "language": "Japanese",
+    "want": "6/34",
+    "status": "fail"
+   },
+   "graderP8": 0.329,
+   "graderGrade": 5.6,
+   "sheet": "sheets/v1_800566421055_0.jpg"
+  },
+  "v1|840131820701|0": {
+   "src": "wants",
+   "wantId": "kg-527991",
+   "title": "Magikarp 006/034 Holo - Trading Card Game Classic - NM Pokemon TCG",
+   "url": "https://www.ebay.com/itm/840131820701?_skw=Magikarp+006%2F034&hash=itemc39bc23c9d:g:bgcAAeSwVpZq-etn",
+   "photos": 2,
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1556,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 1.43,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 3.43,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [],
+   "flags": [],
+   "unmeasured": [
+    1
+   ],
+   "grader": [
+    {
+     "p8": 0.854,
+     "grade": 9.3,
+     "side": "back",
+     "px": 1552,
+     "photo": 2
+    }
+   ],
+   "printCheck": {
+    "numbersRead": [
+     "006/034"
+    ],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "6/34",
+    "status": "pass"
+   },
+   "graderP8": 0.854,
+   "graderGrade": 9.3,
+   "sheet": "sheets/v1_840131820701_0.jpg"
+  },
+  "v1|354051477738|0": {
+   "src": "wants",
+   "wantId": "kg-84608-normal",
+   "title": "Dark Gyarados 36/109 No grade",
+   "url": "https://www.ebay.com/itm/354051477738?_skw=Dark+Gyarados+36%2F109&hash=item526f1cd0ea:g:xFIAAOSwnLlieV7B",
+   "photos": 11,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "grader": [
+    {
+     "p8": 0.668,
+     "grade": 7.0,
+     "side": "front",
+     "px": 1203,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "printCheck": {
+    "numbersRead": [
+     "036/109"
+    ],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "36/109",
+    "status": "pass"
+   },
+   "graderP8": 0.668,
+   "graderGrade": 7.0,
+   "sheet": "sheets/v1_354051477738_0.jpg"
+  },
+  "v1|398411609619|0": {
+   "src": "wants",
+   "wantId": "kg-84608-normal",
+   "title": "Dark Gyarados 36/109 Team Rocket Returns Near Mint Nakaoka Pokemon TCG",
+   "url": "https://www.ebay.com/itm/398411609619?_skw=Dark+Gyarados+36%2F109&hash=item5cc32eb613:g:YTIAAeSwFVVqrupm",
+   "photos": 2,
+   "backs": [
+    {
+     "photo": 2,
+     "cardPx": 1498,
+     "sides": {
+      "top": 0.0,
+      "bottom": 0.0,
+      "left": 0.0,
+      "right": 0.0
+     },
+     "corners": {
+      "tl": 0.0,
+      "tr": 0.0,
+      "bl": 0.0,
+      "br": 0.0
+     }
+    }
+   ],
+   "fronts": [
+    {
+     "photo": 1,
+     "cardPx": 1500,
+     "centering": {
+      "lr": "56/44",
+      "tb": "55/45",
+      "worst": 56
+     }
+    }
+   ],
+   "flags": [
+    "grader: likely PSA 7 or lower (P8+ 0.183, est. PSA 5.5, photo 2)"
+   ],
+   "grader": [
+    {
+     "p8": 0.498,
+     "grade": 7.0,
+     "side": "front",
+     "px": 1496,
+     "photo": 1
+    },
+    {
+     "p8": 0.183,
+     "grade": 5.5,
+     "side": "back",
+     "px": 1495,
+     "photo": 2
+    }
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "36/109",
+    "status": "unread"
+   },
+   "graderP8": 0.183,
+   "graderGrade": 5.5,
+   "sheet": "sheets/v1_398411609619_0.jpg"
+  },
+  "v1|198778146380|0": {
+   "src": "wants",
+   "wantId": "mk-skyridge-75-144",
+   "title": "Magikarp - 75/144 - Pokemon Skyridge Non-Holo Card! NM",
+   "url": "https://www.ebay.com/itm/198778146380?_skw=Magikarp+75%2F144&hash=item2e4819ce4c:g:QZ4AAeSwsqtq7kiW",
+   "photos": 1,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "unmeasured": [
+    1
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "75/144",
+    "status": "unread"
+   },
+   "sheet": "sheets/v1_198778146380_0.jpg"
+  },
+  "v1|237212038245|0": {
+   "src": "wants",
+   "wantId": "mk-skyridge-75-144",
+   "title": "Magikarp 75/144 Pokemon TCG Skyridge 2003 WOTC Vintage E Series Non Holo NM-",
+   "url": "https://www.ebay.com/itm/237212038245?_skw=Magikarp+75%2F144&hash=item373af07465:g:dnIAAeSwhk9rCdJb",
+   "photos": 10,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.333, est. PSA 5.6, photo 9)"
+   ],
+   "grader": [
+    {
+     "p8": 0.601,
+     "grade": 7.4,
+     "side": "front",
+     "px": 1364,
+     "photo": 1
+    },
+    {
+     "p8": 0.531,
+     "grade": 6.9,
+     "side": "back",
+     "px": 1194,
+     "photo": 8
+    },
+    {
+     "p8": 0.333,
+     "grade": 5.6,
+     "side": "back",
+     "px": 1596,
+     "photo": 9
+    },
+    {
+     "p8": 0.383,
+     "grade": 6.0,
+     "side": "front",
+     "px": 1590,
+     "photo": 10
+    }
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "75/144",
+    "status": "unread"
+   },
+   "graderP8": 0.333,
+   "graderGrade": 5.6,
+   "sheet": "sheets/v1_237212038245_0.jpg"
+  },
+  "v1|336367021594|0": {
+   "src": "wants",
+   "wantId": "kg-111532",
+   "title": "M Gyarados EX Ultra Rare 27/122 EXC",
+   "url": "https://www.ebay.com/itm/336367021594?_skw=M+Gyarados+EX+27%2F122&hash=item4e51096e1a:g:5r8AAeSwm9NpU2W9",
+   "photos": 2,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)",
+    "grader: likely PSA 7 or lower (P8+ 0.137, est. PSA 4.6, photo 1)"
+   ],
+   "grader": [
+    {
+     "p8": 0.137,
+     "grade": 4.6,
+     "side": "front",
+     "px": 1413,
+     "photo": 1
+    }
+   ],
+   "unmeasured": [
+    1,
+    2
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "27/122",
+    "status": "unread"
+   },
+   "graderP8": 0.137,
+   "graderGrade": 4.6,
+   "sheet": "sheets/v1_336367021594_0.jpg"
+  },
+  "v1|206689180445|0": {
+   "src": "wants",
+   "wantId": "s-mew-paf",
+   "title": "Mew Ex 232/091 Pokemon Card Fr Alt Paldea",
+   "url": "https://www.ebay.com/itm/206689180445?_skw=Mew+ex+232%2F091&hash=item301fa29b1d:g:huAAAeSwrV1q8uIn",
+   "photos": 9,
+   "backs": [],
+   "fronts": [],
+   "flags": [
+    "no measurable back photo (check by eye; none at all = fail)"
+   ],
+   "grader": [
+    {
+     "p8": 0.844,
+     "grade": 8.8,
+     "side": "front",
+     "px": 1428,
+     "photo": 1
+    },
+    {
+     "p8": 0.459,
+     "grade": 6.1,
+     "side": "front",
+     "px": 1211,
+     "photo": 2
+    },
+    {
+     "p8": 0.917,
+     "grade": 9.4,
+     "side": "front",
+     "px": 1452,
+     "photo": 6
+    }
+   ],
+   "unmeasured": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "printCheck": {
+    "numbersRead": [],
+    "japaneseText": false,
+    "language": "English (no foreign text read)",
+    "want": "232/91",
+    "status": "unread"
+   },
+   "graderP8": 0.459,
+   "graderGrade": 6.1,
+   "sheet": "sheets/v1_206689180445_0.jpg"
+  }
+ }
+}
