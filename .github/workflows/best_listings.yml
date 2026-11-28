@@ -1,0 +1,29 @@
+name: Best listings (TCGplayer pick + eBay + seller baskets)
+on:
+  schedule:
+    - cron: "40 15 * * *"   # daily 15:40 UTC (7:40am PT), after the eBay verify run and before the Tracker (8:47am PT)
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max rows to check (default 400)"
+        required: false
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/best_listings.py
+        env:
+          BL_LIMIT: ${{ github.event.inputs.limit || '400' }}
+      - if: always()
+        run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          [ -f best_listings.json ] && git add best_listings.json
+          git diff --cached --quiet || git commit -m "best listings $(date -u +%F)"
+          git pull --rebase && git push
