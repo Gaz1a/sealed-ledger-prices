@@ -1,4 +1,4 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html><html data-look="new"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Wrestling Ledger</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600;700&display=swap">
@@ -335,6 +335,51 @@ form.f textarea{font:inherit;font-size:16px;letter-spacing:0;text-transform:none
 .badge.hit{background:var(--amberbg);color:var(--amber)}
 .nav button[aria-current="true"]{border-color:var(--teal)}
 .tile .s b{color:var(--fg);font-weight:600}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,800&family=DM+Mono:wght@400;500&display=swap">
+<style id="newlook">
+/* New look: Radar Family design system (Nov 2026). Opt-in via the Look switch at the bottom. */
+:root[data-look="new"]:not(#_){color-scheme:dark;--bg:#14121c;--card:#1e1b2a;--fg:#f4efe6;--sub:#cbc5d8;--mut:#a39fb3;--line:#322e44;--teal:#5fd3b8;--tealbg:#16352f;--tealline:#5fd3b8;--accentline:#ff5a36;--green:#a8ec7a;--greenbg:#22361a;--red:#ff7a7a;--redbg:#3a1a22;--amber:#f2b84b;--amberbg:#3a2d12;--grey:#a39fb3;--greybg:#2a2639;--track:#2a2639;--hi:#2a1c1c;--onAccent:#1a0d08;--hero:#1e1b2a;--heroInk:#f4efe6;--heroMut:#cbc5d8;--glow:transparent;--shadow:none;--pat:none;--patO:0;--f-d:'Bricolage Grotesque','Arial Black',sans-serif;--f-b:'Bricolage Grotesque',system-ui,sans-serif;--f-m:'DM Mono',ui-monospace,monospace;--h1:46px;--h1case:none;--h1ls:-.03em;--h1w:800;--h2:24px;--h2w:800;--h2ls:-.01em;--h3:20px}
+html[data-look="new"] body{background:var(--bg);color:var(--fg)}
+html[data-look="new"] body::before,html[data-look="new"] .hero::after{display:none}
+html[data-look="new"] .hero{background:var(--card);border-bottom:1px solid var(--line)}
+html[data-look="new"] .hero h1 em{font-style:normal;color:#ff5a36}
+html[data-look="new"] h2,html[data-look="new"] h3{text-transform:none}
+/* cards: state on the border, no side bar */
+html[data-look="new"] .card::before{display:none}
+html[data-look="new"] .card{border:1px solid var(--rail,var(--line));border-radius:14px}
+html[data-look="new"] .btn.pri{background:#ff5a36;border-color:#ff5a36;color:#1a0d08}
+html[data-look="new"] .tile,html[data-look="new"] .dg{box-shadow:none}
+/* nothing under 12px */
+html[data-look="new"] .eyebrow,
+html[data-look="new"] .sr small,
+html[data-look="new"] .badge,
+html[data-look="new"] form.f label,
+html[data-look="new"] .cf,
+html[data-look="new"] .mv-note,
+html[data-look="new"] .mv-buy,
+html[data-look="new"] .mv-kind,
+html[data-look="new"] .mv-plan,
+html[data-look="new"] .mv-own .act,
+html[data-look="new"] .vd,
+html[data-look="new"] .rb-n small,
+html[data-look="new"] .hs .tg,
+html[data-look="new"] .tr-row small,
+html[data-look="new"] .dg-badge,
+html[data-look="new"] .tile .eyebrow{font-size:12px!important;letter-spacing:.03em}
+/* tap targets */
+html[data-look="new"] button,html[data-look="new"] .btn,html[data-look="new"] .act,html[data-look="new"] select,html[data-look="new"] form.f input{min-height:44px}
+html[data-look="new"] .nav button,html[data-look="new"] .chips button,html[data-look="new"] .act{display:inline-flex;align-items:center;justify-content:center;padding-block:0}
+html[data-look="new"] .links a{display:inline-flex;align-items:center;min-height:44px}
+/* reading */
+html[data-look="new"] ::placeholder{color:var(--mut);opacity:1}
+html[data-look="new"] .page p,html[data-look="new"] .hint,html[data-look="new"] .why,html[data-look="new"] .plan{max-width:36em;text-wrap:pretty}
+@media (hover:none){html[data-look="new"] img:hover{transform:none}}
+html[data-look="new"] button:focus-visible,html[data-look="new"] a:focus-visible{outline:2px solid #5fd3b8;outline-offset:2px}
+/* look switch */
+.looksw{display:flex;justify-content:center;align-items:center;gap:6px;margin:24px 0 8px;font:500 12px var(--f-m,monospace);color:var(--mut)}
+.looksw button{font:inherit;min-height:44px;padding:0 16px;border-radius:99px;border:1px solid var(--line);background:transparent;color:var(--mut);cursor:pointer}
+.looksw button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
 </style>
 <div class="page" id="page">
 <header class="hero"><div class="eyebrow" id="eb"></div><h1 id="h1"></h1><p class="lede" id="lede"></p><div class="asofrow"><span>Prices as of</span><div class="asof" id="asof">–</div></div></header>
