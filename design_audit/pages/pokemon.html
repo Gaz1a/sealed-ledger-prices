@@ -1,4 +1,4 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html><html data-look="new"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Pokémon TCG Ledger</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&family=Press+Start+2P&display=swap">
 <style>
@@ -261,7 +261,6 @@ h2{font:800 24px/1.1 var(--f-d);text-transform:none;letter-spacing:-.01em;color:
  .card>div.right{padding:0 14px 14px 0}
  .card>form.f,.card>.mv-detail{margin:0 14px 14px;grid-column:1/-1}
 }
-}
 
 .card .stub.go b,.card .stub.go span{color:var(--hot)}
 .card .stub.go{background:linear-gradient(160deg,rgba(255,90,54,.30),rgba(255,90,54,.06))}
@@ -509,6 +508,83 @@ img.cth,img.zm{cursor:zoom-in}
 #grMsg{margin:6px 2px 0}
 .gr-r{display:block;padding:10px 12px;border-bottom:1px solid var(--line)}.gr-r:last-child{border-bottom:0}
 .gr-peg{padding:6px 12px 10px;font-size:12px;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:6px;align-items:center}.gr-peg input{flex:1;min-width:140px;font:inherit;font-size:13px;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--fg)}.gr-chip{font:inherit;font-size:12px;padding:5px 10px;border-radius:14px;border:1px solid var(--hot);background:transparent;color:var(--fg);cursor:pointer}.gs-ph{font:inherit;font-size:12px;padding:4px 10px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--fg);cursor:pointer;margin-top:4px}.gr-r summary{list-style:none}.gr-r summary::-webkit-details-marker{display:none}.gr-r small{display:block;opacity:.7;font-size:11px}
+</style>
+<style id="newlook">
+/* New look (Impeccable pass, Nov 2026): Radar family, fixed. Opt-in via Look switch. */
+html[data-look="new"]{--green:#a8ec7a;--greenbg:#22361a;--red:#ff7a7a;--up:#a8ec7a}
+/* 1. Nothing under 12px */
+html[data-look="new"] .eyebrow,
+html[data-look="new"] .cgrid div.im span,
+html[data-look="new"] .cgrid div,
+html[data-look="new"] .hleg,
+html[data-look="new"] .hheat,
+html[data-look="new"] .hheat .hh,
+html[data-look="new"] .hcol>div,
+html[data-look="new"] .qx,
+html[data-look="new"] .sr small,
+html[data-look="new"] .badge,
+html[data-look="new"] form.f label,
+html[data-look="new"] .cf,
+html[data-look="new"] .mv-note,
+html[data-look="new"] .mv-buy,
+html[data-look="new"] .mv-kind,
+html[data-look="new"] .mv-plan,
+html[data-look="new"] .mv-own .act,
+html[data-look="new"] .vd,
+html[data-look="new"] .rb-n small,
+html[data-look="new"] .hs .tg,
+html[data-look="new"] .tr-row small,
+html[data-look="new"] .dg-badge,
+html[data-look="new"] .stub span,
+html[data-look="new"] .gt,
+html[data-look="new"] .gt.im span,
+html[data-look="new"] .bkt .bs,
+html[data-look="new"] .bkt .bm,
+html[data-look="new"] .grow .gnum small,
+html[data-look="new"] #cpop .pbad,
+html[data-look="new"] .stub .chev,
+html[data-look="new"] .sgh,
+html[data-look="new"] .stile small,
+html[data-look="new"] .setcur small,
+html[data-look="new"] .bx-src,
+html[data-look="new"] .bx-px div,
+html[data-look="new"] .bx-h,
+html[data-look="new"] .bx-pc .v,
+html[data-look="new"] #nav button[data-tab="buy"] .cnt,
+html[data-look="new"] #azidx span,
+html[data-look="new"] .ac-tags span,
+html[data-look="new"] .ac-k small,
+html[data-look="new"] .ac-sc small,
+html[data-look="new"] .acr-n small,
+html[data-look="new"] .gr-r small,
+html[data-look="new"] .looksw,
+html[data-look="new"] .looksw button{font-size:12px!important;letter-spacing:.03em}
+
+html[data-look="new"] .cgrid div.im span{font-size:12px!important;padding:0 4px}
+/* 2. Tap targets: 44px minimum */
+html[data-look="new"] button,html[data-look="new"] .btn,html[data-look="new"] .act,html[data-look="new"] select,html[data-look="new"] .glog input,html[data-look="new"] form.f input{min-height:44px}
+html[data-look="new"] .nav button,html[data-look="new"] .chips button,html[data-look="new"] .hr button,html[data-look="new"] .pfr button,html[data-look="new"] .ctog button,html[data-look="new"] .looksw button,html[data-look="new"] .mv-own .act{min-height:44px;padding-block:0;display:inline-flex;align-items:center;justify-content:center}
+html[data-look="new"] .qx{width:44px;height:44px;margin-right:-12px;background:transparent;font-size:15px;border-radius:50%}
+html[data-look="new"] .qx::before{content:"";position:absolute;width:24px;height:24px;border-radius:50%;background:var(--line);z-index:-1}
+html[data-look="new"] .qx{position:relative;z-index:0}
+html[data-look="new"] .links a,html[data-look="new"] .mv-buy,html[data-look="new"] .dg-open{display:inline-flex;align-items:center;min-height:44px}
+/* 3. Placeholders readable (was 3.7:1) */
+html[data-look="new"] ::placeholder{color:var(--mut);opacity:1}
+/* 4. Comfortable line length */
+html[data-look="new"] .lede,html[data-look="new"] .hint,html[data-look="new"] .rules p,html[data-look="new"] .why,html[data-look="new"] .plan,html[data-look="new"] .ripc,html[data-look="new"] .ripn,html[data-look="new"] .foot,html[data-look="new"] .gd{max-width:68ch}
+/* 5. Colour meaning: up = lime, owned/hold = mint, down = one red */
+html[data-look="new"] .budget.over .track i{background:var(--red)}
+html[data-look="new"] .cf-bad{background:rgba(255,122,122,.16);color:var(--red)}
+/* 6. No side-tab bars, no glow */
+html[data-look="new"] .dg,html[data-look="new"] .dg.s-ready{border-left:0}
+html[data-look="new"] .dg.s-ready{background:var(--hi)}
+html[data-look="new"] .mv-row.hot{border-left:0;background:var(--greenbg)}
+html[data-look="new"] .card:has(.stub.go){box-shadow:none;border-color:var(--hot)}
+html[data-look="new"] .card .stub.go b,html[data-look="new"] .card .stub.go span{color:var(--hot)}
+/* 7. No sticky hover-zoom on phones */
+@media (hover:none){html[data-look="new"] img.cth:hover{transform:none;box-shadow:none}}
+/* 8. Visible focus for keyboard/VoiceOver */
+html[data-look="new"] button:focus-visible,html[data-look="new"] [tabindex]:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
 </style>
 <div class="page" id="page">
 <div class="bar-top">
