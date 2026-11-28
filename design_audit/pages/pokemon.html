@@ -438,7 +438,7 @@ h1 .info{top:-6px}
 .page>p.hint.show,.page>.lede.show{margin-top:8px}
 .mv-row:not(.exp) .mv-note{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .ripnotes{margin-top:26px;padding-top:6px;border-top:1px dashed var(--line);color:var(--mut);font-size:13px}
-.ripnotes h4{margin:12px 0 8px}
+.ripnotes h4,.ripnotes h3{margin:12px 0 8px;font-size:1em;font-weight:700}
 .ripnotes .hint{margin:0 0 8px;color:var(--mut)}
 #chasev{margin-bottom:6px}#chasehint{margin:4px 0 12px;font-size:12.5px;color:var(--mut)}
 #watchv{margin-bottom:6px}#watchhint{margin:4px 0 12px;font-size:12.5px;color:var(--mut)}
@@ -571,7 +571,7 @@ html[data-look="new"] .links a,html[data-look="new"] .mv-buy,html[data-look="new
 /* 3. Placeholders readable (was 3.7:1) */
 html[data-look="new"] ::placeholder{color:var(--mut);opacity:1}
 /* 4. Comfortable line length */
-html[data-look="new"] .lede,html[data-look="new"] .hint,html[data-look="new"] .rules p,html[data-look="new"] .why,html[data-look="new"] .plan,html[data-look="new"] .ripc,html[data-look="new"] .ripn,html[data-look="new"] .foot,html[data-look="new"] .gd{max-width:68ch}
+html[data-look="new"] .lede,html[data-look="new"] .hint,html[data-look="new"] .rules p,html[data-look="new"] .why,html[data-look="new"] .plan,html[data-look="new"] .ripc,html[data-look="new"] .ripn,html[data-look="new"] .foot,html[data-look="new"] .gd,html[data-look="new"] .page p{max-width:36em}
 /* 5. Colour meaning: up = lime, owned/hold = mint, down = one red */
 html[data-look="new"] .budget.over .track i{background:var(--red)}
 html[data-look="new"] .cf-bad{background:rgba(255,122,122,.16);color:var(--red)}
@@ -626,7 +626,7 @@ html[data-look="new"] button:focus-visible,html[data-look="new"] [tabindex]:focu
 <p class="hint" id="riphint">Product bought to open, not to hold — kept separate from the investment watchlist above.</p>
 <div id="pullform"></div>
 <div id="rip"></div>
-<div id="ripnotes" class="ripnotes"><h4>About rip / fun</h4></div>
+<div id="ripnotes" class="ripnotes"><h3>About rip / fun</h3></div>
 <h2 id="c151h">151 collection by month</h2>
 <p class="hint" id="c151hint">Everything you own that belongs to the 151 project, valued at each month-end from the day you bought it. Prices are TCGplayer market or labelled proxies, not sold-verified. Sum-of-parts is a ceiling, not what a buyer pays.</p>
 <div id="c151"></div>
