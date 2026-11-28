@@ -21,16 +21,6 @@
     "snippet": ".card::before — absolute 5px pseudo-element stripe (left: 0)"
   },
   {
-    "antipattern": "overused-font",
-    "name": "Overused font",
-    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
-    "severity": "warning",
-    "category": "slop",
-    "file": "/home/runner/work/sealed-ledger-prices/sealed-ledger-prices/design_audit/pages/lorcana.html",
-    "line": 0,
-    "snippet": "Primary font: fraunces"
-  },
-  {
     "antipattern": "side-tab",
     "name": "Side-tab accent border",
     "description": "A bar down one side of a rounded box. Use a full border, a background tint, or a leading icon or label instead.",
