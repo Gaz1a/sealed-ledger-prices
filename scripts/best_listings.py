@@ -33,9 +33,9 @@ def sales_num(v):
     return int(n * 1000) if m.group(2) else int(n)
 
 
-def query(pid, card, rev):
+def query(pid, card, rev, lang='English'):
     size = SIZE if card else 50
-    term = {'sellerStatus': 'Live', 'channelId': 0, 'language': ['English']}
+    term = {'sellerStatus': 'Live', 'channelId': 0, 'language': [lang]}
     if card:
         term['condition'] = ['Near Mint']
         if rev:
@@ -91,8 +91,10 @@ def main():
         pid = int(w['tcgProductId'])
         card = w.get('kind') != 'items'
         rev = bool(re.search(r'-rev$|reverseholofoil$', i))
+        t = (w.get('title') or '') + ' ' + (w.get('set') or '')
+        lang = 'Japanese' if re.search(r'\[JP\]|japanese', t, re.I) else 'Korean' if re.search(r'\[KR\]|korean', t, re.I) else 'English'
         try:
-            ls = query(pid, card, rev)
+            ls = query(pid, card, rev, lang)
         except Exception as e:
             errors += 1
             items[i] = {'err': str(e)[:80]}
@@ -102,7 +104,7 @@ def main():
             time.sleep(2)
             continue
         mkt = float(w.get('market') or 0)
-        BAD = re.compile(r'chinese|japanese|korean|thai|indonesian|\\bjp\\b|\\bjpn\\b|promo|no pack|cards only|empty|opened|damag|read desc|art card|code card|proxy|custom|replica|lot of|bundle of', re.I)
+        BAD = re.compile((r'chinese|japanese|korean|thai|indonesian|\bjp\b|\bjpn\b|' if lang == 'English' else '') + r'promo|no pack|cards only|empty|opened|damag|read desc|art card|code card|proxy|custom|replica|lot of|bundle of', re.I)
         def sane(x):
             if x['ttl'] and BAD.search(x['ttl']):
                 return False
@@ -114,7 +116,7 @@ def main():
         ls = [x for x in ls if sane(x)]
         ok = [x for x in ls if x['r'] >= MIN_RATING and x['n'] >= MIN_SALES]
         best = ok[0] if ok else None
-        rec = {'pid': pid, 'nl': len(ls), 'ok': len(ok)}
+        rec = {'pid': pid, 'nl': len(ls), 'ok': len(ok), 'lang': lang}
         if sus:
             rec['sus'] = len(sus)
             rec['susLow'] = {k: sus[0][k] for k in ('a', 'sel', 'lt', 'ttl')}
@@ -161,7 +163,7 @@ def main():
             continue
         sep = sum(items[i]['tcg']['a'] for i in cards if items.get(i, {}).get('tcg'))
         tog = sum(c['p'] for c in cards.values()) + max(c['s'] for c in cards.values())
-        if sep - tog <= 0.5:
+        if sep - tog < 2:  # only worth showing when buying together saves $2+
             continue
         baskets.append({'sel': b['sel'], 'key': key, 'r': b['r'], 'n': b['n'],
                         'ids': sorted(cards), 'items': round(sum(c['p'] for c in cards.values()), 2),
